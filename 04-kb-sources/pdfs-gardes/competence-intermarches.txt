@@ -1,0 +1,275 @@
+Compétence intermarchés — Lecture systémique des relations
+
+L’objectif n’est pas de connaître des corrélations, mais de qualifier dynamiquement leur état.
+
+2.1 Typologie des relations à modéliser
+
+L’IA doit classer chaque relation en temps réel :
+
+Type de relation	Définition opérationnelle
+Corrélation active	relation fonctionne statistiquement + visuellement
+Corrélation affaiblie	relation existe mais moins fiable
+Corrélation cassée	relation ne fonctionne plus
+Corrélation inversée	relation opposée au comportement habituel
+Divergence informative	incohérence utile pour anticiper
+2.2 Modèle interne de l’IA
+
+Pour chaque paire clé, l’IA doit calculer :
+
+Corrélation glissante (rolling correlation)
+Beta directionnel (impact d’un actif sur l’autre)
+Synchronisation des swings (HH/HL vs LH/LL)
+Concordance des cassures de niveaux
+2.3 Matrice décisionnelle intermarchés
+
+Exemple :
+
+Situation	Interprétation IA
+SPX ↑ + VIX ↓ + Dollar ↓ + BTC ↑	Risk-on confirmé
+SPX ↓ + VIX ↑ + Dollar ↑ + Or ↑	Risk-off propre
+SPX ↑ + VIX ↑	divergence → réduction confiance
+Or ↑ + Dollar ↑	stress macro → signal non standard
+Cuivre ↓ + SPX ↑	warning croissance
+2.4 Règle critique à coder
+
+Une corrélation n’a de valeur que si elle est alignée avec le régime.
+
+4. Compétence technique — Structure de marché
+
+L’IA ne doit jamais trader un prix, mais une structure.
+
+4.1 Décomposition de la structure
+Niveau	Analyse
+Macro (HTF)	tendance dominante (daily/weekly)
+Intermédiaire	swings (H4/H1)
+Micro	timing (M15/M5)
+4.2 Détection algorithmique
+
+L’IA doit détecter :
+
+HH / HL → tendance haussière
+LH / LL → tendance baissière
+Range → absence de direction
+4.3 États de marché
+État	Comportement IA
+Tendance propre	privilégier continuation
+Range	privilégier mean reversion
+Transition	prudence maximale
+Breakout	attendre confirmation volume
+Fake breakout	éviter / contrer
+4.4 Validation structurelle obligatoire
+
+Un trade est valide seulement si :
+
+cassure de niveau claire
+clôture au-dessus/dessous
+absence de rejet violent
+5. Compétence volume / open interest / participation
+
+C’est le cœur de la lecture “smart money”.
+
+5.1 Modèle de lecture combinée
+
+L’IA doit toujours lire :
+
+Prix + Volume + Open Interest + Contexte
+
+5.2 Table de lecture institutionnelle
+Prix	Volume	OI	Lecture IA
+↑	↑	↑	accumulation réelle
+↑	↑	↓	short covering
+↑	↓	↑	participation faible
+↓	↑	↑	pression vendeuse
+↓	↓	↓	désengagement
+Range	↑	↑	construction future
+5.3 Volume utile vs bruit
+
+L’IA doit filtrer :
+
+volume relatif (vs moyenne)
+volume aux niveaux clés
+volume en clôture
+volume sur breakout uniquement
+5.4 Open Interest
+Variation OI	Lecture
+OI ↑	création de positions
+OI ↓	fermeture de positions
+OI stable	marché passif
+5.5 Règle critique
+
+Volume valide un mouvement, mais ne doit jamais le déclencher seul.
+
+9. Compétence de génération de signaux
+
+L’IA doit produire des signaux structurés, explicables et scorés.
+
+9.1 Pipeline de décision
+Régime détecté
+Alignement intermarchés
+Structure valide
+Volume confirmé
+Risque acceptable
+Signal généré
+9.2 Format obligatoire du signal
+Champ	Description
+Actif	cible
+Direction	long / short
+Setup	breakout / pullback
+Contexte	regime + intermarket
+Niveau entrée	zone
+Stop	invalidation structurelle
+TP	objectifs
+Score global	/100
+Score alignement	/8
+Risque	%
+Explication	cause principale
+9.3 Système de scoring
+Composant	Pondération
+Régime	25%
+Intermarchés	25%
+Structure	20%
+Volume/OI	15%
+Timing	10%
+Risque	5%
+9.4 Types de signaux
+High conviction (≥80)
+Medium (60–80)
+Weak (<60)
+Rejected (bloqué)
+10. Compétence de gestion du risque
+
+C’est la survie du système.
+
+10.1 Position sizing
+
+L’IA doit adapter la taille selon :
+
+volatilité (ATR)
+distance du stop
+score du signal
+corrélation portefeuille
+10.2 Règles fondamentales
+Règle	Implémentation
+Risque par trade	max 0.5% – 2%
+Exposition totale	plafonnée
+Corrélation	éviter duplication
+Drawdown	réduction progressive
+10.3 Ajustement dynamique
+Situation	Action IA
+Volatilité ↑	taille ↓
+Série de pertes	risque ↓
+Haute confiance	taille légèrement ↑
+Corrélation élevée	réduction
+10.4 Invalidation
+
+Le stop est :
+
+structurel (pas arbitraire)
+non modifiable
+exécuté automatiquement
+11. Compétence d’exécution
+
+Une IA performante doit exécuter proprement.
+
+11.1 Logique d’exécution
+Type	Usage
+Market	exécution immédiate
+Limit	optimisation du prix
+Stop	breakout
+Stop-limit	contrôle slippage
+11.2 Conditions d’exécution
+
+L’IA doit vérifier :
+
+liquidité suffisante
+spread acceptable
+absence de news critique
+timing session (Londres/US)
+11.3 Gestion du slippage
+seuil maximal autorisé
+annulation si dépassé
+11.4 Monitoring
+
+Chaque trade doit loguer :
+
+heure
+latence
+prix réel vs attendu
+erreur éventuelle
+13. Compétence anti-erreurs humaines
+
+L’IA doit corriger les biais cognitifs.
+
+13.1 Biais à neutraliser
+Biais	Correction IA
+FOMO	score minimum obligatoire
+Overtrading	limite journalière
+Confirmation bias	scénario inverse obligatoire
+Revenge trading	blocage après pertes
+Mauvais timing	validation multi-TF
+Ignorer contexte	lecture 8 actifs obligatoire
+13.2 Règles strictes
+aucun trade sans score minimum
+aucun trade sans validation intermarket
+impossibilité de modifier stop
+cooldown après perte
+13.3 Audit interne
+
+L’IA doit analyser :
+
+erreurs passées
+conditions d’échec
+dérive du modèle
+16. Compétence critique — Savoir ne pas trader
+
+C’est la compétence la plus rentable.
+
+16.1 Conditions de non-trade
+Condition	Décision
+<5 actifs alignés	no trade
+régime flou	no trade
+divergences majeures	attente
+volume faible	rejet
+news imminente	blocage
+structure incohérente	rejet
+volatilité extrême	réduction ou blocage
+16.2 Modèle de décision
+
+L’IA doit produire :
+
+Trade
+No trade
+Wait
+Reduce risk
+16.3 Filtre final (gatekeeper)
+
+Avant exécution :
+
+Checklist obligatoire :
+
+régime clair ?
+≥5 actifs alignés ?
+structure propre ?
+volume valide ?
+risque acceptable ?
+pas de contradiction majeure ?
+
+Si une seule réponse = non → pas de trade
+
+16.4 Principe fondamental
+
+Une IA performante ne gagne pas parce qu’elle trade souvent.
+Elle gagne parce qu’elle refuse la majorité des trades.
+
+Synthèse opérationnelle
+
+Ton système IA doit fonctionner comme un filtre multicouche :
+
+Comprendre le système (intermarchés)
+Vérifier la structure
+Confirmer par la participation
+Quantifier le signal
+Encadrer le risque
+Exécuter proprement
+Bloquer les erreurs
+Refuser les mauvais trades

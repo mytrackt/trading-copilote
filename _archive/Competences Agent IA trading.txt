@@ -1,0 +1,317 @@
+Voici la cartographie complète des compétences que ton IA doit maîtriser pour exceller sur ces 8 marchés : or, cuivre, pétrole, S&P 500, VIX, Bitcoin, yen japonais et dollar américain. Le cadre reprend ton README : analyse intermarchés, volume, open interest, COT, corrélations, divergences, régime macro et discipline d’exécution.
+
+1. Compétence centrale : lecture du régime de marché
+
+L’IA doit d’abord déterminer le régime global avant de chercher un signal.
+
+Elle doit classer le marché en :
+
+Régime	Lecture
+Risk-on	Appétit pour le risque : SPX/BTC/cuivre forts, VIX faible, dollar défensif
+Risk-off	Peur : VIX fort, dollar/yen/or recherchés, SPX/BTC/cuivre faibles
+Inflation / commodities	Or, pétrole, cuivre forts, dollar parfois ferme
+Déflation / stress croissance	Cuivre faible, pétrole faible, SPX fragile, VIX en hausse
+Dollar squeeze	Dollar fort, actifs risqués sous pression, yen souvent faible
+Régime neutre	Signaux contradictoires, pas de trade prioritaire
+
+Sans cette compétence, l’IA risque de trader des signaux techniques isolés.
+
+2. Compétence intermarchés : comprendre les relations entre actifs
+
+L’IA doit savoir lire les relations suivantes :
+
+Relation	Utilité
+Dollar vs or	Le dollar fort pèse souvent sur l’or, sauf stress ou achat refuge
+Dollar vs cuivre	Dollar fort peut peser sur les matières premières
+Dollar vs BTC	BTC souffre souvent quand dollar et taux réels montent
+SPX vs VIX	Baromètre principal peur/cupidité
+Cuivre vs croissance	Le cuivre sert de proxy de croissance industrielle
+Pétrole vs inflation/stress offre	Pétrole fort peut signaler inflation ou tension géopolitique
+Yen vs risk-off	Le yen peut servir de devise refuge selon le régime
+Or vs taux/dollar/stress	L’or doit être lu avec dollar, taux, VIX et risque systémique
+
+Point critique : l’IA ne doit jamais appliquer ces corrélations comme des lois fixes. Elle doit détecter si la corrélation est active, affaiblie, cassée ou inversée.
+
+3. Compétence de scoring d’alignement des 8 marchés
+
+Ton idée “attendre que 5 à 7 marchés s’alignent” doit devenir un score quantifiable.
+
+Exemple de scoring :
+
+Actif	Signal risk-on	Signal risk-off
+S&P 500	hausse structurée	baisse structurée
+VIX	baisse	hausse
+Bitcoin	hausse	baisse
+Cuivre	hausse	baisse
+Pétrole	hausse saine	chute ou spike de stress
+Dollar	baisse contrôlée	hausse agressive
+Yen	faible	fort
+Or	stable/faible en risk-on	fort en refuge
+
+Décision IA :
+
+Score d’alignement	Action
+0 à 3 actifs alignés	aucun signal
+4 actifs alignés	surveillance uniquement
+5 actifs alignés	signal faible/modéré
+6 actifs alignés	signal fort
+7 à 8 actifs alignés	signal institutionnel prioritaire
+Signal contradictoire majeur	blocage du trade
+4. Compétence technique : structure de marché
+
+L’IA doit savoir lire :
+
+Élément	Ce que l’IA doit détecter
+Tendance	haussière, baissière, neutre
+Structure	HH/HL, LH/LL, range
+Breakout	cassure réelle ou fausse cassure
+Pullback	retour sain ou retournement
+Support/résistance	niveaux testés et validés
+Clôture	validation par bougie clôturée
+Volatilité	expansion ou compression
+Momentum	accélération ou essoufflement
+
+Un signal ne doit pas être validé uniquement parce que plusieurs actifs montent ou baissent. Il faut une structure propre sur l’actif tradé.
+
+5. Compétence volume / open interest / participation
+
+C’est une compétence essentielle.
+
+L’IA doit distinguer :
+
+Donnée	Interprétation
+Prix monte + volume monte	mouvement potentiellement confirmé
+Prix monte + volume faible	hausse fragile
+Prix baisse + volume fort	pression vendeuse réelle
+Prix casse un niveau + volume faible	risque de faux breakout
+Prix monte + OI monte	nouveaux acheteurs entrants
+Prix monte + OI baisse	short covering possible
+Prix baisse + OI monte	nouveaux vendeurs entrants
+Prix baisse + OI baisse	liquidation / désengagement
+
+L’IA doit comprendre que le volume ne donne pas la direction. Il donne la participation. L’open interest indique si le marché se construit ou se vide.
+
+6. Compétence COT : positionnement institutionnel
+
+Pour les marchés futures, l’IA doit lire le COT comme un outil de contexte, pas comme un signal immédiat.
+
+Elle doit analyser :
+
+Élément COT	Utilité
+Commercials	couverture des acteurs industriels
+Non-commercials	spéculateurs/fonds
+Net long / net short	excès de positionnement
+Variation hebdomadaire	changement de conviction
+Extrême historique	risque de retournement
+Divergence prix/COT	signal d’alerte
+
+Exemple : si l’or monte mais que les spéculateurs sont déjà extrêmement longs, l’IA ne doit pas acheter aveuglément. Elle doit réduire le score ou attendre une confirmation supplémentaire.
+
+7. Compétence peur/cupidité : baromètre global du risque
+
+L’IA doit produire un score “Peur vs Cupidité”.
+
+Exemple :
+
+Score	Interprétation
+0-20	peur extrême
+20-40	risk-off
+40-60	neutre
+60-80	risk-on
+80-100	cupidité excessive
+
+Variables utiles :
+
+Variable	Impact
+SPX	appétit risque
+VIX	peur/stress
+BTC	spéculation/liquidité
+Cuivre	croissance
+Dollar	stress/liquidité globale
+Yen	refuge/change
+Or	refuge/inflation
+Pétrole	inflation/énergie/stress
+8. Compétence de détection des divergences
+
+L’IA doit repérer les divergences fortes, par exemple :
+
+Divergence	Lecture possible
+SPX monte mais VIX monte aussi	hausse fragile
+Or monte malgré dollar fort	stress ou demande refuge
+BTC monte mais Nasdaq/SPX faibles	divergence spéculative à vérifier
+Cuivre baisse mais SPX monte	risque sur croissance
+Dollar monte mais or tient	tension macro potentielle
+Pétrole spike + SPX baisse	choc inflationniste ou géopolitique
+Yen faible + VIX haut	anomalie à surveiller
+VIX baisse mais SPX ne monte pas	manque d’appétit réel
+
+Une divergence ne doit pas déclencher automatiquement un trade. Elle doit déclencher une alerte, puis une attente de confirmation.
+
+9. Compétence de génération de signaux
+
+L’IA doit transformer l’analyse en signaux normalisés :
+
+Type de signal	Description
+Signal long	probabilité haussière validée
+Signal short	probabilité baissière validée
+Signal attente	conditions incomplètes
+Signal invalidé	contradiction majeure
+Signal d’alerte	divergence ou anomalie
+Signal de réduction	risque élevé malgré setup intéressant
+
+Chaque signal doit inclure :
+
+Élément obligatoire	Exemple
+Actif concerné	Or
+Direction	Long
+Niveau d’entrée	Zone précise
+Stop logique	Niveau d’invalidation
+Objectif	TP1 / TP2
+Score d’alignement	6/8
+Régime	Risk-off
+Confiance	72 %
+Raison principale	VIX + dollar + or + SPX alignés
+Condition d’annulation	cassure inverse / volume faible
+10. Compétence de gestion du risque
+
+L’IA doit maîtriser :
+
+Compétence	Rôle
+Position sizing	adapter la taille au risque
+Stop-loss logique	basé sur structure, pas émotion
+Risque par trade	limiter la perte maximale
+Corrélation du portefeuille	éviter plusieurs trades identiques déguisés
+Drawdown control	réduire l’exposition après pertes
+Volatility adjustment	adapter les stops à la volatilité
+Kill switch	arrêter le trading si conditions anormales
+
+Exemple : acheter or, shorter SPX, shorter BTC et acheter VIX dans le même régime risk-off peut être quatre fois le même pari. L’IA doit le comprendre.
+
+11. Compétence d’exécution
+
+Pour une IA autonome, la partie exécution est critique.
+
+Elle doit gérer :
+
+Élément	Exigence
+Type d’ordre	market, limit, stop, stop-limit
+Slippage	contrôle de l’écart d’exécution
+Liquidité	éviter les zones pauvres
+Horaires	Asie, Europe, US
+News	éviter les annonces majeures
+Latence	surtout si intraday
+Rejet d’ordre	gestion des erreurs broker
+Journalisation	chaque décision doit être enregistrée
+
+Une IA qui analyse bien mais exécute mal perdra de l’argent.
+
+12. Compétence de backtesting et validation
+
+Avant le live, l’IA doit être testée.
+
+Elle doit produire :
+
+Test	Objectif
+Backtest historique	vérifier la robustesse
+Walk-forward test	éviter l’overfitting
+Out-of-sample	tester sur données non vues
+Stress test	crise, flash crash, volatilité extrême
+Monte Carlo	robustesse statistique
+Analyse par régime	savoir quand le modèle marche ou échoue
+Analyse des coûts	spreads, slippage, commissions
+
+L’IA ne doit jamais être évaluée seulement sur le taux de réussite. Les métriques importantes sont :
+
+Métrique	Importance
+Expectancy	gain moyen attendu
+Max drawdown	risque maximal
+Sharpe / Sortino	qualité du rendement ajusté au risque
+Profit factor	efficacité globale
+Win rate	secondaire
+Average R	rendement par unité de risque
+Recovery factor	capacité à récupérer
+13. Compétence anti-erreurs humaines
+
+L’IA doit réduire les erreurs suivantes :
+
+Erreur humaine	Correction IA
+Entrée impulsive	validation par score obligatoire
+Surtrading	limite de trades par session
+Biais de confirmation	obligation de chercher le scénario opposé
+Mauvais timing	validation multi-timeframe
+Ignorer le VIX	intégration systématique
+Trader un actif seul	lecture des 8 actifs obligatoire
+Déplacer le stop	règles non modifiables
+Doubler après perte	kill switch
+Confondre corrélation et causalité	score de régime dynamique
+14. Architecture technique recommandée
+
+Structure cible :
+
+Module	Fonction
+Data Engine	collecte prix, volume, OI, COT, calendrier macro
+Market Regime Engine	détecte risk-on/risk-off/inflation/stress
+Intermarket Engine	analyse corrélations et divergences
+Signal Engine	génère les signaux
+Risk Engine	valide taille, stop, exposition
+Execution Engine	envoie ou prépare les ordres
+Backtest Engine	teste les stratégies
+Explainability Engine	explique chaque signal
+Monitoring Engine	surveille performance, erreurs, dérives
+Human Approval Layer	validation humaine si assistant décisionnel
+15. Roadmap technique
+
+Phase 1 — Base de données et observation
+Construire la collecte des 8 actifs, prix, volume, volatilité, corrélations, news macro, COT et open interest.
+
+Phase 2 — Scoring intermarchés
+Créer le score d’alignement 0 à 8, le score peur/cupidité et le score de divergence.
+
+Phase 3 — Génération de signaux
+Définir les conditions long/short/attente/invalidation, avec justification automatique.
+
+Phase 4 — Backtesting
+Tester les règles sur plusieurs années, plusieurs régimes et plusieurs crises.
+
+Phase 5 — Assistant décisionnel
+L’IA propose les trades mais l’humain valide.
+
+Phase 6 — Semi-automatisation
+L’IA prépare les ordres, calcule le risque et bloque les trades faibles.
+
+Phase 7 — Autonomie contrôlée
+L’IA exécute uniquement si toutes les conditions sont réunies : score élevé, risque maîtrisé, pas de news critique, liquidité suffisante.
+
+16. Compétence la plus importante : savoir ne pas trader
+
+L’IA doit exceller dans l’abstention.
+
+Elle doit refuser un trade si :
+
+Condition	Décision
+moins de 5 actifs alignés	pas de trade
+VIX contradictoire	attente
+volume faible sur breakout	rejet
+COT extrême contre le trade	prudence
+news majeure imminente	blocage
+corrélations cassées	réduction du score
+volatilité excessive	taille réduite ou pas de trade
+signal non expliqué	pas d’exécution
+Synthèse finale
+
+Ton IA doit posséder 10 grandes familles de compétences :
+
+Lecture du régime macro
+Analyse intermarchés des 8 actifs
+Scoring d’alignement 5 à 7 marchés
+Analyse technique multi-timeframe
+Lecture volume / open interest / COT
+Détection peur/cupidité
+Détection des divergences
+Génération de signaux explicables
+Gestion du risque et de l’exposition
+Backtesting, monitoring et contrôle d’erreurs
+
+La règle centrale à programmer est celle-ci :
+
+Aucun signal ne doit être pris parce qu’un seul actif semble intéressant. Le signal devient valide uniquement lorsque le régime global, l’alignement intermarchés, la structure technique, le volume, le risque et l’invalidation racontent la même histoire.

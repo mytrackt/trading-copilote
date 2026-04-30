@@ -1,0 +1,239 @@
+Les indices / marchés
+Les indices / marchés que je suis en priorité
+
+1. Dollar américain
+Je surveille d’abord le US Dollar Index (DXY / USDX), parce qu’il donne le ton sur le dollar face à un panier de devises majeures. Pour une lecture plus macro, je regarde aussi le Broad Dollar Index de la Fed, qui est pondéré par les partenaires commerciaux. Le dollar influence directement l’or, le pétrole, le cuivre, le yen et souvent le Bitcoin.
+
+2. Volatilité actions
+Je regarde le VIX spot, mais surtout sa term structure : contango, backwardation, pente des échéances. Le VIX est calculé à partir des options sur le S&P 500 avec une volatilité implicite à 30 jours, donc ce n’est pas juste “la peur”, c’est un prix du risque sur actions US.
+
+3. Taux US
+Je surveille les rendements 2 ans / 10 ans / 30 ans, avec une attention spéciale au 10 ans US. Les taux réels et nominaux pilotent souvent la rotation entre actions, or, dollar et parfois Bitcoin. Je suis aussi le FedWatch pour voir ce que le marché price sur la Fed.
+
+4. Equity index principal
+Le S&P 500 est mon baromètre du risque global. Mais je ne regarde pas seulement l’indice : je regarde sa relation avec le VIX, les taux et le dollar. Quand ces trois variables divergent, les signaux deviennent beaucoup plus propres. Le VIX étant dérivé des options SPX, le couple SPX/VIX est central.
+
+5. Matières premières de référence
+Pour les métaux et l’énergie, je regarde surtout les contrats de référence COMEX Gold, COMEX Copper et NYMEX WTI. Ce sont les benchmarks de liquidité que le marché price en priorité.
+
+6. FX refuge / carry
+Pour le yen, je surveille en permanence USD/JPY et sa corrélation avec les taux US, parce que le yen réagit énormément aux différentiels de rendement et au sentiment de risque global. Les séries officielles FRED permettent de suivre proprement ce marché.
+
+7. Positionnement
+Je regarde le COT report pour voir où sont les gros intervenants, surtout sur l’or, le pétrole, le dollar, les indices et le yen. Ce n’est pas un signal d’entrée instantané, mais c’est excellent pour détecter les excès.
+
+Les paramètres techniques auxquels je fais le plus attention
+
+Je les classe en 6 blocs.
+
+1) Structure de tendance
+
+C’est la base :
+
+sommets / creux ascendants ou descendants
+breakout ou false breakout
+position du prix par rapport aux MM20 / MM50 / MM200
+pente de la MM200
+structure multi-timeframe : mensuel, hebdo, journalier, 4h
+
+Sans structure claire, je ne force rien.
+
+2) Momentum
+
+Je surveille :
+
+RSI 14 : surtout divergences haussières / baissières
+MACD : pas pour “acheter un croisement”, mais pour juger l’accélération ou l’essoufflement
+ADX : très utile pour distinguer marché en tendance vs marché en range
+3) Volatilité
+
+Indispensable sur tes actifs :
+
+ATR pour calibrer stop, taille de position, distance de respiration
+compression / expansion de volatilité
+sur le VIX : niveau spot, pente des futures, retour vers la moyenne
+sur le Bitcoin et le pétrole : vitesse du mouvement avant même sa direction
+4) Volume et participation
+
+Je regarde :
+
+volume relatif
+open interest sur futures
+si le breakout est soutenu par le volume
+si la hausse se fait avec participation réelle ou juste manque de vendeurs
+5) Niveaux techniques
+
+Toujours :
+
+high/low de séance, semaine, mois
+ouverture mensuelle / hebdo
+supports/résistances horizontaux
+VWAP, surtout intraday
+anchored VWAP sur gros événements
+Fibonacci seulement si aligné avec structure + volume
+zones de liquidité : anciens plus hauts, plus bas, equal highs/lows
+6) Corrélations et divergences intermarchés
+
+C’est là que se font souvent les gros trades.
+Je regarde :
+
+Or vs DXY
+Or vs taux réels / 10 ans
+Cuivre vs croissance / S&P / Chine
+WTI vs dollar / géopolitique / courbe des futures
+S&P 500 vs VIX
+USD/JPY vs 10 ans US
+Bitcoin vs Nasdaq / liquidité / dollar
+DXY vs actifs risqués
+
+Quand une corrélation casse, ça m’intéresse énormément.
+
+Ce que je surveille actif par actif
+Or
+
+Je regarde d’abord :
+
+DXY
+10Y US
+taux réels
+structure hebdo/journalière
+zones d’anciens sommets
+breakout avec volume ou rejet violent
+
+Techniquement, j’accorde beaucoup d’importance à :
+
+MM50 / MM200
+RSI divergence
+ATR
+réaction du prix autour des chiffres ronds et des anciens ATH
+Cuivre
+
+Le cuivre est très sensible au cycle :
+
+momentum du dollar
+sentiment croissance mondiale
+structure des métaux industriels
+cassure de range hebdo
+volume + open interest
+
+Je fais très attention aux fausses cassures sur le cuivre.
+
+Pétrole
+
+Sur le WTI :
+
+structure de la courbe et roll
+niveau du dollar
+volatilité géopolitique
+zones de gap
+inventaires / news OPEP+ en pratique, mais techniquement je regarde surtout :
+breakout daily/weekly
+ATR élevé
+rejet sur résistance majeure
+volume sur impulsion
+S&P 500
+
+Je regarde :
+
+prix vs MM20/50/200
+breadth interne du marché
+VIX spot + term structure
+rendement 10 ans
+réaction après CPI, NFP, FOMC
+
+Le meilleur signal technique sur le SPX, pour moi, c’est souvent :
+cassure de niveau + VIX qui ne confirme pas.
+
+VIX
+
+Je ne traite presque jamais le VIX comme un simple oscillateur.
+Je regarde :
+
+niveau spot
+pente des futures
+backwardation / contango
+vitesse du spike
+comportement du SPX pendant que le VIX bouge
+
+Un VIX haut n’est pas automatiquement un signal d’achat actions ; ce qui compte est comment il se retourne et si la courbe se normalise.
+
+Bitcoin
+
+Je surveille :
+
+structure hebdo
+volatilité implicite/réalisée si disponible
+DXY
+Nasdaq / sentiment risque
+liquidité du marché
+volumes sur cassure
+ATR très strict pour le risk management
+
+Techniquement, sur BTC, les liquidations en chaîne, les fausses cassures et les récupérations rapides de niveau sont souvent plus importantes que les indicateurs classiques.
+
+Yen japonais
+
+Je regarde surtout :
+
+USD/JPY
+10Y US
+momentum du dollar
+régime risk-on / risk-off
+
+Techniquement :
+
+cassures des plus hauts / plus bas hebdo
+vitesse de mouvement
+pullback sur moyenne mobile
+divergences RSI sur zones extrêmes
+Dollar US
+
+Je regarde :
+
+DXY / Broad Dollar
+rendements US
+attentes de Fed via FedWatch
+momentum journalier / hebdo
+comportement contre yen et euro
+
+Un dollar qui monte avec des taux qui montent, ce n’est pas la même chose qu’un dollar qui monte dans un pur flight to quality.
+
+Ma check-list avant d’entrer en position
+
+Je valide toujours ces 8 points :
+
+Contexte macro : risk-on ou risk-off ?
+Tendance HTF : hebdo/journalier alignés ?
+Niveau clé : cassure, rejet ou range ?
+Volatilité : ATR acceptable ?
+Volume / open interest : le move est-il confirmé ?
+Corrélations : les marchés liés confirment-ils ?
+Timing : entrée sur impulsion ou pullback propre ?
+Risque : stop logique, taille de position, ratio rendement/risque
+Les indicateurs que beaucoup regardent trop… et que je relativise
+
+Je les utilise, mais jamais seuls :
+
+RSI “suracheté/survendu”
+MACD croisement simple
+Fibonacci isolé
+chandelier isolé sans contexte
+support/résistance sans volume ni volatilité
+VIX haut = “bottom garanti” → faux
+En pratique, ma “tour de contrôle” minimale
+
+Si je devais réduire à l’essentiel, je suivrais en permanence :
+
+DXY / Broad Dollar
+10Y US
+S&P 500
+VIX spot + term structure
+Gold futures
+Copper futures
+WTI futures
+USD/JPY
+Bitcoin
+COT report
+FedWatch
+
+C’est cette combinaison qui donne la vraie lecture du marché, pas un indicateur isolé.
