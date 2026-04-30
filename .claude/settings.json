@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.notion.so)",
+      "mcp__claude_ai_Notion__notion-fetch",
+      "WebSearch",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:ainvestinglab.substack.com)",
+      "WebFetch(domain:www.moneyflock.com)",
+      "Read(//c/Users/mytra/.claude/plugins/**)",
+      "Read(//c/Users/mytra/.claude/**)",
+      "WebFetch(domain:www.belkhayate.net)",
+      "Read(//c/trading-skills-factory/transcripts/**)",
+      "Bash(yt-dlp --write-auto-subs --sub-langs \"fr.*,ar.*,en.*\" --skip-download --no-warnings -o \"test1_%\\(id\\)s.%\\(ext\\)s\" \"https://www.youtube.com/watch?v=fG7dwCzUi-U\")",
+      "Bash(yt-dlp --write-auto-subs --sub-langs \"fr.*,ar.*,en.*\" --skip-download --no-warnings -o \"test2_%\\(id\\)s.%\\(ext\\)s\" \"https://www.youtube.com/watch?v=TZgn4RPca-Q\")"
+    ],
+    "additionalDirectories": [
+      "C:\\trading-skills-factory\\scraper"
+    ]
+  }
+}
