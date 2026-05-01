@@ -54,6 +54,18 @@ trading-copilote/
   _archive/                Fichiers archivés
 ```
 
+## Architecture Modulaire
+
+Trading Copilote est une plateforme de modules specialises.
+Chaque module peut fonctionner seul ou etre integre dans le copilote principal.
+
+| Module | Fonction | Methode | Statut |
+|--------|----------|---------|--------|
+| MBK Trader | Detection fausses cassures + signaux | Liquidity Grab + Fibonacci | v1.1 |
+| TRADEX-AI | Analyse graphiques + signaux | Belkhayate | En developpement |
+
+→ Voir `docs/MODULES.md` pour le detail complet.
+
 ## Disclaimer
 
 Outil d'aide à la décision uniquement. Pas un conseiller en investissement.
