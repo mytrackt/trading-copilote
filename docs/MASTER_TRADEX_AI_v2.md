@@ -1,8 +1,8 @@
 ╔══════════════════════════════════════════════════════════════════╗
-║     DOCUMENT MASTER — MBK TRADING SAAS — VERSION CONSOLIDÉE     ║
+║         DOCUMENT MASTER — TRADEX-AI — VERSION CONSOLIDÉE         ║
 ╚══════════════════════════════════════════════════════════════════╝
 
-Version   : MASTER v1.0
+Version   : MASTER v2.0
 Date      : 02 Mai 2026
 Statut    : PLAN D'ACTION EXÉCUTABLE — PRODUCTION READY
 Fusion de : Plan MBK v2.0 (ATAS) + OODA God Mode + GetXAPI + Stratégie 7 Cercles
@@ -15,7 +15,7 @@ Fusion de : Plan MBK v2.0 (ATAS) + OODA God Mode + GetXAPI + Stratégie 7 Cercle
 - **Plateforme trading**  : NinjaTrader 8 (Windows local)
 - **Order flow**          : ATAS Pro (connecté Rithmic)
 - **Data feed**           : Rithmic via broker NTB
-- **Cerveau AI**          : Claude Sonnet API (Anthropic)
+- **Cerveau AI**          : Claude API claude-sonnet-4-6 (Anthropic)
 - **Backend local**       : Python 3.11 + FastAPI
 - **Dashboard**           : React + Vite + Tailwind (local)
 - **DB locale**           : SQLite
@@ -27,9 +27,10 @@ Fusion de : Plan MBK v2.0 (ATAS) + OODA God Mode + GetXAPI + Stratégie 7 Cercle
 - **Objectif cible** : ~150$/mois
 - **Marge de sécurité** : ~50$/mois
 
-## 8 Actifs piliers (non négociables)
-GC (Or) · HG (Cuivre) · CL (Pétrole) · ES (S&P 500)
-VX (VIX) · MBT (Bitcoin) · 6J (Yen) · DX (Dollar)
+## Actifs — 3 catégories (non négociables)
+- **TRADING (ordres possibles)**         : GC (Or) · HG (Cuivre) · CL (Pétrole) · ZW (Blé)
+- **CONFIRMATION (analyse uniquement)**  : DX (Dollar) · ES (S&P 500) · VX (VIX)
+- **REFERENCE (corrélations, no trade)** : MBT (Bitcoin) · 6J (Yen)
 
 ## Méthode (non négociable)
 - Indicateurs Belkhayate : BGC ratio 0.618, Direction, Energie, Pivots
