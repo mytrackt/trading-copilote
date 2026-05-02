@@ -9,7 +9,9 @@
       "Bash(awk:*)",
       "Bash(python3:*)",
       "Bash(findstr /n \"PAGE\")",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git rm *)",
+      "Bash(git restore *)"
     ]
   }
 }
