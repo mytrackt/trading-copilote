@@ -213,18 +213,23 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (mis à jour le 02/05/2026)
+## ÉTAT ACTUEL (mis à jour le 02/05/2026 — fin de session Claude Code)
 
 | Élément | État |
 |---------|------|
-| CLAUDE.md | ✅ Mis à jour — nouvelle vision TRADEX-AI |
-| 6 fichiers Python (missions 1-6) | ✅ Créés — À MIGRER vers code\ |
-| Structure dossiers code\ | ⏳ Migration en cours |
-| Mission 7 — claude_brain.py | ⏳ À créer dans code\engine\ |
-| Mission 8 — settings.py | ⏳ À créer dans code\config\ |
-| Missions 9-12 — Document Master | ⏳ À faire |
+| CLAUDE.md | ✅ À jour — vision TRADEX-AI verrouillée |
+| Migration code\ | ✅ Terminée — 6 modules Python migrés depuis racine |
+| Mission 7 — claude_brain.py | ✅ Créé dans code\engine\ |
+| Mission 8 — settings.py | ✅ Créé dans code\config\ |
+| Mission 9 — MASTER_TRADEX_AI_v2.md | ✅ Créé dans docs\ (1101 lignes) |
+| Mission 10 — Section 1 Budget | ✅ Corrigée (3 catégories + claude-sonnet-4-6) |
+| Mission 11 — Sections 10/11/12 | ✅ Réécrites (Mode Manuel/Auto + Risque + Checklist) |
+| Mission 12 — Cercles 6 et 7 | ✅ Corrigés (CORRELATION_PAIRS + detect_regime + GEOPOLITIQUE_IMPACT) |
+| .gitignore Python | ✅ Configuré (pycache, .env, IDE) |
 | KB Belkhayate | ⏳ 2337 règles à extraire des transcripts |
-| TRADEX-AI (dev) | ⏳ Infrastructure Python en cours |
+| code\collectors\ | ⏳ Vide — à créer (collecteurs NT8/ATAS/news/COT) |
+| code\execution\ | ⏳ Vide — à créer (interface NT8 ATI port 36973) |
+| code\api\ | ⏳ Vide — à créer (FastAPI locale + dashboard) |
 
 ### Actifs décidés définitivement
 ```
@@ -233,14 +238,25 @@ CONFIRMATION: DX (Dollar), ES (SP500), VX (VIX)
 REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 ```
 
-### Fichiers Python créés (missions 1-6) — à migrer vers code\
+### Structure code\ actuelle
 ```
-engine\staleness_monitor.py  → code\engine\staleness_monitor.py
-engine\circuit_breaker.py    → code\engine\circuit_breaker.py
-engine\risk_manager.py       → code\engine\risk_manager.py
-engine\data_reader.py        → code\engine\data_reader.py
-engine\correlations.py       → code\engine\correlations.py (+ update ZW)
-utils\atomic_writer.py       → code\utils\atomic_writer.py
+code\
+├── engine\         ✅ staleness_monitor, circuit_breaker, risk_manager,
+│                      data_reader, correlations, claude_brain
+├── utils\          ✅ atomic_writer.py
+├── config\         ✅ settings.py
+├── collectors\     ⏳ vide
+├── execution\      ⏳ vide
+├── api\            ⏳ vide
+├── scraper\        (KB phase)
+├── transcripts\    (.txt vidéos)
+└── knowledge_base\ (KNOWLEDGE_BASE_MASTER.json)
+```
+
+### Commits de la session
+```
+a1e5205  refactor: migrate python modules from root to code/ directory
+6e12b5c  docs: master TRADEX-AI v2 - missions 9-12 (budget, modes, risque, checklist, correlations)
 ```
 
 ---
