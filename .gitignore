@@ -22,3 +22,13 @@ env/
 # OS
 Thumbs.db
 .DS_Store
+
+# Claude Code local settings (user-specific)
+.claude/settings.local.json
+
+# PDFs sources externes a la racine (non integres au repo)
+/Guide Stratégique Automatisation du Trading Boursier avec Claude AI.pdf
+
+# Backups locaux generes par les phases (le dossier est cree hors repo a C:\BACKUP_TRADEX_*)
+/_BACKUP_*/
+/BACKUP_*/
