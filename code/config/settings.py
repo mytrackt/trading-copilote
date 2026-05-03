@@ -79,7 +79,7 @@ SIGNAL_HISTORY_PATH = os.path.join(DATA_DIR, "signal_history.json")
 # SEUILS DE RISQUE
 # =============================================================================
 RISK = {
-    "dd_day_max":    0.02,   # 2% drawdown journalier → suspendre Auto
+    "dd_day_max":    0.03,   # 3% drawdown journalier → STOP jour (aligne avec risk_manager.py:drawdown_stop_jour)
     "dd_week_max":   0.05,   # 5% drawdown semaine → arrêt complet
     "vix_extreme":   35,     # VIX > 35 → suspendre Auto
     "vix_warning":   25,     # VIX > 25 → réduire taille
@@ -93,7 +93,7 @@ RISK = {
 SIGNAL = {
     "score_min_claude":   17,   # /21 pts — minimum pour appel Claude
     "score_min_fallback": 17,   # /21 pts — minimum pour signal fallback
-    "confiance_min_auto": 75,   # % minimum pour Mode Auto
+    "confiance_min_auto": 85,   # % minimum pour Mode Auto (signal ET execution unifies sur 85 - aligne risk_manager.py:confiance_auto_min)
     "confiance_max_fallback": 65,  # % MAX en fallback (Claude indisponible)
     "rate_limit_sec":     10,   # 1 analyse max / 10 secondes
     "max_tokens":         1000,
