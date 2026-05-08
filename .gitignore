@@ -27,8 +27,8 @@ Thumbs.db
 # Claude Code local settings (user-specific)
 .claude/settings.local.json
 
-# PDFs sources externes a la racine (non integres au repo)
-/Guide Stratégique Automatisation du Trading Boursier avec Claude AI.pdf
+# PDFs sources externes (non integres au repo - archives)
+/_archive/sources-pdf-externes/Guide Stratégique Automatisation du Trading Boursier avec Claude AI.pdf
 
 # Prompts de session externes (non integres au repo)
 /PROMPT_TRADEX_AI_CLAUDE_CODE_v4.md
