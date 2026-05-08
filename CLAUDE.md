@@ -296,3 +296,13 @@ a1e5205  refactor: migrate python modules from root to code/ directory
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
 *Dernière mise à jour : 02/05/2026 — Abdelkrim*
+
+---
+
+## 🔢 GUARDRAIL COMPTEUR DE MESSAGES
+
+- Après 20 messages dans une session → générer README de transition IMMÉDIATEMENT
+- Renouveler la session après le README
+- README obligatoirement : précis, concis, zéro blabla, strict minimum de tokens
+  → Interdit : introductions, conclusions, reformulations inutiles
+  → Autorisé : état, missions, décisions, problèmes ouverts, phrase d'amorçage
