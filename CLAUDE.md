@@ -108,26 +108,23 @@ C:\trading-copilote\
 │   ├── config\                  ← Configuration
 │   │   └── settings.py          ← Actifs, seuils, timeouts, chemins
 │   │
-│   ├── collectors\              ← Collecteurs de données
-│   │   └── (à créer)
-│   │
-│   ├── execution\               ← Exécution ordres NT8 ATI
-│   │   └── (à créer)
-│   │
-│   ├── api\                     ← API FastAPI locale
-│   │   └── (à créer)
-│   │
-│   ├── scraper\                 ← Scraping YouTube (KB phase)
-│   ├── transcripts\             ← Fichiers .txt vidéos
-│   └── knowledge_base\          ← KNOWLEDGE_BASE_MASTER.json
+│   ├── knowledge_base\          ← transcript_processor.py (skel) + KB JSON cible (Phase B)
+│   ├── collectors\              ← Collecteurs de données (vide — Phase C)
+│   ├── execution\               ← Exécution ordres NT8 ATI (vide — Phase G)
+│   └── api\                     ← API FastAPI locale (vide — Phase H)
+│
+├── 04-kb-sources\               ← Sources KB (scraper + 142 transcripts)
+│   └── youtube-a-scraper\
+│       ├── whisper_pipeline.py  ← Pipeline scraping YouTube (existant)
+│       └── transcripts\         ← 142 fichiers .txt à parser (Phase B)
 │
 ├── data\                        ← Données JSON live (NT8, ATAS, etc.)
-├── kb\                          ← Knowledge Base Belkhayate (2337 règles)
+├── kb\                          ← (vide — conflit avec code\knowledge_base\, à trancher Phase B)
 ├── logs\                        ← Logs système
 ├── docs\                        ← Documentation
 │   ├── MODULES.md
-│   ├── MASTER_TRADEX_AI_v2.md   ← Document master (à créer mission 9)
-│   └── (docs SaaS-workspace copiés)
+│   ├── MASTER_TRADEX_AI_v2.md   ← Document master (1101 lignes)
+│   └── APPORTS_GUIDE_EXTERNE.md ← Apports guide externe (Phase A)
 ├── 05-skills\                   ← 10 skills Belkhayate .md générés
 └── _context\                    ← Briefings de session
 ```
@@ -213,23 +210,28 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (mis à jour le 02/05/2026 — fin de session Claude Code)
+## ÉTAT ACTUEL (Phase A terminée 03/05/2026 — chemins corrigés Z1 09/05/2026)
 
 | Élément | État |
 |---------|------|
-| CLAUDE.md | ✅ À jour — vision TRADEX-AI verrouillée |
+| CLAUDE.md | ✅ À jour — chemins corrigés Z1 (09/05/2026) |
+| Phase A | ✅ Terminée et poussée (commits faf0678 → ce620dd) |
 | Migration code\ | ✅ Terminée — 6 modules Python migrés depuis racine |
-| Mission 7 — claude_brain.py | ✅ Créé dans code\engine\ |
-| Mission 8 — settings.py | ✅ Créé dans code\config\ |
-| Mission 9 — MASTER_TRADEX_AI_v2.md | ✅ Créé dans docs\ (1101 lignes) |
-| Mission 10 — Section 1 Budget | ✅ Corrigée (3 catégories + claude-sonnet-4-6) |
-| Mission 11 — Sections 10/11/12 | ✅ Réécrites (Mode Manuel/Auto + Risque + Checklist) |
-| Mission 12 — Cercles 6 et 7 | ✅ Corrigés (CORRELATION_PAIRS + detect_regime + GEOPOLITIQUE_IMPACT) |
-| .gitignore Python | ✅ Configuré (pycache, .env, IDE) |
-| KB Belkhayate | ⏳ 2337 règles à extraire des transcripts |
-| code\collectors\ | ⏳ Vide — à créer (collecteurs NT8/ATAS/news/COT) |
-| code\execution\ | ⏳ Vide — à créer (interface NT8 ATI port 36973) |
-| code\api\ | ⏳ Vide — à créer (FastAPI locale + dashboard) |
+| code\engine\ | ✅ 6 modules : staleness_monitor, circuit_breaker, risk_manager, data_reader, correlations, claude_brain |
+| code\config\settings.py | ✅ Phase A : DD jour 3 % + confiance Auto 85 % |
+| code\utils\atomic_writer.py | ✅ Créé |
+| code\knowledge_base\ | ⏳ transcript_processor.py (skel) — Phase B |
+| code\collectors\ | ⏳ Vide — Phase C (NT8/ATAS/news/COT) |
+| code\execution\ | ⏳ Vide — Phase G (NT8 ATI port 36973) |
+| code\api\ | ⏳ Vide — Phase H (FastAPI + dashboard) |
+| docs\MASTER_TRADEX_AI_v2.md | ✅ 1101 lignes (sections 1/10/11/12 corrigées) |
+| GARDE_FOUS_PROPOSES.md | ✅ 32 garde-fous (20 actifs / 10 manquants / 2 partiels) |
+| FEUILLE_DE_ROUTE.md | ✅ 11 phases A→K |
+| CHECKLIST_FICHIERS_INUTILES.md | ✅ 29 items (~402 MB récupérables) — exécution Phase Y |
+| RAPPORT_REORGANISATION.md | ✅ Plan 6 groupes G1→G6 — exécution Phase Y |
+| .gitignore Python | ✅ Configuré (pycache, .env, IDE, BACKUP_*, PDF source) |
+| KB Belkhayate | ⏳ 142 transcripts à parser (Phase B, 2-3 sessions) |
+| Mode AUTO | 🔒 BLOQUÉ par défaut (5/6 conditions non remplies) |
 
 ### Actifs décidés définitivement
 ```
@@ -244,19 +246,22 @@ code\
 ├── engine\         ✅ staleness_monitor, circuit_breaker, risk_manager,
 │                      data_reader, correlations, claude_brain
 ├── utils\          ✅ atomic_writer.py
-├── config\         ✅ settings.py
-├── collectors\     ⏳ vide
-├── execution\      ⏳ vide
-├── api\            ⏳ vide
-├── scraper\        (KB phase)
-├── transcripts\    (.txt vidéos)
-└── knowledge_base\ (KNOWLEDGE_BASE_MASTER.json)
+├── config\         ✅ settings.py (DD 3% + confiance 85% — Phase A)
+├── knowledge_base\ ⏳ transcript_processor.py (skel — Phase B)
+├── collectors\     ⏳ vide (Phase C)
+├── execution\      ⏳ vide (Phase G)
+└── api\            ⏳ vide (Phase H)
 ```
 
-### Commits de la session
+### Commits Phase A (03/05/2026)
 ```
-a1e5205  refactor: migrate python modules from root to code/ directory
-6e12b5c  docs: master TRADEX-AI v2 - missions 9-12 (budget, modes, risque, checklist, correlations)
+faf0678  docs: APPORTS_GUIDE_EXTERNE - segments retenus du guide externe
+6e24070  chore: phase 0 backup - gitignore settings.local.json + pdf source externe
+9f31edd  S02-docs - Garde-fous proposes + feuille de route
+95c2e8f  docs: briefing fin de phase A
+2fd06ba  docs: checklist fichiers inutiles + rapport reorganisation
+4edaccf  docs: briefing fin de session 2026-05-03
+ce620dd  chore(claude): add message counter guardrail to CLAUDE.md
 ```
 
 ---
@@ -286,16 +291,19 @@ a1e5205  refactor: migrate python modules from root to code/ directory
 
 | Priorité | Fichier | Contenu |
 |----------|---------|---------|
-| 1 | `_context/[le plus récent]` | État exact de la session précédente |
-| 2 | `RAPPORT_ORTOGONEX_V4_POST_AUDIT.md` | Blueprint complet TRADEX-AI |
-| 3 | `docs/MASTER_TRADEX_AI_v2.md` | Document master corrigé (après mission 9) |
-| 4 | `PROMPT_1_SCRAPING_YOUTUBE_SKILLS.md` | Spec KB + 10 skills |
+| 1 | `_context/briefing-2026-05-03-fin-session.md` | État global fin Phase A |
+| 2 | `_context/CONTEXT_TRADEX_v1.md` | Context projet v1 (post-S01) |
+| 3 | `FEUILLE_DE_ROUTE.md` | 11 phases A→K |
+| 4 | `GARDE_FOUS_PROPOSES.md` | 32 garde-fous (20 actifs / 10 manquants / 2 partiels) |
+| 5 | `RAPPORT_REORGANISATION.md` | Plan réorg 6 groupes (Phase Y) |
+| 6 | `docs/MASTER_TRADEX_AI_v2.md` | Document master |
+| 7 | `RAPPORT_ORTOGONEX_V4_POST_AUDIT.md` | Blueprint d'origine |
 
 ---
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 02/05/2026 — Abdelkrim*
+*Dernière mise à jour : 09/05/2026 — Z1 chemins corrigés + Phase A reflétée*
 
 ---
 
