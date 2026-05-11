@@ -121,11 +121,24 @@ C:\trading-copilote\
 ├── data\                        ← Données JSON live (NT8, ATAS, etc.)
 ├── kb\                          ← (vide — conflit avec code\knowledge_base\, à trancher Phase B)
 ├── logs\                        ← Logs système
+├── scripts\                     ← Scripts Windows (disable-sleep, restore-sleep)
 ├── docs\                        ← Documentation
 │   ├── MODULES.md
 │   ├── MASTER_TRADEX_AI_v2.md   ← Document master (1101 lignes)
-│   └── APPORTS_GUIDE_EXTERNE.md ← Apports guide externe (Phase A)
+│   ├── APPORTS_GUIDE_EXTERNE.md ← Apports guide externe (Phase A)
+│   ├── PROMPT_1_SCRAPING_YOUTUBE_SKILLS.md ← Spec KB Phase B
+│   └── analyses-belkhayate\     ← INVENTAIRE + RESTRUCTURE + AUDIT (3 .md)
+├── 01-methode-belkhayate\       ← Corpus méthode Belkhayate
+│   └── pdfs-references\         ← 3 PDF références (Architecture, Compétences, MUSTAPHA)
+├── 02-marches-trading\          ← Actifs trading (GC/HG/CL/ZW)
+├── 03-marches-confirmation\     ← Actifs confirmation (DX/ES/VX)
 ├── 05-skills\                   ← 10 skills Belkhayate .md générés
+├── 06-playbook\                 ← Playbooks opérationnels
+├── _archive\                    ← Archives (Phase Y exécutée 09/05/2026)
+│   ├── MBK\                     ← Projet MBK en pause (9 items + sous-dossier mbk-trader)
+│   ├── external-methods\        ← Méthodes hors scope (4 PDF : Bao, Brian Lee, Temiz, Small Caps)
+│   ├── audits-prompts\          ← Audits + checklists historiques (4 items)
+│   └── sources-pdf-externes\    ← PDF sources gitignored
 └── _context\                    ← Briefings de session
 ```
 
@@ -210,12 +223,13 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Phase A terminée 03/05/2026 — chemins corrigés Z1 09/05/2026)
+## ÉTAT ACTUEL (Phase A + Y terminées 09/05/2026)
 
 | Élément | État |
 |---------|------|
-| CLAUDE.md | ✅ À jour — chemins corrigés Z1 (09/05/2026) |
+| CLAUDE.md | ✅ À jour — Z1+Z2 (09/05/2026) |
 | Phase A | ✅ Terminée et poussée (commits faf0678 → ce620dd) |
+| Phase Y | ✅ Réorganisation racine exécutée (G1→G6b, ~388 MB libérés, 27 fichiers git mv) |
 | Migration code\ | ✅ Terminée — 6 modules Python migrés depuis racine |
 | code\engine\ | ✅ 6 modules : staleness_monitor, circuit_breaker, risk_manager, data_reader, correlations, claude_brain |
 | code\config\settings.py | ✅ Phase A : DD jour 3 % + confiance Auto 85 % |
@@ -227,9 +241,10 @@ ROLLBACK    : documenter avant chaque phase risquée
 | docs\MASTER_TRADEX_AI_v2.md | ✅ 1101 lignes (sections 1/10/11/12 corrigées) |
 | GARDE_FOUS_PROPOSES.md | ✅ 32 garde-fous (20 actifs / 10 manquants / 2 partiels) |
 | FEUILLE_DE_ROUTE.md | ✅ 11 phases A→K |
-| CHECKLIST_FICHIERS_INUTILES.md | ✅ 29 items (~402 MB récupérables) — exécution Phase Y |
-| RAPPORT_REORGANISATION.md | ✅ Plan 6 groupes G1→G6 — exécution Phase Y |
-| .gitignore Python | ✅ Configuré (pycache, .env, IDE, BACKUP_*, PDF source) |
+| _archive\audits-prompts\ | ✅ CHECKLIST + RAPPORT_REORGANISATION + AUDIT_PROMPT + README ancien |
+| _archive\MBK\ | ✅ 9 items + sous-dossier mbk-trader (projet en pause) |
+| _archive\external-methods\ | ✅ 4 PDF méthodes hors scope |
+| .gitignore Python | ✅ Configuré (pycache, .env, IDE, BACKUP_*, PDF source archivé, .tmp.drive*) |
 | KB Belkhayate | ⏳ 142 transcripts à parser (Phase B, 2-3 sessions) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (5/6 conditions non remplies) |
 
@@ -264,6 +279,18 @@ faf0678  docs: APPORTS_GUIDE_EXTERNE - segments retenus du guide externe
 ce620dd  chore(claude): add message counter guardrail to CLAUDE.md
 ```
 
+### Commits Phase Y (09/05/2026)
+```
+a6f99c1  docs(claude): Z1 - corrige chemins inexistants et reflete fin Phase A
+26b711b  chore: G1 nettoyage racine - dossiers vides + .tmp.drive cleanup
+5ddfb6c  chore: G2 archive MBK - projet en pause
+535ec05  chore: G3 archive methodes externes - hors scope TRADEX-AI
+3183d38  chore: G4 rangement corpus belkhayate
+1df60f5  chore: G5 organisation - scripts windows + prompt_1 KB vers docs
+914e976  chore: G6 archive audits + README contexte + PDF source
+73c54e3  chore: G6b update .gitignore - nouveau chemin PDF source
+```
+
 ---
 
 ## PROTOCOLE FIN DE SESSION OBLIGATOIRE
@@ -295,7 +322,7 @@ ce620dd  chore(claude): add message counter guardrail to CLAUDE.md
 | 2 | `_context/CONTEXT_TRADEX_v1.md` | Context projet v1 (post-S01) |
 | 3 | `FEUILLE_DE_ROUTE.md` | 11 phases A→K |
 | 4 | `GARDE_FOUS_PROPOSES.md` | 32 garde-fous (20 actifs / 10 manquants / 2 partiels) |
-| 5 | `RAPPORT_REORGANISATION.md` | Plan réorg 6 groupes (Phase Y) |
+| 5 | `_archive/audits-prompts/RAPPORT_REORGANISATION.md` | Plan réorg 6 groupes (Phase Y, exécutée 09/05) |
 | 6 | `docs/MASTER_TRADEX_AI_v2.md` | Document master |
 | 7 | `RAPPORT_ORTOGONEX_V4_POST_AUDIT.md` | Blueprint d'origine |
 
@@ -303,7 +330,7 @@ ce620dd  chore(claude): add message counter guardrail to CLAUDE.md
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 09/05/2026 — Z1 chemins corrigés + Phase A reflétée*
+*Dernière mise à jour : 09/05/2026 — Z1+Z2 + Phase A reflétée + Phase Y exécutée*
 
 ---
 
