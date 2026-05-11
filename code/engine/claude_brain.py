@@ -174,7 +174,7 @@ def load_kb_rules(kb_path: str = None) -> str:
     Retourne une chaîne formatée pour le system prompt Claude.
     """
     if kb_path is None:
-        kb_path = os.path.join(BASE_DIR, "kb", "KNOWLEDGE_BASE_MASTER.json")
+        kb_path = os.path.join(BASE_DIR, "code", "knowledge_base", "KNOWLEDGE_BASE_MASTER.json")
 
     if not os.path.exists(kb_path):
         logger.warning(f"KB introuvable : {kb_path} — utiliser fallback vide")

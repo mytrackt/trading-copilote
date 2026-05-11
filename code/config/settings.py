@@ -66,7 +66,7 @@ NT8_ATI = {
 # CHEMINS FICHIERS
 # =============================================================================
 DATA_DIR = os.path.join(BASE_DIR, "data")
-KB_DIR   = os.path.join(BASE_DIR, "kb")
+KB_DIR   = os.path.join(BASE_DIR, "code", "knowledge_base")
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
 
 KB_PATH            = os.path.join(KB_DIR, "KNOWLEDGE_BASE_MASTER.json")
@@ -140,5 +140,5 @@ CIRCUIT_BREAKER = {
     "timeout_sec":    15,    # timeout appel
     "retry_max":       2,    # nombre de retry
     "retry_delay_sec": 3,    # délai entre retry
-    "open_duration_sec": 60, # durée circuit ouvert avant reset
+    "open_duration_sec": 60,  # duree circuit ouvert avant reset
 }
