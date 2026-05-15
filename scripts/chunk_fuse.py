@@ -231,21 +231,33 @@ def extract_frames(video_path: str, out_dir: str) -> list:
 
 def get_segments(url: str, out_dir: str) -> list:
     """
-    Récupère la transcription SRT avec timestamps.
+    Récupère la transcription avec fallback en 3 tentatives :
+      1. Sous-titres natifs YouTube (fr,fr-FR,en,en-US)
+      2. Sous-titres auto-générés YouTube (fr,en)
+      3. Extraction audio + Whisper API (OpenAI)
     Retourne liste de {start, end, text} (en secondes).
     """
-    print("   📝 Récupération transcription SRT...")
-    srt_base = os.path.join(out_dir, "subs")
+    segments = _try_native_subs(url, out_dir)
+    if segments:
+        print(f"   ✅ {len(segments)} segments (sous-titres natifs)")
+        return segments
 
-    subprocess.run(
-        ["yt-dlp",
-         "--write-auto-sub", "--sub-lang", "fr,fr-FR,en,en-US",
-         "--skip-download", "--convert-subs", "srt",
-         "--no-playlist", "-o", srt_base, url],
-        capture_output=True, text=True,
-        encoding="utf-8", errors="ignore"
-    )
+    segments = _try_auto_subs(url, out_dir)
+    if segments:
+        print(f"   ✅ {len(segments)} segments (sous-titres auto-générés)")
+        return segments
 
+    segments = _try_whisper(out_dir)
+    if segments:
+        print(f"   ✅ {len(segments)} segments (Whisper API)")
+        return segments
+
+    print("   ⚠️  Pas de transcription — analyse images uniquement")
+    return []
+
+
+def _parse_srt_files(out_dir: str) -> list:
+    """Parse le premier fichier .srt trouvé dans out_dir."""
     segments = []
     pattern = (
         r"(\d{2}):(\d{2}):(\d{2}),\d+"
@@ -253,7 +265,6 @@ def get_segments(url: str, out_dir: str) -> list:
         r"(\d{2}):(\d{2}):(\d{2}),\d+"
         r"\s*\n(.*?)(?=\n\n|\Z)"
     )
-
     for srt_file in Path(out_dir).glob("*.srt"):
         with open(srt_file, "r", encoding="utf-8", errors="ignore") as f:
             content = f.read()
@@ -263,13 +274,141 @@ def get_segments(url: str, out_dir: str) -> list:
             text  = re.sub(r"<[^>]+>", "", m.group(7)).strip().replace("\n", " ")
             if text:
                 segments.append({"start": start, "end": end, "text": text})
-        break  # Premier fichier SRT suffit
+        break
+    return segments
 
-    if segments:
-        print(f"   ✅ {len(segments)} segments de transcription")
-    else:
-        print("   ⚠️  Pas de transcription — analyse images uniquement")
 
+def _cleanup_srt(out_dir: str) -> None:
+    """Supprime les .srt résiduels avant une nouvelle tentative."""
+    for srt in Path(out_dir).glob("*.srt"):
+        try:
+            srt.unlink()
+        except OSError:
+            pass
+
+
+def _try_native_subs(url: str, out_dir: str) -> list:
+    """Tentative 1 : sous-titres natifs YouTube."""
+    print("   📝 Tentative 1/3 : sous-titres natifs...")
+    _cleanup_srt(out_dir)
+    srt_base = os.path.join(out_dir, "subs_native")
+    subprocess.run(
+        ["yt-dlp",
+         "--write-sub", "--sub-lang", "fr,fr-FR,en,en-US",
+         "--skip-download", "--convert-subs", "srt",
+         "--no-playlist", "-o", srt_base, url],
+        capture_output=True, text=True,
+        encoding="utf-8", errors="ignore"
+    )
+    return _parse_srt_files(out_dir)
+
+
+def _try_auto_subs(url: str, out_dir: str) -> list:
+    """Tentative 2 : sous-titres auto-générés YouTube."""
+    print("   📝 Tentative 2/3 : sous-titres auto-générés...")
+    _cleanup_srt(out_dir)
+    srt_base = os.path.join(out_dir, "subs_auto")
+    subprocess.run(
+        ["yt-dlp",
+         "--write-auto-sub", "--sub-lang", "fr,en",
+         "--skip-download", "--convert-subs", "srt",
+         "--no-playlist", "-o", srt_base, url],
+        capture_output=True, text=True,
+        encoding="utf-8", errors="ignore"
+    )
+    return _parse_srt_files(out_dir)
+
+
+def _try_whisper(out_dir: str) -> list:
+    """Tentative 3 : extraction audio + transcription via Whisper API."""
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        print("   ⚠️  OPENAI_API_KEY non définie — fallback Whisper ignoré")
+        return []
+
+    video_path = None
+    for stem in ("video", "preview"):
+        for ext in (".mp4", ".webm", ".mkv", ".mov", ".avi"):
+            candidate = os.path.join(out_dir, f"{stem}{ext}")
+            if os.path.exists(candidate):
+                video_path = candidate
+                break
+        if video_path:
+            break
+
+    if not video_path:
+        print("   ⚠️  Vidéo introuvable dans out_dir pour extraction audio")
+        return []
+
+    print("   📝 Tentative 3/3 : extraction audio + Whisper API...")
+    audio_path = os.path.join(out_dir, "audio.mp3")
+
+    result = subprocess.run(
+        ["ffmpeg", "-y", "-i", video_path, "-q:a", "0", "-map", "a", audio_path],
+        capture_output=True, text=True
+    )
+    if not os.path.exists(audio_path):
+        print(f"   ⚠️  Extraction audio échouée : {result.stderr[:120]}")
+        return []
+
+    try:
+        return _whisper_transcribe(audio_path, api_key)
+    except Exception as exc:
+        print(f"   ⚠️  Whisper API échouée : {exc}")
+        return []
+
+
+def _whisper_transcribe(audio_path: str, api_key: str) -> list:
+    """Envoie audio_path à l'API Whisper et retourne les segments timestampés."""
+    with open(audio_path, "rb") as f:
+        audio_data = f.read()
+
+    boundary = "----WhisperBoundary" + os.urandom(12).hex()
+
+    def _field(name: str, value: str) -> bytes:
+        return (
+            f"--{boundary}\r\n"
+            f'Content-Disposition: form-data; name="{name}"\r\n\r\n'
+            f"{value}\r\n"
+        ).encode("utf-8")
+
+    parts = [
+        _field("model", "whisper-1"),
+        _field("response_format", "verbose_json"),
+        _field("timestamp_granularities[]", "segment"),
+        (
+            f"--{boundary}\r\n"
+            'Content-Disposition: form-data; name="file"; filename="audio.mp3"\r\n'
+            "Content-Type: audio/mpeg\r\n\r\n"
+        ).encode("utf-8"),
+        audio_data,
+        b"\r\n",
+        f"--{boundary}--\r\n".encode("utf-8"),
+    ]
+    body = b"".join(parts)
+
+    req = urllib.request.Request(
+        "https://api.openai.com/v1/audio/transcriptions",
+        data=body,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": f"multipart/form-data; boundary={boundary}",
+        },
+    )
+
+    with urllib.request.urlopen(req, timeout=600) as resp:
+        result = json.loads(resp.read().decode("utf-8"))
+
+    segments = []
+    for s in result.get("segments", []):
+        text = (s.get("text") or "").strip()
+        if not text:
+            continue
+        segments.append({
+            "start": int(s.get("start", 0)),
+            "end":   int(s.get("end", 0)),
+            "text":  text,
+        })
     return segments
 
 
