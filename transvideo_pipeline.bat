@@ -11,7 +11,7 @@ echo  ====================================================
 echo.
 
 :: Verification Python
-python --version >nul 2>&1
+py --version >nul 2>&1
 if errorlevel 1 (
     echo  ERREUR : Python non installe.
     echo  Telecharge sur https://python.org
@@ -56,7 +56,7 @@ echo  ====================================================
 echo.
 
 cd /d "C:\trading-copilote"
-python scripts\agent.py "%CHANNEL%"
+py scripts\agent.py "%CHANNEL%"
 
 echo.
 echo  ====================================================
