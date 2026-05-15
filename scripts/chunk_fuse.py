@@ -101,6 +101,29 @@ FinSi
 
 Commence directement par SETUP #1. Aucune introduction. Aucune conclusion."""
 
+# ── Prompt pré-screen (Phase 0) ────────────────────────────────────────────
+PROMPT_PRESCREEN = """Tu vois 5 frames extraites des 3 premieres minutes d'une video de trading.
+
+Transcription des 3 premieres minutes :
+\"\"\"{transcript}\"\"\"
+
+Contenus deja traites dans la KB (titres + extrait) :
+{existing}
+
+Decide si cette video doit etre analysee en entier.
+
+Reponds UNIQUEMENT avec un objet JSON valide. Aucun texte avant ou apres.
+{{
+  "utile": false,
+  "doublon": false,
+  "raison": ""
+}}
+
+REGLES :
+- utile = true SEULEMENT si la video enseigne du trading concret (setup, indicateur, methode, money management, gestion du risque). Sinon false.
+- doublon = true si le sujet exact a deja ete traite dans la KB (meme indicateur + meme methode). Sinon false.
+- raison : 1 phrase claire (max 150 caracteres)."""
+
 
 # ── Utilitaires ─────────────────────────────────────────────────────────────
 
@@ -380,20 +403,163 @@ def save_md(content: str, title: str, channel_name: str, url: str) -> str:
     return str(filepath)
 
 
+# ── Phase 0 : Pré-screen ────────────────────────────────────────────────────
+
+def list_existing_content() -> list:
+    """Liste les .md deja generes dans 07-nouvelles sources (titre + extrait court)."""
+    base = Path(OUTPUT_BASE)
+    if not base.exists():
+        return []
+    items = []
+    for md_file in base.rglob("*.md"):
+        try:
+            with open(md_file, "r", encoding="utf-8") as f:
+                content = f.read(2000)
+        except OSError:
+            continue
+        title_match = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
+        title = title_match.group(1).strip() if title_match else md_file.stem
+        snippet = re.sub(r"\s+", " ", content).strip()[:300]
+        items.append({"title": title, "snippet": snippet})
+    return items
+
+
+def pre_screen_video(url: str, api_key: str) -> dict:
+    """
+    Pré-screen rapide avant pipeline complet.
+    Télécharge les 3 premières minutes, extrait 5 frames, demande à Claude :
+      - utile   : la vidéo enseigne-t-elle du trading concret ?
+      - doublon : sujet déjà traité dans la KB ?
+    En cas d'erreur technique, retourne utile=True pour ne pas bloquer.
+
+    Returns:
+        {"utile": bool, "doublon": bool, "raison": str}
+    """
+    tmp_dir = tempfile.mkdtemp(prefix="tradex_prescreen_")
+    try:
+        # 3 premières minutes uniquement
+        out_tmpl = os.path.join(tmp_dir, "preview.%(ext)s")
+        result = subprocess.run(
+            ["yt-dlp",
+             "-f", "best[height<=480][ext=mp4]/best[height<=480]/best",
+             "--download-sections", "*0-180",
+             "--force-keyframes-at-cuts",
+             "--no-playlist", "-o", out_tmpl, url],
+            capture_output=True, text=True,
+            encoding="utf-8", errors="ignore"
+        )
+        if result.returncode != 0:
+            return {"utile": True, "doublon": False,
+                    "raison": "pre-screen : telechargement echoue, on tente la video"}
+
+        video_path = None
+        for ext in [".mp4", ".webm", ".mkv", ".mov", ".avi"]:
+            path = os.path.join(tmp_dir, f"preview{ext}")
+            if os.path.exists(path):
+                video_path = path
+                break
+        if not video_path:
+            return {"utile": True, "doublon": False,
+                    "raison": "pre-screen : fichier preview introuvable, on tente la video"}
+
+        # 5 frames réparties sur la preview
+        frames_dir = Path(tmp_dir) / "frames"
+        frames_dir.mkdir(exist_ok=True)
+        duration = get_duration(video_path)
+        interval = max(10, int(duration / 5))
+        subprocess.run(
+            ["ffmpeg", "-i", video_path,
+             "-vf", f"fps=1/{interval},scale={RESOLUTION}:-1",
+             "-q:v", "2",
+             "-frames:v", "5",
+             str(frames_dir / "frame_%02d.jpg")],
+            capture_output=True, text=True
+        )
+        frames = sorted(frames_dir.glob("frame_*.jpg"))[:5]
+        if not frames:
+            return {"utile": True, "doublon": False,
+                    "raison": "pre-screen : aucune frame extraite, on tente la video"}
+
+        # Transcription courte des 3 premières minutes
+        segments = get_segments(url, tmp_dir)
+        short_transcript = " ".join(
+            s["text"] for s in segments if s["start"] < 180
+        )[:1500] or "[Pas de transcription]"
+
+        # Contenus déjà traités
+        existing = list_existing_content()
+        if existing:
+            existing_text = "\n".join(
+                f"- {item['title']} :: {item['snippet']}" for item in existing
+            )[:4000]
+        else:
+            existing_text = "(aucun contenu deja traite)"
+
+        # Appel Claude : frames + transcription + KB
+        content_blocks = []
+        for f in frames:
+            content_blocks.append({
+                "type": "image",
+                "source": {
+                    "type": "base64",
+                    "media_type": "image/jpeg",
+                    "data": b64_image(str(f)),
+                },
+            })
+        prompt = (PROMPT_PRESCREEN
+                  .replace("{transcript}", short_transcript)
+                  .replace("{existing}", existing_text))
+        content_blocks.append({"type": "text", "text": prompt})
+
+        payload = {
+            "model": MODEL,
+            "max_tokens": 400,
+            "messages": [{"role": "user", "content": content_blocks}],
+        }
+        raw = call_api(api_key, payload)
+        raw = re.sub(r"```json|```", "", raw).strip()
+        try:
+            verdict = json.loads(raw)
+        except json.JSONDecodeError:
+            return {"utile": True, "doublon": False,
+                    "raison": f"pre-screen : JSON invalide ({raw[:80]}), on tente la video"}
+
+        return {
+            "utile":   bool(verdict.get("utile", False)),
+            "doublon": bool(verdict.get("doublon", False)),
+            "raison":  str(verdict.get("raison", ""))[:200],
+        }
+
+    except Exception as exc:
+        return {"utile": True, "doublon": False,
+                "raison": f"pre-screen : erreur ({exc}), on tente la video"}
+    finally:
+        shutil.rmtree(tmp_dir, ignore_errors=True)
+
+
 # ── Fonction principale ──────────────────────────────────────────────────────
 
 def process_video(url: str, channel_name: str, api_key: str):
     """
     Pipeline complet pour une vidéo.
-    Retourne le chemin du .md généré, ou None si erreur.
+    Retourne le chemin du .md généré, None si erreur ou pré-screen négatif.
     """
+    print(f"\n   🎯 {url[:65]}")
+
+    title = get_title(url)
+    print(f"   📌 {title}")
+
+    # Pré-screen avant pipeline complet
+    print("   🔍 Pré-screen (3min + 5 frames + dedup KB)...")
+    verdict = pre_screen_video(url, api_key)
+    if not verdict["utile"] or verdict["doublon"]:
+        flag = "doublon" if verdict["doublon"] else "non utile"
+        print(f"   ⏭️  Ignorée ({flag}) : {verdict['raison']}")
+        return None
+    print(f"   ✅ Pré-screen OK : {verdict['raison']}")
+
     tmp_dir = tempfile.mkdtemp(prefix="tradex_cf_")
     try:
-        print(f"\n   🎯 {url[:65]}")
-
-        title = get_title(url)
-        print(f"   📌 {title}")
-
         video_path = download_video(url, tmp_dir)
         frames     = extract_frames(video_path, tmp_dir)
 
