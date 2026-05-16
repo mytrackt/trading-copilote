@@ -208,7 +208,8 @@ def get_title(url: str) -> str:
     """Retourne le titre nettoyé de la vidéo. Fallback si timeout."""
     try:
         result = subprocess.run(
-            ["yt-dlp", "--get-title", "--no-playlist", url],
+            ["yt-dlp", "--remote-components", "ejs:github",
+             "--get-title", "--no-playlist", url],
             capture_output=True, text=True,
             encoding="utf-8", errors="ignore",
             timeout=YTDLP_TITLE_TIMEOUT,
@@ -230,7 +231,7 @@ def download_video(url: str, out_dir: str) -> str:
 
     try:
         result = subprocess.run(
-            ["yt-dlp",
+            ["yt-dlp", "--remote-components", "ejs:github",
              "-f", "best[height<=720][ext=mp4]/best[height<=720]/best",
              "--no-playlist", "-o", out_tmpl, url],
             capture_output=True, text=True,
@@ -404,7 +405,7 @@ def _try_native_subs(url: str, out_dir: str) -> list[TranscriptSegment]:
     _cleanup_srt(out_dir)
     srt_base = os.path.join(out_dir, "subs_native")
     result = subprocess.run(
-        ["yt-dlp",
+        ["yt-dlp", "--remote-components", "ejs:github",
          "--write-sub", "--sub-lang", "fr,fr-FR,en,en-US",
          "--skip-download", "--convert-subs", "srt",
          "--no-playlist", "-o", srt_base, url],
@@ -423,7 +424,7 @@ def _try_auto_subs(url: str, out_dir: str) -> list[TranscriptSegment]:
     _cleanup_srt(out_dir)
     srt_base = os.path.join(out_dir, "subs_auto")
     result = subprocess.run(
-        ["yt-dlp",
+        ["yt-dlp", "--remote-components", "ejs:github",
          "--write-auto-sub", "--sub-lang", "fr,en",
          "--skip-download", "--convert-subs", "srt",
          "--no-playlist", "-o", srt_base, url],
@@ -756,7 +757,7 @@ def pre_screen_video(url: str, api_key: str) -> dict[str, object]:
         out_tmpl = os.path.join(tmp_dir, "preview.%(ext)s")
         try:
             result = subprocess.run(
-                ["yt-dlp",
+                ["yt-dlp", "--remote-components", "ejs:github",
                  "-f", "best[height<=480][ext=mp4]/best[height<=480]/best",
                  "--download-sections", "*0-180",
                  "--force-keyframes-at-cuts",
