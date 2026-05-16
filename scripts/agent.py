@@ -13,6 +13,7 @@ import shutil
 import logging
 from pathlib import Path
 from datetime import datetime
+from typing import Optional
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from channel_scraper import get_channel_videos
@@ -102,10 +103,16 @@ def check_env() -> str:
     return api_key
 
 
-def run(channel_name: str) -> None:
-    """Pipeline complet : chaîne → filtre → Chunk&Fuse → .md."""
+def run(channel_name: str, limit: Optional[int] = None) -> None:
+    """
+    Pipeline complet : chaîne → filtre → Chunk&Fuse → .md.
+
+    Args:
+        channel_name: Nom de la chaîne YouTube
+        limit: Si défini, ne traite que les `limit` premières vidéos après filtre
+    """
     log_file = setup_logging()
-    logger.info("==== TRANSVIDEO start | channel='%s' ====", channel_name)
+    logger.info("==== TRANSVIDEO start | channel='%s' limit=%s ====", channel_name, limit)
 
     sep = "=" * 58
     print(f"\n{sep}")
@@ -138,6 +145,13 @@ def run(channel_name: str) -> None:
         logger.warning("aucune vidéo après filtrage")
         print("❌  Aucune vidéo trading après filtrage.")
         sys.exit(0)
+
+    # Limite optionnelle (CLI --limit N)
+    if limit is not None and limit > 0:
+        if len(trading) > limit:
+            print(f"\n   ⚠  Limit appliquée : {limit} premières sur {len(trading)} (--limit)")
+            logger.info("limit applied: %d/%d", limit, len(trading))
+            trading = trading[:limit]
 
     # Étape 3 — Chunk & Fuse avec checkpoint
     print(f"\n{'─' * 58}")
@@ -178,8 +192,24 @@ def run(channel_name: str) -> None:
     print(f"{sep}\n")
 
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage : python scripts\\agent.py \"Nom de la Chaîne\"")
+def _parse_cli(argv: list) -> tuple[str, Optional[int]]:
+    """Parse CLI : nom + --limit N optionnel. Retourne (channel_name, limit)."""
+    args = list(argv)
+    limit: Optional[int] = None
+    if "--limit" in args:
+        idx = args.index("--limit")
+        try:
+            limit = int(args[idx + 1])
+            args = args[:idx] + args[idx + 2:]
+        except (IndexError, ValueError):
+            print("Erreur : --limit attend un entier (ex: --limit 5)")
+            sys.exit(1)
+    if not args:
+        print("Usage : python scripts\\agent.py \"Nom de la Chaîne\" [--limit N]")
         sys.exit(1)
-    run(" ".join(sys.argv[1:]))
+    return " ".join(args), limit
+
+
+if __name__ == "__main__":
+    channel, lim = _parse_cli(sys.argv[1:])
+    run(channel, limit=lim)
