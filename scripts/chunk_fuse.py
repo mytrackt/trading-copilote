@@ -19,6 +19,7 @@ import sys
 import json
 import time
 import base64
+import logging
 import subprocess
 import tempfile
 import shutil
@@ -27,25 +28,64 @@ import urllib.error
 import traceback
 from pathlib import Path
 from datetime import datetime
+from typing import TypedDict, Optional
 
-# ── Configuration ──────────────────────────────────────────────────────────
-OUTPUT_BASE    = r"C:\trading-copilote\07-nouvelles sources"
-MAX_FRAMES     = 28            # Frames max par vidéo
-RESOLUTION     = 800           # Largeur en pixels
+# ── BASE_DIR (P2.10 / CLAUDE.md règle) ──────────────────────────────────────
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def _env_int(name: str, default: int) -> int:
+    """Lit un entier depuis l'env. Retourne default si absent ou invalide."""
+    try:
+        return int(os.getenv(name, str(default)))
+    except ValueError:
+        return default
+
+
+# ── Configuration (P2.4 - tous overridables via TRANSVIDEO_*) ───────────────
+OUTPUT_BASE    = os.path.join(BASE_DIR, "07-nouvelles sources")
+MAX_FRAMES     = _env_int("TRANSVIDEO_MAX_FRAMES", 28)
+RESOLUTION     = _env_int("TRANSVIDEO_RESOLUTION", 800)
 MODEL          = os.getenv("TRANSVIDEO_MODEL", "claude-sonnet-4-6")
-MAX_SIZE_MB    = 500           # Guardrail taille vidéo
-WINDOW_BEFORE  = 5             # Secondes avant la frame
-WINDOW_AFTER   = 20            # Secondes après la frame
-API_TIMEOUT    = 60            # Timeout appel API (secondes)
-API_MAX_RETRIES = 3            # Retry exponentiel sur 429/5xx/network
-FFPROBE_TIMEOUT = 30
-FFMPEG_TIMEOUT  = 300
-YTDLP_TITLE_TIMEOUT    = 60
-YTDLP_DOWNLOAD_TIMEOUT = 900
-YTDLP_PREVIEW_TIMEOUT  = 180
+MAX_SIZE_MB    = _env_int("TRANSVIDEO_MAX_SIZE_MB", 500)
+WINDOW_BEFORE  = _env_int("TRANSVIDEO_WINDOW_BEFORE", 5)
+WINDOW_AFTER   = _env_int("TRANSVIDEO_WINDOW_AFTER", 20)
+API_TIMEOUT    = _env_int("TRANSVIDEO_API_TIMEOUT", 60)
+API_MAX_RETRIES = _env_int("TRANSVIDEO_API_MAX_RETRIES", 3)
+FFPROBE_TIMEOUT = _env_int("TRANSVIDEO_FFPROBE_TIMEOUT", 30)
+FFMPEG_TIMEOUT  = _env_int("TRANSVIDEO_FFMPEG_TIMEOUT", 300)
+YTDLP_TITLE_TIMEOUT    = _env_int("TRANSVIDEO_YTDLP_TITLE_TIMEOUT", 60)
+YTDLP_DOWNLOAD_TIMEOUT = _env_int("TRANSVIDEO_YTDLP_DOWNLOAD_TIMEOUT", 900)
+YTDLP_PREVIEW_TIMEOUT  = _env_int("TRANSVIDEO_YTDLP_PREVIEW_TIMEOUT", 180)
+
+
+# ── Types (P2.6) ────────────────────────────────────────────────────────────
+class VideoEntry(TypedDict):
+    url: str
+    title: str
+    duration: int
+    description: str
+    channel: str
+
+
+class TranscriptSegment(TypedDict):
+    start: int
+    end: int
+    text: str
+
+
+class FrameInfo(TypedDict):
+    path: str
+    ts_sec: float
+    ts_str: str
+
+
+# ── Logger (P2.2) ───────────────────────────────────────────────────────────
+logger = logging.getLogger("transvideo.chunk_fuse")
+
 
 # Cache module-level pour list_existing_content (P1.5)
-_EXISTING_KB_CACHE: list = None
+_EXISTING_KB_CACHE: Optional[list] = None
 
 # ── Prompt analyse pairée (Phase 4) ────────────────────────────────────────
 PROMPT_PAIR = """Tu analyses une frame extraite d'une vidéo de trading.
@@ -220,7 +260,7 @@ def download_video(url: str, out_dir: str) -> str:
 
 # ── Phase 2 : Extraction keyframes ──────────────────────────────────────────
 
-def extract_frames(video_path: str, out_dir: str) -> list:
+def extract_frames(video_path: str, out_dir: str) -> list[FrameInfo]:
     """
     Extrait des frames à intervalle régulier selon la durée.
     Retourne liste de {path, ts_sec, ts_str}.
@@ -265,7 +305,7 @@ def extract_frames(video_path: str, out_dir: str) -> list:
 
 # ── Phase 3 : Transcription ──────────────────────────────────────────────────
 
-def get_segments(url: str, out_dir: str) -> list:
+def get_segments(url: str, out_dir: str) -> list[TranscriptSegment]:
     """
     Récupère la transcription avec fallback en 3 tentatives :
       1. Sous-titres natifs YouTube (fr,fr-FR,en,en-US)
@@ -292,7 +332,7 @@ def get_segments(url: str, out_dir: str) -> list:
     return []
 
 
-def _parse_srt_files(out_dir: str, lang_priority: list = None) -> list:
+def _parse_srt_files(out_dir: str, lang_priority: Optional[list[str]] = None) -> list[TranscriptSegment]:
     """
     Parse le .srt selon une priorité de langues.
     yt-dlp génère subs_<base>.<lang>.srt — on choisit dans l'ordre lang_priority.
@@ -358,7 +398,7 @@ def _log_ytdlp_failure(label: str, result: subprocess.CompletedProcess) -> None:
     print(f"      ↳ yt-dlp ({label}) : {snippet[:300]}")
 
 
-def _try_native_subs(url: str, out_dir: str) -> list:
+def _try_native_subs(url: str, out_dir: str) -> list[TranscriptSegment]:
     """Tentative 1 : sous-titres natifs YouTube."""
     print("   📝 Tentative 1/3 : sous-titres natifs...")
     _cleanup_srt(out_dir)
@@ -377,7 +417,7 @@ def _try_native_subs(url: str, out_dir: str) -> list:
     return segments
 
 
-def _try_auto_subs(url: str, out_dir: str) -> list:
+def _try_auto_subs(url: str, out_dir: str) -> list[TranscriptSegment]:
     """Tentative 2 : sous-titres auto-générés YouTube."""
     print("   📝 Tentative 2/3 : sous-titres auto-générés...")
     _cleanup_srt(out_dir)
@@ -396,7 +436,7 @@ def _try_auto_subs(url: str, out_dir: str) -> list:
     return segments
 
 
-def _try_whisper(out_dir: str) -> list:
+def _try_whisper(out_dir: str) -> list[TranscriptSegment]:
     """Tentative 3 : extraction audio + transcription via Whisper API."""
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
@@ -435,7 +475,7 @@ def _try_whisper(out_dir: str) -> list:
         return []
 
 
-def _whisper_transcribe(audio_path: str, api_key: str) -> list:
+def _whisper_transcribe(audio_path: str, api_key: str) -> list[TranscriptSegment]:
     """Envoie audio_path à l'API Whisper et retourne les segments timestampés."""
     with open(audio_path, "rb") as f:
         audio_data = f.read()
@@ -489,7 +529,7 @@ def _whisper_transcribe(audio_path: str, api_key: str) -> list:
     return segments
 
 
-def get_window(segments: list, ts_sec: float) -> str:
+def get_window(segments: list[TranscriptSegment], ts_sec: float) -> str:
     """Retourne le texte prononcé dans [ts_sec - BEFORE, ts_sec + AFTER]."""
     w_start = ts_sec - WINDOW_BEFORE
     w_end   = ts_sec + WINDOW_AFTER
@@ -537,24 +577,29 @@ def call_api(api_key: str, payload: dict) -> str:
             last_error = f"HTTP {e.code}"
             if e.code in (429, 500, 502, 503, 504) and attempt < API_MAX_RETRIES - 1:
                 wait = 2 ** attempt
+                logger.warning("API %s retry %d/%d after %ds", last_error, attempt + 1, API_MAX_RETRIES, wait)
                 print(f"      ⏳ API {last_error} — retry dans {wait}s ({attempt + 1}/{API_MAX_RETRIES})")
                 time.sleep(wait)
                 continue
+            logger.error("API failed permanently: %s", last_error)
             raise RuntimeError(f"API {last_error}")
 
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             last_error = type(e).__name__
             if attempt < API_MAX_RETRIES - 1:
                 wait = 2 ** attempt
+                logger.warning("API network %s retry %d/%d after %ds", last_error, attempt + 1, API_MAX_RETRIES, wait)
                 print(f"      ⏳ API network {last_error} — retry dans {wait}s ({attempt + 1}/{API_MAX_RETRIES})")
                 time.sleep(wait)
                 continue
+            logger.error("API network failed permanently: %s", last_error)
             raise RuntimeError(f"API network : {last_error}")
 
+    logger.error("API max retries exceeded: %s", last_error)
     raise RuntimeError(f"API max retries dépassés : {last_error}")
 
 
-def analyze_frame(api_key: str, frame: dict, window: str) -> dict:
+def analyze_frame(api_key: str, frame: FrameInfo, window: str) -> dict:
     """Phase 4 : analyse une frame + sa fenêtre de transcription."""
     ts     = frame["ts_str"]
     prompt = (PROMPT_PAIR
@@ -594,7 +639,7 @@ def analyze_frame(api_key: str, frame: dict, window: str) -> dict:
 
 # ── Phase 5 : Fusion ────────────────────────────────────────────────────────
 
-def merge_analyses(api_key: str, analyses: list, title: str) -> str:
+def merge_analyses(api_key: str, analyses: list[dict], title: str) -> str:
     """Phase 5 : fusionne toutes les analyses et génère le guide .md."""
     setups = [a for a in analyses if a.get("est_setup_trading")]
     if not setups:
@@ -663,7 +708,7 @@ def save_md(content: str, title: str, channel_name: str, url: str) -> str:
 
 # ── Phase 0 : Pré-screen ────────────────────────────────────────────────────
 
-def list_existing_content(refresh: bool = False) -> list:
+def list_existing_content(refresh: bool = False) -> list[dict]:
     """
     Liste les .md deja generes dans 07-nouvelles sources (titre + extrait court).
     Cache module-level pour éviter I/O répété sur la KB à chaque pre-screen.
@@ -694,7 +739,7 @@ def list_existing_content(refresh: bool = False) -> list:
     return _EXISTING_KB_CACHE
 
 
-def pre_screen_video(url: str, api_key: str) -> dict:
+def pre_screen_video(url: str, api_key: str) -> dict[str, object]:
     """
     Pré-screen rapide avant pipeline complet.
     Télécharge les 3 premières minutes, extrait 5 frames, demande à Claude :
@@ -819,7 +864,7 @@ def pre_screen_video(url: str, api_key: str) -> dict:
 
 # ── Fonction principale ──────────────────────────────────────────────────────
 
-def process_video(url: str, channel_name: str, api_key: str):
+def process_video(url: str, channel_name: str, api_key: str) -> Optional[str]:
     """
     Pipeline complet pour une vidéo.
     Retourne le chemin du .md généré, None si erreur ou pré-screen négatif.
@@ -868,6 +913,7 @@ def process_video(url: str, channel_name: str, api_key: str):
         return out_path
 
     except Exception as exc:
+        logger.error("process_video failed for %s: %s", url, exc, exc_info=True)
         print(f"   ❌ Erreur ({type(exc).__name__}) : {exc}")
         traceback.print_exc(limit=3)
         return None
