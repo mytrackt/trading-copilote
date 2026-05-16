@@ -335,36 +335,39 @@ def get_segments(url: str, out_dir: str) -> list[TranscriptSegment]:
 
 def _parse_srt_files(out_dir: str, lang_priority: Optional[list[str]] = None) -> list[TranscriptSegment]:
     """
-    Parse le .srt selon une priorité de langues.
+    Parse les sous-titres .srt OU .vtt selon une priorité de langues.
     yt-dlp génère subs_<base>.<lang>.srt — on choisit dans l'ordre lang_priority.
-    Si aucun match → premier .srt trouvé (fallback).
+    Si pas de .srt (ex: convert-subs aborté à cause d'un 429 sur une autre lang),
+    on parse les .vtt directement (même structure, séparateur décimal ',' ou '.').
     """
     if lang_priority is None:
         lang_priority = ["fr", "fr-FR", "en", "en-US"]
 
-    srt_files = list(Path(out_dir).glob("*.srt"))
-    if not srt_files:
+    # Priorité .srt (post-converted) puis .vtt (raw download)
+    sub_files = list(Path(out_dir).glob("*.srt")) or list(Path(out_dir).glob("*.vtt"))
+    if not sub_files:
         return []
 
     chosen = None
     for lang in lang_priority:
-        for srt in srt_files:
-            parts = srt.stem.split(".")
+        for sub in sub_files:
+            parts = sub.stem.split(".")
             if len(parts) >= 2 and parts[-1] == lang:
-                chosen = srt
+                chosen = sub
                 break
         if chosen:
             break
     if chosen is None:
-        chosen = srt_files[0]
+        chosen = sub_files[0]
 
-    segments = []
+    # Pattern compatible SRT (',') et VTT ('.') pour le séparateur décimal
     pattern = (
-        r"(\d{2}):(\d{2}):(\d{2}),\d+"
+        r"(\d{2}):(\d{2}):(\d{2})[,.]\d+"
         r"\s*-->\s*"
-        r"(\d{2}):(\d{2}):(\d{2}),\d+"
-        r"\s*\n(.*?)(?=\n\n|\Z)"
+        r"(\d{2}):(\d{2}):(\d{2})[,.]\d+"
+        r"[^\n]*\n(.*?)(?=\n\n|\Z)"
     )
+    segments: list[TranscriptSegment] = []
     with open(chosen, "r", encoding="utf-8", errors="ignore") as f:
         content = f.read()
     for m in re.finditer(pattern, content, re.DOTALL):
@@ -377,12 +380,13 @@ def _parse_srt_files(out_dir: str, lang_priority: Optional[list[str]] = None) ->
 
 
 def _cleanup_srt(out_dir: str) -> None:
-    """Supprime les .srt résiduels avant une nouvelle tentative."""
-    for srt in Path(out_dir).glob("*.srt"):
-        try:
-            srt.unlink()
-        except OSError:
-            pass
+    """Supprime les .srt et .vtt résiduels avant une nouvelle tentative."""
+    for pattern in ("*.srt", "*.vtt"):
+        for sub in Path(out_dir).glob(pattern):
+            try:
+                sub.unlink()
+            except OSError:
+                pass
 
 
 def _log_ytdlp_failure(label: str, result: subprocess.CompletedProcess) -> None:
