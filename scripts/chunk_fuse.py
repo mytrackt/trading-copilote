@@ -256,8 +256,31 @@ def get_segments(url: str, out_dir: str) -> list:
     return []
 
 
-def _parse_srt_files(out_dir: str) -> list:
-    """Parse le premier fichier .srt trouvé dans out_dir."""
+def _parse_srt_files(out_dir: str, lang_priority: list = None) -> list:
+    """
+    Parse le .srt selon une priorité de langues.
+    yt-dlp génère subs_<base>.<lang>.srt — on choisit dans l'ordre lang_priority.
+    Si aucun match → premier .srt trouvé (fallback).
+    """
+    if lang_priority is None:
+        lang_priority = ["fr", "fr-FR", "en", "en-US"]
+
+    srt_files = list(Path(out_dir).glob("*.srt"))
+    if not srt_files:
+        return []
+
+    chosen = None
+    for lang in lang_priority:
+        for srt in srt_files:
+            parts = srt.stem.split(".")
+            if len(parts) >= 2 and parts[-1] == lang:
+                chosen = srt
+                break
+        if chosen:
+            break
+    if chosen is None:
+        chosen = srt_files[0]
+
     segments = []
     pattern = (
         r"(\d{2}):(\d{2}):(\d{2}),\d+"
@@ -265,16 +288,14 @@ def _parse_srt_files(out_dir: str) -> list:
         r"(\d{2}):(\d{2}):(\d{2}),\d+"
         r"\s*\n(.*?)(?=\n\n|\Z)"
     )
-    for srt_file in Path(out_dir).glob("*.srt"):
-        with open(srt_file, "r", encoding="utf-8", errors="ignore") as f:
-            content = f.read()
-        for m in re.finditer(pattern, content, re.DOTALL):
-            start = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
-            end   = int(m.group(4)) * 3600 + int(m.group(5)) * 60 + int(m.group(6))
-            text  = re.sub(r"<[^>]+>", "", m.group(7)).strip().replace("\n", " ")
-            if text:
-                segments.append({"start": start, "end": end, "text": text})
-        break
+    with open(chosen, "r", encoding="utf-8", errors="ignore") as f:
+        content = f.read()
+    for m in re.finditer(pattern, content, re.DOTALL):
+        start = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
+        end   = int(m.group(4)) * 3600 + int(m.group(5)) * 60 + int(m.group(6))
+        text  = re.sub(r"<[^>]+>", "", m.group(7)).strip().replace("\n", " ")
+        if text:
+            segments.append({"start": start, "end": end, "text": text})
     return segments
 
 
@@ -314,7 +335,7 @@ def _try_native_subs(url: str, out_dir: str) -> list:
         capture_output=True, text=True,
         encoding="utf-8", errors="ignore"
     )
-    segments = _parse_srt_files(out_dir)
+    segments = _parse_srt_files(out_dir, ["fr", "fr-FR", "en", "en-US"])
     if not segments:
         _log_ytdlp_failure("natifs", result)
     return segments
@@ -333,7 +354,7 @@ def _try_auto_subs(url: str, out_dir: str) -> list:
         capture_output=True, text=True,
         encoding="utf-8", errors="ignore"
     )
-    segments = _parse_srt_files(out_dir)
+    segments = _parse_srt_files(out_dir, ["fr", "en"])
     if not segments:
         _log_ytdlp_failure("auto-générés", result)
     return segments
@@ -468,8 +489,9 @@ def call_api(api_key: str, payload: dict) -> str:
             result = json.loads(resp.read().decode("utf-8"))
         return result["content"][0]["text"]
     except urllib.error.HTTPError as e:
-        body = e.read().decode("utf-8", errors="ignore")
-        raise RuntimeError(f"API HTTP {e.code} : {body[:200]}")
+        # Pas de body dans l'exception : peut contenir request_id, rate-limit
+        # ou fragments de header sensibles. Code HTTP seul.
+        raise RuntimeError(f"API HTTP {e.code}")
 
 
 def analyze_frame(api_key: str, frame: dict, window: str) -> dict:
@@ -556,8 +578,20 @@ def save_md(content: str, title: str, channel_name: str, url: str) -> str:
         f"> **Généré le :** {datetime.now().strftime('%d/%m/%Y à %H:%M')}  \n"
         f"> **Pipeline :** TRANSVIDEO Chunk&Fuse | TRADEX-AI\n\n---\n\n"
     )
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(header + content)
+
+    # Écriture atomique : tempfile dans le même dir puis os.replace (CLAUDE.md)
+    payload = header + content
+    tmp_path = str(filepath) + ".tmp"
+    try:
+        with open(tmp_path, "w", encoding="utf-8") as f:
+            f.write(payload)
+        os.replace(tmp_path, str(filepath))
+    except Exception:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
+        raise
 
     return str(filepath)
 

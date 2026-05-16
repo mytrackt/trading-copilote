@@ -30,12 +30,12 @@ if errorlevel 1 (
     exit /b 1
 )
 
-:: Cle API
+:: Cle API - saisie masquee via PowerShell Read-Host -AsSecureString
 if "%ANTHROPIC_API_KEY%"=="" (
     echo  Cle ANTHROPIC_API_KEY non detectee.
     echo.
-    set /p "APIKEY= Entre ta cle API Anthropic (sk-ant-...) : "
-    set ANTHROPIC_API_KEY=%APIKEY%
+    echo  Saisie masquee de la cle Anthropic ^(sk-ant-...^) - caracteres affiches comme * :
+    for /f "delims=" %%i in ('powershell -NoProfile -Command "$s = Read-Host -AsSecureString; [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s))"') do set "ANTHROPIC_API_KEY=%%i"
     echo.
 )
 
