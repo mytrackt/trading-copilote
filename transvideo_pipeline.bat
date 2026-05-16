@@ -53,7 +53,22 @@ if "%ANTHROPIC_API_KEY%"=="" (
     echo.
 )
 
-:: Nom de la chaine
+:: Menu de selection mode
+echo  Choisis le mode :
+echo    1. Analyser une chaine YouTube complete
+echo    2. Analyser une video unique (URL)
+echo.
+set /p "MODE= Ton choix (1 ou 2) : "
+
+if "%MODE%"=="1" goto MODE_CHANNEL
+if "%MODE%"=="2" goto MODE_URL
+
+echo  Choix invalide. Fermeture.
+pause
+exit /b 1
+
+:MODE_CHANNEL
+echo.
 echo  Exemples : ICT Trading, Belkhayate, Anton Kreil
 echo.
 set /p "CHANNEL= Entre le nom de la chaine YouTube : "
@@ -65,12 +80,36 @@ if "%CHANNEL%"=="" (
 )
 
 echo.
-echo  Lancement pour : %CHANNEL%
+echo  Lancement pour la chaine : %CHANNEL%
 echo  ====================================================
 echo.
 
 cd /d "C:\trading-copilote"
-py scripts\agent.py "%CHANNEL%"
+py scripts\agent.py --channel "%CHANNEL%"
+goto END
+
+:MODE_URL
+echo.
+echo  Exemple : https://www.youtube.com/watch?v=...
+echo.
+set /p "VIDEO_URL= Entre l'URL de la video : "
+
+if "%VIDEO_URL%"=="" (
+    echo  Aucune URL saisie. Fermeture.
+    pause
+    exit /b 0
+)
+
+echo.
+echo  Lancement pour la video : %VIDEO_URL%
+echo  ====================================================
+echo.
+
+cd /d "C:\trading-copilote"
+py scripts\agent.py --url "%VIDEO_URL%"
+goto END
+
+:END
 
 echo.
 echo  ====================================================
