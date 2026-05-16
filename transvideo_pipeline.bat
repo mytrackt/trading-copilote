@@ -30,6 +30,16 @@ if errorlevel 1 (
     exit /b 1
 )
 
+:: Verification yt-dlp
+yt-dlp --version >nul 2>&1
+if errorlevel 1 (
+    echo  ERREUR : yt-dlp non installe.
+    echo  Lance : pip install yt-dlp
+    echo.
+    pause
+    exit /b 1
+)
+
 :: Cle API - saisie masquee via PowerShell Read-Host -AsSecureString
 if "%ANTHROPIC_API_KEY%"=="" (
     echo  Cle ANTHROPIC_API_KEY non detectee.

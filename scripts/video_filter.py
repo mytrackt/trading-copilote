@@ -13,7 +13,7 @@ DURATION_MAX_SEC = 50 * 60   # 50 minutes
 def is_trading_video(video: dict) -> tuple:
     """
     Évalue si une vidéo passe le filtre durée.
-    Si durée inconnue (= 0), la vidéo est acceptée.
+    Une durée à 0 est rejetée : live YouTube ou playlist (yt-dlp retourne 0).
 
     Returns:
         (bool, str) — (acceptée, raison)
@@ -21,7 +21,7 @@ def is_trading_video(video: dict) -> tuple:
     duration = video.get("duration") or 0
 
     if duration == 0:
-        return True, "duree inconnue (acceptee)"
+        return False, "duree inconnue (live ou playlist - rejete)"
 
     if duration < DURATION_MIN_SEC:
         return False, f"trop courte ({duration // 60}min < 3min)"

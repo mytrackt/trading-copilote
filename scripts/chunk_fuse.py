@@ -17,12 +17,14 @@ import os
 import re
 import sys
 import json
+import time
 import base64
 import subprocess
 import tempfile
 import shutil
 import urllib.request
 import urllib.error
+import traceback
 from pathlib import Path
 from datetime import datetime
 
@@ -30,11 +32,20 @@ from datetime import datetime
 OUTPUT_BASE    = r"C:\trading-copilote\07-nouvelles sources"
 MAX_FRAMES     = 28            # Frames max par vidéo
 RESOLUTION     = 800           # Largeur en pixels
-MODEL          = "claude-sonnet-4-6"
+MODEL          = os.getenv("TRANSVIDEO_MODEL", "claude-sonnet-4-6")
 MAX_SIZE_MB    = 500           # Guardrail taille vidéo
 WINDOW_BEFORE  = 5             # Secondes avant la frame
 WINDOW_AFTER   = 20            # Secondes après la frame
 API_TIMEOUT    = 60            # Timeout appel API (secondes)
+API_MAX_RETRIES = 3            # Retry exponentiel sur 429/5xx/network
+FFPROBE_TIMEOUT = 30
+FFMPEG_TIMEOUT  = 300
+YTDLP_TITLE_TIMEOUT    = 60
+YTDLP_DOWNLOAD_TIMEOUT = 900
+YTDLP_PREVIEW_TIMEOUT  = 180
+
+# Cache module-level pour list_existing_content (P1.5)
+_EXISTING_KB_CACHE: list = None
 
 # ── Prompt analyse pairée (Phase 4) ────────────────────────────────────────
 PROMPT_PAIR = """Tu analyses une frame extraite d'une vidéo de trading.
@@ -128,18 +139,23 @@ REGLES :
 # ── Utilitaires ─────────────────────────────────────────────────────────────
 
 def get_duration(video_path: str) -> float:
-    """Retourne la durée de la vidéo en secondes."""
-    result = subprocess.run(
-        ["ffprobe", "-v", "error",
-         "-show_entries", "format=duration",
-         "-of", "default=noprint_wrappers=1:nokey=1",
-         video_path],
-        capture_output=True, text=True, encoding="utf-8"
-    )
+    """Retourne la durée de la vidéo en secondes. Lève RuntimeError sur échec."""
+    try:
+        result = subprocess.run(
+            ["ffprobe", "-v", "error",
+             "-show_entries", "format=duration",
+             "-of", "default=noprint_wrappers=1:nokey=1",
+             video_path],
+            capture_output=True, text=True, encoding="utf-8",
+            timeout=FFPROBE_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"ffprobe timeout ({FFPROBE_TIMEOUT}s)")
     try:
         return float(result.stdout.strip())
-    except ValueError:
-        return 600.0
+    except ValueError as exc:
+        stderr = (result.stderr or "")[:200].strip()
+        raise RuntimeError(f"ffprobe duration parse failed : {stderr}") from exc
 
 
 def sec_to_hms(sec: float) -> str:
@@ -149,12 +165,16 @@ def sec_to_hms(sec: float) -> str:
 
 
 def get_title(url: str) -> str:
-    """Retourne le titre nettoyé de la vidéo."""
-    result = subprocess.run(
-        ["yt-dlp", "--get-title", "--no-playlist", url],
-        capture_output=True, text=True,
-        encoding="utf-8", errors="ignore"
-    )
+    """Retourne le titre nettoyé de la vidéo. Fallback si timeout."""
+    try:
+        result = subprocess.run(
+            ["yt-dlp", "--get-title", "--no-playlist", url],
+            capture_output=True, text=True,
+            encoding="utf-8", errors="ignore",
+            timeout=YTDLP_TITLE_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        return "video_sans_titre"
     title = result.stdout.strip() or "video_sans_titre"
     for char in r'\/:*?"<>|':
         title = title.replace(char, "_")
@@ -168,13 +188,18 @@ def download_video(url: str, out_dir: str) -> str:
     print("   📥 Téléchargement...")
     out_tmpl = os.path.join(out_dir, "video.%(ext)s")
 
-    result = subprocess.run(
-        ["yt-dlp",
-         "-f", "best[height<=720][ext=mp4]/best[height<=720]/best",
-         "--no-playlist", "-o", out_tmpl, url],
-        capture_output=True, text=True,
-        encoding="utf-8", errors="ignore"
-    )
+    try:
+        result = subprocess.run(
+            ["yt-dlp",
+             "-f", "best[height<=720][ext=mp4]/best[height<=720]/best",
+             "--no-playlist", "-o", out_tmpl, url],
+            capture_output=True, text=True,
+            encoding="utf-8", errors="ignore",
+            timeout=YTDLP_DOWNLOAD_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"yt-dlp download timeout ({YTDLP_DOWNLOAD_TIMEOUT}s)")
+
     if result.returncode != 0:
         raise RuntimeError(f"yt-dlp échoué : {result.stderr[:150]}")
 
@@ -183,6 +208,10 @@ def download_video(url: str, out_dir: str) -> str:
         if os.path.exists(path):
             size_mb = os.path.getsize(path) / (1024 * 1024)
             if size_mb > MAX_SIZE_MB:
+                try:
+                    os.unlink(path)
+                except OSError:
+                    pass
                 raise RuntimeError(f"Vidéo trop grande ({size_mb:.0f}MB > {MAX_SIZE_MB}MB)")
             return path
 
@@ -205,13 +234,20 @@ def extract_frames(video_path: str, out_dir: str) -> list:
 
     print(f"   🎬 Extraction frames (1 toutes les {interval}s sur {duration:.0f}s)...")
 
-    subprocess.run(
-        ["ffmpeg", "-i", video_path,
-         "-vf", f"fps=1/{interval},scale={RESOLUTION}:-1",
-         "-q:v", "2",
-         str(frames_dir / "frame_%04d.jpg")],
-        capture_output=True, text=True
-    )
+    try:
+        result = subprocess.run(
+            ["ffmpeg", "-i", video_path,
+             "-vf", f"fps=1/{interval},scale={RESOLUTION}:-1",
+             "-q:v", "2",
+             str(frames_dir / "frame_%04d.jpg")],
+            capture_output=True, text=True,
+            timeout=FFMPEG_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"ffmpeg extract_frames timeout ({FFMPEG_TIMEOUT}s)")
+    if result.returncode != 0:
+        stderr = (result.stderr or "")[-200:].strip() if result.stderr else ""
+        raise RuntimeError(f"ffmpeg extract_frames échoué : {stderr}")
 
     frames = sorted(frames_dir.glob("frame_*.jpg"))
     result = []
@@ -473,25 +509,49 @@ def b64_image(path: str) -> str:
 
 
 def call_api(api_key: str, payload: dict) -> str:
-    """Appel à l'API Claude. Lève RuntimeError si échec."""
+    """
+    Appel à l'API Claude avec retry exponentiel sur 429 / 5xx / erreurs réseau.
+    Lève RuntimeError après API_MAX_RETRIES échecs.
+    """
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-    req  = urllib.request.Request(
-        "https://api.anthropic.com/v1/messages",
-        data=data,
-        headers={
-            "Content-Type": "application/json",
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-        },
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=API_TIMEOUT) as resp:
-            result = json.loads(resp.read().decode("utf-8"))
-        return result["content"][0]["text"]
-    except urllib.error.HTTPError as e:
-        # Pas de body dans l'exception : peut contenir request_id, rate-limit
-        # ou fragments de header sensibles. Code HTTP seul.
-        raise RuntimeError(f"API HTTP {e.code}")
+    headers = {
+        "Content-Type": "application/json",
+        "x-api-key": api_key,
+        "anthropic-version": "2023-06-01",
+    }
+
+    last_error = "unknown"
+    for attempt in range(API_MAX_RETRIES):
+        req = urllib.request.Request(
+            "https://api.anthropic.com/v1/messages",
+            data=data,
+            headers=headers,
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=API_TIMEOUT) as resp:
+                result = json.loads(resp.read().decode("utf-8"))
+            return result["content"][0]["text"]
+
+        except urllib.error.HTTPError as e:
+            # Pas de body dans l'erreur : peut contenir request_id / rate-limit
+            last_error = f"HTTP {e.code}"
+            if e.code in (429, 500, 502, 503, 504) and attempt < API_MAX_RETRIES - 1:
+                wait = 2 ** attempt
+                print(f"      ⏳ API {last_error} — retry dans {wait}s ({attempt + 1}/{API_MAX_RETRIES})")
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"API {last_error}")
+
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            last_error = type(e).__name__
+            if attempt < API_MAX_RETRIES - 1:
+                wait = 2 ** attempt
+                print(f"      ⏳ API network {last_error} — retry dans {wait}s ({attempt + 1}/{API_MAX_RETRIES})")
+                time.sleep(wait)
+                continue
+            raise RuntimeError(f"API network : {last_error}")
+
+    raise RuntimeError(f"API max retries dépassés : {last_error}")
 
 
 def analyze_frame(api_key: str, frame: dict, window: str) -> dict:
@@ -593,16 +653,31 @@ def save_md(content: str, title: str, channel_name: str, url: str) -> str:
             pass
         raise
 
+    # Mise à jour du cache KB pour les pre-screens suivants (P1.5)
+    if _EXISTING_KB_CACHE is not None:
+        snippet = re.sub(r"\s+", " ", payload).strip()[:300]
+        _EXISTING_KB_CACHE.append({"title": title, "snippet": snippet})
+
     return str(filepath)
 
 
 # ── Phase 0 : Pré-screen ────────────────────────────────────────────────────
 
-def list_existing_content() -> list:
-    """Liste les .md deja generes dans 07-nouvelles sources (titre + extrait court)."""
+def list_existing_content(refresh: bool = False) -> list:
+    """
+    Liste les .md deja generes dans 07-nouvelles sources (titre + extrait court).
+    Cache module-level pour éviter I/O répété sur la KB à chaque pre-screen.
+    refresh=True force la relecture disque.
+    """
+    global _EXISTING_KB_CACHE
+    if not refresh and _EXISTING_KB_CACHE is not None:
+        return _EXISTING_KB_CACHE
+
     base = Path(OUTPUT_BASE)
     if not base.exists():
-        return []
+        _EXISTING_KB_CACHE = []
+        return _EXISTING_KB_CACHE
+
     items = []
     for md_file in base.rglob("*.md"):
         try:
@@ -614,7 +689,9 @@ def list_existing_content() -> list:
         title = title_match.group(1).strip() if title_match else md_file.stem
         snippet = re.sub(r"\s+", " ", content).strip()[:300]
         items.append({"title": title, "snippet": snippet})
-    return items
+
+    _EXISTING_KB_CACHE = items
+    return _EXISTING_KB_CACHE
 
 
 def pre_screen_video(url: str, api_key: str) -> dict:
@@ -632,15 +709,20 @@ def pre_screen_video(url: str, api_key: str) -> dict:
     try:
         # 3 premières minutes uniquement
         out_tmpl = os.path.join(tmp_dir, "preview.%(ext)s")
-        result = subprocess.run(
-            ["yt-dlp",
-             "-f", "best[height<=480][ext=mp4]/best[height<=480]/best",
-             "--download-sections", "*0-180",
-             "--force-keyframes-at-cuts",
-             "--no-playlist", "-o", out_tmpl, url],
-            capture_output=True, text=True,
-            encoding="utf-8", errors="ignore"
-        )
+        try:
+            result = subprocess.run(
+                ["yt-dlp",
+                 "-f", "best[height<=480][ext=mp4]/best[height<=480]/best",
+                 "--download-sections", "*0-180",
+                 "--force-keyframes-at-cuts",
+                 "--no-playlist", "-o", out_tmpl, url],
+                capture_output=True, text=True,
+                encoding="utf-8", errors="ignore",
+                timeout=YTDLP_PREVIEW_TIMEOUT,
+            )
+        except subprocess.TimeoutExpired:
+            return {"utile": True, "doublon": False,
+                    "raison": f"pre-screen : timeout {YTDLP_PREVIEW_TIMEOUT}s, on tente la video"}
         if result.returncode != 0:
             return {"utile": True, "doublon": False,
                     "raison": "pre-screen : telechargement echoue, on tente la video"}
@@ -660,14 +742,19 @@ def pre_screen_video(url: str, api_key: str) -> dict:
         frames_dir.mkdir(exist_ok=True)
         duration = get_duration(video_path)
         interval = max(10, int(duration / 5))
-        subprocess.run(
-            ["ffmpeg", "-i", video_path,
-             "-vf", f"fps=1/{interval},scale={RESOLUTION}:-1",
-             "-q:v", "2",
-             "-frames:v", "5",
-             str(frames_dir / "frame_%02d.jpg")],
-            capture_output=True, text=True
-        )
+        try:
+            subprocess.run(
+                ["ffmpeg", "-i", video_path,
+                 "-vf", f"fps=1/{interval},scale={RESOLUTION}:-1",
+                 "-q:v", "2",
+                 "-frames:v", "5",
+                 str(frames_dir / "frame_%02d.jpg")],
+                capture_output=True, text=True,
+                timeout=60,
+            )
+        except subprocess.TimeoutExpired:
+            return {"utile": True, "doublon": False,
+                    "raison": "pre-screen : ffmpeg preview timeout, on tente la video"}
         frames = sorted(frames_dir.glob("frame_*.jpg"))[:5]
         if not frames:
             return {"utile": True, "doublon": False,
@@ -725,7 +812,7 @@ def pre_screen_video(url: str, api_key: str) -> dict:
 
     except Exception as exc:
         return {"utile": True, "doublon": False,
-                "raison": f"pre-screen : erreur ({exc}), on tente la video"}
+                "raison": f"pre-screen : {type(exc).__name__} ({exc}), on tente la video"}
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
 
@@ -781,7 +868,8 @@ def process_video(url: str, channel_name: str, api_key: str):
         return out_path
 
     except Exception as exc:
-        print(f"   ❌ Erreur : {exc}")
+        print(f"   ❌ Erreur ({type(exc).__name__}) : {exc}")
+        traceback.print_exc(limit=3)
         return None
     finally:
         shutil.rmtree(tmp_dir, ignore_errors=True)
