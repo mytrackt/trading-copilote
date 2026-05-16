@@ -11,7 +11,7 @@ echo  ====================================================
 echo.
 
 :: Verification Python
-py --version >nul 2>&1
+python --version >nul 2>&1
 if errorlevel 1 (
     echo  ERREUR : Python non installe.
     echo  Telecharge sur https://python.org
@@ -40,6 +40,10 @@ if errorlevel 1 (
     exit /b 1
 )
 
+:: Auto-update yt-dlp (quiet, non bloquant si pas de reseau)
+echo  Verification mise a jour yt-dlp...
+python -m pip install -q -U yt-dlp >nul 2>&1
+
 :: Cle API - saisie masquee via PowerShell Read-Host -AsSecureString
 if "%ANTHROPIC_API_KEY%"=="" (
     echo  Cle ANTHROPIC_API_KEY non detectee.
@@ -66,7 +70,7 @@ echo  ====================================================
 echo.
 
 cd /d "C:\trading-copilote"
-py scripts\agent.py "%CHANNEL%"
+python scripts\agent.py "%CHANNEL%"
 
 echo.
 echo  ====================================================

@@ -6,13 +6,73 @@ Projet : TRADEX-AI
 Chemin : C:\\trading-copilote\\scripts\\channel_scraper.py
 """
 
+import os
 import re
+import time
+import hashlib
+import logging
 import subprocess
 import json
 import sys
 import unicodedata
+from pathlib import Path
+from typing import TypedDict, Optional
 
 YTDLP_TIMEOUT = 120  # secondes
+
+# ── BASE_DIR + cache yt-dlp (P2.8 + P2.10) ──────────────────────────────────
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CACHE_DIR = Path(BASE_DIR) / "logs" / "cache"
+CACHE_TTL_SECONDS = 24 * 3600  # 24h
+
+logger = logging.getLogger("transvideo.channel_scraper")
+
+
+# ── Types (P2.6) ────────────────────────────────────────────────────────────
+class VideoEntry(TypedDict):
+    url: str
+    title: str
+    duration: int
+    description: str
+    channel: str
+
+
+def _cache_path(channel_url: str, max_videos: int) -> Path:
+    """Chemin de cache déterministe pour (channel_url, max_videos)."""
+    key = hashlib.sha256(f"{channel_url}|{max_videos}".encode("utf-8")).hexdigest()[:16]
+    return CACHE_DIR / f"scrape_{key}.json"
+
+
+def _load_cache(channel_url: str, max_videos: int) -> Optional[list]:
+    """Retourne la liste des vidéos cachée si TTL non expiré, sinon None."""
+    path = _cache_path(channel_url, max_videos)
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        age = time.time() - data["timestamp"]
+        if age > CACHE_TTL_SECONDS:
+            return None
+        return data["videos"]
+    except (json.JSONDecodeError, KeyError, OSError) as exc:
+        logger.warning("cache read failed for %s: %s", path.name, exc)
+        return None
+
+
+def _save_cache(channel_url: str, max_videos: int, videos: list) -> None:
+    """Sauve les vidéos en cache (écriture atomique)."""
+    try:
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        path = _cache_path(channel_url, max_videos)
+        payload = json.dumps(
+            {"timestamp": time.time(), "url": channel_url, "videos": videos},
+            ensure_ascii=False,
+        )
+        tmp = str(path) + ".tmp"
+        Path(tmp).write_text(payload, encoding="utf-8")
+        os.replace(tmp, str(path))
+    except OSError as exc:
+        logger.warning("cache write failed: %s", exc)
 
 
 def _make_handle(channel_name: str) -> str:
@@ -41,13 +101,20 @@ def _run_ytdlp(args: list, label: str) -> subprocess.CompletedProcess:
         raise RuntimeError(f"{label} timeout ({YTDLP_TIMEOUT}s)")
 
 
-def _scrape_channel_url(channel_url: str, max_videos: int, channel_name: str = "") -> list:
+def _scrape_channel_url(channel_url: str, max_videos: int, channel_name: str = "") -> list[VideoEntry]:
     """
     Scrape les vidéos d'une chaîne via son URL directe.
+    Cache disque TTL 24h pour accélérer les reruns.
 
     Returns:
-        Liste de dicts {url, title, duration, description, channel}
+        Liste de VideoEntry {url, title, duration, description, channel}
     """
+    cached = _load_cache(channel_url, max_videos)
+    if cached is not None:
+        print(f"      ↳ cache hit ({len(cached)} vidéos, TTL 24h)")
+        logger.info("cache hit: %s (%d videos)", channel_url, len(cached))
+        return cached
+
     try:
         result = _run_ytdlp(
             [
@@ -63,14 +130,16 @@ def _scrape_channel_url(channel_url: str, max_videos: int, channel_name: str = "
             label="yt-dlp channel scrape",
         )
     except RuntimeError as exc:
+        logger.warning("yt-dlp timeout for %s: %s", channel_url, exc)
         print(f"      ↳ {exc}")
         return []
 
     if result.returncode != 0:
         stderr_snippet = (result.stderr or "")[-200:].strip()
+        logger.warning("yt-dlp returncode=%d for %s: %s", result.returncode, channel_url, stderr_snippet)
         print(f"      ↳ yt-dlp returncode={result.returncode} : {stderr_snippet}")
 
-    videos = []
+    videos: list[VideoEntry] = []
     for line in result.stdout.strip().split("\n"):
         line = line.strip()
         if not line:
@@ -97,6 +166,9 @@ def _scrape_channel_url(channel_url: str, max_videos: int, channel_name: str = "
             )
         except (json.JSONDecodeError, KeyError):
             continue
+
+    if videos:
+        _save_cache(channel_url, max_videos, videos)
 
     return videos
 
@@ -152,7 +224,7 @@ def _find_channel_url_via_search(channel_name: str) -> str:
     return ""
 
 
-def get_channel_videos(channel_name: str, max_videos: int = 300) -> list:
+def get_channel_videos(channel_name: str, max_videos: int = 300) -> list[VideoEntry]:
     """
     Retourne la liste des vidéos d'une chaîne YouTube en 2 étapes :
       Étape 1 : URL directe https://www.youtube.com/@{handle}/videos
