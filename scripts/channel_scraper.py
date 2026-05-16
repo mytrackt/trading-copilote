@@ -236,19 +236,25 @@ def get_channel_videos(channel_name: str, max_videos: int = 300) -> list[VideoEn
     """
     print(f"\n🔍 Recherche chaîne : '{channel_name}'")
 
-    handle = _make_handle(channel_name)
-    direct_url = f"https://www.youtube.com/@{handle}/videos"
-    print(f"   ▶ Étape 1 — URL directe : {direct_url}")
-    videos = _scrape_channel_url(direct_url, max_videos, channel_name)
+    # Étape 1 — ytsearch3 d'abord pour trouver l'URL canonique (validée par
+    # match de mots-clés sur l'uploader). Plus fiable que le @handle qui peut
+    # tomber sur une homonyme (ex: @GigiTrading = chaîne caméra surveillance).
+    print(f"   ▶ Étape 1 — Recherche canonique via ytsearch3")
+    channel_url = _find_channel_url_via_search(channel_name)
+
+    if channel_url:
+        print(f"   ▶ URL canonique : {channel_url}")
+        videos = _scrape_channel_url(channel_url, max_videos, channel_name)
+    else:
+        # Étape 2 — Fallback @handle direct (moins fiable mais utile si la
+        # recherche YouTube ne retourne rien).
+        handle = _make_handle(channel_name)
+        direct_url = f"https://www.youtube.com/@{handle}/videos"
+        print(f"   ⚠ ytsearch3 vide — fallback @handle : {direct_url}")
+        videos = _scrape_channel_url(direct_url, max_videos, channel_name)
 
     if not videos:
-        print(f"   ⚠ Étape 1 échouée — fallback via ytsearch3")
-        channel_url = _find_channel_url_via_search(channel_name)
-        if channel_url:
-            print(f"   ▶ Étape 2 — URL chaîne trouvée : {channel_url}")
-            videos = _scrape_channel_url(channel_url, max_videos, channel_name)
-        else:
-            print(f"   ❌ Aucune chaîne trouvée pour '{channel_name}'")
+        print(f"   ❌ Aucune chaîne trouvée pour '{channel_name}'")
 
     print(f"   ✅ {len(videos)} vidéos trouvées pour '{channel_name}'")
     return videos
