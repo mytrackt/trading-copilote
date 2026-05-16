@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 agent.py — Orchestrateur principal TRANSVIDEO
-Usage  : python scripts\\agent.py "Nom de la Chaîne YouTube"
+Usage  :
+  py scripts\\agent.py --channel "Nom de la Chaîne YouTube" [--limit N]
+  py scripts\\agent.py --url "https://www.youtube.com/watch?v=..."
 Projet : TRADEX-AI
 Chemin : C:\\trading-copilote\\scripts\\agent.py
 """
@@ -11,6 +13,7 @@ import sys
 import json
 import shutil
 import logging
+import argparse
 from pathlib import Path
 from datetime import datetime
 from typing import Optional
@@ -192,24 +195,73 @@ def run(channel_name: str, limit: Optional[int] = None) -> None:
     print(f"{sep}\n")
 
 
-def _parse_cli(argv: list) -> tuple[str, Optional[int]]:
-    """Parse CLI : nom + --limit N optionnel. Retourne (channel_name, limit)."""
-    args = list(argv)
-    limit: Optional[int] = None
-    if "--limit" in args:
-        idx = args.index("--limit")
-        try:
-            limit = int(args[idx + 1])
-            args = args[:idx] + args[idx + 2:]
-        except (IndexError, ValueError):
-            print("Erreur : --limit attend un entier (ex: --limit 5)")
-            sys.exit(1)
-    if not args:
-        print("Usage : python scripts\\agent.py \"Nom de la Chaîne\" [--limit N]")
-        sys.exit(1)
-    return " ".join(args), limit
+def run_single_url(url: str) -> None:
+    """Pipeline pour une vidéo unique (mode --url). Skip channel_scraper + video_filter."""
+    log_file = setup_logging()
+    logger.info("==== TRANSVIDEO start | mode=single-url | url='%s' ====", url)
+
+    sep = "=" * 58
+    print(f"\n{sep}")
+    print(f"  🚀 TRANSVIDEO PIPELINE — TRADEX-AI (mode URL unique)")
+    print(f"  URL    : {url}")
+    print(f"  Log    : {log_file}")
+    print(f"{sep}")
+
+    api_key = check_env()
+    print("✅ Environnement OK")
+
+    print(f"\n{'─' * 58}")
+    print("ÉTAPE — Chunk & Fuse (vidéo unique)")
+    print(f"{'─' * 58}")
+
+    out = process_video(url, "Single Videos", api_key)
+
+    logger.info("TRANSVIDEO done | success=%s", bool(out))
+
+    print(f"\n{sep}")
+    if out:
+        print(f"  ✅  Fichier généré : {out}")
+    else:
+        print(f"  ⏭️  Aucun fichier généré (pré-screen négatif ou erreur)")
+    print(f"  📁  {OUTPUT_BASE / 'Single Videos'}")
+    print(f"  📋  Log complet : {log_file}")
+    print(f"{sep}\n")
+
+
+def _build_parser() -> argparse.ArgumentParser:
+    """Argparse : --channel et --url mutuellement exclusifs."""
+    parser = argparse.ArgumentParser(
+        prog="agent.py",
+        description="TRANSVIDEO — pipeline YouTube vers specs trading (TRADEX-AI)"
+    )
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument(
+        "--channel",
+        metavar="NAME",
+        help="Nom de la chaîne YouTube à scraper entièrement"
+    )
+    group.add_argument(
+        "--url",
+        metavar="URL",
+        help="URL d'une vidéo unique (skip scraper + filtre)"
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Limite le nombre de vidéos traitées (mode --channel uniquement)"
+    )
+    return parser
 
 
 if __name__ == "__main__":
-    channel, lim = _parse_cli(sys.argv[1:])
-    run(channel, limit=lim)
+    parser = _build_parser()
+    args = parser.parse_args()
+
+    if args.url:
+        if args.limit is not None:
+            print("⚠  --limit ignoré en mode --url")
+        run_single_url(args.url)
+    else:
+        run(args.channel, limit=args.limit)
