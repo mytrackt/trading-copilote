@@ -30,7 +30,7 @@ from datetime import datetime
 OUTPUT_BASE    = r"C:\trading-copilote\07-nouvelles sources"
 MAX_FRAMES     = 28            # Frames max par vidéo
 RESOLUTION     = 800           # Largeur en pixels
-MODEL          = "claude-opus-4-6"
+MODEL          = "claude-sonnet-4-6"
 MAX_SIZE_MB    = 500           # Guardrail taille vidéo
 WINDOW_BEFORE  = 5             # Secondes avant la frame
 WINDOW_AFTER   = 20            # Secondes après la frame

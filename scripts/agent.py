@@ -53,7 +53,7 @@ def run(channel_name: str) -> None:
     print(f"\n{'─' * 58}")
     print("ÉTAPE 1 — Récupération des vidéos")
     print(f"{'─' * 58}")
-    videos = get_channel_videos(channel_name, max_videos=50)
+    videos = get_channel_videos(channel_name, max_videos=300)
 
     if not videos:
         print("❌  Aucune vidéo trouvée. Vérifie le nom de la chaîne.")
