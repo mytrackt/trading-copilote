@@ -6,39 +6,69 @@ Projet : TRADEX-AI
 Chemin : C:\\trading-copilote\\scripts\\channel_scraper.py
 """
 
+import re
 import subprocess
 import json
 import sys
+import unicodedata
+
+YTDLP_TIMEOUT = 120  # secondes
+
+
+def _make_handle(channel_name: str) -> str:
+    """
+    Convertit un nom de chaîne en handle YouTube ASCII :
+      "Élève Trader" → "EleveTrader"
+      "Bourse-Direct" → "Bourse-Direct"
+    """
+    normalized = unicodedata.normalize("NFKD", channel_name)
+    ascii_only = "".join(c for c in normalized if not unicodedata.combining(c))
+    return re.sub(r"[^A-Za-z0-9._-]", "", ascii_only)
+
+
+def _run_ytdlp(args: list, label: str) -> subprocess.CompletedProcess:
+    """Lance yt-dlp avec timeout. Lève RuntimeError sur timeout."""
+    try:
+        return subprocess.run(
+            args,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="ignore",
+            timeout=YTDLP_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"{label} timeout ({YTDLP_TIMEOUT}s)")
 
 
 def _scrape_channel_url(channel_url: str, max_videos: int, channel_name: str = "") -> list:
     """
     Scrape les vidéos d'une chaîne via son URL directe.
 
-    Args:
-        channel_url: URL de la page /videos de la chaîne
-        max_videos: Nombre max de vidéos à récupérer
-        channel_name: Nom de la chaîne (fallback pour le champ 'channel')
-
     Returns:
         Liste de dicts {url, title, duration, description, channel}
     """
-    result = subprocess.run(
-        [
-            "yt-dlp",
-            "--flat-playlist",
-            "--dump-json",
-            "--no-warnings",
-            "--ignore-errors",
-            "--playlist-end",
-            str(max_videos),
-            channel_url,
-        ],
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="ignore",
-    )
+    try:
+        result = _run_ytdlp(
+            [
+                "yt-dlp",
+                "--flat-playlist",
+                "--dump-json",
+                "--no-warnings",
+                "--ignore-errors",
+                "--playlist-end",
+                str(max_videos),
+                channel_url,
+            ],
+            label="yt-dlp channel scrape",
+        )
+    except RuntimeError as exc:
+        print(f"      ↳ {exc}")
+        return []
+
+    if result.returncode != 0:
+        stderr_snippet = (result.stderr or "")[-200:].strip()
+        print(f"      ↳ yt-dlp returncode={result.returncode} : {stderr_snippet}")
 
     videos = []
     for line in result.stdout.strip().split("\n"):
@@ -73,29 +103,31 @@ def _scrape_channel_url(channel_url: str, max_videos: int, channel_name: str = "
 
 def _find_channel_url_via_search(channel_name: str) -> str:
     """
-    Fallback : cherche la chaîne via ytsearch3 et extrait l'URL de la chaîne
-    depuis les résultats.
-
-    Args:
-        channel_name: Nom de la chaîne à chercher
-
-    Returns:
-        URL de la page /videos de la chaîne, ou chaîne vide si introuvable
+    Fallback : ytsearch3 + extraction channel_url + validation par match de mots.
+    Retourne chaîne vide si aucun résultat ne matche.
     """
-    result = subprocess.run(
-        [
-            "yt-dlp",
-            "--flat-playlist",
-            "--dump-json",
-            "--no-warnings",
-            "--ignore-errors",
-            f"ytsearch3:{channel_name}",
-        ],
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        errors="ignore",
-    )
+    try:
+        result = _run_ytdlp(
+            [
+                "yt-dlp",
+                "--flat-playlist",
+                "--dump-json",
+                "--no-warnings",
+                "--ignore-errors",
+                f"ytsearch3:{channel_name}",
+            ],
+            label="yt-dlp ytsearch3",
+        )
+    except RuntimeError as exc:
+        print(f"      ↳ {exc}")
+        return ""
+
+    if result.returncode != 0:
+        stderr_snippet = (result.stderr or "")[-200:].strip()
+        print(f"      ↳ yt-dlp ytsearch3 returncode={result.returncode} : {stderr_snippet}")
+
+    channel_lower = channel_name.lower()
+    keywords = [w for w in channel_lower.split() if len(w) > 3]
 
     for line in result.stdout.strip().split("\n"):
         line = line.strip()
@@ -103,6 +135,11 @@ def _find_channel_url_via_search(channel_name: str) -> str:
             continue
         try:
             data = json.loads(line)
+            # Validation : uploader doit contenir au moins un mot-clé du nom cherché
+            uploader = (data.get("uploader") or data.get("channel") or "").lower()
+            if keywords and uploader and not any(k in uploader for k in keywords):
+                continue
+
             channel_url = data.get("channel_url") or data.get("uploader_url") or ""
             if channel_url:
                 channel_url = channel_url.rstrip("/")
@@ -124,19 +161,14 @@ def get_channel_videos(channel_name: str, max_videos: int = 300) -> list:
     Args:
         channel_name: Nom de la chaîne (ex: "The Trading Geek")
         max_videos: Nombre maximum de vidéos à récupérer (défaut 300)
-
-    Returns:
-        Liste de dicts {url, title, duration, description, channel}
     """
     print(f"\n🔍 Recherche chaîne : '{channel_name}'")
 
-    # Étape 1 — URL directe @handle
-    handle = channel_name.replace(" ", "")
+    handle = _make_handle(channel_name)
     direct_url = f"https://www.youtube.com/@{handle}/videos"
     print(f"   ▶ Étape 1 — URL directe : {direct_url}")
     videos = _scrape_channel_url(direct_url, max_videos, channel_name)
 
-    # Étape 2 — fallback via recherche
     if not videos:
         print(f"   ⚠ Étape 1 échouée — fallback via ytsearch3")
         channel_url = _find_channel_url_via_search(channel_name)
