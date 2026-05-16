@@ -287,12 +287,26 @@ def _cleanup_srt(out_dir: str) -> None:
             pass
 
 
+def _log_ytdlp_failure(label: str, result: subprocess.CompletedProcess) -> None:
+    """Affiche un extrait de stderr de yt-dlp quand aucun .srt n'est produit."""
+    stderr = (result.stderr or "").strip()
+    if not stderr:
+        print(f"      ↳ yt-dlp ({label}) : aucune erreur, aucun sous-titre produit")
+        return
+    relevant = [
+        line.strip() for line in stderr.splitlines()
+        if any(tag in line for tag in ("ERROR", "WARNING", "HTTP"))
+    ]
+    snippet = " | ".join(relevant[-3:]) if relevant else stderr[-300:]
+    print(f"      ↳ yt-dlp ({label}) : {snippet[:300]}")
+
+
 def _try_native_subs(url: str, out_dir: str) -> list:
     """Tentative 1 : sous-titres natifs YouTube."""
     print("   📝 Tentative 1/3 : sous-titres natifs...")
     _cleanup_srt(out_dir)
     srt_base = os.path.join(out_dir, "subs_native")
-    subprocess.run(
+    result = subprocess.run(
         ["yt-dlp",
          "--write-sub", "--sub-lang", "fr,fr-FR,en,en-US",
          "--skip-download", "--convert-subs", "srt",
@@ -300,7 +314,10 @@ def _try_native_subs(url: str, out_dir: str) -> list:
         capture_output=True, text=True,
         encoding="utf-8", errors="ignore"
     )
-    return _parse_srt_files(out_dir)
+    segments = _parse_srt_files(out_dir)
+    if not segments:
+        _log_ytdlp_failure("natifs", result)
+    return segments
 
 
 def _try_auto_subs(url: str, out_dir: str) -> list:
@@ -308,7 +325,7 @@ def _try_auto_subs(url: str, out_dir: str) -> list:
     print("   📝 Tentative 2/3 : sous-titres auto-générés...")
     _cleanup_srt(out_dir)
     srt_base = os.path.join(out_dir, "subs_auto")
-    subprocess.run(
+    result = subprocess.run(
         ["yt-dlp",
          "--write-auto-sub", "--sub-lang", "fr,en",
          "--skip-download", "--convert-subs", "srt",
@@ -316,7 +333,10 @@ def _try_auto_subs(url: str, out_dir: str) -> list:
         capture_output=True, text=True,
         encoding="utf-8", errors="ignore"
     )
-    return _parse_srt_files(out_dir)
+    segments = _parse_srt_files(out_dir)
+    if not segments:
+        _log_ytdlp_failure("auto-générés", result)
+    return segments
 
 
 def _try_whisper(out_dir: str) -> list:
