@@ -21,6 +21,7 @@ import time
 import base64
 import random
 import logging
+import statistics
 import subprocess
 import tempfile
 import shutil
@@ -916,6 +917,23 @@ def find_sltp_in_transcript(
     return top
 
 
+def _parse_price(value) -> Optional[float]:
+    """
+    Parse une valeur SL/TP en float. Accepte "25,049.50", "25049.50", 25049.5.
+    Retourne None si "INCONNU", string non-parsable, ou valeur ≤ 0.
+    """
+    if isinstance(value, (int, float)):
+        return float(value) if value > 0 else None
+    if isinstance(value, str) and value.strip() and value != "INCONNU":
+        cleaned = value.replace(",", "").replace(" ", "")
+        try:
+            v = float(cleaned)
+            return v if v > 0 else None
+        except ValueError:
+            return None
+    return None
+
+
 def _format_sltp_mentions(mentions: list[dict]) -> str:
     """Formate les mentions SL/TP pour injection dans le prompt Passe B."""
     if not mentions:
@@ -1425,6 +1443,44 @@ def process_video(url: str, channel_name: str, api_key: str) -> Optional[str]:
                     retry_count += 1
             if retry_count:
                 print(f"   🔁 Retry SL/TP : {retry_count} valeur(s) récupérée(s)")
+
+        # ── Outlier detection : SL/TP > ±50% de la médiane → INCONNU ────────
+        numeric_values: list[float] = []
+        for a in analyses:
+            if not a.get("est_setup_trading"):
+                continue
+            for key in ("stop_loss", "take_profit"):
+                v = _parse_price(a.get(key))
+                if v is not None:
+                    numeric_values.append(v)
+
+        # Médiane stable seulement avec ≥ 3 valeurs (sinon biais trop fort)
+        if len(numeric_values) >= 3:
+            median = statistics.median(numeric_values)
+            lower = median * 0.5
+            upper = median * 1.5
+            aberrant_count = 0
+            for i, a in enumerate(analyses):
+                if not a.get("est_setup_trading"):
+                    continue
+                ts_str = a.get("timestamp") or frames[i]["ts_str"]
+                for key in ("stop_loss", "take_profit"):
+                    v = _parse_price(a.get(key))
+                    if v is None:
+                        continue
+                    if v < lower or v > upper:
+                        original = a.get(key)
+                        print(f"   ⚠️  Setup [{ts_str}] — {key}={original} aberrant "
+                              f"(hors [{lower:.0f}, {upper:.0f}], médiane {median:.0f}) → INCONNU")
+                        logger.warning(
+                            "SL/TP aberrant: setup=%s %s=%s median=%.2f",
+                            ts_str, key, original, median,
+                        )
+                        a[key] = "INCONNU"
+                        a[f"source_{ 'sl' if key == 'stop_loss' else 'tp' }"] = "INCONNU"
+                        aberrant_count += 1
+            if aberrant_count:
+                print(f"   🚮 {aberrant_count} valeur(s) SL/TP aberrante(s) → INCONNU")
 
         # ── Phase B : filtre setups pédagogiques ────────────────────────────
         # Un setup est tradable si :
