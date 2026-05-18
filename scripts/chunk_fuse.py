@@ -76,6 +76,7 @@ class TranscriptSegment(TypedDict):
 
 class FrameInfo(TypedDict):
     path: str
+    axis_path: str
     ts_sec: float
     ts_str: str
 
@@ -87,8 +88,8 @@ logger = logging.getLogger("transvideo.chunk_fuse")
 # Cache module-level pour list_existing_content (P1.5)
 _EXISTING_KB_CACHE: Optional[list] = None
 
-# ── Prompt analyse pairée (Phase 4) ────────────────────────────────────────
-PROMPT_PAIR = """Tu analyses une frame extraite d'une vidéo de trading.
+# ── Prompts analyse 2 passes (Phase 4) ─────────────────────────────────────
+PROMPT_PASS_A = """Tu analyses une frame extraite d'une vidéo de trading.
 Timestamp de cette frame : [{ts}]
 Transcription alignée (paroles prononcées autour de ce moment) :
 \"\"\"{transcript}\"\"\"
@@ -102,8 +103,6 @@ Réponds UNIQUEMENT avec un objet JSON valide. Aucun texte avant ou après.
   "action_prix": "INCONNU",
   "signal": "INCONNU",
   "condition_entree": "INCONNU",
-  "stop_loss": "INCONNU",
-  "take_profit": "INCONNU",
   "note": ""
 }}
 
@@ -111,7 +110,49 @@ RÈGLES ABSOLUES :
 - est_setup_trading = true SEULEMENT si un setup de trading réel est visible
 - Toute valeur non visible ou non dite = "INCONNU"
 - Ne pas inventer. Ne pas déduire. Seulement ce qui est visible ou dit.
-- Les indicateurs sont une liste : [{{"nom": "EMA", "periode": 50, "couleur": "bleue"}}]"""
+- Les indicateurs sont une liste : [{{"nom": "EMA", "periode": 50, "couleur": "bleue"}}]
+- NE PAS REMPLIR stop_loss / take_profit ici : ces valeurs seront extraites séparément."""
+
+PROMPT_PASS_B = """Tu analyses la même frame que précédemment pour identifier
+UNIQUEMENT les niveaux de Stop Loss (SL) et Take Profit (TP).
+Timestamp : [{ts}]
+Signal détecté en passe A : {signal}
+
+Mentions SL/TP repérées dans la transcription globale (par proximité) :
+{transcript_mentions}
+
+Regarde les lignes horizontales sur ce graphique. Lis le prix exact sur l'axe
+droit pour chaque ligne. Identifie :
+  - Stop Loss : au-dessus du prix actuel si VENTE, en-dessous si ACHAT
+  - Take Profit : INVERSE du Stop Loss
+Donne les valeurs numériques exactes. Si aucune ligne visible → réponds INCONNU.
+
+Réponds UNIQUEMENT avec un objet JSON valide. Aucun texte avant ou après.
+{{
+  "stop_loss": "INCONNU",
+  "take_profit": "INCONNU",
+  "source_sl": "INCONNU",
+  "source_tp": "INCONNU"
+}}
+
+RÈGLES :
+- "source_sl" / "source_tp" = "AXE" si lu sur l'axe droit, "TRANSCRIPT" si déduit
+  de la transcription, "INCONNU" sinon.
+- Aucune invention. Si flou ou non lisible → INCONNU."""
+
+PROMPT_HAS_LEVELS = """Regarde l'axe des prix (côté droit). Y a-t-il des lignes
+horizontales avec des labels de prix numériques visibles ?
+Réponds UNIQUEMENT en JSON : {"has_levels": true/false, "price_levels": []}"""
+
+SL_KEYWORDS = [
+    "stop", "stop loss", "sl", "risque", "risk",
+    "invalidation", "above", "below", "au-dessus", "en-dessous",
+]
+TP_KEYWORDS = [
+    "target", "objectif", "take profit", "tp", "cible",
+    "profit", "sortie", "exit", "niveau", "zone",
+]
+_NUMBER_RE = re.compile(r"\d+[\.,]\d+")
 
 # ── Prompt fusion finale (Phase 5) ─────────────────────────────────────────
 PROMPT_FUSION = """Tu reçois les analyses de toutes les frames d'une vidéo de trading.
@@ -264,7 +305,9 @@ def download_video(url: str, out_dir: str) -> str:
 def extract_frames(video_path: str, out_dir: str) -> list[FrameInfo]:
     """
     Extrait des frames à intervalle régulier selon la durée.
-    Retourne liste de {path, ts_sec, ts_str}.
+    Pour chaque frame normale, extrait aussi un crop de l'axe droit (prix) :
+      crop=in_w*0.15:in_h:in_w*0.85:0,scale=400:-1 -> frame_XXXX_axis.jpg
+    Retourne liste de {path, axis_path, ts_sec, ts_str}.
     """
     frames_dir = Path(out_dir) / "frames"
     frames_dir.mkdir(exist_ok=True)
@@ -275,6 +318,7 @@ def extract_frames(video_path: str, out_dir: str) -> list[FrameInfo]:
 
     print(f"   🎬 Extraction frames (1 toutes les {interval}s sur {duration:.0f}s)...")
 
+    # ── Passe 1 : frames principales ────────────────────────────────────────
     try:
         result = subprocess.run(
             ["ffmpeg", "-i", video_path,
@@ -290,17 +334,36 @@ def extract_frames(video_path: str, out_dir: str) -> list[FrameInfo]:
         stderr = (result.stderr or "")[-200:].strip() if result.stderr else ""
         raise RuntimeError(f"ffmpeg extract_frames échoué : {stderr}")
 
-    frames = sorted(frames_dir.glob("frame_*.jpg"))
+    # ── Passe 2 : crop axe droit (15% de droite, scale large) ───────────────
+    try:
+        result_axis = subprocess.run(
+            ["ffmpeg", "-i", video_path,
+             "-vf", f"fps=1/{interval},crop=in_w*0.15:in_h:in_w*0.85:0,scale=400:-1",
+             "-q:v", "2",
+             str(frames_dir / "frame_%04d_axis.jpg")],
+            capture_output=True, text=True,
+            timeout=FFMPEG_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"ffmpeg extract_axis timeout ({FFMPEG_TIMEOUT}s)")
+    if result_axis.returncode != 0:
+        stderr = (result_axis.stderr or "")[-200:].strip() if result_axis.stderr else ""
+        raise RuntimeError(f"ffmpeg extract_axis échoué : {stderr}")
+
+    frames = sorted(frames_dir.glob("frame_[0-9]*.jpg"))
+    frames = [f for f in frames if not f.stem.endswith("_axis")]
     result = []
     for i, f in enumerate(frames):
         ts_sec = float(i * interval)
+        axis_file = f.parent / f"{f.stem}_axis.jpg"
         result.append({
             "path": str(f),
+            "axis_path": str(axis_file) if axis_file.exists() else "",
             "ts_sec": ts_sec,
             "ts_str": sec_to_hms(ts_sec),
         })
 
-    print(f"   ✅ {len(result)} frames extraites")
+    print(f"   ✅ {len(result)} frames extraites (+ axes)")
     return result
 
 
@@ -604,16 +667,114 @@ def call_api(api_key: str, payload: dict) -> str:
     raise RuntimeError(f"API max retries dépassés : {last_error}")
 
 
-def analyze_frame(api_key: str, frame: FrameInfo, window: str) -> dict:
-    """Phase 4 : analyse une frame + sa fenêtre de transcription."""
-    ts     = frame["ts_str"]
-    prompt = (PROMPT_PAIR
-              .replace("{ts}", ts)
-              .replace("{transcript}", window[:600]))
+def has_price_levels(api_key: str, axis_path: str) -> bool:
+    """
+    Détecteur léger : envoie uniquement le crop axe droit (frame_XXXX_axis.jpg)
+    à Claude et demande s'il y a des lignes horizontales avec labels prix.
+    Retourne True si has_levels=true, False sinon (y compris erreurs).
+    """
+    if not axis_path or not os.path.exists(axis_path):
+        return False
 
     payload = {
         "model": MODEL,
-        "max_tokens": 600,
+        "max_tokens": 100,
+        "messages": [{
+            "role": "user",
+            "content": [
+                {
+                    "type": "image",
+                    "source": {
+                        "type": "base64",
+                        "media_type": "image/jpeg",
+                        "data": b64_image(axis_path),
+                    },
+                },
+                {"type": "text", "text": PROMPT_HAS_LEVELS},
+            ],
+        }],
+    }
+    try:
+        raw = call_api(api_key, payload)
+    except RuntimeError:
+        return False
+    raw = re.sub(r"```json|```", "", raw).strip()
+    try:
+        verdict = json.loads(raw)
+        return bool(verdict.get("has_levels", False))
+    except json.JSONDecodeError:
+        return False
+
+
+def find_sltp_in_transcript(
+    segments: list[TranscriptSegment],
+    frame_ts: float,
+) -> list[dict]:
+    """
+    Recherche globale SL/TP dans toute la transcription (pas ±45s).
+    Garde uniquement les segments contenant : keyword SL/TP + nombre décimal.
+    Trie par proximité temporelle avec frame_ts. Retourne les 3 plus proches.
+    Chaque résultat : {"ts": int, "text": str, "type": "SL"|"TP"|"BOTH"}.
+    """
+    if not segments:
+        return []
+
+    hits = []
+    for s in segments:
+        text_low = s["text"].lower()
+        if not _NUMBER_RE.search(s["text"]):
+            continue
+        has_sl = any(k in text_low for k in SL_KEYWORDS)
+        has_tp = any(k in text_low for k in TP_KEYWORDS)
+        if not (has_sl or has_tp):
+            continue
+        kind = "BOTH" if (has_sl and has_tp) else ("SL" if has_sl else "TP")
+        hits.append({
+            "ts": int(s["start"]),
+            "text": s["text"][:200],
+            "type": kind,
+            "_dist": abs(s["start"] - frame_ts),
+        })
+
+    hits.sort(key=lambda h: h["_dist"])
+    closest = hits[:3]
+    for h in closest:
+        h.pop("_dist", None)
+    return closest
+
+
+def _format_sltp_mentions(mentions: list[dict]) -> str:
+    """Formate les mentions SL/TP pour injection dans le prompt Passe B."""
+    if not mentions:
+        return "(aucune mention SL/TP trouvée dans la transcription)"
+    lines = []
+    for m in mentions:
+        ts_str = sec_to_hms(m["ts"])
+        lines.append(f"- [{ts_str}] ({m['type']}) : {m['text']}")
+    return "\n".join(lines)
+
+
+def analyze_frame(
+    api_key: str,
+    frame: FrameInfo,
+    window: str,
+    segments: Optional[list[TranscriptSegment]] = None,
+) -> dict:
+    """
+    Phase 4 : analyse une frame en 2 passes séquentielles.
+      Passe A : contexte global (timeframe, indicateurs, signal) max_tokens=400
+      Passe B : SL/TP uniquement (image + axis si has_levels=True) max_tokens=200
+    Les résultats sont fusionnés en un seul JSON final.
+    """
+    ts = frame["ts_str"]
+
+    # ── PASSE A : contexte global (image complète seule) ────────────────────
+    prompt_a = (PROMPT_PASS_A
+                .replace("{ts}", ts)
+                .replace("{transcript}", window[:600]))
+    payload_a = {
+        "model": MODEL,
+        "max_tokens": 400,
         "messages": [{
             "role": "user",
             "content": [
@@ -625,21 +786,89 @@ def analyze_frame(api_key: str, frame: FrameInfo, window: str) -> dict:
                         "data": b64_image(frame["path"]),
                     },
                 },
-                {"type": "text", "text": prompt},
+                {"type": "text", "text": prompt_a},
             ],
         }],
     }
-
-    raw = call_api(api_key, payload)
-    raw = re.sub(r"```json|```", "", raw).strip()
+    raw_a = call_api(api_key, payload_a)
+    raw_a = re.sub(r"```json|```", "", raw_a).strip()
     try:
-        return json.loads(raw)
+        result_a = json.loads(raw_a)
     except json.JSONDecodeError:
         return {
             "timestamp": ts,
             "est_setup_trading": False,
-            "note": f"erreur parsing JSON : {raw[:100]}",
+            "stop_loss": "INCONNU",
+            "take_profit": "INCONNU",
+            "note": f"passe A : JSON invalide ({raw_a[:80]})",
         }
+
+    # Valeurs par défaut SL/TP (cas où Passe B est sautée)
+    result_a.setdefault("stop_loss", "INCONNU")
+    result_a.setdefault("take_profit", "INCONNU")
+    result_a.setdefault("source_sl", "INCONNU")
+    result_a.setdefault("source_tp", "INCONNU")
+
+    # Si pas de setup détecté, inutile d'aller chercher SL/TP
+    if not result_a.get("est_setup_trading"):
+        return result_a
+
+    # ── Recherche globale SL/TP dans la transcription ───────────────────────
+    mentions = find_sltp_in_transcript(segments or [], frame["ts_sec"])
+    mentions_str = _format_sltp_mentions(mentions)
+
+    # ── Détecteur léger axis : décide si on attache l'image axis ────────────
+    axis_path = frame.get("axis_path", "")
+    use_axis = bool(axis_path) and has_price_levels(api_key, axis_path)
+
+    # ── PASSE B : SL/TP focalisée ───────────────────────────────────────────
+    prompt_b = (PROMPT_PASS_B
+                .replace("{ts}", ts)
+                .replace("{signal}", str(result_a.get("signal", "INCONNU")))
+                .replace("{transcript_mentions}", mentions_str))
+
+    content_b = [
+        {
+            "type": "image",
+            "source": {
+                "type": "base64",
+                "media_type": "image/jpeg",
+                "data": b64_image(frame["path"]),
+            },
+        },
+    ]
+    if use_axis:
+        content_b.append({
+            "type": "image",
+            "source": {
+                "type": "base64",
+                "media_type": "image/jpeg",
+                "data": b64_image(axis_path),
+            },
+        })
+    content_b.append({"type": "text", "text": prompt_b})
+
+    payload_b = {
+        "model": MODEL,
+        "max_tokens": 200,
+        "messages": [{"role": "user", "content": content_b}],
+    }
+    try:
+        raw_b = call_api(api_key, payload_b)
+    except RuntimeError:
+        return result_a
+    raw_b = re.sub(r"```json|```", "", raw_b).strip()
+    try:
+        result_b = json.loads(raw_b)
+    except json.JSONDecodeError:
+        return result_a
+
+    # ── Fusion ──────────────────────────────────────────────────────────────
+    for key in ("stop_loss", "take_profit", "source_sl", "source_tp"):
+        if key in result_b and result_b[key]:
+            result_a[key] = result_b[key]
+
+    return result_a
 
 
 # ── Phase 5 : Fusion ────────────────────────────────────────────────────────
@@ -902,7 +1131,7 @@ def process_video(url: str, channel_name: str, api_key: str) -> Optional[str]:
         analyses = []
         for i, frame in enumerate(frames, 1):
             window   = get_window(segments, frame["ts_sec"])
-            analysis = analyze_frame(api_key, frame, window)
+            analysis = analyze_frame(api_key, frame, window, segments)
             mark     = "✅" if analysis.get("est_setup_trading") else "·"
             print(f"      {mark} [{frame['ts_str']}] ({i}/{len(frames)})", end="\r")
             analyses.append(analysis)
