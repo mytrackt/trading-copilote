@@ -204,7 +204,8 @@ FinSi
 
 ---
 
-Commence directement par SETUP #1. Aucune introduction. Aucune conclusion."""
+Commence directement par SETUP #{start_num}. Numérote chaque setup suivant
+de manière continue à partir de ce numéro. Aucune introduction. Aucune conclusion."""
 
 # ── Prompt pré-screen (Phase 0) ────────────────────────────────────────────
 PROMPT_PRESCREEN = """Tu vois 5 frames extraites des 3 premieres minutes d'une video de trading.
@@ -1069,25 +1070,85 @@ def analyze_frame(
 
 # ── Phase 5 : Fusion ────────────────────────────────────────────────────────
 
-def merge_analyses(api_key: str, analyses: list[dict], title: str) -> str:
-    """Phase 5 : fusionne toutes les analyses et génère le guide .md."""
-    setups = [a for a in analyses if a.get("est_setup_trading")]
-    if not setups:
-        return "# Aucun setup trading identifié dans cette vidéo.\n"
+# Phase 5 — paramètres de batching pour merge_analyses
+MERGE_MAX_TOKENS = 8000
+MERGE_BATCH_THRESHOLD = 8   # déclenche le batching si > 8 setups
+MERGE_BATCH_SIZE = 6        # taille max d'un batch
 
-    prompt  = PROMPT_FUSION.replace("{title}", title)
+
+def _merge_batch(
+    api_key: str,
+    batch: list[dict],
+    title: str,
+    start_num: int,
+) -> str:
+    """Exécute un appel Claude pour un sous-ensemble de setups, en démarrant
+    la numérotation à start_num."""
+    prompt = (PROMPT_FUSION
+              .replace("{title}", title)
+              .replace("{start_num}", str(start_num)))
     content = (
         f"Titre vidéo : {title}\n\n"
-        f"Analyses ({len(setups)} frames avec setup) :\n"
-        f"{json.dumps(setups, indent=2, ensure_ascii=False)}"
+        f"Analyses ({len(batch)} frames avec setup, numérotation à partir de #{start_num}) :\n"
+        f"{json.dumps(batch, indent=2, ensure_ascii=False)}"
         f"\n\n{prompt}"
     )
     payload = {
         "model": MODEL,
-        "max_tokens": 4000,
+        "max_tokens": MERGE_MAX_TOKENS,
         "messages": [{"role": "user", "content": content}],
     }
     return call_api(api_key, payload)
+
+
+def _warn_if_truncated(md: str) -> bool:
+    """
+    Vérifie si la sortie markdown se termine bien par un séparateur '---'.
+    Retourne True si troncature détectée (warning loggé).
+    """
+    tail = md.rstrip().splitlines()[-3:] if md.strip() else []
+    tail_joined = "\n".join(line.strip() for line in tail)
+    if "---" not in tail_joined:
+        logger.warning("Troncature détectée — augmenter max_tokens")
+        print("   ⚠️  Troncature détectée — augmenter max_tokens")
+        return True
+    return False
+
+
+def merge_analyses(api_key: str, analyses: list[dict], title: str) -> str:
+    """
+    Phase 5 : fusionne toutes les analyses et génère le guide .md.
+    Si len(setups) > MERGE_BATCH_THRESHOLD : découpe en batches de
+    MERGE_BATCH_SIZE max et concatène les markdowns en numérotation continue.
+    """
+    setups = [a for a in analyses if a.get("est_setup_trading")]
+    if not setups:
+        return "# Aucun setup trading identifié dans cette vidéo.\n"
+
+    # Cas simple : un seul batch
+    if len(setups) <= MERGE_BATCH_THRESHOLD:
+        result = _merge_batch(api_key, setups, title, start_num=1)
+        _warn_if_truncated(result)
+        return result
+
+    # Cas batché : découpe en sous-ensembles
+    total_batches = (len(setups) + MERGE_BATCH_SIZE - 1) // MERGE_BATCH_SIZE
+    print(f"   ✂️  {len(setups)} setups > {MERGE_BATCH_THRESHOLD} — découpage "
+          f"en {total_batches} batches de {MERGE_BATCH_SIZE} max")
+
+    parts: list[str] = []
+    current_num = 1
+    for idx in range(0, len(setups), MERGE_BATCH_SIZE):
+        batch = setups[idx:idx + MERGE_BATCH_SIZE]
+        batch_n = idx // MERGE_BATCH_SIZE + 1
+        print(f"   🔀 Batch {batch_n}/{total_batches} "
+              f"({len(batch)} setups, démarrage #{current_num})")
+        md = _merge_batch(api_key, batch, title, start_num=current_num)
+        _warn_if_truncated(md)
+        parts.append(md.strip())
+        current_num += len(batch)
+
+    return "\n\n".join(parts) + "\n"
 
 
 # ── Sauvegarde ──────────────────────────────────────────────────────────────
@@ -1365,9 +1426,55 @@ def process_video(url: str, channel_name: str, api_key: str) -> Optional[str]:
             if retry_count:
                 print(f"   🔁 Retry SL/TP : {retry_count} valeur(s) récupérée(s)")
 
+        # ── Phase B : filtre setups pédagogiques ────────────────────────────
+        # Un setup est tradable si :
+        #   - SL OU TP est numérique (≠ INCONNU), OU
+        #   - le transcript local (fenêtre de la frame) contient un nombre
+        #     décimal (indication d'un niveau de prix énoncé)
+        setups_total_avant = sum(1 for a in analyses if a.get("est_setup_trading"))
+        setups_exclus = 0
+        for i, analysis in enumerate(analyses):
+            if not analysis.get("est_setup_trading"):
+                continue
+            sl = analysis.get("stop_loss", "INCONNU")
+            tp = analysis.get("take_profit", "INCONNU")
+            has_numeric_sltp = sl != "INCONNU" or tp != "INCONNU"
+
+            frame_ts = frames[i]["ts_sec"]
+            w_start = frame_ts - WINDOW_BEFORE
+            w_end   = frame_ts + WINDOW_AFTER
+            local_segments = [
+                s for s in segments
+                if s["end"] >= w_start and s["start"] <= w_end
+            ]
+            has_local_numeric = any(
+                _NUMBER_RE.search(seg["text"]) for seg in local_segments
+            )
+
+            est_tradable = has_numeric_sltp or has_local_numeric
+            if not est_tradable:
+                analysis["est_setup_trading"] = False
+                analysis["exclu_pedagogique"] = True
+                setups_exclus += 1
+                ts_str = analysis.get("timestamp", frames[i]["ts_str"])
+                print(f"   ⏭️  Setup [{ts_str}] exclu (pédagogique — aucun niveau numérique)")
+
+        setups_tradables = setups_total_avant - setups_exclus
+        if setups_total_avant:
+            print(f"   📊 Setups tradables : {setups_tradables}/{setups_total_avant} "
+                  f"({setups_exclus} exclus — pédagogiques)")
+
         print("   🔀 Génération guide technique...")
-        specs_md  = merge_analyses(api_key, analyses, title)
-        out_path  = save_md(specs_md, title, channel_name, url)
+        specs_md = merge_analyses(api_key, analyses, title)
+
+        # Préfixe résumé tradables/exclus en tête du contenu
+        summary_block = (
+            f"> **Setups tradables :** {setups_tradables}/{setups_total_avant} "
+            f"({setups_exclus} exclus — pédagogiques)\n\n"
+            f"---\n\n"
+        )
+        specs_md = summary_block + specs_md
+        out_path = save_md(specs_md, title, channel_name, url)
 
         print(f"   ✅ {out_path}")
         return out_path
