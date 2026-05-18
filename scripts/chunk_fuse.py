@@ -19,6 +19,7 @@ import sys
 import json
 import time
 import base64
+import random
 import logging
 import subprocess
 import tempfile
@@ -415,10 +416,20 @@ def get_segments(url: str, out_dir: str) -> list[TranscriptSegment]:
         print(f"   ✅ {len(segments)} segments (sous-titres natifs)")
         return segments
 
+    # Anti-429 : pause avant tentative auto-générés (rate-limit YouTube)
+    pause = random.uniform(4, 8)
+    print(f"   ⏳ Pause anti-429 ({pause:.1f}s) avant tentative 2/3...")
+    time.sleep(pause)
+
     segments = _try_auto_subs(url, out_dir)
     if segments:
         print(f"   ✅ {len(segments)} segments (sous-titres auto-générés)")
         return segments
+
+    # Anti-429 : pause plus longue avant Whisper (charge réseau + audio upload)
+    pause = random.uniform(6, 12)
+    print(f"   ⏳ Pause anti-429 ({pause:.1f}s) avant tentative 3/3 Whisper...")
+    time.sleep(pause)
 
     segments = _try_whisper(out_dir)
     if segments:
@@ -569,11 +580,73 @@ def _try_whisper(out_dir: str) -> list[TranscriptSegment]:
         print(f"   ⚠️  Extraction audio échouée : {result.stderr[:120]}")
         return []
 
+    # FIX 413 : si audio > 20MB, découper en chunks de 18MB
     try:
+        audio_size = os.path.getsize(audio_path)
+    except OSError:
+        audio_size = 0
+    try:
+        if audio_size > 20_000_000:
+            return _whisper_transcribe_chunked(audio_path, api_key)
         return _whisper_transcribe(audio_path, api_key)
     except Exception as exc:
         print(f"   ⚠️  Whisper API échouée : {exc}")
         return []
+
+
+def _whisper_transcribe_chunked(audio_path: str, api_key: str) -> list[TranscriptSegment]:
+    """
+    Découpe audio_path en chunks de ~18MB via ffmpeg (segment muxer),
+    transcrit chaque chunk via Whisper API, puis concatène les segments
+    en ajustant les timestamps via offset cumulé (durée des chunks précédents).
+    """
+    audio_dir = os.path.dirname(audio_path)
+    chunk_tmpl = os.path.join(audio_dir, "chunk_%03d.mp3")
+
+    size_mb = os.path.getsize(audio_path) / (1024 * 1024)
+    print(f"   ✂️  Audio {size_mb:.1f}MB > 20MB — découpage en chunks 18MB...")
+
+    try:
+        result = subprocess.run(
+            ["ffmpeg", "-y", "-i", audio_path,
+             "-f", "segment", "-segment_size", "18000000",
+             "-c", "copy", chunk_tmpl],
+            capture_output=True, text=True,
+            timeout=FFMPEG_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        raise RuntimeError(f"ffmpeg chunking timeout ({FFMPEG_TIMEOUT}s)")
+    if result.returncode != 0:
+        stderr = (result.stderr or "")[-200:].strip()
+        raise RuntimeError(f"ffmpeg chunking échoué : {stderr}")
+
+    chunks = sorted(Path(audio_dir).glob("chunk_*.mp3"))
+    if not chunks:
+        raise RuntimeError("ffmpeg chunking : aucun chunk produit")
+
+    print(f"   ✂️  {len(chunks)} chunks à transcrire")
+
+    all_segments: list[TranscriptSegment] = []
+    offset = 0.0
+    for i, chunk in enumerate(chunks, 1):
+        chunk_str = str(chunk)
+        try:
+            chunk_duration = get_duration(chunk_str)
+        except RuntimeError:
+            chunk_duration = 0.0
+
+        print(f"   📝 Chunk {i}/{len(chunks)} ({chunk_duration:.0f}s) → Whisper...")
+        chunk_segments = _whisper_transcribe(chunk_str, api_key)
+
+        # Offset des timestamps par durée cumulée des chunks précédents
+        for seg in chunk_segments:
+            seg["start"] = int(seg["start"] + offset)
+            seg["end"]   = int(seg["end"]   + offset)
+        all_segments.extend(chunk_segments)
+
+        offset += chunk_duration
+
+    return all_segments
 
 
 def _whisper_transcribe(audio_path: str, api_key: str) -> list[TranscriptSegment]:
