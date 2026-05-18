@@ -106,16 +106,18 @@ def check_env() -> str:
     return api_key
 
 
-def run(channel_name: str, limit: Optional[int] = None) -> None:
+def run(channel_name: str, limit: Optional[int] = None, max_videos: int = 300) -> None:
     """
     Pipeline complet : chaîne → filtre → Chunk&Fuse → .md.
 
     Args:
         channel_name: Nom de la chaîne YouTube
         limit: Si défini, ne traite que les `limit` premières vidéos après filtre
+        max_videos: Nombre max de vidéos récupérées par le scraper (défaut 300)
     """
     log_file = setup_logging()
-    logger.info("==== TRANSVIDEO start | channel='%s' limit=%s ====", channel_name, limit)
+    logger.info("==== TRANSVIDEO start | channel='%s' max_videos=%d limit=%s ====",
+                channel_name, max_videos, limit)
 
     sep = "=" * 58
     print(f"\n{sep}")
@@ -131,7 +133,7 @@ def run(channel_name: str, limit: Optional[int] = None) -> None:
     print(f"\n{'─' * 58}")
     print("ÉTAPE 1 — Récupération des vidéos")
     print(f"{'─' * 58}")
-    videos = get_channel_videos(channel_name, max_videos=300)
+    videos = get_channel_videos(channel_name, max_videos=max_videos)
 
     if not videos:
         logger.warning("aucune vidéo trouvée pour '%s'", channel_name)
@@ -252,6 +254,13 @@ def _build_parser() -> argparse.ArgumentParser:
         metavar="N",
         help="Limite le nombre de vidéos traitées (mode --channel uniquement)"
     )
+    parser.add_argument(
+        "--max-videos",
+        type=int,
+        default=300,
+        metavar="N",
+        help="Nombre max de vidéos récupérées par le scraper YouTube (défaut 300, mode --channel uniquement)"
+    )
     return parser
 
 
@@ -262,6 +271,8 @@ if __name__ == "__main__":
     if args.url:
         if args.limit is not None:
             print("⚠  --limit ignoré en mode --url")
+        if args.max_videos != 300:
+            print("⚠  --max-videos ignoré en mode --url")
         run_single_url(args.url)
     else:
-        run(args.channel, limit=args.limit)
+        run(args.channel, limit=args.limit, max_videos=args.max_videos)

@@ -85,7 +85,7 @@ echo  ====================================================
 echo.
 
 cd /d "C:\trading-copilote"
-py scripts\agent.py --channel "%CHANNEL%"
+py scripts\agent.py --channel "%CHANNEL%" --max-videos 200
 goto END
 
 :MODE_URL
