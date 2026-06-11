@@ -22,7 +22,7 @@ except ImportError:
 
 # Import circuit breaker
 try:
-    from code.engine.circuit_breaker import CB_CLAUDE
+    from .circuit_breaker import CB_CLAUDE
 except ImportError:
     CB_CLAUDE = None
     logger.warning("circuit_breaker non disponible")
@@ -126,7 +126,7 @@ def get_signal(context: dict, kb_rules: str) -> dict:
     }
     """
     try:
-        from code.engine.prompt_builder import build_god_mode_prompt
+        from .prompt_builder import build_god_mode_prompt
         prompt = build_god_mode_prompt(context)
         result = call_claude_kb(kb_rules, prompt)
         # S'assurer que le résultat a tous les champs obligatoires
@@ -174,7 +174,7 @@ def load_kb_rules(kb_path: str = None) -> str:
     Retourne une chaîne formatée pour le system prompt Claude.
     """
     if kb_path is None:
-        kb_path = os.path.join(BASE_DIR, "code", "knowledge_base", "KNOWLEDGE_BASE_MASTER.json")
+        kb_path = os.path.join(os.path.dirname(BASE_DIR), "04-cerveau-trading", "KNOWLEDGE_BASE_MASTER.json")
 
     if not os.path.exists(kb_path):
         logger.warning(f"KB introuvable : {kb_path} — utiliser fallback vide")

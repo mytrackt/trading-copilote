@@ -65,8 +65,8 @@ NT8_ATI = {
 # =============================================================================
 # CHEMINS FICHIERS
 # =============================================================================
-DATA_DIR = os.path.join(BASE_DIR, "data")
-KB_DIR   = os.path.join(BASE_DIR, "code", "knowledge_base")
+DATA_DIR = os.path.join(BASE_DIR, "data")          # Phase C — dossier créé par les collecteurs NT8/ATAS
+KB_DIR   = os.path.join(os.path.dirname(BASE_DIR), "04-cerveau-trading")
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
 
 KB_PATH            = os.path.join(KB_DIR, "KNOWLEDGE_BASE_MASTER.json")
