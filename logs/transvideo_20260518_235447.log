@@ -1,0 +1,7 @@
+2026-05-18 23:54:47,631 | INFO    | transvideo.agent | ==== TRANSVIDEO start | mode=single-url | url='https://www.youtube.com/watch?v=PmQTvswoZvw' ====
+2026-05-19 00:02:24,804 | WARNING | transvideo.chunk_fuse | SL/TP aberrant: setup=00:00:31 stop_loss=5030.000 median=173.80
+2026-05-19 00:02:24,805 | WARNING | transvideo.chunk_fuse | SL/TP aberrant: setup=00:00:31 take_profit=5180.000 median=173.80
+2026-05-19 00:02:24,806 | WARNING | transvideo.chunk_fuse | SL/TP aberrant: setup=00:01:02 stop_loss=1.3200 median=173.80
+2026-05-19 00:02:24,806 | WARNING | transvideo.chunk_fuse | SL/TP aberrant: setup=00:07:14 stop_loss=5.24 median=173.80
+2026-05-19 00:02:24,812 | WARNING | transvideo.chunk_fuse | SL/TP aberrant: setup=00:07:14 take_profit=13.92 median=173.80
+2026-05-19 00:02:31,582 | INFO    | transvideo.agent | TRANSVIDEO done | success=True

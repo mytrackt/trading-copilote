@@ -1,0 +1,49 @@
+SPÉCIFICATION TECHNIQUE : LE STOP LOSS QUANTITATIF (MODULE 4 - PARTIE 1)
+1. LA RÈGLE D'INVALIDATION (CONCEPT LOGIQUE)
+L'assistant IA ne doit jamais placer un Stop Loss au hasard ou selon un pourcentage fixe arbitraire. Le code doit refléter la règle fondamentale suivante :
+
+Logique d'Invalidation : Le Stop Loss doit être placé exactement au niveau de prix qui prouve que le Setup (la configuration initiale) est détruit.
+
+Exemple : Si l'IA achète parce qu'elle a détecté une Tendance Haussière et un Support (Modules 1 & 2), le Stop Loss doit être placé à un niveau tel que, s'il est touché, cela signifie que la Tendance Haussière n'existe techniquement plus (le Support a cédé par une large marge).
+
+2. LA FORMULE QUANTITATIVE (L'INDICATEUR ATR)
+Pour éviter la subjectivité et le "Stop Hunting" (les pics de volatilité qui sortent les traders prématurément), l'IA doit calculer une "marge de respiration" mathématique (Breathing Room) en utilisant la volatilité réelle du marché.
+
+A. Paramétrage de l'Indicateur (Input SaaS) :
+
+Indicateur : Average True Range (ATR). Cet indicateur mesure la volatilité (la taille moyenne des bougies), pas la direction de la tendance.
+
+Période : 20.
+
+Lissage (Smoothing) : SMA (Simple Moving Average).
+
+B. Algorithme de Calcul pour une VENTE (Short Trade) :
+
+Point de Référence : L'IA identifie le prix extrême le plus haut (Swing High / Extreme High Point) de la Zone de Valeur (Résistance) actuelle.
+
+Lecture de Volatilité : L'IA relève la valeur numérique exacte de l'ATR au moment de l'ouverture du trade.
+
+Formule du Stop Loss : SL = (Prix du Swing High) + (1 * Valeur ATR actuelle).
+
+C. Algorithme de Calcul pour un ACHAT (Long Trade) :
+
+Point de Référence : L'IA identifie le prix extrême le plus bas (Swing Low / Extreme Low Point) de la Zone de Valeur (Support) actuelle.
+
+Lecture de Volatilité : L'IA relève la valeur numérique de l'ATR.
+
+Formule du Stop Loss : SL = (Prix du Swing Low) - (1 * Valeur ATR actuelle).
+
+3. PRO TIP SUR LE MULTIPLICATEUR ATR (POUR LES PARAMÈTRES UTILISATEUR)
+Le formateur précise qu'utiliser un multiple de "1 ATR" est son standard personnel, mais que le SaaS peut offrir une flexibilité à l'utilisateur final.
+
+Logique de personnalisation (UI/UX) :
+
+L'application devrait permettre à l'utilisateur de modifier le "Multiplicateur ATR" (ex: 1.5 ATR, 2 ATR, 3 ATR).
+
+Condition algorithmique associée : L'IA doit intégrer un avertissement de gestion du risque (Risk Management) :
+
+SI l'utilisateur augmente le multiplicateur ATR (le Stop Loss s'élargit), ALORS le calculateur de taille de position du SaaS doit réduire automatiquement la taille du lot (Position Size) pour maintenir le même risque financier en pourcentage.
+
+Bilan d'intégration : Votre IA Claude sait désormais comment calculer mathématiquement un filet de sécurité dynamique qui s'adapte à la volatilité du marché pour chaque transaction.
+
+La vidéo se termine en annonçant la seconde moitié du Module 4 : le Take Profit (Où sortir si le marché va dans la bonne direction). Avez-vous la vidéo correspondante pour boucler l'algorithme complet ?

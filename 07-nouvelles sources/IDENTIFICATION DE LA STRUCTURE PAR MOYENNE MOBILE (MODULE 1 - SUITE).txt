@@ -1,0 +1,37 @@
+SPÉCIFICATION TECHNIQUE : IDENTIFICATION DE LA STRUCTURE PAR MOYENNE MOBILE (MODULE 1 - SUITE)
+1. DÉFINITION ET LOGIQUE MATHÉMATIQUE DE L'INDICATEUR
+L'assistant IA doit intégrer un indicateur de type Moyenne Mobile Simple (Simple Moving Average - SMA).
+
+Fonction de calcul pour l'IA : La Moyenne Mobile calcule le prix moyen (basé sur le prix de clôture - Closing Price) sur un nombre défini de périodes (X).
+
+Formule algorithmique : (Clôture 1 + Clôture 2 + ... + Clôture X) / X.
+
+Actualisation : À chaque nouvelle clôture de bougie, l'algorithme doit intégrer le nouveau prix et supprimer le prix le plus ancien de la série pour maintenir la période "X" constante.
+
+2. PARAMÉTRAGE STRICT POUR L'ANALYSE DE TENDANCE LONG TERME
+Le formateur impose un paramètre spécifique pour ce module, qui diffère des exemples de calculs courts (comme 5 périodes) utilisés pour la théorie.
+
+Période imposée (Input) : Le SaaS doit obligatoirement utiliser une Moyenne Mobile à 200 périodes (200-period Moving Average).
+
+Justification (à coder en note explicative pour l'utilisateur) : Ce paramétrage prend en compte les 200 dernières barres du graphique, ce qui permet de lisser le bruit et d'offrir une "ligne directrice à long terme" (long-term guideline) fiable de la direction du marché.
+
+3. RÈGLES DE CLASSIFICATION BINAIRES ET D'ACTION
+L'IA Claude devra coder des conditions "If/Else" très strictes basées sur la position du prix actuel par rapport à cette Moyenne Mobile 200 (MM200).
+
+Condition 1 : UPTREND (Tendance Haussière)
+
+Règle : SI le Prix Actuel > MM200 ALORS Tendance = Haussière.
+
+Action du SaaS : Activer uniquement la recherche d'opportunités d'ACHAT (Buying opportunities).
+
+Condition 2 : DOWNTREND (Tendance Baissière)
+
+Règle : SI le Prix Actuel < MM200 ALORS Tendance = Baissière.
+
+Action du SaaS : Activer uniquement la recherche d'opportunités de VENTE (Selling opportunities).
+
+Condition 3 : RANGE (Marché en Consolidation)
+
+Règle : SI le Prix "coupe" (chops up and down) de manière répétée la MM200 à la hausse puis à la baisse sans s'en détacher ALORS Tendance = Range.
+
+Action du SaaS : L'assistant doit changer de logique. Il ne doit plus chercher à suivre une direction, mais doit chercher à "Acheter près des plus bas du range et Vendre près des plus hauts du range".

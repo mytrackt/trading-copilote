@@ -1,0 +1,49 @@
+SPÉCIFICATION TECHNIQUE : LE MOTEUR MATHEMATIQUE DES INDICATEURS (MODULE CORE)
+L'algorithme du SaaS doit traiter tous les outils de traitement visuel (chandeliers inclus) comme des données en décalage temporel (Lagging Tools). Pour éviter les redondances (par exemple, afficher trois indicateurs qui font la même chose), le système doit classer chaque indicateur selon l'une des 4 fonctions exclusives définies ci-dessous.
+
+1. FONCTION 1 : LE FILTRE DE CONDITION DE MARCHÉ (MARKET REGIME FILTER)
+L'objectif est d'éliminer la subjectivité humaine dans la détection des tendances (éviter que l'utilisateur n'hésite visuellement entre un sommet plus haut ou plus bas).
+
+L'Indicateur Imposé (Input) : Le Relative Strength Index (RSI) paramétré à 250 périodes (250-period RSI).
+
+Justification Mathématique : 250 périodes correspondent au nombre approximatif de jours de trading dans une année. Le niveau 50 sert de point d'équilibre (Equilibrium Level) mesurant le ratio entre la moyenne des gains et la moyenne des pertes.
+
+Logique Algorithmique :
+
+SI RSI 250 > 50 ALORS Tendance Macro = Haussière (Uptrend). Le ratio des gains l'emporte.
+
+SI RSI 250 < 50 ALORS Tendance Macro = Baissière (Downtrend). Le ratio des pertes l'emporte.
+
+2. FONCTION 2 : LE DÉCLENCHEUR D'ENTRÉE QUANTITATIF (ENTRY TRIGGER)
+Cette fonction sert de substitut mécanique à l'analyse des motifs de chandeliers pour le trading automatique de cassure.
+
+L'Indicateur Imposé (Input) : Le Donchian Channel (Canal de Donchian) paramétré à 200 périodes (200-period settings).
+
+Logique Algorithmique (Pour un système de Suivi de Tendance) :
+
+Le canal calcule et affiche dynamiquement le prix le plus haut des 200 dernières périodes (Upper Band).
+
+SI le prix actuel franchit à la hausse la bande supérieure (Prix > Upper Band 200), ALORS le système enregistre une cassure des plus hauts de 200 jours et déclenche immédiatement un ordre d'achat automatique (Entry Trigger).
+
+3. FONCTION 3 : LE GESTIONNAIRE DE SORTIE DYNAMIQUE (EXIT MANAGEMENT)
+Cette fonction élimine la subjectivité liée à la conservation ou à la clôture prématurée d'une position gagnante.
+
+L'Indicateur Imposé (Input) : La Moyenne Mobile à 50 jours (50-day Moving Average).
+
+Logique Algorithmique (Trailing Stop) :
+
+SI la position est acheteuse (Long), ALORS le système maintient l'ordre ouvert tant que la condition suivante est respectée : Clôture de la bougie > SMA 50.
+
+SI une bougie clôture en dessous de la ligne (Clôture < SMA 50), ALORS le SaaS exécute immédiatement l'ordre de vente de clôture (Exit).
+
+4. FONCTION 4 : LA LOCALISATION DE LA ZONE DE VALEUR (AREA OF VALUE)
+Cette fonction automatise le Module 2 de la formule M.A.E.E. pour cartographier les zones d'achat dans les tendances très agressives.
+
+L'Indicateur Imposé (Input) : La Moyenne Mobile à 20 Périodes (20-period Moving Average).
+
+Logique Algorithmique :
+
+SI la structure est classée en "Strong Trend" (Tendance Forte, vue dans la vidéo 2), ALORS la zone entourant la SMA 20 est automatiquement définie par le SaaS comme la "Zone de Valeur" (Dynamic Area of Value). L'algorithme attend que le prix revienne tester cette moyenne pour préparer des signaux d'achat.
+
+Bilan de standardisation pour Claude :
+Votre SaaS possède désormais une matrice stricte pour structurer son interface et ses algorithmes de traitement. Un utilisateur ne pourra pas ajouter des indicateurs au hasard. S'il souhaite ajouter un indicateur, l'IA Claude devra lui demander d'assigner l'une de ces 4 fonctions : Filtrer le marché, Déclencher l'entrée, Gérer la sortie ou Localiser la valeur.

@@ -1,0 +1,90 @@
+Le formateur précise bien que, même si la tendance (Module 1) et la zone de valeur (Module 2) sont validées, le SaaS ne doit jamais acheter ou vendre à l'aveugle. Il doit attendre une confirmation mécanique. C'est ici que le Candlestick Pattern intervient.
+
+Voici la spécification algorithmique stricte pour intégrer la lecture des chandeliers à votre IA Claude.
+
+SPÉCIFICATION TECHNIQUE : L'ENTRY TRIGGER ET LES CHANDELIERS (MODULE 3)
+1. STRUCTURE DE DONNÉES DU CHANDELIER (CANDLESTICK)
+L'IA doit traiter chaque bougie non pas comme une simple ligne temporelle, mais comme un objet de données contenant quatre valeurs absolues (OHLC) et des calculs dérivés.
+
+Variables d'entrée (Inputs OHLC) :
+
+Open (O) : Prix d'ouverture de la période.
+
+High (H) : Prix le plus haut atteint durant la période.
+
+Low (L) : Prix le plus bas atteint durant la période.
+
+Close (C) : Prix de clôture de la période.
+
+Variables calculées par le SaaS :
+
+Body (Corps) : La valeur absolue de la différence entre l'Open et le Close ABS(O - C). C'est la zone "colorée" de la bougie.
+
+Upper Wick / Shadow (Mèche Supérieure) : La distance entre le High et le plus haut du corps (soit l'Open, soit le Close) H - MAX(O, C).
+
+Lower Wick / Shadow (Mèche Inférieure) : La distance entre le Low et le plus bas du corps MIN(O, C) - L.
+
+2. CLASSIFICATION DE L'ÉTAT DE CONTRÔLE (QUI GAGNE LA GUERRE ?)
+Le formateur insiste sur le fait que le nom exact de la bougie importe moins que la compréhension de la "guerre" entre acheteurs et vendeurs. L'IA doit classer les bougies selon ce principe.
+
+Bougie Haussière / Bullish Candle (Vert ou Blanc) :
+
+Règle : SI Close > Open.
+
+Signification : Les acheteurs ont gagné la session.
+
+Bougie Baissière / Bearish Candle (Rouge ou Noir) :
+
+Règle : SI Close < Open.
+
+Signification : Les vendeurs ont gagné la session.
+
+3. DÉTECTION DES PATTERNS DE REJET (LES TRIGGERS)
+Pour qu'un trade soit déclenché par l'assistant, l'IA doit détecter des configurations très spécifiques dans la "Zone de Valeur".
+
+A. Le Rejet des Prix Bas (Triggers d'Achat)
+Ces motifs indiquent un point de pessimisme extrême où les acheteurs reprennent le contrôle avec violence.
+
+Le Hammer (Marteau) / Dragonfly Doji :
+
+Caractéristique Algorithmique : La Mèche Inférieure (Lower Wick) doit être beaucoup plus grande que le Corps (Body). Le formateur précise que même si la bougie ferme légèrement rouge (Close légèrement < Open), l'immense mèche basse en fait un signal haussier fort.
+
+Signification codée : Rejet des prix inférieurs détecté.
+
+Le Bullish Engulfing (Englobante Haussière) :
+
+Caractéristique Algorithmique : Nécessite 2 bougies consécutives.
+
+Condition 1 : Bougie précédente = Baissière.
+
+Condition 2 : Bougie actuelle = Haussière.
+
+Condition 3 : Le Corps de la bougie actuelle doit être supérieur (englober) le Corps de la bougie précédente. Body(Actuel) > Body(Précédent) ET Close(Actuel) > Open(Précédent).
+
+B. Le Rejet des Prix Hauts (Triggers de Vente)
+Ces motifs indiquent un point d'optimisme extrême où les vendeurs écrasent les acheteurs.
+
+Le Shooting Star (Étoile Filante) :
+
+Caractéristique Algorithmique : La Mèche Supérieure (Upper Wick) doit être beaucoup plus grande que le Corps. Comme pour le Hammer, la couleur du corps importe peu si la mèche supérieure est dominante.
+
+Signification codée : Rejet des prix supérieurs détecté.
+
+Le Bearish Engulfing (Englobante Baissière) :
+
+Caractéristique Algorithmique : Nécessite 2 bougies consécutives.
+
+Condition 1 : Bougie précédente = Haussière.
+
+Condition 2 : Bougie actuelle = Baissière.
+
+Condition 3 : Le Corps de la bougie actuelle englobe le Corps de la bougie précédente.
+
+4. INSTRUCTION GÉNÉRALE POUR CLAUDE (ÉVITER LE PIÈGE DES NOMS)
+Le formateur termine sur une règle de conception cruciale pour un programmeur : "Don't get too caught up with the name".
+
+Logique d'interprétation : L'algorithme de votre SaaS ne doit pas reposer sur un dictionnaire rigide de centaines de noms de bougies. Il doit plutôt calculer le ratio entre les mèches et le corps.
+
+Formule suggérée pour le code : SI la mèche (supérieure ou inférieure) représente plus de X% (ex: 70%) de la taille totale de la bougie (High - Low), ALORS c'est un signal de rejet massif.
+
+Bilan d'intégration : Votre SaaS dispose désormais du 3ème pilier de son architecture. Il sait analyser une bougie OHLC pour y chercher une "guerre" gagnée par un camp (une très grande mèche ou un corps englobant) précisément lorsqu'il se trouve dans la Zone de Valeur.

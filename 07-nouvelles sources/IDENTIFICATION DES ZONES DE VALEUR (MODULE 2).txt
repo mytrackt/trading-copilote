@@ -1,0 +1,33 @@
+SPÉCIFICATION TECHNIQUE : IDENTIFICATION DES ZONES DE VALEUR (MODULE 2)
+1. DÉFINITION ET RÔLE DU MODULE
+Le but de l'IA dans cette étape est de répondre à la question : Où acheter ou vendre ?
+Le SaaS ne doit jamais proposer d'entrer en position de manière aléatoire. Il doit identifier les zones où une pression d'achat ou de vente est susceptible d'intervenir. Le formateur identifie deux méthodes pour cela (les Moyennes Mobiles et les Supports/Résistances), mais cette spécification se concentre uniquement sur les Supports et Résistances.
+
+2. DÉFINITIONS ALGORITHMIQUES
+A. Le Support (Zone d'Achat)
+Définition pour le SaaS : Une zone sur le graphique où la pression d'achat (Buying Pressure) est susceptible d'intervenir pour repousser le prix vers le haut.
+
+Logique de détection : L'algorithme doit rechercher des "creux" (Lows) où le prix a déjà "rebondi" (bounced off) au moins deux fois par le passé. Le troisième contact potentiel est la zone de valeur cible.
+
+B. La Résistance (Zone de Vente)
+Définition pour le SaaS : Une zone sur le graphique où la pression de vente (Selling Pressure) est susceptible d'intervenir pour repousser le prix vers le bas.
+
+Logique de détection : L'algorithme doit rechercher des "sommets" (Highs) où le prix a déjà été "rejeté" (rejected) au moins deux fois par le passé.
+
+3. RÈGLE CRUCIALE : LE PRINCIPE DE POLARITÉ (INVERSION DES RÔLES)
+L'IA Claude devra coder une fonction de mémoire spatiale pour les niveaux franchis. Un niveau cassé n'est pas supprimé, il change de fonction.
+
+Règle de Cassure Haussière (Breakout) :
+
+SI le prix casse au-dessus d'une Résistance, ALORS l'ancienne Résistance devient un Support potentiel. Le SaaS doit s'attendre à ce que le prix rebondisse vers le haut s'il retouche cette zone.
+
+Règle de Cassure Baissière (Breakdown) :
+
+SI le prix casse en dessous d'un Support, ALORS l'ancien Support devient une Résistance potentielle. Le SaaS doit s'attendre à ce que le prix soit rejeté vers le bas s'il remonte vers cette zone.
+
+4. INSTRUCTION DE TRACÉ POUR LE SAAS (UI/UX)
+Le formateur insiste sur un point fondamental qui doit dicter l'interface visuelle ou la tolérance mathématique de l'outil.
+
+Avertissement de précision : Les Supports et Résistances ne doivent jamais être programmés ou affichés comme des lignes exactes (exact level or line).
+
+Mise en œuvre : L'IA doit utiliser (ou simuler) un outil "Rectangle" (Rectangle tool) pour tracer ces niveaux. Cela doit être codé comme une "Zone" (Area) ayant une certaine épaisseur (une marge d'erreur englobant les différents sommets ou creux proches).

@@ -1,0 +1,36 @@
+Voici la spécification algorithmique pour coder le comportement de l'IA lors des phases de Range.
+
+SPÉCIFICATION TECHNIQUE : LOGIQUE DE TRADING EN RANGE (MODULE SPÉCIALISÉ)
+L'erreur classique des robots de trading débutants est d'acheter machinalement chaque bas de Range et de vendre chaque haut. Le formateur explique que c'est le meilleur moyen d'être détruit par une cassure. Le SaaS doit intégrer trois filtres de sécurité avant d'exécuter un "Range Trade".
+
+1. FILTRE STRUCTUREL : LES SIGNES D'ÉPUISEMENT (LES TRIANGLES)
+L'IA ne doit pas vendre une résistance de Range si les acheteurs montrent des signes de force, et inversement.
+
+Interdiction de Vente (Short Block) : SI le prix s'approche du haut du Range (Résistance) en formant une série de creux de plus en plus hauts (Higher Lows), ALORS l'IA annule le signal de vente. La pression d'achat est trop proche, le potentiel de profit est nul et la probabilité de cassure par le haut est imminente.
+
+Interdiction d'Achat (Long Block) : SI le prix s'approche du bas du Range (Support) en formant une série de sommets de plus en plus bas (Lower Highs), ALORS l'IA annule le signal d'achat.
+
+2. DÉCLENCHEUR DE PROBABILITÉ : LE "POWER MOVE" (LE CHOC D'ÉLAN)
+Pour qu'un trade en Range soit validé avec un haut taux de réussite, l'algorithme doit rechercher le scénario psychologique inverse : la précipitation.
+
+La condition du "Power Move" : L'assistant IA doit scanner la vitesse à laquelle le prix atteint la borne du Range.
+
+Logique Algorithmique : L'outil doit chercher de grandes bougies très fortes (Big Bullish/Bearish Candles) qui frappent le Support ou la Résistance très rapidement.
+
+Signification codée : Un marché qui bouge trop vite dans un laps de temps trop court finit "épuisé" (Needs to breathe). C'est exactement à ce moment-là que l'IA a la plus grande probabilité de succès pour jouer le renversement (Reversal) vers l'intérieur du Range. De plus, la "Pression Opposée" étant restée au point de départ du Power Move, le potentiel de profit (Take Profit) est maximisé.
+
+3. FILTRE MACRO : L'ALIGNEMENT MULTI-TIMEFRAME
+Un marché en Range sur une unité de temps n'est souvent qu'une pause dans une tendance plus large. L'IA Claude doit croiser les données de deux échelles de temps différentes.
+
+Règle de Croisement (Exemple avec un Range sur H2) :
+
+L'IA détecte un Range sur le graphique 2 Heures (H2).
+
+L'IA interroge obligatoirement la Tendance sur le graphique Journalier (Daily).
+
+SI le Daily est en Tendance Haussière (Uptrend), ALORS l'IA ne s'autorise qu'à ACHETER les plus bas du Range sur le H2. Elle s'interdit de vendre les plus hauts.
+
+SI le Daily est en Tendance Baissière (Downtrend), ALORS l'IA ne s'autorise qu'à VENDRE les plus hauts du Range sur le H2.
+
+Bilan d'intégration pour le SaaS :
+Grâce à ces spécifications, votre assistant de trading ne sera pas pris au piège dans les consolidations. Il saura repérer la dynamique interne du Range (Power Move vs Compression) et utilisera toujours la tendance macroscopique comme boussole pour filtrer ses décisions.

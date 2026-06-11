@@ -1,0 +1,90 @@
+Voici la spécification technique structurée, prête à être fournie à l'IA Claude pour concevoir la logique de votre assistant SaaS.
+
+---
+
+# SPÉCIFICATION TECHNIQUE : SYSTÈME DE TRADING SUPPORT/RÉSISTANCE MULTI-TIMEFRAME
+
+## 1. DÉFINITION DU CONTEXTE (CONTEXTE DE TENDANCE)
+
+Le système ne trade jamais les supports et résistances de manière égale. La règle d'or est de définir la tendance sur la Timeframe Supérieure (HTF - Higher Timeframe) pour déterminer quel niveau trader sur la Timeframe Inférieure (LTF - Lower Timeframe).
+
+**Règle Algorithmique de Tendance :**
+
+* `SI` Tendance HTF = Haussière (Série de Hauts de plus en plus hauts et Creux de plus en plus hauts) `ALORS` Privilégier les ACHATS sur les SUPPORTS de la LTF. (Les résistances sont destinées à être cassées, on les ignore pour les entrées).
+* `SI` Tendance HTF = Baissière (Série de Hauts de plus en plus bas et Creux de plus en plus bas) `ALORS` Privilégier les VENTES sur les RÉSISTANCES de la LTF. (Les supports sont destinés à être cassés).
+* `SI` Tendance LTF = Range (Consolidation) `ALORS` Vérifier la HTF. Si HTF Haussière -> Acheter le bas du range (Support). Si HTF Baissière -> Vendre le haut du range (Résistance).
+
+## 2. TRACÉ DES ZONES CLÉS (SETUPS)
+
+Le système ne doit pas tracer de simples lignes, mais des zones (rectangles).
+
+**Logique de tracé :**
+
+1. **Identification :** Focus uniquement sur les **deux derniers points de swing (Swing Points) les plus récents**. Les anciens niveaux trop éloignés de la tendance actuelle sont ignorés.
+2. **Optimisation de la zone :** Ajuster le rectangle pour obtenir **le maximum de points de contact (touches)** avec les mèches et les corps des bougies, y compris les anciens niveaux de résistance devenus support (polarité).
+
+## 3. TRIGGERS D'ENTRÉE (DÉCLENCHEURS)
+
+Le système ne doit **jamais** entrer en position aveuglément (Limit Order) lors du simple contact avec la zone. Il doit attendre une confirmation visuelle via l'action des prix (Price Action).
+
+**Triggers Valides (Configurations de Chandeliers) :**
+
+* **Achat (Sur Support en Tendance Haussière) :**
+* **Hammer (Marteau) :** Bougie avec un petit corps en haut et une longue mèche inférieure (Rejet baissier, les acheteurs reprennent le contrôle). L'entrée se fait à l'ouverture de la bougie suivante.
+* **Bullish Engulfing (Englobante Haussière) :** Une forte bougie haussière qui annule et englobe la baisse de la bougie précédente.
+* **False Break (Fausse Cassure Haussière) :** Le prix casse le support sous les récents plus bas, piège les vendeurs, puis clôture brusquement au-dessus du support avec une forte bougie haussière.
+
+
+* **Vente (Sur Résistance en Tendance Baissière) :**
+* **Shooting Star (Étoile Filante) :** Bougie avec un petit corps en bas et une longue mèche supérieure (Rejet haussier, les vendeurs reprennent le contrôle).
+* **False Break Baissier :** Le prix casse la résistance, piège les acheteurs, puis clôture brusquement en dessous.
+
+
+
+**Règle d'Entrée :** `SI` Prix touche la Zone `ET` Bougie de confirmation clôture `ALORS` Entrée au prix d'ouverture (Open) de la bougie suivante.
+
+## 4. RISK MANAGEMENT (GESTION DU RISQUE ET STOP LOSS)
+
+Le Stop Loss (SL) ne doit jamais être placé juste au-dessus ou en dessous de la zone ou de la mèche de la bougie de confirmation (risque élevé de se faire sortir par la volatilité ou "stop hunting").
+
+**Calcul Algorithmique du Stop Loss (Basé sur l'ATR) :**
+
+1. **Indicateur :** Average True Range (ATR). Période : 20. Lissage : SMA.
+2. **Calcul Achat (Long) :** SL = (Plus bas de la bougie de confirmation) - (1 * Valeur de l'ATR actuel).
+3. **Calcul Vente (Short) :** SL = (Plus haut de la bougie de confirmation) + (1 * Valeur de l'ATR actuel).
+
+## 5. TAKE PROFIT ET MAXIMISATION DES GAINS
+
+Le système doit inclure une logique modulaire de sortie partielle et de maximisation de tendance pour éviter la frustration liée aux retracements.
+
+**Logique de Sortie en 2 Parties (Take Profit 1 & 2) :**
+
+* **Take Profit 1 (TP1) - Prise de bénéfices partielle (50% de la position) :**
+* `ACHAT :` Placer le TP1 juste en dessous du dernier Swing High récent (Résistance de court terme).
+* `VENTE :` Placer le TP1 juste au-dessus du dernier Swing Low récent (Support de court terme).
+* *Objectif : Mettre le trade à Break Even (Sécurisé) psychologiquement.*
+
+
+* **Take Profit 2 (TP2) - Maximisation du gain (50% restants) - Deux options algorithmiques :**
+* **Option A (Extensions de Fibonacci) :** Tracer l'extension de Fibonacci de la dernière vague. Placer le TP2 au niveau d'extension **1.27** ou **1.618**.
+* **Option B (Trailing Stop Loss via Moving Average) :** Utiliser une Moyenne Mobile (ex: SMA 50 périodes). Ne clôturer la position restante que `SI` une bougie clôture *au-delà* de la Moyenne Mobile (en dessous de la SMA pour un long, au-dessus de la SMA pour un short).
+
+
+
+## 6. LE SECRET "MULTI-TIMEFRAME" POUR EXPLOSER LE RATIO RISQUE/RÉCOMPENSE
+
+Pour obtenir des trades avec des ratios R/R de 1:3, 1:4 ou 1:5, l'assistant doit implémenter une logique d'affinement "Top-Down" extrême.
+
+**Logique Algorithmique Multi-Timeframe :**
+
+1. `HTF` (ex: Graphique Weekly/Hebdomadaire) : Identifier la Tendance Baissière.
+2. `HTF` : Tracer la Résistance majeure la plus proche.
+3. `Attente` : Attendre que le prix atteigne la Résistance Weekly.
+4. `Shift LTF` : Passer sur une unité de temps inférieure (ex: 8 Heures ou 4 Heures).
+5. `Trigger LTF` : Attendre un rejet baissier (ex: Shooting Star) *sur la Timeframe Inférieure* au contact de la résistance Weekly.
+6. `Exécution` : Entrer Short. Placer le SL avec la méthode ATR sur la base de la bougie LTF (Stop Loss beaucoup plus serré). Placer le TP en ciblant le plus bas de la bougie Weekly. Le risque est calculé sur le LTF, mais la cible de profit est basée sur la structure HTF.
+
+---
+
+**Comment procéder à partir d'ici ?**
+Vous pouvez copier-coller cette structure directement dans Claude (ou autre IA de développement). Elle définit clairement les variables d'entrée (Inputs), les règles conditionnelles (If/Then) et les calculs stricts (Stop Loss par ATR) extraits fidèlement des paroles et de l'écran du formateur.

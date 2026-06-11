@@ -1,0 +1,42 @@
+Cette vidéo est fondamentale pour le SaaS car elle traite de la seconde moitié du Module 4 (Les Sorties / Exits) : la Prise de Profit (Take Profit) selon une logique de Swing Trading.
+
+Voici la spécification technique brute à transmettre à Claude.
+
+SPÉCIFICATION TECHNIQUE : LA PRISE DE BÉNÉFICE EN SWING TRADING (MODULE 4 - PARTIE 2)
+1. DÉFINITION DE LA LOGIQUE ALGORITHMIQUE (SWING TRADING)
+Le formateur introduit deux logiques de sortie globales : le Swing Trading et le Trend Following (qui sera probablement abordé dans la prochaine vidéo). L'IA doit être programmée pour exécuter le Swing Trading selon une définition stricte :
+
+Objectif du système : Capturer un unique mouvement (une seule "vague" ou "swing") et sortir du marché le plus rapidement possible avec un profit, sans chercher à chevaucher une tendance sur le long terme.
+
+2. LA RÈGLE D'ANTICIPATION DE LA PRESSION OPPOSÉE
+C'est la règle d'or pour le placement automatique du Take Profit (TP) par votre assistant. Le SaaS ne doit jamais placer le Take Profit au-delà ou exactement sur un niveau majeur, sous peine de voir le marché se retourner (faire un 180 degrés) juste avant de toucher la cible.
+
+Instruction de placement : Le TP doit toujours être placé AVANT (before) que la "pression opposée" (Opposing Pressure) n'intervienne.
+
+Si l'IA place un trade LONG (Achat), la pression opposée correspond aux vendeurs. Les vendeurs se trouvent historiquement à la prochaine Résistance (ou "Swing High").
+
+Si l'IA place un trade SHORT (Vente), la pression opposée correspond aux acheteurs. Les acheteurs se trouvent au prochain Support (ou "Swing Low").
+
+3. LOGIQUE CONDITIONNELLE POUR LE CALCUL DU TAKE PROFIT
+L'IA Claude devra programmer la fonction de Take Profit selon cette hiérarchie :
+
+Pour un signal d'ACHAT (Long Trade)
+Détection de la cible maximale : L'algorithme scanne le graphique pour trouver le plus haut sommet récent (Swing High / Résistance) le plus proche au-dessus du prix d'entrée.
+
+Ajustement de sécurité (Conservateur) : L'IA ne place PAS le TP sur le sommet exact (Option B dans la vidéo) et encore moins au-dessus du sommet (Option A).
+
+Placement final : L'IA place le Take Profit légèrement EN DESSOUS de ce sommet (Option C). Cela garantit mathématiquement que l'ordre sera exécuté avant que les vendeurs institutionnels postés sur la ligne de résistance n'aient le temps d'inverser le marché.
+
+Pour un signal de VENTE (Short Trade)
+Détection de la cible maximale : L'algorithme scanne pour trouver le creux récent le plus proche (Swing Low / Support) en dessous du prix d'entrée.
+
+Placement final : L'IA place le Take Profit légèrement AU-DESSUS de ce creux, afin de clôturer le trade avant que les acheteurs n'interviennent sur le support.
+
+4. IMPACT SUR L'INTERFACE UTILISATEUR DU SAAS
+L'outil devra être capable de calculer automatiquement le Ratio Risque/Récompense (Risk/Reward Ratio) en comparant le Stop Loss (calculé par l'ATR dans la vidéo 9) et ce Take Profit conservateur.
+
+SI le placement de ce Take Profit conservateur offre un ratio inacceptable (ex: risque de 100$ pour gagner 20$), ALORS le SaaS devrait invalider le trade et conseiller à l'utilisateur de s'abstenir, car la cible (le prochain Swing High/Low) est trop proche du point d'entrée.
+
+Bilan d'intégration : Votre IA Claude sait désormais comment sécuriser des gains avec une probabilité de succès élevée en anticipant les réactions inverses du marché.
+
+Cette vidéo traitait du Swing Trading. La logique de "Trend Following" (suivi de tendance), mentionnée au début, sera probablement l'objet de la prochaine vidéo.

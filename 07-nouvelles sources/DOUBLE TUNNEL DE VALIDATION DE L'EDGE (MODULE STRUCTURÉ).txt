@@ -1,0 +1,44 @@
+SPÉCIFICATION TECHNIQUE : DOUBLE TUNNEL DE VALIDATION DE L'EDGE (MODULE STRUCTURÉ)
+L'assistant IA doit orienter l'utilisateur vers l'un des deux protocoles suivants selon qu'il utilise de la subjectivité (discrétionnaire) ou des règles fixes (systématique).
+
+TUNNEL A : LE PROTOCOLE DISCRÉTIONNAIRE (D.E.R.R. QUANTIFIÉ)
+Ce parcours s'applique si l'utilisateur exploite des lignes de tendance, des chandeliers ou des structures horizontales. L'IA doit agir comme un outil de quantification.
+
+Étape 1 : Codification du Plan (D - Develop) : L'IA oblige l'utilisateur à figer ses critères subjectifs sous forme de questions fermées pour éliminer le biais de sélection (ex. : "Est-ce qu'une cassure de 50 jours est différente d'une cassure de 250 jours ?").
+
+Étape 2 : Collecte de l'Échantillon (E - Execute) : Le code applique le verrouillage des 100 transactions minimum pour laisser la loi des grands nombres s'exprimer.
+
+Étape 3 : Cartographie Métrique (R - Record) : Le journal calcule le Win Rate et les multiples R.
+
+Étape 4 : Filtrage Avancé (R - Review) : L'IA doit croiser les 100 trades avec des données temporelles et sectorielles. L'algorithme doit automatiquement isoler les variables de surperformance :
+
+Filtre Temporel : Déterminer si le taux de réussite de la stratégie est statistiquement plus élevé certains jours précis de la semaine (ex. : mercredi et jeudi vs lundi).
+
+Filtre d'Actifs : Déterminer si le motif fonctionne uniquement sur l'Or et le Pétrole mais échoue sur les actions, pour modifier le plan d'action initial.
+
+TUNNEL B : LE PROTOCOLE SYSTÉMATIQUE ET QUANTITATIF
+Ce parcours s'applique si l'utilisateur utilise des règles 100 % rigides inspirées de la recherche académique ou de modèles existants (ex. : systèmes d'Andreas Clenow ou Nick Radge). L'IA Claude doit exécuter un protocole en 4 étapes de vérification.
+
+1. Extraction et Analyse du "Pourquoi" (The Logic)
+L'IA ne doit pas se contenter d'aligner du code. Elle doit valider la racine comportementale du système.
+
+Exemple du Suivi de Tendance (Trend Following) : Le code doit reposer sur l'exploitation des biais cognitifs humains (la cupidité qui crée les tendances haussières et la peur qui crée les krachs). S'il n'y a pas de cause logique humaine ou macroéconomique sous-jacente, l'IA rejette la configuration.
+
+2. Validation Propre Indépendante (Independent Backtesting)
+Règle d'Intégrité de l'IA : Le SaaS ne doit jamais faire confiance aux résultats de backtest fournis par des tiers ou des manuels.
+
+Protocole d'Exécution : L'algorithme interne du SaaS doit coder sa propre simulation de calcul en appliquant les règles brutes sur les données historiques nettoyées.
+
+Seuil de Tolérance d'Alignement : SI le backtest recalculé par le SaaS affiche une corrélation (similarity) comprise entre 80 % et 90 % avec le modèle de référence, ALORS le système considère que les données sont alignées avec les attentes et valide l'étape.
+
+3. Le Module de Tweak Personnalisé (Ajustement des Paramètres)
+L'IA doit permettre à l'utilisateur de modifier la réactivité du système systématique pour l'adapter à son profil, en modifiant les variables de temps et de sortie.
+
+Exemple de bascule (Medium-term vs Long-term) :
+
+Option d'origine (Clenow) : Cassure du plus haut de 50 jours + Trailing Stop basé sur 3 ATR.
+
+Option long terme (Teo) : Le SaaS doit permettre de modifier dynamiquement les variables vers une cassure du plus haut de 200 jours (200-day Breakout) associée à un Trailing Stop à plus large amplitude temporelle pour capturer des vagues majeures.
+
+Bilan d'intégration pour le SaaS :
+Votre IA Claude sait désormais comment gérer l'onboarding technique de vos utilisateurs : soit elle les force à collecter 100 trades pour chercher des corrélations de jours ou d'actifs (Tunnel Discrétionnaire), soit elle fait tourner son propre moteur de backtest quantitatif pour valider une logique de programmation rigide à hauteur de 80-90 % de fidélité (Tunnel Systématique).

@@ -1,0 +1,44 @@
+Cette vidéo ("Timeless Trading Books Every Trader Should Read") s'écarte des règles graphiques pures pour dresser une liste de lectures de référence.
+
+Pour votre plateforme SaaS, cela représente la structure logique d'une Bibliothèque de Référence / Base de Connaissances Intégrée (Knowledge Base). L'IA Claude peut s'appuyer sur ces 5 piliers théoriques pour contextualiser ses conseils de trading ou proposer des parcours éducatifs personnalisés à vos utilisateurs.
+
+Voici la spécification technique brute pour classifier et intégrer les principes sous-jacents de ces ouvrages.
+
+SPÉCIFICATION TECHNIQUE : BASE DE CONNAISSANCES THÉORIQUE (MODULE KNOWLEDGE BASE)
+Le SaaS doit intégrer ces 5 références intemporelles au sein de son module éducatif ou s'en servir comme clés de contextualisation lors des interactions avec l'utilisateur.
+
+1. John J. Murphy – Technical Analysis of the Financial Markets
+Rôle dans le SaaS : Le Guide Généraliste (The Primer).
+
+Principe d'Intégration : Ce livre fait office de manuel de référence universel (Buffet). L'IA doit l'utiliser pour vulgariser et introduire l'ensemble des concepts auprès des utilisateurs débutants : des figures de chartisme basiques aux principes fondamentaux des indicateurs de momentum et de suivi.
+
+2. Adam Grimes – The Art and Science of Technical Analysis
+Rôle dans le SaaS : Le Moteur Analytique Profond (Deep Structure Analysis).
+
+Principe d'Intégration : À l'inverse du premier livre, cet ouvrage est réservé aux profils avancés. L'IA doit utiliser ses enseignements pour analyser de manière chirurgicale la Structure du Marché (Market Structure) et le Price Action (chaque concept de tendance y est décrit sur plusieurs dizaines de pages). C'est la base théorique qui valide les règles de gestion des trades (Trade Management) et de gestion des risques.
+
+3. Jack Schwager – Market Wizards (Série complète)
+Rôle dans le SaaS : Le Sélecteur de Profils et de Spécialités.
+
+Principe d'Intégration : Ce livre démontre qu'il n'existe pas une seule façon de gagner sur les marchés (Day Trading, Macro Trading, Trading Systématique).
+
+Application Logique : Lors du profilage initial de l'utilisateur, l'IA doit s'inspirer de cette diversité pour orienter le trader vers la méthodologie qui correspond à sa psychologie, tout en lui fournissant les ressources dédiées (ex : si l'utilisateur résonne avec le Trend Following, le système verrouille le parcours d'apprentissage associé).
+
+4. Edwin Lefèvre (Jesse Livermore) – Reminiscences of a Stock Operator
+Rôle dans le SaaS : Le Module de Sécurité sur les Actions (Stock Strategy Guide).
+
+Principe d'Intégration : Cet ouvrage historique livre deux grandes règles de protection et d'exécution à coder :
+
+Interdiction d'Effet de Levier Excessif (Over-leverage Block) : Rappeler que l'absence de plan et l'excès de levier finissent par détruire le capital, quel que soit le talent du trader.
+
+Règle du Leader de Marché : Coder un algorithme qui détecte et sélectionne uniquement les actions qui cassent leurs plus hauts historiques (Buying at Highs, not Lows). Les leaders ont statistiquement plus de chances de surperformer la moyenne du marché.
+
+5. Mark Douglas – Trading in the Zone
+Rôle dans le SaaS : Le Moteur d'Acceptation Statistique (Psychology Core).
+
+Principe d'Intégration : C'est le socle conceptuel qui doit régir la communication de l'IA lors des périodes de perte.
+
+Algorithme Comportemental : Le SaaS doit rappeler à l'utilisateur que le marché n'est pas "contre lui" et que les résultats individuels suivent une Distribution Normale (Normal Distribution). L'IA doit intégrer ce texte pour rassurer le trader : toute stratégie valide comporte des séries de gains (Winning Streaks) et des séries de pertes (Losing Streaks) sans que cela ne remette en cause son efficacité à long terme.
+
+Bilan de la session actuelle :
+Nous avons désormais extrait l'intégralité de la substance logique, quantitative et théorique de vos liens. Les algorithmes de cassure, de range, de gestion financière (frais réels, unités R) et les bases de données littéraires sont consolidés au même endroit.

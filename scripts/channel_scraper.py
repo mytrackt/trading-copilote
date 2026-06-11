@@ -17,6 +17,7 @@ import sys
 import unicodedata
 from pathlib import Path
 from typing import TypedDict, Optional
+from urllib.parse import urlparse, urlunparse
 
 YTDLP_TIMEOUT = 120  # secondes
 
@@ -84,6 +85,46 @@ def _make_handle(channel_name: str) -> str:
     normalized = unicodedata.normalize("NFKD", channel_name)
     ascii_only = "".join(c for c in normalized if not unicodedata.combining(c))
     return re.sub(r"[^A-Za-z0-9._-]", "", ascii_only)
+
+
+def _with_scheme(value: str) -> str:
+    """Ajoute https:// si l'utilisateur donne une URL YouTube sans schéma."""
+    text = value.strip()
+    if text.startswith(("http://", "https://")):
+        return text
+    if text.startswith(("www.youtube.com/", "youtube.com/", "m.youtube.com/")):
+        return "https://" + text
+    return text
+
+
+def _is_youtube_host(host: str) -> bool:
+    host = host.lower()
+    return host == "youtube.com" or host.endswith(".youtube.com")
+
+
+def _normalize_channel_url(channel_input: str) -> str:
+    """
+    Retourne une URL /videos pour les formats chaîne supportés.
+    Retourne "" si l'entrée n'est pas une URL de chaîne YouTube.
+    """
+    parsed = urlparse(_with_scheme(channel_input))
+    if not parsed.netloc or not _is_youtube_host(parsed.netloc):
+        return ""
+
+    parts = [p for p in parsed.path.strip("/").split("/") if p]
+    if not parts:
+        return ""
+
+    first = parts[0]
+    if first.startswith("@"):
+        base_parts = [first]
+    elif first in {"channel", "c", "user"} and len(parts) >= 2:
+        base_parts = parts[:2]
+    else:
+        return ""
+
+    path = "/" + "/".join(base_parts + ["videos"])
+    return urlunparse((parsed.scheme or "https", parsed.netloc, path, "", "", ""))
 
 
 def _run_ytdlp(args: list, label: str) -> subprocess.CompletedProcess:
@@ -235,6 +276,15 @@ def get_channel_videos(channel_name: str, max_videos: int = 300) -> list[VideoEn
         max_videos: Nombre maximum de vidéos à récupérer (défaut 300)
     """
     print(f"\n🔍 Recherche chaîne : '{channel_name}'")
+
+    direct_channel_url = _normalize_channel_url(channel_name)
+    if direct_channel_url:
+        print(f"   ▶ URL chaîne directe : {direct_channel_url}")
+        videos = _scrape_channel_url(direct_channel_url, max_videos, channel_name)
+        if not videos:
+            print(f"   ❌ Aucune vidéo trouvée pour '{channel_name}'")
+        print(f"   ✅ {len(videos)} vidéos trouvées pour '{channel_name}'")
+        return videos
 
     # Étape 1 — ytsearch3 d'abord pour trouver l'URL canonique (validée par
     # match de mots-clés sur l'uploader). Plus fiable que le @handle qui peut

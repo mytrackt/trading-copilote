@@ -1,0 +1,44 @@
+SPÉCIFICATION TECHNIQUE : IDENTIFICATION DE LA STRUCTURE DE MARCHÉ (MODULE 1)
+1. OBJECTIF DE L'ALGORITHME
+La vidéo définit le but principal de l'analyse de la structure de marché : répondre à la question fondamentale "Que faire ?".
+Le SaaS doit utiliser ce module pour prendre l'une des trois décisions binaires suivantes avant toute autre analyse :
+
+Chercher des opportunités d'ACHAT.
+
+Chercher des opportunités de VENTE.
+
+RESTER HORS DU MARCHÉ (ou appliquer une stratégie spécifique).
+
+2. MÉTHODOLOGIE DE DÉTECTION
+Le formateur mentionne qu'il existe de nombreuses méthodes (Bar charts, Renko, etc.), mais il impose l'utilisation de deux techniques spécifiques pour éviter la confusion. Le SaaS doit donc être codé pour analyser le marché selon ces deux prismes :
+
+L'analyse des graphiques en chandeliers japonais (Candlestick chart).
+
+L'utilisation des Moyennes Mobiles (Moving Average) (Note stricte : bien que mentionné comme la deuxième méthode à la fin de la vidéo, le formateur indique qu'il couvrira cette partie dans la vidéo suivante. Cette spécification se concentre donc uniquement sur la méthode des chandeliers abordée ici).
+
+3. LOGIQUE ALGORITHMIQUE DE CLASSIFICATION (LES 3 ÉTATS DU MARCHÉ)
+L'IA Claude devra coder une fonction capable d'analyser les points de swing (Swing Highs et Swing Lows) de gauche à droite sur le graphique pour identifier l'un des trois états suivants :
+
+ÉTAT A : L'UPTREND (Tendance Haussière)
+Définition technique stricte : Une série continue de "Higher Highs" (Plus Hauts de plus en plus hauts) et de "Higher Lows" (Plus Bas de plus en plus hauts).
+
+Comportement de prix : Le prix monte, fait un repli (pullback), casse le sommet précédent, fait un repli, casse le sommet précédent, etc.
+
+Action requise par le SaaS : Si cet état est détecté, le système doit uniquement chercher des opportunités d'ACHAT (car c'est le chemin de moindre résistance).
+
+ÉTAT B : LE DOWNTREND (Tendance Baissière)
+Définition technique stricte : Une série continue de "Lower Highs" (Plus Hauts de plus en plus bas) et de "Lower Lows" (Plus Bas de plus en plus bas).
+
+Comportement de prix : Le prix baisse, fait un repli (pullback vers le haut), casse le creux précédent vers le bas, fait un repli, etc.
+
+Action requise par le SaaS : Si cet état est détecté, le système doit uniquement chercher des opportunités de VENTE (Short).
+
+ÉTAT C : LE RANGE MARKET (Marché en Consolidation/Range)
+Définition technique stricte : Le prix est contenu entre des sommets relatifs (Highs) et des creux relatifs (Lows) horizontaux, "coincé dans une boîte". Il n'y a pas de progression claire ni vers le haut ni vers le bas.
+
+Règle de tracé imposée au SaaS : Le formateur insiste sur le fait qu'un Range ne se définit jamais par des lignes exactes, mais obligatoirement par des Zones (Areas). L'IA devra donc utiliser l'équivalent d'un outil "Rectangle" pour définir la zone haute (Résistance du Range) et la zone basse (Support du Range).
+
+4. RÈGLE DE VALIDATION VISUELLE (LE TEST DES "5 PIEDS")
+Pour éviter que l'algorithme ne se perde dans le "bruit" des petites fluctuations (micro-mouvements), le formateur donne une règle empirique : prendre du recul ("take 5 feet away").
+
+Traduction algorithmique pour Claude : Le SaaS ne doit pas évaluer la tendance sur les 5 ou 10 dernières bougies. Il doit effectuer un "Zoom Out" (analyser une fenêtre de données plus large, par exemple les derniers mois sur un graphique journalier) et filtrer uniquement les Swing Points Majeurs. Si la direction globale (Macro) n'est pas claire, la classification par défaut doit être le Range Market (comme illustré dans l'exemple du Silver à la fin de la vidéo).

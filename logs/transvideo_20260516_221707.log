@@ -1,0 +1,29 @@
+2026-05-16 22:17:07,750 | INFO    | transvideo.agent | ==== TRANSVIDEO start | channel='Gigi Trading' limit=None ====
+2026-05-16 22:17:09,628 | INFO    | transvideo.channel_scraper | cache hit: https://www.youtube.com/channel/UCJI6U17_C7A_xx7wjCOX-Tw/videos (32 videos)
+2026-05-16 22:36:53,382 | ERROR   | transvideo.chunk_fuse | process_video failed for https://www.youtube.com/watch?v=QwCMVR6r0Zg: yt-dlp échoué : 
+
+ERROR: Did not get any data blocks
+Traceback (most recent call last):
+  File "C:\trading-copilote\scripts\chunk_fuse.py", line 893, in process_video
+    video_path = download_video(url, tmp_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\trading-copilote\scripts\chunk_fuse.py", line 245, in download_video
+    raise RuntimeError(f"yt-dlp échoué : {result.stderr[:150]}")
+RuntimeError: yt-dlp échoué : 
+
+ERROR: Did not get any data blocks
+
+2026-05-16 22:39:46,475 | ERROR   | transvideo.chunk_fuse | process_video failed for https://www.youtube.com/watch?v=Vmn7Q69o6dM: yt-dlp échoué : 
+
+ERROR: Did not get any data blocks
+Traceback (most recent call last):
+  File "C:\trading-copilote\scripts\chunk_fuse.py", line 893, in process_video
+    video_path = download_video(url, tmp_dir)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\trading-copilote\scripts\chunk_fuse.py", line 245, in download_video
+    raise RuntimeError(f"yt-dlp échoué : {result.stderr[:150]}")
+RuntimeError: yt-dlp échoué : 
+
+ERROR: Did not get any data blocks
+
+2026-05-16 22:57:45,361 | INFO    | transvideo.agent | TRANSVIDEO done | success=6 skipped=0 total=32

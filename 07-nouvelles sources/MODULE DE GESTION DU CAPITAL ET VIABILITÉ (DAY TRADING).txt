@@ -1,0 +1,48 @@
+Pour que votre SaaS soit professionnel et se démarque des outils amateurs, l'IA Claude doit intégrer ces 5 règles comme un Module de Viabilité (un tableau de bord de gestion des risques que l'utilisateur doit consulter avant de lancer des stratégies de Day Trading).
+
+Voici la spécification technique pour modéliser cette logique de gestion du capital.
+
+SPÉCIFICATION TECHNIQUE : MODULE DE GESTION DU CAPITAL ET VIABILITÉ (DAY TRADING)
+1. LE FILTRE DES UNITÉS DE TEMPS (LA PREUVE DE L'AVANTAGE)
+L'algorithme de votre SaaS doit protéger l'utilisateur contre lui-même en l'empêchant de trader sur de très courtes périodes s'il n'est pas déjà rentable sur du long terme.
+
+Règle de Bridage Algorithmique : SI l'Espérance Mathématique (calculée dans le module précédent) est négative sur des unités de temps élevées (ex: Graphique Journalier ou H4), ALORS l'IA doit bloquer ou fortement déconseiller l'exécution de la stratégie sur des unités de temps courtes (M5, M15).
+
+Justification codée : Descendre sur de plus petites unités de temps ne donne pas plus d'opportunités de gains, cela accélère simplement la vitesse à laquelle l'utilisateur va "crasher" son compte s'il n'a pas d'Edge.
+
+2. LE CALCULATEUR DE FRAIS DE TRANSACTION (LE SEUIL DE RENTABILITÉ)
+C'est le calcul le plus critique de cette vidéo. Le SaaS doit obliger l'utilisateur à saisir les frais de son courtier (Broker) dans les paramètres initiaux.
+
+Variables requises (Inputs) : Capital initial, Coût par transaction (Entrée + Sortie), Fréquence de trading estimée.
+
+Calcul de l'IA (Exemple de la vidéo à coder) :
+
+100 trades par mois à 10$ de frais = 12 000$ de frais annuels.
+
+Sur un compte de 50 000$, cela représente une perte nette de 24%.
+
+Condition de Validation : Le système doit afficher un avertissement rouge SI le taux de réussite requis juste pour atteindre le "Break Even" (point mort de 0$) dépasse le rendement historique de la stratégie. L'outil doit conseiller de réduire la fréquence de trading ou de changer de courtier.
+
+3. LE SIMULATEUR DE CAPITAL RÉALISTE (CAPITAL SIZE)
+Le SaaS doit détruire les attentes irréalistes liées aux petits comptes en forçant l'affichage en pourcentages et non en monnaie brute.
+
+Logique de Projection : L'outil de backtesting de Claude ne doit jamais valider un objectif du type "Gagner 5 000$ par mois avec 10 000$ de capital" (ce qui exigerait 50% de rendement mensuel constant, une impossibilité mathématique).
+
+Action UI/UX : L'interface doit projeter les rendements de la stratégie (ex: 50% par AN) sur différents paliers de capitaux. Le SaaS montrera visuellement qu'une même stratégie génère 5 000$ sur un compte de 10k, mais 250 000$ sur un compte de 500k. L'Edge dépend aussi de la taille du capital.
+
+4. LA MÉTRIQUE DE PRÉSERVATION (LE BOUCLIER PSYCHOLOGIQUE)
+Lors du paramétrage du compte ("Onboarding" de votre SaaS), l'IA devrait inclure un questionnaire de gestion des risques.
+
+Condition de survie : Le système doit demander si l'utilisateur dépend des fonds de son compte de trading pour payer ses dépenses courantes des 12 prochains mois.
+
+Règle systémique : Si l'utilisateur doit retirer du capital durant une phase de perte (Drawdown) pour vivre, son capital diminue, ce qui détruit mathématiquement sa capacité à remonter la pente lorsque la stratégie redeviendra gagnante. Le SaaS doit flaguer ce comportement comme un "Risque de Ruine Élevé".
+
+5. L'INDICE DE COÛT D'OPPORTUNITÉ (OPPORTUNITY COST)
+Votre SaaS peut inclure une métrique unique pour évaluer si le temps passé devant les écrans est rentable.
+
+Calcul de performance horaire : L'IA demande le nombre d'heures passées à faire du Day Trading par semaine et le compare au profit généré.
+
+SI le taux horaire de la stratégie (ex: 50 000$ pour 2 500 heures = 20$/heure) est inférieur au taux horaire d'un emploi classique accessible à l'utilisateur, ALORS le tableau de bord indique un "Coût d'opportunité négatif", l'invitant à basculer vers le Swing Trading (qui prend moins de temps).
+
+Bilan d'intégration :
+Cette vidéo fournit la logique de votre module de "Risk & Capital Dashboard". L'IA Claude possède désormais les équations pour calculer les frais cachés, bloquer les attentes irréalistes et évaluer si l'utilisateur a financièrement les moyens de faire du Day Trading.

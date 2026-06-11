@@ -1,0 +1,32 @@
+Cette vidéo vient corriger une faille majeure que pourrait rencontrer votre IA : la "paralysie de l'analyse" causée par les conflits entre différentes unités de temps (Timeframes).
+
+Voici la spécification technique pour optimiser le Module 1 (Analyse de la Tendance) et éviter que l'algorithme ne se contredise lui-même.
+
+SPÉCIFICATION TECHNIQUE : RÉSOLUTION DES CONFLITS DE TIMEFRAME (MODULE 1 - OPTIMISATION)
+1. LE VERROUILLAGE DE L'UNITÉ DE TEMPS (TIMEFRAME ISOLATION)
+L'erreur fondamentale d'un système est d'acheter sur un graphique 5 minutes, de vérifier le graphique Journalier (Daily), de voir une tendance baissière, et de s'arrêter par confusion. Le SaaS doit compartimenter ses analyses.
+
+Règle d'Isolation Algorithmique : L'utilisateur doit définir une "Unité de Temps Principale" (Trading Timeframe).
+
+SI l'utilisateur trade sur du 15 minutes, ALORS l'IA doit désactiver l'analyse de tendance sur le graphique Journalier ou Hebdomadaire. Le "bruit" macro-économique est inutile pour un trade qui ne durera que quelques heures.
+
+SI l'utilisateur trade sur du Journalier (Daily), ALORS l'IA doit ignorer les retournements de tendance sur les graphiques 5 minutes ou 1 heure.
+
+2. LA RÈGLE DE L'ÉCHANTILLON CONSTANT (LES 200 BOUGIES)
+C'est le paramètre d'affichage (Zoom) le plus critique pour la fiabilité de l'IA. Si le robot analyse parfois 50 bougies et parfois 500, il ne verra jamais la même tendance.
+
+Paramètre de Scan (Input Fixe) : L'IA Claude doit être programmée pour scanner systématiquement un historique de 200 bougies (200 bars) sur l'Unité de Temps sélectionnée.
+
+Justification codée : Le formateur explique que 50 bougies ne montrent qu'une micro-vision (un simple repli pourrait être interprété à tort comme une tendance baissière par l'IA), tandis que 200 bougies donnent la "vue d'oiseau" (Bird's eye view) exacte nécessaire pour définir la véritable structure du marché.
+
+3. L'ALGORITHME VISUEL DÉFINITIF (RAPPEL PRICE ACTION)
+Une fois le Timeframe isolé et le zoom fixé sur 200 bougies, le SaaS exécute la classification avec une logique purement mécanique, sans utiliser de multiples indicateurs contradictoires.
+
+Condition Haussière (Uptrend) : SI les 200 bougies montrent une séquence de Higher Highs (Sommets plus hauts) et Higher Lows (Creux plus hauts), ALORS Verrouillage en mode Achat.
+
+Condition Baissière (Downtrend) : SI les 200 bougies montrent une séquence de Lower Highs et Lower Lows, ALORS Verrouillage en mode Vente.
+
+Condition de Range : SI les 200 bougies sont contenues entre des sommets et des creux de même niveau, ALORS Verrouillage en mode Range.
+
+Bilan d'intégration pour le développement :
+Cette mise à jour du cahier des charges permet à Claude de coder un "Nettoyeur de Bruit" (Noise Filter). Votre assistant IA ne regardera plus partout en même temps. Il exigera de l'utilisateur un paramètre de temps, prendra 200 périodes exactes sur ce paramètre, et rendra un verdict binaire clair.

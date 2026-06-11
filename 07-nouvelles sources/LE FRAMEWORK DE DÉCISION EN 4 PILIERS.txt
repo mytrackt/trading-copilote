@@ -1,0 +1,60 @@
+Voici la spécification fondamentale pour Claude, qui servira d'ossature à l'assistant de trading.
+
+---
+
+# SPÉCIFICATION ARCHITECTURALE : LE FRAMEWORK DE DÉCISION EN 4 PILIERS
+
+## AVERTISSEMENT DE CONCEPTION (LES "ANTI-PATTERNS")
+
+Le SaaS doit être conçu pour lutter contre les deux erreurs principales des traders débutants :
+
+1. **L'Over-Engineering (Trop d'indicateurs) :** L'assistant ne doit pas surcharger ses analyses. Trop d'indicateurs (RSI, MACD, Moyennes Mobiles combinés aléatoirement) créent une "paralysie de l'analyse" (des signaux contradictoires). L'approche doit rester minimaliste, à l'image des écrans des professionnels.
+2. **L'Absence de Plan :** L'assistant ne doit jamais proposer un "signal" isolé. Chaque recommandation ou analyse générée par le SaaS doit suivre obligatoirement le framework en 4 étapes ci-dessous, à la manière des plans architecturaux d'une maison (Fondations -> Pièces -> Fonctionnalités).
+
+## ARCHITECTURE DE L'ASSISTANT SAAS : LE FRAMEWORK DE TRADING
+
+Toute analyse fournie par le SaaS, et toute stratégie codée dans l'outil, doit être structurée autour de ces quatre modules consécutifs.
+
+### MODULE 1 : MARKET STRUCTURE (La Structure du Marché)
+
+**Rôle :** Déterminer la condition actuelle du marché pour filtrer le sens autorisé des trades.
+**Logique de l'IA :**
+
+* L'assistant doit d'abord identifier si le marché est en *Tendance Haussière* (Uptrend), en *Tendance Baissière* (Downtrend) ou en *Consolidation* (Range).
+* **Action :** Si Uptrend -> Activer uniquement le mode "Recherche d'Achats". Si Downtrend -> Activer uniquement le mode "Recherche de Ventes".
+
+### MODULE 2 : AREA OF VALUE (La Zone de Valeur)
+
+**Rôle :** Identifier *où* sur le graphique l'intervention est pertinente.
+**Logique de l'IA :**
+
+* Même si la tendance est définie, l'assistant ne doit pas acheter n'importe où (pour éviter d'acheter un marché "suracheté" prêt à corriger).
+* **Action :** L'algorithme doit rechercher des niveaux précis (comme les zones de support ou de résistance définies dans la vidéo précédente) pour identifier une opportunité à faible risque.
+
+### MODULE 3 : ENTRY TRIGGER (Le Déclencheur d'Entrée)
+
+**Rôle :** Déterminer *quand* exécuter exactement l'ordre.
+**Logique de l'IA :**
+
+* Une fois que le prix atteint la "Zone de Valeur" (Module 2), le système ne déclenche pas le trade immédiatement.
+* **Action :** L'assistant doit attendre l'apparition d'un motif spécifique (ex: un chandelier particulier comme un Hammer ou un Shooting Star) qui valide que le moment est venu de s'engager.
+
+### MODULE 4 : EXITS (La Stratégie de Sortie)
+
+**Rôle :** Protéger le capital et sécuriser les gains avant même l'ouverture du trade.
+**Logique de l'IA :**
+
+* Aucune configuration ne peut être validée par le SaaS si les deux scénarios de sortie ne sont pas pré-calculés.
+* **Action :**
+* *Scénario Défavorable :* Où le Stop Loss sera-t-il placé si le marché se retourne ? (Couper les pertes).
+* *Scénario Favorable :* Où le Take Profit sera-t-il placé si le marché va dans le bon sens ? (Prendre les profits).
+
+
+
+---
+
+**Comment intégrer ceci avec la vidéo précédente ?**
+Cette deuxième vidéo fournit le **"Squelette"**. La première vidéo que vous m'avez envoyée fournit la **"Chair"**.
+Dans votre SaaS, le *Market Structure* correspondra à la règle de Tendance Multi-Timeframe (Module 1 de la vidéo 1), l'*Area of Value* correspondra au tracé des Supports/Résistances en rectangles (Module 2 de la vidéo 1), l'*Entry Trigger* correspondra aux bougies de confirmation comme le Hammer (Module 3 de la vidéo 1), et les *Exits* correspondront au calcul de l'ATR pour le Stop Loss et aux extensions de Fibonacci pour le Take Profit (Module 4 et 5 de la vidéo 1).
+
+Avez-vous une autre vidéo de cette série pour continuer à alimenter Claude avec les règles techniques précises ?

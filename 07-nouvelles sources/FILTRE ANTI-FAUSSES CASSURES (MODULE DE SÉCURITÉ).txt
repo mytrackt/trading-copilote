@@ -1,0 +1,55 @@
+Dans le module précédent, nous avions autorisé l'achat de "Breakouts" (cassures) lorsque la tendance est très forte. Cette vidéo nuance et sécurise cette règle : l'IA ne doit jamais acheter une cassure aveuglément. Elle doit filtrer les "False Breakouts" (Fausses Cassures) en vérifiant l'état de la structure des prix avant la cassure.
+
+Voici la spécification technique pour intégrer ce filtre de sécurité dans Claude.
+
+SPÉCIFICATION TECHNIQUE : FILTRE ANTI-FAUSSES CASSURES (MODULE DE SÉCURITÉ)
+1. LA RÈGLE D'INTERDICTION : LE PIÈGE DE LA BOUGIE GÉANTE
+Le SaaS doit comporter un bloqueur (Guardrail) contre l'achat impulsif (Chasing the market).
+
+Le problème mathématique : Si le marché produit soudainement une bougie géante qui casse une résistance, le creux précédent (Swing Low) est mathématiquement trop éloigné. L'algorithme de calcul du Stop Loss (basé sur le Swing Low + l'ATR, vu dans le Module 4) générerait un Stop Loss beaucoup trop large, ruinant le ratio Risque/Récompense.
+
+Règle pour l'IA : SI la distance entre le point de cassure et le dernier Swing Low est supérieure à [X] fois l'ATR moyen, ALORS la cassure est ignorée. Le SaaS ne déclenche aucun trade.
+
+Pour valider une cassure, l'assistant doit impérativement détecter l'un des deux comportements préparatoires suivants :
+
+2. FILTRE DE VALIDATION A : LE SIGNE DE FORCE (SIGN OF STRENGTH)
+L'algorithme ne doit trader une cassure que s'il détecte une "compression" du prix contre le niveau clé.
+
+Pour un Achat (Long Breakout) :
+
+L'IA doit identifier une ligne de Résistance horizontale.
+
+L'IA doit scanner l'action du prix précédant la cassure et détecter une série de creux de plus en plus hauts (Higher Lows). Cela forme visuellement un "Triangle Ascendant" (Ascending Triangle).
+
+Signification codée : Les acheteurs acceptent de payer des prix de plus en plus élevés pour attaquer la résistance.
+
+Placement du Stop Loss : Juste en dessous du tout dernier "Higher Low" (ou sous la ligne de tendance qui relie ces creux).
+
+Pour une Vente (Short Breakdown) :
+
+L'IA doit identifier une ligne de Support horizontale.
+
+L'IA doit scanner une série de sommets de plus en plus bas (Lower Highs) venant s'écraser sur le support, formant un "Triangle Descendant" (Descending Triangle).
+
+Placement du Stop Loss : Juste au-dessus du tout dernier "Lower High".
+
+3. FILTRE DE VALIDATION B : LE "BUILD-UP" (CONSOLIDATION SERRÉE)
+Si le prix ne forme pas de triangle, l'IA peut chercher une autre configuration : le Build-up. C'est une accumulation d'énergie juste avant l'explosion.
+
+Caractéristique Algorithmique : Le prix stagne extrêmement près du niveau de Support ou de Résistance, avec une très faible volatilité.
+
+Variable imposée par le formateur : L'algorithme de Claude doit compter les bougies. Le système requiert une consolidation très serrée (tight consolidation) d'au moins 10 bougies (10 candles) consécutives collées à la zone clé.
+
+Signification codée : Si le prix stagne pendant 10 périodes collé sous une résistance, sans que les vendeurs ne parviennent à le faire chuter, c'est une preuve de force des acheteurs.
+
+Placement du Stop Loss : L'IA doit placer le Stop Loss juste en dessous du point le plus bas de cette "boîte" de 10 bougies (pour un achat).
+
+4. LE FILTRE DE LA TENDANCE MACRO
+Le formateur ajoute une ultime condition de probabilité pour le Build-up.
+
+Règle de Confluence : Un "Build-up" peut casser par le haut ou par le bas. Pour maximiser le taux de réussite, l'IA doit croiser ce filtre avec le Module 1 (Market Structure).
+
+SI Build-up sous une Résistance ET Tendance de fond = Uptrend, ALORS le signal d'Achat est valide à haute probabilité.
+
+Bilan d'intégration pour le SaaS :
+Votre assistant IA ne tombera plus dans le piège d'acheter une grande bougie verte surgissant de nulle part. Claude devra désormais coder une fonction qui analyse la "préparation" de la cassure (compter une série de Higher Lows ou isoler un bloc de 10 bougies).

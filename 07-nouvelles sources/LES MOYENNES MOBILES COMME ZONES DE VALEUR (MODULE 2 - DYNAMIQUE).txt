@@ -1,0 +1,47 @@
+Cette vidéo ajoute une deuxième dimension au Module 2 (Les Zones de Valeur). Après avoir appris à coder les lignes horizontales (Supports/Résistances), l'IA doit maintenant intégrer les Zones de Valeur Dynamiques à l'aide des Moyennes Mobiles.
+
+Voici la spécification technique pour Claude.
+
+SPÉCIFICATION TECHNIQUE : LES MOYENNES MOBILES COMME ZONES DE VALEUR (MODULE 2 - DYNAMIQUE)
+1. CONCEPT ALGORITHMIQUE : LE SUPPORT/RÉSISTANCE DYNAMIQUE
+Contrairement au tracé horizontal (qui reste fixe), l'assistant SaaS doit être capable de suivre le prix en mouvement lors d'une tendance forte.
+
+Logique de l'IA : En période de tendance (Market Structure = Uptrend ou Downtrend), une Moyenne Mobile ne sert plus seulement à définir la direction, elle agit comme une "Zone de Valeur" mouvante. Le prix s'en éloigne, puis y revient (pullback) pour "rebondir".
+
+2. PARAMÉTRAGES DES MOYENNES MOBILES (INPUTS DE L'UTILISATEUR)
+L'outil SaaS devra permettre de configurer le type de Moyenne Mobile en fonction du type de tendance détectée ou souhaitée par l'utilisateur. La vidéo définit trois standards :
+
+SMA 20 Périodes (Tendance Forte / Strong Trend) : Pour les marchés qui corrigent très peu (Shallow Pullbacks). L'IA doit avertir l'utilisateur que cette configuration demande des réactions rapides.
+
+SMA 50 Périodes (Tendance Saine / Healthy Trend - Recommandation Principale) : Le point d'équilibre ("Sweet Spot"). Le formateur préconise d'utiliser la 50 périodes par défaut car elle laisse le temps au marché de respirer et au trader de planifier son entrée.
+
+SMA 100 Périodes (Tendance Faible / Weak Trend) : Pour les marchés qui font des corrections profondes (Deep Pullbacks).
+
+3. RÈGLE CRITIQUE DE VALIDATION : LE TEST DES "2 TOUCHES MINIMUM"
+C'est la règle algorithmique la plus stricte de cette vidéo. Le SaaS ne doit absolument pas considérer une Moyenne Mobile comme une Zone de Valeur valide simplement parce qu'elle est affichée. Il faut que le marché ait "prouvé" qu'il la respecte.
+
+Logique de validation conditionnelle pour Claude :
+
+SI le prix touche la Moyenne Mobile pour la 1ère fois ALORS Ignorer (ce n'est pas une zone confirmée).
+
+SI le prix touche la Moyenne Mobile pour la 2ème fois ALORS Ignorer l'entrée, mais marquer la MM comme "Zone de Valeur Confirmée".
+
+SI le marché revient pour un 3ème contact (ou plus) sur une MM Confirmée ALORS Activer la recherche de signaux d'entrée (Triggers).
+
+4. DÉFINITION RIGOUREUSE D'UN "TEST" VALIDE
+Pour éviter les faux positifs dans le code, le formateur donne une définition mécanique de ce qui constitue un "contact" ou un "test" valide pour incrémenter le compteur évoqué ci-dessus. Le simple fait de toucher la ligne ne suffit pas.
+
+La condition de "Cassure Structurelle" :
+
+Le prix recule (pullback) et touche la Moyenne Mobile.
+
+Le prix rebondit depuis la Moyenne Mobile.
+
+Validation : Le rebond doit obligatoirement casser le précédent point extrême (casser le précédent "Swing High" en tendance haussière, ou casser le précédent "Swing Low" en tendance baissière).
+
+Exception à coder : Si le prix rebondit sur la MM mais n'arrive pas à franchir le sommet/creux précédent, ce contact n'est pas comptabilisé comme un nouveau test valide par l'algorithme.
+
+Bilan d'intégration pour Claude :
+Le SaaS sait désormais identifier où acheter/vendre en utilisant soit des zones horizontales (vidéos 4 et 5), soit des zones dynamiques pré-validées par le marché (cette vidéo 6).
+
+Comme annoncé à la fin de cette séquence, le framework va maintenant passer au Module 3 : Entry Trigger (Le Déclencheur d'Entrée). L'algorithme sait "Quoi faire" et "Où le faire", il va maintenant apprendre "Quand cliquer".

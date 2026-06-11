@@ -1,0 +1,42 @@
+Jusqu'à présent, l'IA savait définir si le marché montait ou descendait. Cette vidéo exige que le SaaS mesure la force de cette tendance, car les règles d'entrée et de sortie changent radicalement selon cette métrique.
+
+Voici la spécification algorithmique de classification des tendances à intégrer au code de Claude.
+
+SPÉCIFICATION TECHNIQUE : CLASSIFICATION ET ROUTAGE DES TENDANCES (MODULE 1 - AVANCÉ)
+Le SaaS ne doit plus se contenter de détecter un "Uptrend" ou un "Downtrend". Il doit classer la tendance dans l'une des trois catégories suivantes et verrouiller les méthodes de trading associées.
+
+CATÉGORIE 1 : STRONG TREND (Tendance Forte)
+Caractéristique Algorithmique : Le marché évolue de manière très agressive avec des corrections (pullbacks) quasi inexistantes.
+
+Validation IA : Le prix se maintient systématiquement au-dessus de la Moyenne Mobile à 20 Périodes (SMA 20) sans la casser.
+
+Règle d'Entrée (Entry) : Le SaaS doit privilégier les "Breakouts" (Cassures). L'IA recommande d'acheter la cassure du précédent sommet (Swing High). Attendre un pullback est inefficace car ils sont trop superficiels.
+
+Règle de Stop Loss : À placer avec une marge (distance) sous la SMA 20.
+
+Règle de Sortie (Exit) : Le SaaS doit forcer le mode "Trend Following" (Suivi de tendance). Puisque le marché est fort et les corrections faibles, l'algorithme doit encourager le maintien de la position sur la durée.
+
+CATÉGORIE 2 : HEALTHY TREND (Tendance Saine)
+Caractéristique Algorithmique : Le marché respire de manière claire (flux et reflux évidents).
+
+Validation IA : Le prix retrace plus profondément mais respecte la Moyenne Mobile à 50 Périodes (SMA 50), qui coïncide souvent avec les anciennes résistances devenues supports.
+
+Règle d'Entrée (Entry) : L'IA est autorisée à utiliser deux méthodes :
+
+Acheter le repli (Pullback) sur la SMA 50 ou le Support.
+
+Acheter la cassure (Breakout). Condition stricte : Si le Breakout est choisi, le SaaS doit imposer un Stop Loss beaucoup plus large, placé sous le précédent creux (Swing Low), et non juste sous la cassure.
+
+Règle de Sortie (Exit) : L'utilisateur a le choix. Le SaaS peut proposer soit un Swing Trade (cible sur le sommet précédent), soit un Trend Following (en utilisant la SMA 50 comme Trailing Stop).
+
+CATÉGORIE 3 : WEAK TREND (Tendance Faible)
+Caractéristique Algorithmique : Le marché monte (ou descend) globalement, mais subit des corrections extrêmement profondes et violentes.
+
+Validation IA : Le prix transperce les SMA courtes et vient chercher la Moyenne Mobile à 100 Périodes (SMA 100) ou des niveaux de support lointains.
+
+Règle d'Entrée (Entry) : INTERDICTION FORMELLE de trader les Breakouts. Les replis sont si profonds qu'acheter une cassure entraînera inévitablement l'exécution du Stop Loss. L'IA doit uniquement chercher à acheter les replis (Pullbacks) profonds sur la SMA 100 ou sur le support majeur.
+
+Règle de Sortie (Exit) : INTERDICTION FORMELLE du Trend Following. Les mouvements contraires sont trop douloureux à supporter psychologiquement. Le SaaS doit verrouiller le mode de sortie en Swing Trade exclusivement (prise de bénéfice rapide au premier obstacle ou Swing High majeur).
+
+Bilan d'intégration pour le SaaS :
+Votre IA est désormais capable de faire du "Routage Conditionnel". Si l'algorithme détecte une tendance faible (Weak Trend), il saura immédiatement qu'il doit bloquer le bouton "Acheter le Breakout" ou désactiver le mode "Suivi de tendance" pour protéger le capital de l'utilisateur.

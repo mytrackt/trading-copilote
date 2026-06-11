@@ -1,0 +1,4 @@
+2026-05-16 20:12:11,242 | INFO    | transvideo.agent | ==== TRANSVIDEO start | channel='Gigi Trading' limit=5 ====
+2026-05-16 20:12:14,692 | INFO    | transvideo.channel_scraper | cache hit: https://www.youtube.com/channel/UCJI6U17_C7A_xx7wjCOX-Tw/videos (32 videos)
+2026-05-16 20:12:14,692 | INFO    | transvideo.agent | limit applied: 5/32
+2026-05-16 20:20:37,194 | INFO    | transvideo.agent | TRANSVIDEO done | success=1 skipped=0 total=5

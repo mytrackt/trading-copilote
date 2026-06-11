@@ -1,0 +1,50 @@
+Cette vidéo aborde l'alternative au Swing Trading vue précédemment : le Trend Following (Suivi de Tendance). Il s'agit d'une autre méthode de sortie (Exit) que votre SaaS devra proposer, car elle modifie radicalement la façon dont l'IA gère la position ouverte.
+
+Voici la spécification algorithmique pour Claude.
+
+SPÉCIFICATION TECHNIQUE : LA SORTIE EN TREND FOLLOWING (MODULE 4 - ALTERNATIVE)
+1. DÉFINITION LOGIQUE DU TREND FOLLOWING
+Contrairement au Swing Trading qui utilise un "Take Profit" fixe pour capturer un seul mouvement, le Trend Following demande à l'algorithme de ne jamais définir de cible de profit finale.
+
+L'objectif algorithmique : Capturer "la viande" (the meat) de la tendance entière. Le SaaS ne clôturera la position que lorsque la tendance montrera des signes mathématiques de faiblesse ou d'inversion.
+
+Le mécanisme central : L'utilisation exclusive d'un Trailing Stop-Loss (Stop-Loss suiveur). Le Take Profit classique (Limit Order) est purement et simplement désactivé dans ce mode.
+
+2. LA MÉTHODE DU "MOVING AVERAGE TRAILING STOP"
+Pour exécuter ce suivi, le formateur impose l'utilisation des Moyennes Mobiles (Moving Average) comme filets de sécurité dynamiques.
+
+A. Choix des Paramètres (Inputs utilisateur du SaaS) :
+L'outil devra demander à l'utilisateur quel type de tendance il souhaite chevaucher, ce qui modifiera la Moyenne Mobile de référence :
+
+Tendance Court Terme (Short-term trend) : Paramétrage sur la SMA 20 périodes. (Faible tolérance à la douleur, sortie rapide sur de petites corrections).
+
+Tendance Moyen Terme (Medium-term trend) : Paramétrage sur la SMA 50 périodes. (Tolérance modérée, permet de résister aux corrections normales).
+
+Tendance Long Terme (Long-term trend) : Paramétrage sur la SMA 100 périodes. (Haute tolérance à la douleur, l'algorithme ignorera les grosses corrections pour rester dans le trade majeur).
+
+B. Condition de Sortie (Exit Trigger) :
+C'est une règle de clôture binaire très stricte. L'assistant ne sort pas du trade dès que le prix touche la Moyenne Mobile (MM).
+
+SI le prix de clôture de la bougie franchit la Moyenne Mobile de référence (Clôture sous la MM pour un Achat, Clôture au-dessus de la MM pour une Vente) ALORS le SaaS déclenche la clôture immédiate de toute la position.
+
+3. GESTION PSYCHOLOGIQUE ET PARAMÉTRAGE DES ATTENTES (UI/UX)
+Le formateur précise que le SaaS devra afficher des avertissements clairs sur les "Pros & Cons" (Avantages/Inconvénients) si l'utilisateur sélectionne ce mode, car l'expérience vécue sera très différente du Swing Trading. L'IA Claude doit concevoir l'interface en tenant compte de ces réalités statistiques :
+
+Taux de réussite (Win Rate) : Le SaaS doit afficher que le Trend Following a mathématiquement un faible taux de réussite (Low Winning Rate). Beaucoup de trades se clôtureront à zéro ou en légère perte à cause des "faux départs".
+
+Rentabilité (Profitability) : Les gains proviennent d'une minorité de trades qui capturent des tendances massives (Huge Profit Potential).
+
+Règle de perte des profits ouverts (Open Profits) : Le code ne fermera jamais la position au sommet absolu. La nature même de la règle Close < Moving Average signifie que le marché doit obligatoirement se retourner contre l'utilisateur pour déclencher la sortie. L'utilisateur verra donc systématiquement une partie de ses profits latents disparaître avant que la position ne se ferme.
+
+Bilan d'intégration pour le développement du SaaS :
+Votre IA Claude a maintenant le plan d'architecture complet (Le Framework en 4 étapes) :
+
+Structure (Market Structure) : Candlestick / SMA 200.
+
+Zone (Area of Value) : Support/Résistance horizontal ou SMA dynamiques (20, 50, 100).
+
+Entrée (Entry Trigger) : Patterns de bougies (Hammer/Engulfing, etc.) ou Cassure de SMA 5.
+
+Sortie (Exits) : Stop Loss basé sur l'ATR + Sortie en Swing Trading (Cible avant la pression opposée) OU Sortie en Trend Following (SMA Trailing Stop).
+
+Le formateur a annoncé que la vidéo numéro 12 (la dernière de cette playlist) sera l'assemblage complet de toutes ces pièces. Si vous avez le lien, je suis prêt à clôturer la base de connaissances de votre application !

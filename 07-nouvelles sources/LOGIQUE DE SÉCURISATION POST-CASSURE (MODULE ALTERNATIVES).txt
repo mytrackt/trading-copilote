@@ -1,0 +1,33 @@
+SPÉCIFICATION TECHNIQUE : LOGIQUE DE SÉCURISATION POST-CASSURE (MODULE ALTERNATIVES)
+Lorsque le module de détection signale qu'un Breakout majeur a eu lieu sans que le robot n'ait pu entrer en position, l'IA doit désactiver l'ordre au marché immédiat et basculer sur un protocole d'attente divisé en 4 scénarios d'exécution conditionnels.
+
+SCÉNARIO 1 : LE PREMIER REPLI SERRÉ (FIRST PULLBACK / BULL FLAG)
+Comportement du prix : Après l'explosion, le marché marque une pause et consolide de manière très serrée en formant une figure de drapeau (Bull Flag).
+
+Règle de Synchronisation (SMA 20) : L'IA doit laisser le temps à la Moyenne Mobile à 20 Périodes (SMA 20) de remonter et de "rattraper" le prix (ce qui prend généralement entre 7 et 10 bougies).
+
+Condition de Déclenchement (Trigger) : SI la SMA 20 rejoint la consolidation serrée, ALORS le SaaS place un ordre Buy Stop juste au-dessus du sommet de cette micro-consolidation.
+
+SCÉNARIO 2 : LE RETEST DE POLARITÉ (RETEST OF MARKET STRUCTURE)
+Comportement du prix : Le marché ne consolide pas en haut ; il entame un retracement complet et plus profond pour revenir tester son point de rupture d'origine.
+
+Condition de Détection : Le prix revient toucher l'ancienne Résistance majeure qui doit maintenant faire office de Support.
+
+Condition de Déclenchement (Trigger) : L'IA doit attendre une confirmation de l'action des prix sur cette zone. Le signal n'est validé que SI un pattern de rejet haussier apparaît directement sur l'ancien niveau (ex: Hammer ou Bullish Engulfing).
+
+SCÉNARIO 3 : LA FORMATION D'UN NOUVEAU RANGE (NEW HIGH-LEVEL RANGE)
+Comportement du prix : Le marché ne fait pas un repli profond, mais il s'arrête et commence à osciller horizontalement bien au-dessus du point de rupture initial, créant une nouvelle structure.
+
+Règle de Tracé : L'algorithme doit automatiquement dessiner un nouveau Range en identifiant les nouveaux sommets et creux relatifs (New Highs & Lows).
+
+Condition de Déclenchement (Trigger) : SI l'utilisateur est haussier, le SaaS doit attendre que le prix revienne tester le bas de ce nouveau Range (le nouveau Support). L'entrée se fait sur un False Break (fausse cassure du bas de ce range) ou un rejet haussier. Le Stop Loss est placé à une distance sécurisée sous le bas de ce nouveau range.
+
+SCÉNARIO 4 : LA COMPRESSION EN TRIANGLE (ASCENDING TRIANGLE BUILD-UP)
+Comportement du prix : Le marché commence à former un nouveau Range (comme le Scénario 3), mais le prix ne parvient pas à redescendre jusqu'au bas de cette nouvelle structure. Il rebondit de plus en plus haut.
+
+Condition de Détection : L'IA doit identifier une ligne de résistance horizontale sur les nouveaux sommets, corrélée à une série de creux de plus en plus hauts (Higher Lows). Cela forme une consolidation à long terme de type Triangle Ascendant.
+
+Condition de Déclenchement (Trigger) : Le SaaS valide cette compression (Build-up) et programme un ordre d'achat à la cassure de la ligne de résistance supérieure.
+
+Bilan de mise à jour pour Claude :
+Le module "Post-Breakout" de votre SaaS est désormais une machine logique complète. Au lieu de renvoyer un simple message d'erreur disant "Trop tard pour entrer", l'IA va analyser le comportement du prix parmi ces 4 scénarios et placer des ordres conditionnels spécifiques (ordres limites sur support ou ordres stop sur cassure de compression).

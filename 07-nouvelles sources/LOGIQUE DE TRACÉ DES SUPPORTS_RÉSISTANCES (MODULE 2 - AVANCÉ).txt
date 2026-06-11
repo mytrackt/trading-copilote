@@ -1,0 +1,48 @@
+Cette vidéo est fondamentale car elle dicte l'algorithme de tracé visuel et logique que Claude devra coder pour votre SaaS. Ce module précise exactement comment le système doit placer ses zones, sans erreur d'interprétation.
+
+Voici la spécification technique brute pour votre IA.
+
+SPÉCIFICATION TECHNIQUE : LOGIQUE DE TRACÉ DES SUPPORTS/RÉSISTANCES (MODULE 2 - AVANCÉ)
+1. RÈGLE D'EXCLUSION : LA LIMITE DES DONNÉES HISTORIQUES
+L'erreur algorithmique classique serait de scanner tout le graphique pour tracer chaque niveau de support ou résistance. Le SaaS doit l'interdire formellement sous peine d'envoyer des signaux contradictoires.
+
+Logique de filtrage dynamique :
+
+L'IA ne doit jamais tracer de niveaux trop éloignés de l'action actuelle du prix (Price Action).
+
+Justification à intégrer au code : Si le marché est en tendance haussière et que le prix chute suffisamment pour atteindre un "vieux" support très bas, c'est que la tendance haussière est morte. Le SaaS ne doit donc plus chercher à acheter à ce niveau.
+
+2. RÈGLES DE TRACÉ SELON LA STRUCTURE DE MARCHÉ (Rappel Module 1)
+Le système de tracé de votre SaaS doit s'adapter dynamiquement selon la tendance détectée précédemment.
+
+Scénario A : Marché en Uptrend (Tendance Haussière)
+Action du SaaS : Ignorer les résistances (les sommets) et se concentrer uniquement sur les supports (les creux).
+
+Règle de Tracé : L'algorithme doit identifier et tracer uniquement les deux (2) points de Swing Low (Creux) les plus récents.
+
+Scénario B : Marché en Downtrend (Tendance Baissière)
+Action du SaaS : Ignorer les supports (les creux) et se concentrer uniquement sur les résistances (les sommets).
+
+Règle de Tracé : L'algorithme doit identifier et tracer uniquement les deux (2) points de Swing High (Sommets) les plus récents.
+
+Scénario C : Marché en Range (Consolidation)
+Action du SaaS : Tracer à la fois le haut et le bas de la structure.
+
+Règle de Tracé : Identifier les extrêmes hauts (Swing Highs) et les extrêmes bas (Swing Lows) récents pour encadrer le prix.
+
+Note complémentaire : Le système doit également scanner et afficher les anciens niveaux proches qui ont subi une inversion de polarité (ex: une Résistance récente qui a été cassée et qui agirait désormais comme le Support actuel le plus proche).
+
+3. L'ALGORITHME D'OPTIMISATION DU TRACÉ (MAXIMISATION DES TOUCHES)
+C'est ici que votre SaaS va se différencier d'un simple robot basique. Le formateur insiste sur l'ajustement du niveau pour qu'il ne soit pas tracé aveuglément sur le bout exact d'une mèche.
+
+Instruction de codage pour la fonction de placement (Adjustment Logic) :
+
+Point de départ : Le SaaS identifie le Swing Point récent (le bout de la mèche extrême).
+
+Ajustement algorithmique : Au lieu de fixer la ligne/zone sur cet extrême absolu (ce qui ignorerait souvent d'autres creux ou sommets très proches), le système doit décaler légèrement la zone (plus haut pour un support, plus bas pour une résistance).
+
+Condition d'arrêt de l'ajustement : Le niveau optimal est atteint lorsque la zone englobe le nombre maximum de points de contact (touches) avec les autres bougies récentes de la structure. L'objectif mathématique de la zone n'est pas d'être à l'extrémité absolue, mais d'avoir le plus grand nombre d'intersections avec l'action du prix.
+
+Bilan d'intégration : Votre IA Claude dispose désormais de la règle pour déterminer la tendance (Module 1), de la définition d'une zone de valeur (Module 2A) et de la logique mathématique pour tracer cette zone avec précision sans saturer l'écran (Module 2B).
+
+La vidéo se termine en annonçant que la prochaine expliquera comment utiliser les Moyennes Mobiles comme Zones de Valeur (et non plus juste pour la Tendance). Je suis prêt pour la suite de votre roadmap.

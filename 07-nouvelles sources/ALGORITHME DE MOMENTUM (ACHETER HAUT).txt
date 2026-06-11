@@ -1,0 +1,46 @@
+L'intégration de cette logique est fondamentale. La vidéo ("How to Buy High and Sell Higher") vient briser un dogme classique. Jusqu'ici, votre SaaS était programmé pour "acheter bas" (sur un support). Cette nouvelle spécification permet à l'IA de faire du Momentum Trading : acheter haut pour vendre encore plus haut, sans tomber dans le piège de chasser le marché.
+
+Voici les algorithmes de cassure (Breakout) à intégrer au code de Claude.
+
+SPÉCIFICATION TECHNIQUE : ALGORITHME DE MOMENTUM (ACHETER HAUT)
+L'IA ne doit jamais "chasser" (Chase) un marché qui vient de faire un mouvement explosif vertical, car le point de Stop Loss logique serait introuvable. Le SaaS doit plutôt scanner trois scénarios précis pour valider un achat à des prix élevés.
+
+1. SCÉNARIO A : L'ANTICIPATION (AVANT LA CASSURE)
+L'algorithme doit détecter la préparation d'une explosion haussière directement sous un plafond.
+
+Condition de Détection : Le prix est sous une Résistance majeure et l'IA détecte un "Build-up" (une consolidation extrêmement serrée de plus de 10 bougies abordée précédemment).
+
+Logique Mathématique (Liquidité) : L'IA comprend que les vendeurs ont placé leurs Stop Loss juste au-dessus de cette résistance. Ces Stop Loss sont techniquement des ordres d'achat différés.
+
+Action du SaaS :
+
+L'IA ne place pas un ordre d'achat au marché (Market Order).
+
+L'IA place un ordre Buy Stop (Ordre d'Achat à Déclenchement) juste au-dessus de la résistance.
+
+Exécution : Si le prix casse, l'ordre est activé et profite de l'accélération causée par l'exécution des Stop Loss des vendeurs. Le Stop Loss de l'utilisateur est placé sous le Build-up.
+
+2. SCÉNARIO B : LE PREMIER REPLI (APRÈS LA CASSURE)
+Si l'IA a "raté" la cassure initiale (le prix a déjà explosé), elle doit verrouiller un protocole d'attente.
+
+Condition de Détection : Une Résistance a été franchie avec violence. Le prix consolide pour la première fois (formation visuelle en "Drapeau Haussier" ou Bull Flag).
+
+L'Indicateur de Synchronisation : L'IA doit activer la Moyenne Mobile à 20 Périodes (SMA 20). Lors d'une forte cassure, le prix s'éloigne très vite de la SMA 20.
+
+Condition d'Entrée : L'assistant doit attendre que la SMA 20 "rattrape" le prix qui consolide en haut.
+
+Action du SaaS : SI le prix touche ou respecte la SMA 20 lors de ce premier repli, ALORS l'IA place un ordre d'achat à la cassure du sommet de ce micro-repli. Le Stop Loss est placé à 1 ATR sous la SMA 20.
+
+3. SCÉNARIO C : LA FAUSSE CASSURE (LE REPLI PROFOND)
+L'IA doit avoir un plan de secours si le "Premier Repli" (Scénario B) échoue.
+
+Condition de Détection : Le repli est trop profond et le prix casse la SMA 20 à la baisse. La dynamique de Momentum est brisée.
+
+Action d'Annulation : Le SaaS annule la stratégie du "Premier Repli".
+
+Nouvelle Stratégie (Re-Scan) : L'IA attend qu'un nouveau Range se forme. Le prix va généralement chuter jusqu'à l'ancienne Résistance (qui devrait désormais agir comme un Support).
+
+Condition d'Entrée : L'IA attend un "False Break" (Fausse Cassure) sur ce nouveau support. SI le prix transperce le support vers le bas mais clôture violemment à la hausse (réintégrant le Range), ALORS le SaaS déclenche un signal d'Achat.
+
+Bilan d'intégration pour le développement :
+Votre assistant possède maintenant un moteur à deux vitesses. Il sait acheter patiemment la valeur (sur des supports majeurs), mais il sait aussi utiliser la Moyenne Mobile 20 (SMA 20) et les Build-ups pour acheter agressivement les marchés en pleine force.

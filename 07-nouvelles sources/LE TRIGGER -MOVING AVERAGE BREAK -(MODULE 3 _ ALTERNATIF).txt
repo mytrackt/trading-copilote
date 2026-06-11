@@ -1,0 +1,47 @@
+Si l'utilisateur de votre SaaS ne souhaite pas utiliser l'analyse complexe des chandeliers (vue dans la vidéo précédente), l'IA doit lui proposer cette méthode alternative, plus mécanique et plus facile à coder.
+
+Voici la spécification technique à intégrer pour Claude.
+
+SPÉCIFICATION TECHNIQUE : LE TRIGGER "MOVING AVERAGE BREAK" (MODULE 3 - ALTERNATIF)
+1. DÉFINITION DE LA MÉTHODE
+Cette méthode consiste à utiliser une Moyenne Mobile à très court terme, non pas pour définir la tendance ou la zone de valeur, mais uniquement comme ligne de déclenchement pour entrer en position lors d'un repli (pullback).
+
+L'indicateur déclencheur (Input) : Le SaaS doit utiliser une Moyenne Mobile à 5 Périodes (5-period Moving Average).
+
+Logique de l'IA : Le système observe le prix qui corrige (pullback) contre la tendance principale. La Moyenne Mobile à 5 périodes va "coller" au prix durant cette correction. L'entrée se fera au moment précis où le prix "casse" cette moyenne mobile.
+
+2. RÈGLES D'ENTRÉE BINAIRES (LONG / SHORT)
+Ce système est purement mécanique. L'IA n'a pas besoin d'analyser la taille des mèches ou des corps, elle ne regarde que la clôture (Close) par rapport à la Moyenne Mobile 5 (MM5).
+
+A. Règle d'Achat (Long Entry)
+Précondition : La tendance de fond est Haussière (définie par le Module 1) ET le prix est dans une Zone de Valeur (définie par le Module 2).
+
+Condition de Déclenchement (Trigger) : SI le prix de clôture de la bougie actuelle est SUPÉRIEUR à la valeur de la MM5 (Close > MM5).
+
+Exécution : L'assistant déclenche l'ordre d'achat à l'ouverture (Open) de la bougie suivante.
+
+B. Règle de Vente (Short Entry)
+Précondition : La tendance de fond est Baissière ET le prix est dans une Zone de Valeur (ex: résistance atteinte).
+
+Condition de Déclenchement (Trigger) : SI le prix de clôture de la bougie actuelle est INFÉRIEUR à la valeur de la MM5 (Close < MM5).
+
+Exécution : L'assistant déclenche l'ordre de vente à l'ouverture (Open) de la bougie suivante.
+
+3. AVERTISSEMENT DE SÉCURITÉ POUR LE SAAS (LE CONTEXTE)
+Le formateur insiste lourdement sur un point crucial qui doit devenir une règle de sécurité (Guardrail) dans le code de votre assistant IA.
+
+Règle d'Isolation (Interdiction formelle) : Le SaaS ne doit jamais utiliser le "Moving Average Break" (ni aucun Candlestick Pattern) de manière isolée.
+
+Processus de validation obligatoire (The Framework) :
+Le code de l'assistant doit vérifier que les trois conditions sont remplies séquentiellement avant d'afficher le bouton "BUY" ou "SELL" :
+
+Vérifier Market Structure (Ex: Uptrend validé).
+
+Vérifier Area of Value (Ex: Le prix a touché un Support ou une MM50).
+
+Vérifier Entry Trigger (Ex: Le prix casse la MM5 à la hausse).
+SI 1 + 2 + 3 = VRAI ALORS Signal valide.
+
+Bilan d'intégration : Votre IA Claude dispose maintenant de deux méthodes distinctes pour déclencher un trade (Motifs de Bougies ou Cassure de MM5).
+
+La vidéo se termine en annonçant l'ultime étape du framework : le Module 4 (Exits), qui expliquera comment coder le Stop Loss et le Take Profit. J'attends votre prochain lien pour finaliser cette architecture de trading !

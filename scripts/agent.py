@@ -9,6 +9,7 @@ Chemin : C:\\trading-copilote\\scripts\\agent.py
 """
 
 import os
+import re
 import sys
 import json
 import shutil
@@ -17,6 +18,7 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 from typing import Optional
+from urllib.parse import parse_qs, urlparse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from channel_scraper import get_channel_videos
@@ -52,6 +54,117 @@ def setup_logging() -> Path:
 
 
 logger = logging.getLogger("transvideo.agent")
+
+
+# ── Validation CLI YouTube ──────────────────────────────────────────────────
+VIDEO_ID_RE = re.compile(r"^[A-Za-z0-9_-]{11}$")
+
+
+def _with_scheme(value: str) -> str:
+    """Ajoute https:// si l'utilisateur donne une URL sans schéma."""
+    text = value.strip()
+    if text.startswith(("http://", "https://")):
+        return text
+    if text.startswith(("www.youtube.com/", "youtube.com/", "m.youtube.com/", "youtu.be/")):
+        return "https://" + text
+    return text
+
+
+def _is_url(value: str) -> bool:
+    parsed = urlparse(_with_scheme(value))
+    return bool(parsed.scheme and parsed.netloc)
+
+
+def _is_youtube_host(host: str) -> bool:
+    host = host.lower()
+    return host == "youtu.be" or host == "youtube.com" or host.endswith(".youtube.com")
+
+
+def _clean_video_id(value: str) -> str:
+    video_id = value.strip().split("/")[0].split("?")[0].split("&")[0]
+    return video_id if VIDEO_ID_RE.match(video_id) else ""
+
+
+def normalize_video_url(value: str) -> str:
+    """
+    Retourne une URL watch canonique pour watch, youtu.be et shorts.
+    Retourne "" si l'entrée n'est pas une URL vidéo YouTube supportée.
+    """
+    parsed = urlparse(_with_scheme(value))
+    host = parsed.netloc.lower()
+    path = parsed.path.strip("/")
+
+    if host == "youtu.be":
+        video_id = _clean_video_id(path)
+        return f"https://www.youtube.com/watch?v={video_id}" if video_id else ""
+
+    if not _is_youtube_host(host):
+        return ""
+
+    if parsed.path == "/watch":
+        video_id = _clean_video_id(parse_qs(parsed.query).get("v", [""])[0])
+        return f"https://www.youtube.com/watch?v={video_id}" if video_id else ""
+
+    if path.startswith("shorts/"):
+        video_id = _clean_video_id(path.split("/", 1)[1])
+        return f"https://www.youtube.com/watch?v={video_id}" if video_id else ""
+
+    return ""
+
+
+def is_channel_url(value: str) -> bool:
+    """Détecte les formats chaîne YouTube explicitement supportés."""
+    parsed = urlparse(_with_scheme(value))
+    if not _is_youtube_host(parsed.netloc):
+        return False
+    parts = [p for p in parsed.path.strip("/").split("/") if p]
+    if not parts:
+        return False
+    first = parts[0]
+    return (
+        first.startswith("@")
+        or first in {"channel", "c", "user"}
+    )
+
+
+def normalize_channel_input(value: str) -> str:
+    """
+    Valide le mode --channel. Les noms simples sont conservés tels quels.
+    Les URLs de vidéos sont refusées pour éviter un basculement silencieux.
+    """
+    text = value.strip()
+    if not text:
+        raise ValueError("entrée --channel vide")
+
+    if normalize_video_url(text):
+        raise ValueError("une URL de vidéo a été fournie avec --channel ; utilise --url")
+
+    if _is_url(text):
+        parsed = urlparse(_with_scheme(text))
+        if not _is_youtube_host(parsed.netloc):
+            raise ValueError("--channel accepte un nom de chaîne ou une URL YouTube de chaîne")
+        if not is_channel_url(text):
+            raise ValueError("URL YouTube non reconnue comme URL de chaîne")
+        return _with_scheme(text)
+
+    return text
+
+
+def normalize_url_input(value: str) -> str:
+    """Valide le mode --url et retourne une URL vidéo canonique."""
+    text = value.strip()
+    if not text:
+        raise ValueError("entrée --url vide")
+
+    if is_channel_url(text):
+        raise ValueError("une URL de chaîne a été fournie avec --url ; utilise --channel")
+
+    normalized = normalize_video_url(text)
+    if not normalized:
+        raise ValueError(
+            "--url attend une URL vidéo YouTube watch, youtu.be ou Shorts valide"
+        )
+    return normalized
 
 
 # ── Checkpoint reprise crash (P2.7) ─────────────────────────────────────────
@@ -138,7 +251,7 @@ def run(channel_name: str, limit: Optional[int] = None, max_videos: int = 300) -
     if not videos:
         logger.warning("aucune vidéo trouvée pour '%s'", channel_name)
         print("❌  Aucune vidéo trouvée. Vérifie le nom de la chaîne.")
-        sys.exit(0)
+        sys.exit(1)
 
     # Étape 2 — Filtre trading
     print(f"\n{'─' * 58}")
@@ -149,7 +262,7 @@ def run(channel_name: str, limit: Optional[int] = None, max_videos: int = 300) -
     if not trading:
         logger.warning("aucune vidéo après filtrage")
         print("❌  Aucune vidéo trading après filtrage.")
-        sys.exit(0)
+        sys.exit(1)
 
     # Limite optionnelle (CLI --limit N)
     if limit is not None and limit > 0:
@@ -225,6 +338,7 @@ def run_single_url(url: str) -> None:
         print(f"  ✅  Fichier généré : {out}")
     else:
         print(f"  ⏭️  Aucun fichier généré (pré-screen négatif ou erreur)")
+        sys.exit(1)
     print(f"  📁  {OUTPUT_BASE / 'Single Videos'}")
     print(f"  📋  Log complet : {log_file}")
     print(f"{sep}\n")
@@ -240,12 +354,12 @@ def _build_parser() -> argparse.ArgumentParser:
     group.add_argument(
         "--channel",
         metavar="NAME",
-        help="Nom de la chaîne YouTube à scraper entièrement"
+        help="Nom ou URL de chaîne YouTube à scraper entièrement"
     )
     group.add_argument(
         "--url",
         metavar="URL",
-        help="URL d'une vidéo unique (skip scraper + filtre)"
+        help="URL d'une vidéo unique YouTube watch, youtu.be ou Shorts"
     )
     parser.add_argument(
         "--limit",
@@ -267,6 +381,14 @@ def _build_parser() -> argparse.ArgumentParser:
 if __name__ == "__main__":
     parser = _build_parser()
     args = parser.parse_args()
+
+    try:
+        if args.url:
+            args.url = normalize_url_input(args.url)
+        else:
+            args.channel = normalize_channel_input(args.channel)
+    except ValueError as exc:
+        parser.error(str(exc))
 
     if args.url:
         if args.limit is not None:

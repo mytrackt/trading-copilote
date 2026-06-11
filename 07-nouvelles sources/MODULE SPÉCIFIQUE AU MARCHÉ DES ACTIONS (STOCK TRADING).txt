@@ -1,0 +1,40 @@
+SPÉCIFICATION TECHNIQUE : MODULE SPÉCIFIQUE AU MARCHÉ DES ACTIONS (STOCK TRADING)
+Ce module agit comme un filtre de sélection et de sécurité (Screener & Filter) appliqué exclusivement lorsque la classe d'actifs sélectionnée par l'utilisateur est "Actions" (Stocks).
+
+1. LE FILTRE D'INDICE MAÎTRE (MARKET REGIME FILTER)
+L'algorithme ne doit jamais analyser les actions de manière isolée. Il doit utiliser l'indice de référence du marché comme interrupteur général (Green Light / Red Light).
+
+L'indicateur de référence (Input) : L'indice S&P 500 (ou l'index majeur du marché ciblé) associé à sa Moyenne Mobile à 200 jours (200-day Moving Average).
+
+Logique Algorithmique :
+
+SI le S&P 500 > Moyenne Mobile 200 jours ALORS Statut du marché = Haussier (Bull Market). L'IA donne la "permission d'acheter" des actions individuelles.
+
+SI le S&P 500 < Moyenne Mobile 200 jours ALORS Statut du marché = Baissier (Bear Market). L'IA bloque les signaux d'achat et ordonne la conservation du capital sous forme de Liquidités (Cash).
+
+2. L'ALGORITHME DE SÉLECTION PAR LA FORCE RELATIVE (RELATIVE STRENGTH)
+Pour surperformer le marché, le SaaS ne doit pas chercher les actions qui ont le plus baissé pour les "acheter à bas prix". Il doit appliquer le principe du Momentum (acheter la force).
+
+Logique de détection lors d'une correction (Pullback) :
+
+L'IA détecte que l'indice de référence (S&P 500) effectue une correction négative majeure (ex: un repli de 20%).
+
+L'IA scanne simultanément la liste des actions individuelles durant cette même période exacte.
+
+Calcul de la Force Relative : L'IA isole les actions qui ont résisté à la baisse (ex: l'action ne baisse que de 1% ou 2%, ou continue de consolider à plat, voire progresse vers de nouveaux sommets malgré la chute de l'indice).
+
+Verdict de l'IA : Ces actions sont classées comme "Top Alpha" (Relative Strength supérieure). L'algorithme doit les placer en tête de liste des achats prioritaires. SI l'indice S&P 500 commence à se retourner à la hausse, ALORS l'IA déclenche immédiatement un signal d'achat sur ces actions précises, car elles surperformeront le marché.
+
+3. LE FILTRE D'INTERDICTION : SÉCURISATION CONTRE LA VENTE À DÉCOUVERT (SHORT SELLING)
+Le formateur émet une interdiction ou un avertissement très strict concernant la vente à découvert (Shorting) sur les actions, en raison du comportement asymétrique de cette classe d'actifs.
+
+Règles de restriction (Guardrails) :
+
+Filtre Macro : Le SaaS doit par défaut désactiver ou masquer l'option de vente à découvert (Shorting) sur les actions pour les utilisateurs non expérimentés. Raison factuelle : Historiquement et structurellement, le marché des actions est orienté à la hausse sur le long terme. Les entreprises non haussières finissent par être radiées de la cote (Delisted).
+
+Filtre de Volatilité Baissière : SI le marché des actions s'effondre (Bear Market), ALORS l'IA doit avertir que les rebonds techniques (Dead Cat Bounce / V-shaped bottom) sont extrêmement violents et rapides dans le sens opposé.
+
+Règle de gestion de position Short (si activée) : L'IA interdit le mode "Trend Following" sur les positions vendeuses d'actions. Le SaaS doit obliger l'utilisateur à adopter une gestion de sortie ultra-rapide (Prise de profit à court terme) pour éviter que les rebonds agressifs ne détruisent instantanément les profits latents.
+
+Bilan d'intégration pour Claude :
+Votre SaaS intègre désormais une logique de "Stock Screener". Si votre utilisateur choisit le marché des actions, l'IA sait qu'elle doit d'abord valider la santé du S&P 500 au-dessus de sa MM200, puis chercher les actions qui affichent la meilleure force relative lors des corrections, tout en bloquant ou limitant drastiquement les fonctionnalités de vente à découvert.
