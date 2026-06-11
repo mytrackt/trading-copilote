@@ -30,7 +30,8 @@
       "PowerShell(cd C:\\\\trading-copilote; git mv \"logs\" \"_archive/old-logs\" && \"--- logs -> _archive\\\\old-logs OK ---\"; git mv \"transcription-engine/RAPPORT_codex-transvideo.md\" \"00-pilotage/RAPPORT_codex-transvideo.md\" && \"--- rapport -> 00-pilotage OK ---\"; New-Item -ItemType Directory -Force -Path \"_archive\\\\transcription-engine\" | Out-Null; Move-Item \"transcription-engine\\\\.claude\" \"_archive\\\\transcription-engine\\\\.claude\"; \"--- config session morte -> _archive \\(Move-Item, non suivie\\) ---\"; if \\(\\(Get-ChildItem \"transcription-engine\" -Force\\).Count -eq 0\\) { Remove-Item \"transcription-engine\" -Force; \"--- transcription-engine \\(vide\\) supprime : faux projet imbrique elimine ---\" } else { \"ATTENTION: transcription-engine non vide\"; Get-ChildItem \"transcription-engine\" -Force | Select-Object Name }; git mv \"visuels frontend\" \"05-saas/maquettes\" && \"--- visuels frontend -> 05-saas\\\\maquettes OK ---\")",
       "PowerShell(cd C:\\\\trading-copilote; \"=== RACINE FINALE ===\"; Get-ChildItem -Force | Where-Object { $_.Name -ne '.git' } | Select-Object Name, @{N='Type';E={if\\($_.PSIsContainer\\){'Dossier'}else{'Fichier'}}} | Out-String; \"=== GIT STATUS \\(resume\\) ===\"; $st = git status --short; \"Lignes de changements : $\\($st.Count\\)\"; $st | Group-Object { $_.Substring\\(0,2\\).Trim\\(\\) } | Select-Object Name, Count | Out-String)",
       "PowerShell(cd C:\\\\trading-copilote; $st = git status --short; if \\($st.Count -eq 0\\) { \"git status : PROPRE \\(aucun changement en attente\\)\" } else { $st }; git log --oneline -3)",
-      "PowerShell(git -C C:\\\\trading-copilote diff .claude/settings.json)"
+      "PowerShell(git -C C:\\\\trading-copilote diff .claude/settings.json)",
+      "PowerShell(git -C C:\\\\trading-copilote push)"
     ],
     "additionalDirectories": [
       "C:\\trading-skills-factory\\scraper"
