@@ -8,11 +8,11 @@
 Chaque nouvelle session suit cet ordre exact :
 
 1. Lire ce fichier (CLAUDE.md) — déjà fait
-2. Lire le fichier le plus récent dans `_context/` (date la plus récente)
-3. Annoncer exactement : "📍 Phase X — État : [résumé 1 ligne] — Prochaine action : [action]"
+2. Lire le fichier le plus récent dans `00-pilotage\_context\` (date la plus récente)
+3. Annoncer exactement : "📍 État : [résumé 1 ligne] — Prochaine action : [action]"
 4. Attendre confirmation de l'utilisateur avant toute exécution
 
-Ne jamais sauter une étape. Ne jamais supposer l'état du projet sans lire `_context/`.
+Ne jamais sauter une étape. Ne jamais supposer l'état du projet sans lire `00-pilotage\_context\`.
 
 ---
 
@@ -20,6 +20,7 @@ Ne jamais sauter une étape. Ne jamais supposer l'état du projet sans lire `_co
 
 Construire **TRADEX-AI** : un système de trading temps réel basé sur la méthode Belkhayate,
 connecté à NinjaTrader 8, avec mode Manuel (Abdelkrim décide) et mode Auto (exécution automatique).
+Le moteur **TRANSVIDEO** (transcription YouTube → règles de trading) alimente le cerveau du SaaS.
 
 ---
 
@@ -33,7 +34,7 @@ NinjaTrader 8 (données live) → Python Engine (surveillance 2s) → Claude API
 ```
 
 **Ce n'est PAS un système screenshot.** La donnée vient directement de NinjaTrader 8 via fichiers JSON.
-**MBK Trader** (projet Electron, 60% fait, en pause) est distinct — TRADEX-AI le remplace.
+**MBK Trader** (projet Electron, en pause) est archivé dans `_archive\MBK\` — TRADEX-AI le remplace.
 
 ---
 
@@ -47,9 +48,10 @@ NinjaTrader 8 (données live) → Python Engine (surveillance 2s) → Claude API
 | Mode Auto | Exécution dès opportunité détectée |
 | Règle d'entrée | **3/4 trading + 2/3 confirmation alignés = signal valide** |
 | Architecture | **1 seul projet** : tout dans `C:\trading-copilote\` |
-| Code Python | Toujours dans `C:\trading-copilote\code\` — JAMAIS à la racine |
+| Code Python du SaaS | Toujours dans `C:\trading-copilote\05-saas\` — JAMAIS à la racine |
 | Modèle Claude | **claude-sonnet-4-6** (KB + signaux) |
 | Modèle Vision | **claude-sonnet-4-20250514** (si screenshot TradingView) |
+| Objectif moteur | **Fidélité des règles de trading** (transcript-first), PAS le WER mot-à-mot. Usage personnel. |
 
 ---
 
@@ -81,65 +83,84 @@ Bitcoin et Yen sont **définitivement supprimés** des actifs tradables.
 
 ---
 
-## ARCHITECTURE DU CODE
+## ARCHITECTURE DU PROJET (STRUCTURE RÉELLE 00→06)
 
 ### Règle de structure unique
 ```
-TOUT fichier .py vit dans code\ et ses sous-dossiers. JAMAIS à la racine.
+TOUT fichier .py du SaaS vit dans 05-saas\ et ses sous-dossiers. JAMAIS à la racine.
 ```
 
-### Arborescence complète
+### Arborescence complète (à jour 11/06/2026)
 ```
 C:\trading-copilote\
 │
-├── code\                        ← TOUT LE CODE ICI
-│   ├── engine\                  ← Moteur principal
-│   │   ├── staleness_monitor.py ← Fraîcheur 15 sources de données
-│   │   ├── circuit_breaker.py   ← CB_NT8 + CB_ATAS + CB_CLAUDE
-│   │   ├── risk_manager.py      ← Règles risque + suspend_auto_mode
-│   │   ├── data_reader.py       ← Lecture NT8 / ATAS via JSON
-│   │   ├── correlations.py      ← Corrélations live 30j (GC/HG/CL/ZW/ES/VX)
-│   │   ├── claude_brain.py      ← Appel Claude API + prompt caching + fallback
-│   │   └── signal_scorer.py     ← Score 7 cercles (à créer)
-│   │
-│   ├── utils\                   ← Utilitaires
-│   │   └── atomic_writer.py     ← Écritures JSON atomiques
-│   │
-│   ├── config\                  ← Configuration
-│   │   └── settings.py          ← Actifs, seuils, timeouts, chemins
-│   │
-│   ├── knowledge_base\          ← transcript_processor.py (skel) + KB JSON cible (Phase B)
-│   ├── collectors\              ← Collecteurs de données (vide — Phase C)
-│   ├── execution\               ← Exécution ordres NT8 ATI (vide — Phase G)
-│   └── api\                     ← API FastAPI locale (vide — Phase H)
+├── .claude\                       ← Config Claude Code (settings, etc.)
 │
-├── 04-kb-sources\               ← Sources KB (scraper + 142 transcripts)
-│   └── youtube-a-scraper\
-│       ├── whisper_pipeline.py  ← Pipeline scraping YouTube (existant)
-│       └── transcripts\         ← 142 fichiers .txt à parser (Phase B)
+├── 00-pilotage\                   ← PILOTAGE : docs de gouvernance + contexte
+│   ├── DETTE_TECHNIQUE.md         ← ⚠️ Bugs connus à réparer (lire avant tout dev)
+│   ├── FEUILLE_DE_ROUTE.md        ← Phases du projet
+│   ├── GARDE_FOUS_PROPOSES.md     ← 32 garde-fous trading
+│   ├── GUIDE MAÎTRE — MÉTHODE MUSTAPHA BELKHAYATE.md
+│   ├── MBK-deep-research-report.md
+│   ├── MISSION_TRANSVIDEO.md
+│   ├── RAPPORT_codex-transvideo.md
+│   ├── RAPPORT_COMPARAISON_TRADEX.md
+│   ├── RAPPORT_ORTOGONEX_V4_POST_AUDIT.md   ← Blueprint d'origine
+│   ├── RAPPORT_trading-copilote.md
+│   ├── docs\                      ← MASTER, MODULES, analyses-belkhayate (3 .md)
+│   └── _context\                  ← Briefings + READMEs de transition (source d'état)
 │
-├── data\                        ← Données JSON live (NT8, ATAS, etc.)
-├── kb\                          ← (vide — conflit avec code\knowledge_base\, à trancher Phase B)
-├── logs\                        ← Logs système
-├── scripts\                     ← Scripts Windows (disable-sleep, restore-sleep)
-├── docs\                        ← Documentation
-│   ├── MODULES.md
-│   ├── MASTER_TRADEX_AI_v2.md   ← Document master (1101 lignes)
-│   ├── APPORTS_GUIDE_EXTERNE.md ← Apports guide externe (Phase A)
-│   ├── PROMPT_1_SCRAPING_YOUTUBE_SKILLS.md ← Spec KB Phase B
-│   └── analyses-belkhayate\     ← INVENTAIRE + RESTRUCTURE + AUDIT (3 .md)
-├── 01-methode-belkhayate\       ← Corpus méthode Belkhayate
-│   └── pdfs-references\         ← 3 PDF références (Architecture, Compétences, MUSTAPHA)
-├── 02-marches-trading\          ← Actifs trading (GC/HG/CL/ZW)
-├── 03-marches-confirmation\     ← Actifs confirmation (DX/ES/VX)
-├── 05-skills\                   ← 10 skills Belkhayate .md générés
-├── 06-playbook\                 ← Playbooks opérationnels
-├── _archive\                    ← Archives (Phase Y exécutée 09/05/2026)
-│   ├── MBK\                     ← Projet MBK en pause (9 items + sous-dossier mbk-trader)
-│   ├── external-methods\        ← Méthodes hors scope (4 PDF : Bao, Brian Lee, Temiz, Small Caps)
-│   ├── audits-prompts\          ← Audits + checklists historiques (4 items)
-│   └── sources-pdf-externes\    ← PDF sources gitignored
-└── _context\                    ← Briefings de session
+├── 01-moteur-transvideo\          ← MOTEUR de transcription (version vivante unique)
+│   ├── transvideo_pipeline.bat
+│   └── scripts\                   ← agent.py, channel_scraper.py, chunk_fuse.py,
+│                                     video_filter.py, disable-sleep.ps1, restore-sleep.ps1
+│
+├── 02-sources-brutes\             ← Matières premières (PDF, méthode, marchés)
+│   ├── kb-sources\                ← pdfs-gardes + youtube-a-scraper
+│   ├── marches-trading\           ← or (et autres marchés)
+│   ├── methode-belkhayate\        ← pdfs-references + principes + timing
+│   └── playbook\
+│
+├── 03-transcriptions\             ← Sorties brutes du moteur
+│   ├── nouvelles-sources\         ← Gigi Trading, Single Videos, The Trading Geek
+│   └── transcripts-bruts\
+│
+├── 04-cerveau-trading\            ← LE CERVEAU (KB séparée du code)
+│   ├── KNOWLEDGE_BASE_MASTER.json ← Base de connaissances Belkhayate (~2337 règles)
+│   └── processor_status.json
+│
+├── 05-saas\                       ← TOUT LE CODE DU SAAS ICI
+│   ├── __init__.py
+│   ├── config\
+│   │   ├── __init__.py
+│   │   └── settings.py            ← Actifs, seuils, timeouts, chemins
+│   ├── engine\                    ← Moteur principal
+│   │   ├── __init__.py
+│   │   ├── staleness_monitor.py   ← Fraîcheur des sources de données
+│   │   ├── circuit_breaker.py     ← CB_NT8 + CB_ATAS + CB_CLAUDE
+│   │   ├── risk_manager.py        ← Règles risque + suspend_auto_mode
+│   │   ├── data_reader.py         ← Lecture NT8 / ATAS via JSON
+│   │   ├── correlations.py        ← Corrélations live 30j
+│   │   └── claude_brain.py        ← Appel Claude API + prompt caching + fallback
+│   ├── knowledge_base\
+│   │   └── transcript_processor.py
+│   ├── utils\
+│   │   ├── __init__.py
+│   │   └── atomic_writer.py       ← Écritures JSON atomiques
+│   └── maquettes\                 ← f1.jpg → f8.jpg (maquettes interface)
+│
+├── 06-skills\                     ← Skills Belkhayate .md
+│
+├── _archive\                      ← Gelé (ne pas réutiliser comme source vivante)
+│   ├── audits-prompts\
+│   ├── external-methods\
+│   ├── MBK\                       ← Projet MBK en pause
+│   ├── old-logs\
+│   ├── transcription-engine\      ← Ancien moteur (codex-transvideo-safe gelé)
+│   └── _backup_transvideo_phase1_20260518_234159\
+│
+└── _temp\                         ← Temporaire (audio 121 Mo — supprimable sur confirmation)
+    └── temp_audio\
 ```
 
 ---
@@ -154,7 +175,7 @@ NIVEAU 1 — Python (0$) : surveiller NT8/ATAS toutes les 2 secondes
 NIVEAU 2 — Python (0$) : vérifier news gate + DD + VIX + staleness
               → Conditions KO → bloquer. OK → passer niveau 3
 
-NIVEAU 3 — Claude API (~0.01$) : analyser via KB 2337 règles
+NIVEAU 3 — Claude API (~0.01$) : analyser via KB (~2337 règles)
               → Signal ACHETER / VENDRE / ATTENDRE + confiance %
               → Mode Manuel → afficher
               → Mode Auto → exécuter via NT8 ATI si confiance ≥ seuil
@@ -173,7 +194,7 @@ Backend local       : Python 3.11 + FastAPI
 Dashboard           : React 18 + Vite + Tailwind 3.4 (local)
 DB locale           : SQLite
 Exécution ordres    : NinjaTrader 8 ATI (TCP/IP local port 36973)
-OS                  : Windows 11 + PowerShell
+OS                  : Windows 11 + PowerShell 7.6.2
 Prompt caching      : cache_control: persistent sur KB (~90% économies tokens)
 ```
 
@@ -223,30 +244,28 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Phase A + Y terminées 09/05/2026)
+## ÉTAT ACTUEL (Réorganisation pro terminée 11/06/2026)
 
 | Élément | État |
 |---------|------|
-| CLAUDE.md | ✅ À jour — Z1+Z2 (09/05/2026) |
-| Phase A | ✅ Terminée et poussée (commits faf0678 → ce620dd) |
-| Phase Y | ✅ Réorganisation racine exécutée (G1→G6b, ~388 MB libérés, 27 fichiers git mv) |
-| Migration code\ | ✅ Terminée — 6 modules Python migrés depuis racine |
-| code\engine\ | ✅ 6 modules : staleness_monitor, circuit_breaker, risk_manager, data_reader, correlations, claude_brain |
-| code\config\settings.py | ✅ Phase A : DD jour 3 % + confiance Auto 85 % |
-| code\utils\atomic_writer.py | ✅ Créé |
-| code\knowledge_base\ | ⏳ transcript_processor.py (skel) — Phase B |
-| code\collectors\ | ⏳ Vide — Phase C (NT8/ATAS/news/COT) |
-| code\execution\ | ⏳ Vide — Phase G (NT8 ATI port 36973) |
-| code\api\ | ⏳ Vide — Phase H (FastAPI + dashboard) |
-| docs\MASTER_TRADEX_AI_v2.md | ✅ 1101 lignes (sections 1/10/11/12 corrigées) |
-| GARDE_FOUS_PROPOSES.md | ✅ 32 garde-fous (20 actifs / 10 manquants / 2 partiels) |
-| FEUILLE_DE_ROUTE.md | ✅ 11 phases A→K |
-| _archive\audits-prompts\ | ✅ CHECKLIST + RAPPORT_REORGANISATION + AUDIT_PROMPT + README ancien |
-| _archive\MBK\ | ✅ 9 items + sous-dossier mbk-trader (projet en pause) |
-| _archive\external-methods\ | ✅ 4 PDF méthodes hors scope |
-| .gitignore Python | ✅ Configuré (pycache, .env, IDE, BACKUP_*, PDF source archivé, .tmp.drive*) |
-| KB Belkhayate | ⏳ 142 transcripts à parser (Phase B, 2-3 sessions) |
-| Mode AUTO | 🔒 BLOQUÉ par défaut (5/6 conditions non remplies) |
+| Réorganisation pro 00→06 | ✅ Terminée — commit `960fe88` poussé sur GitHub |
+| CLAUDE.md | ✅ À jour — reflète la structure 00→06 (11/06/2026) |
+| Moteur TRANSVIDEO | ✅ Consolidé en une seule version vivante (`01-moteur-transvideo\scripts\`) |
+| Cerveau trading (KB) | ✅ Séparé du code (`04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json`) |
+| Code SaaS | ✅ Migré dans `05-saas\` (config, engine, knowledge_base, utils, maquettes) |
+| Dette technique | ⚠️ Documentée mais NON réparée → `00-pilotage\DETTE_TECHNIQUE.md` |
+| Fiabilité moteur | ⏳ NON validée (objectif > 90/95 % non prouvé, dernier test = success_partial) |
+| Instructions projet Cowork | ⏳ À vérifier — peuvent encore référencer l'ancienne structure |
+| Mode AUTO | 🔒 BLOQUÉ par défaut |
+
+### ⚠️ DETTE TECHNIQUE CONNUE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
+```
+1. Circuit breaker inactif en silence : claude_brain.py importe l'ancien
+   paquet `code.engine.circuit_breaker` → garde-fou de sécurité KO. CRITIQUE.
+2. Chemins doublés `code\code\` (claude_brain, settings) → modules pas en service.
+3. Dossier `data\` référencé mais inexistant (staleness_monitor, data_reader, settings).
+   → À réparer AVANT de lancer le SaaS, pas urgent tant que modules hors service.
+```
 
 ### Actifs décidés définitivement
 ```
@@ -255,48 +274,12 @@ CONFIRMATION: DX (Dollar), ES (SP500), VX (VIX)
 REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 ```
 
-### Structure code\ actuelle
-```
-code\
-├── engine\         ✅ staleness_monitor, circuit_breaker, risk_manager,
-│                      data_reader, correlations, claude_brain
-├── utils\          ✅ atomic_writer.py
-├── config\         ✅ settings.py (DD 3% + confiance 85% — Phase A)
-├── knowledge_base\ ⏳ transcript_processor.py (skel — Phase B)
-├── collectors\     ⏳ vide (Phase C)
-├── execution\      ⏳ vide (Phase G)
-└── api\            ⏳ vide (Phase H)
-```
-
-### Commits Phase A (03/05/2026)
-```
-faf0678  docs: APPORTS_GUIDE_EXTERNE - segments retenus du guide externe
-6e24070  chore: phase 0 backup - gitignore settings.local.json + pdf source externe
-9f31edd  S02-docs - Garde-fous proposes + feuille de route
-95c2e8f  docs: briefing fin de phase A
-2fd06ba  docs: checklist fichiers inutiles + rapport reorganisation
-4edaccf  docs: briefing fin de session 2026-05-03
-ce620dd  chore(claude): add message counter guardrail to CLAUDE.md
-```
-
-### Commits Phase Y (09/05/2026)
-```
-a6f99c1  docs(claude): Z1 - corrige chemins inexistants et reflete fin Phase A
-26b711b  chore: G1 nettoyage racine - dossiers vides + .tmp.drive cleanup
-5ddfb6c  chore: G2 archive MBK - projet en pause
-535ec05  chore: G3 archive methodes externes - hors scope TRADEX-AI
-3183d38  chore: G4 rangement corpus belkhayate
-1df60f5  chore: G5 organisation - scripts windows + prompt_1 KB vers docs
-914e976  chore: G6 archive audits + README contexte + PDF source
-73c54e3  chore: G6b update .gitignore - nouveau chemin PDF source
-```
-
 ---
 
 ## PROTOCOLE FIN DE SESSION OBLIGATOIRE
 
 ```
-1. Générer _context/briefing-[YYYY-MM-DD].md (résumé complet)
+1. Générer 00-pilotage\_context\README_TRANSITION_[date].md (résumé complet)
 2. Mettre à jour la section ÉTAT ACTUEL de ce fichier (CLAUDE.md)
 3. Proposer le commit : git add . && git commit -m "chore: session [date] terminee"
 4. Rappeler à l'utilisateur de faire git push
@@ -310,7 +293,7 @@ a6f99c1  docs(claude): Z1 - corrige chemins inexistants et reflete fin Phase A
 - **Niveau technique** : débutant — expliquer chaque commande comme à un élève du primaire
 - **Objectif** : faire du trading un métier rentable avec la méthode Belkhayate
 - **Approche** : l'IA comme copilote, l'utilisateur qui décide
-- **OS** : Windows 11 — PowerShell — chemins backslash
+- **OS** : Windows 11 — PowerShell 7.6.2 — chemins backslash
 
 ---
 
@@ -318,19 +301,18 @@ a6f99c1  docs(claude): Z1 - corrige chemins inexistants et reflete fin Phase A
 
 | Priorité | Fichier | Contenu |
 |----------|---------|---------|
-| 1 | `_context/briefing-2026-05-03-fin-session.md` | État global fin Phase A |
-| 2 | `_context/CONTEXT_TRADEX_v1.md` | Context projet v1 (post-S01) |
-| 3 | `FEUILLE_DE_ROUTE.md` | 11 phases A→K |
-| 4 | `GARDE_FOUS_PROPOSES.md` | 32 garde-fous (20 actifs / 10 manquants / 2 partiels) |
-| 5 | `_archive/audits-prompts/RAPPORT_REORGANISATION.md` | Plan réorg 6 groupes (Phase Y, exécutée 09/05) |
-| 6 | `docs/MASTER_TRADEX_AI_v2.md` | Document master |
-| 7 | `RAPPORT_ORTOGONEX_V4_POST_AUDIT.md` | Blueprint d'origine |
+| 1 | `00-pilotage\_context\README_TRANSITION_TRADEX_S02_20260511.md` | Dernier état de session |
+| 2 | `00-pilotage\DETTE_TECHNIQUE.md` | Bugs à réparer (contexte indispensable) |
+| 3 | `00-pilotage\FEUILLE_DE_ROUTE.md` | Phases du projet |
+| 4 | `00-pilotage\GARDE_FOUS_PROPOSES.md` | 32 garde-fous trading |
+| 5 | `00-pilotage\docs\MASTER_TRADEX_AI_v2.md` | Document master |
+| 6 | `00-pilotage\RAPPORT_ORTOGONEX_V4_POST_AUDIT.md` | Blueprint d'origine |
 
 ---
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 09/05/2026 — Z1+Z2 + Phase A reflétée + Phase Y exécutée*
+*Dernière mise à jour : 11/06/2026 — Structure 00→06 reflétée + dette technique documentée*
 
 ---
 
