@@ -7,7 +7,7 @@
 
 ---
 
-## 1. Bug `code\code\` — chemins doublés (hérité de la migration vers `code\`, aggravé par le renommage en `05-saas\`)
+## 1. ✅ PARTIELLEMENT RÉPARÉ (11/06/2026 — commit 75a517e) — Bug `code\code\` — chemins doublés
 
 Les modules calculent `BASE_DIR` = "2 crans au-dessus du fichier" (= `05-saas\` depuis la réorganisation),
 puis y ajoutent encore `code\` — un segment qui n'existe plus.
@@ -34,19 +34,19 @@ puis y ajoutent encore `code\` — un segment qui n'existe plus.
 **Correctif futur** : le dossier `data\` (flux JSON NT8/ATAS) sera créé par les collecteurs en Phase C —
 décider alors de son emplacement définitif et harmoniser les 4 références ci-dessus.
 
-## 3. Import inter-modules cassé — `claude_brain.py:25`
+## 3. ✅ RÉPARÉ (11/06/2026 — commit 75a517e) — Import inter-modules cassé
 
 ```python
-from code.engine.circuit_breaker import CB_CLAUDE   # paquet "code" renommé en "05-saas"
-```
-L'import échoue silencieusement (`except ImportError`) → `CB_CLAUDE = None` : **le circuit breaker est
-désactivé en mode dégradé sans bruit**. Constaté à l'import le 11/06/2026 (« circuit_breaker non disponible »).
-Bug antérieur à la réorganisation (l'import en style paquet `code.engine.*` ne fonctionnait que dans
-des conditions précises de lancement) ; il est désormais cassé en permanence.
+# AVANT (cassé) :
+from code.engine.circuit_breaker import CB_CLAUDE
+from code.engine.prompt_builder import build_god_mode_prompt
 
-**Correctif futur** : import relatif (`from .circuit_breaker import CB_CLAUDE`) ou restructuration en
-paquet propre. Attention : `05-saas` n'est pas un nom de paquet Python valide (tiret + chiffre initial) —
-les imports doivent rester relatifs au dossier `05-saas\` ajouté au `sys.path`, jamais en style `O5саas.engine.*`.
+# APRÈS (corrigé) :
+from .circuit_breaker import CB_CLAUDE
+from .prompt_builder import build_god_mode_prompt
+```
+Chemin KB dans `load_kb_rules()` également corrigé :
+`dirname(BASE_DIR) / "04-cerveau-trading" / "KNOWLEDGE_BASE_MASTER.json"` — KB existe et est chargeable.
 
 ## 4. Hypothèse « 1 transcript vide » — INFIRMÉE (vérifiée le 11/06/2026)
 

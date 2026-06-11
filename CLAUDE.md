@@ -253,18 +253,17 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Moteur TRANSVIDEO | ✅ Consolidé en une seule version vivante (`01-moteur-transvideo\scripts\`) |
 | Cerveau trading (KB) | ✅ Séparé du code (`04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json`) |
 | Code SaaS | ✅ Migré dans `05-saas\` (config, engine, knowledge_base, utils, maquettes) |
-| Dette technique | ⚠️ Documentée mais NON réparée → `00-pilotage\DETTE_TECHNIQUE.md` |
+| Dette technique | ✅ Bug CRITIQUE réparé (commit 75a517e) — DATA_DIR reste pour Phase C |
 | Fiabilité moteur | ⏳ NON validée (objectif > 90/95 % non prouvé, dernier test = success_partial) |
 | Instructions projet Cowork | ⏳ À vérifier — peuvent encore référencer l'ancienne structure |
 | Mode AUTO | 🔒 BLOQUÉ par défaut |
 
-### ⚠️ DETTE TECHNIQUE CONNUE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
+### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
-1. Circuit breaker inactif en silence : claude_brain.py importe l'ancien
-   paquet `code.engine.circuit_breaker` → garde-fou de sécurité KO. CRITIQUE.
-2. Chemins doublés `code\code\` (claude_brain, settings) → modules pas en service.
-3. Dossier `data\` référencé mais inexistant (staleness_monitor, data_reader, settings).
-   → À réparer AVANT de lancer le SaaS, pas urgent tant que modules hors service.
+✅ 1. Circuit breaker RÉPARÉ — import relatif .circuit_breaker (commit 75a517e)
+✅ 2. Chemins KB RÉPARÉS — claude_brain.py + settings.py pointent vers 04-cerveau-trading
+⏳ 3. Dossier data\ inexistant (staleness_monitor, data_reader, settings).
+   → À créer en Phase C (collecteurs NT8/ATAS).
 ```
 
 ### Actifs décidés définitivement
