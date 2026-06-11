@@ -1,70 +1,50 @@
 # TRADING-COPILOTE
 
 Système d'aide à la décision de trading basé sur la méthode Belkhayate.
-
-## Ce que c'est
-
-Un SaaS personnel appelé **TRADEX-AI** qui analyse des graphiques TradingView
-en temps réel et génère des signaux ACHETER / VENDRE / ATTENDRE selon les
-indicateurs Belkhayate (Barycenter, Direction, Énergie, Pivots Sol/Fa/Mi/Ré/Do).
+Un SaaS personnel appelé **TRADEX-AI** : données NinjaTrader 8 en temps réel → signaux
+ACHETER / VENDRE / ATTENDRE selon les indicateurs Belkhayate (Barycentre, Direction,
+Énergie, Pivots Belkhayate).
 
 ## Méthode
 
 **Belkhayate — intouchable et suivie exactement.**
-La méthode s'applique à n'importe quel actif. Le choix des actifs appartient
-à l'utilisateur.
-
-## Marchés configurés
 
 | Rôle | Actifs |
 |------|--------|
-| Trading | Or (GC1!), Cuivre (HG1!), Pétrole (CL1!), Blé (ZW1!) |
-| Confirmation | Dollar (DX1!), SP500, VIX |
+| Trading | Or (GC), Cuivre (HG), Pétrole (CL), Blé (ZW) |
+| Confirmation | Dollar (DX), SP500 (ES), VIX (VX) |
 
 **Règle d'entrée : 3/4 trading + 2/3 confirmation alignés = signal valide**
 
-## Où en est le projet
+## Workflow métier
 
-1. ✅ Structure et bibliothèque de connaissances (PDFs Belkhayate)
-2. 🔄 Scraping YouTube @MostafaBelkhayate (200 vidéos — en cours)
-3. ⏳ Extraction règles → Knowledge Base JSON
-4. ⏳ Génération 10 skills Belkhayate custom
-5. ⏳ Développement TRADEX-AI (SaaS)
+```
+TRANSCRIRE (01-moteur) → DISTILLER (04-cerveau) → CONSTRUIRE (05-saas)
+```
 
-## Documents clés
-
-- `CLAUDE.md` → instructions pour Claude Code
-- `RAPPORT_ORTOGONEX_V4_POST_AUDIT.md` → blueprint technique TRADEX-AI
-- `PROMPT_1_SCRAPING_YOUTUBE_SKILLS.md` → spec KB + 10 skills
-- `_context/` → historique des sessions de travail
-
-## Structure du projet
+## Structure du projet (réorganisation du 11/06/2026)
 
 ```
 trading-copilote/
-  01-methode-belkhayate/   Principes, timing, gestion du risque
-  02-marches-trading/      Or, Cuivre, Pétrole, Blé
-  03-marches-confirmation/ Dollar, SP500, VIX
-  04-kb-sources/           Sources YouTube et PDFs
-  05-skills/               10 skills Belkhayate (à générer)
-  06-playbook/             Playbook personnel
-  07-tradex-ai/            Blueprint et specs du SaaS
-  code/                    Tout le code (Python + React + NestJS)
-  _context/                Briefings de session
-  _archive/                Fichiers archivés
+  00-pilotage/           Docs de pilotage : feuille de route, garde-fous, rapports, briefings (_context), dette technique
+  01-moteur-transvideo/  Moteur de transcription YouTube (scripts Python + transvideo_pipeline.bat) — SEULE version vivante
+  02-sources-brutes/     Corpus sources : methode-belkhayate, marches-trading, playbook, kb-sources (PDF + txt)
+  03-transcriptions/     transcripts-bruts (142 whisper .txt) + nouvelles-sources (sorties du moteur)
+  04-cerveau-trading/    KNOWLEDGE_BASE_MASTER.json (142 videos, 11 categories de regles) + processor_status.json
+  05-saas/               Code TRADEX-AI : engine, config, utils, knowledge_base, maquettes
+  06-skills/             10 skills Belkhayate (.md)
+  _archive/              MBK en pause, ancien whisper_pipeline.py, vieux logs, methodes externes, backups
+  _temp/                 Audio jetable (gitignore) — supprimable sans risque
 ```
 
-## Architecture Modulaire
+À la racine : `CLAUDE.md` (instructions Claude Code), `AGENTS.md` (instructions agents), `.env` (clés, gitignoré).
 
-Trading Copilote est une plateforme de modules specialises.
-Chaque module peut fonctionner seul ou etre integre dans le copilote principal.
+## Documents clés
 
-| Module | Fonction | Methode | Statut |
-|--------|----------|---------|--------|
-| MBK Trader | Detection fausses cassures + signaux | Liquidity Grab + Fibonacci | v1.1 |
-| TRADEX-AI | Analyse graphiques + signaux | Belkhayate | En developpement |
-
-→ Voir `docs/MODULES.md` pour le detail complet.
+- `00-pilotage/FEUILLE_DE_ROUTE.md` → 11 phases A→K
+- `00-pilotage/RAPPORT_ORTOGONEX_V4_POST_AUDIT.md` → blueprint technique TRADEX-AI
+- `00-pilotage/DETTE_TECHNIQUE.md` → bugs connus du SaaS, à corriger avant Phase C
+- `00-pilotage/_context/` → historique des sessions de travail
 
 ## Disclaimer
 

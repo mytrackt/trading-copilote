@@ -36,3 +36,7 @@ Thumbs.db
 # Backups locaux generes par les phases (le dossier est cree hors repo a C:\BACKUP_TRADEX_*)
 /_BACKUP_*/
 /BACKUP_*/
+
+# Reorganisation 11/06/2026 - audio jetable hors suivi git (deja present dans l'historique, non purge)
+_temp/
+**/temp_audio/

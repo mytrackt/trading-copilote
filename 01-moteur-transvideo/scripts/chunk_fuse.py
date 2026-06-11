@@ -45,7 +45,7 @@ def _env_int(name: str, default: int) -> int:
 
 
 # ── Configuration (P2.4 - tous overridables via TRANSVIDEO_*) ───────────────
-OUTPUT_BASE    = os.path.join(BASE_DIR, "07-nouvelles sources")
+OUTPUT_BASE    = os.path.join(os.path.dirname(BASE_DIR), "03-transcriptions", "nouvelles-sources")
 MAX_FRAMES     = _env_int("TRANSVIDEO_MAX_FRAMES", 28)
 RESOLUTION     = _env_int("TRANSVIDEO_RESOLUTION", 800)
 MODEL          = os.getenv("TRANSVIDEO_MODEL", "claude-sonnet-4-6")

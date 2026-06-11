@@ -41,10 +41,11 @@ except ImportError:
 # --- Configuration ---
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent  # C:\trading-copilote\
-TRANSCRIPTS_DIR = PROJECT_ROOT / "04-kb-sources" / "youtube-a-scraper" / "transcripts"
-KB_FILE = SCRIPT_DIR / "KNOWLEDGE_BASE_MASTER.json"
-KB_TMP_FILE = SCRIPT_DIR / "KNOWLEDGE_BASE_MASTER.json.tmp"
-LOG_FILE = SCRIPT_DIR / "processor_status.json"
+TRANSCRIPTS_DIR = PROJECT_ROOT / "03-transcriptions" / "transcripts-bruts"
+KB_DIR = PROJECT_ROOT / "04-cerveau-trading"
+KB_FILE = KB_DIR / "KNOWLEDGE_BASE_MASTER.json"
+KB_TMP_FILE = KB_DIR / "KNOWLEDGE_BASE_MASTER.json.tmp"
+LOG_FILE = KB_DIR / "processor_status.json"
 
 MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 4096
