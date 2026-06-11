@@ -1,6 +1,9 @@
 import os
 from datetime import datetime, timedelta
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(os.path.dirname(BASE_DIR), "data")  # C:\trading-copilote\data
+
 STALENESS_LIMITS = {
     "NT8_data.csv":           timedelta(seconds=10),
     "ATAS_signals.json":      timedelta(seconds=10),
@@ -13,12 +16,10 @@ STALENESS_LIMITS = {
     "dark_pools.json":        timedelta(days=16),
 }
 
-DATA_DIR = "C:/trading-copilote/data"
-
 def check_all_staleness() -> dict:
     status = {}
     for filename, limit in STALENESS_LIMITS.items():
-        path = f"{DATA_DIR}/{filename}"
+        path = os.path.join(DATA_DIR, filename)
         try:
             mtime = datetime.fromtimestamp(os.path.getmtime(path))
             age = datetime.now() - mtime

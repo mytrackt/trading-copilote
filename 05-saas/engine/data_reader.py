@@ -1,11 +1,13 @@
+import os
 import pandas as pd
 from datetime import datetime, timedelta
 
-DATA_DIR = "C:/trading-copilote/data"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(os.path.dirname(BASE_DIR), "data")  # C:\trading-copilote\data
 
 def get_vix_delta_pct(minutes: int = 15) -> float:
     try:
-        df = pd.read_csv(f"{DATA_DIR}/NT8_data.csv")
+        df = pd.read_csv(os.path.join(DATA_DIR, "NT8_data.csv"))
         vix_df = df[df['symbol'] == 'VX'].copy()
         vix_df['timestamp'] = pd.to_datetime(vix_df['timestamp'])
         vix_df = vix_df.sort_values('timestamp')
@@ -26,12 +28,12 @@ def get_vix_delta_pct(minutes: int = 15) -> float:
 def read_nt8_data() -> list:
     from engine.circuit_breaker import CB_NT8
     return CB_NT8.call(
-        lambda: pd.read_csv(f"{DATA_DIR}/NT8_data.csv").to_dict('records')
+        lambda: pd.read_csv(os.path.join(DATA_DIR, "NT8_data.csv")).to_dict('records')
     )
 
 def read_atas_signals() -> dict:
     from engine.circuit_breaker import CB_ATAS
     from utils.atomic_writer import safe_read_json
     return CB_ATAS.call(
-        lambda: safe_read_json(f"{DATA_DIR}/ATAS_signals.json")
+        lambda: safe_read_json(os.path.join(DATA_DIR, "ATAS_signals.json"))
     )

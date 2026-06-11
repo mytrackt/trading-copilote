@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "source": "ATAS_STATIC_TEST",
+    "timestamp": "2026-06-11T09:00:00",
+    "note": "Fichier de test statique Phase C-01 — remplacer par export ATAS live en Phase C-02"
+  },
+  "GC": {
+    "delta": 1250,
+    "delta_pct": 0.62,
+    "big_trades": [
+      {"side": "BUY", "volume": 350, "price": 2354.0, "timestamp": "2026-06-11T08:55:30"},
+      {"side": "BUY", "volume": 180, "price": 2355.5, "timestamp": "2026-06-11T08:58:12"}
+    ],
+    "footprint_signal": "ABSORPTION_BUY",
+    "imbalance": "BULLISH",
+    "open_interest_change": 850
+  },
+  "HG": {
+    "delta": 420,
+    "delta_pct": 0.31,
+    "big_trades": [
+      {"side": "BUY", "volume": 120, "price": 4.53, "timestamp": "2026-06-11T08:57:45"}
+    ],
+    "footprint_signal": "NEUTRAL",
+    "imbalance": "SLIGHT_BULLISH",
+    "open_interest_change": 210
+  },
+  "CL": {
+    "delta": -980,
+    "delta_pct": -0.48,
+    "big_trades": [
+      {"side": "SELL", "volume": 280, "price": 78.45, "timestamp": "2026-06-11T08:56:00"}
+    ],
+    "footprint_signal": "DISTRIBUTION_SELL",
+    "imbalance": "BEARISH",
+    "open_interest_change": -420
+  },
+  "ZW": {
+    "delta": 55,
+    "delta_pct": 0.04,
+    "big_trades": [],
+    "footprint_signal": "NEUTRAL",
+    "imbalance": "NEUTRAL",
+    "open_interest_change": 30
+  }
+}
