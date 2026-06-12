@@ -1,23 +1,21 @@
 # FEUILLE DE ROUTE — TradEx AI
 
-> Document de proposition uniquement — **aucun code créé** dans ce document.
-> Source : `docs/MASTER_TRADEX_AI_v2.md` (Sections 1-12, calendrier SEMAINES 1-10)
-> + `docs/APPORTS_GUIDE_EXTERNE.md` + corpus `01-methode-belkhayate/`
-> + `GARDE_FOUS_PROPOSES.md` (32 garde-fous cibles).
+> Source de vérité : `CLAUDE.md` (décisions verrouillées) + `00-pilotage\docs\MASTER_TRADEX_AI_v2.md`
+> Documents KB : `STRATEGIE_KB_MASTER.md` + `RAPPORT_SOURCES_KB_2026.md`
 >
-> **Date** : 2026-05-03 — Phase 5 v4.0 (roadmap fusionnée).
-> **Règle** : chaque phase est validée par toi avant de passer à la suivante.
+> **Dernière mise à jour** : 2026-06-12 — Phase B révisée (KB rebuild depuis sources primaires).
+> **Règle** : chaque phase est validée par Abdelkrim avant de passer à la suivante.
 
 ---
 
 ## 🗺️ VISION GLOBALE
 
-11 phases séquentielles (A → K) qui transforment l'existant (code engine + docs) en SaaS desktop opérationnel TradEx AI :
+11 phases séquentielles (A → K) :
 
 ```
-[A] Documentation & garde-fous              ← EN COURS (cette session)
+[A] Documentation & garde-fous              ✅ TERMINÉE
         ↓
-[B] KB Belkhayate (2337 règles JSON)        ← extraction transcripts
+[B] KB Belkhayate — REBUILD depuis zéro    ← EN COURS (stratégie révisée 12/06/2026)
         ↓
 [C] Collecteurs de données (5 modules)      ← NT8 / ATAS / news / COT / macro
         ↓
@@ -31,7 +29,7 @@
         ↓
 [H] FastAPI locale + Health monitoring      ← API REST + G10
         ↓
-[I] Dashboard React 18 + 3 thèmes           ← UI + bouton 🛑 STOP ALL
+[I] Dashboard React 18 + 3 thèmes           ← UI + bouton STOP ALL
         ↓
 [J] Paper Trading 30 jours obligatoire      ← validation conditions Mode Auto
         ↓
@@ -40,357 +38,272 @@
 
 ---
 
-## ÉTAT ACTUEL (au 2026-05-03)
+## ETAT ACTUEL (au 2026-06-12)
 
-| Item | État | Source |
-|------|------|--------|
-| CLAUDE.md projet (décisions verrouillées) | ✅ | `CLAUDE.md` |
-| Stack gelée (React 18 + FastAPI + SQLite + NT8 ATI + Rithmic) | ✅ | `CLAUDE.md` |
-| Actifs verrouillés (GC/HG/CL/ZW + DX/ES/VX + MBT/6J réf) | ✅ | `settings.py:15-46` |
-| `code/engine/` (6 modules : staleness, CB, risk, data_reader, correlations, claude_brain) | ✅ | — |
-| `code/utils/atomic_writer.py` | ✅ | — |
-| `code/config/settings.py` (actifs + seuils + paths + DD jour 3 % + Confiance Auto 85 %) | ✅ | corrections cette session |
-| `docs/MASTER_TRADEX_AI_v2.md` (1101 lignes) | ✅ | mission 9-12 commitées |
-| `docs/APPORTS_GUIDE_EXTERNE.md` (616 lignes) | ✅ | commit `faf0678` |
-| `GARDE_FOUS_PROPOSES.md` (20 actifs + 10 à faire + 2 partiels) | ✅ | cette session |
-| 152 transcripts `.txt` Belkhayate | ✅ | `code/transcripts/` |
-| 46 PDF méthode + 37 .md docs | ✅ | corpus complet |
-| KB Belkhayate JSON (2337 règles) | ❌ | `code/knowledge_base/` vide |
-| Collecteurs (NT8, ATAS, news, COT, macro) | ❌ | `code/collectors/` vide |
-| Client exécution NT8 ATI | ❌ | `code/execution/` vide |
-| FastAPI locale | ❌ | `code/api/` vide |
-| Dashboard React | ❌ | `code/frontend/` n'existe pas |
-| Paper Trading 30 jours | ❌ | non commencé |
-| Mode AUTO | 🔒 | BLOQUÉ par défaut (5/6 conditions non remplies) |
+| Item | Etat | Note |
+|------|------|------|
+| Reorganisation structure 00→06 | OK | commit 960fe88 |
+| CLAUDE.md a jour | OK | reflète structure 00→06 |
+| Moteur TRANSVIDEO | OK | 01-moteur-transvideo\scripts\ |
+| Code SaaS migre 05-saas\ | OK | config, engine, KB, utils |
+| Circuit breaker repare | OK | commit 75a517e |
+| KB Belkhayate JSON | INVALIDE | 142 whisper_*.txt = NotebookLM (hallucinations confirmees) |
+| PDFs methode-belkhayate | INVALIDE | generes par generateur-prompts-pro (mentions modele inexistant) |
+| KNOWLEDGE_BASE_MASTER.json | INVALIDE | double hallucination — a reconstruire |
+| Strategie KB rebuild | OK | STRATEGIE_KB_MASTER.md + RAPPORT_SOURCES_KB_2026.md |
+| Collecteurs (NT8, ATAS, news, COT, macro) | NON | Phase C (en attente Phase B) |
+| data\NT8_data.csv + data\ATAS_signals.json | OK | fichiers exemples crees |
+| dossier data\ | A CREER | Phase C |
+| Mode AUTO | BLOQUE | BLOQUE par defaut |
 
 ---
 
-## PHASE A — Documentation & garde-fous (EN COURS)
+## PHASE A — Documentation & garde-fous — TERMINEE
 
-**Objectif** : aligner l'utilisateur et l'IA sur tous les garde-fous + la roadmap **avant tout code futur**.
-
-| Livrable | État |
-|----------|------|
-| `docs/APPORTS_GUIDE_EXTERNE.md` | ✅ commité `faf0678` |
-| `GARDE_FOUS_PROPOSES.md` (32 garde-fous) | ✅ cette session |
-| `FEUILLE_DE_ROUTE.md` (ce document) | ⏳ en cours |
-| Commit final S02-docs | ⏳ tâche 5 |
-
-**Critère de validation** : tu valides ce document.
-
-**Garde-fous implémentés en Phase A** : aucun (documentation pure).
-
-→ ⏸️ **Validation requise** : "OK FEUILLE_DE_ROUTE ✅"
+Livrables commites : GARDE_FOUS_PROPOSES.md + FEUILLE_DE_ROUTE.md + MASTER_TRADEX_AI_v2.md + APPORTS_GUIDE_EXTERNE.md
 
 ---
 
-## PHASE B — KB Belkhayate (2337 règles)
+## PHASE B — KB Belkhayate (REBUILD depuis sources primaires)
 
-**Objectif** : extraire les règles Belkhayate depuis les 152 transcripts `.txt` vers `KNOWLEDGE_BASE_MASTER.json`, format consommable par `claude_brain.py:171` (`load_kb_rules`).
+> DECISION DU 12/06/2026 : toutes les sources existantes sont invalides (AI-generated).
+> La KB est reconstruite DEPUIS ZERO avec des sources primaires verifiees.
+> Documents de reference : STRATEGIE_KB_MASTER.md + RAPPORT_SOURCES_KB_2026.md
 
-**Prérequis** : Phase A validée + transcripts présents ✅.
+### Architecture KB — 3 couches
 
-**Livrables** :
-- Script `code/scraper/extract_rules.py` (parser règles depuis .txt structurés)
-- `code/knowledge_base/KNOWLEDGE_BASE_MASTER.json` (~2337 règles structurées par catégorie)
-- Validation manuelle : échantillon 50 règles aléatoires relues par Abdelkrim
+```
+Couche 1 — Code Python (PAS de JSON)
+  Formules mathematiques exactes : BGC, Timing, Pivots, regle 3/4+2/3
+  Fichier : 05-saas\engine\belkhayate_formulas.py
+  Source : Pine Script TradingView (open-source, code verifie)
 
-**Critère de validation** : `claude_brain.load_kb_rules()` charge le JSON sans erreur ; le system prompt généré tient en < 50k tokens (caching efficient).
+Couche 2 — Regles Belkhayate (JSON structure)
+  UNIQUEMENT regles de trading de Mustapha Belkhayate
+  Source : YouTube @MostafaBelkhayate (yt-dlp + Whisper reel)
+  Fichier : 04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json
+  Schema obligatoire : id, couche, categorie, texte, actifs,
+    source_url, source_timestamp, verbatim, belkhayate_specifique,
+    confirme_multi_source, confiance, validated_by_human
 
-**Garde-fous implémentés en Phase B** : aucun.
+Couche 3 — Connaissances trading universelles (JSON)
+  Order Flow, COT, Wyckoff, SMC, Macro, Inter-marches
+  Source : YouTube chaines verifiees (millions abonnes)
+  Fichier : 04-cerveau-trading\KNOWLEDGE_BASE_LAYER3.json
+```
 
-**Estimation effort** : 2-3 sessions Claude Code.
+### Plan d'action en 4 etapes
+
+#### Etape B-01 — Academia.edu + TradingView Pine Script (Couches 1+2 base)
+- Telecharger PDF Academia.edu : recherche "belkhayate gravity center"
+- Extraire formules BGC, Timing, Pivots → belkhayate_formulas.py
+- Extraire Pine Script open-source TradingView → valider formules
+- Extraire regles de trading → Couche 2 JSON (base)
+- Livrable : 05-saas\engine\belkhayate_formulas.py + regles Couche 2 (base)
+- Critere : python -m py_compile belkhayate_formulas.py sans erreur
+
+#### Etape B-02 — YouTube @MostafaBelkhayate → Couche 2 (pipeline Whisper)
+- Installer yt-dlp + OpenAI Whisper (modele large)
+- Telecharger audio MP3 des videos @MostafaBelkhayate
+- Transcrire avec Whisper large (95-98% precision, accent marocain)
+- Extraire regles Belkhayate → enrichir Couche 2 JSON
+- Pipeline : yt-dlp → MP3 → Whisper → Claude extraction → JSON valide
+- Critere : minimum 50 regles Couche 2 avec source_url + verbatim reels
+
+#### Etape B-03 — Autres chaines YouTube → Couche 3
+- Chaines cibles (millions abonnes, verifiees) :
+  - The Trading Geek, Gigi Trading, Anton Kreil, ICT Michael Huddleston
+  - LuxAlgo (Order Flow), ThinkingAnts (macro)
+- Meme pipeline : yt-dlp → Whisper → extraction → Couche 3 JSON
+- Domaines : Order Flow, COT, Wyckoff, SMC, Inter-marches, Macro/News
+- Critere : 7 domaines couverts, minimum 20 regles par domaine
+
+#### Etape B-04 — Validation et nettoyage
+- Supprimer : 142 whisper_*.txt (NotebookLM) + 6 PDFs invalides (generateur-prompts-pro)
+- Supprimer : KNOWLEDGE_BASE_MASTER.json actuel (double hallucination)
+- Validation manuelle : relecture 50 regles aleatoires par Abdelkrim
+- Test claude_brain.load_kb_rules() → charge sans erreur, moins de 50k tokens
+
+**Critere de validation Phase B** : claude_brain.load_kb_rules() charge sans erreur ; systeme de prompt moins de 50k tokens ; zero regle sans source_url reelle.
+
+**Estimation effort** : 4-6 sessions Claude Code + Cowork.
 
 ---
 
 ## PHASE C — Collecteurs de données (5 modules)
 
-**Objectif** : alimenter en continu les 7 cercles (Sections 3 master file).
+**Objectif** : alimenter les 7 cercles en continu.
 
-**Prérequis** : Phase B + NinjaTrader 8 + ATAS configurés sur poste Windows.
+**Prerequis** : Phase B + NinjaTrader 8 + ATAS configures.
 
-**Livrables (5 modules dans `code/collectors/`)** :
+Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 | Module | Cercle | Source | Sortie |
 |--------|--------|--------|--------|
-| `nt8_collector.py` | C1 Prix | JSON exporté par NT8 ATI | `data/nt8_data.json` |
-| `atas_collector.py` | C2 Order Flow | JSON exporté par ATAS Pro | `data/atas_data.json` |
-| `cot_collector.py` | C3 Institutionnels | CFTC API hebdo | `data/cot_data.json` |
-| `macro_collector.py` | C4 Macro + C7 régime | FRED + EIA + Alpha Vantage + **OPEC calendar (G9)** | `data/macro_data.json` |
-| `news_collector.py` | C5 Sentiment + C6 Géopolitique | Finnhub WebSocket + GDELT + GetXAPI | `data/news_data.json` |
+| nt8_collector.py | C1 Prix | JSON NT8 ATI | data\nt8_data.json |
+| atas_collector.py | C2 Order Flow | JSON ATAS Pro | data\atas_data.json |
+| cot_collector.py | C3 Institutionnels | CFTC API hebdo | data\cot_data.json |
+| macro_collector.py | C4+C7 | FRED + EIA + Alpha Vantage + OPEC | data\macro_data.json |
+| news_collector.py | C5+C6 | Finnhub + GDELT | data\news_data.json |
 
-**Critère de validation** : chaque collecteur écrit son JSON avec timestamp respectant les seuils `STALENESS` (`settings.py:105-109`).
+**Garde-fous Phase C** : G9 (calendrier OPEC) + Atomic writes (deja actif).
 
-**Garde-fous implémentés en Phase C** :
-- ✅ G9 — Calendrier OPEC programmé (dans `macro_collector.py`)
-- ✅ Atomic writes (déjà actif via `atomic_writer.py`)
-
-**Estimation effort** : 4-5 sessions Claude Code.
+**Estimation** : 4-5 sessions.
 
 ---
 
 ## PHASE D — Moteur Belkhayate Python
 
-**Objectif** : recalculer les indicateurs Belkhayate en Python pour validation indépendante de NT8 (Section 5 master file SEMAINE 5).
+**Objectif** : recalculer indicateurs Belkhayate en Python (validation independante NT8).
 
-**Prérequis** : Phase B (KB règles) + Phase C (`nt8_collector` opérationnel).
+**Prerequis** : Phase B (couche 1 belkhayate_formulas.py) + Phase C (nt8_collector).
 
-**Livrables (`code/engine/belkhayate.py`)** :
-- Calcul **BGC** (Belkhayate Gravity Center) avec ratio 0.618 sur GC/HG/CL/ZW
-- Calcul **Direction**, **Énergie**, **Pivots**
-- Validation comparative Python vs indicateurs NT8 sur 50 bougies (écart attendu < 1 %)
-- Condition d'**invalidation setup** (BGC franchi à contre-sens, énergie inversée, pivot stratégique cassé) → signal sortie immédiat
+**Livrable** : 05-saas\engine\belkhayate.py
+- BGC (ratio 0.618) + Direction + Energie + Pivots
+- Validation Python vs NT8 : ecart moins de 1% sur 50 bougies par actif
 
-**Critère de validation** : comparaison Python vs NT8 sur GC + HG + CL + ZW (50 bougies par actif) → écart moyen < 1 %.
+**Garde-fous Phase D** : P1 (invalidation setup Belkhayate).
 
-**Garde-fous implémentés en Phase D** :
-- ✅ P1 — Invalidation setup Belkhayate
-
-**Estimation effort** : 3 sessions Claude Code (méthode complexe + validation rigoureuse).
+**Estimation** : 3 sessions.
 
 ---
 
-## PHASE E — Signal Scorer + Détection régime + Walk-Forward
+## PHASE E — Signal Scorer + Detection regime + Walk-Forward
 
-**Objectif** : moteur de scoring 7 cercles + classification régime + backtesting rigoureux.
+**Objectif** : scoring 7 cercles + classification regime + backtesting.
 
-**Prérequis** : Phases C + D.
+**Prerequis** : Phases C + D.
 
-**Livrables (2 modules nouveaux)** :
+**Livrables** :
+- 05-saas\engine\signal_scorer.py : score_7_cercles(), HysteresisFilter, CoolDownGuard, AntiNoiseFilter, walk_forward_validate, monte_carlo_stress
+- Extension correlations.py : detect_correlation_break, detect_market_regime
 
-### `code/engine/signal_scorer.py`
-- `score_7_cercles(context)` → 0-21 pts (Section 4 master file)
-- `HysteresisFilter` (3 barres consécutives — APPORTS section 2)
-- `CoolDownGuard` (48 h post-sortie — APPORTS section 2)
-- `AntiNoiseFilter` (anti-flip-flop max 2/h — APPORTS section 6)
-- `walk_forward_validate(252j entraînement / 126j test)` (APPORTS section 1)
-- `monte_carlo_stress(n=10000)` → worst 5 % drawdown (APPORTS section 1)
+**Critere** : backtest 3 mois minimum, win rate superieur a 55%.
 
-### Extension `code/engine/correlations.py`
-- `detect_correlation_break(20j vs 60j)` (APPORTS section 3)
-- `detect_market_regime()` → BULL / NEUTRAL / BEAR / CRASH
+**Garde-fous Phase E** : G7 (regime marche) + filtres anti-bruit.
 
-**Critère de validation** :
-- Backtest ≥ 3 mois données historiques (condition Mode Auto #1)
-- Win rate ≥ 55 % (condition Mode Auto #2)
-- Plateau stable ±2 jours look-back (sinon overfitting)
-
-**Garde-fous implémentés en Phase E** :
-- ✅ G7 — Détection régime marché (BULL/NEUTRAL/BEAR/CRASH)
-- ✅ Hysteresis + Cool-down + Anti-flip-flop (filtres anti-bruit)
-
-**Estimation effort** : 3-4 sessions Claude Code.
+**Estimation** : 3-4 sessions.
 
 ---
 
 ## PHASE F — Trade Validator + Risk Engine extensions
 
-**Objectif** : couche de validation pré-ordre qui peut REJETER tout ordre non conforme.
+**Objectif** : couche bloquante pre-ordre.
 
-**Prérequis** : Phase E (signal scoré et régime connu).
+**Prerequis** : Phase E.
 
-**Livrables (1 module nouveau + extensions)** :
+**Livrables** :
+- 05-saas\engine\trade_validator.py : check_stop_loss, check_anti_doublon, check_dead_zone, check_rollover, validate_order
+- Extensions risk_manager.py : LEVIER_PAR_REGIME, adjust_position_size, check_drawdown_breakers, write_mandatory_lock, is_trading_locked
 
-### `code/engine/trade_validator.py` (nouveau)
-- `check_stop_loss_obligatoire()` → G1
-- `check_anti_doublon(uuid, window=60s)` → G3
-- `check_dead_zone(actif, now)` → G4
-- `check_rollover(actif, now)` → G5
-- `validate_order(signal)` → orchestre toutes les vérifs, retourne (OK, raison)
+**Garde-fous Phase F** : G1, G2, G3, G4, G5, G6.
 
-### Extensions `code/engine/risk_manager.py`
-- `LEVIER_PAR_REGIME` dict (G7)
-- `adjust_position_size(base, confiance, regime, dd_today)` → applique levier + score confiance
-- `check_drawdown_breakers(dd_today, dd_week, dd_total)` → palier MANDATORY_LOCK à 10 %
-- `write_mandatory_lock(reason)` → crée `data/TRADING_LOCKED.lock`
-- `is_trading_locked()` → bool — appelé par tout module avant envoi ordre
-
-### Extensions `code/config/settings.py`
-- `SLIPPAGE_BUFFER_TICKS` (G2)
-- `DEAD_ZONE` (G4)
-- `ROLLOVER_BLOCK_HOURS` (G5)
-- `OPEC_BLACKOUT_MINUTES` (G9)
-- `ORDER_RULES` (G1, G3)
-- `PALIERS_DD_TOTAL`, `LOCK_FILE_PATH` (G6)
-
-**Critère de validation** : tests unitaires `pytest` couverture 100 % sur `trade_validator.py`.
-
-**Garde-fous implémentés en Phase F** :
-- ✅ G1, G2, G3, G4, G5, G6 (6 garde-fous bloquants — sécurité maximale)
-
-**Estimation effort** : 2-3 sessions Claude Code.
+**Estimation** : 2-3 sessions.
 
 ---
 
 ## PHASE G — Client NT8 ATI port 36973 + Killswitch Internet
 
-**Objectif** : exécution réelle des ordres via NinjaTrader 8 ATI + protection déconnexion.
+**Prerequis** : Phase F + NT8 ATI active.
 
-**Prérequis** : Phase F (trade_validator opérationnel) + NT8 ATI activé sur poste.
+**Livrables** : nt8_ati_client.py + order_manager.py + network_monitor.py
 
-**Livrables (3 modules dans `code/execution/` + 1 dans `code/engine/`)** :
-- `code/execution/nt8_ati_client.py` (TCP/IP `127.0.0.1:36973`, timeout 5 s)
-- `code/execution/order_manager.py` (envoi ordre conditionné par `trade_validator.validate_order()`)
-- `code/engine/network_monitor.py` (ping `8.8.8.8` toutes les 5 s, déclenche GTC close all si 3 échecs consécutifs)
+**Critere** : 48h test simulation demo Rithmic sans erreur.
 
-**Critère de validation** : 48 h de test simulation sur compte demo Rithmic NTB sans erreur (condition Mode Auto #4).
+**Garde-fous Phase G** : G8 (killswitch internet).
 
-**Garde-fous implémentés en Phase G** :
-- ✅ G8 — Killswitch Internet
-
-**Estimation effort** : 3-4 sessions Claude Code.
+**Estimation** : 3-4 sessions.
 
 ---
 
 ## PHASE H — FastAPI locale + Health monitoring
 
-**Objectif** : exposer une API REST locale pour le dashboard React.
+**Prerequis** : Phases C + E + F + G.
 
-**Prérequis** : Phases C + E + F + G (toute la chaîne backend opérationnelle).
+**Livrables** : 05-saas\api\main.py + routes signals / modes / risk + health.py
 
-**Livrables (`code/api/`)** :
-- `main.py` (uvicorn entrypoint, FastAPI app)
-- `routes/signals.py` (`GET /signals` → signaux temps réel)
-- `routes/modes.py` (`POST /modes/{manuel|auto}` — bascule, conditionné par `is_trading_locked()`)
-- `routes/risk.py` (`GET /risk` → état actuel DD + circuit breakers + lock file)
-- `health.py` (`GET /healthz` → status backend pour dashboard)
+**Garde-fous Phase H** : G10 (monitoring sante).
 
-**Critère de validation** : ping `/healthz` toutes les 5 s pendant 24 h sans interruption.
-
-**Garde-fous implémentés en Phase H** :
-- ✅ G10 — Monitoring santé FastAPI
-
-**Estimation effort** : 2 sessions Claude Code.
+**Estimation** : 2 sessions.
 
 ---
 
 ## PHASE I — Dashboard React 18
 
-**Objectif** : interface visuelle pour Mode Manuel (Section 6 master file + Phase 6+7 prompt v4.0).
+**Prerequis** : Phase H.
 
-**Prérequis** : Phase H (API disponible) + choix thème par Abdelkrim parmi 3 propositions extraites de `design-themes.md`.
+**Sous-etapes** : I.1 Bootstrap Vite + I.2 Choix theme + I.3 Composants (9 composants).
 
-**Sous-étapes** :
+**Composants cles** : RiskGuard, ModeExecution, KPIBar, BelkhayateLevels, IntermarketPanel, DisciplineLog, Dashboard (STOP ALL permanent + disclaimer AMMC).
 
-### I.1 — Bootstrap projet React (1 session)
-- `npm create vite@latest` dans `code/frontend/`
-- React 18 + Vite + Tailwind 3.4 (stack gelée CLAUDE.md)
-- ESLint + Prettier + TypeScript
-
-### I.2 — Choix thème (3 propositions, 1 session)
-Shortlist depuis `design-themes.md` (18 thèmes, fichier 15 KB) :
-- **Thème 7** — SaaS Dark Analytics (`#3B82F6` + dark)
-- **Thème 9** — DIFAI Style (`#1E3A8A` + or `#D4A017`)
-- **Thème 11** — Smart Home Minimal (gris + or chaud)
-
-### I.3 — Composants (2 sessions)
-Ordre de création (Phase 7.2 prompt v4.0) :
-1. `RiskGuard` (wrappeur bloquant — affiche `is_trading_locked()`)
-2. `ModeExecution` (toggle MANUEL/AUTO + 6 conditions visibles si BLOQUÉ)
-3. `KPIBar` (P&L / Win Rate / Risk %)
-4. `StrategiesPanel` (3 stratégies IA : Type / TF / Confiance / Entrée / SL / TP / RR / Belkhayate / Invalidation)
-5. `BelkhayateLevels` (BGC + Pivots + Direction + Énergie temps réel)
-6. `VolumeOI` (Volume CME ⚠️ ≠ tick volume + Open Interest)
-7. `IntermarketPanel` (DXY + TLT + VIX + COT + News countdown)
-8. `DisciplineLog` (pertes consécutives + pause forcée + journal)
-9. `Dashboard` principal (assemblage + 🛑 STOP ALL toujours visible + disclaimer AMMC permanent)
-
-**Critère de validation** : les 9 KPI obligatoires (master file Section 6 + prompt v4.0 Phase 7) sont affichés temps réel sans erreur sur 1 h continue.
-
-**Garde-fous implémentés en Phase I** : aucun nouveau code backend, **intègre G7 + G10 visuels** + bouton 🛑 STOP ALL réactif < 2 s + disclaimer AMMC.
-
-**Estimation effort** : 4-5 sessions Claude Code.
+**Estimation** : 4-5 sessions.
 
 ---
 
 ## PHASE J — Paper Trading 30 jours obligatoire
 
-**Objectif** : valider l'ensemble du système en conditions réelles **sans risque capital**.
+**Protocole** : 30 jours, Mode MANUEL uniquement, logs quotidiens JSON+.md.
 
-**Prérequis** : Phases A → I terminées + compte demo Rithmic NTB opérationnel.
-
-**Protocole** :
-- 30 jours calendaires consécutifs
-- Mode MANUEL uniquement
-- Log session quotidien (JSON + .md)
-- Métriques suivies : win rate, drawdown jour/semaine/total, latence ordre, déconnexions NT8/ATAS, faux signaux
-
-**Critères de validation** :
-- 0 déconnexion NT8/ATAS > 60 s pendant 24 h continues (condition Mode Auto #5)
-- Win rate ≥ 55 % sur 30 jours (condition Mode Auto #2)
-- Drawdown total < 5 %
-- Aucun ordre rejeté par `trade_validator` non justifié
-
-**Garde-fous testés en Phase J** : **TOUS** (test global du système).
-
-**Estimation effort** : 30 jours réels (passifs).
+**Criteres** : win rate superieur a 55%, DD total moins de 5%, zero deconnexion NT8/ATAS plus de 60s sur 24h.
 
 ---
 
 ## PHASE K — Activation Mode AUTO (conditionnel)
 
-**Objectif** : déverrouiller le Mode AUTO uniquement si les **6 conditions** sont satisfaites.
+6 conditions satisfaites → bouton "J'ACTIVE LE MODE AUTO" + mot de passe + log date SQLite.
 
-**Mapping conditions Mode Auto ↔ phases** :
-
-| # | Condition | Phase qui la satisfait |
-|---|-----------|------------------------|
-| 1 | Backtest validé ≥ 3 mois | Phase E |
-| 2 | Win rate backtest ≥ 55 % | Phase E + Phase J |
-| 3 | Risk Engine validé | Phase F |
-| 4 | Broker Rithmic/NTB testé 48 h sans erreur | Phase G + Phase J |
-| 5 | NinjaTrader 8 ATI stable 24 h | Phase G + Phase J |
-| 6 | Validation explicite trader (bouton + log daté) | Phase I + ce déverrouillage |
-
-**Livrable Phase K** :
-- Bouton "J'ACTIVE LE MODE AUTO" dans dashboard (composant `ModeExecution`)
-- Confirmation modal avec mot de passe + horodatage signé dans journal
-- Activation effective — drapeau persisté dans SQLite
-
-**Critère de validation** : utilisateur Abdelkrim valide explicitement avec mot de passe ; entrée journal datée signée.
-
-**Garde-fous implémentés en Phase K** : aucun nouveau, **active** tous les garde-fous Mode AUTO codés en Phase F (G1-G8) + monitoring G10 + STOP ALL réactif G8.
+| # | Condition | Phase |
+|---|-----------|-------|
+| 1 | Backtest 3 mois valide | E |
+| 2 | Win rate superieur a 55% | E + J |
+| 3 | Risk Engine valide | F |
+| 4 | Broker Rithmic teste 48h | G + J |
+| 5 | NT8 ATI stable 24h | G + J |
+| 6 | Validation explicite Abdelkrim | I + K |
 
 ---
 
-## 📊 SYNTHÈSE EFFORT ESTIMÉ
+## SYNTHESE EFFORT ESTIME
 
-| Phase | Sessions Claude Code estimées | Durée calendaire min |
-|-------|-------------------------------|----------------------|
-| A — Documentation | 1 (cette session) | 1 jour |
-| B — KB Belkhayate | 2-3 | 1 semaine |
-| C — Collecteurs (5 modules) | 4-5 | 2 semaines |
-| D — Moteur Belkhayate Python | 3 | 1-2 semaines |
-| E — Signal Scorer + Régime + Walk-Forward | 3-4 | 2 semaines |
-| F — Trade Validator + Risk extensions | 2-3 | 1 semaine |
-| G — Client NT8 ATI + Killswitch | 3-4 | 1-2 semaines |
-| H — FastAPI + Health | 2 | 1 semaine |
-| I — Dashboard React 18 | 4-5 (3 sous-étapes) | 2-3 semaines |
-| J — Paper Trading 30 jours | 0 (monitoring passif) | **30 jours** |
-| K — Activation Mode AUTO | 1 | 1 jour |
-| **Total avant Mode AUTO** | **~25-30 sessions** | **~3-4 mois** |
-
----
-
-## ⚠️ RÈGLES NON NÉGOCIABLES (rappel)
-
-1. **Mode AUTO BLOQUÉ par défaut** jusqu'à Phase K validée par les 6 conditions.
-2. **Chaque phase est validée par Abdelkrim** avant la suivante.
-3. **Aucune décision verrouillée CLAUDE.md ne peut être rouverte** (stack, actifs, broker, méthode Belkhayate).
-4. **Méthode Belkhayate prioritaire** sur tout concept extérieur (APPORTS_GUIDE_EXTERNE = filtres complémentaires).
-5. **PROMPT-GATE-AUDIT v3.1 obligatoire** avant tout livrable > 20 lignes (CLAUDE.md global).
-6. **Disclaimer AMMC + données SQLite locales (CNDP)** présents en permanence.
+| Phase | Sessions estimees | Duree min |
+|-------|-------------------|-----------|
+| A — Documentation | Terminee | — |
+| B — KB Rebuild (4 etapes) | 4-6 | 2-3 semaines |
+| C — Collecteurs | 4-5 | 2 semaines |
+| D — Moteur Belkhayate | 3 | 1-2 semaines |
+| E — Signal Scorer | 3-4 | 2 semaines |
+| F — Trade Validator | 2-3 | 1 semaine |
+| G — NT8 ATI + Killswitch | 3-4 | 1-2 semaines |
+| H — FastAPI | 2 | 1 semaine |
+| I — Dashboard React | 4-5 | 2-3 semaines |
+| J — Paper Trading | 0 (passif) | 30 jours |
+| K — Mode AUTO | 1 | 1 jour |
+| Total | 27-34 sessions | 3-4 mois |
 
 ---
 
-## 📌 PROCHAINE ÉTAPE IMMÉDIATE
+## REGLES NON NEGOCIABLES
 
-Tâche 5 du prompt actuel :
-1. Ajouter `PROMPT_TRADEX_AI_CLAUDE_CODE_v4.md` à `.gitignore`
-2. `git add .` puis `git commit -m "S02-docs - Garde-fous proposes + feuille de route (documents uniquement)"`
-
-Une fois commité, **Phase A est terminée**. Phase B (KB Belkhayate) peut commencer la prochaine session si tu valides.
+1. Mode AUTO BLOQUE jusqu'a Phase K + 6 conditions.
+2. Chaque phase validee par Abdelkrim avant la suivante.
+3. Aucune decision CLAUDE.md ne peut etre rouverte (stack, actifs, broker, methode).
+4. Methode Belkhayate prioritaire — Couche 2 = Belkhayate UNIQUEMENT.
+5. Zero regle sans source primaire verifiable (URL + timestamp).
+6. Disclaimer AMMC + SQLite local (CNDP) permanents dans l'interface.
 
 ---
 
-*Phase 5 v4.0 — `FEUILLE_DE_ROUTE.md` généré le 2026-05-03.*
+## PROCHAINE ETAPE IMMEDIATE
+
+Phase B — Etape B-01 : Academia.edu PDF + TradingView Pine Script
+
+Commandes a executer dans PowerShell :
+1. Verifier yt-dlp : yt-dlp --version
+2. Verifier Whisper : whisper --help
+3. Chercher PDF Academia.edu "belkhayate gravity center"
+4. Extraire formules → 05-saas\engine\belkhayate_formulas.py
+
+---
+
+Derniere mise a jour : 2026-06-12 — KB rebuild decide, strategie 4 etapes adoptee.
+Documents gouvernants : STRATEGIE_KB_MASTER.md + RAPPORT_SOURCES_KB_2026.md
