@@ -1,0 +1,70 @@
+Hi traders, my name is Mustafa Belkhayat and I am delighted to introduce to you Belkhayat
+Gravity Center Indicator in NinjaTrader version. In 2005 I published for free the code of Belkhayat
+Gravity Center in TradeStation and in MetaTrader MT4 and today 10 years later I have the pleasure
+to show you and to give you for free this indicator in NinjaTrader. You will have 3 free videos.
+This one is the video for the presentation so we can see how it performs on the market.
+Then we will have the video to show you how to install it and how to set up the parameters
+of this indicator. And finally and the most important video is the user guide video to
+show you how to set up your methodology to become a winner in the trading.
+So here is the Belkhayat Gravity Center on a chart of 5 range bar. In range bar and not
+in the time range bar and it is a future market. And we can use the indicator in any other market
+like Forex or any future market like Gold, Oil and even of course in stocks. We see here
+that we broke here the extreme, the red extreme band. It means that we have high probability
+to correct next Monday and to trade short because the gravity center will attract the price here.
+We will see how it will be the opening of this market. We should be ready to sell short and to
+take a small profit. It means that you see here we have 8 ticks for stock loss and 13 for profit target.
+Then here we go. We will wait until we have a red bar here and we will sell. I will accelerate. We see this is very strong now signal.
+because we are outside this the band and we see that the gravity center is still here. So we will sell at this step here. Ok. We will sell here.
+Now we are waiting to have a winning trade for 13 ticks and we are protected here by this stop loss.
+When we see that the price is breaking the extreme band red or here the green we can sell here and buy here. But the most important thing is when we have a situation like that where we have a candle like that with a week of 4 ticks.
+We will see this later.
+I will accelerate a little bit the video so you can have an idea not only how it works.
+You can have an idea not only how it works. You see here the band. The gravity center is recalculating after each bar so we can follow really the market.
+Target filled.
+Target filled.
+Okay. Stop. Here we see that in this situation we miss because I was but we miss here the signal to buy but still I will buy to try to have the price.
+Target filled.
+Target filled.
+Target filled.
+Target filled.
+Target filled.
+Okay so now here we got the good trade and second one and this one also.
+Now we are waiting for a good signal at this area.
+to sell.
+Target filled.
+Target filled.
+Target filled.
+Target filled.
+Target filled.
+Target filled.
+Credit filled.
+Target filled.
+sparkle crowded.
+Vous voyez ici, nous ne pouvons pas vendre ici, nous ne pouvons pas vendre ici, parce que c'est green, green, c'est still ici, green.
+Nous nous attendons quelque chose comme celui-ci ici, mais dans cette zone, comme celui-ci, c'est parfait.
+Ici, c'est le signe parfait, parce que nous sommes dans la zone rouge, et nous pensons que le marché devrait venir ici, donc nous allons vendre à ce prix.
+Vous voyez, cette feature de Nidia Trader est très bonne, parce que vous voyez que vous pouvez tester l'indicator.
+Oh, on va stopper ici.
+C'est mon signe préféré, ici, parce que nous sommes exactement dans le centre de gravité, et nous avons un week de candles ici,
+about 4 ticks back.
+This is the perfect trade to be short and to take the profit here.
+And you will see this pattern very often, and you will see that you have 90% probability to make money only with this pattern.
+Why?
+Why?
+Because, in my experience, I found out that the automatic trading system, they want to enter the market as close as possible to the gravity centre,
+so they can have heightened accumulation position, you know, when people, they think that they are in the order book, it's not the case.
+The algorithms are not in the books.
+Because they enter at market price, at the last, last, last second, to try to accumulate or to manipulate the market.
+But when you see a candle like that in the gravity centre, you can be confident to sell right now, and we will do it.
+We will do this.
+Now, here we can put 2, because we love this pattern, we can double our position by 2.
+Order filled.
+Target filled.
+Target filled.
+You see, this is why I love gravity centre, because you can definitely have good signal to sell here,
+and buy here, sell here, take a profit here, and, of course, in this position, even the market is going up,
+you can scalp and take money, and you see, we took 6.50 dollars with a very good methodology.
+We are locked, because we, we enter with a stop loss and target, and there is no stress.
+So, I invite you to, to follow the, the, the, the second and the third video.
+Thank you, thank you for your attention.
+Thank you for your attention.

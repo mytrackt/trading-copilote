@@ -1,0 +1,66 @@
+assalamu alaikum donc vous me voici de nouveau après plusieurs mois d'absence comme vous le
+savez je suis à dubaï pour lancer le bon islamique sur l'or et donc ça m'a pris plus de temps que
+prévu mais bien sûr je ne vous ai pas oublié et donc je profite de ces jours de repos pour relancer
+un petit peu mes cours sur sur ma chaîne et sur facebook je commence j'ai vu qu'il ya beaucoup
+de débutants et de nouveaux qui se sont inscrits donc je reprends cette vie c'est la vidéo 26 donc
+je vais essayer de reprendre pour expliquer un petit peu comment tout le monde peut monter dans
+le train et ça fera du bien peut-être à tout le monde en fait voilà au début si on revient ici je
+porte j'ai proposé d'utiliser ninja trader donc ce site là vous allez mettre votre email et vous
+allez pouvoir télécharger la station de trading que je recommande pour trader alors tout de suite je
+rappelle que j'ai bien précisé dans mes vidéos qu'il faut oublier le forex et pourtant il ya beaucoup
+de gens qui m'écrivent en me disant qu'ils veulent trader le forex je ne comprends pas j'interdis à tous
+ceux qui m'écrivent de me parler du forex parce que le forex je le répète c'est une véritable machine
+d'arnaque et c'est long à expliquer mais sachez que ceux qui veulent apprendre à gagner de l'argent
+sur les marchés financiers de manière régulière il faut qu'ils aillent sur un marché régulier et les
+marchés réguliers comme par exemple les marchés des futures ce sont les marchés à terme sur les
+devises de matières premières les taux d'intérêt et indices boursiers et et là c'est pas possible de
+pouvoir réellement gagner de l'argent de manière régulière sur le forex pour plusieurs raisons donc
+je vous demande de me faire confiance et et de vous orienter une fois pour toutes sur les marchés
+futurs et ensuite je comme vous allez le voir ce n'est pas que alors là je continue donc là vous vous
+mettez votre email vous venez sur votre ici sur votre mais vous allez recevoir ceci et donc là vous
+allez pouvoir mettre les les logins et vous allez pouvoir effectivement vous inscrire lorsque vous
+inscrivez vous ouvrez la plateforme vous allez vous allez avoir ceci devant vous déjà en place vous allez
+avoir un deux trois quatre cinq cinq fenêtres que je vais vous commenter alors là c'est quand vous
+faites du trading vous allez pouvoir voir vos ordres ici si vous êtes acheteurs venteurs combien vous perdez
+et c'est ici le market analyser c'est très très important et il est indiscutable de pouvoir suivre
+ce monsieur cette fenêtre parce qu'elle vous permet de regarder plusieurs marchés à la fois et bien que je
+ne vais vous apprendre le trading que sur deux marchés que je vais traiter tout à l'heure il est
+très important pour vous que vous puissiez suivre tous les marches tous ces marchés là là vous voyez
+on va petit à petit les découvrir on y va doucement donc pour le moment vous avez un scan en fait des
+marchés pour pouvoir voir d'un clin d'oeil par exemple le le le le pétrole aujourd'hui il est en train de
+perdre 2,4 % et l'or est en train de je pense de prendre 0,46 % etc bon on verra par la suite et
+vous allez devenir charla tous des experts des relations intermarché c'est à dire que si tel
+marché monte l'autre va baisser etc donc ça c'est pour plus tard ensuite vous avez deux fenêtres et moi
+je vais vous expliquer comment on va les utiliser pour la méthode bel réel et il avait ici cette
+dernière fenêtre qui elle va vous servir à faire le trading et là je vais dans les prochaines vidéos
+consacrer juste les vidéos pour expliquer comment intervenir sur cette plateforme pour acheter et vendre
+lorsque vous voulez acheter par exemple au marché vous allez acheter vous allez cliquer sur market ici
+et si vous voulez vendre vous allez et cliquez sur ici parce qu'ici il y à les ordres il ya le le carnet
+d'ordres de ceux qui veulent vendre et ici la liste des lots de ceux qui veulent acheter et là nous sommes
+sur le marché en ce moment très actif comme vous le voyez qui est le marché de snpi aux états unis
+c'est un marché futur qui est assez dynamique et que vous voyez là par exemple bon aujourd'hui pour
+le moment on voit pas ils sont en train de dormir là aujourd'hui il est à dubaï il est presque 11 heures
+il est 10 heures 56 et au maroc il est 18 heures 56 donc il ya un pour le moment et donc je vais pas
+commenter les marchés que je souhaite vous apprendre c'est à dire le celui là l'euro stocks le f es x que
+vous voyez là celui là et celui d'en bas leur bond ces deux marchés que je vous recommande et qui sont
+en fait les marchés qui sont tradés par des vrais professionnels qui sont à londres et même certains
+de traders professionnels que je connais qui vivent à dubaï il ne traite que ces deux marchés et nous allons
+avoir largement le temps dans les prochaines vidéos de savoir pourquoi et comment donc lorsque vous
+lorsque vous arrivez ici la première chose que vous allez faire vous n'avez pas besoin de celui là
+donc vous cliquez dessus et vous mettez supprimer il disparaît celui-là aussi pour l'enlever pour le
+moment vous n'en avez pas besoin tiens le rose l'euro le saint-pied en train d'accélérer à la hausse vous le
+voyez ici d'accord alors ici aussi on va enlever celui là et celui là bien maintenant on va ajouter
+et belgarde gravity sensor pour que vous puissiez être outillé pour pouvoir faire du trading tel que moi je
+le fais donc vous venez ici et vous cliquez sur
+ici utilities et ensuite import et on va les importer on va les importer l'indicateur belgarde gravity center que
+j'ai mis dans mon bureau mais que bien sûr vous aussi vous pouvez il est là et donc l'indicateur
+gravity center que vous allez importer dans l'inja trader il est déjà dans le fichier c'est un fichier
+winzip donc vous voulez tel quel vous le gardez comme ça et on va voir si ça va marcher j'espère incha allah
+ça prend un peu de temps je sais pas pourquoi voilà c'est bien ça a fonctionné donc on va vérifier il
+est là donc on va le mettre et voilà et là vous avez le centre de gravité belgarde ici vous a
+on va vous je vais vous apprendre comment utiliser ce centre là mais pour le moment pour cette première
+vidéo de bienvenue je voulais partir au départ et pour pouvoir vous montrer comment vous pouvez installer la
+plateforme avoir les cours gratuits et savoir utiliser ces différentes fenêtres qui vont devenir
+votre écran de base pour pouvoir devenir un trader gagnant et comment installer le belgarde gravity
+centre là pour le moment vous êtes outillé pour commencer à travailler et donc je vais finir cette
+première vidéo pour que ça soit pas trop long et je vous donne rendez vous à la pour la vidéo numéro 27 à très bientôt

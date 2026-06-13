@@ -1,5 +1,12 @@
 # GARDE-FOUS PROPOSÉS — TradEx AI
 
+## DISCLAIMERS RÉGLEMENTAIRES (obligatoires)
+- Usage strictement privé — pas de conseil en investissement, pas de distribution à des tiers.
+- Les performances passées ne préjugent pas des performances futures.
+- Ce système est un outil d'aide à la décision. La décision finale appartient toujours au trader.
+
+---
+
 > Document de proposition uniquement — **aucune ligne de code modifiée** dans cette phase.
 > Source : audit `code/config/settings.py` + `code/engine/risk_manager.py`
 > + `code/engine/correlations.py` + `code/utils/atomic_writer.py`
@@ -10,20 +17,22 @@
 
 ---
 
-## ✅ DÉJÀ IMPLÉMENTÉS (20 garde-fous actifs)
+## ✅ DÉFINIS DANS LE CODE (opérabilité NON validée — voir DETTE_TECHNIQUE.md) (20 garde-fous actifs)
 
-> Ces 20 garde-fous sont présents dans le code et opérationnels.
+⚠️ Note audit 13/06/2026 : aucun de ces modules n'est prouvé opérationnel. Validation prévue Phase C-G.
+
+> Ces 20 garde-fous sont définis dans le code. Opérabilité NON validée — voir DETTE_TECHNIQUE.md.
 > Les 2 premiers ont été harmonisés cette session (commit pending).
 
 | # | Garde-fou | Valeur actuelle | Source code |
 |---|-----------|-----------------|-------------|
-| 1 | **DD journalier max → STOP jour** | `0.03` (3 %) | `settings.py:82` (corrigé) + `risk_manager.py:12` |
+| 1 | **DD journalier max → STOP jour** | `0.02` (2 %) | `settings.py:82` (corrigé) + `risk_manager.py:12` |
 | 2 | **Confiance Auto unifiée signal+exécution** | `85 %` | `settings.py:96` (corrigé) + `risk_manager.py:16` |
 | 3 | VIX no-trade | `> 35` | `settings.py:84` + `risk_manager.py:14` |
 | 4 | DD semaine max | `0.05` (5 %) | `settings.py:83` |
-| 5 | News gate critique (NFP/FOMC/CPI/GDP/JOLTS/PPI) | `30 min` | `settings.py:115-124` |
+| 5 | News gate critique (NFP/FOMC/CPI/GDP/JOLTS/PPI) — timezone ET (New York) | `30 min` | `settings.py:115-124` |
 | 6 | Confiance max fallback (Auto interdit) | `65 %` | `settings.py:97` |
-| 7 | Score min appel Claude API | `17/21` | `settings.py:94` |
+| 7 | Score min appel Claude API | `17/21 (BULL) / 18/21 (NEUTRAL) / 20/21 (BEAR/CRASH) — table G7` | `settings.py:94` |
 | 8 | Vérif corrélation portefeuille | `seuil 0.60` | `correlations.py:92` |
 | 9 | Circuit Breaker (timeout / retry / open) | `15 s / 2 / 60 s` | `settings.py:140-143` |
 | 10 | Staleness monitor (NT8 / ATAS / COT / news) | `10 s / 30 s / 168 h / 5 min` | `settings.py:106-109` |
@@ -31,12 +40,14 @@
 | 12 | Rate limiting Claude API | `1 appel / 10 s` | `settings.py:98` |
 | 13 | Atomic writes JSON (tempfile + os.replace) | actif | `code/utils/atomic_writer.py` |
 | 14 | EIA surprise stocks pétrole — taille réduite | `> 3 M barils` | `risk_manager.py:22` |
-| 15 | GDELT crise géopolitique → stop Auto | `True` | `risk_manager.py:23` |
+| 15 | GDELT `score_crise > 7/10` → stop Auto (seuil : 3 événements géopolitiques majeurs détectés en moins de 24h) | `True` | `risk_manager.py:23` |
 | 16 | Cooldown psychologique post-stop / 3 pertes / post-win | `15 min / 2 h / -50 % size` | `risk_manager.py:27-29` |
 | 17 | Trades simultanés max | `2` | `risk_manager.py:10` |
-| 18 | Risque max par trade | `2 %` | `risk_manager.py:9` |
-| 19 | Filtre delta confirmation | `True` | `risk_manager.py:19` |
+| 18 | Risque max par trade | `1 % (compte > 50% patrimoine) / 0.5 % (compte ≤ 50% patrimoine)` | `risk_manager.py:9` |
+| 19 | Filtre delta — actif si `delta_bid_ask > 60 %` du volume total de la bougie | `True` | `risk_manager.py:19` |
 | 20 | Marchés alignés requis | `3/4 trading + 2/3 confirmation` | `risk_manager.py:15` + `settings.py:50-52` |
+
+**ANTI-HALLUCINATION — Indicateur illisible** : si un indicateur renvoie une valeur incertaine, illisible ou hors plage → forcer la valeur NON_DÉTECTÉ et le signal à ATTENDRE. Interdit de deviner une valeur manquante.
 
 ---
 

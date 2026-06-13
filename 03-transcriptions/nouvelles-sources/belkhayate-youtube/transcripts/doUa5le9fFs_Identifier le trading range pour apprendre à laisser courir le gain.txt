@@ -1,0 +1,1200 @@
+Bonjour tout le monde, on est le 19 avril et je refais la vidéo que j'ai faite hier en ce qui concerne le Nasdaq, le trading du Nasdaq en déjà et en fait il s'agit d'identifier les trading range.
+Les trading range représentent 75% du temps sur un marché et c'est justement ces périodes-là de trading range qui vous font perdre l'argent. Parce que l'idée c'est de toujours trader les autres 20% restants parce que c'est dans les tendances qu'on gagne de l'argent.
+On doit éviter de rentrer dans les trading range. Les trading range peuvent nous servir pour le suivi de la position comme on va le voir tout à l'heure mais il est très important d'identifier les trading range.
+C'est pour ça que mon séminaire qui commence le 30 mai à Marrakech, je vous rappelle que je fais un séminaire de 5 jours à Marrakech, hôtel 5 étoiles s'il vous plaît.
+Le séminaire commence par savoir d'abord identifier avec précision les couloirs où vous avez un trading range parce que ça ne sert absolument à rien.
+Mais ça nous sert lorsque le marché casse ces couloirs-là, alors nous avons des signaux intéressants d'achat ou de vente.
+Donc là, je vous ai choisi un indicateur qui est gratuit, qui est sur TradingView, mais il n'est pas le seul.
+C'est juste que j'ai choisi celui-là pour vous montrer comment vous pouvez trader les différents marchés que vous avez l'habitude de faire, que ce soit les actions, que ce soit la crypto, que n'importe quel marché, cet indicateur fonctionne très bien.
+Pourquoi ? D'abord, un, parce que vous voyez que ici sur le gaz naturel, là vous voyez, et quand la ligne, elle est plate comme ça, elle est horizontale,
+cela signifie que nous sommes dans un trading range.
+Et donc, il identifie le trading range.
+Vous voyez, là, nous avons un trading range.
+Ici également, nous avons un trading range.
+Et si on regarde ici, également ici, nous avons un trading range.
+Donc, nous avons un indicateur qui nous identifie gentiment les trading range.
+Ensuite, il nous donne une direction.
+Il nous donne un signal d'achat et de vente.
+C'est intéressant parce que nous avons un signal d'achat ici.
+Comme vous voyez, on sort ici.
+C'est quand même une très, très, très belle opération de trading.
+On ne va pas la faire tout le temps, mais il faut savoir que si vous voulez faire du trading professionnel,
+il ne faut pas penser mettre un stop loss, un target et attendre.
+Ce n'est pas comme ça qu'on gagne de l'argent sur le marché.
+On gagne de l'argent sur le marché lorsque l'on identifie le stop loss, mais pas le tech profit.
+Le stop loss, on peut l'identifier.
+Vous allez le voir.
+C'est une leçon à part, peut-être, qu'on peut faire.
+Mais vous pouvez voir ici que le stop loss peut être identifié tout simplement par,
+lorsqu'on revient sur le plus bas ou lorsqu'on casse par le plus bas le trading range.
+Mais le profit, il doit être géré en temps réel.
+Pourquoi?
+Parce qu'il n'y a pas de raison de sortir sur un marché si vous n'avez pas une grande messe,
+si vous n'avez pas un grand volume, si vous n'avez pas un retournement, etc.
+Ce n'est pas parce que vous avez 500, 600, 700, 800 dollars de gain.
+Vous dites, ah, 800 dollars de gain, c'est vraiment très, très bien pour moi, pour la journée.
+J'assure, je vais prendre et on voit bien.
+En fait, vous prenez les profits parce que vous voulez arrêter de stresser.
+Vous voulez prendre les profits parce que vous voulez vous dire que vous avez bien tradé.
+Mais ce n'est pas ça, bien tradé.
+Bien tradé, c'est que vous devez être conscient que sur le long terme,
+vous devez être capable de surfer sur la vague.
+Lorsque vous êtes en bonne position, vous êtes en train de gagner,
+il faut absolument avoir le cœur, le moral d'acier pour attendre, laisser le marché, lui, vous laisser sortir.
+A ce sujet-là, je tiens à vous souligner quelque chose de très important que j'ai dit hier en Darija.
+C'est que je vous invite tous, je sais qu'il y a beaucoup de personnes du Sénégal, d'Afrique,
+qui m'écoutent et qui me suivent.
+Donc, je les salue et je leur souhaite tous un bon Ramadan.
+Donc, toute cette jeunesse africaine qui me suit, ça me fait plaisir.
+Et je voudrais vous dire que vous devez arrêter de prendre des décisions de trader.
+Arrêtez de prendre des décisions de trader.
+Alors, comment vous allez trader?
+Vous allez trader parce que vous allez regarder un indicateur qui va vous donner un signal d'achat ou un signal de vente.
+Et vous allez le respecter.
+Parce que j'ai remarqué que beaucoup de gens font des analyses et disent,
+voilà, maintenant, c'est un bon moment d'achat.
+Mais il n'a pas vraiment un indicateur qu'il est en train de suivre.
+Il est en train de suivre sa logique comme quoi Poutine vient d'attaquer.
+Il vient d'être méchant.
+Donc, le pétrole devrait monter.
+Il se dit, maintenant, le pétrole ne peut que monter.
+Et donc, il va acheter, non pas parce qu'il a un indicateur qui lui dit d'acheter,
+mais c'est sa pensée, sa logique, son analyse, sa propre analyse qui lui dit d'acheter ou de vendre.
+Et ça, c'est la perte des traders.
+Tout simplement.
+Il faut arrêter de croire que notre cerveau va nous donner le bon signal.
+Ça semble étonnant, mais à terme, vous allez vous rendre compte que j'ai tout à fait raison.
+Parce que ce que nous, nous pensons, à un moment précis, par exemple, le marché est trop descendu,
+ou maintenant, il est très, très proche de cassé.
+Maintenant, il est très, très proche de cassé.
+Donc, j'anticipe, je rentre.
+Cette façon de penser, les robots d'intelligence artificielle le savent.
+Ces robots-là, ils savent exactement ce qu'on pense.
+Ils savent ce qu'on pense parce qu'ils ont étudié le comportement de tous les amateurs,
+et même des semi-amateurs.
+Comme vous le savez, il y a 97% des opérateurs,
+ils sont en train de perdre l'argent,
+et il n'y a que 3% qui gagnent l'argent sur les marchés financiers.
+Ils sont très puissants.
+Ils ont une machine de guerre, et ils savent lire ce qu'on pense.
+Donc, arrêtez de penser.
+Puisqu'en pensant, vous allez perdre l'argent.
+Donc, si vous voulez gagner de l'argent en trading,
+il faut choisir un indicateur que vous allez suivre.
+Évidemment, cet indicateur, et ou l'ensemble des indicateurs que vous allez avoir,
+doit vous permettre d'identifier des zones où vous n'allez pas suivre cet indicateur
+parce que vous êtes en trading range.
+Donc, le vrai trading professionnel consiste à pouvoir,
+dans un premier temps, identifier des zones de non-trading,
+où il est interdit de trading,
+où vous n'allez suivre aucun indicateur dans ces zones-là,
+et des zones où vous allez suivre un indicateur.
+Et une fois que vous l'avez suivi, vous le suivez jusqu'au bout.
+Il va vous donner peut-être 1 000 $, 2 000 $,
+mais il peut vous donner 8 000 $.
+Et vous avez fait votre objectif du test de Lilou ou de Wannock en une journée.
+Et ce n'est que comme ça que vous pouvez être gagnant
+parce que tous les indicateurs de la planète Terre
+vont vous donner des gains, des pertes, des gains, des pertes,
+et des fois, plusieurs pertes avant d'avoir un gain.
+Mais lorsque vous allez avoir le gain,
+comme vous voyez sur le gaz naturel ici,
+en 15 minutes,
+vous allez avoir un gain
+qui va être bien supérieur aux petites pertes.
+Vous devez savoir,
+je le répète encore,
+que ce qui compte en trading pour gagner de l'argent,
+c'est l'espérance mathématique de gain.
+Ça veut dire que vous pouvez avoir
+30% de trades gagnants,
+30% de trades gagnants,
+quand vous rentrez,
+vous n'avez que 30% de chances
+d'avoir un trade gagnant.
+Mais que lorsque vous gagnez,
+vous gagnez
+4 à 5 fois ce que vous perdez,
+donc votre espérance mathématique de gains
+reste positive.
+Je connais des traders
+professionnels
+qui ont
+30%
+de gains
+sur leur trade.
+Mais ils sont largement gagnants
+à la fin de la session.
+Donc,
+je vais vous présenter
+cet indicateur
+que vous voyez là,
+Range Filter
+5 minutes.
+J'utilise,
+en fait,
+moi,
+comme vous le savez,
+vous ne le savez pas,
+j'utilise souvent
+15 minutes
+pour analyser les marchés.
+Tout le temps.
+Pourquoi?
+Parce que 15 minutes,
+ça donne le temps
+de pouvoir voir un peu
+ce qui se passe.
+Si vous rentrez sur 1 minute
+et 5 minutes,
+vous voulez faire du scalping,
+c'est vrai,
+mais c'est très,
+très volatil,
+les marchés.
+Et vous n'avez pas le temps
+de prendre vraiment conscience
+de ce qui se passe
+parce que le marché
+n'a pas montré son jeu.
+En 15 minutes,
+vous pouvez un peu
+voir
+le jeu
+des roca.
+Qu'est-ce qu'ils veulent faire?
+D'accord?
+Donc,
+15 minutes.
+Alors,
+cet indicateur,
+le concepteur
+de cet indicateur
+l'a conçu
+pour 5 minutes
+et c'est pour cela
+qu'il a mis 5 minutes.
+Alors,
+vous pouvez,
+là,
+vous mettez
+indicateur,
+vous mettez range,
+par exemple,
+là,
+range,
+et il est là.
+C'est le premier,
+ici,
+range,
+filter,
+buy,
+and sell.
+Il s'appelle
+gold rot
+et il y a
+8700 personnes
+qui l'utilisent.
+D'accord?
+Donc,
+vous pouvez le trouver
+sur TradingView
+et vous pouvez le mettre.
+Donc,
+lui,
+cet indicateur,
+il vous donne
+d'abord des signaux.
+Vous avez
+la ligne,
+ici,
+c'est une ligne
+verte
+qui vous dit
+d'être acheteur
+et puis,
+il y a la ligne rouge
+qui vous dit
+d'être vendeur.
+Mais là où vous allez
+pouvoir bien l'utiliser,
+c'est lorsqu'il casse
+la tendance.
+Par exemple,
+ici,
+vous voyez,
+vous avez ici,
+pardon,
+le TradingRange.
+Vous avez ici
+un TradingRange,
+vous le voyez.
+Ce qui est bien
+avec cet indicateur
+et pourquoi je vous demande
+de le regarder,
+c'est parce qu'il vous aide
+en un coup d'œil.
+C'est-à-dire,
+visuellement,
+vous voyez
+que vous êtes
+en TradingRange.
+Donc,
+vous allez arrêter
+de rentrer
+n'importe quoi.
+vous rentrez
+quand on casse
+ce couloir
+de TradingRange.
+Par exemple,
+le meilleur moment
+pour rentrer,
+c'est bien ici,
+celui-là.
+On casse ici
+et on a
+un très,
+très bon signal
+d'achat.
+Regardez ici,
+ça fonctionne vraiment
+très, très bien.
+Ici,
+également,
+on a
+la vraie cassure
+que j'appelle
+Belgrade Impulsion.
+Nous avons
+un TradingRange ici
+et nous avons
+le marché
+qui a accéléré
+avec volume
+et avec une bougie
+qui est bien supérieure
+à toutes les bougies
+qu'il y a dans
+le TradingRange.
+Lorsque
+vous avez
+le marché
+qui fait une bougie
+de 15 minutes,
+cette bougie
+est bien supérieure,
+elle avale
+un peu
+toutes les autres bougies
+du TradingRange
+et que vous avez
+du volume,
+cela signifie
+qu'il y a
+une impulsion
+sur le marché.
+il y a quelqu'un
+qui rentre
+et qui a l'intention
+de rester longtemps.
+Donc,
+c'est un très, très bon
+signal d'achat.
+Ici,
+vous voyez,
+il a catapulté
+le gaz naturel
+à ce niveau-là.
+Regardez ici,
+aussi,
+nous avons
+un très bon signal
+ici d'achat.
+Regardez,
+ici,
+il était déjà
+acheteur
+l'indicateur,
+mais nous sommes
+en TradingRange,
+alors je ne rentre pas.
+J'attends
+tout simplement
+la cassure
+du TradingRange.
+Lorsque la cassure
+se présente,
+j'achète.
+Je peux sortir ici.
+Mais,
+vous voyez
+l'écart-type
+ici,
+vous voyez,
+cet indicateur,
+il vous donne
+un écart-type,
+c'est-à-dire,
+vous avez,
+il estime
+un petit peu
+le range
+où le marché
+va haussier.
+C'est très intéressant
+parce que
+ce range-là
+peut vous servir
+de stop-loss.
+C'est-à-dire,
+c'est un couloir,
+c'est un matelas
+qui vous permet
+de pouvoir
+tenir une position
+si vous pensez
+que finalement
+le marché
+peut continuer
+à monter.
+Par exemple,
+ici,
+par exemple,
+ici,
+le marché,
+vous êtes acheteur,
+vous aurez pu sortir là,
+mais vous aurez pu
+peut-être
+vous dire
+que le marché
+va revenir
+sur un pullback
+ici,
+après cette cassure-là,
+il va venir
+sur le pullback
+et ce matelas
+vous a permis
+de rester
+et vous aurez pu
+gagner beaucoup plus.
+Bon,
+on va ajouter
+un coup d'œil
+sur l'or,
+l'or hier.
+Hier,
+on était le 18
+et regardez,
+c'est très intéressant
+sur l'or.
+Sur l'or,
+vous avez
+un trade-in range
+ici,
+puis on a cassé
+le trade-in range
+et il nous a donné
+un signal,
+mais regardez bien,
+on a un très beau
+signal d'achat ici,
+vous le voyez,
+avec,
+évidemment,
+ce que je vous ai
+enseigné
+sur le volume.
+Je répète,
+pour ceux
+qui n'avaient pas
+suivi,
+qui ne connaissent
+pas la méthode
+Belchayat,
+je répète
+qu'on a
+deux signaux
+importants
+qui sont basés
+sur le volume.
+On a une accélération
+sur le volume
+après une accalmie,
+on a une accélération
+sur le volume,
+alors,
+il faut être
+acheteur ou vendeur
+en fonction
+de la direction
+et nous avons
+un volume
+très important
+après une tendance
+soit haussière
+soit baissière
+et lorsque ce volume
+se présente
+et qu'il y a
+cette mèche
+qui arrive
+par le haut
+ou par le bas,
+cela signifie
+qu'il y a squeeze,
+cela signifie
+que maintenant,
+il va y avoir
+distribution,
+d'accord ?
+Donc,
+comme ici,
+par exemple,
+ici,
+vous voyez ici,
+je ne sais pas si
+vous voyez là,
+là,
+cette zone là,
+je ne sais pas si
+vous voyez,
+attendez,
+hop,
+là,
+ici,
+là,
+voilà,
+nous avons ici
+trois choses
+très importantes,
+nous avons
+une tendance haussière,
+nous avons
+la mèche
+et nous avons
+un volume
+bien supérieur
+à tout ce qui s'est passé
+pendant cette tendance.
+Conclusion,
+nous avons
+un très fort signal
+de vente
+mais comme nous sommes
+acheteurs ici,
+nous prenons
+nos profits ici
+et nous attendons
+la confirmation
+en sortant
+pour sortir ici
+et nous avons
+un signal
+de vente ici
+qui nous fait
+gagner de l'argent
+jusqu'à présent.
+Vous voyez que
+sur l'or,
+lorsque vous
+prenez la tendance,
+vous arrivez
+à prendre
+une tendance,
+vous pouvez gagner
+beaucoup d'argent
+sur l'or.
+Évidemment,
+il faut
+éviter
+absolument
+les trade-in-red,
+c'est-à-dire
+le couloir
+où le marché
+est en train
+juste d'ossier.
+Là,
+vous le voyez,
+c'est très intéressant.
+On va regarder
+notre marché,
+par exemple,
+le pétrole.
+Regardez le pétrole,
+pour le moment,
+on est baissier
+aujourd'hui
+et il nous a donné
+un très bon signal
+d'achat.
+Ici,
+regardez,
+il a cassé
+ici
+ce
+trading range,
+on était
+en trading range,
+il a cassé
+avec force.
+Vous voyez,
+ce n'était pas
+une tendance
+et puis il y a eu
+un grand volume.
+Non,
+c'est ici
+qu'il y a eu
+la tendance
+avec un grand volume.
+Là,
+vous voyez,
+regardez ici,
+là.
+Ici,
+nous avons
+une prise
+de profit.
+Vous pouvez prendre
+des profits
+ici,
+parce qu'on a
+un grand volume
+et on a
+ce mouvement-là
+avec la mèche.
+Par contre,
+ici,
+on a un signal
+d'achat.
+Ce signal d'achat
+est excellent
+sur le pétrole.
+Donc,
+on va regarder
+le ZN.
+Le ZN,
+hier,
+j'ai fait
+l'analyse
+du ZN
+et vous voyez
+qu'ici,
+on a un
+trading range.
+Vous pouvez apprendre
+à regarder
+vous-même
+par vous-même
+le trading range.
+Ici,
+on a un trading range.
+On a eu
+un seul signal
+et on est sorti
+ici.
+On aurait même
+pu sortir
+sur la cassure
+du trading range
+et gagner
+beaucoup d'argent
+sur le ZN.
+Regardez ici,
+je vous avais appris
+à tracer
+ce couloir-là
+et quand il y a
+un couloir comme ça,
+sur le ZN en particulier,
+sur 15 minutes
+et qu'il n'y a
+cassure de ce couloir
+et que vous voyez
+que vous avez
+justement un signal
+ici avec cet indicateur,
+nous avons ici
+un très,
+très bon signal
+d'achat
+sur le ZN.
+Également ici,
+regardez ici,
+regardez ici,
+attendez,
+hop,
+je mets ça là.
+Ici,
+c'est très intéressant,
+nous avons
+un trading range
+là,
+puis on casse
+le trading range
+et puis après,
+on a un signal
+d'achat
+et puis le marché
+monte,
+monte,
+monte,
+monte,
+monte.
+On aurait pu sortir
+sur ces mèches-là
+mais on sort
+sur ce signal-là
+également,
+c'est très intéressant.
+De toute façon,
+ce mouvement-là,
+on représente
+beaucoup d'argent
+en 15 minutes
+sur le ZN.
+On peut regarder
+le YM,
+YM,
+c'est pareil.
+Bien sûr,
+vous voyez,
+quand on rentre
+sur là,
+nous avons
+une cassure
+du trading range
+puis on revient
+ici faire
+un pullback
+et après,
+le marché monte
+mais on a l'ouverture
+et à l'ouverture,
+le marché,
+il s'est amusé
+à nous désarçonner.
+Vous avez vu ?
+Tac,
+tac,
+tac,
+donc ce mouvement-là
+sur le marché,
+comme je le dis,
+très souvent,
+évitez d'acheter
+le Nasdaq
+ou le Dow Jones,
+etc.
+à l'ouverture,
+attendez un peu
+qu'ils montrent
+ses cartes.
+Alors là,
+sur ce mouvement-là,
+il y a eu
+une accélération
+ici,
+on a cassé
+ce trading range
+puis le marché,
+ça c'est
+à l'ouverture.
+Puis le marché
+à l'ouverture,
+il a fait quoi ?
+N'oubliez pas,
+prenez sur une tendance haussière
+et puis le marché
+a piégé ici
+les acheteurs.
+Et comment on sait
+qu'il les a piégés ?
+C'est
+Belchiat Squeeze
+ici,
+nous avons
+une grande mèche,
+un grand volume,
+une tendance haussière,
+c'est vraiment
+le signal de vente
+par excellence
+de la méthode Belchiat.
+On peut le revoir,
+le revoir partout,
+vous allez le trouver.
+À partir du moment
+que vous voyez
+un très grand volume
+et que par la suite,
+il n'y a pas
+de cassure
+de tendance
+ou de support
+de résistance
+et qu'avant
+ce volume-là,
+il y a une tendance,
+alors ça veut dire
+qu'on est arrivé
+dans une distribution.
+D'accord ?
+Bon.
+Donc comme ici,
+ici c'est une distribution,
+un grand grand volume
+mais il n'y a rien.
+Donc hop,
+ça tombe.
+Ici,
+c'est pareil.
+On a un signal de vente,
+regardez comme ça tombe.
+Donc,
+nous avons
+découvert
+aujourd'hui
+un moyen
+d'identifier
+des couloirs
+de range
+et on sait
+qu'on doit
+attendre
+de les casser.
+Ils nous servent
+de référence
+pour tenir
+notre position.
+Cet indicateur-là
+que je vous ai
+montré
+ici
+qui s'appelle
+range filter
+5 minutes
+en fait,
+vous allez l'utiliser
+sur 15 minutes
+et voilà.
+Et regardez
+comme c'est vraiment
+assez sympathique
+de pouvoir
+identifier
+les trade-in range
+lorsque cet indicateur
+commence à se mettre
+en horizontal.
+C'est sûr
+que vous,
+vous n'allez pas
+entrer
+en ce moment-là.
+Pour finir,
+bien qu'on soit
+déjà
+21 minutes,
+pour finir,
+je voudrais quand même
+faire un clin d'œil
+à
+avec le pivot.
+Parce que maintenant,
+je ne l'ai pas fait
+en déjà,
+mais lorsque vous rajoutez
+les pivots
+à cet indicateur-là,
+ça devient très,
+très intéressant.
+On va commencer
+par le pétrole,
+par exemple.
+Regardez ici,
+le pétrole,
+pour le moment,
+il nous a donné
+un signal d'achat,
+il nous a donné un signal
+de vente.
+Regardez,
+ça se passe
+plutôt bien.
+Ici,
+on ne va pas rentrer
+parce qu'on est
+en trade-in-range.
+Donc,
+ce signal-là,
+il ne m'intéresse pas.
+Par contre,
+ici,
+j'ai cassé
+le trade-in-range.
+Donc,
+ici,
+je rentre.
+Vous voyez,
+j'ai cassé
+le trade-in-range,
+je rentre.
+Bon.
+Donc,
+à côté de ça,
+je propose
+que vous puissiez
+combiner
+cet indicateur
+qui va vous donner
+le trade-in-range,
+etc.,
+avec les pivots.
+Et là,
+je tiens à préciser
+quelque chose.
+je n'utilise pas
+les pivots
+pour dire
+le marché
+va aller jusqu'ici,
+le marché
+va aller jusqu'ici.
+Je m'interdis
+d'aller dans le futur.
+Vous savez,
+la méthode
+d'Eliott Wave,
+en réalité,
+si vous réfléchissez bien,
+vous allez vous rendre compte
+qu'il n'y a rien,
+il n'y a aucune méthode
+au monde
+qui peut anticiper
+le futur.
+Rien.
+Il faut qu'on arrête
+de penser que,
+tiens,
+on va faire,
+je veux que mes étudiants
+arrêtent de poster
+sur TradingView
+des graphes
+où ils vont tracer
+le futur.
+Je ne veux pas de ça.
+Il faut vous concentrer
+sur le présent.
+Que fait le marché
+en ce moment ?
+Ah,
+en ce moment,
+le marché,
+il a cassé un support,
+il a cassé une résistance,
+il y a un volume.
+En ce moment,
+il y a quelque chose.
+On doit d'analyser
+que le présent.
+Arrêtez de faire
+des trades
+comme quoi vous êtes
+tellement prévisionniste
+que vous savez
+que le marché
+va monter jusqu'à là,
+va descendre jusqu'à là,
+va faire ceci,
+etc.
+Parce que
+toutes ces méthodes
+qui veulent prévoir
+ce qui va arriver,
+en vague,
+etc.,
+finalement,
+c'est du 50-56,
+c'est pas moins.
+Donc,
+c'est pas,
+c'est pas,
+et puis,
+ça vous empêche
+de faire du trading
+professionnel.
+Donc,
+il faut absolument
+vous concentrer
+que sur le présent.
+Et si je vous propose
+les pivots,
+c'est pas pour vous dire
+tiens,
+le marché va aller
+jusqu'à ce pivot,
+puis il va tomber
+jusqu'à ce pivot.
+Non!
+C'est pour que
+dans le présent,
+vous puissiez situer
+comment le marché
+se comporte
+dans certains niveaux.
+Et vous allez voir
+qu'effectivement,
+ça va vous aider
+et ça va vous aider
+énormément,
+surtout si vous savez
+combiner les pivots
+avec cet indicateur
+que je vous ai présenté
+aujourd'hui.
+Regardons.
+Donc,
+on va mettre
+les pivots
+et
+regardons
+ce qui se passe
+ici,
+sur cette journée-là
+de pétrole.
+Vous allez,
+vous allez être
+vraiment étonné,
+mais moi-même,
+je suis étonné
+parce que
+ces pivots-là,
+comme je vous rappelle,
+ce sont pas
+les pivots standards.
+Non!
+Parce que
+les pivots standards,
+comme les ordinateurs
+les utilisent
+pour piéger
+les gens,
+je les ai enlevés.
+Je ne veux pas
+me positionner
+là où tout le monde
+m'attend.
+Vous voyez,
+je ne veux pas aller
+dans un rendez-vous
+où on m'attend
+comme ça.
+Donc,
+je préfère
+réfléchir
+et
+et en fait,
+ces pivots-là,
+ce sont des niveaux
+qui n'existent
+nulle part.
+En fait,
+et c'est étonnant
+parce que
+personne n'utilise
+ces niveaux-là
+puisque nous sommes
+les seuls au monde
+à utiliser
+Belchiat Pivot 4.
+Ces niveaux-là,
+je vous le dis,
+personne ne les utilise.
+Alors,
+c'est étonnant
+que personne
+ne les utilise
+dans le monde
+et pourtant,
+ils sont
+très,
+très intéressants.
+Moi-même,
+je n'ai pas
+l'explication.
+Ne me demandez pas
+de l'expliquer.
+Mais regardez bien,
+regardez,
+le niveau ici,
+ça,
+c'est des niveaux.
+Donc,
+je leur ai donné
+le nom de Gann
+juste comme ça
+parce que Gann
+m'a donné une idée
+mais Gann
+est loin
+d'avoir proposé
+des niveaux comme ça.
+Donc,
+vous voyez ici,
+ça fonctionne bien.
+à ce niveau-là,
+à ce niveau-là,
+ça fonctionne très bien.
+Mais regardez la journée.
+Regardez ici
+comment ça fonctionne
+vraiment très bien.
+Et ici,
+lorsqu'on arrive
+avec justement
+ce point de prise de profit,
+on est vraiment
+à un niveau
+très intéressant.
+Donc là,
+on doit sortir
+absolument.
+Regardez ici
+comment ça fonctionne.
+Donc,
+si vous regardez bien,
+vous voyez que
+ces niveaux-là,
+ils fonctionnent
+très,
+très,
+très bien.
+mais sur tous
+les marchés.
+Alors,
+on va essayer
+les autres marchés
+si vous voulez.
+Je ne vais pas mettre
+une vidéo trop longue.
+On est déjà
+à 26 minutes.
+Mais allez,
+on va lancer
+par exemple
+l'or
+ou le Nasdaq.
+Qu'est-ce qu'on fait ?
+On va choisir
+le Nasdaq.
+Allez,
+on va choisir
+le Nasdaq
+et l'or
+et l'or
+et l'or
+alors,
+il ne veut pas.
+Le Nasdaq
+ne veut pas.
+Ah,
+voilà.
+Attendez,
+attendez,
+attendez,
+je l'ai mis
+deux fois.
+Voilà.
+vous voyez sur le Nasdaq,
+regardez comme ça fonctionne.
+Regardez bien ici,
+ça vient chercher
+le niveau,
+le premier niveau
+de Belgrade pivot.
+C'est quand même magnifique.
+Regardez,
+une fois que ça casse,
+ce pivot,
+ça revient faire un pullback.
+Mais nous,
+on a déjà un signal devant.
+Donc,
+on est en train de voir
+comment il se comporte
+au niveau des pivots.
+C'est quand même magnifique
+parce qu'il vient,
+il casse ce petit pullback,
+il vient et fait le pullback ici,
+il vient pile poil ici,
+il reste un petit peu,
+il sable,
+et puis,
+il descend au niveau
+du troisième pivot.
+Donc,
+c'est vraiment
+très,
+très étonnant.
+Je suis moi-même
+le premier étonné.
+Regardez,
+je pense que
+vous pouvez regarder
+par vous-même.
+ces pivots-là
+sont très,
+très importants
+à utiliser
+parce que
+vous allez faire
+du trading
+sur 15 minutes.
+Donc,
+sur 15 minutes,
+ils vont fonctionner
+parce que
+vous allez avoir
+une visibilité
+des supports
+et des résistances,
+mais vous ne pouvez
+jamais anticiper
+le futur.
+Voilà,
+donc,
+c'était une vidéo,
+j'espère,
+sympathique pour vous,
+pour vous initier
+à l'identification
+des trading ranges
+que vous devez
+éviter,
+mais qui vont
+vous servir
+pour pouvoir
+attendre les cassures
+pour rentrer
+sur ce niveau-là.
+Et surtout,
+et surtout,
+voilà,
+on vient de sonner.
+On vient de sonner.
+On vient de sonner.
+On vient de sonner.
+On vient de sonner,
+on vient de sonner.
+On vient de sonner.
+On vient de sonner
+à l'option.

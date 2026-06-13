@@ -1,0 +1,124 @@
+bonjour nous nous revoilà pour la suite de la vidéo 36 donc c'est une vidéo où j'étais un
+peu obligé d'aller vite parce que bon d'expliquer un peu un concept très important qui est que
+beaucoup d'amateurs et même des professionnels ne connaissent pas c'est à dire que la plupart
+des traders ils vont prendre une position basée sur le risque ratio sur le risque rendement autrement
+dit il se dit tiens maintenant ici dans cette configuration là je vais rentrer parce que
+mon stop il va être de 1 mais si je gagne je gagne 4 ou 3 ou 5 donc pour lui c'est une justification
+pour prendre ce trait donc beaucoup l'esprit humain considère que lorsqu'il a limité son risque ça
+justifie pour lui qui peut prendre une position c'est pour ça que les options c'est une grande
+arnaque parce que les options aussi vous permettent de penser comme ça vous dit tiens j'achète un
+col ou une poudre c'est une somme limitée de pertes mais je peux gagner 5 10 fois plus donc
+tout le monde va acheter des options mais 90% des options et expire à zéro donc tous ceux qui ont
+acheté des options il y en a très peu qui gagnent l'argent sur le marché bien sur le marché du trading
+c'est exactement pareil il faut éviter de réfléchir en se disant que tiens je vais faire ceci parce
+que je vais risquer que ça et je peux gagner un gros morceau donc j'ai fait le trait alors je vais revenir
+donc sur cette vidéo à 37 pour expliquer vraiment ce qui se passe dans ce qui doit se passer dans votre
+cerveau lorsque vous êtes en train de faire du trading je recommence ici la formule de l'espérance
+mathématique de rentabilité
+c'est très important elle est égale à la probabilité
+d'avoir raison donc la probabilité de gain
+moins
+moins
+la probabilité de gain multiplié par le gain
+espéré
+moins
+la probabilité
+de perte
+multiplié par la perte
+que vous êtes prêt à accepter c'est à dire le stop loss
+bien et donc ça ça doit être positif pour prendre une position sur le marché
+mais ce qu'on ce qu'on ce qu'on réalise lorsque vous regardez des traders vous allez
+voir qu'ils font attention que au gain et à la perte ils négligent un peu ça pour aller faire ceci et cela bien si vous avez si vous voulez gagner deux tic
+si vous avez si vous voulez gagner deux tic
+et vous êtes prêt à perdre cinq tic
+personne ne va vouloir faire ça
+la plupart des traders si vous leur dites
+tiens je rentre je vais chercher deux tic et je suis prêt à perdre cinq tic
+mais regardez lorsque vous rentrez
+avec 80% de probabilité
+de gain et donc 20%
+de probabilité
+de gain ici et 20% de probabilité de perdre
+et vous avez ici 16 et ici 10
+donc vous avez 6
+positif
+donc ça c'est un trade qui est très intéressant
+que beaucoup de gens ne font pas
+mais qui est la clé
+en tout cas de ce qui a été mon trading
+moi j'ai toujours basé mon trading sur cette formule sur l'espérance mathématique de gains
+et en particulier je donne la priorité absolue à la probabilité de gains et la probabilité de perdre
+et je ne fais pas très attention en tout cas pas trop au ratio gains et ratio de stop loss
+et ça c'est vraiment très important lorsque vous allez commencer à faire du trading sur le carnet d'or
+ou en tout cas sur les futurs où vous devez essayer de gagner 1 2 3 4 tic
+donc vous pouvez aller chercher un tic par exemple ici vous cherchez un tic et vous acceptez 3 de perte
+d'accord
+mais si vous
+ici vous avez 1 tic de gains et 3 de perte
+mais vous avez 80% de chances de toucher le tic
+et vous avez 20% de chances de perdre les 3 tics
+donc
+donc ici
+on va avoir 1 fois 8
+8
+et 3 fois 2
+6
+égale 2
+donc vous avez une espérance mathématique de gains
+positive alors que
+apparemment
+dans les livres on va jamais vous recommander
+de faire un trade où le ratio il est de 1 pour 3
+vous voyez la différence ?
+et ça c'est une
+c'est une leçon très importante
+que j'aimerais que vous puissiez étudier
+et tester
+c'est pour ça que lorsque vous allez mettre des braquettes
+sur Ninja Trader ou sur un autre logiciel
+pour rentrer
+et essayer de gagner rapidement quelque chose
+vous pouvez vous permettre
+de mettre un peu plus de stop loss
+parce que votre probabilité de toucher le gain
+est largement supérieure à votre probabilité de toucher la perte
+voilà
+donc j'espère que j'ai
+j'ai bien pu exprimer un petit peu
+ce concept
+d'espérance mathématique de rentabilité
+pour que vous puissiez intervenir sur les marchés
+mais en réfléchissant de manière complètement différente
+à ce que nous apprends
+et surtout par rapport à notre réflexe humain
+il est évident que notre réflexe humain
+lorsque vous venez et vous dites
+tiens je fais quelque chose avec toi
+si je gagne je gagne 1
+mais si je perds je perds 3
+tout de suite l'être humain dit non
+je ne suis pas intéressé
+il y a un réflexe de rejet
+lorsqu'on a affaire
+à un ratio risque-rendement
+qui n'est pas favorable
+mais en réalité
+on a tort
+parce que c'est l'espérance mathématique
+la probabilité de gain
+qui vient compenser
+ce ratio qui semble pas à notre avantage
+et qui vient transformer
+qui vient transformer grâce à cette formule mathématique
+et qui nous donne une espérance mathématique
+de rentabilité positive
+voilà
+donc je crois que ça va être
+peut-être ma dernière vidéo aujourd'hui
+et donc je vous souhaite
+de la regarder et de l'étudier
+et de me donner votre avis
+j'espère très encourageant
+merci
+merci
+merci
