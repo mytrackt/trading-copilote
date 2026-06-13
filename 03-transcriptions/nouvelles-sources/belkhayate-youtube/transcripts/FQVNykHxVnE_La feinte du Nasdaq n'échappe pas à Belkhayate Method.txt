@@ -1,0 +1,599 @@
+Bonjour tout le monde, on est le samedi 30 octobre et donc là on a devant nous le graphique du Nasdaq d'hier, donc de vendredi.
+Alors je rappelle ici que j'avais fait une analyse en annonçant que le Nasdaq allait tomber
+et il est tombé jeudi avec force ici comme vous le voyez parce que les résultats de Amazon et d'Apple n'étaient pas très bons
+donc il s'est écoulé en fin de journée de jeudi. Il a continué vendredi matin à tomber
+mais à partir de midi comme vous le voyez ici le marché a explosé à l'os.
+Et je fais cette vidéo pour deux choses, pour souligner deux points.
+Le premier point c'est que dans toutes nos analyses nous avons toujours entre 5 et 20% de probabilité que le marché nous donne tort
+et nous avons en gardant toujours 80% de probabilité d'avoir raison.
+Et cette vidéo là aussi je l'ai fait pour montrer que la méthode Belchiat
+elle peut vous faire gagner de l'argent alors que vous vous êtes trompé dans l'analyse technique.
+Alors pourquoi ? Parce que vous allez voir ici, regardons clairement ici, le Nasdaq, à un moment donné, à l'ouverture, il va casser ce niveau là.
+Ici vous voyez, il va casser cette résistance avec une grande bougie et avec du volume.
+Et lorsque vous avez cette situation là, vous avez Belchiat Impulsion.
+Alors je voulais vous montrer comment j'ai raisonné parce que je faisais du trading sur un compte important sur ce coût là, ici.
+Et j'étais vendeur.
+Quand j'étais vendeur, on était content, on gagnait de l'argent, on pensait que le marché allait vraiment continuer à tomber.
+Mais lorsque le marché commence à revenir ici, et Belchiat Direction commence à devenir vert à ce niveau là,
+je vais vous montrer un indicateur que je suis en train d'expliquer aux membres VIP.
+Ceux qui ont l'espace VIP vont découvrir ce nouvel indicateur, comment je l'utilise le volume profile.
+Mais, attendez, je vais vous montrer, voilà, ici, on peut utiliser tout simplement ce que je vous ai appris dans le cours,
+c'est-à-dire tout simplement un couloir baissier.
+Et vous voyez ici, clairement que, on voit bien clairement ici que le marché du Nasdaq a explosé ce couloir là avec force et avec volume.
+Donc là, on avait véritablement un bon signal d'achat.
+Et ensuite, on va rester sur cette position, le marché Belchiat Trend et Belchiat Direction ne vous font jamais quitter cette tendance.
+Et, en fait, ils vous gardent sur le marché jusqu'à la fin, jusqu'à la clôture de la position.
+Et ça fait quand même pratiquement 250 points en ligne droite sur le Nasdaq, ce qui est énorme.
+Rien que la journée d'hier, ceux qui ont suivi le signal Belchiat Impulsion ici, ils ont déjà fait l'objectif, largement l'objectif de Lilou ou de Wanap.
+Mais je voulais faire également cette vidéo pour introduire, pour tout le monde, même pour ceux qui n'ont pas encore, sont pas encore abonnés à l'espace VIP.
+Je vais vous montrer un indicateur que j'aime beaucoup et que je n'ai pas voulu présenter dans ma formation,
+parce que je ne voulais pas que vous l'utilisiez en signal d'achat et de vente.
+Voilà.
+Et je voulais qu'il faut savoir que cet indicateur doit être utilisé d'une manière très spécifique,
+que je vais enseigner à tous ceux qui ont l'espace VIP.
+Cet indicateur, c'est le Volume Profile en Fixed Range, d'abord.
+Fixed Range, ça veut dire, je choisis un espace donné.
+Par exemple, ici, à partir du moment que je commence à douter ici, à partir de 12h30, quand je commençais à douter,
+ce que j'ai fait, ce que j'ai tracé ici, du plus haut ici jusqu'au plus bas ici, de 11h25,
+donc cette tendance-là, je la trace, et le Volume Profile, c'est celui-là.
+Ce qui m'intéresse dans le Volume Profile, c'est juste cette ligne rouge, là, d'accord?
+Donc, je vais enlever tout ça.
+Je pourrais vous donner un cours complet sur le Volume Profile dans l'espace VIP.
+Et pour le moment, je vais vous montrer un point très, très intéressant.
+C'est qu'ici, on l'appelle le POC.
+C'est un point de contrôle.
+C'est là qu'il y a eu, à ce niveau-là, il y a eu énormément de volume.
+C'est là qu'il y a eu le plus de volume pendant cette tendance baissière.
+Alors, cet indicateur est gratuit.
+Vous pouvez le trouver sur TradingView,
+alors que sur NinjaTrader, il faut avoir payé la licence pour pouvoir avoir cet indicateur.
+C'est une des raisons pour lesquelles j'ai commencé à basculer entièrement ma formation sur TradingView.
+Et pour ne pas souscharger votre graphique,
+je vous propose tout simplement, dans un premier temps,
+d'enlever le Volume Profile, celui-là, vous l'enlevez.
+Et vous gardez uniquement cette ligne-là, cette ligne rouge.
+Vous voyez, là.
+Et je propose même qu'on la mette en blanc.
+Voilà.
+Voilà, c'est joli.
+Et lorsque j'ai tracé ici,
+et je voyais le marché venir taper ici sur Belkhayatran,
+je vois que Belkhayatran devient vert.
+On n'a pas beaucoup de volume.
+Vous voyez, on n'a pas encore de volume, donc je ne m'inquiète pas.
+Mais je me dis, attention,
+maintenant je sais qu'ici,
+c'est une résistance importante,
+parce que je sais que c'est là qu'il y a eu le plus de volume échangé.
+Ici, à ce niveau-là.
+Donc, 15645.
+Effectivement, le marché est venu taper une fois ici.
+C'était un support.
+Là, une fois qu'il a cassé les revenus,
+on voit bien que 15645 est un niveau important.
+Effectivement, lorsque le marché revient taper ici,
+il tombe avec un grand volume.
+J'étais content parce que je me suis dit,
+ça y est, ça va repartir à la baisse.
+Parce que j'ai eu ici,
+on a eu un grand volume, regardez bien.
+Voilà.
+Relativement à ce qui s'est passé dans toute la matinée,
+enfin, on a un grand volume.
+Et je me suis dit, tiens,
+on va pouvoir passer à la caisse.
+Puis, le marché a fait un très grand volume
+sur les cinq premières minutes
+de l'ouverture du marché.
+Et ce très grand volume,
+avec juste cette mèche ici,
+basse,
+m'a fait douter de ma position vendeur.
+Et j'ai décidé de sortir la position vendeur
+en disant que si le marché revient casser
+ce plus bas ici,
+j'allais re-rentrer vendeur.
+Mais qu'à l'ouverture,
+je ne voulais plus prendre de risque.
+Et lorsque j'ai vu que
+les prochaines cinq minutes,
+là, que vous voyez ici,
+là, on a cassé avec force
+le POC,
+c'est-à-dire le point off-control ici.
+Vous le voyez.
+Et c'est clair quand même
+que c'est également sur les prix.
+Vous voyez, non seulement ici,
+c'est une résistance sur le volume.
+Mais vous voyez ici également,
+là, c'est une résistance sur le prix.
+D'accord ?
+Donc,
+attendez,
+je vais essayer de le faire là.
+Vous voyez là ?
+Voilà.
+Également sur les prix,
+on a cassé cette résistance avec force.
+Et là, j'ai acheté le Nasdaq
+alors que je n'aurais jamais acheté le Nasdaq
+si je n'avais pas vu ça.
+Jamais.
+Dans ma tête,
+les marchés allaient tomber
+parce que Amazon appelle
+des grosses pointures
+de la technologie américaine
+sont mal.
+Donc,
+je pensais que les marchés
+allaient tomber.
+Mais lorsqu'on voit
+une accélération comme ça,
+je suis obligé de reconnaître
+que c'est un signal
+de la méthode Belchayat.
+c'est un signal
+que j'appelle
+impulsion.
+Et
+j'ai acheté
+puis j'ai attendu
+tout simplement
+que Belchayat
+direction se renverse
+pour sortir.
+Et j'étais très étonné
+pendant ce,
+pendant cette journée
+de vendredi,
+j'étais très étonné
+d'assister
+à un mouvement
+que moi,
+je n'aurais jamais
+pu imaginer
+en analyse technique
+et graphique.
+il m'était très difficile
+d'imaginer
+que le marché
+allait remonter
+sur les plus hauts historiques
+et casser avec force
+ces hauts historiques
+comme on le voit ici.
+Vous voyez ?
+Il a cassé avec force
+le...
+le...
+Ensuite,
+je vais vous montrer
+quelque chose.
+Une fois que le marché
+a commencé à partir,
+quand il est arrivé
+dans ce niveau-là,
+et qu'il commençait à tomber,
+je me suis dit
+où est-ce qu'il est
+maintenant le POC ?
+Alors,
+je viens ici,
+l'indicateur,
+et je prends
+fixe range
+et je viens ici
+cette fois-ci,
+sur cette tendance-là
+et j'essaie de regarder
+où est-ce qu'il est
+le nouveau.
+Et je vois qu'il est ici.
+Il est remonté
+et il est à ce niveau-là.
+Ensuite,
+vous pouvez faire ça.
+Attendez.
+Voilà.
+Et regardez maintenant
+si on va
+jusqu'en haut ici
+pour pouvoir savoir
+ce qui s'est passé.
+C'est très intéressant
+de regarder.
+Là,
+je viens sur ce plus bas
+et je viens sur ce plus haut.
+et on regarde
+qu'en fait,
+le POC,
+il est remonté
+et le marché,
+il a rebondi ici,
+il est parti avec force ici.
+Je ne pense pas
+qu'il y ait des traders
+qui aient osé acheter
+à ce niveau-là.
+Et pourtant,
+c'est un très bon signal
+d'achat
+parce qu'on est protégé
+par
+ce support-là,
+ce nouveau support
+qui est dynamique.
+au fur et à mesure
+que le marché monte
+et au fur et à mesure
+qu'il y a du volume,
+le POC bouge
+pour vous donner
+un support
+ou une résistance.
+Donc,
+il est très probable
+que la semaine prochaine,
+ce marché-là,
+ce support-là
+puisse être très, très fort
+pour faire du trading
+à ce niveau-là.
+Voilà,
+donc,
+c'était une vidéo
+pour essayer
+de vous expliquer
+comment,
+en suivant tout simplement
+les signaux
+de Belkhaya Train,
+par exemple,
+les Belkhaya Direction,
+vendredi,
+en suivant
+ce signal-là
+et en respectant
+tout simplement
+Belkhaya Train
+et Belkhaya Direction,
+vous pouvez gagner
+250 points
+sur le Nasdaq,
+ce qui est
+une performance
+exceptionnelle.
+En combinant,
+en apprenant
+à combiner
+le volume
+profile,
+ce volume profile-là,
+alors,
+rapidement,
+je vais vous montrer
+comment ça se présente.
+Vous venez ici,
+volume profile,
+et vous avez
+Fixed Range.
+Fixed Range
+signifie
+que c'est vous
+qui choisissez
+la période
+que vous voulez
+analyser,
+par exemple,
+une tendance baissière
+ou une tendance haussière
+et vous tracez
+du bas
+jusqu'en haut
+pour avoir
+la ligne
+blanche compression.
+Ici,
+c'est la session
+du jour.
+D'accord?
+Ici,
+par exemple,
+quand vous faites ça,
+vous avez la session
+du jour
+qui s'affiche
+automatiquement.
+Donc,
+elle est là.
+Alors,
+je vais
+retirer
+tout ça.
+Comme ça,
+vous...
+on va mettre
+maintenant
+la session
+du jour.
+Comme ça,
+vous allez pouvoir
+bien comprendre.
+La session
+du jour,
+elle est là.
+Et,
+c'est à ce niveau-là,
+c'est le plus...
+c'est là
+qu'il y a
+le POC.
+D'accord?
+On le voit.
+et vous pouvez
+également
+utiliser
+visible range.
+Visible range,
+ça signifie que
+si vous cliquez
+ici,
+alors là,
+vous allez avoir
+le volume profile
+de tout ce que
+vous voyez ici.
+Si vous faites ça,
+alors,
+il va bouger
+pour vous donner
+le market profile
+de tout...
+de toute cette partie-là.
+D'accord?
+De tout ce qui se voit
+dans le graphique.
+C'est quelquefois
+très intéressant
+pour pouvoir
+voir où ça se présente.
+Là,
+par exemple,
+c'était évident
+que ce point-là,
+si on avait fait
+cette partie-là,
+on voit que ici,
+c'était un point
+très important.
+Une fois qu'on a cassé,
+on a accéléré.
+Donc,
+je compte
+donner un cours
+complet
+sur l'utilisation
+du volume profile.
+dans l'espace
+VIP
+pour que vous puissiez
+compléter
+la formation 3
+avec cet indicateur
+à condition
+de ne pas l'utiliser
+comme un indicateur
+de signal
+d'achat
+ou de vente,
+mais de l'utiliser
+comme je suis en train
+de vous dire,
+c'est de l'utiliser
+pour essayer
+de rebondir
+sur le POC
+pour pouvoir
+situer
+là où il y a
+les grands
+qui sont en train
+de rentrer
+sur le marché.
+Voilà,
+donc,
+je vais vous souhaiter
+un bon week-end
+et puis
+continuez
+à suivre
+les indicateurs.
+Tout simplement,
+il suffit de suivre là.
+Vous auriez suivi
+les indicateurs
+de Belkhia Trend
+et Belkhia Direction.
+Regardez,
+là,
+ils avaient donné
+un signal d'achat
+et ici,
+ils ont donné
+un signal de vente
+et là,
+on a un très beau
+signal d'achat.
+Il suffit
+d'utiliser
+ces indicateurs
+plus
+le fait
+de ne pas rentrer
+absolument
+dans des zones
+d'accalmie.
+Vous attendez
+qu'il y ait
+l'accélération
+sur le volume
+et vous allez pouvoir
+optimiser
+les indications
+de la méthode
+Belkhia.
+Juste pour
+clôturer
+cette vidéo,
+je vous fais
+un petit clin d'œil
+parce que
+j'avais posté
+tout à l'heure
+que
+ceux qui n'ont
+pas acheté
+la méthode Belkhia
+et qui étaient
+dans la salle
+de marché
+de EDF
+ont perdu
+400 millions
+d'euros.
+Voilà.
+Donc,
+je vous souhaite
+un bon week-end
+et puis
+à très bientôt
+pour la semaine prochaine.
+il semblerait
+que les marchés
+vont manifester
+de l'euphorie
+parce que
+moi je pense
+que les marchés
+montent
+parce que
+les entreprises
+américaines,
+toutes les grandes
+entreprises américaines
+et même
+les start-up
+ont beaucoup
+d'argent à disposition.
+Ils prennent
+cet argent
+à un taux
+très intéressant
+et puis
+rachètent
+leurs actions.
+donc il y a
+je pense
+qu'il y a
+beaucoup
+de
+sociétés
+qui empruntent
+de l'argent
+facilement
+et qui
+rachètent
+leurs propres
+actions
+ce qui fait
+exploser
+les marchés
+financiers
+contre
+beaucoup de
+traders
+professionnels
+sont en train
+de dire
+mais on est
+on attend
+un crash
+boursier
+et beaucoup
+de traders
+professionnels
+connus
+ont perdu
+des millions
+de dollars
+en annonçant
+qu'il fallait
+absolument
+vendre Tesla
+etc.
+mais
+on est dans
+une époque
+comme je l'avais
+expliqué
+en février
+dernier
+on est dans
+une époque
+où
+il y a
+énormément
+d'argent
+disponible
+et comme
+au Venezuela
+où la bourse
+de Caracas
+a explosé
+plus de
+20 fois
+30 fois
+en fait
+en moins
+d'un an
+on peut
+s'attendre
+j'avais dit
+en février
+qu'on pouvait
+s'attendre
+à une explosion
+sur les marchés
+américains
+mais une explosion
+vers la hausse
+parce que
+il y a
+énormément
+d'argent
+des trillions
+à disposition
+de n'importe
+quel
+entrepreneur
+et
+au lieu
+d'investir
+dans l'outil
+ils achètent
+tout simplement
+leurs propres
+actions
+et ça fait
+exploser
+les marchés
+boursiers
+voilà
+donc
+à la semaine prochaine
+un'heure
+plus
+il n'y a

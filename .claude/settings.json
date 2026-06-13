@@ -31,7 +31,14 @@
       "PowerShell(cd C:\\\\trading-copilote; \"=== RACINE FINALE ===\"; Get-ChildItem -Force | Where-Object { $_.Name -ne '.git' } | Select-Object Name, @{N='Type';E={if\\($_.PSIsContainer\\){'Dossier'}else{'Fichier'}}} | Out-String; \"=== GIT STATUS \\(resume\\) ===\"; $st = git status --short; \"Lignes de changements : $\\($st.Count\\)\"; $st | Group-Object { $_.Substring\\(0,2\\).Trim\\(\\) } | Select-Object Name, Count | Out-String)",
       "PowerShell(cd C:\\\\trading-copilote; $st = git status --short; if \\($st.Count -eq 0\\) { \"git status : PROPRE \\(aucun changement en attente\\)\" } else { $st }; git log --oneline -3)",
       "PowerShell(git -C C:\\\\trading-copilote diff .claude/settings.json)",
-      "PowerShell(git -C C:\\\\trading-copilote push)"
+      "PowerShell(git -C C:\\\\trading-copilote push)",
+      "Bash(echo \"Blobs .mp3   : $\\(git rev-list --objects --all)",
+      "Bash(echo \"=== Code retour : $? ===\")",
+      "Bash(echo \"Remote main : $\\(git ls-remote origin main)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(echo \"Code: $?\")"
     ],
     "additionalDirectories": [
       "C:\\trading-skills-factory\\scraper"
