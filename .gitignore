@@ -40,3 +40,4 @@ Thumbs.db
 # Reorganisation 11/06/2026 - audio jetable hors suivi git (deja present dans l'historique, non purge)
 _temp/
 **/temp_audio/
+03-transcriptions/nouvelles-sources/belkhayate-youtube/audio/
