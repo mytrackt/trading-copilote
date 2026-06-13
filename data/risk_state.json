@@ -1,0 +1,10 @@
+{
+  "_comment": "Seed Phase 2 (A2-Data-NT8) 13/06/2026 - etat de risque courant. Ecrit en runtime par risk_manager via atomic_write_json. Valeurs par defaut, aucun schema impose (fichier non encore consomme par le code).",
+  "dd_today": 0.0,
+  "dd_week": 0.0,
+  "trades_open": 0,
+  "pertes_jour": 0,
+  "auto_suspended_until": null,
+  "last_loss_date": null,
+  "last_updated": null
+}

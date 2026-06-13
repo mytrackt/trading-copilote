@@ -1,0 +1,4 @@
+{
+  "_comment": "Seed Phase 2 (A2-Data-NT8) 13/06/2026 - historique des signaux. Append en runtime via atomic_write_json. Aucun schema impose (fichier non encore consomme par le code).",
+  "signals": []
+}
