@@ -17,6 +17,26 @@ livrable aux décisions verrouillées, et tu attends ma confirmation (« OUI »)
 **Règle d'or** : à chaque doute sur une formule, un chiffre ou un package → écris `⚠️ À VÉRIFIER`
 et demande-moi. Tu n'inventes JAMAIS une formule de trading.
 
+**🛑 RÈGLE DE DÉFIANCE DOCUMENTAIRE (obligatoire, transversale)**
+Tu ne fais confiance à AUCUN fichier de `C:\trading-copilote\` par défaut — y compris transcripts,
+PDF, KB, .md, .txt. Avant d'utiliser un document comme source, tu lui attribues un **statut de validité** :
+`✅ VALIDÉ` (source vérifiable), `⚠️ DOUTEUX` (origine/fiabilité incertaine), `❌ INVALIDE` (à ne pas utiliser).
+- Un document `⚠️ DOUTEUX` → tu **désignes l'agent A9-Validateur-Sources** qui enquête sur sa validité
+  (recherche de la source originale, recoupement, étiquetage) AVANT toute utilisation.
+- Un document `❌ INVALIDE` ou non vérifiable → **interdit comme source** ; il peut au mieux être signalé.
+- Aucune règle de trading ne dérive d'un document non `✅ VALIDÉ`.
+
+**Transcripts multi-sources (couche d'enrichissement)** : la KB mélangera des transcriptions Belkhayate
+**et d'autres chaînes**. Le contenu non-Belkhayate a un **rôle ACTIF** : enrichir la méthode Belkhayate
+et le cerveau de l'application (filtres complémentaires, confirmations, idées d'amélioration). Il alimente
+donc bien le cerveau — ce n'est pas du bruit à écarter.
+Deux garde-fous néanmoins :
+1. **Provenance tracée** : chaque transcript étiqueté `source=` (chaîne/auteur) + `fiabilite=` + `methode=`
+   (belkhayate / autre). Un apport non-Belkhayate ne doit **jamais être faussement attribué** à Belkhayate ;
+   il est rangé dans une couche dédiée (ex. `enrichissements_externes`) qui complète, sans réécrire, le canon Belkhayate.
+2. **Validation A9** : toute idée d'amélioration externe passe par A9-Validateur-Sources (source vérifiable)
+   avant d'entrer dans le cerveau ; une amélioration retenue est marquée `[AMÉLIORATION — source X]`.
+
 ---
 
 ## 🎯 CONTEXTE DU PROJET (décisions ARBITRÉES — ne pas rouvrir)
@@ -40,6 +60,14 @@ Objectif : application de trading **locale** (Windows), méthode **Belkhayate ex
 endpoint figé (anti-repaint), invalidations R8–R10, entrée sur retracement 38–50 % (Couche 3),
 sorties partielles + trailing ATR (Couche 5), cas NON-TRADE absolus (R/R < 1:2, position = 0 contrat,
 budget API dépassé, indicateur illisible, 2 pertes/jour).
+
+**⚠️ ÉTAT KB / TRANSCRIPTION (dépendance critique)** : la transcription Whisper des vidéos Belkhayate
+**n'est PAS terminée** (en cours, ~39/110 au dernier point) et la `KNOWLEDGE_BASE_MASTER.json` actuelle
+est **invalide / provisoire** (142 fichiers = synthèses NotebookLM, pas de vrais transcripts).
+Conséquence : les Phases 1–5, 7, 8 sont **indépendantes** de la transcription (formules issues du document
+stratégie, pas des transcripts) et peuvent avancer. La Phase 6 (cerveau Claude) traite la KB comme
+**PROVISOIRE** : le mode Auto reste **BLOQUÉ** tant que la KB n'a pas été reconstruite à partir des vrais
+transcripts (Phase B-02, hors périmètre de ce prompt). Aucun signal réel ne s'appuie sur la KB provisoire.
 
 **Formules Belkhayate à coder** (source : `00-pilotage\STRATEGIE_TRADEX_BELKHAYATE_*.md`,
 étiquetées [RECONSTRUCTION] — fidélité non garantie, mode endpoint figé obligatoire) :
@@ -70,6 +98,7 @@ Crée un fichier `.md` par agent. Chaque agent a un périmètre STRICT et ne tou
 | **A6-Backend-API** | `05-saas\api\` (FastAPI) + SQLite | Endpoints local (signaux, historique, mode), DB locale |
 | **A7-Frontend** | `05-saas\frontend\` (React+Vite+Tailwind) | Dashboard Manuel/Auto, disclaimer permanent, lecture maquettes f1–f8 |
 | **A8-QA-Audit** | tout (lecture) + `tests\` | py_compile, pytest, vérif décisions verrouillées, vérif `.env` gitignore |
+| **A9-Validateur-Sources** | tout document (lecture) + `00-pilotage\REGISTRE_VALIDITE.md` | Statue la validité de chaque doc douteux (recherche source originale, recoupement web), étiquette transcripts par source/fiabilité/méthode. S'appuie sur le skill `audit-hostile-fiabilite-docs-trading-belkhayate`. |
 
 ---
 
@@ -96,8 +125,10 @@ type "C:\trading-copilote\CLAUDE.md" | Select-Object -First 30
 Get-ChildItem "C:\trading-copilote\.claude\agents\" -ErrorAction SilentlyContinue
 type "C:\trading-copilote\05-saas\config\settings.py" | Select-Object -First 40
 ```
-Actions : créer les 9 fichiers agents dans `.claude\agents\` ; A0 produit un rapport
-de conformité (1 page) confirmant que la spec verrouillée du §CONTEXTE est respectée.
+Actions : créer les **10 fichiers agents** dans `.claude\agents\` (A0 à A9) ; A0 produit un rapport
+de conformité (1 page) confirmant que la spec verrouillée du §CONTEXTE est respectée ;
+**A9 initialise `00-pilotage\REGISTRE_VALIDITE.md`** (table : fichier · statut ✅/⚠️/❌ · source · action),
+en marquant d'emblée la KB `⚠️ DOUTEUX` (synthèses NotebookLM) et les transcripts à étiqueter.
 **STOP — attendre « OUI ».**
 ```powershell
 ### ROLLBACK Phase 1 : Remove-Item "C:\trading-copilote\.claude\agents\" -Recurse -Force
@@ -177,7 +208,9 @@ type "C:\trading-copilote\05-saas\engine\claude_brain.py" | Select-Object -First
 ```
 Actions : passer le fallback de `/21` à `/10` ; prompt caching sur la KB ; clé API via
 `os.getenv("ANTHROPIC_API_KEY")` UNIQUEMENT ; `parse_claude_json()` (jamais `json.loads` direct) ;
-`time.sleep(1.5)` entre appels. `python -m py_compile`.
+`time.sleep(1.5)` entre appels. **Charger la KB avec un flag `kb_provisoire=True`** : tant que ce flag
+est vrai → mode Auto interdit, bannière « KB provisoire — transcription Whisper non terminée », confiance
+plafonnée. `python -m py_compile`.
 **STOP — attendre « OUI ».**
 ```powershell
 ### ROLLBACK Phase 6 : git checkout -- 05-saas\engine\claude_brain.py
@@ -223,7 +256,8 @@ git check-ignore C:\trading-copilote\.env
 ```
 Actions : `pytest` ; `python -m py_compile` sur tous les `.py` ; checklist conformité
 (JSON NT8, marchés verrouillés, news 30 min, 3/4+2/3, score /10, BTC/Yen zéro ordre,
-clé API jamais en dur, `.env` ignoré) ; rapport final + plan paper trading 30 j.
+clé API jamais en dur, `.env` ignoré, **KB marquée provisoire + Auto bloqué**) ;
+rapport final + plan paper trading 30 j (à lancer seulement après KB reconstruite).
 **STOP — attendre « OUI ».**
 ```powershell
 ### ROLLBACK Phase 9 : git checkout -- tests\
@@ -245,10 +279,14 @@ clé API jamais en dur, `.env` ignoré) ; rapport final + plan paper trading 30 
 ## ⚠️ POINTS D'ATTENTION CRITIQUES
 
 - **Anti-hallucination** : toute formule/chiffre/package non vérifié → `⚠️ À VÉRIFIER` + demander.
+- **Défiance documentaire** : aucun fichier cru par défaut ; doc douteux → A9 enquête avant usage ;
+  aucune règle ne dérive d'un doc non `✅ VALIDÉ`. Contenu non-Belkhayate = couche d'enrichissement ACTIVE
+  (améliore méthode + cerveau) mais provenance tracée et jamais attribuée à Belkhayate.
 - **Chemins absolus** `C:\trading-copilote\` partout ; jamais `./` ni `../`.
 - **Aucun ordre** sur MBT (Bitcoin) ni 6J (Yen) — référence intermarché seulement.
 - **Endpoint figé** obligatoire sur le COG (sinon backtest faussé par le repaint).
-- **Mode Auto interdit** tant que circuit breaker + staleness + news gate ne sont pas validés.
+- **Mode Auto interdit** tant que circuit breaker + staleness + news gate ne sont pas validés
+  ET tant que la KB est provisoire (transcription Whisper non terminée).
 - **Sécurité** : `os.getenv("ANTHROPIC_API_KEY")` uniquement ; vérifier `.env` ignoré avant tout push.
 - Confirmation **« OUI »** obligatoire entre chaque phase — jamais enchaîner 2 phases.
 
