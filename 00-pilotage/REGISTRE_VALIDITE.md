@@ -34,3 +34,19 @@
 |---|---|---|
 | `prompt-systeme-trading-intermarches.txt` | ❌ INVALIDE | BTC+Yen tradables, score /100, non-Belkhayate (audit S06 batch 2) |
 | `STRATEGIE_TRADEX_8_MARCHES-*.md` (v1.0) | ❌ OBSOLETE | Remplace par STRATEGIE_CORRIGEE v2.0 |
+
+## 5. Audit QA Phase 9 (13/06/2026 -- agent A8)
+
+Code produit Phases 3-7 : py_compile OK sur tout le SaaS, regression 5/5 suites vertes.
+Statut documentaire des formules implementees (rappel -- rien n'est ✅ tant que non recoupe transcripts) :
+
+| Element code | Source | Statut documentaire |
+|---|---|---|
+| `belkhayate_formulas.cog_endpoint` / `timing_oscillator` | STRATEGIE_CORRIGEE Piliers 1-2 | ⚠️ [RECONSTRUCTION] -- a valider contre vrais transcripts |
+| `belkhayate_formulas.energie` | -- | ❌ NON CODEE (stub volontaire NotImplementedError) -- arbitrage 13/06 |
+| `signal_engine` grille /10 + Etape 0 | STRATEGIE_CORRIGEE PARTIE 4 | ⚠️ [HYPOTHESE TESTABLE] -- seuils a backtester |
+| Garde-fous runtime (news/CB/staleness/Auto) | CLAUDE.md + GARDE_FOUS | ✅ conformes decisions verrouillees |
+| KB `KNOWLEDGE_BASE_MASTER.json` | -- | ⚠️ DOUTEUX (provisoire) -- `kb_provisoire=True` force Auto interdit |
+
+Conclusion A8 : code conforme aux decisions verrouillees ; aucun signal reel autorise tant que
+la KB n'est pas reconstruite (Phase B-02) et les parametres [RECONSTRUCTION] non valides par backtest.

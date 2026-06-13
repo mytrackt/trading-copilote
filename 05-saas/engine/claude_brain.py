@@ -12,6 +12,21 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 logger = logging.getLogger(__name__)
 
+# --- A5 (Phase 6) : KB provisoire + bareme fallback aligne /10 ---
+KB_PROVISOIRE_DEFAUT = True
+BANNIERE_KB_PROVISOIRE = "KB provisoire -- transcription Whisper non terminee"
+SEUIL_FALLBACK = 7.0            # aligne sur signal_engine.SEUIL_SIGNAL (/10)
+CONFIANCE_MAX_FALLBACK = 65     # plafond confiance fallback ; Auto toujours interdit
+# Bareme fallback local sur /10 (mirror partiel de signal_engine.SCORE_GRID). N'utilise PAS l'Energie (non codee).
+FALLBACK_GRID = {
+    "bgc_signal":    3.0,
+    "direction_ok":  2.0,
+    "vix_favorable": 2.0,
+    "no_news_gate":  2.0,
+    "delta_positif": 0.7,
+    "big_trades_ok": 0.3,
+}
+
 # Client Anthropic — clé via variable d'environnement UNIQUEMENT
 try:
     import anthropic
@@ -47,6 +62,10 @@ def _parse_claude_json(response_text: str) -> dict:
     return json.loads(text[start:end])
 
 
+# Nom public : toute reponse Claude passe par ici (jamais json.loads direct dessus).
+parse_claude_json = _parse_claude_json
+
+
 def call_claude_kb(kb_rules: str, god_mode_prompt: str) -> dict:
     """
     Appel Claude API avec prompt caching sur la KB.
@@ -79,50 +98,53 @@ def call_claude_kb(kb_rules: str, god_mode_prompt: str) -> dict:
         return _call()
 
 
-def _calculate_fallback_score(context: dict) -> int:
+def _calculate_fallback_score(context: dict) -> float:
     """
-    Score local simplifié 7 cercles (sans Claude).
-    Utilisé uniquement en fallback — MAX 65% confiance.
+    Score local simplifie sur /10 (sans Claude, SANS Energie -- non codee).
+    Utilise UNIQUEMENT en fallback (Claude API indisponible). Approximation degradee ;
+    le score deterministe autoritaire reste celui de signal_engine. MAX 65% confiance ensuite.
     """
-    score = 0
-
-    # C1 — Prix Belkhayate
     c1 = context.get("c1", {})
-    if c1.get("bgc_signal"):   score += 3
-    if c1.get("direction_ok"): score += 2
-    if c1.get("energie_ok"):   score += 1
-
-    # C5 — VIX sentiment
-    vix = context.get("vix", 20)
-    if vix < 18:  score += 2
-    elif vix < 25: score += 1
-
-    # C4 — Macro
-    if context.get("no_news_gate"): score += 2
-
-    # C2 — Order Flow
     c2 = context.get("c2", {})
-    if c2.get("delta_positif"): score += 2
-    if c2.get("big_trades_ok"): score += 1
+    vix = context.get("vix", 20)
 
-    return score  # /21 points max
+    score = 0.0
+    if c1.get("bgc_signal"):    score += FALLBACK_GRID["bgc_signal"]    # C1 -- COG/BGC aligne
+    if c1.get("direction_ok"):  score += FALLBACK_GRID["direction_ok"]  # C1 -- direction
+    if vix < 18:                score += FALLBACK_GRID["vix_favorable"]  # C5 -- VIX bas
+    elif vix < 25:              score += FALLBACK_GRID["vix_favorable"] / 2.0
+    if context.get("no_news_gate"): score += FALLBACK_GRID["no_news_gate"]  # C4 -- pas de news
+    if c2.get("delta_positif"): score += FALLBACK_GRID["delta_positif"]  # C2 -- order flow
+    if c2.get("big_trades_ok"): score += FALLBACK_GRID["big_trades_ok"]  # C2
+
+    return round(score, 2)  # /10 max (= 10.0)
 
 
-def get_signal(context: dict, kb_rules: str) -> dict:
+def _enforce_kb_provisoire(result: dict, kb_provisoire: bool) -> dict:
+    """KB provisoire -> Auto interdit + banniere sur le signal.
+    Aucun signal reel ne s'appuie sur la KB provisoire (transcription Whisper non terminee)."""
+    if kb_provisoire:
+        result["mode_auto_autorise"] = False
+        result["kb_provisoire"] = True
+        result["banniere"] = BANNIERE_KB_PROVISOIRE
+    return result
+
+
+def get_signal(context: dict, kb_rules: str, kb_provisoire: bool = KB_PROVISOIRE_DEFAUT) -> dict:
     """
     Point d'entrée principal.
     1. Construit le prompt GOD_MODE
     2. Appelle Claude avec la KB en cache
-    3. En cas d'échec → fallback local (max 65%, Auto bloqué)
+    3. En cas d'échec → fallback local /10 (max 65%, Auto bloqué)
+
+    Si kb_provisoire=True (defaut tant que la KB Whisper n'est pas reconstruite) :
+    Auto interdit + banniere « KB provisoire » sur CHAQUE signal retourne.
 
     context = {
-        "c1": {"bgc_signal": bool, "direction": "LONG"|"SHORT", ...},
+        "c1": {"bgc_signal": bool, "direction": "LONG"|"SHORT", "direction_ok": bool, ...},
         "c2": {"delta_positif": bool, "big_trades_ok": bool},
         "risk": {"dd_today": float, "dd_week": float},
-        "vix": float,
-        "no_news_gate": bool,
-        "actif": str,
-        "timeframe": str,
+        "vix": float, "no_news_gate": bool, "actif": str, "timeframe": str,
     }
     """
     try:
@@ -135,59 +157,66 @@ def get_signal(context: dict, kb_rules: str) -> dict:
         result.setdefault("raison", "")
         result.setdefault("taille_contrats", 1)
         result.setdefault("mode_auto_autorise", False)
-        return result
 
     except Exception as e:
         logger.error(f"Claude API indisponible : {e}")
-        score = _calculate_fallback_score(context)
-        risk  = context.get("risk", {})
-        dd    = risk.get("dd_today", 0.0)
+        score = _calculate_fallback_score(context)            # /10
+        dd = context.get("risk", {}).get("dd_today", 0.0)
 
-        # Fallback : score >= 17 ET DD < 2% → signal local possible
-        if score >= 17 and dd < 0.02:
+        # Fallback : score >= 7.0 (aligne signal_engine) ET DD < 2% -> signal local possible
+        if score >= SEUIL_FALLBACK and dd < 0.02:
             direction = context.get("c1", {}).get("direction", "ATTENDRE")
-            confiance = min(score * 3, 65)  # JAMAIS > 65% en fallback
-            return {
-                "signal":           direction,
-                "confiance":        confiance,
-                "raison":           "FALLBACK_LOCAL — score suffisant",
-                "taille":           "mini",
-                "taille_contrats":  1,
-                "mode_auto_autorise": False,   # Auto TOUJOURS bloqué en fallback
-                "alerte":           f"Claude API indisponible : {str(e)[:100]}"
+            confiance = min(round(score / 10.0 * CONFIANCE_MAX_FALLBACK), CONFIANCE_MAX_FALLBACK)
+            result = {
+                "signal":             direction,
+                "confiance":          confiance,           # JAMAIS > 65% en fallback
+                "raison":             "FALLBACK_LOCAL -- score suffisant (/10)",
+                "taille":             "mini",
+                "taille_contrats":    1,
+                "mode_auto_autorise": False,               # Auto TOUJOURS bloque en fallback
+                "score_fallback":     score,
+                "alerte":             f"Claude API indisponible : {str(e)[:100]}",
+            }
+        else:
+            result = {
+                "signal":             "ATTENDRE",
+                "confiance":          0,
+                "raison":             f"FALLBACK_LOCAL -- score {score}/10 insuffisant",
+                "taille_contrats":    0,
+                "mode_auto_autorise": False,
+                "score_fallback":     score,
+                "alerte":             f"Claude API indisponible + conditions KO : {str(e)[:80]}",
             }
 
-        # Conditions insuffisantes → ATTENDRE obligatoire
-        return {
-            "signal":           "ATTENDRE",
-            "confiance":        0,
-            "raison":           f"FALLBACK_LOCAL — score {score}/21 insuffisant",
-            "taille_contrats":  0,
-            "mode_auto_autorise": False,
-            "alerte":           f"Claude API indisponible + conditions KO : {str(e)[:80]}"
-        }
+    return _enforce_kb_provisoire(result, kb_provisoire)
 
 
-def load_kb_rules(kb_path: str = None) -> str:
+def load_kb_rules(kb_path: str = None, kb_provisoire: bool = KB_PROVISOIRE_DEFAUT) -> dict:
     """
-    Charge la Knowledge Base Belkhayate (2337 règles) depuis le fichier JSON.
-    Retourne une chaîne formatée pour le system prompt Claude.
+    Charge la Knowledge Base Belkhayate depuis le fichier JSON.
+    Renvoie {rules: str, kb_provisoire: bool, banniere: str|None}.
+
+    kb_provisoire=True tant que la KB n'a pas ete reconstruite a partir des VRAIS transcripts
+    Whisper (la KB actuelle = syntheses NotebookLM, invalide). Dans ce cas : mode Auto interdit
+    et banniere affichee (enforce par get_signal / _enforce_kb_provisoire).
     """
     if kb_path is None:
         kb_path = os.path.join(os.path.dirname(BASE_DIR), "04-cerveau-trading", "KNOWLEDGE_BASE_MASTER.json")
 
     if not os.path.exists(kb_path):
-        logger.warning(f"KB introuvable : {kb_path} — utiliser fallback vide")
-        return "Tu es TRADEX-AI, assistant trading Belkhayate. KB non chargée."
+        logger.warning(f"KB introuvable : {kb_path} -- fallback vide")
+        rules_text = "Tu es TRADEX-AI, assistant trading Belkhayate. KB non chargee."
+    else:
+        with open(kb_path, "r", encoding="utf-8") as f:
+            kb_data = json.load(f)
+        rules_text = "# KNOWLEDGE BASE TRADEX-AI -- Methode Belkhayate\n\n"
+        rules_text += f"Total regles : {len(kb_data.get('rules', []))}\n\n"
+        for rule in kb_data.get("rules", []):
+            rules_text += f"## {rule.get('categorie', 'GENERAL')}\n"
+            rules_text += f"{rule.get('contenu', '')}\n\n"
 
-    with open(kb_path, "r", encoding="utf-8") as f:
-        kb_data = json.load(f)
-
-    # Formater les règles pour le system prompt
-    rules_text = "# KNOWLEDGE BASE TRADEX-AI — Méthode Belkhayate\n\n"
-    rules_text += f"Total règles : {len(kb_data.get('rules', []))}\n\n"
-    for rule in kb_data.get("rules", []):
-        rules_text += f"## {rule.get('categorie', 'GENERAL')}\n"
-        rules_text += f"{rule.get('contenu', '')}\n\n"
-
-    return rules_text
+    return {
+        "rules": rules_text,
+        "kb_provisoire": kb_provisoire,
+        "banniere": BANNIERE_KB_PROVISOIRE if kb_provisoire else None,
+    }

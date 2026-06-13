@@ -1,6 +1,8 @@
 import threading
+import time
 from datetime import datetime, timedelta
 from enum import Enum
+from concurrent.futures import ThreadPoolExecutor, TimeoutError as FuturesTimeout
 
 class CircuitState(Enum):
     CLOSED    = "CLOSED"
@@ -66,3 +68,54 @@ def get_all_circuit_status() -> dict:
         "ATAS":   CB_ATAS.get_status(),
         "Claude": CB_CLAUDE.get_status(),
     }
+
+
+# =============================================================================
+# A3 -- Timeout + retry + fallback ATTENDRE (Phase 5)
+# Valeurs par defaut : 15s timeout / 2 retries / fallback ATTENDRE (cf. settings.CIRCUIT_BREAKER).
+# =============================================================================
+CB_TIMEOUT_SEC = 15
+CB_RETRY_MAX = 2
+
+
+def fallback_attendre(raison: str = "CIRCUIT_BREAKER_FALLBACK") -> dict:
+    """Signal de repli sur : mode Auto interdit, aucune position prise."""
+    return {
+        "signal": "ATTENDRE",
+        "confiance": 0,
+        "mode_auto_autorise": False,
+        "taille_contrats": 0,
+        "raison": raison,
+    }
+
+
+def protected_call(cb, func, *, timeout_sec: int = CB_TIMEOUT_SEC,
+                   retry_max: int = CB_RETRY_MAX, retry_delay_sec: float = 0.0,
+                   fallback=None):
+    """
+    Enveloppe un CircuitBreaker avec timeout (s) + retry + fallback ATTENDRE.
+    Sequence : timeout `timeout_sec` -> retry `retry_max` fois -> fallback ATTENDRE.
+    Renvoie le resultat de `func`, ou le fallback (callable prenant une raison) en cas d'echec.
+    """
+    last_exc = None
+    for attempt in range(retry_max + 1):              # 1 essai initial + retry_max retries
+        ex = ThreadPoolExecutor(max_workers=1)
+        try:
+            fut = ex.submit(cb.call, func)
+            return fut.result(timeout=timeout_sec)
+        except FuturesTimeout as e:
+            last_exc = e
+            try:
+                cb._on_failure()                       # un timeout compte comme un echec
+            except Exception:
+                pass
+        except Exception as e:                         # echec applicatif ou circuit OPEN
+            last_exc = e
+        finally:
+            ex.shutdown(wait=False, cancel_futures=True)
+        if attempt < retry_max and retry_delay_sec:
+            time.sleep(retry_delay_sec)
+
+    fb = fallback or fallback_attendre
+    nom = type(last_exc).__name__ if last_exc else "inconnu"
+    return fb(f"CB_FALLBACK:{nom}")

@@ -1,5 +1,6 @@
 import threading
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 _lock = threading.Lock()
 _auto_suspended_until = None
@@ -68,6 +69,8 @@ def get_confiance_min(correlations: dict) -> int:
     return 85
 
 def can_send_auto_order(signal: dict) -> bool:
+    if is_auto_globally_blocked():          # Auto BLOQUE par defaut (VERROUILLE)
+        return False
     if not signal.get('mode_auto_autorise', True):
         return False
     if is_auto_mode_suspended():
@@ -83,3 +86,86 @@ def handle_critical_tweet(tweet_data: dict) -> None:
     def vix_stable() -> bool:
         return get_vix_delta_pct(minutes=15) < 0.05
     suspend_auto_mode(minutes=duration, condition=vix_stable)
+
+
+# =============================================================================
+# A3 -- GARDE-FOUS RUNTIME (Phase 5)
+# =============================================================================
+ET = ZoneInfo("America/New_York")           # timezone des evenements macro US
+
+# News gate : 30 min AVANT = VERROUILLE (D6, CLAUDE.md) ; APRES = configurable (defaut 15).
+NEWS_GATE_BEFORE_MIN = 30
+NEWS_GATE_AFTER_MIN_DEFAUT = 15
+NEWS_EVENTS_CRITIQUES = ("NFP", "FOMC", "CPI", "GDP", "JOLTS", "PPI")  # miroir settings.NEWS_EVENTS_CRITIQUES
+
+# Suspension Auto
+MAX_PERTES_JOUR = 2
+VIX_SUSPEND_SEUIL = RÈGLES_RISQUE["vix_no_trade"]   # 35
+
+# Mode Auto : BLOQUE par defaut (VERROUILLE -- deverrouillage hors perimetre)
+MODE_AUTO_ENABLED_DEFAUT = False
+
+
+def news_gate_blocked(now, events, after_min: int = NEWS_GATE_AFTER_MIN_DEFAUT) -> dict:
+    """
+    Bloque 30 min AVANT (verrouille) et `after_min` min APRES un evenement critique.
+    Timezone ET (America/New_York). `now` et `events[*]["time"]` doivent etre timezone-aware.
+    events : [{"type": "NFP", "time": datetime_aware}, ...]. Seuls les types critiques bloquent.
+    """
+    now_et = now.astimezone(ET)
+    for ev in events:
+        if ev.get("type") not in NEWS_EVENTS_CRITIQUES:
+            continue
+        t = ev["time"].astimezone(ET)
+        start = t - timedelta(minutes=NEWS_GATE_BEFORE_MIN)
+        end = t + timedelta(minutes=after_min)
+        if start <= now_et <= end:
+            return {"blocked": True, "event": ev["type"], "fenetre": (start, end)}
+    return {"blocked": False, "event": None, "fenetre": None}
+
+
+def should_suspend_auto(pertes_jour: int, vix) -> dict:
+    """Suspension Auto si 2 pertes/jour OU VIX > seuil critique."""
+    raisons = []
+    if pertes_jour >= MAX_PERTES_JOUR:
+        raisons.append("2_PERTES_JOUR")
+    if vix is not None and vix > VIX_SUSPEND_SEUIL:
+        raisons.append("VIX_CRITIQUE")
+    return {"suspendre": bool(raisons), "raisons": raisons}
+
+
+def staleness_blocked(staleness_status: dict) -> dict:
+    """Donnees perimees -> BLOCKED. staleness_status : {"NT8": bool_stale, "ATAS": ..., ...}."""
+    stale = [src for src, est_stale in staleness_status.items() if est_stale]
+    return {"blocked": bool(stale), "sources_stale": stale}
+
+
+def is_auto_globally_blocked() -> bool:
+    """True tant que le mode Auto n'est pas explicitement deverrouille (defaut : bloque)."""
+    return not MODE_AUTO_ENABLED_DEFAUT
+
+
+def runtime_guardrails(*, now, events, staleness_status, pertes_jour, vix,
+                       after_min: int = NEWS_GATE_AFTER_MIN_DEFAUT) -> dict:
+    """
+    Porte runtime consolidee.
+    - news gate / staleness  -> bloquent TOUT trade (manuel + auto).
+    - suspension 2-pertes / VIX / blocage global / suspension tweet -> bloquent l'AUTO seulement.
+    """
+    blocages = []
+    ng = news_gate_blocked(now, events, after_min=after_min)
+    if ng["blocked"]:
+        blocages.append(("NEWS_GATE", ng["event"]))
+    st = staleness_blocked(staleness_status)
+    if st["blocked"]:
+        blocages.append(("STALENESS", st["sources_stale"]))
+
+    susp = should_suspend_auto(pertes_jour, vix)
+    auto_bloque = (is_auto_globally_blocked() or susp["suspendre"]
+                   or is_auto_mode_suspended() or bool(blocages))
+    return {
+        "trade_autorise": not bool(blocages),
+        "blocages": blocages,
+        "mode_auto_autorise": not auto_bloque,
+        "suspension_auto": susp,
+    }
