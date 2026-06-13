@@ -72,7 +72,10 @@ transcripts (Phase B-02, hors périmètre de ce prompt). Aucun signal réel ne s
 **Formules Belkhayate à coder** (source : `00-pilotage\STRATEGIE_TRADEX_BELKHAYATE_*.md`,
 étiquetées [RECONSTRUCTION] — fidélité non garantie, mode endpoint figé obligatoire) :
 COG = régression polynomiale degré 2–3 sur N≈250 barres, bandes ŷ ± k·σ avec k={1.618; 2.618; 4.236} ;
-Timing = normalisation prix médian sur range N barres, échelle ±10 ; Énergie = (Vol/MoyVol20)×(ATR14/MedianeATR100).
+Timing = normalisation prix médian sur range N barres, échelle ±10.
+**Énergie = `[NON DOCUMENTÉ]` → NON codée en S07** (décision Abdelkrim) : ni MFI ni la formule ATR ne sont
+prouvés être l'Énergie Belkhayate. A1 code **COG + Timing uniquement** ; Énergie reste un **TODO** jusqu'à
+la reconstruction KB depuis les vrais transcripts Whisper (Phase B-02).
 
 ---
 
@@ -90,7 +93,7 @@ Crée un fichier `.md` par agent. Chaque agent a un périmètre STRICT et ne tou
 | Agent | Périmètre / fichiers | Mission |
 |---|---|---|
 | **A0-Orchestrateur** | lecture seule + coordination | Lit CLAUDE.md, valide conformité, dispatch aux agents, contrôle gate |
-| **A1-Belkhayate-Formulas** | `05-saas\engine\belkhayate_formulas.py` | COG / Timing / Énergie, mode endpoint figé, tests numériques |
+| **A1-Belkhayate-Formulas** | `05-saas\engine\belkhayate_formulas.py` | COG + Timing seulement, mode endpoint figé, tests numériques (Énergie = TODO, NON codée) |
 | **A2-Data-NT8** | `05-saas\engine\data_reader.py`, `staleness_monitor.py`, dossier `data\` | Répare le BUG P0 `data\`, lecture JSON NT8, fraîcheur |
 | **A3-Risk-Guardrails** | `05-saas\engine\risk_manager.py`, `circuit_breaker.py` | News gate 30 min, circuit breaker, NON-TRADE absolus, suspension Auto |
 | **A4-Signal-Scoring** | `05-saas\engine\signal_engine.py` (nouveau) | Précondition 3/4+2/3, grille score /10 déterministe, invalidations R8–R10 |
@@ -128,7 +131,10 @@ type "C:\trading-copilote\05-saas\config\settings.py" | Select-Object -First 40
 Actions : créer les **10 fichiers agents** dans `.claude\agents\` (A0 à A9) ; A0 produit un rapport
 de conformité (1 page) confirmant que la spec verrouillée du §CONTEXTE est respectée ;
 **A9 initialise `00-pilotage\REGISTRE_VALIDITE.md`** (table : fichier · statut ✅/⚠️/❌ · source · action),
-en marquant d'emblée la KB `⚠️ DOUTEUX` (synthèses NotebookLM) et les transcripts à étiqueter.
+en marquant d'emblée : KB `⚠️ DOUTEUX` (synthèses NotebookLM) ;
+**`GUIDE MAÎTRE — MÉTHODE MUSTAPHA BELKHAYATE.md` = `⚠️ DOUTEUX`** (non sourcé ; coefficient 0.8618 contredit
+le 1.618 de la stratégie ; marchés/TF divergents ; claims « 80 % » invérifiables) ;
+« Énergie = MFI » = `❌ NON VÉRIFIÉ` (jamais prouvé) ; transcripts à étiqueter par source/fiabilité/méthode.
 **STOP — attendre « OUI ».**
 ```powershell
 ### ROLLBACK Phase 1 : Remove-Item "C:\trading-copilote\.claude\agents\" -Recurse -Force
@@ -143,9 +149,10 @@ type "C:\trading-copilote\00-pilotage\DETTE_TECHNIQUE.md" | Select-Object -First
 type "C:\trading-copilote\05-saas\engine\data_reader.py" | Select-Object -First 30
 Get-ChildItem "C:\trading-copilote\data\" -ErrorAction SilentlyContinue
 ```
-Actions : créer `C:\trading-copilote\data\` + fichiers JSON d'amorçage vides
-(`NT8_data.csv`, `ATAS_signals.json`, `risk_state.json`, `signal_history.json`) ;
-brancher `data_reader.py` + `staleness_monitor.py` sur ces chemins ; `python -m py_compile`.
+Actions : `data\` existe DÉJÀ (NT8_data.csv, ATAS_signals.json, README_DATA.md créés le 11/06,
+settings.py pointe dessus). Il manque seulement **2 fichiers** : créer `risk_state.json` +
+`signal_history.json` (amorçage vide) ; vérifier que `data_reader.py` + `staleness_monitor.py`
+lisent bien les 4 chemins ; `python -m py_compile`. (Ce n'est PAS une réparation complète.)
 **STOP — attendre « OUI ».**
 ```powershell
 ### ROLLBACK Phase 2 : Remove-Item "C:\trading-copilote\data\" -Recurse -Force ; git checkout -- 05-saas\engine\data_reader.py
@@ -159,9 +166,11 @@ brancher `data_reader.py` + `staleness_monitor.py` sur ces chemins ; `python -m 
 Get-ChildItem "C:\trading-copilote\00-pilotage\STRATEGIE_TRADEX_BELKHAYATE_*.md"
 type "C:\trading-copilote\00-pilotage\STRATEGIE_TRADEX_BELKHAYATE_CORRIGEE.md" | Select-Object -First 60
 ```
-Actions : créer `belkhayate_formulas.py` (COG, Timing, Énergie) en **mode endpoint figé** ;
-en-tête `BASE_DIR` obligatoire ; tests numériques sur données synthétiques ; toute formule
-non sourcée = `⚠️ À VÉRIFIER` + me demander. `python -m py_compile`.
+Actions : créer `belkhayate_formulas.py` avec **COG + Timing UNIQUEMENT** en **mode endpoint figé** ;
+en-tête `BASE_DIR` obligatoire ; tests numériques sur données synthétiques.
+**Énergie : NE PAS coder** — laisser une fonction stub `energie()` qui lève `NotImplementedError`
+("[NON DOCUMENTÉ] — à reconstruire depuis transcripts Whisper") afin que le scoring ne dépende pas
+d'une formule inventée. Toute autre formule non sourcée = `⚠️ À VÉRIFIER` + me demander. `python -m py_compile`.
 **STOP — attendre « OUI ».**
 ```powershell
 ### ROLLBACK Phase 3 : Remove-Item "C:\trading-copilote\05-saas\engine\belkhayate_formulas.py" -Force

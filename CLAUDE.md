@@ -212,7 +212,9 @@ Prompt caching      : cache_control: persistent sur KB (~90% économies tokens)
 | C6 | Géopolitique | News API + calendrier événements |
 | C7 | Corrélations | Matrice live 30j GC/HG/CL/ZW/ES/VX/MBT/6J |
 
-**Score signal valide** : minimum 17/21 points (7 cercles × max 3 pts chacun)
+**Score signal valide** : grille déterministe **sur /10** (décision D2 verrouillée, S06 13/06/2026 ; remplace l'ancien 17/21).
+Les 7 cercles ci-dessus restent les **sources d'intelligence** alimentant cette grille ; ils ne sont plus une note /21.
+Seuil de signal : **score ≥ 7,0 ET aucun critère éliminatoire ET R/R ≥ 1:2** (voir STRATEGIE_TRADEX_BELKHAYATE_CORRIGEE.md, Partie 4).
 
 ---
 
