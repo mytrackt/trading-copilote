@@ -1,0 +1,1532 @@
+Salam alaikum, bonjour tout le monde, aujourd'hui on est le mercredi 26 janvier et j'ai le
+plaisir de vous faire un cadeau, c'est une amélioration en fait de la méthode Belkhéa,
+vous savez que je ne vais jamais arrêter de l'améliorer et en fait je me suis rendu
+compte que beaucoup d'entre vous manquent de visibilité sur les niveaux où ils vont
+sortir, les supports, les résistances, ça reste un problème pour beaucoup d'entre vous.
+Et donc je regardais comment je pouvais vous aider et en fait j'ai pris l'indicateur des
+pivots, pour ceux qui le connaissent, pour ceux qui ne savent pas, je vais vous l'expliquer
+c'est quoi, et en fait j'ai rajouté à cet indicateur des pivots un niveau qui n'a jamais
+été vraiment ajouté au pivot, c'est un niveau de ce qu'on appelle la clôture de
+la journée précédente, je l'ai rajouté au niveau des pivots pour en faire un ensemble
+auquel j'ai donné le nom de Belkhéa de pivot, voilà, mais je n'ai rien inventé en fait,
+je n'ai pas inventé ni le code des pivots, ni le code de la clôture de la veille, mais
+en les combinant, ça donne quelque chose de très très très puissant, regardons par
+exemple, on va y aller doucement, je vais vous expliquer, on est là, tranquille, allez,
+bismillah, regardez par exemple ici sur l'or, sur l'or, on ne sait pas si on achète ici,
+on ne sait pas où est-ce qu'on va, où est-ce qu'on va prendre nos profits et on ne connaît
+pas vraiment des, on n'a pas cadré la journée, parce que comme vous le savez, je vous demande
+de vous spécialiser sur une journée, d'accord, vous n'allez jamais dépasser la journée,
+donc vous devez cadrer votre trading, dans cette journée, vous savez où est-ce qu'il
+faut aller, quand il faut, c'est-à-dire le maximum en bas, le maximum en haut, alors
+ce que j'ai fait, ce que j'ai fait, j'ai fait donc cet indicateur, je vais vous montrer
+ici, Belchiat Pivot, que j'ai mis dans les, en tant que template, mais vous, vous allez
+pouvoir le mettre en tant qu'indicateur favori et il sera gratuit pour vous, en fait, j'ai
+demandé à Oussama de me faire cet indicateur et on va poster le lien de,
+de cet indicateur dans cette vidéo, dans la description de la vidéo, pour que tout
+le monde puisse utiliser cet indicateur gratuitement, c'est quand même sympa, vous allez voir que,
+vous allez me remercier plus tard, plus tard, quand vous aurez acheté la villa à vos parents,
+vous pouvez venir me remercier, parce qu'en fait, cet indicateur est très, très, très,
+très puissant. Et, mais, alors, pourquoi il est puissant ? D'abord, je le présente
+à ceux qui ne le savent pas. Cet indicateur, le pivot normal, standard, que vous allez trouver
+partout dans le monde, que ce soit sur MetaTrader, que ce soit sur NinjaTrader, ou que ce soit
+sur TradingView, vous avez, en fait, sept lignes. Une ligne au milieu qui s'appelle le pivot,
+et trois lignes en haut, ces trois lignes-là, que vous voyez là, ce sont ce qu'on appelle
+les résistances 1, résistances 2, résistances 3. Nous avons ici, en bleu, ce qu'on appelle
+le pivot. Je l'ai mis en bleu, je vais vous expliquer pourquoi. Et ensuite, vous avez des pointillés
+verts qui représentent les trois supports, disons, prévus par les mathématiques, en
+fait, parce que c'est une formule mathématique qui prévoit à l'avance, dès qu'une journée
+commence, ces niveaux-là, vous les avez à l'avance. Donc, c'est ça qui, c'est ça, c'est
+pour ça que c'est très intéressant, parce que dès la journée, dès que cette journée
+commence, ces niveaux-là, vous les tracez et vous les connaissez à l'avance. Bon.
+Et Mostafa, votre professeur, il a rajouté cette ligne jaune. Et cette ligne jaune représente
+la clôture de la veille. Ça n'a l'air de rien, mais vous allez voir que ça améliore
+de manière exponentielle la lecture et l'utilisation des pivots dans votre trading. Alors, premièrement,
+je vais vous dire que ces niveaux-là, pourquoi ça fonctionne ? Vous allez voir que ça fonctionne
+de manière incroyable. C'est parce que les algorithmes de trading et les grands traiteurs
+institutionnels utilisent ces niveaux-là pour rentrer et pour sortir. Donc, c'est parce
+qu'ils sont utilisés par des institutionnels que ces niveaux fonctionnent. Donc, nous, si
+on veut faire du trading, la première chose qu'on doit connaître, c'est d'abord les niveaux
+où les professionnels ont rendez-vous. D'accord ? Bon.
+Regardons cette journée de l'or ici. Regardez cette journée-là. Là. Cette journée que
+vous voyez. Ça, c'est une journée de l'or. Et ici, nous avons le jaune, la ligne jaune,
+c'est-à-dire la clôture de la veille qui s'est alignée, qui s'est confondue avec le pivot
+qui est là. Ça, quand vous avez cette situation, vous devez être très content parce que vous
+allez avoir un très, très bon signal durant toute la journée. Parce que ça va servir de
+support très fort ou de résistance très forte. Donc, ça, c'est un premier point. Donc, vous
+remarquez ici que le marché, quand il ouvre en dessous de cette ligne, sa probabilité d'aller
+vers le bas est intéressant. Autrement dit, vous allez chercher à avoir des signaux vendeurs
+lorsque le marché ouvre en dessous du pivot et, si possible, en dessous de la clôture de
+la veille, comme ici. Ensuite, vous voyez, le marché vient taper contre cette forte résistance
+ici. Vous pouvez vendre à ce niveau-là parce que vous avez comme un pull back qui vient tester
+encore cette résistance. Le marché tombe. Et ici, comme par hasard, au deuxième support
+ici, nous avons effectivement cette mèche. Là, vous voyez cette mèche. Et là, on peut
+acheter. On achète. On a pour objectif ici. On ne va pas espérer tout ça. Donc, vous voyez
+bien que le marché, il vient, il revient tester ici pile poil et puis retombe et comme par
+magie, il revient exactement sur ce niveau-là. Alors là, vous allez vous dire, ah, monsieur
+Belkhéad, vous avez choisi encore un marché, un espace où ça fonctionne. Je commence à
+vous connaître. Mais je me suis habitué au protestateur. Je me suis habitué. Bon, ne vous
+inquiétez pas, vous allez avoir vraiment, j'ai pris pratiquement parce que ce qui est
+bien dans cet indicateur, ce que vous pouvez l'utiliser sur le Bitcoin, vous pouvez l'utiliser
+sur les actions. Je vais vous montrer. Vous pouvez l'utiliser sur les indices, sur les
+bons. Il marche sur tous les produits financiers. Parce que c'est une formule mathématique qui,
+non seulement, vous donne des directions, mais vous donne aussi la probable volatilité
+du marché. Parce que quand vous avez ces bandes-là qui sont écartées, ça veut dire que cette
+journée, il faut vous attendre à un grand mouvement de gains ou de pertes. Donc, il faut faire
+attention. Par contre, si les bandes sont rapprochées, comme par exemple, on va voir si
+on les a, par exemple ici, elles sont assez rapprochées par rapport à ici. Vous voyez le
+marché, il y a de faibles volatilités. D'accord ? Bon. Donc, regardons ici, par exemple, ici,
+le marché ouvre. Il est, le marché de l'or est au-dessus, à la fois du pivot, mais également
+au-dessus de la clôture de la veille. Mais regardez comment le marché revient pile-poil
+taper sur la clôture de la veille. Je vous rappelle, c'est le niveau que je vous ai proposé de rajouter
+au pivot. Et vous allez vous rendre compte que ce niveau-là, il est très, très important.
+et il va vous permettre de faire des trades extraordinaires désormais. On va regarder le Bitcoin.
+Je viens ici, regardez le Bitcoin. Le Bitcoin, il vient taper pile-poil ici. Regardez comme ça sert
+de support très, très fort. Puis, le marché revient. Mais le lendemain, on a des bandes du pivot
+qui se sont réduites. Elles sont devenues plus étroites. Donc, la volatilité s'est réduite. Donc,
+plus ici, quand vous voyez ça, par rapport à ici, vous savez à l'avance qu'il ne faut pas s'attendre
+à prendre un grand mouvement sur le Bitcoin. Et surtout aujourd'hui, vous voyez, on est mercredi 26.
+Il ne faut pas vous attendre à une grosse explosion sur le Bitcoin puisque nous avons les bandes ici
+qui sont très rapprochées. Donc, la volatilité probable, je ne dis pas 100%,
+mais la volatilité probable d'aujourd'hui, elle va être faible. C'est quand même une information
+qui vaut de l'or. Mais regardez à quel point
+les pivots fonctionnent bien parce que le marché
+ouvre au-dessus du pivot ici, vient rebondir une fois,
+deux fois, trois fois. Et ensuite, regardez comme
+la clôture de la veille alors qu'on est en Bitcoin, 24 heures sur 24.
+Mais regardez comme la clôture de la veille, vous, vous la connaissez à l'avance.
+Mais les autres traders, ils ne l'utilisent pas forcément.
+Et cette clôture de la veille, je la dois à Ahmed Jarmouny
+qui est à Rabat, qui a suivi d'ailleurs
+des très bons cours de Tamir Pêche
+et qui m'a dit, moi, j'ai retenu cette histoire-là,
+comment on peut faire ? J'ai trouvé le moyen de l'ajouter ici.
+Voilà, on prend ici, ici, ici
+et on fait quelque chose qui fonctionne pour tout le monde.
+Et on rend hommage à tout le monde. C'est ça l'idée.
+Bon, on va regarder le S&P.
+Regardez le S&P, par exemple,
+cette journée-là,
+elle est magnifique. Regardez.
+Le marché,
+il ouvre en dessous.
+Vous voyez bien, il ouvre en dessous
+là,
+du pivot. Donc, il faut s'attendre,
+on se dit, tiens,
+on peut s'attendre à une faiblesse du marché.
+Effectivement,
+le pivot, il sert de résistance
+extraordinaire, comme vous voyez,
+pendant toute la matinée.
+Ensuite, une fois qu'on a cassé
+la clôture de la veille,
+qui est la ligne jaune,
+le marché revient faire un pullback
+et nous donner
+l'occasion de rentrer vendeur.
+C'est là l'occasion de rentrer vendeur.
+Parce que
+on est en dessous
+du pivot,
+on a cassé
+la clôture de la veille
+et on revient
+dire, bon, les gars,
+si vous avez oublié de vendre,
+c'est le moment ou jamais.
+Donc, on vend
+et regardez comme
+le troisième
+et dernier support
+tient le marché,
+non seulement il le tient,
+mais il le renvoie
+comme un ascenseur
+directement
+sur cette bande,
+cette bande
+qui est formée,
+qui s'est formée
+avec le pivot
+et la clôture de la veille.
+Alors, regardez ici.
+Continue.
+Regardez ici,
+on vient taper,
+on ouvre
+sous la clôture de la veille.
+Donc, on doit chercher
+des signaux vendeurs.
+N'est-ce pas?
+Donc, nous,
+on a cette information-là.
+Le marché revient
+rebondir sur le pivot.
+Donc, on voit bien
+que la notion
+de pivot,
+elle est fondamentale.
+C'est très important
+que, avant
+que vous commenciez
+à faire des analyses,
+quoi que ce soit,
+que vous ayez
+une idée
+de là où
+sont vos concurrents.
+Ils vous attendent où?
+Ils vous attendent ici.
+Donc là,
+c'est un niveau
+très important.
+Donc,
+mais regardez,
+lorsque le marché
+vient rebondir
+pratiquement
+sur le premier support,
+regardez pile poil
+où est-ce qu'il s'arrête
+et il revient.
+Il s'arrête
+à un niveau
+que vous,
+vous connaissiez
+à l'avance
+depuis le début
+du matin.
+Vous savez
+que ce niveau-là,
+c'est un niveau
+de la clôture
+de la veille du S&P
+et que donc,
+dans cette configuration
+que vous voyez là,
+il va servir
+de résistance.
+Et qui dit résistance
+dit que lorsque
+vous arrivez
+et que
+vous voyez
+qu'ici,
+à ce niveau-là,
+le marché,
+il vous fait un cadeau
+en vous donnant
+un avalement baissier
+de cas d'école,
+c'est-à-dire
+un parfait avalement baissier
+ici,
+en plein,
+en pleine zone
+de résistance,
+c'est un cadeau.
+là,
+vous pouvez
+vendre
+le S&P
+tranquillement.
+Le lendemain,
+le marché
+nous dit
+quelque chose
+de très important.
+Il nous dit
+« Bonjour,
+cher trader
+du Maroc
+et d'Afrique.
+aujourd'hui,
+nous avons la clôture
+de la veille
+qui se combine,
+qui se met en harmonie
+avec le pivot.
+Donc,
+je vous annonce
+qu'on va avoir
+une ligne
+très importante,
+soit de support,
+soit de résistance.
+voilà le discours
+du matin.
+Donc,
+lorsqu'on voit ça,
+on se dit
+« Tiens,
+ça,
+ça va tenir.
+Donc,
+ça tient,
+ça tient,
+ça tient,
+et puis le marché
+rebondit ici
+pour partir où ? »
+Pour partir
+au premier niveau
+et juste
+à ce niveau-là,
+mais pile poil
+à ce niveau-là,
+le marché
+est en train
+de végéter.
+Ça veut dire
+qu'il a rencontré
+une première résistance
+ce matin même
+où je vous parle.
+mais
+vous savez bien
+que cette résistance,
+vous le voyez maintenant,
+que vous voyez là,
+coïncide avec
+la clôture
+de l'avant-veille.
+Elle est là.
+Donc,
+ça reste quand même
+important.
+Alors là,
+je vous dis
+pourquoi
+j'ai rajouté
+la clôture
+de la veille.
+Parce que
+dans le trading,
+que ce soit
+les actions,
+que ce soit
+les futures,
+que ce soit
+tous les marchés,
+vous avez des grandes
+structures
+comme BlackRock
+et compagnie
+qui ont des équipes
+trois fois huit.
+Asie,
+Europe,
+Etats-Unis.
+Donc,
+ils ont des portefeuilles
+de milliards.
+Chaque équipe,
+elle va passer
+le charron
+aux autres.
+On dit,
+moi,
+mon travail,
+je l'ai fini.
+Session asiatique,
+tenez.
+Donc,
+qu'est-ce qui sert
+de référence
+pour ces gens-là?
+C'est la clôture.
+Donc,
+cette clôture-là,
+c'est une référence
+pour des différentes
+équipes.
+Ils disent,
+moi,
+voilà,
+je te donne le travail,
+moi,
+j'ai assuré
+par rapport
+à la clôture.
+Vous voyez
+ce que je veux dire?
+Donc,
+ça devient
+un élément
+très important
+de responsabilité
+des traders
+dans le monde
+pour se passer
+le book,
+ce qu'on dit,
+le book,
+le portefeuille.
+Donc,
+je me suis dit,
+mais il faut rajouter
+cette référence
+dans les pivots.
+Parce que c'est logique,
+eux,
+ils utilisent
+les pivots
+et les supports
+résistants des pivots
+pour prendre
+des décisions
+d'achat et de la vente.
+C'est logique,
+également,
+qu'ils tiennent compte
+de la clôture
+de l'abeille.
+Bon.
+Regardons
+le Nasdaq
+que beaucoup
+d'entre vous
+aiment beaucoup.
+Regardons
+le Nasdaq,
+ici.
+C'est pas magnifique,
+ça?
+Regardez.
+Regardez ça.
+Ça,
+c'est comme
+il a fait
+le S&P.
+Mais,
+ça,
+c'est facile.
+Mais là,
+c'est magnifique.
+Regardez,
+on ouvre
+sous la clôture.
+Donc,
+vous,
+vous le savez.
+Mais vous le savez quand?
+Vous le savez
+dès que vous avez
+ouvert les yeux
+le matin,
+vous regardez,
+vous savez
+que
+le Nasdaq
+a ouvert
+sous la clôture
+de l'abeille.
+Rien que cette information-là,
+vous devez me payer
+très cher.
+Il y a beaucoup
+de gens qui me disent
+« Nous,
+on a payé
+monsieur Belgeat. »
+Ils me disent
+« On a payé. »
+Et puis,
+voilà,
+ils réussissent pas
+parce qu'ils sont pas…
+Il y a beaucoup
+qui sont pas capables.
+Vous leur donnez
+tout ce que vous voulez
+comme élément,
+ils sont pas capables.
+Certains,
+certains,
+je leur donnais rien.
+Ils ont pris
+mes vidéos sur YouTube,
+ils ont réussi
+les tests.
+D'autres,
+vous pouvez leur donner
+tout ce que vous voulez,
+ils vont se débrouiller
+pour échouer
+et pour mettre
+la responsabilité
+sur les autres.
+Ils vont jamais se dire
+« C'est nous
+qui sommes fautifs. »
+Il me faut rigoler
+parce que chaque fois
+ils ont envie
+de protester.
+C'est des gens
+qui cherchent
+à protester.
+Vous savez,
+vous connaissez
+ces gens-là.
+Mais,
+j'ai répondu
+à un monsieur
+qui m'a écrit.
+Il m'a dit
+« Monsieur Belgeat,
+je vous ai payé,
+vous m'avez abandonné
+et tout ça
+et je ne réussis pas. »
+Je lui ai dit
+« Écoutez,
+quelle est la valeur
+des vidéos gratuites
+que j'ai mis
+sur YouTube ?
+Est-ce que ça dépasse
+l'argent
+que vous m'avez donné ? »
+Il m'a dit
+« Oui. »
+J'ai dit
+« Bon, alors oui,
+le problème. »
+Bon.
+Alors,
+je vous explique
+ici sur le Nasdaq.
+Le Nasdaq,
+on ouvre
+en dessous
+ici
+et
+le marché
+vient
+regarder ici
+il vient
+pile poil
+clôturer
+sur le support,
+le premier support
+du pivot.
+Mais ça,
+vous le savez
+à l'avance.
+Alors,
+on va regarder
+le pétrole.
+Regardez le pétrole,
+c'est quand même
+c'est vraiment magnifique.
+Lorsque nous avons
+cette situation
+où
+le pivot
+est proche
+de la clôture
+de la veille,
+on sait nous
+que c'est très fort.
+On le sait,
+n'est-ce pas ?
+Je vous l'ai dit.
+Donc,
+par exemple,
+la journée d'hier,
+lorsque je vois ça,
+regardez comme c'est
+magnifique
+que
+que
+il y a
+qui
+il y a
+que
+salam alaykoum,
+ouais,
+salam alaykoum,
+merci,
+excusez-moi.
+Celui qui passe ici
+doit dire
+salam alaykoum,
+qu'est-ce que vous voulez,
+hein,
+comme ça,
+ça fait plaisir,
+il faut que j'arrange
+bien mes trucs là.
+Regardez comme
+ce niveau-là,
+c'est magnifique
+mais ce qui est beau
+c'est que vous savez à l'avance
+que vous avez désormais cette ligne jaune
+qui vous sert de tremplin
+et c'est à ce niveau là
+quand vous avez ici
+quand vous avez des mèches
+qui viennent taper ici et qui font un effet ressort
+sur la clôture la veille
+mais c'est magnifique
+mais ce qui est encore plus magnifique
+c'est que vous
+vous avez à l'avance
+bien des heures avant tout le monde
+vous savez que
+si vous êtes acheteur ici vous allez prendre vos profits
+sur ce niveau là
+parce que c'est le prochain niveau
+des pivots
+c'est la première résistance
+sur le pétrole
+et lorsque vous avez
+étudié la méthode
+Belkhayat
+vous savez que lorsque vous avez
+une tendance
+et que
+à la fin de cette tendance
+vous avez un très grand volume
+et que ce volume là
+coïncide avec une zone de support
+ou de résistance comme ici
+donc vous avez ici
+l'obligation de prendre vos profits
+voici un trade professionnel
+vous êtes rentré
+en voyant
+les niveaux
+des traders professionnels
+des algorithmes de trading
+d'accord
+on va regarder le
+le blé
+regardez ici le blé
+c'est sympathique
+vous allez
+vous allez vous allez dire
+mais monsieur Belkhayat
+vous avez choisi
+je n'ai rien choisi
+vous allez vous amuser avec
+n'est ce pas
+je vous le donne
+je vous le vends pas
+c'est gratuit
+je vous enseigne
+comment l'utiliser
+et tout à l'heure
+dans mon live
+des VIP
+je vais
+donner un mode d'emploi
+plus avancé
+c'est tout
+c'est faire plein quand même
+mais vous
+vous allez pouvoir l'utiliser
+tous les jours
+sur tous les marchés
+que vous voulez
+je vous donne un conseil
+mettez 15 minutes
+ne mettez pas autre chose
+mettez 15 minutes
+c'est long à expliquer
+mais je vous dis
+c'est comme ça
+pourquoi 15 minutes
+je vais essayer de résumer
+15 minutes
+parce que vous
+vous devez avoir une visibilité
+sur ce qui va se passer
+dans la journée
+ne me dites pas
+je veux faire du délit
+pour un autre
+non non non
+ne faites pas ces histoires là
+concentrez-vous
+sur une journée
+vous devez
+dans cette journée là
+avoir une visibilité
+sur
+les niveaux
+où
+les loups vous attendent
+et comme vous le savez
+à l'avance
+c'est vous qui allez
+en tirer profit
+je crois que cette vidéo
+je vais devoir la faire
+en derija aussi
+parce que
+elle est très très importante
+elle peut permettre
+à tout le monde
+toute la communauté
+peut vraiment progresser
+de 100%
+ou 200%
+grâce à ces niveaux là
+et vous voyez
+je ne mets pas trop
+d'indicateurs
+vous avez vu
+je veux vous apprendre
+beaucoup de gens
+m'appellent
+je veux tel indicateur
+je veux tel indicateur
+écoutez
+l'analyse
+l'analyse
+graphique
+est dix fois plus
+et dix fois supérieure
+à l'analyse technique
+parce que
+l'analyse graphique
+un être humain
+peut en une fraction
+de seconde
+avoir une idée
+de ce que le marché
+peut faire
+et c'est là
+qu'on a un avantage
+même si
+les intelligences artificielles
+peuvent lire
+des patterns
+graphiques
+on est encore
+loin devant
+par contre
+tout ce qui est technique
+tout ce qui est
+technique
+je veux dire
+les moyennes mobiles
+le RSI
+le MMA
+tout ça
+toutes ces choses là
+ça c'est technique
+c'est mathématique
+personne ne peut battre
+l'intelligence artificielle
+là dessus
+on oublie
+on est complètement
+explosé
+mais
+on garde nos chances
+dans l'analyse graphique
+c'est à dire
+vous voyez
+vous savez ce qu'il faut faire
+là pour le moment
+c'est technique
+ici
+mais
+il y a un aspect
+graphique
+en une seconde
+vous avez une idée
+de ce qu'il faut faire
+regardez ici
+sur le blé
+premièrement
+on peut voir ici
+déjà
+que
+ici
+ça a bien servi
+de
+résistance
+vous voyez
+mais surtout
+le premier niveau
+il a incroyablement
+bien servi
+de support
+et ça
+vous le savez
+à l'avance
+regardez ici
+regardez ici
+là par exemple
+ça a servi
+de support
+ok
+mais
+ici
+nous avons
+le marché
+qui ouvre
+au dessus
+des deux
+niveaux
+importants
+la clôture
+de la veille
+et le pivot
+vous les voyez là
+donc là on se dit
+nous on va essayer
+de chercher
+un signal
+d'achat
+si possible
+dans la zone
+quand le marché
+revient dans cette zone là
+pour nous servir
+et c'est ça
+que je veux vous en
+c'est ça
+que je veux vous apprendre
+vous devez
+apprendre
+à attendre
+que le marché
+vienne vous donner
+le signal parfait
+vous n'êtes pas obligé
+de rentrer
+n'importe quand
+moi je vois des gens
+qui
+quand je les vois
+trader
+il est là
+il cherche à faire
+du trading
+24h sur 24
+il veut absolument
+rentrer
+dès qu'il voit
+quelque chose
+là je dois être acheteur
+ah là je dois être vendeur
+non
+vous devez
+attendre
+le meilleur moment
+cette vidéo
+va être longue
+hein
+mais
+c'est une formation
+gratuite
+qui va améliorer
+votre trading
+à 100%
+donc assisez-vous
+tranquillement
+commenter
+internement
+hein
+et regardez
+ce qui va suivre
+vous allez voir
+et après
+vous allez vous amuser
+vous pouvez mettre ça
+toute la journée
+sur tous les marchés
+et vous allez vous-même
+devenir expert
+de l'utilisation
+de Belgrade Pivot
+sur tous les marchés
+j'ai essayé
+sur les marchés
+des actions saoudiennes
+j'ai essayé
+sur des ETF
+vous essayez
+sur ce que vous voulez
+dès que vous avez
+compris le principe
+vous avez
+une visibilité
+et vous avez
+des repères
+c'est très important
+par exemple
+sur le blé
+je sais que je cherche
+un signal acheteur
+puisque
+le blé
+a ouvert
+au-dessus
+de ces deux niveaux là
+le bleu
+et le jaune
+donc le marché
+revient
+et il tape
+une fois ici
+mais il n'y a pas
+encore de volume
+vraiment
+moi je peux acheter
+quand même
+parce que j'ai des mèches
+et j'ai
+la clôture
+de la veille
+bien en face
+de mes yeux
+donc
+ça me sert
+de support
+bon
+mais lorsque
+j'ai cette bougie là
+avec ce grand volume là
+et que justement
+elle vient de taper
+sur ce matelas
+qui a été fait
+par
+les deux niveaux
+c'est un signal
+magnifique
+d'achat
+effectivement
+regardez
+ensuite le marché
+il a catapulté
+et vous voyez
+qu'il a fini
+la journée
+justement
+à la troisième
+résistance
+pile poil
+pratiquement
+c'est pas magnifique
+vous devenez
+vous commencez
+à avoir
+une visibilité
+de professionnel
+bien
+le lendemain
+vous faites quoi
+vous vous réveillez
+vous avez pris
+vos bêtes
+au clé
+et votre thé
+vous êtes prêt
+vous regardez
+le marché
+le marché
+vous dit
+bonjour
+moi j'ouvre
+au dessus
+du pivot
+et j'ouvre
+au dessus
+de la clôture
+de la veille
+donc
+vous pouvez acheter
+c'est pas magnifique ça
+donc j'achète
+vous pouvez acheter
+et vous regardez
+lorsque le marché
+arrive
+et casse
+avec force
+ici
+ça ce n'est pas
+belgéat squeeze
+parce que nous sommes
+ici dans un territoire
+de trading range
+nous n'avons pas
+de mèche
+nous n'avons pas
+de mèche
+et le volume
+est là
+pour nous dire
+qu'on a cassé
+je vous ai dit
+quand on casse
+un support
+une résistance
+avec volume
+ça signifie
+belgéat impulsion
+pour ceux
+qui n'ont pas
+fait l'école
+buissinière
+vous vous rappelez
+de l'école
+buissinière
+bon
+mais regardez
+comme c'est magnifique
+après le blé
+revient
+et faire un pullback
+mais ne dépasse
+pas
+ce
+ce qui est devenu
+un support
+après que ce soit
+une première résistance
+mais ça vous le savez
+c'est magnifique
+vous avez
+ces repères là
+ensuite
+regardez
+comment ça fonctionne
+on va regarder
+là pour le moment
+le marché
+il a ouvert
+aujourd'hui
+il a ouvert
+en dessous
+de ces deux
+niveaux
+mais attention
+ces deux niveaux
+maintenant sont en train
+de nous dire
+ils sont devenus
+une très forte résistance
+attention
+le marché
+vous voyez
+il est pile poil
+venu plafonner
+là pour le moment
+taper
+ce support là
+le premier support
+du blé
+on va regarder
+Apple
+vous allez voir
+que sur Apple
+ça fonctionne
+vraiment très très bien
+le marché
+vient taper
+sur la troisième
+ici
+revient
+et pile poil
+ferme
+ferme où ?
+ferme
+au niveau
+de la clôture
+de la veille
+et vous allez
+vous rendre compte
+je vous laisse
+le plaisir
+de découvrir
+la puissance
+de cet indicateur
+alors pour mes
+amis français
+qui me demandent
+toujours après
+le CAC
+j'espère
+que vous vous rappelez
+que j'ai fait
+une vidéo
+qui à l'époque
+quand je l'ai publié
+les gens ont dit
+Moustapha Belkhet
+il va se faire avoir
+cette fois-ci
+les marchés
+vont continuer
+à monter
+c'était en décembre
+et je disais
+que c'était fini
+sur les marchés
+action
+et qu'il fallait sortir
+il fallait sortir
+avant que
+Poutine
+commence à vouloir
+menacer
+l'Ukraine
+etc
+vous vous rappelez
+quand même
+et que j'ai dit
+qu'il fallait
+prendre vos profits
+pendant que
+le marché
+était au maximum
+et ça
+c'est pas parce que
+j'ai une boule
+de cristal
+non
+c'est juste
+parce que
+je respecte
+l'analyse graphique
+je la respecte
+je vous vois
+et je veux vous apprendre
+à pouvoir voir
+ce que moi je vois
+et je vous l'apprends
+maintenant
+sur Youtube
+vous êtes pas obligés
+de payer
+quelque chose
+je comprends pas
+comment quelqu'un
+puisse aller voir
+mes courses
+sur Youtube
+gratuitement
+et ensuite
+m'écrire
+pour protester
+il faut le faire
+quand même
+bon
+alors
+on voit quoi
+ici dans cette histoire
+on regarde
+on voit que
+lorsque le CAC 40
+ici
+cette journée d'hier
+le CAC 40
+il a
+il a ouvert
+au dessus
+de deux niveaux
+donc c'est bien
+on dirait
+on a envie
+qu'il
+mais
+il est mou
+il est mou
+et ce qui est bien
+c'est que
+regardez
+ça vous le savez
+vous l'aviez pas avant
+hein
+mais regardez ici
+ça vaut de l'or
+ce que je vous montre
+là
+vous avez
+une bougie
+qui a l'air
+de rien
+du tout
+mais
+vous savez
+qu'elle vaut de l'or
+n'est-ce pas
+maintenant
+maintenant vous le savez
+pourquoi
+parce que
+cette bougie
+est venue faire
+un effet ressort
+sur la clôture
+de la veille
+donc
+attention
+là
+vous pouvez acheter
+parce que
+vous avez la protection
+de la
+du niveau
+de la clôture
+de la veille
+c'est quand même
+quelque chose
+c'est pas une histoire
+de fibonacci
+de moyenne mobile
+et tout ça
+non
+c'est une histoire
+de niveau
+des institutionnels
+où est-ce qu'ils sont
+ils sont
+à partir du moment
+que vous savez
+où sont les gros
+où il y a
+les milliards
+alors vous
+vous pouvez rentrer
+protégé
+par ces gens là
+donc
+on fait encore
+on va faire encore
+quelques exemples
+si ça vous plaît
+j'espère que ça vous plaît
+la vidéo elle est longue
+mais
+Dieu est grand
+comme on dit
+si
+regardez ça
+pourquoi ça fait ça
+dommage
+je vais vous montrer
+et pourquoi ça ne monte pas
+ah ok
+nous avons ici
+le cas d'école
+n'est-ce pas
+que je vous apprends
+je vous rappelle
+que
+lorsque
+la ligne
+de la clôture
+de la veille
+se colle
+ou se rapproche
+du pivot
+et cette information
+vous l'avez
+dès le matin
+à minuit
+une minute
+vous savez
+tous ces niveaux là
+vous les avez à l'avance
+c'est pas magnifique
+vous les avez à l'avance
+pour toute la journée
+et ça
+ça vaut de l'or
+bon
+ensuite
+je vous apprends
+à les utiliser
+quand vous avez
+ces deux niveaux
+qui sont
+collés
+ça devient
+très puissant
+vraiment
+c'est du lourd
+lorsque vous avez ça
+et que le marché
+il fait ça
+sur l'argent
+vous savez
+que ce niveau
+est un support
+donc vous pouvez acheter
+quand ça fait
+un petit
+rebond ici
+vous pouvez acheter
+également ici
+puis après
+le marché
+il s'en va directement
+et finit
+pile poil
+à la deuxième
+résistance
+et ça
+vous l'avez
+à l'avance
+ensuite
+regardez
+comment le marché
+ce niveau là
+souvent
+le jaune
+et le bleu
+le niveau jaune
+et le niveau bleu
+vont vous faire
+une bande
+et cette bande là
+va vous servir
+de matelas
+soit de support
+soit de résistance
+comme c'est le cas
+ici
+et une fois
+qu'on décolle
+et qu'on a dépassé
+le niveau
+de clôture
+de la veille
+avec ce grand volume là
+alors c'est un signal
+d'achat
+très intéressant
+vous êtes protégé
+vous pouvez rentrer
+acheteur
+vous avez un matelas
+qui vous protège
+contre la baisse
+donc et là
+de toute façon
+je peux vous montrer
+plein d'exemples
+regardez ici
+le marché
+vient taper
+la première
+résistance
+vient casser
+boum pile poil
+le premier support
+c'est magique
+ce qui est encore
+meilleur pour vous
+ce que vous allez
+plus perdre de temps
+là par exemple
+regardez ici
+le marché
+il a fait justement
+cette bande
+mais le marché
+reste ici
+à taper
+vous le savez
+donc vous vous attendez
+un signal
+pour acheter
+et là
+le signal
+il est là
+regardez ici
+il est là
+voilà
+ici
+là
+là vous avez
+un signal
+d'achat
+flagrant
+pour le moment
+le marché
+était en train
+de
+mais là
+il revient
+il fait
+il fait
+ce rebond
+là
+avec du volume
+avec une belle
+bougie
+bien supérieure
+à toutes les autres
+bougies
+là
+il est
+8h du matin
+vous avez
+un signal
+d'achat
+sur le
+le silver
+sur l'argent
+bon
+on va faire
+peut-être
+un dernier
+juste pour
+le plaisir
+j'espère que vous aimez
+ce que vous voyez
+ça va changer
+votre vie
+de trader
+de pouvoir
+maîtriser
+tout simplement
+ces niveaux
+que vous avez
+à l'avance
+dans la journée
+et donc
+le but
+c'est
+c'est de pouvoir
+de les respecter
+regardez ici
+sur le Dow Jones
+c'est quand même
+magnifique
+regardez
+il vient
+pile poil
+également
+comme le Nasdaq
+mais on le voit
+très très bien
+il vient
+finir
+juste en dessous
+en plein
+dans la bande
+vous voyez la bande
+ici
+voilà
+ça c'est
+c'est vraiment
+très très très
+intéressant
+aujourd'hui même
+en ce moment
+où je vous parle
+le marché
+a ouvert
+au-dessus
+du pivot
+et légèrement
+en dessous
+de la clôture
+de la veille
+et constitue
+ici
+donc là
+un matelas
+de support
+donc ça vaut le coup
+de chercher
+à acheter ici
+lorsqu'il accélère
+ici
+avec ce volume là
+à 9h du matin
+heure d'ici
+vous avez un signal
+d'achat
+vous pouvez gagner
+vous pouvez faire
+votre journée
+rien que sur
+ce mouvement là
+voilà
+donc
+j'espère que
+vous avez aimé
+cette vidéo
+c'est une vidéo
+qui est
+qui est un cadeau
+que je vous fais
+à partir
+de l'Arabie Saoudite
+pour
+j'y combine
+c'est tout
+ma baraka
+la baraka
+de ce lien
+de ce lieu
+là
+et que
+j'espère
+que tout ce que
+vous voulez
+pour l'année 22
+pour vous
+pour vos enfants
+pour votre famille
+je demande à Dieu
+que
+ça aille
+pour moi
+la vie
+est toujours
+un combat
+mais si
+on vous
+facilite
+le combat
+tout
+devient
+facile
+voilà
+je vous remercie
+pour votre attention
+et puis
+pour ceux
+qui sont
+abonnés
+et pourront
+me rejoindre
+tout à l'heure
+quand je vais
+donner un peu plus
+d'explications
+et répondre aux questions
+sur tout ça
+et puis
+mon fils
+je crois
+qu'il va vous donner
+cet après-midi
+je crois
+qu'il va
+s'il a bien préparé
+son cours
+je crois
+qu'il va vous donner
+un cours
+sur comment vendre
+la découverte
+sur la crypto
+sur Binance
+voilà
+à très bientôt
+salam alaikum
