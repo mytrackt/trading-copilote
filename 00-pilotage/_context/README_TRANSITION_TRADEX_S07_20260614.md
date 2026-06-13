@@ -77,6 +77,7 @@ non backtestés. Commit final des Phases 1-9 **en attente** (confirmation `py_co
 | 🟡 P1 | Formules COG/Timing [RECONSTRUCTION] non validées | OUI (trading réel) |
 | 🟡 P2 | Collecteurs data NT8/ATAS absents (`cot_data.json`) → Phase C | NON |
 | ⚪ Info | `py_compile risk_manager.py` : OK chez Abdelkrim (21 tests verts) ; vérificateur sandbox Cowork voyait une version tronquée (décalage de montage) — à reconfirmer avant commit | NON |
+| 🟡 P1 | **Docs incohérents** (audit S07) : MASTER_TRADEX_AI_v2, AGENTS.md, GARDE_FOUS, APPORTS_GUIDE_EXTERNE, BACKLOG, MODULES, competence-intermarches, GUIDE MAÎTRE portent encore /21, Vision/screenshot, 5/8 ou 0,8618 → passe de nettoyage PRIORITAIRE S08 (corriger ou archiver) | NON (CLAUDE.md a priorité) |
 
 ---
 
@@ -130,7 +131,7 @@ git push
 
 ## 11. PHRASE D'AMORÇAGE SESSION SUIVANTE
 
-> « Je reprends TRADEX-AI session S08. Lis CLAUDE.md + README_TRANSITION_TRADEX_S07_20260614.md + REGISTRE_VALIDITE.md. Décisions verrouillées : JSON NT8, port 36973, BTC/Yen = référence zéro ordre, score /10, précondition 3/4+2/3, Énergie non codée, mode AUTO bloqué, KB provisoire. L'app (9 phases, 68 tests verts) est commitée. Whisper est [terminé X/110 / en cours à X/110]. Je veux démarrer [Phase B-02 reconstruction KB / Phase C collecteurs data]. »
+> « Je reprends TRADEX-AI session S08. Lis CLAUDE.md + README_TRANSITION_TRADEX_S07_20260614.md + REGISTRE_VALIDITE.md. Décisions verrouillées : JSON NT8, port 36973, BTC/Yen = référence zéro ordre, score /10, précondition 3/4+2/3, Énergie non codée, mode AUTO bloqué, KB provisoire. L'app (9 phases, 68 tests verts) est commitée. **PRIORITÉ S08 — passe de nettoyage de cohérence** : corriger ou archiver les docs qui portent encore des règles abandonnées — `docs/MASTER_TRADEX_AI_v2.md` et `AGENTS.md` (Vision/screenshot + score /21), `GARDE_FOUS_PROPOSES.md`, `docs/APPORTS_GUIDE_EXTERNE.md`, `BACKLOG_ENRICHISSEMENTS.md` (score /21), `docs/MODULES.md` (Vision/screenshot), `competence-intermarches.txt` (5/8), `GUIDE MAÎTRE` (coeff 0,8618) → aligner sur /10, JSON NT8, 3/4+2/3 ou déplacer vers `_archive\`, puis mettre à jour `REGISTRE_VALIDITE.md`. Whisper est [terminé X/110 / en cours à X/110]. Ensuite je veux démarrer [Phase B-02 reconstruction KB / Phase C collecteurs data]. »
 
 ---
 
