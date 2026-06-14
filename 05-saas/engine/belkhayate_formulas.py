@@ -26,16 +26,29 @@ RECONSTRUCTION = "[RECONSTRUCTION -- non verifie]"
 
 
 # =============================================================================
-# PARAMETRES CONFIGURABLES  [RECONSTRUCTION -- non verifie]
-# Valeurs de depart issues de STRATEGIE_CORRIGEE l.155 (HYPOTHESE TESTABLE).
-# A backtester : lookback_N 250 (Admiral) vs 100-125 (communaute).
+# PARAMETRES COG
+# STRUCTURE de la formule = [RECONSTRUCTION -- non verifie] (jamais divulguee).
+# Les 3 PARAMETRES ci-dessous = [BELKHAYATE-CONFIRME -- source User Guide] :
+# transcrit officiel "Belkhayate Gravity Center User Guide" (consigne REGISTRE_VALIDITE.md) :
+#   - periode (lookback) = 180   (l.176 "je recommande 180 en periode")
+#   - ordre / degre       = 3     (l.174 "L'ordre, il est de 3")
+#   - coefficients        = 1,618 (traditionnel, l.129) + 0,618 (variante petrole, l.172)
+# CAVEAT : valeurs decrites pour le setup PETROLE (range bars 5 ticks) -> defaults Belkhayate,
+#          a CONFIRMER sur les autres marches au backtest.
+# 2,618 / 4,236 = NON-Belkhayate (0 occurrence) -> extension communautaire [HYPOTHESE],
+#          voir K_BANDS_COMMUNAUTE ci-dessous (non utilisee par defaut).
 # =============================================================================
+
+# [HYPOTHESE non-Belkhayate] coefficients d'extension communautaire (0 occurrence dans le
+# transcrit officiel). Non utilises par defaut ; disponibles pour backtest explicite uniquement.
+K_BANDS_COMMUNAUTE = (2.618, 4.236)
+
+
 @dataclass
 class COGParams:
-    lookback_N: int = 250                       # nombre de barres de la fenetre de regression
-    degree: int = 2                             # degre du polynome (2 par defaut, plus stable a
-                                                # l'endpoint ; 3 disponible via le parametre)
-    k_bands: tuple = (1.618, 2.618, 4.236)      # coefficients (nombre d'or et derives)
+    lookback_N: int = 180                       # [BELKHAYATE-CONFIRME] periode 180 (User Guide l.176)
+    degree: int = 3                             # [BELKHAYATE-CONFIRME] ordre 3 (User Guide l.174)
+    k_bands: tuple = (0.618, 1.618)             # [BELKHAYATE-CONFIRME] coeffs 0,618 (petrole) + 1,618 (trad.)
 
 
 @dataclass
