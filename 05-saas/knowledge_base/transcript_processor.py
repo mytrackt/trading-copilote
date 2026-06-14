@@ -4,8 +4,9 @@ Pipeline d'extraction des regles Belkhayate depuis les transcripts Whisper.
 
 Etapes :
   1. Charge KNOWLEDGE_BASE_MASTER.json existant (skip videos deja traitees)
-  2. Lit chaque whisper_*.txt depuis 04-kb-sources/youtube-a-scraper/transcripts/
-  3. Envoie chaque transcript a Claude Haiku 4.5
+  2. Selectionne les transcrits fiabilite==VALIDE via MANIFESTE_TRANSCRITS.csv
+     (03-transcriptions/nouvelles-sources/belkhayate-youtube/transcripts/)
+  3. Envoie chaque transcript a Claude Sonnet 4.6
   4. Extrait 11 categories de regles en JSON strict
   5. Sauvegarde atomiquement la KB apres CHAQUE video (relancable sans perte)
   6. Rate limit 1.5s entre chaque appel API
@@ -16,9 +17,9 @@ Usage :
   python transcript_processor.py
 """
 
+import csv
 import json
 import os
-import re
 import sys
 import time
 from datetime import datetime
@@ -41,13 +42,14 @@ except ImportError:
 # --- Configuration ---
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent  # C:\trading-copilote\
-TRANSCRIPTS_DIR = PROJECT_ROOT / "03-transcriptions" / "transcripts-bruts"
+TRANSCRIPTS_DIR = PROJECT_ROOT / "03-transcriptions" / "nouvelles-sources" / "belkhayate-youtube" / "transcripts"
+MANIFEST_FILE   = PROJECT_ROOT / "03-transcriptions" / "nouvelles-sources" / "belkhayate-youtube" / "MANIFESTE_TRANSCRITS.csv"
 KB_DIR = PROJECT_ROOT / "04-cerveau-trading"
 KB_FILE = KB_DIR / "KNOWLEDGE_BASE_MASTER.json"
 KB_TMP_FILE = KB_DIR / "KNOWLEDGE_BASE_MASTER.json.tmp"
 LOG_FILE = KB_DIR / "processor_status.json"
 
-MODEL = "claude-haiku-4-5-20251001"
+MODEL = "claude-sonnet-4-6"
 MAX_TOKENS = 4096
 RATE_LIMIT_SECONDS = 1.5
 MAX_TRANSCRIPT_CHARS = 60000  # garde-fou cout (env. 15k tokens)
@@ -167,20 +169,35 @@ def append_log(entry: dict) -> None:
 
 
 def list_transcripts() -> list[Path]:
-    """Liste tous les transcripts whisper_*.txt non vides."""
-    if not TRANSCRIPTS_DIR.exists():
-        print(f"ERREUR : dossier introuvable : {TRANSCRIPTS_DIR}")
+    """Lit le manifeste et ne garde que les transcrits fiabilite==VALIDE existants."""
+    if not MANIFEST_FILE.exists():
+        print(f"ERREUR : manifeste introuvable : {MANIFEST_FILE}")
         sys.exit(1)
-    files = sorted(TRANSCRIPTS_DIR.glob("whisper_*.txt"))
-    return [f for f in files if f.stat().st_size > 0]
+    selected = []
+    with open(MANIFEST_FILE, "r", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            if row.get("fiabilite", "").strip() != "VALIDE":
+                continue
+            path = TRANSCRIPTS_DIR / row["fichier"].strip()
+            if path.exists() and path.stat().st_size > 0:
+                selected.append(path)
+            else:
+                print(f"  AVERTISSEMENT : fichier manquant, ignore : {row['fichier']}")
+    return selected
 
 
 def extract_video_id(filename: str) -> str:
-    """whisper_ABC123.txt -> ABC123"""
-    match = re.match(r"^whisper_(.+)\.txt$", filename)
-    if not match:
-        raise ValueError(f"Nom de fichier inattendu : {filename}")
-    return match.group(1)
+    """'-OIGv5rLLV8_Belkhayate Lesson 46.txt' -> '-OIGv5rLLV8'.
+
+    Les IDs YouTube font TOUJOURS 11 caracteres ([A-Za-z0-9_-]) suivis du
+    separateur '_'. On NE peut PAS split sur le 1er '_' : '_' est un caractere
+    d'ID valide (ex. '_Bbzx2lITEQ_...' -> '' ecraserait toutes les videos dont
+    l'ID commence par '_'). On prend donc le prefixe de 11 caracteres.
+    """
+    stem = filename[:-4] if filename.lower().endswith(".txt") else filename
+    if len(stem) > 11 and stem[11] == "_":
+        return stem[:11]
+    return stem.split("_", 1)[0]
 
 
 def parse_json_response(raw: str) -> dict | None:
@@ -238,7 +255,11 @@ def call_claude(client: Anthropic, transcript: str, video_id: str) -> dict | Non
         response = client.messages.create(
             model=MODEL,
             max_tokens=MAX_TOKENS,
-            system=SYSTEM_PROMPT,
+            system=[{
+                "type": "text",
+                "text": SYSTEM_PROMPT,
+                "cache_control": {"type": "ephemeral"},
+            }],
             messages=[{"role": "user", "content": user_prompt}],
         )
     except Exception as e:
