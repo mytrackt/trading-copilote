@@ -41,3 +41,15 @@ Thumbs.db
 _temp/
 **/temp_audio/
 03-transcriptions/nouvelles-sources/belkhayate-youtube/audio/
+
+# Audio et transcripts externes (volumineuse)
+03-transcriptions/nouvelles-sources/The Trading Geek/
+_temp/
+*.mp3
+*.webm
+
+# Backup KB
+*.bak.json
+
+# Claude settings local
+.claude/settings.json
