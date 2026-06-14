@@ -25,6 +25,6 @@
 
 | Lot | Statut | Action |
 |---|---|---|
-| `03-transcriptions\nouvelles-sources\belkhayate-youtube\transcripts\*` | ✅ ETIQUETE (S08 14/06) | Manifeste `MANIFESTE_TRANSCRITS.csv` : 110 fichiers, 0 hallucination, 67 VALIDE / 43 A_VERIFIER. Langues : 106 FR, 3 EN, 1 mixte. Audit complet `AUDIT_QUALITE.md` |
-| 43 transcrits `A_VERIFIER` | ⚠️ A CONFIRMER | 33 ont un nom sans "Belkhayate" (methode=belkhayate? mais dossier=chaine officielle) + ~10 courts/peu de termes -> verifier methode avant integration KB |
+| `03-transcriptions\nouvelles-sources\belkhayate-youtube\transcripts\*` | ✅ ETIQUETE (S08 14/06) | Manifeste `MANIFESTE_TRANSCRITS.csv` : 110 fichiers, 0 hallucination, 108 VALIDE / 2 A_VERIFIER. Provenance 100% chaine officielle Belkhayate (dossier) ; 41/110 ont un titre sans 'Belkhayate'. Langues : 106 FR, 3 EN, 1 mixte. Audit complet `AUDIT_QUALITE.md` |
+| 2 transcrits `A_VERIFIER` | ⚠️ A CONFIRMER | "Belkhayate Trading Video 2" (466 mots) et "Video 10" (1101 mots) : 0 terme Belkhayate detecte -> verif manuelle avant integration KB. Les 108 autres = VALIDE |
 | Chaines non-Belkhayate (Gigi, Trading Geek, Single Videos, etc.) | ⚠️ A ETIQUETER | 0 transcrit pour l'instant ; ranger en couche `enrichissements_exte
