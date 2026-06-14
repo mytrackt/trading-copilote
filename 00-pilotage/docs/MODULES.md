@@ -69,8 +69,8 @@ Genere 4 statuts : TRADE_ALLOWED / WAIT / REDUCE_RISK / NO_TRADE
 - 10 skills Belkhayate generes
 
 **Ce qui reste :**
-1. Dashboard React (interface screenshot -> signal)
-2. Claude Vision API pour lire les graphiques
+1. Dashboard React (données NT8 JSON -> signal ; PAS de screenshot)
+2. Lecture marché via fichiers JSON NinjaTrader 8 (PAS de Claude Vision API)
 3. Regle 3/4 + 2/3 marchés alignes
 4. News Gate, Circuit Breaker, Rate Limiting
 5. Deploy Vercel + Railway
@@ -86,5 +86,5 @@ Genere 4 statuts : TRADE_ALLOWED / WAIT / REDUCE_RISK / NO_TRADE
 | Phase 3 | Belkhayate KB | 10 skills generes | ✅ Termine |
 | Phase 4 | MBK Trader | Code 34 fichiers + securite | ⏸️ 60% pause |
 | Phase 4b | MBK Trader | npm install + .env + NinjaTrader | 🔜 A reprendre |
-| Phase 5 | TRADEX-AI | Dashboard + Claude Vision | 🔜 Prochain |
+| Phase 5 | TRADEX-AI | Dashboard + lecture NT8 JSON | 🔜 Prochain |
 | Phase 6 | TRADEX-AI | Deploy Vercel + Railway | ⏳ Futur |

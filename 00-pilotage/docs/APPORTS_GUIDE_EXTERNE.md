@@ -198,9 +198,9 @@ class CoolDownGuard:
 
 | Régime | Critères (déterministes) | Conséquence trading |
 |--------|-------------------------|---------------------|
-| **Bull** | ES > SMA200 ET VIX < 20 ET GC trend ↑ ET corrélations stables | Score 7 cercles requis ≥ **17/21** (norme) |
-| **Neutral** | ES dans ±5 % SMA200 ET VIX entre 20 et 30 | Score requis **18/21** + cool-down ×1.5 |
-| **Bear** | ES < SMA200 ET VIX entre 25 et 35 ET corrélations instables | Score requis **20/21**, taille réduite −50 %, Mode Auto interdit |
+| **Bull** | ES > SMA200 ET VIX < 20 ET GC trend ↑ ET corrélations stables | Score requis ≥ **7,0/10** (seuil unique D2) |
+| **Neutral** | ES dans ±5 % SMA200 ET VIX entre 20 et 30 | Score requis **7,0/10** (seuil unique D2) + cool-down ×1.5 |
+| **Bear** | ES < SMA200 ET VIX entre 25 et 35 ET corrélations instables | Score requis **7,0/10** (seuil unique D2), taille réduite −50 %, Mode Auto interdit |
 | **Crash** | VIX > 35 OU DD compte > 2 % jour OU > 4 corrélations instables | **0 trade** — sortie immédiate des positions ouvertes |
 
 ### Évolution proposée pour `correlations.py`
@@ -433,7 +433,7 @@ Adapter la hiérarchie PDF au contexte TRADEX-AI :
 3. CONTRAINTES NON NÉGOCIABLES (rappel à Claude)
    - Méthode Belkhayate exclusivement (KB en cache)
    - Règle d'entrée : 3/4 actifs trading + 2/3 confirmation alignés
-   - Score signal valide : >= 17/21
+   - Score signal valide : >= 7,0/10 (D2 ; ancien 17/21 abandonne)
    - Hysteresis : pas d'entrée si transition régime < 3 barres
    - Cool-down : 48h après sortie de position
    - Mode Auto interdit si confiance < 75% ou régime BEAR/CRASH

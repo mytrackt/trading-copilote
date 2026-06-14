@@ -1,3 +1,9 @@
+[SOURCE DOUTEUSE - non verifiee - annotee S08 14/06/2026]
+Logique '5 actifs alignes sur 8' (Ortogonex) ABANDONNEE -> regle TRADEX verrouillee : 3/4 trading + 2/3 confirmation.
+Bitcoin (MBT) et Yen (6J) = REFERENCE inter-marche uniquement, JAMAIS d'ordre.
+Matiere brute (couche enrichissements_externes), jamais attribuee a Belkhayate. Voir CLAUDE.md.
+--------------------------------------------------------------------------------
+
 Compétence intermarchés — Lecture systémique des relations
 
 L’objectif n’est pas de connaître des corrélations, mais de qualifier dynamiquement leur état.

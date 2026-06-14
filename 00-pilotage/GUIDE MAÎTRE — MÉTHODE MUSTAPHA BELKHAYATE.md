@@ -1,3 +1,8 @@
+>> SOURCE DOUTEUSE (REGISTRE_VALIDITE S07/S08) — NE PAS UTILISER COMME SOURCE CANONIQUE.
+>> Le coefficient 0.8618 cite ici est FAUX : 0 occurrence dans les 110 transcrits Belkhayate.
+>> Coefficients verrouilles : 1,618 et 0,618 (variante petrole), periode 180, ordre 3.
+>> Voir CLAUDE.md + REGISTRE_VALIDITE.md section 6. Matiere brute tracee, jamais attribuee tel quel a Belkhayate.
+
 # GUIDE MAÎTRE — MÉTHODE MUSTAPHA BELKHAYATE
 
 # GUIDE MAÎTRE — MÉTHODE MUSTAPHA BELKHAYATE

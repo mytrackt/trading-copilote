@@ -520,6 +520,8 @@ Réponds UNIQUEMENT en JSON strict :
 
 ## Système de scoring des 7 cercles
 
+> ABANDONNE (D2 13/06) : le scoring /21 ci-dessous (7 cercles x 3) est remplace par une grille deterministe /10, seuil >= 7,0. Les 7 cercles restent des sources d'intelligence, ils ne sont plus une note /21. Voir CLAUDE.md.
+
 ```python
 SCORE_CERCLES = {
     "C1_PRIX":           {"max": 3, "poids": "fondation"},
@@ -530,7 +532,7 @@ SCORE_CERCLES = {
     "C6_CATALYSEURS":    {"max": 3, "poids": "urgence"},
     "C7_CORRÉLATIONS":   {"max": 3, "poids": "validation"},
 }
-# Score total : /21
+# Score total : /21  [ABANDONNE -> /10 seuil 7,0, voir banniere ci-dessus]
 
 DÉCISION_SCORE = {
     "18-21": "Signal ULTRA → Auto confiance ≥ 95%",
@@ -612,7 +614,7 @@ RÈGLES_RISQUE = {
 ║  Objectif: 2 879 $  (+32$ / +1.12%)                   ║  R:R 1:2 ║
 ║  Taille  : NORMALE                                     ╠══════════╣
 ║  Raison  : BGC vert + COT institutionnels longs        ║ SCORE    ║
-║                                                        ║  17/21   ║
+║                                                        ║  7,0/10  ║
 ║  ─── 7 CERCLES ────────────────────────────────        ╠══════════╣
 ║  C1 Prix         ✅ BGC vert + 3/4 alignés            ║[EXÉCUTER]║
 ║  C2 Order Flow   ✅ Cale ×3 + Delta positif           ║[IGNORER] ║
@@ -905,7 +907,7 @@ MÉTRIQUES À VALIDER (toutes les 8 obligatoires) :
 | Max Drawdown/jour   | ≤ 3%          |           |      |
 | Faux positifs ATAS  | ≤ 30%         |           |      |
 | F. cassures évitées | ≥ 70%         |           |      |
-| Score moyen signaux | ≥ 12/21       |           |      |
+| Score moyen signaux | ≥ 7/10        |           |      |
 | Amélioration EMR/7C | ≥ +0.5 tick   |           |      |
 
 → Si UNE métrique non atteinte : ajuster KB + retester
@@ -1012,13 +1014,13 @@ C:\MBK-SaaS\
 # SECTION 10 — MODE MANUEL vs MODE AUTO
 
 ## Mode Manuel
-- Signal affiché dans le dashboard avec score /21 et confiance %
+- Signal affiché dans le dashboard avec score /10 et confiance %
 - Abdelkrim décide : **EXÉCUTER** ou **IGNORER**
 - Disponible dès confiance ≥ 65%
 - Aucune exécution automatique
 
 ## Mode Auto
-- **Conditions d'éligibilité** : confiance ≥ 75% ET score ≥ 18/21 ET DD_jour < 2%
+- **Conditions d'éligibilité** : confiance ≥ 75% ET score ≥ 7,0/10 (D2) ET DD_jour < 2%
 - **Exécution** via NT8 ATI (TCP/IP local port 36973)
 - **Bloqué automatiquement** si :
   - Claude API indisponible (fallback max 65% → Auto interdit)

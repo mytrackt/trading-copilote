@@ -28,3 +28,20 @@
 | `03-transcriptions\nouvelles-sources\belkhayate-youtube\transcripts\*` | ✅ ETIQUETE (S08 14/06) | Manifeste `MANIFESTE_TRANSCRITS.csv` : 110 fichiers, 0 hallucination, 108 VALIDE / 2 A_VERIFIER. Provenance 100% chaine officielle Belkhayate (dossier) ; 41/110 ont un titre sans 'Belkhayate'. Langues : 106 FR, 3 EN, 1 mixte. Audit complet `AUDIT_QUALITE.md` |
 | 2 transcrits `A_VERIFIER` | ⚠️ A CONFIRMER | "Belkhayate Trading Video 2" (466 mots) et "Video 10" (1101 mots) : 0 terme Belkhayate detecte -> verif manuelle avant integration KB. Les 108 autres = VALIDE |
 | Chaines non-Belkhayate (Gigi, Trading Geek, Single Videos, etc.) | ⚠️ A ETIQUETER | 0 transcrit pour l'instant ; ranger en couche `enrichissements_exte
+
+## 7. Passe de nettoyage coherence (S08 - 14/06/2026)
+
+Docs vivants corriges EN PLACE (/21->/10 seuil 7,0 D2 ; screenshot/Vision API->JSON NT8 ; 17-18-20/21->7,0/10) :
+- `docs/MASTER_TRADEX_AI_v2.md` (banniere ABANDONNE sur bloc scoring /21 ; box + Mode Auto -> 7,0/10)
+- `docs/MODULES.md` (screenshot + Claude Vision API -> lecture NT8 JSON)
+- `docs/APPORTS_GUIDE_EXTERNE.md` (regimes Bull/Neutral/Bear -> seuil unique 7,0/10)
+- `GARDE_FOUS_PROPOSES.md` (G7 + table regime -> 7,0/10)
+- `BACKLOG_ENRICHISSEMENTS.md` (score /21 -> /10)
+
+Sources douteuses ANNOTEES (gardees comme matiere brute, jamais attribuees a Belkhayate) :
+- `GUIDE MAITRE — METHODE MUSTAPHA BELKHAYATE.md` : banniere 0.8618 = FAUX (vrais 1,618 / 0,618)
+- `02-sources-brutes/kb-sources/pdfs-gardes/competence-intermarches.txt` : banniere 5/8 Ortogonex ABANDONNE -> 3/4+2/3
+
+NON touches (mentionnent l'ancien seulement pour l'INTERDIRE = deja corrects) : `.claude/agents/*`, `PROMPT_CLAUDE_CODE_EQUIPE_AGENTS_TRADEX.md`, `STRATEGIE_TRADEX_BELKHAYATE_CORRIGEE.md`.
+NON touches (historique date, ne pas reecrire) : `_context/` (briefings + READMEs S01-S07).
+Faux positifs laisses : MASTER 'Vision:' (vision projet), MODULES 'CDC Vision' (nom doc), APPORTS 'di-vision par 2'.

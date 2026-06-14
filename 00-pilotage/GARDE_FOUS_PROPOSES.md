@@ -32,7 +32,7 @@
 | 4 | DD semaine max | `0.05` (5 %) | `settings.py:83` |
 | 5 | News gate critique (NFP/FOMC/CPI/GDP/JOLTS/PPI) — timezone ET (New York) | `30 min` | `settings.py:115-124` |
 | 6 | Confiance max fallback (Auto interdit) | `65 %` | `settings.py:97` |
-| 7 | Score min appel Claude API | `17/21 (BULL) / 18/21 (NEUTRAL) / 20/21 (BEAR/CRASH) — table G7` | `settings.py:94` |
+| 7 | Score min appel Claude API | `7,0/10 (seuil unique D2 13/06 ; ancien 17/18/20 sur /21 abandonne)` | `settings.py:94` |
 | 8 | Vérif corrélation portefeuille | `seuil 0.60` | `correlations.py:92` |
 | 9 | Circuit Breaker (timeout / retry / open) | `15 s / 2 / 60 s` | `settings.py:140-143` |
 | 10 | Staleness monitor (NT8 / ATAS / COT / news) | `10 s / 30 s / 168 h / 5 min` | `settings.py:106-109` |
@@ -159,9 +159,9 @@
 - **Tableau régime → action** :
   | Régime | Critère | Levier | Score min | Mode Auto |
   |--------|---------|--------|-----------|-----------|
-  | BULL | ES > SMA200, VIX < 20, corrélations stables | 1.00 | 17/21 | autorisé |
-  | NEUTRAL | ES ±5 % SMA200, VIX 20-30 | 1.00 | 18/21 | autorisé |
-  | BEAR | ES < SMA200, VIX 25-35, corrélations instables | 0.50 | 20/21 | **interdit** |
+  | BULL | ES > SMA200, VIX < 20, corrélations stables | 1.00 | 7,0/10 | autorisé |
+  | NEUTRAL | ES ±5 % SMA200, VIX 20-30 | 1.00 | 7,0/10 | autorisé |
+  | BEAR | ES < SMA200, VIX 25-35, corrélations instables | 0.50 | 7,0/10 | **interdit** |
   | CRASH | VIX > 35 OU DD > 2 % jour OU > 4 ruptures corrélation | 0.00 | — | **interdit** + sortie immédiate |
 - **Source** : APPORTS_GUIDE_EXTERNE.md section 3
 

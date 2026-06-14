@@ -22,7 +22,7 @@ Chaque trade doit avoir une fiche complète dans SQLite :
 | resultat_pnl | PnL réalisé |
 | decision_claude | Résumé raisonnement IA |
 | validation_risk | OK / REFUSE + raison |
-| score_7_cercles | Score /21 au moment du signal |
+| score_7_cercles | Score /10 au moment du signal |
 | contexte_marche | Snapshot indicateurs Belkhayate |
 | raison_entree | Pourquoi le trade a été pris |
 | raison_sortie | Pourquoi le trade a été fermé |
