@@ -25,45 +25,6 @@
 
 | Lot | Statut | Action |
 |---|---|---|
-| `03-transcriptions\nouvelles-sources\belkhayate-youtube\transcripts\*` | ⚠️ A ETIQUETER | Ajouter `source=` / `fiabilite=` / `methode=` (belkhayate / autre) |
-| Chaines non-Belkhayate (Gigi, Trading Geek, Single Videos, etc.) | ⚠️ A ETIQUETER | Ranger en couche `enrichissements_externes` ; jamais attribuer a Belkhayate |
-
-## 4. Documents ecartes
-
-| Fichier | Statut | Raison |
-|---|---|---|
-| `prompt-systeme-trading-intermarches.txt` | ❌ INVALIDE | BTC+Yen tradables, score /100, non-Belkhayate (audit S06 batch 2) |
-| `STRATEGIE_TRADEX_8_MARCHES-*.md` (v1.0) | ❌ OBSOLETE | Remplace par STRATEGIE_CORRIGEE v2.0 |
-
-## 5. Audit QA Phase 9 (13/06/2026 -- agent A8)
-
-Code produit Phases 3-7 : py_compile OK sur tout le SaaS, regression 5/5 suites vertes.
-Statut documentaire des formules implementees (rappel -- rien n'est ✅ tant que non recoupe transcripts) :
-
-| Element code | Source | Statut documentaire |
-|---|---|---|
-| `belkhayate_formulas.cog_endpoint` / `timing_oscillator` | STRATEGIE_CORRIGEE Piliers 1-2 | ⚠️ [RECONSTRUCTION] -- a valider contre vrais transcripts |
-| `belkhayate_formulas.energie` | -- | ❌ NON CODEE (stub volontaire NotImplementedError) -- arbitrage 13/06 |
-| `signal_engine` grille /10 + Etape 0 | STRATEGIE_CORRIGEE PARTIE 4 | ⚠️ [HYPOTHESE TESTABLE] -- seuils a backtester |
-
-## 6. Verdict source-transcrits (14/06/2026 -- S08, 110 transcrits Belkhayate)
-
-Source autoritaire : `57DtXQp35Eo_Belkhayate Gravity Center User Guide.txt` (mode d'emploi officiel Belkhayate).
-
-| Question | Verdict | Preuve |
-|---|---|---|
-| Coeff **0,8618** (GUIDE MAITRE) | ❌ **FAUX** | 0 occurrence dans les 110 transcrits -> erreur du GUIDE MAITRE (confirme ⚠️ douteux) |
-| Coeff **1,618** | ✅ CONFIRME | "Traditional Gravity Center" (l.129) |
-| Coeff **0,618** | ✅ CONFIRME | variante petrole : "l'ecart n'est plus de 1,618 mais de 0,618" (l.172) |
-| Coeff **2,618 / 4,236** | ⚠️ NON-BELKHAYATE | 0 occurrence -> extension communautaire, [HYPOTHESE] |
-| **Periode (lookback)** | ✅ **180** (Belkhayate) | "je recommande 180 en periode" (l.176) -- ni 250 ni 100-125 |
-| **Ordre / degre** | ✅ **3** (Belkhayate) | "L'ordre, il est de 3" (l.174) -- CONTREDIT la reco degre 2 ; corriger COGParams |
-| Repaint | ✅ confirme par Belkhayate | "Bien donc qu'il repeint" (l.105) -> endpoint fige justifie |
-
-NB : ordre 3 / periode 180 / 0,618 decrits pour le setup petrole (range bars 5 ticks) -> a confirmer
-sur autres marches/TF dans les autres transcrits. A reporter dans `COGParams` (defaut) en Phase B-02.
-| Garde-fous runtime (news/CB/staleness/Auto) | CLAUDE.md + GARDE_FOUS | ✅ conformes decisions verrouillees |
-| KB `KNOWLEDGE_BASE_MASTER.json` | -- | ⚠️ DOUTEUX (provisoire) -- `kb_provisoire=True` force Auto interdit |
-
-Conclusion A8 : code conforme aux decisions verrouillees ; aucun signal reel autorise tant que
-la KB n'est pas reconstruite (Phase B-02) et les parametres [RECONSTRUCTION] non valides par backtest.
+| `03-transcriptions\nouvelles-sources\belkhayate-youtube\transcripts\*` | ✅ ETIQUETE (S08 14/06) | Manifeste `MANIFESTE_TRANSCRITS.csv` : 110 fichiers, 0 hallucination, 67 VALIDE / 43 A_VERIFIER. Langues : 106 FR, 3 EN, 1 mixte. Audit complet `AUDIT_QUALITE.md` |
+| 43 transcrits `A_VERIFIER` | ⚠️ A CONFIRMER | 33 ont un nom sans "Belkhayate" (methode=belkhayate? mais dossier=chaine officielle) + ~10 courts/peu de termes -> verifier methode avant integration KB |
+| Chaines non-Belkhayate (Gigi, Trading Geek, Single Videos, etc.) | ⚠️ A ETIQUETER | 0 transcrit pour l'instant ; ranger en couche `enrichissements_exte
