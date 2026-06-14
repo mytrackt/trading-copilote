@@ -246,19 +246,18 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Réorganisation pro terminée 11/06/2026)
+## ÉTAT ACTUEL (Session S08 terminée 14/06/2026)
 
 | Élément | État |
 |---------|------|
-| Réorganisation pro 00→06 | ✅ Terminée — commit `960fe88` poussé sur GitHub |
-| CLAUDE.md | ✅ À jour — reflète la structure 00→06 (11/06/2026) |
-| Moteur TRANSVIDEO | ✅ Consolidé en une seule version vivante (`01-moteur-transvideo\scripts\`) |
-| Cerveau trading (KB) | ✅ Séparé du code (`04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json`) |
-| Code SaaS | ✅ Migré dans `05-saas\` (config, engine, knowledge_base, utils, maquettes) |
-| Dette technique | ✅ Bug CRITIQUE réparé (commit 75a517e) — DATA_DIR reste pour Phase C |
-| Fiabilité moteur | ⏳ NON validée (objectif > 90/95 % non prouvé, dernier test = success_partial) |
-| Instructions projet Cowork | ⏳ À vérifier — peuvent encore référencer l'ancienne structure |
-| Mode AUTO | 🔒 BLOQUÉ par défaut |
+| Squelette app trading (10 agents + 9 phases) | ✅ Livré S07 — 68 tests verts, `npm run build` OK |
+| Transcrits Belkhayate Whisper | ✅ 110 audités/étiquetés S08 (108 VALIDE / 2 A_VERIFIER, 0 hallucination) |
+| Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) — commit `d57ae30` |
+| Paramètres COG (`COGParams`) | ✅ Figés S08 — période 180, ordre 3, coeffs 0,618/1,618 (commit `103c77f`) — confirmés PÉTROLE, à backtester GC/HG/ZW |
+| Énergie Belkhayate | 🔒 NON codée (stub) — attendre validation transcrits (conflit MFI vs proxy ATR non tranché) |
+| KB (`KNOWLEDGE_BASE_MASTER.json`) | ⚠️ PROVISOIRE (synthèses NotebookLM) — rebuild Phase B-02 avant tout signal réel |
+| Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
+| Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
@@ -302,7 +301,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 | Priorité | Fichier | Contenu |
 |----------|---------|---------|
-| 1 | `00-pilotage\_context\README_TRANSITION_TRADEX_S02_20260511.md` | Dernier état de session |
+| 1 | `00-pilotage\_context\README_TRANSITION_TRADEX_S08_20260614.md` | Dernier état de session |
 | 2 | `00-pilotage\DETTE_TECHNIQUE.md` | Bugs à réparer (contexte indispensable) |
 | 3 | `00-pilotage\FEUILLE_DE_ROUTE.md` | Phases du projet |
 | 4 | `00-pilotage\GARDE_FOUS_PROPOSES.md` | 32 garde-fous trading |
@@ -313,7 +312,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 11/06/2026 — Structure 00→06 reflétée + dette technique documentée*
+*Dernière mise à jour : 14/06/2026 (S08) — COGParams figés (période 180, ordre 3, coeffs 0,618/1,618) + 110 transcrits étiquetés + cohérence docs nettoyée*
 
 ---
 
