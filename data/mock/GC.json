@@ -1,0 +1,20 @@
+{
+  "symbol": "GC",
+  "timestamp": "2026-06-15T10:30:00",
+  "bar_type": "range_5",
+  "close": 2351.10,
+  "open": 2350.50,
+  "high": 2352.80,
+  "low": 2349.20,
+  "volume": 1250,
+  "cog_endpoint": 2348.50,
+  "cog_band_618_up": 2353.20,
+  "cog_band_618_dn": 2343.80,
+  "cog_band_1618_up": 2358.40,
+  "cog_band_1618_dn": 2338.60,
+  "timing": 5.2,
+  "energie": null,
+  "direction": "HAUSSIER",
+  "source": "NT8",
+  "schema_version": "1.0"
+}

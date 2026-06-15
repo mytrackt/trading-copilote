@@ -1,0 +1,20 @@
+{
+  "symbol": "CL",
+  "timestamp": "2026-06-15T10:30:00",
+  "bar_type": "range_5",
+  "close": 78.45,
+  "open": 78.20,
+  "high": 78.80,
+  "low": 78.10,
+  "volume": 2100,
+  "cog_endpoint": 78.30,
+  "cog_band_618_up": 79.10,
+  "cog_band_618_dn": 77.50,
+  "cog_band_1618_up": 79.80,
+  "cog_band_1618_dn": 76.80,
+  "timing": 1.5,
+  "energie": null,
+  "direction": "NEUTRE",
+  "source": "NT8",
+  "schema_version": "1.0"
+}

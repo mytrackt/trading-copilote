@@ -1,0 +1,20 @@
+{
+  "symbol": "ES",
+  "timestamp": "2026-06-15T10:30:00",
+  "bar_type": "daily",
+  "close": 5285.50,
+  "open": 5275.00,
+  "high": 5290.00,
+  "low": 5270.00,
+  "volume": 125000,
+  "cog_endpoint": 5270.00,
+  "cog_band_618_up": null,
+  "cog_band_618_dn": null,
+  "cog_band_1618_up": null,
+  "cog_band_1618_dn": null,
+  "timing": 4.2,
+  "energie": null,
+  "direction": "HAUSSIER",
+  "source": "NT8",
+  "schema_version": "1.0"
+}

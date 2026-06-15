@@ -43,15 +43,31 @@ NT8_ATI = {
 # =============================================================================
 # CHEMINS FICHIERS
 # =============================================================================
-DATA_DIR = os.path.join(os.path.dirname(BASE_DIR), "data")   # C:\trading-copilote\data -- Option A
+DATA_DIR      = os.path.join(os.path.dirname(BASE_DIR), "data")   # C:\trading-copilote\data
+DATA_LIVE_DIR = os.path.join(DATA_DIR, "live")                     # NT8 ecrit ici (production)
+DATA_MOCK_DIR = os.path.join(DATA_DIR, "mock")                     # Simulation (NT8 non installe)
+
+# Mettre USE_MOCK_DATA = False quand NT8 installe et configure
+USE_MOCK_DATA = True
+
+_ACTIVE_DATA_DIR = DATA_MOCK_DIR if USE_MOCK_DATA else DATA_LIVE_DIR
+
 KB_DIR   = os.path.join(os.path.dirname(BASE_DIR), "04-cerveau-trading")
 LOGS_DIR = os.path.join(BASE_DIR, "logs")
 
-KB_PATH             = os.path.join(KB_DIR,  "KNOWLEDGE_BASE_MASTER.json")
-NT8_DATA_PATH       = os.path.join(DATA_DIR, "NT8_data.csv")
-ATAS_DATA_PATH      = os.path.join(DATA_DIR, "ATAS_signals.json")
+KB_PATH             = os.path.join(KB_DIR, "KNOWLEDGE_BASE_MASTER.json")
+ATAS_DATA_PATH      = os.path.join(_ACTIVE_DATA_DIR, "ATAS_signals.json")
 RISK_STATE_PATH     = os.path.join(DATA_DIR, "risk_state.json")
 SIGNAL_HISTORY_PATH = os.path.join(DATA_DIR, "signal_history.json")
+
+# Actifs NT8 (un fichier JSON par actif dans _ACTIVE_DATA_DIR)
+NT8_ASSETS = ["GC", "HG", "CL", "ZW", "DX", "ES", "VX"]
+
+
+def get_nt8_path(symbol: str) -> str:
+    """Retourne le chemin absolu du fichier JSON pour un actif NT8."""
+    return os.path.join(_ACTIVE_DATA_DIR, f"{symbol}.json")
+
 
 # =============================================================================
 # SEUILS DE RISQUE
@@ -69,8 +85,7 @@ RISK = {
 # SIGNAL ET CONFIANCE
 # =============================================================================
 SIGNAL = {
-    "score_min_claude":       17,
-    "score_min_fallback":     17,
+    "score_min":              7.0,   # /10 -- seuil signal valide (decision D2 13/06/2026)
     "confiance_min_auto":     85,
     "confiance_max_fallback": 65,
     "rate_limit_sec":         10,

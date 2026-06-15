@@ -1,0 +1,20 @@
+{
+  "symbol": "HG",
+  "timestamp": "2026-06-15T10:30:00",
+  "bar_type": "range_5",
+  "close": 4.85,
+  "open": 4.83,
+  "high": 4.87,
+  "low": 4.82,
+  "volume": 850,
+  "cog_endpoint": 4.82,
+  "cog_band_618_up": 4.87,
+  "cog_band_618_dn": 4.77,
+  "cog_band_1618_up": 4.92,
+  "cog_band_1618_dn": 4.72,
+  "timing": 4.8,
+  "energie": null,
+  "direction": "HAUSSIER",
+  "source": "NT8",
+  "schema_version": "1.0"
+}

@@ -1,39 +1,58 @@
-import os
-import pandas as pd
-from datetime import datetime, timedelta
-
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_DIR = os.path.join(os.path.dirname(BASE_DIR), "data")  # C:\trading-copilote\data
-
-def get_vix_delta_pct(minutes: int = 15) -> float:
-    try:
-        df = pd.read_csv(os.path.join(DATA_DIR, "NT8_data.csv"))
-        vix_df = df[df['symbol'] == 'VX'].copy()
-        vix_df['timestamp'] = pd.to_datetime(vix_df['timestamp'])
-        vix_df = vix_df.sort_values('timestamp')
-        if len(vix_df) < 2:
-            return 0.0
-        cutoff = datetime.now() - timedelta(minutes=minutes)
-        recent = vix_df[vix_df['timestamp'] >= cutoff]
-        if len(recent) < 2:
-            return 0.0
-        vix_start = recent.iloc[0]['close']
-        vix_end   = recent.iloc[-1]['close']
-        if vix_start == 0:
-            return 0.0
-        return round(abs((vix_end - vix_start) / vix_start), 4)
-    except Exception:
-        return 0.0
-
-def read_nt8_data() -> list:
+"""
+data_reader.py -- Lecture des donnees NT8 et ATAS via JSON
+Architecture : un fichier JSON par actif dans data/live/ (ou data/mock/ si USE_MOCK_DATA=True)
+NE PAS importer pandas ici -- lecture JSON pure via atomic_writer.
+"""
+def read_nt8_asset(symbol: str) -> dict:
+    """
+    Lit le fichier JSON d'un actif NT8.
+    Retourne {} si le fichier est absent ou corrompu.
+    Passe par CB_NT8 (circuit breaker).
+    """
     from engine.circuit_breaker import CB_NT8
-    return CB_NT8.call(
-        lambda: pd.read_csv(os.path.join(DATA_DIR, "NT8_data.csv")).to_dict('records')
-    )
+    from utils.atomic_writer import safe_read_json
+    from config.settings import get_nt8_path
+    path = get_nt8_path(symbol)
+    try:
+        result = CB_NT8.call(lambda: safe_read_json(path))
+    except Exception:
+        return {}
+    return result if isinstance(result, dict) else {}
+
+
+def read_nt8_data() -> dict:
+    """
+    Retourne un dict {symbol: data} pour tous les actifs NT8.
+    Exemple : {"GC": {...}, "HG": {...}, ...}
+    """
+    from config.settings import NT8_ASSETS
+    return {s: read_nt8_asset(s) for s in NT8_ASSETS}
+
 
 def read_atas_signals() -> dict:
+    """
+    Lit les signaux ATAS (un fichier global ATAS_signals.json).
+    Retourne {} si absent ou corrompu.
+    Passe par CB_ATAS (circuit breaker).
+    """
     from engine.circuit_breaker import CB_ATAS
     from utils.atomic_writer import safe_read_json
-    return CB_ATAS.call(
-        lambda: safe_read_json(os.path.join(DATA_DIR, "ATAS_signals.json"))
-    )
+    from config.settings import ATAS_DATA_PATH
+    try:
+        result = CB_ATAS.call(lambda: safe_read_json(ATAS_DATA_PATH))
+    except Exception:
+        return {}
+    return result if isinstance(result, dict) else {}
+
+
+def get_vix_delta_pct(minutes: int = 15) -> float:  # noqa: ARG001
+    """
+    Retourne la variation VIX (champ vix_delta_pct dans VX.json).
+    Ce champ est calcule par NT8 (ou statique dans les mocks).
+    Le parametre `minutes` est conserve pour compatibilite API.
+    """
+    try:
+        data = read_nt8_asset("VX")
+        return float(data.get("vix_delta_pct", 0.0))
+    except Exception:
+        return 0.0

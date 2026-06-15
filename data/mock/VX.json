@@ -1,0 +1,21 @@
+{
+  "symbol": "VX",
+  "timestamp": "2026-06-15T10:30:00",
+  "bar_type": "daily",
+  "close": 18.50,
+  "open": 18.20,
+  "high": 18.80,
+  "low": 18.10,
+  "volume": 85000,
+  "cog_endpoint": null,
+  "cog_band_618_up": null,
+  "cog_band_618_dn": null,
+  "cog_band_1618_up": null,
+  "cog_band_1618_dn": null,
+  "timing": null,
+  "energie": null,
+  "vix_delta_pct": 0.016,
+  "direction": "NEUTRE",
+  "source": "NT8",
+  "schema_version": "1.0"
+}

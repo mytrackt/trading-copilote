@@ -1,0 +1,20 @@
+{
+  "symbol": "DX",
+  "timestamp": "2026-06-15T10:30:00",
+  "bar_type": "daily",
+  "close": 104.20,
+  "open": 104.50,
+  "high": 104.65,
+  "low": 104.10,
+  "volume": 0,
+  "cog_endpoint": 104.40,
+  "cog_band_618_up": null,
+  "cog_band_618_dn": null,
+  "cog_band_1618_up": null,
+  "cog_band_1618_dn": null,
+  "timing": -3.5,
+  "energie": null,
+  "direction": "BAISSIER",
+  "source": "NT8",
+  "schema_version": "1.0"
+}

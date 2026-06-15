@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-06-15T10:30:00",
+  "GC": {
+    "delta": 125.5,
+    "cum_delta": 450.0,
+    "big_buy": 3,
+    "big_sell": 1,
+    "bid_ask_ratio": 1.2
+  },
+  "HG": {
+    "delta": 85.0,
+    "cum_delta": 280.0,
+    "big_buy": 2,
+    "big_sell": 1,
+    "bid_ask_ratio": 1.1
+  },
+  "CL": {
+    "delta": -15.0,
+    "cum_delta": 50.0,
+    "big_buy": 2,
+    "big_sell": 2,
+    "bid_ask_ratio": 0.98
+  },
+  "ZW": {
+    "delta": 95.0,
+    "cum_delta": 320.0,
+    "big_buy": 3,
+    "big_sell": 0,
+    "bid_ask_ratio": 1.3
+  },
+  "source": "ATAS",
+  "schema_version": "1.0"
+}

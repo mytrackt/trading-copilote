@@ -1,0 +1,20 @@
+{
+  "symbol": "ZW",
+  "timestamp": "2026-06-15T10:30:00",
+  "bar_type": "range_5",
+  "close": 585.50,
+  "open": 583.00,
+  "high": 587.00,
+  "low": 582.50,
+  "volume": 620,
+  "cog_endpoint": 582.00,
+  "cog_band_618_up": 588.50,
+  "cog_band_618_dn": 575.50,
+  "cog_band_1618_up": 594.50,
+  "cog_band_1618_dn": 569.50,
+  "timing": 6.1,
+  "energie": null,
+  "direction": "HAUSSIER",
+  "source": "NT8",
+  "schema_version": "1.0"
+}
