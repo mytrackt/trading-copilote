@@ -3,7 +3,7 @@
     "version": "1.0",
     "model": "claude-sonnet-4-6",
     "created_at": "2026-06-14T20:48:32.197418Z",
-    "last_updated": "2026-06-15T13:35:09.423202+00:00",
+    "last_updated": "2026-06-15T16:16:13.577817+00:00",
     "categories": [
       "saisonnalite",
       "correlations",
@@ -41,7 +41,54 @@
       "rules_after": 1256,
       "kb_provisoire": false,
       "note": "Flag moteur KB_PROVISOIRE_DEFAUT=False dans claude_brain.py."
-    }
+    },
+    "ajouts_manuels": [
+      {
+        "phase": "B-06",
+        "source": "Belkhayate Trading Vidéo 10 (officielle)",
+        "statut": "VALIDE",
+        "nb_regles": 9,
+        "regles": [
+          {
+            "categorie": "psychologie",
+            "regle": "Le money management représente environ 70% du succès du trader (Belkhayate)."
+          },
+          {
+            "categorie": "psychologie",
+            "regle": "L'analyse fondamentale a une importance quasi nulle (environ 0,5%) selon Belkhayate."
+          },
+          {
+            "categorie": "psychologie",
+            "regle": "Les informations et rumeurs financières sont inutiles pour un trading dont l'entrée/sortie dure moins d'une minute."
+          },
+          {
+            "categorie": "psychologie",
+            "regle": "Ne jamais perdre, même un seul dirham : la préservation du capital prime sur le gain."
+          },
+          {
+            "categorie": "psychologie",
+            "regle": "Dès qu'on commence à perdre, il devient exponentiellement plus difficile de revenir à l'équilibre."
+          },
+          {
+            "categorie": "gestion_risque_entree",
+            "regle": "Asymétrie des pertes : perdre 50% du capital exige ensuite +100% pour revenir à zéro."
+          },
+          {
+            "categorie": "gestion_risque_entree",
+            "regle": "Asymétrie des pertes : perdre 75% du capital exige ensuite +300% pour revenir à zéro."
+          },
+          {
+            "categorie": "gestion_risque_entree",
+            "regle": "Toujours calculer le poids de la position avant d'entrer."
+          },
+          {
+            "categorie": "gestion_risque_entree",
+            "regle": "L'analyse technique/graphique est le 2e facteur de succès, après le money management."
+          }
+        ],
+        "rules_after": 1265
+      }
+    ]
   },
   "videos": {
     "-OIGv5rLLV8": {
@@ -4773,7 +4820,11 @@
       "Ne pas acheter un marché en tendance baissière marquée ; rester vendeur tant que la direction baissière est confirmée.",
       "Sélectionner uniquement les meilleures configurations, comme un champion de poker qui ne joue que ses meilleures mains et n'entre pas sur toutes les opportunités.",
       "Ne jamais entrer dans le sens d'une grande bougie contre-tendance sans attendre la cassure du niveau clé.",
-      "Ne pas entrer sur un marché si le signal n'est pas fort et clair, afin d'éviter le stress et l'inconfort en position."
+      "Ne pas entrer sur un marché si le signal n'est pas fort et clair, afin d'éviter le stress et l'inconfort en position.",
+      "Asymétrie des pertes : perdre 50% du capital exige ensuite +100% pour revenir à zéro.",
+      "Asymétrie des pertes : perdre 75% du capital exige ensuite +300% pour revenir à zéro.",
+      "Toujours calculer le poids de la position avant d'entrer.",
+      "L'analyse technique/graphique est le 2e facteur de succès, après le money management."
     ],
     "gestion_position_active": [
       "Ne pas sortir de la position tant que le système Belkhayate ne donne pas de signal de sortie.",
@@ -5441,7 +5492,12 @@
       "Ne pas entrer sur un marché pour stresser : n'entrer que lorsqu'un signal très fort est présent.",
       "Si on est acheteur et que le marché ne se comporte pas de manière confortable, ce n'est pas un bon signal d'entrée.",
       "Penser le trading autrement par rapport à ce qui est enseigné dans les livres est nécessaire pour ne pas tomber dans les pièges algorithmiques.",
-      "Connaître les manipulations algorithmiques permet d'éviter de tomber dans ces pièges et de ne pas acheter au mauvais moment."
+      "Connaître les manipulations algorithmiques permet d'éviter de tomber dans ces pièges et de ne pas acheter au mauvais moment.",
+      "Le money management représente environ 70% du succès du trader (Belkhayate).",
+      "L'analyse fondamentale a une importance quasi nulle (environ 0,5%) selon Belkhayate.",
+      "Les informations et rumeurs financières sont inutiles pour un trading dont l'entrée/sortie dure moins d'une minute.",
+      "Ne jamais perdre, même un seul dirham : la préservation du capital prime sur le gain.",
+      "Dès qu'on commence à perdre, il devient exponentiellement plus difficile de revenir à l'équilibre."
     ]
   }
 }

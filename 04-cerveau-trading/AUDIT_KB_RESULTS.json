@@ -4,7 +4,7 @@
   "stats": {
     "DOUTEUX": 1225,
     "INVALIDE": 165,
-    "VALIDE": 31,
+    "VALIDE": 40,
     "DOUBLON": 39,
     "SUPPRIME_MANUEL": 1
   },
@@ -4273,6 +4273,30 @@
         "regle": "Ne pas entrer sur un marché si le signal n'est pas fort et clair, afin d'éviter le stress et l'inconfort en position.",
         "statut": "DOUTEUX",
         "motif": "Critère subjectif 'signal fort et clair' pour éviter le stress est trop vague et non actionnable. Applicable à n'importe quelle méthode, aucune spécificité Belkhayate vérifiable."
+      },
+      {
+        "index": 170,
+        "regle": "Asymétrie des pertes : perdre 50% du capital exige ensuite +100% pour revenir à zéro.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
+      },
+      {
+        "index": 171,
+        "regle": "Asymétrie des pertes : perdre 75% du capital exige ensuite +300% pour revenir à zéro.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
+      },
+      {
+        "index": 172,
+        "regle": "Toujours calculer le poids de la position avant d'entrer.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
+      },
+      {
+        "index": 173,
+        "regle": "L'analyse technique/graphique est le 2e facteur de succès, après le money management.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
       }
     ],
     "gestion_position_active": [
@@ -8795,6 +8819,36 @@
         "regle": "Connaître les manipulations algorithmiques permet d'éviter de tomber dans ces pièges et de ne pas acheter au mauvais moment.",
         "statut": "DOUTEUX",
         "motif": "Concept de manipulation algorithmique = générique et non spécifique à Belkhayate ; absence de définition opérationnelle des manipulations dans les transcrits confirmés."
+      },
+      {
+        "index": 228,
+        "regle": "Le money management représente environ 70% du succès du trader (Belkhayate).",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
+      },
+      {
+        "index": 229,
+        "regle": "L'analyse fondamentale a une importance quasi nulle (environ 0,5%) selon Belkhayate.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
+      },
+      {
+        "index": 230,
+        "regle": "Les informations et rumeurs financières sont inutiles pour un trading dont l'entrée/sortie dure moins d'une minute.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
+      },
+      {
+        "index": 231,
+        "regle": "Ne jamais perdre, même un seul dirham : la préservation du capital prime sur le gain.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
+      },
+      {
+        "index": 232,
+        "regle": "Dès qu'on commence à perdre, il devient exponentiellement plus difficile de revenir à l'équilibre.",
+        "statut": "VALIDE",
+        "motif": "[Ajout manuel V10] Source : Belkhayate Trading Vidéo 10 (officielle). Valide utilisateur."
       }
     ]
   },
