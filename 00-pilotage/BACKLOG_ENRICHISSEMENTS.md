@@ -3,6 +3,9 @@
 > Source : documents "solo founder" + "SaaS description" (session S05 — 11/06/2026)
 > NE PAS modifier la FEUILLE_DE_ROUTE.md existante — ce fichier est le complément.
 
+## États : 📥 À TRAITER · 🔍 PLAN PROPOSÉ · ⚙️ EN EXÉCUTION · ✅ AUDIT AUTO · 🔀 À FUSIONNER · 🟢 INTÉGRÉ
+## Priorité : P1 (haute) → P3 (basse). Cowork traite P1 d'abord, 1 ticket par interstice.
+
 ---
 
 ## 1. JOURNAL DE TRADING IA COMPLET (à intégrer Phase I ou Phase I.4)
