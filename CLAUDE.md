@@ -246,18 +246,20 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S08 terminée 14/06/2026)
+## ÉTAT ACTUEL (Session S11 terminée 15/06/2026)
 
 | Élément | État |
 |---------|------|
 | Squelette app trading (10 agents + 9 phases) | ✅ Livré S07 — 68 tests verts, `npm run build` OK |
-| Transcrits Belkhayate Whisper | ✅ 110 audités/étiquetés S08 (108 VALIDE / 2 A_VERIFIER, 0 hallucination) |
-| Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) — commit `d57ae30` |
-| Paramètres COG (`COGParams`) | ✅ Figés S08 — période 180, ordre 3, coeffs 0,618/1,618 (commit `103c77f`) — confirmés PÉTROLE, à backtester GC/HG/ZW |
-| Énergie Belkhayate | 🔒 NON codée (stub) — attendre validation transcrits (conflit MFI vs proxy ATR non tranché) |
-| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE (108 transcrits VALIDE) — rebuild B-02 + audit B-03 + purge B-04 + validation 5% B-05. **kb_provisoire LEVÉ** (`KB_PROVISOIRE_DEFAUT=False`). 1256 règles (31 VALIDE / 1225 DOUTEUX conservés à relire). Mode AUTO reste bloqué (UI+API+fallback). |
+| Transcrits Belkhayate Whisper | ✅ 110 audités — 109 VALIDE / 1 HORS_PERIMETRE / 0 A_VERIFIER (clos S11) |
+| Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) |
+| Paramètres COG (`COGParams`) | ✅ Figés — période 180, ordre 3, coeffs 0,618/1,618 — backtest daily invalide (S11) — validation réelle = range bars NT8 Phase C |
+| Énergie Belkhayate | 🔒 NON codée (stub) — attendre fin Trading Geek (conflit MFI vs proxy ATR non tranché) |
+| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE — **1 265 règles** (40 VALIDE / 1225 DOUTEUX). B-06 : +9 règles money management (Vidéo 10). kb_provisoire LEVÉ. Mode AUTO bloqué. |
+| COG backtest hostile GC/HG/ZW | ✅ Fait S11 — 180/3 non validé sur daily (timeframe ≠ range bars) — commit `e45a0fe` |
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
+| Trading Geek transcription | ⏳ 31/113 — en cours en background |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
