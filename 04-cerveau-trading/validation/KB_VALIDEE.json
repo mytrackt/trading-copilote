@@ -114,6 +114,14 @@
         "reste_AMBIGU": 103,
         "DRY_RUN": 0
       }
+    },
+    "revalidation_s14_passe3": {
+      "date": "2026-06-15T20:41:42.857003",
+      "stats": {
+        "VALIDE_gagne": 55,
+        "INVALIDE_gagne": 3,
+        "reste_AMBIGU": 45
+      }
     }
   },
   "rules_by_status": {
@@ -1445,6 +1453,51 @@
           "source_video_id": "yLhnXdeZn3k",
           "source_transcript": "yLhnXdeZn3k_Le Trading, la Pêche et le Couloir Horaire !.txt",
           "note": "[REVALIDE S13] Analogie pêche/trading explicite: trader au bon moment et s'arrêter quand conditions défavorables."
+        },
+        {
+          "texte": "Un signal d'achat sur le pétrole pendant la session asiatique reste valide même si la liquidité est moindre.",
+          "statut": "VALIDE",
+          "passage": "c'est sûr que là on est le matin c'est on est en train de parler de la session asiatique mais c'est quand même intéressant de faire des analyses pour le moment",
+          "confiance": 0.8,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Signal asiatique jugé valide et exploitable malgré liquidité moindre"
+        },
+        {
+          "texte": "Un signal d'achat détecté à 7h20 avec accélération brutale du volume est un signal exploitable.",
+          "statut": "VALIDE",
+          "passage": "si on a un signal d'achat à 7h20 on a une accélération mais vraiment brutale du volume",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Signal 7h20 avec accélération brutale du volume explicitement mentionné"
+        },
+        {
+          "texte": "Ne pas entrer sur un signal d'indicateur si le marché est en trading range, attendre la cassure du couloir.",
+          "statut": "VALIDE",
+          "passage": "vous rentrez quand on casse ce couloir de TradingRange... le meilleur moment pour rentrer, c'est bien ici, celui-là. On casse ici et on a un très, très bon signal d'achat.",
+          "confiance": 0.98,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Concept central et répété plusieurs fois avec exemples concrets"
+        },
+        {
+          "texte": "Se spécialiser sur une journée : ne jamais dépasser le cadre journalier dans son trading.",
+          "statut": "VALIDE",
+          "passage": "je vous demande de vous spécialiser sur une journée, d'accord, vous n'allez jamais dépasser la journée",
+          "confiance": 0.99,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Règle énoncée mot pour mot dans le transcript"
+        },
+        {
+          "texte": "On commence à s'intéresser aux bons de trésor à partir de 13h (session de Londres).",
+          "statut": "VALIDE",
+          "passage": "vous savez, à 13h19, on commence à s'intéresser sur les bons de 13h. Toutes ces sessions à Londres et à partir de 11h, on ne fait rien parce qu'il n'y a pas de volet.",
+          "confiance": 0.95,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Timing 13h explicitement mentionné pour les bons de trésor"
         }
       ],
       "INVALIDE": [
@@ -1492,6 +1545,15 @@
           "source_video_id": "gTgNe0P4SVw",
           "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
           "note": "[REVALIDE S13] Aucune mention de timing 8h-9h du matin ou de 'faire sa journée'."
+        },
+        {
+          "texte": "Les niveaux des pivots et la clôture de la veille sont connus dès minuit une minute, avant l'ouverture de la journée.",
+          "statut": "INVALIDE",
+          "passage": null,
+          "confiance": 0.3,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Connus à l'avance mais minuit01 non mentionné explicitement"
         }
       ],
       "AMBIGU": [
@@ -1514,51 +1576,6 @@
           "note": "[CITATION NON VERBATIM AUTO-CORRIGÉE] Évoque fin de journée mais ne spécifie pas 20h exactement"
         },
         {
-          "texte": "Un signal d'achat sur le pétrole pendant la session asiatique reste valide même si la liquidité est moindre.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Un signal d'achat détecté à 7h20 avec accélération brutale du volume est un signal exploitable.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Ne pas entrer sur un signal d'indicateur si le marché est en trading range, attendre la cassure du couloir.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Les niveaux des pivots et la clôture de la veille sont connus dès minuit une minute, avant l'ouverture de la journée.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Se spécialiser sur une journée : ne jamais dépasser le cadre journalier dans son trading.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Trader en dehors du couloir horaire optimal fait perdre du temps et de l'argent.",
           "statut": "AMBIGU",
           "passage": "quand vous voulez aller pêcher et que vous allez n'importe quand vous allez perdre votre temps",
@@ -1566,15 +1583,6 @@
           "source_video_id": "kCReRoqkFAc",
           "source_transcript": "kCReRoqkFAc_Importance du Couloir Horaire en Trading.txt",
           "note": "La règle mentionne perte de temps mais pas explicitement d'argent. Analogie de pêche plutôt que trading direct."
-        },
-        {
-          "texte": "On commence à s'intéresser aux bons de trésor à partir de 13h (session de Londres).",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
         },
         {
           "texte": "Privilégier des trades très courts, entrer et sortir le plus vite possible, idéalement en moins d'une minute.",
@@ -3352,6 +3360,87 @@
           "source_video_id": "yqzjMu-VSRo",
           "source_transcript": "yqzjMu-VSRo_Belkhayate ： Lesson 40 - Examples of Trades.txt",
           "note": "[REVALIDE S13] La direction du CG détermine le sens du trade: baissier→vendre, haussier→acheter."
+        },
+        {
+          "texte": "Belkhayate Direction passant au vert est un signal indiquant un retournement potentiel à la hausse.",
+          "statut": "VALIDE",
+          "passage": "lorsque le marché revient ici, et Belchiat Direction commence à devenir vert à ce niveau là",
+          "confiance": 0.95,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Direction vert = signal retournement haussier explicitement mentionné"
+        },
+        {
+          "texte": "Lorsque Belkhayate Trend est vert (tendance haussière) et que le marché revient tester le Belkhayate Trend en pullback, c'est une zone d'achat.",
+          "statut": "VALIDE",
+          "passage": "on était sur une tendance haussière le marché revient faire un pullback... belgeat trend vert on revient ici pour tester... c'est un très bon signal d'achat",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Pullback sur Belkhayate Trend vert = zone d'achat clairement décrit"
+        },
+        {
+          "texte": "Le marché qui s'appuie sur le Belkhayate Trend ET sur la MM209 simultanément constitue un signal d'achat renforcé.",
+          "statut": "VALIDE",
+          "passage": "on s'appuie clairement ici avec et hop on rebondit... on s'appuie sur le belgretrain et en même temps la 209",
+          "confiance": 0.97,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Appui simultané Belkhayate Trend + MM209 = signal renforcé"
+        },
+        {
+          "texte": "Lorsque la clôture de la veille coïncide avec le pivot central, ce niveau combiné constitue un support ou une résistance très puissant.",
+          "statut": "VALIDE",
+          "passage": "la ligne jaune, c'est-à-dire la clôture de la veille qui s'est alignée, qui s'est confondue avec le pivot... vous allez avoir un très, très bon signal... support très fort ou de résistance très forte",
+          "confiance": 0.98,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Concept clairement présent et développé"
+        },
+        {
+          "texte": "L'écartement des bandes des pivots indique la volatilité probable de la journée : bandes larges = forte volatilité attendue, bandes resserrées = faible volatilité attendue.",
+          "statut": "VALIDE",
+          "passage": "quand vous avez ces bandes-là qui sont écartées, ça veut dire que cette journée, il faut vous attendre à un grand mouvement... si les bandes sont rapprochées... il y a de faibles volatilités",
+          "confiance": 0.99,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Concept explicitement et clairement développé"
+        },
+        {
+          "texte": "Un pullback sur la clôture de la veille après une cassure constitue une opportunité d'entrée dans le sens de la cassure.",
+          "statut": "VALIDE",
+          "passage": "une fois qu'on a cassé la clôture de la veille... le marché revient faire un pullback et nous donner l'occasion de rentrer vendeur",
+          "confiance": 0.97,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Pullback après cassure comme signal d'entrée clairement décrit"
+        },
+        {
+          "texte": "Analyser le marché en weekly pour déterminer la tendance de fond avant de trader en 15 minutes.",
+          "statut": "VALIDE",
+          "passage": "on va mettre le ZB en weekly déjà. Parce que nous, on a besoin de savoir que se passe-t-il sur la planète... Et une fois qu'on sait ça, on revient sur les 15 minutes.",
+          "confiance": 0.98,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Analyse weekly puis trading 15min clairement décrit"
+        },
+        {
+          "texte": "Il est interdit d'acheter quand le prix est dans la zone rouge (résistance) et interdit de vendre quand le prix est dans la zone bleue (support).",
+          "statut": "VALIDE",
+          "passage": "règle de base du Paris-Centre, c'est qu'il est interdit d'acheter quand on est dans cette zone rouge ou de vendre quand on est ici.",
+          "confiance": 0.99,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Règle interdiction achat zone rouge / vente zone bleue explicite"
+        },
+        {
+          "texte": "Une impulsion ou accélération baissière forte sur une bougie est un signal de tendance baissière à respecter.",
+          "statut": "VALIDE",
+          "passage": "j'ai cette bougie-là, j'ai cette accélération et impulsion baissière sur le marché, et je n'ai pas envie d'être acheteur du ZB",
+          "confiance": 0.95,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Impulsion baissière forte citée comme signal de tendance à respecter"
         }
       ],
       "INVALIDE": [
@@ -3408,6 +3497,15 @@
           "source_video_id": "gTgNe0P4SVw",
           "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
           "note": "[REVALIDE S13] Passage décrit signaux vendeurs en dessous, pas acheteurs au-dessus."
+        },
+        {
+          "texte": "Lorsque la bande formée par le pivot et la clôture de la veille est franchie avec force et volume, ce niveau devient ensuite support ou résistance inversée.",
+          "statut": "INVALIDE",
+          "passage": null,
+          "confiance": 0.85,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Notion de support/résistance inversée après cassure absente du transcript"
         }
       ],
       "AMBIGU": [
@@ -3430,15 +3528,6 @@
           "note": "Direction confirme mais n'est pas unique critère ; peu développé."
         },
         {
-          "texte": "Belkhayate Direction passant au vert est un signal indiquant un retournement potentiel à la hausse.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Le Belkhayate Gravity Center (centre de gravité) peut être ajouté comme indicateur sur le graphique NinjaTrader pour analyser le marché.",
           "statut": "AMBIGU",
           "passage": "on va pouvoir rajouter le son de gravité belkayat plus tard",
@@ -3457,61 +3546,7 @@
           "note": "Tests multiples avant cassure non explicitement mentionnés ici"
         },
         {
-          "texte": "Lorsque Belkhayate Trend est vert (tendance haussière) et que le marché revient tester le Belkhayate Trend en pullback, c'est une zone d'achat.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Le marché qui s'appuie sur le Belkhayate Trend ET sur la MM209 simultanément constitue un signal d'achat renforcé.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Lorsque la clôture de la veille coïncide avec le pivot central, ce niveau combiné constitue un support ou une résistance très puissant.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Lorsque la bande formée par le pivot et la clôture de la veille est franchie avec force et volume, ce niveau devient ensuite support ou résistance inversée.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Les niveaux des pivots et la clôture de la veille servent de matelas : la bande formée par ces deux niveaux agit soit en support, soit en résistance.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "L'écartement des bandes des pivots indique la volatilité probable de la journée : bandes larges = forte volatilité attendue, bandes resserrées = faible volatilité attendue.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Un pullback sur la clôture de la veille après une cassure constitue une opportunité d'entrée dans le sens de la cassure.",
           "statut": "AMBIGU",
           "passage": null,
           "confiance": 0.0,
@@ -3526,33 +3561,6 @@
           "confiance": 0.0,
           "source_video_id": "gTgNe0P4SVw",
           "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Analyser le marché en weekly pour déterminer la tendance de fond avant de trader en 15 minutes.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Il est interdit d'acheter quand le prix est dans la zone rouge (résistance) et interdit de vendre quand le prix est dans la zone bleue (support).",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Une impulsion ou accélération baissière forte sur une bougie est un signal de tendance baissière à respecter.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
           "note": "Pas de réponse API"
         }
       ]
@@ -3864,6 +3872,51 @@
           "source_video_id": "y72lC3B5k2E",
           "source_transcript": "y72lC3B5k2E_Belkhayate ： Lesson 31.txt",
           "note": "[REVALIDE S13] Divergence volume/prix clairement identifiée comme signal de vente court terme"
+        },
+        {
+          "texte": "Lorsque le Belkhayate Cycle affiche un petit 'V' (surachat), c'est une zone de vente potentielle.",
+          "statut": "VALIDE",
+          "passage": "ça confirme avec le petit v qu'on voit ici qui signifie qu'ici on est vraiment en sur achat et qu'on arrive dans cette zone là on peut envisager de vendre",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Petit V = surachat = zone de vente potentielle, explicitement énoncé"
+        },
+        {
+          "texte": "Un rebond sur le zéro du Belkhayate Cycle en tendance haussière confirme le maintien de la tendance.",
+          "statut": "VALIDE",
+          "passage": "on a bien déterminé ici... les rebonds ici sur les euros on reste donc résolument haussier pour le moment",
+          "confiance": 0.9,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Rebond sur zéro du cycle en tendance haussière confirme le maintien"
+        },
+        {
+          "texte": "Un avalement baissier en pleine zone de résistance (pivot ou clôture de la veille) est un signal de vente de qualité.",
+          "statut": "VALIDE",
+          "passage": "le marché, il vous fait un cadeau en vous donnant un avalement baissier de cas d'école... en pleine zone de résistance, c'est un cadeau... vous pouvez vendre",
+          "confiance": 0.98,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Avalement baissier en résistance comme signal vente clairement décrit"
+        },
+        {
+          "texte": "Un signal d'entrée est renforcé lorsqu'une bougie casse un niveau clé avec du volume élevé (ex: 9000-10000 contrats).",
+          "statut": "VALIDE",
+          "passage": "le premier volume qu'on a avec 9000, à peu près 10 000 contrats... on remarque la base, c'est qu'on a une bougie qui vient de casser le billet... ce signal-là, il est très, très fort.",
+          "confiance": 0.97,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Cassure + volume élevé = signal fort, explicitement lié"
+        },
+        {
+          "texte": "Une mèche sans volume ne constitue pas un signal valide.",
+          "statut": "VALIDE",
+          "passage": "on voit vraiment une mèche là, mais il n'est pas avec le volet.",
+          "confiance": 0.82,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Mèche sans volume implicitement non valide, mais peu développé"
         }
       ],
       "INVALIDE": [
@@ -3902,6 +3955,15 @@
           "source_video_id": "gTgNe0P4SVw",
           "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
           "note": "[REVALIDE S13] Pas de mention de 'Belkhayate Impulsion' ou cassure+volume=continuation."
+        },
+        {
+          "texte": "Une bougie de grande taille avec un volume supérieur à toutes les autres bougies environnantes, tapant sur un niveau de pivot ou de clôture de la veille, constitue un signal d'entrée de qualité.",
+          "statut": "INVALIDE",
+          "passage": null,
+          "confiance": 0.85,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Grande bougie avec volume exceptionnel sur pivot non mentionnée"
         }
       ],
       "AMBIGU": [
@@ -3933,48 +3995,12 @@
           "note": "[CITATION NON VERBATIM AUTO-CORRIGÉE] Parle d'accélération mais pas de comparaison précise avec bougies précédentes"
         },
         {
-          "texte": "Lorsque le Belkhayate Cycle affiche un petit 'V' (surachat), c'est une zone de vente potentielle.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Un rebond sur le zéro du Belkhayate Cycle en tendance haussière confirme le maintien de la tendance.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Un signal de vente est déclenché si le prix casse un niveau clé avec une bougie rouge sur le Belkhayate Cycle.",
           "statut": "AMBIGU",
           "passage": null,
           "confiance": 0.0,
           "source_video_id": "YQDcopMt7ns",
           "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Une bougie de grande taille avec un volume supérieur à toutes les autres bougies environnantes, tapant sur un niveau de pivot ou de clôture de la veille, constitue un signal d'entrée de qualité.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Un avalement baissier en pleine zone de résistance (pivot ou clôture de la veille) est un signal de vente de qualité.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
           "note": "Pas de réponse API"
         },
         {
@@ -3985,24 +4011,6 @@
           "source_video_id": "t6Yp9yisaWw",
           "source_transcript": "t6Yp9yisaWw_Trader le Gold de manière simple et efficace ｜ Leçon N°7.txt",
           "note": "Signaux rouges répétés mentionnés mais lien avec probabilité cassure pas explicite."
-        },
-        {
-          "texte": "Un signal d'entrée est renforcé lorsqu'une bougie casse un niveau clé avec du volume élevé (ex: 9000-10000 contrats).",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Une mèche sans volume ne constitue pas un signal valide.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
         }
       ]
     },
@@ -5411,6 +5419,60 @@
           "source_video_id": "y72lC3B5k2E",
           "source_transcript": "y72lC3B5k2E_Belkhayate ： Lesson 31.txt",
           "note": "[REVALIDE S13] Avantage/inconvénient de l'ordre limite clairement explicités"
+        },
+        {
+          "texte": "Commencer par un seul micro lot ('mettre un doigt dans l'eau') avant de renforcer la position.",
+          "statut": "VALIDE",
+          "passage": "on rentre doucement on met un doigt dans l'eau et ensuite si ça nous va si le marché va dans notre sens on rajoute des lots au fur et à mesure",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Métaphore 'doigt dans l'eau' = commencer par un seul lot, très explicite"
+        },
+        {
+          "texte": "Sur les micro contrats de pétrole, le risque par trade est de l'ordre de 13 à 20 dollars, ce qui permet de trader sereinement.",
+          "statut": "VALIDE",
+          "passage": "je suis sur des micros que je perds que 13 dollars... le risque lorsque le marché revient c'était moins 13 dollars moins 15 dollars moins 20 dollars",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Risque de 13-20$ par trade sur micro contrat pétrole explicitement chiffré"
+        },
+        {
+          "texte": "On ne renforce la position qu'après confirmation que le marché va dans notre sens (cassure d'un plus haut avec volume).",
+          "statut": "VALIDE",
+          "passage": "j'achète encore un j'achète un parce que je confirme que je suis bien dans la tendance... si on revient casser le plus haut ici j'achète encore un",
+          "confiance": 0.97,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Renforcement uniquement après confirmation cassure plus haut avec volume"
+        },
+        {
+          "texte": "L'espérance mathématique de gain doit rester positive : ce qui compte c'est le ratio gain/perte, pas le taux de réussite seul.",
+          "statut": "VALIDE",
+          "passage": "vous pouvez avoir 30% de trades gagnants... mais lorsque vous gagnez, vous gagnez 4 à 5 fois ce que vous perdez, donc votre espérance mathématique de gains reste positive.",
+          "confiance": 0.99,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Expliqué explicitement avec chiffres et définition de l'espérance"
+        },
+        {
+          "texte": "Se focaliser sur un seul marché pour éviter d'être ballotté par des signaux contradictoires.",
+          "statut": "VALIDE",
+          "passage": "ma stratégie, elle est basée sur se focaliser sur un seul marché. Parce qu'une fois qu'on commence à regarder beaucoup de marchés... on commence à être balotté par les marchés.",
+          "confiance": 0.99,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Focus sur un seul marché explicitement recommandé"
+        },
+        {
+          "texte": "Sur un bon signal, le marché ne devrait pas revenir contre la position de plus de 100 à 200 dollars avant de partir dans le sens prévu.",
+          "statut": "VALIDE",
+          "passage": "si vous rentrez à 139.03 avec un drawdown de 100 dollars ou de 200 dollars, le marché n'a pas revenu à un tic. Vous êtes direct passé à la caisse.",
+          "confiance": 0.97,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Drawdown max 100-200$ sur bon signal, marché part directement"
         }
       ],
       "INVALIDE": [
@@ -5498,33 +5560,6 @@
           "note": "Énoncé présent mais très bref et avec 'peut être', peu développé"
         },
         {
-          "texte": "Commencer par un seul micro lot ('mettre un doigt dans l'eau') avant de renforcer la position.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Sur les micro contrats de pétrole, le risque par trade est de l'ordre de 13 à 20 dollars, ce qui permet de trader sereinement.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "On ne renforce la position qu'après confirmation que le marché va dans notre sens (cassure d'un plus haut avec volume).",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Donner systématiquement à son courtier une instruction de limitation de perte à 2% du capital avant chaque opération.",
           "statut": "AMBIGU",
           "passage": "il va demander à son courtier de limiter la perte à 2%",
@@ -5534,39 +5569,12 @@
           "note": "Mention de demander au courtier, mais pas présenté comme 'systématique' ou 'avant chaque'."
         },
         {
-          "texte": "L'espérance mathématique de gain doit rester positive : ce qui compte c'est le ratio gain/perte, pas le taux de réussite seul.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Rentrer acheteur uniquement quand le marché revient tester le niveau de clôture de la veille ou du pivot en zone de support, avec une mèche ou une bougie de rebond confirmant le niveau.",
           "statut": "AMBIGU",
           "passage": null,
           "confiance": 0.0,
           "source_video_id": "gTgNe0P4SVw",
           "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Se focaliser sur un seul marché pour éviter d'être ballotté par des signaux contradictoires.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Sur un bon signal, le marché ne devrait pas revenir contre la position de plus de 100 à 200 dollars avant de partir dans le sens prévu.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
           "note": "Pas de réponse API"
         },
         {
@@ -6202,6 +6210,60 @@
           "source_video_id": "vlgQJEE9dY0",
           "source_transcript": "vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. Leçon N°12.txt",
           "note": "[REVALIDE S13] Sortie systématique à la 3ème résistance/support"
+        },
+        {
+          "texte": "On peut renforcer la position (ajouter un micro lot) si le marché casse le plus haut précédent avec du volume.",
+          "statut": "VALIDE",
+          "passage": "on a renforcé parce qu'on a cassé ici avec du volume",
+          "confiance": 0.98,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Ajout de lot confirmé par cassure du plus haut avec volume"
+        },
+        {
+          "texte": "On peut mettre 1, 2, 3, 4 ou 5 micro lots en fonction du risque accepté, en s'exposant davantage uniquement quand on est dans le sens gagnant.",
+          "statut": "VALIDE",
+          "passage": "vous pouvez mettre 1,2,3,4,5 en fonction du risque que vous êtes en train de prendre... en vous exposant davantage en mettant 3 4 5 micro lots pendant que vous êtes dans le sens gagnant",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] 1 à 5 micro lots selon risque, augmentation côté gagnant seulement"
+        },
+        {
+          "texte": "Ne pas sortir d'une position uniquement parce qu'on a atteint un montant de gain jugé satisfaisant émotionnellement.",
+          "statut": "VALIDE",
+          "passage": "vous prenez les profits parce que vous voulez arrêter de stresser... ce n'est pas ça, bien tradé... il faut absolument avoir le cœur, le moral d'acier pour attendre",
+          "confiance": 0.97,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Concept clairement exprimé : ne pas sortir par satisfaction émotionnelle"
+        },
+        {
+          "texte": "Laisser le marché décider de la sortie : rester en position tant qu'il n'y a pas de signal de retournement, grand volume avec mèche, ou cassure de support/résistance.",
+          "statut": "VALIDE",
+          "passage": "laisser le marché, lui, vous laisser sortir... il n'y a pas de raison de sortir sur un marché si vous n'avez pas un retournement, un grand volume, une mèche",
+          "confiance": 0.96,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Idée centrale : c'est le marché qui décide la sortie via signaux"
+        },
+        {
+          "texte": "On peut sortir partiellement ou totalement sur une bougie à grand volume avec mèche après une tendance (signal de distribution/squeeze Belkhayate).",
+          "statut": "VALIDE",
+          "passage": "nous avons une prise de profit ici, parce qu'on a un grand volume et on a ce mouvement-là avec la mèche... comme ici, nous prenons nos profits ici",
+          "confiance": 0.95,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Sortie sur bougie grand volume avec mèche explicitement décrite"
+        },
+        {
+          "texte": "Les pertes doivent être prises rapidement, sans attendre.",
+          "statut": "VALIDE",
+          "passage": "les pertes doivent être rapides et sortir rapidement",
+          "confiance": 0.95,
+          "source_video_id": "vlgQJEE9dY0",
+          "source_transcript": "vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. Leçon N°12.txt",
+          "note": "[REVALIDE S14 passe3] Concept explicitement présent : sortir vite des pertes"
         }
       ],
       "INVALIDE": [
@@ -6271,66 +6333,12 @@
           "note": "[CITATION NON VERBATIM AUTO-CORRIGÉE] Implicite mais pas de formulation explicite de la règle volume/mèche."
         },
         {
-          "texte": "On peut renforcer la position (ajouter un micro lot) si le marché casse le plus haut précédent avec du volume.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "On peut mettre 1, 2, 3, 4 ou 5 micro lots en fonction du risque accepté, en s'exposant davantage uniquement quand on est dans le sens gagnant.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Ne pas sortir d'une position uniquement parce qu'on a atteint un montant de gain jugé satisfaisant émotionnellement.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Laisser le marché décider de la sortie : rester en position tant qu'il n'y a pas de signal de retournement, grand volume avec mèche, ou cassure de support/résistance.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "On peut sortir partiellement ou totalement sur une bougie à grand volume avec mèche après une tendance (signal de distribution/squeeze Belkhayate).",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Prendre ses profits sur le prochain niveau de pivot (résistance ou support suivant) connu à l'avance dès le matin.",
           "statut": "AMBIGU",
           "passage": null,
           "confiance": 0.0,
           "source_video_id": "gTgNe0P4SVw",
           "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Les pertes doivent être prises rapidement, sans attendre.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "vlgQJEE9dY0",
-          "source_transcript": "vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. Leçon N°12.txt",
           "note": "Pas de réponse API"
         },
         {
@@ -8397,6 +8405,204 @@
           "source_video_id": "yTpo7ATDF5o",
           "source_transcript": "yTpo7ATDF5o_Extraits des trades lives de l’Espace VIP de Belkhayate Method.txt",
           "note": "[REVALIDE S13] Idée explicitement présente: gros absents, petits joueurs seuls, attendre retour des gros."
+        },
+        {
+          "texte": "Le POC (Point of Control) du Volume Profile Fixed Range représente le niveau où le plus grand volume a été échangé et constitue un support ou une résistance important.",
+          "statut": "VALIDE",
+          "passage": "le POC. C'est un point de contrôle. C'est là qu'il y a eu, à ce niveau-là, il y a eu énormément de volume. C'est là qu'il y a eu le plus de volume pendant cette tendance baissière.",
+          "confiance": 0.99,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] POC = niveau max volume = support/résistance important, clairement défini"
+        },
+        {
+          "texte": "Un niveau POC qui était support devient résistance une fois cassé, et inversement.",
+          "statut": "VALIDE",
+          "passage": "c'était un support. Là, une fois qu'il a cassé les revenus, on voit bien que 15645 est un niveau important. Effectivement, lorsque le marché revient taper ici, il tombe avec un grand volume.",
+          "confiance": 0.9,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Support devenu résistance après cassure, concept présent via exemple concret"
+        },
+        {
+          "texte": "Lorsque le marché vient taper sur le POC avec un grand volume et rebondit, cela confirme l'importance du niveau.",
+          "statut": "VALIDE",
+          "passage": "lorsque le marché revient taper ici, il tombe avec un grand volume. J'étais content parce que je me suis dit, ça y est, ça va repartir à la baisse.",
+          "confiance": 0.88,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Rebond sur POC avec volume confirme importance du niveau"
+        },
+        {
+          "texte": "La cassure du POC avec force et volume confirme l'accélération du mouvement directionnel.",
+          "statut": "VALIDE",
+          "passage": "les prochaines cinq minutes, là, on a cassé avec force le POC... Et c'est clair quand même que c'est également sur les prix... on a cassé cette résistance avec force. Et là, j'ai acheté le Nasdaq",
+          "confiance": 0.97,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Cassure POC avec force = confirmation accélération directionnelle"
+        },
+        {
+          "texte": "Utiliser le Volume Profile Fixed Range en traçant du plus haut au plus bas d'une tendance pour identifier le POC de cette tendance.",
+          "statut": "VALIDE",
+          "passage": "je viens ici cette fois-ci, sur cette tendance-là et j'essaie de regarder où est-ce qu'il est le nouveau... vous tracez du bas jusqu'en haut pour avoir la ligne blanche compression",
+          "confiance": 0.92,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Tracer Fixed Range sur une tendance pour trouver le POC, concept présent"
+        },
+        {
+          "texte": "Le Volume Profile Visible Range permet de visualiser le POC sur toute la zone affichée à l'écran.",
+          "statut": "VALIDE",
+          "passage": "vous pouvez également utiliser visible range. Visible range, ça signifie que si vous cliquez ici, vous allez avoir le volume profile de tout ce que vous voyez ici.",
+          "confiance": 0.98,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Visible Range = POC sur toute la zone affichée, explicitement décrit"
+        },
+        {
+          "texte": "Ne pas utiliser le Volume Profile comme signal d'achat ou de vente direct, mais pour identifier les niveaux où les grands acteurs sont entrés sur le marché.",
+          "statut": "VALIDE",
+          "passage": "je ne voulais pas que vous l'utilisiez en signal d'achat et de vente... l'utiliser pour essayer de rebondir sur le POC pour pouvoir situer là où il y a les grands qui sont en train de rentrer",
+          "confiance": 0.97,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Ne pas utiliser VP comme signal direct, mais pour localiser grands acteurs"
+        },
+        {
+          "texte": "Une zone de consolidation (couloir ou rectangle) suivie d'un breakout avec accélération du volume est une configuration idéale d'achat.",
+          "statut": "VALIDE",
+          "passage": "on a bien déterminé ici une accalmie sur les prix... couloir ou un rectangle... cassure du couloir break out ici break out sur le volume on est en tendance haussière c'est vraiment les configurations idéales pour acheter",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Consolidation + breakout + volume = configuration idéale d'achat"
+        },
+        {
+          "texte": "Le retour du prix dans le 'ventre' entre le Belkhayate Trend et la MM209 après l'entrée n'est pas un signal de panique si le support tient.",
+          "statut": "VALIDE",
+          "passage": "le marché est revenu dans le ventre on est dans le ventre entre le trading entre berger trend et 209... on ne panique pas on pense qu'on est bien",
+          "confiance": 0.99,
+          "source_video_id": "YQDcopMt7ns",
+          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
+          "note": "[REVALIDE S14 passe3] Retour dans le ventre Trend/209 = pas de panique si support tient"
+        },
+        {
+          "texte": "Les trading ranges représentent environ 75% du temps sur un marché ; les tendances représentent les 25% restants.",
+          "statut": "VALIDE",
+          "passage": "Les trading range représentent 75% du temps sur un marché... c'est justement ces périodes-là de trading range qui vous font perdre l'argent.",
+          "confiance": 0.99,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Chiffre 75% cité mot pour mot, concept central de la vidéo"
+        },
+        {
+          "texte": "L'impulsion Belkhayate se reconnaît par une bougie de 15 minutes bien supérieure à toutes les bougies du trading range précédent, accompagnée d'un fort volume.",
+          "statut": "VALIDE",
+          "passage": "une bougie de 15 minutes, cette bougie est bien supérieure, elle avale un peu toutes les autres bougies du TradingRange et que vous avez du volume, cela signifie qu'il y a une impulsion",
+          "confiance": 0.98,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Description précise de l'impulsion Belkhayate sur 15min avec volume"
+        },
+        {
+          "texte": "Quand on a une grande bougie d'impulsion qui 'avale' les bougies du range avec du volume, cela signifie qu'un acteur important entre avec intention de rester : c'est un signal d'achat ou de vente fort.",
+          "statut": "VALIDE",
+          "passage": "il y a quelqu'un qui rentre et qui a l'intention de rester longtemps. Donc, c'est un très, très bon signal d'achat.",
+          "confiance": 0.97,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Acteur important entrant avec intention long terme = signal fort"
+        },
+        {
+          "texte": "Le Belkhayate Squeeze est identifié par : une tendance (haussière ou baissière), suivie d'un volume très important supérieur à tout ce qui précède, avec une mèche dans la direction de la tendance — cela signale une distribution/retournement.",
+          "statut": "VALIDE",
+          "passage": "nous avons une tendance haussière, nous avons la mèche et nous avons un volume bien supérieur à tout ce qui s'est passé pendant cette tendance. Conclusion, nous avons un très fort signal de vente",
+          "confiance": 0.98,
+          "source_video_id": "doUa5le9fFs",
+          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
+          "note": "[REVALIDE S14 passe3] Squeeze Belkhayate décrit avec ses 3 éléments : tendance, mèche, volume max"
+        },
+        {
+          "texte": "Les institutionnels (BlackRock, algorithmes) utilisent les niveaux de pivots et la clôture de la veille comme références pour leurs décisions d'achat et de vente.",
+          "statut": "VALIDE",
+          "passage": "les algorithmes de trading et les grands traiteurs institutionnels utilisent ces niveaux-là pour rentrer et pour sortir",
+          "confiance": 0.98,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Institutionnels et algos utilisant les pivots clairement affirmé"
+        },
+        {
+          "texte": "La clôture de la veille sert de référence de transmission entre les équipes de trading (session asiatique, européenne, américaine) des grandes institutions.",
+          "statut": "VALIDE",
+          "passage": "des grandes structures comme BlackRock... équipes trois fois huit. Asie, Europe, Etats-Unis... qu'est-ce qui sert de référence pour ces gens-là ? C'est la clôture",
+          "confiance": 0.99,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Transmission entre sessions via clôture explicitement développée"
+        },
+        {
+          "texte": "Un marché qui ouvre en dessous du pivot a une probabilité élevée de rester faible durant la journée, le pivot servant alors de résistance.",
+          "statut": "VALIDE",
+          "passage": "vous allez chercher à avoir des signaux vendeurs lorsque le marché ouvre en dessous du pivot... le pivot, il sert de résistance extraordinaire... pendant toute la matinée",
+          "confiance": 0.97,
+          "source_video_id": "gTgNe0P4SVw",
+          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
+          "note": "[REVALIDE S14 passe3] Ouverture sous pivot = faiblesse, pivot en résistance clairement décrit"
+        },
+        {
+          "texte": "Identifier d'abord la tendance en weekly avant de trader en 15 minutes.",
+          "statut": "VALIDE",
+          "passage": "on va mettre le ZB en weekly déjà... Et une fois qu'on sait ça, on revient sur les 15 minutes.",
+          "confiance": 0.98,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Même concept que règle 2, weekly avant 15min confirmé"
+        },
+        {
+          "texte": "En présence d'un trading range, attendre la cassure franche du range avec force avant d'envisager une entrée.",
+          "statut": "VALIDE",
+          "passage": "on est dans un trade-in range... Et une fois qu'on a cassé ce trade-in range, ici, avec force, on peut éventuellement acheter ici.",
+          "confiance": 0.96,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Attente cassure franche du range avec force avant entrée"
+        },
+        {
+          "texte": "Une fausse cassure accompagnée de volume est une configuration intéressante à surveiller.",
+          "statut": "VALIDE",
+          "passage": "on a eu une fausse cassure, ici, avec du volume. Donc, moi, cette configuration-là est intéressante.",
+          "confiance": 0.97,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Fausse cassure + volume = configuration intéressante, explicite"
+        },
+        {
+          "texte": "À chaque fois que le marché revient dans la zone de résistance, il y a eu historiquement un signal de vente.",
+          "statut": "VALIDE",
+          "passage": "l'historique est en train de me le prouver, qu'à chaque fois que le marché est venu ici, dans cette zone, à chaque fois, il y a eu un signal de vente.",
+          "confiance": 0.99,
+          "source_video_id": "uya06_CeE4c",
+          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
+          "note": "[REVALIDE S14 passe3] Retour en zone résistance = signal de vente historiquement confirmé"
+        },
+        {
+          "texte": "Le marché existe en trois états : breakout (10% du temps), tendance (30% du temps), trading range (60% du temps).",
+          "statut": "VALIDE",
+          "passage": "sur la cassure 10% du temps [...] la tendance c'est 30% du temps et le trade in range c'est 60% du temps",
+          "confiance": 0.99,
+          "source_video_id": "vlgQJEE9dY0",
+          "source_transcript": "vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. Leçon N°12.txt",
+          "note": "[REVALIDE S14 passe3] Les 3 états et leurs probabilités énoncés explicitement"
+        },
+        {
+          "texte": "Un système de suivi de tendance (moyennes mobiles, Barycenter) ne sera efficace que 30% du temps et fera perdre de l'argent les 70% restants.",
+          "statut": "VALIDE",
+          "passage": "si vous utilisez un système de trading qui suit les tendances par exemple les moyennes mobiles ou [...] mon graffiti center il ne va être opérationnel que 30% du temps et donc les 70 autres pour cent vous allez perdre de l'argent",
+          "confiance": 0.99,
+          "source_video_id": "vlgQJEE9dY0",
+          "source_transcript": "vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. Leçon N°12.txt",
+          "note": "[REVALIDE S14 passe3] Concept explicitement formulé avec les mêmes chiffres"
         }
       ],
       "INVALIDE": [
@@ -8484,69 +8690,6 @@
           "note": "Phase terminale mentionnée mais critère exact (tremplins diminuants) pas explicite"
         },
         {
-          "texte": "Le POC (Point of Control) du Volume Profile Fixed Range représente le niveau où le plus grand volume a été échangé et constitue un support ou une résistance important.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Un niveau POC qui était support devient résistance une fois cassé, et inversement.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Lorsque le marché vient taper sur le POC avec un grand volume et rebondit, cela confirme l'importance du niveau.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "La cassure du POC avec force et volume confirme l'accélération du mouvement directionnel.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Utiliser le Volume Profile Fixed Range en traçant du plus haut au plus bas d'une tendance pour identifier le POC de cette tendance.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Le Volume Profile Visible Range permet de visualiser le POC sur toute la zone affichée à l'écran.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Ne pas utiliser le Volume Profile comme signal d'achat ou de vente direct, mais pour identifier les niveaux où les grands acteurs sont entrés sur le marché.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "Après la cassure d'une résistance, l'ancien niveau de résistance doit se transformer en support pour valider la continuation haussière.",
           "statut": "AMBIGU",
           "passage": "le marché bien sûr vient tout de suite après vous mettre en doute et voilà c'est ça le trading des fois on se dit tiens le marché il me donne raison",
@@ -8574,87 +8717,6 @@
           "note": "Pull-back mentionné mais support cassé comme résistance non explicite"
         },
         {
-          "texte": "Une zone de consolidation (couloir ou rectangle) suivie d'un breakout avec accélération du volume est une configuration idéale d'achat.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Le retour du prix dans le 'ventre' entre le Belkhayate Trend et la MM209 après l'entrée n'est pas un signal de panique si le support tient.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "YQDcopMt7ns",
-          "source_transcript": "YQDcopMt7ns_Trading sur le micro contrat de pétrole pour les examens  Leeloo, Uprofits, OneUp Trader et autres.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Les trading ranges représentent environ 75% du temps sur un marché ; les tendances représentent les 25% restants.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "L'impulsion Belkhayate se reconnaît par une bougie de 15 minutes bien supérieure à toutes les bougies du trading range précédent, accompagnée d'un fort volume.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Quand on a une grande bougie d'impulsion qui 'avale' les bougies du range avec du volume, cela signifie qu'un acteur important entre avec intention de rester : c'est un signal d'achat ou de vente fort.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Le Belkhayate Squeeze est identifié par : une tendance (haussière ou baissière), suivie d'un volume très important supérieur à tout ce qui précède, avec une mèche dans la direction de la tendance — cela signale une distribution/retournement.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "doUa5le9fFs",
-          "source_transcript": "doUa5le9fFs_Identifier le trading range pour apprendre à laisser courir le gain.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Les institutionnels (BlackRock, algorithmes) utilisent les niveaux de pivots et la clôture de la veille comme références pour leurs décisions d'achat et de vente.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "La clôture de la veille sert de référence de transmission entre les équipes de trading (session asiatique, européenne, américaine) des grandes institutions.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Un marché qui ouvre en dessous du pivot a une probabilité élevée de rester faible durant la journée, le pivot servant alors de résistance.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "gTgNe0P4SVw",
-          "source_transcript": "gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et résistances clé en main.txt",
-          "note": "Pas de réponse API"
-        },
-        {
           "texte": "L'absence d'attaque vendeuse dans les configurations indique que les algos sont en phase d'accumulation, ce qui favorise la poursuite de la hausse.",
           "statut": "AMBIGU",
           "passage": "ça c'est des configurations typiques à de d'une tentative des algos pour accumuler à du sur le blé",
@@ -8671,60 +8733,6 @@
           "source_video_id": "pe1PIKDUGIs",
           "source_transcript": "pe1PIKDUGIs_La Fausse Cassure devient votre Meilleur Trade.txt",
           "note": "ABCD avec cassure + mèche + volume mentionnés mais pas tous ensemble"
-        },
-        {
-          "texte": "Identifier d'abord la tendance en weekly avant de trader en 15 minutes.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "En présence d'un trading range, attendre la cassure franche du range avec force avant d'envisager une entrée.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Une fausse cassure accompagnée de volume est une configuration intéressante à surveiller.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "À chaque fois que le marché revient dans la zone de résistance, il y a eu historiquement un signal de vente.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "uya06_CeE4c",
-          "source_transcript": "uya06_CeE4c_Définir avec précision le Stop Loss & Profits - EXTRAIT LIVE VIP du 11 Mai 2022.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Le marché existe en trois états : breakout (10% du temps), tendance (30% du temps), trading range (60% du temps).",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "vlgQJEE9dY0",
-          "source_transcript": "vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. Leçon N°12.txt",
-          "note": "Pas de réponse API"
-        },
-        {
-          "texte": "Un système de suivi de tendance (moyennes mobiles, Barycenter) ne sera efficace que 30% du temps et fera perdre de l'argent les 70% restants.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "vlgQJEE9dY0",
-          "source_transcript": "vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. Leçon N°12.txt",
-          "note": "Pas de réponse API"
         },
         {
           "texte": "Le pattern 'tir à l'arc' (squeeze) consiste en un trading range suivi d'une fausse cassure d'un côté, puis d'une cassure violente du côté opposé qui initie un fort mouvement d'impulsion.",
@@ -8846,6 +8854,15 @@
           "source_video_id": "_kXq6Ad8ZWk",
           "source_transcript": "_kXq6Ad8ZWk_Devenir un expert dans le Trading de l'OR.txt",
           "note": "Le dollar cité comme déterminant du prix"
+        },
+        {
+          "texte": "Les entreprises américaines empruntent à taux bas et rachètent leurs propres actions, ce qui alimente une hausse structurelle des marchés boursiers.",
+          "statut": "VALIDE",
+          "passage": "beaucoup de sociétés qui empruntent de l'argent facilement et qui rachètent leurs propres actions ce qui fait exploser les marchés financiers",
+          "confiance": 0.96,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Emprunt à taux bas + rachat d'actions = hausse structurelle des marchés"
         }
       ],
       "INVALIDE": [
@@ -8859,17 +8876,7 @@
           "note": "Aucune mention du sous-investissement pétrolier ou des énergies alternatives"
         }
       ],
-      "AMBIGU": [
-        {
-          "texte": "Les entreprises américaines empruntent à taux bas et rachètent leurs propres actions, ce qui alimente une hausse structurelle des marchés boursiers.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
-        }
-      ]
+      "AMBIGU": []
     },
     "volume_liquidite": {
       "VALIDE": [
@@ -9367,6 +9374,15 @@
           "source_video_id": "y72lC3B5k2E",
           "source_transcript": "y72lC3B5k2E_Belkhayate ： Lesson 31.txt",
           "note": "[REVALIDE S13] Divergence prix haussier / volume baissier = signal retournement court terme, quelques ticks"
+        },
+        {
+          "texte": "Une grande bougie accompagnée de volume lors de la cassure d'une résistance confirme la validité du signal d'achat.",
+          "statut": "VALIDE",
+          "passage": "regardons clairement ici, le Nasdaq, à un moment donné, à l'ouverture, il va casser ce niveau là. Ici vous voyez, il va casser cette résistance avec une grande bougie et avec du volume. Et lorsque vous avez cette situation là, vous avez Belchiat Impulsion.",
+          "confiance": 0.98,
+          "source_video_id": "FQVNykHxVnE",
+          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
+          "note": "[REVALIDE S14 passe3] Grande bougie + volume sur cassure résistance = signal achat valide (Impulsion)"
         }
       ],
       "INVALIDE": [
@@ -9425,15 +9441,6 @@
           "source_video_id": "BOENPfxIptU",
           "source_transcript": "BOENPfxIptU_Trading simple du Dow Jones avec les indicateurs Belkhayate.txt",
           "note": "Concept absent du transcript; pas de mention explicite d'accumulation sans volume/mèche"
-        },
-        {
-          "texte": "Une grande bougie accompagnée de volume lors de la cassure d'une résistance confirme la validité du signal d'achat.",
-          "statut": "AMBIGU",
-          "passage": null,
-          "confiance": 0.0,
-          "source_video_id": "FQVNykHxVnE",
-          "source_transcript": "FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhayate Method.txt",
-          "note": "Pas de réponse API"
         },
         {
           "texte": "Lorsque la surliquidité mondiale se retire, toutes les classes d'actifs (actions, obligations, matières premières) tombent simultanément.",
