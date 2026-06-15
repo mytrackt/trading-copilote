@@ -3,7 +3,7 @@
     "version": "1.0",
     "model": "claude-sonnet-4-6",
     "created_at": "2026-06-14T20:48:32.197418Z",
-    "last_updated": "2026-06-14T23:23:34.007356+00:00",
+    "last_updated": "2026-06-15T13:35:09.423202+00:00",
     "categories": [
       "saisonnalite",
       "correlations",
@@ -25,8 +25,22 @@
       "rules_before": 1461,
       "rules_removed": 204,
       "rules_after": 1257,
-      "kb_provisoire": true,
+      "kb_provisoire": false,
       "note": "videos[].rules non touchees (trace brute). DOUTEUX conserves."
+    },
+    "kb_provisoire": false,
+    "b05_lift": {
+      "validation_5pct": "5 desaccords / 63 = 7.9% <= seuil 10%",
+      "regles_supprimees_manuel": [
+        "#8 entrer en sens inverse apres perte"
+      ],
+      "regles_promues_valide": [
+        "#29 vendre zone rouge COG",
+        "#60 oscillation ligne bleue COG"
+      ],
+      "rules_after": 1256,
+      "kb_provisoire": false,
+      "note": "Flag moteur KB_PROVISOIRE_DEFAUT=False dans claude_brain.py."
     }
   },
   "videos": {
@@ -5288,7 +5302,6 @@
       "Le cerveau humain n'est pas naturellement fait pour trader ; il faut le reformater par des exercices répétés.",
       "Les traders gagnants ne cherchent pas à prédire ce que le marché doit faire ; ils se contentent de suivre un indicateur ou une mécanique.",
       "Il faut se déconnecter de toute logique sur le marché et se concentrer uniquement sur ce que dit l'indicateur.",
-      "S'entraîner à entrer en sens inverse dès une perte permet de déconnecter le cerveau de ses biais et de le former à suivre la réalité du marché.",
       "Ne jamais rester collé sur une position en espérant que le marché revienne ; agir selon le résultat obtenu.",
       "Il faut s'entraîner activement en passant plusieurs trades par jour, et non rester inactif à attendre.",
       "Anticiper les mouvements des algorithmes permet de gagner en confiance et de ne plus subir le marché.",

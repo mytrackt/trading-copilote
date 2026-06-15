@@ -2,11 +2,11 @@
   "audited_at": "2026-06-14T23:16:06.183762Z",
   "model": "claude-sonnet-4-6",
   "stats": {
-    "VALIDE": 29,
-    "DOUTEUX": 1228,
+    "DOUTEUX": 1225,
     "INVALIDE": 165,
+    "VALIDE": 31,
     "DOUBLON": 39,
-    "NON_AUDITE": 0
+    "SUPPRIME_MANUEL": 1
   },
   "categories": {
     "saisonnalite": [
@@ -2377,8 +2377,8 @@
       {
         "index": 204,
         "regle": "Le marché oscille de part et d'autre de la ligne bleue (centre de gravité) entre les zones rouges et vertes.",
-        "statut": "DOUTEUX",
-        "motif": "Concept d'oscillation autour du COG est cohérent mais formulé de manière trop générique. La terminologie 'zones rouges et vertes' n'est pas confirmée par les transcrits officiels."
+        "statut": "VALIDE",
+        "motif": "[B05 manuel] promue 5pct (ancien: DOUTEUX). Concept d'oscillation autour du COG est cohérent mais formulé de manière trop générique. La terminologie 'zones rouges et vertes' n'est pas confirmée par les transcrits officiels."
       },
       {
         "index": 205,
@@ -6159,8 +6159,8 @@
       {
         "index": 213,
         "regle": "Vendre dans la zone rouge du Gravity Center (extrémité haute du canal).",
-        "statut": "DOUTEUX",
-        "motif": "Utilise 'zone rouge' du COG (extrémité haute) sans préciser les multiplicateurs confirmés. La terminologie couleur (rouge/vert) n'est pas validée par les transcrits officiels."
+        "statut": "VALIDE",
+        "motif": "[B05 manuel] promue 5pct (ancien: DOUTEUX). Utilise 'zone rouge' du COG (extrémité haute) sans préciser les multiplicateurs confirmés. La terminologie couleur (rouge/vert) n'est pas validée par les transcrits officiels."
       },
       {
         "index": 214,
@@ -7881,8 +7881,8 @@
       {
         "index": 95,
         "regle": "S'entraîner à entrer en sens inverse dès une perte permet de déconnecter le cerveau de ses biais et de le former à suivre la réalité du marché.",
-        "statut": "DOUTEUX",
-        "motif": "Technique d'entraînement comportemental non verifiable dans transcrits Belkhayate, attribution incertaine, potentiellement dangereuse si appliquée en réel"
+        "statut": "SUPPRIME_MANUEL",
+        "motif": "[B05 manuel] supprimee de la KB (dangereuse) (ancien: DOUTEUX). Technique d'entraînement comportemental non verifiable dans transcrits Belkhayate, attribution incertaine, potentiellement dangereuse si appliquée en réel"
       },
       {
         "index": 96,

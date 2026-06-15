@@ -255,7 +255,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) — commit `d57ae30` |
 | Paramètres COG (`COGParams`) | ✅ Figés S08 — période 180, ordre 3, coeffs 0,618/1,618 (commit `103c77f`) — confirmés PÉTROLE, à backtester GC/HG/ZW |
 | Énergie Belkhayate | 🔒 NON codée (stub) — attendre validation transcrits (conflit MFI vs proxy ATR non tranché) |
-| KB (`KNOWLEDGE_BASE_MASTER.json`) | ⚠️ PROVISOIRE (synthèses NotebookLM) — rebuild Phase B-02 avant tout signal réel |
+| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE (108 transcrits VALIDE) — rebuild B-02 + audit B-03 + purge B-04 + validation 5% B-05. **kb_provisoire LEVÉ** (`KB_PROVISOIRE_DEFAUT=False`). 1256 règles (31 VALIDE / 1225 DOUTEUX conservés à relire). Mode AUTO reste bloqué (UI+API+fallback). |
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
 

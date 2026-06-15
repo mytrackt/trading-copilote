@@ -13,7 +13,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 logger = logging.getLogger(__name__)
 
 # --- A5 (Phase 6) : KB provisoire + bareme fallback aligne /10 ---
-KB_PROVISOIRE_DEFAUT = True
+# B-05 (S10) : provisoire leve. KB reconstruite depuis 108 transcrits VALIDE (B-02),
+# auditee (B-03), purgee INVALIDE/DOUBLON (B-04), echantillon 5% valide (7.9% desaccord <= 10%).
+KB_PROVISOIRE_DEFAUT = False
 BANNIERE_KB_PROVISOIRE = "KB provisoire -- transcription Whisper non terminee"
 SEUIL_FALLBACK = 7.0            # aligne sur signal_engine.SEUIL_SIGNAL (/10)
 CONFIANCE_MAX_FALLBACK = 65     # plafond confiance fallback ; Auto toujours interdit
@@ -196,9 +198,9 @@ def load_kb_rules(kb_path: str = None, kb_provisoire: bool = KB_PROVISOIRE_DEFAU
     Charge la Knowledge Base Belkhayate depuis le fichier JSON.
     Renvoie {rules: str, kb_provisoire: bool, banniere: str|None}.
 
-    kb_provisoire=True tant que la KB n'a pas ete reconstruite a partir des VRAIS transcripts
-    Whisper (la KB actuelle = syntheses NotebookLM, invalide). Dans ce cas : mode Auto interdit
-    et banniere affichee (enforce par get_signal / _enforce_kb_provisoire).
+    kb_provisoire par defaut = False depuis B-05 (KB reconstruite des VRAIS transcripts Whisper,
+    auditee, purgee, echantillon 5% valide). Si kb_provisoire=True (passe explicitement) :
+    mode Auto interdit + banniere affichee (enforce par get_signal / _enforce_kb_provisoire).
     """
     if kb_path is None:
         kb_path = os.path.join(os.path.dirname(BASE_DIR), "04-cerveau-trading", "KNOWLEDGE_BASE_MASTER.json")

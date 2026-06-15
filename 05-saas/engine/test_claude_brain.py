@@ -105,17 +105,25 @@ def test_parse_claude_json_texte_autour():
 
 
 # ---- load_kb_rules ----
-def test_load_kb_rules_renvoie_flag_provisoire():
+def test_load_kb_rules_defaut_non_provisoire():
+    # B-05 : provisoire leve par defaut (KB reconstruite + auditee + validee 5%)
     kb = cb.load_kb_rules()
     assert set(kb.keys()) == {"rules", "kb_provisoire", "banniere"}
+    assert kb["kb_provisoire"] is False
+    assert kb["banniere"] is None
+    assert isinstance(kb["rules"], str)
+
+
+def test_load_kb_rules_provisoire_explicite():
+    # Si on force kb_provisoire=True, la banniere revient
+    kb = cb.load_kb_rules(kb_provisoire=True)
     assert kb["kb_provisoire"] is True
     assert kb["banniere"] == cb.BANNIERE_KB_PROVISOIRE
-    assert isinstance(kb["rules"], str)
 
 
 def test_load_kb_rules_fichier_absent():
     kb = cb.load_kb_rules(kb_path=r"C:\trading-copilote\data\__inexistant__.json")
-    assert "KB non chargee" in kb["rules"] and kb["kb_provisoire"] is True
+    assert "KB non chargee" in kb["rules"] and kb["kb_provisoire"] is False
 
 
 if __name__ == "__main__":
