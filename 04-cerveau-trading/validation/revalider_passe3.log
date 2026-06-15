@@ -1,0 +1,64 @@
+2026-06-15 20:31:43,656 [INFO] ======================================================================
+2026-06-15 20:31:43,681 [INFO] REVALIDER_PASSE3 v1.0 -- 3e passe semantique KB Belkhayate
+2026-06-15 20:31:43,699 [INFO] Mode    : DRY RUN
+2026-06-15 20:31:43,717 [INFO] Modele  : claude-sonnet-4-6
+2026-06-15 20:31:43,725 [INFO] ======================================================================
+2026-06-15 20:31:43,764 [INFO] KB chargee : 1265 regles
+2026-06-15 20:31:43,786 [INFO] Extraction -> pas_reponse:63  humain:40
+2026-06-15 20:31:43,805 [INFO]   -> 63 'Pas de reponse API' a traiter
+2026-06-15 20:31:43,825 [INFO]   -> 40 autres AMBIGU laisses pour revue humaine
+2026-06-15 20:31:43,843 [INFO]   -> 6 transcripts uniques (claude-sonnet-4-6)
+2026-06-15 20:31:43,854 [INFO] === 3e PASSE SEMANTIQUE -- 63 regles ===
+2026-06-15 20:31:43,868 [INFO]   -> 6 transcripts uniques
+2026-06-15 20:31:43,884 [INFO]   [001/6] YQDcopMt7ns_Trading sur le micro contrat de pétrole pou -- 14 regles
+2026-06-15 20:31:43,907 [INFO]     [DRY RUN] batch 1/1 -- 14 regles simulees
+2026-06-15 20:31:43,910 [INFO]   [002/6] doUa5le9fFs_Identifier le trading range pour apprendre  -- 9 regles
+2026-06-15 20:31:43,919 [INFO]     [DRY RUN] batch 1/1 -- 9 regles simulees
+2026-06-15 20:31:43,923 [INFO]   [003/6] gTgNe0P4SVw_Belkhayate Pivots Method, vos supports et r -- 15 regles
+2026-06-15 20:31:43,953 [INFO]     [DRY RUN] batch 1/1 -- 15 regles simulees
+2026-06-15 20:31:43,957 [INFO]   [004/6] uya06_CeE4c_Définir avec précision le Stop Loss & Profi -- 12 regles
+2026-06-15 20:31:43,985 [INFO]     [DRY RUN] batch 1/1 -- 12 regles simulees
+2026-06-15 20:31:43,997 [INFO]   [005/6] FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Belkhay -- 10 regles
+2026-06-15 20:31:44,014 [INFO]     [DRY RUN] batch 1/1 -- 10 regles simulees
+2026-06-15 20:31:44,034 [INFO]   [006/6] vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursier. L -- 3 regles
+2026-06-15 20:31:44,048 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 20:31:44,071 [INFO]   3e passe terminee : 63 regles traitees
+2026-06-15 20:31:44,091 [INFO] KB mise a jour -> {'VALIDE_gagne': 0, 'INVALIDE_gagne': 0, 'reste_AMBIGU': 40, 'DRY_RUN': 63}
+2026-06-15 20:31:44,109 [INFO] [DRY RUN] Aucun fichier modifie
+2026-06-15 20:31:44,123 [INFO] 
+2026-06-15 20:31:44,139 [INFO] ======================================================================
+2026-06-15 20:31:44,148 [INFO] RESULTATS FINAUX
+2026-06-15 20:31:44,153 [INFO] ----------------------------------------------------------------------
+2026-06-15 20:31:44,157 [INFO]   VALIDE gagnes   : +0
+2026-06-15 20:31:44,173 [INFO]   INVALIDE gagnes : +0
+2026-06-15 20:31:44,188 [INFO]   Restent AMBIGU  :  40
+2026-06-15 20:31:44,191 [INFO] ----------------------------------------------------------------------
+2026-06-15 20:31:44,197 [INFO]   VALIDE          : 1111 (87.8%)
+2026-06-15 20:31:44,201 [INFO]   INVALIDE        :   51 (4.0%)
+2026-06-15 20:31:44,204 [INFO]   AMBIGU          :  103 (8.1%)
+2026-06-15 20:31:44,207 [INFO] ----------------------------------------------------------------------
+2026-06-15 20:31:44,218 [INFO]   A_VERIFIER_HUMAIN.md : 103 cas restants
+2026-06-15 20:31:44,235 [INFO] ======================================================================
+2026-06-15 20:31:44,250 [INFO] Termine.
+2026-06-15 20:31:56,416 [INFO] ======================================================================
+2026-06-15 20:31:56,432 [INFO] REVALIDER_PASSE3 v1.0 -- 3e passe semantique KB Belkhayate
+2026-06-15 20:31:56,443 [INFO] Mode    : PRODUCTION
+2026-06-15 20:31:56,455 [INFO] Modele  : claude-sonnet-4-6
+2026-06-15 20:31:56,459 [INFO] ======================================================================
+2026-06-15 20:32:17,972 [INFO] ======================================================================
+2026-06-15 20:32:17,977 [INFO] REVALIDER_PASSE3 v1.0 -- 3e passe semantique KB Belkhayate
+2026-06-15 20:32:17,984 [INFO] Mode    : PRODUCTION
+2026-06-15 20:32:17,991 [INFO] Modele  : claude-sonnet-4-6
+2026-06-15 20:32:17,995 [INFO] ======================================================================
+2026-06-15 20:32:19,669 [INFO] Client Claude initialise
+2026-06-15 20:32:19,704 [INFO] KB chargee : 1265 regles
+2026-06-15 20:32:19,709 [INFO] Extraction -> pas_reponse:63  humain:40
+2026-06-15 20:32:19,715 [INFO]   -> 63 'Pas de reponse API' a traiter
+2026-06-15 20:32:19,720 [INFO]   -> 40 autres AMBIGU laisses pour revue humaine
+2026-06-15 20:32:19,723 [INFO]   -> 6 transcripts uniques (claude-sonnet-4-6)
+2026-06-15 20:32:19,728 [INFO] === 3e PASSE SEMANTIQUE -- 63 regles ===
+2026-06-15 20:32:19,733 [INFO]   -> 6 transcripts uniques
+2026-06-15 20:32:19,737 [INFO]   [001/6] YQDcopMt7ns_Trading sur le micro contrat de pétrole pou -- 14 regles
+2026-06-15 20:32:46,632 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:32:46,698 [INFO]     batch 1/1 : {'AMBIGU': 1, 'VALIDE': 13}
+2026-06-15 20:32:46,714 [INFO]   [002/6] doUa5le9fFs_Identifier le trading range pour apprendre  -- 9 regles
