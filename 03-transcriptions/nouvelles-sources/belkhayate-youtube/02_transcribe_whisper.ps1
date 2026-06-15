@@ -46,4 +46,4 @@ Write-Host "=== TRANSCRIPTION TERMINEE ===" -ForegroundColor Green
 Write-Host "Fichiers TXT dans : $OUTPUT_DIR"
 Write-Host ""
 Write-Host "=== LANCEMENT AUDIT QUALITE ===" -ForegroundColor Cyan
-python "C:\trading-copilote\03-transcriptions\nouvelles-sources\belkhayate-youtube\03_audit_qualite.py"
+py "C:\trading-copilote\03-transcriptions\nouvelles-sources\belkhayate-youtube\03_audit_qualite.py"

@@ -13,8 +13,8 @@ Etapes :
 
 Usage :
   set ANTHROPIC_API_KEY="sk-ant-..."
-  python -m py_compile transcript_processor.py
-  python transcript_processor.py
+  py -m py_compile transcript_processor.py
+  py transcript_processor.py
 """
 
 import csv
