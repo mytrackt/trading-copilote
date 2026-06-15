@@ -1,0 +1,86 @@
+Welcome to Belkiot.com
+Today we're doing an introduction to time channels and trade corridors
+On the screen in front of you we have the ES
+A 5 minute chart that's over a 1 month period worth of data
+Time channels are slots of time that repeat daily
+From any time period
+It could be from 8 to 9, 9 to 10
+It could be 5 minutes, 10 minutes
+It could be half a day
+What we're going to do is to explain how time channels can affect the performance
+And the expectation in trades themselves
+On this chart right here we decided to use the 7 a.m. to 11 a.m.
+Exchange time for the ES
+These are designated by the blue boxes which show from 7 to 11 a.m.
+This is day 1 and day 2
+We actually have 30 days going left to right
+But of course you can only put two on the screen itself
+At the bottom we have raw volume
+You'll notice that from 7 o'clock to 9 o'clock which is where this big spike happens
+And of course happens again here
+That there's a lot less volume because the exchange is not actually open in the classic sense
+Or stocks aren't trading the same way
+You'll notice that there's a certain pattern that seems to happen between 9 o'clock and the 1600 when the market closes
+You'll notice at the end of the day there seems to be great spikes in the beginning of the day seems to be great spikes in volume itself
+This is what we're going to build our expectation on in order to generate signals
+Mr. Belkiot has designed what he's calling an average true volume indicator that's represented by these green bars at the bottom
+It's actually reflective of the raw volume and whereas the raw volume is per bar per day
+This is actually a combination of all the bars over an extended series of the bar of data in this case 30 days
+You'll notice that that the that the actual movement of volume follows a very smooth curve
+That's because volume has a tendency to repeat on average in a certain channel every day and you'll find that happening
+Whereas in the raw data you'll see high spikes because at certain times during the day you'll get those spikes
+But if you took them over a 30-day period they look like this
+Now taking that average true volume what we've generated was called an average true volume oscillator now this oscillator is what we're going to generate signals from
+You'll notice that and then we drew the arrows here to show as
+The volume oscillator is going up price is going up in many cases the volume oscillator will go down and price is down
+There are some cases where the volume is predictive and actually shows you that there's a short potentially going in place before price actually turns
+We'll see this happening an awful lot this particular indicator is independent of price
+That's why you notice volume drifting off here. This is actually two separate studies one is on top of the other
+We put them together to try to assist your eye in order to see how volume the volume oscillator follows price itself
+Or can lead it
+So to continue without the arrows you'll see that this is what we're doing is we're taking we're only going to trade between the 7 and 11 a.m.
+Period and we're going to use the volume oscillator as our signal
+So we've applied a strategy using that and what you see on the screen right here is actually real trades
+They happen between that time slot. We're not taking any trades out of the the 7 to 11 area
+In the next chart, we're going to show you your performance
+Okay from 7 to 11 you'll see that we actually had a pretty good result
+Optimizing trying to find the best parameters that would work in this area a trade can happen between 7 and 11 and it can exit after 11 o'clock
+But we do not take any trades after 11 a.m.
+Now to the right hand side you'll notice that what we did was we broke down this particular chart that's four hours into four individual hours
+7 to 8 a.m. 8 to 9 9 to 10 and 10 to 11 a.m.
+I each one of these shows how this chart was composed over a 30-day period so all these happen between 7 and 8 a.m.
+Over 30 days and you'll see that this wasn't actually the you probably wouldn't trade this if you took a look at this at all
+The 8 to 9 not so bad the 9 to 10 yes
+It's definitely something that you would consider trading and possibly even for the 10 to 11
+But there's a couple of flat periods here that could be a little bit scary
+Now for the next four charts what we did was we optimized the time channels in and of themselves
+So we took 7 to 8 a.m.
+We tried to find the very best expectation of over 30 days and in order to show you how these these
+Parameters don't work as well in other time slots. We took the same 7 to 8 and apply the same parameters to 8 to 9
+9 to 10 and 10 to 11 and I would have you would have to say that they're pretty horrible results
+But in the 7 to 8 over 30 days there was definitely an expectation that was there that you could trade
+8 to 9 the same way we took a set of parameters we optimized them over 30 days
+We made approximately 33 trades we took the same parameters and took another time channel from 7 to 8
+8 8 9 to 10 and 10 to 11 and all of them were horrible
+Well, not once you would trade
+Again 9 to 10 was optimized and we broke down from 7 to 8 8 to 9 and 10 to 11
+Using the 10 to 11 time period this actually seemed to be the best time for trading the ES based on our signal and based on how we designed the actual formula
+It showed the greatest number of trades over 70 between this time period it most of the trades were successful and had a very limited
+Stop so it was a profitable trade when you see the shorts they actually or their losses they actually did not go down that deep
+These are only singular trades. There's no multiple contracts in here. We took the same
+Parameters applied them to 7 to 8 8 to 9 and
+And 9 to 10 and you'll notice from 8 to 9. It's horrible
+9 to 10 is horrible, but from 10 to 11 using the same parameters it took off over 30 day period
+So that does show you that in these time channels there's a certain for there's a certain momentum or certain expectation that can be quantified
+So we'll try to sum this up on what we believe we we've found over the time that we've been exploring this
+We try to trade with the Sun to coin a saying from a song that's five o'clock somewhere
+We believe it's nine o'clock somewhere
+One thing we know that people are creatures of habit and in the morning when when they wake up
+They repeat the same patterns over and over again and these patterns are actually quite visible in the trading of stocks themselves
+If you took we took the ES which is based in Chicago
+But if you take stocks that are in New York or London, Dubai or even in the in the east and you
+Optimize them around their nine o'clock. You'll find you'll be able to trade patterns similar
+We do not believe that you can trade the same strategy
+Consistently all day that there's actually a better way to break that same strategy down into these time channels and have a better of a better result
+Thank you for visiting belkyat.com take a look at what we do we release new videos almost every day and hopefully we can help and some of your trading to make it better
+Thanks again

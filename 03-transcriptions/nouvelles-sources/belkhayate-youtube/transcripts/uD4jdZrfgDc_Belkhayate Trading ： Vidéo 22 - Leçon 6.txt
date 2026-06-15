@@ -1,0 +1,162 @@
+bonjour je vous souhaite bienvenue à la vidéo numéro 22 donc la leçon numéro 6 et qui va
+continuer un petit peu la vidéo précédente sur les étudiants ce qu'ils devraient faire
+et donc tout ce sujet sur créer le monde de l'algorithme au Maroc qui est pratiquement
+inexistant en tout cas dans le domaine du trading du système automatique de trading ce qui est vraiment
+dommage puisque la jeunesse marocaine a toutes les compétences requises pour réellement développer et
+se distinguer au niveau international dans ce domaine cette vidéo que je me prépare à vous
+envoyer est une de mes vidéos préférées parce que je vous livre pratiquement un vrai un vrai secret
+plaisir sur les marchés financiers peut-être que des gens ailleurs qu'au Maroc vont voir cette vidéo
+mais j'ai pas le choix je propose en fait de résumer facilement je peux résumer mes vingt années de
+trading en disant que j'offre en fait un sujet de thèse à des jeunes marocains qui ont envie soit
+un doctorat soit une licence de faire un sujet qui peut faire vraiment beaucoup de bruit mais surtout
+qui peut leur permettre de développer un système automatique de trading très puissant et sans
+avoir à quitter le maroc alors le sujet de la thèse ça va être l'étude de la personnalité mathématique
+par couloir horaire du pétrole ou de l'or ou du café ou du blé n'importe quel en fait n'importe quel marché
+financier l'euro contre le dollar etc alors ce sujet là je peux vous dire à ma connaissance n'a jamais été
+traité d'abord et si vous réussissez à vous à vous faire encadrer par des professeurs de mathématiques et
+d'informatique vous arrivez à le traiter comme je vais vous montrer je suis certain que aucune banque
+d'investissement ne peut vous refuser elle imposte parce que c'est quelque chose de très très fort comme
+on va le voir les marchés financiers on va prendre exemple du pétrole et ensuite vous allez pouvoir extrapoler
+sur tous les marchés les marchés du pétrole ne sont pas homogènes comme je l'avais dit dans les autres vidéos il y a des
+moments dans 24 heures cette fenêtre qui s'affiche tout le temps je qui aime mathématicien un informaticien qui
+me disent comment il faut faire pour qu'elle ne s'affiche plus elle m'embête bon alors l'étude de la personnalité
+mathématique par couloir horaire du pétrole en réalité ça va consister à décortiquer 24 heures de
+cotation par exemple un marché qui peut être coté on peut partir sur 24 heures et on va déterminer des
+couloirs horaires soit par demi-heure soit par exemple une demi-heure ici deux heures ici un quart d'heure
+ici etc mais on va définir par exemple que de 11 heures à midi heure de londres là le marché du pétrole à une
+volatilité de x à un risque de y en général activé bon je vais y cliquer ici
+donc je reviens donc on va dire que de telle heure à telle heure à londres le marché du pétrole a une
+certaine caractéristique mathématique sur cinq ans sur six ans pourquoi parce que de telle heure à telle
+heure les traders ils mangent de telle heure à telle heure ils sont dans une voiture en train d'arriver au bureau
+etc etc etc etc on finira en réalité par déterminer la personnalité d'un marché par couloir horaire pourquoi
+c'est très important et pourquoi ça peut faire largement le sujet d'une thèse doctorat ou de
+de licence ou de maîtrise c'est parce que en fonction de ce couloir horaire qu'on a dont on a défini la
+personnalité on va adopter un système un algorithme qui va acheter au début du couloir et finir au début
+du couloir sans se poser la question donc donc c'est quand même très important par exemple on va
+définir que par exemple de 9h à 9h30 à londres le pétrole en général il fait une tendance que ce
+soit haussière ou baissière mais il rentre en tendance il s'étire donc le système va dire tiens
+s'il s'étire vers le bas je vends et je vais racheter à la fin du couloir horaire donc les règles de base
+de pour tirer profit de ce couloir horaire souvent être très simple les plus simples possibles soit
+basé sur le fait d'initier la position au début du couloir et de la clôturer à la fin du couloir soit de
+suivre une simple moyenne mobile de tendance mais comme on va le voir rien que de faire ça vous avez
+80 % de votre système de votre algorithme qui est prêt ce qu'aujourd'hui 80 à 85 % des systèmes et
+peut-être même 90 % des systèmes automatique de trading ils traitent les données comme s'ils étaient
+homogènes par rapport au temps or il est clair que les datas et vous allez le pouvoir les vérifier par
+vous même que que ces datas là sont complètement dépendantes du couloir horaire du horaire pendant
+lequel on est en train d'analyser ou de traiter le marché imaginez que vous pointez d'acheter d'un
+un importateur de blé au maroc et vous lui dites écoutez moi je connais la personnalité mathématique du
+du couloir horaire du blé et et parce qu'en fait il n'y a pas que le couloir horaire mais il y a aussi
+la journée c'est à dire que de 9 heures à 10 heures du lundi ce n'est pas 9 heures 10 heures du mardi
+et donc vous allez pouvoir paramétrer votre algorithme non pas non seulement en fonction du
+de l'heure mais aussi de la journée du jour et bien sûr du mois parce que les tous les marchés en
+particulier les marchés des matières premières sont cycliques il y a par exemple en septembre l'or
+avec plus plus de probabilité d'augmenter parce qu'il ya les fêtes et les mariages en inde que par
+exemple en décembre etc etc et le blé pareil le gaz naturel pareil etc donc c'est un c'est un
+travail qui est extraordinaire à faire que les mathématiciens peuvent faire et je pense que
+vous avez compris le sujet je tiens à donc je vais vous montrer comment vous pouvez avoir les
+data c'est à dire c'est ces cours sur lequel vous allez plancher sur lesquels vous allez réfléchir
+comment extraire une personnalité mathématique pour dire tiens bon il y a beaucoup de données que
+vous pouvez extraire d'un couloir horaire des données mathématiques qui n'ont qui ont qui ont par exemple la
+volatilité de ce marché dans ce couloir horaire est ce que il est en tendance à 60 % ou 70 % ou 80 % sur
+trois ans quatre ans cinq ans est ce que par exemple le plus haut et le plus bas en général la
+différence entre le plus haut les plus bas en général elle est de 10 tics 20 tics 30 tics et
+beaucoup d'éléments mathématiques vous allez pouvoir extraire de d'un couloir horaire ce qui peut vous
+permettre d'écrire un algorithme par couloir horaire et ça ça vous donne une force colossale lorsque vous
+voulez intervenir sur les marchés financiers alors on va passer je vais vous montrer comment vous
+pouvez grâce à ninja trader qui est gratuit pour vous et qui est connecté ici sur cqg gratuitement
+vous allez pouvoir extraire des datas on va venir ici on va faire historique elle data manager vous voyez
+ici et vous cliquez ici et vous avez cette fenêtre et là vous venez sur export vous le voyez là et vous
+choisissez le marché que vous voulez que vous avez déjà mis par exemple ici le blé etc vous pouvez mettre
+tous les marchés en fait et vous allez voir c'est très sympathique vous pouvez télécharger les cours par
+minutes ou par tic ça c'est un détail que c'est ce que je vais enseigner en fait dans les dans les écoles
+richard dans le sud mais pourquoi pas faire des séminaires dans la plupart des universités qui qui
+vont créer ce laboratoire de recherche et de développement une parenthèse importante c'est que il faut reconnaître
+que dans le monde arabe musulman il n'y a pratiquement pas de laboratoire de recherche de mathématiques sur
+les algorithmes de trading automatique ce qui explique que nous sur les marchés financiers notre
+argent est géré par d'autres personnes que nous ce qui est quand même dommage parce qu'ils ne sont pas
+plus intelligents que nous et et on devrait quand même revenir à la civilisation arabo musulmane on était
+le meilleur on a un peu tracer l'histoire on reprenant la main
+la main et
+quand ça on dirait ne pas
+ici on n'est pas plus
+elle est donc ça on ne peut plus ?
+Donc il faut qu'on prene la main sur notre propre patrimoine
+Et pour cela, il faut qu'on puisse développer nos propres laboratoires de recherche au Maroc et dans tous les pays musulmans, arabes, pour pouvoir changer le cours de ce qui se passe.
+Et on ne peut pas changer le cours des choses si on n'investit pas dans la recherche et le développement.
+D'autant plus que grâce à Internet, et comme on le voit grâce à mes vidéos, on voit qu'on peut apporter des connaissances à la jeunesse marocaine de manière gratuite.
+Et en leur mettant à leur disposition des outils gratuits pour qu'ils puissent aller voir leur professeur et leur dire, tenez, comment on peut faire ça ?
+Et tout d'un coup, vous allez voir qu'il est tout à fait possible de pouvoir vraiment créer une révolution dans le domaine du système automatique de trading, de chez nous, à partir de chez nous, et que ces systèmes peuvent valoir des fortunes.
+Donc, nous voici ici, et on fait export.
+Vous pouvez choisir les dates, etc.
+Je pense que tout le monde maîtrise ça, mais je vous montre juste comment le faire.
+Et ce qui est bien, c'est que NinjaTrader permet de pouvoir extraire ces datas.
+Et les autres, beaucoup d'autres plateformes ne permettent pas aussi facilement et aussi intelligemment.
+Donc, une fois que vous avez fait export, vous allez avoir un fichier comme ça.
+Voilà.
+Vous avez un fichier, voilà, avec la date, avec l'heure, etc.
+Et puis, vous avez les datas, comme ça.
+Vous pouvez télécharger.
+Donc, ces éléments-là sont intéressants parce que vous allez pouvoir étudier de telle heure à telle heure.
+Voilà la volatilité.
+Voilà.
+Ici, il y a même les volumes ici.
+Vous voyez ici, il y a même des volumes.
+On peut aussi étudier avec les volumes, etc.
+On peut tout faire, en fait.
+L'idée, c'est que vous avez la possibilité aujourd'hui de pouvoir télécharger des datas sur lesquelles vous allez essayer des modèles mathématiques pour pouvoir dire, tiens, si le marché, il a coté entre telle heure et telle heure ceci, alors la forte probabilité pour qu'il puisse coter ce prix-là, etc.
+Il y a une quinzaine de modèles mathématiques très performants qui arrivent à traiter des séries de chiffres comme ça pour pouvoir avoir une espérance mathématique de gain, etc.
+Bon, ça, c'est, je vais dire, ça, c'est le niveau 1.
+Maintenant, je pense que ça, tout le monde a compris, que vous allez pouvoir vous amuser, et j'espère, parce que j'ai remarqué déjà que beaucoup de Marocains m'ont surpris parce qu'ils ont commencé déjà à faire des choses en avance.
+Et j'ai senti qu'il y a vraiment une intelligence puissante qui est en train de suivre ces vidéos, ça m'a fait vraiment plaisir et ça me motive.
+Je vois derrière qu'il y a du monde et il y a de l'intelligence, c'est magnifique.
+Donc, je vais me permettre de vous poser un problème très, très difficile.
+Bien sûr, il ne s'adresse pas à vous tous, mais ça fait plaisir quand même de mettre comme ça en ligne, en Maroc, dans mon pays,
+de poser un problème qui peut être quelque chose d'extraordinaire pour l'histoire du Maroc.
+Voilà de quoi il s'agit.
+Je voudrais confier à des grands mathématiciens marocains la possibilité de retraduire la façon de voir un graphique,
+non pas en bougie japonaise, en barre ou en courbe, mais avec un langage 100% mathématique.
+Et voilà, voilà l'idée.
+Regardez-moi ça et dites-moi si ce n'est pas magnifique.
+Bon, alors ça veut dire, là en fait, comme je vous ai dit, regardez ça,
+on va définir, parce que ça c'est des patterns, c'est des configurations, sur trois tics, c'est-à-dire 1, 2, 3, 1, 2, 3, 1, 2, 3,
+et ensuite on passe à la suite.
+Donc on peut dire que ça c'est la config A, B, C, D, on crée en fait un alphabet d'une courbe.
+Pourquoi c'est intéressant ? Parce que les modèles mathématiques vont nous dire qu'en général,
+lorsqu'on a celle-là plus celle-là, alors on a une grande probabilité pour qu'on arrive à l'art, exemple, etc.
+Donc on va pouvoir traduire des configurations d'une courbe boursière à partir de trois tics,
+c'est-à-dire à partir de trois implémentations.
+C'est-à-dire, difficile à expliquer comme ça, mais je pense que certains ont compris.
+Et l'idée générale n'est pas de deviner entièrement ce qui va suivre.
+Après avoir eu, par exemple, celle-là, plus celle-là, plus celle-là,
+le modèle mathématique va me dire, maintenant, la prochaine va être celle-là.
+Non, ça c'est déjà, c'est difficile, non, non.
+Ce qu'on va chercher à faire, ce que nous recherchons, c'est juste le dernier, le dernier, le dernier bras.
+C'est-à-dire, j'ai cette configuration qui est suivie de cette configuration.
+Donc, il y a plus que trois propositions qui vont être proposées.
+Il y a ça, ça et ça, par exemple.
+Et au fur et à mesure que le bras se trace, il ne me reste plus que cette configuration.
+Et je commence à avoir 95% de chances que le marché fasse cette configuration-là, ce point-là.
+Mais ça, ça représente un million, des milliards de dollars.
+Si on est capable de pouvoir anticiper avec une probabilité de 80%,
+qu'après avoir dessiqué les datas avec des patterns comme ça,
+qu'on arrive à la fin à pouvoir dire, tiens, le dernier bras, il va être, il va se diriger vers là.
+Donc là, ça n'a l'air de rien comme ça, mais c'est très puissant au niveau mathématiques.
+Et au niveau des marchés boursiers, je peux vous assurer que ça représente des sommes colossales enjeux.
+Parce qu'il suffit qu'on gagne un tic, c'est ce que je dis là,
+pour qu'on ait un algorithme qui n'a pas de prix.
+Voilà, donc j'ai partagé avec vous avec plaisir.
+Et bien sûr, on pourra étudier avec des professeurs, on pourra encadrer ce projet-là.
+Je pense que ce projet n'existe pas sur le marché boursier.
+En tout cas, pas de cette façon, peut-être qu'il peut être utilisé en électronique ou ailleurs.
+Mais en tout cas, comme je le vois, je ne pense pas que quelqu'un y ait pensé.
+Et je suis persuadé que des Marocains vont percuter de l'idée
+et que des mathématiciens vont venir proposer des solutions.
+Et on verra qu'effectivement, on a des probabilités qui avoisinent 70-75%.
+Et ce qui est extraordinaire pour un algorithme de 3D.
+Voilà, j'ai pris un peu de temps pour cette vidéo,
+mais c'est peut-être une de mes vidéos préférées.
+Parce que c'est une manière pour moi de passer la main
+à la jeunesse marocaine et au génie
+que j'ai senti derrière mes vidéos.
+A très bientôt.
+Sous-titrage ST' 501

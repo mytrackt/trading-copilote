@@ -1,0 +1,138 @@
+bienvenue donc à la leçon 27 donc vidéo numéro 27 donc pour reprendre un petit peu ce que j'ai
+dit dans la 26 mais on va essayer chaque fois d'aller un peu plus en avant et en profondeur
+pour répondre à certaines personnes qui me disent combien de vidéos je vais faire écouter
+incha'Allah je pourrais faire autant de vidéos qu'il le faut donc ça c'est jusqu'au jour où
+les marocains vont pouvoir se distinguer sur les marchés financiers et ça sera vraiment un
+plaisir et un honneur pour moi donc ça sera illimité pour le moment en tout cas jusqu'à ce que dieu me
+prête vie comme on dit et donc je vais commencer d'abord par vous rappeler l'importance de market
+analyzer et vous dire que en fait vous pourrez ajouter vous allez voir que vous allez pouvoir
+ajouter ici sur ces colonnes des indicateurs pour que vous puissiez tout de suite repérer des marchés
+qui sont haussiers baissiers et vous pouvez mettre des rouges ici des verts etc vous allez voir que vous
+allez pouvoir vraiment confectionner ce scanner pour que visuellement vous pourriez vous pouvez déjà avoir
+une idée de ce qui se passe sur les marchés et ceux qui vont y arriver je les invite à montrer comment
+ils font en postant une vidéo à et en parlant au marocain pour expliquer à leurs collègues et à leurs
+patriotes comment faire pour pouvoir installer des indicateurs sur cette fenêtre et bien sûr vous pouvez
+trouver ça également sur youtube maintenant je veux vous montrer un petit peu comment on peut ajouter les
+marchés qui nous intéressent par exemple celui-là l'euro stocks et l'eurobund quand vous tape quand vous
+cliquez ici vous ne trouvez pas donc vous donc comment faire écoutez je vous montrer c'est très simple vous
+venez en tools et instruments manager ici et lorsque vous cliquez là vous voyez que vous avez une liste par
+défaut ici et il faut remplir ici vous allez rajouter les marchés qui vous intéressent bon vous pouvez
+par exemple mettre la livre sterling alors pendant l'exemple vous voulez mettre la livre sterling vous
+cliquez une fois ici donc vous l'activez en quelque sorte et ensuite vous cliquez ici pour l'amener ici vous regardez on
+clique et hop elle est venu ici mais nous ce qui nous intéresse c'est le bon on va mettre le pétrole
+ici on est ensemble vous voyez le pétrole ici on va le mettre voilà vous cliquez ici ça veut dire qu'il
+vient là quand vous voulez ressortir un marché vous cliquez dessus et vous faites vous cliquez ici pour le
+sortir donc on va continuer on va aller voir le marché qui m'intéresse moi c'est celui là donc
+celui là vous le prenez et celui là aussi vous le prenez voilà donc on a les deux marchés qui nous
+intéressent mais bien sûr vous pouvez ajouter autant de marché que vous voulez c'est gratuit et ça vous
+permet de découvrir beaucoup de marché et moi je vous invite en fait pour la première pour le
+premier mois de trading je vous invite à traiter à peu près tous les marchés que vous pouvez et je
+vais vous expliquer comment et de manière à ce que vous vous appuyez au marché donc ça c'est très très
+important je tiens ici à faire une précision c'est que beaucoup de gens me disent oui on attend
+beaucoup on attend de voir qu'est ce qu'on peut faire etc alors que ils peuvent déjà avec les éléments
+que j'ai donné dans les 24 vidéos j'ai déjà des personnes qui gagnent leur vie d'accord je peux
+vous le dire et ceux de bruit tout seul parce qu'ils ont eu suffisamment d'informations pour commencer à
+gagner leur vie d'accord donc il faut pas trop être dans une attitude d'attendre que tout vous
+arrive comme ça il faut faire il faut il faut comprendre que c'est une c'est un métier et que
+pour apprendre ce métier beaucoup fassiez beaucoup d'efforts nous on n'a pas cette tendance là à aimer
+l'effort on veut que tout soit facile est très facile pour nous mais il faut absolument que
+vous fassiez l'effort de vous entraîner déjà comment vous allez vous entraîner je vais vous
+donner des exercices que vous devez faire ne cherchez pas tout de suite à perfectionner votre trading chercher
+à comprendre l'esprit qui règne dans les marchés et vous allez faire beaucoup de trade de manière à
+pouvoir vous entraîner et ce n'est qu'au bout d'un mois que vous allez pouvoir avoir une idée de ce
+qu'il faut faire mais en attendant il ya beaucoup qui m'écrivent mais qui n'ont fait aucun trade ou qui
+ont fait un ou deux trades ils se sont arrêtés non si vous voulez vraiment performer il faut faire
+mille trade d'accord et après on discute il faut d'abord faire les mille trade et ensuite on s'assoit
+et on discute et s'allait essayer de comprendre pourquoi vous avez vous perdez comment vous gagnez
+et c'est bon la première des choses c'est que on va mettre ici ce que je recommande en fait moi c'est
+de mettre ce graphique là en on m'a en barre c'est-à-dire en range barre et ici en 5 minutes alors
+on va venir ici on va cliquer ici on va faire data série et au lieu de ici au lieu que ce soit en
+minutes on va mettre range barre et là au lieu que ce soit 4 on met 5 et on fait tout simplement
+comme ça on attend que ça se charge autrement dit on va mettre le marché sur des bougies qui
+toutes vont être égales et vont être égales à 5 tics et on va voir que c'est beaucoup plus
+intéressant pour faire le trading voyez toutes les bases sont égales en longueur d'accord là et ça va
+je vais vous expliquer ensuite pourquoi et comment et ici on va prendre le s&p il est là
+et au lieu que ce soit en délit on va le mettre en cinq minutes
+ah mais dis soyez pas pressé attendez d'abord non j'attends
+voilà donc on attend que ça charge alors je vous commente ici en attendant que ça charge
+donc la première chose le premier cours sur sur le sens de gravité et sur les range
+barre va consister à vous dire quand est ce que vous devez suivre la tendance ou quand vous
+devez être contre la tendance d'accord beaucoup de gens pensent que les marchés il faut essayer de
+trouver une tendance et la prendre c'est valable que 50% des cas donc en fait je vais
+vous apprendre à rentrer avec une tendance et à rentrer contre la tendance et alors
+l'astuce je crois que j'ai jamais donné cette astuce de manière publique et même dans mes
+conférences je rigole parce que chaque fois il faut dire des choses qu'on croit qu'on va
+pas dire mais bon aujourd'hui il est temps quand même de dire plein de choses et ça me fait vraiment
+plaisir de partager ça avec bon alors l'idée c'est au lieu de penser est ce que je vais prendre
+une tendance vous allez vous concentrer sur comment déterminer une vraie tendance pas une tendance qui
+se joue sur qui se joue de vous lorsque vous avez un marché qui part par exemple comme ça et qui
+revient de plus de 50% c'est pas une tendance valable il faut que lorsque vous avez une impulsion
+il va falloir attendez je vois si on peut avoir ici quelque chose voilà par exemple ici vous avez
+regardé si vous avez une bonne tendance baissière quoi parce que on n'est jamais revenu plus de 50%
+en réalité on vient ici on descend là c'est bien c'est correct mais lorsque vous avez un marché qui
+baisse mais qui revient de plus de 50% qui baisse et qui revient de plus de 50% ne lui faites pas
+confiance pour la tendance d'accord regardez par exemple ici la tendance ici le marché a essayé de
+corriger mais il n'a même pas corrigé 25% de cette baisse là et ensuite il est descendu il n'a pas
+corrigé plus de 50% donc la tendance était saine également ici une tendance puisque il ne corrige
+pas plus de 50% d'accord lorsque ici par exemple vous rentrez et vous voyez que ça corrige un peu
+jusqu'ici donc à partir de là il est plus question de vendre par exemple il n'est plus et c'est plus
+intéressant on ne croit plus à la tendance baissière ici et est-ce que on va croire la tendance haussière
+non pourquoi parce que tout simplement on va voir ici
+vous voyez là
+c'est pas grave je ferai ça plus tard mais l'idée générale ce que vous voyez si on croit plus à la hausse
+parce que on est on est monté ici puis on est redescendu plus de 50% presque 100% donc il n'est
+pas intéressant ni de croire à la tendance haussière ni de croire à la tendance baissière donc
+lorsque vous avez ça vous savez que c'est le centre de gravité qui va entrer en jeu parce que ça veut
+dire ça signifie que c'est le centre de gravité qui va tirer le marché lorsqu'il sera là il va le
+retirer ici ou qui va attirer le marché vers le haut lorsque le marché sera là mais lorsque vous
+êtes en ont ont dans une mouvement de tendance comme par exemple ici là en fait c'est le marché qui va
+tord le le centre de gravité et donc vous allez prendre vous allez apprendre à prendre la tendance donc je
+vais résumer ça ça ça paraît attendez je sais pas pourquoi cela ne change pas on va mettre ça c'est
+bizarre il ne change pas je sais pas pourquoi il change pas celui là bon c'est pas grave je continue mon
+cours ici je verrai tout à l'heure en dehors de la vidéo parce que c'est un cours très important de
+suivi de tendance donc lorsque vous avez une impulsion et puis une correction de plus de 50% de ce mouvement
+d'impulsion cela signifie que c'est pas une tendance donc vous allez jouer contre la tendance
+lorsque lorsque par exemple ici à ce niveau là moi je vais vendre ici par exemple je vends ici et quand
+le marché va venir là je vais acheter ici donc je vais jouer donc ce trading range ici en respectant
+le centre de gravité qu'on va le voir plus loin mais je voulais vous donner donc cette indication
+pour le trading ici on va essayer de traiter ensemble maintenant ici ce marché là donc on va se préparer à
+vendre maintenant ce marché parce qu'on se dit qu'on croit pas à cette hausse là qui est en train de se
+défiler tout simplement parce que vous voyez là on a un mouvement haussier mais qui a été qui a
+corrigé très fort ici donc je crois on prend plus tellement ça sauf si son cas ça avec force donc
+l'intérêt c'est de vendre ici et d'essayer de t'acheter par là lorsque je vous recommande ici c'est tout
+de suite de mettre au lieu de mettre non ça veut dire qu'il n'y a pas de stratégie vous mettez custom
+et custom ça veut dire que vous allez structurer votre trading de manière à pouvoir prendre par
+exemple en profit vous allez prendre trois tics et en stop loss vous allez prendre allez on s'entraîne
+vous pouvez vous entraîner sur trois tics trois tics et là on est en train de monter exactement comme on est
+arrivé à ce niveau donc moi qu'est ce que je fais je vends voilà voilà je vends et donc si je touche le vert on
+gagne si je touche rouge on a perdu donc c'est un exercice que vous pouvez faire là mon trade a été perdant
+perdant puisque le marché encore poussé plus qu'ici donc vous vous allez faire des trades comme ça pas
+un pas deux pas trois vous devez en faire presque 100 par jour ça paraît étonnant mais voyez j'ai le
+trade a été fait en moins d'une minute et en fait tout le trading que vous allez faire c'est essayer d'aller
+chercher d'aller chercher d'aller chercher d'aller d'aller chercher cinq tics six tics maximum
+alors là normalement vous devez le centrer je sais pas pourquoi il ne s'entra pas normalement on fait
+comme ça et on doit le centrer bon alors là là par exemple je refais mon coup là ici je le refais
+je roule je rentre ici on est encore ici parce que je me dis que le centre de gravité est rentré dans le
+rouge il a fait cette queue dont je vous avais parlé dans une autre vidéo donc la probabilité est
+quand même de gagner elle est de 75% puisque je vais aller venir chercher le centre de gravité ici à 2080
+donc normalement j'ai une grande probabilité de toucher le vert ici avant de toucher le rouge d'accord
+voilà on va voir pour le moment 12 12 à 50 et on va voir si finalement on va réussir à faire un trade
+gagnant pour ce coup mais l'idée ici c'est pas de gagner ce maintenant sur ce trade là c'est que vous
+puissiez réaliser qu'il faut entrer rentrer rentrer et rentrer plusieurs fois mais lorsque vous rentrez vous
+avez déjà vu votre stop et votre profit et vous laissez le marché décider si il va vous donner raison
+ou tort et puis progressivement je vous allez avoir des outils comme par exemple le sens de gravité avec
+avec une fenêtre là qui va fonctionner j'espère inchallah je sais pas pourquoi cela ne fonctionne pas en fait
+il n'y a pas une très bonne connexion aujourd'hui ici attention semblerait qu'on cherche à me donner de
+l'argent on est ici bien sûr en démo donc ici vous voyez un peu ce que vous faites vous pouvez regarder
+votre position ici votre compte d'accord vous pouvez avoir des comptes de trading et voyez quand est ce que
+vous êtes en train de gagner etc vous pouvez regarder vos résultats ça vous allez les découvrir donc pour le
+moment le cours 27 consiste à vous montrer que dès aujourd'hui vous pouvez faire déjà en faisant comme
+ça sur plusieurs marchés vous pouvez effectivement faire sans traite par jour et sur la base de ses de
+ses traits là vous allez voir si vous pouvez à la fin de la journée est gagnant ou perdant mais quand vous
+allez montrer ce trait d'un professionnel il verra que vous avez un trading sérieux vous perdez jamais plus de
+trois tics par exemple et vous et au fur et à mesure que vous allez vous entraînez vous allez pouvoir vraiment
+améliorer votre entrée parce qu'il suffit d'améliorer uniquement l'entrée la sortie vous l'avez
+automatisé voilà je vais pas attendre plus que ça puisque normalement on a quand même un très bon
+signal ici comme vous le voyez là attendez voilà nous avons un petit frein ici donc normalement devrait
+venir ici toucher le son de gravité mais vous savez les marchés ils font jamais ce que vous attendez n'est
+ce pas vous allez à l'apprendre et donc je vous donne rendez vous pour la vidéo numéro 28 si j'ai le temps de la poster ce soir

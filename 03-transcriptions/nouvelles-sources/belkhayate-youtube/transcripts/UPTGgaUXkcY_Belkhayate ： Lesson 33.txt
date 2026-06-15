@@ -1,0 +1,90 @@
+re bonsoir et nous voici donc à la leçon numéro 33 et je considère que c'est une des leçons les
+plus importantes de la méthode belghiat alors je vous demande votre attention c'est les mathématiques
+ne sont pas compliquées elles sont vraiment très simple ici mais fondamental pour pouvoir devenir
+un trader consistant gagnant et surtout reconnu au niveau mondial donc pour vous expliquer l'espérance
+mathématiques de rentabilité je vais d'abord vous vous parler de cv si vous voulez avoir un cv en tant
+que trader ou si vous voulez avoir un diplôme en fait le meilleur diplôme de trader ça va être votre
+espérance mathématique de rentabilité si vous pouvez mettre sur la table que vous avez une
+espérance mathématique de rentabilité d'un montant qu'on va voir tout à l'heure alors la plupart des
+salles de marché vont vous recruter sans savoir si vous avez un diplôme d'autres que que cette
+compétence vous avez dû remarquer que des fois vous il ya des traders qui postent le résultat et
+tout ils pensent que tout est basé sur la sur la performance c'est à dire ils vont vous dire moi
+je fais 5% par mois où je fais 10% par mois regardez ce que je fais etc bon mais aucun de ces traders là
+ne vous a jamais dit que lui il gagne par exemple deux tics en moyenne par trade après avoir fait 1000
+trade n'est ce pas donc vous n'allez pas trouver un trader aujourd'hui qui qui sera en mesure de vous
+dire quelle est son espérance mathématique de rentabilité et pourtant c'est la référence en fait
+d'un d'un trader moi si quelqu'un il vient me voir et me dit écoutez moi je fais de très bons
+trades et prenez moi un stage ou recrutez moi pour gérer de l'argent chez vous je lui pose la
+question c'est quoi ton espérance mathématique de rentabilité il sera pas me répondre il va me
+regarder et en fait pourquoi parce que la plupart des traders ne prennent pas le temps ni la patience et la
+munitie pour pour calculer ces quatre éléments qui sont nécessaires pour le calcul de cette
+espérance mathématique de rentabilité le premier élément ici c'est le gain moyen par trade par exemple
+on va mettre ici cinq tics et ensuite la probabilité de gain d'un trade par exemple 60% et ensuite on a
+cet élément aussi qui est la perte moyenne par trade en général il perd trois tics par trade et
+enfin la probabilité de perte d'un trade donc ici c'est 60% et moins en fait c'est 100% moins 60 c'est
+toujours ça va être 40% donc cette probabilité est directement liée à cette probabilité de gains et
+l'espérance mathématique de rentabilité c'est tout simplement ce gain moyen multiplié par cette
+probabilité de gains moins cette perte moyenne multiplié par la probabilité de cette perte
+donc ça vous permet de pouvoir comprendre que ce qui compte c'est la régularité et et non pas de
+pouvoir dire moi je gagne je fais tant de performances par mois ce qui compte c'est combien
+vous gagnez en moyenne par trade après avoir fait mille trade donc je lance donc cette vidéo pour
+que désormais tous ceux qui vont suivre mon cours lorsqu'ils m'écrivent pour me dire qu'ils font du bon
+trading ou que je dois voir ce qu'ils sont en train de faire au lieu que je regarde tout ce qu'ils
+sont en train de faire dans les détails alors qu'ils ont ils ont dû faire 100 200 300 trades il
+suffit qu'ils me disent que leur espérance mathématique de rentabilité elle est de par exemple
+2 tic ici et ça veut dire qu'en moyenne lorsqu'ils font un trade ils vont gagner 2 tic par exemple sur le
+marché du pétrole ou sur le marché de l'or etc alors regardons par exemple ici comment ça se
+présente comment ça se présente par exemple supposons que on dit que je gagne 8 tic par exemple en moyenne je
+gagne 8 tic et sur 45% dans 45% des cas et je perds 4 tic dans 55% des cas donc mon espérance mathématique
+de rentabilité elle est de 1 tic par trade vous voyez et c'est très facile à faire cette cette feuille
+excel voyez là vous voyez ici c'est très facile regardez il suffit d'écrire d'écrire cette cette formule
+ici vous prenez vous voyez comment ici c'est un 9 qui est là multiplié par q 9 qui est là vous le voyez
+moins parenthèse bien sûr ici vous avez elle multiplié par ce q 11 et ça fait et ça fait ça donc ça c'est très
+facile à le faire pour ceux qui je propose que des étudiants qui sont refaire ça puisse poster la feuille
+excel pour tout le monde dans la page d'accord c'est pas compliqué mais c'est très très puissant alors
+si vous arrivez à avoir une espérance mathématique de rentabilité de 2 tic alors je vous dirais que vous
+êtes devenu un trader gagnant c'est la référence à partir de 2 tic vous êtes bon je dirais même assez
+bon à partir de 1 et demi entre 1 et demi et 2 vous êtes un trader gagnant il faut évidemment si c'est 0
+ou si c'est négatif et vous allez voir donc ce n'est pas intéressant il faut à partir du moment que c'est
+déjà positif même à partir de 0,5 c'est intéressant mais les frais de l'eau vont manger votre gain alors que si vous
+arrivez à avoir une rentabilité par trade de 2 tic ça représente vraiment beaucoup d'argent et vous
+êtes en mesure de gérer de l'argent au niveau international donc je vais vous montrer un peu
+comment vous pouvez procéder c'est très facile lorsque vous venez ici dans dans la compte performance
+de ninja trader vous allez voir que vous pouvez avoir ici les quatre chiffres dont vous avez besoin
+pour calculer votre espérance mathématique de rentabilité donc c'est dommage que ninja trader ni
+même mais trade station ou autres n'ont jamais pensé calculer cette espérance mathématique de
+rentabilité mais elle est une clé regardez ici vous pouvez regarder ici par exemple le nombre de
+trade gagnant le nombre de trade perdant vous le voyez la probabilité ici vous voyez percentage
+profitable vous pouvez l'avoir ici donc les probabilités de gains et les probabilités de
+pertes vous pouvez l'avoir ainsi que les moyennes average winning trade et average losing trade donc
+vous avez sur ninja trader ces quatre éléments donc vous pouvez trader je vous invite donc à faire du
+trading juste intuitif en prenant dix marchés différents et en rentrant juste par intuition
+ne cherchez pas à rentrer parce que vous voyez les volumes vous voyez non je vous invite à simplement
+rentrer par intuition et vous allez pouvoir donc poster sur la page que votre espérance mathématique de
+rentabilité basée uniquement sur la l'intuition sur l'euro ou sur l'or elle est de 1,3 tic 1,2 tic ou 0,7 etc
+c'est très intéressant parce que d'une part vous allez voir vous allez être surpris parce que vous allez
+voir que votre intuition elle est très bonne en tout cas elle va vous surprendre ça c'est un premier point
+un deuxième point ce que ça va vous permettre de comprendre le fonctionnement de l'espérance
+mathématique de rentabilité ça va vous habituer à ça et désormais ça sera votre carte de visite
+lorsque vous voulez parler à un client ou lorsque vous voulez parler pour obtenir un stage vous allez
+mettre en avant cette espérance mathématique de rentabilité et essayer de la calculer sur 1000
+trades à partir du à partir de 1000 trades elle devient significative et crédible vous allez voir
+que c'est pas facile d'arriver à 2 c'est même un exploit celui qui arrive à 2 il peut déjà être
+recruté par les salles de marché à l'ombre aux états unis on n'a pas besoin d'aller de chercher
+plus que 2 vous allez voir que déjà 2 c'est réellement un exploit donc on va par exemple ici on va
+faire on va s'amuser à par exemple 14 et on va mettre 33 donc 33% des fois je gagne 14 tic et et donc là
+4 je perds 4 tic 67% des cas et bien là je tombe justement sur cette fameuse espérance mathématique
+de rentabilité de 2 de 2 tic donc celui qui qui traite de cette façon là sera très très très positif à
+l'arrivée donc ça va vous ça va vous intéresser de pouvoir jouer avec ça pour comprendre le mécanisme du
+trading gagnant voilà donc vous avez compris que c'est un élément fondamental pour vous à partir du
+moment que vous êtes déjà la plupart des traders nous font non la plupart des traders qui postent sur
+facebook si vous l'autre si vous l'autre juste demander de vous donner juste ces quatre éléments et
+seront pas plus donné parce que déjà donc le fait même que vous dès le départ en commençant
+déjà votre apprentissage vous partez sur le principe de calculer votre espérance mathématique de
+rentabilité tous les jours et de l'améliorer au bout d'un mois deux mois trois mois vous pouvez démontrer
+que que vous avez deux tic de 2e emr je vous assure que ça va faire office de de diplôme de trader voilà
+donc j'ai eu le plaisir de vous vous présenter ce que je considère comme étant un élément fondamental
+dans dans le trading à très bientôt
+tiens
+à
+on

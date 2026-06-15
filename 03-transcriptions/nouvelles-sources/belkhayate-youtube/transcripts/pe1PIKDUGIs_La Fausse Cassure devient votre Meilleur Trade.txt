@@ -1,0 +1,109 @@
+bonsoir bonsoir aujourd'hui je vais vous présenter une technique pour pouvoir prendre la tendance
+au bon moment la naissance du tendance et en fait quand le marché monte quand il va se renverser
+vous allez être parmi les premiers à le prendre et dans ce cas là vous êtes le seul amateur avec
+les professionnels parce que lorsque le marché monte très peu de amateurs voudront vendre ils
+voudront toujours soi-disant être dans la tendance et souvent les traders amateurs ils attendent la
+cassure soit d'un support soit d'une résistance soit carrément d'un couloir et et ensuite ils prennent la
+tendance et c'est une souvent et se retrouve piégé le marché se retourne et se retourne violemment
+contre donc je vais vous montrer par graphique comment on peut reconnaître la fausse cassure
+c'est une fausse cassure qui va vous permettre de faire votre meilleur trait de la journée
+par exemple ici nous sommes sur l'or vous voyez là nous sommes sur l'or et nous avons une première
+impulsion une correction et une seconde impulsion la psychologiquement les traders pense que le marché
+va monter maintenant donc les amateurs ne vont jamais se mettre dans une situation de vouloir vendre ce
+marché là mais regardez bien ce qui se passe ici je vais vous montrer cette situation avec la
+configuration abcd que vous pouvez prendre dans tradingview ici vous faites ça et vous avez abcd pattern
+vous le prenez ici vous faites à le b il est là le c c'est la correction et le d c'est ce point là le plus haut
+et là vous constatez tout de suite que vous avez ici vous avez cassé une résistance ici vous l'avez cassé
+cette résistance et donc très souvent lorsqu'on casse cette résistance comme ça les traders amateurs se
+disent ou là le marché va encore décollé on vient de casser cette résistance là mais ce qui se passe c'est le
+contraire le marché tombe et tombe en général comme on va le voir dans plusieurs exemples le marché tombe
+très rapidement que s'est-il passé dans cette zone là les professionnels les algorithmes de trading les
+intelligences artificielles qui sont en train de gérer ils ont lu que ici il y à des stop loss les stops des
+personnes qui qui sont et qui sont rentrés en fait au pire des moments et là et ses algorithmes de
+trading vont vont vouloir absorber monte pour absorber les stops et ensuite ils tombent brutalement ici donc
+cette façon de procéder elle n'est pas exceptionnelle les pas rares on peut la trouver très souvent sur les
+marchés et lorsque vous l'identifiez alors vous avez une très forte probabilité de gains et une très
+forte espérance mathématique de gains parce que je vous rappelle que l'espérance mathématique de gains
+c'est la probabilité d'avoir raison multiplié par le gain moyen que vous pouvez avoir moins la
+probabilité d'avoir tort multiplié par la perte moyenne autrement dit si vous avez plus de 60% de chances d'avoir
+raison mais que quand vous avez raison vous gagnez quatre à cinq fois ce que vous allez ce que vous
+perdez alors votre espérance mathématique de gains est largement positive alors on va regarder sur l'or
+je vais vous montrer des exemples sur l'or et vous allez pouvoir comprendre facilement le phénomène par
+exemple ici on voit bien que ici beaucoup de gens s'attendaient se disent oh là on a ici un point de
+résistance le marché a cassé avec force et avec volume mais en réalité comme on le sait dans berger
+à squeeze lorsqu'on a une tendance haussière et qu'on a une mèche qu'on a un très grand volume ça
+coïncide avec une cassure ici d'une résistance ça c'est une fausse cassure par définition et nous
+avons immédiatement une réaction des algorithmes de trading vous pouvez sûr que ici il n'y a pas d'amateurs
+les amateurs sont en train d'acheter espéré que ça va monter alors que les professionnels eux en sont
+venus chercher les stop loss ici et puis ensuite ils ont attaqué à la baisse on va regarder cette
+situation là également ici vous voyez par exemple ici là là ici on va remettre le jaune remettre le
+jaune pour que vous puissiez voir la configuration voilà ici nous avons à b cd et en réalité si vous
+regardez bien nous avons ici un très bon support et lorsque le support a été cassé avec force avec une grande
+bougie avec volume tout le monde et enfin tout le monde en fait les amateurs ont dit tiens on va vendre
+maintenant l'or ça et l'or va s'écrouler mais en réalité c'est une force fausse cassure de ce
+support là et le marché ensuite il a accéléré à la hausse voici un exemple des pièges des cassures
+regardez un dernier piège ici sur l'or nous avons ici à b cd et nous avons ici vous le voyez ici nous
+avons une résistance le marché vient dans cette zone que j'ai mis ici que j'ai mis en surbrillance
+ici cette zone là cette zone les marchés venus absorber les les ordres puis ensuite le marché tombe
+comme on le voit ici donc sur cet exemple sur l'or la place les configurations regardez ici nous
+avons un exemple enfin d'un exemple d'aujourd'hui même sur l'or nous avons à b cd le marché est venu
+cassé ici cette cette résistance il est venu dans cette zone pour dire que il est venu absorber ici les
+les ordres de stop loss et nous avons une mèche et nous avons un volume donc qui vient nous confirmer
+qu'effectivement à 6h15 du matin nous avions donc une force cassure sur l'or qui s'est converti
+immédiatement en un clash sur le marché de l'or très très vite il vous laisse pas le temps de respirer et
+et voilà ce que je voulais vous montrer c'est cette situation là qui existe également sur le
+je vais vous le montrer ici sur le pétrole nous avons un support ici les algorithmes de trading
+viennent casser ce support là en fait c'est une fausse cassure et juste après cette fausse cassure
+le marché accélère violemment nous avons également ici le marché vient dans cette zone là via casser ce
+support là à cette résistance et ensuite il tombe et surtout ici vous voyez encore encore une fois les
+marchés s'amusent à aller chercher les stop loss au delà d'une sub d'un c'est une résistance ou d'un
+support comme ici et ensuite vous voyez la vitesse à laquelle le marché va s'écrouler pour nouveau pour ne jamais
+vous laisser le temps de sortir tout en tout cas d'éviter de perdre beaucoup on va regarder cette
+situation sur le le 4 40 et nous avons ici effectivement très belle configuration nous
+avons une résistance dans cette zone là la résistance a été cassée pour donner l'illusion
+qu'on est toujours dans une tendance haussière mais finalement les algorithmes de trading ont encaissé
+les stop loss ici puis ce sont comme je vous l'ai dit se sont écroulés très rapidement sur les marchés
+on peut jeter également un coup d'oeil sur le gaz naturel nous avons une tendance ici un trade in range
+le marché casse le trade in range avec force mais revient buté ici contre le pivot de belgeat et là
+c'est l'occasion de vous dire que les pivots au belgeat sur que nous avons sur trading view marchent
+pratiquement à la perfection sur tous les marchés pour identifier justement ces fausses cassures parce
+que lorsqu'elle se déroule dans les environs des des des des pivots alors on ça elle confirme d'autant
+plus la force de leur du renversement de tendance par exemple ici nous sont venus buter contre et là ils
+ont pris tous les les stops et puis ils se sont écroulés vous avez vu ici de manière vraiment brutale vous
+avez également ici une cassure d'un support que vous voyez là et puis ensuite le marché a rebondi
+assez violemment pour aller toucher le pivot belgeat on peut jeter un coup d'oeil aussi sur le z n vous
+avez ici un très fort exemple de on est allé chercher les stop loss ici puis un véritable
+écoulement du marché du z n ici ici nous avons une accélération après après cette fausse cassure vous
+avez également ici une accélération sur le z n et on peut voir donc ces éléments là je voulais vous
+les montrer je sais pas ici ici aussi on a une situation sur le zp nous avons abcd ici et le
+marché il a cassé avec violence cette zone là qui était le pivot et mais en réalité ils sont venus
+chercher au maximum plus en plus en profondeur les stop loss puis vous avez vu là l'accélération
+haussière sur les marchés et entre parenthèses on va pouvoir remarquer si on met par exemple sur
+l'or ici on va mettre les indicateurs l'indicateur des pivots et vous allez constater qu'en fait les
+pivots fonctionne à la perfection c'est au niveau des pivots regardez sur ce point là regardez ici sur
+ce point là on est en plein pivot on va regarder également sur ce point là on est en plein pivot parfaitement
+plein pivot et également ici on est en plein pivot comme également ici en réalité quand vous pouvez le
+constater à les points pivots vous permettent de confirmer que nous sommes bien dans un temps
+une situation d'absorption des stocks et donc de renversement de tendance et ça c'était quelque chose
+que je voulais vous montrer pour vous expliquer les pièges des algorithmes de trading qui vont vous
+donner l'impression que ça y est il ya une naissance d'une tendance vers le haut une continuation de la
+tendance soit vers le haut soit vers le bas et mais en réalité ils viennent parce qu'ils ont des données
+ils regardent où il ya des stops loss nous les traders amateurs sur les marchés avec avec les
+données qu'on a on n'a pas la visibilité des stops loss des intervenants mais eux ils ont des datas pour
+voir où se situent nos stops loss et vont les chercher les faire exécuter ensuite ils accélèrent pour qu'on
+puisse pas les retenir voilà donc je j'ai eu le plaisir de vous montrer un petit peu comme on dit
+chez nous au maroc le lancement des films puisque c'est un tout petit bout de ma formation de mon
+séminaire que je donne à marrakech et donc je vous invite à partir de 30 mai de venir passer cinq
+jours dans un hôtel cinq étoiles et de découvrir les techniques de trading pour pouvoir réussir les
+tests et pouvoir surtout garder le compte pour que vous puissiez en vivre je vous remercie et puis
+je vous dis à très bientôt comment identifier les zones de non-trading ces zones représentent plus
+de 75% d'une session de trading belkéat méthode vous enseigne comment repérer avec précision les
+25% récents 30 heures nous serons consacrés pour comprendre de manière instantanée le carnet d'or et le scalping
+et vous allez apprendre à mettre vous avez ici un graphique vous allez apprendre à mettre les stops loss et surtout à laisser courir le gaz
+voici le programme du séminaire le lundi on va étudier le très bon range mardi on va étudier en profondeur la méthode belkéat
+mercredi on va étudier le scalping jeudi on va étudier le carnet d'or et vendredi on va apprendre à passer les tests et
+toutes les après-midi seront consacrées au trading en temps réel belkéat méthode a permis à 400 étudiants et étudiants
+de tout niveau d'obtenir les certificats de monstre ils gèrent aujourd'hui des contrariés et gardent jusqu'à 80% des profits
+pour joindre l'utile à l'agréable ce séminaire aura lieu ici à marrakech je vous donne rendez-vous à
+l'hôtel adam park du 30 mai au 3 juin 2022
+vous

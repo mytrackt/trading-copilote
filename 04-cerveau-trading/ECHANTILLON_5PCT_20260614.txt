@@ -1,0 +1,192 @@
+Population post-purge: 1257 | echantillon: 63
+Distribution verdicts echantillon: {'DOUTEUX': 62, 'VALIDE': 1}
+======================================================================
+1. [DOUTEUX] (indicateurs_tendance)
+   Une tendance est valable uniquement si la correction ne dépasse pas 50% du mouvement d'impulsion précédent.
+   -> motif IA: Validite de tendance basee sur retracement <50% = theorie de Dow generique, non specifiquement attribuee a Belkhayate dans les transcripts.
+2. [DOUTEUX] (correlations)
+   Quand le dollar tombe, de nombreux autres marchés sont impactés car le dollar est un pilier de la finance.
+   -> motif IA: Impact global de la baisse du dollar = connaissance macro générale, vague, non actionnable, non spécifique à Belkhayate.
+3. [DOUTEUX] (gestion_risque_entree)
+   Un premier cassage de niveau sans tendance établie ne constitue pas un signal d'entrée valide.
+   -> motif IA: Concept générique de cassure sans tendance, non spécifique à Belkhayate, vague et applicable à n'importe quelle méthode
+4. [DOUTEUX] (gestion_risque_entree)
+   Lors d'une cassure, le target doit être 3 à 4 fois supérieur au stop loss.
+   -> motif IA: Ratio R/R 3:4 sur cassure non vérifiable dans les transcrits officiels Belkhayate. Principe générique de gestion du risque.
+5. [DOUTEUX] (gestion_risque_entree)
+   On peut rentrer avec un contrat au premier point d'entrée valide, deux contrats au deuxième point, et quatre contrats au troisième point si les tremplins confirment l'accélération.
+   -> motif IA: 'Tremplins' non définis dans les transcrits Belkhayate confirmés. Pyramidage 1/2/4 non attribué formellement à Belkhayate. Possible élaboration communautaire.
+6. [DOUTEUX] (indicateurs_tendance)
+   Lorsque le marché a cassé une résistance avec force et volume et que Belkhayate Trend est vert, on cherche des signaux acheteurs.
+   -> motif IA: Règle générique de confirmation technique (cassure force+volume + Trend vert) — non spécifiquement attribuable à Belkhayate via les transcrits
+7. [DOUTEUX] (indicateurs_tendance)
+   Lorsque les tremplins successifs diminuent (chaque retracement est plus petit), l'impulsion est en phase terminale et il n'y a plus d'énergie suffisante pour continuer.
+   -> motif IA: Tremplins décroissants = phase terminale : symétrique de la règle 51, non attesté dans les transcrits. Série de règles 49-51-53 paraît être une reconstruction I
+8. [DOUTEUX] (psychologie)
+   S'entraîner à entrer en sens inverse dès une perte permet de déconnecter le cerveau de ses biais et de le former à suivre la réalité du marché.
+   -> motif IA: Technique d'entraînement comportemental non verifiable dans transcrits Belkhayate, attribution incertaine, potentiellement dangereuse si appliquée en réel
+9. [DOUTEUX] (indicateurs_tendance)
+   Avant d'entrer sur une impulsion, vérifier d'abord la tendance générale (haussière ou baissière) en observant le Vwap (Vivant).
+   -> motif IA: Le 'VWAP Vivant' n'est pas un indicateur confirmé dans les transcrits officiels Belkhayate. Attribution incertaine, terme non documenté dans les sources validée
+10. [DOUTEUX] (psychologie)
+   En l'absence de signal de sortie, on ne panique pas et on ne sort pas prématurément de la position.
+   -> motif IA: Principe psychologique de tenue de position en l'absence de signal de sortie est générique, non spécifique à Belkhayate, ne définit pas ce qu'est un 'signal de 
+11. [DOUTEUX] (structure_marche)
+   Tant qu'il n'y a pas d'accélération vers le bas dans les configurations, on ne considère pas qu'il y a une véritable attaque des vendeurs.
+   -> motif IA: Concept vague d'absence d'attaque vendeuse comme signal d'accumulation. Non ancré dans les outils Belkhayate confirmés, non vérifiable par transcript.
+12. [DOUTEUX] (timing)
+   Les marchés commencent à s'endormir vers 20h (heure du Maroc), ce qui réduit les opportunités de trading.
+   -> motif IA: Marchés s'endorment vers 20h heure du Maroc : information contextuelle plausible (cohérente avec règle 9) mais formulée de façon générique. 'Heure du Maroc' pot
+13. [DOUTEUX] (timing)
+   La fin de journée de trading sur le blé se situe autour de 20h heure de Paris : sortir les positions avant cette heure.
+   -> motif IA: Fin de session ZW vers 20h heure de Paris : information potentiellement issue des transcrits mais la règle de sortie systématique avant 20h n'est pas formelleme
+14. [DOUTEUX] (indicateurs_tendance)
+   Quand l'indicateur Belkhayate Trend est vert, il ne faut pas vendre.
+   -> motif IA: Règle dépend de la règle 32 non validée. De plus, 'ne pas vendre quand vert' est vague — cohérent si l'indicateur Direction est confirmé, mais Belchia 30 n'est 
+15. [DOUTEUX] (gestion_risque_entree)
+   Utiliser un ordre limite plutôt qu'un ordre au marché pour éviter de payer le spread et entrer à un meilleur prix.
+   -> motif IA: Conseil générique de trading applicable à toute méthode, aucune spécificité Belkhayate, non verifiable depuis un transcript.
+16. [DOUTEUX] (gestion_risque_entree)
+   Lorsqu'une pierre tombale apparaît après une tendance haussière, on peut vendre avec une probabilité de réussite de 90 à 95%.
+   -> motif IA: Probabilité de 90-95% sur une 'pierre tombale' après tendance haussière : chiffre précis non verifiable par transcrit officiel Belkhayate ; peut être une affirm
+17. [DOUTEUX] (psychologie)
+   Ne pas chercher à anticiper un retournement de marché : attendre que la tendance principale reprenne après le frein.
+   -> motif IA: La notion de 'frein' est potentiellement Belkhayate mais insuffisamment définie ici. 'Tendance principale' et conditions de reprise non spécifiées.
+18. [DOUTEUX] (psychologie)
+   La régularité et la répétition de petits trades avec espérance positive inspire davantage confiance qu'un statement avec de grands gains irréguliers.
+   -> motif IA: Conseil psychologique générique sur la régularité, non attribuable spécifiquement à Belkhayate par transcript.
+19. [DOUTEUX] (correlations)
+   Quand les marchés américains chutent, l'or joue son rôle de valeur refuge et monte.
+   -> motif IA: Or valeur refuge lors de chutes boursières = fait macro général, non spécifique à Belkhayate, formulé de façon absolue sans critère d'entrée défini dans les tra
+20. [DOUTEUX] (psychologie)
+   Il ne faut pas anticiper un retournement de tendance avant d'avoir un signal confirmé.
+   -> motif IA: Règle générique sur la confirmation de retournement, non spécifique à Belkhayate ni verifiable dans transcrits.
+21. [DOUTEUX] (indicateurs_momentum)
+   Une cassure de la ligne zéro (ligne de 50%) de Belkhayate Cycle combinée à du volume constitue un très bon signal de vente.
+   -> motif IA: 'Belkhayate Cycle' non confirmé. L'Énergie (volume) est classée NON CODÉE selon les faits confirmés — toute règle combinant un indicateur inconnu avec le volume
+22. [DOUTEUX] (structure_marche)
+   Les algotraders provoquent des corrections brutales pour vider le carnet d'ordres avant la reprise de tendance.
+   -> motif IA: Affirmation sur comportement algorithmique générique, non vérifiable par transcript Belkhayate. Pas d'ancrage dans les outils COG/Timing/Direction.
+23. [DOUTEUX] (gestion_risque_entree)
+   Pour entrer, il faut combiner plusieurs éléments simultanément : accélération du volume, mèche sur un niveau clé, et confirmation de Belkhayate Direction.
+   -> motif IA: Belkhayate Direction confirmé, mais 'accélération du volume' et 'mèche sur niveau clé' sont des éléments non spécifiquement attribués à Belkhayate dans les tran
+24. [DOUTEUX] (structure_marche)
+   Le pattern 'tir à l'arc' (squeeze) consiste en un trading range suivi d'une fausse cassure d'un côté, puis d'une cassure violente du côté opposé qui initie un fort mouvement d'impulsion.
+   -> motif IA: Pattern 'tir à l'arc'/squeeze peut être mentionné par Belkhayate mais description générique du squeeze classique ; attribution incertaine sans transcript confir
+25. [DOUTEUX] (psychologie)
+   Beaucoup de traders, même professionnels, prennent des décisions basées presque exclusivement sur le ratio risque-rendement en négligeant la probabilité de gain.
+   -> motif IA: Observation critique sur le ratio risque-rendement générique, non spécifique à Belkhayate, applicable à toute analyse comportementale du trading.
+26. [DOUTEUX] (gestion_risque_entree)
+   Il ne faut jamais acheter lors de la première impulsion AB car on risque d'être éjecté par la correction vers C.
+   -> motif IA: Règle ABC (ne pas acheter en AB) cohérente avec la logique Belkhayate mais non vérifiable précisément dans les transcrits officiels
+27. [DOUTEUX] (saisonnalite)
+   Le ramadan est une période calendaire à prendre en compte pour anticiper l'évolution probable des marchés à moyen terme.
+   -> motif IA: Ramadan comme facteur calendaire = possible dans le contexte Belkhayate (audience arabe), mais non confirmé explicitement par transcrits comme règle tradable.
+28. [DOUTEUX] (indicateurs_tendance)
+   Acheter en direction de la tendance principale, en utilisant les supports et résistances comme objectifs de sortie.
+   -> motif IA: Trader dans la direction de la tendance avec supports/résistances comme objectifs : principe universel de trading, non spécifique à Belkhayate, aucun outil conf
+29. [DOUTEUX] (structure_marche)
+   Vendre dans la zone rouge du Gravity Center (extrémité haute du canal).
+   -> motif IA: Utilise 'zone rouge' du COG (extrémité haute) sans préciser les multiplicateurs confirmés. La terminologie couleur (rouge/vert) n'est pas validée par les transc
+30. [DOUTEUX] (structure_marche)
+   Lorsque le niveau bas de la bougie de frein est cassé, le marché accélère dans la direction de la tendance principale.
+   -> motif IA: Règle dérivée du concept de bougie de frein (règle 14) non validé ; dépend d'une prémisse elle-même douteuse.
+31. [DOUTEUX] (indicateurs_tendance)
+   Tant que le plus haut historique n'est pas cassé à la hausse, il faut privilégier les signaux vendeurs et ignorer les signaux acheteurs.
+   -> motif IA: Règle générique d'analyse technique (gestion du plus haut historique), non spécifique à Belkhayate, ne référence aucun outil confirmé (COG, Timing, Direction).
+32. [DOUTEUX] (gestion_risque_entree)
+   Utiliser le Gravity Center sur des unités de temps courtes (ex : 4 ou 5 range bars) pour minimiser la taille du stop loss.
+   -> motif IA: Utilisation du COG sur petites unités de temps pour réduire le stop : logique générique, l'usage de range bars est plausible mais non confirmé spécifiquement pa
+33. [DOUTEUX] (structure_marche)
+   Les algorithmes n'apparaissent pas dans le carnet d'ordres ; ils entrent à prix marché à la dernière seconde pour accumuler ou manipuler le marché.
+   -> motif IA: Affirmation sur le comportement des algorithmes non vérifiable et non attribuable à Belkhayate via transcripts ; relève d'une interprétation non sourcée.
+34. [DOUTEUX] (indicateurs_tendance)
+   Des bougies de plus en plus petites signalent une diminution de la latitude de mouvement et une perte de momentum dans la direction en cours.
+   -> motif IA: Lecture des bougies (diminution de taille = perte de momentum) est un concept générique d'analyse technique, non spécifique à Belkhayate.
+35. [DOUTEUX] (structure_marche)
+   Une ombre haute sur une bougie signifie que les vendeurs ont récupéré des ticks sur les acheteurs, ce qui indique une pression vendeuse.
+   -> motif IA: Définition générique de l'ombre haute/pression vendeuse, applicable à toute analyse en chandeliers. Aucune spécificité Belkhayate.
+36. [DOUTEUX] (indicateurs_tendance)
+   Le centre de gravité est utilisé sur le graphique 5 minutes pour confirmer les zones d'entrée.
+   -> motif IA: Le COG Belkhayate est confirmé sur période 180, mais son utilisation spécifique sur un graphique 5 minutes n'est pas attestée par les transcrits officiels. Time
+37. [DOUTEUX] (structure_marche)
+   Un niveau POC qui était support devient résistance une fois cassé, et inversement.
+   -> motif IA: Principe de polarité support/résistance sur POC = concept générique d'analyse technique. Non spécifique Belkhayate. Non vérifiable par transcript.
+38. [DOUTEUX] (structure_marche)
+   Une queue de bougie en zone extrême (rouge ou verte) signale que le marché se prépare à revenir vers le centre puis vers la zone opposée.
+   -> motif IA: Lecture de mèches en zones extrêmes est générique (price action classique), attribution à Belkhayate non vérifiable par transcrit
+39. [DOUTEUX] (psychologie)
+   L'objectif est de devenir le meilleur sur un trade, pas de trader constamment.
+   -> motif IA: Reformulation générique de 222/223, non spécifique à Belkhayate, applicable à toute philosophie de trading.
+40. [DOUTEUX] (gestion_risque_entree)
+   Miser 10% avec une espérance positive produit des résultats bien inférieurs à la mise optimale calculée mathématiquement.
+   -> motif IA: Principe de sous-mise par rapport à Kelly optimal, générique. Non confirmé comme enseignement Belkhayate dans les transcrits.
+41. [DOUTEUX] (timing)
+   Le Belkhayate Gravity Center permet d'identifier le début d'une impulsion ou d'une tendance dans ces corridors temporels.
+   -> motif IA: Le COG Belkhayate identifie le début d'impulsion dans les corridors temporels : lien entre COG et corridors horaires non confirmé par transcrit. Formulation vag
+42. [DOUTEUX] (structure_marche)
+   En tendance baissière, une grande bougie haussière est un appât posé par les algorithmes pour inciter les traders à acheter à contre-tendance.
+   -> motif IA: Concept de piège algorithmique générique, non attribuable spécifiquement à Belkhayate via les transcrits. Applicable à toute méthode de trading.
+43. [DOUTEUX] (psychologie)
+   Il ne faut surtout pas essayer d'anticiper la direction d'une cassure de range : la patience est indispensable.
+   -> motif IA: Règle de gestion de range générique, non spécifique à Belkhayate. Aucune référence aux indicateurs confirmés (COG, Timing, Direction).
+44. [DOUTEUX] (indicateurs_tendance)
+   Quand le prix arrive dans la zone rouge (zone de vente sur le Barycenter), la configuration est potentiellement intéressante pour vendre.
+   -> motif IA: La notion de 'zone rouge du Barycenter' comme zone de vente est conceptuellement coherente avec le COG mais les zones colorees specifiques ne sont pas confirmee
+45. [DOUTEUX] (structure_marche)
+   Quand les marchés exagèrent à la hausse en ignorant les facteurs négatifs (geopolitique, etc.), une cassure de zone importante peut signaler un retournement vendeur.
+   -> motif IA: Principe générique de retournement sur cassure applicable à n'importe quelle méthode de trading, aucune spécificité Belkhayate confirmée par transcrits.
+46. [VALIDE] (indicateurs_tendance)
+   Le Gravity Center (centre de gravité) recalcule après chaque barre pour suivre le marché en temps réel.
+   -> motif IA: Le COG Belkhayate est bien une régression polynomiale ordre 3 recalculée à chaque barre (rolling), cohérent avec les transcrits.
+47. [DOUTEUX] (psychologie)
+   Il ne faut pas se féliciter de la hausse des indices que l'on souhaite vendre : la hausse est une opportunité de vendre plus haut.
+   -> motif IA: Conseil psychologique générique sur les biais directionnels, non spécifique à la méthode Belkhayate ni vérifiable
+48. [DOUTEUX] (gestion_position_active)
+   Entrer avec un stop loss et un target définis à l'avance pour éliminer le stress pendant le trade.
+   -> motif IA: Conseil générique de gestion du risque non spécifique à Belkhayate, applicable à toute méthode de trading
+49. [DOUTEUX] (structure_marche)
+   Le Volume Profile Visible Range permet de visualiser le POC sur toute la zone affichée à l'écran.
+   -> motif IA: Volume Profile Visible Range : même problème que 61, aucune confirmation dans les transcrits Belkhayate.
+50. [DOUTEUX] (psychologie)
+   Se concentrer uniquement sur le présent du marché, jamais sur une prévision future.
+   -> motif IA: Conseil psychologique générique sur le focus présent vs prévision, applicable à toute méthode, non spécifique Belkhayate.
+51. [DOUTEUX] (indicateurs_momentum)
+   Lorsque le MFI dépasse 80, on entre en zone de surachat et il faut envisager une prise de profits.
+   -> motif IA: MFI > 80 comme signal de surachat : même problème, zones MFI non validées dans les transcrits Belkhayate officiels.
+52. [DOUTEUX] (timing)
+   Il faut toujours tenir compte du couloir horaire dans lequel on trade pour interpréter les signaux du centre de gravité.
+   -> motif IA: L'idée d'intégrer le couloir horaire dans l'interprétation du COG est plausible dans la méthode Belkhayate mais formulée de façon trop vague pour être actionnab
+53. [DOUTEUX] (timing)
+   Les 90 premières minutes d'une session produisent en général des mouvements d'impulsion ou de tendance exploitables.
+   -> motif IA: Affirmation sur les 90 premières minutes non confirmée par les transcrits officiels. Générique et non vérifiable via les sources Belkhayate.
+54. [DOUTEUX] (gestion_risque_entree)
+   On entre dans la direction de la tendance principale à la cassure du niveau de l'appât.
+   -> motif IA: 'Niveau de l'appât' n'est pas une terminologie confirmée dans les transcrits Belkhayate officiels ; l'attribution Belkhayate est incertaine et le concept reste 
+55. [DOUTEUX] (gestion_risque_entree)
+   Utiliser un ordre limite plutôt qu'un ordre au marché pour obtenir un meilleur prix d'exécution, au risque de rater le mouvement.
+   -> motif IA: Utilisation d'ordre limite vs marché est un principe générique d'exécution applicable à toute méthode. Aucune spécificité Belkhayate vérifiable par transcrits.
+56. [DOUTEUX] (indicateurs_tendance)
+   Quand le prix casse la bande extrême verte, cela génère un signal d'achat.
+   -> motif IA: Même problème que règle 1 : formulation vague, logique de retour vers COG non précisée, non confirmée spécifiquement par transcrits comme signal d'achat standal
+57. [DOUTEUX] (indicateurs_tendance)
+   Comparer l'amplitude du tremplin actuel (retracement précédant la cassure) avec l'amplitude du tremplin précédent : si le tremplin actuel est supérieur au précédent, le signal de cassure est plus puissant.
+   -> motif IA: La comparaison d'amplitude de 'tremplins' successifs comme indicateur de puissance de cassure n'est pas attestée dans les transcrits Belkhayate. Concept possibl
+58. [DOUTEUX] (structure_marche)
+   Le signal d'entrée sur une cassure de rectangle se matérialise par une bougie avec une longue queue côté cassure, puis l'entrée se fait sur la cassure du corps de cette bougie.
+   -> motif IA: Signal d'entrée sur longue queue + cassure du corps = technique de bougie générique ; attribution à Belkhayate non confirmée par transcrits
+59. [DOUTEUX] (structure_marche)
+   Si le prix oscille sans signal clair du MFI ni du Gravity Center, on n'entre pas en position et on attend un vrai signal.
+   -> motif IA: MFI non confirmé comme indicateur Belkhayate (Energie non résolue). 'Gravity Center vert' vague. Règle composite non vérifiable.
+60. [DOUTEUX] (indicateurs_tendance)
+   Le marché oscille de part et d'autre de la ligne bleue (centre de gravité) entre les zones rouges et vertes.
+   -> motif IA: Concept d'oscillation autour du COG est cohérent mais formulé de manière trop générique. La terminologie 'zones rouges et vertes' n'est pas confirmée par les tr
+61. [DOUTEUX] (structure_marche)
+   Les humains étant des créatures d'habitude, leurs comportements de trading se répètent aux mêmes heures chaque jour, rendant ces patterns quantifiables.
+   -> motif IA: Concept général de répétition comportementale humaine en trading, non spécifique à la méthode Belkhayate, non verifiable depuis un transcript officiel.
+62. [DOUTEUX] (structure_marche)
+   Le marché est soit en impulsion soit en correction : il faut jouer uniquement les impulsions, pas les corrections.
+   -> motif IA: Principe générique impulsion/correction. Cohérent avec l'esprit Belkhayate mais trop vague et applicable à n'importe quelle méthode (Elliott, etc.). Non confirm
+63. [DOUTEUX] (gestion_risque_entree)
+   Entrer un tick en dessous du point de cassure confirmé (après pullback et recassure) pour maximiser la probabilité de gain.
+   -> motif IA: Entrée 'un tick en dessous du point de cassure' est une règle générique de trading, non attribuable spécifiquement à Belkhayate par transcrit.

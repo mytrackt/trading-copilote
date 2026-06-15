@@ -1,0 +1,456 @@
+bonjour et bienvenue à la première leçon de trading donc qui va commencer à cette
+vidéo numéro 17 et j'espère que vous allez avoir autant de plaisir que moi de pouvoir
+entrer sur ces marchés là acheter et vendre et à un moment donné sentir que vous pouvez
+sortir gagnant à la fin de la journée je vais commencer d'abord par vous montrer pourquoi vous
+serez différents différents des autres traders la plupart des traders sur carnet d'or vous allez le
+voir regardez les vidéos vous allez voir que ils ne utilisent pas de stop loss ni de target et quand
+vous leur demandez pourquoi ils vous disent que d'après leur expérience c'est toujours mieux de
+pouvoir surfer en fonction de ce qui se passe sur le marché histoire de prendre un deux ou trois ou
+4 tics ou 5 tics et même des fois plusieurs tics 10 tics et donc voilà ce qu'ils font un exemple
+voilà par exemple ici on est en train de regarder hop on décide d'acheter c'est juste un exemple là
+par exemple il achète ici donc il a acheté et pour le moment il ne perd rien rien il n'a pas mis de
+stop loss il n'a pas mis de target et il attend de voir soit disant le marché va monter ici et va essayer de
+gagner soit un tic soit deux tics en fonction de ce qu'il va lire sur le carnet d'or et donc il reste
+attentif et il regarde le problème de cette stratégie c'est que lorsque le marché décale fortement soit par exemple
+ici il fait oup comme ça vous savez pas si vous devez prendre vos pertes ou pas et lorsque vous vous
+vous prenez un pic comme on dit dans le jargon du carnet d'or vous pouvez perdre tout ce que vous avez
+gagné dans la journée et et par là donc ce n'est pas quelque chose que moi je vais enseigner lorsque vous
+allez vous adresser à des responsables de salles de marché même si vous leur montrez que vous faites
+500% de performance en un an en utilisant cette méthode où il n'y a pas de stop loss de stop target et de target
+ils ne seront pas aussi confiants que si vous leur montrez que tous vos trades sont verrouillés à la
+baisse comme enfin à la perte comme à la gaine et que à l'arrivée à la fin de la journée vous avez
+une probabilité très forte de sortir positif là par exemple on a acheté et là on est en train de gagner
+3 tic là par exemple ici on est donc on pourrait éventuellement sortir ici donc ça c'est un exemple
+d'un trade disons qu'aurait fait un trader sur carnet d'or et là pour sortir on va clôt on va tout
+simplement soit mettre market soit close on va sortir sur ce marché là là pour le moment on prend 5 tic
+voilà ça monte donc on reste là comme ça on attend est ce qu'on prend est ce qu'on prend pas la problématique de
+lorsqu'on définit pas les stops et les targets ce que à chaque seconde on se dit est ce qu'on prend est ce qu'on rentre est ce qu'on sort est ce qu'on sort maintenant ou pas maintenant
+on est sans arrêt en train de nous poser la question là par exemple on aurait pu prendre 5 tic maintenant on n'a plus que 4 tic
+donc moi je vais prendre je fais close tout de suite et j'encaisse 4 tic soit donc 40 $ par contre voilà acheté ici je suis sorti là
+je ne recommande pas cette stratégie et pourquoi parce que vous allez voir que à terme ce qui compte ce que vous puissiez puiser
+sur le marché de manière régulière
+1 2 3 tic
+et que lorsque vous avez tort et bien vous ne perdez pas 20 tic ou 30 tic
+alors
+cette leçon est très importante
+parce que c'est le pilier de la méthode
+je vais vous montrer quelque chose
+c'est là ici vous avez là une salle de marché marex donc à l'ombre
+d'accord
+et pour
+si vous voulez
+venir rentrer ici
+et travailler ici en tant que trader
+c'est des jeunes
+est ce que vous croyez que ces gens là
+ils ont un doctorat en finance
+ou en économie
+ou en informatique
+pas du tout
+lorsque vous allez vraiment vous renseigner vous allez voir
+qu'en fait
+toutes les salles de trading
+ce qu'on appelle les arcades
+elles recherchent des personnes
+qui sont capables de
+de faire du trading
+tel que je vous je veux vous montrer
+de manière à ce que si vous vous
+vous envoyez vos résultats à ces gens là
+ils vont pas vous demander vos diplômes
+c'est quand même magnifique
+mais c'est la vérité
+votre diplôme
+pour entrer dans toutes ces salles de trading
+là
+ça va être votre relevé
+votre relevé de trading
+qui montre que
+vous faites des trades sur le carnet d'ordre
+enfin sur les futurs
+en une
+moins de une minute
+ou des fois deux trois minutes
+vous prenez un deux tics voire cinq tics
+mais vous ne perdez jamais plus de cinq tics sur un trade
+si vous êtes capables de montrer
+ce relevé là sur un mois deux mois trois mois quatre mois
+je vous donne
+une très grande probabilité
+de pouvoir être accepté
+par ces trading arcades qui vont vous essayer
+bien sûr
+sur leur plateforme sur leur logiciel
+en général c'est xtrader
+mais si vous avez pris la main avec ninja trader
+vous allez pouvoir vous habituer à xtrader
+qui est donc la plateforme
+qui utilise aujourd'hui la plupart des traders sur le carnet d'ordre
+mais comme elle est chère
+pour le moment
+j'ai choisi ninja trader qui est gratuite pour vous
+et qui va vous donner la main sur cette technique
+donc vous voyez ici
+voilà la liste des trading arcades ou des salles de trading
+vous allez pouvoir postuler
+vous voyez c'est très intéressant
+donc le lien je vais pouvoir le
+vous le voyez ici c'est
+en fait c'est
+je vais poster ce lien sur ma page
+pour ceux qui ne le voient pas
+et donc on revient au trading
+donc
+ce que je fais
+dans la première chose que vous allez faire
+si vous voulez faire du trading
+c'est
+d'abord essayer d'avoir une visibilité avant de commencer la journée
+et pour cela
+voilà ce que vous faites
+vous venez ici
+et vous tapez file new
+et vous ouvrez un nouveau chart
+et cette fois ci
+vous venez bien sûr sur le FX
+là
+et vous venez ici
+et vous cherchez minute
+vous voyez
+là
+on avait
+tout à l'heure le range
+et là maintenant
+on va aller à minute
+et on va mettre 30 minutes
+voilà
+pourquoi
+parce que
+la plupart des traders sur carnet d'ordre
+regardent les marchés sur 30 minutes
+et là sur 30 minutes
+vous voyez
+ce qu'on voit ici
+sur 30 minutes
+on voit d'abord la journée d'envent hier
+comment elle s'est passé
+donc
+ensuite
+on voit la journée d'hier
+on a une idée que
+vous voyez que lorsque le marché tombe
+il tombe brutalement
+plus vite que quand il ne monte
+vous le remarquez
+donc
+lorsque
+vous avez un signal de vente
+où vous sentez que
+le marché va baisser
+vous pouvez
+vous pouvez
+vous pouvez
+attendre 2, 3, 4, 5 tics
+alors que lorsque
+vous achetez
+essayez de prendre 1, 2
+maximum 3 tics
+mais
+à la baisse
+vous pouvez
+vous pouvez
+par exemple
+prendre beaucoup plus
+donc
+là vous avez une idée
+de la journée
+vous voyez tout de suite
+ce qui s'est passé dans la journée
+en demi-heure
+donc
+ce graphique là
+vous pouvez le mettre
+avec l'autre graphique
+à côté
+comme ça
+et
+vous pouvez
+aller ouvrir
+un autre graphique
+celui-là
+vous pouvez juste
+le refermer après
+celui-là
+c'est sur le délit
+vous
+vous mettez
+en délit
+c'est juste
+pour avoir
+un coup d'oeil
+sur
+le type de marché
+que vous êtes en train
+de trader
+et
+là
+première leçon
+d'analyse technique
+je vous propose
+de venir ici
+draw a tool
+vous
+prenez
+cette ligne là
+pour pouvoir
+tracer
+ici
+vous allez venir ici
+sur ce point là
+et
+vous tracez ici
+ce point comme ça
+voilà
+ce point là
+c'est une
+c'est une ligne
+qui représente
+le support
+de ce mouvement
+depuis octobre
+jusqu'à aujourd'hui
+pourquoi vous le faites
+parce que
+vous savez que
+lorsque
+ce marché
+va venir casser
+ici
+les signaux
+de vente
+vont être
+plus intéressants
+à prendre
+pour le moment
+ce marché
+est tourné vers le haut
+il monte
+depuis octobre
+le marché monte
+bien qu'il y a eu une accélération
+ici baissière
+mais tout de suite après
+on est remonté
+le marché semble
+peiné
+un petit peu à venir casser
+ici
+en cette fin d'année
+vous vous cherchez
+juste à avoir une idée
+de la tendance de fond
+de l'orostox
+d'accord
+on ne cherche pas tout de suite
+à cette
+dans cette première leçon
+à entrer dans les détails
+de l'analyse technique
+et graphique
+bien sûr il y a
+des dizaines de vidéos
+qui vont suivre
+voilà
+que Dieu nous laisse en vie
+et
+que je me ferai le plaisir
+de vous donner également
+des cours d'analyse technique
+qui pourraient être utiles
+pour faire du carnet d'ordres
+avec une probabilité de gain
+importante
+pour le moment
+ce marché là
+on attend la cassure
+de ce niveau là
+et on va regarder
+ce qui va se passer
+normalement
+on peut s'attendre
+analyse technique
+qui dit
+que le marché
+devrait revenir
+essayer de taquiner
+cette ligne là
+c'est ça la
+la probabilité
+bien donc
+on enlève ça
+j'ai plus besoin de ça
+j'ai une idée
+de ce qui se passe
+de ce qui se passe
+sur ce marché
+et
+je vais
+euh
+donc
+on peut
+réduire
+cette fenêtre là
+et
+remettre celle là
+ici
+vous voyez
+comme ça
+vous avez une idée
+de la
+demi-heure
+comment elle se présente
+là
+et
+on va
+euh
+maintenant
+ce que je vous propose
+c'est que
+vous allez vous entraîner
+ici
+mais
+essayez
+d'acheter
+et de vendre
+sans mettre de stop loss
+cette première journée
+vous allez acheter
+et vous allez voir
+pourquoi c'est difficile
+de
+de ne pas mettre des stop loss
+et des targets
+donc aujourd'hui juste
+vous
+là quand vous avez
+ATM stratégie
+vous avez non ici
+non
+ça veut dire
+il n'y a pas de stratégie
+plus tard
+on va utiliser
+custom ici
+pour pouvoir
+mettre des stop loss
+et des targets
+d'accord
+pour le moment
+on va s'amuser
+juste par exemple
+comme ça
+à dire tiens
+ici je vends
+allez hop
+je vends
+voilà
+je vends
+et puis j'essaie de voir
+si je peux
+gagner
+sortir
+ou perdre
+etc
+vous allez voir
+que ça va être très difficile
+pour vous
+de
+de pouvoir
+faire des opérations gagnantes
+vous allez voir
+mais c'est un très bon exercice
+pour vous
+j'attends donc
+que vous puissiez vous entraîner
+pendant une journée
+ou peut-être deux journées
+à faire des opérations
+sans être protégé
+par le stop loss
+et alors
+je vous donne un tuyau
+le début de journée
+comme par exemple ici
+vous voyez
+le début de journée
+à la fin de la session
+de ce marché là
+en général
+il y a 75% de chances
+d'avoir une tendance
+donc vous pouvez
+gagner votre journée
+au tout début
+de la
+de la première heure
+et à la dernière heure
+parce que
+les marchés
+prennent
+une tendance
+donc là maintenant
+on est en train de perdre
+d'accord
+on fait quoi ?
+on encaisse la perte
+ou peut-être
+le marché va revenir
+ah
+là on perd 30
+donc là
+on fait quoi ?
+on attend ?
+on n'entend pas ?
+vous allez voir
+que lorsque vous n'avez pas cadré
+votre trading
+vous ne savez pas vraiment
+ce que vous allez faire
+vous allez être balloté par le marché
+et
+80% des traders
+sur les marchés
+que ce soit
+le forex
+ou les futures
+ils
+passent leur temps
+à être ballotés
+par le marché
+parce qu'ils n'ont pas
+mis déjà en place
+le stop loss
+et
+la prise de profit
+voilà donc
+je pense que c'est suffisant
+pour la première journée
+où je vous présente
+en fait
+pourquoi la plupart des traders
+perdent de l'argent
+sur les marchés
+et en tout cas
+même s'ils le gagnent
+ils ne seront pas crédibles
+lorsqu'ils vont présenter
+leur relevé de trading
+aux salles de marché
+qui pourraient les recruter
+voilà donc
+à la prochaine vidéo
+pour la leçon numéro 2
+pour la prochaine vidéo
+pour la prochaine vidéo
+pour la prochaine vidéo
+à la prochaine vidéo

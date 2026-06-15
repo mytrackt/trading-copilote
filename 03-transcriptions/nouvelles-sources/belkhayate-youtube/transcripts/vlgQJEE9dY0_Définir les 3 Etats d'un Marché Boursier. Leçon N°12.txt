@@ -1,0 +1,133 @@
+et bien voilà je reviens tout de suite j'en profite ce dimanche pour vous faire la vidéo
+numéro 12 tel que promise et ça va être sur des bases pour pouvoir construire votre méthode de
+trading que ce soit une méthode manuelle ou une méthode automatique je vais vous donner les bases
+alors regardez par exemple ici nous avons le marché du de l'or ici ça c'est l'or et ici c'est d'une
+journée à l'autre ici c'est disons 24 heures sur l'or et ensuite 24 heures alors il faut savoir que
+le marché se compose de trois états soit le marché il fait une cassure ce qu'on appelle le break out
+en anglais donc il sort et fait une cassure il casse soit il va aller vers le haut vers le bas donc on
+va mettre ici on va mettre ici donc la cassure soit le marché il fait une tendance il pousse comme ça
+par exemple ça c'est une tendance donc le marché il est en tendance ok donc là la tendance soit le
+marché il va faire un trade in range il va aller là puis valet là puis va remonter là donc là vous
+voyez ici par exemple le marché fait un trade in range là il fait une tendance donc trading range
+c'est à dire qu'il est dans une zone où il où il aussi donc ce qu'il faut savoir c'est que il faut
+connaître les probabilités de ces trois états là faut absolument les connaître ils vont vous
+surprendre mais lorsque vous les connaissez vous avez déjà un avantage par rapport à beaucoup de
+travers alors ici sur la cassure 10% du temps 10% ici sur les cas sur 10% du temps le marché si vous
+faites par exemple un trading basé sur la cassure sur le break up vous allez en fait être en vérité
+opérationnel que 10% du temps la tendance c'est 30% du temps et le trade in range c'est 60% du temps
+donc ça c'est très important parce que cela signifie que si vous utilisez un système de trading qui suit les
+tendances par exemple les les moyennes mobiles ou par exemple le graffiti center mon graffiti center
+il ne va être opérationnel que 30% du temps et donc les 70 autres pour cent vous allez perdre de
+l'argent puisque vous n'avez pas le système approprié et si vous utilisez le en fait ce qu'il
+faut faire c'est qu'à chaque fois que vous traitez vous devez savoir exactement dans quel état le marché
+est est-ce que c'est il est en trading range est-ce qu'il est en tendance et en fonction de de cet état
+vous allez appliquer une méthode ça c'est une chose que je voulais vous dire la première la deuxième chose
+que je voulais vous dire c'est que il ya 20 ans il était possible d'envisager de ce de faire du
+suivi de tendance d'un marché et de pouvoir prendre des grands mouvements à l'époque des tartes des
+tortues par exemple si vous connaissez l'histoire des tortues mais toujours est-il qu'il ya il ya 30 ans
+40 ans on pouvait prendre des grands mouvements sur les marchés et aujourd'hui avec les algorithmes de
+trading je peux vous assurer que la seule façon de gagner de l'argent c'est de prendre des petits
+mouvements des petits trade et petit profit ne pas chercher à prendre un grand profit mais prendre un
+petit profit et rapidement et sortir bien sûr également les pertes doivent être rapides et sortir rapidement
+donc chercher à prendre plus de 10 tics ou 10 pips sur un mouvement aujourd'hui sur les marchés futurs
+c'est un peu de l'utopie parce que le marché va vous baloter c'est vrai que vous allez pouvoir y
+arriver dans 30% des cas puisque le marché peut s'étirer comme ici il s'est étiré ici et là vous
+aurez pu prendre beaucoup de tics mais le marché en général il fait ceci il bouge beaucoup et il va vous
+balotez donc si vous développez une façon de traiter qui est en fonction de l'état du marché vous
+regardez vous dit tiens ensuite dans les prochaines vidéos et bien sûr je vais essayer de définir lorsque
+quand est-ce qu'on peut dire que là le marché il est il se prépare un break out là il est en train
+d'une range où là il est en tendance alors je veux avant de faire cette vidéo je veux d'abord vous
+montrer ce que moi j'utilise pour pouvoir définir ce que je vais faire alors là vous avez l'or sur 30
+minutes d'accord et vous voyez ici là ça c'est les fameux niveau de pivot que je vous ai montré qu'on peut
+installer et regardez bien ce qui se passe ici regardez bien quand on revient par exemple là là
+regardons fait ça on vient en arrière d'accord pour voir comment on vient en arrière on regarde
+comment le marché de l'or réagit par rapport à ces niveaux on voit ici le marché il vient et tape sur
+ce niveau là repart ici passe là et on va commencer à comprendre comment le marché fonctionne en fonction
+de ce niveau si vous prenez l'habitude de regarder les niveaux de pivot de l'or par exemple si vous voulez
+faire l'or au bout d'une semaine je suis prêt à parier que vous allez pouvoir savoir si l'or va être en
+un trading range si l'or va être en tendance ou s'il va faire un break out d'accord vous allez pouvoir le
+savoir c'est pas difficile regardez ici par exemple là là nous avons une situation parfaite regardez ici
+là regardez je vais faire ceci comme ça je fais le rectangle ici je viens là je fais ça et là là j'ai j'ai un
+trading range et je sais que ça c'est un break out ici il est là le break out bon donc si je vends ici je
+peux gagner de l'argent c'est vrai mais cette situation comme je voulais expliquer ici ne se
+présente que 10% des cas dans 10% du temps on va pas alors très important de pouvoir identifier votre
+couloir horaire à vous lorsque vous voulez faire du trading vous traitez quand est ce que vous traitez le
+matin ce que vous prenez l'après midi est ce que vous êtes libre le soir c'est très important de
+pouvoir identifier déjà votre time corridor à vous votre couloir horaire à vous une fois que vous avez
+défini votre couloir horaire là on va pouvoir identifier quels marchés correspondent à votre couloir horaire
+si vous voulez traiter par exemple à l'heure de paris à midi vous n'allez pas avoir de tendance jamais
+pratiquement jamais à midi heure de paris il va y avoir une tendance qui va se mais ça ne veut pas
+dire que vous pouvez pas traiter mais vous allez traiter à midi en france sur les indices vous allez
+traiter sur des stratégies de très intérimé c'est à dire vous allez utiliser un oscillateur c'est à dire
+vous allez vendre vous allez vendre et sortir rapidement acheter et sortir rapidement etc mais vous n'allez pas
+jouer une impulsion du marché alors que les gens sont en train de manger donc l'idée de cette vidéo
+numéro 12 c'est de vous dire que c'est d'expliquer pourquoi beaucoup de gens perdent de l'argent sur
+les marchés parce qu'ils utilisent un système comme si le marché est linéaire or le marché n'est pas
+linéaire du tout il a au moins trois états différents donc vous ne pouvez pas traiter un marché quel qu'il soit
+avec un seul système durant 24 heures ils vont il va falloir utiliser au moins trois systèmes différents
+un système qui va qui joue le break out un système qui joue une tendance et un autre système parce qu'ils
+sont complètement différents et on va les voir plus tard pourquoi ils sont différents quels indicateurs on va
+utiliser à chaque fois que on pense qu'il y a un état alors je reviens maintenant je veux je vais
+absolument vous montrer sur l'eau sur l'or là je vais vous montrer comment ça se présente par exemple sur
+l'en ce moment l'or va monter vous le savez je pense que tout le monde le sait j'arrête pas de le dire
+vous avez vu que j'avais une raison sur l'or sur le vous avez vu que j'avais raison sur les
+sur les indices boursiers les marchés américains vont tomber ils tombent j'avais annoncé déjà qu'ils
+allaient tomber ils sont tombés mais ce n'est rien ça on doit attendre cette année 2018 à 40% de baisse
+sur les marchés américains et surtout une très forte accélération haussière sur l'or parce que l'or
+maintenant il ya 1300 aujourd'hui il a 1347 il va casse quand il va casser 1400 il va aller il va accélérer de
+1400 1600 1700 il va accélérer donc préparez vous quand même à faire de bons bénéfices sur l'or et
+parce que bientôt il va servir vraiment de valeur refuge il va y avoir la panique sur les marchés
+américains pour plusieurs raisons mais en général vous on va voir il ya cette raison il ya il ya facebook
+qui s'excuse il ya les il ya 30 qui dit n'importe quoi ils se rendent pas compte que il va y avoir une
+guerre ils provoquent la guerre des tarifs douaniers donc quand il ya une guerre des tarifs douaniers il ya
+toujours il ya ça va jamais aller donc de toutes les façons il ya plein de mauvaises nouvelles qui
+viennent l'une après l'autre pour finalement justifier que de toutes les façons les marchés
+doivent tomber et le dollar il va tomber le dollar n'a pas d'autre alternative que de tomber et lorsque le
+dollar tombe il ya l'or qui monte et l'or va monter violemment cette fois ci parce que il ya plus de
+doute sur les marchés financiers bien ceci étant dit voyons comment on peut traiter le marché de
+l'or regardez bien donc ici on vient ici
+voilà ça c'est la journée donc de vendredi dernier puisqu'on est dimanche lors il a il a ouvert au niveau
+de son pivot et puis il a accéléré une fois deux fois donc on pouvait être sûr qu'il allait arriver
+à la et qu'il allait arriver et s'y attendait je vais vous rapprocher ça comme ça on va voir regarder
+voilà voyez il a ouvert ici et se dirige on voit tout de suite qui se dirige vers ce point une fois
+que vous voyez une bougie pareil comme ça vous pouvez être certain la probabilité elle est de 90% qu'on va
+aller là mais lorsque vous voyez qu'on a cassé la résistance 2 on l'a cassé avec une telle force
+vous pouvez parier qu'on va aller là donc vous pouvez acheter l'or là par exemple ok et voyons
+voir comment ça a évolué on avance un peu et c'est magique vous avez vu qu'on a cassé la troisième
+résistance ici et là en général je vous recommande de ne plus rester sur le marché lorsqu'on a atteint la
+troisième résistance ou le troisième support vous dites hamdou la baraka et vous sortez sur
+les marchés vous attendez le lendemain donc effectivement le marché a corrigé un peu mais
+on est déjà regardez bien on va on est déjà un très bon niveau sur le marché de l'or et l'année
+l'année la semaine qui ce qui se présente il ya une probabilité quand même que l'or continue à monter
+donc je veux je voudrais que vous vous habituez absolument à mettre les pivots sur les marchés que
+vous voulez traiter et j'avais j'ai déjà donné un cours sur les pivots c'est à vous d'approfondir mais
+lorsque vous voyez par exemple que le marché a cassé très fort et revient faire un pull back ici ça ça ça
+signifie que vous pouvez acheter maintenant le marché ici vous pouvez acheter parce que vous
+avez un très fort support maintenant ici qui est c'était une résistance maintenant ça devient un
+support une fois qu'on l'a cassé et qu'on revient tester donc en vous basant sur les pivots vous
+allez regarder sur les 30 minutes mais bien sûr vous allez traiter sur une minute pourquoi parce que vous
+allez chercher à gagner cinq six sept huit tics sur le gold pas plus vous rentrez et vous demandez un
+profit à l'avance comme je l'ai dit dans la machine et vous vous mettez un stop loss à l'avance et vous
+répétez sans arrêt ces opérations le but d'un bon trader c'est de faire beaucoup de trade des petits
+profits et des petites pertes lorsque quelqu'un vous dit qu'il est un bon trader demande demande lui de
+regarder son statement si vous voyez que sur son statement il prend 30 40 50 tics de gain oublié
+c'est pas un bon trader pour moi parce que regarder les mouvements des marchés ils vont jamais vous
+laisser prendre de grands mouvements et vous allez faire quoi vous allez attendre donc vous allez toujours
+avoir des pertes alors que si vous rentrez soit vous avez raison soit vous avez tort et vous répétez et
+vous répétez sachant que vous rentrez avec une probabilité largement votre faveur lorsque vous rentrez sur
+les marchés pourquoi parce que on voit on verra par la suite tous les éléments dont vous allez
+pouvoir disposer pour pouvoir avoir l'espérance mathématiques positive ne pensez pas pour le
+moment à l'embex et ça c'est par la suite c'est pas pour le moment pour le moment j'essaie de vous
+donner deux informations importantes pour cette vidéo 12 1 qu'il faut décortiquer un marché en trois
+étapes et ne jamais utiliser le même système pendant 24 heures sur un même marché c'est pas logique
+et c'est c'est jamais gagnant donc ça c'est un point un deuxième point très important vous devez
+rentrer et ne jamais chercher à prendre plus de deux tics nous prenez des petits profits et sortez
+rapidement et recommencez et de cette façon là lorsqu'on voit votre statement on dit tiens celui
+là il inspire confiance parce que quand il perd il perd peu et quand il gagne il gagne peu mais dans
+l'ensemble c'est solide ça ça inspire confiance voilà donc voilà la leçon pour la vidéo numéro 12
+et si j'ai le temps aujourd'hui avant le match de ce soir je vais essayer de faire la vidéo 13 sinon
+à demain peut-être voilà à très bientôt et bon week-end
+à upon
+soit
+au
+haut

@@ -1,0 +1,438 @@
+Bonjour et bienvenue au mode d'emploi de Belchiat Gravity Center.
+Nous voyons ici le marché du pétrole sur une unité de temps de 5 range bar.
+Autrement dit, chaque bougie ici représente 5 tics.
+C'est une unité de temps assez rapide pour pouvoir faire des opérations courtes sur le marché du pétrole.
+Alors, je tiens à préciser que c'est très important de pouvoir aller sur des unités courtes plutôt que longues
+puisque lorsqu'on va trader sur des unités de temps de 15 minutes ou de...
+Il y a même certains qui vont traiter sur du 4 heures.
+En fait, plus vous allez dans le temps, plus le coût de votre point d'invalidation va vous coûter cher.
+Autrement dit, votre stop loss va grandir en fonction directe de l'unité de temps que vous allez utiliser.
+Donc, je recommande d'utiliser le Belchiat Gravity Center sur une unité de temps courte
+comme par exemple 5 range bar ou 1 minute si vous le voulez.
+Maintenant, vous voyez ce graphique-là.
+Pour le moment, on ne sait pas s'il faut acheter ou vendre ici.
+On pourrait peut-être s'appuyer sur l'analyse traditionnelle pour dire nous sommes ici sur un support
+et on pourrait acheter pour remonter ici.
+Mais lorsqu'on met le son de gravité,
+tout d'un coup, on a une harmonie qui se dessine sur ce marché-là.
+On ne reconnaît presque plus le premier graphique que nous avions devant nos yeux.
+La première chose que nous notons lorsqu'on met le son de gravité, c'est l'amplitude du marché.
+On voit bien ici qu'il y a une amplitude qui est respectée, comme vous le voyez là.
+Et immédiatement, on peut déjà calculer que le marché oscille dans un range d'environ 30 ticks.
+C'est très important parce qu'on sait tout de suite que de ce point-là vers ce point, vers le centre de gravité,
+on sait tout de suite d'avance que c'est du 15 ticks à peu près.
+Donc, on sait où est-ce qu'on va, on sait ce qu'on veut rechercher,
+on sait quel est notre objectif de gain, quel est notre objectif de perte, etc.
+Ça, donc, en ce qui concerne l'amplitude, c'est très très important.
+Deuxième élément qui me semble très important et qui n'a jamais été vraiment mentionné dans le mode d'emploi de Belgrade Gravity Center,
+c'est qu'il faut toujours tenir compte du couloir horaire dans lequel on est.
+Pourquoi ?
+Tout simplement parce qu'il y a des statistiques qui disent qu'en début d'ouverture de session, par exemple,
+il y a probablement une tendance qui va se tracer, de même que vers la fin du trading de session.
+Donc, c'est très important de pouvoir le savoir,
+puisque le centre de gravité va pouvoir vous donner des départs d'impulsion
+lorsque vous savez exactement dans quel couloir horaire vous êtes en train de trader.
+Bon, ensuite, on va essayer de voir les règles de base du centre de gravité.
+Lorsqu'on est dans cette zone ici que vous voyez là,
+ici, on est dans une zone où le marché est venu dans cette zone rouge là,
+on a une grande probabilité de venir recasser le centre de gravité
+et également de venir chercher à rebondir dans la zone verte.
+Donc, le principe de base du centre de gravité,
+c'est que le marché aussi, de par et d'or de cette ligne bleue,
+entre les zones rouges ici et les zones vertes ici.
+Autrement dit, quand on veut vendre un marché,
+on va venir et on va vendre dans ces zones là.
+Et lorsque l'on veut acheter ce marché,
+on va acheter plutôt dans ces zones là
+de rebond sur, dans des zones vertes, par exemple.
+Donc, par exemple ici.
+Ça, c'est l'idée de base du mode d'emploi du centre de gravité.
+Mais, il y a encore plus fort
+dans l'utilisation du centre de gravité,
+c'est le rebond sur les niveaux.
+Par exemple, ici, on pouvait avoir ici,
+on a un rebond ici.
+Les rebonds sur les niveaux sont très importants.
+Par exemple, dans cette zone là.
+Vous voyez ici, là,
+attendez, peut-être que je vais réussir à le tracer.
+Voilà, ici.
+Là, cette partie là,
+lorsque vous voyez une queue, comme ça,
+c'est très, très important
+parce que cela signifie que le marché
+est en train de se préparer à revenir par là.
+Ici, là, nous avons une queue ici
+qui confirme le rebond.
+Donc, lorsque vous voyez une queue, comme ça,
+de 4 tics, par exemple,
+sur le pétrole dans une zone verte,
+ici, nous avons 90 à 95 % de probabilité
+que le marché va continuer à pousser
+et qu'on est rentré dans une phase d'impulsion.
+Donc, là, par exemple, on le voit ici.
+On est venu ici,
+on a fait ça, une queue,
+et on se dirige vers cette zone là.
+Donc, vous devez faire très attention
+lorsque vous avez des queues,
+que ce soit des queues basses, comme ici,
+ou des queues hautes, comme ici,
+à ce qu'elles contiennent un signal
+qui est de toutes les façons supérieure
+à 60 % de probabilité de gain.
+Donc, l'idée générale pour résumer
+le mode d'emploi de Belkhart Gravity Center,
+c'est que, un, je recommande de l'utiliser
+sur des unités de temps courtes
+pour que votre stop loss soit court.
+Parce que l'idée générale,
+c'est de ne pas perdre plus de 1 à 2 %
+de votre capital.
+La deuxième chose, c'est qu'avec un clin d'œil,
+vous pouvez immédiatement voir
+quelle est l'amplitude de mouvement d'un marché.
+Et là, vous voyez que c'est 60 tics.
+Il est en train de, excusez-moi, de 30 tics.
+Et vous voyez que, tout de suite,
+de la zone haute jusqu'au centre de gravité,
+vous savez tout de suite que c'est 15 tics.
+Donc, si vous voulez faire une vente ici,
+vous prenez un premier bénéfice à 15 tics
+et un deuxième bénéfice, ici, à 30 tics.
+Et le troisième point qui est important,
+c'est de faire très attention aux couloirs horaires
+pendant lesquels vous êtes en train de trader,
+en tenant compte que l'ouverture d'une session
+et la fermeture d'une session
+contiennent en général des mouvements d'impulsion.
+Voilà un petit peu pour l'utilisation
+du centre de gravité.
+Je finirai par rappeler quand même
+que cet indicateur,
+bien qu'il retrace, qu'il repeint,
+comme on dit,
+à chaque bougie,
+toutes les bandes se recalculent.
+Bien donc qu'il repeint,
+ce centre de gravité peut être utilisé
+avec efficacité,
+avec vos indicateurs préférés,
+mais vous allez voir
+qu'il va vous permettre
+d'avoir des espérances mathématiques
+de gars profitables.
+Voilà, je vous remercie
+pour votre attention
+et à très bientôt.
+Bienvenue à l'installation de Belchiat Gravity Center.
+Premièrement, vous devrez ouvrir
+un nouvel fil
+ici dans votre desktop,
+Belchiat Indicator,
+et vous placez l'indicator
+que vous recevez de nous.
+Ensuite, vous ouvrez ici
+File,
+puis Utilities,
+puis Import Ninja Trader.
+Bien sûr, vous cliquez sur Yes
+et vous pouvez ouvrir
+et vous pouvez ouvrir
+sur votre desktop
+et sur Belchiat Indicator,
+vous pouvez ouvrir
+Belchiat Gravity Center
+ici.
+of course,
+il est déjà existant,
+ok,
+mais vous voyez
+que vous pouvez
+installe
+cet indicator
+ici,
+et vous pouvez
+venir ici
+et ouvrir
+New Chart
+et vous pouvez
+selecter
+Oil Market
+et vous cliquez
+deux fois
+ou vous avez
+ici
+le market
+et vous pouvez
+choisir
+Range
+ici
+ou Minutes
+ou Day
+nous préférons
+ici
+Range
+et nous
+selectons ici
+notre template favori
+que nous créons
+mais vous pouvez
+créer
+votre propre
+template
+très facile
+et
+c'est
+OK
+ici
+donc
+vous pouvez
+avoir
+ici
+le chart
+et
+nous allons
+aller ici
+Indicator
+et nous allons
+mettre
+ici
+Gravity Center
+et
+vous cliquez
+ici
+que
+ici
+0.618
+instead
+de 1.618
+pour le
+traditionnel
+Gravity Center
+vous pouvez
+changer
+order
+et
+period
+comme vous voulez
+OK
+nous gardons
+tout ça
+comme ça
+et
+nous avons
+le
+Gravity Center
+on
+good
+oil
+market
+by
+range
+bar
+5 range
+bar
+it
+means
+that
+each
+candle
+here
+represents
+5 ticks
+so
+I
+wish
+good
+trading
+for you
+with
+Gravity
+Center
+Bonjour
+voici donc
+comment installer
+Belkhayat
+Gravity Center
+sur
+Ninja
+Trader
+d'abord
+je vous recommande
+de créer
+un nouveau dossier
+dans le bureau
+comme ici
+Belkhayat
+Indicator
+dans lequel
+vous allez mettre
+les indicateurs
+que vous allez
+recevoir
+ensuite
+vous venez
+dans
+file
+ici
+et
+vous allez
+dans
+utilities
+et
+import
+Ninja
+Trader
+là
+et là
+on vous demande
+si vous êtes sûr
+de la source
+dites oui
+et ensuite
+vous allez chercher
+dans le bureau
+Belkhayat
+Indicator
+donc
+et vous avez
+Belkhayat
+Gravity
+Center
+ici
+celui-là
+est Belkhayat
+c'est l'indicateur
+payant
+là
+vous avez
+l'indicateur
+gratuit
+vous cliquez
+dessus
+deux fois
+je vous rappelle
+que c'est toujours
+des indicateurs
+des fichiers
+qui sont
+zippés
+qui sont
+insérés
+qui sont installés
+dans Ninja
+Trader
+vous avez bien remarqué
+que c'était
+une version
+zippée
+là
+nous avons
+donc
+la confirmation
+que l'indicateur
+a été
+importé
+avec succès
+donc
+nous pouvons
+aller le chercher
+plus tard
+donc
+on peut
+venir ici
+désormais
+ouvrir un chart
+par exemple
+le pétrole
+et lorsque
+vous cliquez
+deux fois
+sur le pétrole
+vous voyez
+qu'ici
+vous pouvez
+choisir
+soit
+les minutes
+ici
+soit
+les range
+bas
+donc moi
+j'utilise
+beaucoup
+les range
+bas
+et vous mettez
+range bas
+ici
+vous voulez mettre
+4 range bas
+ou 5
+range bas
+d'accord
+et
+vous allez choisir
+vous pouvez créer
+des templates
+moi j'ai choisi
+une template
+mais vous pouvez
+créer la template
+que vous voulez
+on verra plus tard
+cette possibilité
+et
+vous
+vous envoyez
+là
+je l'avais
+mis par défaut
+donc là
+je l'enlève
+et je vous montre
+comment vous pouvez
+le mettre
+ici
+vous venez ici
+vous cliquez
+deux fois
+et vous remarquez
+bien
+que sur le
+Graffiti Center
+ici
+l'écart n'est plus
+de 1,618
+mais de 0,618
+vous le voyez ici
+l'ordre
+il est de 3
+et bien sûr
+vous pouvez changer
+les périodes
+moi je recommande
+180
+en période
+ici
+mais bien sûr
+là vous pouvez
+changer la période
+vous appliquez
+et vous avez
+votre centre de gravité
+sur
+le pétrole
+sur
+5 ticks
+chaque bougie
+ici représente
+5 ticks
+voilà
+écoutez
+je vous souhaite
+un bon trading
+avec
+Belkhed Gravity Center

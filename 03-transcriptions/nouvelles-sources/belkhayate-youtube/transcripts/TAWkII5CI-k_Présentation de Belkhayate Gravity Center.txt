@@ -1,0 +1,237 @@
+Voici donc la présentation de Belkhayat Gravity Center, c'est la version sur Ninja Trader.
+C'est une plateforme que j'apprécie beaucoup, non seulement pour l'analyse technique et graphique, mais également pour le trading.
+Comme vous allez le voir, elle est très pratique.
+Et là, l'indicateur en question, c'est un indicateur qui calcule le centre de gravité représenté en jaune, ici, du mouvement, de tout ce mouvement-là, des barques.
+Nous avons ici toute une journée, la journée de vendredi 15 mai 2015, donc sur l'indice Orostock.
+Et chaque bougie représente 5 ticks, donc on appelle ces bougies des range bars.
+En anglais.
+Et sur ce marché-là, chaque tick représente 10 euros, donc chaque bougie représente, en fait, 50 euros.
+Et l'idée générale, c'est qu'il faut vendre lorsqu'on est dans la zone rouge, ici, et acheter lorsqu'on est ici sous le centre de gravité.
+Mais comme on va le voir, c'est beaucoup plus pointu que cela.
+La première remarque que je souhaite faire avant toute chose, c'est que la plupart des utilisateurs actuels de l'indicateur Belchiat Graffiti Santé l'utilisent sur toute la période de trading, la session de trading.
+C'est-à-dire, c'est-à-dire depuis l'ouverture à la clôture.
+Et donc, je ne suis pas d'accord.
+Moi, je n'utilise et je ne trade les marchés que durant les premières 90 minutes et les dernières 90 minutes.
+Pour la simple raison que, en fait, pendant le début de la session de trading, en général, que ce soit sur les marchés du pétrole, du blé, du café, des indices boursiers, etc.
+Vous allez assister 90% à des mouvements d'impulsion qui sont en général provoqués par des algotraders.
+Et bien sûr, 90 minutes également, avant la clôture, on peut assister à des mouvements assez nets d'impulsion, autrement dit de tendance.
+Et les tendances, une fois que vous êtes dans une tendance, vous avez une meilleure probabilité de gagner de l'argent.
+La deuxième raison, c'est que, ici, je fais très attention à tout ce qui est, attendez, je vais changer le signe.
+Je fais très attention à ces bougies-là, qui contiennent une queue.
+Par exemple, ici, là, par exemple, ici également, vous voyez là, par exemple, ici, on a une queue ici.
+Cette queue-là signifie, en fait, que le marché est devenu acheteur, a récupéré 4 ticks sur les vendeurs.
+Et en général, c'est souvent des algotraders qui entrent pour repousser des vendeurs ou des acheteurs.
+Et vous pouvez compter sur cette impulsion pour essayer de gagner quelques ticks en étant avec les algotraders.
+Pour finir, je dirais que le centre de gravité, lorsque vous allez le suivre tous les jours, vous allez vous rendre compte que, dès que le marché arrive aux alentours du centre de gravité,
+les algotraders envoient des ordres, des milliers d'ordres pour un lot.
+Vous allez voir un lot, un lot, un lot, un lot, un lot, mille fois.
+Pourquoi ? Parce qu'ils considèrent qu'aux environs du centre de gravité, ils pourront passer inaperçus.
+Et évidemment, lorsque vous êtes loin du centre de gravité, il est assez rare de voir ce type d'ordre en triangeur.
+Donc, c'est quand même intéressant de pouvoir avoir le centre de gravité devant vous.
+Vous allez le trader avec ce centre de gravité régulièrement et vous allez vous-même développer votre propre méthode de trader.
+Pour le moment, on va trader sur ce marché-là, donc la journée de lundi qu'on va envoyer.
+Voilà, la journée de lundi a commencé.
+Nous cherchons un signal baissier parce que le marché est déjà entré dans une...
+Il a cassé déjà l'agence de vente.
+Et on n'a pas vendu ici, on va vendre plutôt ici parce qu'on a enfin un signal rouge.
+Et donc, à ce niveau-là, on va vendre.
+Et pour pouvoir jouer sur le retracement à ce niveau-là.
+Voilà, donc ici, on a à ce niveau-là presque la moitié du chemin finalement.
+On aurait pu peut-être prendre 20 ticks ou plus.
+Mais l'idée, c'est de prendre...
+On a vu ici, on a tradé et on a pris comme stop-loss le 8, 8 ticks, autrement dit 80 euros.
+Et comme profit target, 13 ticks, autrement dit 130 euros.
+Et on vient de gagner 130 euros.
+Et en fait, comme on l'a dit tout à l'heure, on assiste ici donc à cette fameuse tendance à l'ouverture.
+On a eu finalement cette tendance baissière.
+Maintenant qu'on a cette bougie-là qui vient réagir comme ça avec force par rapport à tout ce qui s'est passé ici.
+Et qu'elle est en train de go-bondir sur la zone verte.
+Donc ici, nous avons une probabilité assez intéressante de gain si on achète.
+D'autant plus qu'on peut nous attendre à justement un mouvement encore de tendance vers le haut.
+Peut-être dans ce style-là.
+Donc on achète.
+Et on va accélérer
+La vidéo
+Nous avons été touchés donc
+Effectivement ça a bien fonctionné
+Et le marché semble vouloir aller bien au-delà
+Et on va le laisser faire
+Et on va attendre qu'il y ait un autre signal vendeur pour pouvoir vendre
+Au niveau de la zone rouge
+Là on voit qu'on ne peut pas vendre ici
+On ne peut pas vendre ici
+On ne peut pas vendre ici parce qu'on a une ombre basse
+Vous voyez ici, ça veut dire que les acheteurs sont en train de récupérer
+Après que les vendeurs aient tenté de faire venir le marché là
+Donc il ne faut surtout pas vendre ici
+Là, il ne faut pas vendre encore à ce niveau-là
+Encore, on ne vend pas ici
+Mais attention, là
+Là c'est intéressant maintenant
+A ce niveau-là, il est intéressant de vendre
+Parce qu'on attendait ce signal-là avec cette ombre là
+Donc là, je vends
+Avec pour objectif de gagner encore 130 euros
+Mais évidemment, de toute façon, on avait un stop en haut ici
+Donc l'objectif a encore une fois été atteint
+Ici, ici maintenant, on pourrait éventuellement acheter
+Mais on n'a pas l'ombre
+Donc malgré tout, on ne va pas acheter
+Parce que je préfère toujours acheter ou vendre
+Avec une ombre basse ou haute
+Qui me conforte qu'il y a des algos qui sont avec moi
+Donc je vais attendre
+On pourrait acheter ici
+Oui, c'est vrai
+On voit que ça monte
+Et là, je ne vais plus rien faire
+Parce qu'on a dépassé les 90 minutes
+Et on va tout simplement attendre
+Vous allez comprendre pourquoi
+Après, c'est vraiment de l'aléatoire
+On va attendre tranquillement les 90 minutes
+Quand on va rentrer dans la phase des 90 minutes
+On va essayer de prendre la tendance qui va se dessiner
+Soit une tendance haussière
+Soit une tendance baissière
+Vous voyez comment le centre de gravité
+Est quand même réussi à cadrer le marché
+Bon, ici
+Le marché a été refoulé
+Alors qu'on avait ça
+Donc effectivement, on a eu un bon signal ici
+De vente
+On aurait pu encaisser ici
+Mais il semblerait
+Qu'il semblerait
+Qu'avec cette impulsion-là
+Plus cette correction-là
+Il semblerait que
+Là, les algotraders
+Et les hedge funds
+Vous voudrez pousser
+Ce marché
+À la hausse
+Avant la clôture
+Donc nous, on se prépare
+On doit attendre
+On doit avoir un bon signal
+Je vais acheter ici
+Vous avez vu ça
+Donc j'achète
+Et on va attendre
+Et on va attendre
+De voir comment
+Le marché va clôturer
+Normalement
+On va assister
+À une tendance
+Qui va se dessiner
+Ici
+Voilà, on a été touché
+Donc on a encore touché
+130
+Ce qui fait
+520 dollars
+Pour la journée
+Ce qui fait
+Une très bonne
+Très très bonne journée
+Il faut le savoir
+Et le marché
+Va clôturer
+Voilà
+Il a clôturé ici
+Pratiquement
+Donc
+Ceci pour
+Ceci pour
+Dire que
+Le son de gravité
+Est un indicateur
+Que vous pouvez utiliser
+Durant les 90
+Premières minutes
+D'une session
+De trading
+Du marché
+De votre choix
+Ou
+Les 90
+Dernières
+Maintenant
+J'ai fait
+Une dernière remarque
+Et pour moi
+C'est peut-être
+La plus importante
+C'est que
+Beaucoup
+99%
+De ceux
+Qui m'écoutent
+Sont en train
+De trader
+Soit le forex
+Les devises
+Soit le pétrole
+Soit le S&P
+Soit
+L'or
+Etc
+Tous ces marchés là
+L'ODAX
+Tous ces marchés
+Sont très difficiles
+Et vous allez voir
+En fait
+Vous ne gagnez pas
+Beaucoup d'argent
+Sur ces marchés là
+Tout simplement
+Parce que c'est
+Le marché
+Le plus difficile
+Au monde
+Et je vous invite
+A étudier
+Par exemple
+Ce marché là
+Vous devez
+Devenir spécialiste
+De ce marché
+C'est le
+L'Eurostox
+C'est le marché
+Le plus liquide
+En Europe
+Et le plus lourd
+En fait
+Et il est
+Moins sujet
+A être manipulation
+Parce qu'il y a
+Des milliards dessus
+Et le fait
+De vous habituer
+A ce marché là
+Fera de vous
+Un trader gagnant
+Parce que les autres
+Marchés sont vraiment
+Des marchés
+Un peu plus aléatoires
+En tout cas
+Très difficiles
+A cadrer
+Voilà
+Je vous remercie
+Pour votre attention
+Et puis je vous donne
+Rendez-vous
+Aux prochaines vidéos
+Pour le mode d'emploi
+Détaillé
+Pour ce système
+De trading
+A très bientôt

@@ -1,0 +1,161 @@
+Eh bien, écoutez, bienvenue à cette vidéo de présentation de mon indicateur Belkhed Graffiti Center
+qui en fait, comme vous allez le voir, c'est d'abord l'indicateur initial qu'on met sur un graphique, sur une unité de temps donnée
+et puis la dernière version, celle que j'ai le plaisir de vous offrir également gratuitement
+qui est en fait une combinaison du centre de gravité sur 6 unités de temps différentes.
+Autrement dit, on va avoir comme une moyenne mobile améliorée pour pouvoir suivre ce que le marché est en train de faire.
+Par exemple, ici, nous avons l'or sur 30 minutes.
+Donc chaque bougie ici représente 30 minutes et chaque ligne ici représente en fait la journée.
+Ici, c'est une journée, c'est-à-dire la journée d'hier.
+Aujourd'hui, on est le jeudi et 8 février et donc 8 mars.
+Et donc voici la journée de ce jeudi.
+Très bien.
+Là, nous avons l'or, comme on le voit ici.
+Nous avons l'or et on va mettre le premier centre de gravité que vous allez avoir.
+Parce que quand vous installez le fichier que j'ai mis en téléchargement avec Financiel Afrique,
+vous allez pouvoir en fait avoir deux indicateurs.
+Le premier, c'est celui-là, BGC, que vous voyez là.
+BGC, que je mets ici.
+Et ici, vous allez avoir 1,618.
+Là, normalement, vous avez 1,618.
+Mais en fait, je l'avais mis en défaut parce que, pour des raisons que j'expliquerai plus tard,
+mais pour le moment, vous, vous mettez 0,618.
+D'accord ?
+C'est très important parce que vous allez voir que ça change tout.
+Et vous allez cliquer et vous allez vous retrouver avec le centre de gravité tel que certains le connaissent.
+Où il y a le centre de gravité en bleu ici.
+Et puis, on voit bien que ça réussit à cadrer le marché de l'or.
+Bon.
+Alors, si on met ce centre de gravité-là sur plusieurs unités de temps,
+autrement dit, là, il est en 30 minutes, mais on peut le mettre à la fois en 30 minutes, en 15 minutes, en 10 minutes, en 5 minutes, en 1 minute.
+Alors, on va avoir un seul, une seule ligne qui va pouvoir nous dire la réalité de la tendance du marché.
+Et donc là, je vais enlever celui-là.
+Donc, je vais venir là.
+Je vais, je l'ai mis celui-là que pour vous rappeler.
+Et dans un cours avancé sur l'indicateur du centre de gravité, je vais vous expliquer comment on peut utiliser celui-là pour pouvoir anticiper le trading.
+Et pour le moment, je l'enlève.
+Et je vais, je l'enlève là.
+Et je vais mettre le fameux centre de gravité.
+Ça, c'est la dernière version de Belkhéad.
+Et j'ai le plaisir de vous montrer que c'est, à mon sens, quelque chose de très utile.
+Parce que vous voyez qu'ici, par exemple, ici, là, vous voyez qu'on a un signal acheteur.
+Et on récupère quand même toute cette tendance.
+Et ensuite, hier, on a eu un signal vendeur ici.
+Et ce signal vendeur nous a donné un très, très bon trade.
+Aujourd'hui, il nous a donné un trade gagnant juste entre là et là.
+Mais en réalité, le marché n'a pas tellement, n'a pas tellement, n'a pas fait tellement de tendance.
+Bien, donc, ce, cet indicateur, vous pouvez le mettre, par exemple, en délit.
+Et vous voyez qu'en délit, c'est pas mal du tout, parce qu'il réussit à cerner la tendance du marché.
+Là, par exemple, on est baissier.
+Vous pouvez l'utiliser pour donner des analyses à des journaux, en leur donnant juste, en leur donnant le sens.
+Vous avez ici le sens du marché.
+Mais là, ce que je propose, en fait, c'est qu'on va le mettre, par exemple, en deux minutes.
+Je vais enlever les trades de test ici, qu'on voit ici, parce que je suis en test.
+Donc, j'enlève tout ça.
+Là, on voit que le moment, pour le moment, le marché, il stagne.
+Il ne fait rien.
+Donc, le sens de gravité n'est pas utile quand le marché stagne.
+Donc, je vais vous apprendre à l'utiliser quand il va y avoir un breakout, c'est-à-dire une cassure donnée ou un niveau donné.
+C'est à partir de là, dans le niveau avancé que je vais donner plus tard.
+Vous n'allez pas utiliser le sens de gravité n'importe quand.
+Vous allez l'utiliser quand il y a une probabilité pour qu'il y ait une tendance qui se dessine.
+D'accord ?
+Par exemple, ici.
+Ici, par exemple, là.
+On va venir là.
+Vous allez l'apprendre.
+Vous venez ici et vous tracez ici.
+Très bien.
+Donc là, vous avez un rectangle.
+Et à la cassure de ce rectangle, il y a le pullback ici.
+À partir de là, vous pouvez utiliser le sens de gravité parce que tout ce qu'il va vous donner est gagnant.
+Parce que c'est le début d'une tendance.
+On va l'étudier, ça, dans une autre vidéo.
+Maintenant, ce que je voudrais souligner dans son premier cours d'utilisation de mode d'emploi, du gravité, c'est quelque chose, ce que je veux dire, est assez important.
+En fait, souvent, les traders, ils font des analyses et ils pensent que le marché devraient faire ceci ou devraient faire cela.
+Et ensuite, quand ils prennent position, ils sont étonnés que le marché ne fasse pas ce qu'ils prévoient.
+Ils sont étonnés que le marché ne respecte pas l'analyse technique, tout simplement.
+Et donc, ils restent collés sur un marché.
+Et alors qu'en fait, il faut vous entraîner à reformater le cerveau, votre cerveau.
+Notre cerveau n'est pas fait pour faire le trading, mais on peut le reformater de la manière, avec l'exercice que je vais donner tout de suite,
+et que je recommande à tous les amateurs de trading, et même les professionnels.
+L'idée, c'est quoi ? C'est que vous allez utiliser le sens de gravité comme exercice et vous n'allez faire que le suivre.
+Vous allez tout le temps le suivre.
+Vous n'allez pas réfléchir sur ce que fait le marché, mais sur ce que dit l'indicateur.
+Pourquoi ? Parce que lorsqu'on essaie de suivre un marché, on a tendance à lui donner une logique.
+Alors que si on suit un indicateur, on ne s'occupe pas de savoir si le marché doit monter ou doit baisser.
+À partir du moment où l'indicateur nous donne un signal, on le suit.
+Et pour formater le cerveau à suivre un indicateur, je vais donner ici le premier exercice pour formater un cerveau, notre cerveau, sans indicateur.
+Et ensuite, peut-être dans la deuxième vidéo qui va suivre, je vais donner l'exercice pour pouvoir nous adapter au trading.
+Parce qu'on n'est pas fait pour le trader.
+On a tendance à attendre quelque chose du marché.
+Alors que les traders gagnants, ils n'attendent rien du marché.
+Ils rentrent et ils suivent un indicateur, ils suivent une logique, ils suivent une mécanique.
+Et ils ne se disent pas que le marché ne doit pas monter ou ne doit pas baisser.
+Jamais ils ne le disent.
+Ils disent « Ah, le marché est en train de faire ceci, donc je fais cela. »
+Et « Tiens, j'ai perdu, donc je fais ça. »
+« Ah, j'ai gagné, donc je fais ceci. »
+C'est un mode de fonctionnement très, très, très, très important à mettre en place.
+Regardez, par exemple ici, je vais venir et je vais prendre, je vais clôturer cette position parce que j'ai un...
+Alors, je viens ici, je mets l'or.
+Voilà.
+Et ce que je vais faire, je vais venir ici à « Stratégie » et je vais mettre « Custom »
+et je vais mettre ici deux « Stop Loss » et deux « Target » juste pour la démonstration.
+D'accord ?
+Et je vais acheter.
+Si je gagne, je reste dans le sens.
+Donc, j'achète toujours.
+Si je perds, je vais vendre.
+Et donc, tant que je gagne, je reste dans la tendance que j'ai choisie.
+Dès que je perds, par exemple là, je risque de gagner.
+D'accord ?
+Regardez bien.
+Ici, je risque de gagner.
+Je ne tiens compte ni du marché.
+Là, j'ai gagné.
+Très bien.
+Donc, je recommence.
+J'achète.
+J'achète et là, peut-être, je vais perdre.
+D'accord ?
+On va regarder.
+Si je perds, je vais changer de sens.
+Cette fois-ci, je vais vendre.
+D'accord ?
+Et de cette façon, je vous invite à vous entraîner à acheter et à vendre en fonction de vos résultats.
+Tiens, là, on a perdu, donc je vends.
+Donc, je vends.
+Bien sûr, l'idée, ce n'est pas de mettre que deux tics ici sur l'or.
+L'idée, c'est de pouvoir définir quels sont les stop loss et les targets par marché.
+Et vous allez vous entraîner à rentrer sans arrêt.
+Là, on a perdu.
+Donc, j'achète le marché, etc.
+Et vous allez...
+Donc, ça, c'est un exercice très important que je recommande aux débutants.
+Vous entrez sur le marché.
+Dès que vous avez raison, vous continuez à être dans le sens.
+Quand vous rentrez, vous avez défini votre target et votre stop loss.
+Et quand vous perdez, vous retournez.
+Vous allez dans le sens.
+Si vous avez acheté, là, vous vendez.
+Ça, c'est un premier exercice, mais qui est indispensable parce qu'il va vous déconnecter par rapport à ce que fait le marché.
+Vous allez vous occuper d'essayer de le suivre.
+Si le marché fait une tendance de 10 tics, 20 tics, vous allez la prendre.
+Puisque vous allez prendre le premier gain, puis vous allez rester dans le sens.
+Vous allez encore rester dans le sens.
+Donc, ça, c'est très, très important de maîtriser ce premier exercice pour ensuite pouvoir faire l'exercice, disons, numéro 1, d'utilisation de la nouvelle version de Belchiat Graviti,
+qui est cet indicateur qui va toujours essayer de vous donner le centre de gravité d'un mouvement.
+Voilà.
+J'espère que vous allez faire bon usage de cet indicateur puisque cet indicateur-là, comme je vais vous le montrer ici, l'indicateur de Belchiat ici, vous venez ici, regardez, dans Tool,
+et là, vous venez dans Edit Ninja Trader, vous allez venir dans Indicateur, et là, vous allez dans Belchiat Center, là, et vous avez le code.
+Donc, j'ai laissé, j'ai laissé le code ici, ouvert.
+Donc, vous voyez que vous avez accès au code, et au code en deux indicateurs, parce que je voudrais offrir à la jeunesse africaine,
+et même tous les jeunes qui me suivent, ils sont les bienvenus à bénéficier de ce code et à combiner, à tester.
+Et, évidemment, dans les autres cours, je vais essayer de montrer comment on peut améliorer cet indicateur,
+et de manière à ce que tout le monde puisse profiter, et pourquoi pas en vivre.
+Voilà, c'était la première vidéo de présentation de mode d'emploi de Belchiat Graviti,
+et je vous souhaite un très bon usage.
+Merci.
+Merci.
+Merci.
+Merci.
