@@ -25,8 +25,8 @@
 
 | Lot | Statut | Action |
 |---|---|---|
-| `03-transcriptions\nouvelles-sources\belkhayate-youtube\transcripts\*` | ✅ ETIQUETE (S08 14/06) | Manifeste `MANIFESTE_TRANSCRITS.csv` : 110 fichiers, 0 hallucination, 108 VALIDE / 2 A_VERIFIER. Provenance 100% chaine officielle Belkhayate (dossier) ; 41/110 ont un titre sans 'Belkhayate'. Langues : 106 FR, 3 EN, 1 mixte. Audit complet `AUDIT_QUALITE.md` |
-| 2 transcrits `A_VERIFIER` | ⚠️ A CONFIRMER | "Belkhayate Trading Video 2" (466 mots) et "Video 10" (1101 mots) : 0 terme Belkhayate detecte -> verif manuelle avant integration KB. Les 108 autres = VALIDE |
+| `03-transcriptions\nouvelles-sources\belkhayate-youtube\transcripts\*` | ✅ ETIQUETE (S08 14/06) | Manifeste `MANIFESTE_TRANSCRITS.csv` : 110 fichiers, 0 hallucination, 109 VALIDE / 1 HORS_PERIMETRE / 0 A_VERIFIER. Provenance 100% chaine officielle Belkhayate (dossier) ; 41/110 ont un titre sans 'Belkhayate'. Langues : 106 FR, 3 EN, 1 mixte. Audit complet `AUDIT_QUALITE.md` |
+| 2 transcrits `A_VERIFIER` | ✅ CLOS (S11 15/06) | Video 2 (466 mots) → HORS_PERIMETRE (tuto installation NT8, pas de regles trading ; note creee `docs\NOTE_INSTALLATION_NT8_BELKHAYATE.md`). Video 10 (1101 mots) → VALIDE + 9 regles integrees KB (B-06 : psychologie x5, gestion_risque_entree x4). KB : 1256 → 1265 regles. |
 | Chaines non-Belkhayate (Gigi, Trading Geek, Single Videos, etc.) | ⚠️ A ETIQUETER | 0 transcrit pour l'instant ; ranger en couche `enrichissements_exte
 
 ## 4. Documents ecartes
