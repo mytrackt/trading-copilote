@@ -1,0 +1,705 @@
+2026-06-15 19:34:21,860 [INFO] ======================================================================
+2026-06-15 19:34:21,890 [INFO] REVALIDER_AMBIGU v1.0 — 2e passe sémantique KB Belkhayate
+2026-06-15 19:34:21,908 [INFO] Mode     : DRY RUN (simulation)
+2026-06-15 19:34:21,925 [INFO] Groupe A : claude-haiku-4-5-20251001 (re-run erreurs API)
+2026-06-15 19:34:21,937 [INFO] Groupe B : claude-sonnet-4-6 (passe sémantique NON VERBATIM)
+2026-06-15 19:34:21,943 [INFO] ======================================================================
+2026-06-15 19:34:21,950 [INFO] Chargement KB_VALIDEE.json...
+2026-06-15 19:34:22,017 [INFO] KB chargée : 1265 règles au total
+2026-06-15 19:34:22,041 [INFO] Groupes extraits → A:132  B:220  C:36
+2026-06-15 19:34:22,051 [INFO] Total AMBIGU : 388
+2026-06-15 19:34:22,073 [INFO]   A (erreurs API)  : 132
+2026-06-15 19:34:22,093 [INFO]   B (NON VERBATIM) : 220
+2026-06-15 19:34:22,104 [INFO]   C (autres/humain): 36
+2026-06-15 19:34:22,125 [INFO] Appels API estimés : 6 (Haiku) + 66 (Sonnet)
+2026-06-15 19:34:22,150 [INFO] ═══ GROUPE A — 132 règles ═══
+2026-06-15 19:34:22,171 [INFO]   → 6 transcripts uniques à traiter
+2026-06-15 19:34:22,186 [INFO]   [001/6] FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Be — 24 règles
+2026-06-15 19:34:22,220 [INFO]     [DRY RUN] batch 1/2 — 20 règles simulées
+2026-06-15 19:34:22,226 [INFO]     [DRY RUN] batch 2/2 — 4 règles simulées
+2026-06-15 19:34:22,231 [INFO]   [002/6] uya06_CeE4c_Définir avec précision le Stop Loss &  — 23 règles
+2026-06-15 19:34:22,263 [INFO]     [DRY RUN] batch 1/2 — 20 règles simulées
+2026-06-15 19:34:22,275 [INFO]     [DRY RUN] batch 2/2 — 3 règles simulées
+2026-06-15 19:34:22,282 [INFO]   [003/6] vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursi — 19 règles
+2026-06-15 19:34:22,309 [INFO]     [DRY RUN] batch 1/1 — 19 règles simulées
+2026-06-15 19:34:22,335 [INFO]   [004/6] YQDcopMt7ns_Trading sur le micro contrat de pétrol — 23 règles
+2026-06-15 19:34:22,378 [INFO]     [DRY RUN] batch 1/2 — 20 règles simulées
+2026-06-15 19:34:22,402 [INFO]     [DRY RUN] batch 2/2 — 3 règles simulées
+2026-06-15 19:34:22,423 [INFO]   [005/6] doUa5le9fFs_Identifier le trading range pour appre — 18 règles
+2026-06-15 19:34:22,446 [INFO]     [DRY RUN] batch 1/1 — 18 règles simulées
+2026-06-15 19:34:22,451 [INFO]   [006/6] gTgNe0P4SVw_Belkhayate Pivots Method, vos supports — 25 règles
+2026-06-15 19:34:22,462 [INFO]     [DRY RUN] batch 1/2 — 20 règles simulées
+2026-06-15 19:34:22,467 [INFO]     [DRY RUN] batch 2/2 — 5 règles simulées
+2026-06-15 19:34:22,491 [INFO]   ✓ Groupe A terminé : 132 règles traitées
+2026-06-15 19:34:22,511 [INFO] ═══ GROUPE B — 220 règles ═══
+2026-06-15 19:34:22,532 [INFO]   → 66 transcripts uniques à traiter
+2026-06-15 19:34:22,558 [INFO]   [001/66] MLwyVP4hqTk_Time Channels are Crucial in Trading — 10 règles
+2026-06-15 19:34:22,600 [INFO]     [DRY RUN] batch 1/1 — 10 règles simulées
+2026-06-15 19:34:22,621 [INFO]   [002/66] uD4jdZrfgDc_Belkhayate Trading ： Vidéo 22 - Leçon  — 3 règles
+2026-06-15 19:34:22,633 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:22,638 [INFO]   [003/66] _kXq6Ad8ZWk_Devenir un expert dans le Trading de l — 3 règles
+2026-06-15 19:34:22,652 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:22,669 [INFO]   [004/66] 4XYEV3o3W5U_Trading Gagnant sur le Blé — 4 règles
+2026-06-15 19:34:22,699 [INFO]     [DRY RUN] batch 1/1 — 4 règles simulées
+2026-06-15 19:34:22,725 [INFO]   [005/66] 57DtXQp35Eo_Belkhayate Gravity Center User Guide — 3 règles
+2026-06-15 19:34:22,756 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:22,784 [INFO]   [006/66] BOENPfxIptU_Trading simple du Dow Jones avec les i — 17 règles
+2026-06-15 19:34:22,817 [INFO]     [DRY RUN] batch 1/1 — 17 règles simulées
+2026-06-15 19:34:22,845 [INFO]   [007/66] L7fDaVLAn00_Trading WHEAT Market LIVE - 5 Days Cha — 4 règles
+2026-06-15 19:34:22,891 [INFO]     [DRY RUN] batch 1/1 — 4 règles simulées
+2026-06-15 19:34:22,926 [INFO]   [008/66] TAWkII5CI-k_Présentation de Belkhayate Gravity Cen — 3 règles
+2026-06-15 19:34:22,948 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:22,961 [INFO]   [009/66] _Bbzx2lITEQ_Belkhayate Indicateurs sur Tradingview — 13 règles
+2026-06-15 19:34:22,998 [INFO]     [DRY RUN] batch 1/1 — 13 règles simulées
+2026-06-15 19:34:23,007 [INFO]   [010/66] t6Yp9yisaWw_Trader le Gold de manière simple et ef — 3 règles
+2026-06-15 19:34:23,032 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:23,061 [INFO]   [011/66] v1Z4lM3ZfU4_Comment Lire les Points Pivots et quel — 6 règles
+2026-06-15 19:34:23,107 [INFO]     [DRY RUN] batch 1/1 — 6 règles simulées
+2026-06-15 19:34:23,129 [INFO]   [012/66] yLhnXdeZn3k_Le Trading, la Pêche et le Couloir Hor — 1 règles
+2026-06-15 19:34:23,167 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:23,182 [INFO]   [013/66] 1bUQ2iiyUZw_Belkhayate ： Lesson 45 - Prévoir la Fo — 6 règles
+2026-06-15 19:34:23,199 [INFO]     [DRY RUN] batch 1/1 — 6 règles simulées
+2026-06-15 19:34:23,229 [INFO]   [014/66] 1yu1CrC0HS0_Voici les 2 Indicateurs Bonus de la Fo — 2 règles
+2026-06-15 19:34:23,274 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:23,298 [INFO]   [015/66] 6D6rgL3CvpQ_Présentation de Belkhayate Trend — 1 règles
+2026-06-15 19:34:23,324 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:23,342 [INFO]   [016/66] D7eNz5H_rjo_Belkhayate ： Lesson 43 — 1 règles
+2026-06-15 19:34:23,360 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:23,365 [INFO]   [017/66] Ka8-o5-Fyhk_Belkhayate ： Lesson 42 — 5 règles
+2026-06-15 19:34:23,378 [INFO]     [DRY RUN] batch 1/1 — 5 règles simulées
+2026-06-15 19:34:23,387 [INFO]   [018/66] KeWIHvECGCs_Belkhayate ： Lesson 27 — 7 règles
+2026-06-15 19:34:23,414 [INFO]     [DRY RUN] batch 1/1 — 7 règles simulées
+2026-06-15 19:34:23,428 [INFO]   [019/66] N0bYarUwb2U_Belkhayate ： Lesson 48 - Euro Analysis — 3 règles
+2026-06-15 19:34:23,473 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:23,490 [INFO]   [020/66] NXmogBp8IAU_Belkhayate Trading ： Vidéo 19 - Leçon  — 4 règles
+2026-06-15 19:34:23,519 [INFO]     [DRY RUN] batch 1/1 — 4 règles simulées
+2026-06-15 19:34:23,542 [INFO]   [021/66] OPLREJmtNsY_Belkhayate Trading ： Video18 - Leçon 2 — 2 règles
+2026-06-15 19:34:23,582 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:23,602 [INFO]   [022/66] Plmyxm6qFq8_Belkhayate Gravity Center User Guide — 6 règles
+2026-06-15 19:34:23,636 [INFO]     [DRY RUN] batch 1/1 — 6 règles simulées
+2026-06-15 19:34:23,645 [INFO]   [023/66] Ru7FYpBdrOA_Et si l’on trade le Pétrole ？ Extrait  — 2 règles
+2026-06-15 19:34:23,673 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:23,681 [INFO]   [024/66] Wi02ocQPr4g_Extrait du LIVE VIP 17 MARS,  Préparat — 3 règles
+2026-06-15 19:34:23,697 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:23,703 [INFO]   [025/66] blcSPi1FedE_Belkhayate TREND Presentation — 1 règles
+2026-06-15 19:34:23,729 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:23,754 [INFO]   [026/66] iHuxR_PIHS0_Belkhayate ： Lesson 50 - Dollar Collap — 2 règles
+2026-06-15 19:34:23,794 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:23,815 [INFO]   [027/66] nR33NS1EPR0_Trading WHEAT Market LIVE - 5 Days Cha — 6 règles
+2026-06-15 19:34:23,845 [INFO]     [DRY RUN] batch 1/1 — 6 règles simulées
+2026-06-15 19:34:23,861 [INFO]   [028/66] oEPSHUdIV0U_Mode d'Emploi de Belkhayate Centre de  — 5 règles
+2026-06-15 19:34:23,876 [INFO]     [DRY RUN] batch 1/1 — 5 règles simulées
+2026-06-15 19:34:23,890 [INFO]   [029/66] ubKv-05qdbU_Mode d'Emploi Belkhayate Gravité Cente — 5 règles
+2026-06-15 19:34:23,931 [INFO]     [DRY RUN] batch 1/1 — 5 règles simulées
+2026-06-15 19:34:23,972 [INFO]   [030/66] x5YAKyBbLcI_Belkhayate ： Lesson 49 - Analyse des B — 2 règles
+2026-06-15 19:34:24,013 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:24,025 [INFO]   [031/66] y72lC3B5k2E_Belkhayate ： Lesson 31 — 8 règles
+2026-06-15 19:34:24,037 [INFO]     [DRY RUN] batch 1/1 — 8 règles simulées
+2026-06-15 19:34:24,042 [INFO]   [032/66] yqzjMu-VSRo_Belkhayate ： Lesson 40 - Examples of T — 2 règles
+2026-06-15 19:34:24,053 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:24,066 [INFO]   [033/66] J00s5ROFnKA_Comment Utiliser le Gravity Center ？ L — 4 règles
+2026-06-15 19:34:24,097 [INFO]     [DRY RUN] batch 1/1 — 4 règles simulées
+2026-06-15 19:34:24,116 [INFO]   [034/66] ajTvB8oz4Ag_Gagner facilement de l'argent sur les  — 6 règles
+2026-06-15 19:34:24,146 [INFO]     [DRY RUN] batch 1/1 — 6 règles simulées
+2026-06-15 19:34:24,171 [INFO]   [035/66] -OIGv5rLLV8_Belkhayate ： Lesson 46 - Trading Solid — 1 règles
+2026-06-15 19:34:24,205 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,226 [INFO]   [036/66] 2yqB5ldVB-M_Belkhayate ： Lesson 38 - Champion Stra — 8 règles
+2026-06-15 19:34:24,265 [INFO]     [DRY RUN] batch 1/1 — 8 règles simulées
+2026-06-15 19:34:24,290 [INFO]   [037/66] 5dMhHFLzogM_Belkhayate ： Lesson 28 — 5 règles
+2026-06-15 19:34:24,317 [INFO]     [DRY RUN] batch 1/1 — 5 règles simulées
+2026-06-15 19:34:24,323 [INFO]   [038/66] BmTI9ikj-QU_Belkhayate ： Lesson 39 - Suite de Hoff — 6 règles
+2026-06-15 19:34:24,362 [INFO]     [DRY RUN] batch 1/1 — 6 règles simulées
+2026-06-15 19:34:24,370 [INFO]   [039/66] XP1rqD_mbXY_Secrets du Stop Loss et Prise de profi — 4 règles
+2026-06-15 19:34:24,379 [INFO]     [DRY RUN] batch 1/1 — 4 règles simulées
+2026-06-15 19:34:24,383 [INFO]   [040/66] cPlgiH886ys_Belkhayate Trading ： Vidéo 13 — 1 règles
+2026-06-15 19:34:24,412 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,438 [INFO]   [041/66] cob0Rl4nSOQ_Belkhayate ： Lesson 37 — 1 règles
+2026-06-15 19:34:24,477 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,499 [INFO]   [042/66] gZf43mkh40Q_Belkhayate Trading ： Vidéo 12 — 1 règles
+2026-06-15 19:34:24,539 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,550 [INFO]   [043/66] w9bbZbBNHwM_Belkhayate Method ： Magnifique Signaux — 4 règles
+2026-06-15 19:34:24,561 [INFO]     [DRY RUN] batch 1/1 — 4 règles simulées
+2026-06-15 19:34:24,580 [INFO]   [044/66] Xw0utU-nqr4_Belkhayate Trading ： Vidéo 8 — 1 règles
+2026-06-15 19:34:24,619 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,643 [INFO]   [045/66] a3iush59xuQ_Extrait LIVE 30-03-2022 - Le Scalping  — 2 règles
+2026-06-15 19:34:24,683 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:24,707 [INFO]   [046/66] 9azfF45PhRU_Arrêter de chercher à comprendre et Pr — 4 règles
+2026-06-15 19:34:24,723 [INFO]     [DRY RUN] batch 1/1 — 4 règles simulées
+2026-06-15 19:34:24,728 [INFO]   [047/66] TQ7hYcJx9OE_Pourquoi le nouveau Centre de Gravité  — 1 règles
+2026-06-15 19:34:24,735 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,740 [INFO]   [048/66] TZZ_oTmDy_M_Belkhayate ： Lesson 32 — 1 règles
+2026-06-15 19:34:24,751 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,778 [INFO]   [049/66] aK2I-gHQFF4_95% du temps, les marchés cherchent à  — 3 règles
+2026-06-15 19:34:24,802 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:24,827 [INFO]   [050/66] mMHc-wkVT_8_Belkhayate ： Lesson 36 - Importante Vi — 3 règles
+2026-06-15 19:34:24,866 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:24,879 [INFO]   [051/66] pX5_n4GxatA_Télécharger Gratuitement le Nouveau Be — 1 règles
+2026-06-15 19:34:24,922 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:24,949 [INFO]   [052/66] pqtbyMHXBJM_Extrait 2 du LIVE： Règles d'Or de la B — 1 règles
+2026-06-15 19:34:24,998 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,003 [INFO]   [053/66] yTpo7ATDF5o_Extraits des trades lives de l’Espace  — 1 règles
+2026-06-15 19:34:25,024 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,043 [INFO]   [054/66] FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Be — 3 règles
+2026-06-15 19:34:25,054 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:25,059 [INFO]   [055/66] Zu2Xl6cxYZs_Les marchés finissent toujours par pli — 1 règles
+2026-06-15 19:34:25,081 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,108 [INFO]   [056/66] jJV61RzKm5U_Signal intéressant sur le Nasdaq — 1 règles
+2026-06-15 19:34:25,150 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,173 [INFO]   [057/66] pe1PIKDUGIs_La Fausse Cassure devient votre Meille — 1 règles
+2026-06-15 19:34:25,206 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,220 [INFO]   [058/66] 79HyL4V13KQ_Belkhayate ： Lesson 30 — 1 règles
+2026-06-15 19:34:25,237 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,258 [INFO]   [059/66] LlWDHChUvo4_Belkhayate Trading ： Vidéo 4 — 1 règles
+2026-06-15 19:34:25,298 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,326 [INFO]   [060/66] PLkAPhUIs9g_Comment anticiper en bourse ？ Votre pr — 1 règles
+2026-06-15 19:34:25,366 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,391 [INFO]   [061/66] doUa5le9fFs_Identifier le trading range pour appre — 3 règles
+2026-06-15 19:34:25,401 [INFO]     [DRY RUN] batch 1/1 — 3 règles simulées
+2026-06-15 19:34:25,406 [INFO]   [062/66] gTgNe0P4SVw_Belkhayate Pivots Method, vos supports — 1 règles
+2026-06-15 19:34:25,418 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,426 [INFO]   [063/66] h0arZt3uW2k_Initiation au Trading Rapide de 1 a 2  — 2 règles
+2026-06-15 19:34:25,454 [INFO]     [DRY RUN] batch 1/1 — 2 règles simulées
+2026-06-15 19:34:25,467 [INFO]   [064/66] kCReRoqkFAc_Importance du Couloir Horaire en Tradi — 1 règles
+2026-06-15 19:34:25,509 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,525 [INFO]   [065/66] lMvcK7NnykA_Belkhayate Trading ： Video 17 - Leçon  — 1 règles
+2026-06-15 19:34:25,555 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,583 [INFO]   [066/66] m7tNU-6p2Vs_Belkhayate ： Lesson 34 — 1 règles
+2026-06-15 19:34:25,654 [INFO]     [DRY RUN] batch 1/1 — 1 règles simulées
+2026-06-15 19:34:25,685 [INFO]   ✓ Groupe B terminé : 220 règles traitées
+2026-06-15 19:34:25,706 [INFO] Groupe C (36 règles) → gardé AMBIGU pour revue humaine
+2026-06-15 19:34:25,715 [INFO] Mise à jour KB_VALIDEE.json...
+2026-06-15 19:34:25,723 [INFO] Mise à jour KB → {'VALIDE_gagne': 0, 'INVALIDE_gagne': 0, 'reste_AMBIGU': 36, 'DRY_RUN': 352}
+2026-06-15 19:34:27,508 [INFO] ✓ KB_VALIDEE.json mis à jour
+2026-06-15 19:34:27,961 [INFO] ✓ A_VERIFIER_HUMAIN.md → 388 cas restants
+2026-06-15 19:34:28,016 [INFO] ✓ Rapport : /sessions/pensive-festive-goldberg/mnt/trading-copilote/04-cerveau-trading/validation/RAPPORT_REVALIDATION.json
+2026-06-15 19:34:28,044 [INFO] 
+2026-06-15 19:34:28,065 [INFO] ======================================================================
+2026-06-15 19:34:28,090 [INFO] RÉSULTATS FINAUX
+2026-06-15 19:34:28,108 [INFO] ----------------------------------------------------------------------
+2026-06-15 19:34:28,124 [INFO]   VALIDE gagnés   : +0
+2026-06-15 19:34:28,145 [INFO]   INVALIDE gagnés : +0
+2026-06-15 19:34:28,153 [INFO]   Restent AMBIGU  :  36
+2026-06-15 19:34:28,157 [INFO]   DRY_RUN         :  352
+2026-06-15 19:34:28,161 [INFO] ----------------------------------------------------------------------
+2026-06-15 19:34:28,168 [INFO]   VALIDE          :  835 (66.0%)
+2026-06-15 19:34:28,175 [INFO]   INVALIDE        :   42 (3.3%)
+2026-06-15 19:34:28,190 [INFO]   AMBIGU          :  388 (30.7%)
+2026-06-15 19:34:28,211 [INFO] ----------------------------------------------------------------------
+2026-06-15 19:34:28,217 [INFO]   TOTAL           : 1265
+2026-06-15 19:34:28,237 [INFO] ======================================================================
+2026-06-15 19:34:28,257 [INFO]   → A_VERIFIER_HUMAIN.md : 388 cas à vérifier manuellement
+2026-06-15 19:34:28,265 [INFO] ======================================================================
+2026-06-15 19:34:28,288 [INFO] Terminé.
+2026-06-15 19:39:04,803 [INFO] ======================================================================
+2026-06-15 19:39:04,823 [INFO] REVALIDER_AMBIGU v1.1 -- 2e passe semantique KB Belkhayate
+2026-06-15 19:39:04,845 [INFO] Mode     : DRY RUN (simulation - aucun fichier modifie)
+2026-06-15 19:39:04,867 [INFO] Groupe A : claude-haiku-4-5-20251001 (re-run erreurs API)
+2026-06-15 19:39:04,888 [INFO] Groupe B : claude-sonnet-4-6 (passe semantique NON VERBATIM)
+2026-06-15 19:39:04,908 [INFO] ======================================================================
+2026-06-15 19:39:04,924 [INFO] Chargement KB_VALIDEE.json...
+2026-06-15 19:39:04,989 [INFO] KB chargee : 1265 regles au total
+2026-06-15 19:39:05,013 [INFO] Groupes extraits -> A:132  B:220  C:36
+2026-06-15 19:39:05,034 [INFO] Total AMBIGU : 388
+2026-06-15 19:39:05,054 [INFO]   A (erreurs API)  : 132
+2026-06-15 19:39:05,079 [INFO]   B (NON VERBATIM) : 220
+2026-06-15 19:39:05,100 [INFO]   C (autres/humain): 36
+2026-06-15 19:39:05,119 [INFO] Appels API estimes : 6 Haiku + 66 Sonnet
+2026-06-15 19:39:05,129 [INFO] === GROUPE A -- 132 regles ===
+2026-06-15 19:39:05,146 [INFO]   -> 6 transcripts uniques
+2026-06-15 19:39:05,152 [INFO]   [001/6] FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Be -- 24 regles
+2026-06-15 19:39:05,174 [INFO]     [DRY RUN] batch 1/2 -- 20 regles simulees
+2026-06-15 19:39:05,197 [INFO]     [DRY RUN] batch 2/2 -- 4 regles simulees
+2026-06-15 19:39:05,215 [INFO]   [002/6] uya06_CeE4c_Définir avec précision le Stop Loss &  -- 23 regles
+2026-06-15 19:39:05,249 [INFO]     [DRY RUN] batch 1/2 -- 20 regles simulees
+2026-06-15 19:39:05,277 [INFO]     [DRY RUN] batch 2/2 -- 3 regles simulees
+2026-06-15 19:39:05,293 [INFO]   [003/6] vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursi -- 19 regles
+2026-06-15 19:39:05,319 [INFO]     [DRY RUN] batch 1/1 -- 19 regles simulees
+2026-06-15 19:39:05,337 [INFO]   [004/6] YQDcopMt7ns_Trading sur le micro contrat de pétrol -- 23 regles
+2026-06-15 19:39:05,352 [INFO]     [DRY RUN] batch 1/2 -- 20 regles simulees
+2026-06-15 19:39:05,357 [INFO]     [DRY RUN] batch 2/2 -- 3 regles simulees
+2026-06-15 19:39:05,363 [INFO]   [005/6] doUa5le9fFs_Identifier le trading range pour appre -- 18 regles
+2026-06-15 19:39:05,376 [INFO]     [DRY RUN] batch 1/1 -- 18 regles simulees
+2026-06-15 19:39:05,398 [INFO]   [006/6] gTgNe0P4SVw_Belkhayate Pivots Method, vos supports -- 25 regles
+2026-06-15 19:39:05,420 [INFO]     [DRY RUN] batch 1/2 -- 20 regles simulees
+2026-06-15 19:39:05,440 [INFO]     [DRY RUN] batch 2/2 -- 5 regles simulees
+2026-06-15 19:39:05,459 [INFO]   Groupe A termine : 132 regles
+2026-06-15 19:39:05,484 [INFO] === GROUPE B -- 220 regles ===
+2026-06-15 19:39:05,501 [INFO]   -> 66 transcripts uniques
+2026-06-15 19:39:05,513 [INFO]   [001/66] MLwyVP4hqTk_Time Channels are Crucial in Trading -- 10 regles
+2026-06-15 19:39:05,546 [INFO]     [DRY RUN] batch 1/1 -- 10 regles simulees
+2026-06-15 19:39:05,552 [INFO]   [002/66] uD4jdZrfgDc_Belkhayate Trading ： Vidéo 22 - Leçon  -- 3 regles
+2026-06-15 19:39:05,575 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:05,598 [INFO]   [003/66] _kXq6Ad8ZWk_Devenir un expert dans le Trading de l -- 3 regles
+2026-06-15 19:39:05,633 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:05,643 [INFO]   [004/66] 4XYEV3o3W5U_Trading Gagnant sur le Blé -- 4 regles
+2026-06-15 19:39:05,673 [INFO]     [DRY RUN] batch 1/1 -- 4 regles simulees
+2026-06-15 19:39:05,686 [INFO]   [005/66] 57DtXQp35Eo_Belkhayate Gravity Center User Guide -- 3 regles
+2026-06-15 19:39:05,703 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:05,709 [INFO]   [006/66] BOENPfxIptU_Trading simple du Dow Jones avec les i -- 17 regles
+2026-06-15 19:39:05,724 [INFO]     [DRY RUN] batch 1/1 -- 17 regles simulees
+2026-06-15 19:39:05,729 [INFO]   [007/66] L7fDaVLAn00_Trading WHEAT Market LIVE - 5 Days Cha -- 4 regles
+2026-06-15 19:39:05,747 [INFO]     [DRY RUN] batch 1/1 -- 4 regles simulees
+2026-06-15 19:39:05,759 [INFO]   [008/66] TAWkII5CI-k_Présentation de Belkhayate Gravity Cen -- 3 regles
+2026-06-15 19:39:05,777 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:05,796 [INFO]   [009/66] _Bbzx2lITEQ_Belkhayate Indicateurs sur Tradingview -- 13 regles
+2026-06-15 19:39:05,828 [INFO]     [DRY RUN] batch 1/1 -- 13 regles simulees
+2026-06-15 19:39:05,849 [INFO]   [010/66] t6Yp9yisaWw_Trader le Gold de manière simple et ef -- 3 regles
+2026-06-15 19:39:05,867 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:05,876 [INFO]   [011/66] v1Z4lM3ZfU4_Comment Lire les Points Pivots et quel -- 6 regles
+2026-06-15 19:39:05,906 [INFO]     [DRY RUN] batch 1/1 -- 6 regles simulees
+2026-06-15 19:39:05,913 [INFO]   [012/66] yLhnXdeZn3k_Le Trading, la Pêche et le Couloir Hor -- 1 regles
+2026-06-15 19:39:05,949 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:05,955 [INFO]   [013/66] 1bUQ2iiyUZw_Belkhayate ： Lesson 45 - Prévoir la Fo -- 6 regles
+2026-06-15 19:39:05,971 [INFO]     [DRY RUN] batch 1/1 -- 6 regles simulees
+2026-06-15 19:39:05,995 [INFO]   [014/66] 1yu1CrC0HS0_Voici les 2 Indicateurs Bonus de la Fo -- 2 regles
+2026-06-15 19:39:06,037 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:06,051 [INFO]   [015/66] 6D6rgL3CvpQ_Présentation de Belkhayate Trend -- 1 regles
+2026-06-15 19:39:06,076 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:06,085 [INFO]   [016/66] D7eNz5H_rjo_Belkhayate ： Lesson 43 -- 1 regles
+2026-06-15 19:39:06,118 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:06,137 [INFO]   [017/66] Ka8-o5-Fyhk_Belkhayate ： Lesson 42 -- 5 regles
+2026-06-15 19:39:06,171 [INFO]     [DRY RUN] batch 1/1 -- 5 regles simulees
+2026-06-15 19:39:06,189 [INFO]   [018/66] KeWIHvECGCs_Belkhayate ： Lesson 27 -- 7 regles
+2026-06-15 19:39:06,226 [INFO]     [DRY RUN] batch 1/1 -- 7 regles simulees
+2026-06-15 19:39:06,236 [INFO]   [019/66] N0bYarUwb2U_Belkhayate ： Lesson 48 - Euro Analysis -- 3 regles
+2026-06-15 19:39:06,261 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:06,272 [INFO]   [020/66] NXmogBp8IAU_Belkhayate Trading ： Vidéo 19 - Leçon  -- 4 regles
+2026-06-15 19:39:06,295 [INFO]     [DRY RUN] batch 1/1 -- 4 regles simulees
+2026-06-15 19:39:06,313 [INFO]   [021/66] OPLREJmtNsY_Belkhayate Trading ： Video18 - Leçon 2 -- 2 regles
+2026-06-15 19:39:06,341 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:06,360 [INFO]   [022/66] Plmyxm6qFq8_Belkhayate Gravity Center User Guide -- 6 regles
+2026-06-15 19:39:06,401 [INFO]     [DRY RUN] batch 1/1 -- 6 regles simulees
+2026-06-15 19:39:06,417 [INFO]   [023/66] Ru7FYpBdrOA_Et si l’on trade le Pétrole ？ Extrait  -- 2 regles
+2026-06-15 19:39:06,425 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:06,431 [INFO]   [024/66] Wi02ocQPr4g_Extrait du LIVE VIP 17 MARS,  Préparat -- 3 regles
+2026-06-15 19:39:06,459 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:06,467 [INFO]   [025/66] blcSPi1FedE_Belkhayate TREND Presentation -- 1 regles
+2026-06-15 19:39:06,492 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:06,504 [INFO]   [026/66] iHuxR_PIHS0_Belkhayate ： Lesson 50 - Dollar Collap -- 2 regles
+2026-06-15 19:39:06,528 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:06,541 [INFO]   [027/66] nR33NS1EPR0_Trading WHEAT Market LIVE - 5 Days Cha -- 6 regles
+2026-06-15 19:39:06,552 [INFO]     [DRY RUN] batch 1/1 -- 6 regles simulees
+2026-06-15 19:39:06,557 [INFO]   [028/66] oEPSHUdIV0U_Mode d'Emploi de Belkhayate Centre de  -- 5 regles
+2026-06-15 19:39:06,570 [INFO]     [DRY RUN] batch 1/1 -- 5 regles simulees
+2026-06-15 19:39:06,577 [INFO]   [029/66] ubKv-05qdbU_Mode d'Emploi Belkhayate Gravité Cente -- 5 regles
+2026-06-15 19:39:06,603 [INFO]     [DRY RUN] batch 1/1 -- 5 regles simulees
+2026-06-15 19:39:06,610 [INFO]   [030/66] x5YAKyBbLcI_Belkhayate ： Lesson 49 - Analyse des B -- 2 regles
+2026-06-15 19:39:06,622 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:06,626 [INFO]   [031/66] y72lC3B5k2E_Belkhayate ： Lesson 31 -- 8 regles
+2026-06-15 19:39:06,641 [INFO]     [DRY RUN] batch 1/1 -- 8 regles simulees
+2026-06-15 19:39:06,653 [INFO]   [032/66] yqzjMu-VSRo_Belkhayate ： Lesson 40 - Examples of T -- 2 regles
+2026-06-15 19:39:06,672 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:06,689 [INFO]   [033/66] J00s5ROFnKA_Comment Utiliser le Gravity Center ？ L -- 4 regles
+2026-06-15 19:39:06,715 [INFO]     [DRY RUN] batch 1/1 -- 4 regles simulees
+2026-06-15 19:39:06,719 [INFO]   [034/66] ajTvB8oz4Ag_Gagner facilement de l'argent sur les  -- 6 regles
+2026-06-15 19:39:06,732 [INFO]     [DRY RUN] batch 1/1 -- 6 regles simulees
+2026-06-15 19:39:06,746 [INFO]   [035/66] -OIGv5rLLV8_Belkhayate ： Lesson 46 - Trading Solid -- 1 regles
+2026-06-15 19:39:06,764 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:06,769 [INFO]   [036/66] 2yqB5ldVB-M_Belkhayate ： Lesson 38 - Champion Stra -- 8 regles
+2026-06-15 19:39:06,792 [INFO]     [DRY RUN] batch 1/1 -- 8 regles simulees
+2026-06-15 19:39:06,798 [INFO]   [037/66] 5dMhHFLzogM_Belkhayate ： Lesson 28 -- 5 regles
+2026-06-15 19:39:06,808 [INFO]     [DRY RUN] batch 1/1 -- 5 regles simulees
+2026-06-15 19:39:06,813 [INFO]   [038/66] BmTI9ikj-QU_Belkhayate ： Lesson 39 - Suite de Hoff -- 6 regles
+2026-06-15 19:39:06,831 [INFO]     [DRY RUN] batch 1/1 -- 6 regles simulees
+2026-06-15 19:39:06,855 [INFO]   [039/66] XP1rqD_mbXY_Secrets du Stop Loss et Prise de profi -- 4 regles
+2026-06-15 19:39:06,896 [INFO]     [DRY RUN] batch 1/1 -- 4 regles simulees
+2026-06-15 19:39:06,909 [INFO]   [040/66] cPlgiH886ys_Belkhayate Trading ： Vidéo 13 -- 1 regles
+2026-06-15 19:39:06,934 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:06,945 [INFO]   [041/66] cob0Rl4nSOQ_Belkhayate ： Lesson 37 -- 1 regles
+2026-06-15 19:39:06,978 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,006 [INFO]   [042/66] gZf43mkh40Q_Belkhayate Trading ： Vidéo 12 -- 1 regles
+2026-06-15 19:39:07,038 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,055 [INFO]   [043/66] w9bbZbBNHwM_Belkhayate Method ： Magnifique Signaux -- 4 regles
+2026-06-15 19:39:07,077 [INFO]     [DRY RUN] batch 1/1 -- 4 regles simulees
+2026-06-15 19:39:07,082 [INFO]   [044/66] Xw0utU-nqr4_Belkhayate Trading ： Vidéo 8 -- 1 regles
+2026-06-15 19:39:07,095 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,099 [INFO]   [045/66] a3iush59xuQ_Extrait LIVE 30-03-2022 - Le Scalping  -- 2 regles
+2026-06-15 19:39:07,125 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:07,130 [INFO]   [046/66] 9azfF45PhRU_Arrêter de chercher à comprendre et Pr -- 4 regles
+2026-06-15 19:39:07,153 [INFO]     [DRY RUN] batch 1/1 -- 4 regles simulees
+2026-06-15 19:39:07,167 [INFO]   [047/66] TQ7hYcJx9OE_Pourquoi le nouveau Centre de Gravité  -- 1 regles
+2026-06-15 19:39:07,180 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,196 [INFO]   [048/66] TZZ_oTmDy_M_Belkhayate ： Lesson 32 -- 1 regles
+2026-06-15 19:39:07,209 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,223 [INFO]   [049/66] aK2I-gHQFF4_95% du temps, les marchés cherchent à  -- 3 regles
+2026-06-15 19:39:07,244 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:07,261 [INFO]   [050/66] mMHc-wkVT_8_Belkhayate ： Lesson 36 - Importante Vi -- 3 regles
+2026-06-15 19:39:07,272 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:07,279 [INFO]   [051/66] pX5_n4GxatA_Télécharger Gratuitement le Nouveau Be -- 1 regles
+2026-06-15 19:39:07,299 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,304 [INFO]   [052/66] pqtbyMHXBJM_Extrait 2 du LIVE： Règles d'Or de la B -- 1 regles
+2026-06-15 19:39:07,313 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,322 [INFO]   [053/66] yTpo7ATDF5o_Extraits des trades lives de l’Espace  -- 1 regles
+2026-06-15 19:39:07,352 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,356 [INFO]   [054/66] FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Be -- 3 regles
+2026-06-15 19:39:07,373 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:07,382 [INFO]   [055/66] Zu2Xl6cxYZs_Les marchés finissent toujours par pli -- 1 regles
+2026-06-15 19:39:07,403 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,408 [INFO]   [056/66] jJV61RzKm5U_Signal intéressant sur le Nasdaq -- 1 regles
+2026-06-15 19:39:07,417 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,423 [INFO]   [057/66] pe1PIKDUGIs_La Fausse Cassure devient votre Meille -- 1 regles
+2026-06-15 19:39:07,435 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,443 [INFO]   [058/66] 79HyL4V13KQ_Belkhayate ： Lesson 30 -- 1 regles
+2026-06-15 19:39:07,471 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,477 [INFO]   [059/66] LlWDHChUvo4_Belkhayate Trading ： Vidéo 4 -- 1 regles
+2026-06-15 19:39:07,498 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,517 [INFO]   [060/66] PLkAPhUIs9g_Comment anticiper en bourse ？ Votre pr -- 1 regles
+2026-06-15 19:39:07,544 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,570 [INFO]   [061/66] doUa5le9fFs_Identifier le trading range pour appre -- 3 regles
+2026-06-15 19:39:07,589 [INFO]     [DRY RUN] batch 1/1 -- 3 regles simulees
+2026-06-15 19:39:07,615 [INFO]   [062/66] gTgNe0P4SVw_Belkhayate Pivots Method, vos supports -- 1 regles
+2026-06-15 19:39:07,639 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,663 [INFO]   [063/66] h0arZt3uW2k_Initiation au Trading Rapide de 1 a 2  -- 2 regles
+2026-06-15 19:39:07,693 [INFO]     [DRY RUN] batch 1/1 -- 2 regles simulees
+2026-06-15 19:39:07,720 [INFO]   [064/66] kCReRoqkFAc_Importance du Couloir Horaire en Tradi -- 1 regles
+2026-06-15 19:39:07,743 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,765 [INFO]   [065/66] lMvcK7NnykA_Belkhayate Trading ： Video 17 - Leçon  -- 1 regles
+2026-06-15 19:39:07,798 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,823 [INFO]   [066/66] m7tNU-6p2Vs_Belkhayate ： Lesson 34 -- 1 regles
+2026-06-15 19:39:07,838 [INFO]     [DRY RUN] batch 1/1 -- 1 regles simulees
+2026-06-15 19:39:07,851 [INFO]   Groupe B termine : 220 regles
+2026-06-15 19:39:07,867 [INFO] Groupe C (36 regles) -> reste AMBIGU (revue humaine)
+2026-06-15 19:39:07,880 [INFO] Mise a jour KB -> {'VALIDE_gagne': 0, 'INVALIDE_gagne': 0, 'reste_AMBIGU': 36, 'DRY_RUN': 352}
+2026-06-15 19:39:07,899 [INFO] [DRY RUN] KB_VALIDEE.json NON modifie
+2026-06-15 19:39:07,913 [INFO] [DRY RUN] A_VERIFIER_HUMAIN.md NON regenere
+2026-06-15 19:39:07,926 [INFO] 
+2026-06-15 19:39:07,941 [INFO] ======================================================================
+2026-06-15 19:39:07,957 [INFO] RESULTATS FINAUX
+2026-06-15 19:39:07,969 [INFO] ----------------------------------------------------------------------
+2026-06-15 19:39:07,977 [INFO]   VALIDE gagnes   : +0
+2026-06-15 19:39:07,982 [INFO]   INVALIDE gagnes : +0
+2026-06-15 19:39:07,987 [INFO]   Restent AMBIGU  :  36
+2026-06-15 19:39:07,991 [INFO]   DRY_RUN         :  352
+2026-06-15 19:39:07,997 [INFO] ----------------------------------------------------------------------
+2026-06-15 19:39:08,010 [INFO]   VALIDE          :  835 (66.0%)
+2026-06-15 19:39:08,014 [INFO]   INVALIDE        :   42 (3.3%)
+2026-06-15 19:39:08,023 [INFO]   AMBIGU          :  388 (30.7%)
+2026-06-15 19:39:08,026 [INFO] ----------------------------------------------------------------------
+2026-06-15 19:39:08,049 [INFO]   TOTAL           : 1265
+2026-06-15 19:39:08,060 [INFO] ======================================================================
+2026-06-15 19:39:08,063 [INFO]   A_VERIFIER_HUMAIN.md : 388 cas a verifier manuellement
+2026-06-15 19:39:08,081 [INFO] ======================================================================
+2026-06-15 19:39:08,091 [INFO] Termine.
+2026-06-15 20:41:10,784 [INFO] ======================================================================
+2026-06-15 20:41:10,784 [INFO] REVALIDER_AMBIGU v1.1 -- 2e passe semantique KB Belkhayate
+2026-06-15 20:41:10,784 [INFO] Mode     : PRODUCTION
+2026-06-15 20:41:10,784 [INFO] Groupe A : claude-haiku-4-5-20251001 (re-run erreurs API)
+2026-06-15 20:41:10,784 [INFO] Groupe B : claude-sonnet-4-6 (passe semantique NON VERBATIM)
+2026-06-15 20:41:10,784 [INFO] ======================================================================
+2026-06-15 20:41:12,940 [INFO] Client Claude initialise
+2026-06-15 20:41:12,940 [INFO] Chargement KB_VALIDEE.json...
+2026-06-15 20:41:12,948 [INFO] KB chargee : 1265 regles au total
+2026-06-15 20:41:12,948 [INFO] Groupes extraits -> A:132  B:220  C:36
+2026-06-15 20:41:12,948 [INFO] Total AMBIGU : 388
+2026-06-15 20:41:12,948 [INFO]   A (erreurs API)  : 132
+2026-06-15 20:41:12,948 [INFO]   B (NON VERBATIM) : 220
+2026-06-15 20:41:12,948 [INFO]   C (autres/humain): 36
+2026-06-15 20:41:12,948 [INFO] Appels API estimes : 6 Haiku + 66 Sonnet
+2026-06-15 20:41:12,948 [INFO] === GROUPE A -- 132 regles ===
+2026-06-15 20:41:12,948 [INFO]   -> 6 transcripts uniques
+2026-06-15 20:41:12,948 [INFO]   [001/6] FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Be -- 24 regles
+2026-06-15 20:41:35,477 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:41:35,541 [WARNING]   Citation non verbatim -> AMBIGU : Ce qui m'intéresse dans le Volume Profile, c'est juste cette...
+2026-06-15 20:41:35,543 [WARNING]   Citation non verbatim -> AMBIGU : lorsque le marché revient taper ici, il tombe avec un grand ...
+2026-06-15 20:41:35,543 [WARNING]   Citation non verbatim -> AMBIGU : lorsque j'ai vu que les prochaines cinq minutes, là, que vou...
+2026-06-15 20:41:35,543 [WARNING]   Citation non verbatim -> AMBIGU : Ce que j'ai fait, ce que j'ai tracé ici, du plus haut ici ju...
+2026-06-15 20:41:35,543 [INFO]     batch 1/2 : {'VALIDE': 14, 'AMBIGU': 6}
+2026-06-15 20:41:41,918 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:41:41,922 [WARNING]   Citation non verbatim -> AMBIGU : je ne voulais pas que vous l'utilisiez en signal d'achat et ...
+2026-06-15 20:41:41,924 [WARNING]   Citation non verbatim -> AMBIGU : il y a énormément d'argent disponible... sociétés qui emprun...
+2026-06-15 20:41:41,924 [WARNING]   Citation non verbatim -> AMBIGU : le marché a explosé ce couloir là avec force et avec volume....
+2026-06-15 20:41:41,924 [INFO]     batch 2/2 : {'AMBIGU': 4}
+2026-06-15 20:41:41,924 [INFO]   [002/6] uya06_CeE4c_Définir avec précision le Stop Loss &  -- 23 regles
+2026-06-15 20:42:01,067 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:42:01,071 [WARNING]   Citation non verbatim -> AMBIGU : À 13h19, on commence à s'intéresser sur les bons de 13h....
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : J'analyse à 30 minutes et je traite à 15 minutes. Donc, on v...
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : Règle de base du Paris-Centre, c'est qu'il est interdit d'ac...
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : Et je n'ai pas envie d'être acheteur du ZB, je vais tout sim...
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : Le premier volume qu'on a avec 9000, à peu près 10 000 contr...
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : On voit vraiment une mèche là, mais il n'est pas avec le vol...
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : Ma stratégie, elle est basée sur se focaliser sur un seul ma...
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : Si vous rentrez à 139.03 avec un drawdown de 100 dollars ou ...
+2026-06-15 20:42:01,072 [WARNING]   Citation non verbatim -> AMBIGU : On va venir ici, on va mettre le ZB en weekly déjà... Une fo...
+2026-06-15 20:42:01,078 [WARNING]   Citation non verbatim -> AMBIGU : Ici, on est dans un trade-in range. Et une fois qu'on a cass...
+2026-06-15 20:42:01,078 [WARNING]   Citation non verbatim -> AMBIGU : Attention, on a eu une fausse cassure, ici, avec du volume. ...
+2026-06-15 20:42:01,080 [WARNING]   Citation non verbatim -> AMBIGU : À chaque fois que vous entrez, dans la plupart des cas... il...
+2026-06-15 20:42:01,080 [INFO]     batch 1/2 : {'VALIDE': 8, 'AMBIGU': 12}
+2026-06-15 20:42:06,898 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:42:06,908 [INFO]     batch 2/2 : {'VALIDE': 3}
+2026-06-15 20:42:06,908 [INFO]   [003/6] vlgQJEE9dY0_Définir les 3 Etats d'un Marché Boursi -- 19 regles
+2026-06-15 20:42:25,847 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:42:25,855 [WARNING]   Citation non verbatim -> AMBIGU : le marché se compose de trois états soit le marché il fait u...
+2026-06-15 20:42:25,855 [WARNING]   Citation non verbatim -> AMBIGU : si vous utilisez un système de trading qui suit les tendance...
+2026-06-15 20:42:25,855 [INFO]     batch 1/1 : {'VALIDE': 16, 'AMBIGU': 3}
+2026-06-15 20:42:25,855 [INFO]   [004/6] YQDcopMt7ns_Trading sur le micro contrat de pétrol -- 23 regles
+2026-06-15 20:42:48,372 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : j'arrête ici il est 7h30 et on a quelque chose que j'aime be...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : on était sur une tendance haussière le marché revient faire ...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : on s'appuie clairement ici avec et hop on rebondit... le mar...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : on a un très grand volume ici suivi d'un grand volume dès qu...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : on est revenu rebondir ici comme pour s'appuyer sur le belgr...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : ça y est ici j'aurais pu sortir ici... juste après il y a un...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : on va acheter avec cette grande bougie on va acheter... on r...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : comme je suis sur des micros que je perds que 13 dollars... ...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : on rentre doucement on met un doigt dans l'eau et ensuite si...
+2026-06-15 20:42:48,381 [WARNING]   Citation non verbatim -> AMBIGU : si on revient casser le plus haut ici... j'achète encore un ...
+2026-06-15 20:42:48,389 [WARNING]   Citation non verbatim -> AMBIGU : vous pouvez mettre 1,2,3,4,5 en fonction du risque que vous ...
+2026-06-15 20:42:48,389 [WARNING]   Citation non verbatim -> AMBIGU : on a bien déterminé ici une accalmie sur les prix... couloir...
+2026-06-15 20:42:48,389 [WARNING]   Citation non verbatim -> AMBIGU : le marché revient il revient après qu'on ait acheté mais il ...
+2026-06-15 20:42:48,389 [INFO]     batch 1/2 : {'VALIDE': 6, 'AMBIGU': 14}
+2026-06-15 20:42:53,804 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:42:53,804 [INFO]     batch 2/2 : {'VALIDE': 3}
+2026-06-15 20:42:53,804 [INFO]   [005/6] doUa5le9fFs_Identifier le trading range pour appre -- 18 regles
+2026-06-15 20:43:13,769 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:43:13,777 [WARNING]   Citation non verbatim -> AMBIGU : Vous allez arrêter de rentrer n'importe quoi. vous rentrez q...
+2026-06-15 20:43:13,780 [WARNING]   Citation non verbatim -> AMBIGU : je tiens à vous souligner quelque chose de très important......
+2026-06-15 20:43:13,783 [WARNING]   Citation non verbatim -> AMBIGU : Ce n'est pas parce que vous avez 500, 600, 700, 800 dollars ...
+2026-06-15 20:43:13,783 [WARNING]   Citation non verbatim -> AMBIGU : il faut absolument avoir le cœur, le moral d'acier pour atte...
+2026-06-15 20:43:13,785 [WARNING]   Citation non verbatim -> AMBIGU : Lorsque vous avez le marché qui fait une bougie de 15 minute...
+2026-06-15 20:43:13,786 [WARNING]   Citation non verbatim -> AMBIGU : Les trading range représentent 75% du temps sur un marché et...
+2026-06-15 20:43:13,788 [WARNING]   Citation non verbatim -> AMBIGU : Lorsque vous avez le marché qui fait une bougie de 15 minute...
+2026-06-15 20:43:13,789 [WARNING]   Citation non verbatim -> AMBIGU : il y a quelqu'un qui rentre et qui a l'intention de rester l...
+2026-06-15 20:43:13,790 [WARNING]   Citation non verbatim -> AMBIGU : nous avons une tendance haussière, nous avons la mèche et no...
+2026-06-15 20:43:13,790 [INFO]     batch 1/1 : {'VALIDE': 7, 'INVALIDE': 2, 'AMBIGU': 9}
+2026-06-15 20:43:13,790 [INFO]   [006/6] gTgNe0P4SVw_Belkhayate Pivots Method, vos supports -- 25 regles
+2026-06-15 20:43:32,405 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:43:32,412 [WARNING]   Citation non verbatim -> AMBIGU : dès qu'une journée commence, ces niveaux-là, vous les tracez...
+2026-06-15 20:43:32,413 [WARNING]   Citation non verbatim -> AMBIGU : vous devez vous spécialiser sur une journée, d'accord, vous ...
+2026-06-15 20:43:32,414 [WARNING]   Citation non verbatim -> AMBIGU : Ici, nous avons le jaune, la ligne jaune, c'est-à-dire la cl...
+2026-06-15 20:43:32,414 [WARNING]   Citation non verbatim -> AMBIGU : le marché rebondit ici pour partir où ? Pour partir au premi...
+2026-06-15 20:43:32,418 [WARNING]   Citation non verbatim -> AMBIGU : on va avoir une ligne très importante, soit de support, soit...
+2026-06-15 20:43:32,421 [WARNING]   Citation non verbatim -> AMBIGU : quand vous avez ces bandes-là qui sont écartées, ça veut dir...
+2026-06-15 20:43:32,421 [WARNING]   Citation non verbatim -> AMBIGU : On achète. On a pour objectif ici...au deuxième support ici....
+2026-06-15 20:43:32,421 [WARNING]   Citation non verbatim -> AMBIGU : regardez comme la clôture de la veille... et cette clôture d...
+2026-06-15 20:43:32,421 [WARNING]   Citation non verbatim -> AMBIGU : un parfait avalement baissier ici, en plein, en pleine zone ...
+2026-06-15 20:43:32,421 [WARNING]   Citation non verbatim -> AMBIGU : On achète. On a pour objectif ici. On ne va pas espérer tout...
+2026-06-15 20:43:32,429 [WARNING]   Citation non verbatim -> AMBIGU : On achète. On a pour objectif ici... regardez comme le march...
+2026-06-15 20:43:32,429 [INFO]     batch 1/2 : {'VALIDE': 2, 'INVALIDE': 6, 'AMBIGU': 12}
+2026-06-15 20:43:39,471 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:43:39,471 [WARNING]   Citation non verbatim -> AMBIGU : c'est parce que les algorithmes de trading et les grands tra...
+2026-06-15 20:43:39,471 [WARNING]   Citation non verbatim -> AMBIGU : vous avez des grandes structures comme BlackRock et compagni...
+2026-06-15 20:43:39,479 [INFO]     batch 2/2 : {'VALIDE': 1, 'INVALIDE': 1, 'AMBIGU': 3}
+2026-06-15 20:43:39,479 [INFO]   Groupe A termine : 132 regles
+2026-06-15 20:43:39,479 [INFO] === GROUPE B -- 220 regles ===
+2026-06-15 20:43:39,479 [INFO]   -> 66 transcripts uniques
+2026-06-15 20:43:39,479 [INFO]   [001/66] MLwyVP4hqTk_Time Channels are Crucial in Trading -- 10 regles
+2026-06-15 20:43:56,268 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:43:56,270 [INFO]     batch 1/1 : {'VALIDE': 10}
+2026-06-15 20:43:56,272 [INFO]   [002/66] uD4jdZrfgDc_Belkhayate Trading ： Vidéo 22 - Leçon  -- 3 regles
+2026-06-15 20:44:04,865 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:44:04,871 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:44:04,871 [INFO]   [003/66] _kXq6Ad8ZWk_Devenir un expert dans le Trading de l -- 3 regles
+2026-06-15 20:44:11,213 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:44:11,221 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:44:11,221 [INFO]   [004/66] 4XYEV3o3W5U_Trading Gagnant sur le Blé -- 4 regles
+2026-06-15 20:44:21,462 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:44:21,463 [INFO]     batch 1/1 : {'VALIDE': 2, 'AMBIGU': 2}
+2026-06-15 20:44:21,463 [INFO]   [005/66] 57DtXQp35Eo_Belkhayate Gravity Center User Guide -- 3 regles
+2026-06-15 20:44:31,084 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:44:31,086 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:44:31,088 [INFO]   [006/66] BOENPfxIptU_Trading simple du Dow Jones avec les i -- 17 regles
+2026-06-15 20:44:59,862 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:44:59,862 [INFO]     batch 1/1 : {'VALIDE': 16, 'AMBIGU': 1}
+2026-06-15 20:44:59,862 [INFO]   [007/66] L7fDaVLAn00_Trading WHEAT Market LIVE - 5 Days Cha -- 4 regles
+2026-06-15 20:45:07,738 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:45:07,746 [INFO]     batch 1/1 : {'VALIDE': 4}
+2026-06-15 20:45:07,746 [INFO]   [008/66] TAWkII5CI-k_Présentation de Belkhayate Gravity Cen -- 3 regles
+2026-06-15 20:45:15,050 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:45:15,050 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:45:15,050 [INFO]   [009/66] _Bbzx2lITEQ_Belkhayate Indicateurs sur Tradingview -- 13 regles
+2026-06-15 20:45:37,349 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:45:37,349 [INFO]     batch 1/1 : {'VALIDE': 13}
+2026-06-15 20:45:37,349 [INFO]   [010/66] t6Yp9yisaWw_Trader le Gold de manière simple et ef -- 3 regles
+2026-06-15 20:45:45,217 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:45:45,225 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:45:45,225 [INFO]   [011/66] v1Z4lM3ZfU4_Comment Lire les Points Pivots et quel -- 6 regles
+2026-06-15 20:45:59,865 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:45:59,867 [INFO]     batch 1/1 : {'VALIDE': 5, 'AMBIGU': 1}
+2026-06-15 20:45:59,867 [INFO]   [012/66] yLhnXdeZn3k_Le Trading, la Pêche et le Couloir Hor -- 1 regles
+2026-06-15 20:46:11,278 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:46:11,278 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:46:11,278 [INFO]   [013/66] 1bUQ2iiyUZw_Belkhayate ： Lesson 45 - Prévoir la Fo -- 6 regles
+2026-06-15 20:46:24,028 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:46:24,028 [INFO]     batch 1/1 : {'VALIDE': 6}
+2026-06-15 20:46:24,036 [INFO]   [014/66] 1yu1CrC0HS0_Voici les 2 Indicateurs Bonus de la Fo -- 2 regles
+2026-06-15 20:46:29,664 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:46:29,664 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:46:29,664 [INFO]   [015/66] 6D6rgL3CvpQ_Présentation de Belkhayate Trend -- 1 regles
+2026-06-15 20:46:34,682 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:46:34,684 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:46:34,686 [INFO]   [016/66] D7eNz5H_rjo_Belkhayate ： Lesson 43 -- 1 regles
+2026-06-15 20:46:40,626 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:46:40,628 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:46:40,628 [INFO]   [017/66] Ka8-o5-Fyhk_Belkhayate ： Lesson 42 -- 5 regles
+2026-06-15 20:46:49,428 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:46:49,431 [INFO]     batch 1/1 : {'VALIDE': 5}
+2026-06-15 20:46:49,431 [INFO]   [018/66] KeWIHvECGCs_Belkhayate ： Lesson 27 -- 7 regles
+2026-06-15 20:47:06,119 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:06,119 [INFO]     batch 1/1 : {'VALIDE': 7}
+2026-06-15 20:47:06,119 [INFO]   [019/66] N0bYarUwb2U_Belkhayate ： Lesson 48 - Euro Analysis -- 3 regles
+2026-06-15 20:47:14,312 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:14,312 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:47:14,312 [INFO]   [020/66] NXmogBp8IAU_Belkhayate Trading ： Vidéo 19 - Leçon  -- 4 regles
+2026-06-15 20:47:25,470 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:25,476 [INFO]     batch 1/1 : {'VALIDE': 4}
+2026-06-15 20:47:25,477 [INFO]   [021/66] OPLREJmtNsY_Belkhayate Trading ： Video18 - Leçon 2 -- 2 regles
+2026-06-15 20:47:31,210 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:31,213 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:47:31,213 [INFO]   [022/66] Plmyxm6qFq8_Belkhayate Gravity Center User Guide -- 6 regles
+2026-06-15 20:47:42,162 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:42,168 [INFO]     batch 1/1 : {'VALIDE': 6}
+2026-06-15 20:47:42,170 [INFO]   [023/66] Ru7FYpBdrOA_Et si l’on trade le Pétrole ？ Extrait  -- 2 regles
+2026-06-15 20:47:47,285 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:47,285 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:47:47,285 [INFO]   [024/66] Wi02ocQPr4g_Extrait du LIVE VIP 17 MARS,  Préparat -- 3 regles
+2026-06-15 20:47:54,344 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:54,351 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:47:54,351 [INFO]   [025/66] blcSPi1FedE_Belkhayate TREND Presentation -- 1 regles
+2026-06-15 20:47:59,474 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:47:59,477 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:47:59,477 [INFO]   [026/66] iHuxR_PIHS0_Belkhayate ： Lesson 50 - Dollar Collap -- 2 regles
+2026-06-15 20:48:08,176 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:48:08,177 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:48:08,178 [INFO]   [027/66] nR33NS1EPR0_Trading WHEAT Market LIVE - 5 Days Cha -- 6 regles
+2026-06-15 20:48:19,817 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:48:19,819 [INFO]     batch 1/1 : {'VALIDE': 6}
+2026-06-15 20:48:19,819 [INFO]   [028/66] oEPSHUdIV0U_Mode d'Emploi de Belkhayate Centre de  -- 5 regles
+2026-06-15 20:48:29,577 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:48:29,579 [INFO]     batch 1/1 : {'VALIDE': 5}
+2026-06-15 20:48:29,579 [INFO]   [029/66] ubKv-05qdbU_Mode d'Emploi Belkhayate Gravité Cente -- 5 regles
+2026-06-15 20:48:42,171 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:48:42,175 [INFO]     batch 1/1 : {'VALIDE': 5}
+2026-06-15 20:48:42,176 [INFO]   [030/66] x5YAKyBbLcI_Belkhayate ： Lesson 49 - Analyse des B -- 2 regles
+2026-06-15 20:48:48,111 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:48:48,111 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:48:48,111 [INFO]   [031/66] y72lC3B5k2E_Belkhayate ： Lesson 31 -- 8 regles
+2026-06-15 20:49:05,412 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:49:05,412 [INFO]     batch 1/1 : {'VALIDE': 8}
+2026-06-15 20:49:05,420 [INFO]   [032/66] yqzjMu-VSRo_Belkhayate ： Lesson 40 - Examples of T -- 2 regles
+2026-06-15 20:49:10,534 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:49:10,534 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:49:10,534 [INFO]   [033/66] J00s5ROFnKA_Comment Utiliser le Gravity Center ？ L -- 4 regles
+2026-06-15 20:49:20,571 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:49:20,576 [INFO]     batch 1/1 : {'VALIDE': 4}
+2026-06-15 20:49:20,576 [INFO]   [034/66] ajTvB8oz4Ag_Gagner facilement de l'argent sur les  -- 6 regles
+2026-06-15 20:49:34,083 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:49:34,092 [INFO]     batch 1/1 : {'VALIDE': 6}
+2026-06-15 20:49:34,093 [INFO]   [035/66] -OIGv5rLLV8_Belkhayate ： Lesson 46 - Trading Solid -- 1 regles
+2026-06-15 20:49:39,834 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:49:39,834 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:49:39,834 [INFO]   [036/66] 2yqB5ldVB-M_Belkhayate ： Lesson 38 - Champion Stra -- 8 regles
+2026-06-15 20:49:54,563 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:49:54,571 [INFO]     batch 1/1 : {'VALIDE': 8}
+2026-06-15 20:49:54,571 [INFO]   [037/66] 5dMhHFLzogM_Belkhayate ： Lesson 28 -- 5 regles
+2026-06-15 20:50:07,350 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:50:07,350 [INFO]     batch 1/1 : {'VALIDE': 5}
+2026-06-15 20:50:07,350 [INFO]   [038/66] BmTI9ikj-QU_Belkhayate ： Lesson 39 - Suite de Hoff -- 6 regles
+2026-06-15 20:50:20,492 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:50:20,497 [INFO]     batch 1/1 : {'VALIDE': 6}
+2026-06-15 20:50:20,497 [INFO]   [039/66] XP1rqD_mbXY_Secrets du Stop Loss et Prise de profi -- 4 regles
+2026-06-15 20:50:29,284 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:50:29,284 [INFO]     batch 1/1 : {'VALIDE': 4}
+2026-06-15 20:50:29,284 [INFO]   [040/66] cPlgiH886ys_Belkhayate Trading ： Vidéo 13 -- 1 regles
+2026-06-15 20:50:39,280 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:50:39,280 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:50:39,280 [INFO]   [041/66] cob0Rl4nSOQ_Belkhayate ： Lesson 37 -- 1 regles
+2026-06-15 20:50:48,739 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:50:48,743 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:50:48,743 [INFO]   [042/66] gZf43mkh40Q_Belkhayate Trading ： Vidéo 12 -- 1 regles
+2026-06-15 20:50:54,885 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:50:54,888 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:50:54,890 [INFO]   [043/66] w9bbZbBNHwM_Belkhayate Method ： Magnifique Signaux -- 4 regles
+2026-06-15 20:51:05,533 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:05,537 [INFO]     batch 1/1 : {'VALIDE': 4}
+2026-06-15 20:51:05,537 [INFO]   [044/66] Xw0utU-nqr4_Belkhayate Trading ： Vidéo 8 -- 1 regles
+2026-06-15 20:51:14,957 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:14,959 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:51:14,959 [INFO]   [045/66] a3iush59xuQ_Extrait LIVE 30-03-2022 - Le Scalping  -- 2 regles
+2026-06-15 20:51:21,300 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:21,300 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:51:21,308 [INFO]   [046/66] 9azfF45PhRU_Arrêter de chercher à comprendre et Pr -- 4 regles
+2026-06-15 20:51:32,465 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:32,465 [INFO]     batch 1/1 : {'VALIDE': 4}
+2026-06-15 20:51:32,465 [INFO]   [047/66] TQ7hYcJx9OE_Pourquoi le nouveau Centre de Gravité  -- 1 regles
+2026-06-15 20:51:37,691 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:37,693 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:51:37,695 [INFO]   [048/66] TZZ_oTmDy_M_Belkhayate ： Lesson 32 -- 1 regles
+2026-06-15 20:51:44,138 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:44,141 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:51:44,141 [INFO]   [049/66] aK2I-gHQFF4_95% du temps, les marchés cherchent à  -- 3 regles
+2026-06-15 20:51:51,103 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:51,106 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:51:51,106 [INFO]   [050/66] mMHc-wkVT_8_Belkhayate ： Lesson 36 - Importante Vi -- 3 regles
+2026-06-15 20:51:58,267 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:51:58,267 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:51:58,273 [INFO]   [051/66] pX5_n4GxatA_Télécharger Gratuitement le Nouveau Be -- 1 regles
+2026-06-15 20:52:03,183 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:03,183 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:03,183 [INFO]   [052/66] pqtbyMHXBJM_Extrait 2 du LIVE： Règles d'Or de la B -- 1 regles
+2026-06-15 20:52:07,074 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:07,078 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:07,078 [INFO]   [053/66] yTpo7ATDF5o_Extraits des trades lives de l’Espace  -- 1 regles
+2026-06-15 20:52:11,476 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:11,476 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:11,476 [INFO]   [054/66] FQVNykHxVnE_La feinte du Nasdaq n'échappe pas à Be -- 3 regles
+2026-06-15 20:52:21,103 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:21,107 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:52:21,107 [INFO]   [055/66] Zu2Xl6cxYZs_Les marchés finissent toujours par pli -- 1 regles
+2026-06-15 20:52:25,507 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:25,511 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:25,511 [INFO]   [056/66] jJV61RzKm5U_Signal intéressant sur le Nasdaq -- 1 regles
+2026-06-15 20:52:34,173 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:34,176 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:34,176 [INFO]   [057/66] pe1PIKDUGIs_La Fausse Cassure devient votre Meille -- 1 regles
+2026-06-15 20:52:39,742 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:39,744 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:39,744 [INFO]   [058/66] 79HyL4V13KQ_Belkhayate ： Lesson 30 -- 1 regles
+2026-06-15 20:52:44,247 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:44,249 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:44,251 [INFO]   [059/66] LlWDHChUvo4_Belkhayate Trading ： Vidéo 4 -- 1 regles
+2026-06-15 20:52:48,649 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:48,649 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:48,656 [INFO]   [060/66] PLkAPhUIs9g_Comment anticiper en bourse ？ Votre pr -- 1 regles
+2026-06-15 20:52:53,797 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:52:53,797 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:52:53,797 [INFO]   [061/66] doUa5le9fFs_Identifier le trading range pour appre -- 3 regles
+2026-06-15 20:53:00,940 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:53:00,940 [INFO]     batch 1/1 : {'VALIDE': 3}
+2026-06-15 20:53:00,940 [INFO]   [062/66] gTgNe0P4SVw_Belkhayate Pivots Method, vos supports -- 1 regles
+2026-06-15 20:53:07,493 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:53:07,495 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:53:07,497 [INFO]   [063/66] h0arZt3uW2k_Initiation au Trading Rapide de 1 a 2  -- 2 regles
+2026-06-15 20:53:15,992 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:53:15,996 [INFO]     batch 1/1 : {'VALIDE': 2}
+2026-06-15 20:53:15,996 [INFO]   [064/66] kCReRoqkFAc_Importance du Couloir Horaire en Tradi -- 1 regles
+2026-06-15 20:53:20,703 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:53:20,708 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:53:20,708 [INFO]   [065/66] lMvcK7NnykA_Belkhayate Trading ： Video 17 - Leçon  -- 1 regles
+2026-06-15 20:53:26,743 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:53:26,745 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:53:26,749 [INFO]   [066/66] m7tNU-6p2Vs_Belkhayate ： Lesson 34 -- 1 regles
+2026-06-15 20:53:31,056 [INFO] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-06-15 20:53:31,056 [INFO]     batch 1/1 : {'VALIDE': 1}
+2026-06-15 20:53:31,056 [INFO]   Groupe B termine : 220 regles
+2026-06-15 20:53:31,064 [INFO] Groupe C (36 regles) -> reste AMBIGU (revue humaine)
+2026-06-15 20:53:31,064 [INFO] Mise a jour KB -> {'VALIDE_gagne': 276, 'INVALIDE_gagne': 9, 'reste_AMBIGU': 103, 'DRY_RUN': 0}
+2026-06-15 20:53:31,121 [INFO] KB_VALIDEE.json mis a jour
+2026-06-15 20:53:31,122 [INFO] A_VERIFIER_HUMAIN.md -> 103 cas restants
+2026-06-15 20:53:31,122 [INFO] Rapport : C:\trading-copilote\04-cerveau-trading\validation\RAPPORT_REVALIDATION.json
+2026-06-15 20:53:31,129 [INFO] 
+2026-06-15 20:53:31,129 [INFO] ======================================================================
+2026-06-15 20:53:31,129 [INFO] RESULTATS FINAUX
+2026-06-15 20:53:31,129 [INFO] ----------------------------------------------------------------------
+2026-06-15 20:53:31,129 [INFO]   VALIDE gagnes   : +276
+2026-06-15 20:53:31,129 [INFO]   INVALIDE gagnes : +9
+2026-06-15 20:53:31,129 [INFO]   Restent AMBIGU  :  103
+2026-06-15 20:53:31,129 [INFO] ----------------------------------------------------------------------
+2026-06-15 20:53:31,129 [INFO]   VALIDE          : 1111 (87.8%)
+2026-06-15 20:53:31,129 [INFO]   INVALIDE        :   51 (4.0%)
+2026-06-15 20:53:31,129 [INFO]   AMBIGU          :  103 (8.1%)
+2026-06-15 20:53:31,129 [INFO] ----------------------------------------------------------------------
+2026-06-15 20:53:31,129 [INFO]   TOTAL           : 1265
+2026-06-15 20:53:31,129 [INFO] ======================================================================
+2026-06-15 20:53:31,129 [INFO]   A_VERIFIER_HUMAIN.md : 103 cas a verifier manuellement
+2026-06-15 20:53:31,129 [INFO] ======================================================================
+2026-06-15 20:53:31,129 [INFO] Termine.

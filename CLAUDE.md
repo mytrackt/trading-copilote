@@ -246,7 +246,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S11 terminée 15/06/2026)
+## ÉTAT ACTUEL (Session S13 terminée 15/06/2026)
 
 | Élément | État |
 |---------|------|
@@ -255,11 +255,11 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) |
 | Paramètres COG (`COGParams`) | ✅ Figés — période 180, ordre 3, coeffs 0,618/1,618 — backtest daily invalide (S11) — validation réelle = range bars NT8 Phase C |
 | Énergie Belkhayate | 🔒 NON codée (stub) — attendre fin Trading Geek (conflit MFI vs proxy ATR non tranché) |
-| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE — **1 265 règles** (40 VALIDE / 1225 DOUTEUX). B-06 : +9 règles money management (Vidéo 10). kb_provisoire LEVÉ. Mode AUTO bloqué. |
+| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE — **1 265 règles** (1111 VALIDE / 103 AMBIGU / 51 INVALIDE). S13 : passe sémantique Sonnet +276 VALIDE récupérés. 103 AMBIGU dans A_VERIFIER_HUMAIN.md. |
 | COG backtest hostile GC/HG/ZW | ✅ Fait S11 — 180/3 non validé sur daily (timeframe ≠ range bars) — commit `e45a0fe` |
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
-| Trading Geek transcription | ⏳ 31/113 — en cours en background |
+| Trading Geek transcription | ⏳ 36/113 — en cours en background |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
@@ -314,7 +314,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 14/06/2026 (S08) — COGParams figés (période 180, ordre 3, coeffs 0,618/1,618) + 110 transcrits étiquetés + cohérence docs nettoyée*
+*Dernière mise à jour : 15/06/2026 (S13) — KB revalidée : 1111 VALIDE / 103 AMBIGU / 51 INVALIDE (+276 VALIDE via passe sémantique Sonnet)*
 
 ---
 

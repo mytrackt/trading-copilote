@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-06-15T20:53:31.122225",
+  "session": "S13",
+  "script": "revalider_ambigu.py v1.1",
+  "stats_update": {
+    "VALIDE_gagne": 276,
+    "INVALIDE_gagne": 9,
+    "reste_AMBIGU": 103,
+    "DRY_RUN": 0
+  },
+  "totaux_finaux": {
+    "VALIDE": 1111,
+    "INVALIDE": 51,
+    "AMBIGU": 103
+  },
+  "ambigu_restants": 103
+}
