@@ -8,6 +8,21 @@
 
 ---
 
+## 0. [S15 · 16/06/2026] CHAP01_Metier_Trader_Senior_v2_technique — P2 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\CHAP01_Metier_Trader_Senior_v2_technique.md`
+**Source :** Google Docs (Abdelkrim) — contenu réel archivé (260 lignes, Markdown propre)
+**Action à l'interstice :** pipeline KB étapes 3-7 (transcript_processor.py → validate → fusionner KB_VALIDEE.json)
+**Catégories KB candidates :**
+- `gestion_risque_entree` : stop-loss pré-entrée, risque 1% par trade, calcul ticks×valeur×contrats
+- `psychologie` : processus écrit/répétable, discipline vs humeur, sur-trading, mythes débutant
+- `gestion_position_active` : limite perte journalière, journal de trading, 90% attente / 10% action
+- `indicateurs_tendance` : structure sommets/creux (Dow), multi-timeframe, support/résistance, fakeout/retest
+- `indicateurs_momentum` : RSI — limites, piège "suracheté = va baisser", indicateur lagging vs leading
+**Note :** Document éducatif général (pas Belkhayate-spécifique). Filtrer strictement les règles compatibles méthode Belkhayate lors du pipeline. Chiffres marqués *(illustratif)* = exemples → NE PAS intégrer comme règles KB chiffrées.
+
+---
+
 ## 1. JOURNAL DE TRADING IA COMPLET (à intégrer Phase I ou Phase I.4)
 
 Chaque trade doit avoir une fiche complète dans SQLite :
