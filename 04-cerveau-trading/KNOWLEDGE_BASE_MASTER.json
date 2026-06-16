@@ -95,6 +95,16 @@
       "rules_matched": 1265,
       "rules_unmatched": 0,
       "description": "aggregated_rules converti de strings vers objets {regle, statut, source_video_id, categorie, confiance, note}"
+    },
+    "phase4_channels": {
+      "date": "2026-06-16T20:45:26.542655",
+      "stats": {
+        "deja_rempli": 0,
+        "manifeste": 88,
+        "detection": 20,
+        "fallback": 0
+      },
+      "description": "channel rempli via MANIFESTE + détection transcript_file + transcripts-bruts"
     }
   },
   "videos": {
@@ -127,7 +137,8 @@
         "psychologie": [
           "Beaucoup de traders entrent dès la première cassure par impatience ; il faut résister à cette envie et attendre la confirmation."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "-S4bads_QCM": {
       "video_id": "-S4bads_QCM",
@@ -164,7 +175,8 @@
           "Trader en dehors du couloir horaire optimal rend le trading imprévisible et non rentable.",
           "Savoir encaisser les profits au meilleur moment est aussi important que savoir entrer sur le marché."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "0ul4j0d6uCQ": {
       "video_id": "0ul4j0d6uCQ",
@@ -205,7 +217,8 @@
         "psychologie": [
           "Entrer avec un stop loss et un target prédéfinis supprime le stress et permet de rester discipliné pendant le trade."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "1_LMBvn_2RA": {
       "video_id": "1_LMBvn_2RA",
@@ -237,7 +250,8 @@
         "psychologie": [
           "Il faut savoir reconnaître ses erreurs d'analyse et ne pas s'y accrocher pour prendre le bon sens du marché."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "1bUQ2iiyUZw": {
       "video_id": "1bUQ2iiyUZw",
@@ -274,7 +288,8 @@
         "psychologie": [
           "Savoir visuellement si une tendance haussière est en train de finir ou si elle va accélérer donne un avantage considérable par rapport aux autres analystes."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "1yu1CrC0HS0": {
       "video_id": "1yu1CrC0HS0",
@@ -315,7 +330,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "2yqB5ldVB-M": {
       "video_id": "2yqB5ldVB-M",
@@ -353,7 +369,8 @@
           "Ne pas chercher à anticiper un retournement de marché : attendre que la tendance principale reprenne après le frein.",
           "La patience consiste à attendre la cassure du niveau de frein avant d'entrer, plutôt que d'entrer prématurément."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "3750psYk1bo": {
       "video_id": "3750psYk1bo",
@@ -373,7 +390,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "4XYEV3o3W5U": {
       "video_id": "4XYEV3o3W5U",
@@ -429,7 +447,8 @@
           "Passer des nuits blanches à retrouver les signaux sur les historiques est indispensable pour acquérir une vraie expertise.",
           "Une fois la position gérée dans le couloir horaire du blé, ne plus faire de trading sur ce marché pour la journée."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "57DtXQp35Eo": {
       "video_id": "57DtXQp35Eo",
@@ -478,7 +497,8 @@
         "psychologie": [
           "Le Gravity Center permet de trader avec une espérance mathématique positive en appliquant des règles de probabilité."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "5dMhHFLzogM": {
       "video_id": "5dMhHFLzogM",
@@ -520,7 +540,8 @@
           "Ne pas abandonner une thèse de trading après un seul stop loss si les conditions initiales (probabilités) restent valides.",
           "Ne jamais essayer de raisonner en fonction des annonces macroéconomiques ou des déclarations des banques centrales pour anticiper le marché."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "6D6rgL3CvpQ": {
       "video_id": "6D6rgL3CvpQ",
@@ -551,7 +572,8 @@
         "psychologie": [
           "Attendre tranquillement le retournement du signal avant de clôturer une position, sans anticiper."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "79HyL4V13KQ": {
       "video_id": "79HyL4V13KQ",
@@ -589,7 +611,8 @@
           "Il est impossible de faire 20 ou 30 trades gagnants de suite : accepter les pertes fait partie de l'espérance mathématique.",
           "Il faut rester persistant et fidèle à l'esprit mathématique de la stratégie même après un ou deux trades perdants."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "9azfF45PhRU": {
       "video_id": "9azfF45PhRU",
@@ -629,7 +652,8 @@
           "Il ne faut pas raisonner en économiste ni en analyste fondamental ; il faut suivre ce que les marchés font réellement.",
           "Se mettre contre la tendance haussière des marchés américains en attendant un crash conduit à perdre de l'argent."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Akep8YPVvtw": {
       "video_id": "Akep8YPVvtw",
@@ -656,7 +680,8 @@
           "Il faut gommer les idées préconçues sur les crypto-monnaies pour pouvoir saisir les opportunités qu'elles offrent.",
           "Sur 700 crypto-monnaies émises, seules environ 100 seront réellement valables, il faut donc être sélectif."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "BOENPfxIptU": {
       "video_id": "BOENPfxIptU",
@@ -720,7 +745,8 @@
           "Il ne faut pas prendre ses profits de manière arbitraire (ex. dès qu'on est en gain d'un certain montant) mais uniquement lorsque le prix atteint un niveau clé.",
           "Ne pas compliquer sa méthode ; attendre les configurations simples et évidentes suffit pour gagner de l'argent."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "BTCwkI-6hEk": {
       "video_id": "BTCwkI-6hEk",
@@ -746,7 +772,8 @@
           "Le business model d'un courtier forex repose sur le fait que ses clients perdent leur argent, ce qui crée un conflit d'intérêts structurel.",
           "Même en cas de gains légitimes sur le forex, le broker peut bloquer le retrait des fonds pendant plusieurs mois."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "BmTI9ikj-QU": {
       "video_id": "BmTI9ikj-QU",
@@ -784,7 +811,8 @@
           "Jouer les corrections est une erreur fréquente des traders : les meilleurs ne jouent que les impulsions.",
           "La patience est nécessaire : ne pas entrer tant que la cassure n'est pas confirmée."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "D7eNz5H_rjo": {
       "video_id": "D7eNz5H_rjo",
@@ -820,7 +848,8 @@
         "psychologie": [
           "Un bon analyste technique doit être capable d'anticiper non seulement le point d'entrée mais aussi l'objectif de prix, car le marché ne monte pas au ciel."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "D7nqBVA4qMs": {
       "video_id": "D7nqBVA4qMs",
@@ -852,7 +881,8 @@
           "Jouer des retracements ou des corrections est une approche amateur qui ne fonctionne pas selon Belkhayate.",
           "Toujours entrer sur le marché avec une vraie raison de rentrer, pas par intuition ou espoir."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "FQVNykHxVnE": {
       "video_id": "FQVNykHxVnE",
@@ -912,7 +942,8 @@
           "Même en ayant une conviction baissière forte, si le marché donne un signal Belkhayate Impulsion à la hausse, il faut acheter.",
           "La méthode Belkhayate peut faire gagner de l'argent même quand l'analyse technique initiale était erronée, à condition de suivre les signaux."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Fili1lujs6w": {
       "video_id": "Fili1lujs6w",
@@ -944,7 +975,8 @@
           "Durant la première semaine, trader sans chercher à comprendre, laisser l'instinct guider les décisions afin de s'habituer à la personnalité du marché.",
           "L'objectif initial est de s'habituer au carnet d'ordres et au marché en enchaînant les opérations (achat/vente répétés) avant d'appliquer des règles précises."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "IG-M_sIONDo": {
       "video_id": "IG-M_sIONDo",
@@ -970,7 +1002,8 @@
           "Sans courage, il est impossible de tenir ses positions et de respecter ses règles de trading.",
           "Le courage est une qualité innée difficile à acquérir : soit on l'a, soit on ne l'aura jamais."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "INv2927O50k": {
       "video_id": "INv2927O50k",
@@ -1014,7 +1047,8 @@
           "La confiance dans sa position doit reposer sur des niveaux techniques précis qui invalideraient le scénario s'ils étaient cassés, et non sur une conviction aveugle.",
           "La discipline consiste à rester dans la position tant que le niveau d'invalidation n'est pas atteint, même face aux mouvements adverses intermédiaires."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "IbPrO-_SaX4": {
       "video_id": "IbPrO-_SaX4",
@@ -1042,7 +1076,8 @@
           "La régularité et la répétition des trades profitables dans le temps permettent de convertir une probabilité favorable en quasi-certitude de gains, comme le casino convertit ses 4% d'avantage en gains systématiques.",
           "La confiance en soi et un esprit positif sont des qualités humaines indispensables pour réussir en trading."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "J00s5ROFnKA": {
       "video_id": "J00s5ROFnKA",
@@ -1084,7 +1119,8 @@
         "psychologie": [
           "Il est conseillé de s'entraîner soi-même sur différentes unités de temps et différents marchés pour découvrir par soi-même le comportement de ces indicateurs."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Ka8-o5-Fyhk": {
       "video_id": "Ka8-o5-Fyhk",
@@ -1124,7 +1160,8 @@
           "Face à un appât puissant invitant à contre-trader la tendance, le trader discipliné sourit et ignore le signal trompeur.",
           "Ne pas écouter les signaux contraires à la tendance principale, même lorsqu'ils semblent très convaincants."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "KeWIHvECGCs": {
       "video_id": "KeWIHvECGCs",
@@ -1167,7 +1204,8 @@
           "Ne pas chercher à perfectionner immédiatement son trading ; chercher d'abord à comprendre l'esprit des marchés.",
           "Les marchés ne font jamais ce qu'on attend ; il faut l'accepter et s'y adapter."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "L7fDaVLAn00": {
       "video_id": "L7fDaVLAn00",
@@ -1205,7 +1243,8 @@
           "Ne pas être pressé d'encaisser un gain lorsque le marché et les indicateurs confirment la poursuite du mouvement.",
           "Rester dans la position sans panique tant que le système confirme la tendance."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "LlWDHChUvo4": {
       "video_id": "LlWDHChUvo4",
@@ -1239,7 +1278,8 @@
           "Les marchés financiers sont prévisibles parce que les êtres humains ont des habitudes régulières et collectives (horaires de travail, repas, déplacements) qui influencent leur comportement de trading.",
           "Pour gagner en trading, il faut se connecter aux habitudes et aux comportements prévisibles des traders que l'on a en face de soi."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "MLwyVP4hqTk": {
       "video_id": "MLwyVP4hqTk",
@@ -1284,7 +1324,8 @@
         "psychologie": [
           "Les traders sont des créatures d'habitude et reproduisent les mêmes comportements aux mêmes heures chaque jour, ce qui crée des patterns exploitables."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "N0bYarUwb2U": {
       "video_id": "N0bYarUwb2U",
@@ -1319,7 +1360,8 @@
           "Il ne faut surtout pas essayer d'anticiper la direction d'une cassure de range : la patience est indispensable.",
           "Reculer et prendre du recul sur des unités de temps plus grandes permet d'éviter les erreurs d'analyse dues à un angle de vue trop restreint."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "NXmogBp8IAU": {
       "video_id": "NXmogBp8IAU",
@@ -1358,7 +1400,8 @@
           "Lorsque le marché est exactement sur un support sans signal clair, il ne faut ni acheter ni vendre ; il faut attendre une bougie signal (queue ou pierre tombale) avant de se positionner.",
           "Si le support casse, il faut changer d'avis et ne donner un signal qu'après avoir observé une bougie confirmatrice."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "OPLREJmtNsY": {
       "video_id": "OPLREJmtNsY",
@@ -1398,7 +1441,8 @@
         "psychologie": [
           "Ne pas laisser une position ouverte sans stop loss, même brièvement, car cela peut mener à des pertes beaucoup plus importantes que prévu."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "PLkAPhUIs9g": {
       "video_id": "PLkAPhUIs9g",
@@ -1439,7 +1483,8 @@
           "En trading, il ne faut pas agir selon ce que l'on pense personnellement, mais selon ce que les autres acteurs (algorithmes) vont faire.",
           "Ne pas révéler l'indicateur ou la méthode utilisée pour ses analyses permet de conserver un avantage perçu et de paraître plus crédible aux yeux des clients."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Plmyxm6qFq8": {
       "video_id": "Plmyxm6qFq8",
@@ -1480,7 +1525,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "RiVuL0SySd4": {
       "video_id": "RiVuL0SySd4",
@@ -1515,7 +1561,8 @@
           "Plus on est déconnecté de ses émotions, plus on est fort face au marché.",
           "Gagner ou perdre sur un trade individuel ne doit provoquer aucun stress, car la certitude de gain repose sur la répétition de la méthode."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Ru7FYpBdrOA": {
       "video_id": "Ru7FYpBdrOA",
@@ -1555,7 +1602,8 @@
         "psychologie": [
           "Un trader professionnel doit en permanence surveiller plusieurs marchés simultanément et non un seul actif isolément."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "SRtgsmfQda0": {
       "video_id": "SRtgsmfQda0",
@@ -1575,7 +1623,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "TAWkII5CI-k": {
       "video_id": "TAWkII5CI-k",
@@ -1623,7 +1672,8 @@
           "Il faut attendre un signal clair (ombre de bougie confirmatrice) avant d'entrer en position, même si le prix semble favorable.",
           "Il vaut mieux se spécialiser sur un seul marché bien choisi plutôt que de trader plusieurs marchés difficiles et aléatoires."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "TQ7hYcJx9OE": {
       "video_id": "TQ7hYcJx9OE",
@@ -1661,7 +1711,8 @@
           "S'entraîner à entrer en sens inverse dès une perte permet de déconnecter le cerveau de ses biais et de le former à suivre la réalité du marché.",
           "Ne jamais rester collé sur une position en espérant que le marché revienne ; agir selon le résultat obtenu."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "TZZ_oTmDy_M": {
       "video_id": "TZZ_oTmDy_M",
@@ -1706,7 +1757,8 @@
           "Il faut s'entraîner activement en passant plusieurs trades par jour, et non rester inactif à attendre.",
           "Anticiper les mouvements des algorithmes permet de gagner en confiance et de ne plus subir le marché."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "UPTGgaUXkcY": {
       "video_id": "UPTGgaUXkcY",
@@ -1737,7 +1789,8 @@
           "Il faut calculer son EMR quotidiennement et chercher à l'améliorer au fil des semaines et des mois.",
           "Ninja Trader fournit les quatre données nécessaires au calcul de l'EMR : percentage profitable, average winning trade, average losing trade, et nombre de trades gagnants/perdants."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "VhA9PTPFFm4": {
       "video_id": "VhA9PTPFFm4",
@@ -1795,7 +1848,8 @@
           "Il ne faut pas se féliciter de la hausse des indices que l'on souhaite vendre : la hausse est une opportunité de vendre plus haut.",
           "Certaines situations de marché offrent une certitude proche de 100% : il faut savoir les reconnaître et agir avec conviction."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Wi02ocQPr4g": {
       "video_id": "Wi02ocQPr4g",
@@ -1846,7 +1900,8 @@
           "Il faut arrêter de se faire des illusions sur le marché et chercher à voir la réalité telle qu'elle est.",
           "Utiliser des indicateurs qui déforment la réalité revient à se mentir à soi-même, ce qui nuit à la performance."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "XP1rqD_mbXY": {
       "video_id": "XP1rqD_mbXY",
@@ -1883,7 +1938,8 @@
           "La patience est nécessaire : attendre que le marché arrive dans des zones de volatilité attendue avant d'entrer.",
           "Il faut dès le départ intégrer le concept de multi-systèmes, multi-unités de temps et multi-marchés pour trader comme un professionnel."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Xw0utU-nqr4": {
       "video_id": "Xw0utU-nqr4",
@@ -1916,7 +1972,8 @@
           "Faire une moyenne à la baisse sur une position perdante est une mauvaise pratique à éviter.",
           "Ne pas prendre ses profits parce qu'on espère que le marché va monter davantage est une erreur de discipline."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "YE_lejWlhjo": {
       "video_id": "YE_lejWlhjo",
@@ -1947,7 +2004,8 @@
           "L'objectif est de gagner de manière régulière et de perdre très peu lorsqu'on a tort.",
           "S'entraîner sur un compte simulé (paper trading) pendant plusieurs mois, voire plusieurs années, avant de trader en réel."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "YQDcopMt7ns": {
       "video_id": "YQDcopMt7ns",
@@ -2006,7 +2064,8 @@
           "On peut se permettre de ne pas paniquer sur un retour du marché si le risque maximal est connu et limité (13-20 dollars sur micro).",
           "La méthode est idéale pour les tests de trading car elle permet de prendre une grande tendance une fois bien entré."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "YXB1LbMbsRw": {
       "video_id": "YXB1LbMbsRw",
@@ -2026,7 +2085,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "Zu2Xl6cxYZs": {
       "video_id": "Zu2Xl6cxYZs",
@@ -2073,7 +2133,8 @@
           "Les mouvements euphoriques de remontée des marchés sont orchestrés par les grands investisseurs pour trouver des acheteurs avant de vendre massivement.",
           "Ne pas se laisser emporter par l'euphorie d'un rebond qui n'est qu'une opportunité de vente pour les institutionnels."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "_Bbzx2lITEQ": {
       "video_id": "_Bbzx2lITEQ",
@@ -2132,7 +2193,8 @@
           "Il ne faut pas être impatient ; il faut attendre le bon moment pour rentrer sur les marchés.",
           "Au lieu de suivre des analyses fondamentales, il faut regarder ce que Belkhayate Trend indique et se positionner en conséquence."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "_KTFJ5Reu2o": {
       "video_id": "_KTFJ5Reu2o",
@@ -2165,7 +2227,8 @@
         "psychologie": [
           "Trader uniquement sur des marchés régulés pour pouvoir gagner de l'argent de manière régulière."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "_fJRsY1NLqs": {
       "video_id": "_fJRsY1NLqs",
@@ -2199,7 +2262,8 @@
         "psychologie": [
           "La stratégie de rentrer avec un seul tick de stop loss sur le ZN permet d'enchaîner des trades gagnants doucement mais sûrement, favorisant la discipline et la régularité."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "_fswauljmZw": {
       "video_id": "_fswauljmZw",
@@ -2230,7 +2294,8 @@
           "L'échec sur les marchés financiers est davantage dû à la psychologie qu'à un manque de connaissances techniques.",
           "Les courtiers forex ont construit leur modèle économique en exploitant la faiblesse psychologique naturelle des traders."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "_kXq6Ad8ZWk": {
       "video_id": "_kXq6Ad8ZWk",
@@ -2275,7 +2340,8 @@
           "Il faut apprendre à gérer la pression et le stress inhérents au trading pour réussir.",
           "Il ne suffit pas de connaître les techniques de trading pour réussir, des qualités humaines sont indispensables."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "_n--MPuEHfI": {
       "video_id": "_n--MPuEHfI",
@@ -2310,7 +2376,8 @@
         "psychologie": [
           "Trader le Dow Jones plutôt que le Nasdaq ou le S&P500 permet de moins stresser grâce au meilleur respect des niveaux techniques."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "a3iush59xuQ": {
       "video_id": "a3iush59xuQ",
@@ -2359,7 +2426,8 @@
         "psychologie": [
           "En scalping, il faut accepter de ne prendre qu'un petit mouvement et sortir rapidement, sans chercher à tout gagner."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "aK2I-gHQFF4": {
       "video_id": "aK2I-gHQFF4",
@@ -2395,7 +2463,8 @@
           "Il faut arrêter de trader n'importe quand et développer l'expertise pour identifier les rares moments où le marché offre des opportunités réelles.",
           "Le marché cherche en permanence à donner de mauvaises idées aux traders pour leur prendre leur argent ; cette réalité doit être intégrée dans chaque décision."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "aOT5VtgrqHU": {
       "video_id": "aOT5VtgrqHU",
@@ -2433,7 +2502,8 @@
         "psychologie": [
           "Préférer les actifs calmes et prévisibles comme le ZN plutôt que des actifs volatils comme le Nasdaq si l'on veut trader sereinement."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "ajTvB8oz4Ag": {
       "video_id": "ajTvB8oz4Ag",
@@ -2488,7 +2558,8 @@
           "Il ne faut pas se mettre contre une tendance puissante sous prétexte que des experts annoncent un crash.",
           "Vouloir vendre un marché haussier soutenu structurellement est dangereux et a coûté des millions à de nombreux vendeurs à découvert."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "blcSPi1FedE": {
       "video_id": "blcSPi1FedE",
@@ -2521,7 +2592,8 @@
         "psychologie": [
           "Attendre tranquillement le renversement du signal plutôt que de clôturer prématurément une position profitable."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "c-BVFgUtm4w": {
       "video_id": "c-BVFgUtm4w",
@@ -2554,7 +2626,8 @@
           "L'objectif de la formation est de devenir compétent pour gérer l'argent d'investisseurs tiers, pas de spéculer avec son propre capital.",
           "Il ne faut pas chercher une logique économique dans les mouvements du marché financier car elle est souvent inexistante ou trompeuse."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "cPlgiH886ys": {
       "video_id": "cPlgiH886ys",
@@ -2584,7 +2657,8 @@
           "L'art du trading réside dans la capacité à estimer sa probabilité de gain ; une fois cette estimation maîtrisée, on sait combien miser.",
           "Se spécialiser sur un ou deux marchés plutôt que de disperser son attention sur de multiples actifs (pétrole, or, café, sucre, S&P) est une approche adoptée par les grands traders professionnels."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "cob0Rl4nSOQ": {
       "video_id": "cob0Rl4nSOQ",
@@ -2615,7 +2689,8 @@
           "Il faut réfléchir en termes d'espérance mathématique et non selon le réflexe humain naturel qui se focalise uniquement sur le rapport gain/perte apparent.",
           "La plupart des traders ne font attention qu'au gain et à la perte potentiels en négligeant la probabilité, ce qui constitue une erreur fondamentale."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "doUa5le9fFs": {
       "video_id": "doUa5le9fFs",
@@ -2679,7 +2754,8 @@
           "Se concentrer uniquement sur le présent du marché, jamais sur une prévision future.",
           "Choisir un indicateur et le suivre jusqu'au bout une fois le signal déclenché, sans interférence de jugement personnel."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "fobOOfMKvuo": {
       "video_id": "fobOOfMKvuo",
@@ -2705,7 +2781,8 @@
           "Accepter de gagner et de perdre avec humilité pour devenir un trader professionnel.",
           "Respecter les marchés financiers pour pouvoir y intervenir de manière professionnelle."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "gTgNe0P4SVw": {
       "video_id": "gTgNe0P4SVw",
@@ -2763,7 +2840,8 @@
           "Ne pas chercher à trader 24h sur 24 : se concentrer sur la meilleure opportunité de la journée.",
           "L'échec en trading est souvent dû au trader lui-même et non à la méthode ou au formateur."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "gZf43mkh40Q": {
       "video_id": "gZf43mkh40Q",
@@ -2794,7 +2872,8 @@
           "La nature humaine n'a pas instinctivement le réflexe de miser de manière optimale en fonction de l'espérance mathématique.",
           "Il faut adopter une approche mathématique et probabiliste pour gagner sur les marchés financiers, en évitant les décisions intuitives sur la taille de position."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "h0arZt3uW2k": {
       "video_id": "h0arZt3uW2k",
@@ -2832,7 +2911,8 @@
           "S'entraîner à entrer et sortir mécaniquement sur les marchés, sans chercher à analyser, permet de se familiariser avec la dynamique des prix sans biais émotionnel.",
           "Afficher des résultats de petites sommes régulières (gains et pertes limités) démontre une gestion du risque sérieuse et inspire confiance."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "hAP0V9bEDjM": {
       "video_id": "hAP0V9bEDjM",
@@ -2852,7 +2932,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "iHuxR_PIHS0": {
       "video_id": "iHuxR_PIHS0",
@@ -2890,7 +2971,8 @@
         "psychologie": [
           "Les marchés ne sont pas aussi compliqués qu'on veut nous le faire croire ; les voir simplement permet d'avoir raison à terme."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "igd1KJUr8so": {
       "video_id": "igd1KJUr8so",
@@ -2919,7 +3001,8 @@
         "psychologie": [
           "Ne pas chercher à jouer une tendance haussière lorsque les corrections dépassent 50%, car la probabilité de succès est faible."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "jJV61RzKm5U": {
       "video_id": "jJV61RzKm5U",
@@ -2959,7 +3042,8 @@
           "Il faut entrer dans le présent : regarder ce que le marché fait le matin et prendre la tendance du jour.",
           "Il faut être patient et attendre le meilleur signal, la meilleure probabilité avant d'entrer en position."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "jv_1lPRd_cQ": {
       "video_id": "jv_1lPRd_cQ",
@@ -2979,7 +3063,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "kCReRoqkFAc": {
       "video_id": "kCReRoqkFAc",
@@ -3006,7 +3091,8 @@
         "psychologie": [
           "Se concentrer sur le meilleur couloir horaire par marché est une discipline essentielle pour tout trader suivant la méthode Belkhayate."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "lDblHsix5n0": {
       "video_id": "lDblHsix5n0",
@@ -3026,7 +3112,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "lMvcK7NnykA": {
       "video_id": "lMvcK7NnykA",
@@ -3068,7 +3155,8 @@
           "Ne pas avoir de stop loss expose à perdre en un seul trade tout ce qui a été gagné dans la journée.",
           "Un relevé de trading montrant des trades verrouillés avec stop loss et target donne une crédibilité bien supérieure à un relevé sans protection, même avec de bonnes performances."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "m7tNU-6p2Vs": {
       "video_id": "m7tNU-6p2Vs",
@@ -3103,7 +3191,8 @@
           "La patience et la fidélité dans l'apprentissage sont indispensables pour trader de manière lucrative.",
           "Se concentrer uniquement sur des mouvements de 5 ticks pour devenir un expert dans cette discipline précise plutôt que de viser trop grand."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "mD__ETBfH90": {
       "video_id": "mD__ETBfH90",
@@ -3140,7 +3229,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "mMHc-wkVT_8": {
       "video_id": "mMHc-wkVT_8",
@@ -3175,7 +3265,8 @@
           "Le ratio risque-rendement attractif est un appât psychologique qui obnubile les traders et leur fait ignorer la probabilité réelle de succès.",
           "Il faut toujours estimer la probabilité de gain avant d'évaluer ce que l'on risque par rapport à ce que l'on peut gagner."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "nR33NS1EPR0": {
       "video_id": "nR33NS1EPR0",
@@ -3219,7 +3310,8 @@
           "En l'absence de signal de sortie, on ne panique pas et on ne sort pas prématurément de la position.",
           "La régularité et la discipline (même heure, même marché, même stratégie chaque jour) sont les bases d'une performance constante."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "oEPSHUdIV0U": {
       "video_id": "oEPSHUdIV0U",
@@ -3256,7 +3348,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "ofefpzt2Dsk": {
       "video_id": "ofefpzt2Dsk",
@@ -3276,7 +3369,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "pX5_n4GxatA": {
       "video_id": "pX5_n4GxatA",
@@ -3318,7 +3412,8 @@
         "psychologie": [
           "Ne pas être pressé de prendre les gains si les indicateurs confirment que le marché continue dans la bonne direction."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "paoq-wiUlwY": {
       "video_id": "paoq-wiUlwY",
@@ -3357,7 +3452,8 @@
         "psychologie": [
           "Il faut anticiper l'évolution probable du marché à l'avance plutôt que de réagir dans l'urgence."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "pe1PIKDUGIs": {
       "video_id": "pe1PIKDUGIs",
@@ -3406,7 +3502,8 @@
           "Les traders amateurs achètent sur cassure de résistance en croyant à une continuation haussière, alors que les professionnels vendent à ce moment précis.",
           "Les traders amateurs se placent aux pires moments, c'est-à-dire aux points extrêmes où les algorithmes viennent chercher leurs stops."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "pqtbyMHXBJM": {
       "video_id": "pqtbyMHXBJM",
@@ -3432,7 +3529,8 @@
         "psychologie": [
           "Entrer en position avec conviction, sur la base d'un signal identifié, permet de trader sans stress et sans perdre le sourire."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "rcp0tizXx8E": {
       "video_id": "rcp0tizXx8E",
@@ -3452,7 +3550,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "sxRyv8LkAdQ": {
       "video_id": "sxRyv8LkAdQ",
@@ -3492,7 +3591,8 @@
           "Ne pas se fier aux résultats obtenus en mode démo pour se croire prêt à trader en réel.",
           "Ne pas commencer à trader de l'argent réel sans validation préalable de ses performances."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "t6Yp9yisaWw": {
       "video_id": "t6Yp9yisaWw",
@@ -3535,7 +3635,8 @@
         "psychologie": [
           "La confluence de signaux sur plusieurs marchés corrélés (euro haussier, Bund haussier) permet d'être confiant dans une prise de position sur l'or même avant la cassure confirmée."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "tdI7tmyetJg": {
       "video_id": "tdI7tmyetJg",
@@ -3577,7 +3678,8 @@
           "Une fois en position avec un bon signal, il ne faut pas trembler ni paniquer et tenir la position jusqu'à l'objectif.",
           "Après la sortie, ce qui se passe ensuite sur le marché ne doit plus concerner le trader : le trade est terminé."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "uD4jdZrfgDc": {
       "video_id": "uD4jdZrfgDc",
@@ -3615,7 +3717,8 @@
           "Les données de volume sont disponibles par couloir horaire et peuvent être intégrées à l'analyse de la personnalité mathématique d'un marché."
         ],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "ubKv-05qdbU": {
       "video_id": "ubKv-05qdbU",
@@ -3662,7 +3765,8 @@
         "macro_evenements": [],
         "volume_liquidite": [],
         "psychologie": []
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "uya06_CeE4c": {
       "video_id": "uya06_CeE4c",
@@ -3718,7 +3822,8 @@
           "Se focaliser sur un seul marché évite d'être ballotté et de perdre sa discipline.",
           "Choisir le marché le plus facile à trader plutôt que de vouloir trader tous les marchés."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "v1Z4lM3ZfU4": {
       "video_id": "v1Z4lM3ZfU4",
@@ -3779,7 +3884,8 @@
           "Entrer et sortir rapidement (scalping d'un tick) élimine le ballottement émotionnel lié à la durée d'exposition.",
           "La simplicité est une force : plus une méthode est simple, plus elle est puissante et facile à appliquer avec discipline."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "vPMM9xpa83M": {
       "video_id": "vPMM9xpa83M",
@@ -3807,7 +3913,8 @@
         "psychologie": [
           "Il faut oublier les formations précédentes et appliquer uniquement les règles du système appris, sans les mélanger."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "vlgQJEE9dY0": {
       "video_id": "vlgQJEE9dY0",
@@ -3858,7 +3965,8 @@
           "Il faut absolument savoir dans quel état se trouve le marché avant d'appliquer une méthode, et ne pas appliquer la même méthode en toutes circonstances.",
           "La régularité et la répétition de petits trades avec espérance positive inspire davantage confiance qu'un statement avec de grands gains irréguliers."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "w9bbZbBNHwM": {
       "video_id": "w9bbZbBNHwM",
@@ -3912,7 +4020,8 @@
           "Une fois le trade de la journée terminé, il faut clôturer et se consacrer à autre chose : rester trop longtemps sur les marchés nuit aux performances.",
           "L'objectif est de devenir le meilleur sur un trade, pas de trader constamment."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "wGGOkodLZ9I": {
       "video_id": "wGGOkodLZ9I",
@@ -3948,7 +4057,8 @@
           "Ne pas s'affoler si on rate la première impulsion : il y a d'autres points d'entrée, notamment le pull back.",
           "Être patient et attendre la cassure confirmée avant d'entrer en position."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "x5YAKyBbLcI": {
       "video_id": "x5YAKyBbLcI",
@@ -3982,7 +4092,8 @@
           "Il vaut mieux trader des marchés faciles comme les bons du trésor américains plutôt que des marchés très difficiles comme le DAX ou le CAC40.",
           "On sait qu'on doit prendre une position mais on attend le meilleur moment pour le faire plutôt que d'agir immédiatement sur une anticipation."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "xvEjcUCRWL4": {
       "video_id": "xvEjcUCRWL4",
@@ -4013,7 +4124,8 @@
           "De nombreux traders perdent de l'argent après 20 ans parce qu'ils se positionnent sur des marchés trop difficiles.",
           "Se spécialiser dans un seul marché fiable permet de gagner en crédibilité et en expertise au niveau professionnel."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "y72lC3B5k2E": {
       "video_id": "y72lC3B5k2E",
@@ -4054,7 +4166,8 @@
           "Se concentrer uniquement sur un objectif petit et précis (5 ticks) permet de trader de manière plus sereine et plus régulière.",
           "Chercher à prendre des petits mouvements le plus sûrement et le plus souvent possible plutôt que de viser des gains trop ambitieux."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "yLhnXdeZn3k": {
       "video_id": "yLhnXdeZn3k",
@@ -4079,7 +4192,8 @@
           "Avoir confiance en soi est supérieur à l'argent et à tout autre avantage ; c'est la base pour réussir en trading.",
           "Savoir identifier ce que le marché est en train de faire renforce la confiance en soi face à un graphique."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "yTpo7ATDF5o": {
       "video_id": "yTpo7ATDF5o",
@@ -4119,7 +4233,8 @@
           "La Belkhayate Direction génère de nombreux petits trades perdants, mais les gros mouvements gagnants compensent largement l'ensemble des pertes.",
           "Ne pas acheter le dip par réflexe dans un marché en chute ; c'est un biais cognitif dangereux."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "yqzjMu-VSRo": {
       "video_id": "yqzjMu-VSRo",
@@ -4156,7 +4271,8 @@
           "Face à une grande bougie contre-tendance, beaucoup de traders sont tentés de trader dans ce sens ; c'est précisément ce qu'il faut éviter.",
           "Toujours réfléchir à la possibilité que le mouvement visible soit un appât avant d'entrer en position."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "zd9dVG6XRmU": {
       "video_id": "zd9dVG6XRmU",
@@ -4183,7 +4299,8 @@
           "Ne pas entrer sur un marché pour stresser : n'entrer que lorsqu'un signal très fort est présent.",
           "Si on est acheteur et que le marché ne se comporte pas de manière confortable, ce n'est pas un bon signal d'entrée."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     },
     "zrchM4JgqrA": {
       "video_id": "zrchM4JgqrA",
@@ -4215,7 +4332,8 @@
           "Penser le trading autrement par rapport à ce qui est enseigné dans les livres est nécessaire pour ne pas tomber dans les pièges algorithmiques.",
           "Connaître les manipulations algorithmiques permet d'éviter de tomber dans ces pièges et de ne pas acheter au mauvais moment."
         ]
-      }
+      },
+      "channel": "belkhayate-youtube (chaine officielle)"
     }
   },
   "aggregated_rules": {
