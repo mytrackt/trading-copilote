@@ -61,3 +61,4 @@ data/live/*
 # Fichiers etat runtime (generes par le moteur)
 data/risk_state.json
 data/signal_history.json
+*.bak_phase3*.json
