@@ -23,6 +23,16 @@
 
 ---
 
+## 0.f [S16 · 17/06/2026] TRADEX_KB_Chap6_Approches_Universelles — P1 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap6_Approches_Universelles.md`
+**Source :** Abdelkrim (document interne) — Chapitre 6 "Approches universelles complémentaires", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `correlations`, `structure_marche`, `indicateurs_tendance`, `macro_evenements`
+**Note :** Approches complémentaires à la méthode Belkhayate (VWAP, SMC, Wyckoff, inter-marchés probable). P1 car complète la série TRADEX KB et enrichit les 7 cercles d'intelligence.
+
+---
+
 ## 0.e [S16 · 17/06/2026] TRADEX_KB_Chap3_Brokers_Plateformes — P2 · 📥 À TRAITER
 
 **Fichier archivé :** `02-sources-brutes\playbook\TRADEX_KB_Chap3_Brokers_Plateformes.md`
