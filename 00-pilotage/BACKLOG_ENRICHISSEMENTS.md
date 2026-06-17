@@ -23,6 +23,36 @@
 
 ---
 
+## 0.e [S16 · 17/06/2026] TRADEX_KB_Chap3_Brokers_Plateformes — P2 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\TRADEX_KB_Chap3_Brokers_Plateformes.md`
+**Source :** Abdelkrim (document interne) — Chapitre 3 "Brokers & plateformes : l'interaction concrète", version technique enrichie
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `gestion_risque_entree` (types d'ordres, slippage, marge), `macro_evenements` (heures de marché), `psychologie` (discipline d'exécution)
+**Note :** Contenu opérationnel broker/plateforme (NinjaTrader, Rithmic). Filtrer ce qui est utile au moteur TRADEX (types d'ordres, règles ATI) vs ce qui est purement éducatif/débutant. P2 car moins Belkhayate-spécifique que Chap4/Chap5.
+
+---
+
+## 0.c [S16 · 17/06/2026] TRADEX_KB_Chap4_Analyse_Technique — P1 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap4_Analyse_Technique.md`
+**Source :** Abdelkrim (document interne) — Chapitre 4 "Lire le prix : analyse technique", version technique enrichie avec légende fiabilité (🟢/🟡/🔵/🔴)
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `indicateurs_tendance` (VWAP, support/résistance, structure), `indicateurs_momentum`, `structure_marche`, `volume_liquidite`
+**Note :** Série TRADEX KB — complémentaire Chap5 Belkhayate. Priorité P1 car directement lié à la lecture du prix dans TRADEX.
+
+---
+
+## 0.d [S16 · 17/06/2026] CHAP02_Fondamentaux_Futures — P2 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\CHAP02_Fondamentaux_Futures_v2_technique.md`
+**Source :** Abdelkrim (document interne) — Chapitre 2 "Fondamentaux des marchés futures", version technique enrichie
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `gestion_risque_entree` (tick/point/marge CME), `structure_marche`, `macro_evenements`
+**Note :** Fondamentaux généraux futures (GC/HG/CL/ZW). Filtrer strictement ce qui est Belkhayate-compatible. Les specs de contrat (tick/point) = vérifier CME officiel avant intégration KB.
+
+---
+
 ## 0.b [S16 · 17/06/2026] TRADEX_KB_Chap5_Methode_Belkhayate — P1 · 📥 À TRAITER
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap5_Methode_Belkhayate.md`
