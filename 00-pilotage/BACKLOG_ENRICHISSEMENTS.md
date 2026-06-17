@@ -23,6 +23,86 @@
 
 ---
 
+## 0.n [S16 · 17/06/2026] TRADEX_KB_Chap14_Progression_AutoOptimisation — P2 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\TRADEX_KB_Chap14_Progression_AutoOptimisation.md`
+**Source :** Abdelkrim (document interne) — Chapitre 14 "Plan de progression et auto-optimisation continue de TRADEX-AI", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `psychologie`, `gestion_position_active`
+**Note :** P2 — progression et itération du système. Extraire les critères d'évaluation et d'amélioration continue du moteur TRADEX (métriques, seuils de révision).
+
+---
+
+## 0.m [S16 · 17/06/2026] TRADEX_KB_Chap13_Pieges_Erreurs — P2 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\TRADEX_KB_Chap13_Pieges_Erreurs.md`
+**Source :** Abdelkrim (document interne) — Chapitre 13 "Pièges et erreurs fréquentes", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `psychologie`, `gestion_risque_entree`, `structure_marche`
+**Note :** P2 — anti-patterns et erreurs classiques. Extraire les règles négatives (ce qu'il NE faut PAS faire) — format "INVALIDE si..." utile pour les garde-fous du moteur.
+
+---
+
+## 0.l [S16 · 17/06/2026] TRADEX_KB_Chap12_Macro_Actualites — P1 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap12_Macro_Actualites.md`
+**Source :** Abdelkrim (document interne) — Chapitre 12 "Macro et actualités", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `macro_evenements`, `correlations`, `saisonnalite`
+**Note :** P1 — macro directement câblée dans TRADEX (News Gate NFP/FOMC/CPI, cercle C4+C6). Extraire les règles de blocage et de lecture macro compatibles avec le moteur.
+
+---
+
+## 0.k [S16 · 17/06/2026] TRADEX_KB_Chap11_Routines_Journal — P2 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\TRADEX_KB_Chap11_Routines_Journal.md`
+**Source :** Abdelkrim (document interne) — Chapitre 11 "Routines et journal de trading", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `psychologie`, `timing`, `gestion_position_active`
+**Note :** P2 — routines pré/post marché + journal. Extraire les règles de timing (routine matin Belkhayate) et discipline journal compatibles avec TRADEX. Le module journal est déjà prévu (backlog item 1).
+
+---
+
+## 0.j [S16 · 17/06/2026] TRADEX_KB_Chap10_Psychologie_Trader — P2 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\TRADEX_KB_Chap10_Psychologie_Trader.md`
+**Source :** Abdelkrim (document interne) — Chapitre 10 "Psychologie du trader", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `psychologie`
+**Note :** P2 — psychologie déjà couverte dans KB (54 règles VALIDE). Enrichir uniquement avec règles Belkhayate-spécifiques (discipline couloir horaire, anti-revenge-trade, gestion émotions perte).
+
+---
+
+## 0.i [S16 · 17/06/2026] TRADEX_KB_Chap9_Construire_Strategie — P1 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap9_Construire_Strategie.md`
+**Source :** Abdelkrim (document interne) — Chapitre 9 "Construire sa stratégie de trading", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `gestion_risque_entree`, `psychologie`, `structure_marche`, `timing`
+**Note :** P1 — construction stratégie = cadre global du signal TRADEX. Filtrer les règles de décision (entrée/sortie/filtre) directement applicables au moteur claude_brain.py.
+
+---
+
+## 0.h [S16 · 17/06/2026] TRADEX_KB_Chap8_Patterns_Setups — P1 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap8_Patterns_Setups.md`
+**Source :** Abdelkrim (document interne) — Chapitre 8 "Patterns et setups de trading", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `structure_marche`, `gestion_risque_entree`, `indicateurs_tendance`, `indicateurs_momentum`
+**Note :** P1 — patterns/setups = cœur des signaux TRADEX. Filtrer strictement les patterns compatibles méthode Belkhayate (COG+Timing) vs patterns génériques non utilisés.
+
+---
+
+## 0.g [S16 · 17/06/2026] TRADEX_KB_Chap7_Gestion_Risque — P1 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\playbook\TRADEX_KB_Chap7_Gestion_Risque.md`
+**Source :** Abdelkrim (document interne) — Chapitre 7 "Gestion du risque et money management", cours Mentor Trader Senior
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `gestion_risque_entree`, `gestion_position_active`, `psychologie`
+**Note :** P1 — gestion du risque est directement câblée dans le moteur TRADEX (risk_manager.py, seuils, circuit breaker). Filtrer les règles numériques (1%/2% par trade) : vérifier cohérence avec CLAUDE.md avant intégration KB.
+
+---
+
 ## 0.f [S16 · 17/06/2026] TRADEX_KB_Chap6_Approches_Universelles — P1 · 📥 À TRAITER
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap6_Approches_Universelles.md`
