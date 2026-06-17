@@ -23,6 +23,16 @@
 
 ---
 
+## 0.b [S16 · 17/06/2026] TRADEX_KB_Chap5_Methode_Belkhayate — P1 · 📥 À TRAITER
+
+**Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap5_Methode_Belkhayate.md`
+**Source :** Abdelkrim (document interne) — Chapitre 5 méthode Belkhayate, version technique enrichie avec légende fiabilité (🟢 FAIT / 🟡 CONVENTION / 🔵 ÉCOLE / 🔴 NON VÉRIFIÉ)
+**Action à l'interstice :** pipeline KB étapes 3-7 (transcript_processor.py → validate → fusionner KB_VALIDEE.json)
+**Catégories KB candidates :** `indicateurs_tendance` (COG, pivots, Direction), `structure_marche`, `timing`, `gestion_risque_entree`, `indicateurs_momentum`
+**Note :** Document déjà annoté avec niveaux de fiabilité — filtrer strictement les 🔴 NON VÉRIFIÉ (claims marketing, formules propriétaires non confirmées). Les 🟢 FAIT et 🔵 ÉCOLE sont intégrables directement. Priorité P1 car Belkhayate-spécifique.
+
+---
+
 ## 1. JOURNAL DE TRADING IA COMPLET (à intégrer Phase I ou Phase I.4)
 
 Chaque trade doit avoir une fiche complète dans SQLite :
