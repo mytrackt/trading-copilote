@@ -4800,7 +4800,7 @@
       },
       {
         "regle": "Sortir du marché dès que le signal de sortie est donné car le marché devient imprévisible au-delà du couloir horaire.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "-S4bads_QCM",
         "categorie": "timing",
         "confiance": 0.65,
@@ -4832,7 +4832,7 @@
       },
       {
         "regle": "La fin de journée de trading sur le blé se situe autour de 20h heure de Paris : sortir les positions avant cette heure.",
-        "statut": "AMBIGU",
+        "statut": "INVALIDE",
         "source_video_id": "4XYEV3o3W5U",
         "categorie": "timing",
         "confiance": 0.5,
@@ -5336,7 +5336,7 @@
       },
       {
         "regle": "Trader en dehors du couloir horaire optimal fait perdre du temps et de l'argent.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "kCReRoqkFAc",
         "categorie": "timing",
         "confiance": 0.7,
@@ -5536,7 +5536,7 @@
       },
       {
         "regle": "Privilégier des trades très courts, entrer et sortir le plus vite possible, idéalement en moins d'une minute.",
-        "statut": "AMBIGU",
+        "statut": "INVALIDE",
         "source_video_id": "v1Z4lM3ZfU4",
         "categorie": "timing",
         "confiance": 0.8,
@@ -5962,7 +5962,7 @@
       },
       {
         "regle": "La résistance 1 et la résistance 2 issues des pivots Belkhayate sont des niveaux clés pour prendre des profits ou anticiper un retournement.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "BOENPfxIptU",
         "categorie": "indicateurs_tendance",
         "confiance": 0.6,
@@ -5970,7 +5970,7 @@
       },
       {
         "regle": "Lorsque Belkhayate Direction se retourne, cela confirme un changement de tendance mais ce n'est pas le seul critère d'entrée.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "BOENPfxIptU",
         "categorie": "indicateurs_tendance",
         "confiance": 0.65,
@@ -6058,7 +6058,7 @@
       },
       {
         "regle": "Le Belkhayate Gravity Center (centre de gravité) peut être ajouté comme indicateur sur le graphique NinjaTrader pour analyser le marché.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "Fili1lujs6w",
         "categorie": "indicateurs_tendance",
         "confiance": 0.6,
@@ -6314,7 +6314,7 @@
       },
       {
         "regle": "Quand le marché teste plusieurs fois une résistance pivot sans la casser, puis la casse avec force, les algorithmes s'activent et le marché explose dans la direction de la cassure.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "PLkAPhUIs9g",
         "categorie": "indicateurs_tendance",
         "confiance": 0.65,
@@ -6818,7 +6818,7 @@
       },
       {
         "regle": "Les niveaux des pivots et la clôture de la veille servent de matelas : la bande formée par ces deux niveaux agit soit en support, soit en résistance.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "gTgNe0P4SVw",
         "categorie": "indicateurs_tendance",
         "confiance": 0.0,
@@ -6842,7 +6842,7 @@
       },
       {
         "regle": "L'objectif de profit naturel d'un trade est le prochain niveau de pivot (support ou résistance suivant).",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "gTgNe0P4SVw",
         "categorie": "indicateurs_tendance",
         "confiance": 0.0,
@@ -7460,7 +7460,7 @@
       },
       {
         "regle": "Pour valider le signal de sortie (squeeze), attendre la confirmation par la clôture d'une bougie rouge après la mèche à grand volume.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "4XYEV3o3W5U",
         "categorie": "indicateurs_momentum",
         "confiance": 0.65,
@@ -7468,7 +7468,7 @@
       },
       {
         "regle": "Une bougie d'impulsion doit être significativement plus longue que les bougies précédentes pour confirmer l'accélération directionnelle.",
-        "statut": "AMBIGU",
+        "statut": "INVALIDE",
         "source_video_id": "4XYEV3o3W5U",
         "categorie": "indicateurs_momentum",
         "confiance": 0.4,
@@ -7708,7 +7708,7 @@
       },
       {
         "regle": "Des signaux rouges répétés du Centre de Gravité (rouge, rouge, rouge, rouge) augmentent la probabilité d'une cassure baissière imminente du dollar.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "t6Yp9yisaWw",
         "categorie": "indicateurs_momentum",
         "confiance": 0.6,
@@ -8318,7 +8318,7 @@
       },
       {
         "regle": "Attendre la cassure confirmée d'un niveau clé (ex. MA 209) avant d'entrer en position, ne pas anticiper.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "Wi02ocQPr4g",
         "categorie": "gestion_risque_entree",
         "confiance": 0.7,
@@ -8350,7 +8350,7 @@
       },
       {
         "regle": "En tendance, le target peut être proche du stop loss.",
-        "statut": "AMBIGU",
+        "statut": "INVALIDE",
         "source_video_id": "XP1rqD_mbXY",
         "categorie": "gestion_risque_entree",
         "confiance": 0.7,
@@ -8438,7 +8438,7 @@
       },
       {
         "regle": "Donner systématiquement à son courtier une instruction de limitation de perte à 2% du capital avant chaque opération.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "_fswauljmZw",
         "categorie": "gestion_risque_entree",
         "confiance": 0.65,
@@ -8638,7 +8638,7 @@
       },
       {
         "regle": "Rentrer acheteur uniquement quand le marché revient tester le niveau de clôture de la veille ou du pivot en zone de support, avec une mèche ou une bougie de rebond confirmant le niveau.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "gTgNe0P4SVw",
         "categorie": "gestion_risque_entree",
         "confiance": 0.0,
@@ -8990,7 +8990,7 @@
       },
       {
         "regle": "Travailler avec un objectif d'un seul tick de gain et accepter de perdre un seul tick si le marché va contre soi.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "v1Z4lM3ZfU4",
         "categorie": "gestion_risque_entree",
         "confiance": 0.6,
@@ -9264,7 +9264,7 @@
       },
       {
         "regle": "Sortir en fin de journée (autour de 20h heure de Paris) même si le mouvement semble se poursuivre.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "4XYEV3o3W5U",
         "categorie": "gestion_position_active",
         "confiance": 0.45,
@@ -9344,7 +9344,7 @@
       },
       {
         "regle": "Si le marché monte vers un niveau cible sans grand volume et sans mèche, on conserve la position car il n'y a pas encore de signal de distribution.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "BOENPfxIptU",
         "categorie": "gestion_position_active",
         "confiance": 0.5,
@@ -9672,7 +9672,7 @@
       },
       {
         "regle": "Prendre ses profits sur le prochain niveau de pivot (résistance ou support suivant) connu à l'avance dès le matin.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "gTgNe0P4SVw",
         "categorie": "gestion_position_active",
         "confiance": 0.0,
@@ -9816,7 +9816,7 @@
       },
       {
         "regle": "Il faut sortir l'intégralité de la position lorsqu'apparaît une mèche haute (wick supérieur) suivie d'une bougie rouge sur le volume.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "w9bbZbBNHwM",
         "categorie": "gestion_position_active",
         "confiance": 0.75,
@@ -10074,7 +10074,7 @@
       },
       {
         "regle": "Même si le marché casse la zone de vente avec force, la configuration reste baissière tant que le contexte général du centre de gravité ne change pas.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "79HyL4V13KQ",
         "categorie": "structure_marche",
         "confiance": 0.7,
@@ -10330,7 +10330,7 @@
       },
       {
         "regle": "Après la cassure d'une résistance, l'ancien niveau de résistance doit se transformer en support pour valider la continuation haussière.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "INv2927O50k",
         "categorie": "structure_marche",
         "confiance": 0.6,
@@ -10546,7 +10546,7 @@
       },
       {
         "regle": "Lorsqu'un marché teste répétitivement une résistance pivot sans la franchir, puis la franchit, une impulsion violente dans la direction de la cassure s'ensuit.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "PLkAPhUIs9g",
         "categorie": "structure_marche",
         "confiance": 0.5,
@@ -10714,7 +10714,7 @@
       },
       {
         "regle": "Un pull-back après la cassure d'un support est normal et ne remet pas en cause le signal si le support cassé agit désormais comme résistance.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "Wi02ocQPr4g",
         "categorie": "structure_marche",
         "confiance": 0.65,
@@ -11290,7 +11290,7 @@
       },
       {
         "regle": "L'absence d'attaque vendeuse dans les configurations indique que les algos sont en phase d'accumulation, ce qui favorise la poursuite de la hausse.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "nR33NS1EPR0",
         "categorie": "structure_marche",
         "confiance": 0.65,
@@ -11738,7 +11738,7 @@
       },
       {
         "regle": "Le pattern 'tir à l'arc' (squeeze) consiste en un trading range suivi d'une fausse cassure d'un côté, puis d'une cassure violente du côté opposé qui initie un fort mouvement d'impulsion.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "wGGOkodLZ9I",
         "categorie": "structure_marche",
         "confiance": 0.65,
@@ -11914,7 +11914,7 @@
       },
       {
         "regle": "En tendance haussière, une grande bougie baissière est un appât posé par les algorithmes pour inciter les traders à vendre à contre-tendance.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "yqzjMu-VSRo",
         "categorie": "structure_marche",
         "confiance": 0.6,
@@ -12078,7 +12078,7 @@
     "volume_liquidite": [
       {
         "regle": "Observer les volumes après l'entrée en position pour confirmer la poursuite du mouvement ou identifier un signal de sortie.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "-S4bads_QCM",
         "categorie": "volume_liquidite",
         "confiance": 0.55,
@@ -12102,7 +12102,7 @@
       },
       {
         "regle": "Un grand volume sans bougie d'impulsion significative ni mèche importante ne constitue pas un signal de sortie valide.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "4XYEV3o3W5U",
         "categorie": "volume_liquidite",
         "confiance": 0.6,
@@ -12166,7 +12166,7 @@
       },
       {
         "regle": "Quand le marché monte sans grand volume ni mèche, c'est de l'accumulation et on garde la position.",
-        "statut": "AMBIGU",
+        "statut": "INVALIDE",
         "source_video_id": "BOENPfxIptU",
         "categorie": "volume_liquidite",
         "confiance": 0.15,
@@ -12318,7 +12318,7 @@
       },
       {
         "regle": "Lorsque la surliquidité mondiale se retire, toutes les classes d'actifs (actions, obligations, matières premières) tombent simultanément.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "Zu2Xl6cxYZs",
         "categorie": "volume_liquidite",
         "confiance": 0.7,
@@ -12430,7 +12430,7 @@
       },
       {
         "regle": "Un marché qui monte doucement sans grand volume est en train d'étrangler les vendeurs à découvert : la tendance haussière est saine.",
-        "statut": "AMBIGU",
+        "statut": "INVALIDE",
         "source_video_id": "ajTvB8oz4Ag",
         "categorie": "volume_liquidite",
         "confiance": 0.7,
@@ -12486,7 +12486,7 @@
       },
       {
         "regle": "Le plus grand volume de toute une phase haussière concentré sur une seule bougie baissière est un signe de distribution potentielle.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "jJV61RzKm5U",
         "categorie": "volume_liquidite",
         "confiance": 0.7,
@@ -12494,7 +12494,7 @@
       },
       {
         "regle": "Les volumes confirment la poursuite du mouvement haussier : si les volumes indiquent une pression acheteuse, on maintient la position.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "nR33NS1EPR0",
         "categorie": "volume_liquidite",
         "confiance": 0.65,
@@ -12606,7 +12606,7 @@
       },
       {
         "regle": "La présence ou l'absence de volume permet de distinguer si les gros opérateurs participent ou non.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "yTpo7ATDF5o",
         "categorie": "volume_liquidite",
         "confiance": 0.65,
@@ -13456,7 +13456,7 @@
       },
       {
         "regle": "La patience est nécessaire : attendre que le marché arrive dans des zones de volatilité attendue avant d'entrer.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "XP1rqD_mbXY",
         "categorie": "psychologie",
         "confiance": 0.65,
@@ -13840,7 +13840,7 @@
       },
       {
         "regle": "Se concentrer uniquement sur le présent du marché, jamais sur une prévision future.",
-        "statut": "AMBIGU",
+        "statut": "INVALIDE",
         "source_video_id": "doUa5le9fFs",
         "categorie": "psychologie",
         "confiance": 0.4,
@@ -13888,7 +13888,7 @@
       },
       {
         "regle": "Ne pas chercher à trader 24h sur 24 : se concentrer sur la meilleure opportunité de la journée.",
-        "statut": "AMBIGU",
+        "statut": "VALIDE",
         "source_video_id": "gTgNe0P4SVw",
         "categorie": "psychologie",
         "confiance": 0.6,
