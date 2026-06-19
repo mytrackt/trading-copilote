@@ -1,0 +1,113 @@
+Bonjour et bienvenue à la vidéo 12. Il s'agit du graphique en range. Ce n'est pas un graphique
+en temps, c'est-à-dire en 5 minutes, 10 minutes, etc. Non, c'est un graphique qui, à chaque
+fois que le marché va bouger d'un certain nombre de tics, par exemple 10 tics ou 20
+tics, alors il va faire une bougie. Donc on va enlever le temps sur le graphique. Bien
+que la méthode Belkhéade est basée sur le volume et sur le couloir horaire, donc sur
+le temps, quand on va zoomer pour aller étudier le marché avec le carnet d'or, on va plutôt
+mettre un graphique en range. Et pourquoi ça ? Parce que tout simplement, on va enlever
+le temps pour pouvoir regarder la vitesse et la volatilité du marché dans un espace
+bien défini. Ça veut dire que lorsque le marché fait 10 tics, quel est l'effort qu'il a fait pour
+faire ces 10 tics ? Et c'est très important quand on va le voir. Donc je vous invite à jeter un coup
+d'œil sur la stratégie de trading sur le graphique de range bar, ce qu'on appelle les range bar.
+Voilà ici. Alors regardons ici d'abord un graphique en 15 minutes et là c'est un graphique sur le
+pétrole en 15 minutes. Et j'ai rajouté ici un indicateur qui s'appelle ATR, Average True Range,
+c'est à dire l'indicateur qui nous donne une idée de la volatilité des marchés, c'est à dire la
+différence entre le plus haut et le plus bas. C'est à dire l'élasticité de ce marché-là en 15 minutes.
+Et là par exemple, vous voyez que la valeur est de 0,29. Ça veut dire 0,29, ça veut dire 0,29,
+autrement dit à peu près 29 tics pour le moment à ce jour-là. Maintenant en temps réel, il va
+bouger d'environ en moyenne 29 tics pendant une période de 15 minutes. C'est pour cela que je prends
+d'abord les 15 minutes et je mesure la volatilité et l'élasticité de ce marché-là pour qu'ensuite
+tu puisses mettre... Alors là je vais choisir sur le... Avant d'aller vous montrer le range,
+je vais vous montrer comment on peut le mettre déjà. On vient ici et vous avez vu là sur Ninja
+Trader, vous avez vu ici, il y a le range ici et vous pouvez ajouter les ranges que vous voulez.
+Par exemple, vous venez d'en configurer et vous choisissez ces ranges et vous pouvez ajouter,
+là je vais ajouter 20, vous pouvez ajouter ce que vous voulez. Par exemple, on va dire qu'on va
+ajouter 19 et vous faites comme ça. Par exemple 19 si vous voulez et vous faites ça et vous avez
+19 ici désormais. D'accord? Voilà. Donc là je vais le retirer et on va venir ici et on a mis 20
+ranges. J'ai choisi 20 ranges, je vais enlever ça. J'ai choisi 20 ranges parce que j'ai l'habitude
+de trader le pétrole sur 20. Alors là on revient ici, je vous montre un petit peu comment un
+graphique en 15 minutes se présente sur cette journée et cette journée et je vous demande 10
+secondes d'attention. Regardez comment ce marché se comporte par rapport à la moyenne mobile ici.
+Regardez bien, on est un peu éloigné de la moyenne mobile ici, ici. Regardez bien et lorsqu'on met le
+range, regardez ce qui se passe. On est en réalité beaucoup plus proche de la moyenne. Regardez,
+si je fais ça, j'ai à peu près cette journée là et elle est là cette journée. Vous voyez ici.
+Donc vous allez vous rendre compte qu'en mettant le graphique de range, vous allez avoir de meilleure
+visibilité sur les tendances. Vous allez pouvoir tracer de manière un peu plus précise les supports
+et les résistances comme par exemple ici et vous allez surtout avoir de très bons signaux. Pour
+le moment, je veux juste vous introduire, vous intéresser en fait à ce type de graphique. Alors
+je vous rappelle, premièrement ici, le temps n'existe plus. Ce qui compte, c'est la distance
+parcourue. Donc si le pétrole ou le ZN ou l'or, il va faire un chemin, il va progresser de 10, 20,
+30, alors on va avoir une bougie qui va le dire. Donc en deux minutes ou trois minutes,
+on peut avoir plusieurs bougies comme on peut avoir une bougie en une heure de temps. Tout
+dépend du terrain qui est parcouru. Je tiens à vous montrer ça parce que vous allez vous rendre
+compte dans cette formation que le fait d'enlever le temps après avoir fait l'étude du contexte où
+on a utilisé le temps dans le couloir horaire, évidemment, mais on a utilisé, une fois qu'on a
+choisi et qu'on a sélectionné d'abord le marché en fonction du contexte, on va ensuite zoomer,
+je le rappelle, pour regarder uniquement l'espace qui est parcouru. Alors je vous montre tout de
+suite le carnet d'or. Peut-être pour vous, c'est peut-être la première fois que vous allez
+voir un graphique de carnet d'or. Alors je vous montre tout de suite le graphique du carnet d'or
+sur 20 ranges sur le pétrole et on va regarder cette situation là qui s'est passée ici, là. On va
+regarder cette journée là. Et on voit que cette journée là, regardez ici, à partir de 16h37,
+on revient, à partir de 16h37, on a un signal ici, attention, on a un signal de vente. Je vais vous
+expliquer pourquoi c'est un signal de vente. Mais à 16h43, ici, le Lord of Law, donc le carnet d'or,
+il nous a donné ici une accélération baissière. Ici, avec ce rectangle rose, il est en train de
+nous dire que les vendeurs sont rentrés et ont balayé le carnet d'or. Ils ont balayé et c'est très
+puissant comme signal. Je reviens sur le temps et on va regarder 16h37 ici. Vous voyez, à ce niveau là.
+On voit ici, à ce niveau là. Alors lorsqu'on voit ici, on peut voir ici, on a une cassure ici de
+cette ligne là. On peut dire que c'est un support qui a été cassé. Mais on ne voit pas véritablement
+si c'est vraiment un signal très fort de vente ou pas. Mais lorsqu'on va sur le carnet d'or,
+regardez bien, c'est très important. Ici, je vais faire ça. C'est la première fois que vous découvrez
+le carnet d'or. Donc je prends le temps quand même de vous montrer. Ici, nous avons une bougie
+de 20 tics ici. Et ici, une bougie de 20 tics. Ici également, ici également, ici également. Mais
+l'intérêt de carnet d'or, lorsqu'on l'applique avec les ranges barres de 20 tics par exemple sur
+le pétrole, on voit ici une attaque véritablement puissante ici. Il n'y a aucun signal d'achat ici
+puisque sur le côté gauche, nous avons uniquement... Regardez, on va le faire comme ça.
+Voilà. Regardez, je vais le préparer pour que vous puissiez bien voir. Ici, on a une
+percute baissée parce qu'on a du rouge ici. Je vais vous l'expliquer plus tard. Mais juste après,
+on a un autre balayage qui vient confirmer. Donc ici, on doit renforcer notre position,
+renforcer notre position. Et également ici, ici, le signal est donné de manière automatique par le
+carnet d'or. Et nous avons un très fort signal pour renforcer la position. Donc nous avons
+un premier 20 tics facile, un deuxième 20 tics où on renforce. Mais ici, nous demande de renforcer
+très fort. Et on regarde, on se dit que peut-être c'est le moment de prendre les profits, etc. Mais
+le carnet d'or, il nous donne encore pour les prochains 20 tics un très fort signal ici encore
+pour vendre. Et on voit très bien que le marché... Je vais vous faire ça. Regardez. Voilà. Et ce n'est
+qu'ici, à partir de là, qu'il nous dit de prendre les profits. Donc on vend ici tranquillement. Ici,
+on rajoute à notre position. Ici, on peut doubler. Ici, on peut tripler. Ici encore, on a encore un
+avalement, enfin une attaque baissière. Et ce n'est qu'ici qu'on a enfin une réaction des acheteurs.
+Voilà. Donc c'était pour vous montrer un petit peu la puissance du range bar. On va regarder
+maintenant l'or. L'or, vous avez regardé l'or en 15 minutes. Et l'or, en 15 minutes, il bouge d'environ
+1,95 dollars. Donc on va prendre sur... Moi ce que je fais, je regarde d'abord ce qui se passe sur
+15 minutes. Je mesure la volatilité et je viens ici et je vais mettre 15 range bars sur l'or. Parce
+que j'ai l'habitude de le trader entre 15 et 20 range bars. Et vous voyez ici que l'or,
+si vous regardez l'or ici et là, vous voyez quand même qu'il y a une différence dans la
+netteté. Ici, par exemple, vous avez le pullback ici, magnifique pullback ici, avec une mèche ici
+qui est magnifique. On va regarder le S&P. Alors le S&P, en 15 minutes, il va vous faire 5,5 points.
+Mais vous savez qu'un point du S&P, c'est divisé par... Il contient 4 tickets. Donc vous allez
+multiplier ici de 5 par 4 pour avoir la volatilité moyenne par ticket en 15 minutes. C'est à peu
+près, on peut dire, les 20 tickets. Donc je vais venir ici et je vais mettre le S&P en 20 range bars.
+Voilà. Et on va voir ici que maintenant, vous voyez ici, si je mets le carnet d'or ici, vous
+allez pouvoir voir que le carnet d'or va nous donner des signaux très intéressants et à très
+forte probabilité de gains. Puisqu'on voit tout de suite qu'il n'y a pas d'acheteurs. Dans pas
+d'acheteurs, il n'y a pas d'acheteurs. On le voit clairement et ça s'accélère. Alors qu'on est ici
+en 20, en 20 tickets. Donc chaque bougie représente 20 tickets et vous imaginez combien de tickets
+vous auriez gagné ici grâce au carnet d'or. On va regarder le carnet d'or tranquillement avec toutes
+ces configurations. Vous avez toutes les vidéos suivantes qui arrivent. Cette vidéo numéro 12,
+c'est une vidéo pour vous présenter le type de graphique qu'on va utiliser durant toute la
+formation sur le carnet d'or. On va enfin regarder le ZN qui est particulier. Donc le ZN sur 15
+minutes, il donne 0,07 tickets en fait. Et moi je vais utiliser 5 tickets ici. C'est mon habitude.
+Regardez ici, je vais utiliser 5 tickets sur le ZN. Pourquoi ? Parce que c'est une habitude. Mais
+vous voyez ici que le ZN sur 5 tickets. Regardez comment il rebondit bien sur ce niveau là. Et quand
+il va vous donner de l'argent, regardez, il vous donne facilement de l'argent. On le voit ici. Vous
+allez voir que dans le... Regardez ici. On va le voir ici. Quand il tombe comme ça, quand il tombe,
+regardez, il tombe ici. C'est pour cela que le ZN est un marché très intéressant à trader,
+surtout quand vous allez avoir des signaux au vendeur sur le carnet d'or. Et si on met le
+carnet d'or ici et on aura le temps de bien regarder le carnet d'or sur le ZN, on va voir
+que sur 5 ranges, il nous donne des signaux très très très intéressants, à très forte probabilité
+de gagne. Voilà donc c'était pour vous parler un petit peu de la manière dont on va décortiquer
+le graphique. Alors je vous résume en deux, trois secondes. D'abord, on va regarder le graphique en
+15 minutes. 15 minutes qui comprend le temps, bien sûr, pour pouvoir identifier le bon couloir horaire
+sur lequel on va trader un marché. Ça c'est une fois. Une fois qu'on a défini tout ça, on va aller
+mettre le graphique sur du range bar et ensuite on va mettre le centre de gravité, le carnet d'or,
+je voulais dire le centre de gravité, le carnet d'or pour pouvoir mesurer le déséquilibre qu'il
+y a entre les volumes dans la demande et les volumes dans l'offre. Voilà, je vous remercie
+pour votre attention et on va attaquer avec plaisir la leçon 13. À très vite.

@@ -1,0 +1,132 @@
+Bonjour, bonjour, tout le monde est bienvenue à la vidéo numéro 2. Il s'agit de parler
+de Ninja Trader, la plateforme qui va vous accompagner, non seulement pour réussir les
+tests de trading, mais qui va vous accompagner dans votre parcours de trader professionnel.
+Ninja Trader, c'est une plateforme qui vous permet de lire le carnet d'or. Il y a très
+peu de plateformes qui le permettent. Par exemple, Trading View ne permet pas d'aller
+lire les volumes exécutés sur le bid et le ask, etc., pour vous permettre d'avoir une visibilité
+sur l'intérieur d'une unité de temps. Ninja Trader va vous permettre de pouvoir lire le carnet
+d'or, mais également va vous permettre d'utiliser des systèmes automatiques de trading, va vous
+permettre de pouvoir gérer soit votre compte, soit le compte de clients qui vous ont confié un compte,
+soit gérer à distance les comptes de Lilou, de OneUp, etc. Donc finalement, j'ai le plaisir
+de vous présenter Ninja Trader que vous voyez ici. Vous allez sur le site et vous allez voir tout
+de suite un brokerage ici. C'est-à-dire qu'ils sont devenus courtiers. Au début, ils n'étaient
+que des providers, des fournisseurs de plateformes pour pouvoir faire de l'analyse technique et
+graphique. Et puis, ils ont compris qu'ils avaient plus intérêt à devenir des courtiers pour que
+vous puissiez utiliser Ninja Trader pour passer des ordres directement sur leur plateforme. Et
+lorsque vous voyez ici, vous voyez que vous pouvez ouvrir des comptes à partir de 400 $ et vous allez
+trader ici ce qu'on appelle les micro lots. Ce sont des petits lots par rapport à 400 $. Vous allez
+pouvoir chercher à gagner 20, 30, 40 $. Vous savez, petit à petit, l'oiseau fait son nid. On peut
+commencer petit et puis avoir un compte qui grossit surtout si on est discipliné et qu'on
+respecte ce qu'on est en train de voir devant nous. On essaie d'anticiper et de prévoir ce que
+les marchés vont faire car les marchés, comme vous le savez, sont imprévisibles. Bien, nous allons
+mettre un email ici. Donc, vous choisissez de mettre votre email là et vous allez appuyer sur
+download et il va vous demander des informations. Je ne le fais pas puisque moi je l'ai déjà fait.
+Mais une fois que vous avez cliqué et vous avez demandé download, il va vous demander des
+détails sur vous, le nom, le prénom, etc. Et il va vous envoyer ensuite ici. Il va vous dire
+allez, vous allez télécharger Ninja Trader gratuitement sur votre portable. Alors là,
+je vous dis tout de suite, j'espère que vous avez Windows et que vous n'avez pas un Macintosh
+ou quelque chose comme ça parce que si vous voulez faire du trading, il faut vous équiper. Il
+faut avoir un bon PC Windows et il faut avoir un minimum de ESET. C'est à dire, vous devez avoir
+un microprocesseur. Rappelez-vous de ça, ESET, parce que si vous voulez travailler et utiliser
+l'ordre of law, le carnet d'ordre, il vaut mieux avoir une bonne machine à partir de... Rappelez-vous
+de ça. Certains d'entre vous, certainement la plupart ont encore un i5, mais le i7 c'est bien. Le
+mieux évidemment, si vous avez le i9, ça serait très très bien. Donc vous, vous allez télécharger
+ici et sur l'e-mail que vous avez envoyé, vous avez reçu ici deux e-mails. Un e-mail de Ninja
+Trader brokerage qui vous invite et qui vous explique ce qu'il faut faire et puis vous avez
+un e-mail de CQG. CQG, c'est en fait le fournisseur des cours en temps réel et ils vous donnent
+gratuitement ici. Vous voyez là, ils vous donnent un login que vous allez mettre. Je vais vous montrer
+où. Vous mettez ce login là et vous avez Ninja Trader qui va fonctionner comme ici. Vous allez
+voir, on va venir là et on va choisir ici le contrôle ici. Voilà. Alors ici, vous avez Ninja
+Trader et ce que vous voyez là, c'est Ninja, c'est ce rectangle là qui vous permet de contrôler Ninja
+Trader. Et quand vous venez ici sur connexion, vous, j'ai déjà moi ma connexion Ninja Trader,
+Continuum ici. Vous voyez, voilà que vous pouvez faire. Alors vous, quand vous avez des codes,
+vous venez par exemple sur Belkreat System ici par exemple. Attendez ici, on va prendre ici par
+exemple Ninja Continuum, pardon, configurer. On vient d'en configurer ici et vous allez choisir
+par exemple la connexion en question et ici vous allez changer, vous allez mettre le démon, le
+login et le password que vous avez ici. Et chaque fois que vous avez expiré votre démon, votre
+version démon, vous pouvez revenir ici et utiliser un autre email et comme ça ils vont vous renvoyer
+encore un autre login que vous allez mettre dans la connexion ici en venant connexion, configurer. Vous
+venez dans votre connexion par exemple Ninja Trader, Continuum ici et vous pouvez mettre ici les
+mots de passe etc. Voilà donc ça c'est ce qui concerne la connexion. Maintenant on va commencer
+tout de suite avec, on vient ici dans New ici et on vient dans, on va commencer déjà par un chart.
+Donc on vient ici et on fait un chart. Pour choisir le chart, vous venez ici et vous tapez par exemple,
+on va commencer par le ZN. Le ZN qui est le marché que je vous recommande évidemment. Vous allez
+voir pendant toute cette formation, je vous parlais énormément du ZN qui est le marché des bonds de
+trésor américains qui est que je considère comme étant le marché le plus facile à trader en tout
+cas d'après mon expérience sur les marchés. Et vous choisissez ici futur donc et vous avez ici le
+ZN futur que vous allez cliquer ici et vous avez ici 15 minutes, vous me laissez 15 minutes et vous
+faites ça. Et vous avez donc Ninja Trader qui, je vais le faire comme ça, voilà c'est quand même
+magnifique. Vous avez Ninja Trader qui est en train de vous donner le graphique du ZN sur 15 minutes
+et ici j'ai mis la moyenne mobile 209 et la moyenne mobile exponentielle 209. Vous regardez,
+je fais comme ça, ici, voilà regardez la moyenne mobile 209, EMA 209. Vous la voyez ici, voilà. Donc
+là j'ai tout simplement la moyenne mobile 209 et j'ai le volume ici qui est là. Donc j'utilise Ninja
+Trader sur tous les marchés financiers. En général, on va commencer à utiliser sur 15 minutes
+n'importe quel marché. On va juste mettre la moyenne mobile de 209, ça veut dire, 209 c'est là,
+je vais vous l'expliquer plus tard. Pour le moment on est en train de définir juste Ninja Trader,
+ce que vous pouvez faire avec Ninja Trader. Alors ça c'est un premier point, comment mettre un
+graphique. Ensuite on va revenir sur la plateforme en question ici et on va taper ici, on va taper
+l'instrument liste. C'est très important de pouvoir créer votre liste. Alors moi j'ai créé
+plusieurs listes ici, African Commodity, Belchéatlist, etc. Vous venez, vous pouvez appuyer sur add par
+exemple comme ça et vous créez une liste, on peut le faire ensemble, par exemple la liste de
+la formation par exemple. La formation on va faire comme ça et la liste de la formation,
+voilà elle est là et vous allez ajouter ici des marchés. Par exemple on va mettre le ZN,
+voilà on a mis le ZN, on va ajouter un autre marché par exemple le crude oil, c'est le pétrole,
+vous le mettez et ensuite on va mettre l'or et puis c'est tout, je vais m'arrêter là. Vous faites ça
+et vous avez donc une liste où vous avez choisi, vous avez choisi trois marchés. C'est très important
+de pouvoir le faire comme ça vous allez vous allez voir pourquoi. Ensuite on va venir dans new et on
+va regarder market watch. Market watch ça va nous donner une idée de ce que les marchés peuvent
+faire. D'accord on vient ici, on va ajouter des instruments. Alors là on peut choisir notre
+liste qu'on a fait tout à l'heure, la liste de la formation et on va choisir par exemple all et nous
+avons les trois marchés qui sont négatifs tout de suite. On voit que le pétrole est négatif,
+que l'or est négatif et que le ZN sont négatifs. Donc on va faire ça, on va retourner voir une
+liste de Belkhayat qui est beaucoup plus importante et là on voit qu'en utilisant market watch en
+une fraction de seconde on peut voir quels sont les marchés qui sont en train de monter, quels sont
+les marchés qui sont en train de tomber. On voit très bien par exemple que le Corl, le ZC, il est
+en train de tomber. En général les marchés sont dans le rouge, on le voit en une fraction de seconde.
+Par contre on voit tout de suite que le gaz naturel en temps réel il est fortement haussier. On ne va
+pas s'amuser à vendre le gaz naturel, on ne va pas s'amuser à vendre par exemple le FGBL pour le
+moment. Ce n'est pas ça qu'on ne va pas le faire. Donc c'est une visibilité immédiate sur différents
+marchés que vous pouvez utiliser avec Nitya Trader qui est une fonction très intéressante. Une autre
+fonction que j'utilise beaucoup c'est market analyzer et ici market analyzer c'est un radar en
+fait qui va vous permettre de sélectionner par exemple vous mettez 40 ou 50 marchés et vous
+demandez des spécifications. Regardez je vais ajouter par exemple le create list là ok sur
+le radar. J'ai tous les marchés ici qui sont là et ensuite je peux ajouter ici un indicateur pour
+me donner des signaux des alertes par rapport au volume par rapport à plein d'éléments. Alors je
+vais vous montrer comment on peut ajouter un indicateur pour scanner en fait les marchés par
+rapport à un indicateur. On vient dans colonne ici et on vient ici dans on va rajouter ici indicateur
+voilà
+voilà ici on ajoute un indicateur ici et on va mettre comme indicateur par exemple le volume
+voilà on va mettre le volume ici donc on a choisi de mettre le volume en une minute
+on va mettre 15 minutes voilà et on va appuyer
+il est en train de charger et voilà vous avez les volumes ici et ensuite on peut choisir des
+alertes par rapport à des volumes dans le radar ça vous donne une idée tout de suite si vous
+avez une cassure sur un volume donné vous savez que le create method est basé sur la cassure
+dans le volume donc c'est un élément très important qui peut vous aider qu'on a une accélération
+de volume sur le cuivre ou bien sur le maïs etc donc c'est très intéressant et en fait
+Ninja Trader elle vous permet d'avoir énormément d'avantages pour pouvoir faire du trading
+professionnel et on peut revenir ici et vous pouvez je vous invite à découvrir en fait tous
+ces éléments là qui sont vraiment très intéressants mais on peut regarder par exemple
+ici je donne un exemple sur le super dom c'est ce que vous voyez là là vous voyez le super dom
+ici c'est pour faire du trading on va le voir plus tard pour le moment je voulais je voulais
+vous montrer surtout la plateforme Ninja Trader ce que vous pouvez faire avec par exemple ici
+aujourd'hui en temps réel on est en train d'assister à le marché du ZN est en train de monter et moi
+je suis je vous invite toujours à être vendeur sur ces marchés là attendent des signaux vendeurs
+pour rentrer sur les marchés aujourd'hui aujourd'hui on a plus envie de vendre que d'acheter
+ce marché là voilà donc c'était une présentation sur le potentiel de la plateforme Ninja Trader
+il y a énormément de choses à découvrir sur cette plateforme attendez je vais je vais vous
+montrer voilà ici je reviens ici je tiens à vous montrer tous les avantages ici par exemple vous
+pouvez ici avoir accès au data quand vous venez ici vous avez accès au data et c'est très important
+de pouvoir vous entraîner avec le market replay le market replay vous permet de revoir une situation
+de là et de vous entraîner sur des journées et des journées c'est vraiment très utile à pouvoir
+vous entraîner sur sur le market replay que vous voyez là ok on va on va revenir ici ici sur le
+tools quand vous voulez ajouter un indicateur de Ninja Trader vous pouvez venir dans Ninja script
+ici et vous pouvez l'ajouter ici il y a énormément de choses sur Ninja Trader je peux pas tout vous
+montrer comme ça en ce laps de temps mais toujours est-il que je vous recommande de
+vous focaliser sur l'utilisation de Ninja Trader il y a beaucoup de vidéos youtube sur ça vous n'avez
+pas besoin de moi pour maîtriser Ninja Trader pour le moment je suis en train de vous diriger
+vers cette plateforme pour que vous puissiez vous habituer la formation va se dérouler sur Ninja
+Trader on va installer le carnet d'or sur Ninja Trader et on va voir comment on va utiliser la
+méthode Belkhayat pour pouvoir faire du trading en repérant des configurations bien spécifiques
+dans le carnet d'or voilà c'était une présentation de la plateforme et du potentiel énorme que vous
+avez avec cette plateforme Ninja Trader pour faire du trading avec le carnet d'or je vous remercie et
+je vous donne rendez-vous pour la leçon numéro 3

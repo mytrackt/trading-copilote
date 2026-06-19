@@ -1,0 +1,124 @@
+Et voilà, après ces exemples sur les configurations et les VWAP, je voudrais revenir sur le cours
+numéro 7.
+Le cours numéro 6 a pris beaucoup de temps, mais je pense que ça valait le coup, ça
+de regarder, de re-regarder comment ça fonctionne, comment on peut intervenir sur les marchés.
+Et là, sur le cours 7, je vais parler des relations intermarchées, d'accord ? Et en
+fait, je vais parler également des statistiques et les chiffres.
+Alors, relations intermarchées, il y a longtemps, on disait que lorsque les actions montent,
+les obligations baissent, parce que dans le monde de la finance, c'est des bases communicantes.
+Quelque chose qui est là, quand ça quitte ici, ça va là, et donc quand les actions
+montent, les obligations baissent, quand, par exemple, l'or, il monte, le dollar tombe
+parce qu'ils sont concurrents dans les réserves de change.
+Et on a, par exemple, des relations aussi entre le pétrole, entre le gaz et même le
+pétrole dans deux marchés différents, par exemple le pétrole de Dubaï, le pétrole
+de Londres et le pétrole de New York, normalement, devraient monter ensemble, baisser ensemble
+ce qu'on appelle des corrélations très fortes.
+Et puis, on a d'autres corrélations entre les actions et des corrélations entre actions
+et des bousiers ou actions et devises, par exemple, tout le monde sait, tout le monde
+disait, le Canada, c'est matières premières, donc si ça monte bien, ça fonctionne bien
+au Canada, les matières premières vont monter, etc.
+Je vous l'ai fait simple, très très simple et très court, comme ça, une fois pour toute,
+ce dossier-là, vous le mettez de côté, vous n'avez plus jamais à le ressortir.
+J'ai travaillé pendant des années, au tout début, dans les relations intermarchées
+en mathématiques pures et effectivement, il y avait une coefficient de corrélation
+qu'il y a entre différents marchés et même entre différentes devises.
+Mais la réalité, c'est que nous sommes aujourd'hui dans un monde totalement nouveau.
+Ceux qui veulent vivre de l'arbitrage, à mon avis, ils vont avoir du mal parce que
+la technologie aujourd'hui, elle est très présente à un niveau inimaginable et arbitre
+tout ce qui a arbitré sur tous les différents marchés, ça veut dire qu'on ne peut pas
+profiter d'un retard d'un marché sur un autre marché pour essayer de gagner de l'argent.
+Ça, c'est un point, un deuxième point.
+Aujourd'hui, on ne peut pas se baser sur le fait de dire que l'euro et l'or bougent ensemble.
+Ce n'est plus valable. Ou que l'or et le dollar bougent de manière opposée. Ce n'est plus valable.
+En réalité, pour vous faire simple, les relations intermarchées, vous faites comme ça.
+Ça ne fait plus partie de votre monde. Parce que si vous voulez vous appuyer dessus,
+vous vous appuyez sur quelque chose qui n'a plus aucun sens. Parce qu'à partir du moment que vous
+avez 50% d'envers raison ou tort, ça ne sert à rien de vous appuyer sur les relations intermarchées.
+Donc ça, c'était très important que j'en parle pour qu'une fois pour toutes, vous n'ayez pas à
+vous dire si l'or maintenant est en train de monter, peut-être l'euro va monter. Ou le contraire,
+l'euro est fort, donc je vais acheter l'or. Ou le dollar est en train de monter très fort,
+donc je vais vendre de l'or. Toutes ces idées qui fonctionnaient bien il y a 10 ans, il y a même
+5 ans on peut dire, aujourd'hui et à l'avenir, les marchés seront totalement déconnectés les uns
+des autres. Pourquoi? Parce qu'ils sont maintenant traités par des robots qui réfléchissent un
+milliard de fois plus vite que nous. Donc il n'y a plus lieu de dire celui-là est lié à celui-là.
+C'est fini tout ça. D'accord? Donc ça, c'est clair. Donc l'intelligence artificielle et la
+rapidité d'exécution sur tous les marchés financiers font que, à mon sens, les relations
+intermachées, il faut les laisser de côté pour ceux qui vont étudier les statistiques et vont
+essayer de trouver quelque chose. Et c'est un grand défi de trouver comment tirer profit des
+relations intermachées. Donc ce que je vais faire, je vais faire un tour de magie, attention, et je peux
+ouvrir. Et il n'y a plus de relations intermachées, plus personne ne va m'appeler pour me dire l'or est
+en train de baisser. Que va faire le pétrole? Maintenant, les statistiques et les chiffres.
+Alors tous les traders de la planète attendent tous les jours les chiffres. Tous. Il n'y a pas
+un trader qui n'attend pas. Tiens, maintenant, 14h30, il va y avoir les chiffres, l'inflation,
+les chiffres du chômage aux Etats-Unis, les chiffres sur le pétrole, le stock du pétrole,
+le mercredi, tout le monde attend le stock du pétrole. Tiens, le stock est fort, donc si le stock est
+fort, le prix du pétrole chute, etc. Donc le monde des traders, le monde, que ce soit aux Etats-Unis,
+au Japon, en Europe, sont là. Quel chiffre va sortir? Quelles statistiques va sortir? Et là,
+moi, je peux vous donner une certitude. Une fois pour toutes, je vous demande de l'apprendre pour
+Agence Content parce que c'est 25 ans d'utilisation de tout ce que je suis en train de vous dire. J'ai
+tout testé, j'ai testé, retesté et re-retesté pour arriver à une conclusion. Les statistiques
+et les chiffres, c'est vrai, il y a quelques temps, oui, ça valait le coup d'être là,
+aux aguets, oui, ça, ça. Mais aujourd'hui, nous sommes dans une ère, je le répète, technologique
+où les statistiques sont déjà lues par l'intelligence artificielle qui a déjà
+appris tout ce qui se passe dans la planète Terre au moins d'une fraction de seconde. Et c'est
+déjà tout. Toutes ces statistiques qui doivent soi-disant sortir, elle les a, elle le connaît
+puisque elle a tout étudié en une fraction de seconde. Ces chiffres qu'on entend, ils sont
+déjà entre les mains de beaucoup de gens. Comment vous pouvez imaginer que des chiffres
+importants ne sont pas connus par les loups et les roquins de la planète? C'est impossible. Donc,
+ces chiffres là, au lieu que vous passez votre temps, que vous réfléchissez, essayez de deviner
+ce qui va arriver, même si vous devinez les chiffres, le marché va faire exactement le contraire de ce
+qui devrait faire par rapport à ces chiffres. Exemple, si le stock du pétrole est haut, donc le
+prix du pétrole devrait être bas. Or, on va publier un stock de pétrole très haut et le pétrole va
+exploser. Et vous dites, mais c'est quoi ça? Et ça, c'est valable pour tous les chiffres et pour
+toutes les statistiques. C'est très important de savoir que nous, en tant que traders, on va
+regarder ce qui se passe sur le graphique. Quand vous regardez le graphique, vous vous en foutez si
+les statistiques sont bonnes ou pas bonnes. Vous, vous regardez le graphique, vous savez qu'à un
+moment donné, 14h30, vous savez qu'il va y avoir quelque chose. Ok? Très bien. Mais vous regardez
+ce qui va arriver. Si vous avez un mouvement et vous attendez, vous ne bougez pas, pourquoi vous
+ne bougez pas? Ce n'est pas parce que ça monte que ça y est, ça monte, j'achète. Non, jamais ne faites ça.
+Parce que 90% des cas, quand il va y avoir un mouvement, quel qu'il soit, ce mouvement va aller
+dans le sens contraire de ce qu'il veut faire. D'abord, donc le pétrole va monter, va vouloir
+monter, alors il va baisser d'abord, violemment. Comme ça, on secoue les gens, on sort tout le
+monde. Et ensuite, le marché monte. Donc, vous, vous ne rentrez jamais pendant les 15 premières
+minutes de statistiques et des chiffres. Les 15 premières minutes, vous ne faites rien.
+Un marché fait ce qu'il veut, vous pouvez être sûr que vous n'allez pas rater le business. Vous
+n'allez pas rater l'affaire. Alors, il y a des gens qui disent, non, non, c'est super, c'est l'argent
+facile. L'argent facile, il n'existe pas. Là, il faut le savoir. Ils vont vous compliquer la tâche.
+Mais si vous êtes professionnel, vous allez voir qu'on peut gagner facilement de l'argent si vous
+suivez cette méthode que je suis en train de vous expliquer. Après 15 minutes, on attend quoi? Pourquoi
+j'attends 15 minutes? Parce que moi, j'attends quoi? Ben moi, j'attends, j'attends ça. Ou bien, j'attends
+ça. Quand j'ai ça, ça veut dire que ça y est, ils ont secoué le cocotier, les gars. En 15 minutes,
+ils ont secoué. Donc, je sais maintenant qui c'est qui a gagné. Je sais maintenant les cartes. Je
+connais les cartes de mon adversaire. Mais si tu me dis quelles nouvelles sont sorties, moi, je ne sais
+jamais les nouvelles. Ça fait plus de dix ans que je n'écoute pas les nouvelles qui veulent bouger le
+monde. Ça ne m'intéresse pas parce que je sais que ce n'est que des appâts. Je sais que c'est
+artificiel. Je sais que c'est vraiment que du cinéma. Ça ne sert à rien d'écouter les nouvelles pour
+dire les taux d'intérêt. Tout ça, c'est du cinéma. Le plus important, c'est qu'il faut savoir que
+à un moment donné, vous savez qu'à 14h30, il va y avoir quelque chose. Très bien, vous attendez le
+premier quart d'heure. Ce quart d'heure-là, il vous dit ceci. Donc, vous pouvez vendre. Vous ne savez pas
+pourquoi, mais vous allez gagner de l'argent. Alors, question. Vous voulez être, vous voulez
+faire du trading ou vous voulez gagner de l'argent? Parce que c'est deux choses différentes. On est
+bien d'accord. Beaucoup de gens veulent faire du trading pour dire je suis très vert et j'ai raison
+sur le marché. Moi, je dis je préfère avoir tort sur les marchés, mais je gagne de l'argent.
+C'est une idée différente, c'est une conception complètement différente. Beaucoup de gens,
+ils disent bon, ah ouais, là le marché devrait monter parce que ceci, parce que cela, etc. Et quand
+il rentre, il perd, mais il dit non, mais je vais avoir raison, vous allez voir le marché. Il devrait,
+il devrait, il devrait. Vous, vous ne raisonnez pas comme ça. Vous, vous ne devez pas réfléchir en
+termes de je suis trader. Pas du tout. Parce que 91% des traders sont des perdants. Donc, vous n'êtes
+pas trader. Vous, vous allez sur les marchés pour gagner de l'argent et gagner de l'argent avec une
+certitude, avec une méthode. Donc, laissez les autres faire les économistes, les analystes,
+les financiers. Laissez-les, laissez-les faire des commentaires sur l'économie américaine,
+la dette américaine, la Palestine, l'Israël, tout ça. Laissez-les parler. Ne rentrez jamais avec
+eux parce que ce sont des gens qui n'ont pas réussi. Ça, je peux vous le garantir. Ils vont
+perdre votre temps et ils vont vous influencer. Vous oubliez ces gens-là. À la rigueur, s'ils
+parlent de Ronaldo ou Messi, yes, tu peux parler avec eux. Oui, parce qu'ils sont là, ils vont
+discuter, oui. Mais dès qu'ils commencent à parler économie, tout ça, politique et tout,
+ne rentrer pas avec. Parce qu'ils ne gagnent pas d'argent avec ça. Donc, statistiques et chiffres,
+ça, c'est de la poudre aux yeux. Définitivement, c'est de la poudre aux yeux. Si vous voulez trader,
+vous ne trader jamais tout de suite après les chiffres. Jamais. Même si ça semble, c'est
+facile. Jamais. Vous attendez qu'ils vous montrent leur carte et vous savez lire maintenant. Vous
+avez le VWAP, vous avez les bougies Springbox avec leur mèche, vous avez les volumes et vous
+avez les couloirs horaires. Donc, vous avez les éléments. Laissez-les faire leur cinéma et ensuite,
+ils vous disent voilà nos cartes, voilà ce qu'on veut faire. Et là, vous rentrez et vous prenez
+de l'argent. Et là, vous ne dites pas que vous êtes trader. Vous dites que vous êtes extracteur
+d'argent sur les marchés internationaux. Voilà.

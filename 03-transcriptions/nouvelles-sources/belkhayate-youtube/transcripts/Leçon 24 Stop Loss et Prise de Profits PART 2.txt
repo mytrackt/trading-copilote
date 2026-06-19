@@ -1,0 +1,110 @@
+bonsoir bonsoir aujourd'hui nous allons apprendre à gagner de l'argent sur l'un des marchés que je
+recommande le plus c'est le ZN et on va voir pourquoi c'est mon marché favori et on va
+apprendre à fixer des stops et des targets c'est à dire des profits pour ne pas avoir à prendre
+des décisions une fois qu'on a une fois qu'on a cliqué parce que c'est la décision la plus
+difficile en fait dans le trading lorsque vous êtes en position comment vous gérer votre
+gain et vos profits et on va voir dans cette vidéo si vous la regardez jusqu'au bout vous
+allez être surpris de voir qu'on peut gagner de l'argent aussi facilement sur le marché le plus
+liquide au monde et en fait le marché le plus facile au monde seulement il y a encore des
+étudiants qui sont têtes à aller faire des marchés difficiles bon alors ce qu'on va faire
+regardez ici d'abord un tic sur le ZN lorsque vous gagnez un tic c'est 15,625 donc lorsque vous
+faites 4 lots pour gagner 4 tics alors vous allez gagner 250 dollars bon ça peut sembler pas énorme
+mais 250 dollars avec un margin de 500 dollars donc en fait vous avez fait en quelques minutes un
+rendement de 50% et il faut se rendre c'est pour ça que le ZN est beaucoup plus puissant en
+fait que le lazak vous allez avoir besoin de 20 000 de marge et c'est compliqué d'aller chercher
+facilement 5 tics par exemple parce qu'il est très volatile la première chose qu'on va faire on va
+on va venir ici sur le dom de super dom et on va créer une séquence qui va gérer de manière
+automatique le tech profit c'est à dire la prise de bénéfice des 4 tics et aussi le stop loss de
+4 tics on va venir dans ici et on va choisir custom par exemple et on va choisir 4 ici parce
+qu'on va commencer avec 4 lots on choisit 4 après ici on va faire 4 tics et ici on va faire 4 tics et
+on va appuyer ici pour créer comme je l'ai déjà créé le 4 et 4 on va on va aller faire le 8
+parce qu'on va en avoir besoin je vais vous dire quand donc on va faire 8 lots et ces 8 lots on va
+prendre 8 tics de stop loss et 8 tics de tech profit et on va l'enregistrer sous forme de 8 8 le
+8.8 voilà par exemple voilà et donc pour le moment on va utiliser tout simplement le 4 x 4 on va
+le chercher ici regardez on va choisir voilà on a choisi ATM stratégie 4 et 4 le 4 4 par exemple
+et ça veut dire que lorsqu'on aura un signal d'achat ou de vente on va cliquer et qu'on va rentrer le
+marché soit il nous donne 4 tics de gain soit il nous donne 4 tics de perte autrement dit soit on
+gagne 250 dollars soit on perd 250 dollars cette stratégie lorsque vous la maîtrisez vous devenez
+infaillible pour gagner les certificats de trading et même par la suite pour faire du trading je vous
+rappelle que lorsque vous devenez un expert du ZN vous êtes plus au sérieux lorsque vous voulez
+postuler pour une salle de marché ou pour travailler dans une entreprise alors que si vous faites même
+des performances extraordinaires sur les indices boursiers ou par exemple les matières premières
+les devises on va pas véritablement vous prendre au sérieux donc la bonne orientation quand je
+donne cette formation c'est pour que vous puissiez avoir une stratégie pour aller être
+recruté par des salles de marché à Londres à New York ou ailleurs et comme ça vous allez
+avoir un salaire plus des profits sur vos performances et pourquoi pas oui vous pouvez
+toujours de toute façon gérer de l'argent qui vous est donné par des sociétés de trading comme
+les propres filles bon donc on va on va on va lancer le trade là par exemple voilà on
+voit ici on est en train de regarder là je vous rappelle on va faire comme ça on va voir que nous
+sommes sur une tendance baissière ici on est déjà en dessous du de la de la 209 et donc on a ici on
+attend donc ici je vais rentrer voilà moi j'ai cliqué sur entrée ici dans cette zone là et donc
+si je touche le vert je gagne 250 si mon système touche le rouge j'ai touché ma perte et donc
+voilà donc je viens de gagner 250 pourquoi parce que tout simplement à j'ai encore un autre signal
+ici devant mais je suis en train de vous parler c'est pas grave on va je voulais vous commenter
+je suis rentré parce que ici j'ai mon algorithme de hors de flot qui me donne ici un signal de
+ventre parce que c'est un balayage bon alors on va regarder un petit peu va attendre on regarde
+ici le delta et on voit cette ici là on voit ça donc ça c'est intéressant pour vendre oui je
+vends ici également je vais rentrer je suis encore rentré ici vendeur et pour essayer de prendre
+katik à la baisse voilà on regarde on surveille
+on voit bien qu'ici il ya il ya comme un iceberg qui flotte qui est en train de prendre ici qui
+vend ici on le voit avec ce petit drapeau là on connaît confiant malgré le fait qu'on est
+proche du stop-loss on regarde et on voit qu'effectivement les vendeurs sont bien là
+donc on va peut-être toucher notre gain ici on regarde on est devenu rouge dans le delta il
+semble qu'effectivement dans cette zone il y ait vraiment un iceberg puisque on a un hypercute à
+330 à 3340 volume vendeur ici on a des tentatives ici pour freiner mais on sent que voilà
+donc on a été exécuté au gars donc je regarde un peu j'attends de voir si j'ai un autre signal
+ah mais là j'ai moins 1800 ici donc on a beaucoup d'efforts pour remonter ici mais il semble que la
+tendance soit vraiment baissière ici puisqu'on rentre avec 2000 ici donc je vais encore essayer
+de vendre et je suis rentré à j'ai pas été exécuté parce que je suis rentré limite je
+vais rentrer quand même rien que pour la vidéo je vais essayer de rentrer j'annule ici et je
+vais rentrer ici voilà je suis exécuté donc je suis exécuté sur ce niveau là on va voir
+si encore une fois on va être touché donc vous avez vous pouvez rentrer plusieurs fois mais une
+fois que vous êtes en position vous n'avez plus le stress bon on peut très bien bien sûr on peut
+sortir maintenant avec une perte mais à la longue dans la fin de la journée cette stratégie là vous
+débarasse du stress et vous laisse choisir le meilleur moment pour cliquer une fois que vous
+avez cliqué soit vous avez gagné 250 soit vous avez perdu 250 voilà donc on regarde ça
+voilà on a été exécuté donc ça c'est très très bien donc on a maintenant 750 dollars de gain on
+attend un autre mouvement on va regarder si on a un bon mouvement de vente pour le moment ça semble
+ça semble vouloir casser ici ce support on est en train de regarder s'il ya un très fort signal
+on va rentrer et j'ai choisi cette vidéo pour vous montrer que des fois une fois qu'on a un
+signal très fort par exemple un balayage baissier on va pouvoir aller chercher le 8x8 ça veut dire
+que sur un trade on peut faire 500 d'un seul coup par exemple ici il semblerait qu'on ait un très
+bon signal ici devant vous avez vu l'algorithme est en train de nous donner un très bon signal
+devant ici je vais peut-être utiliser maintenant la stratégie 8x8 là par exemple et je vais rentrer
+voilà alors je suis rentré maintenant avec 8x8 autrement dit si je touche le gars je
+toucherai 500 dollars et voilà donc c'est une façon de trader que je vous recommande parce
+que vous n'avez plus du tout à gérer la position voyez là j'ai cliqué je fais plus rien c'est le
+marché qui va me donner raison ou qui va me donner tort mais comme je suis rentré avec cette
+situation où j'ai cassé ici ce support et on est rentré avec quand même moins 5000 ici en delta
+sur le déséquilibre sur les vendeurs donc là je suis quand même assez tranquille j'ai mon stop loss
+qui est assez éloigné et j'ai déjà gagné 750 donc je peux me permettre de gagner de perdre 500
+s'il le faut donc là je regarde si le marché va nous faire avancer un peu avancer ou pas
+donc cette vidéo va être un peu plus longue que d'habitude mais je voulais absolument vous montrer
+cette stratégie en pour le moment on est en train de gagner c'est très intéressant on n'est pas
+très très loin en fait parce que on voit bien que les vendeurs sont là puisque sur le delta
+on est vraiment négatif voilà on va toucher certainement les 500
+ah mais on va les toucher avec certitude parce que là on a un balayage baissier on aurait pu même
+rajouter ici encore je vais peut-être rajouter un 4 pour voir ici je rajoute un 4 ici au marché
+carrément parce que j'ai une très forte attaque baissière ici un balayage baissier ici avec un
+triple hypercute donc là je suis permis de faire et voilà effectivement on a fait 2000 voilà donc
+si je dois résumer je vais je vais peut-être arrêter la vidéo ici vous la laissez continuer
+un peu pour le moment ce que je voulais vous montrer ce qui est tout à fait possible on
+va arrêter ici comme ça je suis pas perturbé que voilà entre 15h30 et 17h30 par exemple en
+deux heures on est capable de faire 2000 dollars sur le zn mais avec très peu de stress puisque
+au fur et à mesure qu'on a des confirmations au fur et à mesure qu'on voit que ici par exemple
+on a eu une attaque ici très forte sur le basculement en fait des vendeurs sur le delta
+et ici des hypercutes on peut cliquer pour rentrer et après on s'occupe plus parce qu'en réalité
+lorsqu'on est on se dit on sort maintenant on sort pas maintenant on sort maintenant on sort pas
+maintenant on s'en sort pas et finalement on va prendre la mauvaise décision alors que lorsque
+on fixe notre gain et notre profit alors le trading ça revient juste à cliquer un moment et laisser
+le marché le faire gagner de l'argent alors juste une petite remarque ici c'est que il faut que le
+gain soit égal à la perte on en parlera dans une autre vidéo et je propose bien sûr de faire ce
+genre de stratégie sur le zn parce que le zn est tout simplement mon marché préféré c'est le
+marché que je vous recommande avec ce zn là vous allez pouvoir non seulement réussir les tests
+non seulement pouvoir être recruté en tant que trader auprès des grandes salles de marché mais
+surtout changer de vie voilà je vous remercie pour votre attention j'espère que cette stratégie
+vous a plu et je vous dis bon courage bon trading et à très bientôt ah n'oubliez pas si cette
+vidéo vous a plu parce que je le dis très rarement n'oubliez pas quand même de cliquer
+pour pour faire un like pour dire que vous aimez de vous abonner et surtout si vous cliquez sur
+la notification tout le temps vous allez être notifié quand je vais faire des vidéos et je
+vais en faire de plus en plus maintenant parce que j'ai beaucoup de demandes sur le carnivore

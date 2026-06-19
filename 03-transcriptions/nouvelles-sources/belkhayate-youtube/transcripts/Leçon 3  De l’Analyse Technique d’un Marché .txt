@@ -1,0 +1,483 @@
+Musique
+Bonjour et bienvenue à la leçon numéro 3
+où là on va parler d'analyse d'un marché
+là on va supposer que vous êtes débutant
+et que vous devez gagner de l'argent sur les marchés
+vous allez analyser, vous allez prendre une décision
+sur le blé, sur le café, l'or, sur quelle base
+sur des nouvelles, ça veut dire
+ah, Putin a fait ceci
+ou bien les taux d'intérêt ont augmenté
+il y a une information, ce qu'on appelle l'analyse fondamentale
+ça peut être également l'analyse d'une société
+etc.
+Il y a plusieurs écoles qui se bagarrent ici
+dans le domaine du trading
+il y a beaucoup qui disent que l'analyse fondamentale
+est très importante d'ailleurs
+il y a des cabinets qui sont spécialisés
+pour faire des analyses fondamentales
+ça veut dire économique, financière, politique etc.
+Et puis il y a l'analyse technique
+l'analyse technique, beaucoup de gens disent que
+finalement l'analyse technique n'est pas si importante que ça
+ce qui est plus important
+c'est l'analyse fondamentale
+à mon avis, déjà
+si je dois résumer 30 ans de trading
+je dirais que je n'ai pratiquement
+jamais utilisé l'analyse fondamentale
+parce que l'analyse fondamentale
+en réalité, les informations
+les news, ce qu'on appelle les news et tout
+par exemple le stock
+le stock du pétrole
+s'il est haut, s'il est bas
+ça va influer sur le pétrole
+sur le taux d'intérêt etc.
+et le taux d'inflation
+alors, moi je pense que
+tout ce qui est informations
+c'est pour nous
+envoyer sur une mauvaise piste
+et ça, je suis convaincu
+donc personne ne va m'enlever ça de mon esprit
+que celui qui cherche à gagner de la chance
+parce qu'il va prendre une information
+qui vient d'être publiée
+il est vraiment naïf
+parce que le marché est financier
+il connait cette information
+avant qu'elle soit publiée
+et qu'il la publie pour justement
+trouver des pigeons
+donc l'information
+disons, si quelqu'un compte
+sur l'information
+pour gagner de l'argent
+il est vraiment très naïf
+donc, on va parler d'analyse technique
+et là, dans l'analyse technique
+il y a beaucoup, beaucoup, beaucoup de gens
+l'analyse technique et l'analyse graphique
+ce n'est pas du tout la même chose
+en vérité, on peut
+les utiliser
+toutes les deux
+l'analyse technique et l'analyse graphique
+mais il faut savoir faire la différence
+et dans cette leçon 3
+je voudrais déjà
+que vous compreniez qu'il y a une différence
+entre l'analyse technique
+et l'analyse graphique
+l'analyse technique
+c'est quand vous allez utiliser des données
+comme par exemple le prix
+ou le volume
+et vous allez essayer de trouver
+des relations
+qui peuvent vous donner
+une idée de l'évolution probable du marché
+par exemple, vous allez utiliser
+des données de prix pour calculer
+la moyenne mobile
+ou bien, vous allez utiliser des prix
+pour tracer un support
+ou une résistance
+pour tracer des indicateurs
+alors je vais
+et puis l'analyse graphique
+par contre, c'est quand vous tracez un graphique
+que ce soit un carré, un rectangle
+un cercle
+et des configurations, ce qu'on appelle des configurations
+graphiques sur
+justement un marché donné
+alors là
+on va regarder
+maintenant
+un graphique, c'est lors
+de 15 minutes
+et si vous voyez cette ligne là
+sur la moyenne mobile
+on va dire que ça, c'est un indicateur
+technique
+puisque cette moyenne mobile
+a été calculée
+sur la base
+de prix
+et on a fait un moyenne mobile
+des prix et etc
+alors là, l'indicateur que vous voyez là
+c'est un volume
+et le volume peut être considéré comme
+un indicateur technique
+ça veut dire qu'on a pris des données du prix
+converties ici
+pour que vous puissiez les voir visuellement
+d'accord, voilà
+alors, si vous faites ça
+et que vous voulez mettre des indicateurs
+dans Ninja Trader
+et vous allez voir que vous avez
+des centaines d'indicateurs
+là, vous voyez là
+et je peux vous dire que
+99% de ce que vous voyez là
+comme indicateur
+ce sont des indicateurs
+par exemple, on va mettre le stochastique ici
+on va mettre
+le RSI, attendez
+le RSI
+beaucoup de gens adorent
+et on va mettre le MACD
+voilà ici, MACD
+et on va faire comme ça, voilà
+alors, vous voyez, ça c'est des indicateurs
+techniques
+alors, est-ce que Belcherv Method
+utilise ces indicateurs ?
+je vous dis tout de suite
+je n'utilise
+pas ces indicateurs depuis très très
+très longtemps
+ce sont des indicateurs qui, à mon sens
+ont expiré
+et aujourd'hui, pour gagner de l'argent
+sur les marchés, il ne faut pas
+se baser sur le prix
+lorsque vous vous basez sur
+des indicateurs qui sont calculés
+que sur des prix
+vous êtes sur une fausse piste
+parce que
+le marché
+ce n'est pas le prix qui le fait avancer
+c'est les volumes, et les volumes, pas n'importe quel volume
+donc, les volumes exécutés
+sur la demande
+et les volumes exécutés sur l'offre
+on va voir que ça, ça change tout
+ce n'est que grâce à ça
+que vous allez pouvoir faire
+des opérations de trading
+à haute probabilité de gain
+donc, regardons par exemple ici
+ce RSI, là
+beaucoup de traders professionnels
+utilisent le RSI
+mais le RSI, comme le MACD
+et le stochastique que vous voyez là
+tous ces éléments là
+ils vont vous donner
+une fois sur deux
+une bonne direction, mais une fois sur deux
+parce que des fois, comme par exemple
+le RSI, c'est un indicateur
+d'ossiation
+ça veut dire qu'à un moment donné
+si le marché ne fait que monter
+l'ossiateur, le RSI
+va vous donner des très faux
+signaux
+par contre le MACD
+le MACD
+c'est un indicateur de tendance
+alors lui
+il va vous donner un très bon signal
+quand il va y avoir la tendance
+mais quand il va
+être dans un trading range
+il va vous donner des très mauvais signaux
+donc
+on a une fois sur deux
+on est balouté
+entre des indicateurs
+de tendance et des indicateurs
+de trading range
+c'est à dire de
+d'ossiation
+et en réalité
+l'analyse technique
+je ne vais en garder que
+20%, 80%
+de tous les indicateurs
+techniques pour moi
+je ne les utilise pas, ils ne servent pas à grand chose
+ils servent à vous donner
+l'illusion en fait
+que vous devez acheter
+ou que vous devez vendre
+mais en réalité
+la chose la plus importante
+que vous allez apprendre pendant
+cette formation
+c'est que vous allez apprendre à éviter
+des outils
+qui sont
+dépassés
+l'outil
+le plus puissant aujourd'hui
+à notre disposition c'est de savoir
+lire le carné d'or
+lire le carné d'or
+c'est quelque chose qui va vous permettre
+de savoir en ce moment
+dans le temps présent s'il faut acheter, il faut vendre
+indépendamment
+de ce qui se passe
+au niveau planétaire
+et indépendamment de ce qui se passe
+même au niveau du prix
+ça semble étonnant mais
+la formation de la retraite est là
+pour vous montrer
+pas à zaba
+comment vous pouvez prendre des décisions
+basées sur quelque chose de tangible
+donc ça
+je tenais absolument à vous montrer ça
+parce que c'est très très important
+regardez par exemple ici
+on va insister à quelque chose
+l'analyse technique dit que
+le marché a tendance
+à répéter l'histoire
+bon et donc
+toute une école
+il y a plein d'algorithmes
+de trading qui sont basés
+sur le fait que
+on a tendance à répéter l'histoire
+mais en réalité
+parce que vous voyez ce que le marché
+est en train de faire
+si vous voulez répéter l'histoire
+vous allez gagner, vous allez perdre
+vous n'avez pas quelque chose de stable
+et comme l'être humain
+ne sait pas gérer ses émotions
+vous allez vous retrouver à essayer
+d'utiliser des indicateurs
+techniques qui vont
+plus vous envoyer sur des fausses pistes
+que vous faire
+gagner de l'argent
+donc
+regardons ici
+un signal
+que l'analyse technique donne
+l'analyse technique dit que lorsqu'on casse
+avec force comme ça ici vous voyez
+on a cassé avec force ici
+la moyenne mobile et ensuite on est revenu
+pour la tester avec cette bougie là
+et on a ce volume là
+ça c'est un très bon signal
+ça porte un nom, c'est Belkhret
+ressort puisqu'on a cassé
+on revient pour tester
+on fait un volume, on fait une mèche
+voilà un signal d'achat
+très puissant et qui est
+sur l'or et qui a fonctionné
+ça c'est un
+purement analyse technique
+pure
+alors
+je vais vous montrer des éléments
+d'analyse technique
+intéressants par exemple
+lorsque vous pouvez tracer une
+droite par exemple ici
+vous allez venir là
+et vous allez tracer
+cette tendance là
+donc lorsque vous faites ça
+vous avez tracé une ligne
+vous avez utilisé
+un outil technique
+ce n'est pas graphique
+c'est technique parce que vous êtes basé
+sur le plus bas, le plus bas, le plus bas
+et vous avez tracé
+ce mouvement là
+vous pouvez également utiliser
+comme on va l'utiliser
+c'est très souvent
+on va enlever ça déjà
+on va enlever ça
+parce que ça je voulais vous montrer
+et on va utiliser
+ici
+les Fibonacci
+alors Fibonacci c'est un élément technique
+vous prenez Fibonacci ici
+c'est un outil
+que vous pouvez trouver sur NinjaTrader
+en tapant ici vous avez vu
+et vous prenez ici et vous faites ça
+et là vous avez
+vous avez des niveaux
+de Fibonacci vous voyez que par exemple
+une fois qu'on tape ici, vous avez vu
+ça revient taper ici
+ça tape ici, ça vient ici, regardez
+c'est venu, donc on voit et là
+une fois que ça tapait sur ce niveau
+c'est revenu rebondir
+donc les Fibonacci
+c'est un outil
+que je vais
+étudier spécifiquement
+sur une vidéo
+pour vous montrer la puissance du nombre d'or
+mais pour le moment
+je voulais vous introduire
+un outil technique
+ce qu'on appelle
+le redressement Fibonacci
+alors il y a aussi
+on peut utiliser aussi
+les supports
+les résistances comme je vous ai dit
+ce que je vous ai montré tout à l'heure
+voilà
+on peut tracer ici
+cette ligne là
+par exemple
+on va tracer cette ligne
+ici
+et là
+cette ligne là
+et lorsqu'on a cassé ici
+avec du volume et avec de la force
+on a cassé cette ligne qu'on va appeler
+résistance, alors on peut dire
+qu'on a fait une analyse technique ici
+et techniquement le marché
+a cassé un point important
+pour ensuite aller monter à ce niveau là
+puis après
+on peut dire pareil
+encore une fois je vous montre
+c'est juste pour que vous vous habituez
+on dit tiens ici le marché est monté
+quand il a cassé cette ligne
+il est tombé pour revenir sur
+sa moyenne mobile technique
+alors c'est pour ça qu'on parle
+d'analyse technique
+alors
+avant de finir cette vidéo
+je voulais juste vous donner des idées
+sur les bougies japonaises
+que vous voyez là
+vous voyez les bougies japonaises en fait
+vous auriez pu très bien avoir
+ici par exemple
+simplement
+ici vous auriez pu avoir
+des graphiques
+simplement comme ça, ça s'appelle le plus haut
+le plus bas sans que ce soit
+les bougies japonaises
+ou alors vous auriez pu tout simplement avoir
+une ligne, tout simplement une ligne
+la ligne
+ne parle pas, donc maintenant la plupart
+des traders professionnels
+en fait ils utilisent
+la bougie japonaise
+parce que la bougie japonaise
+est une analyse technique
+puisque la bougie japonaise
+elle représente
+l'ouverture
+la fermeture
+le plus haut et le plus bas
+vous voyez ici
+on le voit ici
+cette bougie verte
+signifie que le marché est monté
+durant ses 15 minutes
+il a ouvert ici, il a fermé ici
+il est descendu jusqu'à ce niveau là
+il est monté jusqu'à ce niveau là
+donc les bougies japonaises
+j'ai prévu également de vous donner un cours
+sur les bougies japonaises
+car elles sont très utiles, en tout cas
+impossible de ne pas les connaître si vous voulez être
+un trader professionnel, il faut connaître
+les bougies japonaises les plus importantes
+donc ça c'est prévu
+mais aujourd'hui dans cette vidéo 3
+je voulais juste vous
+parler de l'essentiel
+de
+de l'analyse technique
+et pour vous dire que
+l'analyse technique
+elle est intéressante
+à condition de ne pas se filer
+de se baser uniquement
+sur les prix
+99% des indicateurs
+des indicateurs
+techniques
+se calculent, se recalculent
+se recalculent
+mais en réalité
+c'est toujours sur la base du prix
+et comme on va le voir
+c'est vraiment
+le carnet d'or
+qui va vous dire ce qu'il faut faire
+on va utiliser l'analyse technique et l'analyse graphique
+pour un petit peu cerner le contexte
+mais
+la vraie décision
+elle est prise lorsque vous voyez
+un déséquilibre
+une certaine configuration
+que vous allez commencer
+à comprendre
+dans le carnet d'or
+mais sinon
+à part cela
+les autres analyses
+utilisées, les fondamentales, l'analyse économique
+et tout ça
+ne sert à rien de plus que nous
+on intervient sur un laps de temps de 5 à 10 minutes
+on n'est pas là en train de prendre position
+et d'attendre toute la journée
+ou d'attendre toute la semaine
+la stratégie que je vais vous apprendre
+durant cette formation
+c'est pour vous apprendre à rentrer
+à sortir le plus rapidement possible
+parce que plus vous êtes sur le marché
+et plus vous êtes en risque
+d'être manipulé
+et de perdre de l'argent
+donc la stratégie
+Belchert méthode
+elle est basée sur le fait
+d'attendre le meilleur moment
+pour rentrer
+et prendre de l'argent
+et sortir rapidement
+voilà, ça c'était
+petite introduction
+sur l'analyse technique
+et bien sûr
+tout de suite après la vidéo 4
+je vais vous montrer
+l'analyse graphique et surtout
+les configurations graphiques
+que j'aime bien
+à tout à l'heure

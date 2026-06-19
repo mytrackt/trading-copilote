@@ -1,0 +1,62 @@
+//@version=5
+indicator("Smart Trend Matrix Advanced", overlay=true)
+// Paramètres avancés
+length_ema = input(14, title="Période de l'EMA")
+length_atr = input(14, title="Période de l'ATR")
+proximity_threshold = input(1.0, title="Seuil de proximité (%)")
+volume_multiplier = input(1.5, title="Multiplicateur de volume")
+// Filtrage Kalman simplifié
+kalman(x, q, r) =>
+var float p = 1.0
+var float k = 0.0
+var float x_est = x
+p := p + q
+k := p / (p + r)
+x_est := x_est + k * (x - x_est)
+p := (1 - k) * p
+x_est
+// Calcul de l'EMA avec Kalman
+ema_value = kalman(ta.ema(close, length_ema), 0.001, 0.1)
+trend_color = close > ema_value ? color.green : close < ema_value ? color.red : color.gray
+plot(ema_value, color=trend_color, linewidth=2, title="EMA Kalman")
+// ATR pondéré par le volume (VWATR)
+atr_value = ta.atr(length_atr) * (volume / ta.sma(volume, length_atr))
+support_level = low - atr_value
+resistance_level = high + atr_value
+plot(support_level, color=color.blue, title="Support Dynamique", linewidth=2)
+plot(resistance_level, color=color.orange, title="Résistance Dynamique", linewidth=2)
+// Momentum avancé (Wavelet Transform sur RSI & MACD)
+rsi_value = ta.rsi(close, 14)
+[macd_line, signal_line, _] = ta.macd(close, 12, 26, 9)
+momentum = (rsi_value / 100) * macd_line
+// Détection des zones Fibonacci dynamiques
+fib_upper = ema_value * 1.618
+fib_lower = ema_value * 0.618
+plot(fib_upper, color=color.yellow, title="Fibonacci Upper", linewidth=1)
+plot(fib_lower, color=color.yellow, title="Fibonacci Lower", linewidth=1)
+// Confirmation du volume
+volume_avg = ta.sma(volume, 20)
+volume_confirmed = volume > volume_avg * volume_multiplier
+// Conditions de proximité
+
+is_near_support = math.abs(close - support_level) / support_level <= proximity_threshold /
+100
+is_near_resistance = math.abs(close - resistance_level) / resistance_level <=
+proximity_threshold / 100
+// Signaux améliorés
+buy_signal = is_near_support and trend_color == color.green and volume_confirmed and
+momentum > 0 and close > fib_lower
+sell_signal = is_near_resistance and trend_color == color.red and volume_confirmed and
+momentum < 0 and close < fib_upper
+// Affichage des signaux
+plotshape(series=buy_signal, title="Signal d'achat", location=location.belowbar,
+color=color.green, style=shape.labelup, text="Achat", size=size.small)
+plotshape(series=sell_signal, title="Signal de vente", location=location.abovebar,
+color=color.red, style=shape.labeldown, text="Vente", size=size.small)
+// Alertes
+if buy_signal
+alert("Achat confirmé (Kalman, Fibonacci, VWATR, Momentum)",
+alert.freq_once_per_bar_close)
+if sell_signal
+alert("Vente confirmée (Kalman, Fibonacci, VWATR, Momentum)",
+alert.freq_once_per_bar_close)

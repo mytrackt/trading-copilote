@@ -1,0 +1,10 @@
+sachant que je veux decortiquer un mouvement boursier en 3 phases : phase imprevisible,
+phase de repos et phase previsible je veux combiner la constante Feigenbaum ( qui sera
+appliquee au carnet d ordre) avec les coefficients de Lyapunov pour identifier en temps reel
+ces differentes phases sur les marches financiers . Pour cela je souhaite que tu me
+fournisses le code de l,indicateur sur Ninjatrader
+est ce que le concept des mathematiques fractales peut affiner davantage l indicateur ?
+oui volontiers
+en quoi les coefficients de Lyapunov peuvent veritablement nous aider pour identifier les
+meilleures zones de trading
+oui vous etes tres gentil

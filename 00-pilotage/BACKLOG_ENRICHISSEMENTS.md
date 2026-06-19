@@ -8,6 +8,19 @@
 
 ---
 
+## 0.o [S18 · 19/06/2026] TRADEX_KB_TA101 — Serie StockCharts TA 101 (3 fichiers) — P1 · 📥 À TRAITER
+
+**Fichiers archivés :**
+- `02-sources-brutes\playbook\TRADEX_KB_TA101_Fichier1_Epistemologie.md`
+- `02-sources-brutes\playbook\TRADEX_KB_TA101_Fichier2_Structure_Patterns.md`
+- `02-sources-brutes\playbook\TRADEX_KB_TA101_Fichier3_Outils_Nuances.md`
+**Source :** StockCharts ChartSchool "Technical Analysis 101" (17 parties) — source externe officielle **Couche 3** (savoir universel, pas Belkhayate-spécifique)
+**Action à l'interstice :** pipeline KB étapes 3-7
+**Catégories KB candidates :** `indicateurs_tendance`, `structure_marche`, `volume_liquidite`, `macro_evenements`, `psychologie`, `correlations`
+**Note :** P1 — 3 apports critiques directs pour le moteur TRADEX : (1) **3 hypothèses validité AT** (liquidité OK pour CL/GC/ES, données back-adjusted = rollover, news extrême = blocage) → confirme le News Gate ; (2) **nuance gaps** : réfute le comblement systématique au-delà de quelques jours (plus rigoureux que Murphy) → rejeter toute règle "le gap sera comblé" ; (3) **simplification patterns retournement** : tous les reversals = BoS+volume → réduit complexité moteur. Filtrer strictement **Couche 3** — ne jamais faire passer pour Belkhayate-spécifique. Chiffres Bulkowski (4,7M bougies sur actions) = 🔵 à re-backtester sur futures avant intégration.
+
+---
+
 ## 0. [S15 · 16/06/2026] CHAP01_Metier_Trader_Senior_v2_technique — P2 · 📥 À TRAITER
 
 **Fichier archivé :** `02-sources-brutes\playbook\CHAP01_Metier_Trader_Senior_v2_technique.md`

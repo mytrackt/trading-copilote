@@ -1,0 +1,908 @@
+Key Points
+● Research suggests that combining the Hurst coefficient with permutation entropy
+can enhance the predictability index for financial time series, especially for short
+time frames like 30-minute corridors.
+● It seems likely that permutation entropy, measuring time series complexity,
+complements the Hurst coefficient, which assesses long-term memory, to better
+gauge market predictability.
+● The evidence leans toward permutation entropy being implementable in
+TradingView, though it may require custom Pine Script coding due to its
+advanced nature.
+Direct Answer
+Introduction
+To create an indicator on TradingView that calculates a predictability index for each
+30-minute time frame corridor, you can enhance the Hurst coefficient with an advanced
+mathematical concept. The Hurst coefficient measures the long-term memory or
+trendiness of a time series, which is useful for understanding market behavior, but
+adding another measure can improve short-term predictability analysis.
+Recommended Concept: Permutation Entropy
+Research suggests that permutation entropy is a suitable advanced concept to add to
+the Hurst coefficient. Permutation entropy quantifies the complexity or irregularity of a
+time series by analyzing the order patterns of its values, offering insights into its
+predictability. For instance, lower permutation entropy indicates more regular, potentially
+predictable behavior, which can be combined with the Hurst coefficient to create a
+comprehensive index. This approach is particularly relevant for your 30-minute corridors,
+as it captures short-term dynamics.
+An unexpected detail is that while the Hurst coefficient focuses on long-term trends,
+permutation entropy can reveal short-term irregularities, making their combination a
+powerful tool for trading strategies. You can implement this in TradingView by writing a
+custom Pine Script, though it may require some effort due to the computational nature of
+permutation entropy.
+Implementation Considerations
+
+To implement this, calculate the Hurst coefficient for each 30-minute window using
+existing TradingView scripts, such as those based on John F. Ehlers' methods
+(Hurstcoefficient). Then, develop a permutation entropy calculation within the same
+window, which involves analyzing order patterns and may need custom coding. A
+possible predictability index could be a function like Hurst Coefficient - Permutation
+Entropy, where higher values indicate greater predictability. Ensure your data, such as
+1-minute bars, provides enough points for accurate calculations within each 30-minute
+period.
+For further reading, explore resources on permutation entropy in financial time series,
+such as Permutation Entropy as a Measure of Information Gain/Loss, to understand its
+application.
+Survey Note: Detailed Analysis of Advanced Mathematical
+Concepts for TradingView Indicators
+Introduction and Context
+This note explores advanced mathematical concepts that can be integrated with the
+Hurst coefficient to develop a TradingView indicator calculating a predictability index for
+each 30-minute time frame corridor in financial time series. The Hurst coefficient, a
+measure of long-term memory, is widely used in finance to assess whether a series is
+mean-reverting, random, or trending, with values ranging from 0 to 1 (0 to 0.5 for
+mean-reversion, 0.5 for randomness, and above 0.5 for trending behavior). Given the
+user's focus on short-term 30-minute intervals, enhancing this with another measure can
+improve the granularity of predictability analysis, crucial for trading strategies.
+TradingView, a platform for technical analysis, supports custom indicators via Pine
+Script, allowing implementation of complex mathematical concepts. The goal is to
+identify a concept that is both advanced and feasible within this environment,
+complementing the Hurst coefficient to capture short-term predictability.
+Exploring Advanced Mathematical Concepts
+Several concepts were considered to enhance the Hurst coefficient, each with potential
+relevance to financial time series predictability:
+
+1. Entropy-Based Measures:
+○ Sample Entropy and Approximate Entropy: These measure the
+complexity or irregularity of a time series, with lower values indicating
+more predictability. For instance, Approximate entropy and sample entropy
+algorithms in financial time series show increased regularity during volatile
+periods, suggesting potential for predictability analysis. However,
+implementing these in Pine Script is complex due to parameter sensitivity
+(e.g., tolerance r and sequence length m).
+○ Permutation Entropy: This measures complexity based on order
+patterns, offering simplicity and robustness. It is amplitude-agnostic,
+making it suitable for financial data with varying scales. Studies like
+Permutation Entropy as a Measure of Information Gain/Loss highlight its
+use in financial markets, showing it can distinguish between regular and
+random behaviors. Its implementation in TradingView seems feasible,
+though custom coding is likely required.
+2. Variance Ratio Test:
+○ This tests for random walk behavior by comparing variances over different
+horizons, with deviations from 1 indicating predictability. For example,
+Variance Ratio Test details its application in finance. It relates to the Hurst
+coefficient, as VR(k) should equal k^{2H-1} for self-similar processes.
+Combining it with H could involve comparing actual VR(k) to expected
+values, but its utility for 30-minute windows with limited data points (e.g.,
+30 for 1-minute bars) may be constrained.
+3. Multifractal Analysis:
+○ Extending the Hurst coefficient, multifractal analysis uses a spectrum of
+generalized Hurst exponents to capture varying scaling behaviors.
+Multifractal detrended fluctuation analysis is applied to financial time
+series, potentially offering insights into complexity. However, its
+computational demands make it challenging for real-time TradingView
+implementation, especially for short windows.
+4. Chaos Theory Measures:
+○ Lyapunov exponents measure divergence rates, indicating chaos or
+predictability. While Estimating the predictability of economic and financial
+time series discusses this, its estimation for financial data is complex and
+may not suit TradingView's real-time needs.
+Selection of Permutation Entropy
+After evaluating these options, permutation entropy emerges as the most suitable
+advanced concept. It complements the Hurst coefficient by focusing on short-term
+complexity, which is critical for 30-minute corridors. For example, a high Hurst coefficient
+(trending) with low permutation entropy (regular) suggests high predictability, while a low
+H (random) with high entropy indicates low predictability. This combination can be
+expressed as a predictability index, such as H - PE, where PE is permutation entropy.
+
+Implementation involves:
+● Calculating the Hurst coefficient using existing TradingView scripts, such as
+Ehlers Hurst Coefficient.
+● Developing a permutation entropy calculation in Pine Script, which requires
+analyzing order patterns over a window (e.g., embedding dimension and time
+delay parameters). Resources like Permutation Entropy provide methodological
+details, though custom coding is necessary.
+Given the 30-minute window, ensure sufficient data points (e.g., 1-minute bars yield 30
+points), and consider parameter choices for permutation entropy to balance accuracy
+and computational load.
+Comparative Analysis
+To illustrate, consider the following table comparing the concepts:
+Concept Relevance to Predictability Feasibility in Complexity
+TradingView Level
+Permutation Measures short-term Feasible with Advanced
+Entropy complexity, complements H custom coding
+Variance Assesses random walk, related Possible, but Intermediate
+Ratio Test to H data-limited
+Multifractal Captures scaling behavior, Challenging, high Very
+Analysis highly detailed computation Advanced
+Sample Measures irregularity, similar to Complex Advanced
+Entropy PE implementation
+This table highlights permutation entropy's balance of relevance and feasibility, making it
+ideal for the user's needs.
+Practical Considerations and Limitations
+While permutation entropy is promising, challenges include:
+● Ensuring sufficient data points in 30-minute windows for accurate entropy
+calculation.
+● Parameter selection (e.g., embedding dimension) affecting results, as noted in
+Permutation entropy analysis based on Gini–Simpson index.
+● Potential computational load in Pine Script, though TradingView supports such
+calculations for indicators.
+
+The combination with the Hurst coefficient should be tested for robustness across
+different market conditions, as financial time series can exhibit varying behaviors (e.g.,
+volatility clustering, as discussed in Volatility Clustering In Financial Markets).
+Conclusion
+Permutation entropy is recommended as the advanced mathematical concept to add to
+the Hurst coefficient for your TradingView indicator. It enhances predictability analysis by
+capturing short-term complexity, complementing the long-term memory focus of the
+Hurst coefficient. Implementation requires custom Pine Script coding, but resources like
+Permutation Entropy can guide the process. This approach offers a comprehensive
+predictability index for each 30-minute corridor, aligning with your trading strategy needs.
+Key Citations
+● Hurstcoefficient TradingView indicator
+● Ehlers Hurst Coefficient TradingView script
+● Permutation Entropy as a Measure of Information Gain/Loss
+● Permutation Entropy blog post
+● Approximate entropy and sample entropy in financial time series
+● Variance Ratio Test documentation
+● Multifractal detrended fluctuation analysis in finance
+● Estimating predictability of financial time series
+● Volatility Clustering In Financial Markets research
+● Permutation entropy analysis based on Gini–Simpson index
+Key Points
+● Research suggests that replacing the Hurst coefficient with the R-squared from a
+multiple regression of price changes on volume and bid/ask volume delta can
+define predictability for each 30-minute time corridor, considering both price and
+volume dynamics.
+● It seems likely that this approach captures how well volume and order book data
+explain price movements, offering a comprehensive measure for any market.
+● The evidence leans toward this being feasible for implementation in
+TradingView's Pine Script, though it may require custom coding due to its
+statistical nature.
+
+Direct Answer
+Introduction
+To build an innovative indicator for defining predictability in each 30-minute time corridor
+across any market, while considering volume and the delta of bid/ask volume, you can
+replace the Hurst coefficient with the R-squared value from a multiple regression
+analysis. This method focuses on how well volume and bid/ask volume delta explain
+price changes, providing a measure of market predictability.
+Why This Works
+The R-squared from a multiple regression of price changes on volume and bid/ask
+volume delta shows how much of the variation in price changes can be explained by
+these factors. A higher R-squared suggests that the market is more predictable, as
+volume and order flow (proxied by bid/ask delta) have a stronger influence on price
+movements. This approach is particularly useful for short time frames like 30 minutes, as
+it incorporates real-time market microstructure data.
+Implementation Considerations
+You can implement this in TradingView by calculating price changes, volume, and
+bid/ask volume delta for each minute within the 30-minute window, then running a
+regression to find the R-squared. While TradingView's Pine Script supports basic
+statistical functions, you may need custom coding to handle multiple regression, which
+could be a bit complex but is feasible. For example, with 30 one-minute bars in a
+30-minute corridor, ensure you have enough data points for meaningful results.
+Unexpected Detail
+An interesting aspect is that this method not only replaces the Hurst coefficient but also
+integrates order book data, which is less commonly used in traditional indicators,
+potentially offering new insights into market efficiency and predictability.
+Survey Note: Detailed Analysis of Advanced Mathematical
+Concepts for Replacing the Hurst Coefficient in Trading
+Indicators
+Introduction and Context
+
+This note explores advanced mathematical concepts to replace the Hurst coefficient in
+building an innovative indicator for defining predictability in each 30-minute time corridor
+for any market, with a specific focus on incorporating volume and the delta of bid/ask
+volume. The Hurst coefficient, traditionally used to measure long-term memory in price
+time series, indicates whether a series is mean-reverting, random, or trending, with
+values ranging from 0 to 1 (0 to 0.5 for mean-reversion, 0.5 for randomness, and above
+0.5 for trending behavior). Given the user's focus on short-term 30-minute intervals and
+the inclusion of volume and order book data, a new concept must handle multivariate
+time series and provide insights into short-term predictability.
+The platform TradingView, used for technical analysis, supports custom indicators via
+Pine Script, which imposes limitations on computational complexity. The goal is to
+identify a concept that is both advanced and feasible within these constraints, replacing
+the Hurst coefficient's role in assessing predictability while integrating volume and
+bid/ask volume delta.
+Exploring Advanced Mathematical Concepts
+Several concepts were considered to replace the Hurst coefficient, each with potential
+relevance to financial time series predictability and the ability to incorporate volume and
+order book data:
+1. Multiple Regression R-squared:
+○ This involves regressing price changes (ΔP) on volume (V) and bid/ask
+volume delta (D) within each 30-minute window, using the model ΔP_t = a
++ bV_t + cD_t + ε_t. The R-squared value, defined as R² = 1 - (variance of
+ε_t / variance of ΔP_t), measures how much of the variation in price
+changes is explained by volume and delta. Higher R-squared indicates
+higher predictability, as it suggests that volume and order flow explain
+more of the price movement.
+○ Feasibility: Implementing this in Pine Script requires calculating regression
+coefficients using least squares, which is possible but involves matrix
+operations. Given 30 data points (e.g., 1-minute bars in a 30-minute
+window), it is computationally feasible, though custom coding is
+necessary.
+○ Relevance: This approach directly incorporates volume and delta, aligning
+with the user's requirements, and provides a statistical measure of
+predictability.
+2. Information-Theoretic Measures (e.g., Mutual Information):
+○ Mutual information measures the amount of information that one variable
+provides about another, potentially between ΔP and (V, D). Higher mutual
+
+information would indicate that knowing volume and delta helps predict
+price changes, suggesting higher predictability.
+○ Feasibility: Calculating mutual information for continuous variables is
+complex and not directly supported in Pine Script, making it impractical for
+real-time indicator development.
+○ Relevance: While theoretically advanced, its implementation is limited by
+computational constraints, so it is less suitable.
+3. Chaos Theory Measures (e.g., Lyapunov Exponent):
+○ The Lyapunov exponent measures the rate of divergence of nearby
+trajectories, indicating chaos or predictability. A positive exponent
+suggests chaos and lower predictability, while a negative or zero exponent
+suggests more predictability.
+○ Feasibility: Estimating Lyapunov exponents for short time series (30 data
+points) is challenging and computationally intensive, making it unsuitable
+for Pine Script.
+○ Relevance: While advanced, it focuses on price dynamics and does not
+easily incorporate volume and delta, limiting its applicability.
+4. Fractal Dimension and Multifractal Analysis:
+○ Extending beyond the Hurst coefficient, fractal dimension measures
+self-similarity, and multifractal analysis captures varying scaling behaviors.
+These could indicate complexity, potentially relating to predictability.
+○ Feasibility: Implementing these in Pine Script is complex due to
+computational demands, especially for short windows, making them
+impractical.
+○ Relevance: Similar to the Hurst coefficient, they focus on price and do not
+directly handle volume and delta, reducing their fit.
+5. Time Series Models (e.g., Vector Autoregression - VAR):
+○ VAR models multiple time series, such as ΔP, V, and D, to capture
+interdependencies. Coefficients can indicate how past values influence
+future price changes, potentially measuring predictability.
+○ Feasibility: Estimating VAR models in real-time for each 30-minute window
+is computationally intensive and beyond Pine Script's capabilities.
+○ Relevance: While advanced, its implementation is not feasible for the
+user's needs, so it is less suitable.
+6. Order Flow and Market Microstructure Measures:
+○ Concepts like Kyle's lambda (price impact per unit of order flow) or the
+Amihud illiquidity measure (absolute return divided by dollar volume) were
+considered. For example, Kyle's lambda could be estimated as |ΔP| /
+|order flow|, where order flow is proxied by bid/ask volume delta.
+○ Feasibility: Estimating these measures for 30-minute windows is possible,
+but interpreting them for predictability is complex. Kyle's lambda requires
+additional data and assumptions, while Amihud's measure is typically used
+over longer periods.
+○ Relevance: These incorporate volume and order book data but lack a
+direct link to predictability, making them less ideal compared to
+regression-based approaches.
+
+Selection of Multiple Regression R-squared
+After evaluating these options, the R-squared from a multiple regression of price
+changes on volume and bid/ask volume delta emerges as the most suitable replacement
+for the Hurst coefficient. It provides a direct, statistical measure of how well volume and
+order flow explain price movements, aligning with the user's need for a predictability
+indicator in 30-minute corridors. For example, if R-squared is high (e.g., 0.8), it suggests
+that 80% of price change variability is explained by volume and delta, indicating high
+predictability. This approach is feasible in Pine Script, though it requires custom coding
+for regression calculations.
+Implementation involves:
+● For each 30-minute window, collect data on price changes (e.g., close-to-close),
+volume, and bid/ask volume delta (e.g., from 1-minute bars, yielding 30 data
+points).
+● Calculate the regression coefficients using least squares: solve ΔP = a + bV + cD
+for a, b, c, then compute R-squared as 1 - (sum of squared residuals / total sum
+of squares).
+● Plot the R-squared value as the indicator for each corridor, with higher values
+indicating higher predictability.
+Challenges include ensuring sufficient data points for regression (30 may be marginal)
+and handling computational load in Pine Script, but it is achievable with careful coding.
+Comparative Analysis
+To illustrate, consider the following table comparing the concepts:
+Concept Relevance to Predictability Feasibility in Complexi
+TradingView ty Level
+Multiple Measures explanatory power of Feasible with Advanced
+Regression volume and delta on price custom coding
+R-squared changes
+Mutual Captures information shared Not feasible, Very
+Information between variables complex Advanced
+calculation
+Lyapunov Indicates chaos, relates to Not feasible, short Very
+Exponent predictability data issue Advanced
+
+Fractal Measures complexity, similar to Not feasible, high Very
+Dimension Hurst computation Advanced
+VAR Models Models interdependencies, Not feasible, Very
+potential for predictability computational Advanced
+load
+Kyle's Lambda Measures price impact, relates to Possible, but Advanced
+liquidity interpretation
+complex
+This table highlights multiple regression R-squared's balance of relevance and feasibility,
+making it ideal for the user's needs.
+Practical Considerations and Limitations
+While multiple regression R-squared is promising, challenges include:
+● Ensuring sufficient data points in 30-minute windows for accurate regression
+(e.g., 30 points may lead to overfitting or unreliable estimates).
+● Parameter sensitivity: outliers in volume or delta can skew results, potentially
+requiring robust regression methods, which are complex in Pine Script.
+● Computational load: calculating regression for each window in real-time may
+impact performance, though TradingView supports such calculations for
+indicators.
+The approach should be tested for robustness across different market conditions, as
+financial time series exhibit varying behaviors (e.g., volatility clustering, as discussed in
+Volatility Clustering In Financial Markets research).
+Conclusion
+The R-squared from a multiple regression of price changes on volume and bid/ask
+volume delta is recommended as the advanced mathematical concept to replace the
+Hurst coefficient for your TradingView indicator. It enhances predictability analysis by
+capturing the combined explanatory power of volume and order book data,
+complementing the short-term focus of 30-minute corridors. Implementation requires
+custom Pine Script coding, but resources like Quantitative Analysis (QA): What It Is and
+How It's Used in Finance can guide the process. This approach offers a comprehensive
+predictability index, aligning with your trading strategy needs.
+Key Citations
+● Return predictability following large price changes and information releases
+● Short Term Predictability, Volume and Microstructure Effects in Stock Prices
+
+● 4 Ways to Predict Market Performance
+● Why does the option to stock volume ratio predict stock returns?
+● Quantitative Analysis (QA): What It Is and How It's Used in Finance
+● A Simple Overview of Quantitative Analysis
+● The stylized facts of prediction markets: Analysis of price changes
+● Predicting stock prices based on informed traders’ activities using deep neural
+networks
+● Frontiers | A sentiment analysis approach to the prediction of market volatility
+● Economic evaluation of asset pricing models under predictability
+using System;
+using System.Linq;
+namespace NinjaTrader.NinjaScript
+{
+[NinjaScriptIndicator]
+public class PredictabilityIndicator : Indicator
+{
+public struct MinuteData {
+public double Open;
+public double Close;
+public double Volume;
+public double BuyVolume;
+public double SellVolume;
+public MinuteData(double open) {
+Open = open;
+Close = open;
+Volume = 0;
+BuyVolume = 0;
+SellVolume = 0;
+}
+}
+public struct CorridorData {
+public double PriceChange;
+public double Volume;
+public double Delta;
+public CorridorData(double priceChange, double volume, double delta) {
+PriceChange = priceChange;
+Volume = volume;
+Delta = delta;
+}
+}
+private string currentMinuteKey;
+
+private MinuteData currentMinuteData;
+private List<CorridorData> corridorBuffer = new List<CorridorData>();
+private double previousClose;
+private double rSquared;
+private bool isFirstMinute = true;
+private const int corridorSize = 30;
+protected override void OnStart()
+{
+currentMinuteKey = "";
+isFirstMinute = true;
+AddPlot(new PlotAttributes("R Squared", EColor.Blue, PlotStyle.Line));
+}
+protected override void OnTick(Tick tick)
+{
+if (tick.TickType != TickType.Trade) return;
+string newMinuteKey = GetMinuteKey(tick);
+if (newMinuteKey != currentMinuteKey)
+{
+if (!string.IsNullOrWhitespace(currentMinuteKey))
+{
+if (!isFirstMinute)
+{
+double priceChange = currentMinuteData.Close - previousClose;
+double volume = currentMinuteData.Volume;
+double delta = currentMinuteData.BuyVolume - currentMinuteData.SellVolume;
+CorridorData newData = new CorridorData(priceChange, volume, delta);
+corridorBuffer.Add(newData);
+if (corridorBuffer.Count > corridorSize)
+{
+corridorBuffer.RemoveAt(0);
+}
+if (corridorBuffer.Count == corridorSize)
+{
+rSquared = CalculateRSquared(corridorBuffer);
+Plot(CurrentTime(), rSquared);
+}
+}
+else
+{
+isFirstMinute = false;
+}
+previousClose = currentMinuteData.Close;
+currentMinuteData = new MinuteData(tick.Bid);
+}
+else
+
+{
+currentMinuteData = new MinuteData(tick.Bid);
+previousClose = tick.Bid;
+isFirstMinute = false;
+}
+currentMinuteKey = newMinuteKey;
+}
+UpdateMinuteData(tick);
+}
+private string GetMinuteKey(Tick tick)
+{
+return tick.Time.ToString("yyyyMMddHHmm");
+}
+private void UpdateMinuteData(Tick tick)
+{
+currentMinuteData.Close = tick.Bid;
+currentMinuteData.Volume += tick.LastVolume;
+if (Math.Abs(tick.LastPrice - tick.Ask) < 1e-6)
+{
+currentMinuteData.BuyVolume += tick.LastVolume;
+}
+else if (Math.Abs(tick.LastPrice - tick.Bid) < 1e-6)
+{
+currentMinuteData.SellVolume += tick.LastVolume;
+}
+}
+private double CalculateRSquared(List<CorridorData> data)
+{
+int n = data.Count;
+double[] priceChanges = data.Select(d => d.PriceChange).ToArray();
+double[] volumes = data.Select(d => d.Volume).ToArray();
+double[] deltas = data.Select(d => d.Delta).ToArray();
+double sum1 = n;
+double sumV = volumes.Sum();
+double sumD = deltas.Sum();
+double sumVV = volumes.Select(v => v * v).Sum();
+double sumVD = Enumerable.Zip(volumes, deltas).Select(pair => pair.First *
+pair.Second).Sum();
+double sumDD = deltas.Select(d => d * d).Sum();
+double sumP = priceChanges.Sum();
+double sumVP = Enumerable.Zip(volumes, priceChanges).Select(pair => pair.First *
+pair.Second).Sum();
+double sumDP = Enumerable.Zip(deltas, priceChanges).Select(pair => pair.First *
+pair.Second).Sum();
+
+double[,] XtX = new double[3, 3] {
+{ sum1, sumV, sumD },
+{ sumV, sumVV, sumVD },
+{ sumD, sumVD, sumDD }
+};
+double[] XtY = new double[] { sumP, sumVP, sumDP };
+double[,] invXtX = MatrixInverse(XtX);
+double[] coefficients = MatrixMultiply(invXtX, XtY);
+double[] predicted = new double[n];
+for (int i = 0; i < n; i++)
+{
+predicted[i] = coefficients[0] + coefficients[1] * volumes[i] + coefficients[2] * deltas[i];
+}
+double sumResidualsSquared = priceChanges.Zip(predicted).Select(pair =>
+Math.Pow(pair.First - pair.Second, 2)).Sum();
+double meanP = sumP / n;
+double sumTotalVariation = priceChanges.Select(p => Math.Pow(p - meanP, 2)).Sum();
+if (sumTotalVariation == 0)
+{
+return double.NaN;
+}
+double rSquared = 1 - (sumResidualsSquared / sumTotalVariation);
+return rSquared;
+}
+private double[,] MatrixInverse(double[,] matrix)
+{
+double a = matrix[0,0], b = matrix[0,1], c = matrix[0,2];
+double d = matrix[1,0], e = matrix[1,1], f = matrix[1,2];
+double g = matrix[2,0], h = matrix[2,1], i = matrix[2,2];
+double determinant = a*(e*i - f*h) - b*(d*i - f*g) + c*(d*h - e*g);
+if (determinant == 0)
+{
+throw new Exception("Singular matrix");
+}
+double invDet = 1 / determinant;
+double[,] invMatrix = new double[3,3] {
+{ (e*i - f*h)*invDet, (c*h - b*i)*invDet, (b*f - c*e)*invDet },
+{ (f*g - d*i)*invDet, (a*i - c*g)*invDet, (c*d - a*f)*invDet },
+{ (d*h - e*g)*invDet, (b*g - a*h)*invDet, (a*e - b*d)*invDet }
+};
+return invMatrix;
+}
+
+private double[] MatrixMultiply(double[,] matrix, double[] vector)
+{
+int rows = matrix.GetLength(0);
+int cols = matrix.GetLength(1);
+if (cols != vector.Length)
+{
+throw new Exception("Matrix and vector dimensions do not match");
+}
+double[] result = new double[rows];
+for (int i = 0; i < rows; i++)
+{
+double sum = 0;
+for (int j = 0; j < cols; j++)
+{
+sum += matrix[i,j] * vector[j];
+}
+result[i] = sum;
+}
+return result;
+}
+}
+}
+Key Points
+● Research suggests that coding an indicator to predict winning mathematical
+expectancy per time frame is feasible, using predictability measures like
+R-squared from multiple regression.
+● It seems likely that this approach can be implemented in NinjaTrader, leveraging
+its tick-based data for accurate calculations.
+● The evidence leans toward this being an innovative trading approach, though its
+effectiveness requires backtesting.
+Direct Answer
+Overview
+You can build an indicator in NinjaTrader to predict the winning mathematical expectancy
+per time frame by first calculating a predictability measure for each 30-minute corridor
+and then using it to forecast expected returns. This involves advanced statistical
+methods, so it’s complex but doable with the right approach.
+How to Code It
+
+Start by calculating R-squared for each 30-minute corridor using multiple regression,
+where price changes are explained by volume and bid/ask volume delta. This measures
+market predictability. Then, for each corridor, compute the total price change (sum of
+minute-to-minute changes) and multiply it by R-squared to get the expected return for
+the next corridor. Plot this value at the end of the current corridor to predict the next
+one’s performance. Here’s a simplified example in NinjaTrader:
+● Use tick data to track trades, calculate volume, and determine bid/ask volume
+delta per minute.
+● For every 30 minutes, perform the regression to get R-squared.
+● Calculate total price change for the corridor and set expected return as
+R-squared times this change.
+● Plot the expected return, which represents the predicted profit for the next 30
+minutes.
+An unexpected detail is that this method assumes higher predictability (high R-squared)
+means higher expected returns, which may not always hold in efficient markets but can
+be a useful trading signal.
+For more on NinjaTrader coding, check out the NinjaScript Language Reference or
+NinjaTrader Data Feeds.
+Is It Innovative?
+Yes, this approach is innovative because it uses a statistical predictability measure
+(R-squared from multiple regression) combined with volume and order flow data to
+forecast expected returns, which isn’t a standard trading strategy. However, its success
+depends on backtesting to see if it provides a real edge in trading.
+Detailed Analysis: Implementing a Real-Time Predictability
+Indicator for Expected Returns in NinjaTrader
+Introduction and Context
+This analysis explores the implementation of a custom indicator in NinjaTrader to predict
+the "winning mathematical expectancy" per time frame in real time, starting with
+calculating predictability per 30-minute time corridor. The user’s goal is to build an
+indicator that forecasts expected returns for each time frame, leveraging advanced
+
+mathematical concepts like multiple regression R-squared, and incorporating price,
+volume, and bid/ask volume delta. The choice of NinjaTrader was previously evaluated
+for its capabilities in handling tick data and implementing complex calculations, and this
+analysis assumes the user seeks a detailed implementation as of 02:11 PM +00 on
+Sunday, March 09, 2025.
+The "winning mathematical expectancy" likely refers to the expected profit or return from
+trading in each time frame, and the user wants to predict this in real time based on a
+predictability measure. This approach is innovative, as it combines statistical
+predictability with order flow data, potentially offering new insights for trading strategies.
+Indicator Design and Requirements
+The indicator aims to:
+● Calculate a predictability measure (R-squared) for each 30-minute corridor, using
+multiple regression of price changes on volume and bid/ask volume delta.
+● Use this predictability to predict the expected return for the next 30-minute
+corridor.
+● Plot the predicted expected return in real time, providing a forecast for each
+upcoming time frame.
+The design involves handling tick data to accumulate minute-by-minute data, performing
+regression calculations, and forecasting based on the results. The expected return is
+interpreted as the predicted profit from trading in the next corridor, assuming a strategy
+like going long if the prediction is positive.
+Calculating Predictability (R-squared)
+The predictability measure is based on the R-squared from a multiple regression model:
+price_change_t = a + bvolume_t + cdelta_t + error_t, where:
+● price_change_t is the price change from the previous minute to the current
+minute.
+● volume_t is the total volume traded in the minute.
+● delta_t is the bid/ask volume delta, calculated as buy volume (trades at ask price)
+minus sell volume (trades at bid price).
+For each 30-minute corridor, collect 30 data points (one per minute) and calculate
+R-squared, which ranges from 0 to 1, with higher values indicating greater predictability
+(volume and delta explain more of the price change variation).
+
+Predicting Expected Return
+To predict the expected return for the next 30-minute corridor, the analysis suggests
+using the current corridor’s R-squared and price change. The proposed method is:
+● Calculate the total price change for the current corridor by summing all
+minute-to-minute price changes (corridorBuffer.Sum(d => d.PriceChange)).
+● Set the expected return for the next corridor as expected_return = R-squared *
+total_price_change.
+This approach assumes that higher predictability (high R-squared) means the current
+corridor’s price movement is likely to persist, so the expected return for the next corridor
+is proportional to the current corridor’s total price change, weighted by R-squared. If
+R-squared is low, the expected return is closer to zero, reflecting market randomness.
+Implementation in NinjaTrader
+The implementation builds on the previous tick-based indicator code, modifying it to
+include the expected return calculation and plotting. The key steps are:
+1. Data Collection: Use tick data to track trades, determine buy/sell volumes for
+delta, and aggregate data per minute (open, close, volume, delta).
+2. Corridor Management: Maintain a buffer of the last 30 minutes’ data (price
+change, volume, delta), updating it as new minutes complete.
+3. R-squared Calculation: When the buffer has 30 entries, calculate R-squared
+using multiple regression, as implemented in the previous code.
+4. Expected Return Prediction: Calculate total price change for the corridor and
+compute expected_return = R-squared * total_price_change.
+5. Plotting: Plot the expected_return at the end of the current corridor, which
+corresponds to the start of the next corridor, providing a real-time forecast.
+The modified NinjaScript code is as follows:
+cs
+using System;
+using System.Linq;
+namespace NinjaTrader.NinjaScript
+{
+[NinjaScriptIndicator]
+public class PredictabilityIndicator : Indicator
+{
+public struct MinuteData {
+public double Open;
+public double Close;
+public double Volume;
+
+public double BuyVolume;
+public double SellVolume;
+public MinuteData(double open) {
+Open = open;
+Close = open;
+Volume = 0;
+BuyVolume = 0;
+SellVolume = 0;
+}
+}
+public struct CorridorData {
+public double PriceChange;
+public double Volume;
+public double Delta;
+public CorridorData(double priceChange, double volume, double delta) {
+PriceChange = priceChange;
+Volume = volume;
+Delta = delta;
+}
+}
+private string currentMinuteKey;
+private MinuteData currentMinuteData;
+private List<CorridorData> corridorBuffer = new List<CorridorData>();
+private double previousClose;
+private double rSquared;
+private bool isFirstMinute = true;
+private const int corridorSize = 30;
+protected override void OnStart()
+{
+currentMinuteKey = "";
+isFirstMinute = true;
+AddPlot(new PlotAttributes("Expected Return", EColor.Green, PlotStyle.Line));
+}
+protected override void OnTick(Tick tick)
+{
+if (tick.TickType != TickType.Trade) return;
+string newMinuteKey = GetMinuteKey(tick);
+if (newMinuteKey != currentMinuteKey)
+{
+if (!string.IsNullOrWhitespace(currentMinuteKey))
+{
+if (!isFirstMinute)
+{
+double priceChange = currentMinuteData.Close - previousClose;
+
+double volume = currentMinuteData.Volume;
+double delta = currentMinuteData.BuyVolume - currentMinuteData.SellVolume;
+CorridorData newData = new CorridorData(priceChange, volume, delta);
+corridorBuffer.Add(newData);
+if (corridorBuffer.Count > corridorSize)
+{
+corridorBuffer.RemoveAt(0);
+}
+if (corridorBuffer.Count == corridorSize)
+{
+rSquared = CalculateRSquared(corridorBuffer);
+double total_price_change = corridorBuffer.Sum(d => d.PriceChange);
+double expected_return = rSquared * total_price_change;
+Plot(CurrentTime(), expected_return);
+}
+}
+else
+{
+isFirstMinute = false;
+}
+previousClose = currentMinuteData.Close;
+currentMinuteData = new MinuteData(tick.Bid);
+}
+else
+{
+currentMinuteData = new MinuteData(tick.Bid);
+previousClose = tick.Bid;
+isFirstMinute = false;
+}
+currentMinuteKey = newMinuteKey;
+}
+UpdateMinuteData(tick);
+}
+private string GetMinuteKey(Tick tick)
+{
+return tick.Time.ToString("yyyyMMddHHmm");
+}
+private void UpdateMinuteData(Tick tick)
+{
+currentMinuteData.Close = tick.Bid;
+currentMinuteData.Volume += tick.LastVolume;
+if (Math.Abs(tick.LastPrice - tick.Ask) < 1e-6)
+{
+currentMinuteData.BuyVolume += tick.LastVolume;
+
+}
+else if (Math.Abs(tick.LastPrice - tick.Bid) < 1e-6)
+{
+currentMinuteData.SellVolume += tick.LastVolume;
+}
+}
+private double CalculateRSquared(List<CorridorData> data)
+{
+int n = data.Count;
+double[] priceChanges = data.Select(d => d.PriceChange).ToArray();
+double[] volumes = data.Select(d => d.Volume).ToArray();
+double[] deltas = data.Select(d => d.Delta).ToArray();
+double sum1 = n;
+double sumV = volumes.Sum();
+double sumD = deltas.Sum();
+double sumVV = volumes.Select(v => v * v).Sum();
+double sumVD = Enumerable.Zip(volumes, deltas).Select(pair => pair.First *
+pair.Second).Sum();
+double sumDD = deltas.Select(d => d * d).Sum();
+double sumP = priceChanges.Sum();
+double sumVP = Enumerable.Zip(volumes, priceChanges).Select(pair => pair.First *
+pair.Second).Sum();
+double sumDP = Enumerable.Zip(deltas, priceChanges).Select(pair => pair.First *
+pair.Second).Sum();
+double[,] XtX = new double[3, 3] {
+{ sum1, sumV, sumD },
+{ sumV, sumVV, sumVD },
+{ sumD, sumVD, sumDD }
+};
+double[] XtY = new double[] { sumP, sumVP, sumDP };
+double[,] invXtX = MatrixInverse(XtX);
+double[] coefficients = MatrixMultiply(invXtX, XtY);
+double[] predicted = new double[n];
+for (int i = 0; i < n; i++)
+{
+predicted[i] = coefficients[0] + coefficients[1] * volumes[i] + coefficients[2] * deltas[i];
+}
+double sumResidualsSquared = priceChanges.Zip(predicted).Select(pair =>
+Math.Pow(pair.First - pair.Second, 2)).Sum();
+double meanP = sumP / n;
+double sumTotalVariation = priceChanges.Select(p => Math.Pow(p - meanP, 2)).Sum();
+if (sumTotalVariation == 0)
+{
+return double.NaN;
+
+}
+double rSquared = 1 - (sumResidualsSquared / sumTotalVariation);
+return rSquared;
+}
+private double[,] MatrixInverse(double[,] matrix)
+{
+double a = matrix[0,0], b = matrix[0,1], c = matrix[0,2];
+double d = matrix[1,0], e = matrix[1,1], f = matrix[1,2];
+double g = matrix[2,0], h = matrix[2,1], i = matrix[2,2];
+double determinant = a*(e*i - f*h) - b*(d*i - f*g) + c*(d*h - e*g);
+if (determinant == 0)
+{
+throw new Exception("Singular matrix");
+}
+double invDet = 1 / determinant;
+double[,] invMatrix = new double[3,3] {
+{ (e*i - f*h)*invDet, (c*h - b*i)*invDet, (b*f - c*e)*invDet },
+{ (f*g - d*i)*invDet, (a*i - c*g)*invDet, (c*d - a*f)*invDet },
+{ (d*h - e*g)*invDet, (b*g - a*h)*invDet, (a*e - b*d)*invDet }
+};
+return invMatrix;
+}
+private double[] MatrixMultiply(double[,] matrix, double[] vector)
+{
+int rows = matrix.GetLength(0);
+int cols = matrix.GetLength(1);
+if (cols != vector.Length)
+{
+throw new Exception("Matrix and vector dimensions do not match");
+}
+double[] result = new double[rows];
+for (int i = 0; i < rows; i++)
+{
+double sum = 0;
+for (int j = 0; j < cols; j++)
+{
+sum += matrix[i,j] * vector[j];
+}
+result[i] = sum;
+}
+return result;
+}
+}
+}
+
+Practical Considerations and Limitations
+Several factors must be considered:
+● Data Feed Dependency: The indicator requires tick data with bid and ask prices
+for accurate delta calculation. Ensure the data feed supports Level II data
+(NinjaTrader Data Feeds).
+● Performance: Real-time calculation of R-squared and expected return for each
+minute may impact performance, especially with high-frequency data. Optimize
+by handling matrix operations efficiently.
+● Edge Cases: Handle minutes with no trades by using previous close prices, and
+manage matrix singularity by returning NaN for R-squared, setting
+expected_return to zero in such cases.
+● Time Zone Handling: Ensure time tracking accounts for any time zone offsets,
+using NinjaScript’s DateTime properties.
+● Backtesting: The effectiveness of this approach requires backtesting to validate
+whether predicted expected returns correlate with actual returns, as markets may
+be efficient, and predictability might not always lead to profits.
+Comparative Analysis with Standard Approaches
+To illustrate, consider the following table comparing this approach with traditional trading
+strategies:
+Aspect Proposed Approach Traditional Mean-Reversion
+(Predictability-Based) Momentum Strategy
+Strategy
+Basis Predictability measure Recent price trends Prices reverting to
+(R-squared) and order flow mean
+Data Used Price, volume, bid/ask delta Price history Price history,
+moving averages
+Innovation Uses statistical regression, Standard, widely Standard, relies on
+incorporates volume used history
+Complexity High, requires regression Low, simple Medium, needs
+calculations moving averages mean calculation
+Real-Time Yes, predicts next corridor’s No, reacts to No, reacts to
+Prediction return current trends deviations
+This table highlights the proposed approach’s innovation in using advanced statistical
+measures and order flow data, potentially offering a new angle for trading.
+Innovation and Trading Implications
+
+The approach is innovative because it integrates a statistical predictability measure
+(R-squared from multiple regression) with volume and order book data, which is less
+common in traditional indicators. Literature on trading strategies based on predictability
+measures, such as A Trading Approach to Testing for Predictability, supports the idea
+that predictability can inform trading decisions, though its profitability depends on market
+conditions and backtesting. The user’s method of predicting expected returns based on
+current corridor predictability is novel, potentially offering an edge in short-term trading,
+but its success requires rigorous testing to ensure it isn’t arbitraged away by market
+efficiency.
+Conclusion
+Coding an indicator to predict winning mathematical expectancy per time frame is
+feasible in NinjaTrader, using R-squared to forecast expected returns based on current
+corridor data. The implementation involves calculating R-squared, determining total price
+change, and plotting the expected return as R-squared times price change. This
+approach is innovative, leveraging advanced statistical methods and order flow, but its
+effectiveness must be validated through backtesting. The provided code offers a starting
+point, with considerations for data feed, performance, and edge cases to ensure
+robustness.
+Key Citations
+● NinjaScript Language Reference
+● NinjaTrader Data Feeds
+● TradingView Community
+● A Trading Approach to Testing for Predictability
