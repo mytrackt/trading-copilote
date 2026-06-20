@@ -10,7 +10,7 @@
 
 ## 🗺️ VISION GLOBALE
 
-11 phases séquentielles (A → K) :
+12 phases séquentielles (A → L) :
 
 ```
 [A] Documentation & garde-fous              ✅ TERMINÉE
@@ -34,7 +34,114 @@
 [J] Paper Trading 30 jours obligatoire      ← validation conditions Mode Auto
         ↓
 [K] Activation Mode AUTO (conditionnel)     ← 6 conditions satisfaites + bouton
+        ↓
+[L] Integration Vision-Decision 5 couches  ← pipeline complet + 8 tests validation
 ```
+
+---
+
+## 🏗️ ARCHITECTURE VISION-DÉCISION TEMPS RÉEL (référence)
+
+> Source : `Prompt_Cowork_TRADEX_Vision_Decision_v2_corrige.md` — integre S18 · 2026-06-20
+> ⚠️ ADAPTATION STACK : le prompt source proposait Mistral local + ChromaDB (Couche 3).
+> Stack TRADEX verrouilee Claude API + KB JSON → Couche 3 = prompt caching claude_brain.py.
+
+### 5 Couches (flux de traitement)
+
+```
+COUCHE 0 — SOURCE (NinjaTrader 8, NinjaScript C#)
+  Add-on NinjaScript : exporte OHLCV + COG Belkhayate + ADX a chaque bougie (OnBarUpdate)
+  Canal local : WebSocket ou HTTP localhost | Debut progressif : CSV simple d'abord
+  Fichier cible : Add-on NT8 C# (Phase C)
+
+COUCHE 1 — INGESTION (FastAPI local, Python)
+  Recoit flux bougies temps reel depuis NT8
+  Latence cible < 50ms (a mesurer, pas supposee)
+  Buffer glissant N dernieres bougies
+  CIRCUIT BREAKER FEED : derniere donnee > X secondes → etat NO_TRADE force
+  Fichier cible : nt8_ingestion.py (Phase C)
+
+COUCHE 2 — DETECTION ALGORITHMIQUE (Python pur, 0€)
+  Detecte patterns sur NOMBRES (swing highs/lows, triangles, flags, H&S, S/R, trendlines)
+  Utilise les regles TA101 / Belkhayate extraites comme REGLES DE VALIDATION
+  Produit un SCORE DE CONFIANCE 0-100% par pattern detecte
+  Si score >= 70% → pattern clair, pas d'appel Claude (0 cout)
+  Si score < 70% → declenche Couche 4 (ambiguite = vision/decision Claude)
+  Fichier cible : pattern_detector.py + signal_scorer.py (Phase D+E)
+
+COUCHE 3 — KB BELKHAYATE (Claude API + prompt caching sur KB JSON)
+  ⚠️ ADAPTATION : Mistral/ChromaDB remplace par claude_brain.py existant + prompt caching
+  Interroge KNOWLEDGE_BASE_MASTER.json : regles Belkhayate, psychologie, discipline
+  Repond aux questions de connaissance (criteres pattern valide, regles Rhodes, anti-FOMO)
+  Couts quasi-nuls grace au prompt caching (>= 90% cache hits attendu)
+  Fichier cible : claude_brain.py etendu (Phase B+D)
+
+COUCHE 4 — VISION + DECISION FINALE (Claude API, claude-sonnet-4-6)
+  DECLENCHEE, JAMAIS EN CONTINU. Appel uniquement si score Couche 2 < 70%
+  Volume estime : 5-20 appels/jour | Budget cible : 20-50 $/mois
+  RATE LIMITER : hard stop N appels Claude/jour (parametre .env, ex 30/jour)
+  CIRCUIT BREAKER COUT : depassement seuil → NO_TRADE + alerte utilisateur
+
+  Ordre obligatoire avant toute decision :
+  1. NEWS GATE : NFP/FOMC/CPI/EIA/OPEP+ → NO_TRADE / WAIT / REDUCE_RISK
+  2. CONTEXTE INTERMARCHE + COT : biais de fond hebdo uniquement (INTERDIT trigger intraday)
+  3. CROISEMENT DECISIONNEL : pattern + COG + KB + macro
+     Imposer : stop defini AVANT entree, taille calculee, R/R >= 1.5, scenario oppose etudie
+  4. COUTS REELS : spread, slippage, commissions, rollover futures (GC/CL/ES par contrat actif)
+  5. EXECUTION GATEKEEPER : sortie = NO_TRADE / WAIT / REDUCE_RISK / TRADE_ALLOWED
+     Etat par defaut = NO_TRADE. TRADE_ALLOWED uniquement si TOUTES conditions reunies.
+
+COUCHE TRANSVERSALE — AUDIT & MONITORING
+  AUDIT LOG : historiser chaque decision IA (inputs 4 couches + output gatekeeper + timestamp)
+  MONITORING : health check des 5 couches, alerte si module tombe
+  MODEL VERSION CONTROL : version Claude gelee et loguee dans les commits
+  Fichiers cibles : audit_log.py + monitoring.py (Phase H)
+```
+
+### Regle de repartition des modeles
+
+| Tache | Outil | Cout |
+|-------|-------|------|
+| Detection patterns (nombres) | Python algo Couche 2 | 0€ |
+| KB Belkhayate (texte) | Claude API + prompt caching | ~0€ (cache hits) |
+| Vision charts (ambiguite score < 70%) | claude-sonnet-4-20250514 | payant si declenche |
+| Decision finale (croisement) | claude-sonnet-4-6 | ~0.01$/signal |
+
+### 11 Fichiers a creer (phase d'appartenance)
+
+| # | Fichier | Phase |
+|---|---------|-------|
+| 1 | Add-on NinjaScript C# (export NT8 → canal local) | C |
+| 2 | nt8_ingestion.py (FastAPI + circuit breaker feed) | C + H |
+| 3 | pattern_detector.py (detection algo patterns + score confiance) | D + E |
+| 4 | claude_brain.py etendu (KB JSON + prompt caching) | B + D |
+| 5 | vision_client.py (Claude API vision/decision + rate limiter + CB cout) | E + F |
+| 6 | news_gate.py (calendrier CL/GC/ES + blocage NFP/FOMC/EIA) | F |
+| 7 | execution_gatekeeper.py (NO_TRADE → TRADE_ALLOWED) | F |
+| 8 | audit_log.py + monitoring.py (health check 5 couches) | H |
+| 9 | prompt_vision.txt (lecture chart structuree) | B |
+| 10 | prompt_decision.txt (croisement Belkhayate multi-facteurs) | B |
+| 11 | schemas/couches_format.json (JSON standardise inter-couches) | C |
+
+### Dependencies (ordre obligatoire)
+
+1. KB COMPLETE AVANT couches 3-4 (zero valeur si KB incomplete)
+2. Couche 0 (NinjaScript) + Couche 2 (detection algo) → demarrage PARALLELE possible
+3. News Gate + Gatekeeper AVANT premier test decision reelle
+4. Ordre : Couche 0 → 1 → 2 → 3 → News Gate → Gatekeeper → 4 → Audit/Monitoring
+
+### Plan de validation (8 tests obligatoires)
+
+| # | Test | Critere |
+|---|------|---------|
+| 1 | Detection algo : 50 bougies historiques CL | Swing points + patterns + score corrects |
+| 2 | Circuit breaker feed | Couper flux → NO_TRADE automatique |
+| 3 | KB Claude : 10 questions Belkhayate | Bons passages recuperes |
+| 4 | Vision Claude : 5 screenshots | Identification coherente vs detection algo |
+| 5 | News Gate : simuler FOMC imminent | Sortie NO_TRADE confirmee |
+| 6 | Gatekeeper : signal sans stop | Refus confirme (NO_TRADE par defaut) |
+| 7 | Decision complete : 1 signal reel passe en 5 couches | Coherence + couts reels presents |
+| 8 | Rate limiter : simuler 31 appels/jour | Hard stop au seuil confirme |
 
 ---
 
@@ -263,6 +370,27 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 ---
 
+## PHASE L — Integration Vision-Décision (Post-Paper Trading)
+
+**Objectif** : câbler les 5 couches en pipeline complet et tester end-to-end.
+
+**Prerequis** : Phase J (Paper Trading 30j valide) + KB complete (Phase B terminee).
+
+**Livrables** :
+- vision_pipeline.py (orchestration 5 couches en pipeline)
+- rate_limiter.py (hard stop N appels Claude/jour, parametre .env)
+- Audit log + monitoring cables et operationnels
+- Format JSON standardise inter-couches (schemas/couches_format.json)
+- Prompts vision et decision finalises et geles
+
+**Tests de validation** : les 8 tests du plan ci-dessus (section Architecture).
+
+**Garde-fous Phase L** : Rate limiter hard stop + circuit breaker cout actifs depuis le premier test.
+
+**Estimation** : 3-4 sessions.
+
+---
+
 ## SYNTHESE EFFORT ESTIME
 
 | Phase | Sessions estimees | Duree min |
@@ -278,7 +406,8 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 | I — Dashboard React | 4-5 | 2-3 semaines |
 | J — Paper Trading | 0 (passif) | 30 jours |
 | K — Mode AUTO | 1 | 1 jour |
-| Total | 27-34 sessions | 3-4 mois |
+| L — Vision-Decision Integration | 3-4 | 2 semaines |
+| Total | 30-38 sessions | 3-5 mois |
 
 ---
 
@@ -305,5 +434,5 @@ Commandes a executer dans PowerShell :
 
 ---
 
-Derniere mise a jour : 2026-06-12 — KB rebuild decide, strategie 4 etapes adoptee.
+Derniere mise a jour : 2026-06-20 (S18) — Architecture Vision-Decision 5 couches integree (Phase L ajoutee). Stack adaptee : Mistral/ChromaDB → Claude API + KB JSON.
 Documents gouvernants : STRATEGIE_KB_MASTER.md + RAPPORT_SOURCES_KB_2026.md

@@ -1,0 +1,147 @@
+Bienvenue à la leçon 19. On va parler du Delta et du volume. En fait, on va parler d'un
+élément fondamental qui est la différence entre le volume exécuté sur la demande et le volume
+exécuté sur l'offre. Je vous l'ai déjà dit, je vous en ai parlé déjà très souvent, je vous en
+parlais tout le temps, c'est un élément fondamental pour pouvoir estimer qui a le contrôle sur le
+marché. Alors, on va tout de suite venir ici et on va lire pourquoi le volume est-il plus important
+que le prix. Ce que j'arrête pas de vous dire, en fait, les traders institutionnels, ils essaient
+de cacher le volume de ce qu'ils veulent échanger et non le prix. Lorsque vous voyez un échange de
+prix, vous faites une opinion du marché, mais lorsque vous voyez le volume, vous voyez la réalité
+de ce qui est en train de se passer. Regardons ici par exemple, nous avons un marché qui commence
+à corriger sur le S&P on dirige et puis ensuite le Delta que vous voyez ici, il bascule de 324 à
+moins 367. Donc ici, on a à ce niveau là, avant qu'on casse ce support là, avant qu'on casse ce
+support, on a eu un contrôle des vendeurs et puis après on est passé de 367 à 2700 et 1700 etc. Donc
+là, il y a eu une véritable contrôle de la part des vendeurs et vous ne pouvez pas voir ça ailleurs
+que sur le Canadol. Je ne connais pas un autre moyen de découvrir que les vendeurs, en fait,
+ils ont inondé le Canadol. Vous ne pouvez pas le savoir autrement qu'en regardant le Delta.
+Le volume a été souvent relégué à une position secondaire par la plupart des traders puisque
+ils se concentrent sur le prix. Vous le voyez déjà, vous voyez même quand vous voyez des
+analystes discuter sur un graphique et c'est très rare qu'ils vous montrent le volume et même quand
+ils vous montrent le volume, ils ne vous parlent pas du volume exécuté sur le prix, ils vous parlent
+du volume général de transaction alors que le volume il est indispensable pour identifier les
+tournements d'un marché. Par exemple, dans un marché à la baisse, les vendeurs ont généralement
+le contrôle mais pour que ça se retourne, il faut réellement qu'il y ait quelque chose de conséquent.
+On ne va pas renverser la vapeur juste comme ça parce que tiens, on va faire ça. Non, il faut
+qu'il y ait vraiment une vraie puissance pour retourner le marché et c'est pour ça que cette
+puissance, on peut la détecter dans le Delta. On va regarder ici, vous avez vu ici, on était
+dans le rouge et puis le Delta est devenu positif, 81 puis 216, etc. Donc tant que le Delta est
+positif ici, que ça monte, il n'y a aucune raison de prendre des profits ou en tout cas on peut
+prendre des profits et rentrer immédiatement. On prend les profits, on dit merci, bien sûr on
+rentre, on dit merci, on rentre, on encaisse et on dit remercie et on continue. Dans un marché à la
+hausse, les acheteurs ont généralement le contrôle et pour que le marché se retourne, les vendeurs
+doivent prendre le contrôle. Cela signifie que les vendeurs doivent entrer et imposer à leur tour
+une offre conséquente. Comment un trader peut-il mesurer le volume de manière à trader à court terme
+avec le Delta ? Le Delta va vous dire ce qu'il faut faire. Vous allez voir qu'au fur et à mesure qu'on va
+étudier le carnet d'ordre, vous allez voir qu'en combinant le Delta avec le point de contrôle et
+avec ce qui va arriver, vous allez voir que vous allez avoir une visibilité sans faille. Le Delta
+mesure la force des enchères du marché. Donc le composant le plus important du Delta, c'est le
+volume. Le volume doit être compris dans le contexte du marché. Le Delta est calculé en
+prenant le volume échangé du côté de l'offre moins le volume échangé du côté de l'offre.
+Ça c'est une erreur mais en fait le Delta c'est simple, c'est juste la différence entre les
+différents volumes. Ça je vous l'ai déjà dit. Alors ici nous avons un Delta qui devient rouge ici,
+en rouge, rouge et puis là il devient très fort. 4000 il passe ici donc ici on doit absolument
+sortir en tout cas prendre notre profit d'autant plus que cette bougie là nous avait déjà alerté
+avec le POC. Alors que le Delta est toujours rouge mais ici il n'y a plus photo, on aurait dû sortir.
+Ici on doit sortir. En port ici, on peut regarder ici que nous avons un Delta qui est rouge, rouge,
+rouge et ici quand il devient vert on sort. Le Delta est négligé par la plupart des traders.
+Les seuls traders qui suivent le Delta sont principalement des traders de carnet d'ordre.
+Le Delta n'est pas utilisé par les traders amateurs car la plupart ne savent même pas
+qu'il existe. Vous vous rendez compte ? Alors quoi ? Non seulement vous savez qu'il existe,
+non seulement vous savez le lire, mais vous allez devenir expert dans la lecture du Delta,
+dans la lecture du point de contrôle, dans la lecture du balayement du carnet d'ordre que vous
+allez apprendre tout à l'heure et vous allez en réalité maîtriser à la perfection la lecture
+du carnet d'ordre. Et quand vous allez combiner ça avec la méthode Belchéa vous n'avez plus
+aucune raison de perdre de l'argent sur le marché. Le Delta vous allez sur les zones du marché
+lorsque les acheteurs et les vendeurs se tarissent ou ils augmentent. Par exemple ici,
+ici vous avez un trade in range et puis tout d'un coup on passe de moins 500 à plus 770 ici et à
+partir de là le Delta reste largement positif. Donc ici on a véritablement un encouragement à
+re-entrer. Il y a quelque chose, excusez-moi, excusez-moi mais c'est pas quelque chose qui s'est
+passé. Donc on voit ici que rien qu'avec le Delta on a une confirmation d'une nouvelle tendance que
+les acheteurs ils sont réellement rentrés, ils sont en jeu. Regardez ici encore sur le S&P on voit
+ici qu'une fois qu'on a basculé de 1800, un Delta positif de 1800 à un Delta de moins 1800,
+ici mais immédiatement on sait que les vendeurs ont pris la main avant de venir casser ici. Et
+ensuite le Delta reste négatif, moins 2000, moins 3000, etc. Regardez c'est très très puissant. Là
+il n'y a pas un seul petit signe, un seul clin d'œil des acheteurs ici. Sur la droite il n'y a pas un
+seul volume bleu comme ici vous voyez. Et là la confirmation c'est le Delta qui vous dit que le
+contrôle il est fait par les vendeurs. Voilà. Alors je voulais vous montrer que le Delta ici
+quitte attentivement la différence d'opinion et plus important encore comment elle évolue.
+D'accord ? Donc le Delta vous montre exactement à quel point il y a un basculement, à quel point
+les vendeurs sont devenus plus forts. Le Delta vous indique quand le marché est calme et que
+le marché facilite les échanges, ce qui est son objectif principal. Regardons ici nous avons
+à partir d'ici vous avez vu là le marché ne fait rien. Il se montre en train d'une range mais quand
+il bascule ici nous avons un signal de vente. Et après on a vraiment l'accélération ici. Ça y est le
+déséquilibre ici mais on avait déjà une idée ici quand le Delta est devenu négatif. L'une des
+principales raisons pour lesquelles tant de traders perdent de l'argent c'est parce qu'ils pensent
+qu'il faut qu'acheter bas et vendre haut. Souvent ils achètent uniquement pour voir que le marché
+continue de baisser ou le contraire ils vendent pour rester hébété de constater que le marché
+continue de monter. Ils sont là et disent mais c'est pas possible. Normalement le marché devrait. À
+partir du moment que vous êtes en train de vous dire le marché devrait faire ceci vous êtes
+cuit. Vous n'êtes pas professionnel. On s'en fout. Nous on regarde ce que le marché est en train de
+faire pas ce qu'il devrait faire. Donc le Delta vous interdit de penser autrement que dans l'instant.
+Ce que font les traders qui réussissent à acheter lorsque le marché monte de la force et
+vendent lorsque le marché est faible. Les traders gagnants achètent haut et vendent plus haut ou
+bien ils vendent bas et rachètent plus bas. Pensez comme un mercenaire. Vous voulez vous battre du
+côté des gagnants. Vous ne voulez pas perdre votre temps à essayer de mener une bataille perdue en
+essayant de choisir des hauts et des bas en essayant de gagner un peu de gloire. Ça fait beaucoup de
+traders cherchent à avoir raison. On s'en fout d'avoir raison. On veut deviner que ça y est le marché
+va se retourner. Ça c'est de la prétention de l'arrogance. Comme on va le voir dans la vidéo sur
+l'humilité, le trader professionnel est humil. C'est pas lui qui devine ce que le marché va
+faire. C'est pas lui qui sait. Non, il ne sait pas. Nous on prend de l'argent sur le marché
+discrètement. Regardez ici nous avons un moment donné on a sur le pétrole ici. Regardez nous
+avons ça a commencé déjà ici avant c'est en train de monter mais le delta est déjà négatif donc
+il n'y a pas de raison d'acheter ici alors qu'on est en négatif. Il aurait été positif, on aurait pu
+acheter mais lorsque le marché fait ça, ça confirme qu'en fait les vendeurs sont bien là.
+Et ensuite regardez ça s'accélère au niveau du delta. Donc le delta ici c'est pour ça que j'ai
+choisi ce graphique. Le delta ici nous a alerté à l'avance qu'en réalité il n'y a pas de véritables
+acheteurs. Voilà donc on va continuer ici. Donc vous commencez à vous habituer un petit peu sur
+ce qui se passe. Regardez ici un basculement sur le delta sur le ZB c'est le bond de trésor de
+30 ans et on voit bien qu'après en passant de moins 550 à 85 à 149 etc 400 mille et quelques là
+c'est vraiment l'accélération dans le delta. Il existe cinq scénarios pour le delta.
+D'accord donc ça je ne vais pas vous les donner c'est simple c'est tellement évident il y a un
+delta très positif ça veut dire que c'est très fort il y a de la forte demande. Un delta moyen ça
+signifie que bon les acheteurs agressifs sont plus nombreux mais pas de manière écrasante d'accord
+et en plus vous avez l'inverse donc ça c'est pas la peine que je vous le montre. Alors le delta ne
+tient pas compte du prix ça c'est très important. Lorsque le delta est négatif et que le prix monte
+soyez prudent. Rappelez-vous de cette phrase. Lorsque le delta est négatif et que le prix
+monte soyez prudent. D'accord c'est ce que je vous ai montré tout à l'heure. Je vous ai montré
+qu'on avait un delta négatif alors que le prix montait. Alors là c'est une phrase importante.
+Lorsqu'un marché est suspendu autour d'un sommet le delta devrait être majoritairement positif.
+Lorsqu'un marché traîne autour d'un creux en bas le delta devrait être principalement négatif.
+Et lorsqu'un marché commence à s'éloigner d'un haut ou d'un bas alors le delta va nous
+alerter et va nous dire c'est qui qui a pris la main. Alors là par exemple sur l'Eurostox on voit
+clairement ici qu'on a basculé ici on a fortement basculé de moins 1500 à plus 700 donc ici on a
+un très fort signal d'achat et ensuite il est confirmé par le delta positif ici il n'y a pas
+de vendeur là il n'y a pas de vendeur là il n'y a pas de vendeur là il n'y a pas de vendeur là ici
+on a un vendeur et on sort. Voilà donc c'était pour vous présenter des exemples du delta la
+puissance du delta. On continue à regarder ici par exemple ici là ce niveau là on a ici un très
+fort signal ici on a déjà la présence des vendeurs bien que cette bougie soit haussière on a en
+réalité un delta négatif qui vient se confirmer ici et puis après ça tombe. Alors ça je vais vous
+montrer je voulais vous montrer ça c'est le dernier graphique que je voulais vous montrer c'est que
+voici on a un marché qui monte et puis tout d'un coup on a un signal baissier qui est donné
+automatiquement par l'ordre de flot et on a un basculement ici c'était des delta positifs à
+partir de là on revient négatif on a l'entrée des vendeurs et puis le delta il se déclenche
+là il se déploie avec force et qui nous confirme que l'on peut rajouter à notre position. Voilà
+c'était sympathique j'espère voilà nous avons fini la leçon 19 et c'était une présentation je
+pense que vous allez vous en souvenir et vous allez vous habituer il y a beaucoup de données comme ça
+si le delta fait ceci écoutez ça j'ai essayé d'être le plus complet possible et j'ai traduit les
+cours de Valtos également pour que vous puissiez avoir également son avis sur cette idée là et
+dans la prochaine leçon nous allons regarder un concept intéressant et inédit dans le carnet
+d'ordre c'est la notion de rejet du prix le fameux drapeau ce drapeau quand tu sors ça veut
+dire que le prix va être rejeté c'est très important si vous êtes en train de faire du
+trading et que vous voyez le drapeau vous savez déjà que vous pouvez prendre vos profits voilà
+c'est c'était sympathique j'espère vous êtes en train de comprendre un peu ce qui se passe la
+vidéo était un peu plus longue que d'habitude mais bon on ne peut pas traiter ce sujet là juste
+comme ça j'ai besoin de vous en parler de vous donner une idée globale pour que vous puissiez
+commencer à comprendre les mécanismes il n'y a pas beaucoup de mécanismes en fait ne vous
+inquiétez pas une fois que vous avez compris le delta le point de contrôle et ces points là après
+c'est bon vous allez les utiliser comme quand vous conduisez une voiture au début quand vous
+conduisez une voiture vous devez faire attention à plein de choses en même temps mais mais à un
+moment donné moi par exemple quand je traite je fais attention à tout ça mais je m'en rends
+presque pas compte comme si je pilote de manière automatique donc je vous rassure même si je vous
+donne beaucoup d'éléments comme ça et vous allez dire mais les gars on est en train de bâtir une
+vie là on est en train de bâtir un système qui va vous permettre d'être indépendant financièrement
+c'est sérieux donc il faut absolument faire des efforts sans effort il n'y a rien donc si vous
+faites pas d'efforts il n'y a aucune possibilité pour que vous puissiez vivre du trading mais si
+vous faites l'effort de comprendre j'essaie de faire de mon mieux pour vous donner les différents
+éléments mais je vous rassure que sur les prochaines vidéos qui arrivent ça va être vraiment que du
+plaisir parce qu'on va appliquer belgiat méthode au canadien tranquillement vous allez voir c'est
+absolument magique c'est le mot voilà je vous donne rendez-vous à la leçon va
