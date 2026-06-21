@@ -8,7 +8,7 @@
 
 ---
 
-## 0.o [S18 · 19/06/2026] TRADEX_KB_TA101 — Serie StockCharts TA 101 (3 fichiers) — P1 · 📥 À TRAITER
+## 0.o [S18 · 19/06/2026] TRADEX_KB_TA101 — Serie StockCharts TA 101 (3 fichiers) — 🟢 INTÉGRÉ → Integration : 2026-06-21 · 15 briques · session S19
 
 **Fichiers archivés :**
 - `02-sources-brutes\playbook\TRADEX_KB_TA101_Fichier1_Epistemologie.md`

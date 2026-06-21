@@ -255,7 +255,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) |
 | Paramètres COG (`COGParams`) | ✅ Figés — période 180, ordre 3, coeffs 0,618/1,618 — backtest daily invalide (S11) — validation réelle = range bars NT8 Phase C |
 | Énergie Belkhayate | 🔒 NON codée (stub) — attendre fin Trading Geek (conflit MFI vs proxy ATR non tranché) |
-| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE — **1 298 règles** (1180 VALIDE / 45 AMBIGU / 54 INVALIDE + 19 Chap4 AT). S19 : ticket 0.c Chap4 AT +19 briques Couche 3 fusionnées. S18 : ticket 0.b Chap5 Belkhayate +14 briques VALIDE (commit b9d3055). 45 AMBIGU dans A_VERIFIER_HUMAIN.md. KB à 92.3%. |
+| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE — **1 313 règles**. S19 : ticket 0.c Chap4 AT +19 briques (Couche 3) + ticket 0.o TA101 StockCharts +15 briques (Couche 3). S18 : ticket 0.b Chap5 Belkhayate +14 briques VALIDE (commit b9d3055). 45 AMBIGU dans A_VERIFIER_HUMAIN.md. |
 | COG backtest hostile GC/HG/ZW | ✅ Fait S11 — 180/3 non validé sur daily (timeframe ≠ range bars) — commit `e45a0fe` |
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
@@ -314,7 +314,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 21/06/2026 (S19) — KB 1298 règles : +19 Chap4 AT (Couche 3) via ticket 0.c S19 · +14 Chap5 Belkhayate (Couche 2) via ticket 0.b S18*
+*Dernière mise à jour : 21/06/2026 (S19) — KB 1313 règles : +15 TA101 StockCharts (Couche 3) via ticket 0.o S19 · +19 Chap4 AT (Couche 3) via ticket 0.c S19 · +14 Chap5 Belkhayate (Couche 2) via ticket 0.b S18*
 
 ---
 

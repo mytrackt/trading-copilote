@@ -3,7 +3,7 @@
     "version": "1.0",
     "model": "claude-sonnet-4-6",
     "created_at": "2026-06-14T20:48:32.197418Z",
-    "last_updated": "2026-06-15T16:16:13.577817+00:00",
+    "last_updated": "2026-06-21",
     "categories": [
       "saisonnalite",
       "correlations",
@@ -189,7 +189,9 @@
         "fallback": 0
       },
       "description": "channel rempli via MANIFESTE + détection transcript_file + transcripts-bruts"
-    }
+    },
+    "total_rules": 1313,
+    "session": "S19"
   },
   "videos": {
     "-OIGv5rLLV8": {
@@ -4863,6 +4865,31 @@
         "categorie": "correlations",
         "confiance": 0.9,
         "note": "[REVALIDE S13] Or comme valeur refuge en cas de chute des marchés US"
+      },
+      {
+        "id": "ratio-relative-performance-inter-marches",
+        "type": "REGLE",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "categorie_kb": "correlations",
+        "domaine": "analyse_intermarche",
+        "sujet": "ratio_performance_relative",
+        "niveau": "avance",
+        "langue": "fr",
+        "titre": "Ratio actif1:actif2 — outil de performance relative inter-marchés",
+        "contenu": "Tracer le ratio actif1:actif2 sur un chart révèle la performance relative entre deux actifs : pente POSITIVE = actif1 surperforme actif2 ; pente NÉGATIVE = actif1 sous-performe ; ligne PLATE = performances similaires. La pente du ratio est calculable automatiquement avec une trendline ou une MA appliquée au ratio. Applications TRADEX (cercle C7 corrélations) : CL:DXY (force pétrole vs dollar) ; GC:DXY (force or vs dollar) ; Copper:Gold (baromètre risk-on/risk-off industriel) ; CL:ES (corrélation risk-on/off énergie). Candidat comme filtre de contexte macro dans le scoring TRADEX. À backtester comme signal de confirmation.",
+        "source_origine": "StockCharts TA101 Partie 17 + Fichier3 §D",
+        "section_source": "Comparison charting & Relative Strength",
+        "mots_cles": [
+          "ratio",
+          "performance_relative",
+          "DXY",
+          "Copper_Gold",
+          "risk_on_off",
+          "intermarche",
+          "correlations",
+          "filtre_macro"
+        ],
+        "date_extraction": "2026-06-21"
       }
     ],
     "timing": [
@@ -7686,6 +7713,77 @@
           "alignement",
           "zone",
           "signal"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "canal-non-touche-borne-faiblesse",
+        "type": "REGLE",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "categorie_kb": "indicateurs_tendance",
+        "domaine": "price_action",
+        "sujet": "signaux_faiblesse_tendance",
+        "niveau": "avance",
+        "langue": "fr",
+        "titre": "Non-touché de la borne du canal : signal avancé de faiblesse de tendance",
+        "contenu": "Dans un price channel (prix borné par deux trendlines parallèles), si en uptrend le prix cesse de toucher la ligne supérieure du canal → signal AVANCÉ de faiblesse de la tendance, retournement possible. Si en downtrend le prix cesse de toucher la ligne inférieure → même alerte. Ce signal précède souvent le BoS. Transposable aux bandes COG de TRADEX : si en tendance le prix ne touche plus la bande externe dans le sens du mouvement, la tendance s'épuise. À backtester sur CL/GC avec les bandes COG.",
+        "source_origine": "StockCharts TA101 Partie 9 + Fichier2 §C",
+        "section_source": "Price channels et signaux de faiblesse",
+        "mots_cles": [
+          "canal",
+          "borne_canal",
+          "faiblesse_tendance",
+          "signal_avance",
+          "COG_bandes",
+          "epuisement"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "fibonacci-set-complet-pas-magique",
+        "type": "DEFINITION",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "categorie_kb": "indicateurs_tendance",
+        "domaine": "analyse_technique",
+        "sujet": "fibonacci",
+        "niveau": "intermediaire",
+        "langue": "fr",
+        "titre": "Fibonacci : set complet 23,6/38,2/50/61,8/161,8 — outil utile, pas magique",
+        "contenu": "Niveaux Fibonacci standards pour retracements et extensions : 23,6%, 38,2%, 50%, 61,8%, 100%, 161,8% (extension). Origine : suite de Fibonacci (1,1,2,3,5,8,13...) → ratio golden phi ≈ 0,618. R.N. Elliott a fait le premier lien avec les mouvements de prix. Mécanisme : phénomène de PSYCHOLOGIE COLLECTIVE (beaucoup d'acteurs réagissent aux mêmes niveaux → prophétie auto-réalisatrice). ⚠️ Ces niveaux sont utiles comme cibles probabilistes de pullback et d'extension, mais NE sont PAS des lois physiques ('presque magiques' = mythe à rejeter). À backtester sur les actifs TRADEX spécifiques (CL, GC, ZW) avant usage en production.",
+        "source_origine": "StockCharts TA101 Partie 14 + Fichier3 §A",
+        "section_source": "Fibonacci / Retracements",
+        "mots_cles": [
+          "fibonacci",
+          "retracement",
+          "extension",
+          "golden_ratio",
+          "phi",
+          "pullback",
+          "psychologie_collective"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "bulkowski-stats-sur-actions-pas-futures",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "indicateurs_tendance",
+        "domaine": "analyse_technique",
+        "sujet": "sources_statistiques",
+        "niveau": "avance",
+        "langue": "fr",
+        "titre": "Bulkowski : source statistique sérieuse sur patterns mais sur actions — re-backtest obligatoire sur futures",
+        "contenu": "Thomas N. Bulkowski (*Encyclopedia of Candlestick Charts*) = seule source connue avec base statistique réelle et méthodologie explicite pour les patterns de bougies (4,7 millions de bougies testées). C'est une référence précieuse pour les DÉFINITIONS rigoureuses des patterns et les classements de fiabilité relative. ⚠️ LIMITATION CRITIQUE : les tests de Bulkowski portent exclusivement sur des ACTIONS, pas sur les futures. Ses statistiques de taux de réussite ne sont pas directement transposables à CL/GC/ES/ZW. Règle TRADEX : consulter Bulkowski pour les définitions de patterns, mais re-backtester impérativement sur l'actif futures cible avant tout usage. Ne jamais citer les taux Bulkowski comme valides pour les futures sans backtest propre.",
+        "source_origine": "StockCharts TA101 Partie 16 + Fichier3 §C",
+        "section_source": "SOURCE STATISTIQUE RÉELLE — Bulkowski",
+        "mots_cles": [
+          "bulkowski",
+          "statistiques_patterns",
+          "actions",
+          "futures",
+          "backtest",
+          "encyclopedie_chandeliers",
+          "taux_fiabilite"
         ],
         "date_extraction": "2026-06-21"
       }
@@ -12527,6 +12625,172 @@
           "entree"
         ],
         "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "at-hypothese-liquidite-futures",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "structure_marche",
+        "domaine": "analyse_technique",
+        "sujet": "hypotheses_validite_AT",
+        "niveau": "fondation",
+        "langue": "fr",
+        "titre": "Hypothèse AT #1 — Liquidité : CL/GC/ES OK, hors RTH affaiblie",
+        "contenu": "L'AT n'est valide que sur des actifs suffisamment liquides (capacité d'échanger rapidement sans déplacer fortement le prix). CL, GC, ES (futures CME) sont parmi les actifs les plus liquides au monde : hypothèse #1 satisfaite en RTH. EXCEPTION : hors heures de marché principales (hors RTH), la liquidité se réduit significativement — l'hypothèse s'affaiblit. Actifs présentant des gaps quasi-quotidiens = titre peu échangé, manipulable → AT non applicable.",
+        "source_origine": "StockCharts TA101 Partie 3 + Fichier1 §D",
+        "section_source": "Les 3 hypothèses de validité de l'AT — Hypothèse 1",
+        "mots_cles": [
+          "liquidite",
+          "futures",
+          "CME",
+          "RTH",
+          "hypothese_validite",
+          "AT"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "at-hypothese-donnees-backadjusted",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "structure_marche",
+        "domaine": "analyse_technique",
+        "sujet": "hypotheses_validite_AT",
+        "niveau": "fondation",
+        "langue": "fr",
+        "titre": "Hypothèse AT #2 — Données back-adjusted obligatoires pour les futures",
+        "contenu": "L'AT suppose l'absence de changements de prix artificiels. Pour les actions : splits et dividendes créent des gaps artificiels qui faussent les indicateurs. Pour les FUTURES : l'équivalent du split/dividende = le rollover de contrat. Les données futures doivent être CONTINUES et BACK-ADJUSTED pour que les indicateurs calculés (COG, MA, ADX, RSI) soient valides. Données non ajustées sur rollover → faux gaps dans les indicateurs → signaux d'achat/vente erronés.",
+        "source_origine": "StockCharts TA101 Partie 3 + Fichier1 §D",
+        "section_source": "Les 3 hypothèses de validité de l'AT — Hypothèse 2",
+        "mots_cles": [
+          "back-adjusted",
+          "rollover",
+          "futures",
+          "donnees_continues",
+          "hypothese_validite",
+          "COG",
+          "MA"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "at-analogie-meteo-stabilite-regime",
+        "type": "REGLE",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "categorie_kb": "structure_marche",
+        "domaine": "analyse_technique",
+        "sujet": "epistemologie_AT",
+        "niveau": "fondation",
+        "langue": "fr",
+        "titre": "Analogie météo : l'AT est plus fiable en conditions de marché stables",
+        "contenu": "L'AT fonctionne comme la prévision météo : (a) prépare au PROBABLE, pas au certain ; (b) plus fiable en conditions STABLES (tendance établie, régime clair) qu'en période de transition/changement de régime ; (c) plus fiable sur timeframe moyen (daily/H4/H1) que sur tick-by-tick ou prédictions très larges ; (d) requiert expertise spécifique à l'actif — les futures CL diffèrent des actions qui diffèrent du forex. Justifie pour TRADEX : le filtre de régime de marché, le choix des timeframes H4/H1, et la nécessité de backtester sur l'actif cible spécifique (CL, GC, ZW, HG).",
+        "source_origine": "StockCharts TA101 Parties 1-2 + Fichier1 §B",
+        "section_source": "L'analogie météo (cadre épistémologique)",
+        "mots_cles": [
+          "analogie_meteo",
+          "conditions_stables",
+          "regime_marche",
+          "timeframe",
+          "filtre_regime",
+          "probabiliste"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "tendance-changement-pic-et-creux",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "structure_marche",
+        "domaine": "price_action",
+        "sujet": "changement_tendance",
+        "niveau": "intermediaire",
+        "langue": "fr",
+        "titre": "Changement de tendance : confirmé par pic ET creux, pas un seul pic isolé",
+        "contenu": "Un changement de tendance haussière est confirmé seulement quand DEUX conditions sont réunies : (1) le nouveau pic est similaire ou INFÉRIEUR au pic précédent ET (2) le creux suivant est similaire ou INFÉRIEUR au dernier creux. Un pic isolé inférieur sans confirmation par le creux = alerte, pas confirmation. Symétrique pour les tendances baissières. Critère mécanique et objectif intégrable dans le détecteur de Break of Structure (BoS) TRADEX. Réduit les faux signaux de changement de tendance.",
+        "source_origine": "StockCharts TA101 Partie 9 + Fichier2 §C",
+        "section_source": "Changements de tendance — définition mécanique",
+        "mots_cles": [
+          "changement_tendance",
+          "BoS",
+          "pic_creux",
+          "HH_HL",
+          "confirmation",
+          "structure_marche",
+          "break_of_structure"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "reversals-tous-variations-bos-volume",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "structure_marche",
+        "domaine": "price_action",
+        "sujet": "patterns_retournement",
+        "niveau": "avance",
+        "langue": "fr",
+        "titre": "Simplification : tous les patterns de retournement = BoS + volume",
+        "contenu": "Insight de parcimonie : tous les patterns de retournement classiques (H&S, double top, triple bottom, V-reversal, rounding bottom, etc.) sont des variations du même phénomène fondamental — changement de structure du marché (Break of Structure) avec confirmation par le volume (bascule du ratio fear/greed). Le type exact du pattern (H&S vs triple top) n'apporte pas de valeur prédictive supplémentaire. TRADEX se concentre sur 1 concept générique (BoS + volume) plutôt que de multiplier les détecteurs de patterns distincts. Réduit la complexité et le risque d'over-fitting.",
+        "source_origine": "StockCharts TA101 Partie 13 + Fichier2 §F",
+        "section_source": "Patterns de retournement — insight de simplification",
+        "mots_cles": [
+          "patterns_retournement",
+          "BoS",
+          "volume",
+          "simplification",
+          "H_S",
+          "parcimonie",
+          "over_fitting"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "gap-mythe-comblement-systematique",
+        "type": "PIEGE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "structure_marche",
+        "domaine": "price_action",
+        "sujet": "gaps",
+        "niveau": "intermediaire",
+        "langue": "fr",
+        "titre": "PIÈGE — Le mythe du comblement systématique des gaps est réfuté",
+        "contenu": "CROYANCE RÉPANDUE FAUSSE : les gaps seraient inévitablement comblés. RÉFUTATION (StockCharts 2024) : les gaps ont peu ou pas d'influence sur l'action des prix des semaines ou des mois après leur formation. Seuls les gaps comblés dans les QUELQUES JOURS suivant leur formation peuvent être significatifs (exhaustion gap à vérifier rapidement). Les gaps intraday temporaires (ouverture gappée puis comblement avant clôture) ne doivent pas être considérés comme ayant plus de signification que la volatilité normale. TRADEX : ne jamais baser une stratégie sur 'le gap sera comblé' comme règle absolue.",
+        "source_origine": "StockCharts TA101 Partie 15 + Fichier3 §B",
+        "section_source": "NUANCE CRITIQUE — contradiction partielle avec Murphy",
+        "mots_cles": [
+          "gap",
+          "mythe_comblement",
+          "piege",
+          "gap_intraday",
+          "exhaustion_gap",
+          "anti_hallucination"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "gap-4-types-classification",
+        "type": "DEFINITION",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "structure_marche",
+        "domaine": "price_action",
+        "sujet": "gaps",
+        "niveau": "intermediaire",
+        "langue": "fr",
+        "titre": "Classification des 4 types de gaps et leur signification",
+        "contenu": "4 types de gaps (espaces vides sur le chart = aucune transaction dans une tranche de prix) : (1) BREAKAWAY GAP : signale un changement de psychologie ; après déclin/base/consolidation prolongée (haussier) ou après avance/top (baissier) ; doit être accompagné d'un volume supérieur à la moyenne → signal réel. (2) COMMON GAP : dans un range ou après mouvement vif ; ne reflète PAS un changement de psychologie — juste volatilité ou déséquilibre temporaire ; peu significatif. (3) CONTINUATION GAP (=measuring/runaway) : près du milieu d'une tendance, confirme sa poursuite. (4) EXHAUSTION GAP : dans le sens d'une tendance étendue ; doit se COMBLER RAPIDEMENT pour être valide → marque souvent la fin de tendance. Sur CL/ES (gaps fréquents post-EIA/week-end) : distinguer breakaway (signal) de common gap (bruit).",
+        "source_origine": "StockCharts TA101 Partie 15 + Fichier3 §B",
+        "section_source": "GAPS — 4 types",
+        "mots_cles": [
+          "gap",
+          "breakaway_gap",
+          "common_gap",
+          "continuation_gap",
+          "exhaustion_gap",
+          "volume",
+          "CL",
+          "ES"
+        ],
+        "date_extraction": "2026-06-21"
       }
     ],
     "macro_evenements": [
@@ -12625,6 +12889,30 @@
         "categorie": "macro_evenements",
         "confiance": 0.95,
         "note": "Le dollar cité comme déterminant du prix"
+      },
+      {
+        "id": "at-hypothese-news-extreme-blocage",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "macro_evenements",
+        "domaine": "analyse_technique",
+        "sujet": "hypotheses_validite_AT",
+        "niveau": "fondation",
+        "langue": "fr",
+        "titre": "Hypothèse AT #3 — News extrême : suspendre les signaux AT",
+        "contenu": "L'AT ne peut pas prédire les événements extrêmes (choc géopolitique majeur, FOMC surprise, crise systémique). Lors d'un tel événement, les fondements philosophiques des signaux AT disparaissent — le marché ne réagit plus selon la psychologie fear/greed habituelle. Règle : attendre patiemment que le chart se stabilise et reflète le 'nouveau normal' avant de reprendre les signaux. Confirme le News Gate TRADEX et le blocage des signaux lors de FOMC/NFP/CPI extrêmes.",
+        "source_origine": "StockCharts TA101 Partie 3 + Fichier1 §D",
+        "section_source": "Les 3 hypothèses de validité de l'AT — Hypothèse 3",
+        "mots_cles": [
+          "news_extreme",
+          "FOMC",
+          "NFP",
+          "blocage_signal",
+          "news_gate",
+          "hypothese_validite",
+          "choc_macro"
+        ],
+        "date_extraction": "2026-06-21"
       }
     ],
     "volume_liquidite": [
@@ -13211,6 +13499,30 @@
           "VSA",
           "essoufflement",
           "participation"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "volume-uptrend-sain-contraction-repli",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "volume_liquidite",
+        "domaine": "price_action",
+        "sujet": "confirmation_volume_tendance",
+        "niveau": "intermediaire",
+        "langue": "fr",
+        "titre": "Santé de tendance par le volume : expansion hausse, contraction repli",
+        "contenu": "Uptrend SAIN : le volume s'étend quand le prix monte, se contracte sur les replis. Downtrend SAIN : le volume s'étend quand le prix baisse, se contracte sur les rebonds. SIGNAL D'ALERTE (divergence négative) : nouveaux plus hauts sur volume déclinant → pression acheteuse diminue → risque de retournement baissier. SIGNAL D'ALERTE (divergence positive) : nouveaux plus bas sur volume contractant + volume s'étendant sur rebonds → possible retournement haussier. Candidat au scoring TRADEX, recoupe VSA (Volume Spread Analysis) et OBV.",
+        "source_origine": "StockCharts TA101 Partie 10 + Fichier2 §D",
+        "section_source": "Confirmation par le volume",
+        "mots_cles": [
+          "volume",
+          "uptrend_sain",
+          "divergence_volume",
+          "VSA",
+          "OBV",
+          "sante_tendance",
+          "signal_alerte"
         ],
         "date_extraction": "2026-06-21"
       }
@@ -15125,6 +15437,53 @@
           "surcharge",
           "overfitting",
           "simplification"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "anti-graal-3-raisons",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "psychologie",
+        "domaine": "epistemologie_trading",
+        "sujet": "anti_infaillibilite",
+        "niveau": "fondation",
+        "langue": "fr",
+        "titre": "Démonstration anti-graal : 3 raisons pour lesquelles un système parfait est impossible",
+        "contenu": "Toute promesse de système de trading infaillible est réfutable par 3 raisons structurelles : (1) LIBRE ARBITRE HUMAIN : le marché est composé de personnes guidées par fear/greed. Un système parfait exigerait que les prix suivent toujours des patterns prévisibles — impossible avec des acteurs humains imprévisibles. (2) AUTO-DESTRUCTION PAR ARBITRAGE : les institutions surveillent les patterns de trading systématique. Dès qu'un système est détecté, il est exploité contre ses utilisateurs, ce qui le compromet et finit par le détruire. (3) PARADOXE DU PARTAGE : un système parfait est inestimable pour un individu mais sans valeur s'il est connu de trop de monde (raison #2). Quelle motivation rationnelle à le partager ? Confirmation indépendante de Chap. 14 TRADEX.",
+        "source_origine": "StockCharts TA101 Partie 2 + Fichier1 §C",
+        "section_source": "La démonstration anti-graal (3 raisons)",
+        "mots_cles": [
+          "anti_graal",
+          "systeme_parfait",
+          "libre_arbitre",
+          "arbitrage",
+          "paradoxe_partage",
+          "infaillibilite",
+          "epistemologie"
+        ],
+        "date_extraction": "2026-06-21"
+      },
+      {
+        "id": "edge-degradation-arbitrage",
+        "type": "REGLE",
+        "fiabilite": "FAIT_STABLE",
+        "categorie_kb": "psychologie",
+        "domaine": "epistemologie_trading",
+        "sujet": "anti_infaillibilite",
+        "niveau": "avance",
+        "langue": "fr",
+        "titre": "Dégradation de l'edge dans le temps par l'arbitrage institutionnel",
+        "contenu": "Corollaire de la raison #2 anti-graal : un edge (avantage statistique) détecté et exploité par des institutions financières est activement joué contre son détenteur originel. Ce mécanisme entraîne la dégradation progressive de l'edge dans le temps, même si les règles n'ont pas changé. Implications pour TRADEX : (a) les performances passées d'une règle ne garantissent pas ses performances futures ; (b) une révision périodique des règles est obligatoire ; (c) les backtests anciens perdent de leur valeur prédictive sur des marchés très suivis.",
+        "source_origine": "StockCharts TA101 Partie 2 + Fichier1 §C",
+        "section_source": "Raison #2 auto-destruction par arbitrage",
+        "mots_cles": [
+          "edge_degradation",
+          "arbitrage",
+          "institutionnels",
+          "backtest",
+          "revision_regles",
+          "performance_passee"
         ],
         "date_extraction": "2026-06-21"
       }
