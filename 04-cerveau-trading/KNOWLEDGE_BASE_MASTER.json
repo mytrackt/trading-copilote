@@ -87,6 +87,90 @@
           }
         ],
         "rules_after": 1265
+      },
+      {
+        "phase": "S18",
+        "ticket": "0.b",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate.md",
+        "couche_kb": 2,
+        "statut": "VALIDE",
+        "audit_score": "14/14 (100%)",
+        "date_integration": "2026-06-20",
+        "nb_regles": 14,
+        "regles": [
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "cog-structure-visuelle",
+            "regle": "Structure visuelle COG Belkhayate : ligne médiane bleue + bandes parallèles rouge/verte. Le COG est composé d'une ligne centrale bleue (régression) et de bandes parallèles supports/résistances dynamiques. Bandes les plus éloignées : rouge haut (surachat présumé), verte bas (survente présumée)."
+          },
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "cog-bandes-nombre-or",
+            "regle": "Bandes COG espacées par multiples du nombre d'or (φ ≈ 1,618) — valeur exacte non publiée, deux reconstitutions tierces divergent (nombre d'or vs 3 écarts-types). Ne jamais affirmer une formule exacte."
+          },
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "cog-logique-mean-reversion",
+            "regle": "Postulat Belkhayate : le prix oscille autour de sa médiane et tend à y revenir (mean reversion). En marché fortement directionnel, le prix peut rester étiré longtemps — la reversion n'est pas une loi universelle."
+          },
+          {
+            "categorie": "indicateurs_momentum",
+            "id_brique": "timing-structure-zones",
+            "regle": "Belkhayate Timing : oscillateur sous le prix en zones neutre / extrême haute / extrême basse. Zone neutre = ne rien faire. Zone extrême = biais directeur. Nombre de zones variable selon le portage (3 à 5)."
+          },
+          {
+            "categorie": "indicateurs_momentum",
+            "id_brique": "timing-biais-directionnel",
+            "regle": "Biais Timing : zone haute → biais vendeur / zone basse → biais acheteur / zone neutre → attendre. Zone intermédiaire (grise) = signal plus faible, stratégie agressive uniquement."
+          },
+          {
+            "categorie": "gestion_risque_entree",
+            "id_brique": "setup-type-confluence",
+            "regle": "Setup type Belkhayate : 3 confluences simultanées requises — (1) prix en bande extrême COG, (2) Timing en zone extrême correspondante, (3) chandelier de retournement confirmatoire. Un signal isolé n'est pas utilisé."
+          },
+          {
+            "categorie": "gestion_position_active",
+            "id_brique": "objectifs-sortie-cog",
+            "regle": "Objectifs Belkhayate : OBJ1 = retour à la médiane (ligne bleue). OBJ2+3 = poursuite vers bandes opposées. Grille d'objectifs pour la sortie progressive d'une position."
+          },
+          {
+            "categorie": "gestion_risque_entree",
+            "id_brique": "filtre-tendance-htf",
+            "regle": "Filtre tendance HTF : ne prendre que les signaux dans le sens de la tendance de fond (timeframe supérieur). Ajout externe à la méthode native — réduit le risque en tendance forte."
+          },
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "confluence-cog-timing-vwap-volume",
+            "regle": "Confluence obligatoire futures CME : COG + Timing + VWAP + volume — jamais signal isolé. Sur GC/CL/ZW/HG, le volume tick est réel, contrairement au Forex. Minimum 2 outils en confluence pour valider."
+          },
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "piege-repainting-cog",
+            "regle": "PIÈGE repainting COG : fenêtre glissante → la courbe se redessine sur le passé. Backtest visuel sur historique = trompeur (trop optimiste). Tester uniquement en forward (temps réel ou démo)."
+          },
+          {
+            "categorie": "gestion_risque_entree",
+            "id_brique": "piege-biais-reversion-tendance-forte",
+            "regle": "PIÈGE méthode réversive en tendance forte : le prix peut rester étiré sans revenir. Un système purement réversif saigne en tendance. Stop-loss obligatoire défini avant toute entrée."
+          },
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "piege-versions-tierces-divergentes",
+            "regle": "PIÈGE versions tierces divergentes : deux indicateurs nommés Belkhayate peuvent signaler différemment (nombre d'or vs 3 écarts-types). Ne jamais supposer leur équivalence sans vérification."
+          },
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "piege-formule-proprietaire",
+            "regle": "PIÈGE formule propriétaire : le calcul exact du COG n'est pas public. Toute formule trouvée sur MT4/TradingView est une reconstitution tierce. Ne jamais affirmer connaître la formule exacte de Belkhayate."
+          },
+          {
+            "categorie": "indicateurs_tendance",
+            "id_brique": "piege-claims-performance-non-prouves",
+            "regle": "PIÈGE claims non prouvés : taux de réussite 80%/90%/95% = arguments marketing sans backtest rigoureux. Le \"95%\" emprunté aux 2 écarts-types Bollinger ne s'applique pas prouvablement aux bandes Belkhayate. Ne jamais citer ces chiffres."
+          }
+        ],
+        "rules_before": 1265,
+        "rules_after": 1279
       }
     ],
     "phase3_transform": {
@@ -7375,6 +7459,70 @@
         "categorie": "indicateurs_tendance",
         "confiance": 0.95,
         "note": "Confirmation explicite de la convergence MM209, MM19 et prix comme première condition."
+      },
+      {
+        "regle": "Structure visuelle COG Belkhayate : ligne médiane bleue + bandes parallèles rouge/verte. Le COG est composé d'une ligne centrale bleue (régression) et de bandes parallèles supports/résistances dynamiques. Bandes les plus éloignées : rouge haut (surachat présumé), verte bas (survente présumée).",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "DEFINITION",
+        "fiabilite": "FAIT_STABLE",
+        "id_brique": "cog-structure-visuelle"
+      },
+      {
+        "regle": "Bandes COG espacées par multiples du nombre d'or (φ ≈ 1,618) — valeur exacte non publiée, deux reconstitutions tierces divergent (nombre d'or vs 3 écarts-types). Ne jamais affirmer une formule exacte.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "DEFINITION",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "id_brique": "cog-bandes-nombre-or"
+      },
+      {
+        "regle": "Postulat Belkhayate : le prix oscille autour de sa médiane et tend à y revenir (mean reversion). En marché fortement directionnel, le prix peut rester étiré longtemps — la reversion n'est pas une loi universelle.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "DEFINITION",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "id_brique": "cog-logique-mean-reversion"
+      },
+      {
+        "regle": "Confluence obligatoire futures CME : COG + Timing + VWAP + volume — jamais signal isolé. Sur GC/CL/ZW/HG, le volume tick est réel, contrairement au Forex. Minimum 2 outils en confluence pour valider.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "REGLE",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "id_brique": "confluence-cog-timing-vwap-volume"
+      },
+      {
+        "regle": "PIÈGE repainting COG : fenêtre glissante → la courbe se redessine sur le passé. Backtest visuel sur historique = trompeur (trop optimiste). Tester uniquement en forward (temps réel ou démo).",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "PIEGE",
+        "fiabilite": "FAIT_STABLE",
+        "id_brique": "piege-repainting-cog"
+      },
+      {
+        "regle": "PIÈGE versions tierces divergentes : deux indicateurs nommés Belkhayate peuvent signaler différemment (nombre d'or vs 3 écarts-types). Ne jamais supposer leur équivalence sans vérification.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "PIEGE",
+        "fiabilite": "FAIT_STABLE",
+        "id_brique": "piege-versions-tierces-divergentes"
+      },
+      {
+        "regle": "PIÈGE formule propriétaire : le calcul exact du COG n'est pas public. Toute formule trouvée sur MT4/TradingView est une reconstitution tierce. Ne jamais affirmer connaître la formule exacte de Belkhayate.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "PIEGE",
+        "fiabilite": "FAIT_STABLE",
+        "id_brique": "piege-formule-proprietaire"
+      },
+      {
+        "regle": "PIÈGE claims non prouvés : taux de réussite 80%/90%/95% = arguments marketing sans backtest rigoureux. Le \"95%\" emprunté aux 2 écarts-types Bollinger ne s'applique pas prouvablement aux bandes Belkhayate. Ne jamais citer ces chiffres.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "PIEGE",
+        "fiabilite": "FAIT_STABLE",
+        "id_brique": "piege-claims-performance-non-prouves"
       }
     ],
     "indicateurs_momentum": [
@@ -7769,6 +7917,22 @@
         "categorie": "indicateurs_momentum",
         "confiance": 0.95,
         "note": "[REVALIDE S13] Divergence volume/prix clairement identifiée comme signal de vente court terme"
+      },
+      {
+        "regle": "Belkhayate Timing : oscillateur sous le prix en zones neutre / extrême haute / extrême basse. Zone neutre = ne rien faire. Zone extrême = biais directeur. Nombre de zones variable selon le portage (3 à 5).",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "DEFINITION",
+        "fiabilite": "FAIT_STABLE",
+        "id_brique": "timing-structure-zones"
+      },
+      {
+        "regle": "Biais Timing : zone haute → biais vendeur / zone basse → biais acheteur / zone neutre → attendre. Zone intermédiaire (grise) = signal plus faible, stratégie agressive uniquement.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "DEFINITION",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "id_brique": "timing-biais-directionnel"
       }
     ],
     "gestion_risque_entree": [
@@ -9163,6 +9327,30 @@
         "categorie": "gestion_risque_entree",
         "confiance": 0.0,
         "note": "Absente de tous les transcripts — hallucination probable"
+      },
+      {
+        "regle": "Setup type Belkhayate : 3 confluences simultanées requises — (1) prix en bande extrême COG, (2) Timing en zone extrême correspondante, (3) chandelier de retournement confirmatoire. Un signal isolé n'est pas utilisé.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "REGLE",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "id_brique": "setup-type-confluence"
+      },
+      {
+        "regle": "Filtre tendance HTF : ne prendre que les signaux dans le sens de la tendance de fond (timeframe supérieur). Ajout externe à la méthode native — réduit le risque en tendance forte.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "REGLE",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "id_brique": "filtre-tendance-htf"
+      },
+      {
+        "regle": "PIÈGE méthode réversive en tendance forte : le prix peut rester étiré sans revenir. Un système purement réversif saigne en tendance. Stop-loss obligatoire défini avant toute entrée.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "PIEGE",
+        "fiabilite": "FAIT_STABLE",
+        "id_brique": "piege-biais-reversion-tendance-forte"
       }
     ],
     "gestion_position_active": [
@@ -9837,6 +10025,14 @@
         "categorie": "gestion_position_active",
         "confiance": 0.9,
         "note": "Minimum égal au range, puis 1.618 (nombre d'or) mentionné pour objectif."
+      },
+      {
+        "regle": "Objectifs Belkhayate : OBJ1 = retour à la médiane (ligne bleue). OBJ2+3 = poursuite vers bandes opposées. Grille d'objectifs pour la sortie progressive d'une position.",
+        "statut": "VALIDE",
+        "source": "TRADEX_KB_Chap5_Methode_Belkhayate",
+        "type": "REGLE",
+        "fiabilite": "ECOLE_DE_PENSEE",
+        "id_brique": "objectifs-sortie-cog"
       }
     ],
     "structure_marche": [

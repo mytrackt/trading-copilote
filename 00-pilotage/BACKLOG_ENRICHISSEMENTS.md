@@ -156,7 +156,8 @@
 
 ---
 
-## 0.b [S16 · 17/06/2026] TRADEX_KB_Chap5_Methode_Belkhayate — P1 · 🔀 À FUSIONNER
+## 0.b [S16 · 17/06/2026] TRADEX_KB_Chap5_Methode_Belkhayate — P1 · 🟢 INTÉGRÉ
+→ Integration : 2026-06-20 · 14 briques · commit S18
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap5_Methode_Belkhayate.md`
 **Source :** Abdelkrim (document interne) — Chapitre 5 méthode Belkhayate, version technique enrichie avec légende fiabilité (🟢 FAIT / 🟡 CONVENTION / 🔵 ÉCOLE / 🔴 NON VÉRIFIÉ)

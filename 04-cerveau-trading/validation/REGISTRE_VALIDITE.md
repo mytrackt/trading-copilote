@@ -48,3 +48,12 @@
 **Notes de prudence (transparence, sans impact score) :**
   - `timing-biais-directionnel` : type DEFINITION défendable (définit le sens de chaque zone) mais frontalier avec REGLE (usage). Conservé DEFINITION conforme à la source §5.4 « Usage selon l'école ».
   - PIEGE en FAIT_STABLE (repainting, formule propriétaire) : conformes (faits documentés) — non déclassés (règle anti-hallucination #4).
+
+### FUSION — [2026-06-20]
+- Briques fusionnées : 14
+- Cible : 04-cerveau-trading/KNOWLEDGE_BASE_MASTER.json
+- Injection dans aggregated_rules : indicateurs_tendance (+8), indicateurs_momentum (+2), gestion_risque_entree (+3), gestion_position_active (+1)
+- Total KB : 1265 → 1279 règles (+14, vérifié)
+- Intégrité : top-level + 108 vidéos préservés ; bloc ajouts_manuels[1] ajouté (ticket 0.b)
+- Backup : KNOWLEDGE_BASE_MASTER.bak_chap5_20260620.json (local, non commité)
+- Ticket : 0.b → 🟢 INTÉGRÉ
