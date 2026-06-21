@@ -136,7 +136,8 @@
 
 ---
 
-## 0.c [S16 · 17/06/2026] TRADEX_KB_Chap4_Analyse_Technique — P1 · 📥 À TRAITER
+## 0.c [S16 · 17/06/2026] TRADEX_KB_Chap4_Analyse_Technique — P1 · 🟢 INTÉGRÉ
+→ Integration : 2026-06-21 · 19 briques · session S19
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap4_Analyse_Technique.md`
 **Source :** Abdelkrim (document interne) — Chapitre 4 "Lire le prix : analyse technique", version technique enrichie avec légende fiabilité (🟢/🟡/🔵/🔴)
