@@ -246,7 +246,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S13 terminée 15/06/2026)
+## ÉTAT ACTUEL (Session S18 terminée 21/06/2026)
 
 | Élément | État |
 |---------|------|
@@ -255,7 +255,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) |
 | Paramètres COG (`COGParams`) | ✅ Figés — période 180, ordre 3, coeffs 0,618/1,618 — backtest daily invalide (S11) — validation réelle = range bars NT8 Phase C |
 | Énergie Belkhayate | 🔒 NON codée (stub) — attendre fin Trading Geek (conflit MFI vs proxy ATR non tranché) |
-| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE — **1 265 règles** (1166 VALIDE / 45 AMBIGU / 54 INVALIDE). S14 : passe3 Sonnet +55 VALIDE récupérés (63 erreurs API retraitées). 45 AMBIGU dans A_VERIFIER_HUMAIN.md. KB à 92.2%. |
+| KB (`KNOWLEDGE_BASE_MASTER.json`) | ✅ CANONIQUE — **1 279 règles** (1180 VALIDE / 45 AMBIGU / 54 INVALIDE). S18 : ticket 0.b Chap5 Belkhayate +14 briques VALIDE fusionnées (commit b9d3055). S14 : passe3 Sonnet +55 VALIDE récupérés (63 erreurs API retraitées). 45 AMBIGU dans A_VERIFIER_HUMAIN.md. KB à 92.3%. |
 | COG backtest hostile GC/HG/ZW | ✅ Fait S11 — 180/3 non validé sur daily (timeframe ≠ range bars) — commit `e45a0fe` |
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
@@ -303,7 +303,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 | Priorité | Fichier | Contenu |
 |----------|---------|---------|
-| 1 | `00-pilotage\_context\README_TRANSITION_TRADEX_S14_20260615.md` | Dernier état de session |
+| 1 | `00-pilotage\_context\README_TRANSITION_TRADEX_S18_20260621.md` | Dernier état de session |
 | 2 | `00-pilotage\DETTE_TECHNIQUE.md` | Bugs à réparer (contexte indispensable) |
 | 3 | `00-pilotage\FEUILLE_DE_ROUTE.md` | Phases du projet |
 | 4 | `00-pilotage\GARDE_FOUS_PROPOSES.md` | 32 garde-fous trading |
@@ -314,7 +314,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 15/06/2026 (S14) — KB à 92.2% : 1166 VALIDE / 45 AMBIGU / 54 INVALIDE (+55 VALIDE via passe3 Sonnet S14)*
+*Dernière mise à jour : 21/06/2026 (S19) — KB à 92.3% : 1180 VALIDE / 45 AMBIGU / 54 INVALIDE (+14 VALIDE via ticket 0.b Chap5 Belkhayate S18)*
 
 ---
 
