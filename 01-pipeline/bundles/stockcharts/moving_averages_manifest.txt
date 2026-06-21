@@ -1,0 +1,23 @@
+# Manifest images pour moving_averages (source : stockcharts)
+# Bilan : 6 OK | 0 ambigue(s) | 0 non resolue(s) | 14 decorative(s) ignoree(s)
+
+image_01.png | alt : Chart from StockCharts.com showing a simple moving average ( | section : What Is a Moving Average? | OK
+(decorative) | alt vide | section : What Is a Moving Average? | IGNOREE
+(decorative) | alt vide | section : The Lag Factor in Moving Averages | IGNOREE
+(decorative) | alt vide | section : The Lag Factor in Moving Averages | IGNOREE
+(decorative) | alt vide | section : EMA Accuracy | IGNOREE
+image_02.png | alt : Chart from StockCharts.com shows the 50-day EMA declined mor | section : Simple vs Exponential Moving Averages | OK
+image_03.png | alt : Chart from StockCharts showing that moving averages can be a | section : Base Data | OK
+(decorative) | alt vide | section : Base Data | IGNOREE
+(decorative) | alt vide | section : Identifying Trends | IGNOREE
+image_04.png | alt : Chart from StockCharts.com showing moving average crossovers | section : Double Moving Average Crossovers | OK
+image_05.png | alt : Chart from StockCharts.com showing that adding a MACD indica | section : Double Moving Average Crossovers | OK
+(decorative) | alt vide | section : Price Crossovers | IGNOREE
+(decorative) | alt vide | section : Identifying Support and Resistance | IGNOREE
+(decorative) | alt vide | section : Using with SharpCharts | IGNOREE
+(decorative) | alt vide | section : Using with SharpCharts | IGNOREE
+(decorative) | alt vide | section : Using with SharpCharts | IGNOREE
+image_06.png | alt : Chart from StockChartsACP with moving averages overlaid on p | section : Using with StockChartsACP | OK
+(decorative) | alt vide | section : Using with StockChartsACP | IGNOREE
+(decorative) | alt vide | section : Using With P&F Charts | IGNOREE
+(decorative) | alt vide | section : Using With P&F Charts | IGNOREE

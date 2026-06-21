@@ -1,0 +1,180 @@
+bonjour à cette vidéo qui est très importante sur le marché de l'or et là
+aujourd'hui j'ai mis mon sweatshirt préféré celui qui me porte chance tout le temps
+je le porte dans des moments très importants aujourd'hui j'ai quelque chose d'important
+et j'en profite pour vous faire une vidéo et sur la chasse attendez je vais vous le mettre ici
+sur la chasse au stop loss on va le faire comme ça la chasse au stop loss
+voilà la chasse au stop loss alors il faut savoir que sur les marchés on n'a pas tous les mêmes
+data il faut savoir que les professionnels les algorithmes de trading ils vont avoir des
+data sur l'or en particulier que nous n'avons pas par exemple on peut le montrer par exemple
+ils vont pouvoir voir où sont les stop loss des traders amateurs pourquoi il n'y a pas
+de stop loss des traders professionnels il y en a mais très peu pourquoi parce que les grands fonds
+qui rentrent sur le marché de l'or en particulier ils ne mettent pas de stop loss eux ils ont dit
+milliard à mettre sur le marché ils rentrent comme on va le voir dans cette vidéo pour aller
+chercher de la liquidité pour aller chercher à être exécuté et ensuite ils remontent ils vont
+descendre pour chercher la liquidité ils mangent les stop loss des amateurs et ils remontent
+bon c'est une vidéo qui je pense pas qu'il y ait beaucoup de gens qui aient fait cette vidéo là
+sur les stop loss mais lorsque vous allez comprendre le mécanisme vous allez commencer
+à réfléchir non pas comme un trader amateur mais vous allez intervenir désormais comme un vrai
+professionnel ou comme un algorithme de trading il va falloir vous mettre à la place des algorithmes
+de trading alors je là tout de suite je vais commencer par vous montrer où il y a les stops
+les stops ils sont ils vont être juste par exemple là vous voyez j'ai tracé ici un support sur le
+marché de l'or en cinq minutes et les stops ils vont être juste en bas dans cette zone là ici
+voilà ici là il va y avoir des stops alors on va on va on va essayer de
+de matérialiser ça voilà ici là là et en haut ici également dans toute cette partie là
+toute cette partie là oups oups oups oups là voilà ici là voilà toute cette partie en bleu ici et
+sur cette partie là il y a des stops de ceux qui ont acheté et ils raisonnent de la façon suivante
+ils disent nous on a acheté et on a un support si le support casse on va sortir ça veut dire on va
+acheter ici et là on va vendre pour sortir et en fait quand ils ont des stops comme ça les algorithmes
+de trading ils les voient ils voient que c'est des gens ils ont des stops ici donc ils vont
+ils vont baisser le marché pour venir toucher les stops et le marché accélère à la baisse comme ça
+pa pa pa pa pa pa et ensuite le marché remonte un petit peu et on a encore des stops ici et quand
+c'est cassé regardez le marché tombe violemment et en réalité cette chasse au stop loss va vous
+aider à comprendre comment fonctionne vraiment les marchés on n'a pas idée que ceux qui sont là
+en face des amateurs en vérité ce sont des professionnels et lorsque vous comprenez ça vous
+allez voir que par exemple sur la journée sous toutes les journées vous allez pouvoir regarder
+que il va y avoir des mouvements pour aller déclencher les stops et ensuite le marché
+revient vous l'avez vu plusieurs fois sur pratiquement tous les marchés et il faut comprendre
+qu'est ce qui se passe lorsque les algorithmes sont allés chercher les stops en fait ils sont
+allés chercher une exécution certaine donc quand ils viennent ici et qu'ils sont exécutés ces gens
+là ils ont vendu mais ils ont vendu acquis ils ont vendu à des algorithmes qui ont acheté pendant
+que ça baisse d'accord et l'idée générale c'est que ces gens là ils vont chercher les stops et
+après quand les marchés vont remonter ils peuvent investir 5 millions 10 millions à aller chercher
+les stops et simplement 2 millions 3 millions pour remonter le marché parce qu'il n'y a plus
+personne donc c'est plus facile de remonter le marché quand il n'y a plus personne et ils
+vont investir moins d'argent que ce qu'il aura ça leur a coûté d'aller chercher les stops et l'un
+en l'autre comme ils font des aller-retour comme ça sur le carnet d'or aller chercher les stops
+des amateurs à la fin de la journée ils ont fait un grand volume et ils sont payés par les marchés
+pour faire des grands volumes à coût de millions de dollars et dans l'ensemble dans
+leur statistique ils ont plus à gagner qu'à perdre excusez moi bon alors regardons un peu
+ce qui s'est passé ici sur ce marché là par exemple l'or on a ici un support on casse le
+support avec force ici donc le marché tombe donc là il y a des stops qui sont touchés donc le
+marché il tombe rapidement et puis vous voyez ils sont revenus donc tous ceux là qui ont ces
+gens là ici ils revoient le marché tombe monté comme ça et se repartit encore regardez ça on fait
+ça fait ça fait ça regardez c'est extraordinaire enfin un deux trois quatre là en réalité on a
+pratiquement pas bougé ici mais on a gagné de l'argent parce que on a fait ce mouvement
+là qui n'est pas du tout fait par les algorithmes par les algorithmes amateurs par les amateurs ils
+font pas ça donc il faut savoir déterminer exactement où il y a l'espace et lorsque vous
+le savez vous allez réfléchir différemment vous allez pas dire tiens là j'achète et si ça casse
+je sors parce que quand vous pensez comme ça vous pensez comme un amateur un professionnel
+il ne dit pas si ça casse je sors il dit pas ça il sait que les algorithmes sont en train d'aller
+chercher l'espace donc il faut savoir lire dans les volumes ce qui se passe réellement dans
+l'esprit des algorithmes de trader par exemple on va voir un exemple ici concret regardez ici le
+marché tombe ici on voit bien le marché en train de tomber et puis on a un très grand volume
+après cette impulsion baissière là on sait que là on sait la méthode belgéa vous a appris
+que lorsqu'il y a ce mouvement là c'est un mouvement d'impulsion baissière vous le voyez il a cassé
+ici le support et il y a eu enfin un grand volume ici ça signifie qu'il y a eu une chasse sur
+les stop loss total et qu'il n'y a plus personne sur le carnet d'ordre c'est ça que je vous devais
+comprendre lorsque il n'y a plus personne ça veut dire qu'il n'y a plus d'ordre limite qui sont en
+train d'attendre parce que les stop loss c'est quoi un stop loss c'est un ordre qui est mis sur le
+marché et qui espère ne pas être touché mais il a le très grand désavantage d'être vu pas par
+nous par les traders qui n'ont pas accès à ces informations mais par les traders les algorithmes
+de trading et par les high frequency trading etc qui vont voir ça tout à l'heure je vais vous
+savez quand vous mettez le carnet d'ordre l'équivalent du bookmap sur l'india trader
+quand vous le mettez vous pouvez voir les ordres au marché vous savez ça je pense que vous le
+savez je vais peut-être faire une vidéo sur le carnet d'ordre même si je suis pas très chaud
+pour faire cette vidéo parce que c'est pas tout le monde qui a la licence sur l'india trader c'est
+pas tout le monde qui a cet outil là moi j'aime bien enseigner comment gagner de l'argent sur l'or
+et sur les marchés avec un minimum d'outils payants vous comprenez mais je vais quand même
+un moment je compte faire un cours sur le carnet d'ordre sur l'or en particulier pour vous montrer
+comment ça fonctionne en tout cas je fais juste cette parenthèse pour vous dire que lorsque vous
+avez un mouvement baissier comme ça je le souligne parce que c'est une configuration qui
+va vous faire gagner beaucoup d'argent et vous allez toujours rentrer avec une grande confiance
+lorsque vous avez un mouvement comme ça d'impulsion ok et vous voyez qu'à la fin de ce mouvement là
+en tout cas vous voyez qu'il y a un très grand volume qui arrive ici vous allez attendre le
+prochain volume parce qu'il se peut que le prochain volume soit encore beaucoup plus important que
+celui là donc c'est pas encore vraiment la fin mais lorsque vous avez un volume vert qui vient se
+mettre ici alors là vous savez que c'est le début de la hausse du retournement de tendance parce
+qu'il n'y a plus de stop loss ici à manger on pouvait être sûr que ici il n'y a plus rien à manger
+en stop loss les stop loss c'était là dans cette zone là après le marché remonte tranquillement
+d'accord regardez regardez comme c'est très important de savoir comment lire les marchés
+je regarde beaucoup de traders qui donnent des cours sur youtube et je suis très étonné de voir
+que beaucoup de traders qui ont beaucoup de followers et qui sont très connus ils vont
+donner un cours sur le sur les marchés ils ne vont jamais montrer le volume c'est je suis très
+étonné parce que ça ne sert à rien de faire des cours que sur le prix les configurations des prix
+etc les patterns price action ils disent l'action des prix mais l'action des prix ne vaut rien si
+vous ne savez pas ce qui se passe au niveau des volumes mais comme vous le voyez ici nous grâce
+à ce volume là on sait à l'avance qu'il n'y a plus rien dans le carnet d'or et que maintenant les
+algos vont remonter tranquillement mais ça on le sait à l'avance donc on va retourner on va aller
+voir la journée sur par exemple l'euro contre le dollar regardez hier j'avais montré ça dans
+mon life et je voudrais montrer ça également dans le cours dans le cours sur le trading regardez
+ici on avait déterminé je vous avais appris à déterminer des zones importantes ici sur l'euro
+contre le dollar on a tracé ici ce qui était d'abord un support puis une fois que c'est cassé
+c'est devenu une résistance et encore une fois quand c'est cassé ici avec force et avec volume
+comme vous le voyez ici d'accord c'est très important vous voyez là là on a du volume qui
+est arrivé ici et donc là on avait une cassure plus du volume plus une belle bougie donc là on
+pouvait et je l'avais dit que on pouvait effectivement même si c'était tard on avait
+quand même un signal intéressant d'impulsion bon mais ce que je veux vous montrer c'est que
+lorsque vous avez cette ligne là ici vous voyez cette ligne là voilà cette ligne là
+quand vous avez cette cassure avant qu'il y ait cette cassure vous avez tracé ici et vous êtes
+dans cette zone ici et vous savez quelque chose de très important vous savez que le marché s'il
+casse ici avec force et avec volume alors on va avoir une impulsion vers le bas mais aujourd'hui
+je vous ajoute une information c'est que c'est ici qu'il y a les stocks dans cette zone là qui a
+les stocks et regardez comment le marché se comporte regardez il casse il vient chercher
+tous les stocks et ensuite on a une information que la méthode belle créate est la seule aujourd'hui
+à ma connaissance qui est capable de vous annoncer à l'avance et au meilleur moment possible je
+tiens à le montrer parce que je suis fier de ça regardez on vient chercher les stocks et ici
+nous avons une indication que c'est vraiment la fin de la chasse au stock là nous avons une belle
+bougie ici avec une mèche inférieure je répète toujours avec un grand volume très grand volume
+et ensuite on a des petits volumes ici et on n'a plus grand chose à partir de là on sait qu'on
+doit maintenant le marché va se retourner donc c'est la fin de la chasse au stock et finalement
+regardez ceux qui ont accumulé ici des ordres d'achat je dis bien achat ce sont c'était difficile
+ceux qui ont acheté acheté acheté acheté acheté ils sont sortis ici au fur et à mesure que ça monte
+ils sont en train de vendre ici ici ici au fur et à mesure ça paraît bizarre même moi j'ai mis
+beaucoup de temps à réaliser ça et j'ai mis des années à comprendre ce mécanisme qui en fait à
+l'inverse de ce que nous on pense nous on pense que quand ça casse ici hop il faut sortir parce
+que c'est un support mais en fait les supports et les résistances sont utilisés par les algorithmes
+de trading parce qu'ils savent comment nous comment les amateurs pas nous nous sommes des
+professionnels maintenant ce sont des champions la méthode belgé en fait ils savent que lorsqu'il
+y a cassure ils vont commencer à toucher les stocks ils les voient ils les voient les stocks donc
+c'est extraordinaire donc alors là ils ont accumulé et puis au fur et à mesure c'est ici qu'ils
+commencent à vendre c'est quand ils ont cassé ce niveau là qu'ils commencent à vendre pour
+encaisser leur profit voilà donc je voulais profiter de cette vidéo là pour vous montrer
+des choses intéressantes sur attend on va regarder ici regarder ici par exemple aujourd'hui sur
+l'euro contre le dollar je vous ai toujours dit que l'euro contre le dollar entre huit heures
+et neuf heures heure marocaine et aujourd'hui heure de france il faut faire attention il va y avoir
+un bon mouvement qu'on peut prendre d'accord donc vous voyez ici on a quand même ici quelque
+chose d'intéressant vous voyez là vous voyez donc là et cette période c'est entre huit heures
+et neuf heures donc et on a une belle bougie ici voilà on a une très belle bougie ici qui est bien
+supérieure à tout ce qui s'est passé ici on a du volume vous voyez on a un grand volume qui arrive
+mais le volume qui arrive c'est le vert c'est sur cette petite cette petite bougie là d'accord donc
+il y a une accumulation en fait tous ceux qui ont voulu acheter immédiatement ils ont été
+exécutés d'accord là regardez ici il y a un grand volume attendez je vous montrer
+regardez là on a un grand volume ici très grand par rapport à tout ce qui s'est passé ici mais
+la bougie est petite cela signifie que toutes les personnes qui ont voulu acheter tous les
+ordres d'achat ici ont été immédiatement immédiatement exécutés le marché n'a pas
+pu s'étirer ça c'est un très grand signe en fait lorsque vous avez un mouvement comme ça vous
+pouvez anticiper une accélération vers le sens contraire et là c'est une confirmation comme quoi
+on a d'abord cassé ce support là on est rentré pour aller chercher des stops et on a le volume
+qui vient aussi ici qui vient confirmer que ça c'est ce qu'on appelle l'impulsion belrere ça
+c'est une impulsion et le marché tombe maintenant alors on devrait sortir ici moi je serais sorti
+ici avec cette bougie là et ce volume là important on aurait pu sortir ici mais en
+temps réel le marché quand même continue à pousser vers le bas donc l'euro est poussé
+vers le bas encore pour cette matinée de vendredi 20 novembre donc ce cours là pour le résumer
+c'est un cours destiné à vous faire réfléchir sur les endroits où il y a les stops et les
+stops vous pouvez les voir on va revenir encore sur des endroits critiques importants regardez
+par exemple dans cette zone là ici une dernière fois je prends un exemple au hasard comme ça
+d'accord pour vous montrer que lorsque vous avez ici pratiquement triple top 1 2 3 mais
+que ça monte pas vraiment alors ça c'est un frein cette situation est un frein à la hausse
+techniquement graphiquement c'est un frein et ensuite on a cette zone là qu'on peut appeler
+l'île du cou mais en fait ici il ya beaucoup de stops et ça vient et ça s'écroule une fois
+qu'on a cassé ici avec ce volume là qui est bien supérieur à tout ce qui s'est passé jusqu'à
+présent ici dans cette zone là on a enfin un vrai volume ici qui vient nous annoncer ici même
+vient nous annoncer l'impulsion Belkhaya il n'y a pas de doute ici maintenant vous le voyez
+voilà ici vous voyez le volume à quoi ça correspond ça correspond à ce volume là ici
+donc voilà voilà une situation importante et là vous croyez qu'en fait le marché descend
+parce qu'il va descendre jusqu'en bas non là pendant que ça descend les algorithmes sont en train
+d'acheter alors que ça baisse ça semble étonnant mais c'est la vérité ça descend comme ça on vient
+on rebondit sur cette zone là boum et là on commence à le sentir que c'est la fin puisque
+ici on a un très grand volume donc c'est la fin maintenant de la chasse au stop c'est la
+rappelez-vous de ça c'est la fin de la chasse au stop et avec ces deux bougies là alors là on
+sait que avec avec le premier vert ici c'est un signal de sortie très important après avoir 5 6
+suies rouges et quand vous avez un vert et que le vert est supérieur à son précédent rouge alors
+vous avez un signal d'achat sur les marchés voilà donc c'était une petite vidéo qui vous
+enseigne une autre façon de voir les marchés vous allez commencer maintenant à détecter plus
+facilement là où il y a les stops et vous allez pouvoir mesurer jusqu'à quelle amplitude les
+algorithmes vont aller étrangler les gens et prendre les stops une fois qu'ils ont pris les
+stops ils ont plus personne ils ont plus personne en haut donc quand ils vont remonter ils vont
+remonter facilement voilà donc je vous donne rendez-vous à la prochaine vidéo où je vais
+vous montrer une stratégie qui fonctionne fantastique fantastiquement bien sur l'or mais
+que vous pouvez également utiliser sur n'importe quel marché financier et n'importe quelle unité de temps
+et
