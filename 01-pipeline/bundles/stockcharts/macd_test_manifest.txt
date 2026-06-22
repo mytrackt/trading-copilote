@@ -1,0 +1,16 @@
+# Manifest images pour macd_test (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/macd-moving-average-convergence-divergence-oscillator
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : What Is the Moving Average Convergence/Divergence Oscillator | section : What Is the Moving Average Convergence/Divergence Oscillator? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.jpg | label : StockCharts MACD interpretation | section : Oscillator | CERTIFIE (accord .md + HTML)
+image_03.png | label : Signal Line Crossovers | section : Signal Line Crossovers [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Centerline Crossovers | section : Centerline Crossovers [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Centerline Crossovers | section : Centerline Crossovers [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Centerline Crossovers | section : Centerline Crossovers [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Divergences | section : Divergences [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Divergences | section : Divergences [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Divergences | section : Divergences [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : Using MACD With SharpCharts | section : Using MACD With SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_11.png | label : Using MACD With SharpCharts | section : Using MACD With SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

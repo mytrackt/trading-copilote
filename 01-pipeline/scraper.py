@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Agent 1 - Scraper TRADEX-AI (Pipeline KB Option B) - v2 DOUBLE ANCRAGE.
+Agent 1 - Scraper TRADEX-AI (Pipeline KB Option B) - v3 SECTION FALLBACK.
 
 Probleme resolu : sur ChartSchool (GitBook), le .md contient le LABEL certifie
 (figcaption) mais une adresse image /files/ID NON telechargeable (404). Le HTML
@@ -12,6 +12,12 @@ Solution (certification a deux sources) :
             (source 2, ecrite par l'auteur, liee localement a l'image)
   - Une image n'est CERTIFIEE que si label .md == label HTML (meme rang).
   - Tout desaccord / comptes differents -> A VERIFIER MANUELLEMENT (jamais devine).
+
+PATCH v3 - SECTION FALLBACK (ARCH-15) :
+  - Pattern A : figcaption non vide -> comportement v2 inchange.
+  - Pattern B : figcaption vide dans .md ET HTML -> label = titre section ## parent.
+  - Sections generiques blacklistees -> label reste vide (decorative).
+  - Garantie non-regression : Pattern A non touche.
 
 Usage : py scraper.py "<URL>" <source> <nom_page>
 """
@@ -40,6 +46,12 @@ MOTS_CLES = [
 EXT_PAR_TYPE = {
     "image/png": ".png", "image/jpeg": ".jpg", "image/jpg": ".jpg",
     "image/gif": ".gif", "image/webp": ".webp", "image/svg+xml": ".svg",
+}
+
+# Titres de section trop generiques pour servir de label KB (ARCH-15)
+SECTIONS_BLACKLIST = {
+    "examples", "example", "conclusion", "summary", "the bottom line",
+    "suggested scans", "notes", "introduction", "overview", "references",
 }
 
 
@@ -90,32 +102,54 @@ def nettoyer_titre(t):
     return re.sub(r"\s+", " ", t).strip()
 
 
+def section_valide(titre):
+    """Retourne True si le titre de section est exploitable comme label KB.
+    
+    Un titre blackliste (trop generique) n'est pas un label utile.
+    """
+    return titre.lower().strip() not in SECTIONS_BLACKLIST
+
+
 def labels_md(texte):
     """Source 1 : labels figcaption des blocs <figure> du .md, dans l'ordre.
 
-    Renvoie une liste de dict : {label, section} (label '' = decorative).
+    Pattern A : figcaption non vide -> label = figcaption (comportement v2).
+    Pattern B : figcaption vide -> label = titre section ## parent si valide,
+                sinon '' (decorative).
+    Renvoie une liste de dict : {label, section, pattern}.
     """
     out = []
     for m in re.finditer(r"<figure>.*?</figure>", texte, re.DOTALL):
         bloc = m.group(0)
         cap = re.search(r"<figcaption>(.*?)</figcaption>", bloc, re.DOTALL)
-        label = normaliser(re.sub(r"<[^>]+>", " ", cap.group(1))) if cap else ""
+        label_cap = normaliser(re.sub(r"<[^>]+>", " ", cap.group(1))) if cap else ""
+
+        # Chercher le dernier titre ## (et sous-niveaux) avant cette figure
         section = "(aucune section)"
         for h in re.finditer(r"^#{1,4}\s+(.*)$", texte, re.MULTILINE):
             if h.start() < m.start():
                 section = nettoyer_titre(h.group(1))
             else:
                 break
-        out.append({"label": label, "section": section})
+
+        if label_cap:
+            # Pattern A : figcaption presente -> comportement v2 inchange
+            out.append({"label": label_cap, "section": section, "pattern": "A"})
+        else:
+            # Pattern B : figcaption vide -> fallback titre section si valide
+            if section_valide(section) and section != "(aucune section)":
+                out.append({"label": section, "section": section, "pattern": "B"})
+            else:
+                out.append({"label": "", "section": section, "pattern": "B"})
     return out
 
 
 def images_html(url_html):
     """Source 2 : (vraie_url, label) du HTML rendu, dans l'ordre source.
 
-    Regle d'ancrage local : chaque image de contenu (data-testid=zoom-image)
-    prend la legende <figcaption> qui la suit IMMEDIATEMENT. Si le marqueur
-    suivant n'est pas une legende -> label '' (decorative).
+    Pattern A : figcaption non vide -> label = figcaption (comportement v2).
+    Pattern B : figcaption vide -> label = dernier titre ## vu avant l'image
+                dans le flux HTML, si valide. Sinon ''.
     """
     print(f"[3] Lecture du HTML rendu (vraies URL) : {url_html}")
     r = requests.get(url_html, headers=HEADERS, timeout=TIMEOUT)
@@ -123,18 +157,50 @@ def images_html(url_html):
         print(f"    ATTENTION : HTML HTTP {r.status_code}.")
         return None
     html = r.text
+
+    # Tokenisation : titres ## , images zoom, figcaptions
     toks = []
-    motif = r'data-testid="zoom-image"[^>]*src="([^"]+)"|<figcaption[^>]*>(.*?)</figcaption>'
+    motif = (
+        r'<h[1-4][^>]*>(.*?)</h[1-4]>'                          # titres
+        r'|(<img data-testid="zoom-image"[^>]*>)'              # tag image complet
+        r'|<figcaption[^>]*>(.*?)</figcaption>'                  # legendes
+    )
     for m in re.finditer(motif, html, re.DOTALL):
-        if m.group(1):
-            toks.append(("I", htmllib.unescape(m.group(1))))
+        if m.group(1) is not None:
+            toks.append(("H", nettoyer_titre(m.group(1))))
+        elif m.group(2) is not None:
+            tag = m.group(2)
+            # PATCH v3.1 (Option 2 - ARCH-15b) : ne garder que les images de
+            # CONTENU. Les images decoratives repetees (separateurs/icones) sont
+            # rendues en inline (class="inline ...") ; les vraies images de
+            # contenu sont en block. On ignore les inline pour aligner le compte
+            # HTML sur les blocs <figure> du .md (qui excluent deja ces images).
+            if re.search(r'class="[^"]*\binline\b', tag):
+                continue
+            src_m = re.search(r'src="([^"]+)"', tag)
+            if src_m:
+                toks.append(("I", htmllib.unescape(src_m.group(1))))
         else:
-            toks.append(("C", normaliser(re.sub(r"<[^>]+>", " ", m.group(2)))))
+            toks.append(("C", normaliser(re.sub(r"<[^>]+>", " ", m.group(3)))))
+
     images = []
+    last_section = "(aucune section)"
     for i, (t, v) in enumerate(toks):
-        if t == "I":
-            label = toks[i + 1][1] if i + 1 < len(toks) and toks[i + 1][0] == "C" else ""
-            images.append({"url": v, "label": label})
+        if t == "H":
+            last_section = v
+        elif t == "I":
+            # Recuperer la figcaption qui suit immediatement (Pattern A)
+            cap_label = toks[i + 1][1] if i + 1 < len(toks) and toks[i + 1][0] == "C" else ""
+            if cap_label:
+                # Pattern A : figcaption presente
+                images.append({"url": v, "label": cap_label, "pattern": "A"})
+            else:
+                # Pattern B : fallback section
+                if section_valide(last_section) and last_section != "(aucune section)":
+                    images.append({"url": v, "label": last_section, "pattern": "B"})
+                else:
+                    images.append({"url": v, "label": "", "pattern": "B"})
+
     print(f"    {len(images)} image(s) de contenu trouvee(s) dans le HTML.")
     return images
 
@@ -205,6 +271,7 @@ def scraper(texte, source, nom_page, url_html):
         for i in range(len(src1)):
             md_label = src1[i]["label"]
             section = src1[i]["section"]
+            pattern = src1[i]["pattern"]
             html_label = src2[i]["label"]
             url_img = src2[i]["url"]
 
@@ -235,15 +302,17 @@ def scraper(texte, source, nom_page, url_html):
                 continue
             numero = numero_essai
             nb_cert += 1
+            # Indiquer Pattern B dans le manifest pour tracabilite
+            tag_pattern = " [SECTION-FALLBACK]" if pattern == "B" else ""
             lignes.append(
-                f"{nom} | label : {md_label[:60]} | section : {section} "
-                f"| CERTIFIE (accord .md + HTML)")
+                f"{nom} | label : {md_label[:60]} | section : {section}"
+                f"{tag_pattern} | CERTIFIE (accord .md + HTML)")
 
     chemin_manifest = os.path.join(dossier, f"{nom_page}_manifest.txt")
     with open(chemin_manifest, "w", encoding="utf-8") as f:
         f.write(f"# Manifest images pour {nom_page} (source : {source})\n")
         f.write(f"# Page : {url_html}\n")
-        f.write(f"# Methode : double ancrage (.md figcaption + HTML legende locale)\n")
+        f.write(f"# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)\n")
         f.write(f"# Bilan : {nb_cert} certifiee(s) | {nb_manuel} a verifier | "
                 f"{nb_deco} decorative(s)\n\n")
         f.write("\n".join(lignes))
@@ -274,7 +343,7 @@ def main():
         sys.exit(1)
     url, source, nom_page = sys.argv[1], sys.argv[2], sys.argv[3]
     print("=" * 64)
-    print(f"AGENT 1 - Scraper TRADEX v2 | source={source} | page={nom_page}")
+    print(f"AGENT 1 - Scraper TRADEX v3 | source={source} | page={nom_page}")
     print("=" * 64)
     url_md, url_html = construire_url_md(url)
     texte = telecharger_markdown(url_md)
