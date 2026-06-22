@@ -260,6 +260,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
 | Trading Geek transcription | ⏳ 38/113 — en cours en background |
+| Scraper KB (`01-pipeline\scraper.py`) | ✅ **v3.1 VALIDÉ** 22/06/2026 (commit `ee0f679`) — double ancrage (.md figcaption + HTML legende) + section-fallback + filtre images inline. 3 tests PASS : MA 14 / RSI 16 / MACD 11 certifiees, 0 a verifier. ⚠️ section-fallback produit des labels non uniques (desambiguisation cote Agent 2). |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
@@ -314,7 +315,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 21/06/2026 (S19) — KB 1313 règles : +15 TA101 StockCharts (Couche 3) via ticket 0.o S19 · +19 Chap4 AT (Couche 3) via ticket 0.c S19 · +14 Chap5 Belkhayate (Couche 2) via ticket 0.b S18*
+*Dernière mise à jour : 22/06/2026 — Scraper KB v3.1 VALIDÉ (commit `ee0f679`) : filtre images inline + section-fallback, 3 tests PASS (MA 14 / RSI 16 / MACD 11 certifiees, 0 a verifier). Précédent : 21/06/2026 (S19) — KB 1313 règles : +15 TA101 StockCharts (Couche 3) via ticket 0.o S19 · +19 Chap4 AT (Couche 3) via ticket 0.c S19 · +14 Chap5 Belkhayate (Couche 2) via ticket 0.b S18*
 
 ---
 
