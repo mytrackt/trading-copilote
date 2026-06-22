@@ -1,6 +1,6 @@
 # KB_INDEX — TRADEX-AI · Base de Connaissances Trading
-**Dernière mise à jour :** 23/06/2026 · Session Pipeline Phase 1 — ADX (S22)  
-**Repo :** `C:\trading-copilote\` · branch `main`  
+**Dernière mise à jour :** 23/06/2026 · Session S22 — P0 COMPLET (MA · RSI · MACD · ADX)
+**Repo :** `C:\trading-copilote\` · branch `main`
 **GitHub :** `mytrackt/trading-copilote`
 
 ---
@@ -20,8 +20,9 @@ Total décisions    : 77
 
 ```
 C:\trading-copilote\
-├── 01-pipeline\bundles\[source]\      ← BRUT : scraper (texte + images + manifest)
-└── 04-cerveau-trading\[source]\       ← TRAITÉ : extractions D### prêtes pour claude_brain.py
+├── 01-pipeline\bundles\[source]\[page]\images\  ← BRUT : images par page (v3.2)
+├── 01-pipeline\bundles\[source]\                ← BRUT : .md + manifest
+└── 04-cerveau-trading\[source]\                 ← TRAITÉ : extractions D### prêtes pour claude_brain.py
 ```
 
 **Nommage extraction :** `Extraction_[Source]_[Sujet]_v1.md`
@@ -127,7 +128,7 @@ C:\trading-copilote\
 
 ## 10. QUEUE D'EXTRACTION — PRIORITÉS
 
-### P0 — Bloque Couche 0 NinjaScript
+### P0 — Bloque Couche 0 NinjaScript ✅ COMPLET
 | # | Page | Source | Décisions | Statut |
 |---|------|--------|-----------|--------|
 | 1 | Moving Averages | StockCharts | D1–D17 | ✅ FAIT |
@@ -139,7 +140,7 @@ C:\trading-copilote\
 | # | Page | Source | Statut |
 |---|------|--------|--------|
 | 5 | Specs NQ/ES/GC | CME | ⏳ |
-| 6 | Candlestick Bullish/Bearish | StockCharts + Nison | ⏳ |
+| 6 | Candlestick Bullish/Bearish | StockCharts + Nison | ⏳ PROCHAIN (GitBook dispo) |
 | 7 | COT introduction | CFTC | ⏳ |
 
 ### P2 — Order flow + Market Profile
@@ -152,7 +153,7 @@ C:\trading-copilote\
 ### P3 — Price Action + Wyckoff
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 11 | Wyckoff Method | StockCharts | ⏳ |
+| 11 | Wyckoff Method | StockCharts | ⏳ PROCHAIN (GitBook dispo) |
 | 12 | Price Action | Adam Grimes + Brooks | ⏳ |
 
 ### P4 — Backtesting + Psychologie
@@ -167,15 +168,17 @@ C:\trading-copilote\
 
 ```
 Phase 1 ✅ VALIDÉE
-  - Agent 1 : scraper.py v3.1 DOUBLE ANCRAGE + SECTION FALLBACK (commit ee0f679)
+  - Agent 1 : scraper.py v3.2 DOUBLE ANCRAGE + SECTION FALLBACK + IMAGES PAR PAGE
+              commit ee0f679 (v3.1) → 03c769e (v3.2 fix anti-écrasement)
               .md figcaption + HTML légende locale · accord 2 sources sinon manuel
               Pattern B : figcaption vide → titre section ## parent (ARCH-15)
               Filtre images inline hors <figure> (v3.1)
+              Fix v3.2 : images → bundles\<source>\<nom_page>\images\
               backup : scraper_backup_v1.py · scraper_backup_v2.py
   - Agent 2 : analyse native Claude (extraction D### + tags + categorie réelle)
-  - Tests    : Moving Averages D1-D17 (6/6) · RSI D18-D39 (15/15) · MACD D40-D61 (11/11) · 0 manuel
+  - Tests    : MA (6/6) · RSI (15/15) · MACD (11/11) · ADX (9/9) · 0 manuel
 
-Phase 2 ⏳ À CONSTRUIRE  ← PROCHAINE ÉTAPE (après P0 complet)
+Phase 2 ⏳ À CONSTRUIRE
   - Agent 3 : Formateur (template KB automatique)
   - Agent 4 : Validateur (score /100)
   - Archiviste : git commit auto
@@ -191,14 +194,16 @@ Phase 3 ⏳ À CONSTRUIRE
 ❌ REJETER : forex-only · crypto · marketing broker · opinions forum
 ```
 
-### ⚠️ LIMITES SCRAPER v3.1
+### ⚠️ LIMITES SCRAPER v3.2
 ```
 Calibré pour la structure GitBook de StockCharts.
 Pattern A : figcaption non vide → comportement standard double ancrage.
 Pattern B : figcaption vide → titre section ## parent (ARCH-15).
-  ⚠️ Labels non uniques possibles (ex: 4 images "Centerline Crossovers") → désambiguïsation côté Agent 2.
+  ⚠️ Labels non uniques possibles → désambiguïsation côté Agent 2.
 Images inline hors <figure> → ignorées (décoratives).
+Fix v3.2 : images dans bundles\<source>\<nom_page>\images\ (anti-écrasement).
 Chaque nouvelle source (CME, CFTC, etc.) exige son propre résolveur d'images.
+Stratégie 22 sources : 00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md
 ```
 
 ---
@@ -220,6 +225,7 @@ Chaque nouvelle source (CME, CFTC, etc.) exige son propre résolveur d'images.
 | ARCH-13 | Belkhayate : toujours ⚫ + 🔴 | 21/06/2026 |
 | ARCH-14 | Liaison image : DOUBLE ANCRAGE (.md figcaption + HTML légende locale) · accord 2 sources sinon manuel | 22/06/2026 |
 | ARCH-15 | Pattern B : figcaption vide → titre section ## parent comme label · blacklist sections génériques | 22/06/2026 |
+| ARCH-16 | Images scraper → `bundles\<source>\<nom_page>\images\` (sous-dossier par page, anti-écrasement) | 23/06/2026 |
 
 ---
 
@@ -239,10 +245,10 @@ Chaque nouvelle source (CME, CFTC, etc.) exige son propre résolveur d'images.
 ## 14. RÈGLE D'OR EXTRACTION
 
 ```
-1. Lancer scraper.py → bundle texte + images + manifest (double ancrage v3.1)
+1. Lancer scraper.py → bundle texte + images + manifest (double ancrage v3.2)
 2. Vérifier manifest : 0 "à vérifier" · sinon traiter manuellement (URL + section fournies)
 3. Agent 2 lit bundle → D### avec tags + categorie réelle KB
-4. 🟢 UNIQUEMENT si visible dans le texte/image officiel · citer macd.md + image_XX
+4. 🟢 UNIQUEMENT si visible dans le texte/image officiel · citer fichier.md + image_XX
 5. Belkhayate → toujours ⚫ + 🔴 + mention repaint
 6. Prochaine D### = vérifier §1 (compteur) avant chaque session
 7. Chaque fichier produit → MAJ §3 et §10 (statut queue → ✅)
@@ -254,9 +260,9 @@ Chaque nouvelle source (CME, CFTC, etc.) exige son propre résolveur d'images.
 
 ## 15. PHRASE D'AMORÇAGE SESSION SUIVANTE
 
-> « TRADEX-AI · Pipeline Phase 1 validée. Scraper v3.1 DOUBLE ANCRAGE + SECTION FALLBACK opérationnel (commit ee0f679). Moving Averages D1–D17 ✅ · RSI D18–D39 ✅ (15/15) · MACD D40–D61 ✅ (11/11 images). Prochaine décision : D62. Extractions traitées : `04-cerveau-trading\chartschool\`. Prochain P0 : ADX (D62+). »
+> « TRADEX-AI · P0 COMPLET. Scraper v3.2 opérationnel (commit 03c769e). MA D1–D17 ✅ · RSI D18–D39 ✅ · MACD D40–D61 ✅ · ADX D62–D77 ✅. Prochaine décision : D78. Stratégie multi-agents scraping 22 sources disponible dans `00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md`. Prochain choix : Wyckoff / Candlestick (GitBook, sans code) ou scraper_static.py (gate STRICT). »
 
 ---
 
-*KB_INDEX · TRADEX-AI · Mis à jour le 23/06/2026 · D1→D77 · Phase 1 en cours (MA ✅ · RSI ✅ · MACD ✅ · ADX ✅)*  
+*KB_INDEX · TRADEX-AI · Mis à jour le 23/06/2026 · D1→D77 · P0 COMPLET (MA ✅ · RSI ✅ · MACD ✅ · ADX ✅)*
 *⚠️ Outil éducatif · Jamais du conseil financier · Aucune exécution automatique d'ordre*
