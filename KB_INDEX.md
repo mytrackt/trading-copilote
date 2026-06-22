@@ -1,5 +1,5 @@
 # KB_INDEX — TRADEX-AI · Base de Connaissances Trading
-**Dernière mise à jour :** 22/06/2026 · Session Pipeline Phase 1 — MACD  
+**Dernière mise à jour :** 23/06/2026 · Session Pipeline Phase 1 — ADX (S22)  
 **Repo :** `C:\trading-copilote\` · branch `main`  
 **GitHub :** `mytrackt/trading-copilote`
 
@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D61
-Prochaine décision : D62
-Total décisions    : 61
+Dernière décision  : D77
+Prochaine décision : D78
+Total décisions    : 77
 ```
 
 ---
@@ -36,6 +36,7 @@ C:\trading-copilote\
 | `moving_averages_v1.md` | D1–D17 | indicateurs_tendance (15) · indicateurs_momentum (1) · structure_marche (1) | 6/6 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_RSI_v1.md` | D18–D39 | indicateurs_momentum · indicateurs_tendance · structure_marche · timing · gestion_risque_entree | 15/15 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_MACD_v1.md` | D40–D61 | indicateurs_momentum · indicateurs_tendance · signal · divergence · configuration | 11/11 ✅ | ✅ VALIDÉ |
+| `Extraction_StockCharts_ADX_v1.md` | D62–D77 | indicateurs_tendance · signal · gestion_risque_entree · configuration | 9/9 ✅ | ✅ VALIDÉ |
 
 ### Autres sources
 *(aucun fichier encore produit)*
@@ -132,7 +133,7 @@ C:\trading-copilote\
 | 1 | Moving Averages | StockCharts | D1–D17 | ✅ FAIT |
 | 2 | RSI | StockCharts + Fidelity | D18–D39 | ✅ FAIT |
 | 3 | MACD | StockCharts + Fidelity | D40–D61 | ✅ FAIT |
-| 4 | ADX | StockCharts | D62+ | ⏳ PROCHAIN |
+| 4 | ADX | StockCharts | D62–D77 | ✅ FAIT |
 
 ### P1 — Chandeliers + Futures specs
 | # | Page | Source | Statut |
@@ -257,5 +258,5 @@ Chaque nouvelle source (CME, CFTC, etc.) exige son propre résolveur d'images.
 
 ---
 
-*KB_INDEX · TRADEX-AI · Mis à jour le 22/06/2026 · D1→D61 · Phase 1 en cours (MA ✅ · RSI ✅ · MACD ✅)*  
+*KB_INDEX · TRADEX-AI · Mis à jour le 23/06/2026 · D1→D77 · Phase 1 en cours (MA ✅ · RSI ✅ · MACD ✅ · ADX ✅)*  
 *⚠️ Outil éducatif · Jamais du conseil financier · Aucune exécution automatique d'ordre*

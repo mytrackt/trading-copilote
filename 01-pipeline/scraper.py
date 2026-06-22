@@ -238,7 +238,10 @@ def telecharger_image(url, dossier, numero, cache):
 
 def scraper(texte, source, nom_page, url_html):
     dossier = os.path.join(BASE_DIR, "bundles", source)
-    dossier_img = os.path.join(dossier, "images")
+    # v3.2 : images dans un sous-dossier PAR PAGE (bundles/<source>/<nom_page>/images)
+    # pour ne plus ecraser les images d'une page precedente (numerotation image_01..)
+    # qui partageaient le meme dossier bundles/<source>/images.
+    dossier_img = os.path.join(dossier, nom_page, "images")
     os.makedirs(dossier_img, exist_ok=True)
 
     chemin_md = os.path.join(dossier, f"{nom_page}.md")

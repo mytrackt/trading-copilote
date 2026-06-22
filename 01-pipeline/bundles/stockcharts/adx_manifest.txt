@@ -1,0 +1,14 @@
+# Manifest images pour adx (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/average-directional-index-adx
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 9 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Is the Average Directional Index (ADX)? | section : What Is the Average Directional Index (ADX)? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Directional Movement Calculation | section : Directional Movement Calculation [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Step by Step ADX Calculation | section : Step by Step ADX Calculation [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Measuring Trend Strength | section : Measuring Trend Strength [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Identifying Trend Direction and +DI/-DI Trading Signals | section : Identifying Trend Direction and +DI/-DI Trading Signals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Identifying Trend Direction and +DI/-DI Trading Signals | section : Identifying Trend Direction and +DI/-DI Trading Signals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Using ADX and supporting overlays on a SharpChart | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_08.png | label : ADX settings on the SharpCharts Workbench, along with suppor | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_09.png | label : Using with StockChartsACP | section : Using with StockChartsACP [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
