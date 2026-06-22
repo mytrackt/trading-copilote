@@ -246,7 +246,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S18 terminée 21/06/2026)
+## ÉTAT ACTUEL (Session S22 terminée 23/06/2026)
 
 | Élément | État |
 |---------|------|
@@ -260,7 +260,9 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
 | Trading Geek transcription | ⏳ 38/113 — en cours en background |
-| Scraper KB (`01-pipeline\scraper.py`) | ✅ **v3.1 VALIDÉ** 22/06/2026 (commit `ee0f679`) — double ancrage (.md figcaption + HTML legende) + section-fallback + filtre images inline. 3 tests PASS : MA 14 / RSI 16 / MACD 11 certifiees, 0 a verifier. ⚠️ section-fallback produit des labels non uniques (desambiguisation cote Agent 2). |
+| Scraper KB (`01-pipeline\scraper.py`) | ✅ **v3.2 VALIDÉ** 23/06/2026 (commit `03c769e`) — double ancrage (.md figcaption + HTML legende) + section-fallback + filtre images inline. **Fix v3.2** : images dans `bundles\<source>\<nom_page>\images\` (sous-dossier par page, anti-ecrasement). 4 tests PASS : MA 6 / RSI 15 / MACD 11 / ADX 9 certifiees, 0 a verifier. ⚠️ section-fallback produit des labels non uniques (desambiguisation cote Agent 2). |
+| KB pipeline ChartSchool (`KB_INDEX.md` · D###) | ✅ **D1→D77** — P0 COMPLET : MA (D1–D17) · RSI (D18–D39) · MACD (D40–D61) · ADX (D62–D77, commit `03c769e`). Extractions traitées dans `04-cerveau-trading\chartschool\`. Prochaine décision : D78. |
+| Stratégie scraping multi-agents | ✅ `00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md` (S22) — 22 sources classées par type technique · adaptateurs StaticHTML/PDF à construire pour P1+ (gate STRICT). |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
@@ -315,7 +317,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 22/06/2026 — Scraper KB v3.1 VALIDÉ (commit `ee0f679`) : filtre images inline + section-fallback, 3 tests PASS (MA 14 / RSI 16 / MACD 11 certifiees, 0 a verifier). Précédent : 21/06/2026 (S19) — KB 1313 règles : +15 TA101 StockCharts (Couche 3) via ticket 0.o S19 · +19 Chap4 AT (Couche 3) via ticket 0.c S19 · +14 Chap5 Belkhayate (Couche 2) via ticket 0.b S18*
+*Dernière mise à jour : 23/06/2026 (S22) — Scraper KB v3.2 VALIDÉ (commit `03c769e`) : fix images sous-dossier par page (anti-ecrasement) + extraction ADX D62–D77 (9/9 certifiees) → P0 COMPLET (MA·RSI·MACD·ADX, D1→D77). Stratégie multi-agents scraping 22 sources livrée (`00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md`). Précédent : 22/06/2026 — Scraper KB v3.1 VALIDÉ (commit `ee0f679`) : filtre images inline + section-fallback, 3 tests PASS (MA 14 / RSI 16 / MACD 11 certifiees). KB cerveau (`KNOWLEDGE_BASE_MASTER.json`) inchangée : 1313 règles*
 
 ---
 
