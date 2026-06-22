@@ -1,0 +1,247 @@
+et nous voici dans la vidéo numéro 6 cette vidéo est destinée à vous présenter enfin les
+trois patterns, les trois configurations de Belkhayat System. Pour ceux qui ont eu la chance de suivre
+la formation 1, ils auront remarqué qu'il y a un indicateur dont je n'ai pas encore parlé et qui
+fait partie intégrante des trois configurations. C'est le fameux VWAP, le fameux VWAP c'est le
+volume weighted average price c'est compliqué en anglais on s'en fout un peu c'est juste de vous
+rappeler que c'est un indicateur qui est en fait une moyenne mobile qui associe à la fois le volume
+et le prix et il a pris de l'importance parce que les algorithmes de trading au niveau mondial
+l'utilise un peu comme benchmark ça dit comme référence pour acheter quand pour essayer d'acheter
+le plus proche possible pour dire on a fait de notre mieux donc quand les gérants ont leur dit
+d'acheter Netflix ou on leur dit d'acheter Apple etc pour montrer qu'ils ont fait de leur mieux ils
+vont acheter au plus proche possible du VWAP et finalement c'est devenu une référence même
+pour il ya des algos qui ne font que trader les déviations sur le VWAP bon et donc moi pendant
+la formation 1 j'ai utilisé cet indicateur le VWAP pour être un pilier pour les configurations
+de belgé assistent la bonne nouvelle pour la formation 2 et ça vous allez souvent voir ce
+type de nouvelles inshallah c'est que j'ai eu un de mes étudiants qui a vu la formation 1 et qui
+est venu me voir en me disant monsieur je suis un expert de l'intelligence artificielle expliquez
+moi ce qui se passe en réalité et je vais essayer de vous proposer une amélioration du VWAP bon alors
+je lui ai donné des indications je lui ai dit par exemple est-ce qu'il est possible qu'on puisse
+déterminer lorsqu'il ya des ordres iceberg c'est à dire quelqu'un qui veut passer des ordres par
+paquet de 20 20 20 20 alors que lui veut passer 1000 mais il veut pas apparaître sur le carnet
+d'ordre comme quelqu'un qui veut acheter 1000 lots parce que dans ce cas là le marché va vite
+monter et donc il veut être exécuté de manière discrète donc je lui dis ça c'est un point un
+deuxième point je lui dis le VWAP au fur et à mesure dans la journée il s'éloigne du prix
+c'est normal parce que c'est une moyenne entre le volume et le prix et comme le volume n'est
+pas proportionnel au prix plus on avance dans la journée donc je lui dis est-ce qu'il est
+possible qu'on se rapproche qu'on colle vraiment à la réalité au lieu de s'écarter comme on va le
+voir avec le VWAP il m'a dit ok il a monté et à la fin de compte je lui ai dit je voudrais
+que dans le VWAP que tu vas faire qu'il y ait des couleurs pour dire qui c'est qui est en train de
+pousser parce que sur le VWAP normal on a une seule couleur on sait pas qui est derrière qui
+pousse et donc il a noté tout ça et trois jours plus tard Abdel Hilal de Meknes à qui je rend
+hommage il m'a envoyé le code de ce qu'on appelle le nouveau VWAP alors je lui ai donné le nom
+de Belkhayat VWAP mais j'aurais très bien pu donner le nom de Abdel Hilal VWAP en fait puisque c'est
+son oeuvre et je vais maintenant vous inviter à découvrir la grande différence entre le VWAP
+traditionnel qui existe partout dans le monde et qui est utilisé par beaucoup de traders et la version
+améliorée du VWAP par un jeune marocain de 21 ans et maintenant désormais les trois configurations
+de Belkhayat System évidemment vont être basées sur la nouvelle version du VWAP et j'ai le plaisir
+de vous montrer la grande différence qu'il y a parce que quand la première fois je l'ai posté sur
+Tradingview beaucoup ont dit oh mais c'est du VWAP juste coloré. Voyons vous allez voir que c'est
+un VWAP je pourrais dire révolutionnaire sans avoir peur du monde voilà donc bienvenue dans
+mes écran pour découvrir l'invention de Abdel Hilal voilà nous sommes ici donc sur le marché de
+l'or et nous avons le VWAP traditionnel que vous voyez ici le voici c'est celui là là et comme
+vous allez remarquer vers la fin de la journée le marché devient un peu plus éloigné du VWAP
+d'accord vous le voyez là regardez ce qui se passe regardez là voyez c'est assez éloigné ça se
+regardez ici la fin de la journée le VWAP n'est plus tellement juste n'est plus adéquat il
+perd sa valeur prédictive et là tout le temps regardez ici ça n'a plus aucun sens vers la fin
+de la journée le VWAP disons professionnel connu par les orgaux de trading etc il perd
+complètement sa valeur prédictive à la fin de la journée en fait il se décolle regardons bien il
+se décolle par rapport au prix ça c'est un point un deuxième point on ne voit pas qui c'est qui
+achète et qui vend on a une seule couleur c'est tout donc la seule chose qu'on voit c'est que les
+prix là par exemple on voit les prix ici qui sont au dessus et c'est tout donc ce n'est pas tellement
+intéressant pour un trader qui a besoin de savoir qui c'est qui est en train de pousser le marché
+est ce que ce sont des acheteurs est ce qu'il y a des icebergs qui sont en train d'être exécutés
+acheteurs ou alors ce sont des vendeurs qui ont pris la main bien là vous avez vu et là je
+vais avoir le plaisir de vous de vous montrer la version attendez attendez j'essaie de trouver
+voilà voilà excusez-moi je me suis un peu perdu et voilà la version 2 et il a ses belles
+maintenant on peut dire qu'elle vit il est là et vous voyez quelque chose premièrement on va
+regarder d'abord comment il colle jusqu'à la fin de la journée il colle au marché vous voyez regardez
+il colle au marché tout le temps même à la fin regardez comme il colle au marché il reste tout
+le temps sur le il reste collé au prix ça c'est la première grande différence voilà vous voyez on
+va étudier toutes les autres différences vous allez voir que c'est très puissant la deuxième
+grande grande innovation c'est que nous avons trois couleurs nous avons la couleur nous avons le
+vert nous avons le blanc qui dit qu'il y a un équilibre dans le carnet d'or et le vert est en
+train de nous dire que il y a une suite d'iceberg acheteur et donc là on voit bien que tant qu'on
+n'a pas de rouge on doit rester sur ce marché et qu'on est que ce marché et acheteurs acheteurs
+ici il y a un équilibre mais on voit ici belger de ressort que je vais que j'ai l'intention de vous
+montrer et finalement on ne sort qu'à la fin de la journée on sera rentré ici on sera sorti ici
+et en aucun cas on a vu la prise en main vendeur en aucun moment on a vu du rouge ici donc
+le ce nouveau vioie est beaucoup plus performant d'abord parce qu'il vous dit qui c'est qui a la
+main ça va vous permettre lorsque vous entrez vous avez vu là maintenant je reviens vous
+parlez vous avez vu là un vioie intéressant que je compte mettre à votre disposition je ne
+sais pas quelles seront les conditions maintenant je vais prendre la décision cette semaine parce
+que je dois livrer après demain donc je suis en train de réfléchir sur la formule qui va vous
+avantager et qui va vous permettre d'avoir un atout majeur entre vos mains lorsque vous prenez
+une position le ce vioie moderne va vous montrer qui c'est qui a la main et vous allez vous
+habituer à l'utilisation de ce vioie plat on va regarder un petit peu ce qui se passe sur ce vioie
+plat regardons ici c'est très important parce que lorsque vous avez vous avez vous avez une
+résistance ici et qui on casse la résistance et tout d'un coup le vioie devient vert et avec ce
+volume il confirme effectivement là on confirme la hausse de l'eau alors remarquez une chose très
+intéressante ici il n'y a pas véritablement de signal acheteur il n'y a pas quelqu'un qui rentre
+vraiment acheteur pour le moment on ne voit que des icebergs vendeurs même quand il ya une petite
+tentative timide ici il n'y a pas de volume donc on voit bien ici que le nouveau vioie en train de
+nous indiquer que pour le moment ici c'est des vendeurs et à partir de là c'est à
+partir de là qu'il faut acheter et ça tombe très bien peut-être c'est pas un hasard mais vous allez
+voir que les configurations dont je vous ai parlé au début les cassures quand il ya des cassures sur
+les tendances et les supports et que dans ce point de cassure on a le bel réel vioie qui change de
+couleur c'est très significatif que c'est un très bon signal surtout s'il ya du volume qui vient
+accompagner ce retournement de couleur donc on peut le voir on peut le voir dans beaucoup de
+situation par exemple ici on le voit ici regardez on a ce support ici jusqu'à présent voyez ici on
+a la couleur verte ici et tout d'un coup on peut acheter ici puisqu'on a cassé ici avec force donc
+on achète ici même si c'est très tôt on peut acheter si on est réveillé mais en tout cas le
+plus important ici c'est de voir que le vioie reste vert même pendant cette période de doute
+vous voyez bien qu'il reste vert c'est extraordinaire parce que cela signifie qu'il
+est en train de pouvoir il est capable de lire la pression acheteuse et la pression vendeuse et en
+aucun cas il a dit que c'était vendeur je sais pas si vous vous rendez compte mais pour moi cet
+indicateur et il est inestimable parce que vous allez voir vous allez pouvoir le mettre et même
+bien sûr sur les autres marchés il fonctionne encore j'hésite combien je vais vous faire payer
+pour avoir cet indicateur et en fait qui est le résultat du génie marocain 100% marocain et ça
+me fait plaisir de rendre hommage à la jeunesse marocaine et j'encouragerai toujours les jeunes
+de mon pays parce qu'il y a effectivement c'est la preuve qu'il y a un potentiel extraordinaire il
+suffit juste de leur expliquer là je n'ai pas je n'ai je lui ai expliqué en même pas une demi-heure
+et les tenants et les aptuçants de ce que je recherche par rapport à ce qui existe et le
+résultat il est extraordinaire vous le voyez là donc regardez à la cassure enfin pour la
+première fois le vie wape est devenu rouge voyez ici rouge et là on peut vendre et on reste ici
+toute la journée on ne touche à rien alors que on aurait peut-être on serait peut-être sorti ici
+sur ce verre là c'est pour ça que je vous disais que je vais vous enseigner des signaux
+d'achat à travers beaucoup d'éléments comme les cassures comme le couloir horaire comme les
+volumes etc et les patterns et les configurations mais surtout je vais vous donner des outils qui
+vont vous donner une visibilité sur le potentiel de gain qui vont vous dire ne bougez pas soyez
+patient attendez on a encore envie de vous mettre de l'argent dans la sacoche c'est extraordinaire
+alors on peut aller regarder je sais que vous êtes surpris de voir un indicateur pareil alors
+une chose est sûre c'est pas à peine de vous il ya des gens qui disent ah oui ils essaient de
+trouver des temps non mais c'est pas possible je vous dis une chose cet indicateur il n'existe
+nulle part il a été l'invention de habille il est suite aux instructions que je lui ai donné c'est
+tout il n'y a personne d'autre au monde qui utilise cet indicateur et cet indicateur va vous être
+extrêmement utile lorsque vous êtes en position bien sûr il va vous aider aussi quand vous voulez
+rentrer et voyez qu'il devient vert vous achetez quand vous voyez qu'il devient rouge ça vous
+conforte avec les autres éléments on rentre pas au hasard pour dire on va faire du trading sur
+l'or non on rentre au bon moment avec le bon volume et avec la bonne orientation du carnet d'or qui
+c'est qui prend la main parce que bergéat viva va toujours vous dire qui c'est qui a pris la main
+sur le carnet d'or on va regarder encore par exemple ici voyez ici là on a je retrouve
+juste ce qu'on a tracé tout à l'heure d'accord on a tracé ici vous avez vu il faut alors on va pas
+l'utiliser tout le temps on va l'utiliser toujours dans les moments de belgéat système c'est tout on
+va pas l'utiliser sur tous les graphiques parce que ça sert à rien parce que des fois il ya des
+petits fonds qui font des aspects mais ces aspects ne sont pas puissants vous êtes en train de
+vous battre avec différents adversaires et chaque adversaire a une force disons appropriée vous allez
+trouver un adversaire qui pèse 5 millions un autre qui pèse 500 000 $ et un autre qui pèse 2
+milliards mais ces aspects que ces gens envoient vous les voyez à travers bergéat viva donc pour
+que vous puissiez tirer profit de bergéat viva il faut entrer dans les moments importants que
+moi je vous indique c'est à partir de là que vous allez utiliser la couleur et le sens de bergéat
+viva par exemple vous allez tenir compte ici là sur cette cassure là vous voyez il est devenu rouge
+juste avant la cassure et là il confirme donc là on peut rester regarder il reste il n'y a pas de
+vert il n'y a pas de vert il n'y a pas de vert ici on a un vert ici on a un volume et hop on a le
+premier vert avec une mèche on peut sortir ici d'accord alors regardez ici c'est pareil ici on a
+une grande un grand support cassure de la support on devient rouge donc ici le marché est devenu
+vendeur on se retrouve avec le bergéat viva rouge et on reste ici c'est là vert qu'on sort ici
+regardez ici c'est pareil on a cette cassure là et bouf c'est là qu'on devient rouge et c'est là
+que ça vaut le coup de vendre et on reste on reste on reste et on sort ici là vous avez un signal vert
+ici cassure ici on peut en confirmation pour nous on peut acheter on peut rester ici et ce qui est
+magnifique c'est que vous avez vu là le viva bergéat viva ne vous ne vous fait pas sortir ici c'est ça
+qui est extraordinaire c'est que n'importe quel moyen mobile n'importe quel moyen mobile macd
+tout ce que vous voulez tout ce que vous utilisez comme indicateur technique vous sort vous aurez
+sorti de cette position mais ce bergéat viva il vous garde jusqu'à la fin de la journée par
+exemple ici il va vous garder jusqu'ici vous sortez ici c'est magnifique donc c'est quand
+même extraordinaire donc là on peut voir ici l'accélération on a le vert on a le vert qui
+achète et puis on peut sortir ici c'est un mouvement qui n'a pas explosé mais quand on
+a une bougie comme ça avec du volume ici je vous enseigne que ça c'est un squeeze des
+acheteurs et là on va sortir quand même malgré le fait qu'on ait du vert parce que cette bougie
+est très forte c'est un grand relais peut-être que je vais rajouter cet élément dans la nouvelle
+version de ce viva mais déjà je suis très content du travail de regardez par exemple ici
+nous avons la résistance et on a la cassure de cette résistance exactement quand ça devient
+vraiment vert vous voyez ici nous avons le volume nous avons le grand volume un grand volume par
+rapport à tous ces volumes là donc à 13 heures et quart nous avons un grand volume cassure du
+viva qui devient vert et là c'est easy money il n'y a pas de doute possible on gagne de l'argent ici
+sans aucun problème alors là regardez c'est pas mal normalement se ressortit ici on essaie de
+sortir là etc mais il nous a gardé il nous a gardé on pouvait sortir même à 21 heures et
+sans problème en aucun moment il y a eu du rouge vous voyez ce que je veux dire voilà donc on peut
+regarder toute la journée on peut regarder ça c'est quand même magnifique regardons enfin ici
+nous avons on a un vert du vert du vert du vert et ça monte ça monte on reste vert on tient on
+tient on tient on tient on tient et hop quand on casse ici hop il devient rouge et après rouge et
+donc on serait sorti ici sur la cassure de ça même s'il n'y a pas de volume ici mais on
+pourrait sortir ici allez ici à du volume on sort voilà donc je regarde en même temps que vous je
+regarde les marchés donc là on va faire ça pas pas pas pas pas pas pas rectangle on vient ici et
+on a on a ça ok bon on a on a ici une accalmie sur les prix et une vraie accalmie que j'avais
+tracé d'ailleurs sur l'autre vidéo une vraie accalmie puis on a on a une accélération sur le
+volume donc normalement on doit vendre ici et ça c'est peut-être impulsion bon ce qui est intéressant
+c'est de voir que maintenant dès qu'on a démarré l'impulsion c'est maintenant que Belkhéa Viva
+entre en jeu pour vous garder vous voyez tant que vous voyez ce rouge vous pouvez garder votre
+position vous ne paniquez pas et vous avez vu là il va nous faire mais là quand on arrive dans
+cette situation là je vous le conseille c'est pour ça que je n'ai pas automatisé encore c'est
+parce qu'il nous donne la possibilité là de prendre tout ça en rouge mais lorsque vous avez
+cette bougie là avec ce volume exactement comme ça ça c'est ce qu'on appelle belkhéa squeeze il
+est impossible de ne pas sortir là il faut absolument sortir sur cette position
+voilà alors on peut regarder encore une dernière fois nous avons une cassure ici et c'est déjà
+rouge donc on peut rester rester rester rester on peut sortir ici voilà vous pouvez vous allez
+pouvoir regarder tout ça plus tard tranquillement en tout cas ce que je voulais vous montrer aujourd'hui
+dans cette vidéo c'est la puissance de cet indicateur sur en fait on peut le on peut
+l'essayer sur plusieurs marchés on peut même essayer sur les indices boursiers sur les sur
+les bons de trésor sur les actions on peut l'essayer surtout mais je trouve que sur l'or
+en particulier il fonctionne très très bien et bien sûr vous n'allez pas l'utiliser n'importe
+quoi parce que quand vous avez des traînées en range comme ça bien sûr il va pas fonctionner
+parce qu'il y a des petits fonds qui sont en train de mettre des petits icebergs et finalement
+on les voit ces petits icebergs il nous intéresse pas nous ce qui nous intéresse ce sont des cassures
+comme ça et on rentre dans un dans un mouvement et on sait que alors on va chercher je cherche
+quelque chose je retourne pour regarder quelque chose qu'on n'a pas vu pour que pour finalement
+vous montrer la puissance de cet indicateur alors là on l'a vu déjà c'est une cassure et ça devient
+rouge on l'a vu ok là je sais pas si on l'a vu mais c'est magnifique vous avez vu ah oui
+on en a parlé c'est magnifique on garde jusqu'ici donc vous voyez c'est très très puissant et ce
+n'est que la version bêta de belkhéed viwap mais c'est déjà infiniment mieux que la version
+traditionnelle du viwap puisque je vous rappelle cette version là elle nous donne des éléments
+importants par exemple c'est qui qui a la main c'est qui qui soutient le marché et aussi on se
+rapproche de la réalité on n'est pas loin vers la fin de la journée le viwap il n'est plus utile
+là il nous tient donc c'était une présentation assez bref mais je pense qu'il vous a passionné
+allez on va faire pour le plaisir je vais aller dans un endroit que je n'ai pas commenté par
+exemple ici alors là donc ici on voit qu'on a on va le faire ensemble donc je fais les choses en temps
+réel j'ai rien préparé du tout je n'aime pas préparer les choses ça me plaît pas de préparer
+les choses comme ça parce que ça fait artiste ça fait un peu ça me plaît pas en tout cas je vous
+montre ici on a véritablement depuis si on voit que ce sont les vendeurs qui ont la main ça se
+voit ici avec ce rouge rouge rouge rouge petit vert petit vert rouge rouge rouge et la cassure
+cassure très importante on passe sous le viwap et on passe avec force avec du volume donc c'est
+très intéressant et là regardez ce viwap en aucun moment il nous donne du vert il nous donne le
+vert ici là il nous donne le vert éventuellement on peut sortir ici mais il n'y a pas de volume là
+nous on serait sorti évidemment ici à la fin de la journée 21h donc on serait rentré ici on sort
+ici et là on va rentrer ici on va sortir à la fin de la journée et ça nous fait 1989 moins 36
+ça fait quand même allez on peut dire presque 40 dollars c'est sérieux c'est un trade très
+intéressant on peut faire 3500 à 4000 dollars de gain en suivant tout simplement ce qui vient de
+se passer ici avec une attaque ici vers 15h30 et on prend à la fin de la journée on s'en fout
+d'ici allez un dernier pour juste le plaisir d'accord allez un dernier alors on fait celui
+là il est magnifique parce que déjà à deux heures du matin il a montré de la force et puis
+après on est resté vert vert vert vert vert vert vert vert même ici on est resté vert c'est ça qui
+est unique dans cet indicateur c'est parce que les autres indicateurs auraient donné rouge ici en
+tout cas ils auraient croisé ils nous auraient sorti mais cet indicateur est resté à ce niveau là il
+n'a pas donné du rouge et il n'a donné du rouge que lorsque on a vraiment cassé le VWap ici et
+c'est là qu'on sort avec du volume on est out mais on a quand même fait tout ce mouvement là
+de l'ordre alors un dernier juste pour le plaisir parce que vraiment c'est passionnant
+je vais vous montrer par exemple ici on le voit c'est clair sur ce mouvement là on peut faire ça
+maintenant vous êtes habitué on fait ça voilà voilà là et là vous devez remarquer quelque
+chose de très important c'est ça très important que vous puissiez remarquer qu'on a cassé d'accord
+nous revenu ici on a fait le robot le belcheat ici on a fait belcheat ressort que je vais vous
+expliquer tout à l'heure on peut dire que c'est un pull back aussi d'accord on a cassé on est revenu
+faire le pull back mais on a rebondi sur le VWap mais il faut remarquer que ici on est vert vert
+et on n'a en aucun moment de la journée on a eu du rouge on finit vraiment très fort donc on a
+un trade magnifique ici on va regarder on a un trade d'ici et on sort là dans la journée
+là on sort ici donc ça fait de 50 à 94 allez disons 40 dollars nous avons plus nous avons
+44 dollars de bénéfices soit 4400 dollars mais yeux fermés juste en suivant ce VWap là qui ne
+laisse aucune chance au rouge de prendre la main en aucun moment les vendeurs ont pris la main ici
+en aucun moment à partir de là et ça je voulais finir sur cette joie j'ai de la joie de voir
+qu'on arrive à pouvoir innover sur un marché où il ya des sociétés qui investissent 300 400
+millions de dollars rien que la recherche et développement pour pouvoir trouver des
+indicateurs des systèmes etc qui collent au mieux au marché et qui font des choses comme ça
+mais il y a aussi en maroc des génies à qui on doit donner la chance de pouvoir exprimer tout ce
+qu'ils peuvent exprimer c'est ça l'idée c'est pour cela que je répète j'ai pris la décision de
+traduire ma formation 1 en darija et de la distribuer dans tout le maroc partout je vais
+trouver des partenaires médias et tout ça pour que tous les marocains quel que soit leur niveau
+scolaire même ceux qui ne sont pas à l'école puisque ça va être expliqué en darija et les
+personnes vont commencer à créer à innover et on aura des habilets partout sur le maroc
+et c'est comme ça qu'on peut avancer en maroc voilà et voilà donc je voulais avant d'attaquer la
+vidéo 7 pour entrer dans les détails de berger impulsion que vous allez maîtriser désormais
+pour toujours je voulais d'abord vous montrer le piliers qui va vous permettre d'avoir une visibilité
+sur celui qui prend la main et puis qui peut vous conforter lorsque vous êtes en train de gagner 800
+1000 1200 1500 2000 et vous dites ah mais vous inquiétez pas vous allez apprendre à suivre les
+indicateurs un bon trader c'est pas quelqu'un qui se dit tiens maintenant je vais rentrer tiens
+maintenant je vais sortir non un bon trader c'est un trader qui respecte son système moi je vous
+donne un système vous devez le respecter si vous respectez pas le système vous serez tout le temps
+baloté par le marché tout le temps voilà donc je vous remercie pour votre attention j'espère
+que ça commence à prendre forme je suis obligé de vous donner des pièces de puzzle pour arriver
+ensuite à vous montrer les configurations de belgère système donc je vous dis à très bientôt je vais
+essayer de finir la vidéo 7 ou 8 7 je vais faire la vidéo 7 inshallah tout à l'heure à très bientôt

@@ -1,0 +1,212 @@
+bonjour et voici donc la vidéo qui va concerner le golden point c'est un concept j'ai donné ce
+nom là voilà en anglais je golden point c'est le point d'or en français bon alors ce point là
+est vraiment très important c'est facile à repérer dans tous les graphiques et on va
+on va s'amuser à le trouver sur l'or mais également sur les autres marchés et je n'ai
+rien préparé encore à part celui là mais sur les autres marchés on va trouver ensemble le
+golden point c'est quoi le golden point c'est en fait un point sur un graphique où la probabilité
+de gagner de l'argent la probabilité d'avoir un trade gagnant elle est de 80% alors les
+configurations que j'utilise dans la méthode belgeat elles arrivent à vous donner 80% vous avez vu
+même des fois 85% de probabilité de gain mais le golden point lui il arrive à 80% 10% et même
+des fois à 95% de probabilité de faire un trade gagnant alors pour cela vous avez besoin de trois
+choses vous avez besoin de savoir tracer des lignes de support et de résistance et je vais vous rappeler
+comment on peut tracer ces lignes qui sont très importantes dans le trading ensuite on aura besoin
+de notre volume up and down que vous connaissez tous très très bien et cette fois ci je vais
+rajouter le RSI que vous voyez là et quand vous le mettez moi je le mets en blanc comme ça parce
+que j'aime bien c'est clair et vous allez voir pourquoi je le mets comme ça en blanc et vous
+savez comment le faire je vous montre vous avez vous venez ici et dans le RSI ici vous faites comme ça
+et vous choisissez la couleur que vous voulez et vous mettez quatre pour la couleur et pour la
+moyenne la moyenne vous pouvez mettre deux simplement vous pouvez changer la couleur que
+vous voulez pour la moyenne mobile du RSI que j'utilise pas dans cette stratégie mais que vous
+pouvez laisser quand même ça peut vous montrer des indications par exemple ici achat ici vous
+avez un signal d'achat par exemple mais je l'utilise pas dans cette stratégie voilà donc c'est très
+simple c'est des outils très simple mais comme vous allez voir c'est extrêmement puissant et j'ai le
+plaisir de faire cette révélation en fait pour la première fois je n'ai pas montré ça dans mes
+vidéos précédentes ni dans youtube ni n'y parle alors voilà comment ça commence d'abord vous
+repérez on va commencer par cet endroit là ici on va repérer d'abord ici on va repérer ce
+qu'on appelle ici là on a ici sur ce point là vous voyez on a ici une zone de résistance le marché
+a cassé ça puis hop on revient ici on stagne ici donc ici là c'est une zone de résistance et vous
+allez tracer ici une ligne de support que vous voyez là clairement là donc comment on trace
+un support et comment on trace une résistance est-ce que ces lignes là elles doivent passer
+sur les bouts ici c'est à dire sur les plus bas ou les plus hauts ou bien est ce qu'il faut
+passer sur le close c'est à dire là où la bougie elle a clôturé ou alors on passe par quoi qu'est
+ce qui est important dans les lignes je vais vous dire je l'ai déjà dit dans mon cours mais je
+le rappelle la ligne de support et de résistance doit être assez de manière à toucher le maximum
+de fois les bris donc ici on touche le plus bout le bout mais ici on est on touche un peu plus et ici
+on touche quand même les clauses et si on touche les bouts etc ici on touche carrément les clauses
+donc cette ligne là elle est correctement bien tracée là vous voyez vous devez apprendre à
+tracer ces lignes là et vous inquiétez pas avec l'habitude une fois que vous avez compris que la
+ligne doit faire rejoindre le maximum de points possibles et là vous allez pouvoir savoir les
+alors pourquoi c'est important de tracer ces lignes là c'est parce que d'une part ça vous montre le
+support ou la résistance d'un marché mais ça vous montre aussi comme je l'ai dit tout à l'heure dans
+la vidéo des stops que vous avez juste en bas vous avez des stops donc quand vous savez que lorsqu'on
+va casser ces lignes là on va accélérer comme ici vous avez vu l'accélération est rapide c'est
+pas comme ici boum on accélère rapidement alors le point d'or golden point c'est celui là ici là
+on va faire comme ça et je vais changer la couleur je vais mettre une couleur or si on a
+une couleur or je cherche une couleur or pour mettre celle là voilà c'est la première fois
+que je le mets sur mon écran ça me fait plaisir de voir que c'est joli ça rappelle l'or ça me
+plaît voilà le point or c'est ici c'est l'intersection entre une résistance et un support et cette
+intersection elle est vraiment extraordinaire comme vous allez pouvoir le voir dans tous les
+graphiques et ici vous avez donc quand vous avez cette intersection que vous voyez que le marché
+vient il ya un rendez-vous entre le support et la résistance c'est ce que j'appelle le point d'or
+et ce qui se passe dans le point d'or c'est qu'on a une probabilité d'assister à une impulsion soit
+par le haut soit par le bas mais là pourquoi ça va vous intéresser c'est parce que j'ai rajouté
+un indicateur ici qui est le RSI c'est le relative strength index d'accord vous le connaissez ou vous
+le connaissez pas mais vous pouvez le trouver sur sur Ninja Trader il est donc dans toutes les
+plateformes vous allez ici RSI là et vous le voyez là c'est ça c'est le RSI qui est dans
+toutes les plateformes de Trader mais je l'utilise uniquement je l'utilise uniquement pour la
+divergence vous allez voir que c'est très puissant lorsque vous combinez le volume avec
+la divergence là ici et le point d'or alors regardez la divergence on va on va aller faire ça
+et on va faire ce point là ici je vais changer la couleur de cette ligne je vais mettre par exemple
+je vais mettre violet et je vais mettre save ok
+voilà vous avez vu là entre ce point d'or et ce nouveau point d'or nous avons le marché qui monte
+mais ici sur le RSI vous avez vous avez ça
+il n'a pas je sais pas pourquoi peut-être attendez
+donc regardez bien nous avons ici ça monte et ici ça ça stagne autrement dit il y a une
+divergence entre les prix et le RSI qui annonce un petit peu que cette osse là elle perd de
+momentum donc je rappelle je prends le temps de bien expliquer ce que c'est le
+le golden point je prends le temps de bien expliquer ça c'est ça le golden point c'est
+le rendez-vous entre un support et une résistance et lorsqu'on casse ici on regarde le volume également
+on va regarder les volumes ici on voit que les volumes ont accéléré vous avez vu et on
+va les voir sur plusieurs autres marchés et sur toutes les unités de temps c'est ça qui est bien
+ce que vous pouvez trouver le golden point sur toutes les unités de temps et sur tous les marchés
+et cette stratégie elle est indispensable pour compléter en fait la méthodologie de belges
+méthode alors regardez ici nous avons une divergence nous avons la cassure de support
+nous avons le volume qui arrive et donc on a ça maintenant comme vous avez compris on
+va regarder un autre ici nous avons une résistance et nous avons ici un support et ici nous avons
+nous avons notre fameuse save
+voilà
+bon donc qu'est ce que vous voyez là le point d'or c'est ici c'est l'intersection entre le
+support et la résistance et nous avons et vous avez vu ici ça monte un petit peu là
+ici ça monte mais là ça baisse
+donc sur ce point là qui correspond au golden point ça tombe bien nous avons également ici
+le fameux la fameuse cassure avec une grande bougie qu'on a vu tout à l'heure une grande
+bougie accompagnée d'un grand volume voici les voici maintenant un trait à très grande probabilité
+de 80% lorsque vous avez tous ces éléments combinés vous avez le rendez vous ici nous
+avons la divergence ici nous avons le volume ici alors le marché il va tomber et si vous
+le ratez des fois vous arrivez trop tard vous savez qu'en général il pourra essayer de faire
+un pull back pour revenir sur ce support qui a cassé il va essayer de faire le pull back en
+général il peut faire et c'est là que vous pouvez rentrer si vous êtes en retard vous pouvez
+attendre un petit peu le pull back et rentrer à ce niveau là on va tranquillement aller regarder
+d'autres exemples qui font plaisir bien sûr c'est des exemples qui font tous plaisir regardez on va
+regarder cet exemple nous avons ici une résistance et un support ici clair ce support
+il peut être là aussi vous voyez là on peut avoir également ici là vous voyez on a également
+un support ici oui ce support là aussi il est valable vous avez celui là que vous pouvez
+utiliser également dans tous les cas de figure nous avons quand même notre point d'or ici le
+voyez là on a un point d'or c'est exactement en fait c'est cette bougie là voilà cette bougie
+là qui vient casser avec force le rendez vous là et avec du volume d'accord vous voyez là il y a
+du volume et là c'est très très puissant alors ici on a on a ça regardez le on va essayer de
+trouver s'il ya la divergence ici on a ça vous voyez mais là on a quand même on s'est un peu
+tiré mais c'est pour vous montrer le principe là on a on a véritablement un signal comme quoi
+le marché quand vous avez un mouvement comme ça ici c'est pas encore vraiment ça indifférent
+en ça et ça ça compte c'est pas parfait on va trouver d'autres où il ya la divergence elle est
+beaucoup plus forte et il ya des divergences qu'on peut dire qui sont étroites il ya des
+divergences et l'archi on va on va apprendre ça avec avec l'expérience vous voyez avec
+l'expérience vous allez regarder mais aujourd'hui ce que je vous montre je vous montre que il y a
+un carrefour entre le support la résistance qui coïncide avec une accélération sur le volume
+qui coïncide avec ici une divergence une petite divergence mais existante quand même on voit bien
+que ce point là est bien supérieur à ce point là et il vient comme soutenir notre conviction on
+avait 80 maintenant on a 90 % de probabilité que avec ce mouvement là le marché va décoller
+donc on va essayer de trouver cette configuration là sur sur un autre marché on va regarder par
+exemple l'euro l'euro contre le dollar par exemple ici donc ici nous avons
+ça ça c'est ce que j'avais montré tout à l'heure mais on peut revenir ici et rajouter
+notre indicateur RSI qui est là pour nous aider on va voir comment on va
+voilà donc nous avons ici une
+légère divergence ici élargie une légère alors que là c'est c'est pas c'est pas très
+fort c'est pas très très fort mais on a quand même quelque chose légèrement qui vient nous
+annoncer mais le plus important c'est ici notre notre nombre d'or notre pardon notre point d'or
+et ici c'est un rendez-vous avec ici avec ce support là plus cette résistance là alors
+nous avons notre point d'or ici on va essayer de trouver un point d'or
+on va essayer de trouver un point d'or on va trouver un point d'or et une rencontre avec les
+regardons ici non ici
+on va revenir sur l'euro contre le dollar je suis sûr qu'on va trouver quelque chose on va
+augmenter les jours on va mettre 30 jours et on va ensemble découvrir que si on va
+ensemble aller à la découverte en fait de
+vous voyez ici là on a quelque chose d'intéressant ici vous voyez là vous voyez et ici on a ici
+un support ici on a une résistance et on a ici vous voyez ici ça descend ici mais ici
+c'est presque plat donc ici on a une divergence et sur la cassure ici le marché monte mais
+il n'est pas monté violemment alors ici on a un exemple intéressant on va tracer ici cette ligne là
+voilà donc ici ça peut être ici là voyez là sur ce point là on a quand même une résistance
+qu'on voit vous voyez là cette résistance et ici on a un support
+voilà on a un support ici et le point le golden point il va être là
+cette bougie magique là c'est cette bougie là
+voilà cette bougie là c'est un golden point cette bougie en particulier et vous avez remarqué
+maintenant avec moi que on a ici une hausse des prix mais que sur le RSI on a une divergence
+clair et c'est ce que j'appelle la divergence élargie sur un bon espace temps et ça provoque
+un très très bon mouvement de baisse vers ce niveau là et donc lorsque vous détectez ici
+vous voyez c'est pas très difficile vous avez ici une résistance que vous voyez là vous savez
+tracer ici le support et nous avons un rendez-vous entre cette ligne là et cette ligne là ici et
+en plus on a une belle bougie qui vient casser avec force ici et on est confirmé ici qu'on était
+en divergence donc là c'est tout cet endroit là il n'y avait que de la distribution en fait des
+contrats par les algorithmes de trading qui eux sont sortis sur cette histoire là ici c'est de la
+distribution ici dès qu'on rentre dans le dernier triangle de rencontre entre le support et la
+résistance alors on est dans une phase distribution et bientôt il va y avoir l'expansion l'impulsion
+qui va arriver et il faut le savoir à l'avance on va essayer de déterminer encore ensemble des
+situations de ce type de situation on va essayer de les trouver
+on en voit une ici c'est clair il y en a une ici on va on va on va la tracer
+alors tout le monde est d'accord avec moi que ici même aller jusqu'à là
+tout le monde est d'accord sur ça j'espère voilà j'ai tracé ici une résistance qui passe par
+ce point par ce point là par ce point là par ce point là et par ce point là tout le monde est
+d'accord sur ça on a vraiment quelque chose de parfait ici ensuite on a ici notre support
+que vous vous allez apprendre à tracer aussi également vous voyez le support là
+donc et nous avons ici notre fameuse notre fameux point d'or qui est là
+il est là le point d'or avec cette cassure là et là à ce niveau là on a le prix le volume qui
+vient nous confirmer ici vous voyez que ce point là rencontre entre le support et la
+résistance on a cassure ici voici voici ce que j'appelle le golden point il est là c'est
+vraiment très important et souvent souvent on va nous voir sur les marchés comme l'euro le
+pétrole le s&p et même lors des fois on a la cassure puis on a le pull back on revient juste
+rebondir ici qu'on peut avoir de la force et ensuite repartir en tout cas ici on n'a pas
+de signal véritablement de on devrait avoir ici une divergence haussière et on l'a pas
+vraiment donc sous ce coup là on n'a pas de divergence haussière et on pourrait trouver des
+situations où on a une divergence haussière là c'est clair maintenant ici j'ai un exemple concret
+je cherche je cherche les configurations en temps réel avec vous ça dit que j'ai rien préparé
+parce que je veux que votre œil commence à voir la même chose que ce que je vois donc par exemple
+ici vous voyez quelque chose n'est-ce pas tout le monde voit ici un mouvement intéressant donc
+on va le tracer on va tracer ce mouvement là
+voilà et ici on a un mouvement aussi également vous voyez le mouvement ici
+on a notre support ici on peut même le faire comme ça
+à la
+et là on a peut-être mieux on a ça
+voilà
+voilà donc on a ici un support et on a ici une résistance ok ici même à terme avec du 5 minutes
+si on fait comme ça ça va être juste mais je préfère aller comme ça ce que je passe
+par ici je passe par ici c'est intéressant comme résistance ici où est-ce qu'il est le point d'or
+le point d'or il est où le point d'or ici à l'intersection voilà le point d'or
+voilà ici on a un point d'or très important et on va voir qu'il y a une accélération sur
+le volume ici et là on a ces deux barres là de volume supérieurs à toutes ces barres là
+et on a une belle bougie qui vient casser ici donc ici on a une probabilité de 90%
+de que le marché tombe voilà et moi je trouve que c'est intéressant cette configuration parce
+que si vous regardez le marché ici le marché en train de monter mais le RSI en train de baisser
+vous voyez donc ça c'est une divergence très élargie comme vous voyez là par exemple là
+voyez ça monte ça monte mais là ça baisse donc on a un golden point ici très intéressant
+parce que si vous arrivez à le définir sur l'oro comme ça à ce niveau là et que vous
+comparez par rapport au volume vous voyez les volumes sur cassure de ça vous savez que ici
+nous avons une source d'impulsion baissière on va essayer de faire un dernier exemple ensemble
+sur cette technique en fait je regarde un peu comment on peut arriver à cette technique alors
+vous voyez ici on a ici quand même un support là et ici on a une résistance
+ok donc ici à ce carrefour là ici on a quelque chose d'intéressant mais là où on est aidé c'est
+que ici on a une divergence parce qu'ici ça baisse mais attendez ici ça baisse mais ici
+voyez c'est presque plat voilà vous voyez là c'est pas du tout regardez bien ici ça baisse
+vraiment mais là il ya une divergence comme on nous dit que sur ce point là la tension ça peut
+monter et ça confine carrément ici alors que là c'est faible mais ici c'est carrément clair que
+sur ce point là ici vous avez vu entre ce point et ce point c'est bas regardez ici là ça baisse mais
+ici ça monte vous voyez ici ça baisse ici ça monte donc sur ce point là ici vous savez que vous
+avez une divergence ça peut faire ça peut être le début d'une impulsion donc je vais venir ici et
+je vais dessiner ici le point d'or ici et on va regarder les volumes les volumes ne sont pas là
+sont pas au rendez-vous vous avez vu le volume il n'y a pas de rendez-vous c'est 19h30 20h donc c'est
+enfin de journée c'est pour ça qu'il n'y a pas trop de volume mais la configuration elle est
+intéressante à savoir tracer en cas d'école vous avez un support ici clair vous avez vu une
+résistance un rendez-vous une divergence et finalement vous avez un point d'entrée
+intéressant sur sur sur l'euro contre l'euro dollar écoutez voilà vous pouvez trouver ces
+configurations là sur des graphiques de 30 minutes d'une heure même des graphiques de
+de délit et même weekly en fait c'est une stratégie très intéressante où vous allez
+trouver des combinaisons de supports et des résistances qui se croisent et dans ce croisement
+là vous allez essayer de voir si il y a une divergence avec le récit qui est en train de
+révéler une faiblesse du momentum pour qu'il y ait une accélération de l'autre côté du marché
+d'accord donc ça c'était une vidéo vous pouvez trouver d'autres exemples vous allez vous même
+trouver des exemples intéressants de carrefour sur sur les marchés financiers et c'est des
+exercices donc je vous invite à faire pour vous entraîner et déterminer le golden point voilà
+j'espère que vous avez aimé cette stratégie qui est très simple qui vous permet de définir une
+résistance et support de chercher la divergence et de regarder ce qui se passe avec les prix et
+ça vous permet de faire des traits vraiment magnifique des traits gagnants comme celui là
+c'est un très très beau trait que vous aurez pu faire avec cette stratégie là voilà c'était
+une vidéo qui a son pesant d'or très bientôt
