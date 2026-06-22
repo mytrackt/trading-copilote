@@ -1,5 +1,5 @@
 # KB_INDEX — TRADEX-AI · Base de Connaissances Trading
-**Dernière mise à jour :** 22/06/2026 · Session Pipeline Phase 1 — RSI  
+**Dernière mise à jour :** 22/06/2026 · Session Pipeline Phase 1 — MACD  
 **Repo :** `C:\trading-copilote\` · branch `main`  
 **GitHub :** `mytrackt/trading-copilote`
 
@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D39
-Prochaine décision : D40
-Total décisions    : 39
+Dernière décision  : D61
+Prochaine décision : D62
+Total décisions    : 61
 ```
 
 ---
@@ -19,29 +19,12 @@ Total décisions    : 39
 ## 2. DOSSIER DE SORTIE — STRUCTURE
 
 ```
-C:\trading-copilote\02-sources-brutes\playbook\
-├── stockcharts\        ← StockCharts ChartSchool ✅ ACTIF
-├── cme\                ← CME Institute
-├── cftc\               ← CFTC COT
-├── ninjatrader\        ← NinjaTrader Learning
-├── investopedia\       ← Investopedia TA
-├── adamgrimes\         ← Adam Grimes Blog
-├── brooks\             ← Brooks Trading Course
-├── quantifiedstrat\    ← QuantifiedStrategies
-├── bollinger\          ← bollingerbands.com
-├── patternsite\        ← ThePatternSite [RÉFÉRENCE seule]
-├── jimdalton\          ← Market Profile
-├── sierrachart\        ← Sierra Chart (order flow)
-├── fidelity\           ← Fidelity indicateurs
-├── nison\              ← Candlecharts (Steve Nison)
-├── wyckoff\            ← Wyckoff Method
-├── optimusfutures\     ← Optimus Futures (footprint)
-├── belkhayate\         ← Méthode Belkhayate
-├── academic\           ← Sources académiques
-└── youtube\            ← Transcriptions vidéos
+C:\trading-copilote\
+├── 01-pipeline\bundles\[source]\      ← BRUT : scraper (texte + images + manifest)
+└── 04-cerveau-trading\[source]\       ← TRAITÉ : extractions D### prêtes pour claude_brain.py
 ```
 
-**Nommage :** `[sujet_snake_case]_v1.md`
+**Nommage extraction :** `Extraction_[Source]_[Sujet]_v1.md`
 
 ---
 
@@ -52,6 +35,7 @@ C:\trading-copilote\02-sources-brutes\playbook\
 |---------|-----------|------------|--------|--------|
 | `moving_averages_v1.md` | D1–D17 | indicateurs_tendance (15) · indicateurs_momentum (1) · structure_marche (1) | 6/6 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_RSI_v1.md` | D18–D39 | indicateurs_momentum · indicateurs_tendance · structure_marche · timing · gestion_risque_entree | 15/15 ✅ | ✅ VALIDÉ |
+| `Extraction_StockCharts_MACD_v1.md` | D40–D61 | indicateurs_momentum · indicateurs_tendance · signal · divergence · configuration | 11/11 ✅ | ✅ VALIDÉ |
 
 ### Autres sources
 *(aucun fichier encore produit)*
@@ -147,45 +131,50 @@ C:\trading-copilote\02-sources-brutes\playbook\
 |---|------|--------|-----------|--------|
 | 1 | Moving Averages | StockCharts | D1–D17 | ✅ FAIT |
 | 2 | RSI | StockCharts + Fidelity | D18–D39 | ✅ FAIT |
-| 3 | MACD | StockCharts + Fidelity | TBD | ⏳ PROCHAIN |
+| 3 | MACD | StockCharts + Fidelity | D40–D61 | ✅ FAIT |
+| 4 | ADX | StockCharts | D62+ | ⏳ PROCHAIN |
 
 ### P1 — Chandeliers + Futures specs
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 4 | Specs NQ/ES/GC | CME | ⏳ |
-| 5 | Candlestick Bullish/Bearish | StockCharts + Nison | ⏳ |
-| 6 | COT introduction | CFTC | ⏳ |
+| 5 | Specs NQ/ES/GC | CME | ⏳ |
+| 6 | Candlestick Bullish/Bearish | StockCharts + Nison | ⏳ |
+| 7 | COT introduction | CFTC | ⏳ |
 
 ### P2 — Order flow + Market Profile
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 7 | Footprint charts | Optimus + NinjaTrader | ⏳ |
-| 8 | Market Profile | Jim Dalton | ⏳ |
-| 9 | VWAP / Volume Profile | Sierra Chart | ⏳ |
+| 8 | Footprint charts | Optimus + NinjaTrader | ⏳ |
+| 9 | Market Profile | Jim Dalton | ⏳ |
+| 10 | VWAP / Volume Profile | Sierra Chart | ⏳ |
 
 ### P3 — Price Action + Wyckoff
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 10 | Wyckoff Method | StockCharts | ⏳ |
-| 11 | Price Action | Adam Grimes + Brooks | ⏳ |
+| 11 | Wyckoff Method | StockCharts | ⏳ |
+| 12 | Price Action | Adam Grimes + Brooks | ⏳ |
 
 ### P4 — Backtesting + Psychologie
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 12 | Walk-forward / overfitting | CME PDF + arXiv | ⏳ |
-| 13 | Biais cognitifs | Cannon Behavioral | ⏳ |
+| 13 | Walk-forward / overfitting | CME PDF + arXiv | ⏳ |
+| 14 | Biais cognitifs | Cannon Behavioral | ⏳ |
 
 ---
 
 ## 11. PIPELINE OPTION B — ÉTAT
 
 ```
-Phase 1 ✅ VALIDÉE (21/06/2026 · commit c850ea1)
-  - Agent 1 : scraper.py (6 garde-fous · pré-sélecteur · manifest ALT)
-  - Agent 2 : analyse native Claude Code
-  - Test     : Moving Averages · 6/6 images · 0 ambiguïté · D1-D17
+Phase 1 ✅ VALIDÉE
+  - Agent 1 : scraper.py v3.1 DOUBLE ANCRAGE + SECTION FALLBACK (commit ee0f679)
+              .md figcaption + HTML légende locale · accord 2 sources sinon manuel
+              Pattern B : figcaption vide → titre section ## parent (ARCH-15)
+              Filtre images inline hors <figure> (v3.1)
+              backup : scraper_backup_v1.py · scraper_backup_v2.py
+  - Agent 2 : analyse native Claude (extraction D### + tags + categorie réelle)
+  - Tests    : Moving Averages D1-D17 (6/6) · RSI D18-D39 (15/15) · MACD D40-D61 (11/11) · 0 manuel
 
-Phase 2 ⏳ À CONSTRUIRE
+Phase 2 ⏳ À CONSTRUIRE  ← PROCHAINE ÉTAPE (après P0 complet)
   - Agent 3 : Formateur (template KB automatique)
   - Agent 4 : Validateur (score /100)
   - Archiviste : git commit auto
@@ -201,6 +190,16 @@ Phase 3 ⏳ À CONSTRUIRE
 ❌ REJETER : forex-only · crypto · marketing broker · opinions forum
 ```
 
+### ⚠️ LIMITES SCRAPER v3.1
+```
+Calibré pour la structure GitBook de StockCharts.
+Pattern A : figcaption non vide → comportement standard double ancrage.
+Pattern B : figcaption vide → titre section ## parent (ARCH-15).
+  ⚠️ Labels non uniques possibles (ex: 4 images "Centerline Crossovers") → désambiguïsation côté Agent 2.
+Images inline hors <figure> → ignorées (décoratives).
+Chaque nouvelle source (CME, CFTC, etc.) exige son propre résolveur d'images.
+```
+
 ---
 
 ## 12. DÉCISIONS ARCHITECTURALES
@@ -213,21 +212,23 @@ Phase 3 ⏳ À CONSTRUIRE
 | ARCH-4 | Formule COG : polynomial degree-3 ± résidus | Source primaire |
 | ARCH-5 | Actifs exclus : Bitcoin · Yen | Session initiale |
 | ARCH-8 | KB remise à zéro · D1 = Moving Averages | 21/06/2026 |
-| ARCH-9 | Liaison image : texte ALT (.md ↔ HTML) | 21/06/2026 |
+| ARCH-9 | ~~Liaison image : texte ALT~~ → SUPERSEDÉ par ARCH-14 | 21/06/2026 |
 | ARCH-10 | Étiquetage : `categorie` seule (champ réel KB) | 21/06/2026 |
-| ARCH-11 | Dossier : `02-sources-brutes/playbook/[source]/` | 21/06/2026 |
+| ARCH-11 | Dossier : BRUT `01-pipeline/bundles/` · TRAITÉ `04-cerveau-trading/[source]/` | 22/06/2026 |
 | ARCH-12 | Sources Tier 1 : 9 primaires | 21/06/2026 |
 | ARCH-13 | Belkhayate : toujours ⚫ + 🔴 | 21/06/2026 |
+| ARCH-14 | Liaison image : DOUBLE ANCRAGE (.md figcaption + HTML légende locale) · accord 2 sources sinon manuel | 22/06/2026 |
+| ARCH-15 | Pattern B : figcaption vide → titre section ## parent comme label · blacklist sections génériques | 22/06/2026 |
 
 ---
 
 ## 13. TAGS ANTI-HALLUCINATION
 
 ```
-🟢 FAIT VÉRIFIÉ  — visible dans source (texte HTML officiel + image ALT)
+🟢 FAIT VÉRIFIÉ  — visible dans source (texte officiel + image à légende certifiée)
 🟡 CONVENTION    — règle TA classique acceptée
-🔵 ÉCOLE         — méthodologie StockCharts spécifique
-⏳ VOLATILE      — donnée changeante
+🔵 ÉCOLE         — méthodologie spécifique (StockCharts, Wilder, Brown, Cardwell, Belkhayate)
+⏳ VOLATILE      — donnée changeante (prix, %, statistiques)
 🔴 NON VÉRIFIÉ  — à confirmer source primaire
 ⚫ PROPRIÉTAIRE  — méthode Belkhayate exclusive
 ```
@@ -237,13 +238,13 @@ Phase 3 ⏳ À CONSTRUIRE
 ## 14. RÈGLE D'OR EXTRACTION
 
 ```
-1. Lancer scraper.py → bundle texte + images + manifest
-2. Vérifier manifest : 0 ambiguïté · sinon corriger manuellement
+1. Lancer scraper.py → bundle texte + images + manifest (double ancrage v3.1)
+2. Vérifier manifest : 0 "à vérifier" · sinon traiter manuellement (URL + section fournies)
 3. Agent 2 lit bundle → D### avec tags + categorie réelle KB
-4. 🟢 UNIQUEMENT si visible dans le texte/image officiel
+4. 🟢 UNIQUEMENT si visible dans le texte/image officiel · citer macd.md + image_XX
 5. Belkhayate → toujours ⚫ + 🔴 + mention repaint
 6. Prochaine D### = vérifier §1 (compteur) avant chaque session
-7. Chaque fichier produit → MAJ §10 (statut queue → ✅)
+7. Chaque fichier produit → MAJ §3 et §10 (statut queue → ✅)
 8. Git commit + push après chaque session
 9. Un doute = STOP · jamais continuer dans l'incertitude
 ```
@@ -252,9 +253,9 @@ Phase 3 ⏳ À CONSTRUIRE
 
 ## 15. PHRASE D'AMORÇAGE SESSION SUIVANTE
 
-> « TRADEX-AI Pipeline Phase 1 validée (c850ea1). Scraper opérationnel (6 garde-fous · ALT certifié). Moving Averages → D1-D17 ✅. Prochaine décision : D18. Dossier : `C:\trading-copilote\02-sources-brutes\playbook\`. Aujourd'hui : Phase 2 pipeline (Agent 3+4+Archiviste) OU extraction RSI (D18+) avec scraper.py existant. »
+> « TRADEX-AI · Pipeline Phase 1 validée. Scraper v3.1 DOUBLE ANCRAGE + SECTION FALLBACK opérationnel (commit ee0f679). Moving Averages D1–D17 ✅ · RSI D18–D39 ✅ (15/15) · MACD D40–D61 ✅ (11/11 images). Prochaine décision : D62. Extractions traitées : `04-cerveau-trading\chartschool\`. Prochain P0 : ADX (D62+). »
 
 ---
 
-*KB_INDEX · TRADEX-AI · Mis à jour le 21/06/2026 · D0→D17 · Phase 1 validée*
+*KB_INDEX · TRADEX-AI · Mis à jour le 22/06/2026 · D1→D61 · Phase 1 en cours (MA ✅ · RSI ✅ · MACD ✅)*  
 *⚠️ Outil éducatif · Jamais du conseil financier · Aucune exécution automatique d'ordre*
