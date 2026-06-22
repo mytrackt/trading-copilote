@@ -1,0 +1,15 @@
+# Manifest images pour candlestick_bullish (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlestick-bullish-reversal-patterns
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : A bullish engulfing pattern formed near a resistance level s | section : There Must Be an Existing Downtrend to Reverse | CERTIFIE (accord .md + HTML)
+image_02.png | label : Bullish engulfing patterns foreshadowed two significant adva | section : Bullish Engulfing | CERTIFIE (accord .md + HTML)
+image_03.png | label : A piercing pattern confirmed the support level after which t | section : Piercing Pattern | CERTIFIE (accord .md + HTML)
+image_04.webp | label : Examples of harami candlesticks. | section : Bullish Harami | CERTIFIE (accord .md + HTML)
+image_05.png | label : A bullish harami formed at support after which the stock adv | section : Bullish Harami | CERTIFIE (accord .md + HTML)
+image_06.png | label : The hammer confirmed the support level after which the stock | section : Hammer | CERTIFIE (accord .md + HTML)
+image_07.png | label : A morning doji star was followed by a strong three-day advan | section : Morning Star | CERTIFIE (accord .md + HTML)
+image_08.png | label : The bullish abandoned baby was the reversal pattern that ind | section : Bullish Abandoned Baby | CERTIFIE (accord .md + HTML)
+image_09.png | label : Bullish reversal pattern at a Fibonacci retracement level ma | section : Support | CERTIFIE (accord .md + HTML)
+image_10.png | label : A bullish engulfing pattern, a positive divergence in the st | section : Money Flow | CERTIFIE (accord .md + HTML)

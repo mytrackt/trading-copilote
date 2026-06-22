@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D77
-Prochaine décision : D78
-Total décisions    : 77
+Dernière décision  : D88
+Prochaine décision : D89
+Total décisions    : 88
 ```
 
 ---
@@ -38,6 +38,7 @@ C:\trading-copilote\
 | `Extraction_StockCharts_RSI_v1.md` | D18–D39 | indicateurs_momentum · indicateurs_tendance · structure_marche · timing · gestion_risque_entree | 15/15 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_MACD_v1.md` | D40–D61 | indicateurs_momentum · indicateurs_tendance · signal · divergence · configuration | 11/11 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_ADX_v1.md` | D62–D77 | indicateurs_tendance · signal · gestion_risque_entree · configuration | 9/9 ✅ | ✅ VALIDÉ |
+| `Extraction_StockCharts_Candlestick_Bullish_v1.md` | D78–D88 | structure_marche · signal · gestion_risque_entree · configuration | 10/10 ✅ | ✅ VALIDÉ |
 
 ### Autres sources
 *(aucun fichier encore produit)*
@@ -140,7 +141,8 @@ C:\trading-copilote\
 | # | Page | Source | Statut |
 |---|------|--------|--------|
 | 5 | Specs NQ/ES/GC | CME | ⏳ |
-| 6 | Candlestick Bullish/Bearish | StockCharts + Nison | ⏳ PROCHAIN (GitBook dispo) |
+| 6a | Candlestick Bullish | StockCharts | ✅ FAIT (D78–D88) |
+| 6b | Candlestick Bearish | StockCharts | ⏳ EN COURS (GitBook dispo) |
 | 7 | COT introduction | CFTC | ⏳ |
 
 ### P2 — Order flow + Market Profile
