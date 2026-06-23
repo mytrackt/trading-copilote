@@ -55,6 +55,13 @@ L'écart apparent (143 fichiers déplacés vs 142 lus) vient de `status.json` �
 pipeline whisper, qui n'est pas un transcript. Cohérence confirmée par la KB : 142 vidéos traitées.
 **Aucune action requise.**
 
+## ⏳ 5. Migration google.generativeai → google.genai
+- Package actuel : google-generativeai (déprécié, FutureWarning)
+- Action : pip install google-genai + adapter imports + API dans gemini_transcriber.py
+- Fichiers concernés : 05-saas\utils\gemini_transcriber.py
+- Priorité : P2 — à faire AVANT mise en prod, après validation pipeline complet
+- Risque si ignoré : rupture future sans préavis lors d'une mise à jour pip
+
 ---
 
 ## Rappels d'état (réorganisation du 11/06/2026)
