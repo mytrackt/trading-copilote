@@ -1,0 +1,15 @@
+# Manifest images pour wyckoff (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/the-wyckoff-method-a-tutorial
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Richard D. Wyckoff | section : Wyckoff Method: The Origins | CERTIFIE (accord .md + HTML)
+image_02.jpg | label : Wyckoff Price Cycle | section : Wyckoff Price Cycle | CERTIFIE (accord .md + HTML)
+image_03.png | label : Accumulation: Wyckoff Events | section : Accumulation: Wyckoff Events [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Accumulation: Wyckoff Phases | section : Accumulation: Wyckoff Phases [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Distribution: Wyckoff Events | section : Distribution: Wyckoff Events [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Distribution: Wyckoff Phases | section : Distribution: Wyckoff Phases [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Supply and Demand Analysis | section : Supply and Demand Analysis [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Comparative Strength Analysis | section : Comparative Strength Analysis [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Wyckoff Selling Tests for Distribution | section : Wyckoff Selling Tests for Distribution [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : Wyckoff Point and Figure (P&F) Count Guide | section : Wyckoff Point and Figure (P&F) Count Guide [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

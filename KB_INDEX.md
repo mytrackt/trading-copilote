@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D98
-Prochaine décision : D99
-Total décisions    : 98
+Dernière décision  : D111
+Prochaine décision : D112
+Total décisions    : 111
 ```
 
 ---
@@ -40,6 +40,7 @@ C:\trading-copilote\
 | `Extraction_StockCharts_ADX_v1.md` | D62–D77 | indicateurs_tendance · signal · gestion_risque_entree · configuration | 9/9 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_Candlestick_Bullish_v1.md` | D78–D88 | structure_marche · signal · gestion_risque_entree · configuration | 10/10 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_Candlestick_Bearish_v1.md` | D89–D98 | structure_marche · signal · gestion_risque_entree · configuration | 11/11 ✅ | ✅ VALIDÉ |
+| `Extraction_StockCharts_Wyckoff_v1.md` | D99–D111 | structure_marche · indicateurs_tendance · gestion_risque_entree · configuration | 10/10 ✅ | ✅ VALIDÉ |
 
 ### Autres sources
 *(aucun fichier encore produit)*
@@ -156,7 +157,7 @@ C:\trading-copilote\
 ### P3 — Price Action + Wyckoff
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 11 | Wyckoff Method | StockCharts | ⏳ PROCHAIN (GitBook dispo) |
+| 11 | Wyckoff Method | StockCharts | ✅ FAIT (D99–D111) |
 | 12 | Price Action | Adam Grimes + Brooks | ⏳ |
 
 ### P4 — Backtesting + Psychologie

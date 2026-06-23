@@ -97,6 +97,11 @@ def normaliser(v):
 
 def nettoyer_titre(t):
     t = re.sub(r"<[^>]+>", "", t)
+    # v3.3 : decoder les entites HTML (&amp; -> &) pour aligner le titre HTML
+    # rendu avec le titre .md brut. Sans cela, une section servant de label
+    # (Pattern B) contenant '&' produit un faux desaccord (P&amp;F vs P&F).
+    # Idempotent sur du texte sans entite (cote markdown).
+    t = htmllib.unescape(t)
     t = t.replace("**", "").replace("`", "")
     t = re.sub(r"\\([&#_*])", r"\1", t)
     return re.sub(r"\s+", " ", t).strip()
