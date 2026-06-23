@@ -1,0 +1,7 @@
+# Manifest PDF pour gc_specs (source : cme)
+# Fichier : C:\trading-copilote\01-pipeline\bundles\cme\cme_gc_specs.pdf | pages : 6
+# Methode : pdfplumber (texte). Images = MANUEL (strategie §3.3).
+# Bilan : texte=OK | images_auto=0 | images_detectees=5
+
+texte_gc_specs.md | 6 pages | CERTIFIE (extrait direct PDF)
+(images) | 5 image(s) detectee(s) dans le PDF | A EXTRAIRE MANUELLEMENT si besoin

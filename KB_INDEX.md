@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D172
-Prochaine décision : D173
-Total décisions    : 172
+Dernière décision  : D176
+Prochaine décision : D177
+Total décisions    : 176
 ```
 
 ---
@@ -54,6 +54,7 @@ C:\trading-copilote\
 | `cftc/Extraction_CFTC_COT_v1.md` | D156–D162 | structure_marche · gestion_risque_entree | 0 (page texte) | ✅ VALIDÉ (Tier 1 régulateur) |
 | `ninjatrader/Extraction_NinjaTrader_VolumeProfileShapes_v1.md` | D163–D167 | structure_marche · signal | 0 (page texte) | ✅ VALIDÉ (Tier 2) |
 | `adamgrimes/Extraction_AdamGrimes_TrendGold_v1.md` | D168–D172 | structure_marche · gestion_risque_entree · signal | 1/1 (alt-seul) | ✅ VALIDÉ (Tier 2 · perf auto-déclarée) |
+| `cme/Extraction_CME_Specs_NQ_ES_GC_v1.md` | D173–D176 | configuration | 0 (PDF specs) | ✅ VALIDÉ (Tier 1 CME · PDF manuels) |
 
 ---
 
@@ -152,7 +153,7 @@ C:\trading-copilote\
 ### P1 — Chandeliers + Futures specs
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 5 | Specs NQ/ES/GC | CME | 🚫 BLOQUÉ 403 Akamai → download manuel specs PDF |
+| 5 | Specs NQ/ES/GC | CME | ✅ FAIT (D173–D176 · PDF fournis manuellement) |
 | 6a | Candlestick Bullish | StockCharts | ✅ FAIT (D78–D88) |
 | 6b | Candlestick Bearish | StockCharts | ✅ FAIT (D89–D98) |
 | 7 | COT introduction | CFTC | ✅ FAIT (D156–D162) |
