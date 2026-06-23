@@ -1,0 +1,11 @@
+# Manifest images pour rsi (source : investopedia) [STATIC]
+# Page : https://www.investopedia.com/terms/r/rsi.asp
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : The RSI can be used with other technical indicators to confirm trends, | section : Relative Strength Index (RSI): What It Is, How It Works, and Formula | CERTIFIE (figcaption+alt)
+image_02.png | label : TradingView | section : Plotting RSI | CERTIFIE (figcaption+alt)
+image_03.png | label : TradingView | section : Use Buy and Sell Signals That Fit Trends | CERTIFIE (figcaption+alt)
+image_04.png | label : TradingView | section : Example of RSI Divergences | CERTIFIE (figcaption+alt)
+image_05.png | label : TradingView | section : Example of RSI Swing Rejections | CERTIFIE (figcaption+alt)
+image_06.png | label : TradingView | section : Example of RSI Swing Rejections | CERTIFIE (figcaption+alt)

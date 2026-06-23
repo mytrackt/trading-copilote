@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D142
-Prochaine décision : D143
-Total décisions    : 142
+Dernière décision  : D155
+Prochaine décision : D156
+Total décisions    : 155
 ```
 
 ---
@@ -49,6 +49,8 @@ C:\trading-copilote\
 | `cannon/Extraction_Cannon_Behavioral_Finance_v1.md` | D121–D130 | gestion_risque_entree · structure_marche | 0 (PDF texte) | ✅ VALIDÉ (CFA académique) |
 | `jimdalton/Extraction_JimDalton_MarketProfile_v1.md` | D131–D134 | structure_marche | 0 (page texte) | ✅ VALIDÉ (Tier 1) |
 | `arxiv/Extraction_arXiv_WalkForward_v1.md` | D135–D142 | gestion_risque_entree · structure_marche | 0 (figures 404=manuel) | ✅ VALIDÉ (⚠️ preprint) |
+| `bollinger/Extraction_Bollinger_Bands_v1.md` | D143–D147 | indicateurs_tendance · indicateurs_momentum | 0 (page texte) | ✅ VALIDÉ (Tier 1 créateur) |
+| `windotrader/Extraction_WindoTrader_MarketProfile_Glossary_v1.md` | D148–D155 | structure_marche | 0 (glossaire texte) | ✅ VALIDÉ (Tier 2) |
 
 ---
 
