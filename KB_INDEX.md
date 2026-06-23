@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D134
-Prochaine décision : D135
-Total décisions    : 134
+Dernière décision  : D142
+Prochaine décision : D143
+Total décisions    : 142
 ```
 
 ---
@@ -48,6 +48,7 @@ C:\trading-copilote\
 | `optimusfutures/Extraction_Optimus_Footprint_v1.md` | D112–D120 | structure_marche · signal · gestion_risque_entree | 7/7 ✅ (alt+filename) | ✅ VALIDÉ (Tier 2 broker) |
 | `cannon/Extraction_Cannon_Behavioral_Finance_v1.md` | D121–D130 | gestion_risque_entree · structure_marche | 0 (PDF texte) | ✅ VALIDÉ (CFA académique) |
 | `jimdalton/Extraction_JimDalton_MarketProfile_v1.md` | D131–D134 | structure_marche | 0 (page texte) | ✅ VALIDÉ (Tier 1) |
+| `arxiv/Extraction_arXiv_WalkForward_v1.md` | D135–D142 | gestion_risque_entree · structure_marche | 0 (figures 404=manuel) | ✅ VALIDÉ (⚠️ preprint) |
 
 ---
 
@@ -163,12 +164,13 @@ C:\trading-copilote\
 | # | Page | Source | Statut |
 |---|------|--------|--------|
 | 11 | Wyckoff Method | StockCharts | ✅ FAIT (D99–D111) |
-| 12 | Price Action | Adam Grimes + Brooks | ⏳ |
+| 12 | Price Action | Adam Grimes + Brooks | 🚫 BLOQUÉ — Brooks /price-action/ = promo podcast · Adam Grimes 404 → URLs specifiques a redecouvrir / manuel |
 
 ### P4 — Backtesting + Psychologie
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 13 | Walk-forward / overfitting | CME PDF + arXiv | ⏳ |
+| 13a | Walk-forward / overfitting | arXiv | ✅ FAIT (D135–D142) |
+| 13b | Backtesting (Harvey) | CME PDF | 🚫 BLOQUÉ 403 Akamai → download manuel |
 | 14 | Biais cognitifs | Cannon Behavioral | ✅ FAIT (D121–D130) |
 
 ---

@@ -1,0 +1,13 @@
+# Manifest images pour walk_forward (source : arxiv) [STATIC]
+# Page : https://arxiv.org/html/2512.12924v1
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 8 a verifier | 0 decorative(s)
+
+(A VERIFIER) | rang 1 | telechargement echoue | label : Figure 1 : Walk-Forward Performance Summary. Panel | url : https://arxiv.org/html/src/figure1_main_results.png
+(A VERIFIER) | rang 2 | telechargement echoue | label : Figure 2 : Statistical Analysis of Returns. Panel  | url : https://arxiv.org/html/src/figure2_statistical_analysis.png
+(A VERIFIER) | rang 3 | telechargement echoue | label : Figure 3 : Regime-Dependent Performance. Panel (A) | url : https://arxiv.org/html/src/figure3_regime_comparison.png
+(A VERIFIER) | rang 4 | telechargement echoue | label : Figure 4 : Strategy vs. SPY Benchmark. Panel (A) s | url : https://arxiv.org/html/src/figure4_benchmark_comparison.png
+(A VERIFIER) | rang 5 | telechargement echoue | label : Figure 5 : Drawdown Analysis. Panel (A) shows stra | url : https://arxiv.org/html/src/figure5_drawdown_analysis.png
+(A VERIFIER) | rang 6 | telechargement echoue | label : Figure 6 : Training vs. Testing Performance. Panel | url : https://arxiv.org/html/src/figure6_train_vs_test.png
+(A VERIFIER) | rang 7 | telechargement echoue | label : Figure 7 : Return Distribution Analysis. Panel (A) | url : https://arxiv.org/html/src/figure7_return_distribution.png
+(A VERIFIER) | rang 8 | telechargement echoue | label : Figure 8 : Time Series of Performance Metrics. Pan | url : https://arxiv.org/html/src/figure8_time_series_metrics.png

@@ -23,6 +23,7 @@ import os
 import re
 import sys
 import time
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -141,11 +142,9 @@ def collecter_figures(contenu, base_url):
         figcap = re.sub(r"\s+", " ", cap.get_text(" ", strip=True)).strip() if cap else ""
         alt = re.sub(r"\s+", " ", (img.get("alt") or "")).strip()
         src = img.get("src") or img.get("data-src") or ""
-        if src.startswith("//"):
-            src = "https:" + src
-        elif src.startswith("/"):
-            m = re.match(r"(https?://[^/]+)", base_url)
-            src = (m.group(1) if m else "") + src
+        # v1.1 : resolution robuste des URLs (relatif / absolu / scheme-relative)
+        if src:
+            src = urljoin(base_url, src)
 
         # Label + base d'ancrage (transparence dans le manifest)
         if figcap:
