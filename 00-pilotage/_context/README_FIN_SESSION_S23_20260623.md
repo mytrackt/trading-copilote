@@ -24,6 +24,8 @@ Pipeline KB Phase 1 étendu en mode autonome. **3 adaptateurs de scraping constr
 | D143–D147 | Bollinger Bands | StaticHTML | 0 (texte) | — |
 | D148–D155 | WindoTrader MP Glossary | StaticHTML | 0 (texte) | — |
 | D156–D162 | CFTC COT | StaticHTML | 0 (texte) | — |
+| D163–D167 | Volume Profile Shapes NinjaTrader | StaticHTML | 0 (texte) | — |
+| D168–D172 | Price Action Gold Adam Grimes | StaticHTML | 1/1 (alt) | `9a2662c` |
 
 ---
 
@@ -54,8 +56,8 @@ Pipeline KB Phase 1 étendu en mode autonome. **3 adaptateurs de scraping constr
 | CME specs NQ/ES/GC | 403 Akamai (requests + WebFetch timeout) | Download manuel des PDF de specs |
 | CME backtesting PDF | 403 Akamai | Download manuel |
 | Fidelity (RSI/MACD/ADX) | 403 anti-bot | Redondant avec D18-D77 → faible priorité |
-| NinjaTrader Order Flow | 404 (URL obsolète) | Redécouvrir URL via sitemap |
-| Adam Grimes | 404 (URL blog obsolète) | Redécouvrir URL |
+| ~~NinjaTrader~~ | ✅ RÉCUPÉRÉ | Volume Profile Shapes D163-D167 |
+| ~~Adam Grimes~~ | ✅ RÉCUPÉRÉ | Trend Gold D168-D172 |
 | Brooks Price Action | page = promo podcast | URL d'article spécifique requise |
 | Nison/candlecharts | page = catalogue de cours | Contenu derrière paywall course |
 | Sierra Chart VWAP/VP | pages dédiées 404 (index géant) | Concepts déjà couverts (D120/D150-D151) |

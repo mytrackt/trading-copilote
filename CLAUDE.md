@@ -261,8 +261,8 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
 | Trading Geek transcription | ⏳ 38/113 — en cours en background |
 | Scrapers KB (`01-pipeline\`) | ✅ **3 adaptateurs validés** : `scraper.py` **v3.3** (GitBook : double ancrage + section-fallback + sous-dossier/page + unescape entités) · `scraper_static.py` **v1.1** (HTML statique : ancrage figcaption/alt+filename + urljoin) · `scraper_pdf.py` **v1** (pdfplumber texte, images=manuel). |
-| KB pipeline (`KB_INDEX.md` · D###) | ✅ **D1→D162** (101 décisions ajoutées S23). **P0 COMPLET** (MA/RSI/MACD/ADX D1–D77). **P1** : Candlestick Bull/Bear (D78–D98) · COT CFTC (D156–D162). **P2** : Footprint Optimus (D112–D120) · Market Profile Dalton (D131–D134) + WindoTrader (D148–D155). **P3** : Wyckoff (D99–D111). **P4** : Behavioral Finance Cannon (D121–D130) · Walk-Forward arXiv (D135–D142) · Bollinger (D143–D147). Prochaine décision : D163. |
-| Sources BLOQUÉES (anti-bot/404) | 🚫 CME specs + CME backtest PDF (403 Akamai) · Fidelity (403) · NinjaTrader + Adam Grimes (404) · Brooks/Nison (pages promo/catalogue) → **extraction MANUELLE** (voir KB_INDEX §10). |
+| KB pipeline (`KB_INDEX.md` · D###) | ✅ **D1→D172** (111 décisions ajoutées S23 · 13 sources). **P0 COMPLET** (D1–D77). **P1** : Candlestick Bull/Bear (D78–D98) · COT CFTC (D156–D162). **P2** : Footprint Optimus (D112–D120) · Market Profile Dalton (D131–D134) + WindoTrader (D148–D155) · Volume Profile NinjaTrader (D163–D167). **P3** : Wyckoff (D99–D111) · Price Action Adam Grimes/Gold (D168–D172). **P4** : Behavioral Finance Cannon (D121–D130) · Walk-Forward arXiv (D135–D142) · Bollinger (D143–D147). Prochaine décision : D173. |
+| Sources BLOQUÉES (anti-bot uniquement) | 🚫 CME specs + CME backtest PDF (403 Akamai · requests+WebFetch) · Fidelity (403, redondant) · Brooks/Nison (pages promo/catalogue) → **extraction MANUELLE** (voir KB_INDEX §10). NinjaTrader + Adam Grimes : URLs redécouvertes ✅. |
 | Stratégie scraping multi-agents | ✅ `00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md` (S22) — 22 sources classées · 3 adaptateurs désormais construits et validés (S23). |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
@@ -318,7 +318,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 23/06/2026 (S23 autonome) — KB pipeline D1→D162 (+101 décisions) couvrant P1→P4. 3 adaptateurs de scraping validés (scraper.py v3.3 GitBook · scraper_static.py v1.1 HTML · scraper_pdf.py v1). 11 sources extraites et certifiées ; sources anti-bot/404 (CME, Fidelity, NinjaTrader, Adam Grimes) marquées extraction manuelle. Précédent : 23/06/2026 (S22) — scraper v3.2 + ADX D62–D77 → P0 COMPLET. KB cerveau (`KNOWLEDGE_BASE_MASTER.json`) inchangée : 1313 règles (distincte du compteur D### pipeline).*
+*Dernière mise à jour : 23/06/2026 (S23 autonome) — KB pipeline D1→D172 (+111 décisions · 13 sources) couvrant P1→P4. 3 adaptateurs de scraping validés (scraper.py v3.3 GitBook · scraper_static.py v1.1 HTML · scraper_pdf.py v1). NinjaTrader + Adam Grimes récupérés par redécouverte d'URL. Sources anti-bot CME/Fidelity + pages promo (Brooks/Nison) marquées extraction manuelle. Précédent : 23/06/2026 (S22) — scraper v3.2 + ADX D62–D77 → P0 COMPLET. KB cerveau (`KNOWLEDGE_BASE_MASTER.json`) inchangée : 1313 règles (distincte du compteur D### pipeline).*
 
 ---
 
