@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D111
-Prochaine décision : D112
-Total décisions    : 111
+Dernière décision  : D120
+Prochaine décision : D121
+Total décisions    : 120
 ```
 
 ---
@@ -43,7 +43,9 @@ C:\trading-copilote\
 | `Extraction_StockCharts_Wyckoff_v1.md` | D99–D111 | structure_marche · indicateurs_tendance · gestion_risque_entree · configuration | 10/10 ✅ | ✅ VALIDÉ |
 
 ### Autres sources
-*(aucun fichier encore produit)*
+| Fichier | Décisions | Catégories | Images | Statut |
+|---------|-----------|------------|--------|--------|
+| `optimusfutures/Extraction_Optimus_Footprint_v1.md` | D112–D120 | structure_marche · signal · gestion_risque_entree | 7/7 ✅ (alt+filename) | ✅ VALIDÉ (Tier 2 broker) |
 
 ---
 
@@ -150,7 +152,8 @@ C:\trading-copilote\
 ### P2 — Order flow + Market Profile
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 8 | Footprint charts | Optimus + NinjaTrader | ⏳ |
+| 8a | Footprint charts | Optimus | ✅ FAIT (D112–D120) |
+| 8b | Footprint charts | NinjaTrader | 🚫 URL 404 — à redécouvrir |
 | 9 | Market Profile | Jim Dalton | ⏳ |
 | 10 | VWAP / Volume Profile | Sierra Chart | ⏳ |
 
