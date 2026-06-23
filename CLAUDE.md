@@ -246,7 +246,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S22 terminée 23/06/2026)
+## ÉTAT ACTUEL (Session S23 autonome terminée 23/06/2026)
 
 | Élément | État |
 |---------|------|
@@ -260,9 +260,10 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Formules COG/Timing | ⚠️ [RECONSTRUCTION] non validées (structure jamais divulguée) |
 | Mode AUTO | 🔒 BLOQUÉ par défaut (non activable : UI + API + fallback) |
 | Trading Geek transcription | ⏳ 38/113 — en cours en background |
-| Scraper KB (`01-pipeline\scraper.py`) | ✅ **v3.2 VALIDÉ** 23/06/2026 (commit `03c769e`) — double ancrage (.md figcaption + HTML legende) + section-fallback + filtre images inline. **Fix v3.2** : images dans `bundles\<source>\<nom_page>\images\` (sous-dossier par page, anti-ecrasement). 4 tests PASS : MA 6 / RSI 15 / MACD 11 / ADX 9 certifiees, 0 a verifier. ⚠️ section-fallback produit des labels non uniques (desambiguisation cote Agent 2). |
-| KB pipeline ChartSchool (`KB_INDEX.md` · D###) | ✅ **D1→D77** — P0 COMPLET : MA (D1–D17) · RSI (D18–D39) · MACD (D40–D61) · ADX (D62–D77, commit `03c769e`). Extractions traitées dans `04-cerveau-trading\chartschool\`. Prochaine décision : D78. |
-| Stratégie scraping multi-agents | ✅ `00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md` (S22) — 22 sources classées par type technique · adaptateurs StaticHTML/PDF à construire pour P1+ (gate STRICT). |
+| Scrapers KB (`01-pipeline\`) | ✅ **3 adaptateurs validés** : `scraper.py` **v3.3** (GitBook : double ancrage + section-fallback + sous-dossier/page + unescape entités) · `scraper_static.py` **v1.1** (HTML statique : ancrage figcaption/alt+filename + urljoin) · `scraper_pdf.py` **v1** (pdfplumber texte, images=manuel). |
+| KB pipeline (`KB_INDEX.md` · D###) | ✅ **D1→D162** (101 décisions ajoutées S23). **P0 COMPLET** (MA/RSI/MACD/ADX D1–D77). **P1** : Candlestick Bull/Bear (D78–D98) · COT CFTC (D156–D162). **P2** : Footprint Optimus (D112–D120) · Market Profile Dalton (D131–D134) + WindoTrader (D148–D155). **P3** : Wyckoff (D99–D111). **P4** : Behavioral Finance Cannon (D121–D130) · Walk-Forward arXiv (D135–D142) · Bollinger (D143–D147). Prochaine décision : D163. |
+| Sources BLOQUÉES (anti-bot/404) | 🚫 CME specs + CME backtest PDF (403 Akamai) · Fidelity (403) · NinjaTrader + Adam Grimes (404) · Brooks/Nison (pages promo/catalogue) → **extraction MANUELLE** (voir KB_INDEX §10). |
+| Stratégie scraping multi-agents | ✅ `00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md` (S22) — 22 sources classées · 3 adaptateurs désormais construits et validés (S23). |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
@@ -317,7 +318,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 23/06/2026 (S22) — Scraper KB v3.2 VALIDÉ (commit `03c769e`) : fix images sous-dossier par page (anti-ecrasement) + extraction ADX D62–D77 (9/9 certifiees) → P0 COMPLET (MA·RSI·MACD·ADX, D1→D77). Stratégie multi-agents scraping 22 sources livrée (`00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md`). Précédent : 22/06/2026 — Scraper KB v3.1 VALIDÉ (commit `ee0f679`) : filtre images inline + section-fallback, 3 tests PASS (MA 14 / RSI 16 / MACD 11 certifiees). KB cerveau (`KNOWLEDGE_BASE_MASTER.json`) inchangée : 1313 règles*
+*Dernière mise à jour : 23/06/2026 (S23 autonome) — KB pipeline D1→D162 (+101 décisions) couvrant P1→P4. 3 adaptateurs de scraping validés (scraper.py v3.3 GitBook · scraper_static.py v1.1 HTML · scraper_pdf.py v1). 11 sources extraites et certifiées ; sources anti-bot/404 (CME, Fidelity, NinjaTrader, Adam Grimes) marquées extraction manuelle. Précédent : 23/06/2026 (S22) — scraper v3.2 + ADX D62–D77 → P0 COMPLET. KB cerveau (`KNOWLEDGE_BASE_MASTER.json`) inchangée : 1313 règles (distincte du compteur D### pipeline).*
 
 ---
 
