@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D130
-Prochaine décision : D131
-Total décisions    : 130
+Dernière décision  : D134
+Prochaine décision : D135
+Total décisions    : 134
 ```
 
 ---
@@ -47,6 +47,7 @@ C:\trading-copilote\
 |---------|-----------|------------|--------|--------|
 | `optimusfutures/Extraction_Optimus_Footprint_v1.md` | D112–D120 | structure_marche · signal · gestion_risque_entree | 7/7 ✅ (alt+filename) | ✅ VALIDÉ (Tier 2 broker) |
 | `cannon/Extraction_Cannon_Behavioral_Finance_v1.md` | D121–D130 | gestion_risque_entree · structure_marche | 0 (PDF texte) | ✅ VALIDÉ (CFA académique) |
+| `jimdalton/Extraction_JimDalton_MarketProfile_v1.md` | D131–D134 | structure_marche | 0 (page texte) | ✅ VALIDÉ (Tier 1) |
 
 ---
 
@@ -155,7 +156,7 @@ C:\trading-copilote\
 |---|------|--------|--------|
 | 8a | Footprint charts | Optimus | ✅ FAIT (D112–D120) |
 | 8b | Footprint charts | NinjaTrader | 🚫 URL 404 — à redécouvrir |
-| 9 | Market Profile | Jim Dalton | ⏳ |
+| 9 | Market Profile | Jim Dalton | ✅ FAIT (D131–D134) |
 | 10 | VWAP / Volume Profile | Sierra Chart | ⏳ |
 
 ### P3 — Price Action + Wyckoff
