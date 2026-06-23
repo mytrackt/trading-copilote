@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D155
-Prochaine décision : D156
-Total décisions    : 155
+Dernière décision  : D162
+Prochaine décision : D163
+Total décisions    : 162
 ```
 
 ---
@@ -51,6 +51,7 @@ C:\trading-copilote\
 | `arxiv/Extraction_arXiv_WalkForward_v1.md` | D135–D142 | gestion_risque_entree · structure_marche | 0 (figures 404=manuel) | ✅ VALIDÉ (⚠️ preprint) |
 | `bollinger/Extraction_Bollinger_Bands_v1.md` | D143–D147 | indicateurs_tendance · indicateurs_momentum | 0 (page texte) | ✅ VALIDÉ (Tier 1 créateur) |
 | `windotrader/Extraction_WindoTrader_MarketProfile_Glossary_v1.md` | D148–D155 | structure_marche | 0 (glossaire texte) | ✅ VALIDÉ (Tier 2) |
+| `cftc/Extraction_CFTC_COT_v1.md` | D156–D162 | structure_marche · gestion_risque_entree | 0 (page texte) | ✅ VALIDÉ (Tier 1 régulateur) |
 
 ---
 
@@ -149,10 +150,10 @@ C:\trading-copilote\
 ### P1 — Chandeliers + Futures specs
 | # | Page | Source | Statut |
 |---|------|--------|--------|
-| 5 | Specs NQ/ES/GC | CME | ⏳ |
+| 5 | Specs NQ/ES/GC | CME | 🚫 BLOQUÉ 403 Akamai → download manuel specs PDF |
 | 6a | Candlestick Bullish | StockCharts | ✅ FAIT (D78–D88) |
 | 6b | Candlestick Bearish | StockCharts | ✅ FAIT (D89–D98) |
-| 7 | COT introduction | CFTC | ⏳ |
+| 7 | COT introduction | CFTC | ✅ FAIT (D156–D162) |
 
 ### P2 — Order flow + Market Profile
 | # | Page | Source | Statut |
@@ -160,7 +161,7 @@ C:\trading-copilote\
 | 8a | Footprint charts | Optimus | ✅ FAIT (D112–D120) |
 | 8b | Footprint charts | NinjaTrader | 🚫 URL 404 — à redécouvrir |
 | 9 | Market Profile | Jim Dalton | ✅ FAIT (D131–D134) |
-| 10 | VWAP / Volume Profile | Sierra Chart | ⏳ |
+| 10 | VWAP / Volume Profile | Sierra Chart | ⚠️ Concepts couverts (WindoTrader POC/VA D150-D151 · Optimus D120) · pages Sierra dédiées 404 (index géant) → faible valeur marginale / manuel |
 
 ### P3 — Price Action + Wyckoff
 | # | Page | Source | Statut |
