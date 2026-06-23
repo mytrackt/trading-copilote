@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D162
-Prochaine décision : D163
-Total décisions    : 162
+Dernière décision  : D172
+Prochaine décision : D173
+Total décisions    : 172
 ```
 
 ---
@@ -52,6 +52,8 @@ C:\trading-copilote\
 | `bollinger/Extraction_Bollinger_Bands_v1.md` | D143–D147 | indicateurs_tendance · indicateurs_momentum | 0 (page texte) | ✅ VALIDÉ (Tier 1 créateur) |
 | `windotrader/Extraction_WindoTrader_MarketProfile_Glossary_v1.md` | D148–D155 | structure_marche | 0 (glossaire texte) | ✅ VALIDÉ (Tier 2) |
 | `cftc/Extraction_CFTC_COT_v1.md` | D156–D162 | structure_marche · gestion_risque_entree | 0 (page texte) | ✅ VALIDÉ (Tier 1 régulateur) |
+| `ninjatrader/Extraction_NinjaTrader_VolumeProfileShapes_v1.md` | D163–D167 | structure_marche · signal | 0 (page texte) | ✅ VALIDÉ (Tier 2) |
+| `adamgrimes/Extraction_AdamGrimes_TrendGold_v1.md` | D168–D172 | structure_marche · gestion_risque_entree · signal | 1/1 (alt-seul) | ✅ VALIDÉ (Tier 2 · perf auto-déclarée) |
 
 ---
 
@@ -159,15 +161,15 @@ C:\trading-copilote\
 | # | Page | Source | Statut |
 |---|------|--------|--------|
 | 8a | Footprint charts | Optimus | ✅ FAIT (D112–D120) |
-| 8b | Footprint charts | NinjaTrader | 🚫 URL 404 — à redécouvrir |
+| 8b | Volume Profile shapes | NinjaTrader | ✅ FAIT (D163–D167 · URL redécouverte) |
 | 9 | Market Profile | Jim Dalton | ✅ FAIT (D131–D134) |
-| 10 | VWAP / Volume Profile | Sierra Chart | ⚠️ Concepts couverts (WindoTrader POC/VA D150-D151 · Optimus D120) · pages Sierra dédiées 404 (index géant) → faible valeur marginale / manuel |
+| 10 | VWAP / Volume Profile | NinjaTrader (Sierra 404) | ✅ FAIT (D163–D167 NinjaTrader 4 formes) + WindoTrader POC/VA D150-D151 · Optimus D120 |
 
 ### P3 — Price Action + Wyckoff
 | # | Page | Source | Statut |
 |---|------|--------|--------|
 | 11 | Wyckoff Method | StockCharts | ✅ FAIT (D99–D111) |
-| 12 | Price Action | Adam Grimes + Brooks | 🚫 BLOQUÉ — Brooks /price-action/ = promo podcast · Adam Grimes 404 → URLs specifiques a redecouvrir / manuel |
+| 12 | Price Action | Adam Grimes ✅ (Brooks promo) | ✅ FAIT (D168–D172 Adam Grimes Gold · URL redécouverte) · Brooks = promo podcast |
 
 ### P4 — Backtesting + Psychologie
 | # | Page | Source | Statut |
