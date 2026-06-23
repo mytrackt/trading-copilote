@@ -32,6 +32,49 @@ REGLE_ENTREE = {
 }
 
 # =============================================================================
+# SPECS CONTRATS -- TICK SIZE / TICK VALUE (Couche C0)
+# Source : PDF officiels CME Group (23/06/2026) -- KB D173-D176
+# (04-cerveau-trading/cme/Extraction_CME_Specs_NQ_ES_GC_v1.md)
+# Usage : conversion points/ticks -> USD pour P&L, sizing, stops, R/R.
+#
+# /!\ INCOHERENCE A TRANCHER (decision humaine) : ACTIFS_TRADABLES liste
+#     GC/HG/CL/ZW (CLAUDE.md verrouille) alors que ARCH-3 (KB_INDEX) indique
+#     NQ/ES/Gold. Seuls NQ, ES, GC ont des specs verifiees ci-dessous.
+#     Les specs HG (Cuivre), CL (Petrole WTI), ZW (Ble) NE SONT PAS encore
+#     extraites -> NE PAS les inventer. A completer via scraper_pdf + KB.
+# =============================================================================
+TICK_SPECS = {
+    "NQ": {
+        "name":          "E-mini Nasdaq-100",
+        "contract_unit": "20 USD x Nasdaq-100 Index",
+        "tick_size":     0.25,      # points d'indice
+        "tick_value":    5.00,      # USD par tick
+        "settlement":    "cash",
+        "product_code":  "NQ",
+        "source":        "cme_nq_specs.pdf / KB D173",
+    },
+    "ES": {
+        "name":          "E-mini S&P 500",
+        "contract_unit": "50 USD x S&P 500 Index",
+        "tick_size":     0.25,      # points d'indice
+        "tick_value":    12.50,     # USD par tick
+        "settlement":    "cash",
+        "product_code":  "ES",
+        "source":        "cme_es_specs.pdf / KB D174",
+    },
+    "GC": {
+        "name":          "Gold Futures",
+        "contract_unit": "100 troy ounces",
+        "tick_size":     0.10,      # USD par troy ounce
+        "tick_value":    10.00,     # USD par tick
+        "settlement":    "physical",  # /!\ livrable -> clore/rouler avant echeance
+        "product_code":  "GC",
+        "source":        "cme_gc_specs.pdf / KB D175",
+    },
+    # "HG", "CL", "ZW" : specs NON extraites (a ajouter, ne pas inventer).
+}
+
+# =============================================================================
 # NINJATRADER 8 ATI -- CONNEXION TCP/IP
 # =============================================================================
 NT8_ATI = {
