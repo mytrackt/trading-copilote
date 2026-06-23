@@ -1,8 +1,9 @@
 """
 Gemini Multimodal Transcriber — TRADEX-AI
-Transcription audio + visuel des videos Belkhayate via Gemini 1.5 Flash.
+Transcription audio + visuel des videos Belkhayate via Gemini 2.5 Flash.
 Construit en 3 phases — Phase 1 : squelette et utilitaires.
 Audit v2.2 applique — toutes corrections bloquantes integrees.
+Chunking automatique pour videos > 50 min (limite 1M tokens Gemini).
 Usage personnel uniquement. Pas de conseil financier.
 """
 
@@ -10,8 +11,12 @@ import os
 import sys
 import time
 import re
+import json
+import shutil
+import subprocess
+import tempfile
 from pathlib import Path
-import google.generativeai as genai
+from google import genai
 from dotenv import load_dotenv
 
 # Charger .env — chemin absolu obligatoire (Windows)
@@ -43,9 +48,8 @@ RAPPORT_PATH = Path(
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Modele stable (pas experimental)
-genai.configure(api_key=GEMINI_API_KEY)
-MODEL_NAME = "gemini-1.5-flash"
-model = genai.GenerativeModel(MODEL_NAME)
+client = genai.Client(api_key=GEMINI_API_KEY)
+MODEL_NAME = "gemini-2.5-flash"
 
 # Timeouts et retry
 MAX_PROCESSING_WAIT_SECONDS = 300   # 5 min max pour l'upload Gemini
@@ -54,6 +58,12 @@ RETRY_BACKOFF = [10, 30, 60]        # secondes entre tentatives
 
 # Mots-cles detection video live
 KEYWORDS_LIVE = ["live", "5 days challenge", "5 days", "session live", "trading live"]
+
+# Limite Gemini : 1M tokens = environ 55 min de video (video 258 tok/s + audio 32 tok/s)
+# On fixe la limite a 50 min avec marge de securite
+DUREE_MAX_DIRECTE = 3000          # 50 min en secondes
+CHUNK_DUREE = 2700                 # 45 min par chunk (marge securite)
+TAILLE_SEUIL_OCTET = 200 * 1024 * 1024  # 200 Mo = declencheur verif duree
 
 # ============================================================
 # FONCTIONS UTILITAIRES
@@ -84,6 +94,62 @@ def est_live(nom_fichier: str) -> bool:
     return any(kw.lower() in nom_lower for kw in KEYWORDS_LIVE)
 
 
+def get_duree_video(video_path: Path) -> float:
+    """
+    Retourne la duree de la video en secondes via ffprobe.
+    Retourne 0.0 si ffprobe est indisponible ou si la lecture echoue.
+    """
+    try:
+        res = subprocess.run(
+            ['ffprobe', '-v', 'quiet', '-print_format', 'json',
+             '-show_format', str(video_path)],
+            capture_output=True, text=True, timeout=30
+        )
+        data = json.loads(res.stdout)
+        return float(data.get('format', {}).get('duration', 0))
+    except Exception:
+        return 0.0
+
+
+def decouper_en_chunks(video_path: Path) -> list:
+    """
+    Decoupe la video en chunks de CHUNK_DUREE secondes via ffmpeg (-c copy).
+    Utilise un dossier temp systeme — nettoye apres traitement.
+    Retourne une liste de (Path_chunk, numero) ou [] si echec.
+    """
+    duree = get_duree_video(video_path)
+    if duree == 0:
+        return []
+
+    temp_dir = Path(tempfile.mkdtemp(prefix="gemini_chunk_"))
+    chunks = []
+    n = 0
+
+    while True:
+        start = n * CHUNK_DUREE
+        if start >= duree:
+            break
+        chunk_path = temp_dir / ("chunk" + str(n + 1).zfill(2) + "_" + video_path.name)
+        cmd = [
+            'ffmpeg', '-y',
+            '-i', str(video_path),
+            '-ss', str(start),
+            '-t', str(CHUNK_DUREE),
+            '-c', 'copy',
+            str(chunk_path)
+        ]
+        try:
+            subprocess.run(cmd, capture_output=True, timeout=300, check=True)
+            if chunk_path.exists() and chunk_path.stat().st_size > 1024:
+                chunks.append((chunk_path, n + 1))
+        except Exception as e:
+            print(f"  Erreur decoupage chunk {n + 1} : {str(e)[:80]}")
+            break
+        n += 1
+
+    return chunks
+
+
 def flaguer_chiffres_visuels(texte: str) -> str:
     """
     Dans chaque bloc [VISUEL: ...], ajoute le flag A_VERIFIER
@@ -107,7 +173,7 @@ def flaguer_chiffres_visuels(texte: str) -> str:
 
 
 # ============================================================
-# STUBS — seront remplis en Phase 2 et Phase 3
+# CONSTRUCTION DU PROMPT
 # ============================================================
 
 def construire_prompt(nom_fichier: str, est_live_video: bool) -> str:
@@ -125,7 +191,7 @@ def construire_prompt(nom_fichier: str, est_live_video: bool) -> str:
             "certain de ce que tu vois.\n"
         )
 
-    return f"""Tu es un transcripteur expert de videos de trading financier en francais.
+    return """Tu es un transcripteur expert de videos de trading financier en francais.
 Transcris cette video de Mustapha Belkhayate en integrant a la fois
 l'audio ET le contenu visuel de l'ecran.
 
@@ -144,7 +210,7 @@ FORMAT OBLIGATOIRE :
 - Quand Belkhayate enonce une regle claire et autonome, mets-la en evidence :
   [REGLE: formulation complete de la regle]
 
-DESCRIPTIONS VISUELLES — CE QU'IL FAUT DECRIRE :
+DESCRIPTIONS VISUELLES - CE QU'IL FAUT DECRIRE :
 - Quel indicateur est visible ? (Belkhayate Trend, COG/Centre de Gravite,
   VWAP, Pivots, Volume Profile, Delta, Footprint)
 - Quelle couleur a l'indicateur ? (vert = haussier, rouge = baissier,
@@ -156,7 +222,7 @@ DESCRIPTIONS VISUELLES — CE QU'IL FAUT DECRIRE :
   SP500 ES, Dollar DX, VIX VX)
 - Quel timeframe est affiche ? (5min, 15min, 1h, daily, range bars)
 
-POUR LES PRIX ET NIVEAUX PRECIS — REGLE STRICTE :
+POUR LES PRIX ET NIVEAUX PRECIS - REGLE STRICTE :
 NE JAMAIS donner un prix ou niveau chiffre exact lu a l'ecran.
 Tu peux te tromper sur les decimales et cela serait dangereux
 si ce chiffre etait utilise dans une decision de trading.
@@ -166,8 +232,8 @@ A la place, decris UNIQUEMENT en termes relatifs :
   AUTORISE  : "grand volume visible, bien superieur a la moyenne"
   INTERDIT  : "le COG est a 1852" ou "le prix est a 2340.5"
 Exception unique : si Belkhayate PRONONCE lui-meme le chiffre verbalement
-dans l'audio → tu peux le transcrire (c'est de l'audio, pas du visuel).
-{instruction_live}
+dans l'audio tu peux le transcrire (c'est de l'audio, pas du visuel).
+""" + instruction_live + """
 Exemple de sortie attendue :
   [VISUEL: Graphique Or GC 5min sur NinjaTrader. Belkhayate Trend rouge.
   Prix sous la moyenne mobile. Volume faible.]
@@ -180,14 +246,133 @@ Transcris maintenant la video complete. Sois exhaustif.
 """
 
 
+# ============================================================
+# TRANSCRIPTION INTERNE (chunks + video entiere)
+# ============================================================
+
+def _transcrire_chunk(chunk_path, qualite, live, numero, nb_total):
+    """
+    Transcrit un chunk individuel. Retourne le texte brut ou None si echec.
+    Gere upload, attente PROCESSING, retry et suppression Gemini.
+    """
+    video_file = None
+    try:
+        video_file = client.files.upload(file=str(chunk_path), config={"mime_type": "video/mp4"})
+        debut = time.time()
+        while video_file.state.name == "PROCESSING":
+            if time.time() - debut > MAX_PROCESSING_WAIT_SECONDS:
+                return None
+            time.sleep(5)
+            video_file = client.files.get(name=video_file.name)
+        if video_file.state.name == "FAILED":
+            return None
+
+        nom_affichage = "[chunk " + str(numero) + "/" + str(nb_total) + "] " + chunk_path.name
+        prompt = construire_prompt(nom_affichage, live)
+
+        for tentative in range(MAX_RETRIES):
+            try:
+                response = client.models.generate_content(
+                    model=MODEL_NAME,
+                    contents=[video_file, prompt],
+                    config=genai.types.GenerateContentConfig(
+                        temperature=0.1,
+                        max_output_tokens=32768
+                    )
+                )
+                return response.text
+            except Exception as e:
+                if tentative < MAX_RETRIES - 1:
+                    attente = 60 if ("429" in str(e)) else RETRY_BACKOFF[tentative]
+                    print("    Chunk " + str(numero) + " tentative " + str(tentative + 1) + " : " + str(e)[:80])
+                    time.sleep(attente)
+        return None
+
+    except Exception:
+        return None
+    finally:
+        if video_file is not None:
+            try:
+                client.files.delete(name=video_file.name)
+            except Exception:
+                pass
+
+
+def _transcrire_par_chunks(video_path, qualite, live):
+    """
+    Transcrit une video trop longue en la decoupant en chunks de CHUNK_DUREE secondes.
+    Concatene les transcripts avec des marqueurs de coupure.
+    Nettoie le dossier temp dans tous les cas (finally).
+    """
+    chunks = decouper_en_chunks(video_path)
+    if not chunks:
+        return {
+            "erreur": (
+                "Impossible de decouper la video. Verifier que ffmpeg et ffprobe "
+                "sont installes et dans le PATH Windows."
+            ),
+            "qualite": qualite, "live": live
+        }
+
+    temp_dir = chunks[0][0].parent
+    transcripts = []
+
+    try:
+        nb_total = len(chunks)
+        for chunk_path, numero in chunks:
+            taille_mo = chunk_path.stat().st_size / (1024 * 1024)
+            print("  Chunk " + str(numero) + "/" + str(nb_total) + " upload (" + str(int(taille_mo)) + " Mo)...")
+            texte = _transcrire_chunk(chunk_path, qualite, live, numero, nb_total)
+            if texte:
+                marqueur_debut = "[DEBUT_CHUNK_" + str(numero) + "/" + str(nb_total) + "]"
+                marqueur_fin = "[FIN_CHUNK_" + str(numero) + "/" + str(nb_total) + "]"
+                transcripts.append(marqueur_debut + "\n" + texte + "\n" + marqueur_fin)
+                print("  Chunk " + str(numero) + "/" + str(nb_total) + " OK")
+            else:
+                transcripts.append("[CHUNK_" + str(numero) + "/" + str(nb_total) + "_ERREUR: transcription impossible]")
+                print("  Chunk " + str(numero) + "/" + str(nb_total) + " ERREUR")
+            time.sleep(2)
+
+    finally:
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
+    if not any("DEBUT_CHUNK" in t for t in transcripts):
+        return {"erreur": "Tous les chunks ont echoue", "qualite": qualite, "live": live}
+
+    transcript_brut = "\n\n".join(transcripts)
+    transcript_final = flaguer_chiffres_visuels(transcript_brut)
+
+    nb_total = len(chunks)
+    type_video = "LIVE_TRADING" if live else "COURS_PEDAGOGIQUE"
+    entete = (
+        "[QUALITE_VIDEO: " + qualite + "]\n"
+        "[TYPE: " + type_video + "]\n"
+        "[MODELE: " + MODEL_NAME + "]\n"
+        "[DATE_TRANSCRIPTION: " + time.strftime('%Y-%m-%d') + "]\n"
+        "[SOURCE: " + video_path.name + "]\n"
+        "[TRAITEMENT: " + str(nb_total) + " CHUNKS x " + str(CHUNK_DUREE // 60) + " min]\n"
+        "---\n"
+    )
+
+    return {
+        "transcript": entete + transcript_final,
+        "qualite": qualite, "live": live, "erreur": None
+    }
+
+
+# ============================================================
+# TRANSCRIPTION PRINCIPALE
+# ============================================================
+
 def transcrire_video(video_path: Path) -> dict:
     """
-    Transcrit une video avec Gemini 1.5 Flash.
+    Transcrit une video avec Gemini 2.5 Flash.
     Retourne un dict :
       Success : {"transcript": str, "qualite": str, "live": bool, "erreur": None}
       Echec   : {"erreur": str, "qualite": str, "live": bool}
 
     Garde-fous integres :
+    - Verif duree avant upload (chunking auto si > 50 min)
     - Timeout 300s sur la boucle PROCESSING (evite boucle infinie)
     - Retry 3x avec backoff exponentiel sur erreurs API
     - Pause 60s si erreur 429 (quota depasse)
@@ -202,10 +387,19 @@ def transcrire_video(video_path: Path) -> dict:
     print(f"  Qualite estimee : {qualite}")
     print(f"  Type live       : {'OUI' if live else 'NON'}")
 
+    # --- VERIFIER DUREE avant upload (evite erreur 400 token limit) ---
+    if video_path.stat().st_size > TAILLE_SEUIL_OCTET:
+        duree = get_duree_video(video_path)
+        if duree > DUREE_MAX_DIRECTE:
+            nb_chunks = int(duree / CHUNK_DUREE) + 1
+            print("  Duree estimee   : " + str(int(duree / 60)) + " min — depasserait la limite Gemini (1M tokens)")
+            print("  Decoupage auto  : " + str(nb_chunks) + " chunks de " + str(CHUNK_DUREE // 60) + " min")
+            return _transcrire_par_chunks(video_path, qualite, live)
+
     try:
         # --- UPLOAD ---
         print(f"  Upload en cours vers Gemini Files API...")
-        video_file = genai.upload_file(path=str(video_path), mime_type="video/mp4")
+        video_file = client.files.upload(file=str(video_path), config={"mime_type": "video/mp4"})
 
         # --- ATTENTE PROCESSING avec timeout ---
         debut_attente = time.time()
@@ -220,7 +414,7 @@ def transcrire_video(video_path: Path) -> dict:
                     "live": live
                 }
             time.sleep(5)
-            video_file = genai.get_file(video_file.name)
+            video_file = client.files.get(name=video_file.name)
 
         if video_file.state.name == "FAILED":
             return {
@@ -237,15 +431,16 @@ def transcrire_video(video_path: Path) -> dict:
 
         for tentative in range(MAX_RETRIES):
             try:
-                response = model.generate_content(
-                    [video_file, prompt],
-                    generation_config={
-                        "temperature": 0.1,         # fidelite maximale
-                        "max_output_tokens": 32768  # suffisant pour videos 2h
-                    }
+                response = client.models.generate_content(
+                    model=MODEL_NAME,
+                    contents=[video_file, prompt],
+                    config=genai.types.GenerateContentConfig(
+                        temperature=0.1,        # fidelite maximale
+                        max_output_tokens=32768 # suffisant pour videos 2h
+                    )
                 )
                 transcript_brut = response.text
-                break  # succes → sortir du retry
+                break  # succes -> sortir du retry
 
             except Exception as api_err:
                 err_str = str(api_err)
@@ -279,12 +474,13 @@ def transcrire_video(video_path: Path) -> dict:
         transcript_final = flaguer_chiffres_visuels(transcript_brut)
 
         # Construire l'entete de metadonnees
+        type_video = "LIVE_TRADING" if live else "COURS_PEDAGOGIQUE"
         entete_lignes = [
-            f"[QUALITE_VIDEO: {qualite}]",
-            f"[TYPE: {'LIVE_TRADING' if live else 'COURS_PEDAGOGIQUE'}]",
-            f"[MODELE: {MODEL_NAME}]",
-            f"[DATE_TRANSCRIPTION: {time.strftime('%Y-%m-%d')}]",
-            f"[SOURCE: {nom}]",
+            "[QUALITE_VIDEO: " + qualite + "]",
+            "[TYPE: " + type_video + "]",
+            "[MODELE: " + MODEL_NAME + "]",
+            "[DATE_TRANSCRIPTION: " + time.strftime('%Y-%m-%d') + "]",
+            "[SOURCE: " + nom + "]",
             "---"
         ]
         if "FAIBLE" in qualite:
@@ -310,7 +506,7 @@ def transcrire_video(video_path: Path) -> dict:
 
     except Exception as e:
         return {
-            "erreur": f"Erreur inattendue : {str(e)[:300]}",
+            "erreur": "Erreur inattendue : " + str(e)[:300],
             "qualite": qualite,
             "live": live
         }
@@ -319,21 +515,25 @@ def transcrire_video(video_path: Path) -> dict:
         # Toujours supprimer le fichier de Gemini (evite accumulation et frais)
         if video_file is not None:
             try:
-                genai.delete_file(video_file.name)
+                client.files.delete(name=video_file.name)
             except Exception:
                 pass  # echec de suppression non bloquant
 
+
+# ============================================================
+# RAPPORT ET BOUCLE PRINCIPALE
+# ============================================================
 
 def generer_rapport(rapport: list, nb_ok: int, nb_skip: int,
                     nb_erreurs: int, duree_totale: float, nb_total: int):
     """Genere RAPPORT_QUALITE_GEMINI.md apres le traitement."""
     lignes = [
         "# RAPPORT QUALITE TRANSCRIPTIONS GEMINI",
-        f"",
-        f"- Date : {time.strftime('%Y-%m-%d %H:%M')}",
-        f"- Modele : {MODEL_NAME}",
-        f"- Total : {nb_total} | OK : {nb_ok} | Skip : {nb_skip} | Erreurs : {nb_erreurs}",
-        f"- Duree : {duree_totale / 60:.1f} minutes",
+        "",
+        "- Date : " + time.strftime('%Y-%m-%d %H:%M'),
+        "- Modele : " + MODEL_NAME,
+        "- Total : " + str(nb_total) + " | OK : " + str(nb_ok) + " | Skip : " + str(nb_skip) + " | Erreurs : " + str(nb_erreurs),
+        "- Duree : " + str(round(duree_totale / 60, 1)) + " minutes",
         "",
         "## Resultats par video",
         "",
@@ -343,8 +543,8 @@ def generer_rapport(rapport: list, nb_ok: int, nb_skip: int,
     for r in rapport:
         live_str = "OUI" if r.get("live") else "NON"
         lignes.append(
-            f"| {r['fichier']} | {r['statut']} | {r.get('qualite','?')} "
-            f"| {live_str} | {r.get('detail','')} |"
+            "| " + r['fichier'] + " | " + r['statut'] + " | " + r.get('qualite', '?') +
+            " | " + live_str + " | " + r.get('detail', '') + " |"
         )
     lignes += [
         "",
@@ -441,7 +641,7 @@ def main():
                 "detail": resultat["erreur"][:120]
             })
         else:
-            # Ecriture atomique : tempfile → replace (jamais de fichier partiel)
+            # Ecriture atomique : tempfile -> replace (jamais de fichier partiel)
             tmp_path = Path(str(out_path) + ".tmp")
             tmp_path.write_text(resultat["transcript"], encoding="utf-8")
             tmp_path.replace(out_path)
@@ -478,11 +678,11 @@ def main():
     print("=" * 60)
     print()
     print("GARDE-FOUS — rappels de lecture des transcripts :")
-    print("  - [QUALITE_VIDEO: FAIBLE_APPROX] → verifier manuellement les [VISUEL]")
-    print("  - [TYPE: LIVE_TRADING] + [ECRAN_CHANGE_RAPIDE] → passage incomplet")
-    print("  - Chiffre suivi de A_VERIFIER → ne jamais integrer en KB sans verif")
-    print("  - [REGLE: ...] → passages les plus exploitables pour la KB")
-    print("  - Descriptions relatives (haussier/baissier) → fiables")
+    print("  - [QUALITE_VIDEO: FAIBLE_APPROX] : verifier manuellement les [VISUEL]")
+    print("  - [TYPE: LIVE_TRADING] + [ECRAN_CHANGE_RAPIDE] : passage incomplet")
+    print("  - Chiffre suivi de A_VERIFIER : ne jamais integrer en KB sans verif")
+    print("  - [REGLE: ...] : passages les plus exploitables pour la KB")
+    print("  - Descriptions relatives (haussier/baissier) : fiables")
 
 
 # ============================================================

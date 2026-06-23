@@ -1,0 +1,143 @@
+[QUALITE_VIDEO: BONNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-23]
+[SOURCE: 1060xzy.mp4]
+[TRAITEMENT: 2 CHUNKS x 45 min]
+---
+[DEBUT_CHUNK_1/2]
+[VISUEL: L'écran affiche quatre graphiques de TradingView. En haut à gauche, le Dow Jones (YM) en 5⚠️_A_VERIFIER minutes, montrant une tendance baissière avec le prix sous le Belkhayate Trend rouge. En bas à gauche, le Crude Oil (CL) en 5⚠️_A_VERIFIER minutes, avec une tendance haussière puis baissière. En haut à droite, le Nasdaq 100⚠️_A_VERIFIER (NQ) en 5⚠️_A_VERIFIER minutes, le prix oscille autour du Belkhayate Trend. En bas à droite, le Gold Futures (GC) en 5⚠️_A_VERIFIER minutes, le prix est au-dessus du Belkhayate Trend vert. Belkhayate pointe le Nasdaq.]
+Mais euh on a ici euh des supports qu'il faut qu'il faut casser. Donc, on va essayer de rentrer sur le Nasdaq quand il va y avoir un mouvement et pas simplement parce qu'on pense que ça va casser.
+
+[VISUEL: Le Nasdaq (NQ) en haut à droite montre une consolidation du prix. Belkhayate regarde l'écran.]
+Alors, pour les élections euh États-Unis, ça est toujours dans les élections, les marchés montent. Surtout que tout le monde pense que, en fait, Trump, il est favori. Et il y a 80% de chance que Trump soit élu président. Et s'il est élu président, les marchés vont s'envoler. Ah, mais normalement, l'économie américaine va très mal. Normalement, on a beaucoup de banques, que ce soit aux États-Unis ou en Europe, qui vont devoir euh déposer les bilans, qui vont fermer. Donc euh dans le banking au niveau mondial, ça va pas bien. Et pourquoi ? Pour plusieurs raisons. Donc, normalement, l'économie va mal.
+
+[VISUEL: Le Nasdaq (NQ) en haut à droite montre une bougie rouge qui touche une ligne de support horizontale. Le Belkhayate Trend est rouge.]
+Ah, vous voyez, vous voyez ce que je disais, regardez, regardez, on a un signal de vente, mais le marché, il a pile poil tapé sur le pivot Belkhayate, ici, c'est le pivot ici. Et puis il il il voit, vous voyez ? Donc là, heureusement qu'on n'a pas vendu parce que le marché peut rebondir. Bon, mais en tout cas, nous, on est là, euh...
+
+Qu'est-ce que je pense de ICT ? Ce que je pense de ICT, c'est que ICT ne tient pas compte des volumes exécutés sur le bid et des volumes exécutés sur le ask. À partir du moment que vous avez une méthode qui est basée exclusivement sur les prix, c'est pas une méthode qui va vous faire gagner de l'argent à long terme. Vous avez absolument besoin de regarder ce qui se passe dans le carnet d'ordres pour savoir qui c'est qui a la main.
+
+[VISUEL: Le graphique du Gold Futures (GC) en bas à droite montre un signal d'achat (flèche verte) et le prix au-dessus du Belkhayate Trend vert. Belkhayate ouvre une fenêtre NinjaTrader SuperDOM. Il sélectionne "2⚠️_A_VERIFIER" pour la quantité et clique sur "Buy". Une notification "Order Submitted" apparaît, suivie de "Order Cancelled".]
+Pour le moment, on a un signal acheteur sur l'or. Là, sur l'or, je serais acheteur, moi. Alors, on va aller acheter euh hop hop hop hop là. Là. On va, je vais je vais je vais faire ça. Et vous voyez pourquoi je vais acheter l'or ? Parce que là, ça se réveille du côté de l'or. Donc là, je peux acheter l'or. Et voilà, ici, je vais mettre l'or. Et je vais acheter l'or. Je vais acheter deux contrats or. Je vais acheter deux contrats or parce que j'ai un signal d'achat ici sur l'or. Vous voyez ? Et je suis vraiment sur une je suis au-dessus de la zone ici de euh de de liquidité. Donc là, j'ai tout ce qu'il faut pour acheter de l'or. J'ai que des j'ai que de l'or ici, j'ai que des acheteurs acheteurs d'or ici. J'ai besoin que ça accélère. Le le prix le volume n'a pas accéléré. Donc moi, je vais quand même acheter. [AUDIO: "Order submitted." "Order cancelled."] Ah, malheureusement, j'ai l'impression que ça a bloqué. J'ai j'ai j'ai cliqué acheteur, mais ça n'a pas exécuté. C'est dommage parce que il faut être acheteur d'or là. Il faut acheter l'or. Hein, je sais pas pourquoi NinjaTrader se coince. Dommage.
+
+[VISUEL: Belkhayate ouvre une fenêtre de chat Telegram. Des messages en français et en arabe sont visibles. Il pointe un message de "Florian Ulrich Vip" demandant des questions pour le live chat. Un autre message de "Essad MOUBARID" demande s'il est possible de trader overnight.]
+Bon, j'espère que vous avez acheté l'or en attendant. Alors, je vais voir mes copains. Est-ce que vous avez acheté l'or ? Vous pouvez poser vos questions ici, Florian. Euh Florian, j'ai bien reçu ton ton message et je suis intéressé par ce que tu proposes. Et on a on est en train de structurer maintenant euh le laboratoire Belkhayate ici, hein, pour qu'on puisse euh pour qu'on puisse euh euh vous servir, vous vous donner vous donner des éléments intéressants. Bon, c'est bien. Monsieur Cham Omar a acheté l'or. Alors, tu bouges pas. Voici l'objectif, il est là. Il est là l'objectif. Hein ? Vous voyez ? Il est là l'objectif. Sur ce sur le pivot.
+
+[VISUEL: Belkhayate tente de se connecter à NinjaTrader. La fenêtre de connexion apparaît, puis une fenêtre
+[FIN_CHUNK_1/2⚠️_A_VERIFIER]
+
+[DEBUT_CHUNK_2/2]
+[VISUEL: Écran partagé. À gauche, une fenêtre Telegram affichant une conversation de groupe nommée "General" avec 1⚠️_A_VERIFIER 762⚠️_A_VERIFIER messages. À droite, la plateforme TradingView affichant un graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures (NQ1!) en timeframe de 5⚠️_A_VERIFIER minutes. Le graphique montre des bougies bleues et rouges, avec des zones colorées (vertes et rouges) indiquant des niveaux de support et de résistance. Un indicateur de volume est visible en bas, avec des barres bleues et rouges. Le prix est dans une zone neutre/bleue, légèrement au-dessus d'une ligne verte horizontale.]
+Est-ce que vous êtes gagnant maintenant ?
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est en légère hausse, touchant une ligne verte horizontale. La conversation Telegram continue de défiler.]
+Je sais pas votre position. Mais vous devriez être gagnant.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures a continué de monter et se trouve maintenant dans une zone verte, au-dessus d'une ligne verte horizontale. Dans le chat Telegram, on peut lire des messages comme "Scott Le Nasdaq en profit" et "rob C'est professeur, je récupère".]
+Ah, voilà ! Le il a il a récupéré. Le Nasdaq en profit. Voilà, vous êtes vous êtes gagnant. OK.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable dans la zone verte, près d'une ligne horizontale. Belkhayate pointe du doigt la zone sur le graphique.]
+Alors maintenant, ce qu'il faut faire, c'est vous mettez, vous prenez vos profits dans les 567 60 voilà, ici là, dans cette zone parce que il est clair que au niveau du pivot, il y a de l'énergie qui va qui risque de stopper cette baisse.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est toujours dans la zone verte. Belkhayate gesticule avec ses mains pour appuyer ses propos. Le chat Telegram indique "Qasem id is typing".]
+Donc vous, à l'avance, vous la mettez en machine. Comme ça, des fois sur le Nasdaq, on peut vous toucher rapidement de très loin, hop ! Pourquoi ? Parce qu'il y a quelqu'un qui va rentrer au marché en panique et c'est vous qui allez lui lui lui le servir parce qu'il est rentré au marché.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable. Le chat Telegram indique "Qasem id is typing".]
+Alors, je vais vous dire une chose. Les conseils que je suis en train de vous donner, comment je vous pilote, comment je vous aide, en réalité, il y a ceux qui savent que c'est inestimable. Il y a ceux qui savent pas que c'est inestimable. Il y a ceux qui n'ont pas idée de ce que ça vaut. Et ils sont là, ils sont là et juste parce qu'il est là, alors tu lui dois des informations. Alors tu dois lui donner des choses.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable. Le chat Telegram indique "Qasem id is typing".]
+Ce sont des ce sont des personnes qui ont toujours eu tout le monde à leur service. Ils pensent que le monde entier est à leur service.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable. Le chat Telegram indique "Qasem id is typing".]
+Mais les gens qui sont reconnaissants, c'est ceux-là que moi je veux avoir dans mon bateau. C'est tout. J'ai le droit. J'ai le droit d'avoir de faire de de de de choisir qui je veux dans le bateau.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable. Le chat Telegram indique "Qasem id is typing".]
+Si si vous payez l'abonnement, vous allez avoir droit, vous allez avoir sur votre plateforme, on va vous envoyer les indicateurs Belkhayate Energy, Belkhayate Barycentre, euh euh les pivots Belkhayate et un nouveau indicateur que je viens de créer aujourd'hui avec l'équipe, avec le laboratoire, un un un un indicateur qui s'appelle Belkhayate Force. Pourquoi ? Parce que je me suis je me suis rendu compte que il faut un indicateur qui vous dit quand rentrer, quand. C'est-à-dire quand il y a la force, quand ça va pousser.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable. Le chat Telegram indique "Qasem id is typing".]
+Donc on a on a on a travaillé pour créer un indicateur de force, d'accord ?
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable. Le chat Telegram indique "Qasem id is typing".]
+Peut-être demain. Non, demain je serai à Casablanca. Demain. Donc peut-être vendredi, je vais vous présenter l'indicateur Belkhayate Force. Et qui va faire partie du package. Euh si vous êtes abonné, vous n'avez pas que les lives, vous avez des vous avez ces indicateurs dans votre plateforme de NinjaTrader, euh de de TradingView.
+
+[VISUEL: Le prix sur le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures est stable. Le chat Telegram indique "Qasem id is typing".]
+Et vous avez aussi sur NinjaTrader le carnet d'ordres. Alors vous avez en fait des outils qui dépassent largement ce que vous avez payé. Mais largement.
+
+[VISUEL: L'écran passe à une vue multi-graphiques (4⚠️_A_VERIFIER graphiques). En haut à gauche : WTI Crude Oil Futures (CL1!). En haut à droite : NASDAQ 100⚠️_A_VERIFIER E-mini Futures (NQ1!). En bas à gauche : E-mini Russell 2000⚠️_A_VERIFIER Index Futures (RTY1!). En bas à droite : Gold Futures (GC1!). Tous les graphiques sont en timeframe de 5⚠️_A_VERIFIER minutes. Le Belkhayate Trend est visible sur tous les graphiques. Le NASDAQ est dans une zone rouge/baissière, le prix est sous le Centre de Gravité (COG). Le Russell 2000⚠️_A_VERIFIER est également dans une zone rouge/baissière. L'Or est dans une zone neutre/bleue, le prix est au-dessus du COG. Le Crude Oil est dans une zone rouge/baissière. Belkhayate gesticule avec ses mains.]
+Alors si vous êtes, je vous propose éventuellement maintenant, voyez ce qui est en train de se passer.
+
+[VISUEL: Le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures (en haut à droite) montre le prix dans une zone rouge/baissière, sous le COG. Une flèche rouge (signal de vente) est visible. Le Russell 2000⚠️_A_VERIFIER (en bas à gauche) montre le prix dans une zone rouge/baissière. L'Or (en bas à droite) montre le prix dans une zone neutre/bleue, au-dessus du COG. Le Crude Oil (en haut à gauche) montre le prix dans une zone rouge/baissière. Belkhayate pointe du doigt le graphique du NASDAQ.]
+On va faire une chose, on va je vais vous apprendre à prendre vous-même votre décision. Je vais vous montrer et c'est pas à moi qui vais prendre l'addition, c'est vous. Regardez. Regardez. Là, on va venir ici et on va regarder, regardez, ça monte là, on a un signal ici. Donc ici, il faut sortir sur le Nasdaq. Faut sortir. Cliquez et sortez sur le Nasdaq.
+
+[VISUEL: Le graphique du NASDAQ 100⚠️_A_VERIFIER E-mini Futures (en haut à droite) montre le prix dans une zone rouge/baissière, sous le COG, avec une flèche rouge. Belkhayate gesticule.]
+Parce que sur le Dow Jones, ça monte et sur le S&P, ça monte très fort. Attention même ici sur le Nasdaq, il faut sortir. On peut même acheter le Nasdaq, mais moi j'aime pas acheter, mais on peut même se permettre d'acheter le Nasdaq. Parce que le Nasdaq est un peu est un peu en retard par rapport au Dow Jones et à l'S&P.
+
+[VISUEL: Le graphique de l'Or (en bas à droite) est mis en évidence. Le prix est dans une zone neutre/bleue, au-dessus du COG. Une flèche verte (signal d'achat) est visible. Le volume est faible. Belkhayate gesticule.]
+Mais vous avez vu l'or, l'or il continue à monter. Vous avez vu ? L'or il nous fait pas peur, l'or est solide, il va il se dirige vers les plus hauts historiques et euh tous les jours on va essayer d'acheter l'or, mais jamais vendre l'or. Jamais.
+
+[VISUEL: Le graphique de l'Or (en bas à droite) est toujours mis en évidence. Le prix est dans une zone neutre/bleue, au-dessus du COG. Une flèche verte (signal d'achat) est visible. Le volume est faible. Belkhayate gesticule.]
+Moi je je n'aime pas, euh je vous l'ai déjà dit, je n'aime pas acheter les indices boursiers, je n'aime pas acheter les bons du Trésor et je n'aime pas vendre l'or. Voilà. Donc je suis comme ça, mais ça m'a ça m'a permis d'avoir une carrière réussie. Sur 20 ans, j'ai eu raison.
+
+[VISUEL: Le graphique de l'Or (en bas à droite) est toujours mis en évidence. Le prix est dans une zone neutre/bleue, au-dessus du COG. Une flèche verte (signal d'achat) est visible. Le volume est faible. Belkhayate gesticule.]
+Ah, même même même si les marchés sont montés comme des des fous, moi quand quand ils tombent, je les vends. Mais quand ça monte, je suis pas là-dedans. Voilà. C'est comme ça, c'est comme ça que j'ai réussi à pouvoir avoir quelque chose de stable dans mon trading.
+
+[VISUEL: L'écran revient à la vue multi-graphiques. Le chat Telegram est visible à gauche. Un message de "Oussama Boukhies Chaf" contient une image d'un graphique avec un motif triangulaire.]
+On va regarder ici ce qui se passe. Vous savez qu'à Casablanca, je on va lancer, on va lancer une salle de marché avec des ordinateurs magnifiques et avec des des des fauteuils magnifiques de trading. Vous allez voir, je vais faire la vidéo demain dans la salle de marché de Marrakech. Et vous allez de de Casablanca. Et j'ai un de mes meilleurs étudiants, Zakaria, qui est lui qui a obtenu plus de 13 certificats. C'est un spécialiste, un tueur du Nasdaq. Donc vous allez pouvoir apprendre, hein, de un de mes meilleurs élèves, vous allez pouvoir apprendre le trading à Casablanca, des séances de formation, je crois, de deux semaines. Et après deux semaines, vous allez vous allez devenir un trader professionnel sur le Nasdaq et puis sur l'or si vous voulez. Mais en tout cas, le Nasdaq, il le maîtrise sur le bout des doigts.
+
+[VISUEL: Le chat Telegram est toujours visible. L'image du graphique avec le motif triangulaire est toujours là.]
+Oui, c'est Zakaria, inch'Allah. Oui, c'est ça. Alors voilà, donc euh vous pouvez venir visiter, hein, euh la salle. Euh on va vous mettre l'adresse tout à l'heure dans le Telegram et vous pouvez venir visiter la salle. Pour ceux qui veulent, ils veulent voir, vous pouvez venir dans dans l'après-midi, à partir de 15h, je je vais je vais peut-être je vais essayer d'y être à 15h avec avec Zakaria. Et vous venez pour visiter la salle et vous inscrire, hein, OK ?
+
+[VISUEL: L'écran affiche uniquement le graphique de l'Or (GC1!) en timeframe de 5⚠️_A_VERIFIER minutes. Le prix est dans une zone neutre/bleue, au-dessus du COG. Le volume est faible. Belkhayate gesticule.]
+Bon. Alors regardez sur l'or ce qui se passe. C'est intéressant sur l'or. Regardez, vous avez tout ça, tout ça, bien que l'or soit haussier, il monte comme ça, mais vous voyez, il y a pas il y a pas de quoi de quoi faire quelque chose parce qu'il y a pas de volume.
+
+[REGLE: Si vous êtes des professionnels, quand il y a pas de volume, vous ne devez pas rentrer.]
+Vous ne rentrez que quand il y a une cassure de la l'accalmie sur le volume. Là, quand vous voyez ça, ça sert à rien de rentrer. Regardez, le marché il veut bien monter, mais il y a pas de force pour le faire monter. On est quand même sur les plus hauts niveaux historiques de l'or.
+
+[VISUEL: L'écran revient à la vue multi-graphiques (4⚠️_A_VERIFIER graphiques). Le NASDAQ 100⚠️_A_VERIFIER E-mini Futures (NQ1!) est en haut à droite, le prix est dans une zone rouge/baissière, sous le COG. Le Russell 2000⚠️_A_VERIFIER (RTY1!) est en bas à gauche, le prix est dans une zone rouge/baissière. L'Or (GC1!) est en bas à droite, le prix est dans une zone neutre/bleue, au-dessus du COG. Le Crude Oil (CL1!) est en haut à gauche, le prix est dans une zone rouge/baissière. Belkhayate pointe du doigt le graphique du NASDAQ.]
+Hein ? Vous voyez, ça monte. 208 c'est cassé. Ça va aller chercher, regardez, ça va aller chercher le pivot Belkhayate ici qui est de 2802.
+
+[VISUEL: L'écran reste sur la vue multi-graphiques. Belkhayate gesticule.]
+Et vous allez voir, on va on va voir, on parie que à 2802 le marché va va s'arrêter. Hein ? On va voir ça. Bon en tout cas, pour le moment, ça fonctionne vraiment très bien.
+
+[VISUEL: L'écran reste sur la vue multi-graphiques. Belkhayate pointe du doigt le graphique du Dow Jones (implicite) puis du NASDAQ.]
+Ah, vous avez vu l'accélération sur le sur le Dow Jones ? Vous avez vu ? On l'a vu ensemble, hein ? Mais même si je l'ai pas prise, au moins vous la voyez et vous comprenez ce qui se passe et heureusement que je vous ai dit, eh les gars, sortez, sortez, sortez ! Et ce n'est que maintenant que le Nasdaq, il a repris, il a il a compris que le Dow Jones était en train de monter. Donc ça, des fois, vous pouvez gagner beaucoup d'argent parce qu'il y a des décalages des fois entre le Nasdaq, le S&P, le Dow Jones et le le Russell. Il y a il y a ce décalage et vous pouvez en profiter pour gagner de l'argent.
+
+[VISUEL: L'écran affiche le graphique de l'Or (GC1!) en bas à droite. Le prix est dans une zone neutre/bleue, au-dessus du COG. Une flèche verte (signal d'achat) est visible. Belkhayate gesticule.]
+Regardez comment ça explose sur le Dow Jones. Vous avez vu ? Regardez, on a eu un signal. Regardez, c'est c'est c'est magnifique. Et ça normalement, c'est bon pour l'or. L'or normalement, l'or il se dirige maintenant vers notre point. Vous avez vu, on a un signal d'achat sur l'or.
+
+[VISUEL: L'écran affiche le graphique de l'Or (GC1!) en bas à droite. Le prix est dans une zone neutre/bleue, au-dessus du COG. Une flèche verte (signal d'achat) est visible. Le chat Telegram est visible à gauche. Des messages de "Abdelmalek Mkaoui" et "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures.]
+On va faire ça, on va faire ça. Regardez. Regardez, on a un signal, on vient d'avoir un signal d'achat ici sur l'or et on se réveille à peine ici, il est 19h, hein ? On se réveille un peu sur l'or. Bon. Voilà, c'était je voulais je voulais vous offrir euh euh ce live euh gratuitement euh pour tout le monde. Je vais regarder un peu ce que ont fait mes amis. Est-ce que vous avez gagné de l'argent ? Bon, Abdelmalek Mkaoui, il a gagné 20 euros. C'est déjà presque l'abonnement du du mois. Mais il a déjà gagné en 5 minutes. Il faut dire, c'est quand même bien, hein, Abdelmalek ? C'est bien.
+
+[VISUEL: L'écran affiche la vue multi-graphiques. Le graphique du Russell 2000⚠️_A_VERIFIER (RTY1!) est en haut à gauche, le prix est dans une zone rouge/baissière, sous le COG. Le graphique du Natural Gas (NG1!) est en haut à droite, le prix est dans une zone verte/haussière, au-dessus du COG. Le graphique du Crude Oil (CL1!) est en bas à gauche, le prix est dans une zone rouge/baissière. Le graphique de l'Or (GC1!) est en bas à droite, le prix est dans une zone neutre/bleue, au-dessus du COG. Belkhayate pointe du doigt le graphique du Russell 2000⚠️_A_VERIFIER.]
+Le ZN c'est comme le UB, le il est dirigé vers le bas, il faut il faut attendre les signaux vendeurs sur le sur le, regardez ici par exemple, attention, regardez. C'est pas parce que c'est en train d'accélérer sur le Dow Jones que euh que forcément euh nous avons une tendance qui va se dessiner haussière.
+
+[VISUEL: L'écran affiche la vue multi-graphiques. Le graphique du Natural Gas (NG1!) est en haut à droite, le prix est dans une zone verte/haussière, au-dessus du COG. Une flèche verte (signal d'achat) est visible. Belkhayate gesticule.]
+Regardez ce que dit le nous avons ici un un reflux. Attention mesdames et messieurs, hein, attention. Donc il faut pas euh si vous êtes acheteur, si vous avez acheté, il faut sortir rapidement. Faut sortir sur les indices boursiers si vous êtes acheteur.
+
+[VISUEL: L'écran affiche la vue multi-graphiques. Le graphique du Natural Gas (NG1!) est en haut à droite, le prix est dans une zone verte/haussière, au-dessus du COG. Une flèche verte (signal d'achat) est visible. Belkhayate gesticule.]
+Bon, notre gaz naturel, c'était un bon signal finalement. Vous avez vu ? On aurait pu gagner beaucoup plus. On avait un signal achat ici, on l'a pris. Après le marché, il a, il est il a bien monté. Donc si les gens de Qatar nous ont entendu, hein, ils peuvent euh peuvent nous envoyer un un cadeau parce que on leur a donné un bon signal sur le gaz naturel et voilà quoi. Mais nous ici on on l'a vu, on a vu qu'on avait un signal évident. Regardez, les acheteurs sont rentrés et on a eu ce signal là, hein, sur le gaz naturel, facile.
+
+[VISUEL: L'écran affiche le chat Telegram. Des messages de "Franck Laborde" et "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures. Belkhayate pointe du doigt les captures d'écran.]
+Merci Belkhayate Pivot ici. Euh regardez les Belkhayate. Même même sur le gaz naturel, regardez, le pivot Belkhayate il fonctionne très très bien.
+
+[VISUEL: L'écran affiche le chat Telegram. Des messages de "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures. Belkhayate gesticule.]
+Bien, ben écoutez, euh ça m'a fait plaisir de voir un peu ce que vous faites. On va voir ici, il a gagné 16 dollars, 90 dollars, 700 dollars, 125 dollars. C'est pas magnifique ça ? Bon, donc il a payé son abonnement de deux ans.
+
+[VISUEL: L'écran affiche le chat Telegram. Des messages de "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures. Belkhayate gesticule.]
+Hein ? Monsieur Anas, il a payé son abonnement à la à la au bateau Belkhayate, deux ans avec une journée. Bien. Écoutez, ça m'a fait plaisir, hein ? Euh ah, Edmond, il a gagné 4000 dollars aujourd'hui. Lui, lui c'est 10 ans, il a gagné.
+
+[VISUEL: L'écran affiche le chat Telegram. Des messages de "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures. Belkhayate gesticule.]
+Il a payé 10 ans d'abonnement, hein, inch'Allah que je puisse vivre encore 10 ans, c'est top. Bien, ben écoutez, ça m'a fait plaisir. Je je vous remercie d'être dans le bateau. Je pense que ce bateau-là va vous permettre d'apprendre le trading et d'apprendre et d'a et de gagner de l'argent, mais surtout de d'être d'être devant en train d'observer comment un professionnel réagit aux caprices des marchés financiers.
+
+[VISUEL: L'écran affiche le chat Telegram. Des messages de "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures. Belkhayate gesticule.]
+Et si je dois résumer la journée de d'aujourd'hui, le matin et l'après-midi, je dirais que encore une fois, je vous ai montré et je vous ai prouvé que pour gagner de l'argent en trading, il ne faut pas être impatient. Il faut savoir guetter le meilleur moment, vous rentrez et vous n'hésitez pas à sortir avec les bénéfices.
+
+[VISUEL: L'écran affiche le chat Telegram. Des messages de "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures. Belkhayate gesticule.]
+Parce que le marché rarement il va vous laisser de l'argent. Il va vous donner et il va vous reprendre. Donc quand il vous donne, vous prenez, vous dites 'Alhamdulillah' et vous avez arrêté le trading pour la journée. C'est comme ça que régulièrement vous allez avoir un mois positif et que vous allez être un gagnant sur les marchés financiers.
+
+[VISUEL: L'écran affiche le chat Telegram. Des messages de "Anas Beny Y" montrent des captures d'écran de plateformes de trading avec des chiffres de profits/pertes. "Anas Beny Y" montre des profits de 16⚠️_A_VERIFIER$, 90⚠️_A_VERIFIER$, 700⚠️_A_VERIFIER$, 125⚠️_A_VERIFIER$. "MBK <3⚠️_A_VERIFIER" est écrit sur l'une des captures. Belkhayate gesticule.]
+Et voilà. Donc je vous dis euh peut-être à demain parce que je vais essayer de faire un live demain de la salle de de de trading de de Casablanca. Et puis euh garder garder votre force positive. Ne critiquez jamais quelqu'un. Jamais. Jamais ne critiquez quelqu'un. Restez positif parce que plus vous prononcez des mots positifs et plus votre vie se couvre de positivité.
+
+[VISUEL: L'écran passe à l'interface d'OBS Studio, montrant la fin du live stream. Belkhayate gesticule.]
+C'est comme ça qu'on devient un trader gagnant. C'est que dans ton esprit, il n'y a que du positif. Assalamu alaikum wa rahmatullahi ta'ala wa barakatuh.
+[FIN_CHUNK_2/2]
