@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D88
-Prochaine décision : D89
-Total décisions    : 88
+Dernière décision  : D98
+Prochaine décision : D99
+Total décisions    : 98
 ```
 
 ---
@@ -39,6 +39,7 @@ C:\trading-copilote\
 | `Extraction_StockCharts_MACD_v1.md` | D40–D61 | indicateurs_momentum · indicateurs_tendance · signal · divergence · configuration | 11/11 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_ADX_v1.md` | D62–D77 | indicateurs_tendance · signal · gestion_risque_entree · configuration | 9/9 ✅ | ✅ VALIDÉ |
 | `Extraction_StockCharts_Candlestick_Bullish_v1.md` | D78–D88 | structure_marche · signal · gestion_risque_entree · configuration | 10/10 ✅ | ✅ VALIDÉ |
+| `Extraction_StockCharts_Candlestick_Bearish_v1.md` | D89–D98 | structure_marche · signal · gestion_risque_entree · configuration | 11/11 ✅ | ✅ VALIDÉ |
 
 ### Autres sources
 *(aucun fichier encore produit)*
@@ -142,7 +143,7 @@ C:\trading-copilote\
 |---|------|--------|--------|
 | 5 | Specs NQ/ES/GC | CME | ⏳ |
 | 6a | Candlestick Bullish | StockCharts | ✅ FAIT (D78–D88) |
-| 6b | Candlestick Bearish | StockCharts | ⏳ EN COURS (GitBook dispo) |
+| 6b | Candlestick Bearish | StockCharts | ✅ FAIT (D89–D98) |
 | 7 | COT introduction | CFTC | ⏳ |
 
 ### P2 — Order flow + Market Profile
