@@ -1,0 +1,6 @@
+# Manifest PDF pour behavioral_finance (source : cannon)
+# Fichier : C:\trading-copilote\01-pipeline\bundles\cannon\source.pdf | pages : 26
+# Methode : pdfplumber (texte). Images = MANUEL (strategie §3.3).
+# Bilan : texte=OK | images_auto=0 | images_detectees=0
+
+texte_behavioral_finance.md | 26 pages | CERTIFIE (extrait direct PDF)

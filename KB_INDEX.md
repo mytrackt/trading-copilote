@@ -9,9 +9,9 @@
 
 ```
 Première décision  : D1
-Dernière décision  : D120
-Prochaine décision : D121
-Total décisions    : 120
+Dernière décision  : D130
+Prochaine décision : D131
+Total décisions    : 130
 ```
 
 ---
@@ -46,6 +46,7 @@ C:\trading-copilote\
 | Fichier | Décisions | Catégories | Images | Statut |
 |---------|-----------|------------|--------|--------|
 | `optimusfutures/Extraction_Optimus_Footprint_v1.md` | D112–D120 | structure_marche · signal · gestion_risque_entree | 7/7 ✅ (alt+filename) | ✅ VALIDÉ (Tier 2 broker) |
+| `cannon/Extraction_Cannon_Behavioral_Finance_v1.md` | D121–D130 | gestion_risque_entree · structure_marche | 0 (PDF texte) | ✅ VALIDÉ (CFA académique) |
 
 ---
 
@@ -167,7 +168,7 @@ C:\trading-copilote\
 | # | Page | Source | Statut |
 |---|------|--------|--------|
 | 13 | Walk-forward / overfitting | CME PDF + arXiv | ⏳ |
-| 14 | Biais cognitifs | Cannon Behavioral | ⏳ |
+| 14 | Biais cognitifs | Cannon Behavioral | ✅ FAIT (D121–D130) |
 
 ---
 
