@@ -51,6 +51,7 @@ NinjaTrader 8 (données live) → Python Engine (surveillance 2s) → Claude API
 | Code Python du SaaS | Toujours dans `C:\trading-copilote\05-saas\` — JAMAIS à la racine |
 | Modèle Claude | **claude-sonnet-4-6** (KB + signaux) |
 | Modèle Vision | **claude-sonnet-4-20250514** (si screenshot TradingView) |
+| Modèle Transcription | **gemini-2.5-flash** (pipeline Gemini multimodal) — validé S24 sur 3 vidéos (71 Mo / 413 Mo chunké / 157 Mo) |
 | Objectif moteur | **Fidélité des règles de trading** (transcript-first), PAS le WER mot-à-mot. Usage personnel. |
 
 ---
@@ -246,12 +247,13 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S23 autonome terminée 23/06/2026)
+## ÉTAT ACTUEL (Session S24 terminée 24/06/2026)
 
 | Élément | État |
 |---------|------|
 | Squelette app trading (10 agents + 9 phases) | ✅ Livré S07 — 68 tests verts, `npm run build` OK |
-| Transcrits Belkhayate Whisper | ✅ 110 audités — 109 VALIDE / 1 HORS_PERIMETRE / 0 A_VERIFIER (clos S11) |
+| Transcrits Belkhayate Whisper | ✅ 110 audités — 109 VALIDE / 1 HORS_PERIMETRE / 0 A_VERIFIER (clos S11) — ARCHIVÉS non fiables à 100% |
+| Pipeline Gemini multimodal | ✅ `gemini_transcriber.py` — modèle gemini-2.5-flash — chunking auto >50min — validé 3/3 vidéos (commit f854b2b) — prêt batch 164 vidéos |
 | Cohérence docs | ✅ Nettoyée S08 (/21→/10, screenshot→JSON NT8, 5/8→3/4+2/3) |
 | Paramètres COG (`COGParams`) | ✅ Figés — période 180, ordre 3, coeffs 0,618/1,618 — backtest daily invalide (S11) — validation réelle = range bars NT8 Phase C |
 | Énergie Belkhayate | 🔒 NON codée (stub) — attendre fin Trading Geek (conflit MFI vs proxy ATR non tranché) |
@@ -307,7 +309,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 | Priorité | Fichier | Contenu |
 |----------|---------|---------|
-| 1 | `00-pilotage\_context\README_TRANSITION_TRADEX_S18_20260621.md` | Dernier état de session |
+| 1 | `00-pilotage\_context\README_FIN_SESSION_S24_20260623.md` | Dernier état de session |
 | 2 | `00-pilotage\DETTE_TECHNIQUE.md` | Bugs à réparer (contexte indispensable) |
 | 3 | `00-pilotage\FEUILLE_DE_ROUTE.md` | Phases du projet |
 | 4 | `00-pilotage\GARDE_FOUS_PROPOSES.md` | 32 garde-fous trading |
@@ -318,7 +320,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 23/06/2026 (S23 autonome) — KB pipeline D1→D172 (+111 décisions · 13 sources) couvrant P1→P4. 3 adaptateurs de scraping validés (scraper.py v3.3 GitBook · scraper_static.py v1.1 HTML · scraper_pdf.py v1). NinjaTrader + Adam Grimes récupérés par redécouverte d'URL. Sources anti-bot CME/Fidelity + pages promo (Brooks/Nison) marquées extraction manuelle. Précédent : 23/06/2026 (S22) — scraper v3.2 + ADX D62–D77 → P0 COMPLET. KB cerveau (`KNOWLEDGE_BASE_MASTER.json`) inchangée : 1313 règles (distincte du compteur D### pipeline).*
+*Dernière mise à jour : 24/06/2026 (S24) — Pipeline Gemini multimodal validé : gemini_transcriber.py + chunking auto >50min (ffprobe+ffmpeg) + test 3/3 OK (commits 38df947 · 6fb03d7 · f854b2b). Modèle : gemini-2.5-flash (verrouillé). SOURCE C officielle. Batch 164 vidéos prêt. Précédent : 23/06/2026 (S23 autonome) — KB pipeline D1→D172 (+111 décisions · 13 sources) · 3 adaptateurs scraping validés.*
 
 ---
 
