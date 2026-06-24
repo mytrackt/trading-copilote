@@ -1,7 +1,19 @@
 # KB_INDEX — TRADEX-AI · Base de Connaissances Trading
-**Dernière mise à jour :** 23/06/2026 · Session S22 — P0 COMPLET (MA · RSI · MACD · ADX)
+**Dernière mise à jour :** 24/06/2026 · Session S25 — cartographie 14 sources + 3 corrections statut accès
 **Repo :** `C:\trading-copilote\` · branch `main`
 **GitHub :** `mytrackt/trading-copilote`
+
+---
+
+## 0. CORRECTIONS STATUT ACCÈS — S25 (cartographie complète)
+
+> Source : `00-pilotage\CARTOGRAPHIE_SOURCES_COMPLETE.md` (24/06/2026). Reconnaissance web seule, aucun scrape.
+
+| # | Source | Ancien statut (erroné) | Statut corrigé S25 |
+|---|--------|------------------------|--------------------|
+| C1 | **Sierra Chart** (T1 #7) | « Sierra 404 » | ✅ **ACCESSIBLE** — le 404 venait d'un slug obsolète (`TPOProfileCharts.php`). Vraie page TPO : `doc/StudiesReference/TimePriceOpportunityCharts.html`. 500+ études via `StudiesReference.php&ID=N`. **35 pages utiles** (`scraper_static.py`). |
+| C2 | **Brooks** (T2 #14) | « promo podcast / rien d'exploitable » | 🔴 **403 ANTI-BOT (Akamai)** — un vrai corpus gratuit existe (manuel ~12 chap. + glossaire + articles price action). À classer « GARDER mais BLOQUÉ » → adaptateur anti-403 / manuel. **8 pages** bloquées. |
+| C3 | **Investopedia** (T2 #12) | « accessible » (implicite) | 🔴 **CRAWLER BLOQUÉ** — WebFetch/WebSearch rejetés. 65 URLs (schéma canonique `/terms/<l>/<slug>.asp`) **NON confirmées → à revalider** au scrape (risque 403 Cloudflare type CME/Fidelity). |
 
 ---
 
@@ -68,7 +80,7 @@ C:\trading-copilote\
 | 4 | bollingerbands.com | https://www.bollingerbands.com/bollinger-bands | Bollinger (créateur) | bollinger |
 | 5 | ThePatternSite | https://thepatternsite.com | Stats patterns Bulkowski | patternsite |
 | 6 | Jim Dalton Trading | https://jimdaltontrading.com/what-is-the-market-profile-2/ | Market Profile / TPO | jimdalton |
-| 7 | Sierra Chart docs | https://www.sierrachart.com/index.php?page=doc/TechnicalStudiesReference.php | Order flow · delta | sierrachart |
+| 7 | Sierra Chart docs | https://www.sierrachart.com/index.php?page=doc/TechnicalStudiesReference.php | Order flow · delta (✅ accessible — cf. C1) | sierrachart |
 | 8 | Candlecharts (Nison) | https://candlecharts.com | Chandeliers (créateur) | nison |
 | 9 | belkhayate.ma | https://belkhayate.ma/methode.html | COG (créateur) | belkhayate |
 
@@ -82,9 +94,9 @@ C:\trading-copilote\
 |---|--------|-----|-------|---------|
 | 10 | NinjaTrader Learning | https://ninjatrader.com/learn | Plateforme · NinjaScript | ninjatrader |
 | 11 | NinjaTrader Order Flow | https://ninjatrader.com/futures/blogs/ninjatrader-order-flow/ | Footprint · delta | ninjatrader |
-| 12 | Investopedia TA | https://www.investopedia.com/technical-analysis-4689657 | Définitions TA | investopedia |
+| 12 | Investopedia TA | https://www.investopedia.com/technical-analysis-4689657 | Définitions TA (🔴 crawler bloqué — cf. C3) | investopedia |
 | 13 | Adam Grimes Blog | https://www.adamhgrimes.com | Price Action (S&P/Gold) | adamgrimes |
-| 14 | Brooks Trading Course | https://brookstradingcourse.com | Price Action Al Brooks | brooks |
+| 14 | Brooks Trading Course | https://brookstradingcourse.com | Price Action Al Brooks (🔴 403 anti-bot — cf. C2) | brooks |
 | 15 | QuantifiedStrategies | https://www.quantifiedstrategies.com | Backtesting chiffré | quantifiedstrat |
 | 16 | Fidelity Learning | https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI | RSI/MACD/ADX formules | fidelity |
 | 17 | StockCharts Wyckoff | https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/the-wyckoff-method-a-tutorial | Wyckoff | wyckoff |
@@ -164,13 +176,13 @@ C:\trading-copilote\
 | 8a | Footprint charts | Optimus | ✅ FAIT (D112–D120) |
 | 8b | Volume Profile shapes | NinjaTrader | ✅ FAIT (D163–D167 · URL redécouverte) |
 | 9 | Market Profile | Jim Dalton | ✅ FAIT (D131–D134) |
-| 10 | VWAP / Volume Profile | NinjaTrader (Sierra 404) | ✅ FAIT (D163–D167 NinjaTrader 4 formes) + WindoTrader POC/VA D150-D151 · Optimus D120 |
+| 10 | VWAP / Volume Profile | NinjaTrader (~~Sierra 404~~ → Sierra ✅ accessible C1) | ✅ FAIT (D163–D167 NinjaTrader 4 formes) + WindoTrader POC/VA D150-D151 · Optimus D120 · Sierra Chart 35 pages dispo (non scrapé) |
 
 ### P3 — Price Action + Wyckoff
 | # | Page | Source | Statut |
 |---|------|--------|--------|
 | 11 | Wyckoff Method | StockCharts | ✅ FAIT (D99–D111) |
-| 12 | Price Action | Adam Grimes ✅ (Brooks promo) | ✅ FAIT (D168–D172 Adam Grimes Gold · URL redécouverte) · Brooks = promo podcast |
+| 12 | Price Action | Adam Grimes ✅ (Brooks BLOQUÉ) | ✅ FAIT (D168–D172 Adam Grimes Gold · URL redécouverte) · ~~Brooks = promo podcast~~ → Brooks corpus gratuit RÉEL mais 🔴 403 anti-bot (C2) · Adam Grimes 118 pages dispo (non scrapé) |
 
 ### P4 — Backtesting + Psychologie
 | # | Page | Source | Statut |
