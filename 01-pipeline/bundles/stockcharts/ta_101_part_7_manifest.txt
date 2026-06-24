@@ -1,0 +1,9 @@
+# Manifest images pour ta_101_part_7 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-7
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart Analysis - Support and Resistance | section : Chart Analysis - Support and Resistance [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart Analysis - Support and Resistance | section : Chart Analysis - Support and Resistance [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart Analysis - Support and Resistance | section : Chart Analysis - Support and Resistance [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart Analysis - Support and Resistance | section : Chart Analysis - Support and Resistance [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

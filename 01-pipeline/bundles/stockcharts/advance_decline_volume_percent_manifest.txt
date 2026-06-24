@@ -1,0 +1,10 @@
+# Manifest images pour advance_decline_volume_percent (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/advance-decline-volume-percent
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : How Do You Calculate Advance-Decline Volume Percent? | section : How Do You Calculate Advance-Decline Volume Percent? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : AD Volume Line | section : AD Volume Line [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Moving Averages | section : Moving Averages [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : SharpCharts | section : SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : SharpCharts | section : SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

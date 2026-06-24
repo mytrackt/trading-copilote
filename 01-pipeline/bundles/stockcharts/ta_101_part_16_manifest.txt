@@ -1,0 +1,10 @@
+# Manifest images pour ta_101_part_16 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-16
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Doji Candlestick | section : Doji Candlestick [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Doji Candlestick | section : Doji Candlestick [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Doji Candlestick | section : Doji Candlestick [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Doji Candlestick Formations | section : Doji Candlestick Formations [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Other Important Candlestick Patterns | section : Other Important Candlestick Patterns [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

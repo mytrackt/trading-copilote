@@ -1,0 +1,7 @@
+# Manifest images pour triple_top_reversal (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/triple-top-reversal
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Triple Top reversal pattern. | section : Triple Top Reversal | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Triple Top reversal in the chart of Rockwell Automation (R | section : Triple Top Reversal | CERTIFIE (accord .md + HTML)

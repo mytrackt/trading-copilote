@@ -1,0 +1,8 @@
+# Manifest images pour swing_charting (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/swing-charting
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Hewlett-Packard Co. (HPQ) Swing example chart from StockChar | section : Swing Charting Techniques | CERTIFIE (accord .md + HTML)
+image_02.jpg | label : Hewlett-Packard Co. (HPQ) Swing example chart from StockChar | section : Swing Charting Techniques | CERTIFIE (accord .md + HTML)
+image_03.jpg | label : Hewlett-Packard Co. (HPQ) Swing example chart from StockChar | section : Swing Charting Techniques | CERTIFIE (accord .md + HTML)

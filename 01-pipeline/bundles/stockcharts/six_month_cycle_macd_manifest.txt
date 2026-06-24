@@ -1,0 +1,9 @@
+# Manifest images pour six_month_cycle_macd (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/six-month-cycle-macd
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - Six Month Cycle MACD | section : Six-Month Cycle | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - Six Month Cycle MACD | section : Strategy | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 4 - Six Month Cycle MACD | section : Tweaks | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 14 - Six Month Cycle MACD | section : Tweaks | CERTIFIE (accord .md + HTML)

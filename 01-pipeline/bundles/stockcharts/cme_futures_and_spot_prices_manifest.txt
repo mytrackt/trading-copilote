@@ -1,0 +1,7 @@
+# Manifest images pour cme_futures_and_spot_prices (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/index-and-market-indicator-catalog/cme-futures-and-spot-prices
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart Example | section : Chart Example [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart Example | section : Chart Example [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

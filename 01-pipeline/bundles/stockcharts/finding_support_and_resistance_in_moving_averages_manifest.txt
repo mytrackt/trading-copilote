@@ -1,0 +1,7 @@
+# Manifest images pour finding_support_and_resistance_in_moving_averages (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-average-trading-strategies/finding-support-and-resistance-in-moving-averages
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Moving averages to find support and resistance levels using  | section : The Importance of Support and Resistance | CERTIFIE (accord .md + HTML)
+image_02.png | label : Moving averages as support and resistance levels using Stock | section : Example of a Long Trade | CERTIFIE (accord .md + HTML)

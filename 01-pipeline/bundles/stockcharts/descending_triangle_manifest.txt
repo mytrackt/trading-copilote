@@ -1,0 +1,7 @@
+# Manifest images pour descending_triangle (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/descending-triangle
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Descending Triangle pattern. | section : What Is a Descending Triangle? | CERTIFIE (accord .md + HTML)
+image_02.png | label : An example of a Descending Triangle chart pattern. | section : Characteristics of a Descending Triangle | CERTIFIE (accord .md + HTML)

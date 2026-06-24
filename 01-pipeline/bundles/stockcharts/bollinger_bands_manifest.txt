@@ -1,0 +1,18 @@
+# Manifest images pour bollinger_bands (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/bollinger-bands
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 13 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Are Bollinger Bands? | section : What Are Bollinger Bands? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 1 | section : Formulas | CERTIFIE (accord .md + HTML)
+image_03.png | label : Formulas | section : Formulas [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 2 | section : Confirming W-Bottom Chart Patterns | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 3 | section : Confirming W-Bottom Chart Patterns | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 4 | section : Confirming M-Top Chart Patterns | CERTIFIE (accord .md + HTML)
+image_07.png | label : Chart 5 | section : Confirming M-Top Chart Patterns | CERTIFIE (accord .md + HTML)
+image_08.png | label : Chart 6 | section : Measuring Trend Strength: Walking the Bands | CERTIFIE (accord .md + HTML)
+image_09.png | label : Chart 7 | section : Measuring Trend Strength: Walking the Bands | CERTIFIE (accord .md + HTML)
+image_10.png | label : Chart 8 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_12.png | label : Chart 9 | section : Using With StockChartsACP | CERTIFIE (accord .md + HTML)
+image_13.png | label : Chart 10 | section : Using With P&F Charts | CERTIFIE (accord .md + HTML)

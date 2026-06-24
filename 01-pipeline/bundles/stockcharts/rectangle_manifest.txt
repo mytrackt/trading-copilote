@@ -1,0 +1,7 @@
+# Manifest images pour rectangle (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/rectangle
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Rectangle chart pattern. | section : Rectangle | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a Rectangle chart pattern in Micron Technology, I | section : Rectangle | CERTIFIE (accord .md + HTML)

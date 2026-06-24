@@ -1,0 +1,10 @@
+# Manifest images pour candlesticks_and_traditional_chart_analysis (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlesticks-and-traditional-chart-analysis
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Confirming candlestick bullish confirmation signals with mov | section : Candlesticks and Moving Averages | CERTIFIE (accord .md + HTML)
+image_02.png | label : Bearish candlestick patterns are confirmed by a downside bre | section : Candlesticks and Breakouts | CERTIFIE (accord .md + HTML)
+image_03.png | label : In an OHLC bar chart, it's more difficult to evaluate the po | section : Candlesticks and Breakouts | CERTIFIE (accord .md + HTML)
+image_04.png | label : Combining candlesticks and head and shoulders pattern. | section : Candlesticks and the Head & Shoulders Pattern | CERTIFIE (accord .md + HTML)
+image_05.png | label : Candlestick chart with volume | section : Candlesticks and Volume | CERTIFIE (accord .md + HTML)

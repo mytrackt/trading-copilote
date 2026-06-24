@@ -1,0 +1,7 @@
+# Manifest images pour rising_wedge (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/rising-wedge
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Rising Wedge pattern. | section : Rising Wedge | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Rising Wedge pattern in the stock chart of ANN. | section : Rising Wedge | CERTIFIE (accord .md + HTML)

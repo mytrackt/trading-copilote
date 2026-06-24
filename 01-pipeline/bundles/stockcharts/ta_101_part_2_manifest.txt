@@ -1,0 +1,6 @@
+# Manifest images pour ta_101_part_2 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-2
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Historical one year price chart for Analog Devices, Inc. (AD | section : The Goal of Technical Analysis | CERTIFIE (accord .md + HTML)

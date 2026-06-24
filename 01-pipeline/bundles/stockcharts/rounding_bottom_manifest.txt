@@ -1,0 +1,7 @@
+# Manifest images pour rounding_bottom (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/rounding-bottom
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Rounding Bottom. | section : Rounding Bottom | CERTIFIE (accord .md + HTML)
+image_02.png | label : An example of a rounding bottom is in the chart of Amgen, In | section : Rounding Bottom | CERTIFIE (accord .md + HTML)

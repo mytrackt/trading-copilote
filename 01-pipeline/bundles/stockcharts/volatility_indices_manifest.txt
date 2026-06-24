@@ -1,0 +1,15 @@
+# Manifest images pour volatility_indices (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/volatility-indices
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Volatility Index - Chart 1 | section : Calculation | CERTIFIE (accord .md + HTML)
+image_02.png | label : Volatility Index - Chart 2 | section : Calculation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Volatility Index - Table 1 | section : Calculation | CERTIFIE (accord .md + HTML)
+image_04.png | label : Volatility Index - Chart 3 | section : Trends, Ranges and Spikes | CERTIFIE (accord .md + HTML)
+image_05.png | label : Volatility Index - Chart 4 | section : Sentiment Extremes | CERTIFIE (accord .md + HTML)
+image_06.png | label : Volatility Index - Chart 5 | section : Sentiment Extremes | CERTIFIE (accord .md + HTML)
+image_07.png | label : Volatility Index - Chart 6 | section : Detrending with the PPO | CERTIFIE (accord .md + HTML)
+image_08.png | label : Volatility Index - Chart 7 | section : Detrending with the PPO | CERTIFIE (accord .md + HTML)
+image_09.png | label : SharpCharts | section : SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : Volatility Index - SharpCharts | section : SharpCharts | CERTIFIE (accord .md + HTML)

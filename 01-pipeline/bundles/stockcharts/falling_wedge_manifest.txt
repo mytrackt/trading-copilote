@@ -1,0 +1,7 @@
+# Manifest images pour falling_wedge (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/falling-wedge
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Falling Wedge chart pattern. | section : Is the Falling Wedge a Reversal or Continuation Pattern? | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Falling Wedge reversal chart pattern in the stock price of | section : What Are the Characteristics of a Falling Wedge? | CERTIFIE (accord .md + HTML)

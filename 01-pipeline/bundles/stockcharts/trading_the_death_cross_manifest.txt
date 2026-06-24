@@ -1,0 +1,8 @@
+# Manifest images pour trading_the_death_cross (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-average-trading-strategies/trading-the-death-cross
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Example of a Death Cross | section : What is a Death Cross? | CERTIFIE (accord .md + HTML)
+image_02.jpg | label : Not All Crossovers Are the Same | section : Not All Crossovers Are the Same [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.jpg | label : Not All Crossovers Are the Same | section : Not All Crossovers Are the Same [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

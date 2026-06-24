@@ -1,0 +1,11 @@
+# Manifest images pour p_and_f_bullish_breakouts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/classic-patterns/p-and-f-bullish-breakouts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : P&F chart with double top breakouts. | section : Double Top Breakout | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Triple Top Breakout in a P&F chart. | section : Triple Top Breakout | CERTIFIE (accord .md + HTML)
+image_03.png | label : P&F chart with two Spread Triple Top Breakouts. | section : Spread Triple Top Breakout | CERTIFIE (accord .md + HTML)
+image_04.png | label : A P&F chart with an Ascending Triple Top Breakout. | section : Ascending Triple Top Breakout | CERTIFIE (accord .md + HTML)
+image_05.png | label : A P&F chart with a Quadruple Top Breakout. | section : Quadruple Top Breakout | CERTIFIE (accord .md + HTML)
+image_06.png | label : A P&F chart with three patterns and price objectives. | section : Measuring Techniques | CERTIFIE (accord .md + HTML)

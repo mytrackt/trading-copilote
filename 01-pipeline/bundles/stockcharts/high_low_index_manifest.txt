@@ -1,0 +1,11 @@
+# Manifest images pour high_low_index (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/high-low-index
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Spreadsheet 1 | section : Calculating the High-Low Index | CERTIFIE (accord .md + HTML)
+image_02.png | label : High-Low Index - Chart 1 | section : Calculating the High-Low Index | CERTIFIE (accord .md + HTML)
+image_03.png | label : High-Low Index - Chart 2 | section : Direction Identification | CERTIFIE (accord .md + HTML)
+image_04.png | label : High-Low Index - Chart 3 | section : Bull-Bear Bias | CERTIFIE (accord .md + HTML)
+image_05.png | label : High-Low Index - Chart 4 | section : SharpCharts | CERTIFIE (accord .md + HTML)
+image_06.png | label : High-Low Index - SharpCharts | section : SharpCharts | CERTIFIE (accord .md + HTML)

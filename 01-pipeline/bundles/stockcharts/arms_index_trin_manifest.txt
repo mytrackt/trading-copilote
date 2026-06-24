@@ -1,0 +1,12 @@
+# Manifest images pour arms_index_trin (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/arms-index-trin
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : How Do You Calculate the TRIN? | section : How Do You Calculate the TRIN? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : How Do You Interpret the TRIN? | section : How Do You Interpret the TRIN? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart Scaling | section : Chart Scaling [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Overbought/Oversold | section : Overbought/Oversold [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Overbought/Oversold | section : Overbought/Oversold [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Charting the Arms Index on SharpCharts | section : Charting the Arms Index on SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Charting the Arms Index on SharpCharts | section : Charting the Arms Index on SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

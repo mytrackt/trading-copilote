@@ -1,0 +1,18 @@
+# Manifest images pour volume_by_price (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/volume-by-price
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 13 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Calculating Volume-by-Price | section : Calculating Volume-by-Price [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Calculating Volume-by-Price | section : Calculating Volume-by-Price [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Calculating Volume-by-Price | section : Calculating Volume-by-Price [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Nuances | section : Nuances [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Identifying Support Using Volume-by-Price | section : Identifying Support Using Volume-by-Price [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Identifying Support Using Volume-by-Price | section : Identifying Support Using Volume-by-Price [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Identifying Resistance Using Volume-by-Price | section : Identifying Resistance Using Volume-by-Price [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Identifying Resistance Using Volume-by-Price | section : Identifying Resistance Using Volume-by-Price [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Identifying Support Breaks | section : Identifying Support Breaks [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : Identifying Support Breaks | section : Identifying Support Breaks [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_11.png | label : Identifying Resistance Breaks | section : Identifying Resistance Breaks [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_12.png | label : Identifying Resistance Breaks | section : Identifying Resistance Breaks [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_13.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

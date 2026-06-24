@@ -1,0 +1,8 @@
+# Manifest images pour triple_exponential_moving_average_tema (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/triple-exponential-moving-average-tema
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a price chart with two TEMA overlays. | section : What Is the Triple Exponential Moving Average? | CERTIFIE (accord .md + HTML)
+image_02.png | label : TEMA crossovers give earlier trading signals than DEMA or EM | section : Interpreting TEMA | CERTIFIE (accord .md + HTML)
+image_03.png | label : Add TEMA to your StockChartsACP charts after installing the  | section : Using with StockChartsACP | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,15 @@
+# Manifest images pour kagi_charts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/kagi-charts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : The green arrows point to upside reversals, whereas the red  | section : Reversal Amount | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart showing close-only prices. Note the difference between | section : Reversal Amount | CERTIFIE (accord .md + HTML)
+image_03.png | label : A close-only chart. | section : Fixed Amount versus ATR | CERTIFIE (accord .md + HTML)
+image_04.png | label : Kagi chart. | section : Fixed Amount versus ATR | CERTIFIE (accord .md + HTML)
+image_05.png | label : Yin (thin red) and yang (thick black) lines on a Kagi chart. | section : Yin and Yang | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart showing advancing and declining periods. Note the seri | section : Signals | CERTIFIE (accord .md + HTML)
+image_07.png | label : Inverted three Buddha bottoms. | section : Signals | CERTIFIE (accord .md + HTML)
+image_08.png | label : Chart showing trendline and multi-level breaks. | section : Signals | CERTIFIE (accord .md + HTML)
+image_09.png | label : Kagi chart for QQQ | section : Kagi Charts In SharpCharts | CERTIFIE (accord .md + HTML)
+image_10.png | label : SharpChart settings for Kagi charts. | section : Kagi Charts In SharpCharts | CERTIFIE (accord .md + HTML)

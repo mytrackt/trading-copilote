@@ -1,0 +1,16 @@
+# Manifest images pour parabolic_sar (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/parabolic-sar
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Parabolic SAR is plotted below price bars when they're risin | section : What Is the Parabolic SAR? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Rising SAR | section : Rising SAR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Rising SAR | section : Rising SAR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Falling SAR | section : Falling SAR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Falling SAR | section : Falling SAR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Adjusting the Step Increment | section : Adjusting the Step Increment [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Adjusting the Step Increment | section : Adjusting the Step Increment [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Adjusting the Maximum Step | section : Adjusting the Maximum Step [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Adjusting the Maximum Step | section : Adjusting the Maximum Step [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_11.png | label : Parabolic SAR applied to StockChartsACP. | section : Using with StockChartsACP | CERTIFIE (accord .md + HTML)

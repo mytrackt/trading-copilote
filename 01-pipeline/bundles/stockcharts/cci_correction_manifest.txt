@@ -1,0 +1,11 @@
+# Manifest images pour cci_correction (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/cci-correction
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - CCI Corrections | section : Strategy | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - CCI Corrections | section : Strategy | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - CCI Corrections | section : Trading Examples | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - CCI Corrections | section : Trading Examples | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - CCI Corrections | section : Trading Examples | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 6 - CCI Corrections | section : Adjusting | CERTIFIE (accord .md + HTML)

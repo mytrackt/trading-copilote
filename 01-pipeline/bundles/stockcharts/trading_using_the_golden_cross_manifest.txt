@@ -1,0 +1,8 @@
+# Manifest images pour trading_using_the_golden_cross (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-average-trading-strategies/trading-using-the-golden-cross
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Example of a Golden Cross | section : Trading Using the Golden Cross | CERTIFIE (accord .md + HTML)
+image_02.jpg | label : Example of Type 1 Golden Cross. | section : Not All Golden Crosses Are the Same | CERTIFIE (accord .md + HTML)
+image_03.jpg | label : Example of Type 1 and Type 2 Golden Crosses. | section : Not All Golden Crosses Are the Same | CERTIFIE (accord .md + HTML)

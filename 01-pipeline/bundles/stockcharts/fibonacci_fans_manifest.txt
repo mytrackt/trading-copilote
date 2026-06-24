@@ -1,0 +1,15 @@
+# Manifest images pour fibonacci_fans (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/fibonacci-fans
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Rising Fibonacci Fan lines based on the March 2009 trough to | section : Rising Fibonacci Fan | CERTIFIE (accord .md + HTML)
+image_02.png | label : Falling Fibonacci Fan Lines drawn from the April 2010 peak t | section : Falling Fibonacci Fan | CERTIFIE (accord .md + HTML)
+image_03.png | label : The stock price reversed from the 61.8% fan line in December | section : Rising Fan Lines | CERTIFIE (accord .md + HTML)
+image_04.png | label : The stock found support at the 50% Fibonacci Fan line twice  | section : Rising Fan Lines | CERTIFIE (accord .md + HTML)
+image_05.png | label : Falling Fan Lines | section : Falling Fan Lines [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Falling Fan Lines | section : Falling Fan Lines [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Log versus Arithmetic Charts | section : Log versus Arithmetic Charts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Log versus Arithmetic Charts | section : Log versus Arithmetic Charts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Extending the number of bars in SharpCharts to project price | section : Extending the Dateline | CERTIFIE (accord .md + HTML)
+image_10.png | label : Example of a chart with Fibonacci Fan lines using SharpChart | section : Using Fibonacci Fans With SharpCharts | CERTIFIE (accord .md + HTML)

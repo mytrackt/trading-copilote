@@ -1,0 +1,15 @@
+# Manifest images pour wyckoff_market_analysis (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/wyckoff-market-analysis
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Richard D. Wyckoff | section : About | CERTIFIE (accord .md + HTML)
+image_02.png | label : Wyckoff | section : About | CERTIFIE (accord .md + HTML)
+image_03.png | label : Wyckoff Uptrend Chart | section : Broad Market Trend | CERTIFIE (accord .md + HTML)
+image_04.png | label : Wyckoff Downtrend Chart | section : Broad Market Trend | CERTIFIE (accord .md + HTML)
+image_05.png | label : Wyckoff - Chart 1 | section : Major Tops and Bottoms | CERTIFIE (accord .md + HTML)
+image_06.png | label : Wyckoff - Chart 2 | section : Major Tops and Bottoms | CERTIFIE (accord .md + HTML)
+image_07.png | label : Wyckoff | section : Price Projections | CERTIFIE (accord .md + HTML)
+image_08.png | label : Wyckoff | section : Price Projections | CERTIFIE (accord .md + HTML)
+image_09.png | label : Wyckoff | section : Position in Trend | CERTIFIE (accord .md + HTML)
+image_10.png | label : Position in Trend | section : Position in Trend [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

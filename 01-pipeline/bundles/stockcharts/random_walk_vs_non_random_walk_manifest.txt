@@ -1,0 +1,13 @@
+# Manifest images pour random_walk_vs_non_random_walk (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/random-walk-vs.-non-random-walk
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Random Walk vs Non-Random Walk | section : Introduction | CERTIFIE (accord .md + HTML)
+image_02.png | label : Random Prices Example on American States Water Co. Chart | section : Random Walk Theory | CERTIFIE (accord .md + HTML)
+image_03.png | label : Example of Head and Shoulders Pattern on Apple Chart | section : Non-Random Walk Theory | CERTIFIE (accord .md + HTML)
+image_04.png | label : Dow Theory Example on Dow Jones Industrial Average Chart | section : Dow Theory | CERTIFIE (accord .md + HTML)
+image_05.png | label : Illustration of Normal Distribution Bell Curve and Fat Tails | section : Fat Tails and Trends | CERTIFIE (accord .md + HTML)
+image_06.png | label : Example of a Double Top Pattern on a Citigroup Chart | section : Visual Evidence | CERTIFIE (accord .md + HTML)
+image_07.png | label : Example of a Trend on a Exxon Mobile Chart | section : Visual Evidence | CERTIFIE (accord .md + HTML)
+image_08.png | label : Example of Trends on a Pfizer Chart | section : Visual Evidence | CERTIFIE (accord .md + HTML)

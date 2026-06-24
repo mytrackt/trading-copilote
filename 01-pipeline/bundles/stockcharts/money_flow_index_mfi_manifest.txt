@@ -1,0 +1,13 @@
+# Manifest images pour money_flow_index_mfi (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/money-flow-index-mfi
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Is the MFI? | section : What Is the MFI? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Money Flow Index - Spreadsheet | section : Calculating the MFI | CERTIFIE (accord .md + HTML)
+image_03.png | label : Money Flow Index at extreme oversold levels. | section : Overbought/Oversold Levels | CERTIFIE (accord .md + HTML)
+image_04.png | label : Money Flow Index at extreme overbought levels. | section : Overbought/Oversold Levels | CERTIFIE (accord .md + HTML)
+image_05.png | label : Failure swings and divergences with the MFI. | section : Divergences and Failure Swings | CERTIFIE (accord .md + HTML)
+image_06.png | label : Using MFI on a SharpChart | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : MFI settings on the SharpCharts Workbench | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_08.png | label : Using with StockChartsACP | section : Using with StockChartsACP [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

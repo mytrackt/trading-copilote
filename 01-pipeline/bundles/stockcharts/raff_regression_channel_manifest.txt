@@ -1,0 +1,10 @@
+# Manifest images pour raff_regression_channel (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/raff-regression-channel
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Raff Regression Channel in an uptrend. | section : How To Calculate the Raff Regression Channel | CERTIFIE (accord .md + HTML)
+image_02.png | label : Raff Regression Channel in a downtrend, | section : How To Calculate the Raff Regression Channel | CERTIFIE (accord .md + HTML)
+image_03.png | label : A break below the Raff Regression channel indicated a trend  | section : Drawing and Signals | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart of NVDA showing that a break above the Raff Regression | section : Drawing and Signals | CERTIFIE (accord .md + HTML)
+image_05.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

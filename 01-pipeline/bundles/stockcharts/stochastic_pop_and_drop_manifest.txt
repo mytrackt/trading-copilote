@@ -1,0 +1,10 @@
+# Manifest images pour stochastic_pop_and_drop (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/stochastic-pop-and-drop
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - Stochastic Pop | section : Trading Bias | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - Stochastic Pop | section : Waiting for a Range | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - Stochastic Pop | section : Buy Signal | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - Stochastic Pop | section : Stops and Targets | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - Stochastic Pop | section : Sell Signal | CERTIFIE (accord .md + HTML)

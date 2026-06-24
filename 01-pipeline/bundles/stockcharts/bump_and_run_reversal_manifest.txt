@@ -1,0 +1,7 @@
+# Manifest images pour bump_and_run_reversal (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/bump-and-run-reversal
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Bump and Run Reversal (BARR) pattern. | section : Bump and Run Reversal | CERTIFIE (accord .md + HTML)
+image_02.png | label : Bump and Run Reversal pattern after prices advance in a spec | section : Bump and Run Reversal | CERTIFIE (accord .md + HTML)

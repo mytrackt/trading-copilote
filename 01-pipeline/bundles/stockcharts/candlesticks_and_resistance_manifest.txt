@@ -1,0 +1,8 @@
+# Manifest images pour candlesticks_and_resistance (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlesticks-and-resistance
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Resistance level marked by doji. | section : Candlesticks and Resistance | CERTIFIE (accord .md + HTML)
+image_02.png | label : Shooting star and dark cloud cover marked the resistance lev | section : Candlesticks and Resistance | CERTIFIE (accord .md + HTML)
+image_03.png | label : Shooting stars marked the resistance level. | section : Candlesticks and Resistance | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,10 @@
+# Manifest images pour cvr3_vix_market_timing (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/cvr3-vix-market-timing
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - CVR3 VIX Market Timing | section : VIX Defined | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - CVR3 VIX Market Timing | section : Buy Example | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - CVR3 VIX Market Timing | section : Sell Example | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - CVR3 VIX Market Timing | section : Adjusting | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - CVR3 VIX Market Timing | section : Adjusting | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,11 @@
+# Manifest images pour average_true_range_atr (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/average-true-range-atr
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : ATR - True Range Image | section : True Range | CERTIFIE (accord .md + HTML)
+image_02.png | label : How To Calculate ATR | section : How To Calculate ATR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : ATR plotted on chart using StockCharts.com - Chart 1 | section : How To Calculate ATR | CERTIFIE (accord .md + HTML)
+image_04.png | label : Absolute ATR | section : Absolute ATR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Absolute ATR | section : Absolute ATR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : ATR - SharpCharts | section : Using ATR with SharpCharts | CERTIFIE (accord .md + HTML)

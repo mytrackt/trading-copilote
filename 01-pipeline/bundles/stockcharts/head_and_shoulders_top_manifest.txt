@@ -1,0 +1,7 @@
+# Manifest images pour head_and_shoulders_top (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/head-and-shoulders-top
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : An example of a Head and Shoulders Top chart pattern. | section : Head and Shoulders Top | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a Head and Shoulders Top reversal pattern. | section : Head and Shoulders Top | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,8 @@
+# Manifest images pour double_exponential_moving_average_dema (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/double-exponential-moving-average-dema
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Is the Double Exponential Moving Average (DEMA) Indicat | section : What Is the Double Exponential Moving Average (DEMA) Indicator? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart with the Double Exponential Moving Average | section : Interpreting DEMA | CERTIFIE (accord .md + HTML)
+image_03.png | label : StockChartsACP Chart showing DEMA Overlay | section : Charting with DEMA | CERTIFIE (accord .md + HTML)

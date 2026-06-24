@@ -1,0 +1,13 @@
+# Manifest images pour support_and_resistance (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/support-and-resistance
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of support levels on the chart of Amazon.com, Inc. ( | section : What Is Support? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of resistance level in a price chart. | section : What Is Resistance? | CERTIFIE (accord .md + HTML)
+image_03.png | label : Example of support and resistance levels based on highs and  | section : Highs and Lows | CERTIFIE (accord .md + HTML)
+image_04.png | label : Example of resistance level turning into a support level. | section : Support Equals Resistance | CERTIFIE (accord .md + HTML)
+image_05.png | label : Example of support level turning into resistance level. | section : Support Equals Resistance | CERTIFIE (accord .md + HTML)
+image_06.png | label : Support and resistance levels when a stock is in a trading r | section : Trading Range | CERTIFIE (accord .md + HTML)
+image_07.png | label : Example of support and resistance levels after a head & shou | section : Trading Range | CERTIFIE (accord .md + HTML)
+image_08.png | label : Example of support and resistance zones. | section : What Are Support and Resistance Zones? | CERTIFIE (accord .md + HTML)

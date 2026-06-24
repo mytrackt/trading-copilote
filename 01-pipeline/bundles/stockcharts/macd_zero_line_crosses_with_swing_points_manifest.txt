@@ -1,0 +1,8 @@
+# Manifest images pour macd_zero_line_crosses_with_swing_points (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/macd-zero-line-crosses-with-swing-points
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : MACD zero line cross in StockCharts.com | section : What Is the MACD Zero Line Cross? | CERTIFIE (accord .md + HTML)
+image_02.png | label : False and ideal MACD trading signals. | section : Combining MACD Zero Line Cross With Swing Points | CERTIFIE (accord .md + HTML)
+image_03.png | label : MACD zero crosses in SLV using StockCharts.com | section : Combining MACD Zero Line Cross With Swing Points | CERTIFIE (accord .md + HTML)

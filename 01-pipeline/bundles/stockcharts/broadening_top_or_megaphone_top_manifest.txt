@@ -1,0 +1,6 @@
+# Manifest images pour broadening_top_or_megaphone_top (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/broadening-top-or-megaphone-top
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Illustration of broadening top or megaphone top pattern. | section : Are Broadening Tops Bearish or Bullish? | CERTIFIE (accord .md + HTML)

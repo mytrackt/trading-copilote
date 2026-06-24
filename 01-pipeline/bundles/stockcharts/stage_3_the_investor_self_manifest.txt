@@ -1,0 +1,6 @@
+# Manifest images pour stage_3_the_investor_self (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/the-traders-journal-by-gatis-roze/stage-3-the-investor-self
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=0 figures vs HTML=0 images | url : https://chartschool.stockcharts.com/table-of-contents/overview/the-traders-journal-by-gatis-roze/stage-3-the-investor-self | alignement impossible -> verifier manuellement

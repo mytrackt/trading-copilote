@@ -1,0 +1,12 @@
+# Manifest images pour mass_index (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/mass-index
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Is the Mass Index? | section : What Is the Mass Index? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Spreadsheet 1 | section : Mass Index Calculation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Reversal bulge signals in an uptrend | section : Trend Reversal Signals | CERTIFIE (accord .md + HTML)
+image_04.png | label : Reversal bulge signals in a downtrend | section : Adjusting the Signal Threshold | CERTIFIE (accord .md + HTML)
+image_05.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : SharpCharts Settings for the Mass Index | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : Using with StockChartsACP | section : Using with StockChartsACP [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

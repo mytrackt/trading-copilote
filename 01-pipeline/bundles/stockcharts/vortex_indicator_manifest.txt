@@ -1,0 +1,12 @@
+# Manifest images pour vortex_indicator (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/vortex-indicator
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 | section : SharpCharts Calculation | CERTIFIE (accord .md + HTML)
+image_02.png | label : Spreadsheet | section : SharpCharts Calculation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 2 | section : VM Crossovers | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 3 | section : VM Crossovers | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 4 | section : VM Thresholds | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 6 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

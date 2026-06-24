@@ -1,0 +1,9 @@
+# Manifest images pour rsi_2 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/rsi-2
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - RSI(2) | section : Strategy | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - RSI(2) | section : Trading Examples | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - RSI(2) | section : Trading Examples | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - RSI(2) | section : Tweaking the 2-Period RSI Strategy | CERTIFIE (accord .md + HTML)

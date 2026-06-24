@@ -1,0 +1,9 @@
+# Manifest images pour b_indicator (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/b-indicator
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 | section : Signals: Overbought/Oversold | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 | section : Signals: Overbought/Oversold | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 | section : Signals: Trend Identification | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

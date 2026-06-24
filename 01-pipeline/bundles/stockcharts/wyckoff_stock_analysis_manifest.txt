@@ -1,0 +1,16 @@
+# Manifest images pour wyckoff_stock_analysis (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/wyckoff-analysis-articles/wyckoff-stock-analysis
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Wyckoff | section : Four Phases | CERTIFIE (accord .md + HTML)
+image_02.png | label : Wyckoff | section : Four Phases | CERTIFIE (accord .md + HTML)
+image_03.png | label : Wyckoff | section : Sector Group Behavior | CERTIFIE (accord .md + HTML)
+image_04.png | label : Wyckoff | section : Sector Group Behavior | CERTIFIE (accord .md + HTML)
+image_05.png | label : Wyckoff | section : Relative Performance | CERTIFIE (accord .md + HTML)
+image_06.png | label : Wyckoff | section : Relative Performance | CERTIFIE (accord .md + HTML)
+image_07.png | label : Wyckoff | section : High Volume Springboard | CERTIFIE (accord .md + HTML)
+image_08.png | label : Wyckoff | section : 50% Retracement | CERTIFIE (accord .md + HTML)
+image_09.png | label : Wyckoff | section : High Volume Consolidation | CERTIFIE (accord .md + HTML)
+image_10.png | label : Risk-Reward and Stops | section : Risk-Reward and Stops [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_11.png | label : Risk-Reward and Stops | section : Risk-Reward and Stops [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

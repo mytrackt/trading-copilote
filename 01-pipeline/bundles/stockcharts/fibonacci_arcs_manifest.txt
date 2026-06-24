@@ -1,0 +1,14 @@
+# Manifest images pour fibonacci_arcs (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/fibonacci-arcs
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 9 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Fibonacci Arcs with a Base Line from trough to peak. | section : How Do You Calculate Fibonacci Arcs? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart displaying Fibonacci Retracements and Fibonacci Arcs. | section : How Do You Interpret Fibonacci Arcs? | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart of NVDA with two Fibonacci Arcs. | section : Support Example | CERTIFIE (accord .md + HTML)
+image_04.png | label : After bouncing off the 38% arc in mid-May, the stock reverse | section : Support Example | CERTIFIE (accord .md + HTML)
+image_05.png | label : The stock hit resistance at the 62% Fibonacci arc (orange bo | section : Resistance Example | CERTIFIE (accord .md + HTML)
+image_06.png | label : The stock price hit resistance at the 62% Fibonacci Arc and  | section : Resistance Example | CERTIFIE (accord .md + HTML)
+image_07.png | label : Adding extra bars to your chart will help project support an | section : Extending the Dateline | CERTIFIE (accord .md + HTML)
+image_08.png | label : Extra Bars setting for SharpCharts | section : Extending the Dateline | CERTIFIE (accord .md + HTML)
+image_09.png | label : Chart with Fibonacci Arcs applied using the Annotation tool  | section : SharpCharts | CERTIFIE (accord .md + HTML)

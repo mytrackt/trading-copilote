@@ -1,0 +1,6 @@
+# Manifest images pour chart_patterns (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=0 figures vs HTML=0 images | url : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns | alignement impossible -> verifier manuellement

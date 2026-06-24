@@ -1,0 +1,12 @@
+# Manifest images pour advance_decline_volume_line (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/advance-decline-volume-line
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : How Do You Calculate the Advance-Decline Volume Line? | section : How Do You Calculate the Advance-Decline Volume Line? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : How Do You Calculate the Advance-Decline Volume Line? | section : How Do You Calculate the Advance-Decline Volume Line? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Bullish Divergence | section : Bullish Divergence [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Bearish Divergence | section : Bearish Divergence [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Large-Cap Bias | section : Large-Cap Bias [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : SharpCharts | section : SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : SharpCharts | section : SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

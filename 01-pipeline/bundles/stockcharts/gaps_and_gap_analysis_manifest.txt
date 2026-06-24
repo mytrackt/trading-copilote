@@ -1,0 +1,10 @@
+# Manifest images pour gaps_and_gap_analysis (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/gaps-and-gap-analysis
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of up and down price gaps. | section : What Are Price Gaps? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of common gaps in a stock price chart. | section : What Are Common Gaps? | CERTIFIE (accord .md + HTML)
+image_03.jpg | label : Example of a breakaway gap in a stock's price chart. | section : What Are Breakaway Gaps? | CERTIFIE (accord .md + HTML)
+image_04.png | label : Example of a runaway gap. | section : What Are Runaway Gaps? | CERTIFIE (accord .md + HTML)
+image_05.jpg | label : Example of an exhaustion gap. | section : What Are Exhaustion Gaps? | CERTIFIE (accord .md + HTML)

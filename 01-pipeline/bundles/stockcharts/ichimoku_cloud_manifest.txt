@@ -1,0 +1,16 @@
+# Manifest images pour ichimoku_cloud (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/ichimoku-cloud
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Is an Ichimoku Cloud? | section : What Is an Ichimoku Cloud? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Comparing Ichimoku Cloud plots | section : Interpreting Ichimoku Clouds | CERTIFIE (accord .md + HTML)
+image_03.png | label : Ichimoku Cloud in an Uptrend | section : Identifying Trends | CERTIFIE (accord .md + HTML)
+image_04.png | label : Ichimoku Cloud in a Downtrend | section : Identifying Trends | CERTIFIE (accord .md + HTML)
+image_05.png | label : Conversion-Base Line Crossover Signal in an Uptrend | section : Conversion-Base Line Crossovers | CERTIFIE (accord .md + HTML)
+image_06.png | label : Conversion-Base Line Crossover Signal in a Downtrend | section : Conversion-Base Line Crossovers | CERTIFIE (accord .md + HTML)
+image_07.png | label : Price-Base Line Crossover Signal in an Uptrend | section : Price-Base Line Crossovers | CERTIFIE (accord .md + HTML)
+image_08.png | label : Price-Base Line Crossover Signal in a Downtrend | section : Price-Base Line Crossovers | CERTIFIE (accord .md + HTML)
+image_09.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : SharpCharts settings for the Ichimoku Cloud overlay | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Using with StockChartsACP | section : Using with StockChartsACP [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

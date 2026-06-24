@@ -1,0 +1,6 @@
+# Manifest images pour stage_5_routines (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/the-traders-journal-by-gatis-roze/stage-5-routines
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=0 figures vs HTML=0 images | url : https://chartschool.stockcharts.com/table-of-contents/overview/the-traders-journal-by-gatis-roze/stage-5-routines | alignement impossible -> verifier manuellement

@@ -1,0 +1,7 @@
+# Manifest images pour symmetrical_triangle (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/symmetrical-triangle
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Symmetrical Triangle pattern. | section : Symmetrical Triangle | CERTIFIE (accord .md + HTML)
+image_02.png | label : An example of a Symmetrical Triangle Pattern in the chart of | section : Symmetrical Triangle | CERTIFIE (accord .md + HTML)

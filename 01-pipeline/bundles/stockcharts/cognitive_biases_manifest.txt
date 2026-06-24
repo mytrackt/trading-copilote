@@ -1,0 +1,8 @@
+# Manifest images pour cognitive_biases (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/cognitive-biases
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Cognitive Biases | section : Cognitive Biases [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Illustration of Loss Aversion | section : Loss Aversion and the Endowment Effect | CERTIFIE (accord .md + HTML)
+image_03.png | label : Table illustrating Framing Bias | section : The Framing Effect | CERTIFIE (accord .md + HTML)

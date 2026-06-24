@@ -1,0 +1,7 @@
+# Manifest images pour cup_with_handle (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/cup-with-handle
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Cup With Handle pattern. | section : What Is the Cup With Handle Pattern? | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Cup With Handle pattern in EMC. | section : What Is the Cup With Handle Pattern? | CERTIFIE (accord .md + HTML)

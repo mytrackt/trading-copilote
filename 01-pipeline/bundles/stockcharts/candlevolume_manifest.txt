@@ -1,0 +1,16 @@
+# Manifest images pour candlevolume (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/candlevolume
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : CandleVolume chart shows wide and narrow hollow and filled c | section : Calculating CandleVolume Charts | CERTIFIE (accord .md + HTML)
+image_02.png | label : Colorized version of CandleVolume chart. | section : Calculating CandleVolume Charts | CERTIFIE (accord .md + HTML)
+image_03.png | label : CandleVolume chart with normal candlesticks and normal x-axi | section : Calculating CandleVolume Charts | CERTIFIE (accord .md + HTML)
+image_04.png | label : CandleVolume chart with different candlestick width resultin | section : Calculating CandleVolume Charts | CERTIFIE (accord .md + HTML)
+image_05.png | label : Candlestick Reversal | section : Candlestick Reversal [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Candlestick Reversal | section : Candlestick Reversal [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Candlestick Reversal | section : Candlestick Reversal [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Breakout Validation | section : Breakout Validation [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Breakout Validation | section : Breakout Validation [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : SharpCharts settings for CandleVolume charts. | section : CandleVolume and SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : CandleVolume and SharpCharts | section : CandleVolume and SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

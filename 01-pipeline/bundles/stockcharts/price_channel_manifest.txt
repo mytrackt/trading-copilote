@@ -1,0 +1,7 @@
+# Manifest images pour price_channel (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/price-channel
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a price channel. | section : Price Channel | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a price channel in Cisco Systems (CSCO) stock. | section : Price Channel | CERTIFIE (accord .md + HTML)

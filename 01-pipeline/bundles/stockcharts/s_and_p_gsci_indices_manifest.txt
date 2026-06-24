@@ -1,0 +1,6 @@
+# Manifest images pour s_and_p_gsci_indices (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/index-and-market-indicator-catalog/s-and-p-gsci-indices
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : S&P GSCI Indices | section : Chart Example | CERTIFIE (accord .md + HTML)

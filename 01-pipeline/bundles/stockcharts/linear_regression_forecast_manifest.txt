@@ -1,0 +1,8 @@
+# Manifest images pour linear_regression_forecast (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/linear-regression-forecast
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : How to add the Linear Regression Forecast overlay | section : Chart LRF With StockChartsACP | CERTIFIE (accord .md + HTML)
+image_02.png | label : Changing Linear Regression Forecast parameters | section : Chart LRF With StockChartsACP | CERTIFIE (accord .md + HTML)
+image_03.png | label : The Linear Regression Forecast overlay in action. | section : Chart LRF With StockChartsACP | CERTIFIE (accord .md + HTML)

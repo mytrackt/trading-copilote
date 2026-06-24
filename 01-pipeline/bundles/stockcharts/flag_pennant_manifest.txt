@@ -1,0 +1,7 @@
+# Manifest images pour flag_pennant (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/flag-pennant
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Pennant chart pattern. | section : What Are Flag and Pennant Chart Patterns? | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Flag pattern in the chart of HPQ. | section : How Do You Identify Flags and Pennants? | CERTIFIE (accord .md + HTML)

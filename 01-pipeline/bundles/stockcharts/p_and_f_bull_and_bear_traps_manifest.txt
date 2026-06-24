@@ -1,0 +1,9 @@
+# Manifest images pour p_and_f_bull_and_bear_traps (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/classic-patterns/p-and-f-bull-and-bear-traps
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : An example of a P&F Bull Trap. | section : Bull Trap | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a P&F Bear Trap. | section : Bear Trap | CERTIFIE (accord .md + HTML)
+image_03.png | label : After a Triple Top Breakout, the stock declined back into a  | section : Bullish Catapults | CERTIFIE (accord .md + HTML)
+image_04.png | label : A combination of a Triple Bottom Breakout and Double Bottom  | section : Bearish Catapults | CERTIFIE (accord .md + HTML)

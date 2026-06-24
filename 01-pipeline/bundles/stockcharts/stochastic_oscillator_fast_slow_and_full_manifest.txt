@@ -1,0 +1,16 @@
+# Manifest images pour stochastic_oscillator_fast_slow_and_full (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/stochastic-oscillator-fast-slow-and-full
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Stochastics - Chart 1 | section : How Do You Calculate the Stochastic Oscillator? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Stochastics - Chart 2 | section : Three Stochastic Versions: Fast, Slow, and Full | CERTIFIE (accord .md + HTML)
+image_03.png | label : FULL STOCHASTIC OSCILLATOR. Note how the oscillator moved ab | section : Overbought/Oversold | CERTIFIE (accord .md + HTML)
+image_04.png | label : Stochastics - Chart 4 | section : Overbought/Oversold | CERTIFIE (accord .md + HTML)
+image_05.png | label : Stochastics - Chart 5 | section : Overbought/Oversold | CERTIFIE (accord .md + HTML)
+image_06.png | label : Stochastics - Chart 6 | section : Bull/Bear Divergences | CERTIFIE (accord .md + HTML)
+image_07.png | label : Stochastics - Chart 7 | section : Bull/Bear Divergences | CERTIFIE (accord .md + HTML)
+image_08.png | label : Stochastics - Chart 8 | section : Bull/Bear Set-Ups | CERTIFIE (accord .md + HTML)
+image_09.png | label : Stochastics - Chart 9 | section : Bull/Bear Set-Ups | CERTIFIE (accord .md + HTML)
+image_10.png | label : Stochastics - Chart 10 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Stochastics - SharpCharts | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

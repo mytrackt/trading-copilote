@@ -1,0 +1,12 @@
+# Manifest images pour bob_farrells_10_rules (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/bob-farrells-10-rules
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Rule 1: Markets tend to return to the mean over time. | section : 1. Markets tend to return to the mean over time. | CERTIFIE (accord .md + HTML)
+image_02.png | label : Rule 2: Excess moves in one direction often lead to excess m | section : 2. Excess moves in one direction will lead to an excess move in the opposite direction. | CERTIFIE (accord .md + HTML)
+image_03.png | label : Rule 3: There are no new eras; excess moves are never perman | section : 3. There are no new eras—excesses are never permanent. | CERTIFIE (accord .md + HTML)
+image_04.png | label : Rule 4: Rapid rising or falling markets usually go further t | section : 4. Exponential rapidly rising or falling markets usually go further than you think, but they do not correct by going sideways. | CERTIFIE (accord .md + HTML)
+image_05.png | label : Bob Farrell's rule 6: Fear and greed are stronger than long- | section : 6. Fear and greed are stronger than long-term resolve. | CERTIFIE (accord .md + HTML)
+image_06.png | label : Bob Farrell's rule 7: Markets are strongest when broad and w | section : 7. Markets are strongest when they are broad and weakest when they narrow to a handful of blue-chip names. | CERTIFIE (accord .md + HTML)
+image_07.png | label : Bob Farrel's rule 8: bear markets have three stages: a sharp | section : 8. Bear markets have three stages—sharp down, reflexive rebound, and a drawn-out fundamental downtrend. | CERTIFIE (accord .md + HTML)

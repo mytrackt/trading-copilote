@@ -1,0 +1,11 @@
+# Manifest images pour ichimoku_cloud_trading_strategies (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/ichimoku-cloud-trading-strategies
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - Ichimoku Trading Strategy | section : What Are the Ichimoku Cloud's Five Components? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - Ichimoku Trading Strategy | section : Trading Strategy Based on Ichimoku Cloud | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - Ichimoku Trading Strategy | section : Trading Strategy Based on Ichimoku Cloud | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - Ichimoku Trading Strategy | section : Trading Example | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - Ichimoku Trading Strategy | section : Trading Example | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 6 - Ichimoku Trading Strategy | section : Adjusting | CERTIFIE (accord .md + HTML)

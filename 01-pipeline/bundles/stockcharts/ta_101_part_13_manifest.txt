@@ -1,0 +1,7 @@
+# Manifest images pour ta_101_part_13 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-13
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Illustration of Head and Shoulders Top Reversal Pattern | section : The Infamous Head and Shoulders Reversal Pattern | CERTIFIE (accord .md + HTML)
+image_02.png | label : Illustration of Head and Shoulders Bottom Reversal Pattern | section : The Infamous Head and Shoulders Reversal Pattern | CERTIFIE (accord .md + HTML)

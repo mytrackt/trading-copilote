@@ -1,0 +1,13 @@
+# Manifest images pour put_call_ratio (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/put-call-ratio
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Index, Equity, or Total | section : Index, Equity, or Total [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Index, Equity, or Total | section : Index, Equity, or Total [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Index, Equity, or Total | section : Index, Equity, or Total [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Spike Extremes | section : Spike Extremes [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Smoothing the Ratio | section : Smoothing the Ratio [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Shifting Ranges | section : Shifting Ranges [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Put/Call Ratio on StockCharts.com | section : Put/Call Ratio on StockCharts.com [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Put/Call Ratio on StockCharts.com | section : Put/Call Ratio on StockCharts.com [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

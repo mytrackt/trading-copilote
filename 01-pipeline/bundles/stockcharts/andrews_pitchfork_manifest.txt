@@ -1,0 +1,13 @@
+# Manifest images pour andrews_pitchfork (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/andrews-pitchfork
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : An example of how to apply Andrews' Pitchfork in a stock's p | section : Applying Andrews' Pitchfork | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a downward-sloping Andrews' Pitchfork. | section : Applying Andrews' Pitchfork | CERTIFIE (accord .md + HTML)
+image_03.png | label : Flexibility with Point 1 of Andrews' Pitchfork | section : Flexibility with Point 1 of Andrews' Pitchfork [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : An example of a chart with two possible Andrews' Pitchforks. | section : Flexibility with Point 1 of Andrews' Pitchfork | CERTIFIE (accord .md + HTML)
+image_05.png | label : An example of Andrews' Pitchfork acting as support or resist | section : Support, Resistance, and Reversal | CERTIFIE (accord .md + HTML)
+image_06.png | label : Here, you see two Andrews' Pitchforks that formed after shar | section : Support, Resistance, and Reversal | CERTIFIE (accord .md + HTML)
+image_07.png | label : The lower and upper trigger lines are trendlines that extend | section : Trigger Lines | CERTIFIE (accord .md + HTML)
+image_08.png | label : Draw Andrews' Pitchfork lines on a chart by selecting the th | section : Using Andrews' Pitchfork With SharpCharts | CERTIFIE (accord .md + HTML)

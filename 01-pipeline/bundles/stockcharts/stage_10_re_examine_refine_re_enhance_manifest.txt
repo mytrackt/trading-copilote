@@ -1,0 +1,6 @@
+# Manifest images pour stage_10_re_examine_refine_re_enhance (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/the-traders-journal-by-gatis-roze/stage-10-re-examine-refine-re-enhance
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=0 figures vs HTML=0 images | url : https://chartschool.stockcharts.com/table-of-contents/overview/the-traders-journal-by-gatis-roze/stage-10-re-examine-refine-re-enhance | alignement impossible -> verifier manuellement

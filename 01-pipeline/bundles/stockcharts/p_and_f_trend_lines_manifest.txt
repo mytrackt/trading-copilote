@@ -1,0 +1,12 @@
+# Manifest images pour p_and_f_trend_lines (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/point-and-figure-basics/p-and-f-trend-lines
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Bearish and Bullish Resistance Lines in a P&F chart. | section : Changing Trend Lines | CERTIFIE (accord .md + HTML)
+image_02.png | label : Bullish Support Line, a Triple Top breakout, and a Bearish S | section : Bullish Support Line | CERTIFIE (accord .md + HTML)
+image_03.png | label : P&F chart showing a Bearish Resistance Line, a Spread Triple | section : Bearish Resistance Line | CERTIFIE (accord .md + HTML)
+image_04.png | label : Three trend line touches are seen in this chart. Because the | section : Trend Line Adjustments | CERTIFIE (accord .md + HTML)
+image_05.png | label : The Bearish Resistance Line was hit a few times but never br | section : Trend Line Adjustments | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart settings for P&F Trendlines using SharpCharts. | section : Creating P&F Trend Lines | CERTIFIE (accord .md + HTML)
+image_07.png | label : Chart Overlay settings for Trendlines in P&F charts. | section : Creating P&F Trend Lines | CERTIFIE (accord .md + HTML)

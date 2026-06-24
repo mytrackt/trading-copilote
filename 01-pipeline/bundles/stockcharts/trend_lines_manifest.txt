@@ -1,0 +1,15 @@
+# Manifest images pour trend_lines (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/trend-lines
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of an uptrend line in a stock chart. | section : What Is an Uptrend Line? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a downtrend in a stock chart. | section : What Is a Downtrend Line? | CERTIFIE (accord .md + HTML)
+image_03.png | label : Examples displaying downtrend lines in semi-log vs. arithmet | section : Scale Settings for Trend Lines | CERTIFIE (accord .md + HTML)
+image_04.png | label : Examples displaying uptrend lines in semi-log and arithmetic | section : Scale Settings for Trend Lines | CERTIFIE (accord .md + HTML)
+image_05.png | label : Example of a valid uptrend line. | section : How Do You Validate a Trend Line? | CERTIFIE (accord .md + HTML)
+image_06.png | label : Example of a trendline where the second high point is too cl | section : What Are the Spacing Rules for Trend Lines? | CERTIFIE (accord .md + HTML)
+image_07.png | label : Example of a steep trendline. | section : What Are Trend Angles? | CERTIFIE (accord .md + HTML)
+image_08.png | label : Example of an internal trend line. | section : What Are Internal Trend Lines? | CERTIFIE (accord .md + HTML)
+image_09.png | label : Example of an internal trend line using price clusters. | section : What Are Internal Trend Lines? | CERTIFIE (accord .md + HTML)
+image_10.png | label : Example of a trendline break that didn't reverse the trend. | section : The Bottom Line | CERTIFIE (accord .md + HTML)

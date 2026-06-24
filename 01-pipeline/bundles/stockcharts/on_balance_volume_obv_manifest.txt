@@ -1,0 +1,17 @@
+# Manifest images pour on_balance_volume_obv (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/on-balance-volume-obv
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 12 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : On Balance Volume smoothed with a 20-day EMA | section : What Is On Balance Volume (OBV)? | CERTIFIE (accord .md + HTML)
+image_02.png | label : On Balance Volume calculation example | section : Calculating OBV | CERTIFIE (accord .md + HTML)
+image_03.png | label : On Balance Volume rises on up days and drops on down days | section : Calculating OBV | CERTIFIE (accord .md + HTML)
+image_04.png | label : Bullish divergence with OBV | section : Divergences | CERTIFIE (accord .md + HTML)
+image_05.png | label : Rising OBV during a trading range | section : Divergences | CERTIFIE (accord .md + HTML)
+image_06.png | label : Bearish divergence with OBV | section : Divergences | CERTIFIE (accord .md + HTML)
+image_07.png | label : Bearish divergence with OBV | section : Divergences | CERTIFIE (accord .md + HTML)
+image_08.png | label : OBV confirming price trends | section : Trend Confirmation | CERTIFIE (accord .md + HTML)
+image_09.png | label : OBV overlaid on price helps confirm price trend | section : Trend Confirmation | CERTIFIE (accord .md + HTML)
+image_10.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_11.png | label : SharpCharts Settings for On Balance Volume | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_12.png | label : Using with StockChartsACP | section : Using with StockChartsACP [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

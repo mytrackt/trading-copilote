@@ -1,0 +1,8 @@
+# Manifest images pour head_and_shoulders_bottom (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/head-and-shoulders-bottom
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Head and Shoulders Bottom pattern. | section : Head and Shoulders Bottom | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a Head and Shoulders Bottom pattern in the chart  | section : Head and Shoulders Bottom | CERTIFIE (accord .md + HTML)
+image_03.png | label : Example of a Head and Shoulders bottom with shallow shoulder | section : Head and Shoulders Bottom | CERTIFIE (accord .md + HTML)

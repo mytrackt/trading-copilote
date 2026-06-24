@@ -1,0 +1,17 @@
+# Manifest images pour yield_curve (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/yield-curve
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 12 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : The Dynamic Yield Curve from StockCharts.com. | section : Yield Curve | CERTIFIE (accord .md + HTML)
+image_02.png | label : Yield curve data for early 2024. | section : Yield Curve Construction | CERTIFIE (accord .md + HTML)
+image_03.png | label : A normal yield curve. | section : Normal Yield Curve | CERTIFIE (accord .md + HTML)
+image_04.png | label : Inverted yield curve during the dot-com bubble burst. | section : Inverted Yield Curve | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart showing the relationship between US 10-year and 2-year | section : Inverted Yield Curve | CERTIFIE (accord .md + HTML)
+image_06.png | label : The flat yield curve in 2007. | section : Flat Yield Curve | CERTIFIE (accord .md + HTML)
+image_07.png | label : The flattening yield curve in 2018. | section : Flattening | CERTIFIE (accord .md + HTML)
+image_08.png | label : A steeping yield curve in 2009. | section : Steepening | CERTIFIE (accord .md + HTML)
+image_09.png | label : Yield curve behavior during different stages of the economic | section : Relationship to the Economic Cycle | CERTIFIE (accord .md + HTML)
+image_10.png | label : Monthly chart of S&P 500 showing economic expansions and con | section : Relationship to the Economic Cycle | CERTIFIE (accord .md + HTML)
+image_11.png | label : The Dynamic Yield Curve tool using StockCharts.com. | section : Dynamic Yield Curve Tool | CERTIFIE (accord .md + HTML)
+image_12.png | label : In August 2019, there was an inversion of the yield curve fo | section : Charting the 10Y-2Y Spread on SharpCharts | CERTIFIE (accord .md + HTML)

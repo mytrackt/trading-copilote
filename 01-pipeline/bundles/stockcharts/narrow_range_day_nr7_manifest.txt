@@ -1,0 +1,10 @@
+# Manifest images pour narrow_range_day_nr7 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/narrow-range-day-nr7
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - Narrow Range Days | section : Strategy | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - Narrow Range Days | section : Strategy | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - Narrow Range Days | section : Trading Example | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - Narrow Range Days | section : SharpCharts Alternatives | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - Narrow Range Days | section : Tweaking | CERTIFIE (accord .md + HTML)

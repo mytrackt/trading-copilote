@@ -1,0 +1,10 @@
+# Manifest images pour percent_b_money_flow (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/percent-b-money-flow
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - Percent B and Money Flow | section : Defining the Indicators | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - Percent B and Money Flow | section : Strategy | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - Percent B and Money Flow | section : Trading Examples | CERTIFIE (accord .md + HTML)
+image_04.png | label : Trading Examples | section : Trading Examples [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - Percent B and Money Flow | section : Tweaking | CERTIFIE (accord .md + HTML)

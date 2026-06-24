@@ -1,0 +1,16 @@
+# Manifest images pour chaikin_money_flow_cmf (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/chaikin-money-flow-cmf
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart with 20-day and 60-day CMF indicators, to assess money | section : What Is Chaikin Money Flow? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Table 1 - Chaikin Money Flow | section : Calculating Chaikin Money Flow | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart showing price and CMF values for the spreadsheet examp | section : Calculating Chaikin Money Flow | CERTIFIE (accord .md + HTML)
+image_04.png | label : Reducing CMF whipsaws with a buffer zone | section : Zero Line Crosses | CERTIFIE (accord .md + HTML)
+image_05.png | label : Trading pullbacks with bullish CMF | section : Zero Line Crosses | CERTIFIE (accord .md + HTML)
+image_06.png | label : CMF is not effective in volatile or choppy conditions | section : Caveat: CMF in Volatile or Choppy Conditions | CERTIFIE (accord .md + HTML)
+image_07.png | label : CMF is misleading after a down gap | section : Caveat: CMF and Gaps | CERTIFIE (accord .md + HTML)
+image_08.png | label : CMF is misleading after an up gap | section : Caveat: CMF and Gaps | CERTIFIE (accord .md + HTML)
+image_09.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : SharpCharts settings for Chaikin Money Flow | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Using with StockChartsACP | section : Using with StockChartsACP [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

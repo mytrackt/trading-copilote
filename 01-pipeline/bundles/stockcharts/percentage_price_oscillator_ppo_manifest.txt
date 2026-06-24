@@ -1,0 +1,12 @@
+# Manifest images pour percentage_price_oscillator_ppo (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/percentage-price-oscillator-ppo
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : PPO - Chart 1 | section : How Do You Calculate the Percentage Price Oscillator? | CERTIFIE (accord .md + HTML)
+image_02.png | label : PPO - Chart 2 | section : MACD, PPO, and Price | CERTIFIE (accord .md + HTML)
+image_03.png | label : PPO - Chart 3 | section : PPO: A Solution to MACD Sensitivity to Large Price Changes | CERTIFIE (accord .md + HTML)
+image_04.png | label : PPO - Chart 4 | section : Using PPO To Compare Different Securities | CERTIFIE (accord .md + HTML)
+image_05.png | label : PPO - Chart 5 | section : Using PPO To Compare Different Securities | CERTIFIE (accord .md + HTML)
+image_06.png | label : PPO - Chart 6 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : PPO - Chart 7 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

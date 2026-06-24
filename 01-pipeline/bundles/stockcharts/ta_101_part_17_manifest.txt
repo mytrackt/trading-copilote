@@ -1,0 +1,8 @@
+# Manifest images pour ta_101_part_17 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-17
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Individual Price Performance | section : Individual Price Performance [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Individual Price Performance | section : Individual Price Performance [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Relative Performance Comparison | section : Relative Performance Comparison [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,17 @@
+# Manifest images pour identifying_elliott_wave_patterns (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/elliott-wave-analysis-articles/identifying-elliott-wave-patterns
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 12 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Labeling Wave Degrees | section : Labeling Wave Degrees [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Impulse Waves | section : Impulse Waves [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Wave Extensions | section : Wave Extensions [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Wave Extensions | section : Wave Extensions [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Impulse Wave Truncation (Truncated Fifth) | section : Impulse Wave Truncation (Truncated Fifth) [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Ending Diagonals | section : Ending Diagonals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Zigzag Corrections | section : Zigzag Corrections [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Flat Corrections | section : Flat Corrections [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Flat Corrections | section : Flat Corrections [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_10.png | label : Horizontal Triangles | section : Horizontal Triangles [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_11.png | label : Correction Combinations | section : Correction Combinations [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_12.png | label : Correction Combinations | section : Correction Combinations [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

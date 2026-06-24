@@ -1,0 +1,11 @@
+# Manifest images pour percentage_volume_oscillator_pvo (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/percentage-volume-oscillator-pvo
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : PVO - Chart 1 | section : Calculating the Percentage Volume Oscillator | CERTIFIE (accord .md + HTML)
+image_02.png | label : PVO - Chart 2 | section : Validating Breaks | CERTIFIE (accord .md + HTML)
+image_03.png | label : PVO - Chart 3 | section : Validating Breaks | CERTIFIE (accord .md + HTML)
+image_04.png | label : PVO - Chart 4 | section : Fine-Tuning the PVO | CERTIFIE (accord .md + HTML)
+image_05.png | label : PVO - Chart 5 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_06.png | label : PVO - Chart 6 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

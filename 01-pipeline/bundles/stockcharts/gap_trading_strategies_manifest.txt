@@ -1,0 +1,9 @@
+# Manifest images pour gap_trading_strategies (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/gap-trading-strategies
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Cisco Systems, Inc. (CSCO) Gap example chart from StockChart | section : What is a Gap? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Amazon.com, Inc. (AMZN) Gap example chart from StockCharts.c | section : What is a Gap? | CERTIFIE (accord .md + HTML)
+image_03.png | label : EarthLink, Inc. (ELNK) Gap example chart from StockCharts.co | section : What is a Gap? | CERTIFIE (accord .md + HTML)
+image_04.png | label : Offshore Logistics, Inc. (OLG) Gap example chart from StockC | section : What is a Gap? | CERTIFIE (accord .md + HTML)

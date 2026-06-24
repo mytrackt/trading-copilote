@@ -1,0 +1,16 @@
+# Manifest images pour what_are_charts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/what-are-charts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : An introductory price chart of GE. | section : Stock Charts: The Nuts and Bolts | CERTIFIE (accord .md + HTML)
+image_02.png | label : Daily chart | section : How to Pick a Timeframe | CERTIFIE (accord .md + HTML)
+image_03.png | label : Weekly chart | section : How to Pick a Timeframe | CERTIFIE (accord .md + HTML)
+image_04.png | label : An example of a line chart. | section : Line Chart | CERTIFIE (accord .md + HTML)
+image_05.png | label : Bar chart with high, low, and close. | section : Bar Chart | CERTIFIE (accord .md + HTML)
+image_06.png | label : Bar chart displaying open, high, low, and close. | section : Bar Chart | CERTIFIE (accord .md + HTML)
+image_07.png | label : Example of hollow and filled candlestick bars. | section : Candlestick Chart | CERTIFIE (accord .md + HTML)
+image_08.png | label : Example of a candlestick chart with green and red bars. | section : Candlestick Chart | CERTIFIE (accord .md + HTML)
+image_09.png | label : An example of a Point & Figure chart. | section : Point & Figure Chart | CERTIFIE (accord .md + HTML)
+image_10.png | label : Example of a logarithmic scale price chart. | section : Price Scaling | CERTIFIE (accord .md + HTML)
+image_11.png | label : Example of an arithmetic scale price chart. | section : Price Scaling | CERTIFIE (accord .md + HTML)

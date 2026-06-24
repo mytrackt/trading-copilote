@@ -1,0 +1,10 @@
+# Manifest images pour elder_impulse_system (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/elder-impulse-system
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of an Elder Impulse System chart showing when bulls  | section : Calculating the Elder Impulse System | CERTIFIE (accord .md + HTML)
+image_02.png | label : Daily bars with the Elder Impulse System with an EMA overlay | section : Timeframe | CERTIFIE (accord .md + HTML)
+image_03.png | label : Elder Impulse System chart displaying bullish and bearish si | section : Entries and Exits | CERTIFIE (accord .md + HTML)
+image_04.png | label : Elder Impulse System SharpChart | section : Using Elder Impulse System With SharpCharts | CERTIFIE (accord .md + HTML)
+image_05.png | label : How to access Elder Impulse System chart type in SharpCharts | section : Using Elder Impulse System With SharpCharts | CERTIFIE (accord .md + HTML)

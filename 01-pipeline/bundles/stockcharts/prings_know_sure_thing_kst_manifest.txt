@@ -1,0 +1,16 @@
+# Manifest images pour prings_know_sure_thing_kst (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/prings-know-sure-thing-kst
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 | section : SharpCharts Calculation | CERTIFIE (accord .md + HTML)
+image_02.png | label : Spreadsheet | section : SharpCharts Calculation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 2 | section : Interpretating KST | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 3 | section : Divergences | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 4 | section : Strong Trends | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 5 | section : Timeframes | CERTIFIE (accord .md + HTML)
+image_07.png | label : Chart 6 | section : Timeframes | CERTIFIE (accord .md + HTML)
+image_08.png | label : Chart 7 | section : Timeframes | CERTIFIE (accord .md + HTML)
+image_09.png | label : Chart 8 | section : Further Tweaks | CERTIFIE (accord .md + HTML)
+image_10.png | label : Chart 9 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Chart 10 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

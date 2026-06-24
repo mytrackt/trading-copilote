@@ -1,0 +1,6 @@
+# Manifest images pour point_and_figure_charts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : P&F chart showing a trendline breakout. | section : Using P&F Charts To Identify Breakouts | CERTIFIE (accord .md + HTML)

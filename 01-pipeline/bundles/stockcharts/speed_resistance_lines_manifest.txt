@@ -1,0 +1,13 @@
+# Manifest images pour speed_resistance_lines (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/speed-resistance-lines
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Speed Resistance Lines in a downtrend. | section : Downtrend Calculation | CERTIFIE (accord .md + HTML)
+image_02.png | label : Speed Resistance Lines in an uptrend. | section : Uptrend Calculation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Speed Resistance Lines identify support levels in the TGT ch | section : Uptrend Example | CERTIFIE (accord .md + HTML)
+image_04.png | label : The lower Speedline acted as a support level while the middl | section : Uptrend Example | CERTIFIE (accord .md + HTML)
+image_05.png | label : Speed Resistance Lines mark resistance levels in a downtrend | section : Downtrend Example | CERTIFIE (accord .md + HTML)
+image_06.png | label : Speed Resistance Lines can also act as support levels after  | section : Downtrend Example | CERTIFIE (accord .md + HTML)
+image_07.png | label : Repositioning Speed Resistance Lines after a trend extension | section : Repositioning Speed Resistance Lines | CERTIFIE (accord .md + HTML)
+image_08.png | label : Applying Speed Resistance Lines in SharpCharts | section : Using Speed Resistance Lines In SharpCharts | CERTIFIE (accord .md + HTML)

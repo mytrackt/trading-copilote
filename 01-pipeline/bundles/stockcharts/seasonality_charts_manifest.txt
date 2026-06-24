@@ -1,0 +1,10 @@
+# Manifest images pour seasonality_charts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/seasonality-charts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Seasonality chart for Gold futures spot price ($GOLD). | section : Calculations | CERTIFIE (accord .md + HTML)
+image_02.png | label : The seasonality chart for Intel Corp. (INTC) shows a strong  | section : Interpreting Seasonality Charts | CERTIFIE (accord .md + HTML)
+image_03.png | label : Seasonality chart of the Russell 2000 vs. the S&P 500. | section : Relative Seasonality | CERTIFIE (accord .md + HTML)
+image_04.png | label : A seasonality chart comparing a stock against a benchmark is | section : Viewing Seasonality Charts | CERTIFIE (accord .md + HTML)
+image_05.png | label : This Seasonality chart shows that 2012 was the best year for | section : Viewing Seasonality Charts | CERTIFIE (accord .md + HTML)

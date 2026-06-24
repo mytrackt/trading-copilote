@@ -1,0 +1,15 @@
+# Manifest images pour dow_theory (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/dow-theory
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Coca Cola Co. (KO) Reaction Rally example chart from StockCh | section : Averages Discount Everything | CERTIFIE (accord .md + HTML)
+image_02.png | label : Yahoo Inc. (YHOO) Rumor example chart from StockCharts.com | section : Averages Discount Everything | CERTIFIE (accord .md + HTML)
+image_03.png | label : Dow Jones Industrial Average ($INDU) Market Movement example | section : Secondary Movements | CERTIFIE (accord .md + HTML)
+image_04.png | label : Secondary Movements | section : Secondary Movements [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Secondary Movements | section : Secondary Movements [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Dow Jones Transportation Average ($TRAN) Trend example chart | section : Identification of the Trend | CERTIFIE (accord .md + HTML)
+image_07.png | label : Dow Jones Industrial Average ($INDU) Trend example chart fro | section : Identification of the Trend | CERTIFIE (accord .md + HTML)
+image_08.png | label : Dow Jones Industrial Average ($INDU) Reaction High example c | section : Identification of the Trend | CERTIFIE (accord .md + HTML)
+image_09.png | label : DJTA and DJIA Confirmed Averages example chart from StockCha | section : How Averages Confirm | CERTIFIE (accord .md + HTML)
+image_10.png | label : Dow Jones Industrial Average ($INDU) Trading Ranges example  | section : Lines (a.k.a. Trading Ranges) | CERTIFIE (accord .md + HTML)

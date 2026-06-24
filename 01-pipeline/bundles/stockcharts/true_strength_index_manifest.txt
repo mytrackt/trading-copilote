@@ -1,0 +1,12 @@
+# Manifest images pour true_strength_index (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/true-strength-index
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 | section : Calculating True Strengh Index | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 | section : Center Line Crossover | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 | section : Trend Lines | CERTIFIE (accord .md + HTML)
+image_04.png | label : TRUE STRENGTH INDEX USING TWO TIMEFRAMES. | section : Overbought/Oversold | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 | section : Signal Line Crossovers | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 6 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : Chart 7 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,9 @@
+# Manifest images pour p_and_f_catapults (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/classic-patterns/p-and-f-catapults
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Bullish Catapults can be reversal or continuation patterns. | section : Bullish Catapult | CERTIFIE (accord .md + HTML)
+image_02.png | label : Bearish Catapult pattern consisting of a Triple Top Breakdow | section : Bearish Catapult | CERTIFIE (accord .md + HTML)
+image_03.png | label : A classic Bearish Catapult P&F pattern. | section : Bearish Catapult | CERTIFIE (accord .md + HTML)
+image_04.png | label : A possible Bearish Catapult P&F pattern unfolding. | section : The Takeaway | CERTIFIE (accord .md + HTML)

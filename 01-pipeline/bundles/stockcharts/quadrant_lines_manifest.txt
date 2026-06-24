@@ -1,0 +1,11 @@
+# Manifest images pour quadrant_lines (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/quadrant-lines
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Quadrant Lines help to identify potential highs and lows. | section : Interpreting Quadrant Lines | CERTIFIE (accord .md + HTML)
+image_02.png | label : Log scale chart showing Quadrant Lines. | section : Log Scaling | CERTIFIE (accord .md + HTML)
+image_03.png | label : Arithmetic scale chart showing Quadrant Lines. | section : Log Scaling | CERTIFIE (accord .md + HTML)
+image_04.png | label : Quadrant Lines help identify how deep pullbacks can go durin | section : Quadrant Lines To Identify Pullback Depths | CERTIFIE (accord .md + HTML)
+image_05.png | label : Quadrant Lines can be used to identify resistance levels dur | section : Quadrant Lines To Identify Pullback Depths | CERTIFIE (accord .md + HTML)
+image_06.png | label : Adding Quadrant Lines in SharpCharts. | section : SharpCharts | CERTIFIE (accord .md + HTML)

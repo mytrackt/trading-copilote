@@ -1,0 +1,11 @@
+# Manifest images pour price_channels (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/price-channels
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : An example of the Price Channels overlay in SharpCharts. | section : Calculating Price Channels | CERTIFIE (accord .md + HTML)
+image_02.png | label : Price breaks out above upper channel because the high was ba | section : Calculating Price Channels | CERTIFIE (accord .md + HTML)
+image_03.png | label : Here's an example of how Price Channels can be applied to yo | section : Identifying Trends With Price Channels | CERTIFIE (accord .md + HTML)
+image_04.png | label : Adding a close-only line plot can help filter signals and re | section : Identifying Trends With Price Channels | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart comparing Price Channels with the Stochastic Oscillato | section : Price Channels Are Similar to Stochastics | CERTIFIE (accord .md + HTML)
+image_06.png | label : The green arrows mark when price dips below the 20-day Price | section : Identifying Overbought/Oversold Levels | CERTIFIE (accord .md + HTML)

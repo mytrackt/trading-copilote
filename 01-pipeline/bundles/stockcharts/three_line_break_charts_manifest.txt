@@ -1,0 +1,14 @@
+# Manifest images pour three_line_break_charts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/three-line-break-charts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 9 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Traditional candlestick chart shows 85 trading days between  | section : Construction of Three Line Break Charts | CERTIFIE (accord .md + HTML)
+image_02.png | label : Three Line Break chart condenses the information in a tradit | section : Construction of Three Line Break Charts | CERTIFIE (accord .md + HTML)
+image_03.png | label : Two-line reversals | section : Two Line Reversals | CERTIFIE (accord .md + HTML)
+image_04.png | label : The first and third reversals feature a black and white line | section : Two Line Reversals | CERTIFIE (accord .md + HTML)
+image_05.png | label : Three Line Break chart showing a move from a downtrend to an | section : Three Line Reversals | CERTIFIE (accord .md + HTML)
+image_06.png | label : Support and resistance levels in Three Line Break chart. | section : Support and Resistance | CERTIFIE (accord .md + HTML)
+image_07.png | label : A support break of a symmetrical triangle is seen in the cha | section : Classic Patterns | CERTIFIE (accord .md + HTML)
+image_08.png | label : Three-Line Break chart using SharpCharts. | section : Three Line Break Charts In SharpCharts | CERTIFIE (accord .md + HTML)
+image_09.png | label : SharpChart settings for Three Line Break chart in SharpChart | section : Three Line Break Charts In SharpCharts | CERTIFIE (accord .md + HTML)

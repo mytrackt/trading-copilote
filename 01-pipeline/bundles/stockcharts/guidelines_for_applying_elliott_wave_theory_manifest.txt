@@ -1,0 +1,9 @@
+# Manifest images pour guidelines_for_applying_elliott_wave_theory (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/elliott-wave-analysis-articles/guidelines-for-applying-elliott-wave-theory
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Guideline of Equality | section : Guideline of Equality [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Guideline of Alternation Within an Impulse | section : Guideline of Alternation Within an Impulse [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Guideline of Depth of Corrective Waves | section : Guideline of Depth of Corrective Waves [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Adding Elliott Wave Notation to SharpCharts | section : Adding Elliott Wave Notation to SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

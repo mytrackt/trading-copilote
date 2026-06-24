@@ -1,0 +1,6 @@
+# Manifest images pour arthur_hill_on_goals_style_and_strategy (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/arthur-hill-on-goals-style-and-strategy
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=0 figures vs HTML=0 images | url : https://chartschool.stockcharts.com/table-of-contents/overview/arthur-hill-on-goals-style-and-strategy | alignement impossible -> verifier manuellement

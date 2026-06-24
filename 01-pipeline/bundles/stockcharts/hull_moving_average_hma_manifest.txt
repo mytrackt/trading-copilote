@@ -1,0 +1,7 @@
+# Manifest images pour hull_moving_average_hma (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/hull-moving-average-hma
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : Introduction | IGNOREE
+image_01.png | label : Charting with the Hull Moving Average (HMA) | section : Charting with the Hull Moving Average (HMA) [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

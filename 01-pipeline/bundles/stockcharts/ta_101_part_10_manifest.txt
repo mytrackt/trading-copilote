@@ -1,0 +1,6 @@
+# Manifest images pour ta_101_part_10 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-10
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Volume Confirmation | section : Volume Confirmation [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,12 @@
+# Manifest images pour point_and_figure_indicators (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/point-and-figure-indicators
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : A one-period moving average is overlaid on a P&F chart. | section : Moving Averages | CERTIFIE (accord .md + HTML)
+image_02.png | label : A P&F chart with a one-period and five-period simple moving  | section : Moving Averages | CERTIFIE (accord .md + HTML)
+image_03.png | label : Moving average crossovers in a P&F chart. | section : Moving Averages | CERTIFIE (accord .md + HTML)
+image_04.png | label : P&F charts showing narrowing Bollinger Bands before a breako | section : Bollinger Bands | CERTIFIE (accord .md + HTML)
+image_05.png | label : Example of P&F chart with a move above the upper band (walki | section : Bollinger Bands | CERTIFIE (accord .md + HTML)
+image_06.png | label : Volume-by-Price bars on a P&F chart showing potential resist | section : Volume-by-Price | CERTIFIE (accord .md + HTML)
+image_07.png | label : Volume-by-Price bars on a P&F chart showing potential suppor | section : Volume-by-Price | CERTIFIE (accord .md + HTML)

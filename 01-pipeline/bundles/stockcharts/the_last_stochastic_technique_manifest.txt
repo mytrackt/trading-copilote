@@ -1,0 +1,9 @@
+# Manifest images pour the_last_stochastic_technique (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/the-last-stochastic-technique
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Stochastic Signals | section : Stochastic Signals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Stochastic Signals | section : Stochastic Signals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Stochastic Signals | section : Stochastic Signals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Stochastic Signals | section : Stochastic Signals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

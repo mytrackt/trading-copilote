@@ -1,0 +1,17 @@
+# Manifest images pour p_and_f_price_objectives_breakout_and_reversal_method (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/p-and-f-price-objectives/p-and-f-price-objectives-breakout-and-reversal-method
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 12 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Basic P&F signals. | section : Basic P&F Signals | CERTIFIE (accord .md + HTML)
+image_02.png | label : Calculating Bullish Price Objective. | section : Breakout Method: Bullish | CERTIFIE (accord .md + HTML)
+image_03.png | label : A tentative Bullish Price Objective. | section : Breakout Method: Bullish | CERTIFIE (accord .md + HTML)
+image_04.png | label : Example of how to calculate a Bearish Price Objective. | section : Breakout Method: Bearish | CERTIFIE (accord .md + HTML)
+image_05.png | label : Example of a tentative Bearish Price Objective in a P&F char | section : Breakout Method: Bearish | CERTIFIE (accord .md + HTML)
+image_06.png | label : Bullish Reversal method for calculating Price Objectives in  | section : Reversal Method: Bullish | CERTIFIE (accord .md + HTML)
+image_07.png | label : Example of a tentative Bullish Reversal price objective. | section : Reversal Method: Bullish | CERTIFIE (accord .md + HTML)
+image_08.png | label : Reversal Method: Bearish | section : Reversal Method: Bearish [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : An example of a tentative Bearish Price Objective. | section : Reversal Method: Bearish | CERTIFIE (accord .md + HTML)
+image_10.png | label : Tentative Bullish Price Objective | section : Met Price Objectives | CERTIFIE (accord .md + HTML)
+image_11.png | label : The Bullish Price Objective was met as indicated by the MET! | section : Met Price Objectives | CERTIFIE (accord .md + HTML)
+image_12.png | label : Activating price objectives in SharpCharts | section : Activating Price Objectives | CERTIFIE (accord .md + HTML)

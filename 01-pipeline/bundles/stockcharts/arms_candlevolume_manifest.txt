@@ -1,0 +1,16 @@
+# Manifest images pour arms_candlevolume (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/arms-candlevolume
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Three types of EquiVolume boxes. | section : EquiVolume Overview | CERTIFIE (accord .md + HTML)
+image_02.png | label : Note the wide Arms CandleVolume boxes in October compared to | section : EquiVolume Overview | CERTIFIE (accord .md + HTML)
+image_03.png | label : Price chart using standard candlesticks. | section : EquiVolume Overview | CERTIFIE (accord .md + HTML)
+image_04.png | label : Colored standard candlestick bars have four variations of pr | section : Candlestick Overview | CERTIFIE (accord .md + HTML)
+image_05.png | label : Standard Candlestick chart. | section : Arms CandleVolume | CERTIFIE (accord .md + HTML)
+image_06.png | label : EquiVolume Chart of Intel Corp. (INTC). | section : Arms CandleVolume | CERTIFIE (accord .md + HTML)
+image_07.png | label : An Arms CandleVolume chart combines EquiVolume and candlesti | section : Arms CandleVolume | CERTIFIE (accord .md + HTML)
+image_08.png | label : Arms CandleVolume chart shows a high volume day on October 9 | section : Interpretation | CERTIFIE (accord .md + HTML)
+image_09.png | label : On Sept. 5, there was a gap and wide CandleVolume box. Also, | section : Interpretation | CERTIFIE (accord .md + HTML)
+image_10.png | label : Arms CandleVolume in SharpCharts | section : Arms CandleVolume in SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Customizing colors for CandleVolume boxes in SharpCharts. | section : Arms CandleVolume in SharpCharts | CERTIFIE (accord .md + HTML)

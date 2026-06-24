@@ -1,0 +1,14 @@
+# Manifest images pour stock_market_cycles (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/stock-market-cycles
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 9 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : A hypothetically perfect market cycle. | section : The Perfect Market Cycle | CERTIFIE (accord .md + HTML)
+image_02.png | label : An example of an arithmetic scale chart. | section : 1. Set chart to log scale (found under Chart Settings or Chart Attributes). | CERTIFIE (accord .md + HTML)
+image_03.png | label : The same chart as the one above but in a log scale. | section : 1. Set chart to log scale (found under Chart Settings or Chart Attributes). | CERTIFIE (accord .md + HTML)
+image_04.png | label : A five-day moving average is overlaid on the price chart to  | section : 2. Smooth the price series with a short simple moving average. | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart of S&P 500 with the DPO and Cycle Lines tool. | section : 4. Detrend the price series to focus on cycle lows. | CERTIFIE (accord .md + HTML)
+image_06.png | label : Example of the Presidential Cycle applied to the S&P 500 fro | section : Examples of Market Cycles | CERTIFIE (accord .md + HTML)
+image_07.png | label : The six-month cycle applied to the S&P 500. | section : Examples of Market Cycles | CERTIFIE (accord .md + HTML)
+image_08.png | label : Example of a chart annotated with Cycle Lines. | section : Using Cycles With SharpCharts | CERTIFIE (accord .md + HTML)
+image_09.png | label : Classic SharpChart settings for Cycle Analysis. | section : Using Cycles With SharpCharts | CERTIFIE (accord .md + HTML)

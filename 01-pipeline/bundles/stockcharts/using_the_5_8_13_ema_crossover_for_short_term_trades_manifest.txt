@@ -1,0 +1,6 @@
+# Manifest images pour using_the_5_8_13_ema_crossover_for_short_term_trades (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-average-trading-strategies/using-the-5-8-13-ema-crossover-for-short-term-trades
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 2 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=1 figures vs HTML=2 images | url : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-average-trading-strategies/using-the-5-8-13-ema-crossover-for-short-term-trades | alignement impossible -> verifier manuellement

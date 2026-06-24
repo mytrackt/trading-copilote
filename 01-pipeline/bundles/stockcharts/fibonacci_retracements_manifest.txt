@@ -1,0 +1,12 @@
+# Manifest images pour fibonacci_retracements (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/fibonacci-retracements
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a stock retracing around 50% of its previous adva | section : Fibonacci Retracements as Alert Zones | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a stock retracing around 50% of its previous decl | section : Fibonacci Retracements as Alert Zones | CERTIFIE (accord .md + HTML)
+image_03.png | label : A 38% Fibonacci retracement and a falling wedge marked a cor | section : Moderate Retracements | CERTIFIE (accord .md + HTML)
+image_04.png | label : A moderate 38% Fibonacci retracement combined with other tec | section : Moderate Retracements | CERTIFIE (accord .md + HTML)
+image_05.png | label : A bottoming close to the 62% Fibonacci retracement level wit | section : Golden Retracements | CERTIFIE (accord .md + HTML)
+image_06.png | label : The stock price topped close to the 62% Fibonacci retracemen | section : Golden Retracements | CERTIFIE (accord .md + HTML)
+image_07.png | label : Add Fibonacci Retracement lines to SharpCharts with the anno | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

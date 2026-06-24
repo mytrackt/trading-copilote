@@ -1,0 +1,12 @@
+# Manifest images pour standard_deviation_volatility (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/standard-deviation-volatility
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Standard Deviation Excel Spreadsheet | section : Calculating Standard Deviation | CERTIFIE (accord .md + HTML)
+image_02.png | label : Standard Deviation Chart 1 | section : Calculating Standard Deviation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Standard Deviation Chart 2 | section : Standard Deviation Values | CERTIFIE (accord .md + HTML)
+image_04.png | label : Standard Deviation Chart 3 | section : Measuring Expectations | CERTIFIE (accord .md + HTML)
+image_05.png | label : Standard Deviation Chart 5 | section : Measuring Expectations | CERTIFIE (accord .md + HTML)
+image_06.png | label : Standard Deviation Chart 6 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : Standard Deviation SharpCharts | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)

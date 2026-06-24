@@ -1,0 +1,16 @@
+# Manifest images pour equivolume (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/equivolume
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Illustrations of different types of EquiVolume boxes. | section : Calculation EquiVolume | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of a high-low-close bar chart with volume. | section : Calculation EquiVolume | CERTIFIE (accord .md + HTML)
+image_03.png | label : Calculation EquiVolume | section : Calculation EquiVolume [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : After breaking out of a falling wedge, CAT broke out of the  | section : Support/Resistance Breaks | CERTIFIE (accord .md + HTML)
+image_05.png | label : EquiVolume chart showing a downside support level break. | section : Support/Resistance Breaks | CERTIFIE (accord .md + HTML)
+image_06.png | label : EquiVolume chart identifying a trend reversal. | section : Reversals | CERTIFIE (accord .md + HTML)
+image_07.png | label : EquiVolume chart identifying a reversal of an uptrend with t | section : Reversals | CERTIFIE (accord .md + HTML)
+image_08.png | label : The EquiVolume chart identifies support just above $9, follo | section : Volume Climax | CERTIFIE (accord .md + HTML)
+image_09.png | label : The wide EquiVolume box represents support at around $16. Af | section : Volume Climax | CERTIFIE (accord .md + HTML)
+image_10.png | label : SharpCharts chart settings for EquiVolume charts. | section : EquiVolume and SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : EquiVolume chart of SPY | section : EquiVolume and SharpCharts | CERTIFIE (accord .md + HTML)

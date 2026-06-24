@@ -1,0 +1,14 @@
+# Manifest images pour chandelier_exit (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/chandelier-exit
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 9 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Is the Chandelier Exit? | section : What Is the Chandelier Exit? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chandelier - Spreadsheet | section : Chandelier Exit Calculation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chandelier - Chart 1 | section : Interpreting Chandelier Exits | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chandelier - Chart 2 | section : Interpreting Chandelier Exits | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chandelier - Chart 3 | section : Chandelier Uptrend | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chandelier - Chart 4 | section : Chandelier Downtrend | CERTIFIE (accord .md + HTML)
+image_07.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Chandelier - Chart 5 | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_09.png | label : Using with StockChartsACP | section : Using with StockChartsACP [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

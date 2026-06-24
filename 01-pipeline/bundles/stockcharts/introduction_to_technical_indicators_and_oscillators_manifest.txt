@@ -1,0 +1,6 @@
+# Manifest images pour introduction_to_technical_indicators_and_oscillators (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/introduction-to-technical-indicators-and-oscillators
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 16 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=15 figures vs HTML=16 images | url : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/introduction-to-technical-indicators-and-oscillators | alignement impossible -> verifier manuellement

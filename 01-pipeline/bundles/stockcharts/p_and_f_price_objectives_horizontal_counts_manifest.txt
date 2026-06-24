@@ -1,0 +1,12 @@
+# Manifest images pour p_and_f_price_objectives_horizontal_counts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/p-and-f-price-objectives/p-and-f-price-objectives-horizontal-counts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : A Quadruple Top marked a congestion pattern in this P&F char | section : Congestion Patterns | CERTIFIE (accord .md + HTML)
+image_02.png | label : Spread Triple Bottom Breakdowns mark a congestion area. | section : Congestion Patterns | CERTIFIE (accord .md + HTML)
+image_03.png | label : Measuring pattern width after a spread Triple Bottom Breakdo | section : Classic Patterns | CERTIFIE (accord .md + HTML)
+image_04.png | label : Bullish reversal pattern and a bearish continuation congesti | section : Extended Congestions | CERTIFIE (accord .md + HTML)
+image_05.png | label : An example of a congestion pattern in a P&F chart. | section : Extended Congestions | CERTIFIE (accord .md + HTML)
+image_06.png | label : Example of a chart with bearish and bullish continuation con | section : Extended Congestions | CERTIFIE (accord .md + HTML)
+image_07.png | label : Signal Frequency | section : Signal Frequency [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

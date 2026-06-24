@@ -1,0 +1,12 @@
+# Manifest images pour the_pre_holiday_effect (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/the-pre-holiday-effect
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : General Electric Co. (GE) Pre-Holiday example chart from Sto | section : The Short-Term Trading Strategy | CERTIFIE (accord .md + HTML)
+image_02.png | label : Motorola, Inc. (MOT) Pre-Holiday example chart from StockCha | section : The Short-Term Trading Strategy | CERTIFIE (accord .md + HTML)
+image_03.png | label : Realty Income Corp. Md. (O) Pre-Holiday example chart from S | section : The Short-Term Trading Strategy | CERTIFIE (accord .md + HTML)
+image_04.png | label : The Long-Term Trading Strategy | section : The Long-Term Trading Strategy [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : The Long-Term Trading Strategy | section : The Long-Term Trading Strategy [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : The Long-Term Trading Strategy | section : The Long-Term Trading Strategy [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : The Long-Term Trading Strategy | section : The Long-Term Trading Strategy [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

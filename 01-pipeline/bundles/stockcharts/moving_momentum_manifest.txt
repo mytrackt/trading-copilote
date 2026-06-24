@@ -1,0 +1,10 @@
+# Manifest images pour moving_momentum (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-momentum
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - Moving Momentum Trading Strategy | section : Defining the Indicators | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - Moving Momentum Trading Strategy | section : Buy Signal: | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - Moving Momentum Trading Strategy | section : Sell Signal: | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - Moving Momentum Trading Strategy | section : Trading Example | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - Moving Momentum Trading Strategy | section : Tweaking | CERTIFIE (accord .md + HTML)

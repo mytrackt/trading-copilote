@@ -1,0 +1,9 @@
+# Manifest images pour guppy_multiple_moving_average_an_ma_ribbon_designed_to_tip_the_markets_hand (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-average-trading-strategies/guppy-multiple-moving-average-an-ma-ribbon-designed-to-tip-the-markets-hand
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Guppy Multiple Moving Averages using StockCharts | section : What are the Components of a GMMA? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Trading trends using Guppy Multiple Moving Average | section : How to Trade a Trend Using the GMMA | CERTIFIE (accord .md + HTML)
+image_03.png | label : Trading trends using Guppy Multiple Moving Average | section : Sell Signal | CERTIFIE (accord .md + HTML)
+image_04.png | label : Identifying sideways breakouts using Guppy Multiple Moving A | section : Sideways Breakout | CERTIFIE (accord .md + HTML)

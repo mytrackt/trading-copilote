@@ -1,0 +1,11 @@
+# Manifest images pour trend_quantification_and_asset_allocation (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/trend-quantification-and-asset-allocation
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Applying long-term exponential moving averages to a price ch | section : Moving Averages | CERTIFIE (accord .md + HTML)
+image_02.png | label : Smoothing the price data with exponential moving averages. | section : Smoothing the Closing Price | CERTIFIE (accord .md + HTML)
+image_03.png | label : Four versions of the PPO comparing the EMA(50) to longer-ter | section : Using the Percentage Price Oscillator | CERTIFIE (accord .md + HTML)
+image_04.png | label : PPO with fixed long-term EMA and four variable EMAs. | section : Fixing the Long-term EMA | CERTIFIE (accord .md + HTML)
+image_05.png | label : Using the Percentage Price Oscillator indicator for asset al | section : Asset Allocation | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 6 - Trend Composite | section : Indicator Tweaks | CERTIFIE (accord .md + HTML)

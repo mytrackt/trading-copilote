@@ -1,0 +1,7 @@
+# Manifest images pour arthur_hill_on_moving_average_crossovers (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/arthur-hill-on-moving-average-crossovers
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Applying exponential moving averages and Percentage Price Os | section : Some Examples | CERTIFIE (accord .md + HTML)
+image_02.png | label : Some Examples | section : Some Examples [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

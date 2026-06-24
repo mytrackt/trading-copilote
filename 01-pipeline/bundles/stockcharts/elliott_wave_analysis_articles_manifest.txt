@@ -1,0 +1,6 @@
+# Manifest images pour elliott_wave_analysis_articles (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/elliott-wave-analysis-articles
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=0 figures vs HTML=0 images | url : https://chartschool.stockcharts.com/table-of-contents/market-analysis/elliott-wave-analysis-articles | alignement impossible -> verifier manuellement

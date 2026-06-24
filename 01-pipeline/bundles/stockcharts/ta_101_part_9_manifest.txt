@@ -1,0 +1,8 @@
+# Manifest images pour ta_101_part_9 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-9
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Price Channels | section : Price Channels [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Trend Changes | section : Trend Changes [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Uncheck the Adjust For Dividends box to view charts with dat | section : Price and Volume Data Adjustments | CERTIFIE (accord .md + HTML)

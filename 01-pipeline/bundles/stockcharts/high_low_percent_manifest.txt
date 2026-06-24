@@ -1,0 +1,10 @@
+# Manifest images pour high_low_percent (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/high-low-percent
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : High-Low Percent - Chart 1 | section : Calculating the High-Low Percent | CERTIFIE (accord .md + HTML)
+image_02.png | label : High-Low Percent - Chart 2 | section : High-Low Line | CERTIFIE (accord .md + HTML)
+image_03.png | label : High-Low Percent - Chart 3 | section : High-Low Percent | CERTIFIE (accord .md + HTML)
+image_04.png | label : High-Low Percent - Chart 4 | section : SharpCharts | CERTIFIE (accord .md + HTML)
+image_05.png | label : High-Low Percent - Chart 5 | section : SharpCharts | CERTIFIE (accord .md + HTML)

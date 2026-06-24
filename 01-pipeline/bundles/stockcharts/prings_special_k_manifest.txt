@@ -1,0 +1,13 @@
+# Manifest images pour prings_special_k (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/prings-special-k
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Short-, intermediate-, and long-term trends. | section : What Is Pring's Special K Indicator? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Primary trend and Special K. | section : What Is Pring's Special K Indicator? | CERTIFIE (accord .md + HTML)
+image_03.png | label : Identifying Long-Term Price Movements With Special K | section : Identifying Long-Term Price Movements With Special K [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Identifying Long-Term Price Movements With Special K | section : Identifying Long-Term Price Movements With Special K [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Identifying Long-Term Price Movements With Special K | section : Identifying Long-Term Price Movements With Special K [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Identifying Pro-Trend Short-Term Buy and Sell Signals | section : Identifying Pro-Trend Short-Term Buy and Sell Signals [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

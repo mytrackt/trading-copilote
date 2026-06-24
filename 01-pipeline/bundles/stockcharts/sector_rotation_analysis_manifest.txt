@@ -1,0 +1,10 @@
+# Manifest images pour sector_rotation_analysis (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/sector-rotation-analysis
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Sector Rotation Analysis | section : The Business Cycle | CERTIFIE (accord .md + HTML)
+image_02.png | label : Sector Rotation Model | section : Sector Rotation | CERTIFIE (accord .md + HTML)
+image_03.png | label : Sector Rotation Analysis | section : Sector Rotation | CERTIFIE (accord .md + HTML)
+image_04.png | label : Sector Rotation Analysis | section : Sector Rotation | CERTIFIE (accord .md + HTML)
+image_05.png | label : Stapes/Discretionary Ratio | section : Staples/Discretionary Ratio | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,6 @@
+# Manifest images pour economic_indicators (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/index-and-market-indicator-catalog/economic-indicators
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart Example | section : Chart Example [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

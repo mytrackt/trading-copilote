@@ -1,0 +1,6 @@
+# Manifest images pour irrational_exuberance (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/irrational-exuberance
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 6 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=5 figures vs HTML=6 images | url : https://chartschool.stockcharts.com/table-of-contents/overview/irrational-exuberance | alignement impossible -> verifier manuellement

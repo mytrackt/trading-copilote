@@ -1,0 +1,10 @@
+# Manifest images pour ta_101_part_4 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-4
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Line chart showing higher highs and lower lows | section : Line Charts | CERTIFIE (accord .md + HTML)
+image_02.png | label : Illustration of an Open-High-Low-Close (OHLC) chart | section : OHLC Charts | CERTIFIE (accord .md + HTML)
+image_03.png | label : SharpChart of AAPL illustrating the OHLC format | section : OHLC Charts | CERTIFIE (accord .md + HTML)
+image_04.png | label : Illustration showing bar colors of an OHLC chart | section : OHLC Bar Colors | CERTIFIE (accord .md + HTML)
+image_05.png | label : Example of colored OHLC price bars are shown in the AAPL Sha | section : OHLC Bar Colors | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,14 @@
+# Manifest images pour heikin_ashi_candlesticks (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/heikin-ashi-candlesticks
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 9 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Spreadsheet displaying Heikin-Ashi calculations. | section : Calculating Heikin-Ashi | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example showing how candlesticks convert to Heikin-Ashi cand | section : Calculating Heikin-Ashi | CERTIFIE (accord .md + HTML)
+image_03.png | label : Heikin-Ashi chart showing an indecisive market, a strong dec | section : How To Read a Heikin-Ashi Chart | CERTIFIE (accord .md + HTML)
+image_04.png | label : Illustration of dojis and spinning tops. | section : Doji and Spinning Tops | CERTIFIE (accord .md + HTML)
+image_05.png | label : Spinning top and dojis represent reversal areas, but trends  | section : Doji and Spinning Tops | CERTIFIE (accord .md + HTML)
+image_06.png | label : Heikin-Ashi chart showing breakouts from falling wedge and t | section : Classic Chart Patterns and Heikin-Ashi | CERTIFIE (accord .md + HTML)
+image_07.png | label : Heikin-Ashi chart shows a breakout from a falling channel wh | section : Classic Chart Patterns and Heikin-Ashi | CERTIFIE (accord .md + HTML)
+image_08.png | label : Candlesticks and Heikin-Ashi Candlesticks. | section : SharpCharts | CERTIFIE (accord .md + HTML)
+image_09.png | label : SharpChart settings for Heikin-Ashi charts | section : SharpCharts | CERTIFIE (accord .md + HTML)

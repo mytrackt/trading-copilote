@@ -1,0 +1,9 @@
+# Manifest images pour introduction_to_chart_patterns (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/introduction-to-chart-patterns
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a head and shoulders pattern that took seven days | section : What Are Chart Patterns? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Example of an outside reversal or bearish engulfing pattern  | section : What Are Chart Patterns? | CERTIFIE (accord .md + HTML)
+image_03.png | label : Even though the stock price broke below the head and shoulde | section : An Oldie but Goodie | CERTIFIE (accord .md + HTML)
+image_04.png | label : Example of an upward-sloping parallel channel. | section : Continuation Patterns vs. Reversal Patterns | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,10 @@
+# Manifest images pour donchian_trading_guidelines (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/donchian-trading-guidelines
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Donchian Trading Guideline: When stock prices trade in a nar | section : 2. When prices trade in a narrow range with little volatility, look for a volume increase to confirm the direction of the next move. | CERTIFIE (accord .md + HTML)
+image_02.png | label : Donchian's Trading Guidelines: A broad market advance will l | section : 10. A broad market advance is more likely to continue when transportation stocks lead (Dow Transports). | CERTIFIE (accord .md + HTML)
+image_03.png | label : Donchian technical guideline: After an initial advance, a co | section : 1. When it follows an initial advance, a consolidation (a sideways trading range) will often lead to another advance of equal proportions. | CERTIFIE (accord .md + HTML)
+image_04.png | label : Donchian technical guideline: Major trendlines define the lo | section : 5. Major trend lines define the longer trend. Minor trend lines define the shorter trend. | CERTIFIE (accord .md + HTML)
+image_05.png | label : Donchian technical guideline: Volume peaks often signals the | section : 7. Look for a volume climax to signal the end of a long move. | CERTIFIE (accord .md + HTML)

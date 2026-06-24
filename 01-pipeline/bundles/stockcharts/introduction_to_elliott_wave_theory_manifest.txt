@@ -1,0 +1,13 @@
+# Manifest images pour introduction_to_elliott_wave_theory (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-analysis/elliott-wave-analysis-articles/introduction-to-elliott-wave-theory
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Motive Waves | section : Motive Waves [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Motive Waves | section : Motive Waves [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Corrective Waves | section : Corrective Waves [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Corrective Waves | section : Corrective Waves [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Basic Cycle Structure | section : Basic Cycle Structure [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Basic Cycle Structure | section : Basic Cycle Structure [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Fractal Nature | section : Fractal Nature [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Fractal Nature | section : Fractal Nature [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

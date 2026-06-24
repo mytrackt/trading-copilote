@@ -1,0 +1,6 @@
+# Manifest images pour us_treasury_yields (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/index-and-market-indicator-catalog/us-treasury-yields
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : US Treasury Yields | section : Chart Example | CERTIFIE (accord .md + HTML)

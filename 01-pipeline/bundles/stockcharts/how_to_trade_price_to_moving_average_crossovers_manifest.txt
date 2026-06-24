@@ -1,0 +1,7 @@
+# Manifest images pour how_to_trade_price_to_moving_average_crossovers (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/moving-average-trading-strategies/how-to-trade-price-to-moving-average-crossovers
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Trading moving average crossovers in StockCharts | section : Example of Trading a Moving Average Crossover | CERTIFIE (accord .md + HTML)
+image_02.png | label : Trading moving average crossovers in StockCharts | section : Example of Bearish Price Crossover | CERTIFIE (accord .md + HTML)

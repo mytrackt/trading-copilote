@@ -1,0 +1,17 @@
+# Manifest images pour pivot_points (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/pivot-points
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 1 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of pivot points on a 10-minute chart. | section : Timeframes for Pivot Points | CERTIFIE (accord .md + HTML)
+image_02.png | label : Pivot points on a 60-minute chart. | section : Timeframes for Pivot Points | CERTIFIE (accord .md + HTML)
+image_03.png | label : Pivot Points on a daily chart. | section : Timeframes for Pivot Points | CERTIFIE (accord .md + HTML)
+image_04.png | label : Example of standard Pivot Points on a 15-minute chart. | section : Standard Pivot Points | CERTIFIE (accord .md + HTML)
+image_05.png | label : Example of Fibonacci Pivot Points on a 15-minute chart. | section : Fibonacci Pivot Points | CERTIFIE (accord .md + HTML)
+image_06.png | label : Example of Demark Pivot Points on a 15-minute chart. | section : Demark Pivot Points | CERTIFIE (accord .md + HTML)
+image_07.png | label : When price moves above the Pivot Point, it's positive and sh | section : Setting the Tone | CERTIFIE (accord .md + HTML)
+image_08.png | label : An example of support and resistance levels based on Pivot P | section : Support and Resistance | CERTIFIE (accord .md + HTML)
+image_09.png | label : Example of second support and resistance levels identifying  | section : Support and Resistance | CERTIFIE (accord .md + HTML)
+image_10.png | label : Example of Pivot Points in SharpCharts. | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Using with SharpCharts | section : Using with SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+(A VERIFIER) | rang 12 | DESACCORD md='[A Complete Guide to Technical Trading T' vs html='A Complete Guide to Technical Trading Ta' | section : [A Complete Guide to Technical Trading Tactics](https://a.co/d/74c4mav) | url : https://chartschool.stockcharts.com/~gitbook/image?url=https%3A%2F%2Fschool.stockcharts.com%2Flib%2Fexe%2Ffetch.php%3Fmedia%3Dtechnical_indicators%3Apivot_points%3Astore_person_technicaltradingtactics.jpg&width=768&dpr=3&quality=100&sign=9bf9bbfe&sv=2

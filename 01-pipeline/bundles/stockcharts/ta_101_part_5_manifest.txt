@@ -1,0 +1,11 @@
+# Manifest images pour ta_101_part_5 (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis-101/ta-101-part-5
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Candlestick Charts | section : Candlestick Charts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Candlestick Colors | section : Candlestick Colors [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Candlestick Colors | section : Candlestick Colors [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Candlestick Colors | section : Candlestick Colors [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Candlestick Colors | section : Candlestick Colors [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Candlestick Colors | section : Candlestick Colors [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

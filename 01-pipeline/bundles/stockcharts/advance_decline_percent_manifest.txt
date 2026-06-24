@@ -1,0 +1,10 @@
+# Manifest images pour advance_decline_percent (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/advance-decline-percent
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : AD Percent - Chart 1 | section : How Do You Calculate Advance-Decline Percent? | CERTIFIE (accord .md + HTML)
+image_02.png | label : AD Percent - Chart 2 | section : AD Line | CERTIFIE (accord .md + HTML)
+image_03.png | label : AD Percent - Chart 3 | section : Moving Averages | CERTIFIE (accord .md + HTML)
+image_04.png | label : AD Percent - Chart 4 | section : AD Percent Using SharpCharts | CERTIFIE (accord .md + HTML)
+image_05.png | label : AD Percent - Chart 5 | section : AD Percent Using SharpCharts | CERTIFIE (accord .md + HTML)

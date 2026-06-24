@@ -1,0 +1,13 @@
+# Manifest images pour mcclellan_summation_index (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/mcclellan-summation-index
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Calculating the McClellan Summation Index | section : Calculating the McClellan Summation Index [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Nasdaq Negative Bias | section : Nasdaq Negative Bias [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Nasdaq Negative Bias | section : Nasdaq Negative Bias [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Positive vs. Negative | section : Positive vs. Negative [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Positive vs. Negative | section : Positive vs. Negative [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Directional Movement | section : Directional Movement [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Divergences | section : Divergences [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : SharpCharts | section : SharpCharts [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)

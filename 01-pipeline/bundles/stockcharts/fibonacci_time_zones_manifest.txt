@@ -1,0 +1,12 @@
+# Manifest images pour fibonacci_time_zones (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-annotation-tools/fibonacci-time-zones
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Fibonacci Time Zones on QQQ | section : How To Use Fibonacci Time Zones | CERTIFIE (accord .md + HTML)
+image_02.png | label : Fibonacci Time Zones applied to a chart of QQQ. | section : QQQ Example | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3. Plotting Fibonacci Time Zones in the future. | section : QQQ Example | CERTIFIE (accord .md + HTML)
+image_04.png | label : Note how the Fibonacci Time Zones can mark significant highs | section : Euro Example | CERTIFIE (accord .md + HTML)
+image_05.png | label : Adding extra bars to a chart can project potential reversal  | section : Euro Example | CERTIFIE (accord .md + HTML)
+image_06.png | label : The Annotate button in the new SharpCharts workbench. | section : Adding Fibonacci Time Zones in SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : Example of a chart annotated with Fibonacci Time Zones using | section : Adding Fibonacci Time Zones in SharpCharts | CERTIFIE (accord .md + HTML)

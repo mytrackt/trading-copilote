@@ -1,0 +1,11 @@
+# Manifest images pour p_and_f_bearish_breakdowns (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/classic-patterns/p-and-f-bearish-breakdowns
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Double Bottom Breakdowns in P&F chart. | section : Double Bottom Breakdown | CERTIFIE (accord .md + HTML)
+image_02.png | label : Triple Bottom Breakdown in a P&F chart. | section : Triple Bottom Breakdown | CERTIFIE (accord .md + HTML)
+image_03.png | label : Spread Triple Bottom Breakdown in a P&F chart. | section : Spread Triple Bottom Breakdown | CERTIFIE (accord .md + HTML)
+image_04.png | label : Descending Triple Bottom Breakdown in a P&F chart. | section : Descending Triple Bottom Breakdown | CERTIFIE (accord .md + HTML)
+image_05.png | label : A Quadruple Bottom Breakdown in a P&F chart confirms the rev | section : Quadruple Bottom Breakdown | CERTIFIE (accord .md + HTML)
+image_06.png | label : Downside price objectives of four bearish breakdown patterns | section : Measuring Techniques | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,16 @@
+# Manifest images pour moving_average_envelopes (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/moving-average-envelopes
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 11 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : What Are Moving Average Envelopes? | section : What Are Moving Average Envelopes? [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : Formulas | section : Formulas [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_03.png | label : Adjusting the Settings | section : Adjusting the Settings [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_04.png | label : Adjusting the Settings | section : Adjusting the Settings [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Trend Identification | section : Trend Identification [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Trend Identification | section : Trend Identification [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_07.png | label : Overbought/Oversold | section : Overbought/Oversold [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_08.png | label : Overbought/Oversold | section : Overbought/Oversold [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Chart displaying Moving Average Envelopes in SharpCharts. | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_10.png | label : SharpChart settings for Moving Average Envelopes. | section : Using with SharpCharts | CERTIFIE (accord .md + HTML)
+image_11.png | label : Moving Averages Envelopes overlaid on a price chart in Stock | section : Using with StockChartsACP | CERTIFIE (accord .md + HTML)

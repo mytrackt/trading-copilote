@@ -1,0 +1,8 @@
+# Manifest images pour double_top_reversal (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/double-top-reversal
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a classic Double Top Reversal pattern. | section : Double Top Reversal | CERTIFIE (accord .md + HTML)
+image_02.png | label : An example of a double top formation that took five months t | section : Double Top Reversal | CERTIFIE (accord .md + HTML)
+image_03.png | label : A closer look at the support turned resistance level in Ford | section : Double Top Reversal | CERTIFIE (accord .md + HTML)

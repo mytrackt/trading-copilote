@@ -1,0 +1,12 @@
+# Manifest images pour advance_decline_line (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/advance-decline-line
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Spreadsheet 1 | section : Calculating the Advance-Decline Line | CERTIFIE (accord .md + HTML)
+image_02.png | label : Breadth AD Line - Chart 1 | section : Calculating the Advance-Decline Line | CERTIFIE (accord .md + HTML)
+image_03.png | label : Breadth AD Line - Chart 2 | section : Bullish Divergence | CERTIFIE (accord .md + HTML)
+image_04.png | label : Breadth AD Line - Chart 3 | section : Bearish Divergence | CERTIFIE (accord .md + HTML)
+image_05.png | label : Breadth AD Line - Chart 4 | section : Quirks | CERTIFIE (accord .md + HTML)
+image_06.png | label : Breadth AD Line - Chart 5 | section : Applying the Advance-Decline Line in SharpCharts | CERTIFIE (accord .md + HTML)
+image_07.png | label : Breadth AD Line - Chart 6 | section : Applying the Advance-Decline Line in SharpCharts | CERTIFIE (accord .md + HTML)

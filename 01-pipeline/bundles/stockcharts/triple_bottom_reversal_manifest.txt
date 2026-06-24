@@ -1,0 +1,7 @@
+# Manifest images pour triple_bottom_reversal (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/triple-bottom-reversal
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Triple Bottom reversal chart pattern. | section : Triple Bottom Reversal | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Triple Bottom reversal pattern is in the chart of Andrew C | section : Triple Bottom Reversal | CERTIFIE (accord .md + HTML)

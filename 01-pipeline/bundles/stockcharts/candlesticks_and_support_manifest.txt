@@ -1,0 +1,8 @@
+# Manifest images pour candlesticks_and_support (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/candlestick-charts/candlesticks-and-support
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : The support level was confirmed with the doji after a Marubo | section : Introduction | CERTIFIE (accord .md + HTML)
+image_02.png | label : A Bullish Engulfing pattern confirms the support level. | section : Introduction | CERTIFIE (accord .md + HTML)
+image_03.png | label : The support level was further confirmed by a spinning top, h | section : Introduction | CERTIFIE (accord .md + HTML)

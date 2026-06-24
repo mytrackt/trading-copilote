@@ -1,0 +1,15 @@
+# Manifest images pour point_and_figure_scaling_and_timeframes (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/point-and-figure-charts/point-and-figure-basics/point-and-figure-scaling-and-timeframes
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Traditional | section : Traditional [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_02.png | label : P&F Timeframes | section : Dynamic (ATR) Scaling | CERTIFIE (accord .md + HTML)
+image_03.png | label : P&F chart showing a 1% box size. | section : Percentage versus User-Defined | CERTIFIE (accord .md + HTML)
+image_04.png | label : P&F chart showing a user-defined 0.20 points box size. | section : Percentage versus User-Defined | CERTIFIE (accord .md + HTML)
+image_05.png | label : P&F chart with a 1% box size. | section : Percentage versus User-Defined | CERTIFIE (accord .md + HTML)
+image_06.png | label : P&F chart with a user-defined box size of 5 points. | section : Percentage versus User-Defined | CERTIFIE (accord .md + HTML)
+image_07.png | label : A P&F chart that extends for 18 months. Note the number 9 on | section : 9–24 Month Charts | CERTIFIE (accord .md + HTML)
+image_08.png | label : A P&F chart that extends for nine months. | section : 9–24 Month Charts | CERTIFIE (accord .md + HTML)
+image_09.png | label : P&F chart based on 60-minute data and 0.5% box size. | section : 3–9 Month Charts | CERTIFIE (accord .md + HTML)
+image_10.png | label : P&F chart of VFC using 60-minute data and 0.5% box size. | section : 3–9 Month Charts | CERTIFIE (accord .md + HTML)

@@ -1,0 +1,15 @@
+# Manifest images pour renko_charts (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-types/renko-charts
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 10 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Traditional bar chart with a uniform data axis. | section : Construction and Characteristics of Renko Charts | CERTIFIE (accord .md + HTML)
+image_02.png | label : Renko chart for the same time frame as the bar chart but not | section : Construction and Characteristics of Renko Charts | CERTIFIE (accord .md + HTML)
+image_03.png | label : Renko chart based on closing prices. | section : Close Versus High-Low Range | CERTIFIE (accord .md + HTML)
+image_04.png | label : Renko chart based on the high-low range. | section : Close Versus High-Low Range | CERTIFIE (accord .md + HTML)
+image_05.png | label : Fixed Value versus ATR | section : Fixed Value versus ATR [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_06.png | label : Renko chart when the ending ATR value is low. | section : Fixed Value versus ATR | CERTIFIE (accord .md + HTML)
+image_07.png | label : Renko chart when the ending ATR value is high. | section : Fixed Value versus ATR | CERTIFIE (accord .md + HTML)
+image_08.png | label : Trends, Support, and Resistance | section : Trends, Support, and Resistance [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_09.png | label : Renko chart for QQQ | section : Renko Charts In SharpCharts | CERTIFIE (accord .md + HTML)
+image_10.png | label : SharpChart settings for Renko charts. | section : Renko Charts In SharpCharts | CERTIFIE (accord .md + HTML)

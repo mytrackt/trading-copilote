@@ -1,0 +1,6 @@
+# Manifest images pour richard_rhodes_trading_rules (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/richard-rhodes-trading-rules
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(A VERIFIER) | INTEGRITE : .md=0 figures vs HTML=0 images | url : https://chartschool.stockcharts.com/table-of-contents/overview/richard-rhodes-trading-rules | alignement impossible -> verifier manuellement

@@ -1,0 +1,12 @@
+# Manifest images pour bollinger_band_squeeze (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/trading-strategies-and-models/trading-strategies/bollinger-band-squeeze
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Chart 1 - Bollinger Band Squeeze | section : How Do You Set Up the Indicators? | CERTIFIE (accord .md + HTML)
+image_02.png | label : Chart 2 - Bollinger Band Squeeze | section : How the Strategy Works | CERTIFIE (accord .md + HTML)
+image_03.png | label : Chart 3 - Bollinger Band Squeeze | section : How the Strategy Works | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart 4 - Bollinger Band Squeeze | section : Trading Signals | CERTIFIE (accord .md + HTML)
+image_05.png | label : Chart 5 - Bollinger Band Squeeze | section : Tweaking | CERTIFIE (accord .md + HTML)
+image_06.png | label : Chart 6 - Bollinger Band Squeeze | section : Tweaking | CERTIFIE (accord .md + HTML)
+image_07.png | label : Chart 7 - Bollinger Band Squeeze | section : The Head Fake | CERTIFIE (accord .md + HTML)

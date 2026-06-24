@@ -1,0 +1,13 @@
+# Manifest images pour bullish_percent_index_bpi (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/market-indicators/bullish-percent-index-bpi
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 8 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Bullish Percent Index - Chart 1 | section : P&F Patterns | CERTIFIE (accord .md + HTML)
+image_02.png | label : Bullish Percent Index - Chart 2 | section : P&F Patterns | CERTIFIE (accord .md + HTML)
+image_03.png | label : Bullish Percent Index - Chart 3 | section : Bull/Bear Alert | CERTIFIE (accord .md + HTML)
+image_04.png | label : Bullish Percent Index - Chart 4 | section : Bull/Bear Confirmed | CERTIFIE (accord .md + HTML)
+image_05.png | label : Bullish Percent Index - Chart 5 | section : Bull/Bear Confirmed | CERTIFIE (accord .md + HTML)
+image_06.png | label : Bullish Percent Index - Chart 6 | section : Bull/Bear Correction | CERTIFIE (accord .md + HTML)
+image_07.png | label : Bullish Percent Index - Chart 7 | section : Bull/Bear Correction | CERTIFIE (accord .md + HTML)
+image_08.png | label : Bullish Percent Index - SharpCharts | section : SharpCharts | CERTIFIE (accord .md + HTML)

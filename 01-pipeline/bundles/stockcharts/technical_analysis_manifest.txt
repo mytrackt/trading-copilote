@@ -1,0 +1,10 @@
+# Manifest images pour technical_analysis (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/overview/technical-analysis
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : The weekly chart of Alphabet Inc. (GOOGL) shows a long-term  | section : Applying Technical Analysis | CERTIFIE (accord .md + HTML)
+image_02.jpg | label : Daily chart of Alphabet Inc. (GOOGL) shows a short-term view | section : Applying Technical Analysis | CERTIFIE (accord .md + HTML)
+image_03.png | label : Trending and trading ranges in Oracle (ORCL) example chart f | section : Price Movements Are Not Totally Random | CERTIFIE (accord .md + HTML)
+image_04.png | label : Chart Analysis Basics | section : Chart Analysis Basics [SECTION-FALLBACK] | CERTIFIE (accord .md + HTML)
+image_05.png | label : Boeing Co. (BA) Technical Analysis example chart from StockC | section : Supply, Demand, and Price Action | CERTIFIE (accord .md + HTML)

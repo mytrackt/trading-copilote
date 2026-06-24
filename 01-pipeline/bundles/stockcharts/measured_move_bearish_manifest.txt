@@ -1,0 +1,7 @@
+# Manifest images pour measured_move_bearish (source : stockcharts)
+# Page : https://chartschool.stockcharts.com/table-of-contents/chart-analysis/chart-patterns/measured-move-bearish
+# Methode : double ancrage v3 (.md figcaption + HTML legende + section fallback)
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Example of a Bearish Measured Move. | section : Measured Move—Bearish | CERTIFIE (accord .md + HTML)
+image_02.webp | label : Example of the different components of a Bearish Measured Mo | section : Measured Move—Bearish | CERTIFIE (accord .md + HTML)
