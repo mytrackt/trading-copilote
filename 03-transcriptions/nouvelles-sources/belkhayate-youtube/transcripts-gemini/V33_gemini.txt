@@ -1,0 +1,69 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: V33.mp4]
+---
+[VISUEL: Écran de titre de la vidéo "Belkhayate Methode TRADING PROFESSIONNEL - COURS 33⚠️_A_VERIFIER - Pratique sur le GC Micro" sur fond de graphiques boursiers et de carte du monde numérique.]
+
+[VISUEL: Graphique NinjaTrader affichant le marché de l'Or (MGC 12⚠️_A_VERIFIER-21⚠️_A_VERIFIER) en timeframe 5⚠️_A_VERIFIER minutes. Le Belkhayate Trend (ligne colorée sous les bougies) est multicolore (vert, rouge, bleu). Le prix est sous la moyenne mobile 209⚠️_A_VERIFIER (ligne blanche). Le Belkhayate Cycle (indicateur en bas) est en zone neutre/basse, avec des pics de volume rouges et verts.]
+Bonjour. Voici une vidéo sur le trading du Gold, de l'or, en 5 minutes, en micro lot, comme je vous l'avais promis, pour euh pour le pour trader les tests de trading. Et donc là, euh c'est un marché, on va lancer, voilà, le marché de l'or. On est 5h du matin ici.
+
+[VISUEL: Le marché commence à bouger. Le Belkhayate Trend est toujours multicolore. Le prix est sous la moyenne mobile 209⚠️_A_VERIFIER. Le Belkhayate Cycle est en zone neutre.]
+Nous avons euh Belkhayate Trend qui est qui est complètement multicolore, ça veut dire que on est en trading range. Et nous sommes sous la 209, on voit bien, on est sous la 209. Et euh on regarde bien ce qui est en train de se de se présenter ici devant nous.
+
+[VISUEL: Le prix continue de bouger latéralement, toujours sous la moyenne mobile 209⚠️_A_VERIFIER. Le Belkhayate Trend est multicolore. Le Belkhayate Cycle est en zone neutre.]
+On on cherche un point de rupture, évidemment, euh soit par le bas, soit par le haut. Et c'est sûr qu'on va pas on va pas essayer de rentrer dans cette zone-là, parce que c'est aléatoire ici.
+
+[VISUEL: Le prix forme une bougie verte qui casse au-dessus de la moyenne mobile 209⚠️_A_VERIFIER. Le Belkhayate Trend devient vert. Un grand pic de volume vert apparaît. Le Belkhayate Cycle monte et passe en zone verte, formant un signal d'achat (cercle jaune).]
+Donc euh regardons ici ce qui se passe. Top ! Là, il y a quelque chose qui se présente de très important. Euh puisque nous assistons ici à une accélération ici, un point d'accélération. On a du volume et on a une bougie de sur 5 minutes qui qui est assez forte qui casse donc et qui tourne le le le Belkhayate Trend en vert. On a ici un signal d'achat très intéressant. Et on regarde ce qui va se qu'est-ce qui se présente ici. On se prépare en fait à à acheter ici si euh on a du volume.
+
+[VISUEL: Le prix continue de monter fortement avec de grandes bougies vertes et un volume élevé. Le Belkhayate Trend est vert. Le Belkhayate Cycle est en zone verte.]
+Ouh là ! Donc là, on achète.
+[AUDIO: "Order filled."]
+Retard ! Le marché a accéléré.
+
+[VISUEL: Belkhayate met la vidéo en pause. Le prix a fortement augmenté. Il dessine un canal (couloir) sur le graphique, montrant la cassure du prix au-dessus de la moyenne mobile 209⚠️_A_VERIFIER et du Belkhayate Trend. Il pointe le grand pic de volume vert et le signal d'achat sur le Belkhayate Cycle.]
+Avec le avec la rapidité de du du de la vidéo en replay, on on rate la on rate en fait, je voulais acheter ici. J'arrête, je vous expliquer. Donc la méthode Belkhayate explique la chose suivante, que lorsque on a un un lorsque on a un marché qui dort sur le volume comme ici, et on a un marché qui dort ici. Donc ce accélération ici à ce niveau-là. Ici, on a euh on a notre couloir.
+[AUDIO: Son d'alerte.]
+On a cassé ce couloir là avec force. Cette bougie est bien supérieure à tout ça, et puis on a un volume ici. Avant qu'il y ait ce volume là, on a une accélération et puis on se préparait en fait à à rentrer parce que euh on avait ici on avait ici un signal d'achat. En venant par par le bas, des fois on a ce signal d'achat mais il fonctionne pas, vous voyez, il fonctionne pas, c'est pas grave. On surveille. Mais là, il y avait pas les volumes, il y avait pas de volume pour qu'on puisse rentrer dessus. Donc sur ces cassures là, il y avait pas de volume, donc on n'a pas fait gaffe. Mais sur cette cassure là, j'ai rien fait tant que j'avais pas ce volume. Mais dès que j'ai ce volume là, je rentre acheteur sur euh sur l'or. Ça c'est c'est certain.
+
+[VISUEL: Le prix continue de monter, puis consolide avec des petites bougies vertes et rouges. Le Belkhayate Trend est vert. Le Belkhayate Cycle est en zone verte, puis commence à redescendre légèrement.]
+Donc on regarde ce qui se passe. On on regarde un peu ce qui se passe ici. Pour le moment, il y a pas de mèche en haut. Il y a pas un grand volume. Donc euh ça va pour le moment. Je suis toujours acheteur. Si je casse ce haut niveau là ici, je rentre.
+[AUDIO: "Order filled."]
+Je rentre ici parce que j'ai cassé avec volume euh euh ce niveau-là. Euh je regarde, c'est là, on est rentré. Oups ! Là, je sors tout.
+[AUDIO: "Order filled."]
+Je sors toutes ces positions là parce que je suis revenu ici avec force avec cette mèche là. Donc euh je sors ici, j'attends. J'ai j'ai déjà pris un j'ai déjà pris un beau profit et j'attends de voir si éventuellement il peut y avoir un pullback sur cette zone là comme ici.
+
+[VISUEL: Le prix a fait un pullback et est revenu tester le Belkhayate Trend (ligne verte). Le Belkhayate Cycle est descendu en zone jaune, puis a formé un V-shape et est remonté en zone verte, indiquant un signal d'achat (cercle jaune).]
+Top ! Ici. Là, euh c'est une situation idéale euh de pullback. On espère en fait, puisque le marché est haussier mais il revient vers la Belkhayate Trend ici. Et donc cette situation ici, on doit se préparer, on doit regarder si ce euh Belkhayate Cycle ici se renverse et fait un V ici, alors c'est un bon signe pour moi, ça veut dire que ça confirme euh un pullback dans ce à ce niveau de support ici que l'on voit ici. Et je suis assez tranquille puisque le marché est est pour le moment, il est tourné vers l'eau. Donc euh je me prépare à acheter si j'ai Belkhayate Cycle qui revient sur ce niveau-là.
+
+[VISUEL: Le prix est revenu tester le Belkhayate Trend. Le Belkhayate Cycle a formé un V-shape et est remonté en zone verte. Un pic de volume vert apparaît.]
+Je le surveille. Il tente de revenir, vous voyez ici. Là, je rentre.
+[AUDIO: "Order filled."]
+Parce qu'il y a du volume et il a cassé ici, il m'a donné encore un signal ici d'achat. Donc euh je regarde tranquillement ce niveau-là. Ah, ça c'est un bon signe. Là, c'est un très bon signe. Euh là, ça repart. Donc là, je peux rebondir ici. Je le surveille. Il tente de revenir, vous voyez ici. Il doit rentrer ici. Oui, dès qu'il revient, je je double. Oui, dès qu'il revient ici là, il doit rentrer ici. Oui, je double.
+[AUDIO: "Order filled."]
+Je double ma position.
+
+[VISUEL: Le prix continue de monter, puis commence à montrer des bougies rouges. Le Belkhayate Trend est toujours vert. Le Belkhayate Cycle est en zone verte, puis commence à redescendre et forme un signal de vente (cercle jaune).]
+Je me dis que à chaque fois que le marché va se rapprocher de euh de ce rouge là, je vais rajouter à ma position encore trois autres si il se rapproche, je regarde. Ah, là, c'est du rouge qui rentre. Je suis pas très confiant sur cette situation là. Et je sors. Close.
+[AUDIO: "Order filled."]
+Avec cette cette bougie là, il y a plus il y a j'étais pas à l'aise du tout. Et là, avec ce mouvement là, je préfère sortir maintenant. Et je regarde parce que on dirait que le marché veut se retourner. On commence à avoir du rouge pour la première fois. Je vends.
+[AUDIO: "Order filled."]
+Je vends ici parce que pour la première fois, on a du rouge depuis ici. Donc je suis Belkhayate Trend là. Je me dis que à chaque fois que le marché va se rapprocher de euh de ce rouge là, je vais rajouter à ma position encore trois autres si il se rapproche, je regarde. Le marché il s'est retourné. Ici, c'est très bien. J'aime bien ce niveau-là qui me donne juste un premier qui revient dessus là. Dès qu'il revient, je je double. Oui, dès qu'il revient ici là, il doit rentrer ici. Oui, je double.
+[AUDIO: "Order filled."]
+Je double ma position.
+
+[VISUEL: Le prix chute fortement avec de grandes bougies rouges et un volume élevé. Le Belkhayate Trend est rouge. Le Belkhayate Cycle est en zone rouge, indiquant une forte tendance baissière.]
+Ah, j'ai bien fait, c'est c'est un très bon pullback ici. Top ! J'arrête ici parce que là, je n'hésite plus une seule seconde. Ici, j'ai un grand j'ai une grande bougie mais surtout j'ai un grand volume et après j'ai du vert ici. J'aurais dû sortir déjà à cette bougie là avec ce ce V ici qui me dit que c'est bon, je peux je peux encaisser mon ma position. J'ai quand même sept contrats, ça me fait 400 dollars sur l'or en micro, c'est quand même c'est c'est c'est très très bien. Et j'ai voulu faire cette vidéo pour vous montrer comment on peut euh suivre ce que me disent les indicateurs. Et j'hésite pas. Je je dois pas hésiter parce que si je réfléchis, ça veut dire que je je ne suis pas mes indicateurs. Donc vous avez vu, euh je je regarde ce que ce que me disent mes indicateurs et immédiatement je clique pour euh la
+
+[VISUEL: Le prix continue de chuter, puis consolide légèrement. Le Belkhayate Trend est rouge. Le Belkhayate Cycle est en zone rouge, puis remonte légèrement, mais reste sous le zéro.]
+Euh là, c'est sûr que j'aurais pu sortir maintenant ici. J'ai réfléchi, est-ce que c'est trop tard ou pas ? Euh alors ce que je vais faire, euh au lieu de sortir les sept, on va faire une chose, on va regarder si ça casse par là. Si ça casse ici, je sors ma position. Voilà. Si ça casse, si ça vient et que ça ça fait un pullback par là, peut-être que je peux rajouter encore trois autres, peut-être. Donc euh je regarde. Si ça casse ici, je sors. Là. C'est très bien, ça fait un premier pullback. Ça revient tester ici. Ça fait un deuxième pullback. Ça rentre. Je regarde encore. Ah, ça revient rapidement. Je peux je peux je peux encore vendre. Et je vais me m'apprêter à sortir assez rapidement puisque j'ai des bougies ici euh des bougies qui viennent freiner un petit peu la il y a plus de volume. On est déjà 16h30. Euh c'est déjà très bien, 600, 680. Euh je trouve que c'est vraiment largement suffisant. Il y a plus de volume. On est en train de tomber là. C'est bon, je clôture la position.
+[AUDIO: "Order filled."]
+
+[VISUEL: Le prix a continué de chuter. Le Belkhayate Trend est rouge. Le Belkhayate Cycle est en zone rouge. Belkhayate pointe les bougies et les indicateurs.]
+Voilà, j'ai c'est comme ça me fait comme si j'étais en train de faire du live parce que je je me rappelle pas toujours, hein, ne croyez pas que je me rappelle ce qui s'est passé. Mais euh j'essaie de j'essaie de lire en fait le marché. Et et là, effectivement, on aurait pu sortir là, mais vous avez vu, c'est à partir de là, vraiment, euh que il y a eu ce pullback là, mais il n'y a pas eu le rouge pour sortir. Donc, vous allez vous habituer, euh vous allez vous habituer à utiliser Belkhayate Cycle pour sortir et pour rentrer, pour confirmer. Euh il y a des moments de doute, par exemple, ici, le marché effectivement, si si je si c'était en live, je serais sorti à cette bougie là. Pourquoi ? Parce que j'ai un grand volume sur une tendance baissière, j'ai la mèche et j'ai et j'ai toutes les configurations de Belkhayate System qui me demande de sortir à ce niveau-là. Comme je l'ai raté, je me dis bon, regardons, on peut on peut sacrifier encore 50 dollars, mais on peut gagner 150 dollars. Donc regardons, peut-être qu'on va toujours faire un pullback. Et là, j'ai attendu la cassure, mais la cassure n'est pas venue. Vous avez vu, la cassure avec un avec un trait rouge là, comme ici. Donc il n'y a pas eu de cassure, vraiment, le marché est resté en dessous du zéro. Ça m'a permis de doubler même et ce niveau-là et de pouvoir sortir rapidement parce que euh déjà, il y avait plus de volume et puis ça ça ça servait à rien de de rester sur une situation à 50/50. Voilà, donc euh c'était c'était un petit partage comme ça d'un trade sur l'or en 5 minutes euh que vous pouvez faire pour vous entraîner pour les examens de test puisque c'est un micro euh c'est un micro contrat qui s'appelle MGC. Voilà, donc euh il ne me reste à faire quelque chose sur le Nasdaq et puis sur le ZN. Et puis ce sera à vous de jouer. À tout à l'heure.
+
+[VISUEL: Écran de titre "La Méthode Belkhayate POUR UN TRADING PROFESSIONNEL".]
+[VISUEL: Citation de Mostafa Belkhayate: "APPRENEZ À ATTENDRE QUE LE MARCHÉ VOUS INVITE À ENTRER." sur fond de graphiques boursiers.]
+[VISUEL: Écran de fin "Merci pour votre attention ET À LA PROCHAINE VIDÉO" sur fond de graphiques boursiers.]

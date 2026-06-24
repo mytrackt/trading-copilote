@@ -1,0 +1,365 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: 5-Episode. mp4.mp4]
+---
+[VISUEL: Animated financial charts with lines, candlesticks, and a world map background. Fibonacci spiral and quadratic formula appear. Text overlays: "BELKHAYATE SYSTEM", "YATI", "LE TRADING DE L'OR", "VIDEO 5⚠️_A_VERIFIER: TRADING DE L'OR".]
+[AUDIO]:
+numéro 5. Cette vidéo concerne la continuité en fait de ce que je vous ai montré sur les cassures de support et de résistance. Et maintenant, on va étudier de très près euh la euh le couloir horaire. C'est très important parce que le couloir horaire de l'or, c'est la clé en fait du trading de l'or, comme on va le voir. Et bien sûr, le volume de l'or, c'est très très important. Et là, à ce sujet, je voudrais commenter cette histoire de volume en réalité, pourquoi les fondamentales et quel volume on va tenir compte de quel volume. Et ensuite, on va euh on va regarder sur les graphiques pour essayer de trouver les mèches des bougies. Les mèches ont une importance capitale dans le trading de l'or. Et enfin, 4ème caractéristique du système de Belkhayate, c'est sur l'amplitude de mouvement d'un marché, du marché de l'or. Donc, je vous invite à à replonger sur mon écran.
+[VISUEL: Candlestick chart with a dark background. Green and red candlesticks are visible, showing price fluctuations over time. Two blue diagonal lines are drawn on the chart, indicating trends or channels. A volume indicator is at the bottom, showing green and red bars.]
+Euh voilà, ici par exemple.
+[VISUEL: The cursor highlights a red candlestick with a long lower wick, then moves to another red candlestick with a long lower wick. Then highlights a green candlestick, then a blue diagonal line, then another blue diagonal line.]
+Et là, on revient sur la journée de vendredi. Donc là, on va enlever, on va enlever ce que j'avais mis là, ici.
+[VISUEL: The blue diagonal lines are removed from the chart. The cursor highlights the area where the lines were.]
+Voilà, on a plus besoin de ça pour le moment. Voilà.
+[VISUEL: The cursor moves to the bottom part of the chart, highlighting the volume bars. A vertical white line appears, indicating a specific time point on the chart.]
+Et on va euh, on va se concentrer sur sur le couloir horaire.
+[VISUEL: The cursor highlights a section of low volume bars, then moves up to the corresponding price action, which is also relatively flat. The vertical white line is at a time corresponding to early morning.]
+Et là, je vous demande vraiment votre attention parce que c'est c'est l'une des caractéristiques les plus importantes de Belkhayate System.
+[VISUEL: The cursor highlights a section of very low volume bars, then moves to the corresponding price action, which shows small, choppy candlesticks. The vertical white line is still in the early morning hours.]
+C'est que euh on ne va pas trader, je je recommande de ne pas trader dans ces couloirs-là ici. Vous avez vu? Là,
+[VISUEL: The cursor continues to highlight the low volume bars and the corresponding flat price action. A small, blue rectangular box is drawn over a section of low volume bars.]
+Là, ça sert pas à grand-chose de trader dans ces couloirs-là, même quand on a des mouvements ici de volume.
+[VISUEL: The cursor highlights a section of candlesticks in the early morning, then moves to the volume bars below. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM Moroccan time. The cursor highlights the volume bars between 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM and 10⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM.]
+Vous allez voir cette session asiatique ici. Là, vous avez vu la 7h heure marocaine, entre 7h et 22h ici de clôture,
+[VISUEL: The cursor highlights the price action during the Asian session, showing small, choppy movements. Then it highlights the corresponding low volume bars.]
+Il y a rien ici qui se passe, même quand il y a des volumes, hein, c'est insignifiant. En fait, je ne trade pas la séance asiatique parce que d'abord, je dors.
+[VISUEL: Belkhayate speaking to camera, then back to the chart. The cursor highlights the Asian session price action and volume bars.]
+Il faut que je sois en forme pour trader la session euh européenne et la session euh américaine.
+[VISUEL: The cursor highlights the volume bars starting from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM, showing a gradual increase in volume. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. The cursor highlights the volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM to 8⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Donc, là, on va commencer, regardez, le volume commence à il commence ici à à 7h, 7h30, il commence le volume. Vous avez vu? Donc,
+[VISUEL: The cursor highlights the price action around 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM, then opens a drawing tool menu and selects "Rectangle". A blue rectangle is drawn over the volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM to about 10⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Voilà ici, un couloir horaire, il faut faire attention à ce au départ de ce couloir horaire à partir de 7h. Là, vous voyez, là ici, ça commence à être intéressant.
+[VISUEL: The blue rectangle remains on the volume bars. The cursor highlights the price action around 8⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM, then moves back to the volume bars. The vertical white line is at 8⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+À partir de là, 7h30, 8h, on commence, on ouvre la à Londres et ça et ça commence à partir.
+[VISUEL: The blue rectangle is moved to cover the volume bars from 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM onwards. The cursor highlights the price action around 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM, then moves to the volume bars, showing very low volume.]
+Et là, on ne s'intéresse pas à partir de 21h, il faut euh là, à partir de 21h, on ne fait rien.
+[VISUEL: The blue rectangle remains on the low volume bars from 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM onwards. The cursor highlights the price action around 6⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM to 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM, then moves back to the low volume bars.]
+Et surtout, on ne fait pas donc on on ne rentre pas dans le trading à à vers vers 18h, 19h, on fait rien. À la rigueur, on peut garder une position.
+[VISUEL: The cursor highlights a section of price action where a position might be held, then moves back to the low volume bars from 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM onwards. The blue rectangle is still there.]
+Si on est gagnant et que on on a une grande tendance, on peut la garder jusqu'à 21h exceptionnellement.
+[VISUEL: The cursor opens the drawing tool menu, then closes it. The blue rectangle is moved to cover the volume bars from 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM to early morning the next day. Another blue rectangle is drawn over the volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM to 8⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Donc le couloir horaire de euh de l'or, c'est que à partir d'ici, jusqu'à tout le reste là, jusqu'à
+[VISUEL: The blue rectangles highlight periods of low volume. The cursor highlights the volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM to 7⚠️_A_VERIFIER:30⚠️_A_VERIFIER AM, then moves to the price action. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+jusqu'ici là, jusqu'à euh 7h30, à peu près 7h, entre 7h et 7h30, euh on ne fait rien. On va le vérifier ici.
+[VISUEL: The cursor highlights the volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM onwards, showing increasing volume. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Regardez ici, on a on a une accélération ici, à partir de maintenant, on a un véritable un véritable volume ici significatif, on peut faire quelque chose, c'est ici.
+[VISUEL: The blue rectangle is moved to cover the price action during the Asian session. The cursor highlights a large red candlestick with a long lower wick and a corresponding large volume bar. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+OK, regardons ici. Là, on a un un vrai mouvement à partir de euh de 7h, ça commence vraiment le mouvement. Ici, ça sert à rien.
+[VISUEL: The blue rectangle is moved to cover the price action during the Asian session. A blue diagonal line is drawn, indicating a downward trend. The cursor highlights the large red candlestick and volume bar again.]
+Alors, je rappelle que euh je trade l'or toujours sur des unités de temps de 15 minutes.
+[VISUEL: The chart shows 15⚠️_A_VERIFIER-minute candlesticks. The cursor highlights a specific candlestick, then moves to the volume bars. The blue diagonal line and blue rectangle are still visible.]
+Chaque bougie, chaque bougie ici, c'est 15 minutes.
+[VISUEL: The cursor highlights the volume bars and price action. The blue rectangle is on the Asian session price action. The blue diagonal line is on a downward trend.]
+D'accord? Je me suis habitué à ça parce que je ne cherche pas des des je fais pas des trades pour prendre 5 ticks ou 10 ticks. Non.
+[VISUEL: The cursor highlights a large red candlestick with a long lower wick and a very large corresponding volume bar. This is a strong reversal signal.]
+Moi, je fais des trades pour essayer de prendre un mouvement comme celui-là, par exemple, très très fort, très intéressant mouvement parce qu'on a un très grand volume, le plus grand volume, et donc les vendeurs ont été squeezés ici.
+[VISUEL: The cursor highlights the large red candlestick and volume bar, then moves to the subsequent green candlesticks, indicating an upward movement. The blue diagonal line is still visible.]
+Par ces acheteurs qui ont un magnifique signal d'achat qui a été donné ici à euh à 15h45.
+[VISUEL: The cursor highlights the large red candlestick and volume bar, then the subsequent upward price movement. The blue diagonal line is still visible. The blue rectangle is on the Asian session price action.]
+Vous avez un très bon signal d'achat et ensuite on le garde jusqu'à 21h, tranquillement. Mais ça fait quand même de l'argent. D'accord?
+[VISUEL: The cursor highlights the low volume bars during the Asian session. The blue rectangle is on the Asian session price action. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Donc pour le couloir horaire, je ne trade pas dans cette zone-là. Ici, je ne trade pas. En tout cas, le matin, je ne commence à m'intéresser qu'à partir de 7h, 7h30.
+[VISUEL: The cursor highlights the low volume bars during the Asian session. The blue rectangle is on the Asian session price action. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Je commence à m'intéresser au marché. D'accord? Voilà. Vous allez remarquer ça et c'est très important euh de de de de de faire attention à ça.
+[VISUEL: The cursor highlights a section of low volume bars, then draws a blue rectangle over them. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. The cursor highlights the volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM to 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM, showing low volume.]
+Et en fait, vous devez toujours regarder, regardez ici par exemple, on a ça dort, vous avez vu, ça dort depuis 19h, ça dort.
+[VISUEL: The blue rectangle is on the low volume bars from the previous night. The cursor highlights the volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM to 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM, showing increasing volume. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Le le lendemain, ça dort, ça dort, ça s'est réveillé à 9h et quart. Ça a commencé à se réveiller ici.
+[VISUEL: The cursor highlights the price action and volume bars. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et en fait, tout le temps, la première chose que vous devez regarder, chaque fois que vous regardez un graphique, vous devez être capable de regarder si il y a
+[VISUEL: The cursor highlights a section of low volume bars, then draws a horizontal blue line across them. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. The cursor highlights a section of high volume bars.]
+euh accalmie sur les volumes. Et s'il y a l'accalmie sur les volumes, vous tracez, vous tracez une ligne comme ça pour pouvoir euh déterminer que lorsqu'il y a accélération sur le volume.
+[VISUEL: The cursor highlights a large green volume bar during the Asian session, then the corresponding price action. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Regardez la session asiatique, on a un grand volume ici, vous voyez, à 2h30. Mais après, il y a rien. En fait, la session asiatique ne sert pas à grand-chose.
+[VISUEL: The cursor highlights the low volume bars during the Asian session. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+C'est pas la peine de vous réveiller et de de faire du trading à 2h du matin sur l'or.
+[VISUEL: The cursor highlights the price action and volume bars. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+En fait, euh euh en Asie, il y a un marché parallèle de l'or et c'est pas sur lui, c'est pas ça se passe pas sur ici, vous savez, ce marché-là, c'est le marché du Comex.
+[VISUEL: The cursor highlights the price action and volume bars. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Euh donc c'est le Commodity Exchange, donc c'est le marché du commerce à New York sur l'or. Et je ne trade que ce marché sur l'or, comme je vais vous le montrer, je vais en parler tout dans dans la vidéo qui est dédiée.
+[VISUEL: The cursor highlights the price action and volume bars. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Vraiment au marché, où est-ce qu'il faut acheter l'or, et cetera, c'est c'est prévu, vous inquiétez pas. Euh pour le moment,
+[VISUEL: The cursor highlights the price action and volume bars. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+je veux juste vous parler du couloir horaire, hein, et on va parler très bien très bientôt du volume, bien sûr, qui va avec le couloir horaire. Parce qu'en fait, c'est toujours le volume qui décide de quand est-ce qu'on va rentrer sur le marché.
+[VISUEL: The cursor highlights a section of low volume bars, then a green candlestick with a long upper wick and a corresponding large volume bar. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+D'accord? Voilà. Donc ici, euh par exemple ici, à à 10h45 ici, il y a eu un grand volume supérieur à tout ça. Donc ici, on pouvait acheter.
+[VISUEL: The cursor highlights the green candlestick and large volume bar, then the subsequent red candlestick, indicating a downward movement. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et on peut sortir ici à la à cette bougie-là parce que on a cassé euh cette tendance et en fait, le marché, il a carrément montré qu'il y a pas de véritable tendance ici.
+[VISUEL: The blue rectangle is on the low volume bars from the previous night. The cursor highlights a section of low volume bars, then a green candlestick with a long lower wick and a corresponding large volume bar. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Vous allez prendre l'habitude de de voir ça. Mais en tout cas, regardez, à partir de 7h30, 8h, voilà, il y a un grand volume ici.
+[VISUEL: The cursor highlights the green candlestick and large volume bar, then the subsequent upward movement. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et après, à 8h15, c'est le volume le plus important depuis 22h de la veille. Vous avez vu? Et c'est là, c'est là qu'on commence à commencer à trader.
+[VISUEL: The cursor highlights the low volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM onwards. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et là, vous voyez, à partir de 19h, il y a plus rien. Vous voyez ici, il y a plus rien.
+[VISUEL: The cursor highlights the low volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM onwards. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Regardez bien. Donc c'est très important. Alors, je suis en train de vous montrer euh en même temps le couloir horaire et le volume parce que c'est le volume qui vous donne le couloir horaire.
+[VISUEL: The cursor highlights the low volume bars from 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER PM onwards. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Dans lequel vous allez trader. Et et s'il y a pas de volume significatif, euh c'est même pas la peine de trader.
+[VISUEL: The cursor highlights a strong downward trend line in blue, then a large green candlestick with a long lower wick and a very large corresponding volume bar. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et je dirais même, il faut attendre qu'il y ait une cassure du volume. Et pour pour que vous puissiez euh être certain que vous êtes dans le train, comme ici, je le répète encore. Vous avez vu?
+[VISUEL: The cursor highlights the strong downward trend line in blue, then a large green candlestick with a long lower wick and a very large corresponding volume bar. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Là, là, c'est vraiment très intéressant. On a ici un volume très fort qui correspond à la cassure de de de ça.
+[VISUEL: The cursor highlights the strong downward trend line in blue, then a large green candlestick with a long lower wick and a very large corresponding volume bar. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Ce ce signal-là, c'est le signal parfait, Belkhayate impulsion. Là, il y a toutes les conditions requises. On est dans le bon couloir horaire, on est proche de l'ouverture euh de New York, on a un grand volume.
+[VISUEL: The cursor highlights the strong downward trend line in blue, then a large green candlestick with a long lower wick and a very large corresponding volume bar. The blue rectangle is on the low volume bars from the previous night. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+On a une cassure ici, c'est parfait. Là, on va gagner de l'argent. Là, on peut gagner de l'argent. Vous avez vu? C'est parfait.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Et et je tiens à préciser que ce type de configuration que vous voyez, a très forte probabilité de gain.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Vous l'avez pas dans toute la journée, vous n'avez pas un truc, c'est ici simplement que vous l'avez.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Mais c'est mais ce que je tiens à préciser que c'est assez fréquent d'avoir des des des situations où dans un quart d'heure bien particulier, vous avez 95% à 100% de chance de gagner de l'argent si vous repérez ce signal.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+C'est quand même extraordinaire. On est en train de parler d'un trade à très très forte probabilité de gain.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Vous n'aurez jamais cette espérance mathématique de gain sur les indices boursiers.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Sur les bons de trésor, sur les devises. Jamais. Vous allez pouvoir avoir 75% de chance, et cetera.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Mais là, je parle d'espérance mathématique de gain. C'est quoi l'espérance mathématique de gain? C'est différent de la probabilité de gain.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Et je veux vous l'expliquer en une minute pour ceux qui connaissent déjà mon cours euh dans la formation 1, ils savent de quoi je veux parler.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Mais je suis obligé dans cette formation de de de de définir l'espérance mathématique de gain parce que c'est également votre outil mathématique pour pouvoir toujours asseoir votre trading de manière régulière et vous savez où vous mettez les pieds.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+L'espérance mathématique de gain pour l'or, c'est votre probabilité d'avoir raison.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing an upward movement for gain.]
+Multiplié par votre potentiel de gain. Peut-être 10 dollars, peut-être 20 dollars, peut-être 30 dollars.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing an upward movement for gain.]
+Mais on l'a vu, ça peut aller jusqu'à 50 dollars dans une journée.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing an upward movement for gain.]
+Bon, entre parenthèses, sur les les jours à venir et les semaines à venir, on va assister à des journées à 50 dollars.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing an upward movement for gain and a downward movement for loss.]
+Bon, moi, donc je reviens, probabilité de gain multiplié par le gain attendu, moins la probabilité de perte multiplié par la perte qu'on va accepter.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing an upward movement for gain.]
+Mais vous l'avez compris, je le vois. Dans cette histoire, je suis en train de vous expliquer que nous allons faire un trade.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing a large upward movement for gain and a small downward movement for loss.]
+Avec un potentiel de gain qui est largement supérieur au potentiel de perte. Vous avez vu?
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing a small downward movement for stop loss and a large upward movement for potential gain.]
+Je rentre sur une configuration bien précise avec un stop à l'avance connu que on va identifier plus tard, mais en tout cas, vous le voyez bien que le stop, il est petit.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing a small downward movement for stop loss and a large upward movement for potential gain.]
+Par rapport au potentiel. On va peut-être avoir 1 dollar de de 1 dollar ou 2 dollars, ou 3 dollars, 4 dollars.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing a small downward movement for stop loss and a large upward movement for potential gain.]
+C'est énorme de de stop loss, mais on va chercher 10, 20, 30, 50 dollars.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing a small downward movement for stop loss and a large upward movement for potential gain.]
+Donc, on a une probabilité, par exemple, de 80% d'avoir raison, multiplié par un potentiel important.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing a large upward movement for gain.]
+Donc, il suffit, même si on fait que 50/50, mais que lorsqu'on gagne, on gagne beaucoup plus que ce qu'on perd, notre espérance mathématique de gain, elle est positive.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Mais là, dans le cadre de ce trade qu'on attend, qu'on traque, qu'on surveille, l'espérance mathématique de gain de Belkhayate System, elle est imbattable.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Voilà. Je voulais le dire parce que je je sais que les professionnels qui tradent l'or, quand ils vont essayer ma méthode, ils vont se dire, mais il a raison.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Il n'y a pas un trader professionnel qui va étudier cette méthode et qui va essayer de trouver qu'elle a une faille.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Elle n'a pas de faille parce que elle s'appuie sur la faille du marché de l'or.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Et cette faille, je la définis en une phrase. C'est que à un moment donné dans la journée,
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+il y a des opérateurs qui s'en foutent complètement de ce qui arrive, il faut qu'il soit exécuté. Ce qui compte pour eux, c'est d'être exécuté et rien d'autre.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, showing an upward movement for price and emphasizing the feeling of being in the "train".]
+Ils auront rempli leur mission par rapport à ce qu'on leur a demandé de faire. Et c'est pour ça que l'or, quand il décolle, il pousse, il pousse, il pousse et vous vous êtes dans le train et vous voyez qu'il pousse encore. Et ça fait une sensation extraordinaire.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points, then moves to his laptop.]
+Donc, je je reviens sur euh le le graphique pour euh pour continuer à vous montrer le couloir horaire. Maintenant, c'est clair, vous avez bien compris que euh
+[VISUEL: Candlestick chart with volume bars. The cursor highlights a section of low volume bars, then a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+le couloir horaire, il est très très important. Là, il y a de il y a de l'or, il y a il y a un grand volume ici qui sert à grand-chose.
+[VISUEL: The cursor highlights a red candlestick with a long lower wick, then moves to the subsequent green candlesticks, showing a slow upward movement. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Vous voyez? Ce que normalement, ça doit être considéré comme un squeeze ici, on a un squeeze, on devrait monter, mais il met tout toute la matinée avant finalement de monter.
+[VISUEL: The cursor highlights the low volume bars during the Asian session. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Donc finalement, je ça confirme que en réalité, si vous voulez commencer le trading, vous sur l'or, ça sert à rien de vous réveiller tôt.
+[VISUEL: The cursor highlights the low volume bars during the Asian session. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Vous pouvez vous réveiller à 7h, 7h30 et attendre, surveiller les volumes, surveiller surtout une une accélération sur le volume.
+[VISUEL: The cursor highlights a section of increasing volume bars after 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. The cursor highlights a green candlestick after 9⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Là, par exemple, on a on a une belle accélération sur le volume qui est valable parce que c'est après 9h. Après l'ouverture à Londres, on a ça, c'est très bien, j'achète et je vais manager ma position.
+[VISUEL: A blue rectangle is drawn over a section of price action and volume bars, indicating a trading range. An arrow points downwards from the volume bars, indicating decreasing volume. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Voilà. Donc en ce qui concerne le volume et le et le couloir horaire, vous avez bien vu que c'est fondamental. Maintenant, je le prouve.
+[VISUEL: The blue rectangle is on a trading range. The arrow points downwards from the volume bars. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+C'est fondamental dans euh dans le trading de l'or. D'accord? Voilà. Alors, on ne trade pas, on ne rentre pas, on n'initie pas une position sur l'or.
+[VISUEL: The blue rectangle is on a trading range. The arrow points downwards from the volume bars. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Après 17h, 18h, ça c'est absolument à rien. Je je je je quand je parle d'heure, parce que j'ai mon écran qui est réglé sur l'heure marocaine.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Donc, je répète, vous n'initiez, vous n'allez pas entrer une position, une nouvelle position après 17h, même si vous voyez quelque chose d'extraordinaire, ça sert à rien.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Par contre, si vous êtes déjà en position à 15h ou 16h ou ou 14h et que ça monte, vous pouvez garder la position parce que on va voir comment on peut garder la position avec des algorithmes.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Pour garder la position jusqu'à 21h. Mais en aucun cas, un trader de Belkhayate System doit doit garder doit laisser, il laisse la position dormir pour se dire demain ça va encore gagner plus ou je suis en train de perdre, demain je vais pas gagner.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Il y a une règle d'or à Belkhayate Trading System.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Et cette règle d'or, avant toute chose, c'est que une journée, ça commence et ça finit.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Et le lendemain, c'est une journée nouvelle avec un état d'esprit nouveau et on est déconnecté par rapport à la perte ou au gain qu'on a connu.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Si vous restez lié à un trade, vous n'êtes pas Belkhayate System trader. Vous n'êtes pas.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points, then moves to his laptop.]
+Voilà. Donc ça, c'est très important. Euh je voulais le souligner.
+[VISUEL: Candlestick chart with volume bars. The cursor highlights a section of low volume bars, then a green candlestick with a long lower wick. A blue diagonal line is drawn, indicating an upward trend. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Alors maintenant que j'ai parlé des des couloirs horaires, je je pense que j'ai été clair euh sur le couloir horaire. Euh c'est à partir de cette, vous voyez là, par exemple, ici, c'est pas mal.
+[VISUEL: The cursor highlights a green candlestick with a long lower wick, then moves to a red candlestick with a long upper wick. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Ça ça commence à s'intéresser. Là, il y a du volume, mais ici, très intéressant ici, on a une invalidation de ce de ce signal. On a une attaque haussière.
+[VISUEL: The cursor highlights a red candlestick with a long upper wick, then moves to the volume bars. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+On dit, waouh, super, le marché va décoller, mais on a ici un squeeze, un squeeze des acheteurs.
+[VISUEL: The cursor highlights a red candlestick with a long upper wick and a corresponding large volume bar. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et on a un grand volume et avec ce grand volume là, normalement, s'il y avait pas cette mèche là,
+[VISUEL: The cursor highlights a red candlestick with a long upper wick and a corresponding large volume bar. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+et là, c'est c'est l'occasion de de de de vous expliquer le cours des mèches. Cette mèche-là signifie que les vendeurs ont fait une contre-attaque et qu'ils ont ramené le marché de l'or jusqu'à ce niveau.
+[VISUEL: The cursor highlights a red candlestick with a long upper wick and a corresponding large volume bar. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et ça, c'est un squeeze et qu'il faut vendre maintenant. Il faut vendre parce que la la dans le cours de Belkhayate Squeeze que je vais vous qui va suivre,
+[VISUEL: Belkhayate speaking to camera, then back to the chart. The cursor highlights a red candlestick with a long upper wick and a corresponding large volume bar. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+c'est la configuration parfaite des squeeze ici avec un volume ici et on peut vendre et on va gagner de l'argent surtout que lorsqu'on voit qu'on casse ici, on peut même doubler la position.
+[VISUEL: The cursor highlights a red candlestick with a long upper wick and a corresponding large volume bar. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. Belkhayate speaking to camera.]
+Et sortir sur cette mèche-là. Alors, on va parler des mèches des bougies.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Qu'est-ce que c'est que cette histoire de mèches des bougies et pourquoi elle joue un rôle aussi fondamental dans Belkhayate Gold System?
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Une mèche, c'est la trace que laisse un combat, soit les acheteurs qui ont gagné.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Soit ce sont des vendeurs qui ont gagné. Mais il y a eu un combat et il y a eu un territoire qui a été reconquis.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+C'est-à-dire que des acheteurs ont ont conquis un territoire et les vendeurs sont revenus les pousser pour reconquérir ce territoire.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Et ça, le marché, il nous le montre, c'est une trace, c'est la mèche. Je reviens sur mon graphique.
+[VISUEL: Belkhayate speaking to camera. He gestures with his hands, emphasizing points.]
+Vous allez, je vais vous montrer ces mèches et votre votre regard doit toujours regarder les mèches parce que vous allez voir que sur l'or.
+[VISUEL: Candlestick chart with volume bars. The cursor highlights a red candlestick with a long upper wick. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Plus que sur n'importe quel autre marché financier, les mèches sur le marché de l'or sont très significatives.
+[VISUEL: The cursor highlights a red candlestick with a long upper wick. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Lorsque vous les combinez avec le volume, avec le couloir horaire, avec les cassures, alors vous avez une espérance mathématique de gain très importante.
+[VISUEL: The cursor highlights a red candlestick with a long upper wick. The blue diagonal line is still visible. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Regardons mes graphiques. Alors, ici, vous voyez, on a cette mèche-là qui est un très bon signal de vente.
+[VISUEL: The cursor highlights a red candlestick with a long upper wick, then moves to a red candlestick with a long lower wick. A blue oval is drawn around the lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Vous voyez, voici les mèches. Alors, on va on va agrandir un peu. On va agrandir pour que vous compreniez, pour ceux qui connaissent pas les mèches, qu'est-ce que ça signifie.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Les mèches, c'est ça. Ça veut dire que le marché à un moment donné, il est descendu jusqu'à ce niveau et puis les acheteurs ont remonté le marché et puis ils ont clôturé ici cette bougie de un quart d'heure.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Et là, ce que vous voyez, cette bougie, elle porte un nom, elle elle porte un nom, vous mais on s'en fout des noms.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Moi, je je je ne veux pas euh vous apprendre le la tomballe, l'étoile filante, tout ça, tout ça, c'est de la littérature.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Moi, je veux éviter de vous remplir le cerveau de littérature qui sert à rien. En réalité, vous devez vous concentrer sur ce qui est concret, qu'est-ce qui vous fait gagner de l'argent.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Mais la littérature, il y a des champions du monde de la bougie japonaise, mais qui ne gagnent pas leur vie sur les marchés financiers. Qu'est-ce qu'ils font? Ils achètent et vendent des livres, ils vendent des séminaires.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Mais ils sont pas traders. Et pourtant, il connaît par par cœur toutes les configurations des bougies japonaises.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Bon. Donc, alors, je vous je je continue sur, regardez ici, on va on va jeter un coup d'œil sur les sur les les mèches.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Cette mèche-là signifie qu'il y a eu un combat gagné par les acheteurs. En général, quand vous avez une mèche basse, ça signifie qu'il faut acheter.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM.]
+Quand vous avez une mèche haute, ça veut dire qu'il faut vendre. D'accord? Comme ici. Regardons, regardons partout. Regardez ici, une mèche comme ça, c'est vraiment un gros support.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Ça veut dire que vraiment, il y a une réaction des acheteurs et dans l'or, ça fonctionne assez bien. Vous avez vu ici, une grande mèche ici. Vous le voyez? Alors, on peut faire comme ça pour les mèches.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+On vient ici et je fais ça pour ceux qui me connaissent dans mon cours. Voilà, c'est magnifique. Et on montre cette mèche. Cette mèche-là, à elle seule, est un est un support pour le marché.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Et ça, il a fonctionné ici, elle a fonctionné ici encore. Et vous allez par vous-même vous rendre compte, regardez ici, on a ce mouvement-là.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Et puis, il a tenu. Vous avez vu? Il a tenu et ensuite le marché est parti. Rien que cette mèche-là avec cette mèche-là qui est, elle doit être plus grande que le corps. D'accord?
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Alors, on va regarder, on peut regarder partout. Vous allez vous allez par vous-même vous rendre compte que la mèche, elle est très très très importante dans l'or. D'accord?
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Ici, par exemple, on a un parfait exemple de squeeze parce que le marché tombe, tombe, tombe, tombe. OK.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Ici, il y a cette mèche-là, mais il y a pas beaucoup de volume. Donc, il faut toujours regarder la mèche avec le volume. Et là, on a un volume important.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Le plus important volume depuis cette matinée-là. Donc, là, une mèche comme ça avec un grand volume vers une mèche ici au bout d'une tendance baissière.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Le voici le squeeze, Belkhayate Squeeze, d'accord? Je vous je vous montre des éléments. Vous avez vu ici, par exemple, on a une double mèche et finalement, le marché finit par tomber. D'accord?
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Évidemment, les mèches ne fonctionnent pas toutes, toutes, toutes, mais sur l'or en particulier, elles sont quand même significatives lorsqu'elles sont accompagnées de volume.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Par exemple, cette mèche-là, même si elle n'est pas supérieure au corps, elle a quand même un grand volume. Ça veut dire quoi ça? Ça veut dire, lorsque vous avez une mèche et en bas de la mèche, vous avez un grand volume.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Ça signifie quoi? Un, ça se suit qu'il y a eu un grand combat. Deux, ça signifie que ceux qui ont gagné ce combat n'ont pas l'intention d'en rester là.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Qui veulent encore gagner du terrain et remonter si c'est une mèche basse. Et trois, très très important, ça veut dire que le carnet d'ordre, les les les les ordres qui sont en attente, qui étaient en attente, et cetera, les stops, tout a été avalé.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+C'est ça. Ça veut dire que le carnet d'ordre s'est mis à jour et il y a maintenant une nouvelle vague qui va arriver et en général, ce sont les vainqueurs qui prennent possession du carnet d'ordre.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+C'est c'est une image que euh que j'essaie de vous donner pour que vous compreniez pourquoi ça fonctionne avec avec avec l'or en particulier.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Et avec les avec, regardez ici par exemple, ici, on a une mèche avec un ici, on a une mèche, mais le volume n'est pas si important que ça.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Mais là, on a quand même un grand volume avec une belle mèche. On peut acheter ici avec un stop ici et on attend, on espère que ça va casser, mais malheureusement, ça casse pas et on va sortir.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+On n'a pas de volume ici, c'est pas c'était pas une belle journée de, mais on on pouvait faire ce trade là, acheter ici, sortir ici.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Alors, regardons, moi je j'essaie de regarder avec vous euh comme ça. Voilà, une mèche ici avec un grand volume. Voilà. Alors, ça c'est un exemple très important.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Les mèches, vous devez, regardez ici, ça ça fonctionne. Cette mèche-là fonctionne avec un grand volume. Vous pouvez acheter ici, sortir là, acheter ici et vous pouvez sortir sur cette bougie rouge que je vous enseigne dans dans euh dans la formation.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range.]
+Alors, ici, elle fonctionne bien cette mèche. Vous avez vu? Alors, j'espère que vous avez, c'était un petit cours euh sympathique sur euh les mèches euh des bougies.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. An ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Et on va les combiner, bien sûr, avec le couloir horaire, avec les volumes, avec plein de choses, mais à elle seule, les mèches sont vraiment très importantes.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Il y a pas photo ici. On a trois mèches. Ça, c'est un très très fort signal comme quoi les vendeurs, ils ont essayé, ils ont poussé ici une fois, ils ont perdu.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Ils ont poussé une deuxième fois avec volume, ils ont perdu. Ils ont encore quand même essayé, mais c'était c'est foutu, il y a plus de vendeurs et les acheteurs ont pris le contrôle du marché jusqu'à cette mèche-là.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Et c'est là que vous sortez. C'est magnifique. Là, le marché de l'or, je l'aime beaucoup parce que il est fidèle.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Lorsque vous connaissez le vous connaissez, regardez ici, c'est extraordinaire. Vous avez ici du volume et vous avez deux mèches qui annoncent la la victoire des vendeurs.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Et ensuite, le marché tombe. Ici, il y a une résistance, résistance, résistance, résistance, il y a une forte résistance. Voilà.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Voilà, donc euh euh cette je je vais arrêter pour les les mèches et je vais finir euh mon cours de la vidéo 5 avec l'ATR parce que l'ATR, il est très très important.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Euh c'est l'ATR, c'est euh Average True Range, ça veut dire, je vais le mettre ici, là, un indicateur et c'est celui-là. Voilà.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Voilà, c'est l'ATR, c'est Average True Range. En fait, c'est un indicateur qui euh vous donne euh la l'amplitude, l'amplitude d'un mouvement.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Par exemple, ici, c'est 4 dollars 50 d'amplitude. Voilà, par exemple, 4 dollars 50 d'amplitude. Là, là, c'est 2 dollars, c'est descendu à 2 dollars et cetera.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Alors, la particularité et comment je l'utilise, c'est que là, vous allez voir que plus tard, je l'utilise pour prendre des profits parce que mes profits et mes stops sont en fonction directe de l'ATR.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Et ça, je l'ai pas inventé, j'ai juste euh pris ce qu'il y a de mieux dans dans le système des Turtles euh qui utilise un un coefficient d'ATR pour prendre des profits.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Parce que au fur et à mesure que le marché est volatile, on va prendre beaucoup plus euh que euh que si on va pas se dire, tiens, je vais prendre 20 ticks de gain et 10 ticks de perte.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Ça, c'est la stratégie des des des personnes qui sont des amateurs, en fait. Jamais un un jamais un système ne doit avoir des euh des stop loss ou des targets euh qui sont fixes. D'accord?
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Alors, regardez la preuve, regardez l'ATR sur l'or. L'ATR sur l'or, il est assez euh volatile, vous le voyez? Donc, il faut tenir compte de cet ATR pour prendre des profits.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Lorsque vous avez un ATR comme ça ici, qui est à 4 dollars, vous allez pas demander de prendre 2 dollars de profit. D'accord? Et lorsque vous avez ici un ATR qui est de 2, vous allez pas demander 4 ou 5 alors que vous êtes à 2.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+D'accord? Donc l'ATR est fondamental dans la stratégie euh de trading de du marché de l'or. Et je vais euh je vais vous montrer plus tard, évidemment que l'algorithme de trading que j'utilise pour rester sur le marché, il contient une formule mathématique de l'ATR.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Voilà. Donc euh je vais résumer euh un petit peu cette vidéo 5 pour vous dire que euh elle est elle complète la vidéo 4 où on a parlé de cassure et et et des euh
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+des cassures des supports et des résistances. Et cette vidéo 5, on a vu l'importance du couloir horaire, on a vu l'importance des volumes dans le marché de l'or. Et on a vu surtout à quel point les mèches que vous voyez là sont très importantes dans le marché de l'or parce qu'elles sont très significatives sur le marché de l'or.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Et enfin, on a jeté un coup d'œil sur l'ATR pour voir que quand l'ATR commence à baisser, il baisse, quand il commence à monter, il monte. Et ça, ça a l'air de rien, mais dans la dans le dans l'expression mathématique euh de l'algorithme que je vais vous présenter plus tard, c'est la clé pour pouvoir rester sur le marché le plus longtemps possible.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Voilà. Voilà, mes chers amis, c'était un plaisir de partager avec vous la passion, hein, les critères euh de de de de de Belkhayate euh impulsion de Belkhayate euh Squeeze.
+[VISUEL: The chart is zoomed in. The blue oval is around a red candlestick with a long lower wick. The vertical white line is at 7⚠️_A_VERIFIER:00⚠️_A_VERIFIER AM. A blue rectangle is drawn over a trading range. The ATR indicator is visible below the volume bars, showing a fluctuating blue line.]
+Donc euh pour les pour les vidéos 6, 7 et 8, et ben ce sera ils seront dédiés aux configurations de Belkhayate Gold System.Voici la transcription détaillée de la vidéo, intégrant les descriptions visuelles et les règles énoncées par Mustapha Belkhayate :
+
+[VISUEL: Animation d'un graphique financier avec des lignes de prix, des chandeliers et un fond de carte du monde numérique. Une spirale de Fibonacci et une formule quadratique apparaissent. Le texte "BELKHAYATE SYSTEM" s'affiche, suivi de "2020⚠️_A_VERIFIER TOUT DROITS RÉSERVÉS", puis "LE TRADING DE L'OR" et enfin "VIDEO 5⚠️_A_VERIFIER: TRADING DE L'OR".]
+[AUDIO]:
+numéro 5. Cette vidéo concerne la continuité en fait de ce que je vous ai montré sur les cassures de support et de résistance. Et maintenant, on va étudier de très près euh la euh le couloir horaire. C'est très important parce que le couloir horaire de l'or, c'est la clé en fait du trading de l'or, comme on va le voir. Et bien sûr, le volume de l'or, c'est très très important. Et là, à ce sujet, je voudrais commenter cette histoire de volume en réalité, pourquoi les fondamentales et quel volume on va tenir compte de quel volume. Et ensuite, on va euh on va regarder sur les graphiques pour essayer de trouver les mèches des bougies. Les mèches ont une importance capitale dans le trading de l'or. Et enfin, 4ème caractéristique du système de Belkhayate, c'est sur l'amplitude de mouvement d'un marché, du marché de l'or. Donc, je vous invite à à replonger sur mon écran.
+
+[VISUEL: L'écran de Belkhayate affiche un graphique en chandeliers sur fond noir. Des chandeliers verts (haussiers) et rouges (baissiers) sont visibles. Deux lignes diagonales bleues sont tracées sur le graphique, suggérant des tendances. Un indicateur de volume est affiché en bas, avec des barres vertes et rouges.]
+Euh voilà, ici par exemple.
+[VISUEL: Le curseur de la souris se déplace et met en évidence un chandelier rouge avec une longue mèche inférieure, puis un autre chandelier rouge avec une longue mèche inférieure. Ensuite, il met en évidence un chandelier vert, puis une des lignes diagonales bleues, puis l'autre.]
+Et là, on revient sur la journée de vendredi. Donc là, on va enlever, on va enlever ce que j'avais mis là, ici.
+[VISUEL: Les deux lignes diagonales bleues sont retirées du graphique. Le curseur met en évidence la zone où se trouvaient les lignes.]
+Voilà, on a plus besoin de ça pour le moment. Voilà.
+[VISUEL: Le curseur se déplace vers la partie inférieure du graphique, mettant en évidence les barres de volume. Une ligne verticale blanche apparaît, marquant un point temporel spécifique sur le graphique.]
+Et on va euh, on va se concentrer sur sur le couloir horaire.
+[VISUEL: Le curseur met en évidence une section de barres de volume très faibles, puis se déplace vers l'action des prix correspondante, qui est également relativement plate. La ligne verticale blanche est positionnée tôt le matin.]
+Et là, je vous demande vraiment votre attention parce que c'est c'est l'une des caractéristiques les plus importantes de Belkhayate System.
+[VISUEL: Le curseur continue de mettre en évidence les barres de volume faibles et l'action des prix correspondante, montrant de petits chandeliers hachés. La ligne verticale blanche est toujours dans les premières heures du matin.]
+C'est que euh on ne va pas trader, je je recommande de ne pas trader dans ces couloirs-là ici. Vous avez vu? Là,
+[VISUEL: Le curseur continue de mettre en évidence les barres de volume faibles et l'action des prix correspondante, montrant de petits chandeliers hachés. Un petit rectangle bleu est dessiné sur une section de barres de volume faibles.]
+Là, ça sert pas à grand-chose de trader dans ces couloirs-là, même quand on a des mouvements ici de volume.
+[VISUEL: Le curseur met en évidence une section de chandeliers tôt le matin, puis se déplace vers les barres de volume en dessous. La ligne verticale blanche est à 7h00 (heure marocaine). Le curseur met en évidence les barres de volume entre 7h00 et 22h00.]
+Vous allez voir cette session asiatique ici. Là, vous avez vu la 7h heure marocaine, entre 7h et 22h ici de clôture,
+[VISUEL: Le curseur met en évidence l'action des prix pendant la session asiatique, montrant de petits mouvements hachés. Ensuite, il met en évidence les barres de volume faibles correspondantes.]
+Il y a rien ici qui se passe, même quand il y a des volumes, hein, c'est insignifiant. En fait, je ne trade pas la séance asiatique parce que d'abord, je dors.
+[VISUEL: Belkhayate parle face caméra, puis l'image revient sur le graphique. Le curseur met en évidence l'action des prix et les barres de volume de la session asiatique.]
+Il faut que je sois en forme pour trader la session euh européenne et la session euh américaine.
+[VISUEL: Le curseur met en évidence les barres de volume à partir de 7h00, montrant une augmentation progressive du volume. La ligne verticale blanche est à 7h00. Le curseur met en évidence les barres de volume de 7h00 à 8h00.]
+Donc, là, on va commencer, regardez, le volume commence à il commence ici à à 7h, 7h30, il commence le volume. Vous avez vu? Donc,
+[VISUEL: Le curseur met en évidence l'action des prix vers 7h00,

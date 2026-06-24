@@ -1,0 +1,35 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: OFTC Lesson 19 Part B- Test Yourself & Practice Charts.mp4]
+---
+[ATTENTION: qualite video faible — descriptions visuelles a verifier manuellement]
+---
+Voici la transcription de la vidéo, en intégrant les descriptions visuelles et les règles comme demandé :
+
+[VISUEL: Graphique de trading pour ZB (Bonds) sur NinjaTrader, intitulé "ORDER FLOW TRADING COURSE - CHAPTER 19⚠️_A_VERIFIER", "TEST YOURSELF - PRACTICE CHARTS ZB DAY 3⚠️_A_VERIFIER". Le graphique est un "4⚠️_A_VERIFIER Range" bar chart. Les barres sont colorées en rouge pour les mouvements baissiers et en vert pour les mouvements haussiers. Des chiffres à l'intérieur des barres indiquent le volume et le delta. Une ligne horizontale pointillée rouge représente le point de contrôle (POC) et une ligne pointillée verte représente le VWAP. Le prix est en tendance baissière. Un cercle jaune est visible autour d'une barre rouge avec des chiffres de volume.]
+"Et le marché a bien vendu comme prévu. Donc, vous savez, c'est une de ces choses où, vous savez, souvent vous cherchez une raison de vendre à découvert et ça ne marche pas toujours. Et quand ça marche, vous savez, c'est pourquoi vous devez avoir la confiance nécessaire pour vous en tenir à votre façon de trader."
+
+[VISUEL: Le cercle jaune se déplace vers une autre barre rouge plus à droite, toujours dans une tendance baissière. Le prix continue de descendre.]
+"Euh, vous savez, quand le marché est volatil, parfois vous allez être un peu chahuté, mais, vous savez, si vous vous y tenez, vous, vous savez, vous pouvez faire des profits."
+
+[VISUEL: Le graphique défile vers la droite, montrant une continuation de la tendance baissière, puis une phase de consolidation latérale. Le cercle jaune se déplace vers une barre verte, puis vers une zone où le prix commence à se stabiliser.]
+"Et, vous savez, nous arrivons à l'heure de 14h00, qui est l'ancienne clôture du pit, et nous commençons à aller latéralement."
+
+[VISUEL: Le graphique continue de défiler vers la droite, montrant des mouvements latéraux suivis d'une légère baisse. Le cercle jaune se déplace sur plusieurs barres, mais aucune ne présente de signal clair de vente à découvert selon le formateur.]
+"Vous savez, puis latéralement et commence à vendre, mais rien de vraiment là pour me dire de vendre à découvert davantage. Vous savez, nous sommes déjà après 14h00 et, vous savez, vous voyez que le volume est, est considérablement asséché."
+
+[VISUEL: Le graphique défile encore, montrant une période de faible volume et de mouvements latéraux. Le cercle jaune est sur une barre rouge avec des chiffres de volume. Le formateur mentionne une "selling imbalance" (déséquilibre de vente).]
+"Vous savez, nous arrivons ici juste avant 14h30, vous avez un déséquilibre de vente, d'accord ? Et, vous savez, si vous revenez au graphique précédent, vous savez, nous sommes, nous sommes arrivés à notre plus haut ici à 169.00, vous savez, jusqu'à 17, 18, et tout d'un coup vous avez ce, vous savez, déséquilibre alors que, vous savez, nous allons un peu latéralement."
+
+[VISUEL: Le cercle jaune se déplace sur plusieurs barres rouges et vertes, montrant des ratios de volume. Le formateur indique qu'il y a des ratios mais qu'il est 14h30, ce qui n'est pas un moment idéal pour trader.]
+"Vous savez, mais il y a quelques ratios ici. Je ne sais pas. Vous savez, j'ai dit qu'il est 14h30, ce n'est pas nécessairement un moment où je cherche à trader. Vous savez, dans ce cas, vous savez, le marché, il a bien vendu, vous savez, je ne veux pas le revendiquer comme, vous savez, comme une victoire ou quoi que ce soit, mais ça va vers la clôture de la journée. Il est déjà 14h30 et la plupart des traders ont déjà clôturé leurs livres pour la journée."
+
+[VISUEL: Le graphique défile pour montrer la fin de la journée de trading. Le cercle jaune est sur une barre rouge qui a continué à baisser. Le formateur mentionne un mouvement de prix significatif.]
+"Euh, mais le marché, vous savez, il a pu vous donner une chance de vendre à découvert autour du niveau 24. Il est bien descendu dans la, euh, zone 14, et a même continué à baisser jusqu'à, euh, presque 00, vous savez, c'était 168.02. Mais, euh, c'est la fin du troisième jour sur les obligations."
+
+[VISUEL: Écran de titre : "ES 15⚠️_A_VERIFIER Minute Charts". Puis un nouveau graphique apparaît, intitulé "ORDER FLOW TRADING COURSE - CHAPTER 19⚠️_A_VERIFIER", "TEST YOURSELF - PRACTICE CHARTS ES DAY 1⚠️_A_VERIFIER". C'est un graphique en barres de 15⚠️_A_VERIFIER minutes pour ES (E-minis S&P 500⚠️_A_VERIFIER). Les barres sont colorées en rouge pour les mouvements baissiers et en vert pour les mouvements haussiers. Des chiffres à l'intérieur des barres indiquent le volume et le delta. Des lignes horizontales pointillées représentent des niveaux de prix importants. Le prix est en tendance haussière. Un cercle jaune est visible autour d'une barre verte.]
+"Les derniers graphiques que je veux parcourir, c'est un, c'est une journée en graphiques de 15 minutes sur l'ES, les E-minis. Maintenant, vous savez, quand vous traitez avec des graphiques à plus long terme comme 15 minutes, il est difficile de tout avoir sur un seul graphique. Il faut un peu le compresser. Donc, vous savez, pour faciliter les choses, je vais juste vous montrer quelques-uns des bords des barres et juste vous parler de certaines des configurations."
+
+[VISUEL: Le cercle jaune est sur une

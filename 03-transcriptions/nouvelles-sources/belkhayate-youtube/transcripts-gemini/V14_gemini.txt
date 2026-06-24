@@ -1,0 +1,53 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: V14.mp4]
+---
+[ATTENTION: qualite video faible — descriptions visuelles a verifier manuellement]
+---
+[VISUEL: Introduction animée avec des graphiques boursiers en arrière-plan. Le logo "Belkhayate method" apparaît avec des barres vertes et rouges. Ensuite, le texte "Belkhayate Methode TRADING PROFESSIONNEL" s'affiche. Puis "COURS 14⚠️_A_VERIFIER" et "Money Management".]
+
+Et voici la vidéo numéro 10, qui va traiter du du quatrième principe euh de base pour la méthode de trading. C'est euh le principe du Money Management. Autrement dit, c'est euh la capacité à décider combien je vais miser. Si je mise 1, 2 ou 3 ou 4. Et et et cette notion est absolument fondamentale et va représenter plusieurs heures de cours dans les salles de marché inshallah au Maroc. Et et pourquoi pas euh des vidéos pour vous aider vraiment à maîtriser ce quatrième euh euh principe.
+
+C'est là où j'invite les laboratoires euh de mathématiques au Maroc à se pencher et à encourager les étudiants à faire euh des des des thèses et des sujets d'étude sur le Money Management et en fait sur également euh on peut utiliser des modèles mathématiques pour pouvoir déterminer en fonction de notre probabilité d'avoir raison ou d'avoir tort, euh combien on va miser. Et ça c'est c'est vraiment quelque chose euh de très très important et avec ça vous allez être loin devant les traders euh classiques en Europe ou aux États-Unis qui n'utilisent pas euh le Money Management comme on va l'apprendre inshallah au Maroc et je suis très fier de pouvoir partager avec vous euh cette euh cette puissante stratégie pour pouvoir euh gagner de l'argent de manière régulière en utilisant les mathématiques pures, même même si on n'a jamais fait de mathématiques, je tiens à le préciser.
+
+Je reviendrai très souvent sur le fait que bien que vous voyez ces cours là qui se défilent, qui défilent devant vous et que vous pouvez vous dire mais ça ça s'adresse pas ça s'adresse à des personnes qui ont étudié et cetera. Je vous rassure. Juste regarder ces vidéos. J'ai des amis comme Hicham, comme Yassine et autres qui qui vraiment mettent pour qu'on puisse mettre à la disposition de la jeunesse marocaine ces cours euh en darija et en d'autres langues et tout le monde est bienvenu. Ce projet, c'est le projet euh de tout le Maroc, tous les jeunes euh ça les concerne. Donc ceux qui veulent aider sont les bienvenus.
+
+Aujourd'hui grâce à internet, on peut et on doit euh communiquer à nos frères euh des des des solutions pour qu'ils puissent euh euh être j'ai j'ai senti qu'il y avait beaucoup de jeunes qui m'ont écrit qui étaient vraiment heureux de de de pouvoir suivre ces vidéos et ça m'a fait vraiment chaud au cœur. Euh et et je serai vraiment euh très content de pouvoir euh passer dans dans pratiquement les les grandes villes au Maroc et de faire des conférences gratuites pour répondre à leurs questions.
+
+Alors, le Money Management, quel classement donnez-vous ? Alors là, je mets j'ai mis disponibilité psychologique et physique du trader. En fait, lorsque vous allez dans les dans les universités en Europe et que vous voulez apprendre la gestion de fortune, c'est-à-dire euh le trading et cetera, ils vont commencer à vous remplir la tête avec tout ça. Bon, c'est-à-dire euh est-ce qu'il faut utiliser l'analyse fondamentale de l'action ou du contrat, utiliser les chiffres. Attention, il va y avoir les taux d'intérêt qui vont baisser. Ah, attention ici, il y a le taux de chômage qui va baisser. Voilà, donc là, ils vont vous remplir la tête avec du blabla. Voilà comment on peut le dire en en marocain. Et ça me fait plaisir de pouvoir le dire dans ma langue. Euh le le trading, ce n'est absolument pas ça. Donc, lorsque vous donnez lorsque vous donnez ce classement à à quelqu'un qui est en Europe, par exemple en France, et qui fait du trading, il va vous dire, il vous dit de classer, et vous allez voir qu'il va vous dire l'analyse fondamentale, c'est très important. L'analyse technique aussi, c'est très important. Les rumeurs et les informations financières, et cetera, ils arrêtent pas de suivre toutes les télés, ils achètent tous les journaux pour suivre ce qui va se passer. Et ensuite, le savoir-faire technique, et cetera, le choix du du courtier, tout ça euh ça a une certaine importance. Bon, euh alors voici euh selon moi, l'importance de tous ces points-là.
+
+[VISUEL: La diapositive change pour afficher "Money Management (suite)". Une liste de 10⚠️_A_VERIFIER points est présentée avec des pourcentages d'importance.
+*   Money management = 70⚠️_A_VERIFIER%
+*   Analyse technique et graphique = 15⚠️_A_VERIFIER%
+*   Disponibilité psychologique et physique du Trader = 5⚠️_A_VERIFIER%
+*   Gestion de la réussite ou de l'échec de l'opération = 3⚠️_A_VERIFIER%
+*   Savoir-faire technique pour passer l'ordre = 3⚠️_A_VERIFIER%
+*   Choix d'un courtier performant = 3⚠️_A_VERIFIER%
+*   Intuition du Trader (avant et pendant) = 0⚠️_A_VERIFIER%
+*   Rumeurs et informations financières, etc. = 0.5⚠️_A_VERIFIER%
+*   Analyse fondamentale de l'action ou du contrat = 0.5⚠️_A_VERIFIER%
+*   Total = 100⚠️_A_VERIFIER%
+Le curseur de la souris met en évidence "Money management" puis "Analyse fondamentale de l'action ou du contrat" et "Rumeurs et informations financières, etc."]
+
+Le plus important, c'est 70%, c'est le Money Management que vous voyez ici. Et le Money Management, c'est un mot en anglais. En français, on peut dire euh euh le calcul de la de du poids de la position, c'est-à-dire est-ce que je vais risquer 500 dirhams, 1000 dirhams ou 10 000 dirhams ? Bon. Ensuite, on a l'analyse technique et graphique. Bon, ça c'est quand même très important que j'utilise. Puis tout le reste c'est ça se décline. Et vous voyez là, à la fin ici, vous voyez analyse fondamentale de l'action et du contrat, vous avez vu ? J'ai mis 0,5%. Ça veut dire pour moi, c'est vraiment inutile d'écouter des informations pour ça pour pouvoir gagner de l'argent sur les marchés financiers. Ce n'est pas tout le monde qui va vous le dire en Europe, mais moi je le dis. Je dis que ça, ça ne sert à rien. Les rumeurs et les informations financières, ça ne sert absolument à rien parce que de toutes les façons, on va entrer et on va sortir en moins de une minute. Donc, à quoi ça va me servir une information si je rentre et je sors en moins de une minute ? Ça ne sert à rien.
+
+[VISUEL: La diapositive change pour afficher "Money Management (suite)". Un tableau avec deux colonnes : "Perte en %" et "Performance à faire".
+*   Perte en % | Performance à faire
+*   5⚠️_A_VERIFIER | 5,3⚠️_A_VERIFIER
+*   10⚠️_A_VERIFIER | 11,1⚠️_A_VERIFIER
+*   15⚠️_A_VERIFIER | 17,6⚠️_A_VERIFIER
+*   20⚠️_A_VERIFIER | 25⚠️_A_VERIFIER
+*   25⚠️_A_VERIFIER | 33⚠️_A_VERIFIER
+*   30⚠️_A_VERIFIER | 43⚠️_A_VERIFIER
+*   40⚠️_A_VERIFIER | 67⚠️_A_VERIFIER
+*   50⚠️_A_VERIFIER | 100⚠️_A_VERIFIER
+*   75⚠️_A_VERIFIER | 300⚠️_A_VERIFIER
+Le curseur de la souris met en évidence la ligne "50⚠️_A_VERIFIER | 100⚠️_A_VERIFIER" puis "75⚠️_A_VERIFIER | 300⚠️_A_VERIFIER".]
+
+Donc euh alors là maintenant on va on va passer à quelque chose de très sympathique. Euh c'est une petite formule mathématique juste pour vous rappeler quelque chose de très important, c'est que lorsque vous perdez 5%, vous ne devez pas faire 5% pour revenir à zéro, vous devez faire 5,3%. Bon, pour jusqu'à là, ça va. Mais lorsque vous perdez 50% un jour, un client m'a appelé, il m'a dit : "Monsieur Belkhayate, j'ai ouvert un compte avec 100 000 euros, j'ai perdu 50 000 euros. Donnez-moi un marché, donnez-moi un plan, donnez-moi un tuyau pour que je refasse 50%." En fait, lui, il a perdu 50%. Mais pour revenir à zéro, il doit faire 100%. Et c'est cette notion là qui échappe à beaucoup de traders. Et et lorsque par exemple il il il il a perdu 75% de son portefeuille, il doit faire 300%. Donc vous imaginez. C'est très important parce que on doit se rendre compte que en trading, on ne doit absolument pas commencer à perdre, ne serait-ce que un dirham. Il faut se focaliser pour commencer à gagner. Et ensuite, on déroule dans le bon sens. Mais lorsqu'on commence à perdre, il devient de plus en plus difficile de revenir ne serait-ce que au niveau du départ.
+
+Je vous souhaite une bonne réflexion sur sur cette vidéo et vous donne rendez-vous à la vidéo numéro 11 où je vais vous raconter des histoires sympathiques. À très bientôt.
+
+[VISUEL: Outro animée avec des graphiques boursiers en arrière-plan. Le texte "La Méthode Belkhayate POUR UN TRADING PROFESSIONNEL" s'affiche. Ensuite, une citation : "JE COUPE MES PERTES LE PLUS VITE POSSIBLE, LES OUBLIE ET ENSUITE PASSE À AUTRE CHOSE. ED SEYKOTA". Enfin, le texte "Merci pour votre attention ET À LA PROCHAINE VIDEO" apparaît.]

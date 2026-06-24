@@ -1,0 +1,63 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: V20.mp4]
+---
+[VISUEL: Écran de présentation avec le logo "Belkhayate Methode Trading Professionnel" et des graphiques financiers animés en arrière-plan.]
+
+[VISUEL: Écran de trading NinjaTrader avec trois fenêtres "SuperDOM" et un graphique en chandeliers à droite. Belkhayate est visible dans une petite fenêtre en bas à droite.]
+Je vais faire quelques trades pour que vous ayez une idée de de ce que c'est le trading sur les futures. Et je vous ai mis trois marchés différents.
+
+[VISUEL: Belkhayate pointe la fenêtre SuperDOM la plus à droite.]
+J'ai mis ici le pétrole.
+
+[VISUEL: Belkhayate pointe la fenêtre SuperDOM du milieu.]
+Donc et j'ai mis ici le euh le ZN, le fameux ZN, c'est-à-dire le le bon du Trésor américain.
+
+[VISUEL: Belkhayate pointe la fenêtre SuperDOM la plus à gauche.]
+Et ici j'ai mis le S&P.
+
+[VISUEL: Belkhayate pointe la fenêtre SuperDOM du pétrole.]
+Alors, je vous présente un peu les choses. Regardez ici, ici il y a des ordres. Ceux qui veulent acheter, ils mettent leur ordre ici. Ils se positionnent ici. Et là pour le moment, le pétrole il vaut 12,57 dollars. Et ceux qui veulent acheter, ils mettent leurs ordres ici. Et ceux qui veulent vendre, ils mettent leurs ordres ici. D'accord?
+
+[VISUEL: Belkhayate pointe les colonnes de volume des trois SuperDOMs, de droite à gauche.]
+Et euh et ce qu'on remarque c'est que là il y a des la la la les volumes ici sur le pétrole c'est en dizaines. Ici c'est en centaines sur le S&P qui est pourtant l'un des marchés les plus tradés au monde. Et ici c'est en milliers. Autrement dit, le marché le plus sûr, c'est bien celui-là.
+
+[VISUEL: Belkhayate pointe la fenêtre SuperDOM du pétrole, puis le graphique du pétrole.]
+Alors, je comprends pas pourquoi beaucoup de traders vont essayer de gagner de l'argent sur un marché qui est tellement volatil et tellement imprévisible comme le pétrole, comme l'or, euh comme le DAX. Le DAX euh Je comprends pas, il y a beaucoup de gens en Europe, en France qui jouent le DAX, mais le DAX c'est comme si vous voulez, vous prenez une voiture, vous roulez sur de l'huile. Après, le volant, vous faites quoi? Quand vous passez sur l'huile, ça fait ça fait comme ça. Ben c'est ça le DAX.
+
+[VISUEL: Belkhayate pointe le graphique du ZN.]
+Je vais vous montrer comment vous pouvez vous positionner, d'accord? Là par exemple, et comment on peut gagner de l'argent. Regardez par exemple ici, c'est le le contrat du ZN.
+
+[VISUEL: Belkhayate pointe le graphique du ZN, puis la fenêtre SuperDOM du ZN.]
+Et euh ici c'est le ZN. Je vais venir ici sur le ZN et je vais acheter je vais vendre. Je suis ici, je vais vendre. Je vais vous expliquer après pourquoi. Mais je vais vendre au marché. Donc je vends ici.
+[AUDIO: "Order submitted"]
+Voilà, donc je vends ici euh sur ce marché-là. Voilà.
+
+[VISUEL: Belkhayate pointe les trois SuperDOMs et le graphique.]
+Alors, on peut regarder on va essayer de faire les trois. Allez, pour vous faire plaisir. On va trader ensemble ces trois marchés en même temps et on va vous comme ça vous avez une idée de ce que c'est le trading. Mais ça c'est rapide bien sûr on je vais vous enseigner vous enseigner un trading différent.
+
+[VISUEL: Belkhayate ouvre les paramètres du graphique du S&P (le plus à droite), change le timeframe à 5⚠️_A_VERIFIER minutes, puis fait de même pour le graphique du pétrole (celui du milieu).]
+Mais là ça va être attendez, je vais euh je vais je vais faire le le S&P ici. En 5 minutes. Voilà. Voilà le S&P en 5 minutes ici. Et euh et ici je vais mettre le l'or le pétrole en 5 minutes. Voilà. OK. Voilà. Le pétrole ici en 5 minutes. Très bien.
+
+[VISUEL: Belkhayate pointe le graphique du S&P, puis la fenêtre SuperDOM du S&P.]
+Alors, on va revenir sur le sur on va revenir sur le euh le ici le S&P, là ici. C'est celui-là, le S&P, celui-là. Il est en train de pousser. Donc nous ce qu'on va faire, on va acheter ici.
+[AUDIO: "Order submitted"]
+On va acheter celui-là. Et on va dire que nous on veut prendre un tick, 12 dollars 50 le tick. Ici.
+[AUDIO: "Order filled"]
+Il a été exécuté. Voilà, donc on va demander ici.
+[AUDIO: "Order submitted"]
+Regardez ici. On va demander à prendre un tick. D'accord?
+
+[VISUEL: Belkhayate pointe le graphique du pétrole, puis la fenêtre SuperDOM du pétrole.]
+Et ici sur le pétrole, on regarde ce qui se passe sur le pétrole. Le pétrole, il faut vendre.
+[AUDIO: "Order failed"]
+Donc là sur le pétrole, on va vendre.
+[AUDIO: "Order failed"]
+Voilà.
+[AUDIO: "Order failed"]
+On on vend on vend sur le pétrole deux. Voilà.
+[AUDIO: "Order filled"]
+
+[VISUEL: Belkhayate ouvre une nouvelle fenêtre "Market Analyzer" via le menu "New" de NinjaTrader. Il ajoute les trois instruments (CL, ES

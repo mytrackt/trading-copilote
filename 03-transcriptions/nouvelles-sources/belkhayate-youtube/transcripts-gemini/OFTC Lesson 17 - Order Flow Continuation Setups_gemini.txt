@@ -1,0 +1,402 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: OFTC Lesson 17 - Order Flow Continuation Setups.mp4]
+---
+[ATTENTION: qualite video faible — descriptions visuelles a verifier manuellement]
+---
+Voici la transcription détaillée de la vidéo, intégrant l'audio et le contenu visuel :
+
+**00:00-00:10**
+[VISUEL: Écran titre "ORDER FLOW TRADING COURSE – LESSON 17⚠️_A_VERIFIER". Titre principal "ORDER FLOW TRADING COURSE", sous-titre "Lesson 17⚠️_A_VERIFIER: Order Flow Continuation Setups". Par Michael Valtos, Founder - Orderflows.com. En bas, un paragraphe de texte décrivant sa méthode de trading basée sur l'order flow, sans moyennes mobiles, oscillateurs ou bandes, et son expérience de 20⚠️_A_VERIFIER ans de trading de futures au niveau institutionnel.]
+"Okay, this is Order Flow Trading Course, Lesson 17, Order Flow Continuation Setups. My name is Michael Valtos. I'm the founder of Orderflows.com."
+
+**00:10-01:22**
+[VISUEL: Écran "DISCLAIMER". Deux points principaux. Le premier indique que la présentation est à des fins éducatives et informatives uniquement, ne constitue pas une sollicitation d'achat/vente de contrats futures, et que le trading de futures comporte des risques substantiels, pouvant entraîner la perte de l'investissement initial ou plus. Seul le capital à risque devrait être utilisé. Le second point cite les règles 4.41⚠️_A_VERIFIER de la CFTC, précisant que les résultats hypothétiques ou simulés ont des limitations et ne représentent pas les résultats réels, et que les programmes de trading simulés sont conçus avec le bénéfice du recul, sans garantie de profits ou pertes similaires.]
+"Briefly, a quick disclaimer. This presentation is for educational and informational purposes only and should not be considered a solicitation to buy or sell a futures contract or make any other type of investment decision. Futures trading contains substantial risk and is not for every investor. An investor could potentially lose all or more than the initial investment. Risk capital is money that can be lost without jeopardizing one's financial security or life style. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results. CFTC Rules 4.41 - Hypothetical or Simulated performance results have certain limitations, unlike an actual performance record, simulated results do not represent actual trading. Also, since the trades have not been executed, the results may have under-or-over compensated for the impact, if any, of certain market factors, such as lack of liquidity. Simulated trading programs in general are also subject to the fact that they are designed with the benefit of hindsight. No representation is being made that any account will or is likely to achieve profit or losses similar to those shown."
+
+**01:22-02:30**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Trois points :
+- The market spends a majority of the time trending from one price extreme to another.
+- Big money is made in trends.
+- When the market is in the middle of a big move, no one can tell you how long or far it will go. What you want to know is whether it is going to continue or not.]
+"Okay, let's move on. Order Flow Continuation Setups. This is Lesson 17. The market spends a majority of the time trending from one price extreme to another. Big money is made in trends. You always hear about the trend followers, the turtle, trend system. Um, you know, that's great, you know, if you're a long-term trader, but, you know, most people are shorter-term traders. They don't have the big capital behind them that, you know, the big funds have that they can sit on a trend for six months. However, the good news is that trends appear intraday as well. Um, when the market is in the middle of a big move, no one can tell you how long or how far it will go. What you want to know is whether it is going to continue or not. So whether it's a trend on a one-minute chart or a trend on a daily chart or a monthly chart, you don't know when it's going to end, how far it's going to go. What you want to do is, you want to identify that there is a trend and, you know, and jump on board and and try and try and catch your, uh, you know, catch your berries, get your grapes, your pick your low hanging fruit, um, when it's happening."
+
+**02:30-03:45**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Quatre points :
+- Big Fat Market Imbalance
+- Stacked Buying Imbalance
+- Stacked Selling Imbalance
+- 3⚠️_A_VERIFIER In A Row
+Le texte change pour décrire les deux premiers points :
+- Big Fat Market Imbalance occurs when there is an oversized market imbalance.
+- High volume levels are common at the beginning of moves and in the middle of moves and bigger, well funded institutional traders start to come into the market.]
+"So in order flow, I've, I, I have four continuation setups. It's really three, but one's, you know, worded as two. Basically, it's Big Fat Market Imbalance, Stacked Buying Imbalance, or Stacked Selling Imbalance, or what I like to call the three in a row. And, I'll, I'll show you, it's, it's easier to see it, I think, with, uh, with photos. But quickly, I'll just explain it. A Big Fat Market Imbalance occurs when there is an oversized market imbalance. High volume levels are common at the beginning of moves and in the middle of moves and bigger, well funded institutional traders start to come into the market. So what that means is, you know, a market has turned, okay? It's, it's reached its low or reached its high and it's starting to move in the opposite direction. A reversal has started. And, you know, the reversal is going to be the beginning of the trend. Well, how do you know the trend is starting to pick up steam? Is when you see, you know, the big players come in and, you know, build their position up, whether it's a, you know, they're building their position up on on a long side or the short side. Sometimes they"
+
+**03:45-07:18**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (Range) Bar.100⚠️_A_VERIFIER". Il s'agit d'un graphique de flux d'ordres pour l'E-mini S&P 500⚠️_A_VERIFIER. Les chiffres bleus indiquent les achats agressifs, les chiffres rouges les ventes agressives. Des flèches rouges pointent vers le bas et des flèches vertes vers le haut, indiquant des déséquilibres.
+- À 05⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat important (chiffre bleu) en bas d'une barre verte, avec un volume de "2800⚠️_A_VERIFIER" visible.
+- À 05⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 05⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 06⚠️_A_VERIFIER:15⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente (chiffre rouge) en haut d'une barre rouge, avec un volume de "2000⚠️_A_VERIFIER" visible.
+- À 06⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 06⚠️_A_VERIFIER:48⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente (chiffre rouge) en haut d'une barre rouge.
+- À 07⚠️_A_VERIFIER:05⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 07⚠️_A_VERIFIER:10⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente (chiffre rouge) en haut d'une barre rouge.]
+"get on board and you can see it really clearly in the order flow. Um, is it in a normal bar chart, you wouldn't see it. But, you know, for example, okay, so I like to think it's easier to explain things when you have a picture of a chart in front of you. So, I'll talk about the big fat market imbalance. Now, when you're trading a market, you should know what's considered big volume, uh, you know, when it goes through. So you could determine if there's, you know, uh, institutional participant participation or not. So, you know, for E-mini S&Ps, I tend to look at, you know, volume between, you know, 50 and, you know, 2,000, that's kind of normal. Once you start getting above 2,500, to me that's, you know, really big size going through. At least the beginning of big size. And, you know, especially on a five-range chart, that moves very fast. You know, if I'm seeing imbalances, if I'm seeing bars with volume over, uh, you know, 2,500, you know, I'm starting to pay it, I'm starting to pay attention because, you know, someone has got size, they're moving, um, on both sides. You know, like, to see a, to see a price level where you got, you know, over 2,000, 2,500, it's saying that, you know, even though there's an active buyer, there's still an active seller. Now, when I see an imbalance above 2,500, you know, then I really stand and pay attention and I usually take a trade. So here you see a big imbalance, 2,800. You know, as the market's going up, um, you know, you're not going to necessarily see that on on a low of a move. You tend to find, you know, the imbalances going in your direction of the trend. Um, you know, not necessarily, you know, when you're going up, when, you know, you want to see aggressive buying. You're not going to all of a sudden start go up, up, up, up, up and on your move up, have aggressive selling because there's going to be people bidding the market, there's going to be people buying the offer. Generally, on a move up, you're going to have people buying the offer, being aggressive. That's why you should see buying imbalances. On a move down, you should be seeing selling imbalances. But when you see a number that really stands out, here 2,800, you know, it's blue, it's a buying imbalance, you know, it's against 480. It's telling me, you know, there was some size there, but people were extremely aggressive and lifted the offer. You know, it could have been one person, it could have been a couple people, who knows? But the fact is, it didn't spend much time, you know, at these levels. It traded here, it went bid here and traded higher. You know, you get a selling imbalance up here of 2,000. Okay, you know, it's, it's big, but, you know, it's just sort of on the borderline of average to big. Um, and it's not uncommon to get a selling imbalance just off of a high, especially in a red bar because the market's going to go bid and it's going to trade back and forth. Lots of times you're going to get smaller volume traded right up on the high of a red bar. Just as, you know, in a green candle, it's, it's very common to get a buying imbalance on the second slot, um, just off the low. You know, these are normal occurrences. Just like you have this buying imbalance here, you have this selling imbalance here, here you have the selling imbalance. It's just sort of how the market trades. Often times, you know, I said at the bottom of a green candle, you tend to get smaller volume. So it's not uncommon to get the imbalance. You know, here you have the imbalance again. So I'm not too concerned with it, you know, as opposed to when I see a big number sticking out in the middle."
+
+**07:18-10:51**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Le texte change pour décrire le point "3⚠️_A_VERIFIER In A Row" :
+- 3⚠️_A_VERIFIER In A Row occurs when 3⚠️_A_VERIFIER ratios in a row occur in the same direction. Look to get in after the 3rd bar with a ratio. Your entry should be somewhere between the POC levels in the 2nd and 3rd bars.
+Le graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (Range) Bar.100⚠️_A_VERIFIER" réapparaît. Il s'agit d'un graphique de flux d'ordres pour l'E-mini S&P 500⚠️_A_VERIFIER.
+- À 07⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers trois chiffres bleus empilés (déséquilibres d'achat) en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:08⚠️_A_VERIFIER, il pointe vers quatre chiffres bleus empilés en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:45⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+Le texte change à nouveau :
+- Often times it takes a lot to get a market to move outside of a trading range and start a trend. Once the market starts a trend the forces behind the move often appear in the order flow to confirm the move. That the move will continue.]
+"Okay, the next continuation setup is what I call the three in a row. The three in a row occurs when three ratios in a row occur in the same direction. Look to get in after the third bar with a ratio. Your entry should be somewhere between the POC levels in the second and third bars. What it looks like is this. You have ratio, ratio, ratio. I'm not necessarily concerned about this buying imbalance, it's nice to see. But, you know, normally you don't get also a buying imbalance or a selling imbalance in your three in a row. What you're really concerned with is the ratios. And, you know, it doesn't have to be a ratio balance low, small print, you know, seeing small print or anything like that. As long as there's three blue numbers, you know, it could be single print, single print, single print, it could be large print, single print, small print. Um, it, it doesn't really matter. What I'm really concerned about is, is having three ratios in a row. And, you know, like this, I could just sort of walk you through it real quick. You have a ratio balance low. So, it's heavy volume down here. And the market starts rallying. You get a single print. You know, the, the sellers in this bar are rejecting the lower prices. That's why you have the single print. You know, the market goes higher. You, this one is technically a ratio balance low, but it's close to a single print. But again, you know, the sellers are rejecting the lower prices down here and the market continues on higher. Really what's important is, you know, have one, two, three blue numbers in a row, or, you know, on a down-moving market, if they're up above the red bars. Where your point of entry is, it's somewhere, you know, between these two points of controls, um, between the third bar and the second bar. You, you want to get a little bit of a pullback for a better entry. There's going to be times where it just continues on and you miss your entry, but, you know, I'd prefer to have a little bit of wiggle room by, you know, getting a better entry rather than just paying the market. So, a continuation pattern allows you to find an entry point in an existing trend. Trends are where big money is made in trading, so it is to your benefit to jump in a trend. Some traders base their entire trading program on just jumping along for the ride. So, it will benefit you to have a few continuation pattern setups to look for. Uh, you know, I mean, like I said, you know, the, these, these, some of these hedge funds and CTAs that have been around for 20, 30 years are trend followers. Um, you know, they, you know, they're not trying to pick tops and bottoms. They just want to identify when a trend is occurring and ride it for as long as they can. Um, you know, these guys, that's why they trade, you know, 50, 60 different markets around the world. They're looking for the six or seven or eight markets a year that have the monster trends where they're going to make up all their money. That's why, you know, they're willing to take a bunch of small losses, but their winners is going to be, uh, quite big."
+
+**10:51-13:48**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Le texte change pour décrire le point "3⚠️_A_VERIFIER In A Row" :
+- 3⚠️_A_VERIFIER In A Row occurs when 3⚠️_A_VERIFIER ratios in a row occur in the same direction. Look to get in after the 3rd bar with a ratio. Your entry should be somewhere between the POC levels in the 2nd and 3rd bars.
+Le graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (Range) Bar.100⚠️_A_VERIFIER" réapparaît. Il s'agit d'un graphique de flux d'ordres pour l'E-mini S&P 500⚠️_A_VERIFIER.
+- À 07⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers trois chiffres bleus empilés (déséquilibres d'achat) en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:08⚠️_A_VERIFIER, il pointe vers quatre chiffres bleus empilés en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:45⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+Le texte change à nouveau :
+- Often times it takes a lot to get a market to move outside of a trading range and start a trend. Once the market starts a trend the forces behind the move often appear in the order flow to confirm the move. That the move will continue.]
+"Okay, the next continuation setup is what I call the three in a row. The three in a row occurs when three ratios in a row occur in the same direction. Look to get in after the third bar with a ratio. Your entry should be somewhere between the POC levels in the second and third bars. What it looks like is this. You have ratio, ratio, ratio. I'm not necessarily concerned about this buying imbalance, it's nice to see. But, you know, normally you don't get also a buying imbalance or a selling imbalance in your three in a row. What you're really concerned with is the ratios. And, you know, it doesn't have to be a ratio balance low, small print, you know, seeing small print or anything like that. As long as there's three blue numbers, you know, it could be single print, single print, single print, it could be large print, single print, small print. Um, it, it doesn't really matter. What I'm really concerned about is, is having three ratios in a row. And, you know, like this, I could just sort of walk you through it real quick. You have a ratio balance low. So, it's heavy volume down here. And the market starts rallying. You get a single print. You know, the, the sellers in this bar are rejecting the lower prices. That's why you have the single print. You know, the market goes higher. You, this one is technically a ratio balance low, but it's close to a single print. But again, you know, the sellers are rejecting the lower prices down here and the market continues on higher. Really what's important is, you know, have one, two, three blue numbers in a row, or, you know, on a down-moving market, if they're up above the red bars. Where your point of entry is, it's somewhere, you know, between these two points of controls, um, between the third bar and the second bar. You, you want to get a little bit of a pullback for a better entry. There's going to be times where it just continues on and you miss your entry, but, you know, I'd prefer to have a little bit of wiggle room by, you know, getting a better entry rather than just paying the market. So, a continuation pattern allows you to find an entry point in an existing trend. Trends are where big money is made in trading, so it is to your benefit to jump in a trend. Some traders base their entire trading program on just jumping along for the ride. So, it will benefit you to have a few continuation pattern setups to look for. Uh, you know, I mean, like I said, you know, the, these, these, some of these hedge funds and CTAs that have been around for 20, 30 years are trend followers. Um, you know, they, you know, they're not trying to pick tops and bottoms. They just want to identify when a trend is occurring and ride it for as long as they can. Um, you know, these guys, that's why they trade, you know, 50, 60 different markets around the world. They're looking for the six or seven or eight markets a year that have the monster trends where they're going to make up all their money. That's why, you know, they're willing to take a bunch of small losses, but their winners is going to be, uh, quite big."
+
+**13:48-14:12**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Un seul point :
+- When a trend is underway and there is a pattern telling you to buy – YOU BUY!]
+"So, when a trend is underway and there is a pattern telling you to buy – YOU BUY! Just as if there was something the market is telling you to sell, you sell. Um, especially in a trend, you know, you want to ride the trend because, you know, when the market moves from a low to a high, and you're not in on it, you know, you, you feel like an idiot. But, you know, I mean, you still need a reason to, to get into the trade."
+
+**14:12-14:45**
+[VISUEL: Graphique NinjaTrader "ZB 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (4⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Il s'agit d'un graphique de flux d'ordres pour les obligations (Bonds). Le graphique montre une tendance haussière.
+- À 14⚠️_A_VERIFIER:18⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:24⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:32⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:37⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.]
+"All right, so, let's take a look at a chart. Here you have a bond chart. We came into the low at 11:45. You have a single print. Then, you know, 30 minutes later, you have another single print. So now you're sort of convinced yourself that the trend is up. All right, that we're starting to move away. Where's your continuation pattern? You come back down to the same level, it holds. And then you're starting to see, you know, as you're moving up, you're starting to see confirmation with single print, single print, and the market moves higher."
+
+**14:45-16:28**
+[VISUEL: Graphique NinjaTrader "ZB 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (4⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance baissière.
+- À 14⚠️_A_VERIFIER:53⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:00⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:11⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:13⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:16⚠️_A_VERIFIER, il pointe vers deux single prints opposés (un bleu, un rouge) sur deux barres différentes.
+- À 15⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un point de contrôle (POC) en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:24⚠️_A_VERIFIER, il pointe vers un POC en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un POC en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:38⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un large print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:42⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:44⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:47⚠️_A_VERIFIER, il pointe vers deux single prints opposés sur deux barres différentes.
+- À 15⚠️_A_VERIFIER:49⚠️_A_VERIFIER, il pointe vers des points de contrôle alignés en haut de plusieurs barres rouges.
+- À 15⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un delta négatif en bas d'une barre rouge.
+- À 15⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers un petit delta positif en bas d'une barre verte.
+- À 16⚠️_A_VERIFIER:05⚠️_A_VERIFIER, il pointe vers un delta positif fort en bas d'une barre verte.
+- À 16⚠️_A_VERIFIER:08⚠️_A_VERIFIER, il pointe vers trois ratios en haut de barres rouges.
+- À 16⚠️_A_VERIFIER:10⚠️_A_VERIFIER, il pointe vers deux ratios en haut de barres rouges.
+- À 16⚠️_A_VERIFIER:12⚠️_A_VERIFIER, il pointe vers des points de contrôle en haut de barres rouges.
+- À 16⚠️_A_VERIFIER:15⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:17⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"This one's a little bit more messy, but nevertheless, I'll talk about it. We sort of peaked up here at 10:18 in the bonds and start coming down. You have a ratio here of 0.53. Then the market proceeds to go sideways. Now, you know, I know the high is here and what's happening is you're starting to get a couple ratios here, a couple ratios here. It's kind of hard to really get a good gauge on on which way the market's going to go. So, what I'm looking at is where the points of controls are. Now, I know the points of control here, here, here. I talked about earlier, you know, using points of controls as support or resistance. So, in this case, I'm using, I think the market is in a downtrend because, you know, I know we have a high here and I see this ratio balance low. Even though you have a single print here, a large print here, but you have opposing single prints just on the other side of these two. But what's interesting is you have the points of controls all lining up right here. You know, so now I'm not too concerned about these, you know, because this one still has a negative delta, this one has a small positive delta. You know, if I'm expecting the market to really move higher, I want to see a strong positive delta. So, you know, I'm able to take this ratio, this ratio, this ratio more seriously than these two. In fact, I got the points of controls here. You know, I'm still looking for a downtrend. I'm still looking for the market to move lower. And then I'm seeing a few more confirmation ratios here. You know, uh, ratio balance low and a single print. You know, so it's telling me, you know, the move should be lower."
+
+**16:28-17:25**
+[VISUEL: Graphique NinjaTrader "ZB 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (4⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance baissière continue.
+- À 16⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:36⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:41⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:45⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:51⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:52⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:53⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:54⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:55⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:57⚠️_A_VERIFIER, il pointe vers un delta négatif fort en bas d'une barre rouge.
+- À 17⚠️_A_VERIFIER:00⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:02⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:08⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:12⚠️_A_VERIFIER, il pointe vers un delta négatif fort en bas d'une barre rouge.
+- À 17⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:16⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:18⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Again, this is the bond. And, you know, you hit the high and we start working our way down. You're seeing the single prints here with nice ratios, 77, 82. And, you know, you're thinking already the trend is, is, you know, lower. You know, maybe you're not convinced yet, you know, you want a little bit extra. But, you know, you're seeing the selling imbalances, selling imbalance, selling imbalance, selling imbalance, selling imbalance. You know, if you're still not convinced, this bar here has got a very strong negative delta. And then immediately it's followed by a bar with a single print. So, it's telling you, you know, I said, you should have been alert up way up here. But, you know, we're in a trend already. So, you're looking for a sign of continuation. You're seeing a delta very strong. You're seeing a lot of selling imbalances. You're seeing the single print to help confirm the ratio, sorry, to help confirm the move lower."
+
+**17:25-18:39**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (5⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance haussière.
+- À 17⚠️_A_VERIFIER:29⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:35⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:42⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:45⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:00⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:03⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:15⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:32⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:35⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Okay, now this is an E-mini chart. Now, we've come down into our low here. We got a buying imbalance right on the low. Okay, maybe you're not yet convinced that this is the low. You want to see the trend start to happen before getting in. Then, boom, you get this other ratio balance low here, indicating some stopping volume. And then you get another buying imbalance. You know, and the market worked its way back up. S&Ps again. We're working our way lower. You know, we got a ratio balance low, some heavy volume here. We got a single print. You get a pullback up to the single print. Okay, you know, you know you're working your way lower. You get a pullback. You know, you're saying, well, you know, I'm not sure if we're going if this is a pullback or we're just going to go higher. So, you want to have some extra confirmation. Now you have it. You have the selling imbalance and the market sells off. This by itself, where we retrace back up to the single print for me is, is a good, is normally a good trade. I, I like it when the market circles back up to a single print, um, you know, to get short. You know, then when I see a selling imbalance, you know, then it tells me to hold on to the trade, uh, a bit longer."
+
+**18:39-20:05**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (5⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance haussière.
+- À 18⚠️_A_VERIFIER:44⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:47⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:52⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:01⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:05⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:10⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:17⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:35⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:38⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:43⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:47⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:55⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Okay, so, you know, we're working our way up. Nice, you know, ratios here, blue prints. It's telling you we're in a trend already. You know, you really should have been looking to get long in here. You know, say you missed it. You're looking for another reason to get long that the trend is going to keep continuing. And, what do you have? You got buying imbalance here. You know, I'm usually not a big person to get long in a buying imbalance. But, you know what, this is one of those cases where if you have a tight stop, you know, I usually like to get long in a buying imbalance. I'd prefer to get a little bit lower though. Um, you know, but if you have a tight stop, you can manage it and, you know, it's going to give you a chance to get back in on the move back up. Like I said, you have this high here with the ratio, single print, sort of standing in your way. But, you know what, if you're able to get in somewhere down here, you know, your risk is relatively low because usually I like to see a pullback up to this level. So, you know, if you're going to get a pullback up to that level, you could have a chance to get past it. You know, sometimes it's, it's hard to sell a high, um, just off of a single print and a ratio and a negative delta. But, you know, there are times when it doesn't work. And, you know, if you're looking for a continuation of a trend, then it's going to happen. That one made no sense."
+
+**20:05-20:33**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (5⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance baissière.
+- À 20⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers deux déséquilibres de vente empilés en haut de barres rouges.
+- À 20⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers deux déséquilibres de vente empilés en haut de barres rouges.
+- À 20⚠️_A_VERIFIER:18⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:25⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:28⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Okay, now what do you have here? You got E-mini chart. Market's coming down, down, down. You got a couple selling imbalances right in a row. You know, this is, I like this where you get two selling imbalances split over two bars. You get the pullback up here and a single print. And then the market sells off. You know, when you're seeing selling imbalances, you know, going into a low, you might want to be careful. But you want, if you get a pullback in there, you know, it's telling you that these most likely are going to hold and the market's going to continue lower."
+
+**20:33-20:46**
+[VISUEL: Graphique NinjaTrader "CL 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (987⚠️_A_VERIFIER Tick) Bar.100⚠️_A_VERIFIER". Il s'agit d'un graphique de flux d'ordres pour le pétrole brut (Crude Oil). Le graphique montre une tendance baissière.
+- À 20⚠️_A_VERIFIER:36⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:42⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.]
+"And again, we had sort of coming off our high up here. We got a selling imbalance. Then you're seeing the confirmation with the ratios, the blue numbers as the market's moving lower."
+
+**20:46-22:12**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Un seul point :
+- This is the end of lesson 17⚠️_A_VERIFIER. In the next lesson I will explain and show you how to integrate order flow with traditional technical analysis to help enhance your current ways of trading.
+Le texte change pour "THANK YOU by: MICHAEL VALTOS FOUNDER - ORDERFLOWS.COM". En bas : "To learn more about trading with order flow software used in this course be sure to visit: WWW.ORDERFLOWS.COM".]
+"So, this is the end of Lesson 17, continuation setups. In the next lesson, I will explain and show you how to integrate order flow with your traditional technical analysis to enhance your current ways of trading. You know, I didn't spend much time under continuation setups because, you know, you should, it should be pretty, pretty easy, I think, for you to spot. You know, I gave you a few setups that I like to look for. But in general, you're still looking for the same things that you're looking for around reversals. You know, with continuations, it's generally because you missed the reversal sign and you're looking, you're getting in just a little bit late, um, on the continuation. But, I mean, you should be always be looking for, you know, any setups where they're occurring. Just take them into context with where the market is. Um, you know, if the market is trending, it's okay to take the setups. If the market is going sideways, you know, I'm a bit hesitant to take setups. Um, you know, I said, I, I want a market to be moving, not basically spinning its wheels. Um, you know, when a market's moving is when you're going to have the opportunity to make money. So, the important thing is, you know, just be able to determine when the market is moving. And if you're seeing a setup, take it. If the market is not moving and you see a setup, be hesitant. So, thank you. That's the end of Lesson 17."Okay, voici la transcription détaillée de la vidéo, intégrant l'audio et le contenu visuel :
+
+**00:00-00:10**
+[VISUEL: Écran titre "ORDER FLOW TRADING COURSE – LESSON 17⚠️_A_VERIFIER". Titre principal "ORDER FLOW TRADING COURSE", sous-titre "Lesson 17⚠️_A_VERIFIER: Order Flow Continuation Setups". Par Michael Valtos, Founder - Orderflows.com. En bas, un paragraphe de texte décrivant sa méthode de trading basée sur l'order flow, sans moyennes mobiles, oscillateurs ou bandes, et son expérience de 20⚠️_A_VERIFIER ans de trading de futures au niveau institutionnel.]
+"Okay, this is Order Flow Trading Course, Lesson 17, Order Flow Continuation Setups. My name is Michael Valtos. I'm the founder of Orderflows.com."
+
+**00:10-01:22**
+[VISUEL: Écran "DISCLAIMER". Deux points principaux. Le premier indique que la présentation est à des fins éducatives et informatives uniquement, ne constitue pas une sollicitation d'achat/vente de contrats futures, et que le trading de futures comporte des risques substantiels, pouvant entraîner la perte de l'investissement initial ou plus. Seul le capital à risque devrait être utilisé. Le second point cite les règles 4.41⚠️_A_VERIFIER de la CFTC, précisant que les résultats hypothétiques ou simulés ont des limitations et ne représentent pas les résultats réels, et que les programmes de trading simulés sont conçus avec le bénéfice du recul, sans garantie de profits ou pertes similaires.]
+"Briefly, a quick disclaimer. This presentation is for educational and informational purposes only and should not be considered a solicitation to buy or sell a futures contract or make any other type of investment decision. Futures trading contains substantial risk and is not for every investor. An investor could potentially lose all or more than the initial investment. Risk capital is money that can be lost without jeopardizing one's financial security or life style. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results. CFTC Rules 4.41 - Hypothetical or Simulated performance results have certain limitations, unlike an actual performance record, simulated results do not represent actual trading. Also, since the trades have not been executed, the results may have under-or-over compensated for the impact, if any, of certain market factors, such as lack of liquidity. Simulated trading programs in general are also subject to the fact that they are designed with the benefit of hindsight. No representation is being made that any account will or is likely to achieve profit or losses similar to those shown."
+
+**01:22-02:30**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Trois points :
+- The market spends a majority of the time trending from one price extreme to another.
+- Big money is made in trends.
+- When the market is in the middle of a big move, no one can tell you how long or far it will go. What you want to know is whether it is going to continue or not.]
+"Okay, let's move on. Order Flow Continuation Setups. This is Lesson 17. The market spends a majority of the time trending from one price extreme to another. Big money is made in trends. You always hear about the trend followers, the turtle, trend system. Um, you know, that's great, you know, if you're a long-term trader, but, you know, most people are shorter-term traders. They don't have the big capital behind them that, you know, the big funds have that they can sit on a trend for six months. However, the good news is that trends appear intraday as well. Um, when the market is in the middle of a big move, no one can tell you how long or how far it will go. What you want to know is whether it is going to continue or not. So whether it's a trend on a one-minute chart or a trend on a daily chart or a monthly chart, you don't know when it's going to end, how far it's going to go. What you want to do is, you want to identify that there is a trend and, you know, and jump on board and and try and try and catch your, uh, you know, catch your berries, get your grapes, your pick your low hanging fruit, um, when it's happening."
+
+**02:30-03:45**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Quatre points :
+- Big Fat Market Imbalance
+- Stacked Buying Imbalance
+- Stacked Selling Imbalance
+- 3⚠️_A_VERIFIER In A Row
+Le texte change pour décrire les deux premiers points :
+- Big Fat Market Imbalance occurs when there is an oversized market imbalance.
+- High volume levels are common at the beginning of moves and in the middle of moves and bigger, well funded institutional traders start to come into the market.]
+"So in order flow, I've, I, I have four continuation setups. It's really three, but one's, you know, worded as two. Basically, it's Big Fat Market Imbalance, Stacked Buying Imbalance, or Stacked Selling Imbalance, or what I like to call the three in a row. And, I'll, I'll show you, it's, it's easier to see it, I think, with, uh, with photos. But quickly, I'll just explain it. A Big Fat Market Imbalance occurs when there is an oversized market imbalance. High volume levels are common at the beginning of moves and in the middle of moves and bigger, well funded institutional traders start to come into the market. So what that means is, you know, a market has turned, okay? It's, it's reached its low or reached its high and it's starting to move in the opposite direction. A reversal has started. And, you know, the reversal is going to be the beginning of the trend. Well, how do you know the trend is starting to pick up steam? Is when you see, you know, the big players come in and, you know, build their position up, whether it's a, you know, they're building their position up on on a long side or the short side. Sometimes they"
+
+**03:45-07:18**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (Range) Bar.100⚠️_A_VERIFIER". Il s'agit d'un graphique de flux d'ordres pour l'E-mini S&P 500⚠️_A_VERIFIER. Les chiffres bleus indiquent les achats agressifs, les chiffres rouges les ventes agressives. Des flèches rouges pointent vers le bas et des flèches vertes vers le haut, indiquant des déséquilibres.
+- À 05⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat important (chiffre bleu) en bas d'une barre verte, avec un volume de "2800⚠️_A_VERIFIER" visible.
+- À 05⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 05⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 06⚠️_A_VERIFIER:15⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente (chiffre rouge) en haut d'une barre rouge, avec un volume de "2000⚠️_A_VERIFIER" visible.
+- À 06⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 06⚠️_A_VERIFIER:48⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente (chiffre rouge) en haut d'une barre rouge.
+- À 07⚠️_A_VERIFIER:05⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat (chiffre bleu) en bas d'une barre verte.
+- À 07⚠️_A_VERIFIER:10⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente (chiffre rouge) en haut d'une barre rouge.]
+"get on board and you can see it really clearly in the order flow. Um, is it in a normal bar chart, you wouldn't see it. But, you know, for example, okay, so I like to think it's easier to explain things when you have a picture of a chart in front of you. So, I'll talk about the big fat market imbalance. Now, when you're trading a market, you should know what's considered big volume, uh, you know, when it goes through. So you could determine if there's, you know, uh, institutional participant participation or not. So, you know, for E-mini S&Ps, I tend to look at, you know, volume between, you know, 50 and, you know, 2,000, that's kind of normal. Once you start getting above 2,500, to me that's, you know, really big size going through. At least the beginning of big size. And, you know, especially on a five-range chart, that moves very fast. You know, if I'm seeing imbalances, if I'm seeing bars with volume over, uh, you know, 2,500, you know, I'm starting to pay it, I'm starting to pay attention because, you know, someone has got size, they're moving, um, on both sides. You know, like, to see a, to see a price level where you got, you know, over 2,000, 2,500, it's saying that, you know, even though there's an active buyer, there's still an active seller. Now, when I see an imbalance above 2,500, you know, then I really stand and pay attention and I usually take a trade. So here you see a big imbalance, 2,800. You know, as the market's going up, um, you know, you're not going to necessarily see that on on a low of a move. You tend to find, you know, the imbalances going in your direction of the trend. Um, you know, not necessarily, you know, when you're going up, when, you know, you want to see aggressive buying. You're not going to all of a sudden start go up, up, up, up, up and on your move up, have aggressive selling because there's going to be people bidding the market, there's going to be people buying the offer. Generally, on a move up, you're going to have people buying the offer, being aggressive. That's why you should see buying imbalances. On a move down, you should be seeing selling imbalances. But when you see a number that really stands out, here 2,800, you know, it's blue, it's a buying imbalance, you know, it's against 480. It's telling me, you know, there was some size there, but people were extremely aggressive and lifted the offer. You know, it could have been one person, it could have been a couple people, who knows? But the fact is, it didn't spend much time, you know, at these levels. It traded here, it went bid here and traded higher. You know, you get a selling imbalance up here of 2,000. Okay, you know, it's, it's big, but, you know, it's just sort of on the borderline of average to big. Um, and it's not uncommon to get a selling imbalance just off of a high, especially in a red bar because the market's going to go bid and it's going to trade back and forth. Lots of times you're going to get smaller volume traded right up on the high of a red bar. Just as, you know, in a green candle, it's, it's very common to get a buying imbalance on the second slot, um, just off the low. You know, these are normal occurrences. Just like you have this buying imbalance here, you have this selling imbalance here, here you have the selling imbalance. It's just sort of how the market trades. Often times, you know, I said at the bottom of a green candle, you tend to get smaller volume. So it's not uncommon to get the imbalance. You know, here you have the imbalance again. So I'm not too concerned with it, you know, as opposed to when I see a big number sticking out in the middle."
+
+**07:18-10:51**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Le texte change pour décrire le point "3⚠️_A_VERIFIER In A Row" :
+- 3⚠️_A_VERIFIER In A Row occurs when 3⚠️_A_VERIFIER ratios in a row occur in the same direction. Look to get in after the 3rd bar with a ratio. Your entry should be somewhere between the POC levels in the 2nd and 3rd bars.
+Le graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (Range) Bar.100⚠️_A_VERIFIER" réapparaît. Il s'agit d'un graphique de flux d'ordres pour l'E-mini S&P 500⚠️_A_VERIFIER.
+- À 07⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers trois chiffres bleus empilés (déséquilibres d'achat) en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:08⚠️_A_VERIFIER, il pointe vers quatre chiffres bleus empilés en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:45⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 08⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 09⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+Le texte change à nouveau :
+- Often times it takes a lot to get a market to move outside of a trading range and start a trend. Once the market starts a trend the forces behind the move often appear in the order flow to confirm the move. That the move will continue.]
+"Okay, the next continuation setup is what I call the three in a row. The three in a row occurs when three ratios in a row occur in the same direction. Look to get in after the third bar with a ratio. Your entry should be somewhere between the POC levels in the second and third bars. What it looks like is this. You have ratio, ratio, ratio. I'm not necessarily concerned about this buying imbalance, it's nice to see. But, you know, normally you don't get also a buying imbalance or a selling imbalance in your three in a row. What you're really concerned with is the ratios. And, you know, it doesn't have to be a ratio balance low, small print, you know, seeing small print or anything like that. As long as there's three blue numbers, you know, it could be single print, single print, single print, it could be large print, single print, small print. Um, it, it doesn't really matter. What I'm really concerned about is, is having three ratios in a row. And, you know, like this, I could just sort of walk you through it real quick. You have a ratio balance low. So, it's heavy volume down here. And the market starts rallying. You get a single print. You know, the, the sellers in this bar are rejecting the lower prices. That's why you have the single print. You know, the market goes higher. You, this one is technically a ratio balance low, but it's close to a single print. But again, you know, the sellers are rejecting the lower prices down here and the market continues on higher. Really what's important is, you know, have one, two, three blue numbers in a row, or, you know, on a down-moving market, if they're up above the red bars. Where your point of entry is, it's somewhere, you know, between these two points of controls, um, between the third bar and the second bar. You, you want to get a little bit of a pullback for a better entry. There's going to be times where it just continues on and you miss your entry, but, you know, I'd prefer to have a little bit of wiggle room by, you know, getting a better entry rather than just paying the market. So, a continuation pattern allows you to find an entry point in an existing trend. Trends are where big money is made in trading, so it is to your benefit to jump in a trend. Some traders base their entire trading program on just jumping along for the ride. So, it will benefit you to have a few continuation pattern setups to look for. Uh, you know, I mean, like I said, you know, the, these, these, some of these hedge funds and CTAs that have been around for 20, 30 years are trend followers. Um, you know, they, you know, they're not trying to pick tops and bottoms. They just want to identify when a trend is occurring and ride it for as long as they can. Um, you know, these guys, that's why they trade, you know, 50, 60 different markets around the world. They're looking for the six or seven or eight markets a year that have the monster trends where they're going to make up all their money. That's why, you know, they're willing to take a bunch of small losses, but their winners is going to be, uh, quite big."
+
+**13:48-14:12**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Un seul point :
+- When a trend is underway and there is a pattern telling you to buy – YOU BUY!]
+"So, when a trend is underway and there is a pattern telling you to buy – YOU BUY! Just as if there was something the market is telling you to sell, you sell. Um, especially in a trend, you know, you want to ride the trend because, you know, when the market moves from a low to a high, and you're not in on it, you know, you, you feel like an idiot. But, you know, I mean, you still need a reason to, to get into the trade."
+
+**14:12-14:45**
+[VISUEL: Graphique NinjaTrader "ZB 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (4⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Il s'agit d'un graphique de flux d'ordres pour les obligations (Bonds). Le graphique montre une tendance haussière.
+- À 14⚠️_A_VERIFIER:18⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:24⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:32⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:37⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 14⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.]
+"All right, so, let's take a look at a chart. Here you have a bond chart. We came into the low at 11:45. You have a single print. Then, you know, 30 minutes later, you have another single print. So now you're sort of convinced yourself that the trend is up. All right, that we're starting to move away. Where's your continuation pattern? You come back down to the same level, it holds. And then you're starting to see, you know, as you're moving up, you're starting to see confirmation with single print, single print, and the market moves higher."
+
+**14:45-16:28**
+[VISUEL: Graphique NinjaTrader "ZB 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (4⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance baissière.
+- À 14⚠️_A_VERIFIER:53⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:00⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:11⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:13⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:16⚠️_A_VERIFIER, il pointe vers deux single prints opposés (un bleu, un rouge) sur deux barres différentes.
+- À 15⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un point de contrôle (POC) en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:24⚠️_A_VERIFIER, il pointe vers un POC en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un POC en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:38⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un large print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:42⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:44⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 15⚠️_A_VERIFIER:47⚠️_A_VERIFIER, il pointe vers deux single prints opposés sur deux barres différentes.
+- À 15⚠️_A_VERIFIER:49⚠️_A_VERIFIER, il pointe vers des points de contrôle alignés en haut de plusieurs barres rouges.
+- À 15⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un delta négatif en bas d'une barre rouge.
+- À 15⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers un petit delta positif en bas d'une barre verte.
+- À 16⚠️_A_VERIFIER:05⚠️_A_VERIFIER, il pointe vers un delta positif fort en bas d'une barre verte.
+- À 16⚠️_A_VERIFIER:08⚠️_A_VERIFIER, il pointe vers trois ratios en haut de barres rouges.
+- À 16⚠️_A_VERIFIER:10⚠️_A_VERIFIER, il pointe vers deux ratios en haut de barres rouges.
+- À 16⚠️_A_VERIFIER:12⚠️_A_VERIFIER, il pointe vers des points de contrôle en haut de barres rouges.
+- À 16⚠️_A_VERIFIER:15⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:17⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"This one's a little bit more messy, but nevertheless, I'll talk about it. We sort of peaked up here at 10:18 in the bonds and start coming down. You have a ratio here of 0.53. Then the market proceeds to go sideways. Now, you know, I know the high is here and what's happening is you're starting to get a couple ratios here, a couple ratios here. It's kind of hard to really get a good gauge on on which way the market's going to go. So, what I'm looking at is where the points of controls are. Now, I know the points of control here, here, here. I talked about earlier, you know, using points of controls as support or resistance. So, in this case, I'm using, I think the market is in a downtrend because, you know, I know we have a high here and I see this ratio balance low. Even though you have a single print here, a large print here, but you have opposing single prints just on the other side of these two. But what's interesting is you have the points of controls all lining up right here. You know, so now I'm not too concerned about these, you know, because this one still has a negative delta, this one has a small positive delta. You know, if I'm expecting the market to really move higher, I want to see a strong positive delta. So, you know, I'm able to take this ratio, this ratio, this ratio more seriously than these two. In fact, I got the points of controls here. You know, I'm still looking for a downtrend. I'm still looking for the market to move lower. And then I'm seeing a few more confirmation ratios here. You know, uh, ratio balance low and a single print. You know, so it's telling me, you know, the move should be lower."
+
+**16:28-17:25**
+[VISUEL: Graphique NinjaTrader "ZB 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (4⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance baissière continue.
+- À 16⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:36⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:41⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:45⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:51⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:52⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:53⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:54⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:55⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 16⚠️_A_VERIFIER:57⚠️_A_VERIFIER, il pointe vers un delta négatif fort en bas d'une barre rouge.
+- À 17⚠️_A_VERIFIER:00⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:02⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:08⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:12⚠️_A_VERIFIER, il pointe vers un delta négatif fort en bas d'une barre rouge.
+- À 17⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:16⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:18⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 17⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Again, this is the bond. And, you know, you hit the high and we start working our way down. You're seeing the single prints here with nice ratios, 77, 82. And, you know, you're thinking already the trend is, is, you know, lower. You know, maybe you're not convinced yet, you know, you want a little bit extra. But, you know, you're seeing the selling imbalances, selling imbalance, selling imbalance, selling imbalance, selling imbalance. You know, if you're still not convinced, this bar here has got a very strong negative delta. And then immediately it's followed by a bar with a single print. So, it's telling you, you know, I said, you should have been alert up way up here. But, you know, we're in a trend already. So, you're looking for a sign of continuation. You're seeing a delta very strong. You're seeing a lot of selling imbalances. You're seeing the single print to help confirm the ratio, sorry, to help confirm the move lower."
+
+**17:25-18:39**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (5⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance haussière.
+- À 17⚠️_A_VERIFIER:29⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:35⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:42⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:45⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 17⚠️_A_VERIFIER:56⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:00⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:03⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers un single print en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:15⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:32⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 18⚠️_A_VERIFIER:35⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Okay, now this is an E-mini chart. Now, we've come down into our low here. We got a buying imbalance right on the low. Okay, maybe you're not yet convinced that this is the low. You want to see the trend start to happen before getting in. Then, boom, you get this other ratio balance low here, indicating some stopping volume. And then you get another buying imbalance. You know, and the market worked its way back up. S&Ps again. We're working our way lower. You know, we got a ratio balance low, some heavy volume here. We got a single print. You get a pullback up to the single print. Okay, you know, you know you're working your way lower. You get a pullback. You know, you're saying, well, you know, I'm not sure if we're going if this is a pullback or we're just going to go higher. So, you want to have some extra confirmation. Now you have it. You have the selling imbalance and the market sells off. This by itself, where we retrace back up to the single print for me is, is a good, is normally a good trade. I, I like it when the market circles back up to a single print, um, you know, to get short. You know, then when I see a selling imbalance, you know, then it tells me to hold on to the trade, uh, a bit longer."
+
+**18:39-20:05**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (5⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance haussière.
+- À 18⚠️_A_VERIFIER:44⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:47⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:52⚠️_A_VERIFIER, il pointe vers un ratio en bas d'une barre verte.
+- À 18⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:01⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:05⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:10⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:17⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:22⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:26⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:30⚠️_A_VERIFIER, il pointe vers un déséquilibre d'achat en bas d'une barre verte.
+- À 19⚠️_A_VERIFIER:35⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:38⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:43⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:47⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:50⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:55⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 19⚠️_A_VERIFIER:58⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Okay, so, you know, we're working our way up. Nice, you know, ratios here, blue prints. It's telling you we're in a trend already. You know, you really should have been looking to get long in here. You know, say you missed it. You're looking for another reason to get long that the trend is going to keep continuing. And, what do you have? You got buying imbalance here. You know, I'm usually not a big person to get long in a buying imbalance. But, you know what, this is one of those cases where if you have a tight stop, you know, I usually like to get long in a buying imbalance. I'd prefer to get a little bit lower though. Um, you know, but if you have a tight stop, you can manage it and, you know, it's going to give you a chance to get back in on the move back up. Like I said, you have this high here with the ratio, single print, sort of standing in your way. But, you know what, if you're able to get in somewhere down here, you know, your risk is relatively low because usually I like to see a pullback up to this level. So, you know, if you're going to get a pullback up to that level, you could have a chance to get past it. You know, sometimes it's, it's hard to sell a high, um, just off of a single print and a ratio and a negative delta. But, you know, there are times when it doesn't work. And, you know, if you're looking for a continuation of a trend, then it's going to happen. That one made no sense."
+
+**20:05-20:33**
+[VISUEL: Graphique NinjaTrader "ES 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (5⚠️_A_VERIFIER Range) Bar.100⚠️_A_VERIFIER". Le graphique montre une tendance baissière.
+- À 20⚠️_A_VERIFIER:09⚠️_A_VERIFIER, il pointe vers deux déséquilibres de vente empilés en haut de barres rouges.
+- À 20⚠️_A_VERIFIER:14⚠️_A_VERIFIER, il pointe vers deux déséquilibres de vente empilés en haut de barres rouges.
+- À 20⚠️_A_VERIFIER:18⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:20⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:25⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:28⚠️_A_VERIFIER, il pointe vers un single print en haut d'une barre rouge.]
+"Okay, now what do you have here? You got E-mini chart. Market's coming down, down, down. You got a couple selling imbalances right in a row. You know, this is, I like this where you get two selling imbalances split over two bars. You get the pullback up here and a single print. And then the market sells off. You know, when you're seeing selling imbalances, you know, going into a low, you might want to be careful. But you want, if you get a pullback in there, you know, it's telling you that these most likely are going to hold and the market's going to continue lower."
+
+**20:33-20:46**
+[VISUEL: Graphique NinjaTrader "CL 03⚠️_A_VERIFIER-16⚠️_A_VERIFIER (987⚠️_A_VERIFIER Tick) Bar.100⚠️_A_VERIFIER". Il s'agit d'un graphique de flux d'ordres pour le pétrole brut (Crude Oil). Le graphique montre une tendance baissière.
+- À 20⚠️_A_VERIFIER:36⚠️_A_VERIFIER, il pointe vers un déséquilibre de vente en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:40⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.
+- À 20⚠️_A_VERIFIER:42⚠️_A_VERIFIER, il pointe vers un ratio en haut d'une barre rouge.]
+"And again, we had sort of coming off our high up here. We got a selling imbalance. Then you're seeing the confirmation with the ratios, the blue numbers as the market's moving lower."
+
+**20:46-22:12**
+[VISUEL: Écran "ORDER FLOW CONTINUATION SETUPS". Un seul point :
+- This is the end of lesson 17⚠️_A_VERIFIER. In the next lesson I will explain and show you how to integrate order flow with traditional technical analysis to help enhance your current ways of trading.
+Le texte change pour "THANK YOU by: MICHAEL VALTOS FOUNDER - ORDERFLOWS.COM". En bas : "To learn more about trading with order flow software used in this course be sure to visit: WWW.ORDERFLOWS.COM".]
+"So, this is the end of Lesson 17, continuation setups. In the next lesson, I will explain and show you how to integrate order flow with your traditional technical analysis to enhance your current ways of trading. You know, I didn't spend much time under continuation setups because, you know, you should, it should be pretty, pretty easy, I think, for you to spot. You know, I gave you a few setups that I like to look for. But in general, you're still looking for the same things that you're looking for around reversals. You know, with continuations, it's generally because you missed the reversal sign and you're looking, you're getting in just a little bit late, um, on the continuation. But, I mean, you should be always be looking for, you know, any setups where they're occurring. Just take them into context with where the market is. Um, you know, if the market is trending, it's okay to take the setups. If the market is going sideways, you know, I'm a bit hesitant to take setups. Um, you know, I said, I, I want a market to be moving, not basically spinning its wheels. Um, you know, when a market's moving is when you're going to have the opportunity to make money. So, the important thing is, you know, just be able to determine when the market is moving. And if you're seeing a setup, take it. If the market is not moving and you see a setup, be hesitant. So, thank you. That's the end of Lesson 17."

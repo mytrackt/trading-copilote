@@ -1,0 +1,28 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: V6.mp4]
+---
+[VISUEL: Vidéo d'introduction avec le logo "Belkhayate Methode TRADING PROFESSIONNEL", puis "COURS 6⚠️_A_VERIFIER" et "Tracer les couloirs décisifs".]
+
+[VISUEL: L'écran principal affiche un graphique en chandeliers sur fond noir, représentant le marché du Nasdaq (NQ 09⚠️_A_VERIFIER-21⚠️_A_VERIFIER) en unité de temps de 15⚠️_A_VERIFIER minutes. Les dates affichées vont du 20⚠️_A_VERIFIER juillet au 24⚠️_A_VERIFIER juillet. Une échelle de prix est visible sur la droite, avec des valeurs autour de 14800⚠️_A_VERIFIER à 15000⚠️_A_VERIFIER. Mustapha Belkhayate apparaît dans une petite fenêtre en haut à gauche de l'écran.]
+revoilà, bonjour pour la vidéo numéro 6. Là, on va parler du couloir qui raconte l'histoire. Alors pour ceux qui avaient vu la formation 1, j'avais parlé de la ligne qui raconte l'histoire et en fait, il s'agissait de trouver la ligne qui qui était vraiment significative par rapport à une cassure d'une résistance, d'un support, et cetera.
+
+Et puis euh je fais une amélioration pour cette formation là, je fais une amélioration très importante. Au lieu de chercher une ligne, on va chercher un couloir parce que la rupture d'un couloir est vraiment très très importante comme on va le voir et en plus de ça, euh non seulement on aura des ruptures, mais on va avoir quelque chose de très intéressant qui est caché dans les couloirs. Regardons le Nasdaq dans en 15 minutes, sachant que on peut utiliser cette stratégie de couloir sur n'importe quelle unité de temps, sur n'importe quel marché.
+
+Donc on on va sur NinjaTrader et là, je vous je vous rassure tout de suite. Euh le NinjaTrader va être utilisé et également TradingView. Vous allez avoir deux plateformes que vous allez maîtriser pour être professionnel. Ninja pour passer des ordres et TradingView pour utiliser des euh des indicateurs sur différents marchés, les actions, la crypto, le Forex, et cetera. Bon, on va on y va doucement mais sûrement, hein, vous êtes pas pressés, j'espère. Bon.
+
+[VISUEL: Belkhayate clique sur l'icône des outils de dessin dans NinjaTrader et sélectionne "Trend Channel". Il trace une ligne de support en connectant deux points bas du graphique. Il ajuste ensuite une ligne parallèle pour former le haut du canal, montrant que le prix évolue à l'intérieur. Il déplace légèrement la ligne de support pour mieux l'aligner avec les points bas, puis ajuste la ligne parallèle supérieure.]
+On va commencer par NinjaTrader et on va chercher ici Trend Trend Channel là, Trend Channel qui est là. Je prends donc le Trend Channel et je regarde et je vois qu'effectivement le marché du Nasdaq a un support ici très très intéressant. Et ensuite, on a cette parallèle que le marché que euh que le logiciel nous donne qu'on doit on doit essayer de trouver où la mettre. On peut la mettre ici, mais on voit bien que c'est pas ça. On voit bien que euh le couloir n'est pas ici. On regarde on descend un petit peu et on voit que effectivement à ce niveau-là, le couloir c'est bien ça, à ce niveau-là. On le voit ici, c'est c'est vraiment le bon couloir. Donc je clique ici et là ce sont des des exagérations qu'on peut considérer mais on doit regarder notre œil doit voir qu'il y a un couloir ici, comme vous voyez ici, là entre ce point, ce point et ce point. Donc on a un très beau couloir ici sur le Nasdaq.
+
+[VISUEL: Belkhayate pointe du doigt la limite supérieure du canal haussier sur le graphique du Nasdaq.]
+Donc si le marché casse ici, on verra avec quel volume, avec quelle force, quelle bougie, et cetera. Mais toujours est-il que la première chose qu'il faut faire sur un sur un chart, c'est de pouvoir regarder sans même tracer, vous allez visualiser des couloirs.
+
+[VISUEL: Le graphique du Nasdaq est toujours affiché. Belkhayate gesticule pour insister sur l'importance de la visualisation des couloirs.]
+Et tout de suite, je vais immédiatement, sans trop attendre, je vais vous montrer pourquoi c'est très important de pouvoir tracer ces couloirs. Vous allez pouvoir avoir une visibilité sur l'endroit où il peut y avoir une rupture de la tendance. Autre chose, pourquoi je travaille sur avec des couloirs parallèles ? Parce que euh chaque marché, comme vous allez le voir, a une respiration donnée. Il a une amplitude de respiration. Et cette amplitude, comme vous allez le voir, va être respectée des jours, des semaines, des heures. Elle va être respectée parce que sur chaque marché, ce sont les mêmes opérateurs qui agissent de la même façon. Donc, il est très important de définir quel type de couloir on est. Des fois, on est sur un couloir étroit et on doit le suivre parce que lorsqu'il va casser, le marché va changer de tendance ou va accélérer. Alors, on va euh aller par exemple regarder le euh l'euro. L'euro contre le dollar.
+
+[VISUEL: Le graphique passe à l'EUR/USD (Euro contre Dollar US) en unité de temps journalière. Un couloir baissier est déjà tracé sur une partie du graphique. Belkhayate supprime ce couloir.]
+Là, j'ai tracé tout de suite un premier couloir. Vous voyez là, ce couloir là ? Je l'ai tracé pour que vous puissiez comprendre la puissance de euh de ce concept de couloir. Nous avons un couloir baissier ici et en fait, euh moi j'avais celui-là, je vais l'enlever, je vais le refaire. Et vous allez comprendre pourquoi.
+
+[VISUEL: Belkhayate clique sur l'icône des outils de dessin et sélectionne "Trend Channel". Il trace une ligne de support en connect

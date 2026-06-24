@@ -1,0 +1,95 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: V24.mp4]
+---
+**00:00 - 00:15** (Video Intro)
+
+**00:15 - 01:36**
+[VISUEL: Écran de trading NinjaTrader. Graphique du ZN (US 10⚠️_A_VERIFIER-Year T-Note Futures) en timeframe 15⚠️_A_VERIFIER minutes. Le prix est en tendance baissière, sous la moyenne mobile rouge (Belkhayate Trend). Les bougies sont majoritairement rouges. Le volume est faible, avec des barres vertes et rouges alternées sous le graphique. L'indicateur Belkhayate Cycle est dans la zone basse, oscillant autour du niveau zéro, principalement en vert clair.]
+Euh, rebonjour encore une fois. J'ai choisi euh cette vidéo sur le ZN encore en 15 minutes. Euh pour vous montrer comment utiliser les les indicateurs Belkhayate. Et je dois je dois reconnaître que sur cette vidéo, je suis assez fier de pouvoir vous montrer euh que sur ce marché-là, il va y avoir deux deux accélérations sur le ZN et que 5 minutes avant que ces accélérations n'aient lieu, euh les indicateurs vont le montrer et ça nous permet euh dans un premier temps de pouvoir rentrer avec force et dans un second temps de renforcer notre position pour pour gagner de l'argent sur le bon du trésor américain. Euh voilà, donc euh je vais vous montrer tout ça. Euh donnez-moi votre attention. Je vais essayer de m'appliquer parce que je peux pas me rappeler euh les les bougies une par une, mais mais je vais faire de mon mieux pour pour que vous puissiez mesurer la puissance de de Belkhayate Trend et Belkhayate Cycle combiné avec le volume et euh et le prix. Et la 209.
+
+**01:36 - 02:47**
+[VISUEL: Le prix continue de descendre lentement. Belkhayate Cycle est toujours dans la zone basse, oscillant autour du niveau zéro, principalement en vert clair. Le volume reste faible.]
+Voilà, donc euh c'est parti. Voilà, il est 5h du matin. Euh sur le ZN en général, il y a rien à faire le matin. Euh donc euh je vais accélérer un peu. Voilà. Voilà, donc euh on regarde. Pour le moment euh le le marché, il est il est ici, il est vers le vert. On pourrait dire que le marché est en train de de d'accumuler de l'énergie pour pouvoir éventuellement monter, donc pour pouvoir acheter. Donc pour le moment, mais on n'a pas de signal d'achat puisque le vrai signal d'achat c'est lorsque on a une accalmie comme ça sur Belkhayate Cycle, le signal d'achat c'est la le breakout, c'est la cassure du du niveau zéro, ce qui signifie que le il y a un basculement d'équilibre, il y a plus d'équilibre pour le moment. Euh c'est l'accélération des acheteurs ici.
+
+**02:47 - 03:14**
+[VISUEL: Le prix continue de descendre, formant des bougies rouges. Belkhayate Trend est rouge. Belkhayate Cycle est toujours en zone basse, oscillant autour du niveau zéro, mais commence à montrer des pics verts. Le volume reste faible.]
+Donc tant que euh on n'a pas euh cette cassure ici, euh on va attendre, on va surveiller ce qui se fait. Bon, pour le moment, les marchés est est est lent. Mais je préfère euh quand même laisser la vitesse à 100 pour que vous puissiez vous habituer à voir comment fonctionnent les les indicateurs. Celui-là, par exemple, en contrepartie, celui-là, pour le moment, il est il est rouge.
+
+**03:14 - 03:50**
+[VISUEL: Une grande bougie rouge apparaît, cassant un niveau de support. Le volume augmente significativement avec cette bougie rouge. Belkhayate Cycle montre un pic rouge, puis un pic vert qui ne casse pas le niveau zéro.]
+Là, on a une tentative pour acheter, mais on n'a pas cassé, hein. Donc il faut tout de suite après, euh il y a eu une réaction violente euh ici. Donc donc c'est très important de de de réaliser ça. On a donc cassé ici avec une grande bougie. Donc ici, on peut avoir Belkhayate Impulse si on veut. On peut vérifier. En tout cas, on a Belkhayate Impulse à ce niveau-là. J'espère que tout le monde est d'accord. Là, à ce niveau-là, cassure, grande bougie, volume, tendance baissière. On on devrait continuer à baisser.
+
+**03:50 - 04:20**
+[VISUEL: Le prix continue de descendre, mais les bougies rouges sont plus petites. Le volume diminue. Belkhayate Cycle oscille autour du niveau zéro.]
+On va voir le marché ce qu'il fait. Euh comme c'est le matin, pas s'attendre à une accélération de fou sur ce marché-là, mais on essaie de comprendre la lecture, hein, de Belkhayate Cycle et euh et Belkhayate Trend ici. Pour le moment, le trend est rouge et baissier. Voilà. Donc euh on attend de voir.
+
+**04:20 - 05:25**
+[VISUEL: Une bougie rouge casse un niveau de support, suivie d'une petite bougie verte. Le volume est faible. Belkhayate Cycle montre un pic vert qui dépasse légèrement le niveau zéro, puis redescend.]
+On a cassé, on vient de casser encore. Donc ah, donc donc finalement, c'était gagnant si on si on voulait vendre ici. Mais euh c'est c'est pas des mouvements que je j'aime faire sur le ZN. Véritablement, il y a pas c'est trop petit, il y a pas trop de volume, c'est c'est il y a très peu de volume ici par rapport au marché du ZN. Voilà, donc euh on attend de voir. Par contre, là, on est en train de de de ici, on est rentré pour la première fois depuis le début de la journée, on est rentré dans dans on a fait ça, vous savez, le on est rentré, on est on est ressorti. Euh ici, euh c'est très intéressant à l'achat. Là, on a envie d'acheter maintenant. Tiens, euh il semblerait que on va se diriger vers euh un achat euh sur le marché.
+
+**05:25 - 06:08**
+[VISUEL: Le prix continue de descendre, formant des bougies rouges et vertes alternées. Belkhayate Cycle montre un pic vert qui dépasse le niveau zéro, puis redescend. Le volume est faible, mais une barre verte plus grande apparaît.]
+Donc euh je me prépare, mais l'achat, je serais euh intéressé de rentrer acheteur sur euh j'aimerais bien qu'il y ait quand même euh un volume, une accélération sur le volume. Donc tant qu'il y a pas ça, et surtout une cassure ici. Donc je surveille, je je j'ai j'ai l'impression que à partir de là, on peut acheter parce que Belkhayate Cycle nous propose euh l'achat ici parce qu'il a analysé les volumes ici. Il a analysé les volumes qui se passent au fur et à mesure qu'on descend. Il considère que c'est ici la fin. Attention. Là, on a quelque chose qui commence à prendre forme.
+
+**06:08 - 07:14**
+[VISUEL: Le prix continue de descendre. Belkhayate Cycle oscille autour du niveau zéro. Le volume reste faible. Une grande barre de volume rouge apparaît, suivie d'une petite barre verte.]
+Et on se rapproche de 13h. Attention, on a un grand volume qui est arrivé et on est à 13h. Ce grand volume là, il est en train de parler. Est-ce qu'on va accélérer par le bas ou est-ce qu'on va accélérer par le haut ? Mais je suis très près euh moi de de prendre position.
+
+**07:14 - 08:04**
+[VISUEL: Le prix est toujours en tendance baissière. Belkhayate Cycle est en zone basse. Le volume est faible. Il y a une grande barre de volume rouge, puis une petite barre verte.]
+Et je vais faire 4. Je vais rentrer par 4 et ensuite si je double, je double, ça va ça fera 8. C'est sur le ZN, je je recommande toujours de rentrer avec plus de lots et et de pouvoir faire des mouvements euh courts et puissants pour pouvoir faire l'objectif de la semaine même. Donc euh on regarde ce qui se passe. Il y a un très grand volume ici qui arrive. Très proche de l'ouverture. Je euh donc il faut faire très attention. On a un grand volume ici. C'est très très intéressant. On a un grand volume ici et maintenant euh ça va être décisif. Ce grand volume là, il est en train de parler. Est-ce qu'on va accélérer par le bas ou est-ce qu'on va accélérer par le haut ? Mais je suis très près euh moi de de prendre position. Et je vais faire 4.
+
+**08:04 - 08:50**
+[VISUEL: Une très grande bougie verte apparaît, cassant plusieurs niveaux de résistance et la moyenne mobile rouge (Belkhayate Trend). Le volume est extrêmement élevé, avec une barre verte très haute. Belkhayate Cycle est en zone basse, puis monte brusquement au-dessus du niveau zéro, devenant vert. La ligne Belkhayate Trend passe du rouge au jaune, puis au bleu.]
+Top ! Là, toute la vidéo, je l'ai faite sur cette barre de 5 minutes, de 15 minutes, cette barre-là. Je sais pas, attendez, je vais voir, ça représente quoi exactement ? Je vous demande s'il vous plaît votre attention. On est à l'ouverture. Exactement. On est en train de faire l'ouverture et on constate qu'il y a une une accélération de volume. C'est très important. C'est la première là, on a vraiment une accélération de volume et c'est un volume haussier ici et on est en train de changer la couleur euh de euh de Belkhayate Trend ici.
+
+**08:50 - 09:42**
+[VISUEL: Le prix est maintenant au-dessus de la moyenne mobile. Belkhayate Trend est passé au jaune/bleu. Belkhayate Cycle est vert et au-dessus du niveau zéro. Le volume est toujours élevé.]
+Donc soyons attentifs. Tout à l'heure, elle nous a dit qu'il fallait acheter et depuis qu'on nous a dit qu'il fallait acheter, le marché n'est pas revenu sur ce niveau-là. Donc Belkhayate Cycle avait raison à 10h du matin déjà. Il nous avait averti que cette tendance baissière avait pris fin, que maintenant c'est un autre cycle qui commence à partir de euh de ce de de ce signal ici où on rentre ici, on fait un C ici, pratiquement. Donc là, à l'ouverture, le ZN, il me donne exactement cette position. Alors, sur euh le prix, vous vous ne voyez pas grand-chose. Vous dites bon, c'est c'est innocent. Mais lorsque vous voyez le volume, vous savez que c'est très sérieux. Que il faut acheter.
+
+**09:42 - 10:25**
+[VISUEL: Le prix est au-dessus de la moyenne mobile. Belkhayate Trend est jaune/bleu. Belkhayate Cycle est vert et au-dessus du niveau zéro. Le volume est élevé. Il y a une ligne horizontale bleue tracée au-dessus du prix actuel, indiquant une résistance.]
+Donc moi, je vais rentrer sachant que mon stop loss, il est juste là. Il est là mon stop loss, il est clair maintenant que si j'achète, si le marché vient casser ce point où on nous a annoncé la fin du cycle baissier, alors euh alors tout est invalidé. Donc je peux me permettre de rentrer très fort avec 4 lots sur le ZN parce que mon stop est et c'est ça l'avantage du ZN, c'est que le ZN c'est un des c'est un des rares marchés où vous pouvez rentrer avec un avec une cale, c'est-à-dire vous rentrez et vous avez votre stop loss très très proche. Alors que le gain, vous savez, en face, il y a rien. Il n'y a pas de il y a pas grand-chose, en fait. On peut peut-être euh regarder euh la prochaine résistance, elle est là.
+
+**10:25 - 11:12**
+[VISUEL: Une ligne horizontale bleue est tracée au-dessus du prix, marquant une résistance. Le prix monte fortement avec une grande bougie verte, atteignant et cassant cette résistance. Le volume est très élevé. Belkhayate Cycle est vert et monte. Belkhayate Trend est vert.]
+Donc on peut la tracer. Voilà. Elle est cassée. Cette résistance a été cassée. Maintenant, elle elle s'est ce support a été cassé, c'est devenu résistance. Maintenant, on sait que notre objectif, si on achète là, on sait au moins que le marché peut venir au moins ici, en tout cas. Bon, donc moi, je vais euh acheter au marché 4.
+[AUDIO: "Order filled."]
+Ouh là ! Il a ça c'est l'ouverture. L'ouverture de folie, c'est ça. Donc, on a fait une ouverture de folie.
+
+**11:12 - 11:50**
+[VISUEL: Le prix a fait un grand mouvement haussier avec une bougie verte, puis une bougie rouge apparaît, ramenant le prix vers le bas. Le volume reste très élevé. Belkhayate Cycle est vert, mais commence à redescendre. Belkhayate Trend est vert.]
+Je redouble. Là, quand je vois ça, je redouble.
+[AUDIO: "Order filled."]
+Voilà. Et je regarde ce que fait le marché parce que j'ai eu mon signal d'achat ici. Le marché revient pour me faire peur, mais on sent que les acheteurs sont en train de se battre ici à ce niveau-là. Et ici, ça tient. C'est ça tient, ce serait bien. Alors là, je regarde, ça devrait taper fort. Ça tape pas fort. Je sors.
+[AUDIO: "Order filled."]
+
+**11:50 - 12:22**
+[VISUEL: Le prix est revenu en dessous de la résistance cassée, puis remonte légèrement. Belkhayate Cycle est vert, mais a fait un pic vers le bas. Le volume est toujours élevé, mais la barre verte est plus petite.]
+Je sors tout de suite parce qu'il y a pas de force. J'attends tranquillement. Mais je sais je sais que euh sur ce marché-là, pour le moment, on a une une on a une force qui est euh une force acheteuse. Et et je vous je ne prends pas de risque, je prends ce qu'il y a à prendre parce que je suis exposé avec 8 lots. Donc euh regardons ce qui se passe. Là, pour le moment, on est en train de rebondir ici.
+
+**12:22 - 13:09**
+[VISUEL: Le prix remonte avec des bougies vertes. Belkhayate Cycle est vert et remonte. Le volume est modéré. Belkhayate Trend est vert. Une ligne verticale est tracée sur le graphique, indiquant un moment précis.]
+Et on va faire ici, on va rentrer ici. J'attends. J'attends que je rentre ici avec euh avec un premier une petite barre rouge ici qui me dit que ça vaut le coup d'acheter. Donc je j'attends. Pour le moment, le marché est en train de se chercher. Euh je n'aime pas rentrer à 50/50, bien que j'ai le vert ici qui me confirme que euh le marché est soutenu, il a accéléré avec force. Et puis c'est les bons du trésor quand même, donc c'est pas c'est on joue pas avec. Il est revenu juste faire un pullback ici. Moi, je suis sorti rapidement parce que j'étais surexposé. Donc j'attends de voir maintenant s'il va y avoir un mouvement ici. Regardez bien dans cette zone-là.
+
+**13:09 - 13:48**
+[VISUEL: Le prix remonte avec des bougies vertes. Belkhayate Cycle est vert et remonte. Le volume est modéré. Belkhayate Trend est vert. Une ligne verticale est tracée sur le graphique, indiquant un moment précis.]
+Euh voilà, ici, dans cette zone, euh si le marché casse encore ici et dépasse pour mettre un une je surveille. Je surveille bien ce qui se passe ici.
+
+**13:48 - 14:20**
+[VISUEL: Une grande bougie verte apparaît, cassant la résistance précédente. Le volume est très élevé. Belkhayate Cycle est vert et monte fortement. Belkhayate Trend est vert.]
+Top ! Là, avant, juste ici, on a eu c'est dommage, ça a accéléré avant. Et c'était ici, mais comme la la vidéo va vite, en réalité, ici, sur cette barre là, sur cette barre là, on a une accélération sur le volume bien supérieure à tout ce qui se passe ici et on est rentré avec dans cette zone-là, signal d'achat. Euh donc euh c'est pas grave, j'aurais pu acheter ici. Bon, maintenant, on va acheter ici.
+
+**14:20 - 15:25**
+[VISUEL: Le prix a fait un grand mouvement haussier, puis une bougie rouge apparaît, ramenant le prix vers le bas. Le volume est élevé, mais la barre rouge est plus petite que la barre verte précédente. Belkhayate Cycle est vert, mais commence à redescendre. Belkhayate Trend est vert.]
+C'est déjà trop tard. Euh mais je voulais vous montrer que euh il est tout à fait possible de pouvoir acheter ici, en fait. Et le marché, il a catapulté avec la vidéo. Donc euh c'est pas grave. Euh on va on va regarder maintenant ce qui ce qui ce qui se fait. On est donc là maintenant ici, on est rentré ici. Là, ça vaut plus le coup de rester puisqu'il y a plus la force, elle n'est plus là. Donc ici, à ce niveau-là, on serait sorti. On aurait acheté ici, on serait sorti là. Mais avec cette mèche là, et il y a plus de jus. On voit bien ici qu'il y a plus de jus. Euh c'est la fin, c'est 19h. C'est la fin. Euh on arrête la on arrête la on arrête le la journée de trading. Donc j'arrête ici.
+
+**15:25 - 17:50**
+[VISUEL: Le graphique montre le mouvement complet. Le prix est monté fortement, puis a légèrement corrigé. Belkhayate Cycle a donné un signal d'achat clair avant l'explosion du prix. Belkhayate Trend est vert. Une ligne horizontale bleue marque la résistance cassée.]
+Euh alors, reprenons un peu ce qui s'est passé. On essaie de prendre un mouvement. On on a eu le signal avant que ça explose. On a eu le signal sur l'accélération sur le volume en 15 minutes ici. Vous voyez là. Là. Et avec un signal ici acheteur. Euh donc euh c'est pas grave. J'aurais pu acheter ici. Puis ensuite, le marché a complètement explosé. J'ai rajouté de la j'ai rajouté pour essayer de prendre le momentum, mais j'ai vu que le marché il n'avait il a perdu son momentum. Tout de suite, je suis sorti. Et ensuite, le marché quand il est revenu rebondir ici, ça m'a ça m'a rassuré puisque il fait un pullback sur la 38. Et une fois que j'ai cette situation là et que je sais que maintenant le marché il est acheteur grâce à Belkhayate Trend, je commence à surveiller euh le Belkhayate Cycle pour voir si il va me donner un signal d'achat. Et il me donne un signal d'achat exactement 15 minutes avant encore une fois son explosion euh sur euh le en 1/4 d'heure, il a il a explosé euh les comptes. Donc si vous remarquez une chose, le marché, il est venu pile poil taper sur la résistance qu'on avait dit tout à l'heure. Et puis après, il a cassé, mais il a cassé violemment cette résistance. Donc ici, en achetant ici, en voyant qu'il a explosé, on aurait pu euh faire quand même un beau profit, hein, sur euh sur ce double trade. Voilà, ben écoutez, ça fait plaisir, hein, toujours de de vous montrer les les configurations des du ZN et en fait, du pétrole, de l'or, comment on peut lire et et entrer avec une grande probabilité de gain. Et euh j'espère que vous commencez maintenant à comprendre euh comment les utiliser. Vous avez vu qu'il faut être patient, il faut attendre euh ce en général, on attend l'ouverture ou on attend un grand accélération euh sur le volume et puis euh et puis on rentre et on fait très attention à ne pas se laisser piéger par le marché. Voilà, donc euh je vous remercie pour votre attention encore une fois et je vous donne rendez-vous pour la prochaine vidéo, peut-être sur l'or.
+
+**17:50 - 18:07** (Video Outro)
+[VISUEL: Écran de titre "LA MÉTHODE BELKHAYATE POUR UN TRADING PROFESSIONNEL". Puis une citation: "SI VOUS SENTEZ NAÎTRE DE L'ESPOIR, VOUS ÊTES DANS UN MAUVAIS TRADE. PRENEZ IMMÉDIATEMENT VOTRE PERTE. MOSTAFA BELKHAYATE". Enfin, "MERCI POUR VOTRE ATTENTION ET À LA PROCHAINE VIDÉO".]

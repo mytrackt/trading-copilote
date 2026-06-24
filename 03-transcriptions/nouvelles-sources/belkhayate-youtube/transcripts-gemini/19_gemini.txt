@@ -1,0 +1,109 @@
+[QUALITE_VIDEO: BONNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: 19.mp4]
+---
+[00:00]
+[VISUEL: Écran noir avec le logo "BC BELKHAYATE SYSTEM" et le slogan "Ou l'Art de Gagner de l'Argent sur les marchés financiers"]
+
+[00:02]
+[VISUEL: Écran avec un graphique en chandeliers (candlestick chart) sur un ordinateur portable. Le titre "VOLUME 19⚠️_A_VERIFIER" et le sous-titre "Le meilleur marché pour gagner facilement de l'Argent" apparaissent.]
+
+[00:06]
+Bienvenue chers amis au cours numéro 12.
+
+[00:13]
+Ça c'est un cours que je donne donc après avoir présenté TradingView et ses possibilités.
+Je reviens au trading pour vous parler de quelque chose qui me semble indispensable.
+
+[00:27]
+Quelle est ma recommandation pour le marché à trader ?
+
+[00:36]
+Autrement dit,
+[VISUEL: Belkhayate se tourne vers un tableau blanc et commence à écrire. Le titre "Cours 12⚠️_A_VERIFIER" est déjà encadré en haut à gauche.]
+[AUDIO: Belkhayate écrit sur le tableau blanc.]
+Quel est le meilleur marché à trader ?
+
+[00:59]
+Alors, candidat.
+[VISUEL: Belkhayate écrit une liste de marchés sur le tableau blanc.]
+Nous avons l'or (Gold), nous avons le pétrole, nous avons les devises, par exemple l'euro contre le dollar, le yen, le franc suisse.
+Nous avons les indices boursiers, par exemple le S&P, le DAX, par exemple le CAC40, etc.
+Nous avons bien sûr le blé, le café, le sucre, etc., matières premières.
+
+[01:46]
+Alors, d'après vous, parce que il y a un marché qui est le plus facile en fait.
+[VISUEL: Belkhayate écrit "plus facile" en haut à droite du tableau blanc.]
+Meilleur, mais le plus facile.
+
+[02:03]
+Vous êtes déjà allé au Jardin du Luxembourg à Paris ? Non ? Ou bien à Central Park à New York ?
+[02:13]
+Encore moins !
+[02:16]
+Bon. Dans ces deux jardins, il y a des joueurs d'échecs. Et ces joueurs d'échecs, vous pouvez jouer, vous venez, vous attendez votre tour et vous prenez place et vous jouez. Si vous perdez, vous devez attendre au moins une heure votre tour. Donc il faut vraiment soit bien jouer, soit bien choisir la table parce qu'il y a plusieurs tables.
+
+[02:44]
+Donc, si vous êtes intelligent et que vous voulez vraiment passer l'après-midi à bien jouer tranquille, qu'est-ce qu'il faut faire ? Il faut choisir la table la plus facile. Sinon, vous êtes cuit.
+
+[02:58]
+Le trading, c'est la même chose. Il faut pas aller chercher les marchés difficiles, très difficiles à trader. Et je suis très étonné de voir que beaucoup de traders amateurs vont vers les marchés les plus difficiles, les plus difficiles. Je le répète.
+[03:20]
+[VISUEL: Belkhayate prend un marqueur rouge et entoure "DAX" et "CAC40" sur le tableau blanc.]
+Je vais prendre le rouge. Quel est le marché le plus difficile ici, de loin ? Pratiquement impossible. C'est...
+[03:34]
+Non. Vous ne le connaissez pas parce que c'est normal, vous êtes vous êtes pas dans le métier vraiment, mais inshallah. Que Dieu vous épargne de faire ce trading sur ce marché-là. Et pourtant, vous allez ceux qui m'écoutent savent que je vais avoir raison quand je vais entourer par avec rouge le marché. C'est le marché le plus difficile et vraiment tout le monde est là-dessus, en particulier en France.
+[04:01]
+[VISUEL: Belkhayate entoure "DAX" en rouge.]
+Le DAX. Le DAX, l'indice boursier DAX, tous les amateurs sont là-dessus parce que ah oui ça monte, ça baisse, ça parce que comme il y a des mouvements, ils sont cupides, ils croient qu'ils vont gagner de l'argent. Mais c'est un marché très difficile.
+[04:20]
+[VISUEL: Belkhayate entoure "café" en rouge.]
+Un autre marché difficile, très difficile, parmi les plus difficiles, le café. Pourquoi le café ? Parce que le café il fait, c'est un marché extrêmement volatile.
+[04:34]
+[VISUEL: Belkhayate efface les cercles rouges autour de "DAX" et "café".]
+Vous vous voulez gagner de l'argent ? Mais pourquoi vous allez trader des marchés difficiles ? Si vous voulez gagner de l'argent, l'or et le pétrole, ce sont des marchés qui ne sont pas faciles. C'est pas parce que on a une bonne méthode que on va trader ces marchés. Moi je vais vous recommander un marché. Un seul marché. Mais c'est le marché le plus facile au monde. Elle est pas belle ? C'est le marché où vous pouvez gagner votre vie tous les jours et vous tradez une heure par jour. Vous n'avez pas besoin de trader plus que une heure par jour. Et vous allez toujours vous vous vous rappeler de ce que je vous ai dit et vous n'avez pas besoin de plus que ça.
+
+[05:35]
+[VISUEL: Belkhayate prend un marqueur noir et écrit "ZN Tnotes10Y" et "bon de trésor US 10⚠️_A_VERIFIER ans" sur le tableau blanc.]
+Ce marché n'est pas dans cette liste, bien sûr. Parce que dans cette liste, il y a que des marchés difficiles, contrairement à ce qu'on peut penser. Parce que les marchés ils sont imprévisibles. Le marché que je vais vous recommander et je vous invite en particulier toi, Soufiane, à ne pas chercher autre chose. Vous devez devenir des experts mondiaux de ce marché-là. Ça s'appelle son code dans NinjaTrader, c'est ZN. Et dans TradingView également, ça va être ZN. Et c'est le T-Notes 10 ans. Vous allez trouver, c'est le bon de trésor US 10 ans.
+
+[06:52]
+Alors, pourquoi je recommande ce marché ? Pourquoi je je pourquoi j'estime que c'est le plus facile ? Parce que premièrement, ce marché-là, il va pas vous faire d'entourloupe. Il va pas vous faire des feintes de style, il va pas vous le faire. Pourquoi ? Parce que ceux qui sont en train de spéculer sur ce marché, c'est des institutionnels. C'est des très grands traders. Eux, ils s'en foutent de voir un gars qui a mis un stop loss ici ou là. Ils n'ont rien à faire. Pour eux, c'est rien. Eux, ils sont en train de voir loin et gros. Donc, ces marchés-là sont lourds. Imaginez des TGV. Vous allez pas sur ces marchés Gold, pétrole, etc., au moindre rumeur, le marché il vous étrangle. Donc, vous allez pas trader des marchés que beaucoup de gens, que 99% des perdants de la planète trade. N'est-ce pas ? Pourquoi vous allez aller sur un terrain glissant ? Alors que moi, je vous dis les gars, voilà un terrain, c'est du gazon mes amis. Vous pouvez jouer là, pieds nus. Vous comprenez ça, cette expression ? Parce que nous quand on était en Afrique, on jouait au football sur des terrains incroyables. Donc quand je suis venu en France, j'ai vu que je pouvais jouer au football sur un terrain gazonné, je n'en revenais pas. C'est pas possible. J'ai joué pieds nus, heureux de courir sur le gazon pour jouer au foot. C'est pour ça que j'ai gardé cette image.
+
+[08:55]
+Alors, le T-Notes, c'est le marché qui va vous permettre de gagner votre vie. Je vous demande juste de me faire confiance. Ne ne cherchez pas trop d'explications parce que si je suis si j'en suis arrivé là, c'est parce que j'ai des bonnes raisons de penser que pour des des personnes comme vous qui qui voulez commencer votre carrière et commencer à gagner de l'argent en trading, vous allez commencer à trader le ZN.
+
+[09:35]
+Alors, question. J'ai parlé de une heure de trading. Donc la question est quelle heure ? Quelle est cette heure-là de trading ?
+[09:52]
+[VISUEL: Belkhayate efface une partie du tableau blanc.]
+Alors là, comme on est en France, je vais vous demander, je vous donne un exercice parce que moi je vais pas me casser la tête. 7h20 heure de Chicago, c'est quelle heure heure de Paris maintenant ?
+[10:09]
+[AUDIO: Une voix hors champ répond "14h20".]
+7h20.
+[10:11]
+[AUDIO: Une voix hors champ répète "14h20".]
+7h20.
+[10:16]
+[VISUEL: Belkhayate efface le tableau blanc et écrit "7h20 Chicago Time" et "14h20 Paris".]
+7h20 Chicago Time. 14h20 Paris. Pour ceux qui regardent la vidéo, ils n'ont qu'à faire le calcul par rapport au Bénin, par rapport à à Kampala, en Ouganda, on sait jamais, hein. En tout cas, ce marché, il ouvre à 7h20, c'est matinal à Chicago. Et vous allez trader de 7h20 à 8h20. Et puis ensuite, vous allez faire du sport et vous allez vous occuper de vos enfants et vous allez lire et aller à la pêche. Vous fermez votre ordinateur. Ça peut être surprenant, mais vous pouvez par exemple animer un journal en faisant des actions, etc., ce que je vous ai dit sur TradingView. Vous pouvez consacrer tout le reste sur TradingView pour vous faire connaître dans différentes situations. Mais ce marché-là, c'est le marché un jour, j'ai j'ai recruté un stagiaire et il m'a dit "Écoutez, moi, je voudrais travailler pour vous, donnez-moi n'importe quoi." Et j'ai j'ai cherché qu'est-ce que je pouvais lui donner parce que vraiment il il avait fait des statistiques et tout. Je lui ai dit j'ai réfléchi et puis je lui ai dit "Tu sais, j'ai j'ai mes statements, mes relevés de trading depuis des années, des années, des années. Mais vraiment ce que je suis chez Interactive Brokers, j'ai j'ai Interactive Brokers depuis 20 ans. Je suis le plus un des plus anciens traders chez Interactive Brokers." Il lui dit "Bon écoute, je vais je vais te donner une tonne." J'ai j'ai failli un jour jeter tout ça parce que c'est c'était beaucoup quoi, depuis des années. Il lui dit "Tiens, est-ce que tu veux me faire des statistiques sur mes trades et ce que j'ai fait de bien, pas bien, etc." Évidemment, au moins j'ai j'ai pas des trades de euh de champion. C'est bien, mais j'ai au fur et à mesure j'ai amélioré mon trading. Mais le résultat, je le dis je vous le dis tout de suite, ce qui compte, c'est que de tous les les marchés que j'ai tradé dans ma planète depuis que j'existe, 70% de mes gains dans ma vie de trader, je les ai pris sur ce marché-là. Et en fait, je me suis rendu compte que c'était le trading le plus facile. Tout le reste, c'est vraiment stressant. Le marché il fait ça et puis il fait ça et vous et vous nargue. Il va vous tout le temps vous défier. Mais le ZN, c'est un marché où il y a des milliards par jour. Donc quand ça bouge, ça bouge. Vous pouvez gagner beaucoup d'argent et ça je vous le dis sur le marché des bons de trésor 10 ans aux États-Unis.
+
+[14:22]
+[VISUEL: Belkhayate se déplace vers un grand écran affichant un graphique en chandeliers sur une plateforme de trading (probablement NinjaTrader). Le graphique montre des bougies sur un fond sombre, avec une moyenne mobile blanche et des barres de volume en bas. Le timeframe est 30⚠️_A_VERIFIER minutes. Le marché est ZN (T-Notes 10Y).]
+Jetant un coup d'œil sur qu'est-ce que ça vaut aujourd'hui l'indicateur et le système Belkhayate sur le ZN aujourd'hui. D'accord ?
+
+[14:50]
+[VISUEL: Belkhayate pointe l'écran.]
+Bonjour. Bon, la première chose, ce que sur le ZN, ça fonctionne en 30 minutes. Je ne fonctionne pas en 15 minutes. Pourquoi ? Je vais vous dire pourquoi rapidement. Parce que le ZN, c'est un marché qui est lent. Donc, il a on a besoin d'avoir de la visibilité en 30 minutes, non pas en 15 minutes ou 10 minutes. Ça c'est un. Deuxièmement, c'est un marché qui est tradé par des professionnels, par des institutionnels. Et ces gens-là, plus de 60% à 70% de ces gens-là utilisent ce qu'on appelle un indicateur qui s'appelle le Market Profile. Et le Market Profile, quand il a été créé, il a été créé sur une unité de temps de 30 minutes. Donc, on a 60% des traders sur ce marché-là qui le regardent dans une unité de temps de 30 minutes. Donc, pourquoi moi je vais dire je suis plus intelligent, je vais aller regarder dans 15 minutes ou 10 minutes ? Ça sert à rien. Il faut que j'aie l'heure vision, mais que j'aie ma stratégie, ma technique de telle manière à ce que je puisse voir ce que eux ne voient pas.
+
+[16:16]
+[VISUEL: Belkhayate pointe le graphique. Il y a un mouvement horizontal suivi d'une forte accélération de volume et une cassure haussière.]
+Bismillah. 3h du matin, 4h du matin, 5h du matin, 6h du matin, 7h du matin, 8h du matin. On a rien et on a on a ce qu'on appelle un mouvement horizontal. Qu'est-ce que j'ai dit sur le mouvement horizontal ? J'ai dit que lorsque on a un mouvement horizontal, dès qu'on va avoir une accélération de volume, cela va signifier que c'est le début d'une tendance. Je l'ai dit ça. Accélération ici, qui est trois fois supérieur à ça. Donc, on a un volume à 8h30 heure de Paris. On a ça. Parce que même si ça ouvre à 7h30 Chicago, on est en train de voir comment se comporte ce marché avec le système Belkhayate, n'est-ce pas ? Donc ici, ça casse et on est on a cassé le VWAP. On a cassé le VWAP, on a un volume et c'était une annonce de début de tendance. Ensuite, on a 1, 2, 3, 4, 5, 6. Ici, ça dit quoi ici ? Ça dit "Attention, on a Spring Box". Attention, bien qu'on n'ait pas un grand volume qui dit que on a il y a plus d'acheteurs, on a quand même un Spring Box ici. D'accord ? Donc, ici je me dis j'ai tout ça au prochain rouge, je prends mes bénéfices et je suis content. Donc, le prochain rouge, c'est ici. Je sors ici. Et donc j'ai fait un trade d'ici à là. Mais c'est extraordinaire. Maintenant, on a dit 14h20 Paris, ça mérite l'attention. Donc, 14h20, le marché il a ouvert ici. Donc, nous on était là en train de dormir. On est sorti, hein les gars, on est sorti. Ça, c'est dans le cas où vous pouvez, si vous voulez, trader entre 8h et et cette période. Mais le plus important, c'est l'ouverture de ce marché. Et là, quand vous le voyez, il y a des volumes là. Là, ça n'a rien à voir avec ici. Donc, à partir de 14h20, les gars sont là. Très bien. 1, 2, 3. Donc, on a trois rouges et on a un volume très puissant. Ce volume là est très très puissant. Donc, je me dis on est au-dessus de VWAP. Je pense que c'est un bon signal d'achat. J'achète. J'ai 1, 2, 3. Je peux sortir, comme je vous l'ai dit, de 14h20 à 15h20. Je peux sortir et gagner déjà de l'argent. Mais si je ne veux pas gagner de l'argent, comment je vais raisonner ici avec Belkhayate System ? Je dis "Attention, on a un très grand volume qui est combiné avec le Spring Box. Donc, sur une tendance haussière, cela signifie un frein. Donc, je vais attendre la prochaine barre sur le volume qui va être rouge. Et là, je vais sortir. Je suis prêt à sortir, mais je ne sors que quand le marché me dit de sortir. Mais celui-là, il m'a dit "Attention, attention, c'est peut-être le moment de prendre ton profit."
+
+[20:30]
+Alors, ce qu'on peut faire, on peut retourner dans le temps. On peut retourner dans le passé et regarder. Est-ce que Belkhayate System va me donner des trades aussi faciles ? Ce trade là, il est incroyablement facile. Il n'y a rien, il n'y a pas photo. Pourquoi ? Parce que ici, ni ici, ni ici, ni ici, ni ici, ni ici, ni ici, on a une attaque baissière. On n'a pas. Donc, en achetant ici, le marché nous a laissé tranquille. Vous voyez comment il avance ? Il avance comme un éléphant. Regardez. Vous voulez gagner de l'argent facilement ? Vous voulez gagner de l'argent en disant que vous êtes un génie ? Que vous savez descendre une piste noire ? Moi, je préfère même pas de piste. Ni verte, ni bleue, ni rien. Moi, je préfère descendre avec l'ascenseur et prendre de l'argent tranquillement, apporter à mes enfants. Donc, on doit chercher le trading le plus facile possible sur la planète Terre. Et si on veut ça, il faut mettre de côté les devises. Il faut mettre de côté les indices boursiers et il faut mettre de côté les matières premières, les futures, le Forex. Il faut mettre tout ça de côté. Vous voulez un trading facile ? Vous allez vers le marché le plus facile. Et ce marché-là, je peux vous dire que très très très peu de traders en Afrique, en particulier au Maroc, en Algérie, très peu de traders sont en train de trader ce marché-là. Parce qu'ils ne le connaissent pas, ils ne l'ont jamais tradé. Mais c'est pas par hasard. C'est pas par hasard. C'est parce que le monde aujourd'hui, la communication, elle n'est pas faite pour promouvoir où est-ce que vous allez gagner de l'argent. C'est fait pour promouvoir le DAX. Le DAX, mon ami, le DAX, le Gold, le pétrole, tout le monde en parle de manière à ce que on ramène le maximum de pigeons dans sur la table pour les professionnels. Les professionnels, ils ont besoin de ces gens-là. Sinon, où est-ce qu'ils vont prendre l'argent ? Donc, dans le monde de la communication financière, vous allez toujours voir DAX, Gold, S&P, Nasdaq, pétrole. Tu vois ? Est-ce que vous avez déjà entendu parler de trading de T-Notes 10 ans ? Personne ne va venir vous parler de ça parce que ceux qui gagnent leur vie avec ça, ils ne parlent pas. Il n'existe même pas sur les réseaux. Personne n'en parle. Mais moi, je le dévoile à tous ceux qui m'écoutent. Je vous apprends le trading, mais je vous apprends à aller là où vous allez gagner de l'argent sans que personne ne s'occupe de vous. Quand vous mettez des ordres sur le marché du pétrole ou de l'or, les loups, ils voient vos ordres. Ils font ça, ils les voient. Croyez pas qu'ils ne les voient pas. Ils les voient et ils se disent "Bon, celui-là, il est cuit." Hein ? Celui-là, il est cuit. Et donc, ils vont balayer comme ça pour vous étrangler et vous mettre euh vous enfoncer dans l'eau jusqu'à ce que vous n'ayez plus de respiration. Et ensuite, ils vont vous lâcher quand vous aurez abdiqué. Mais sur le marché des bons de trésor américain, vous avez des gens, il a sur le bouton, quand il clique, il engage 400 millions de dollars, 2 milliards, il engage comme ça, clique sur ces marchés-là. Vous croyez que lui il va regarder "Tiens, celui-là, il a 100 000 dollars, il m'emmerde." Il va jamais penser ça. Ils s'en foutent. Quelqu'un qui fait un lot, deux lots, 10 lots, 20 lots, eux, ils sont préoccupés par 5 000 lots, 10 000 lots. Vous êtes en train de trader avec un lot, deux lots, trois lots, mais vous n'existez pas pour ces gens-là. Tant mieux. Parce que nous, 1 million de dollars pour nous, c'est génial, non ? Pour nous, hamdulillah, avec ça, on a fabriqué, on a acheté une maison pour nos parents en Afrique, on les a envoyé à la Mecque et on est béni. On a fini. Tant mieux. Donc, voilà. Je je c'est pour cela, regardez. Regardez ce qui se passe. Ici, vous faites quoi ? Vous faites quoi ici ? Vous êtes acheteur ici, ici vous faites quoi ? Ici, vous êtes en train de revenir, de rebondir sur le VWAP par le haut. Autrement dit, il n'y a pas photo. Vous doublez votre position acheteur. Vous êtes tranquille. Vous êtes tranquille de chez tranquille. Parce que ça, c'est du big money. On n'est pas en train de faire des feintes là. Vous allez voir, il n'y a pas de feintes ici. Le gars qui veut faire une feinte, il faut qu'il perde, il faut qu'il mette sur la table 10 milliards de dollars. Vous comprenez la différence ? Je vais vous montrer tout à l'heure. Donc, j'achète ici, je double ici, je regarde tranquillement. OK, ici, c'est c'est c'est magnifique. Regardez ça. Boum, boum. Oh, ici, ah ! Pourquoi pas ? Peut-être je devrais sortir ici.
+
+[30:05]
+[VISUEL: Écran noir avec le texte "A SUIVRE SUR VOLUME 20⚠️_A_VERIFIER" et "Le couloir horaire optimal pour Trader le ZN".]

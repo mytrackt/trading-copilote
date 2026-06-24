@@ -1,0 +1,149 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: V30.mp4]
+---
+[00:00] [VISUEL: Écran d'introduction avec le logo "Belkhayate method" et un graphique boursier stylisé en arrière-plan. Des barres vertes et rouges forment un histogramme au-dessus du texte. Des chiffres et des lignes de tendance sont visibles sur le graphique. La musique d'introduction est entraînante.]
+
+[00:01] [VISUEL: Le texte "Belkhayate Methode" apparaît en blanc, suivi de "TRADING PROFESSIONNEL" en jaune. Le graphique boursier continue en arrière-plan.]
+
+[00:04] [VISUEL: Le texte "COURS 30⚠️_A_VERIFIER" apparaît en blanc sur le même fond.]
+
+[00:07] [VISUEL: Le texte "Réussir les Tests de Trading" apparaît en jaune sur le même fond.]
+
+[00:15] [VISUEL: Écran d'ordinateur affichant un document Word intitulé "Réussir les Tests de Trading". Le document contient une liste à puces.]
+Bonjour, bonjour. Voilà, enfin, nous allons nous allons attaquer les éléments pour que vous puissiez réussir les tests de trading, euh, puisque euh la formation Belkhayate est d'abord un un disons un pilier pour pouvoir réussir les tests de trading, parce que je vous recommande euh plutôt que d'ouvrir des comptes. Voilà.
+
+[00:41] Donc euh, on va parler des tests de trading pour ceux qui n'ont jamais entendu parler de ces tests-là et qui veulent en savoir davantage. Alors,
+[00:50] [VISUEL: Le texte "Leeloo, Oneuptrader, Uprofits" est surligné en jaune dans le document Word.]
+Il y a euh des sociétés comme Leeloo, comme Oneuptrader, comme Youprofit, et cetera.
+
+[00:59] [VISUEL: L'écran passe à un navigateur web affichant le site "tradingreviews.com". Le titre "List of Sample Funded Trading Accounts:" est visible, avec un alphabet cliquable en dessous. La lettre "A" est sélectionnée, montrant "Affinity Traders Funded Account" et "Audacity Capital Funded Account".]
+Ces sociétés-là, euh je vais vous les montrer maintenant, on va voir ici. Vous avez un site qui s'appelle Trading Site. Vous pouvez mettre tout simplement sur Google "List of Sample Funded Trading Accounts" et vous avez toute une liste de sociétés.
+
+[01:19] [VISUEL: La page défile, montrant des noms de sociétés commençant par "B", "C", "E", "F", "L", "M", "N", "O", "S", "T", "W". Certaines ont des étoiles de notation et un lien "Funded account review".]
+Vous voyez là qui offre en fait, euh par exemple celui-là, il offre euh de vous de vous donner de l'argent en gestion si euh vous euh méritez, si en fait, vous avez une attitude de trader professionnel.
+
+[01:35] [VISUEL: La page défile jusqu'à "Leeloo Trading - Funded Account".]
+Comme celui-là, et cetera. Vous pouvez regarder tout ça.
+
+[01:37] [VISUEL: L'écran passe à l'onglet "leelootrading.com". Le slogan "Life without Limits. Trade Less. Live More" est visible. Une fenêtre pop-up "Leeloo News" est ouverte. En dessous, il y a des options "Leeloo Express $100,000⚠️_A_VERIFIER", "Aspire $25,000⚠️_A_VERIFIER", "Launch $50,000⚠️_A_VERIFIER".]
+Bon. Donc là, euh moi je reviens ici. Euh je vous montre un petit peu euh Leeloo. Leeloo euh il il offre un un Express à à 77 dollars.
+
+[01:45] [VISUEL: La fenêtre "Leeloo News" est fermée. Les options "Leeloo Express $100,000⚠️_A_VERIFIER" (77⚠️_A_VERIFIER USD/month), "Aspire $25,000⚠️_A_VERIFIER" (150⚠️_A_VERIFIER USD/month), "Launch $50,000⚠️_A_VERIFIER" (150⚠️_A_VERIFIER USD/month) sont visibles. Le texte "Up to 12⚠️_A_VERIFIER contracts", "$6,000⚠️_A_VERIFIER profit target", "$3,000⚠️_A_VERIFIER trading drawdown" est visible pour Leeloo Express.]
+Et euh j'ai euh beaucoup de mes étudiants qui ont réussi les tests de Leeloo de 100 000 dollars. Euh donc euh vous allez pouvoir découvrir en fait les les caractéristiques, d'accord, de chaque société. Vous pouvez regarder sur internet, il y a beaucoup de commentaires. Euh moi je ne vais pas euh aller pour l'un ou pour l'autre, je ne vais pas dire celui-là est mieux que l'autre. Parce qu'en fait, je suis en train de les de les tester et de voir ce qu'ils peuvent offrir à la communauté Belkhayate. S'ils peuvent offrir quelque chose de très intéressant pour que vous puissiez passer les tests avec un minimum de frais et que vous soyez payé, et cetera. Donc tous ces éléments-là, euh une fois que j'aurai vraiment le partenaire, euh et là je vous le je vous je vous l'annoncerai. Pour le moment, j'ai des étudiants qui ont réussi les tests de Leeloo.
+
+[02:40] [VISUEL: L'écran passe à l'onglet "uprofitrader.com". Le slogan "Upgrade your Trading and get ready to trade live. WE FUND, YOU TRADE!" est visible. Une fenêtre de chat est ouverte sur le côté droit. En dessous, il y a des sections "Join UProfit Trader", "Reach the Target to Complete the 1⚠️_A_VERIFIER-Step Evaluation", "Become a Pro Trader".]
+J'ai aussi des étudiants qui ont réussi les tests de Youprofit, celui-là.
+
+[02:49] [VISUEL: La page défile pour montrer les programmes "UProfit Trader Program" avec des options de capital virtuel : "$25,000⚠️_A_VERIFIER", "$50,000⚠️_A_VERIFIER", "$75,000⚠️_A_VERIFIER", "$100,000⚠️_A_VERIFIER". Chaque option a un "Target", "Max Positions/Contracts", "Daily Loss Limit", "Pro Drawdown" et "Minimum Trading Days". Pour le $50,000⚠️_A_VERIFIER, le target est $2,500⚠️_A_VERIFIER, Daily Loss Limit $1,100⚠️_A_VERIFIER, Pro Drawdown $2,000⚠️_A_VERIFIER.]
+D'accord, vous voyez ici. Donc ils ont tous des des objectifs euh à faire à atteindre. Vous gérez 50 000, vous avez un objectif de 2 500. Et vous avec euh bon pour Youprofit cette semaine, ils m'ont envoyé un discount de euh de 40 % pour ceux qui veulent de ma communauté. Donc euh c'est pas mal. Euh donc euh il y a euh des des stops quotidiens qu'il ne faut pas toucher. Si vous si vous descendez en dessous de 1 100 dollars par exemple sur euh le 50 000, ben vous êtes éliminé. Autrement dit, vous devez repayer pour faire le test.
+
+[03:29] [VISUEL: L'écran passe à l'onglet "oneuptrader.com". Le titre "How It Works" est visible, avec des options de taille de compte : "Novice $25,000⚠️_A_VERIFIER", "Beginner $50,000⚠️_A_VERIFIER", "Advanced $100,000⚠️_A_VERIFIER", "Professional $150,000⚠️_A_VERIFIER".]
+Vous avez aussi Oneuptrader ici qui qui commence à être connu. J'ai aussi des traders, des étudiants qui ont réussi Oneuptrader.
+
+[03:37] [VISUEL: L'écran passe à l'onglet "earntotrade.com". Le titre "What is the Gauntlet Mini™?" est visible avec une vidéo. En dessous, il y a des options de capital virtuel : "$25,000⚠️_A_VERIFIER", "$50,000⚠️_A_VERIFIER", "$75,000⚠️_A_VERIFIER", "$100,000⚠️_A_VERIFIER", "$150,000⚠️_A_VERIFIER".]
+On a également euh Earn2Trade ici qui euh qui propose également de de financer des traders qui sont compétents.
+
+[03:49] [VISUEL: L'écran revient à "tradingreviews.com", montrant la liste des sociétés de trading financées.]
+Et je répète ici, vous avez la liste de toutes ces sociétés-là. Vous pouvez faire le tour.
+
+[03:58] [VISUEL: L'écran revient au document Word "Réussir les Tests de Trading".]
+Bon. Donc là, euh moi je reviens ici. Euh pour vous faire un petit peu euh vous rappeler de quoi il s'agit en fait. C'est ce sont des sociétés qui proposent de passer des tests pour vous confier des fonds en gestion à partir de chez vous.
+
+[04:14] [REGLE: Respecter les Règles et montrer qu'on est capable d'être discipliné à 100%.]
+Donc il faut respecter des règles et montrer qu'on est capable d'être discipliné à 100 %. En fait, ces gens-là, ils ont fait un business où ils se sont rendu compte que l'être humain n'est pas discipliné. Et donc euh il va toujours euh toucher les les barrières qu'il ne faut pas qu'il touche. Donc ils ont ils ont carrément monté un système basé sur le fait que les gens sont incompétents. Et euh et donc euh leur business, c'est ce qu'ils pensent que 95 % des personnes qui vont passer les tests, ils vont payer pour passer les tests, mais ils vont échouer. Et donc ils vont repayer, ils vont repayer peut-être 10 fois pour réussir un test. Donc ces sociétés-là ont un business model qui est basé sur le fait de prendre de l'argent euh à des milliers de gens qui sont intéressés d'avoir des fonds en gestion. Donc il faut le savoir, il faut savoir que c'est ça leur business model. Et ils sont en train de de donc vous avez si vous voulez réussir, il faut être vraiment capable de respecter des règles et de montrer que vous êtes discipliné.
+
+[05:24] [REGLE: Gérer de l'argent réel et recevoir jusqu'à 80% des profits.]
+L'objectif, ça va être de de gérer de l'argent à partir de chez vous, que ce soyez en France, en Afrique, au Maroc, n'importe où dans le monde, et vous allez avoir un login et vous allez gérer de l'argent réel et vous allez recevoir jusqu'à 80 % des profits. Alors là, est-ce que ça fonctionne ? Est-ce que vraiment c'est vrai ? Moi je peux vous dire, après avoir euh donné des cours au Maroc et en France, j'ai maintenant pratiquement, on arrive à la centaine de d'étudiants qui ont réussi les tests et qui et dont certains sont en train de gérer de l'argent réel et effectivement, euh je peux confirmer que j'ai des étudiants qui reçoivent chaque mois euh de l'argent euh qu'ils gèrent à partir de votre site. Bon, à partir de chez eux.
+
+[06:14] [REGLE: Si vous vous appliquez à trader avec une attitude professionnelle, vous n'aurez jamais besoin d'ouvrir votre propre compte de Trading. Vous pourrez non seulement gérer plusieurs comptes d'une même société de Trading mais également gérer des comptes auprès des autres sociétés de Trading.]
+Donc si vous vous appliquez à trader avec une attitude professionnelle, vous n'aurez jamais besoin d'ouvrir votre propre compte de Trading. Parce que l'idée, c'est si vous êtes vraiment compétent, alors euh vous n'avez pas besoin euh de d'ouvrir un compte. Vous pourrez non seulement gérer plusieurs comptes d'une même société, par exemple Leeloo peut vous confier deux deux, trois, 20, même comptes, du moment que vous payez ce qu'il faut, mais également vous pouvez avoir des comptes auprès des autres sociétés de Trading. Autrement dit, c'est un ça peut être un grand business. Parce que supposons que vous euh mettez en place un robot simple euh qui vous permet de respecter les règles, rien ne vous empêche d'avoir de cumuler des dizaines euh de de comptes et peut-être et pourquoi pas des centaines de comptes si vous avez euh l'intelligence artificielle appliquée au trading sur un ou deux ou trois marchés et vous respectez vraiment les règles, rien ne peut vous vous empêcher euh de pouvoir gérer plusieurs comptes en automatique auprès de ces sociétés-là.
+
+[07:21] [VISUEL: Le document Word affiche le titre "Quel intérêt pour vous ?" et une liste à puces.]
+Alors quel intérêt pour vous ? Alors moi j'ai j'ai j'ai j'ai mis ici quel intérêt pour vous ?
+
+[07:31] [REGLE: Vous ne mettez plus en risque votre propre capital ou celui de votre famille.]
+La première chose, c'est que vous ne mettez plus en risque votre propre capital ou celui de votre famille. Évidemment, parce que ça pour moi, c'est très important puisque j'ai beaucoup de gens qui commencent le trading et tout de suite, dès qu'ils commencent à faire du trading, ils disent à leur famille : "Ça y est, je suis trader, on donne-moi 10 000, donne-moi 20 000, donne-moi 100 000." Et puis ils perdent tout parce que c'est très très difficile de gagner de l'argent sur les marchés boursiers. C'est pas euh ce n'est pas à la portée de tout le monde. Et euh et donc euh je cette formation Belkhayate, elle est en réalité très focalisée sur le fait de vous faire passer des examens. Et pour pour que vous puissiez gérer de manière professionnelle.
+
+[08:14] [REGLE: Vous êtes obligés d'entraîner votre discipline et votre trading va gagner chaque jour de la rigueur et de la précision.]
+Vous allez votre intérêt également, c'est vous êtes obligés d'entraîner votre discipline et votre trading va gagner chaque jour de la rigueur et de la précision. Ça c'est un très grand intérêt parce que même si vous êtes millionnaire et que votre papa il vous donne 1 million de dollars en gestion, il vous dit : "Allez, va jouer avec 1 million de dollars." Vous devez d'abord réussir les tests. Pourquoi ? Parce que vous allez apprendre à instaurer la rigueur et la précision dans votre trading. Ce n'est pas l'argent qui va vous apprendre à être un très bon trader, jamais. C'est la discipline et la rigueur.
+
+[08:56] [REGLE: Tout cela à un prix raisonnable : entre 60 et 500 dollars.]
+Et en fait, vous allez apprendre tout ça à un prix vraiment très raisonnable. Entre 60 et 500 dollars. Vous allez euh faire des tests. Alors que ceux qui ouvrent des comptes, ils commencent avec 2 000, 3 000, 4 000 dollars et puis ils perdent tout. Donc au lieu de d'ouvrir un compte de de perdre 2 000, 3 000 jusqu'à 5 000 dollars, prenez le temps de vérifier si vous êtes réellement un trader gagnant, un trader qui a de la discipline et qui peut résister à au stress du marché financier.
+
+[09:33] [REGLE: Vous êtes orientés vers des marchés plus fiables que le forex ou le crypto (deux marchés non régulés) : les marchés à terme des matières premières, des indices boursiers, des bons de trésor et des devises.]
+Vous êtes orientés vers des marchés plus fiables que le Forex ou la crypto. Alors là, c'est très important, j'ai j'ai j'ai mis ça dans les dans dans dans dans les intérêts parce que je me suis rendu compte que 80 % des personnes qui qui prennent ma formation, ils ils ont déjà fait un peu de Forex ou un peu de crypto et ils se disent on va aller utiliser ça dans la crypto. Bien que ma formation fonctionne sur ces marchés-là, je ne recommande pas euh de de se de se focaliser sur des marchés qui sont pas régulés. Ça veut dire que n'importe quoi peut arriver sur ces marchés-là, en particulier la crypto. Vous pouvez du jour au lendemain voir votre broker, même si c'est un grand broker, très grand broker que je ne vais pas nommer, il peut du jour au lendemain disparaître puisque il n'y a pas de gouvernement derrière. Il n'y a pas d'entité qui qui qui le qui le qui le surveille. Et puis les volumes sur des marchés non régulés n'ont pas de sens. Alors que la formation Belkhayate est basée pratiquement sur le volume. Donc si le volume il est il est il n'est pas euh correct, il n'est pas fiable, on ne va pas aller sur ces marchés-là. Je vous propose plutôt de comme vous vous l'avez vu pendant la formation, les marchés à terme des matières premières, par exemple l'or, le pétrole, le café, le sucre, le blé, les indices boursiers comme le Nasdaq, le S&P, euh le Dow Jones, des bons de trésor comme le ZN, le ZB, les bons de trésor à 10 ans et à 30 ans, et puis les devises en futur et non en Forex, c'est-à-dire sur les marchés à terme de de Chicago.
+
+[11:24] [REGLE: Vous avez plusieurs chances pour réussir les tests (entre 10 et 20 jours).]
+Euh un autre intérêt, c'est que vous avez plusieurs chances pour réussir les tests. C'est-à-dire que c'est pas parce que vous ratez un test que ça y est, c'est foutu. Vous pouvez passer 100 fois les tests, il n'y a aucun problème. Tant que vous payez, vous pouvez passer les tests. Donc ça, c'est quand même une flexibilité importante pour que vous puissiez bien vous entraîner. Et en plus, un test ça ça dure entre 10 et 20 jours. Donc euh vous vous avez vraiment une opportunité de vous entraîner au trading professionnel.
+
+[11:54] [REGLE: Vous réalisez la vraie difficulté de gagner de l'argent sur les marchés financiers.]
+Ensuite, vous réalisez la vraie difficulté de gagner de l'argent sur les marchés financiers. Voilà l'intérêt pour vous de faire les tests de trading. Parce que euh souvent on croit qu'il faut acheter et puis quand ça monte, c'est bon, c'est facile, on gagne de l'argent. Mais ça, c'est valable lorsque les marchés montent tout seuls. Mais quand les marchés commencent à à être volatils, il devient extrêmement difficile de gagner de l'argent sur les marchés. Et en faisant des des tests, vous allez vous rendre compte que c'est très difficile. Mais c'est pas parce que c'est très difficile que c'est pas à votre portée. La méthode Belkhayate est là pour vous montrer que dans la difficulté, il y a moyen de tirer de l'argent de manière régulière et de manière euh saine.
+
+[12:40] [REGLE: Mais si vous avez la bonne méthode et que vous la respectez à 100% alors votre vie va changer complètement.]
+Et que c'est donc si vous avez la bonne méthode et que vous la respectez à 100 %, alors votre vie va changer complètement. Voilà votre intérêt. Votre intérêt, c'est que si effectivement vous êtes capable d'apprendre et de respecter ce que vous avez appris, je vous garantis que votre vie va changer. Que ce soit pour travailler dans une entreprise marocaine ou ou ailleurs et et qui peut vous tester pendant un certain temps pour voir ce que vous savez faire. Et là, vous vous pouvez avoir un salaire très important parce que vous avez acquis un savoir-faire. Ou alors, vous pouvez euh cumuler des des des comptes de trading auprès des sociétés de trading et vous pouvez avoir jusqu'à 1 million, 2 millions de dollars en gestion. C'est tout à fait possible, c'est pas impossible. Et puis euh pourquoi pas, une fois que vous êtes euh vous êtes à l'aise, que vous savez que vous respectez les règles et que vous êtes maintenant sûr de maîtriser votre méthode, vous pouvez enfin ouvrir votre propre compte de trading et gérer votre argent.
+
+[13:54] [VISUEL: Le document Word affiche le titre "Les principes de base pour réussir les tests de Trading" et une liste à puces.]
+Les principes de base pour réussir les tests de Trading.
+
+[14:02] [REGLE: Intervenir avec méthode. Ne rien faire au hasard.]
+C'est d'abord intervenir avec méthode. Ne rien faire au hasard. Alors j'insiste sur ça parce que beaucoup de gens euh font les et ils sont très pressés de réussir les tests, mais ils oublient la méthode, ils oublient de respecter la méthode. Donc si vous vous prenez un test, vous dépensez de l'argent. Et la la le moindre faux pas et puis c'est comme vous avez jeté cet argent par la fenêtre. Donc il ne faut pas intervenir, il ne faut pas déjà s'inscrire dans les tests tant que vous n'avez pas fait au moins un à deux mois de test euh avec les comptes démo de NinjaTrader par exemple pour gérer 100 000 dollars et regarder si vous êtes capable de de de respecter les règles de base.
+
+[14:51] [REGLE: Savoir attendre le bon moment et faire exactement ce que recommande la méthode.]
+Il faut savoir attendre le bon moment. Je vous rappelle que la stratégie Belkhayate, c'est d'être aux aguets, d'attendre l'accélération sur le volume ou d'attendre qu'il y ait un grand volume après une grande tendance baissière ou haussière. Et surtout de faire exactement ce que recommande la méthode. C'est pas parce que vous savez ce qu'il faut faire que vous allez le faire. De même que c'est pas parce que vous savez qu'il faut s'arrêter au feu vert que vous vous arrêtez au feu vert à 3h du matin.
+
+[15:25] [REGLE: Vous avez entre 14 et 20 jours de trading : soyez patients et apprenez à accumuler des petits gains en attendant que le marché vous donne en une journée l'objectif entier du test.]
+Vous avez entre 14 et 20 jours de trading. Donc soyez patients et apprenez à accumuler des petits gains en attendant que le marché vous donne en une journée l'objectif entier du test. Voilà ce que j'ai recommandé à la plupart de mes étudiants. Je leur ai dit : "Ne soyez pas pressés de faire absolument de l'argent ce jour, tel jour." Le marché, il va être compliqué, difficile à vous donner de l'argent pendant 95 % du temps. Mais les 5 autres pour cent, si vous êtes là, aux aguets et vous surveillez, vous allez vous rendre compte qu'il vous donne facilement de l'argent sur le marché financier. Et il peut vous donner en une seule journée l'objectif entier du test. C'est-à-dire si vous devez faire 3 000 dollars en 20 jours, vous pouvez les faire en une journée. Et ensuite, euh sur les autres jours, vous faites simplement des petits gains en gérant au mieux pour avoir finalement votre certificat.
+
+[16:30] [REGLE: Trader les micros contrats pour mieux utiliser la règle du money management et éviter de toucher les stops loss.]
+Enfin, et ça c'est le plus important, c'est le plus important. Donc je dois le mettre je dois le mettre comme ça. C'est le plus important, c'est que il faut trader les micros contrats pour mieux utiliser la règle du money management et éviter de toucher les stops loss. Alors là, les micros contrats, c'est quoi ? C'est euh vous savez euh il y a il y a le Nasdaq et puis il y a l'or. C'est des contrats normaux et puis après vous avez les micros où la la valeur du point est divisée par 10. Et et donc quand vous vous exposez, vous vous exposez 10 fois moins. Et c'est très important parce que lorsque vous commencez à trader par exemple le micro gold, vous pouvez rentrer avec un contrat micro et puis ensuite vous pouvez rajouter deux, trois, quatre ou quand vous avez raison. Donc vous pouvez accumuler quand vous avez raison et si vous avez tort, vous sortez avec un contrat. Et et et même avec en en faisant ça, vous n'allez pas toucher votre stop loss quotidien parce que vous êtes très peu exposé. L'art du trading, c'est d'être très peu exposé et que au fur et à mesure que vous avez raison, vous vous exposez davantage. Et là, il n'y a que les micros qui vous qui vous permettent ça. Donc si vous si vous commencez directement avec le contrat normal euh E-mini euh E-mini S&P ou E-mini Nasdaq, avec un seul lot en une minute, vous êtes déjà, vous pouvez déjà être éliminé du test avec la volatilité importante et soudaine qui peut arriver. Donc je recommande à tous ceux qui suivent ma méthode et qui veulent réussir les tests de de de faire les micros contrats.
+
+[18:27] [VISUEL: L'écran passe à un graphique NinjaTrader. Le marché est le Micro Nasdaq (MNQ09-21⚠️_A_VERIFIER) sur un timeframe de 5⚠️_A_VERIFIER minutes. On voit des bougies japonaises, des moyennes mobiles (une blanche, une verte en pointillés, une rouge en pointillés) et un indicateur de volume en bas. Le prix est en tendance haussière, avec une forte bougie verte récente.]
+Attendez, je je vais voir si je peux vous montrer ça ici. Voilà, par exemple ici. Ici, on a en temps réel maintenant le micro sur le Nasdaq. Vous voyez, il a il a ouvert et il a catapulté à la hausse rapidement. Donc euh et là, c'est ce micro-là, c'est il il est il est comme il est réagit comme le Nasdaq, mais sauf que là, si vous achetez ou que vous vendez, euh je peux le faire euh je ne veux pas euh je vais faire je vais faire ça sur une autre vidéo. Sur une autre vidéo, je le ferai.
+
+[19:04] Donc pour le moment, je vous recommande, sachez, si vous voulez réussir les tests de trading, que ce soit chez Leeloo ou ailleurs, euh je vous recommande euh de de de trader les micros contrats.
+
+[19:18] [VISUEL: Le document Word affiche le titre "Les erreurs à éviter impérativement" et une liste à puces.]
+Les erreurs à éviter impérativement.
+
+[19:22] [REGLE: Prendre des comptes avec des objectifs difficiles à réaliser (les comptes à plus de 100 000 USD).]
+C'est de prendre des comptes avec des objectifs difficiles à réaliser. Mais c'est normal, si vous êtes débutant, ne commencez ne commencez pas tout de suite à être cupide et à aller chercher des comptes à plus de 100 000 dollars. Il y a des comptes à 25 000 où il vous faut un ou à 50 000 où il vous faut juste 3 000 dollars de gains par sur les 20 jours. Donc commencez déjà à prendre déjà un certificat, un petit certificat, mais c'est déjà très important. Ne commencez pas tout de suite par vouloir prendre un grand certificat.
+
+[19:52] [REGLE: Ne jamais faire un RESET le même jour.]
+Ne jamais faire un RESET le même jour. Ça veut dire, vous savez, il y a des personnes, ils ils brûlent leur compte et ils recommencent dans la même journée et ils peuvent brûler deux, trois comptes dans la même journée. Parce qu'il n'a pas compris que euh ce qui compte, c'est le money management. Il ne faut pas y aller avec avec avec des contrats normaux, il faut y aller avec des micros contrats.
+
+[20:14] [REGLE: Une perte de 500 usd en un jour est un signe qu'il faut arrêter jusqu'au lendemain. Voilà une règle difficile à respecter pour beaucoup de mes étudiants.]
+Et lorsque vous avez brûlé un compte, il faut arrêter le trading parce que il faut laisser, comme je l'ai dit ici, l'uppercut a toujours besoin de temps pour être digéré à la fois par le corps et par le mental. Donc lorsque vous avez un sale coup, euh vous devez arrêter le trading. Et attendre le le si c'est le matin, vous devez attendre l'ouverture par exemple. Ou alors si c'est le si c'est l'après-midi, vous attendez le lendemain.
+
+[20:45] [REGLE: Ne jamais chercher à se venger du marché. Il est toujours votre allié car grâce à lui vous serez définitivement autonome financièrement.]
+Ne jamais chercher à se venger du marché. Voilà, ça c'est très très important parce que souvent on rentre, on perd une fois, on perd deux fois, alors on veut se venger, on veut absolument se venger. Non. Le marché est votre allié, car grâce à lui, vous serez définitivement autonome financièrement. C'est ce marché-là qui va vous permettre d'avoir la vie de rêve et personne d'autre. Aucune personne physique ne va vous permettre de gagner de l'argent facilement. Il n'y a que le marché, ce marché-là, le marché financier qui doit devenir votre allié. Donc ne lui en voulez jamais. C'est vous qui vous êtes responsable. Le marché n'est jamais responsable, c'est vous. Vous devez attendre le bon moment. À un moment donné, il va vous donner de l'argent.
+
+[21:33] [REGLE: Clôturer en général vos trades sur une unité de temps inférieure à celle de votre entrée. Par exemple vous initiez un trade sur 5 min et vous le surveillez sur 1 ou 3 minutes max.]
+Une perte de 500 dollars en un jour est un signe qu'il faut arrêter jusqu'au lendemain. Voilà une règle difficile à respecter pour beaucoup de mes étudiants. Ensuite, euh clôturer en général vos trades sur une unité de temps inférieure à celle de votre entrée. Par exemple, moi je vous recommande de trader sur 5 minutes pour avoir une visibilité, pour voir le volume, et cetera. Mais lorsque vous êtes déjà en position, je vous recommande de surveiller sur une ou trois minutes par exemple. Comme ça, vous sortez avant les 5 minutes s'il y a quelque chose. Évidemment, ça peut monter, monter, mais si vous voyez sur une minute qu'il y a une mèche avec un grand avec un grand volume, ça sert à rien d'attendre les 5 minutes, vous sortez tout de suite.
+
+[22:49] [VISUEL: Le document Word affiche le titre "Les règles à suivre impérativement" et une liste à puces.]
+Et les règles à suivre impérativement.
+
+[22:53] [REGLE: Définir dès le départ en dollars : 1. Votre objectif quotidien, 2. Votre perte maximum pour un trade, 3. Votre perte max pour la journée.]
+Enfin, c'est de définir dès le départ en dollars, un devant vous, devant vos yeux, votre objectif quotidien, votre perte maximum pour un trade et votre perte maximum pour la journée.
+
+[23:06] [REGLE: RESPECTER LES REGLES.]
+Et bien sûr, respecter ces règles. C'est très très important. Je ne n'arrêterai pas de le dire parce que le plus dur pour devenir un champion de trading, c'est de respecter les règles.
+
+[23:18] [REGLE: Regarder les volumes avant d'entrer sur une position.]
+Enfin, il y a bien sûr, regarder les volumes avant d'entrer sur une position. Ça, la méthode Belkhayate, elle est elle est intransigeante là-dessus. Il faut d'abord regarder les volumes avant de rentrer en position.
+
+[23:31] [REGLE: Vérifier le couloir horaire.]
+Et bien sûr, vérifier le couloir horaire. Voilà, donc euh je vous remercie hein pour euh votre attention et puis euh on va passer maintenant à quelques exemples sur le trading en micro pour réussir les tests de de trading.
+
+[24:04] [VISUEL: L'écran passe à l'interface d'un logiciel d'enregistrement vidéo, montrant une liste de vidéos enregistrées. Le titre "Gérer des enregistrements" est visible.]
+
+[24:35] [VISUEL: Écran d'introduction avec le logo "Belkhayate method" et un graphique boursier stylisé en arrière-plan. Des barres vertes et rouges forment un histogramme au-dessus du texte. Des chiffres et des lignes de tendance sont visibles sur le graphique. La musique d'introduction est entraînante.]
+
+[24:36] [VISUEL: Le texte "La Méthode Belkhayate" apparaît en blanc, suivi de "POUR UN TRADING PROFESSIONNEL" en jaune.]
+
+[24:38] [VISUEL: Le texte "UN TRADER PROFESSIONNEL UTILISE 95⚠️_A_VERIFIER% DE SON TEMPS À ATTENDRE ET 5⚠️_A_VERIFIER% À TRADER." apparaît en jaune, avec "MOSTAFA BELKHAYATE" en blanc en dessous.]
+
+[24:46] [VISUEL: Le texte "Merci pour votre attention ET À LA PROCHAINE VIDEO" apparaît en blanc sur le même fond.]

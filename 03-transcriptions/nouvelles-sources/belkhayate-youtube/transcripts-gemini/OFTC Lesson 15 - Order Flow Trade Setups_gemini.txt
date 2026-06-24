@@ -1,0 +1,15 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: OFTC Lesson 15 - Order Flow Trade Setups.mp4]
+---
+Je dois vous informer qu'il y a une divergence entre votre demande et le contenu de la vidéo.
+
+La vidéo que vous avez fournie est en **anglais** et le présentateur est **Michael Valtos**, le fondateur de Orderflows.com. Votre demande mentionne "Mustapha Belkhayate en français".
+
+Étant donné que la vidéo n'est pas en français et que le présentateur n'est pas Mustapha Belkhayate, je ne peux pas transcrire la vidéo selon les instructions spécifiques que vous avez données (notamment la description visuelle liée aux indicateurs de Belkhayate et la transcription de sa voix en français).
+
+Je ne peux pas produire des informations qui ne correspondent pas à la réalité de la vidéo, car cela pourrait être trompeur.
+
+Si vous souhaitez une transcription de cette vidéo en **anglais** (avec les descriptions visuelles des graphiques de Michael Valtos), ou si vous souhaitez que j'essaie de traduire le contenu anglais en français (tout en précisant que ce n'est pas Mustapha Belkhayate qui parle), veuillez me le faire savoir.

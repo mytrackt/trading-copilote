@@ -257,7 +257,10 @@ def _transcrire_chunk(chunk_path, qualite, live, numero, nb_total):
     """
     video_file = None
     try:
-        video_file = client.files.upload(file=str(chunk_path), config={"mime_type": "video/mp4"})
+        video_file = client.files.upload(
+            file=str(chunk_path),
+            config={"mime_type": "video/mp4", "display_name": "chunk_upload.mp4"}
+        )
         debut = time.time()
         while video_file.state.name == "PROCESSING":
             if time.time() - debut > MAX_PROCESSING_WAIT_SECONDS:
@@ -387,19 +390,23 @@ def transcrire_video(video_path: Path) -> dict:
     print(f"  Qualite estimee : {qualite}")
     print(f"  Type live       : {'OUI' if live else 'NON'}")
 
-    # --- VERIFIER DUREE avant upload (evite erreur 400 token limit) ---
-    if video_path.stat().st_size > TAILLE_SEUIL_OCTET:
-        duree = get_duree_video(video_path)
-        if duree > DUREE_MAX_DIRECTE:
-            nb_chunks = int(duree / CHUNK_DUREE) + 1
-            print("  Duree estimee   : " + str(int(duree / 60)) + " min — depasserait la limite Gemini (1M tokens)")
-            print("  Decoupage auto  : " + str(nb_chunks) + " chunks de " + str(CHUNK_DUREE // 60) + " min")
-            return _transcrire_par_chunks(video_path, qualite, live)
+    # --- VERIFIER DUREE avant upload (toutes videos, sans seuil taille) ---
+    # Bug fix : le seuil 200 Mo manquait les videos longues < 200 Mo (ex: OFTC Lesson 14)
+    duree = get_duree_video(video_path)
+    if duree > DUREE_MAX_DIRECTE:
+        nb_chunks = int(duree / CHUNK_DUREE) + 1
+        print("  Duree estimee   : " + str(int(duree / 60)) + " min — depasserait la limite Gemini (1M tokens)")
+        print("  Decoupage auto  : " + str(nb_chunks) + " chunks de " + str(CHUNK_DUREE // 60) + " min")
+        return _transcrire_par_chunks(video_path, qualite, live)
 
     try:
         # --- UPLOAD ---
         print(f"  Upload en cours vers Gemini Files API...")
-        video_file = client.files.upload(file=str(video_path), config={"mime_type": "video/mp4"})
+        # display_name fixe en ASCII : evite l'erreur codec ascii sur noms de fichiers accentues
+        video_file = client.files.upload(
+            file=str(video_path),
+            config={"mime_type": "video/mp4", "display_name": "video_upload.mp4"}
+        )
 
         # --- ATTENTE PROCESSING avec timeout ---
         debut_attente = time.time()
