@@ -3,7 +3,7 @@
 > Source de vérité : `CLAUDE.md` (décisions verrouillées) + `00-pilotage\docs\MASTER_TRADEX_AI_v2.md`
 > Documents KB : `STRATEGIE_KB_MASTER.md` + `RAPPORT_SOURCES_KB_2026.md`
 >
-> **Dernière mise à jour** : 2026-06-12 — Phase B révisée (KB rebuild depuis sources primaires).
+> **Dernière mise à jour** : 2026-06-24 (S24) — Architecture 8 couches intégrée · Phase E/F/K enrichies · Pipeline Gemini multimodal actif.
 > **Règle** : chaque phase est validée par Abdelkrim avant de passer à la suivante.
 
 ---
@@ -21,9 +21,9 @@
         ↓
 [D] Moteur Belkhayate Python                ← BGC + Direction + Énergie + Pivots
         ↓
-[E] Signal Scorer + Régime + Walk-Forward   ← score 7 cercles + backtest
+[E] Signal Scorer + Régime + WFO + Loop3    ← score /10 + 4 régimes + feedback_engine
         ↓
-[F] Trade Validator + Risk extensions       ← G1-G6 garde-fous bloquants
+[F] Trade Validator + Risk extensions       ← G1-G6 + Kelly + OOD + dual-Claude
         ↓
 [G] Client NT8 ATI port 36973 + Killswitch  ← exécution ordres + G8
         ↓
@@ -145,23 +145,30 @@ COUCHE TRANSVERSALE — AUDIT & MONITORING
 
 ---
 
-## ETAT ACTUEL (au 2026-06-12)
+## ETAT ACTUEL (au 2026-06-24 — Session S24)
 
 | Item | Etat | Note |
 |------|------|------|
 | Reorganisation structure 00→06 | OK | commit 960fe88 |
-| CLAUDE.md a jour | OK | reflète structure 00→06 |
+| CLAUDE.md a jour | OK | S24 — gemini-2.5-flash verrouille, architecture 8 couches |
 | Moteur TRANSVIDEO | OK | 01-moteur-transvideo\scripts\ |
 | Code SaaS migre 05-saas\ | OK | config, engine, KB, utils |
 | Circuit breaker repare | OK | commit 75a517e |
-| KB Belkhayate JSON | INVALIDE | 142 whisper_*.txt = NotebookLM (hallucinations confirmees) |
-| PDFs methode-belkhayate | INVALIDE | generes par generateur-prompts-pro (mentions modele inexistant) |
-| KNOWLEDGE_BASE_MASTER.json | INVALIDE | double hallucination — a reconstruire |
-| Strategie KB rebuild | OK | STRATEGIE_KB_MASTER.md + RAPPORT_SOURCES_KB_2026.md |
-| Collecteurs (NT8, ATAS, news, COT, macro) | NON | Phase C (en attente Phase B) |
-| data\NT8_data.csv + data\ATAS_signals.json | OK | fichiers exemples crees |
+| KNOWLEDGE_BASE_MASTER.json | OK (canonique) | 1 313 regles — D1→D172, 13 sources, P0+P1+P2+P3+P4 complets |
+| Pipeline KB (KB_INDEX.md) | OK | D1→D172 (+111 decisions S23) · 3 adaptateurs scraping valides |
+| Pipeline Gemini multimodal | OK | gemini_transcriber.py 706 lignes · chunking auto >50min · batch 3 : 70 OK / 51 err corriges |
+| Batch 4 Gemini (45 fichiers Lecon) | EN ATTENTE | _AsciiFileWrapper repare — a lancer |
+| gemini_transcriber.py | REPARE S24 | commit f854b2b · 706 lignes · ASCII wrapper OK |
+| Collecteurs (NT8, ATAS, news, COT, macro) | NON | Phase C (en attente Phase B finalisee) |
 | dossier data\ | A CREER | Phase C |
-| Mode AUTO | BLOQUE | BLOQUE par defaut |
+| Mode AUTO | BLOQUE | BLOQUE par defaut — 8 conditions Phase K non remplies |
+| regime_detector.py | NON | Phase E — nouveau fichier a creer |
+| signal_scorer.py | NON | Phase E — grille /10 conceptuelle, pas codee |
+| feedback_engine.py | NON | Phase E/F — Loop 3 absente |
+| SQLite schema | NON | Phase E — schema defini dans rapport architecture |
+| Kelly position sizing | NON | Phase F — actuellement 2% fixe |
+| OOD detector | NON | Phase F — nouveau fichier a creer |
+| Dual-Claude validation | NON | Phase F/L — 2 appels par signal |
 
 ---
 
@@ -275,37 +282,61 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 ---
 
-## PHASE E — Signal Scorer + Detection regime + Walk-Forward
+## PHASE E — Signal Scorer + Detection regime + Walk-Forward + Loop 3
 
-**Objectif** : scoring 7 cercles + classification regime + backtesting.
+**Objectif** : scoring /10 + 4 regimes + WFO anti-overfitting + boucle apprentissage.
 
 **Prerequis** : Phases C + D.
 
 **Livrables** :
 - 05-saas\engine\signal_scorer.py : score_7_cercles(), HysteresisFilter, CoolDownGuard, AntiNoiseFilter, walk_forward_validate, monte_carlo_stress
-- Extension correlations.py : detect_correlation_break, detect_market_regime
+- 05-saas\engine\regime_detector.py : detect_regime() — 4 regimes (TRENDING_BULL, TRENDING_BEAR, RANGING, VOLATILE)
+  - ADX + ATR zscore + VIX + correlation_breakdown
+  - seuil_signal adaptatif par regime (7.0 defaut · 7.5 RANGING · 9.0 VOLATILE · 7.0→6.5 TRENDING_BULL apres unlock)
+  - GC comme reference regime (+ option cross-asset Phase E+)
+  - Bootstrap : charger 252j de donnees historiques NT8 (CSV) avant live
+- 05-saas\engine\feedback_engine.py : Loop 3 — analyse chaque trade ferme
+  - update_rule_performance(), update_regime_memory(), check_recalibration_needed()
+  - generate_weekly_report() auto
+- 05-saas\engine\threshold_adapter.py : auto-calibration score_min
+  - Bornes absolues : 6.0 ≤ score_min ≤ 9.0. Defaut : 7.0. Jamais en dehors.
+- 05-saas\db\schema.sql : 5 tables SQLite (signals, trades, rule_performance, regime_memory, parameter_history)
+- Extension correlations.py : detect_correlation_break(), detect_market_regime()
 
-**Critere** : backtest 3 mois minimum, win rate superieur a 55%.
+**Critere** : backtest WFO 3 mois minimum (IS 90j + OOS 30j), win rate superieur a 55%, OOS/IS >= 0.70.
 
-**Garde-fous Phase E** : G7 (regime marche) + filtres anti-bruit.
+**Garde-fous Phase E** : G7 (regime marche) + filtres anti-bruit + seuil_signal verrouille >= 6.0.
 
-**Estimation** : 3-4 sessions.
+**Estimation** : 4-5 sessions.
 
 ---
 
-## PHASE F — Trade Validator + Risk Engine extensions
+## PHASE F — Trade Validator + Risk Engine extensions + Intelligence Couche 5
 
-**Objectif** : couche bloquante pre-ordre.
+**Objectif** : couche bloquante pre-ordre + position sizing intelligent + anti-biais IA.
 
 **Prerequis** : Phase E.
 
 **Livrables** :
 - 05-saas\engine\trade_validator.py : check_stop_loss, check_anti_doublon, check_dead_zone, check_rollover, validate_order
 - Extensions risk_manager.py : LEVIER_PAR_REGIME, adjust_position_size, check_drawdown_breakers, write_mandatory_lock, is_trading_locked
+- kelly_fraction() dans risk_manager.py :
+  - Half-Kelly (standard industrie) · plafond 2.0% (=max_risque_trade) · plancher 0.5%
+  - Garde-fou : N < 50 trades → 1% fixe. kelly_valide = (n >= 50 AND CI_95_lower > 0.45)
+- 05-saas\engine\ood_detector.py : is_out_of_distribution()
+  - 5 metriques zscore (VIX, volume, ATR, corr, spread) vs 252j historique
+  - >= 3 metriques > 2.5σ → OOD=EXTREME → confiance max 65% + Auto bloque
+  - >= 2 metriques > 2.5σ → OOD=ELEVATED → taille reduite 50%
+- portfolio_heat_check() : corrélation entre actifs ouverts > 0.7 → bloquer second trade
+- slippage_estimator() : si slippage > 33% profit attendu → annuler
+- Extensions claude_brain.py : dual-Claude validation (get_signal_dual)
+  - Bull advocate + Bear advocate (2 appels par signal Mode Auto)
+  - AMBIGUOUS (bull > 6 ET bear > 6) → WAIT automatique
+  - Compte comme 2 appels sur rate limiter quotidien (max 15 cycles dual/jour)
 
-**Garde-fous Phase F** : G1, G2, G3, G4, G5, G6.
+**Garde-fous Phase F** : G1, G2, G3, G4, G5, G6, G11 (OOD), G12 (Kelly), G14 (dual-Claude), G15 (portfolio heat).
 
-**Estimation** : 2-3 sessions.
+**Estimation** : 3-4 sessions.
 
 ---
 
@@ -357,16 +388,19 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 ## PHASE K — Activation Mode AUTO (conditionnel)
 
-6 conditions satisfaites → bouton "J'ACTIVE LE MODE AUTO" + mot de passe + log date SQLite.
+**8 conditions satisfaites** → bouton "J'ACTIVE LE MODE AUTO" + mot de passe + log date SQLite.
+*(Remplace les 6 conditions initiales — version plus rigoureuse adoptee en S24 apres rapport architecture.)*
 
-| # | Condition | Phase |
-|---|-----------|-------|
-| 1 | Backtest 3 mois valide | E |
-| 2 | Win rate superieur a 55% | E + J |
-| 3 | Risk Engine valide | F |
-| 4 | Broker Rithmic teste 48h | G + J |
-| 5 | NT8 ATI stable 24h | G + J |
-| 6 | Validation explicite Abdelkrim | I + K |
+| # | Condition | Mesure | Seuil | Phase |
+|---|-----------|--------|-------|-------|
+| 1 | Win rate Paper Trading | SQLite analytics | >= 55% sur 50+ trades | E + J |
+| 2 | Drawdown max | SQLite analytics | <= 5% du capital | E + J |
+| 3 | Sharpe ratio | SQLite analytics | >= 1.0 | E + J |
+| 4 | OOS/IS ratio WFO | walk_forward_validate() | >= 0.70 | E |
+| 5 | NT8 ATI stable | 48h sans deconnexion | 0 perte de connexion | G + J |
+| 6 | Rithmic demo 48H | Test execution | 0 ordre fantome | G + J |
+| 7 | Tous stress tests passes | 8 scenarios historiques | Comportement correct 8/8 | E + G |
+| 8 | Validation explicite Abdelkrim | Bouton + mot de passe | Log SQLite avec timestamp | I + K |
 
 ---
 
@@ -393,21 +427,21 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 ## SYNTHESE EFFORT ESTIME
 
-| Phase | Sessions estimees | Duree min |
-|-------|-------------------|-----------|
-| A — Documentation | Terminee | — |
-| B — KB Rebuild (4 etapes) | 4-6 | 2-3 semaines |
-| C — Collecteurs | 4-5 | 2 semaines |
-| D — Moteur Belkhayate | 3 | 1-2 semaines |
-| E — Signal Scorer | 3-4 | 2 semaines |
-| F — Trade Validator | 2-3 | 1 semaine |
-| G — NT8 ATI + Killswitch | 3-4 | 1-2 semaines |
-| H — FastAPI | 2 | 1 semaine |
-| I — Dashboard React | 4-5 | 2-3 semaines |
-| J — Paper Trading | 0 (passif) | 30 jours |
-| K — Mode AUTO | 1 | 1 jour |
-| L — Vision-Decision Integration | 3-4 | 2 semaines |
-| Total | 30-38 sessions | 3-5 mois |
+| Phase | Sessions estimees | Duree min | Nouveautes S24 |
+|-------|-------------------|-----------|---------------|
+| A — Documentation | Terminee | — | — |
+| B — KB Rebuild (4 etapes) | 4-6 | 2-3 semaines | Gemini batch + KB_INDEX D1→D172 |
+| C — Collecteurs | 4-5 | 2 semaines | Bootstrap 252j historique NT8 (OOD) |
+| D — Moteur Belkhayate | 3 | 1-2 semaines | — |
+| E — Signal Scorer + Regime + WFO + Loop3 | 4-5 | 2-3 semaines | +regime_detector, feedback_engine, threshold_adapter, SQLite |
+| F — Trade Validator + Kelly + OOD + Dual-Claude | 3-4 | 2 semaines | +kelly, ood_detector, portfolio_heat, dual_claude |
+| G — NT8 ATI + Killswitch | 3-4 | 1-2 semaines | — |
+| H — FastAPI | 2 | 1 semaine | — |
+| I — Dashboard React | 4-5 | 2-3 semaines | — |
+| J — Paper Trading | 0 (passif) | 30 jours minimum + WFO | WFO apres mois 3 |
+| K — Mode AUTO | 1 | 1 jour | 8 conditions (etait 6) |
+| L — Vision-Decision Integration | 3-4 | 2 semaines | — |
+| Total | 32-42 sessions | 4-6 mois | — |
 
 ---
 
@@ -434,5 +468,8 @@ Commandes a executer dans PowerShell :
 
 ---
 
-Derniere mise a jour : 2026-06-20 (S18) — Architecture Vision-Decision 5 couches integree (Phase L ajoutee). Stack adaptee : Mistral/ChromaDB → Claude API + KB JSON.
-Documents gouvernants : STRATEGIE_KB_MASTER.md + RAPPORT_SOURCES_KB_2026.md
+Derniere mise a jour : 2026-06-24 (S24) — Architecture 8 couches (RAPPORT_ARCHITECTURE_TRADEX_PARFAIT.md audit + corrections).
+Phase E enrichie : regime_detector, feedback_engine, threshold_adapter, SQLite schema.
+Phase F enrichie : kelly, OOD detector, dual-Claude, portfolio_heat, slippage_estimator.
+Phase K : 6 → 8 conditions Go/No-Go Mode Auto.
+Documents gouvernants : STRATEGIE_KB_MASTER.md + RAPPORT_SOURCES_KB_2026.md + RAPPORT_ARCHITECTURE_TRADEX_PARFAIT.md

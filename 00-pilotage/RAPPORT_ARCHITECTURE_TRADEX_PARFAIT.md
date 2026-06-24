@@ -28,7 +28,7 @@ Ce document définit comment TRADEX-AI peut atteindre ce niveau. Il est ancré d
 | Circuit Breaker | circuit_breaker.py | 3 CB séparés (NT8/ATAS/Claude) | Pas de dégradation progressive |
 | Risk Rules | risk_manager.py | 2%/trade, VIX gates, tweet suspension | Pas de Kelly, pas de sizing dynamique |
 | KB + Claude Brain | claude_brain.py | Prompt caching, fallback local | Poids des règles statiques |
-| Staleness | settings.py | Seuils configurables | TICK_SPECS incomplètes (HG/CL/ZW manquants) |
+| Staleness | staleness_monitor.py | Seuils configurables (settings.py) | TICK_SPECS incomplètes (HG/CL/ZW — extraction KB_INDEX en cours) |
 | Atomic Writes | atomic_writer.py | tempfile + os.replace | ✅ Correct |
 | Classification actifs | settings.py | 3 catégories verrouilées | ✅ Correct |
 
@@ -43,6 +43,8 @@ Ce document définit comment TRADEX-AI peut atteindre ce niveau. Il est ancré d
 7. **Base de données** : aucun historique de signaux/trades en SQLite (SIGNAL_HISTORY_PATH = chemin mais vide)
 8. **Dashboard** : maquettes existantes mais React non codé
 9. **Orchestrateur** : pas de `main.py` — aucun point d'entrée qui démarre le système
+
+> **Note S24 — enrichissement en cours :** KB = **1 313 règles canoniques** (D1→D172, 13 sources). Pipeline Gemini multimodal actif (`gemini-2.5-flash`). Batch 3 : 70 OK / 51 ERREURS résolues (_AsciiFileWrapper_). Batch 4 (45 fichiers "Leçon") prêt. Ces transcriptions alimentent directement la Couche 7 (Apprentissage) via le KB enrichment pipeline.
 
 ### 1.3 Le diagnostic central
 
@@ -91,9 +93,13 @@ COUCHE 3 — RAISONNEMENT KB (Claude API + prompt caching)
   Ajout : context enrichment (régime actuel + corrélations live)
   Ajout : uncertainty scoring (intervalle de confiance, pas score seul)
 
-COUCHE 4 — DÉCISION FINALE (Claude API, déclenché si ambigu)
-  Appel uniquement si Couche 2 score entre 6.0 et 8.0 (zone grise)
-  Score < 6.0 → NO_TRADE sans appel. Score ≥ 8.0 → TRADE sans double-check.
+COUCHE 4 — DÉCISION FINALE (Claude API, déclenché si score ≥ 7.0)
+  Score < 6.0 → NO_TRADE immédiat, zéro appel Claude.
+  Score 6.0-7.0 → WAIT, monitoring seul.
+  Score ≥ 7.0 ET régime non-VOLATILE → Couche 4 déclenchée.
+  ⚠️ CORRECTION : "Score ≥ 8.0 → TRADE sans double-check" était DANGEREUX — supprimé.
+  Règle correcte : tout signal Mode Auto passe par dual-Claude, quelle que soit la hauteur du score.
+  Un score élevé renforce la confiance mais ne dispense pas de la contre-analyse baissière.
   Rate limiter : max 30 appels/jour paramétrable .env
 
 COUCHE 5 — RISK GATE (existant + extensions)
@@ -131,7 +137,9 @@ RÉGIMES = {
         "critères": "ADX > 25 + prix > COG + VIX < 20 + DX stable",
         "stratégie": "suivre la tendance, stops larges, profits larges",
         "actifs_favoris": ["GC", "CL"],
-        "seuil_signal": 6.5,  # moins strict en tendance claire
+        # ⚠️ FUTUR UNLOCK — actuellement verrouillé à 7.0 dans CLAUDE.md (décision D2 13/06/2026)
+        # Descendre à 6.5 nécessite validation Phase E (backtest réel range bars NT8, N ≥ 200 signaux)
+        "seuil_signal": 7.0,  # sera 6.5 après unlock Phase E
     },
     "TRENDING_BEAR": {
         "critères": "ADX > 25 + prix < COG + VIX en hausse",
@@ -173,7 +181,11 @@ def detect_regime(nt8_data: dict, vix: float, correlations: dict) -> str:
         return "RANGING"
 ```
 
-**Impact direct :** le seuil de signal n'est plus fixe à 7.0 — il s'adapte au régime. En marché volatil, il monte à 9.0 (quasi-bloquant). En tendance claire, il descend à 6.5.
+**Impact direct :** le seuil de signal s'adapte au régime. En marché VOLATILE, il monte à 9.0 (quasi-bloquant). En marché RANGING, 7.5 (faux signaux fréquents). En tendance claire (Phase E unlock validé), il pourra descendre à 6.5.
+
+**Note terminologie :** ces 4 régimes (TRENDING_BULL/BEAR, RANGING, VOLATILE) correspondent aux régimes du Garde-Fou G7 (BULL/NEUTRAL/BEAR/CRASH) avec un mapping : VOLATILE ↔ CRASH, TRENDING_BEAR ↔ BEAR, RANGING ↔ NEUTRAL, TRENDING_BULL ↔ BULL. La terminologie interne (4 états) est plus granulaire.
+
+**Note implémentation :** `detect_regime()` utilise GC comme actif de référence pour ADX/COG. Justification : GC (Or) est l'actif le plus représentatif du sentiment global et le plus liquide des 4 actifs tradables. Un régime cross-asset global peut être ajouté en Phase E (moyenne ADX des 4 actifs).
 
 ### 3.2 Dual-Claude Validation (innovation anti-biais de confirmation)
 
@@ -209,6 +221,10 @@ def get_signal_dual(context, kb_rules) -> dict:
 ```
 
 **Coût :** 2 appels Claude par signal au lieu de 1. Avec rate limit 30/jour, ça reste ~0.30$/jour max. La réduction des faux positifs compense largement.
+
+**Règle d'application :** le dual-Claude s'applique à TOUS les signaux en Mode Auto, sans exception de score. Un score élevé (8.0+) renforce la confiance mais ne dispense pas de la contre-analyse baissière — c'est précisément à score élevé que le biais de confirmation est le plus dangereux. En Mode Manuel, le dual-Claude reste informatif (pas bloquant).
+
+**Mapping avec Couche 4 :** le dual-Claude est la couche d'analyse dans Couche 4. Le rate limiter de 30 appels/jour compte chaque appel dual (bull + bear = 2 appels). Donc max 15 cycles dual-Claude/jour.
 
 ### 3.3 Walk-Forward Optimization (standard or industrie — anti-overfitting)
 
@@ -260,7 +276,9 @@ def kelly_fraction(win_rate: float, avg_win: float, avg_loss: float) -> float:
     half_kelly = kelly / 2
     
     # Plancher et plafond absolus
-    return max(0.005, min(half_kelly, 0.025))  # entre 0.5% et 2.5%
+    # ⚠️ CORRECTION : plafond aligné sur max_risque_trade = 0.02 (settings.py + risk_manager.py)
+    # Ancienne valeur 0.025 (2.5%) était supérieure au max configuré → incohérence corrigée
+    return max(0.005, min(half_kelly, 0.020))  # entre 0.5% et 2.0%
 
 # Utilisation :
 # Après 30 trades minimum en SQLite :
@@ -328,13 +346,17 @@ Signal fort   : 3/3 générateurs concordent → autoriser taille maximale Kelly
 Signal faible : 1/3 → NO_TRADE
 ```
 
-Ce concept mappe directement sur la règle existante "3/4 trading + 2/3 confirmation" mais l'enrichit avec une logique d'ensemble côté génération du signal.
+**Important :** ce concept d'ensemble est COMPLÉMENTAIRE à la règle "3/4 trading + 2/3 confirmation" — il ne la remplace pas. La règle "3/4+2/3" reste le filtre préalable (Couche 0-1). Les 3 générateurs (A/B/C) sont une deuxième validation parallèle à l'intérieur de Couche 4. Un signal doit passer les deux filtres : d'abord 3/4+2/3, ensuite 2/3 générateurs concordants.
 
-### 3.7 Analyse de Survie pour les Take-Profits (innovation)
+**Bootstrap OOD :** l'OOD detector (section 3.5) et le compute_atr_zscore() dans detect_regime() requièrent 252 jours de données historiques. Ces données doivent être chargées depuis des fichiers CSV historiques NT8 en Phase C (bootstrap initial), avant le live trading. Le régime detector fonctionnera en mode dégradé (RANGING par défaut) tant que l'historique est insuffisant.
+
+### 3.7 Analyse de Durée des Trades pour les Take-Profits (style Kaplan-Meier)
 
 La plupart des systèmes utilisent un R/R fixe (1:2, 1:3). Mais en réalité, chaque marché a un profil de durée de trade différent.
 
-La courbe de Kaplan-Meier (analyse de survie, empruntée à la médecine) modélise la probabilité qu'un trade soit encore ouvert après X minutes.
+L'analyse de durée des trades (inspirée de Kaplan-Meier en médecine) modélise la distribution des durées des trades gagnants par actif.
+
+**Note technique :** l'implémentation ci-dessous utilise des percentiles (np.percentile) — c'est une analyse de distribution, pas un estimateur KM au sens strict (KM gère les données censurées). Le nom "Kaplan-Meier" est utilisé ici par analogie conceptuelle.
 
 ```python
 # trade_analyzer.py
@@ -343,7 +365,7 @@ def compute_optimal_tp(asset: str, db) -> dict:
     Sur les 100 derniers trades gagnants sur cet actif :
     Quand ont-ils atteint leur maximum ?
     """
-    # Kaplan-Meier simplifié
+    # Analyse de durée — percentiles de distribution
     durations = db.get_winning_trade_durations(asset, n=100)
     
     p50 = np.percentile(durations, 50)  # 50% des trades gagnants se terminent avant X min
@@ -365,15 +387,16 @@ En pratique : si l'historique montre que 80% des trades GC gagnants se terminent
 ### 4.1 Le Flywheel (la boucle qui fait tout progresser)
 
 ```
-SEMAINE 1-4 : Paper trading → collecter 30+ trades dans SQLite
+MOIS 1-2    : Paper trading → collecter données + 50+ trades dans SQLite
                 ↓
-SEMAINE 5-6 : Analyse : win rate, règles performantes, régimes rentables
+MOIS 2      : Analyse : win rate, règles performantes, régimes rentables
                 ↓
-SEMAINE 7-8 : Walk-Forward Validation sur données collectées
+MOIS 3-4    : Walk-Forward Validation sur données réelles collectées
+              ⚠️ WFO requiert IS 90j + OOS 30j minimum → impossible avant mois 3
                 ↓
-SEMAINE 9-12: Paramètres recalibrés → paper trading avec nouveaux params
+MOIS 4-5    : Paramètres recalibrés → paper trading/shadow trading avec nouveaux params
                 ↓
-MOIS 4+     : Mode Auto activation (si 6 conditions Phase K satisfaites)
+MOIS 5+     : Mode Auto activation (si 8 conditions Phase K satisfaites)
                 ↓
 EN CONTINU  : Loop 3 — chaque trade fermé alimente la base
                 ↓
@@ -705,6 +728,7 @@ Ces 8 scénarios doivent être rejoués sur données historiques réelles :
 ### 5.5 Critères Go/No-Go pour Mode Auto
 
 Avant d'activer le Mode Auto, les 8 conditions suivantes doivent toutes être vraies :
+*(Remplace les 6 conditions de la FEUILLE_DE_ROUTE Phase K — version plus rigoureuse adoptée. La FEUILLE_DE_ROUTE est mise à jour en conséquence.)*
 
 | # | Condition | Mesure | Seuil |
 |---|-----------|--------|-------|
@@ -783,7 +807,8 @@ Avant d'activer le Mode Auto, les 8 conditions suivantes doivent toutes être vr
 
 **OBS-11 : Backtesting look-ahead bias**
 - Cause : utiliser inconsciemment des données futures dans le backtest
-- Correction : strict timestamp ordering. Jamais utiliser une bougie fermée dans la même seconde. Simuler latence réaliste (50ms NT8 + 2s Python + 3s Claude = 5s total).
+- Correction : strict timestamp ordering. Jamais utiliser une bougie fermée dans la même seconde. Simuler latence réaliste (50ms NT8 + 2s Python + 5-15s Claude = 8-17s total).
+- ⚠️ CORRECTION : latence Claude initialement estimée à 3s était trop optimiste. Latence réelle : 5-15s selon charge réseau et longueur du prompt KB.
 
 ### 6.3 Obstacles Opérationnels
 
@@ -800,9 +825,19 @@ Avant d'activer le Mode Auto, les 8 conditions suivantes doivent toutes être vr
 
 ## PARTIE 7 — ROADMAP PRIORISÉE VERS LE SYSTÈME "PRESQUE PARFAIT"
 
+### Mapping vers les phases A-L (FEUILLE_DE_ROUTE)
+
+| Horizon | Items | Phases correspondantes |
+|---------|-------|----------------------|
+| H1 — Fondations | 1-5 | Phase B (KB) + Phase C (Collecteurs) |
+| H2 — Intelligence | 6-10 | Phase D (Belkhayate) + Phase E (Scorer+Régime+WFO) |
+| H3 — Exécution | 11-15 | Phase F (Risk+Kelly+OOD) + Phase G (NT8 ATI) |
+| H4 — Auto-amélioration | 16-21 | Phase H (FastAPI) + Phase I (Dashboard) + Phase J (Paper) + Phase K (Auto) |
+| H5 — Excellence | 22-27 | Phase L (Vision-Décision) + Post-K |
+
 ### Horizon 1 — Fondations (Phase B-C en cours, 1-2 mois)
 
-1. Compléter KB avec transcripts Gemini (batch en cours)
+1. Compléter KB avec transcripts Gemini (batch 4 en attente — 45 fichiers "Leçon")
 2. Ajouter TICK_SPECS manquantes (HG/CL/ZW) dans settings.py
 3. Créer schema SQLite de base (signals + trades)
 4. Add-on NinjaScript C# (export JSON par actif)
@@ -879,5 +914,26 @@ Le chemin vers "presque parfait" est long (6-12 mois de développement + paper t
 
 ---
 
-*Rapport généré le 24/06/2026 · Session S24 · À archiver dans 00-pilotage\_context\ après validation*
+---
+
+## CORRECTIONS APPLIQUÉES (Audit S24 — 24/06/2026)
+
+| # | Section | Correction |
+|---|---------|-----------|
+| C1 | 1.1 Tableau | "staleness_monitor.py" (pas settings.py) + note TICK_SPECS en cours KB_INDEX |
+| C2 | 1.2 Ce qui manque | Ajout note état réel : KB 1313 règles, batch Gemini en cours |
+| C3 | 2.2 Couche 4 | Suppression règle dangereuse "Score ≥ 8.0 → TRADE sans double-check" |
+| C4 | 3.1 TRENDING_BULL | seuil_signal 6.5 → 7.0 + note FUTUR UNLOCK Phase E |
+| C5 | 3.1 Après régimes | Ajout note terminologie (mapping G7) + GC comme référence (justifié) |
+| C6 | 3.2 Dual-Claude | Ajout règle : dual-Claude s'applique à TOUS les signaux Auto, sans exception de score |
+| C7 | 3.4 Kelly | Plafond 2.5% → 2.0% (aligné sur max_risque_trade = 0.02) |
+| C8 | 3.7 Titre | "Kaplan-Meier" → "Analyse de Durée des Trades (style Kaplan-Meier)" + note technique |
+| C9 | 4.1 Flywheel | "SEMAINE 7-8 WFO" → "MOIS 3-4 WFO" (WFO requiert IS 90j + OOS 30j) |
+| C10 | 3.6 Ensemble | Ajout clarification : 2/3 générateurs COMPLÉMENTAIRE à 3/4+2/3 (pas remplacement) |
+| C11 | 3.5 OOD + 3.1 | Ajout note bootstrap : 252j de données requis, mode dégradé avant |
+| C12 | 6.2 OBS-11 | Latence Claude 3s → 5-15s réaliste |
+| C13 | 5.5 Go/No-Go | Ajout note : 8 conditions remplacent les 6 de FEUILLE_DE_ROUTE Phase K |
+| C14 | 7 Roadmap | Ajout tableau mapping horizons H1-H5 ↔ phases A-L |
+
+*Rapport initial généré le 24/06/2026 · Corrections audit appliquées 24/06/2026 · Session S24*
 *Prochaine mise à jour : après Phase E (Signal Scorer + WFO) — mesures réelles disponibles*

@@ -216,6 +216,107 @@
 
 ---
 
+---
+
+## 🔬 NOUVEAUX — Architecture 8 couches (S24 · 10 garde-fous)
+
+> Source : RAPPORT_ARCHITECTURE_TRADEX_PARFAIT.md (audit + corrections S24 24/06/2026).
+> Implémentation : Phases E (G13, G17, G20), F (G11, G12, G14, G15, G16, G19), G (G18).
+
+### G11. Out-of-Distribution (OOD) Detector
+
+- **Règle** : avant chaque analyse Claude, comparer 5 métriques (VIX, volume GC, ATR, déviation corr, spread) aux 252 derniers jours. Si 3+ métriques > 2.5σ → confiance plafonnée à 65%, Mode Auto bloqué. Si 2 métriques > 2.5σ → taille réduite 50%.
+- **Justification** : la KB Belkhayate ne s'applique pas aux états de marché qu'elle n'a jamais vus — mais elle génère quand même des signaux. OOD = filet de sécurité invisible.
+- **Module cible** : `05-saas\engine\ood_detector.py` (à créer Phase F)
+- **Bootstrap requis** : 252j données historiques NT8 (CSV) chargées en Phase C. Mode dégradé (RANGING par défaut) tant que historique insuffisant.
+- **Config** : `OOD_SIGMA_THRESHOLD = 2.5` · `OOD_MIN_METRICS = 3`
+
+---
+
+### G12. Kelly Position Sizing (half-Kelly sécurisé)
+
+- **Règle** : taille de position = demi-Kelly. Si N < 50 trades SQLite → 1% fixe. Plafond absolu = max_risque_trade (2%). Plancher = 0.5%. Kelly invalide si IC 95% inclut 0.50.
+- **Justification** : 2% fixe est sûr mais sous-optimal. Kelly pur est trop agressif (sensible aux erreurs d'estimation). Half-Kelly = compromis standard hedge funds.
+- **Module cible** : `kelly_fraction()` dans `05-saas\engine\risk_manager.py` (Phase F)
+- **Config** : `KELLY_MIN_TRADES = 50` · `KELLY_CEILING = 0.020` · `KELLY_FLOOR = 0.005`
+
+---
+
+### G13. Walk-Forward Validation (anti-overfitting)
+
+- **Règle** : tout paramètre optimisé doit être validé OOS avant live. Si OOS/IS < 0.70 → rejeter params, garder précédents. Fenêtres : IS = 90j, OOS = 30j.
+- **Justification** : backtesting simple → overfitting garanti. WFO = standard industrie quantitative.
+- **Module cible** : `walk_forward_validate()` dans `05-saas\engine\signal_scorer.py` (Phase E)
+- **Note timing** : WFO ne peut démarrer qu'après mois 3 (IS 90j requis). Pas avant.
+
+---
+
+### G14. Dual-Claude Anti-Biais de Confirmation
+
+- **Règle** : tout signal Mode Auto = 2 appels Claude (Bull Advocate + Bear Advocate). Si bull ET bear > 6.0 → AMBIGUOUS → WAIT obligatoire. Obligatoire Mode Auto, informatif Mode Manuel.
+- **Justification** : un score élevé = biais de confirmation maximal. Le devil's advocate est le meilleur antidote.
+- **Règles** : Bull > 7.0 ET Bear < 4.0 → LONG · Bear > 7.0 ET Bull < 4.0 → SHORT · Ambiguous → WAIT · Les deux < 6.0 → NO_TRADE
+- **Module cible** : `get_signal_dual()` dans `05-saas\engine\claude_brain.py` (Phase F)
+- **Coût** : 2 appels/signal → max 15 cycles dual/jour sur rate limit 30/jour
+
+---
+
+### G15. Portfolio Heat Check (double exposition)
+
+- **Règle** : avant chaque ordre, si corrélation entre actif cible et positions ouvertes > 0.7 → bloquer second trade. 1 seul trade simultané par paire fortement corrélée.
+- **Justification** : GC+HG corrélés > 0.7 fréquemment. Signal simultané = exposition réelle 2x → risque invisible de ruine.
+- **Différence G8** : G8 surveille corr portefeuille global (seuil 0.60). G15 est bloquant strict sur paires (seuil 0.70).
+- **Module cible** : `portfolio_heat_check()` dans `05-saas\engine\risk_manager.py` (Phase F)
+- **Config** : `PORTFOLIO_HEAT_MAX_CORR = 0.70` · `PORTFOLIO_HEAT_ACTION = "BLOCK_SECOND_TRADE"`
+
+---
+
+### G16. Rate Limiter Claude Daily (compteur SQLite)
+
+- **Règle** : compteur quotidien appels Claude en SQLite (reset minuit ET). Alerte à 80%. Hard stop à 100% → fallback local uniquement.
+- **Justification** : rate limit 1/10s (existant) ne prévient pas la surcharge journalière. Avec dual-Claude, 30 appels = 15 signaux max/jour.
+- **Module cible** : table `api_usage` SQLite + compteur dans `claude_brain.py` (Phase F)
+- **Config** : `CLAUDE_DAILY_LIMIT = 30` · `CLAUDE_ALERT_PCT = 0.80` · `CLAUDE_LIMIT_RESET_TZ = "America/New_York"`
+
+---
+
+### G17. Threshold Adapter Safety Bounds
+
+- **Règle** : `score_min` ne sort jamais de [6.0, 9.0]. Toute tentative hors bornes → rejetée + log. SQLite corrompu → 7.0 restauré.
+- **Justification** : threshold_adapter mal calibré pourrait descendre à 4.0 (signaux dangereux) ou monter à 10.0 (trading bloqué).
+- **Note unlock** : TRENDING_BULL peut descendre à 6.5 après Phase E (N ≥ 200 signaux range bars) — pas une violation des bornes.
+- **Module cible** : `05-saas\engine\threshold_adapter.py` (Phase E)
+- **Config** : `SCORE_MIN_ABSOLU_BAS = 6.0` · `SCORE_MIN_ABSOLU_HAUT = 9.0` · `SCORE_MIN_DEFAUT = 7.0`
+
+---
+
+### G18. NT8 ATI Order ACK Confirmation
+
+- **Règle** : après envoi ordre port 36973, attendre ACK max 5s. Pas d'ACK → circuit breaker + alerte. Ne jamais supposer qu'un ordre est passé.
+- **Justification** : connexion TCP peut se couper silencieusement. Sans vérification, le système croit avoir exécuté alors que NT8 n'a rien fait.
+- **Module cible** : `05-saas\execution\nt8_ati_client.py` (Phase G)
+- **Config** : `NT8_ACK_TIMEOUT_SEC = 5` · `NT8_ACK_RETRY = 2` · `NT8_ACK_VERIFY_POSITION = True`
+
+---
+
+### G19. Slippage Estimator (kill-switch pré-ordre)
+
+- **Règle** : avant chaque ordre, si slippage estimé > 33% du profit attendu → annuler + logguer.
+- **Justification** : sur CL/ZW en faible liquidité, slippage peut transformer un trade gagnant en perdant avant même l'entrée.
+- **Module cible** : `slippage_estimator()` dans `05-saas\engine\trade_validator.py` (Phase F)
+- **Formule** : `slippage_ticks * tick_value * qty / profit_cible_usd`
+
+---
+
+### G20. Weekly Report Auto (dégradation KB)
+
+- **Règle** : chaque dimanche 08h00 ET, générer rapport automatique des règles KB avec `avg_pnl_r < 0` sur > 20 déclenchements → flag "À AUDITER HUMAIN". Sauvegardé SQLite + dashboard.
+- **Justification** : certaines règles Belkhayate de 2018 peuvent devenir contre-productives. Sans suivi, le drift de la KB est invisible.
+- **Module cible** : `generate_weekly_report()` dans `05-saas\engine\feedback_engine.py` (Phase E)
+- **Contenu** : TOP 5 règles performantes, BOTTOM 5 à auditer, perf par régime, recommandations auto
+
+---
+
 ## ⚠️ PARTIELS — À ENRICHIR (2)
 
 ### P1. Invalidation setup Belkhayate
@@ -235,13 +336,24 @@
 | Catégorie | Compte |
 |-----------|--------|
 | ✅ Garde-fous déjà actifs (config + code) | **20** |
-| ❌ Garde-fous à implémenter (haute priorité) | **10** |
+| ❌ Garde-fous à implémenter G1-G10 (haute priorité — Phase C-G) | **10** |
+| 🔬 Nouveaux garde-fous architecture S24 G11-G20 (Phase E-G) | **10** |
 | ⚠️ Partiels à enrichir | **2** |
-| **Total cible** | **32 garde-fous** |
+| **Total cible** | **42 garde-fous** |
+
+| Phase | Garde-fous à implémenter |
+|-------|--------------------------|
+| Phase C | Bootstrap 252j historique (OOD, régime) |
+| Phase D | P1 (invalidation Belkhayate) |
+| Phase E | G13 (WFO), G17 (threshold bounds), G20 (weekly report) |
+| Phase F | G1→G6, G11 (OOD), G12 (Kelly), G14 (dual-Claude), G15 (portfolio heat), G16 (daily rate limit), G19 (slippage) |
+| Phase G | G7 (régime), G8 (killswitch), G9 (OPEC cal), G18 (NT8 ACK) |
+| Phase H | G10 (health monitoring FastAPI) |
 
 **Aucune ligne de code modifiée dans ce document.**
 **Implémentation à étaler dans les phases dédiées de la Feuille de Route.**
 
 ---
 
-*Phase 4-Light v4.0 — `GARDE_FOUS_PROPOSES.md` généré le 2026-05-03.*
+*Mis à jour S24 24/06/2026 — 10 nouveaux garde-fous architecture 8 couches (G11-G20). Total : 42 garde-fous.*
+*Version initiale : Phase 4-Light v4.0 — généré le 2026-05-03.*
