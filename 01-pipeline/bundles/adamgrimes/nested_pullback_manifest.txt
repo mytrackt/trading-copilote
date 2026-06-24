@@ -1,0 +1,10 @@
+# Manifest images pour nested_pullback (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/nested-pullback/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : pb | section : The nested pullback | CERTIFIE (alt-seul)
+image_02.png | label : nested pb | section : The nested pullback | CERTIFIE (alt-seul)
+image_03.png | label : npb gc | section : How to trade them | CERTIFIE (alt-seul)
+image_04.png | label : npb sp500 | section : How to trade them | CERTIFIE (alt-seul)
+image_05.png | label : npb eur | section : How to trade them | CERTIFIE (alt-seul)

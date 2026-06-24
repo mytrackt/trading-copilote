@@ -1,0 +1,7 @@
+# Manifest images pour seasonality_ask_right_question (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/seasonality-ask-right-question/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Number of weeks up X times in the past 10 years, S&P 500 | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.jpg | label : Simulated weeks, compared to real market data. Note how many weeks wer | section : AdamHGrimes | CERTIFIE (figcaption+alt)

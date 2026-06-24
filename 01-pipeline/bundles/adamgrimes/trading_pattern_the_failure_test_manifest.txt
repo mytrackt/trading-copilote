@@ -1,0 +1,11 @@
+# Manifest images pour trading_pattern_the_failure_test (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trading-pattern-the-failure-test/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 4 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : AdamHGrimes | sans figcaption -> IGNOREE
+image_01.png | label : Figure 1 | section : AdamHGrimes | CERTIFIE (figcaption)
+image_02.png | label : Figure 2 | section : AdamHGrimes | CERTIFIE (figcaption)

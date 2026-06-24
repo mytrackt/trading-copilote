@@ -1,0 +1,12 @@
+# Manifest images pour a_roadmap_for_the_trading_day (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/a-roadmap-for-the-trading-day/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Common intraday trading day patterns | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : Trend day | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_03.png | label : Range day | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_04.png | label : Reversal day | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_05.png | label : Trend-range-trend day | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_06.png | label : Trend-range day | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_07.png | label : Range-trend day | section : AdamHGrimes | CERTIFIE (figcaption+alt)

@@ -1,0 +1,6 @@
+# Manifest images pour the_law_of_small_numbers_a_mistake_youre_probably_making (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/the-law-of-small-numbers-a-mistake-youre-probably-making/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

@@ -1,0 +1,6 @@
+# Manifest images pour chart_of_the_day_nested_pullback_in_crude_oil (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/chart-of-the-day-nested-pullback-in-crude-oil/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

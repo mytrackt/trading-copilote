@@ -1,0 +1,8 @@
+# Manifest images pour trendlines_101 (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trendlines-101/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Examples of correctly drawn standard trendlines in the XLF | section : Standard trendlines | CERTIFIE (figcaption+alt)
+image_02.jpg | label : "Nonstandard" trendlines in the XLF. | section : Standard trendlines | CERTIFIE (figcaption+alt)
+image_03.jpg | label : Trendlines that cut candles are sloppy | section : Don't "cut" prices | CERTIFIE (figcaption+alt)

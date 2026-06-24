@@ -1,0 +1,9 @@
+# Manifest images pour chartschool_trading_the_anti (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/chartschool-trading-the-anti/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Trading a Powerful Trend in Gold | section : Read more | CERTIFIE (alt-seul)
+image_02.png | label : Hard Truths, Real Consequences: What It Really Takes to Trade | section : Trading a Powerful Trend in Gold | CERTIFIE (alt-seul)
+image_03.png | label : Surviving Isn’t Thriving: The Hidden Cost of Trading Less | section : Hard Truths, Real Consequences: What It Really Takes to Trade | CERTIFIE (alt-seul)
+image_04.png | label : Patterns, Context, and a Clean Long in the S&P | section : Surviving Isn’t Thriving: The Hidden Cost of Trading Less | CERTIFIE (alt-seul)

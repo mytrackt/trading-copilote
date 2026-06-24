@@ -1,0 +1,9 @@
+# Manifest images pour anatomy_of_a_trade_nested_pullback_in_anr (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/anatomy-of-a-trade-nested-pullback-in-anr/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 3 decorative(s)
+
+image_01.jpg | label : ANRsetup | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : AdamHGrimes | sans figcaption -> IGNOREE

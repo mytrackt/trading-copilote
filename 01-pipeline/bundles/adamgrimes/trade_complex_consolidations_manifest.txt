@@ -1,0 +1,11 @@
+# Manifest images pour trade_complex_consolidations (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trade-complex-consolidations/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : pullbacks | section : AdamHGrimes | CERTIFIE (alt-seul)
+image_02.png | label : complex pb example | section : Why it matters | CERTIFIE (alt+filename)
+image_03.png | label : A single with trend bar can often highlight a lower timeframe complex  | section : Where to find them | CERTIFIE (figcaption+alt)
+image_04.png | label : c3 | section : Examples | CERTIFIE (alt-seul)
+image_05.png | label : c1 | section : Examples | CERTIFIE (alt-seul)
+image_06.png | label : c2 | section : Examples | CERTIFIE (alt-seul)

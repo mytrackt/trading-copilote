@@ -1,0 +1,11 @@
+# Manifest images pour a_new_tool_to_measure_trend_strength_the_grimes_efficiency_r (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/a-new-tool-to-measure-trend-strength-the-grimes-efficiency-ratio/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Close as a percent of the range of the last 20 trading days | section : Calculating the Grimes Efficiency Ratio | CERTIFIE (figcaption+alt)
+image_02.png | label : EURUSD with GER[20] | section : Calculating the Grimes Efficiency Ratio | CERTIFIE (figcaption+alt)
+image_03.png | label : Using the GER as an overbought/oversold indicator | section : A counter-intuitive use of the GER | CERTIFIE (figcaption+alt)
+image_04.png | label : S&P 500 (cash) with GER[20] | section : Other examples | CERTIFIE (figcaption+alt)
+image_05.png | label : Gold futures with GER[20] | section : Other examples | CERTIFIE (figcaption+alt)
+image_06.png | label : Crude oil with GER[20] | section : Other examples | CERTIFIE (figcaption+alt)

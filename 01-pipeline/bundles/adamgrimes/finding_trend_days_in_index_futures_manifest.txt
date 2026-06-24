@@ -1,0 +1,8 @@
+# Manifest images pour finding_trend_days_in_index_futures (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/finding-trend-days-in-index-futures/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Volatility compression shows as a large triangle on this chart. | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.jpg | label : Volatility compression on a lower level | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_03.jpg | label : Intraday perspective on volatility compression. (Click for full size.) | section : AdamHGrimes | CERTIFIE (figcaption+alt)

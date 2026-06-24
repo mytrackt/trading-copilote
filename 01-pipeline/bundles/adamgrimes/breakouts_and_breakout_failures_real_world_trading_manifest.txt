@@ -1,0 +1,10 @@
+# Manifest images pour breakouts_and_breakout_failures_real_world_trading (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/breakouts-and-breakout-failures-real-world-trading/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 4 decorative(s)
+
+image_01.jpg | label : bo | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 5 | section : AdamHGrimes | sans figcaption -> IGNOREE

@@ -1,0 +1,7 @@
+# Manifest images pour reader_question_what_is_momentum (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/reader-question-what-is-momentum/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+image_01.jpg | label : Help Symbol Question Question Mark Icon Response | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : Momentum and Price Behavior | sans figcaption -> IGNOREE

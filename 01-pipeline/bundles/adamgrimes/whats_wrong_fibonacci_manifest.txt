@@ -1,0 +1,7 @@
+# Manifest images pour whats_wrong_fibonacci (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/whats-wrong-fibonacci/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : AgawuEx1 | section : AdamHGrimes | CERTIFIE (alt-seul)
+image_02.jpg | label : fibonacci yikes | section : AdamHGrimes | CERTIFIE (alt+filename)

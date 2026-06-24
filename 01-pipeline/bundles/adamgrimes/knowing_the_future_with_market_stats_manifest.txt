@@ -1,0 +1,6 @@
+# Manifest images pour knowing_the_future_with_market_stats (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/knowing-the-future-with-market-stats/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : 1 - ss10 less 1st percentile | section : AdamHGrimes | CERTIFIE (figcaption+alt)

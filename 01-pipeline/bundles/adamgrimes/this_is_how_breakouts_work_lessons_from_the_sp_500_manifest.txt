@@ -1,0 +1,6 @@
+# Manifest images pour this_is_how_breakouts_work_lessons_from_the_sp_500 (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/this-is-how-breakouts-work-lessons-from-the-sp-500/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : es20200720 | section : AdamHGrimes | CERTIFIE (figcaption+alt)

@@ -1,0 +1,19 @@
+# SOURCE: https://www.adamhgrimes.com/four-reasons-trade-spreads/
+
+
+# Four reasons to trade spreads
+
+
+#### AdamHGrimes
+
+Today I begin a short series of posts looking at the tools and techniques of relative value trading. For some traders, this is intuitive; currencies are always valued relative to another currency, and many futures traders focus on spread relationships between different commodities or months of the same commodities, and options trades are often explicit spread trades, with long and short legs in the same trade. Other traders may not have examined the tools and ideas behind relative value trading, and much of my work and writing has focused on simple directional trading in a single instrument. There are good reasons to focus on relative value trading--starting tomorrow, we will look at some ways to measure relative performance, some potential pitfalls, and how to structure trades around spread relationships. Today, let's pause a bit and think about why we care.
+
+- Spread relationships can reduce risk. Consider the trader who buys a stock. This trader's P&L on that trade will include a number of factors: the reasons that motivated him to take a position in that stock (fundamental, technical, strategic, etc.), the direction of the overall market, possible currency considerations, etc. Using well-constructed spread trades, it is possible to remove or reduce many of these other factors, leaving a clean trade that more accurately reflects the idea behind the trade. (Important note: do not always assume that spreads reduce risk. Sometimes they increase risk, and we will look at how that can happen too.)
+
+- We already think about markets in relative terms. The US will outperform Europe, Financials will lag the market, Apple will outperform its competitors, the US Dollar will strengthen against the euro, etc. So many of the ways we think about the world are tied to relative performance of assets. A logical disconnect arises when the way we think about the trade causes us to get into a trade that does not reflect that reasoning. For instance: you think Apple will "do better" than its competitors, so you buy Apple. It's possible that you are right, but the whole market goes down and you lose on the trade, even though you were right in your call. The only way to really trade that idea is with a spread trade.
+
+- It's much harder for the market to erase opportunities in relative value. Imagine if there were some super-secret candlestick pattern that told you the market was going up. (There is no such pattern, but assume.) If so, people would quickly find the super secret pattern, trade around it, and eventually erase the edge that pattern has. Though this is a very naive example, it shows that trading activity around patterns could erode much of the edge in those patterns, but here's the important point: it's a lot harder to do that with relative performance (depending on the assets involved.)
+
+- Relative value is "real". We can speculate why patterns might work in markets, talking about buying and selling pressure, psychology, volume at certain levels, but the reality is that we do not know . We can make many assumptions (and, in many cases, it may be enough to verify that the pattern has a stable statistical edge), but many traders are bothered by what they perceive as voodoo of too many assumptions in technical analysis. Many times, there are clear reasons why markets should be linked in relative relationships. Sometimes these are simple (share classes in individual stocks), and sometimes much richer and more complex. A caveat: be careful of assuming we know too much, as overconfidence can be deadly in any kind of trading.
+
+Tomorrow, we'll dig a little deeper into how to find these trades, how to measure relative performance, and will start to think about some practical issues.

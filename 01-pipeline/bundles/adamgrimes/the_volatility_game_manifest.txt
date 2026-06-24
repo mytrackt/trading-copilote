@@ -1,0 +1,7 @@
+# Manifest images pour the_volatility_game (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/the-volatility-game/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+image_01.jpg | label : graph | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE

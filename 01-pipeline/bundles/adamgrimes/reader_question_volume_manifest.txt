@@ -1,0 +1,6 @@
+# Manifest images pour reader_question_volume (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/reader-question-volume/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : 121313_1953_ReaderQuest1.jpg | section : AdamHGrimes | CERTIFIE (alt+filename)

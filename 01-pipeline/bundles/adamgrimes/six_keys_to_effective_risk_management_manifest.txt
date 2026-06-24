@@ -1,0 +1,6 @@
+# Manifest images pour six_keys_to_effective_risk_management (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/six-keys-to-effective-risk-management/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : 071014_1801_FiveWaystoF1.png | section : AdamHGrimes | CERTIFIE (alt+filename)

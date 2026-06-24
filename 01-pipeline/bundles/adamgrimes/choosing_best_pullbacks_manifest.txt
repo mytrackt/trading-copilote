@@ -1,0 +1,6 @@
+# Manifest images pour choosing_best_pullbacks (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/choosing-best-pullbacks/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

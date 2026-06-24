@@ -1,0 +1,10 @@
+# Manifest images pour basic_backtesting_in_excel_getting_data (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/basic-backtesting-in-excel-getting-data/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : spy yahoo 1 | section : Getting daily data into Excel from Yahoo! | CERTIFIE (alt-seul)
+image_02.jpg | label : spy yahoo 2 | section : Getting daily data into Excel from Yahoo! | CERTIFIE (alt-seul)
+image_03.jpg | label : spy excel 1 | section : Getting daily data into Excel from Yahoo! | CERTIFIE (alt-seul)
+image_04.jpg | label : spy sort | section : Getting daily data into Excel from Yahoo! | CERTIFIE (alt-seul)
+image_05.jpg | label : spy finished | section : Getting daily data into Excel from Yahoo! | CERTIFIE (alt-seul)

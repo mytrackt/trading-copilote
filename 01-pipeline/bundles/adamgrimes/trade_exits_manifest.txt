@@ -1,0 +1,6 @@
+# Manifest images pour trade_exits (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trade-exits/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : partial profits | section : Initial stops | CERTIFIE (alt+filename)

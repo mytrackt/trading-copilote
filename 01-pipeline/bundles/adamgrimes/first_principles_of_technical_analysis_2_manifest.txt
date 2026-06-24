@@ -1,0 +1,6 @@
+# Manifest images pour first_principles_of_technical_analysis_2 (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/first-principles-of-technical-analysis-2/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : 1: Alternation of Trend and Range | sans figcaption -> IGNOREE

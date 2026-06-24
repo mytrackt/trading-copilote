@@ -1,0 +1,8 @@
+# Manifest images pour what_are_the_odds_what_market_stats_can_and_cant_tell_us (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/what-are-the-odds-what-market-stats-can-and-cant-tell-us/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+image_01.jpg | label : esdaily | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : AdamHGrimes | sans figcaption -> IGNOREE

@@ -1,0 +1,8 @@
+# Manifest images pour trend_indicator_helping_hurting (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trend-indicator-helping-hurting/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : 1620 | section : Slope of a single moving average | CERTIFIE (alt-seul)
+image_02.png | label : ma trend | section : Lag kills | CERTIFIE (alt-seul)
+image_03.png | label : 1621 | section : Multiple moving averages | CERTIFIE (alt-seul)

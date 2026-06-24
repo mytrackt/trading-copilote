@@ -1,0 +1,6 @@
+# Manifest images pour failure_test_followthrough_in_the_eur (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/failure-test-followthrough-in-the-eur/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

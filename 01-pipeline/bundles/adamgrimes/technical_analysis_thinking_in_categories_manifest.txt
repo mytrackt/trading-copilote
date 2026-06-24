@@ -1,0 +1,6 @@
+# Manifest images pour technical_analysis_thinking_in_categories (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/technical-analysis-thinking-in-categories/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : trading-categories-light-bulb | section : AdamHGrimes | CERTIFIE (alt+filename)

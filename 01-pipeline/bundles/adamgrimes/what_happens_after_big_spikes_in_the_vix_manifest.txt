@@ -1,0 +1,8 @@
+# Manifest images pour what_happens_after_big_spikes_in_the_vix (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/what-happens-after-big-spikes-in-the-vix/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : spvol-3s-2010 | section : AdamHGrimes | CERTIFIE (alt+filename)
+image_02.jpg | label : spvol-3hvol-2010 | section : AdamHGrimes | CERTIFIE (alt+filename)
+image_03.jpg | label : spvol-vix-spike | section : AdamHGrimes | CERTIFIE (alt+filename)

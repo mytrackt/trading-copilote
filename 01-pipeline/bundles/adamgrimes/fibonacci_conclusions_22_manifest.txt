@@ -1,0 +1,6 @@
+# Manifest images pour fibonacci_conclusions_22 (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/fibonacci-conclusions-22/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

@@ -1,0 +1,6 @@
+# Manifest images pour ranges_and_measured_moves (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/ranges-and-measured-moves/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

@@ -1,0 +1,9 @@
+# Manifest images pour spikes_in_the_vix (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/spikes-in-the-vix/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : image001 | section : Seasonality in the VIX | CERTIFIE (alt-seul)
+image_02.png | label : image003 | section : Daily changes in the VIX | CERTIFIE (alt-seul)
+image_03.png | label : 8-2-2014 3-11-26 PM | section : Long History | CERTIFIE (alt-seul)
+image_04.png | label : image007 | section : What Usually Happens After the VIX Spikes? | CERTIFIE (alt-seul)

@@ -1,0 +1,7 @@
+# Manifest images pour careful_with_correlations (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/careful-with-correlations/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE

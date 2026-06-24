@@ -1,0 +1,7 @@
+# Manifest images pour this_is_what_manipulation_looks_like (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/this-is-what-manipulation-looks-like/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+image_01.jpg | label : volcorrs | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE

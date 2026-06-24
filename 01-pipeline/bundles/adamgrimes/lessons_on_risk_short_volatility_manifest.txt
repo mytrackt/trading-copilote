@@ -1,0 +1,6 @@
+# Manifest images pour lessons_on_risk_short_volatility (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/lessons-on-risk-short-volatility/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

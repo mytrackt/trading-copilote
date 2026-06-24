@@ -1,0 +1,6 @@
+# Manifest images pour come_and_study_support_and_resistance_trades_with_us_this_we (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/come-and-study-support-and-resistance-trades-with-us-this-week/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

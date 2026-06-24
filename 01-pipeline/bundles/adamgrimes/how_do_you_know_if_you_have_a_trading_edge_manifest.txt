@@ -1,0 +1,6 @@
+# Manifest images pour how_do_you_know_if_you_have_a_trading_edge (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/how-do-you-know-if-you-have-a-trading-edge/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : ext stats | section : AdamHGrimes | CERTIFIE (alt-seul)

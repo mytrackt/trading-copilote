@@ -1,0 +1,8 @@
+# Manifest images pour defend_bad_statistics (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/defend-bad-statistics/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Incorrect statistics for the day of the week effect in the S&P 500. Al | section : Day of the week effect? | CERTIFIE (figcaption+alt)
+image_02.png | label : week cards | section : Market data is abstract. Think of physical "things" to simplify problems. | CERTIFIE (alt+filename)
+image_03.png | label : Weekly returns for the "Day 1" system, with weeks defined two differen | section : One test can catch many errors | CERTIFIE (figcaption+alt)

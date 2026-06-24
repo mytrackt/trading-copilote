@@ -1,0 +1,7 @@
+# Manifest images pour tis_the_season_or_is_it_a_deeper_look_at_seasonality_in_stoc (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/tis-the-season-or-is-it-a-deeper-look-at-seasonality-in-stocks/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : Size of the move | sans figcaption -> IGNOREE

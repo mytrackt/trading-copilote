@@ -1,0 +1,8 @@
+# Manifest images pour using_spread_charts (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/using-spread-charts/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : S&P 500 futures vs S&P 500 cash | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : SPY vs. S&P 500 cash | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_03.png | label : Europe vs S&P 500, cash | section : AdamHGrimes | CERTIFIE (figcaption+alt)

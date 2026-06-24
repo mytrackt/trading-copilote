@@ -1,0 +1,10 @@
+# Manifest images pour moving_averages_digging_deeper (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/moving-averages-digging-deeper/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : break fade | section : Testing moving average breaks | CERTIFIE (alt+filename)
+image_02.png | label : 1615 | section : Testing moving average breaks | CERTIFIE (alt-seul)
+image_03.png | label : 1616 | section : Testing moving average breaks | CERTIFIE (alt-seul)
+image_04.png | label : fade close | section : No, it's not the averages. It's mean reversion. | CERTIFIE (alt+filename)
+image_05.png | label : 1617 | section : No, it's not the averages. It's mean reversion. | CERTIFIE (alt-seul)

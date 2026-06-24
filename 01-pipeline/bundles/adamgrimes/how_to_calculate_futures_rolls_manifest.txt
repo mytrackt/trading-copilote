@@ -1,0 +1,11 @@
+# Manifest images pour how_to_calculate_futures_rolls (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/how-to-calculate-futures-rolls/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Crude oil strip | section : Futures pricing | CERTIFIE (figcaption)
+image_02.jpg | label : These gaps never happened | section : Why and when do we roll? | CERTIFIE (figcaption)
+image_03.jpg | label : Unadjusted rolls | section : How to roll: Unadjusted | CERTIFIE (figcaption)
+image_04.jpg | label : Difference adjusted | section : How to roll: difference-adjusted | CERTIFIE (figcaption+alt)
+image_05.jpg | label : Ratio adjustment | section : How to roll: ratio-adjusted | CERTIFIE (figcaption+alt)
+image_06.jpg | label : Compare two different adjustments | section : Charting | CERTIFIE (figcaption+alt)

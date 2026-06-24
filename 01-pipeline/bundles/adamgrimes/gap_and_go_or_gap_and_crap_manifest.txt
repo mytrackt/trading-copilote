@@ -1,0 +1,7 @@
+# Manifest images pour gap_and_go_or_gap_and_crap (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/gap-and-go-or-gap-and-crap/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Daily DD with a large gap down opening. What might we expect over the  | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : A sell Anti is breaking down--targets a downside extension toward ~65. | section : AdamHGrimes | CERTIFIE (figcaption+alt)

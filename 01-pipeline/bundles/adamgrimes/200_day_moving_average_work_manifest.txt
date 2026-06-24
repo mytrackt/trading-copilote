@@ -1,0 +1,8 @@
+# Manifest images pour 200_day_moving_average_work (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/200-day-moving-average-work/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : S&P 500, 200 day SMA statistics | section : The 200 day just broke. Now what? | CERTIFIE (figcaption+alt)
+image_02.png | label : bll in sample | section : Fading effect over time? | CERTIFIE (alt-seul)
+image_03.png | label : bll out of sample | section : Fading effect over time? | CERTIFIE (alt-seul)

@@ -1,0 +1,6 @@
+# Manifest images pour big_problem_seasonality (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/big-problem-seasonality/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

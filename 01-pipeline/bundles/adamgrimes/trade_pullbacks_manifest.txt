@@ -1,0 +1,12 @@
+# Manifest images pour trade_pullbacks (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trade-pullbacks/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 7 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Note points where market touches bands (ES 11/4/14) | section : Digging deeper | CERTIFIE (figcaption+alt)
+image_02.png | label : Possible pullback entries | section : Digging deeper | CERTIFIE (figcaption+alt)
+image_03.png | label : S | section : Some examples | CERTIFIE (alt-seul)
+image_04.png | label : ES | section : Some examples | CERTIFIE (alt-seul)
+image_05.png | label : EUR | section : Some examples | CERTIFIE (alt-seul)
+image_06.png | label : EWG | section : Some examples | CERTIFIE (alt-seul)
+image_07.png | label : GBP | section : Some examples | CERTIFIE (alt-seul)

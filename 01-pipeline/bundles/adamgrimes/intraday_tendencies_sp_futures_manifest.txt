@@ -1,0 +1,9 @@
+# Manifest images pour intraday_tendencies_sp_futures (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/intraday-tendencies-sp-futures/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Bars which probably show a strong trend | section : Measuring trend strength | CERTIFIE (figcaption+alt)
+image_02.png | label : Weak trend bars | section : Measuring trend strength | CERTIFIE (figcaption+alt)
+image_03.png | label : trend strength time of day | section : Trend strength by time of day | CERTIFIE (alt+filename)
+image_04.png | label : tick vol | section : Trading activity by time of day | CERTIFIE (alt-seul)

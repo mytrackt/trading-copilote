@@ -1,0 +1,7 @@
+# Manifest images pour an_easy_way_to_avoid_some_losses (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/an-easy-way-to-avoid-some-losses/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : A market in consolidation | section : What to do about it | CERTIFIE (figcaption+alt)
+image_02.png | label : Violent trends on this timeframe while the higher timeframe ranges | section : But, wait, there's more... | CERTIFIE (figcaption+alt)

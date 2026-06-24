@@ -1,0 +1,9 @@
+# Manifest images pour volatility_clustering (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/volatility-clustering/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : sp | section : AdamHGrimes | CERTIFIE (alt-seul)
+image_02.png | label : eurusd | section : AdamHGrimes | CERTIFIE (alt-seul)
+image_03.png | label : gc | section : AdamHGrimes | CERTIFIE (alt-seul)
+image_04.png | label : coh | section : AdamHGrimes | CERTIFIE (alt-seul)

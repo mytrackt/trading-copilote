@@ -1,0 +1,6 @@
+# Manifest images pour trailing_stops_9_ideas_you_can_use_today (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trailing-stops-9-ideas-you-can-use-today/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

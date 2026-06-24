@@ -1,0 +1,8 @@
+# Manifest images pour are_you_losing_position_size_matters (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/are-you-losing-position-size-matters/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Fifty traders trading 250 trades of a positive expectancy system. | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : 1,000 traders, each trading 250 trades of the same positive expectancy | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_03.gif | label : Equity curves for different traders risking X per trade. | section : AdamHGrimes | CERTIFIE (figcaption+alt)

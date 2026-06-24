@@ -1,0 +1,6 @@
+# Manifest images pour first_principles_of_technical_analysis_3 (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/first-principles-of-technical-analysis-3/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : 2: Trends are more likely to continue than to end | sans figcaption -> IGNOREE

@@ -1,0 +1,6 @@
+# Manifest images pour toward_a_simple_model_of_price_behavior (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/toward-a-simple-model-of-price-behavior/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

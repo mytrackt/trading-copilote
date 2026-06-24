@@ -1,0 +1,6 @@
+# Manifest images pour reader_question_how_do_i_measure_liquidity (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/reader-question-how-do-i-measure-liquidity/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

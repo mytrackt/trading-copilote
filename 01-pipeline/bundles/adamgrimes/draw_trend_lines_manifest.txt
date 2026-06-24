@@ -1,0 +1,8 @@
+# Manifest images pour draw_trend_lines (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/draw-trend-lines/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE
+image_01.png | label : Standard trend lines (NYSE: XLF) | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : Nonstandard trendlines (NYSE: XLF) | section : AdamHGrimes | CERTIFIE (figcaption+alt)

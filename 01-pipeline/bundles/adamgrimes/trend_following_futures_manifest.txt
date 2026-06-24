@@ -1,0 +1,7 @@
+# Manifest images pour trend_following_futures (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/trend-following-futures/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Crude oil with 20 and 50 day channels | section : Channel breakouts | CERTIFIE (alt-seul)
+image_02.jpg | label : Futures: 50 day channel breakout | section : Channel breakouts | CERTIFIE (figcaption+alt)

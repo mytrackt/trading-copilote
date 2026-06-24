@@ -1,0 +1,9 @@
+# Manifest images pour death_cross_omen_noise (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/death-cross-omen-noise/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 4 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Russell 2000 Cash summary statistics | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : Russell 2000 Death Cross summary statistics | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_03.png | label : Russell 2000 Golden Cross summary statistics | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_04.png | label : Death and Golden Crosses | section : AdamHGrimes | CERTIFIE (figcaption+alt)

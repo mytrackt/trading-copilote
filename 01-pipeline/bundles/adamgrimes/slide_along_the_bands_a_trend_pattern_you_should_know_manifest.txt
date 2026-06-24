@@ -1,0 +1,6 @@
+# Manifest images pour slide_along_the_bands_a_trend_pattern_you_should_know (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/slide-along-the-bands-a-trend-pattern-you-should-know/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

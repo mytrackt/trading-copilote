@@ -1,0 +1,6 @@
+# Manifest images pour common_sense_checks_quantitative_data (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/common-sense-checks-quantitative-data/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Norden_bombsight_crosshairs | section : AdamHGrimes | CERTIFIE (alt+filename)

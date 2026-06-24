@@ -1,0 +1,6 @@
+# Manifest images pour basic_backtesting_in_excel_statistical_tests (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/basic-backtesting-in-excel-statistical-tests/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : spystarthere | section : AdamHGrimes | CERTIFIE (alt-seul)

@@ -1,0 +1,16 @@
+# Manifest images pour how_to_trade_support_and_resistance_levels (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/how-to-trade-support-and-resistance-levels/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 10 decorative(s)
+
+image_01.png | label : polarity-1 | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : Polarity | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : Polarity | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : PowerPull | sans figcaption -> IGNOREE
+(decorative) | rang 5 | section : PowerPull | sans figcaption -> IGNOREE
+(decorative) | rang 6 | section : PowerPush | sans figcaption -> IGNOREE
+(decorative) | rang 7 | section : PowerPush | sans figcaption -> IGNOREE
+(decorative) | rang 8 | section : The yo-yo | sans figcaption -> IGNOREE
+(decorative) | rang 9 | section : The yo-yo | sans figcaption -> IGNOREE
+(decorative) | rang 10 | section : Pong | sans figcaption -> IGNOREE
+(decorative) | rang 11 | section : Pong | sans figcaption -> IGNOREE

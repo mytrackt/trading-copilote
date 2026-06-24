@@ -1,0 +1,7 @@
+# Manifest images pour sp_500_futures_activity_by_time_of_day (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/sp-500-futures-activity-by-time-of-day/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE

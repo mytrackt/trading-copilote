@@ -1,0 +1,7 @@
+# Manifest images pour failure_test_2 (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/failure-test-2/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Figure 1 - The failure test concept | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : Figure 2. Failure test entry trigger | section : AdamHGrimes | CERTIFIE (figcaption+alt)

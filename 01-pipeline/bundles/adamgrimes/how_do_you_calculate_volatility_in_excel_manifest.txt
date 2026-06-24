@@ -1,0 +1,8 @@
+# Manifest images pour how_do_you_calculate_volatility_in_excel (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/how-do-you-calculate-volatility-in-excel/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 3 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : AdamHGrimes | sans figcaption -> IGNOREE

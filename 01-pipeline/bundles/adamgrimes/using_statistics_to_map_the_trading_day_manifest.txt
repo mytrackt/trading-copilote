@@ -1,0 +1,6 @@
+# Manifest images pour using_statistics_to_map_the_trading_day (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/using-statistics-to-map-the-trading-day/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

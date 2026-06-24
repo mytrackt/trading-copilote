@@ -1,0 +1,8 @@
+# Manifest images pour bad_statistics_lead_bad_decisions (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/bad-statistics-lead-bad-decisions/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Statistics for monthly returns if first day of the month is up or down | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : Statistics for monthly returns if seventh day of the month is up or do | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_03.png | label : "Corrected" statistics for monthly returns if first day of the month i | section : AdamHGrimes | CERTIFIE (figcaption+alt)

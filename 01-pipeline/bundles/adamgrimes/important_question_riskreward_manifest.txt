@@ -1,0 +1,8 @@
+# Manifest images pour important_question_riskreward (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/important-question-riskreward/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : stt daily | section : AdamHGrimes | CERTIFIE (alt-seul)
+image_02.png | label : stt 2 | section : AdamHGrimes | CERTIFIE (alt-seul)
+image_03.png | label : stt3 | section : AdamHGrimes | CERTIFIE (alt-seul)

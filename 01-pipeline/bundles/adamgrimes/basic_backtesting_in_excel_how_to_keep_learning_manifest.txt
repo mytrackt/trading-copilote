@@ -1,0 +1,7 @@
+# Manifest images pour basic_backtesting_in_excel_how_to_keep_learning (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/basic-backtesting-in-excel-how-to-keep-learning/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Moving average acting as support? Buy here? | section : Avoiding common errors | CERTIFIE (figcaption+alt)
+image_02.jpg | label : Moving moving averages?? | section : Avoiding common errors | CERTIFIE (figcaption+alt)

@@ -1,0 +1,6 @@
+# Manifest images pour basic_backtesting_in_excel_more_data (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/basic-backtesting-in-excel-more-data/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

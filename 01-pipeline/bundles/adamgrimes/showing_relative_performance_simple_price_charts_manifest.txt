@@ -1,0 +1,7 @@
+# Manifest images pour showing_relative_performance_simple_price_charts (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/showing-relative-performance-simple-price-charts/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : GLD vs SPY relative performance from SPY pivot | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : One of the worst mistakes: two price charts on two price axes | section : AdamHGrimes | CERTIFIE (figcaption+alt)

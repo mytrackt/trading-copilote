@@ -1,0 +1,7 @@
+# Manifest images pour the_importance_of_reading_inside_the_bars (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/the-importance-of-reading-inside-the-bars/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : I candle (or a bar) is a snapshot in time--How was this candle formed? | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+image_02.png | label : Some of the many possibilities that could have formed the candle above | section : AdamHGrimes | CERTIFIE (figcaption+alt)

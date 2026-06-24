@@ -1,0 +1,6 @@
+# Manifest images pour two_modes_of_market_behavior_12 (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/two-modes-of-market-behavior-12/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+(decorative) | rang 1 | section : AdamHGrimes | sans figcaption -> IGNOREE

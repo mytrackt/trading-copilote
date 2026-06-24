@@ -1,0 +1,8 @@
+# Manifest images pour support_and_resistance_right_now (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/support-and-resistance-right-now/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+image_01.jpg | label : aud1 | section : AdamHGrimes | CERTIFIE (figcaption+alt)
+(decorative) | rang 2 | section : AdamHGrimes | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : Think about both sides | sans figcaption -> IGNOREE

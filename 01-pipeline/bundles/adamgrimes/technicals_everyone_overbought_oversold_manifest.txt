@@ -1,0 +1,8 @@
+# Manifest images pour technicals_everyone_overbought_oversold (source : adamgrimes) [STATIC]
+# Page : https://www.adamhgrimes.com/technicals-everyone-overbought-oversold/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Large moves above bands are often overbought. | section : How to find overbought / oversold markets | CERTIFIE (figcaption+alt)
+image_02.png | label : aapl obos | section : How to use this concept and what can go wrong? | CERTIFIE (alt+filename)
+image_03.png | label : eurusd obos | section : How to use this concept and what can go wrong? | CERTIFIE (alt+filename)
