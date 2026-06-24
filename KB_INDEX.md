@@ -1,7 +1,24 @@
 # KB_INDEX — TRADEX-AI · Base de Connaissances Trading
-**Dernière mise à jour :** 24/06/2026 · Session S26 — cartographie 14 sources + 3 corrections statut accès
+**Dernière mise à jour :** 24/06/2026 · Session S27 — scraping de masse 6 sources (bundles bruts)
 **Repo :** `C:\trading-copilote\` · branch `main`
 **GitHub :** `mytrackt/trading-copilote`
+
+---
+
+## 0bis. SCRAPING DE MASSE S27 — BUNDLES BRUTS (extraction D### en attente)
+
+> Décision S27 : scraper toutes les pages GARDER des 6 sources accessibles (sauf Brooks/QuantifiedStrategies/Investopedia bloquées). Bundles bruts dans `01-pipeline\bundles\`. **Extraction D177+ → `04-cerveau-trading\validation\` ; AUCUNE fusion master sans OK utilisateur.** Compteur reste D176 tant que rien n'est fusionné.
+
+| Source | File | Scrapé | Commit | Statut |
+|--------|------|--------|--------|--------|
+| StockCharts | `queue_stockcharts.tsv` (237) | **236 OK / 0 REJET / 0 ERR / 1 skip** | `31b78ee` | ✅ BRUT (241/247 images 100% · 6 pages texte-OK images partielles) |
+| Adam Grimes | — | ⏳ file sitemap à construire | — | À FAIRE |
+| NinjaTrader | `queue_ninjatrader.tsv` (38) | ⏳ | — | À FAIRE |
+| Optimus | — | ⏳ file à construire | — | À FAIRE |
+| Sierra Chart | `queue_sierrachart.tsv` (34) | ⏳ | — | À FAIRE |
+| CFTC | — | ⏳ file à construire | — | À FAIRE |
+
+**Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
 ---
 
