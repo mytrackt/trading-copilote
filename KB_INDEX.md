@@ -18,7 +18,20 @@
 | Sierra Chart | `queue_sierrachart.tsv` (34) | **34 OK / 0 REJET / 0 ERR** | `7c0ed70` | ✅ BRUT (contenu riche Numbers Bars 385Ko) |
 | CFTC | `queue_cftc_html.tsv` (7) + `queue_cftc_pdf.tsv` (2) | **9 OK / 0 REJET / 0 ERR** | `9f7003c` | ✅ BRUT (7 HTML + 2 PDF) |
 
-**TOTAL S27 : 479 bundles bruts scrapés** (StockCharts 236 · Adam Grimes 130 · NinjaTrader 38 · Optimus 32 · Sierra 34 · CFTC 9) · 0 ERR sur les 6 sources · **SCRAPING COMPLET**. Prochaine phase : extraction D177+ → `04-cerveau-trading\validation\` (sans fusion master, attend OK utilisateur).
+**TOTAL S27 : 479 bundles bruts scrapés** (StockCharts 236 · Adam Grimes 130 · NinjaTrader 38 · Optimus 32 · Sierra 34 · CFTC 9) · 0 ERR sur les 6 sources · **SCRAPING COMPLET**.
+
+### Extraction S27 — `validation/extractions_S27/` (BRUT, sans fusion master)
+> Format validé utilisateur. Plages D### avec gaps réservés → **renumérotation contigue à la fusion** (compteur master reste D176 tant que rien n'est fusionné).
+
+| Lot | Fichiers | Décisions | Commit | Statut |
+|-----|----------|-----------|--------|--------|
+| Échantillon Belkhayate | MFI (D177-188) · Pivot Points (D189-198) | 22 | `7005386` | ✅ validé format |
+| **Prioritaires (13)** | VWAP D199-210 · AnchoredVWAP D219-228 · VolumeByPrice D239-248 · PutCall D259-270 (C5) · VIX D279-290 (C5) · Intermarket D299-309 (C7) · CME_Symbols D319-325 · NT_OrderFlow D339-349 · NT_Delta D359-366 · NT_VWAP D379-387 · Sierra_Footprint D399-409 · Sierra_VolByPrice D419-429 · Sierra_Delta D439-450 | 136 | `a9c9ddb` | ✅ BRUT |
+| **TOTAL extrait** | **15 fichiers** | **158 décisions** | | en `validation/` |
+
+⚠️ **Limite découverte** : certaines pages NinjaTrader ont des sections rendues en JS (accordéons) non capturées par `scraper_static.py` → contenu manquant honnêtement tagué 🔴 dans les extractions (formules VWAP renvoyées, tape/L2 vides). À compléter (re-scrape JS ou source alternative) lors de la phase bulk.
+
+Reste : extraction du **corpus bulk** (~324 bundles restants) par lots, toujours sans fusion.
 
 **Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
