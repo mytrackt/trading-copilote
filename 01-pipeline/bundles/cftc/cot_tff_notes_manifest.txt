@@ -1,0 +1,6 @@
+# Manifest PDF pour cot_tff_notes (source : cftc)
+# Fichier : C:\trading-copilote\01-pipeline\bundles\cftc\source.pdf | pages : 4
+# Methode : pdfplumber (texte). Images = MANUEL (strategie §3.3).
+# Bilan : texte=OK | images_auto=0 | images_detectees=0
+
+texte_cot_tff_notes.md | 4 pages | CERTIFIE (extrait direct PDF)

@@ -1,0 +1,10 @@
+
+=== RUN cftc | 7 pages | start=0 ===
+[1/7] OK cot_about_reports
+[2/7] OK cftc_glossary
+[3/7] OK cot_historical_compressed
+[4/7] OK cot_variables_legacy
+[5/7] OK cot_variables_disaggregated
+[6/7] OK cot_variables_tff
+[7/7] OK cot_variables_cit
+=== FIN cftc : OK=7 REJET=0 ERR=0 SKIP=0 ===

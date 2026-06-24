@@ -1,0 +1,388 @@
+# SOURCE: https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalViewable/CFTC_023168.html
+
+
+# Variable Names for the Comma Delimited Commitment of Traders Files
+
+Field Description for Disaggregated Reports
+
+1 Market_and_Exchange_Names
+
+2 As_of_Date_In_Form_YYMMDD
+
+3 As_of_Date_Form_YYYY-MM-DD
+
+4 CFTC_Contract_Market_Code
+
+5 CFTC_Market_Code
+
+6 CFTC_Region_Code
+
+7 CFTC_Commodity_Code
+
+8 Open_Interest_All
+
+9 Prod_Merc_Positions_Long_All
+
+10 Prod_Merc_Positions_Short_All
+
+11 Swap_Positions_Long_All
+
+12 Swap__Positions_Short_All
+
+13 Swap__Positions_Spread_All
+
+14 M_Money_Positions_Long_All
+
+15 M_Money_Positions_Short_All
+
+16 M_Money_Positions_Spread_All
+
+17 Other_Rept_Positions_Long_All
+
+18 Other_Rept_Positions_Short_All
+
+19 Other_Rept_Positions_Spread_All
+
+20 Tot_Rept_Positions_Long_All
+
+21 Tot_Rept_Positions_Short_All
+
+22 NonRept_Positions_Long_All
+
+23 NonRept_Positions_Short_All
+
+24 Open_Interest_Old
+
+25 Prod_Merc_Positions_Long_Old
+
+26 Prod_Merc_Positions_Short_Old
+
+27 Swap_Positions_Long_Old
+
+28 Swap__Positions_Short_Old
+
+29 Swap__Positions_Spread_Old
+
+30 M_Money_Positions_Long_Old
+
+31 M_Money_Positions_Short_Old
+
+32 M_Money_Positions_Spread_Old
+
+33 Other_Rept_Positions_Long_Old
+
+34 Other_Rept_Positions_Short_Old
+
+35 Other_Rept_Positions_Spread_Old
+
+36 Tot_Rept_Positions_Long_Old
+
+37 Tot_Rept_Positions_Short_Old
+
+38 NonRept_Positions_Long_Old
+
+39 NonRept_Positions_Short_Old
+
+40 Open_Interest_Other
+
+41 Prod_Merc_Positions_Long_Other
+
+42 Prod_Merc_Positions_Short_Other
+
+43 Swap_Positions_Long_Other
+
+44 Swap__Positions_Short_Other
+
+45 Swap__Positions_Spread_Other
+
+46 M_Money_Positions_Long_Other
+
+47 M_Money_Positions_Short_Other
+
+48 M_Money_Positions_Spread_Other
+
+49 Other_Rept_Positions_Long_Other
+
+50 Other_Rept_Positions_Short_Other
+
+51 Other_Rept_Positions_Spread_Other
+
+52 Tot_Rept_Positions_Long_Other
+
+53 Tot_Rept_Positions_Short_Other
+
+54 NonRept_Positions_Long_Other
+
+55 NonRept_Positions_Short_Other
+
+56 Change_in_Open_Interest_All
+
+57 Change_in_Prod_Merc_Long_All
+
+58 Change_in_Prod_Merc_Short_All
+
+59 Change_in_Swap_Long_All
+
+60 Change_in_Swap_Short_All
+
+61 Change_in_Swap_Spread_All
+
+62 Change_in_M_Money_Long_All
+
+63 Change_in_M_Money_Short_All
+
+64 Change_in_M_Money_Spread_All
+
+65 Change_in_Other_Rept_Long_All
+
+66 Change_in_Other_Rept_Short_All
+
+67 Change_in_Other_Rept_Spread_All
+
+68 Change_in_Tot_Rept_Long_All
+
+69 Change_in_Tot_Rept_Short_All
+
+70 Change_in_NonRept_Long_All
+
+71 Change_in_NonRept_Short_All
+
+72 Pct_of_Open_Interest_All
+
+73 Pct_of_OI_Prod_Merc_Long_All
+
+74 Pct_of_OI_Prod_Merc_Short_All
+
+75 Pct_of_OI_Swap_Long_All
+
+76 Pct_of_OI_Swap_Short_All
+
+77 Pct_of_OI_Swap_Spread_All
+
+78 Pct_of_OI_M_Money_Long_All
+
+79 Pct_of_OI_M_Money_Short_All
+
+80 Pct_of_OI_M_Money_Spread_All
+
+81 Pct_of_OI_Other_Rept_Long_All
+
+82 Pct_of_OI_Other_Rept_Short_All
+
+83 Pct_of_OI_Other_Rept_Spread_All
+
+84 Pct_of_OI_Tot_Rept_Long_All
+
+85 Pct_of_OI_Tot_Rept_Short_All
+
+86 Pct_of_OI_NonRept_Long_All
+
+87 Pct_of_OI_NonRept_Short_All
+
+88 Pct_of_Open_Interest_Old
+
+89 Pct_of_OI_Prod_Merc_Long_Old
+
+90 Pct_of_OI_Prod_Merc_Short_Old
+
+91 Pct_of_OI_Swap_Long_Old
+
+92 Pct_of_OI_Swap_Short_Old
+
+93 Pct_of_OI_Swap_Spread_Old
+
+94 Pct_of_OI_M_Money_Long_Old
+
+95 Pct_of_OI_M_Money_Short_Old
+
+96 Pct_of_OI_M_Money_Spread_Old
+
+97 Pct_of_OI_Other_Rept_Long_Old
+
+98 Pct_of_OI_Other_Rept_Short_Old
+
+99 Pct_of_OI_Other_Rept_Spread_Old
+
+100 Pct_of_OI_Tot_Rept_Long_Old
+
+101 Pct_of_OI_Tot_Rept_Short_Old
+
+102 Pct_of_OI_NonRept_Long_Old
+
+103 Pct_of_OI_NonRept_Short_Old
+
+104 Pct_of_Open_Interest_Other
+
+105 Pct_of_OI_Prod_Merc_Long_Other
+
+106 Pct_of_OI_Prod_Merc_Short_Other
+
+107 Pct_of_OI_Swap_Long_Other
+
+108 Pct_of_OI_Swap_Short_Other
+
+109 Pct_of_OI_Swap_Spread_Other
+
+110 Pct_of_OI_M_Money_Long_Other
+
+111 Pct_of_OI_M_Money_Short_Other
+
+112 Pct_of_OI_M_Money_Spread_Other
+
+113 Pct_of_OI_Other_Rept_Long_Other
+
+114 Pct_of_OI_Other_Rept_Short_Other
+
+115 Pct_of_OI_Other_Rept_Spread_Other
+
+116 Pct_of_OI_Tot_Rept_Long_Other
+
+117 Pct_of_OI_Tot_Rept_Short_Other
+
+118 Pct_of_OI_NonRept_Long_Other
+
+119 Pct_of_OI_NonRept_Short_Other
+
+120 Traders_Tot_All
+
+121 Traders_Prod_Merc_Long_All
+
+122 Traders_Prod_Merc_Short_All
+
+123 Traders_Swap_Long_All
+
+124 Traders_Swap_Short_All
+
+125 Traders_Swap_Spread_All
+
+126 Traders_M_Money_Long_All
+
+127 Traders_M_Money_Short_All
+
+128 Traders_M_Money_Spread_All
+
+129 Traders_Other_Rept_Long_All
+
+130 Traders_Other_Rept_Short_All
+
+131 Traders_Other_Rept_Spread_All
+
+132 Traders_Tot_Rept_Long_All
+
+133 Traders_Tot_Rept_Short_All
+
+134 Traders_Tot_Old
+
+135 Traders_Prod_Merc_Long_Old
+
+136 Traders_Prod_Merc_Short_Old
+
+137 Traders_Swap_Long_Old
+
+138 Traders_Swap_Short_Old
+
+139 Traders_Swap_Spread_Old
+
+140 Traders_M_Money_Long_Old
+
+141 Traders_M_Money_Short_Old
+
+142 Traders_M_Money_Spread_Old
+
+143 Traders_Other_Rept_Long_Old
+
+144 Traders_Other_Rept_Short_Old
+
+145 Traders_Other_Rept_Spread_Old
+
+146 Traders_Tot_Rept_Long_Old
+
+147 Traders_Tot_Rept_Short_Old
+
+148 Traders_Tot_Other
+
+149 Traders_Prod_Merc_Long_Other
+
+150 Traders_Prod_Merc_Short_Other
+
+151 Traders_Swap_Long_Other
+
+152 Traders_Swap_Short_Other
+
+153 Traders_Swap_Spread_Other
+
+154 Traders_M_Money_Long_Other
+
+155 Traders_M_Money_Short_Other
+
+156 Traders_M_Money_Spread_Other
+
+157 Traders_Other_Rept_Long_Other
+
+158 Traders_Other_Rept_Short_Other
+
+159 Traders_Other_Rept_Spread_Other
+
+160 Traders_Tot_Rept_Long_Other
+
+161 Traders_Tot_Rept_Short_Other
+
+162 Conc_Gross_LE_4_TDR_Long_All
+
+163 Conc_Gross_LE_4_TDR_Short_All
+
+164 Conc_Gross_LE_8_TDR_Long_All
+
+165 Conc_Gross_LE_8_TDR_Short_All
+
+166 Conc_Net_LE_4_TDR_Long_All
+
+167 Conc_Net_LE_4_TDR_Short_All
+
+168 Conc_Net_LE_8_TDR_Long_All
+
+169 Conc_Net_LE_8_TDR_Short_All
+
+170 Conc_Gross_LE_4_TDR_Long_Old
+
+171 Conc_Gross_LE_4_TDR_Short_Old
+
+172 Conc_Gross_LE_8_TDR_Long_Old
+
+173 Conc_Gross_LE_8_TDR_Short_Old
+
+174 Conc_Net_LE_4_TDR_Long_Old
+
+175 Conc_Net_LE_4_TDR_Short_Old
+
+176 Conc_Net_LE_8_TDR_Long_Old
+
+177 Conc_Net_LE_8_TDR_Short_Old
+
+178 Conc_Gross_LE_4_TDR_Long_Other
+
+179 Conc_Gross_LE_4_TDR_Short_Other
+
+180 Conc_Gross_LE_8_TDR_Long_Other
+
+181 Conc_Gross_LE_8_TDR_Short_Other
+
+182 Conc_Net_LE_4_TDR_Long_Other
+
+183 Conc_Net_LE_4_TDR_Short_Other
+
+184 Conc_Net_LE_8_TDR_Long_Other
+
+185 Conc_Net_LE_8_TDR_Short_Other
+
+186 Contract_Units
+
+187 CFTC_Contract_Market_Code_Quotes
+
+188 CFTC_Market_Code_Quotes
+
+189 CFTC_Commodity_Code_Quotes
+
+190 CFTC_SubGroup_Code
+
+191 FutOnly_or_Combined

@@ -1,0 +1,5 @@
+
+=== RUN cftc | 2 pages | start=0 ===
+[1/2] OK cot_disaggregated_notes
+[2/2] OK cot_tff_notes
+=== FIN cftc : OK=2 REJET=0 ERR=0 SKIP=0 ===
