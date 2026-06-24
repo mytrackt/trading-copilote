@@ -1,0 +1,6 @@
+# Manifest images pour sierra_352_vwap_rolling_std_dev (source : sierrachart) [STATIC]
+# Page : https://www.sierrachart.com/index.php?page=doc/StudiesReference.php&ID=352
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

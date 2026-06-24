@@ -1,0 +1,6 @@
+# Manifest images pour hub_studies_reference (source : sierrachart) [STATIC]
+# Page : https://www.sierrachart.com/index.php?page=doc/TechnicalStudiesReference.php
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

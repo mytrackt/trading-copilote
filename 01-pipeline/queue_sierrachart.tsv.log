@@ -1,0 +1,37 @@
+
+=== RUN sierrachart | 34 pages | start=0 ===
+[1/34] OK hub_studies_reference
+[2/34] OK numbers_bars_footprint
+[3/34] OK tpo_market_profile
+[4/34] OK sierra_292_cumulative_delta_volume
+[5/34] OK sierra_296_cumulative_delta_trades
+[6/34] OK sierra_323_cumulative_delta_tick
+[7/34] OK sierra_444_bar_delta_below_bar
+[8/34] OK sierra_368_numbers_bars_avg_vol_per_price
+[9/34] OK sierra_141_volume_by_price
+[10/34] OK sierra_209_volume_value_area_lines
+[11/34] OK sierra_471_volume_va_for_bars
+[12/34] OK sierra_158_tpo_value_area_lines
+[13/34] OK sierra_108_vwap_std_dev
+[14/34] OK sierra_352_vwap_rolling_std_dev
+[15/34] OK sierra_38_rsi
+[16/34] OK sierra_504_connors_rsi
+[17/34] OK sierra_180_stochrsi
+[18/34] OK sierra_500_laguerre_rsi
+[19/34] OK sierra_32_macd
+[20/34] OK sierra_248_volume_weighted_macd
+[21/34] OK sierra_13_adx
+[22/34] OK sierra_16_adxr
+[23/34] OK sierra_197_dmi
+[24/34] OK sierra_19_atr
+[25/34] OK sierra_428_normalized_atr
+[26/34] OK sierra_14_bollinger_bands
+[27/34] OK sierra_135_bollinger_bandwidth
+[28/34] OK sierra_221_bollinger_squeeze
+[29/34] OK sierra_35_momentum
+[30/34] OK sierra_188_chande_momentum
+[31/34] OK sierra_435_pmo
+[32/34] OK sierra_255_rmi
+[33/34] OK sierra_62_momentum_trend
+[34/34] OK sierra_408_point_figure_box_count
+=== FIN sierrachart : OK=34 REJET=0 ERR=0 SKIP=0 ===
