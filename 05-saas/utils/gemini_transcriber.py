@@ -66,6 +66,42 @@ CHUNK_DUREE = 2700                 # 45 min par chunk (marge securite)
 TAILLE_SEUIL_OCTET = 200 * 1024 * 1024  # 200 Mo = declencheur verif duree
 
 # ============================================================
+# WRAPPER ASCII — evite l'erreur codec sur noms accentues
+# ============================================================
+
+class _AsciiFileWrapper:
+    """
+    Passe un nom ASCII au SDK Gemini lors de l'upload.
+    Le SDK lit file.name pour l'en-tete HTTP Content-Disposition ;
+    les noms accentues (Lecon, Marche...) declenchent une erreur ascii codec.
+    Ce wrapper ouvre le fichier avec le vrai chemin Unicode mais expose
+    un nom ASCII neutre -- zero copie, zero overhead disque.
+    """
+    def __init__(self, path: Path):
+        self._f = open(str(path), "rb")
+        self.name = "upload.mp4"   # nom ASCII neutre expose au SDK
+        self.mode = "rb"
+
+    def read(self, n=-1):
+        return self._f.read(n)
+
+    def seek(self, *args):
+        return self._f.seek(*args)
+
+    def tell(self):
+        return self._f.tell()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *_):
+        self._f.close()
+
+    def close(self):
+        self._f.close()
+
+
+# ============================================================
 # FONCTIONS UTILITAIRES
 # ============================================================
 
@@ -129,7 +165,7 @@ def decouper_en_chunks(video_path: Path) -> list:
         start = n * CHUNK_DUREE
         if start >= duree:
             break
-        chunk_path = temp_dir / ("chunk" + str(n + 1).zfill(2) + "_" + video_path.name)
+        chunk_path = temp_dir / ("chunk" + str(n + 1).zfill(2) + "_upload.mp4")
         cmd = [
             'ffmpeg', '-y',
             '-i', str(video_path),
@@ -162,7 +198,7 @@ def flaguer_chiffres_visuels(texte: str) -> str:
     """
     def remplacer_chiffres(match):
         bloc = match.group(0)
-        return re.sub(r'\b(\d+[\.,]?\d*)\b', r'\1⚠️_A_VERIFIER', bloc)
+        return re.sub(r'\b(\d+[\.,]?\d*)\b', r'\1A_VERIFIER', bloc)
 
     return re.sub(
         r'\[VISUEL:.*?\]',
@@ -254,13 +290,15 @@ def _transcrire_chunk(chunk_path, qualite, live, numero, nb_total):
     """
     Transcrit un chunk individuel. Retourne le texte brut ou None si echec.
     Gere upload, attente PROCESSING, retry et suppression Gemini.
+    Les chunks ont des noms ASCII (chunk01_upload.mp4) — pas de probleme codec.
     """
     video_file = None
     try:
-        video_file = client.files.upload(
-            file=str(chunk_path),
-            config={"mime_type": "video/mp4", "display_name": "chunk_upload.mp4"}
-        )
+        with _AsciiFileWrapper(chunk_path) as _f:
+            video_file = client.files.upload(
+                file=_f,
+                config={"mime_type": "video/mp4", "display_name": "chunk_upload.mp4"}
+            )
         debut = time.time()
         while video_file.state.name == "PROCESSING":
             if time.time() - debut > MAX_PROCESSING_WAIT_SECONDS:
@@ -402,11 +440,13 @@ def transcrire_video(video_path: Path) -> dict:
     try:
         # --- UPLOAD ---
         print(f"  Upload en cours vers Gemini Files API...")
-        # display_name fixe en ASCII : evite l'erreur codec ascii sur noms de fichiers accentues
-        video_file = client.files.upload(
-            file=str(video_path),
-            config={"mime_type": "video/mp4", "display_name": "video_upload.mp4"}
-        )
+        # _AsciiFileWrapper expose un nom ASCII au SDK (file.name = "upload.mp4")
+        # Evite l'erreur 'ascii codec can't encode' sur les noms de fichiers accentues
+        with _AsciiFileWrapper(video_path) as _f:
+            video_file = client.files.upload(
+                file=_f,
+                config={"mime_type": "video/mp4", "display_name": "video_upload.mp4"}
+            )
 
         # --- ATTENTE PROCESSING avec timeout ---
         debut_attente = time.time()
@@ -480,7 +520,6 @@ def transcrire_video(video_path: Path) -> dict:
         # --- POST-TRAITEMENT ---
         transcript_final = flaguer_chiffres_visuels(transcript_brut)
 
-        # Construire l'entete de metadonnees
         type_video = "LIVE_TRADING" if live else "COURS_PEDAGOGIQUE"
         entete_lignes = [
             "[QUALITE_VIDEO: " + qualite + "]",
@@ -492,13 +531,12 @@ def transcrire_video(video_path: Path) -> dict:
         ]
         if "FAIBLE" in qualite:
             entete_lignes.append(
-                "[ATTENTION: qualite video faible — descriptions visuelles a verifier manuellement]"
+                "[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]"
             )
             entete_lignes.append("---")
         if live:
             entete_lignes.append(
-                "[ATTENTION: video live — descriptions visuelles peuvent etre incompletes "
-                "sur les moments de changement rapide d'ecran]"
+                "[ATTENTION: video live - descriptions visuelles peuvent etre incompletes]"
             )
             entete_lignes.append("---")
 
@@ -519,17 +557,16 @@ def transcrire_video(video_path: Path) -> dict:
         }
 
     finally:
-        # Toujours supprimer le fichier de Gemini (evite accumulation et frais)
         if video_file is not None:
             try:
                 client.files.delete(name=video_file.name)
             except Exception:
-                pass  # echec de suppression non bloquant
+                pass
 
 
-# ============================================================
+# ==========================================================
 # RAPPORT ET BOUCLE PRINCIPALE
-# ============================================================
+# ==========================================================
 
 def generer_rapport(rapport: list, nb_ok: int, nb_skip: int,
                     nb_erreurs: int, duree_totale: float, nb_total: int):
@@ -557,64 +594,51 @@ def generer_rapport(rapport: list, nb_ok: int, nb_skip: int,
         "",
         "## Precautions de lecture",
         "",
-        "- **QUALITE_VIDEO FAIBLE_APPROX** : verifier manuellement les descriptions visuelles",
-        "- **TYPE LIVE_TRADING** : certaines descriptions peuvent etre incompletes",
-        "- **Chiffre suivi de A_VERIFIER** : confirmer sur la video originale avant KB",
-        "- **[REGLE: ...]** : passages les plus exploitables pour la KB TRADEX-AI",
-        "- **Descriptions relatives** (haussier/baissier, au-dessus/en dessous) : fiables",
-        "- **Chiffres exacts visuels** : interdits — utiliser les descriptions uniquement"
+        "- Chiffre A_VERIFIER : confirmer sur la video originale avant KB",
+        "- [REGLE: ...] : passages les plus exploitables pour la KB TRADEX-AI",
+        "- Descriptions relatives (haussier/baissier) : fiables",
+        "- Chiffres exacts visuels : interdits - utiliser descriptions uniquement"
     ]
     RAPPORT_PATH.write_text("\n".join(lignes), encoding="utf-8")
 
 
 def main():
-    """
-    Boucle principale : transcrit toutes les videos MP4 de VIDEO_DIR.
-    - Affiche l'estimation de cout avant de commencer (confirmation requise)
-    - Saute les videos deja traitees (reprise possible apres interruption)
-    - Ecriture atomique (tempfile + replace) : pas de fichier partiel
-    - Rate limiting : 2s entre chaque video
-    - Genere RAPPORT_QUALITE_GEMINI.md en fin de traitement
-    """
+    """Boucle principale : transcrit toutes les videos MP4 de VIDEO_DIR."""
     videos = sorted(VIDEO_DIR.glob("*.mp4"))
     if not videos:
         print(f"Aucun MP4 trouve dans {VIDEO_DIR}")
-        print("Verifier que le dossier D:\\Belkhayate-Videos existe et contient des .mp4")
         sys.exit(1)
 
-    # --- ESTIMATION COUT AVANT LANCEMENT ---
     cout_min = len(videos) * 0.02
     cout_max = len(videos) * 0.10
     duree_min = len(videos) * 3
     duree_max = len(videos) * 6
 
     print("=" * 60)
-    print(f"  GEMINI TRANSCRIBER — TRADEX-AI")
+    print("  GEMINI TRANSCRIBER -- TRADEX-AI")
     print("=" * 60)
     print(f"  Modele       : {MODEL_NAME}")
     print(f"  Videos       : {len(videos)} fichiers dans {VIDEO_DIR}")
     print(f"  Sortie       : {OUTPUT_DIR}")
-    print(f"  Cout estime  : {cout_min:.2f}€ — {cout_max:.2f}€")
-    print(f"  Duree estimee: {duree_min} — {duree_max} minutes")
+    print(f"  Cout estime  : {cout_min:.2f}EUR -- {cout_max:.2f}EUR")
+    print(f"  Duree estimee: {duree_min} -- {duree_max} minutes")
     print()
 
-    # Compter les videos deja traitees
     deja_faites = sum(
         1 for v in videos
         if (OUTPUT_DIR / f"{v.stem}_gemini.txt").exists()
     )
     if deja_faites > 0:
-        print(f"  {deja_faites} video(s) deja traitees — seront sautees (SKIP)")
+        print(f"  {deja_faites} video(s) deja traitees -- seront sautees (SKIP)")
         print(f"  {len(videos) - deja_faites} video(s) restantes a traiter")
     print()
 
     confirmation = input("Confirmes-tu le lancement ? (oui/non) : ").strip().lower()
     if confirmation != "oui":
-        print("Annule. Lance python gemini_transcriber.py quand tu es pret.")
+        print("Annule.")
         sys.exit(0)
     print()
 
-    # --- BOUCLE PRINCIPALE ---
     rapport = []
     nb_ok = 0
     nb_skip = 0
@@ -624,7 +648,6 @@ def main():
     for i, video in enumerate(videos, 1):
         out_path = OUTPUT_DIR / f"{video.stem}_gemini.txt"
 
-        # Skip si deja traite
         if out_path.exists():
             nb_skip += 1
             print(f"[{i:3d}/{len(videos)}] SKIP : {video.name}")
@@ -632,14 +655,13 @@ def main():
 
         print(f"[{i:3d}/{len(videos)}] {video.name}")
         debut_video = time.time()
-
         resultat = transcrire_video(video)
-
         duree_video = time.time() - debut_video
 
         if resultat.get("erreur"):
             nb_erreurs += 1
-            print(f"  ERREUR : {resultat['erreur']}")
+            err_msg = resultat["erreur"]
+            print(f"  ERREUR : {err_msg}")
             rapport.append({
                 "fichier": video.name,
                 "statut": "ERREUR",
@@ -648,53 +670,37 @@ def main():
                 "detail": resultat["erreur"][:120]
             })
         else:
-            # Ecriture atomique : tempfile -> replace (jamais de fichier partiel)
             tmp_path = Path(str(out_path) + ".tmp")
             tmp_path.write_text(resultat["transcript"], encoding="utf-8")
             tmp_path.replace(out_path)
-
             nb_ok += 1
-            nb_balises_visuel = resultat["transcript"].count("[VISUEL:")
+            nb_visuel = resultat["transcript"].count("[VISUEL:")
             nb_regles = resultat["transcript"].count("[REGLE:")
-            print(
-                f"  OK ({duree_video:.0f}s) — "
-                f"{len(resultat['transcript'])} chars | "
-                f"{nb_balises_visuel} [VISUEL] | {nb_regles} [REGLE]"
-            )
+            print(f"  OK ({duree_video:.0f}s)")
             rapport.append({
                 "fichier": video.name,
                 "statut": "OK",
                 "qualite": resultat["qualite"],
                 "live": resultat["live"],
-                "detail": f"{nb_balises_visuel} VISUEL, {nb_regles} REGLE"
+                "detail": f"{nb_visuel} VISUEL, {nb_regles} REGLE"
             })
 
-        # Rate limiting Gemini (evite erreurs 429)
         time.sleep(2)
 
-    # --- RAPPORT QUALITE ---
     duree_totale = time.time() - debut_global
     generer_rapport(rapport, nb_ok, nb_skip, nb_erreurs, duree_totale, len(videos))
 
     print()
     print("=" * 60)
-    print(f"  TERMINE")
-    print(f"  OK: {nb_ok} | Skip: {nb_skip} | Erreurs: {nb_erreurs}")
+    print(f"  TERMINE -- OK: {nb_ok} | Skip: {nb_skip} | Erreurs: {nb_erreurs}")
     print(f"  Duree totale : {duree_totale / 60:.1f} minutes")
     print(f"  Rapport : {RAPPORT_PATH}")
     print("=" * 60)
-    print()
-    print("GARDE-FOUS — rappels de lecture des transcripts :")
-    print("  - [QUALITE_VIDEO: FAIBLE_APPROX] : verifier manuellement les [VISUEL]")
-    print("  - [TYPE: LIVE_TRADING] + [ECRAN_CHANGE_RAPIDE] : passage incomplet")
-    print("  - Chiffre suivi de A_VERIFIER : ne jamais integrer en KB sans verif")
-    print("  - [REGLE: ...] : passages les plus exploitables pour la KB")
-    print("  - Descriptions relatives (haussier/baissier) : fiables")
 
 
-# ============================================================
+# ==========================================================
 # POINT D'ENTREE
-# ============================================================
+# ==========================================================
 
 if __name__ == "__main__":
     main()
