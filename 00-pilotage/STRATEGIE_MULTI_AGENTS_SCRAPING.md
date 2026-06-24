@@ -5,6 +5,8 @@
 > **Auteur :** Claude Code (gate prompt-gate-audit v4.3 — score 95/100, GÉNÉRER)
 > **Périmètre :** 22 sources restantes de `KB_INDEX.md` · pipeline Phase 1→3.
 > **Règle d'or héritée :** 0 hallucination · double ancrage texte/image obligatoire · manifest certifié · **un doute = STOP**.
+>
+> **⚠️ Backlog P1 (ARCH-17, décision 2026-05-02) :** extraction CME specs **HG · CL · ZW** (actifs TRADING verrouillés, specs manquantes). **NQ retiré — hors périmètre** (orphelin, n'appartient à aucune des 3 catégories verrouillées).
 
 ---
 
@@ -77,7 +79,7 @@ image_XX.ext | label : <label> | section : <section> | CERTIFIE (accord .md + HT
 | 10a | CME Backtesting (Harvey) | **PDF** | pdfplumber (texte) | ❌ adaptateur PDF |
 | 11 | Cannon Behavioral Finance | **PDF** | pdfplumber (texte) | ❌ adaptateur PDF |
 | 10b | arXiv Walk-Forward | HTML (`/html/`) ou PDF | bs4 ou pdfplumber | ❌ adaptateur |
-| 2 | CME Institute + specs NQ/ES/GC | **JS / anti-bot** | MCP navigateur | ❌ + risque |
+| 2 | CME Institute + specs GC/ES (+ HG/CL/ZW à venir) | **JS / anti-bot** | MCP navigateur | ❌ + risque |
 | 7/14 | Sierra Chart docs | HTML lourd (PHP) | bs4 (prudence) | ❌ adaptateur |
 | 16 | NinjaTrader Learning | **JS** | MCP navigateur | ❌ + risque |
 | 17 | NinjaTrader Order Flow | HTML semi-statique | bs4 / MCP | ❌ adaptateur |

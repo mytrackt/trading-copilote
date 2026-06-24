@@ -231,7 +231,7 @@ Stratégie 22 sources : 00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md
 |------|----------|------|
 | ARCH-1 | Stack : Claude API + claude_brain.py + prompt caching | Session initiale |
 | ARCH-2 | Architecture 7 Cercles (C1-C7) + KB 3 couches + Runtime 0-8 | Session initiale |
-| ARCH-3 | Actifs : NQ · ES · Gold | Session initiale |
+| ARCH-3 | Actifs TRADING : GC · HG · CL · ZW · CONFIRMATION : ES · DX · VX (décision 2026-05-02) | Session initiale |
 | ARCH-4 | Formule COG : polynomial degree-3 ± résidus | Source primaire |
 | ARCH-5 | Actifs exclus : Bitcoin · Yen | Session initiale |
 | ARCH-8 | KB remise à zéro · D1 = Moving Averages | 21/06/2026 |
@@ -243,6 +243,7 @@ Stratégie 22 sources : 00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md
 | ARCH-14 | Liaison image : DOUBLE ANCRAGE (.md figcaption + HTML légende locale) · accord 2 sources sinon manuel | 22/06/2026 |
 | ARCH-15 | Pattern B : figcaption vide → titre section ## parent comme label · blacklist sections génériques | 22/06/2026 |
 | ARCH-16 | Images scraper → `bundles\<source>\<nom_page>\images\` (sous-dossier par page, anti-écrasement) | 23/06/2026 |
+| ARCH-17 | Actifs verrouillés : TRADING GC·HG·CL·ZW · CONFIRMATION ES·DX·VX · RÉFÉRENCE MBT·6J. NQ orphelin retiré (hors périmètre) — corrige dérive ARCH-3 « NQ·ES·Gold » héritée du blueprint Ortogonex | 2026-05-02 |
 
 ---
 

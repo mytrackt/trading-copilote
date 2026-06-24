@@ -37,22 +37,14 @@ REGLE_ENTREE = {
 # (04-cerveau-trading/cme/Extraction_CME_Specs_NQ_ES_GC_v1.md)
 # Usage : conversion points/ticks -> USD pour P&L, sizing, stops, R/R.
 #
-# /!\ INCOHERENCE A TRANCHER (decision humaine) : ACTIFS_TRADABLES liste
-#     GC/HG/CL/ZW (CLAUDE.md verrouille) alors que ARCH-3 (KB_INDEX) indique
-#     NQ/ES/Gold. Seuls NQ, ES, GC ont des specs verifiees ci-dessous.
-#     Les specs HG (Cuivre), CL (Petrole WTI), ZW (Ble) NE SONT PAS encore
-#     extraites -> NE PAS les inventer. A completer via scraper_pdf + KB.
+# INCOHERENCE TRANCHEE (decision humaine 2026-05-02, ARCH-17) : actifs
+#     verrouilles = TRADING GC/HG/CL/ZW + CONFIRMATION ES/DX/VX.
+#     NQ RETIRE (orphelin, hors perimetre -- vestige blueprint Ortogonex).
+#     GC (trading) et ES (confirmation) conserves : specs CME verifiees.
+#     HG (Cuivre), CL (Petrole WTI), ZW (Ble) : specs NON encore extraites
+#     -> TODO ci-dessous, NE PAS inventer. A completer via scraper_pdf + KB.
 # =============================================================================
 TICK_SPECS = {
-    "NQ": {
-        "name":          "E-mini Nasdaq-100",
-        "contract_unit": "20 USD x Nasdaq-100 Index",
-        "tick_size":     0.25,      # points d'indice
-        "tick_value":    5.00,      # USD par tick
-        "settlement":    "cash",
-        "product_code":  "NQ",
-        "source":        "cme_nq_specs.pdf / KB D173",
-    },
     "ES": {
         "name":          "E-mini S&P 500",
         "contract_unit": "50 USD x S&P 500 Index",
@@ -71,7 +63,11 @@ TICK_SPECS = {
         "product_code":  "GC",
         "source":        "cme_gc_specs.pdf / KB D175",
     },
-    # "HG", "CL", "ZW" : specs NON extraites (a ajouter, ne pas inventer).
+    # TODO (Backlog P1) : specs CME manquantes -- a extraire via scraper_pdf + KB,
+    #                     NE PAS inventer les valeurs.
+    # "HG": {...},  # Cuivre (COMEX) -- TRADING -- specs CME a extraire
+    # "CL": {...},  # Petrole WTI (NYMEX) -- TRADING -- specs CME a extraire
+    # "ZW": {...},  # Ble (CBOT) -- TRADING -- specs CME a extraire
 }
 
 # =============================================================================
