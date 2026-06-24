@@ -1,0 +1,7 @@
+# Manifest images pour how_to_read_stock_market_futures (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/how-to-read-stock-market-futures/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+(decorative) | rang 1 | section : What causes big moves in futures overnight? | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : As a stock trader, how can I use pre-market futures to plan my trading day? | sans figcaption -> IGNOREE

@@ -1,0 +1,21 @@
+# Manifest images pour order_flow_software (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/order-flow-software/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 16 decorative(s)
+
+(decorative) | rang 1 | section : Price Dynamics or Price Action | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : Volume Fluctuations | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : Limit Bids and Offers | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : Market Buying and Selling Activities, Encompassing Frequency and Magnitude | sans figcaption -> IGNOREE
+(decorative) | rang 5 | section : Footprint Chart | sans figcaption -> IGNOREE
+(decorative) | rang 6 | section : Footprint Chart | sans figcaption -> IGNOREE
+(decorative) | rang 7 | section : Footprint Chart | sans figcaption -> IGNOREE
+(decorative) | rang 8 | section : Volume Profile | sans figcaption -> IGNOREE
+(decorative) | rang 9 | section : Depth of Market | sans figcaption -> IGNOREE
+(decorative) | rang 10 | section : Depth of Market | sans figcaption -> IGNOREE
+(decorative) | rang 11 | section : Market Delta | sans figcaption -> IGNOREE
+(decorative) | rang 12 | section : Market Delta | sans figcaption -> IGNOREE
+(decorative) | rang 13 | section : Market Delta | sans figcaption -> IGNOREE
+(decorative) | rang 14 | section : Market Delta | sans figcaption -> IGNOREE
+(decorative) | rang 15 | section : Power Trades | sans figcaption -> IGNOREE
+(decorative) | rang 16 | section : Power Trades | sans figcaption -> IGNOREE

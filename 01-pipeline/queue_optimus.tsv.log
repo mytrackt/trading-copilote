@@ -1,0 +1,35 @@
+
+=== RUN optimusfutures | 32 pages | start=0 ===
+[1/32] OK order_flow_trading
+[2/32] OK order_flow_analysis
+[3/32] OK order_flow_software
+[4/32] OK best_order_flow_indicators
+[5/32] OK order_flow_imbalance
+[6/32] OK technical_analysis_with_order_flow
+[7/32] OK how_to_set_up_your_trading_charts_for_order_flow_trading
+[8/32] OK order_flow_in_tradingview
+[9/32] OK volume_profile_trading
+[10/32] OK tpo_charts_explained_for_beginners_market_profile_guide
+[11/32] OK volume_and_open_interest
+[12/32] OK anchored_vwap
+[13/32] OK best_indicators_for_day_trading_futures
+[14/32] OK average_true_range_indicator
+[15/32] OK best_tradingview_indicators
+[16/32] OK support_and_resistance_trading_guide
+[17/32] OK breakout_trading
+[18/32] OK day_trading_chart_patterns
+[19/32] OK gap_trading_strategies
+[20/32] OK how_to_trade_fair_value_gaps
+[21/32] OK mean_reversion_trading
+[22/32] OK end_of_day_trading_strategies
+[23/32] OK futures_trading_scalping_strategy
+[24/32] OK stop_loss_orders_in_futures_trading
+[25/32] OK day_trading_risk_management
+[26/32] OK backtesting_trading_strategies_in_futures_markets
+[27/32] OK how_to_backtest_on_tradingview
+[28/32] OK vix_futures_guide
+[29/32] OK what_es_futures_tell_you_before_market_opens
+[30/32] OK how_to_read_stock_market_futures
+[31/32] OK tradingview_tick_charts
+[32/32] OK index_futures_trading
+=== FIN optimusfutures : OK=32 REJET=0 ERR=0 SKIP=0 ===

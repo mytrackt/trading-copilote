@@ -1,0 +1,11 @@
+# Manifest images pour order_flow_analysis (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/order-flow-analysis/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 6 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : Depth of Market (DOM) Diagram of Order Flow | section : Order Flow Analysis Method 1: DOM (Depth-of-Market) | CERTIFIE (alt+filename)
+image_02.png | label : Order Flow Cluster Charts (Optimus Flow Trading Platform) | section : Order Flow Figure #2 : Cluster Charts (Optimus Flow Platform) | CERTIFIE (alt+filename)
+image_03.png | label : Order Flow DOM_with_Cluster Charts | section : Order Flow Figure #3: A DOM attached to a Cluster chart (using Optimus Flow platform) | CERTIFIE (alt+filename)
+image_04.png | label : Order Flow Figure 4 | section : Order Flow Figure #3: A DOM attached to a Cluster chart (using Optimus Flow platform) | CERTIFIE (alt+filename)
+image_05.png | label : Optimus Flow DOM | section : Appendix #1 – Advanced Features of the Optimus Flow DOM. | CERTIFIE (alt+filename)
+image_06.png | label : Optimus Flow Cluster Chart Advanced Features | section : Appendix #2 – Advanced Features of Optimus Flow Cluster Charts | CERTIFIE (alt+filename)

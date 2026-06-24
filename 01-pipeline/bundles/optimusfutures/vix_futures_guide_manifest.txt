@@ -1,0 +1,7 @@
+# Manifest images pour vix_futures_guide (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/vix-futures-guide/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.png | label : vix futures | section : VIX Index vs. VIX Futures Pricing | CERTIFIE (alt-seul)
+image_02.png | label : A systematic hedge allocation helps stabilize total portfolio value du | section : Hedging Strategies Using VIX | CERTIFIE (figcaption)

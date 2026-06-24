@@ -1,0 +1,15 @@
+# Manifest images pour best_order_flow_indicators (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/best-order-flow-indicators/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 10 decorative(s)
+
+(decorative) | rang 1 | section : 1 – Power Trade Scanner: Uncover Market Momentum with Real-Time Data | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : 2 – VWAP Indicator: Align Your Trades with Institutional Activity | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : 2 – VWAP Indicator: Align Your Trades with Institutional Activity | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : Customizing Your VWAP Strategy | sans figcaption -> IGNOREE
+(decorative) | rang 5 | section : 3 – Volume Profiles: Decipher Market Structure and Trading Activity | sans figcaption -> IGNOREE
+(decorative) | rang 6 | section : 4 – Time and Sales Window: Classic Tool for Historical Trade Analysis | sans figcaption -> IGNOREE
+(decorative) | rang 7 | section : 5 – Time Statistics: Detailed Insights into Market Behavior Per Candle | sans figcaption -> IGNOREE
+(decorative) | rang 8 | section : 6 – Time Histogram: Comprehensive Volume and Trade Analysis | sans figcaption -> IGNOREE
+(decorative) | rang 9 | section : 6 – Time Histogram: Comprehensive Volume and Trade Analysis | sans figcaption -> IGNOREE
+(decorative) | rang 10 | section : 7 – Cluster Chart: Advanced Visualization of Intraday Market Depth | sans figcaption -> IGNOREE

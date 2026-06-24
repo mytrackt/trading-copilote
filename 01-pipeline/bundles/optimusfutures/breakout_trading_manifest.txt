@@ -1,0 +1,13 @@
+# Manifest images pour breakout_trading (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/breakout-trading/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 6 decorative(s)
+
+image_01.webp | label : breakout trading | section : How to Trade a Breakout #1 – Historical Support and Resistance | CERTIFIE (alt-seul)
+image_02.webp | label : breakout trading using the E-micro emini S&P 500 futures on the Optimu | section : How to Trade a Breakout #2 – Pattern Breakout | CERTIFIE (alt-seul)
+(decorative) | rang 3 | section : How to Trade a Breakout #3 – Price Channels | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : Breakouts vs Fakeouts: How to Tell the Difference | sans figcaption -> IGNOREE
+(decorative) | rang 5 | section : Breakouts vs Fakeouts: How to Tell the Difference | sans figcaption -> IGNOREE
+(decorative) | rang 6 | section : Breakouts vs Fakeouts: How to Tell the Difference | sans figcaption -> IGNOREE
+(decorative) | rang 7 | section : Breakouts vs Fakeouts: How to Tell the Difference | sans figcaption -> IGNOREE
+(decorative) | rang 8 | section : Breakouts vs Fakeouts: How to Tell the Difference | sans figcaption -> IGNOREE

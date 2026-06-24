@@ -1,0 +1,6 @@
+# Manifest images pour how_to_set_up_your_trading_charts_for_order_flow_trading (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/how-to-set-up-your-trading-charts-for-order-flow-trading/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

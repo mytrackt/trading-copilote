@@ -1,0 +1,8 @@
+# Manifest images pour tradingview_tick_charts (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/tradingview-tick-charts/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+image_01.gif | label : tradingview tick charts | section : How to Enable Tick Charts | CERTIFIE (alt-seul)
+(decorative) | rang 2 | section : Example: Using Tick Charts to Identify Breakouts | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : Example: Monitoring Volatility in Crude Oil Futures | sans figcaption -> IGNOREE

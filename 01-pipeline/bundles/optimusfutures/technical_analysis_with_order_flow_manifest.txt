@@ -1,0 +1,6 @@
+# Manifest images pour technical_analysis_with_order_flow (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/technical-analysis-with-order-flow/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

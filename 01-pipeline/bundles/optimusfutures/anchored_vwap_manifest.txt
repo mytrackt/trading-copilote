@@ -1,0 +1,12 @@
+# Manifest images pour anchored_vwap (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/anchored-vwap/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 4 decorative(s)
+
+image_01.png | label : anchored vwap on Optimus Flow | section : Activating Anchored VWAP on Optimus Flow | CERTIFIE (alt-seul)
+(decorative) | rang 2 | section : Activating Anchored VWAP on Optimus Flow | sans figcaption -> IGNOREE
+image_02.webp | label : anchored vwap starting point | section : Activating Anchored VWAP on Optimus Flow | CERTIFIE (alt-seul)
+(decorative) | rang 4 | section : Activating Anchored VWAP on Optimus Flow | sans figcaption -> IGNOREE
+image_03.webp | label : anchored vwap anchor point | section : Tips for Using the Anchored VWAP | CERTIFIE (alt-seul)
+(decorative) | rang 6 | section : Tips for Using the Anchored VWAP | sans figcaption -> IGNOREE
+(decorative) | rang 7 | section : Tips for Using the Anchored VWAP | sans figcaption -> IGNOREE

@@ -1,0 +1,16 @@
+# Manifest images pour order_flow_imbalance (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/order-flow-imbalance/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 10 certifiee(s) | 0 a verifier | 1 decorative(s)
+
+image_01.png | label : What is Order Flow Trading | section : How to Identify Imbalance in the Markets with Order Flow Trading | CERTIFIE (alt+filename)
+image_02.png | label : Order Flow Trading | section : How to See Order Flow Imbalance Using the Depth of Market | CERTIFIE (alt+filename)
+image_03.png | label : Order Flow Trading 2 | section : How to See Order Flow Imbalance Using the Depth of Market | CERTIFIE (alt+filename)
+image_04.png | label : Order Flow Trading 3 | section : Understanding the DOM as an Order Book | CERTIFIE (alt+filename)
+image_05.png | label : Order Flow Trading 4 | section : Understanding the DOM as an Order Book | CERTIFIE (alt+filename)
+(decorative) | rang 6 | section : Understanding the DOM as an Order Book | sans figcaption -> IGNOREE
+image_06.png | label : Order Flow Trading 1a | section : How Might You Analyze Order Flow Imbalance? | CERTIFIE (alt+filename)
+image_07.png | label : Order Flow Trading 1b | section : How Might You Analyze Order Flow Imbalance? | CERTIFIE (alt+filename)
+image_08.png | label : Order Flow Trading | section : How Might You Analyze Order Flow Imbalance? | CERTIFIE (alt+filename)
+image_09.png | label : Order Flow Trading | section : How Might You Analyze Order Flow Imbalance? | CERTIFIE (alt+filename)
+image_10.png | label : Order Flow Trading Footprint Charts | section : How Might You Analyze Order Flow Imbalance? | CERTIFIE (alt+filename)

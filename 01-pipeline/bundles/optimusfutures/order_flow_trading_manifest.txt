@@ -1,0 +1,12 @@
+# Manifest images pour order_flow_trading (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/order-flow-trading/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 7 decorative(s)
+
+(decorative) | rang 1 | section : Let’s start with why markets move. | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : Footprint Chart | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : Volume Profile | sans figcaption -> IGNOREE
+(decorative) | rang 4 | section : Implementing Your Order Flow Trading Strategy | sans figcaption -> IGNOREE
+(decorative) | rang 5 | section : Implementing Your Order Flow Trading Strategy | sans figcaption -> IGNOREE
+(decorative) | rang 6 | section : Implementing Your Order Flow Trading Strategy | sans figcaption -> IGNOREE
+(decorative) | rang 7 | section : Key takeaways | sans figcaption -> IGNOREE

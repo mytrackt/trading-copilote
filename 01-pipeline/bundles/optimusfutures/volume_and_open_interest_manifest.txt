@@ -1,0 +1,7 @@
+# Manifest images pour volume_and_open_interest (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/volume-and-open-interest/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+(decorative) | rang 1 | section : Example: Confirming a successful breakout | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : Example: Foreshadowing reversals | sans figcaption -> IGNOREE

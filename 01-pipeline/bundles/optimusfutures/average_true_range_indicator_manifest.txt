@@ -1,0 +1,8 @@
+# Manifest images pour average_true_range_indicator (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/average-true-range-indicator/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 3 decorative(s)
+
+(decorative) | rang 1 | section : What Makes the Average True Range (ATR) Effective? | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : Using Average True Range (ATR) to Set Stop Losses | sans figcaption -> IGNOREE
+(decorative) | rang 3 | section : Profit Targets and Average True Range | sans figcaption -> IGNOREE

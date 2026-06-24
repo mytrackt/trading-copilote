@@ -1,0 +1,10 @@
+# Manifest images pour how_to_trade_fair_value_gaps (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/how-to-trade-fair-value-gaps/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 2 certifiee(s) | 0 a verifier | 3 decorative(s)
+
+(decorative) | rang 1 | section : How to Trade Fair Value Gaps | sans figcaption -> IGNOREE
+image_01.png | label : How To Identify Fair Value Gaps Gaps | section : How To Identify Fair Value Gaps Gaps (and what are not FVGs) | CERTIFIE (alt+filename)
+(decorative) | rang 3 | section : How To Identify Fair Value Gaps Gaps (and what are not FVGs) | sans figcaption -> IGNOREE
+image_02.png | label : Strategies for Trading Fair Value Gaps | section : Strategies for Trading Fair Value Gaps | CERTIFIE (alt+filename)
+(decorative) | rang 5 | section : Strategies for Trading Fair Value Gaps | sans figcaption -> IGNOREE

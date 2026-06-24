@@ -1,0 +1,8 @@
+# Manifest images pour what_es_futures_tell_you_before_market_opens (source : optimusfutures) [STATIC]
+# Page : https://optimusfutures.com/blog/what-es-futures-tell-you-before-market-opens/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 1 certifiee(s) | 0 a verifier | 2 decorative(s)
+
+(decorative) | rang 1 | section : Why do ES futures move overnight when the stock market is closed? | sans figcaption -> IGNOREE
+(decorative) | rang 2 | section : Geopolitical or macro risk | sans figcaption -> IGNOREE
+image_01.png | label : actual pre-market setup | section : How do professional traders use ES futures before the open? | CERTIFIE (alt-seul)
