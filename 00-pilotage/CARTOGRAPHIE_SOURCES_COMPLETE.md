@@ -1,6 +1,6 @@
 # CARTOGRAPHIE SOURCES COMPLÈTE — TRADEX-AI
 
-**Date :** 24/06/2026 (S25) · **Méthode :** reconnaissance web parallèle (14 agents), AUCUN scrape effectué
+**Date :** 24/06/2026 (S26) · **Méthode :** reconnaissance web parallèle (14 agents), AUCUN scrape effectué
 **Périmètre :** sources Tier 1 + Tier 2 de `KB_INDEX.md` (14 sites demandés)
 **Critères GARDER :** TA · indicateurs · futures · patterns · price action · risk management · backtesting · order flow · market profile · COG Belkhayate
 **Critères REJETER :** forex-only · crypto · marketing broker · opinions forum · paywall · 403/anti-bot
@@ -529,5 +529,5 @@ Tous = **Garder** (définitions TA de référence, aucun forex-only/crypto/broke
 
 ---
 
-*CARTOGRAPHIE_SOURCES_COMPLETE · TRADEX-AI · 24/06/2026 (S25) · 14 sites · ≈538 pages utiles non scrapées*
+*CARTOGRAPHIE_SOURCES_COMPLETE · TRADEX-AI · 24/06/2026 (S26) · 14 sites · ≈538 pages utiles non scrapées*
 *⚠️ Outil éducatif · Jamais du conseil financier · Reconnaissance seule, validité documentaire A9 non statuée ici*

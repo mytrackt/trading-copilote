@@ -247,7 +247,7 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S25 — 24/06/2026)
+## ÉTAT ACTUEL (Session S26 — 24/06/2026)
 
 | Élément | État |
 |---------|------|
@@ -264,9 +264,9 @@ ROLLBACK    : documenter avant chaque phase risquée
 | Trading Geek transcription | ⏳ 38/113 — en cours en background |
 | Scrapers KB (`01-pipeline\`) | ✅ **3 adaptateurs validés** : `scraper.py` **v3.3** (GitBook : double ancrage + section-fallback + sous-dossier/page + unescape entités) · `scraper_static.py` **v1.1** (HTML statique : ancrage figcaption/alt+filename + urljoin) · `scraper_pdf.py` **v1** (pdfplumber texte, images=manuel). |
 | KB pipeline (`KB_INDEX.md` · D###) | ✅ **D1→D172** (111 décisions ajoutées S23 · 13 sources). **P0 COMPLET** (D1–D77). **P1** : Candlestick Bull/Bear (D78–D98) · COT CFTC (D156–D162). **P2** : Footprint Optimus (D112–D120) · Market Profile Dalton (D131–D134) + WindoTrader (D148–D155) · Volume Profile NinjaTrader (D163–D167). **P3** : Wyckoff (D99–D111) · Price Action Adam Grimes/Gold (D168–D172). **P4** : Behavioral Finance Cannon (D121–D130) · Walk-Forward arXiv (D135–D142) · Bollinger (D143–D147). Prochaine décision : D173. |
-| Sources BLOQUÉES (anti-bot) | 🚫 403/Akamai : CME specs + CME backtest PDF · Fidelity (redondant) · **Brooks** (corpus gratuit RÉEL mais 403 — corrige « promo podcast » S25) · **QuantifiedStrategies** (mur robot) · **Investopedia** (crawler bloqué — 65 URLs à revalider) → extraction MANUELLE / contournement. ✅ **Sierra Chart accessible** (404 = mauvais slug, corrige S25) · NinjaTrader + Adam Grimes URLs redécouvertes · Nison/Candlecharts = 1 page glossaire gratuite. |
+| Sources BLOQUÉES (anti-bot) | 🚫 403/Akamai : CME specs + CME backtest PDF · Fidelity (redondant) · **Brooks** (corpus gratuit RÉEL mais 403 — corrige « promo podcast » S26) · **QuantifiedStrategies** (mur robot) · **Investopedia** (crawler bloqué — 65 URLs à revalider) → extraction MANUELLE / contournement. ✅ **Sierra Chart accessible** (404 = mauvais slug, corrige S26) · NinjaTrader + Adam Grimes URLs redécouvertes · Nison/Candlecharts = 1 page glossaire gratuite. |
 | Stratégie scraping multi-agents | ✅ `00-pilotage\STRATEGIE_MULTI_AGENTS_SCRAPING.md` (S22) — 22 sources classées · 3 adaptateurs construits et validés (S23). |
-| Cartographie sources (S25) | ✅ `00-pilotage\CARTOGRAPHIE_SOURCES_COMPLETE.md` — 14 sources Tier1+Tier2 cartographiées (reco web parallèle, 0 scrape). **≈538 pages utiles non scrapées**. Gisements : StockCharts 154 · Adam Grimes 118 · QuantifiedStrategies 56 · NinjaTrader/Optimus 36 · Sierra Chart 35. 3 corrections statut → KB_INDEX §0. |
+| Cartographie sources (S26) | ✅ `00-pilotage\CARTOGRAPHIE_SOURCES_COMPLETE.md` — 14 sources Tier1+Tier2 cartographiées (reco web parallèle, 0 scrape). **≈538 pages utiles non scrapées**. Gisements : StockCharts 154 · Adam Grimes 118 · QuantifiedStrategies 56 · NinjaTrader/Optimus 36 · Sierra Chart 35. 3 corrections statut → KB_INDEX §0. |
 
 ### DETTE TECHNIQUE RESTANTE (détails dans 00-pilotage\DETTE_TECHNIQUE.md)
 ```
@@ -310,7 +310,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 | Priorité | Fichier | Contenu |
 |----------|---------|---------|
-| 1 | `00-pilotage\_context\README_FIN_SESSION_S24_20260623.md` | Dernier état de session |
+| 1 | `00-pilotage\_context\README_FIN_SESSION_S26_20260624.md` | Dernier état de session |
 | 2 | `00-pilotage\DETTE_TECHNIQUE.md` | Bugs à réparer (contexte indispensable) |
 | 3 | `00-pilotage\FEUILLE_DE_ROUTE.md` | Phases du projet |
 | 4 | `00-pilotage\GARDE_FOUS_PROPOSES.md` | 32 garde-fous trading |
@@ -321,7 +321,7 @@ REFERENCE   : MBT (Bitcoin — no trade), 6J (Yen — no trade)
 
 *Ce fichier est la source de vérité absolue du projet.*
 *En cas de doute entre ce fichier et une conversation : ce fichier a priorité.*
-*Dernière mise à jour : 24/06/2026 (S25) — Cartographie complète 14 sources Tier1+Tier2 (`00-pilotage\CARTOGRAPHIE_SOURCES_COMPLETE.md`, ≈538 pages utiles) + 3 corrections statut accès KB_INDEX §0 (Sierra ✅ accessible · Brooks 403 · Investopedia crawler bloqué) + re-scrape Moving Averages v3.2 (14/14 certifiées). Précédent : 24/06/2026 (S24) — Pipeline Gemini multimodal validé : gemini_transcriber.py + chunking auto >50min + test 3/3 OK. Modèle gemini-2.5-flash (verrouillé). Avant : 23/06/2026 (S23) — KB pipeline D1→D172 · 3 adaptateurs scraping validés.*
+*Dernière mise à jour : 24/06/2026 (S26) — Cartographie complète 14 sources Tier1+Tier2 (`00-pilotage\CARTOGRAPHIE_SOURCES_COMPLETE.md`, ≈538 pages utiles) + 3 corrections statut accès KB_INDEX §0 (Sierra ✅ accessible · Brooks 403 · Investopedia crawler bloqué) + re-scrape Moving Averages v3.2 (14/14 certifiées). Précédent : 24/06/2026 (S25) — audit RAPPORT_ARCHITECTURE + 14 corrections + garde-fous G11-G20 (32→42) + gemini_transcriber.py réparé. Avant : 24/06/2026 (S24) — Pipeline Gemini multimodal validé (gemini-2.5-flash verrouillé, test 3/3 OK).*
 
 ---
 

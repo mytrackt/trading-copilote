@@ -1,15 +1,15 @@
 # KB_INDEX — TRADEX-AI · Base de Connaissances Trading
-**Dernière mise à jour :** 24/06/2026 · Session S25 — cartographie 14 sources + 3 corrections statut accès
+**Dernière mise à jour :** 24/06/2026 · Session S26 — cartographie 14 sources + 3 corrections statut accès
 **Repo :** `C:\trading-copilote\` · branch `main`
 **GitHub :** `mytrackt/trading-copilote`
 
 ---
 
-## 0. CORRECTIONS STATUT ACCÈS — S25 (cartographie complète)
+## 0. CORRECTIONS STATUT ACCÈS — S26 (cartographie complète)
 
 > Source : `00-pilotage\CARTOGRAPHIE_SOURCES_COMPLETE.md` (24/06/2026). Reconnaissance web seule, aucun scrape.
 
-| # | Source | Ancien statut (erroné) | Statut corrigé S25 |
+| # | Source | Ancien statut (erroné) | Statut corrigé S26 |
 |---|--------|------------------------|--------------------|
 | C1 | **Sierra Chart** (T1 #7) | « Sierra 404 » | ✅ **ACCESSIBLE** — le 404 venait d'un slug obsolète (`TPOProfileCharts.php`). Vraie page TPO : `doc/StudiesReference/TimePriceOpportunityCharts.html`. 500+ études via `StudiesReference.php&ID=N`. **35 pages utiles** (`scraper_static.py`). |
 | C2 | **Brooks** (T2 #14) | « promo podcast / rien d'exploitable » | 🔴 **403 ANTI-BOT (Akamai)** — un vrai corpus gratuit existe (manuel ~12 chap. + glossaire + articles price action). À classer « GARDER mais BLOQUÉ » → adaptateur anti-403 / manuel. **8 pages** bloquées. |
