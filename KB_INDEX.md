@@ -15,8 +15,10 @@
 | Adam Grimes | `queue_adamgrimes.tsv` (130) | **130 OK / 0 REJET / 0 ERR** | `a775717` | ✅ BRUT (matching liste curee vs sitemap · 1 image a verifier) |
 | NinjaTrader | `queue_ninjatrader.tsv` (38) | **38 OK / 0 REJET / 0 ERR** | `ebe060d` | ✅ BRUT (0 image a verifier) |
 | Optimus | `queue_optimus.tsv` (32) | **32 OK / 0 REJET / 0 ERR** | `e8891ce` | ✅ BRUT (3 ellipses ecartees · 0 image a verifier) |
-| Sierra Chart | `queue_sierrachart.tsv` (34) | 🔄 en cours | — | EN COURS |
-| CFTC | `queue_cftc_html.tsv` (7) + `queue_cftc_pdf.tsv` (2) | ⏳ | — | À FAIRE |
+| Sierra Chart | `queue_sierrachart.tsv` (34) | **34 OK / 0 REJET / 0 ERR** | `7c0ed70` | ✅ BRUT (contenu riche Numbers Bars 385Ko) |
+| CFTC | `queue_cftc_html.tsv` (7) + `queue_cftc_pdf.tsv` (2) | **9 OK / 0 REJET / 0 ERR** | `9f7003c` | ✅ BRUT (7 HTML + 2 PDF) |
+
+**TOTAL S27 : 479 bundles bruts scrapés** (StockCharts 236 · Adam Grimes 130 · NinjaTrader 38 · Optimus 32 · Sierra 34 · CFTC 9) · 0 ERR sur les 6 sources · **SCRAPING COMPLET**. Prochaine phase : extraction D177+ → `04-cerveau-trading\validation\` (sans fusion master, attend OK utilisateur).
 
 **Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
