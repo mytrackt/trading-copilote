@@ -13,10 +13,10 @@
 |--------|------|--------|--------|--------|
 | StockCharts | `queue_stockcharts.tsv` (237) | **236 OK / 0 REJET / 0 ERR / 1 skip** | `31b78ee` | ✅ BRUT (241/247 images 100% · 6 pages texte-OK images partielles) |
 | Adam Grimes | `queue_adamgrimes.tsv` (130) | **130 OK / 0 REJET / 0 ERR** | `a775717` | ✅ BRUT (matching liste curee vs sitemap · 1 image a verifier) |
-| NinjaTrader | `queue_ninjatrader.tsv` (38) | 🔄 en cours | — | EN COURS |
-| Optimus | — | ⏳ file à construire | — | À FAIRE |
+| NinjaTrader | `queue_ninjatrader.tsv` (38) | **38 OK / 0 REJET / 0 ERR** | `ebe060d` | ✅ BRUT (0 image a verifier) |
+| Optimus | `queue_optimus.tsv` (32) | 🔄 en cours | — | EN COURS (3 ellipses ecartees) |
 | Sierra Chart | `queue_sierrachart.tsv` (34) | ⏳ | — | À FAIRE |
-| CFTC | — | ⏳ file à construire | — | À FAIRE |
+| CFTC | `queue_cftc_html.tsv` (7) + `queue_cftc_pdf.tsv` (2) | ⏳ | — | À FAIRE |
 
 **Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
