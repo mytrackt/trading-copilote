@@ -1,0 +1,6 @@
+# Manifest images pour how_to_trade_liquidity_traps_in_futures (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/futures/blogs/how-to-trade-liquidity-traps-in-futures/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

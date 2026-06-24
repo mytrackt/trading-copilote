@@ -1,0 +1,8 @@
+# Manifest images pour building_a_trading_strategy (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/learn/building-a-trading-strategy/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 3 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Strategy Analyzer chart view: entry and exit signals plotted on a 1-mi | section : Entry and Exit Rules | CERTIFIE (figcaption+alt)
+image_02.jpg | label : Cumulative net profit curve from a backtest, showing how a strategy pe | section : Backtesting, Optimization, and Forward Testing | CERTIFIE (figcaption+alt)
+image_03.jpg | label : Performance summary: profit factor, Sharpe ratio, win rate, and drawdo | section : Backtesting, Optimization, and Forward Testing | CERTIFIE (figcaption+alt)

@@ -1,0 +1,6 @@
+# Manifest images pour how_to_identify_intraday_support_and_resistance_levels_in_your_trading (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/futures/blogs/how-to-identify-intraday-support-and-resistance-levels-in-your-trading/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

@@ -1,0 +1,6 @@
+# Manifest images pour futures_trading_strategies_ranked_difficulty (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/futures/blogs/futures-trading-strategies-ranked-difficulty/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

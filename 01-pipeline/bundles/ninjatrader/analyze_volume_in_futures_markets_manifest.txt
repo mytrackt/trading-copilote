@@ -1,0 +1,6 @@
+# Manifest images pour analyze_volume_in_futures_markets (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/learn/technical-analysis/analyze-volume-in-futures-markets/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

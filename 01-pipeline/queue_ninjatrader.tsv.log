@@ -1,0 +1,41 @@
+
+=== RUN ninjatrader | 38 pages | start=0 ===
+[1/38] OK ninjatrader_order_flow
+[2/38] OK footprint_charts_guide
+[3/38] OK order_flow_indicators
+[4/38] OK what_is_cumulative_delta_in_order_flow_trading
+[5/38] OK track_buying_selling_pressure_with_order_flow_cumulative_delta
+[6/38] OK order_flow_trading_with_volumetric_bars
+[7/38] OK use_volume_profile_to_track_order_flow_on_charts
+[8/38] OK how_to_trade_with_volume_profile_part_1
+[9/38] OK what_is_volume_weighted_average_price_vwap
+[10/38] OK volume_analysis_in_futures_trading
+[11/38] OK how_to_identify_entry_zones_with_volume_analysis_trading_guide
+[12/38] OK analyze_volume_in_futures_markets
+[13/38] OK volume_spread_analysis_and_fomo_of_strong_directional_moves
+[14/38] OK best_futures_trading_indicators
+[15/38] OK 5_key_indicators_for_day_trading_futures
+[16/38] OK common_mistakes_when_using_rsi_indicators_in_futures
+[17/38] OK momentum_as_indicator_in_futures_trading
+[18/38] OK use_volatility_as_indicator_in_futures_trading
+[19/38] OK identifying_trends_in_futures_markets
+[20/38] OK identify_chart_patterns_on_futures_trading_charts
+[21/38] OK chart_patterns_trading
+[22/38] OK price_action_trading_strategies
+[23/38] OK how_to_identify_intraday_support_and_resistance_levels_in_your_trading
+[24/38] OK supply_demand_zones_futures
+[25/38] OK trade_trend_reversals_futures
+[26/38] OK how_to_trade_liquidity_traps_in_futures
+[27/38] OK futures_trading_risk_management_margin_leverage_stops_position_sizing
+[28/38] OK mastering_risk_management_in_futures_trading
+[29/38] OK stop_loss_strategies
+[30/38] OK risk_management
+[31/38] OK how_to_use_the_superdom_price_ladder_for_order_entry
+[32/38] OK intro_to_the_ninjatrader_desktop_superdom
+[33/38] OK ninjascript_best_practices
+[34/38] OK z_score_futures_trading_strategy
+[35/38] OK how_to_read_a_futures_trading_chart
+[36/38] OK building_a_trading_strategy
+[37/38] OK how_to_use_automated_trade_management_strategies_on_ninjatrader
+[38/38] OK futures_trading_strategies_ranked_difficulty
+=== FIN ninjatrader : OK=38 REJET=0 ERR=0 SKIP=0 ===

@@ -1,0 +1,6 @@
+# Manifest images pour volume_spread_analysis_and_fomo_of_strong_directional_moves (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/futures/blogs/volume-spread-analysis-and-fomo-of-strong-directional-moves/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)

@@ -1,0 +1,10 @@
+# Manifest images pour 5_key_indicators_for_day_trading_futures (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/futures/blogs/5-key-indicators-for-day-trading-futures/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 5 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+image_01.jpg | label : Pivots for support and resistance levels. | section : 1. Pivots | CERTIFIE (figcaption+alt)
+image_02.jpg | label : Previous day’s high, low, and close . | section : 2. Prior Day OHLC (Open, High, Low, Close) Indicator | CERTIFIE (figcaption+alt)
+image_03.jpg | label : Opening range breakout channel. | section : 3. Opening Range | CERTIFIE (figcaption+alt)
+image_04.jpg | label : Order flow VWAP with standard deviation levels. | section : 4. Order Flow VWAP | CERTIFIE (figcaption+alt)
+image_05.jpg | label : Order flow volume profile (volume at price). | section : 5. Order Flow Volume Profile | CERTIFIE (figcaption+alt)

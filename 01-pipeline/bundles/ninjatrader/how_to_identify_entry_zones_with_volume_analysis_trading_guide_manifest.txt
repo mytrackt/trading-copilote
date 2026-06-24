@@ -1,0 +1,6 @@
+# Manifest images pour how_to_identify_entry_zones_with_volume_analysis_trading_guide (source : ninjatrader) [STATIC]
+# Page : https://ninjatrader.com/futures/blogs/how-to-identify-entry-zones-with-volume-analysis-trading-guide/
+# Methode : ancrage figcaption locale (source unique HTML) + alt si present
+# Bilan : 0 certifiee(s) | 0 a verifier | 0 decorative(s)
+
+(aucune figure <figure>+<figcaption> sur la page)
