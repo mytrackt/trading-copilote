@@ -15,6 +15,7 @@ import json
 import shutil
 import subprocess
 import tempfile
+import ctypes
 from pathlib import Path
 from google import genai
 from dotenv import load_dotenv
@@ -66,39 +67,39 @@ CHUNK_DUREE = 2700                 # 45 min par chunk (marge securite)
 TAILLE_SEUIL_OCTET = 200 * 1024 * 1024  # 200 Mo = declencheur verif duree
 
 # ============================================================
-# WRAPPER ASCII — evite l'erreur codec sur noms accentues
+# CHEMIN ASCII — evite l'erreur codec sur noms accentues
 # ============================================================
 
-class _AsciiFileWrapper:
+def _chemin_upload(video_path: Path) -> tuple:
     """
-    Passe un nom ASCII au SDK Gemini lors de l'upload.
-    Le SDK lit file.name pour l'en-tete HTTP Content-Disposition ;
-    les noms accentues (Lecon, Marche...) declenchent une erreur ascii codec.
-    Ce wrapper ouvre le fichier avec le vrai chemin Unicode mais expose
-    un nom ASCII neutre -- zero copie, zero overhead disque.
+    Retourne (chemin_str, est_temporaire).
+
+    Le SDK Gemini appelle client.files.upload(file=...) et attend un chemin
+    str/bytes/os.PathLike. Sur Windows, les noms accentues (Lecon, Marche...)
+    declenchent une erreur 'ascii codec can't encode' dans le SDK.
+
+    Strategie 1 (rapide, sans copie) :
+      GetShortPathNameW renvoie le chemin court Windows 8.3 (ex: LEON~1.MP4)
+      qui est toujours ASCII pur. Active par defaut sur NTFS.
+
+    Strategie 2 (fallback si 8.3 desactive) :
+      Copie temp avec nom ASCII sur le meme volume (D:\_gemini_temp.mp4).
+      Fichier supprime immediatement apres upload (est_temporaire=True).
     """
-    def __init__(self, path: Path):
-        self._f = open(str(path), "rb")
-        self.name = "upload.mp4"   # nom ASCII neutre expose au SDK
-        self.mode = "rb"
+    try:
+        buf = ctypes.create_unicode_buffer(32768)
+        ret = ctypes.windll.kernel32.GetShortPathNameW(str(video_path), buf, len(buf))
+        if ret > 0:
+            short = buf.value
+            short.encode('ascii')   # leve UnicodeEncodeError si non-ASCII
+            return short, False
+    except Exception:
+        pass
 
-    def read(self, n=-1):
-        return self._f.read(n)
-
-    def seek(self, *args):
-        return self._f.seek(*args)
-
-    def tell(self):
-        return self._f.tell()
-
-    def __enter__(self):
-        return self
-
-    def __exit__(self, *_):
-        self._f.close()
-
-    def close(self):
-        self._f.close()
+    # Fallback : copie temporaire avec nom ASCII sur le meme volume
+    temp_path = video_path.parent / "_gemini_temp_upload.mp4"
+    shutil.copy2(str(video_path), str(temp_path))
+    return str(temp_path), True
 
 
 # ============================================================
@@ -294,11 +295,11 @@ def _transcrire_chunk(chunk_path, qualite, live, numero, nb_total):
     """
     video_file = None
     try:
-        with _AsciiFileWrapper(chunk_path) as _f:
-            video_file = client.files.upload(
-                file=_f,
-                config={"mime_type": "video/mp4", "display_name": "chunk_upload.mp4"}
-            )
+        # Les chunks ont des noms ASCII (chunk01_upload.mp4) — chemin direct OK
+        video_file = client.files.upload(
+            file=str(chunk_path),
+            config={"mime_type": "video/mp4", "display_name": "chunk_upload.mp4"}
+        )
         debut = time.time()
         while video_file.state.name == "PROCESSING":
             if time.time() - debut > MAX_PROCESSING_WAIT_SECONDS:
@@ -440,13 +441,20 @@ def transcrire_video(video_path: Path) -> dict:
     try:
         # --- UPLOAD ---
         print(f"  Upload en cours vers Gemini Files API...")
-        # _AsciiFileWrapper expose un nom ASCII au SDK (file.name = "upload.mp4")
+        # _chemin_upload() renvoie un chemin ASCII pur (short path 8.3 ou copie temp)
         # Evite l'erreur 'ascii codec can't encode' sur les noms de fichiers accentues
-        with _AsciiFileWrapper(video_path) as _f:
+        safe_path, is_temp = _chemin_upload(video_path)
+        try:
             video_file = client.files.upload(
-                file=_f,
+                file=safe_path,
                 config={"mime_type": "video/mp4", "display_name": "video_upload.mp4"}
             )
+        finally:
+            if is_temp:
+                try:
+                    Path(safe_path).unlink()
+                except Exception:
+                    pass
 
         # --- ATTENTE PROCESSING avec timeout ---
         debut_attente = time.time()
