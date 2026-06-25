@@ -38,13 +38,12 @@
 | Bulk 2 | 36 StockCharts (ArthurHill → Correlation) | D691-1410 | ✅ |
 | Bulk 3 | 36 StockCharts (CupWithHandle → P&F traps) | D1411-2130 | ✅ |
 | Bulk 4 | 36 StockCharts (ICE → P&F traps) | D2131-2850 | ✅ |
-| Bulk 5 | **28/36** StockCharts (P&F → GSCI) | D2851-3550 | ⚠️ PARTIEL (limite session) |
+| Bulk 5 | **36/36** StockCharts (P&F → GSCI) | D2851-3562 | ✅ (8 derniers écrits main loop, fleet rate-limited) |
 
-**Extraction S27 TOTALE : 163 fichiers · 2306 décisions · D177→D3550 · 0 collision · zone `validation/`.**
+**Extraction S27 TOTALE : 171 fichiers · 2398 décisions · D177→D3562 · 0 collision · zone `validation/`.**
 
-⚠️ **Lot 5 interrompu (limite de session API).** 8 fichiers manquants à reprendre : `p_and_f_signal_reversed` (D2971), `p_and_f_trend_lines` (D2991), `raff_regression_channel` (D3311), `rectangle` (D3371), `relative_rotation_graphs_rrg_charts` (D3391), `richard_rhodes_trading_rules` (D3451), `rising_wedge` (D3471), `seasonality_charts` (D3551).
-
-**RESTE BULK : 313 bundles** = 8 manquants lot 5 + `assignment_bulk.tsv` idx 156→460 (D3571+). StockCharts ~32 + Adam Grimes 127 + NinjaTrader 35 + Optimus 31 + Sierra 31 + CFTC 9. **Reprise déterministe** : plages D### figées ; le runner/sous-agents skip si fichier sortie déjà présent.
+**RESTE BULK : 305 bundles** = `assignment_bulk.tsv` idx 156→460 (D3571+). StockCharts ~32 + Adam Grimes 127 + NinjaTrader 35 + Optimus 31 + Sierra 31 + CFTC 9. **Reprise déterministe** : plages D### figées ; sous-agents skip si fichier sortie déjà présent.
+> ⚠️ Fleet de sous-agents **rate-limited** (reset ~3h Africa/Casablanca) lors du lot 5. Reprise bulk idx 156 après reset (ou en main loop au ralenti).
 
 **Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
