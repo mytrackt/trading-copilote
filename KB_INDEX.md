@@ -32,14 +32,19 @@
 ⚠️ **Limite découverte** : certaines pages NinjaTrader ont des sections rendues en JS (accordéons) non capturées par `scraper_static.py` → contenu manquant honnêtement tagué 🔴 dans les extractions (formules VWAP renvoyées, tape/L2 vides). À compléter (re-scrape JS ou source alternative).
 
 ### Bulk extraction — avancement (lots de sous-agents, sans fusion)
-| Lot | Bundles | Plage D### | Commit |
+| Lot | Bundles | Plage D### | Statut |
 |-----|---------|-----------|--------|
-| Bulk 1 | 12 StockCharts (A/D → Aroon) | D451-682 | `31b78ee`→ (extractions `a9c9ddb` suite) |
-| Bulk 2 | 36 StockCharts (ArthurHill → Correlation) | D691-1410 | lot 2 |
+| Bulk 1 | 12 StockCharts (A/D → Aroon) | D451-682 | ✅ |
+| Bulk 2 | 36 StockCharts (ArthurHill → Correlation) | D691-1410 | ✅ |
+| Bulk 3 | 36 StockCharts (CupWithHandle → P&F traps) | D1411-2130 | ✅ |
+| Bulk 4 | 36 StockCharts (ICE → P&F traps) | D2131-2850 | ✅ |
+| Bulk 5 | **28/36** StockCharts (P&F → GSCI) | D2851-3550 | ⚠️ PARTIEL (limite session) |
 
-**Extraction S27 TOTALE à ce point : 63 fichiers · 721 décisions · D177→D1410 · 0 collision · zone `validation/`.**
+**Extraction S27 TOTALE : 163 fichiers · 2306 décisions · D177→D3550 · 0 collision · zone `validation/`.**
 
-**RESTE BULK : 413 bundles** (assignment_bulk.tsv idx 48→460 · StockCharts ~180 + Adam Grimes 127 + NinjaTrader 35 + Optimus 31 + Sierra 31 + CFTC 9). **Reprise déterministe** : prochaines plages D### déjà figées dans `01-pipeline\assignment_bulk.tsv` (idx 48 = D1411+). Re-dispatcher des sous-agents par lots, skip si fichier sortie déjà présent.
+⚠️ **Lot 5 interrompu (limite de session API).** 8 fichiers manquants à reprendre : `p_and_f_signal_reversed` (D2971), `p_and_f_trend_lines` (D2991), `raff_regression_channel` (D3311), `rectangle` (D3371), `relative_rotation_graphs_rrg_charts` (D3391), `richard_rhodes_trading_rules` (D3451), `rising_wedge` (D3471), `seasonality_charts` (D3551).
+
+**RESTE BULK : 313 bundles** = 8 manquants lot 5 + `assignment_bulk.tsv` idx 156→460 (D3571+). StockCharts ~32 + Adam Grimes 127 + NinjaTrader 35 + Optimus 31 + Sierra 31 + CFTC 9. **Reprise déterministe** : plages D### figées ; le runner/sous-agents skip si fichier sortie déjà présent.
 
 **Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
