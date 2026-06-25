@@ -1,0 +1,153 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-25]
+[SOURCE: Leçon 27 Analyse des marchés PART 2.mp4]
+---
+Voici la transcription détaillée de la vidéo, incluant les descriptions visuelles et les règles énoncées :
+
+0:00
+[VISUEL: Graphique de l'Or (GC 12A_VERIFIER-23A_VERIFIER) en barres de range (15A_VERIFIER Range) sur NinjaTrader. L'indicateur Belkhayate Trend est visible, avec des zones de volume (profils de volume) colorées en rouge (baissier), bleu (haussier) et magenta (neutre). Des flèches bleues et vertes indiquent des signaux. Le prix est en tendance baissière, sous une moyenne mobile blanche. Le panneau inférieur montre le Delta Volume, majoritairement rouge, indiquant une pression vendeuse.]
+de balayage haussier sur l'or. Donc on attend.
+
+0:03
+[VISUEL: Belkhayate pointe vers le côté droit du graphique, où les profils de volume sont majoritairement rouges, indiquant une forte pression vendeuse. Le Delta Volume en bas est également rouge.]
+Le carnet d'ordres est en train de nous raconter tout simplement euh ce qui se passe sur l'or. L'or pour le moment, il est attaqué à la baisse.
+
+0:14
+[VISUEL: Belkhayate pointe vers des petites flèches vertes et rouges sur le graphique.]
+Voilà. Même si vous avez des des flèches comme ça, ce sont des flèches de de de de prise de profit, ce sont des flèches de euh de correction technique, mais on n'a pas encore quelqu'un qui rentre et qui balaye le carnet d'ordres.
+
+0:30
+[VISUEL: Belkhayate pointe vers une zone spécifique sur le côté droit du graphique, où une petite flèche bleue apparaît, indiquant une tentative d'achat.]
+Et lorsque là par exemple, vous voyez, là, on a on est en train de vous voyez là ? Là, on est en train de tenter de balayer le carnet d'ordres. Là, vous le voyez en temps réel.
+
+0:40
+[VISUEL: Le graphique se rafraîchit, montrant la continuation de la tendance baissière. Les profils de volume restent majoritairement rouges. Le Delta Volume est toujours rouge.]
+Mais mais mais mais mais les vendeurs sont rentrés avec force. Comment vous voyez que les vendeurs sont rentrés avec force ? C'est parce que nous avons ici des petits drapeaux rouges qui nous disent de vendre. Ici, ils nous disent de vendre. Ici, ils nous disent de vendre. Ici, ils nous disent de vendre.
+
+0:55
+[VISUEL: Belkhayate gesticule avec ses mains, soulignant l'absence de signaux haussiers.]
+Donc, on n'a pas encore un seul uppercut haussier sur l'or. On n'a pas parce que l'uppercut haussier sur l'or, il est là, bleu. Vous le voyez pas ? Vous voyez pas le bleu ici ?
+
+1:09
+[VISUEL: Belkhayate attend une réponse, puis continue.]
+Donc, le red flag, le drapeau rouge, pour le moment, il est en train de donner des signaux de vente. En tout cas, on doit attendre. Mais ah, je vais essayer de les changer.
+
+1:22
+[VISUEL: Belkhayate clique droit sur le graphique, ouvre le menu contextuel, puis sélectionne "Indicators". Une fenêtre "Indicators" s'ouvre, affichant une liste d'indicateurs. Il sélectionne "Indo_BKH_V13" et clique sur "Properties".]
+Voilà, voici comment vous pouvez changer la couleur pour la mettre euh vert.
+
+1:30
+[VISUEL: Dans la fenêtre "Properties" de l'indicateur, Belkhayate fait défiler les options. Il trouve "Volume Imbalance Fill Color" et change la couleur de "Blue" à "Green". Il clique sur "Apply" puis "OK".]
+Voilà. Oups, là. Ici. Et vous mettez le vert. Ah, ici. Volume imbalance font. Vous mettez vert. Et voilà.
+
+1:49
+[VISUEL: Le graphique se rafraîchit. Les barres de volume qui étaient bleues (imbalances haussières) sont maintenant vertes. Le Delta Volume en bas est toujours majoritairement rouge.]
+Eh mais vous savez bien que ce c'est un on a négocié. Cet indicateur, vous pouvez l'acheter auprès de du du de du propriétaire qui qui le vendait à 750 dollars et à la communauté Belkhayate, il le vend à 500 dollars maintenant. Et vous avez le lien. Vous avez tout ce qu'il faut, hein, si vous voulez l'acheter. Voilà, 495, 97.
+
+2:13
+[VISUEL: Belkhayate pointe vers les nouvelles barres vertes sur les profils de volume.]
+Bon, donc, vous voyez ici le vert, il est là maintenant. Vous voyez ici. Voilà. Ici, vous avez les verts.
+
+2:22
+[VISUEL: Belkhayate pointe vers les petites barres vertes sur les profils de volume.]
+Là, par exemple ici, ce sont des uppercuts mais très faibles. Donc pour le moment, on a ici, on a on voit qu'il n'y a pas de tentative des acheteurs. Comment on le voit ?
+
+2:30
+[VISUEL: Belkhayate pointe vers le côté droit des profils de volume, où il n'y a pas de barres vertes, seulement des barres rouges.]
+Parce que ici sur le côté droit, il n'y a pas de de vert. Vous voyez ? Ici, il n'y a pas de vert, ici, il n'y a pas de vert, ici, il n'y a pas de vert, ici, il n'y a pas de vert. Donc vraiment le carnet d'ordres, il vous raconte ce qui se passe. Arrêtez de penser en terme de prix. Ah, ça tombe, peut-être que c'est ça. Non. Aujourd'hui le trading, c'est de regarder ce qui se passe sur les volumes.
+
+2:57
+[VISUEL: Belkhayate pointe à nouveau vers les profils de volume, insistant sur l'absence de vert.]
+Ici, vous voyez, il n'y a pas de vert ici. Il n'y a que du rouge et il n'y a que des drapeaux rouges ici qui disent que pour le moment, il n'y a pas d'acheteur.
+
+3:08
+[VISUEL: Le graphique est légèrement zoomé. La moyenne mobile blanche est visible. Le Delta Volume est toujours rouge. Une flèche bleue apparaît sous une barre de range, indiquant une tentative d'achat.]
+Ici, on est en plein support avec la 209. Le marché revient. On regarde maintenant, il y a un combat entre les acheteurs et les vendeurs. Regardons ici, si si pour le moment sur le Delta, c'est toujours rouge. Donc il faut quand même que que qu'on bascule du Delta rouge vers le Delta vert pour qu'on puisse donner la main aux acheteurs. D'accord ?
+
+3:39
+[VISUEL: Belkhayate pointe vers la flèche bleue et la petite barre verte sur le profil de volume.]
+Donc regardons, c'est intéressant même si l'heure est passée, on va quand même jeter un coup d'œil et euh attention. Vous voyez là, c'est le balayage. Il y a quelqu'un qui est en train d'essayer de prendre tout ce qu'il y a mais il semble qu'il y a quelqu'un qui veut vendre encore. OK ? Mais voilà.
+
+4:06
+[VISUEL: Le graphique passe au Pétrole (CL 12A_VERIFIER-23A_VERIFIER) en barres de range (15A_VERIFIER Range). Le prix est en tendance baissière, sous une moyenne mobile magenta et une blanche. Le Delta Volume est majoritairement rouge.]
+On va regarder le pétrole. Le pétrole, il reste il reste encore sous la barre des 209. Donc moi, je ne suis pas acheteur du pétrole. Je ne fais rien sur le pétrole. J'attends que ça casse ici. Vous savez, moi, quand je trade, je trade pas tout le temps. J'attends la meilleure opportunité. J'attends que le marché me donne de l'argent. Je vais pas rentrer pour me battre avec le marché. 95% du temps, le marché va tout faire pour me prendre mon argent. Les 5% des cas, il va fermer les yeux et il va te dire : "Vas-y, prends l'argent."
+
+4:44
+[REGLE: 95% du temps, le marché va tout faire pour me prendre mon argent. Les 5% des cas, il va fermer les yeux et il va te dire : "Vas-y, prends l'argent."]
+
+4:54
+[VISUEL: Belkhayate continue de parler du pétrole.]
+Donc nous, en tant que trader professionnel, on doit savoir attendre quand le marché il va me donner de l'argent, il n'y peut rien. Le pétrole, le pétrole, on est en 15 range. 15 range sur le pétrole. OK ?
+
+5:06
+[VISUEL: Le graphique passe au S&P 500A_VERIFIER (ES 12A_VERIFIER-23A_VERIFIER) en 15A_VERIFIER minutes. Le prix est en tendance baissière, sous une moyenne mobile blanche. Une zone de consolidation est encadrée en bleu. Le Delta Volume est majoritairement rouge.]
+Alors le S&P, le S&P, il est là, il fait pas grand-chose. Ils sont en train de réfléchir. Aujourd'hui, c'est pas une journée vraiment intéressante de trading parce que les gens ont peur et tout le monde attend. Donc les gars, tout le monde attend. OK ?
+
+5:20
+[VISUEL: Le graphique passe au Nasdaq (NQ 12A_VERIFIER-23A_VERIFIER) en 15A_VERIFIER minutes. Le prix est en tendance baissière, sous une moyenne mobile blanche. Le Delta Volume est majoritairement rouge.]
+Alors on regarde le le le le Nasdaq. Mais le Nasdaq, il est il est là, quand vous voyez ça, là, quand vous voyez ça, vous savez que le Nasdaq, il faut vendre le Nasdaq. OK ? Moi, je vends le Nasdaq là-bas. Si vous voulez, vendre le Nasdaq, vous pouvez y aller. Allez, pour ceux qui aiment le Nasdaq. Yallah, vends.
+
+5:41
+[VISUEL: Belkhayate sourit et continue de parler du Nasdaq.]
+Là, le Nasdaq, il est pas il est on peut euh on va on va regarder le Nasdaq. Attendez, je vais mettre le Nasdaq euh
+
+5:52
+[VISUEL: Belkhayate ouvre la fenêtre "Data Series" pour le Nasdaq (NQ 12A_VERIFIER-23A_VERIFIER). Il change le "Type" de "Minute" à "Range" et la "Value" à "20A_VERIFIER". Il mentionne "Tick Replay".]
+Alors pour vous faire plaisir, je sais que vous aimez le Nasdaq, je vais euh je vais mettre le Nasdaq en range de 20. 20. OK, et on va mettre Tick Replay, hein. N'oubliez pas de mettre Tick Replay ici.
+
+6:09
+[VISUEL: Le graphique passe au Gaz Naturel (NG 12A_VERIFIER-23A_VERIFIER) en 15A_VERIFIER minutes. Le prix est en tendance haussière, au-dessus d'une moyenne mobile blanche. Le Delta Volume est majoritairement vert.]
+Gaz naturel. Et c'est pas mal. OK.
+
+6:16
+[VISUEL: Le graphique passe à l'Or (GC 12A_VERIFIER-23A_VERIFIER) en barres de range (15A_VERIFIER Range). Le prix est en tendance baissière, sous la moyenne mobile blanche. Une flèche bleue indique un signal d'achat. Le Delta Volume est majoritairement rouge.]
+Alors, on va regarder ce qui se passe sur l'or. Ah, sur l'or, on a enfin eu un signal d'achat ici. Vous avez vu ? Euh avec un premier uppercut ici, mais on n'a toujours pas de d'acheteur. Il faut que le le Delta devienne vert et on rentre sur sur l'or.
+
+6:39
+[VISUEL: Le graphique passe au Pétrole (CL 12A_VERIFIER-23A_VERIFIER) en barres de range (15A_VERIFIER Range). Le prix est en tendance baissière, sous la moyenne mobile magenta et blanche. Le Delta Volume est majoritairement rouge.]
+Sur le pétrole, euh on se prépare à acheter sur le pétrole. Voilà. Donc là, sur le pétrole, moi je je je pourrais être acheteur ici parce qu'on on se rapproche, hein, et et si on a ici des Delta positifs sur le pétrole, là, on va acheter.
+
+6:57
+[VISUEL: Le graphique passe au Zinc (ZN 12A_VERIFIER-23A_VERIFIER) en 15A_VERIFIER minutes. Le prix est en consolidation latérale, sous une moyenne mobile blanche. Le Delta Volume est mixte.]
+On regarde le ZN. Pour le moment, le ZN ne bouge pas trop. Regardez, il n'a pas bougé. Donc euh on a on a on a rien à faire.
+
+7:04
+[VISUEL: Le graphique passe à l'Or (GC 12A_VERIFIER-23A_VERIFIER) en barres de range (15A_VERIFIER Range). Le prix est en tendance baissière, sous la moyenne mobile blanche. Une flèche bleue indique un signal d'achat. Le Delta Volume est majoritairement rouge.]
+L'or, on va attendre. On est on veut on veut bien acheter ici. On a on a eu une réaction ici. Donc ça vaut le coup d'attendre ici encore euh la la Moi, je pense que c'est un on on est dans une phase d'achat de l'or ici. Avec il suffit juste que le Delta devienne positif. Si le Delta devient positif, j'achète de l'or ici. Si vous avez le le l'Order Flow et que sur 15 range l'or ici, ça devient positif, ça vaut le coup d'acheter parce que vous achetez dans une configuration où vous avez l'avantage parce que vous êtes sur la 209 et le et le n'oubliez pas que le marché est haussier.
+
+7:47
+[VISUEL: Le graphique passe au S&P 500A_VERIFIER (ES 12A_VERIFIER-23A_VERIFIER) en 15A_VERIFIER minutes. Le prix est en tendance baissière, sous la moyenne mobile blanche. Une zone de consolidation est encadrée en bleu.]
+Moi, je suis euh je reste vendeur euh sur les marchés actions. Regardez. On peut rester vendeur sur les marchés actions, tranquille.
+
+7:58
+[VISUEL: Le graphique passe au Gaz Naturel (NG 12A_VERIFIER-23A_VERIFIER) en 15A_VERIFIER minutes. Le prix est en tendance haussière, au-dessus d'une moyenne mobile blanche. Le Delta Volume est majoritairement vert.]
+Le gaz, il faut être acheteur en gaz. OK ? Et la prochaine fois, parce que là, j'ai pas j'ai plus le temps de vous de vous mettre le le gaz naturel, mais vous pouvez le mettre vous-même. Je pense que vous avez acheté, vous pouvez acheter la le logiciel, ça coûte pas une fortune et vous l'avez vous avez la licence à vie. Vous vous rendez compte ? Vous avez la licence à vie du meilleur logiciel de de lecture du carnet d'ordres au monde. Ah les gars, ça vaut ça ça il y a même pas photo, hein ?
+
+8:29
+[VISUEL: Belkhayate sourit et continue de parler.]
+Et voilà. Donc là, le gaz naturel, il va encore monter, il va Le gaz naturel et le pétrole, vous pouvez les acheter. On va regarder le pétrole.
+
+8:38
+[VISUEL: Le graphique passe au Pétrole (CL 12A_VERIFIER-23A_VERIFIER) en barres de range (15A_VERIFIER Range). Le prix est en tendance haussière, au-dessus d'une moyenne mobile blanche, mais sous une résistance magenta. Une zone de prix est encadrée en blanc.]
+Et voilà, ici, on a effectivement une très une réaction, une réaction par rapport à cette résistance là. Vous voyez bien. Mais si on revient et on casse ça maintenant, moi, je pense que le marché il va monter.
+
+8:54
+[VISUEL: Le graphique est toujours sur le Pétrole (CL 12A_VERIFIER-23A_VERIFIER) en barres de range (15A_VERIFIER Range). Le prix est en consolidation, au-dessus de la moyenne mobile blanche.]
+Voilà, le marché est en train de se battre ici, mais une fois qu'il quitte ici, ça va partir. Donc préparez-vous à acheter le pétrole, préparez-vous à acheter l'or, préparez-vous à vendre le Nasdaq, le S&P et préparez-vous à vendre le ZN. Ce que je viens de dire, je le dirai pendant toute l'année 2023 et 2024. Voilà.
+
+9:18
+[VISUEL: Belkhayate continue de parler, le graphique du pétrole est toujours affiché.]
+Une une une une formation individuelle. Euh, je sais pas si si euh on va voir. Je je sais pas trop euh comment je je peux m'organiser. Écoutez, je je ne sais pas. Je je je ne sais pas encore. OK ? Voilà. En tout cas, c'est possible, hein. C'est Pour le moment, écoutez, pour le moment, je vous propose d'attendre ma formation. Elle va arriver, elle va vous elle va vous éclairer. C'est une c'est la meilleure des formations que j'ai faite. Et euh vous allez pouvoir devenir expert sur le marché euh des marchés des ZN avec le carnet d'ordres. Et et ensuite, on va voir si vous avez besoin d'une formation individuelle. Ça vous va ? Est-ce que ça vous va comme ça ? C'est un bon deal ?
+
+10:49
+[VISUEL: Le graphique du Nasdaq (NQ 12A_VERIFIER-23A_VERIFIER) en 15A_VERIFIER minutes est affiché. Le prix est en tendance baissière, sous la moyenne mobile blanche.]
+Voilà. Donc euh mes chers amis, à très bientôt. C'était un bon moment sympathique que j'ai passé avec vous. C'est toujours un plaisir. Vous pouvez euh aussi passer des poser des des questions sur les commentaires en YouTube comme ça je peux analyser des marchés pour vous parce que n'oubliez pas que vous êtes prioritaire en tant que membre VIP.
+
+11:15
+[VISUEL: Une fenêtre TeamViewer apparaît au centre de l'écran, affichant un ID et un mot de passe. Belkhayate lève les mains en signe d'adieu.]
+Et euh et je vous dis à la prochaine. Assalamou Alaykoum.
+
+11:18
+[VISUEL: Écran noir avec le texte "MERCI POUR VOTRE ATTENTION" et le logo "belkhayate method".]
