@@ -1,0 +1,114 @@
+[QUALITE_VIDEO: BONNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-25]
+[SOURCE: Leçon_21_La_Zone_d’Absorption_et_Installation_de_la_Template_Belkhayatee.mp4]
+---
+[VISUEL: Écran d'introduction avec le logo "belkhayate method" et le texte "Appliquée à l'Order Flow (Carnet d'Ordre)" en bas à gauche, et "BELKHAYATE.NET" en bas au centre. Une main pointe sur un graphique financier sur papier à droite.]
+
+[MUSIQUE D'INTRODUCTION]
+
+[VISUEL: Écran noir avec le texte "LEÇON - 21A_VERIFIER" encadré en blanc, puis "La Zone d'Absorption" en bas sur un bandeau bleu.]
+
+[VISUEL: Mustapha Belkhayate s'adresse à la caméra, assis dans un bureau avec une grande bibliothèque en arrière-plan.]
+Bienvenue à la vidéo 21. On va parler d'absorption, mais surtout, on va parler d'une loi physique. Lorsque on fait beaucoup d'effort et qu'il n'y a pas d'effet, ça veut dire qu'il y a quelque chose. Quand on fait beaucoup d'effort et qu'il y a de l'effet, c'est logique. Mais quand on donne un coup de poing très fort, de toute notre force, à un portier qui est dans une, qui tient une boîte de nuit, et que lui, il fait juste ça, on sait qu'on a aucune chance de rentrer. Ça y est. Hein, vous savez ça ? Donc, lorsque vous faites beaucoup d'effort et qu'en face il y a rien qui bouge, vous savez que il faut faire marche arrière. Donc, on va parler aujourd'hui de ce concept qui est très très important, qui est identifiable avec le carnet d'ordre, et vous allez voir que ça arrive beaucoup plus souvent qu'on le pense. Et lorsque vous allez, vous allez être capable de d'identifier l'absorption sur le marché des bons du Trésor, je peux moi vous donner votre certificat de trader professionnel. Avant de commencer à vous montrer un petit peu le PowerPoint, je voudrais faire une remarque ici sur cette vidéo 21, c'est que elle peut, elle peut être difficile pour beaucoup d'entre vous, parce que c'est un concept qui est assez compliqué quand même. Et et et vous pouvez juste regarder. Ne faites pas trop d'effort pour essayer de comprendre. Juste regardez les graphiques. Laissez votre cerveau euh s'habituer à comprendre un graphique. Et et et tout, à un moment donné, vous allez être capable en moins d'une seconde de savoir s'il s'agit d'une absorption ou pas. Voilà. Alors, bienvenue à à la leçon sur l'absorption sur le marché.
+
+[VISUEL: Diapositive intitulée "UNDERSTANDING FAIR PRICES AND ABSORPTION" avec des points de texte en français.]
+[TEXTE À L'ÉCRAN:
+- La consolidation est souvent confondue avec l'absorption.
+- Un marché peut être en consolidation, mais cela n'implique pas une absorption.
+- Lorsqu'un marché se consolide, il attend souvent un mouvement important et les échanges ralentissent.
+- Lorsqu'un marché est en absorption, il peut y avoir un volume important car les commerçants sont satisfaits du prix et les stocks changent de mains.]
+[AUDIO: Mustapha Belkhayate parle.]
+Voilà, ici. J'arrive, j'arrive toujours pas à manœuvrer.
+
+[VISUEL: La diapositive change pour afficher de nouveaux points de texte.]
+[TEXTE À L'ÉCRAN:
+- L'absorption se produit à des niveaux de prix équitables.
+- Le commerce est presque équitablement réparti entre les acheteurs et les vendeurs, aucune des parties ne prenant le contrôle de manière discernable.
+- Vous pouvez dire qu'un marché affiche une absorption lorsqu'il y a de petits deltas dans les barres alors qu'il y a normalement des deltas élevés.]
+[AUDIO: Mustapha Belkhayate parle.]
+L'absorption se produit à des niveaux de prix équitables. C'est qu'à un moment donné, à un moment donné, les marchés, ils commencent à à se mettre d'accord. Le commerce est presque équitablement réparti entre des acheteurs et des vendeurs. Mais là où c'est intéressant, très important, c'est que vous pouvez dire qu'un marché affiche une absorption lorsqu'il y a des petits deltas dans les dans les barres alors qu'il y a normalement des deltas élevés. C'est juste ça que je vous demande de retenir. Il y aura beaucoup de choses qui qui vont suivre, mais cette phrase, retenez-la bien. Je la répète. On commence à comprendre qu'il y a absorption, parce que absorption signifie que c'est un frein. C'est ça. L'absorption signifie que retournement de tendance, probable. Donc, si vous voyez que il y avait des il y avait des deltas importants et puis tout d'un coup, il y a des petits deltas dans dans une zone euh d'absorption, attention, ça cela signifie que c'est en train de s'équilibrer.
+
+[VISUEL: La diapositive change pour afficher de nouveaux points de texte.]
+[TEXTE À L'ÉCRAN:
+- La consolidation, d'autre part, peut se produire lorsqu'un marché ralentit et reprend son souffle, pas nécessairement à un niveau où les stocks changent de mains de façon importante.
+- Vous n'avez pas toujours d'absorption lorsque la consolidation se produit.
+- L'absorption peut être le signe qu'un acteur majeur accumule une position sur le marché.]
+[AUDIO: Mustapha Belkhayate parle.]
+Alors là, c'est pas la peine que je vous casse la tête avec ça, parce que ça c'est c'est pour plus tard. Vous pouvez revenir dessus tranquillement, je veux pas vous casser la tête avec ça. Écoutez, moi je cherche à vous enseigner de manière la plus simple possible que en une seconde, vous savez ce qu'il faut faire. Parce que les marchés vont vous donner l'occasion de rentrer avec une très forte probabilité de gain. Je ne veux pas vous vous vous embrouiller la tête avec plein de de concepts, plein d'idées et tout ça. Vraiment, le but de de la formation Belkhayate, c'est de mettre à portée de main une une stratégie, une une technique de trading.
+
+[VISUEL: Graphique Order Flows Trader sur le marché S&P 500A_VERIFIER (ES), en 5A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres au centre du graphique. À l'intérieur de cette zone, on voit des chiffres de volume et de delta. Une barre spécifique montre un volume élevé (par exemple, 1200A_VERIFIER) et un delta très faible (par exemple, 71A_VERIFIER). Une flèche rouge apparaît ensuite, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Bon. Alors, on va on va voir tout de suite le graphique, c'est c'est déjà beaucoup bien. On va regarder le graphique sur le S&P en 5 Range. Regardez ici. Ici, nous avons un très grand effort, puisque nous avons un quadruple uppercut. Vous voyez quoi ? Je vous laisse réfléchir un peu. Il y a on a beaucoup d'effort ici. Nous avons quelqu'un qui est venu qui a donné quatre uppercuts au portier de la boîte de nuit à Paris. Mais le portier n'a pas bougé de de plus de deux ticks. Ça veut dire qu'ici, il y a une absorption. Ça veut dire qu'ici les acheteurs on les voit pas, mais ils sont sur le marché. Ce sont pas des acheteurs qui sont en train d'acheter au marché. Ce sont des acheteurs qui sont déjà dans le carnet d'ordre, ce qu'on appelle des acheteurs passifs. Au fur et à mesure que vous rentrez vos ordres de vente, eux, ils ils remettent des paquets dans dans le carnet d'ordre tranquillement. C'est ça veut dire qu'ils sont en train d'absorber toutes les ventes. Bon. Ici, on a 1200 et tout d'un coup, on a un petit chiffre ici, 71. Ça confirme que à ce niveau-là, il y a absorption. Et après le marché, vous avez vu, il repart à la hausse. S'il y a quelque chose à retenir de toute cette vidéo, en réalité, c'est ce que je viens de vous montrer.
+
+[REGLE: Quand vous allez voir une très forte attaque, trois uppercuts, quatre uppercuts, mais que le marché ne progresse pas de plus de deux ticks, alors vous devez vous devez réaliser qu'on a affaire à un iceberg.]
+[AUDIO: Mustapha Belkhayate parle.]
+On a affaire à quelqu'un qui est caché et qui absorbe tous les ordres tranquillement.
+
+[VISUEL: Graphique Order Flows Trader sur le marché des bons du Trésor (ZB), en 4A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+On va regarder ici ce qui se passe à ce niveau-là. Je vous laisse regarder. Vous voyez ici, ici il y a un iceberg. Parce que euh ici, on a on a essayé de taper pour remonter, mais ça a pas bougé ici. Ici, c'est vraiment euh stop ici, stop ici, stop. Donc ici, c'est infranchissable à cette zone-là.
+
+[VISUEL: Graphique Order Flows Trader sur le marché S&P 500A_VERIFIER (ES), en 5A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Lorsque vous tradez la taille, vous essayez de le faire sans déplacer le marché. Cela signifie que vous devez parfois attendre que les liquidités soient là. Lorsque les prix s'éloignent de l'absorption, c'est là que beaucoup d'argent peut être gagné parce que les lots passent d'un acteur à un autre. C'est très très intéressant, vous allez le voir ici tout de suite. Regardez, à partir de ce moment-là, ici, nous avons, ils ont fait une tentative d'absorption, mais après, une fois qu'on s'est écarté de l'absorption, ça ça a accéléré très très fort.
+
+[VISUEL: Graphique Order Flows Trader sur le marché des bons du Trésor (ZN), en 4A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+D'accord, on le verra encore ici. Vous avez vu ici, on a tenté ici de résister, et puis après, une fois qu'on a eu le drapeau de rejet plus double uppercut, et après avec un delta qui devient rouge, rouge, rouge, rouge, là c'est parti très très fort.
+
+[VISUEL: Diapositive intitulée "UNDERSTANDING FAIR PRICES AND ABSORPTION" avec des points de texte en français.]
+[TEXTE À L'ÉCRAN:
+- La consolidation, d'autre part, peut se produire lorsqu'un marché ralentit et reprend son souffle, pas nécessairement à un niveau où les stocks changent de mains de façon importante.
+- Vous n'avez pas toujours d'absorption lorsque la consolidation se produit.
+- L'absorption peut être le signe qu'un acteur majeur accumule une position sur le marché.]
+[AUDIO: Mustapha Belkhayate parle.]
+Alors, je je je vous dis tout de suite une chose. Je je voudrais pas que vous commenciez à vous inquiéter comme quoi, ouh là là, c'est quoi cette histoire ? C'est compliqué le carnet d'ordre. C'est pas compliqué du tout. Simplement, j'essaie de vous montrer différentes situations en en un espace de temps très court. Donc c'est normal que l'information vous semble un peu euh intensive, d'accord ? Mais il s'agit de vous former pour être parmi les meilleurs traders au monde. J'ai euh c'est c'est pas de la fausse modestie ou quoi que ce soit, je sais pas comment vous pouvez le prendre, mais euh je suis personnellement convaincu que si vous suivez ma formation et que vous respectez la discipline et que vous respectez la patience que je vous demande, vous allez devenir les meilleurs traders au monde sur le bon du Trésor américain. Je sais pas, dans dans la culture française, on dit que dans ça on doit pas parler comme ça, même dans la culture marocaine, mais euh moi je dis ce que je ressens. Et je sais que euh c'est en train d'arriver. J'ai des étudiants, ils sont ils sont des tueurs sur le Zadel. J'ai des étudiants qui ne parlent pas français, qui ne parlent pas anglais, qui parlent que Darija. Mais lorsque vous les écoutez parler en temps réel sur ce qui est en train de se passer sur le Zadel, vous restez bouche bée. À tel point que j'ai demandé à la télévision marocaine de venir les filmer. Parce que c'est quand même extraordinaire. Vous avez des personnes qui n'ont pas pu aller à l'école, hein, qui n'ont même pas le le bac, et qui sont des véritables tueurs sur les marchés du Chicago, hein, sur le marché des bons du Trésor américain. Vous les mettez devant les écrans, vous vous allez voir un lion. C'est extraordinaire.
+
+[VISUEL: Graphique Order Flows Trader sur le marché S&P 500A_VERIFIER (ES), en 5A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Voilà. Alors, on va regarder ici. Nous avons dans cette zone ici, là, regardez ce qui se passe. Ici, il y a absorption, puis une fois qu'on a décalé avec juste le point de rejet, boum, ça tombe.
+
+[VISUEL: Graphique Order Flows Trader sur le marché des bons du Trésor (ZB), en 4A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Alors là, vous pouvez, je vous laisse regarder. Attaque ici, attaque ici, puis là, il y a absorption ici. Ça ça non seulement il y a absorption, il y a le deux pop qui s'égalise, mais il y a surtout un signal d'achat ici. Donc après, ça part tout de suite vers là.
+
+[VISUEL: Graphique Order Flows Trader sur le marché S&P 500A_VERIFIER (ES), en 5A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Alors je regarde. Ici, il y a l'absorption, et puis après, ça repart.
+
+[VISUEL: Graphique Order Flows Trader sur le marché S&P 500A_VERIFIER (ES), en 5A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Ici, nous avons des divergences baissières, divergence baissière, mais ça ça tient ici, ça essaie de tenir, mais une fois qu'il y a le drapeau, ça s'écroule.
+
+[VISUEL: Graphique Order Flows Trader sur le marché S&P 500A_VERIFIER (ES), en 5A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Pareil ici. Vous avez pareil ici, nous avons une zone ici d'absorption, donc tout le monde ici est en train de en train de se mettre d'accord, ça s'échange bien. Mais une fois, une fois qu'on a un rejet, hein, c'est fini, ça s'écroule rapidement. C'est cette notion là que euh que je je j'essaie de vous de de de vous expliquer dans dans cette vidéo, hein, euh ce qu'il faut retenir, c'est que on essaie de toujours nous rappeler le principe physique qui dit que si on fait beaucoup d'effort et qu'on a pas d'effet, attention. On doit faire attention. Mais une fois qu'on craque la baraque, alors ça va très très vite, c'est easy money. Donc, quand vous êtes en train de regarder les marchés et que vous voyez qu'il y a une absorption, et que vous voyez que ça résiste, il faut être très content parce que vous allez bientôt gagner beaucoup d'argent parce que quand ça va décaler, quand ça va casser, ça va aller très très vite comme ici, comme vous le voyez ici. Ah, pardon, j'ai pas mis l'écran. OK. Voilà, comme vous le voyez ici. Ah bon, c'est c'est vraiment pas facile, hein. J'ai beau essayer de de me concentrer, mais c'est pas facile parce que quand je vous parle, j'oublie de mettre l'écran que vous devez voir. Je suis désolé, mais voilà, donc ici, il y a une absorption, et puis quand il y a la cassure de l'absorption, ça s'écroule. Regardez-moi ça, c'est magnifique.
+
+[VISUEL: Graphique Order Flows Trader sur le marché S&P 500A_VERIFIER (ES), en 5A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+On va regarder ça encore une fois. Nous avons ici une absorption. Vous avez vu, hop. Et puis ça ça continue, ça tente quand même de casser. Mais ça résiste ici. Nous avons tout ce qu'il faut. Ça bascule de -100 à 250, et ici on a le pop en bas qui vient ici confirmer. Donc ici, nous avons ici, nous avons un iceberg qui est en train d'acheter tranquillement, il achète sans passer au marché. Et après, et après ça part, ça catapulte immédiatement.
+
+[VISUEL: Graphique Order Flows Trader sur le marché du pétrole (CL), en 987A_VERIFIER Tick bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Pareil ici. Regardez. Pareil ici. Ici, nous avons un très très puissant signal d'achat sur euh l'huile de soja. Ici, c'est l'huile de soja ZM. Et puis, hop, c'est parti.
+
+[VISUEL: Graphique Order Flows Trader sur le marché du pétrole (CL), en 987A_VERIFIER Tick bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Voilà, ici c'est pareil. Vous avez vu, on a une absorption ici, et puis dès qu'il y a le drapeau, ça s'écroule. Voilà, c'est je pense que c'est c'est pas c'est pas c'est magnifique. Ici, on a une absorption ici, et puis quand on a le drapeau, ça s'écroule.
+
+[VISUEL: Graphique Order Flows Trader sur le marché du pétrole (CL), en 987A_VERIFIER Tick bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Vous voyez, c'est pas ce que je ce que ce que ce que j'essaie de les graphiques que j'ai choisis, c'est pour vous montrer que à un moment donné, il y a une zone d'absorption, il y a il y a un échange entre acheteur et vendeur, mais à un moment donné, l'un des deux il il il lance l'éponge. Et là, quand il lance l'éponge, c'est celui-là qui lève la main et qui dit hop, les vendeurs sont là maintenant, c'est eux les gagnants. Et hop, ça part.
+
+[VISUEL: Graphique Order Flows Trader sur le marché du pétrole (CL), en 987A_VERIFIER Tick bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+Ici, c'est les acheteurs qui sont les gagnants. Ici, vous le voyez ici. Donc là, ça descend, ça descend, ça descend, il y a absorption ici, puis à un moment donné, on a un un drapeau vert et après ça ça accélère.
+
+[VISUEL: Graphique Order Flows Trader sur le marché des bons du Trésor (ZN), en 4A_VERIFIER Range bars. Une zone rectangulaire rouge encadre plusieurs barres. Une flèche rouge apparaît, pointant vers une chute rapide des prix après cette zone.]
+[AUDIO: Mustapha Belkhayate parle.]
+On peut regarder ça sur plusieurs euh plusieurs fois.
+[REGLE: Lorsque vous identifiez une absorption, soyez prêt. N'allez pas euh ne quittez pas vos écrans. Soyez attentifs parce que qui dit absorption, dit très probable accélération qui va arriver, soit vers le bas, soit vers le haut, comme on l'a vu. Mais il n'est pas question de rentrer dans l'absorption. On attend le drapeau. Si on a le drapeau, on rentre et on va gagner de l'argent parce que ça va accélérer.]
+[AUDIO: Mustapha Belkhayate parle.]
+Elle est pas belle l'affaire ? Hein ? Elle est belle. Voilà.

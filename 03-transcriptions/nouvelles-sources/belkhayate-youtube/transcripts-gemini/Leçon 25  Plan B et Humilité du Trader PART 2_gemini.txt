@@ -1,0 +1,83 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-25]
+[SOURCE: Leçon 25  Plan B et Humilité du Trader PART 2.mp4]
+---
+[VISUEL: Graphique de l'US Treasury Bond Futures (ZB) sur un timeframe de 5A_VERIFIER Range. Le fond est blanc. Le graphique montre une succession de barres, certaines vertes (haussières), d'autres rouges (baissières), avec des chiffres à l'intérieur représentant le flux d'ordres (Order Flow). Une ligne horizontale violette est visible en haut du graphique. En bas, un histogramme de volume avec des barres rouges et vertes, et une section "Delta Volume" affichant des valeurs numériques. La tendance générale est à la baisse. Un cercle jaune entoure un groupe de barres rouges au milieu de la tendance baissière, où le prix semble consolider. Une flèche rouge pointe vers le bas depuis une de ces barres.]
+confirme. On peut même doubler ici parce que on a encore un drapeau et on a un double hypercut.
+
+[VISUEL: Le cercle jaune se déplace pour encercler une série de barres rouges plus bas dans la tendance baissière. Les chiffres du Delta Volume en bas sont majoritairement rouges (négatifs), indiquant une pression vendeuse. Le prix continue de baisser.]
+Et on regarde ce qui se passe pour le moment, ça tape sur le bit, ça tape sur le bit, ça tape sur le bit, ça tape encore bien sur le bit plus un drapeau. Donc ici, le marché est en train de nous dire euh qu'il y a accélération, hein, sur le ZB. C'est quand même pas n'importe quel marché, on n'est pas en train de parler du du Nasdaq là. Euh on est en train de parler d'un d'un marché qui pèse des milliards, des trillions. Et le fait que une fois qu'on a on a cassé ici, on est on est on est en train de pousser là.
+
+[VISUEL: Le cercle jaune continue de suivre la descente du prix, englobant d'autres barres rouges et des deltas négatifs. Une flèche bleue pointe vers le haut depuis une barre verte située au plus bas de la tendance baissière visible.]
+On a encore ce drapeau rouge et encore ce drapeau rouge. On doit garder les positions, sinon rajouter à la position. On surveille lorsqu'on est vendeur, on surveille la partie gauche et tant qu'il y a des des des chiffres rouges, cela signifie hypercut baissier. Jusqu'ici. Et là, on a automatiquement un signal ici comme quoi on peut prendre les profits.
+
+[VISUEL: Le cercle jaune est positionné sur la flèche bleue et la barre verte correspondante, ainsi que sur les deltas verts en dessous. Le delta est encore majoritairement rouge, mais avec des valeurs moins négatives.]
+Mais comme on est en train de regarder le delta ici et que le delta me dit qu'il y a éventuellement encore quelques vendeurs qui sont encore décidés à à pousser, je vais quand même euh faire attention, je me dis je peux prendre une partie de mes profits, mais en tout cas, je suis curieux de voir jusqu'où le delta rouge va aller. Donc je reste un peu comme ça.
+
+[VISUEL: Le graphique défile vers la droite, révélant la continuation de la tendance baissière. Le cercle jaune se déplace vers un nouveau point bas, où une barre verte apparaît avec un delta positif significatif. La flèche bleue est maintenant positionnée sur cette nouvelle barre verte.]
+Et c'est ici plus bas, bien plus bas que j'ai finalement un delta ici avec une attaque euh haussière enfin ici.
+
+[VISUEL: Le cercle jaune englobe l'ensemble du mouvement baissier, de la flèche rouge initiale à la flèche bleue finale. Le speaker décrit le déroulement du trade.]
+Donc on a eu un très bon mouvement ici et euh l'order flow nous a euh laissé euh euh euh sur nos nos gains et nous a même offert de doubler ici et de rajouter ici et et de sortir là. Donc voilà un très beau trade euh qui a été piloté en regardant les deltas dont l'initiation a été à la position ici l'analyse de Belkhayate euh ressort.
+
+[VISUEL: L'écran passe à un graphique en chandeliers sur fond noir, affichant le marché Nasdaq (NQ1!) sur un timeframe de 15A_VERIFIER minutes. Une moyenne mobile exponentielle (EMA) blanche est visible. Le texte "le Plan B" et "l'humilité" est affiché au centre. Un cercle jaune entoure une barre rouge qui a touché la moyenne mobile blanche depuis le haut.]
+Puisqu'ici on a Belkhayate ressort, ici on essaie de revenir vers là, vers l'ouverture, mais on n'y est pas arrivé. Puis le marché est vraiment tombé très fort.
+
+[VISUEL: Le cercle jaune se déplace pour encercler une barre rouge qui a cassé sous la moyenne mobile blanche. Le texte "le Plan B" et "l'humilité" est toujours visible.]
+On va on va regarder un un autre marché, le S&P par exemple.
+
+[VISUEL: Le graphique change pour afficher le marché S&P (ES1!) sur un timeframe de 15A_VERIFIER minutes. Le cercle jaune entoure une barre verte qui a rebondi au-dessus de la moyenne mobile blanche. Le texte "le Plan B" et "l'humilité" est toujours visible.]
+Et ici sur le S&P euh c'était la journée de mon anniversaire. C'est pour ça que je me rappelle très très bien. Le marché n'était pas vraiment facile puisque le marché il part, il revient, il part, il revient.
+
+[VISUEL: Le cercle jaune se déplace pour encercler une barre rouge qui a touché la moyenne mobile blanche depuis le haut.]
+Et moi j'ai pas tradé toute la matinée et je vais jeter un coup d'œil ici et je voulais voir ce qui allait se passer ici.
+
+[VISUEL: Le cercle jaune entoure une barre verte qui a rebondi au-dessus de la moyenne mobile blanche, puis une barre rouge qui a touché la moyenne mobile. La ligne verticale blanche indique l'ouverture du marché.]
+Donc regardons ce que nous dit Belkhayate euh méthode ici. Nous avons le marché qui qui est qui est monté et qui revient ici. Est-ce qu'il fait un pullback et est-ce qu'il va faire Belkhayate ressort ou pas ? On le sait pas pendant cette bougie là, on le sait pas trop. Tout ce qu'on sait, c'est que c'est l'ouverture là. Ici, on a l'ouverture, il vient taper dedans.
+
+[VISUEL: Le cercle jaune entoure une barre rouge qui a cassé sous la moyenne mobile exponentielle (EMA) de 209A_VERIFIER périodes, puis a rebondi pour toucher la moyenne mobile. Un grand volume rouge est visible en dessous de cette barre.]
+Donc nous, lorsqu'on voit que l'ouverture, le marché tape pile poil ici avec un grand volume bien sûr, il s'agit de l'ouverture, il fait une mèche ici et il rebondit pile poil sur euh la 209. Nous on se dit tiens, il se peut que le marché accélère vers le bas, mais il se peut qu'il accélère par le haut. Mais en tout cas, nous allons avoir une volatilité due au fait que nous sommes à l'ouverture et au fait que nous sommes revenus aux alentours d'une zone à très forte énergie qui est la zone de la moyenne mobile exponentielle de 209. Donc voilà, pour le moment, tout est clair.
+
+[VISUEL: Le cercle jaune se déplace pour encercler une période de faible volume au début du graphique, puis une période de volume plus élevé autour de l'ouverture du marché.]
+D'autant plus que c'est clair pour tout le monde que nous sommes ici euh euh là, nous avons nous avons traversé un long moment d'accalmie sur les volumes, même si les prix ils se sont envolés comme ça, en réalité, vous avez vu les les les volumes ont annoncé que tout ça c'était rien puisque finalement on revient à zéro pratiquement.
+[REGLE: Le maître, ce qui décide vraiment sur les marchés, c'est le volume. C'est pour ça qu'il faut d'abord tenir compte de ça avant d'être influencé par les prix.]
+Donc on va euh regarder à peu près cette période qui est de 14h47 45 juste 14h30 donc à l'ouverture des marchés et euh et là on va jeter un coup d'œil. On va aller zoomer ici pour voir ce que nous dit le carnet d'ordre.
+
+[VISUEL: L'écran passe à un graphique Footprint (Order Flow Volume Profile) sur fond blanc, affichant le marché S&P (ES1!) sur un timeframe de 5A_VERIFIER Range. Le graphique montre des barres avec des chiffres à l'intérieur (volume bid/ask). Le cercle jaune entoure une barre rouge avec un delta négatif important. Une flèche rouge pointe vers le bas depuis cette barre.]
+Alors ici le carnet d'ordre, on est à 14h. Regardez, regardons ce qu'on va faire. Regardez ici. Voilà. Le marché tape ici et on a on a une très forte attaque.
+
+[VISUEL: Le cercle jaune se déplace pour encercler une barre verte avec un delta positif, indiquant une absorption de la pression vendeuse et un rebond du prix. Le speaker mentionne un "iceberg".]
+On a un très bon signal, très forte attaque, très forte attaque ici, mais là là, on dirait qu'il y a un iceberg parce que ça ça résiste ici. Ça a bien résisté ici. Donc euh le fait que c'est résisté, ça a résisté comme ça, on se dit tiens, peut-être qu'il y a un iceberg ici. On attend de voir.
+
+[VISUEL: Le cercle jaune se déplace pour encercler une autre barre verte avec un delta positif, montrant une continuation du mouvement haussier.]
+Le marché repart, il nous donne encore un signe ici de fin des acheteurs, le marché revient, revient, revient et encore une fois, on a encore une attaque ici avec un triple hypercut ici.
+
+[VISUEL: Le cercle jaune entoure une barre verte avec un delta positif de 43A_VERIFIER, après une barre avec un delta négatif de -127A_VERIFIER. Le speaker suggère d'acheter à ce point.]
+Et là, on passe de -127 à 43. Donc ici avec cette attaque haussière là, on se dit tiens, euh il se peut que le marché ait envie de monter. Donc on va acheter ici. On peut acheter ici parce qu'on se dit tiens, si ça a absorbé ici comme ça, absorbé ici, on a une grande probabilité de nous trouver ici avec un un iceberg. Et puis on regarde ce que le marché fait.
+
+[VISUEL: Le cercle jaune se déplace le long d'une série de barres vertes avec des deltas positifs importants, montrant une forte tendance haussière soutenue. Le speaker parle de renforcer la position.]
+On attend de voir s'il va y avoir une attaque du côté des bits, est-ce que les acheteurs vont rentrer en jeu. Et donc ici, on a encore des attaques haussières. On a le euh le delta qui est toujours vert. Ici, il est toujours vert. On a une attaque très forte, donc on a un renforcement de position. Ici, on passe de 89 à 579. Donc ici, on peut renforcer notre position, on n'a pas à nous inquiéter. Et euh et ça continue, ça continue. Regardez, ça continue, ça continue.
+
+[VISUEL: Le graphique montre une forte et longue tendance haussière. Le cercle jaune se positionne au sommet de cette tendance, où une barre rouge apparaît avec un delta négatif. Une flèche rouge pointe vers le bas depuis cette barre, indiquant un signal de sortie.]
+Jusqu'ici. Ce n'est qu'ici qu'on peut sortir. Ici, on a enfin un signal de sortie.
+
+[VISUEL: Le cercle jaune se déplace le long de la tendance haussière, soulignant les points où la position aurait pu être renforcée. Le speaker explique le concept de "balayage de puissance".]
+Mais euh c'est quand même un très très beau trade qui nous a été donné à au départ parce que on était dans on était dans la zone de la 209 et euh nous avons détecté grâce au carnet d'ordre, nous avons détecté ici un un iceberg qui a tout pris et ensuite, ils ont poussé le marché, poussé, poussé, poussé. Alors je vous fais remarquer, comme je vous l'avais fait remarquer durant toute cette formation, que le order flow, c'est surtout également un moyen de savoir comment on peut augmenter notre position en toute euh quiétude, c'est-à-dire que là, quand vous voyez ce mouvement avec 579, vous pouvez doubler votre position ici. On voit bien qu'ici les gens euh il y a pas il y a pas de trading véritablement, il y a euh il y a pas de négociation en fait, il y a un achat violent qui est en train de se produire. Et vous voyez ici, ici c'est on l'avait je vous l'avais pas montré parce que c'est c'est dans la version récente. Lorsque vous voyez une situation comme ça, c'est une c'est un balayage de puissance. Alors quand vous l'avez sur la droite, c'est un balayage de puissance des acheteurs qui sont en train de rentrer au marché à fond.
+
+[VISUEL: Le cercle jaune englobe l'ensemble de la tendance haussière sur le graphique Footprint. Le speaker discute de l'application de l'Order Flow à différents indices.]
+Donc voilà, on arrive ici à une situation de trade intéressant sur 5 range de sur les S&P. C'est la preuve qu'on peut bien sûr faire du du carnet d'ordre sur les les les indices boursiers S&P, sur le euh le Dow Jones et même sur le Nasdaq. Bien sûr, mais pas en 5 range. Le Nasdaq, on aura besoin de 10 range et cetera. Peut-être que euh pour vous faire plaisir, je pourrais faire une vidéo euh sur le trading du Nasdaq euh avec le le order flow, mais c'est c'est je sais par expérience que ce n'est pas le marché sur lequel vous devez euh vous devez aller. Voilà, euh moi je vous propose plutôt des marchés comme le ZB, par exemple ici, vous voyez, là, le ZB.
+
+[VISUEL: L'écran revient au graphique de l'US Treasury Bond Futures (ZB) sur fond blanc, montrant la tendance baissière avec les flèches rouge et bleue. Le cercle jaune se déplace sur les signaux de vente et d'achat.]
+Le marché, regardez, c'est magnifique. Vous avez des situations sur le ZB bien claires. Hein, en plus l'indicateur, il vous donne déjà le signal de vente, il vous donne un signal d'achat. Bien sûr, vous n'avez pas ça tout le temps.
+
+[VISUEL: L'écran affiche un graphique en chandeliers sur fond noir, avec le texte "le Plan B" et "l'humilité" au centre. Le cercle jaune est positionné sur le mot "l'humilité".]
+Mais lorsque vous êtes capable de de de de filtrer vos décisions d'abord grâce à la méthode Belkhayate et à la façon d'appréhender tout ce que je vous ai appris euh sur la ligne qui raconte l'histoire, sur les trois configurations qu'on a vu dernièrement et cetera, et vous arrivez à pouvoir optimiser l'order flow au bon moment. On vient pas, je le répète toujours, on ne vient pas euh trader euh euh avec l'order flow à n'importe quel moment. On doit connaître le contexte, on doit s'attendre à une situation bien précise, on on vient regarder l'order flow pour vérifier si notre idée de base, si l'analyse euh qu'on a faite, elle elle est en train d'être validée et confirmée en fait par euh euh par le carnet d'ordre. Je vais finir par cette notion d'humilité. Euh je lui ai pas donné beaucoup de de de temps, mais c'est c'est vraiment une c'est quelque chose de très important parce que euh la plupart des traders qui qui ont échoué, qui ont fini par échouer, euh alors qu'ils étaient des traders champions, hein, je je vais pas les citer, mais ils sont connus dans l'histoire, euh je sais par expérience que ce n'est pas le marché sur lequel vous devez euh vous devez aller.
+[REGLE: La meilleure attitude d'un champion de trading, c'est de rester humble.]
+
+[VISUEL: L'écran reste sur le graphique en chandeliers sur fond noir avec le texte "le Plan B" et "l'humilité".]
+Et finalement, plus vous serez humble, plus Dieu vous vous vous fera grand. C'est une loi qui qui est dans toutes les religions en fait. Donc euh c'est au-delà des religions. C'est c'est une loi de l'univers en fait. Voilà, euh je vous remercie, hein, pour euh votre attention et puis et puis je vous dis à très bientôt, hein, on est on est vers la fin de la formation et je tiens quand même à vous laisser des situations très importantes pour que vous puissiez prendre votre destinée en main.
+
+[VISUEL: L'écran se divise en deux. À gauche, deux personnes en costume examinent des documents et des graphiques sur une table. À droite, un fond noir avec le texte blanc "MERCI POUR VOTRE ATTENTION" et le logo "belkhayate method". Une musique douce commence.]
+(Musique)

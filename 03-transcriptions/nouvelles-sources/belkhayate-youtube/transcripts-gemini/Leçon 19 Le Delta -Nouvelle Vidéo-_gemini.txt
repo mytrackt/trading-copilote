@@ -1,0 +1,149 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: Leçon 19 Le Delta -Nouvelle Vidéo-.mp4]
+---
+[VISUEL: Intro animation avec des graphiques boursiers et des mains qui travaillent sur des documents financiers. Des éléments graphiques blancs et bleus apparaissent.]
+[VISUEL: Écran noir avec des lignes de code stylisées en orange et blanc. Le texte "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE" apparaît en blanc.]
+[VISUEL: Écran noir avec des lignes de code stylisées. Le texte "LEÇON -19A_VERIFIER" apparaît dans un cadre blanc, puis "Le Delta" apparaît dans une bannière bleue en dessous, puis "Delta" seul.]
+
+[VISUEL: Mustapha Belkhayate, un homme chauve avec une barbe grise, portant une veste de costume bleue et une chemise bleue, parle face caméra. Derrière lui, un fond virtuel représente un salon moderne avec une grande bibliothèque remplie de livres.]
+Bienvenue à la leçon 19. On va parler du Delta et euh du volume. En fait, on va parler d'un élément fondamental qui est le la différence entre le volume exécuté sur le volume sur la demande et le volume exécuté sur l'offre. Je vous l'ai déjà dit, euh je vous en ai parlé déjà très souvent, et je vais vous en parler tout le temps. C'est un élément fondamental pour pouvoir estimer qui a le contrôle sur le marché. Alors, euh on va tout de suite venir ici.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Un point de liste est visible : "Pourquoi le volume est-il plus important que le prix ?". En dessous, un paragraphe de texte en français est affiché.]
+Et on va lire "Pourquoi le volume est-il plus important que le prix ?" C'est ce que j'arrête pas de vous le dire, vous dire. En fait, les traders institutionnels, ils essaient de cacher le volume de ce qu'ils veulent échanger et non le prix. Lorsque vous voyez un échange de prix, vous vous faites une opinion du marché, mais lorsque vous voyez le volume, vous voyez la réalité de ce qui est en train de se passer.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le S&P 500A_VERIFIER (ES) en "10A_VERIFIER Range" (barres de range de 10A_VERIFIER ticks). Le graphique montre une série de barres de prix, avec des informations de volume et de delta affichées à l'intérieur de chaque barre. En bas du graphique, une zone colorée affiche le Delta et le Cumulative Delta. Le marché est en tendance baissière, avec des barres rouges dominantes. Une flèche rouge apparaît, pointant vers la zone du Delta en bas du graphique, où le Delta passe d'une valeur positive à une valeur négative importante.]
+Regardons ici par exemple, nous avons un marché, nous avons une un un marché qui commence à corriger sur le S&P en 10 Range. Et puis ensuite, le Delta que vous voyez ici, il bascule de 324 à moins moins 367. Donc ici, on a à ce niveau-là, avant qu'on casse ce ce ce support là, avant qu'on casse ce support, on a eu un contrôle des vendeurs. Et puis après, on est passé de 367 à 2700 et à 1700, et cetera. Donc là, il y a eu une véritable contrôle de la part des vendeurs. Et vous ne pouvez pas voir ça ailleurs que sur le carnet d'ordre. Je ne connais pas euh euh euh un autre moyen de découvrir que les vendeurs, en fait, ils ont inondé le carnet d'ordre. Vous pouvez pas le savoir autrement qu'en regardant le Delta.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Deux points de liste sont visibles. Le premier est encadré en rouge.]
+[REGLE: Le volume a souvent été relégué à une position secondaire par la plupart des traders puisqu'ils se concentrent sur le prix.]
+Le volume a été souvent relégué à une position secondaire par la plupart des traders, puisque euh ils se concentrent sur le prix. Vous le voyez déjà, vous voyez même quand vous voyez des analystes des analystes discuter sur un graphique, c'est très rare qu'ils vous montrent le le volume. Et même quand ils vous montrent le volume, ils vous parlent pas du volume exécuté sur le bid et et l'exécuté, ils vous parlent du volume général de transaction.
+
+[REGLE: Le volume est utile pour identifier les tournants d'un marché.]
+Alors que le volume, il est indispensable pour identifier les tournants d'un marché.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Deux points de liste sont visibles. Le deuxième est souligné en rouge.]
+Par exemple, dans un dans un marché à la baisse, les vendeurs ont généralement le contrôle. Mais pour que le marché se retourne, il faut réellement que qu'il y ait quelque chose de conséquent. On va pas renverser la vapeur juste comme ça parce que tiens, on va faire ça. Non, il faut qu'il y ait vraiment une vraie puissance pour retourner le marché. Et c'est pour ça que euh et et cette puissance, on peut la détecter dans le Delta.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le pétrole brut (CL) en "10A_VERIFIER Range". Le graphique montre une série de barres de prix en tendance haussière. En bas, la zone du Delta est visible. Une flèche rouge apparaît, pointant vers une zone où le Delta passe de négatif à positif, puis reste majoritairement positif sur plusieurs barres.]
+On va regarder ici, vous avez vu ? Ici, on était dans le rouge et puis le Delta est devenu positif. 81, puis 216, et cetera et cetera. Donc tant que le Delta est positif ici, que ça monte, il n'y a aucune raison de prendre des profits, ou en tout cas, on peut prendre des profits et le rentrer immédiatement. On prend les profits, on dit merci. Bien sûr, on rentre, on dit merci, on on on encaisse et on dit re-merci, on continue.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Deux points de liste sont visibles. Le deuxième est souligné en rouge.]
+Dans un marché à la hausse, les acheteurs ont généralement le contrôle. Et pour que le marché se retourne, les vendeurs doivent prendre le contrôle. Cela signifie que les vendeurs doivent entrer et imposer à leur tour une offre conséquente.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Deux points de liste sont visibles. Le deuxième est souligné en rouge.]
+Comment un trader peut-il mesurer le volume de manière à trader à court terme ? Delta. Le Delta, il va vous dire ce qu'il faut faire. Vous vous allez voir que au fur et à mesure qu'on va étudier le carnet d'ordre, vous allez voir que en combinant le Delta avec le point de contrôle et et avec ce qui va arriver, vous allez voir que vous allez avoir une visibilité sans faille.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Trois points de liste sont visibles.]
+[REGLE: Delta mesure la force des enchères du marché.]
+Le Delta mesure la force des enchères du marché.
+
+[REGLE: Le composant le plus important du Delta est le volume. Le volume doit être compris dans le contexte du marché.]
+Donc le composant le plus important du Delta, c'est le volume. Le volume doit être compris dans le contexte du marché.
+
+[REGLE: Lorsque le volume augmente positivement ou négativement, un trader doit surveiller sa force pour bien comprendre l'évolution de l'offre et de la demande. Il est important de noter que Delta ne tient pas compte du prix.]
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Trois points de liste sont visibles. Le premier est souligné en rouge.]
+[REGLE: Delta est calculé en prenant le volume échangé du côté de l'offre moins le volume échangé du côté de l'offre.]
+Le Delta est calculé en prenant le volume échangé du côté de l'offre moins le volume échangé du côté de l'offre. Donc c'est ça c'est une erreur, mais en fait le Delta c'est simple, c'est juste la différence entre les différents volumes, hein, ça je vous l'ai déjà dit.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le Bund allemand (ZF) en "8A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance haussière, puis il y a une correction. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de positif à négatif, puis reste négatif sur plusieurs barres.]
+Alors, ici, nous avons euh un Delta qui devient rouge ici, en rouge, rouge, rouge, et puis là, il devient très fort. 4000, il passe de ici, donc ici, on doit absolument sortir, en tout cas, prendre notre profit. D'autant plus que cette bougie-là, nous avait déjà alerté avec le POC. Donc, et il est alors que le Delta est toujours rouge, mais ici, il y a plus photo, on aurait dû sortir. Ici, on doit sortir.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le Bund allemand (ZF) en "8A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance baissière, puis il y a une correction haussière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de négatif à positif, puis reste positif sur plusieurs barres.]
+Encore ici, on on peut regarder ici que euh nous avons euh un Delta qui est rouge, rouge, rouge, et ici, quand il devient vert, on sort.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Trois points de liste sont visibles. Le premier et le deuxième sont encadrés en rouge.]
+[REGLE: Delta est négligé par la plupart des traders.]
+Le Delta est négligé par la plupart des traders.
+
+[REGLE: Les seuls traders qui suivent le Delta sont principalement des traders de carnet d'ordres.]
+
+[REGLE: Delta n'est pas utilisé par les traders amateurs car la plupart ne savent même pas qu'il existe, et encore moins comment le lire.]
+Le Delta n'est pas utilisé par les traders amateurs car la plupart ne savent même pas qu'il existe, et encore moins comment le lire. Vous vous rendez compte ? Alors, vous êtes non seulement vous savez qu'il existe, non seulement vous savez le lire, vous allez devenir expert dans la lecture du Delta, dans la lecture du point de contrôle, dans la lecture du balayement du carnet d'ordre que vous allez apprendre tout à l'heure. Vous allez en réalité maîtriser à la perfection la lecture du carnet d'ordre. Et quand vous allez combiner ça avec la méthode Belkhayate, vous n'avez plus aucune raison de perdre de l'argent sur les marchés.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Trois points de liste sont visibles. Le deuxième est souligné en rouge.]
+[REGLE: Delta vous alerte sur les zones du marché lorsque les acheteurs/vendeurs se tarissent ou augmentent.]
+Le Delta vous alerte sur les zones du marché lorsque les acheteurs ou les vendeurs se tarissent ou augmentent. OK ? Voilà, par exemple ici.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le S&P 500A_VERIFIER (ES) en "4A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance haussière, puis il y a une correction. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de négatif à positif, puis reste majoritairement positif sur plusieurs barres.]
+Ici, vous avez euh ici, vous avez un trading range, et puis tout d'un coup, on passe de -500 à +770 ici. Et à partir de là, le Delta reste largement positif. Donc ici, on a véritablement un encouragement à rentrer. Il y a quelque chose qui s'est passé. Excusez-moi, excusez-moi, mais c'est pas, il y a quelque chose qui s'est passé. Donc, on voit ici qu'il y a que euh rien qu'avec le Delta, on a une confirmation de la de de de d'une nouvelle tendance que que les que les acheteurs, ils sont réellement rentrés, ils sont en jeu.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le S&P 500A_VERIFIER (ES) en "30A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance baissière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de positif à négatif, puis reste négatif sur plusieurs barres.]
+Regardez ici encore, sur le S&P, on voit ici que euh une fois qu'on a basculé de 1800 euh un un un Delta positif de 1800 à un Delta de -1800 ici, mais immédiatement, on sait qui que les vendeurs ont pris la main avant de venir casser ici. Et ensuite, le Delta reste négatif, -2000, -3000, et cetera. Regardez, c'est très très puissant. Là, il est il n'y a pas un seul petit signe, un seul clin d'œil des acheteurs ici. Sur à droite, il n'y a pas un seul volume bleu comme ici, vous voyez ? Et là, la confirmation, c'est le Delta qui vous dit que le contrôle, il est il est par il est fait par les vendeurs.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Deux points de liste sont visibles.]
+Qu'est-ce qui motive les mouvements de prix sur le marché ? Différence d'opinion. Lorsqu'un marché se négocie normalement, à l'équilibre pour ainsi dire, le Delta doit être relativement faible ou ne pas changer beaucoup. L'offre et la demande à ce stade sont à peu près égales. Le problème est que personne ne sait où se trouve ce niveau d'équilibre, il change constamment.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Trois points de liste sont visibles.]
+[REGLE: Delta guette attentivement la différence d'opinion et, plus important encore, comment elle évolue.]
+Alors, je voulais vous montrer que le Delta ici guette attentivement la différence d'opinion et, plus important encore, comment elle évolue. D'accord ? Donc, le Delta vous montre exactement à quel point il y a un basculement. À quel point les vendeurs sont devenus plus forts.
+
+[REGLE: Delta vous indique quand le marché est calme et que le marché facilite les échanges, ce qui est son objectif principal.]
+Le Delta vous indique quand le marché est calme et que le marché facilite les échanges, ce qui est son objectif principal.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le pétrole brut (CL) en "10A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance baissière, puis il y a une correction haussière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de négatif à positif, puis reste positif sur plusieurs barres.]
+Regardons ici, nous avons euh à partir d'ici, vous avez vu ? Là, le marché ne fait rien. On est en trading range, mais quand il bascule ici, nous avons un signal de vente. Et après, on a vraiment l'accélération ici. Ça y est, le le déséquilibre il s'est il il mais on avait déjà une idée ici quand le le le Delta est devenu négatif.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Trois points de liste sont visibles. Le premier est encadré en rouge.]
+[REGLE: L'une des principales raisons pour lesquelles tant de traders perdent de l'argent ou échouent au trading est qu'ils arrivent sur le marché en pensant que tout ce qu'ils ont à faire est "acheter bas, vendre haut".]
+L'une des principales raisons pour lesquelles tant de traders perdent de l'argent ou échouent au trading est parce que ils ils ont ils pensent qu'il faut acheter bas et vendre haut. Souvent, ils achètent uniquement pour voir que le marché continue de baisser. Ou le contraire, ils vendent pour rester hébétés de constater que le marché continue de monter. Ah, ils sont là, ils disent mais c'est pas possible. Non, normalement le marché devrait. À partir du moment que vous êtes en train de vous dire le marché devrait faire ceci, vous êtes cuit. Vous n'êtes pas professionnel. On s'en fout d'avoir raison. On veut deviner que ça y est, le marché va se retourner. Ça, ça c'est de la prétention, de l'arrogance. Hein, comme on va le voir dans la vidéo sur l'humilité, hein, le le le trader professionnel est humble. Hein, c'est pas lui qui qui devine ce que le marché va faire, c'est pas lui qui sait. Non, il sait pas. Nous, on prend de l'argent sur le marché discrètement.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Deux points de liste sont visibles. Le premier est encadré en rouge.]
+[REGLE: Ce que font les traders qui réussissent, c'est acheter lorsque le marché montre de la force et vendent lorsque le marché est faible.]
+
+[REGLE: Les traders gagnants achètent haut et vendent plus haut ou vendent bas et achètent plus bas.]
+Les traders gagnants achètent haut et vendent plus haut, ou bien ils vendent bas et rachètent plus bas. Pensez comme un mercenaire. Vous voulez vous battre du côté des gagnants. Vous ne voulez pas perdre votre temps à essayer de mener une bataille perdue en essayant de choisir des hauts et des bas en essayant de gagner un peu de gloire. Hein ? Vous savez, beaucoup de traders cherchent à avoir raison. On s'en fout d'avoir raison. On veut deviner que ça y est, le marché va se retourner. Ça, ça c'est de la prétention, de l'arrogance. Hein, comme on va le voir dans la vidéo sur l'humilité, hein, le le le trader professionnel est humble. Hein, c'est pas lui qui qui devine ce que le marché va faire, c'est pas lui qui sait. Non, il sait pas. Nous, on prend de l'argent sur le marché discrètement.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le pétrole brut (CL) en "10A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance baissière. Une flèche rouge apparaît, pointant vers la zone du Delta où il est négatif, puis reste négatif sur plusieurs barres.]
+Regardez ici, nous avons euh à un moment donné, on a euh le le sur le pétrole ici. Regardez, nous avons ça a commencé déjà ici, avant, c'est en train de monter, mais le Delta a déjà négatif. Donc, il y a pas de raison d'acheter ici. Alors que on est en négatif. Il aurait été positif, on aurait pu acheter. Mais lorsque le marché fait ça, ça confirme qu'en fait, les vendeurs, ils sont bien là. Et ensuite, regardez, ça s'accélère au niveau du Delta. Donc, le Delta ici, c'est pour ça que j'ai choisi ce graphique, le Delta ici nous a alerté à l'avance que en réalité, il n'y a pas de véritable acheteur.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le S&P 500A_VERIFIER (ES) en "5A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance haussière, puis il y a une correction baissière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de positif à négatif, puis reste négatif sur plusieurs barres.]
+Voilà, donc on va continuer ici. Donc, vous commencez à vous habituer un petit peu, hein, sur euh euh ce qui se passe. Regardez ici, il y a un basculement sur le Delta, sur le ZB, c'est le le le bon du trésor de 30 ans. Et euh on voit bien que après, en passant de -550 à 85, à 149, et cetera, 400, 1000 et quelques, là, c'est vraiment l'accélération dans dans le Delta, il y a cette accélération là.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Deux points de liste sont visibles.]
+Il existe cinq scénarios lorsqu'il s'agit de Delta dans une barre :
+1.  Nombre Delta extrêmement positif. Indique que les acheteurs agressifs ont dominé la barre. Les acheteurs achètent toute l'offre disponible proposée par les vendeurs, faisant monter le marché.
+2.  Nombre Delta positif moyen - indique que les acheteurs agressifs sont plus nombreux que les vendeurs agressifs, mais pas de manière écrasante. Cela peut être un signe d'accumulation lorsqu'une série de barres Delta positives moyennes est assemblée.
+3.  Petit nombre Delta positif ou négatif proche de zéro - indique que les acheteurs agressifs et les vendeurs agressifs sont à peu près à égalité. Le prix est à un équilibre où les acheteurs et les vendeurs sont heureux de négocier.
+4.  Nombre Delta négatif moyen - indique que les vendeurs agressifs sont plus nombreux que les acheteurs agressifs, mais pas de manière écrasante. Cela peut être le signe d'une réduction constante des positions ou de l'accumulation de vente à découvert.
+5.  Nombre Delta extrêmement négatif - indique que les vendeurs agressifs ont dominé la barre. Les vendeurs atteignent toutes les demandes car ils attendent avec conviction des prix plus bas.
+Donc ça, je vais pas vous les donner, c'est simple, c'est c'est tellement évident, il y a un Delta très positif, ça veut dire que euh c'est c'est très fort, il y a de la forte demande. Un Delta moyen, ça signifie que bon, les acheteurs agressifs sont plus nombreux, mais pas de manière écrasante, d'accord ? Et en plus, vous avez l'inverse. Donc ça, c'est pas la peine que je vous le je vous le montre.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Trois points de liste sont visibles.]
+[REGLE: Delta ne tient pas compte du prix.]
+Alors, le Delta ne tient pas compte du prix. Ça, c'est très important.
+
+[REGLE: Lorsque le Delta est négatif et que le prix augmente, soyez prudent.]
+Lorsque le Delta est négatif et que le prix monte, soyez prudent. Rappelez-vous de cette phrase.
+
+[REGLE: Lorsque le Delta est positif et que le prix baisse, soyez prudent.]
+Lorsque le Delta est positif et que le prix baisse, soyez prudent. D'accord ? C'est ce que je vous ai montré tout à l'heure. Je vous ai montré que on avait un Delta négatif alors que le prix montait.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Quatre points de liste sont visibles.]
+Alors là, c'est une phrase importante.
+[REGLE: Lorsqu'un marché est suspendu autour d'un sommet, les Deltas devraient être majoritairement positifs.]
+
+[REGLE: Lorsqu'un marché traîne autour d'un creux, les Deltas devraient être principalement négatifs.]
+
+[REGLE: Lorsqu'un marché commence à s'éloigner d'un haut ou d'un bas, le Delta peut vous alerter.]
+Et lorsqu'un marché commence à s'éloigner d'un haut ou d'un bas, alors le Delta va nous alerter, il va nous dire c'est qui qui a pris la main.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est l'Euro Stoxx 50A_VERIFIER (FESX) en "4A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance haussière, puis il y a une correction baissière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de positif à négatif, puis reste négatif sur plusieurs barres.]
+Alors là, par exemple, sur le Euro Stoxx, on voit clairement ici que on a basculé ici, on a fortement basculé de -1500 à +700. Donc ici, on a un très fort signal d'achat, on et ensuite, il est confirmé par le Delta positif ici, il y a pas de vendeur là, il y a pas de vendeur là, il y a pas de vendeur là. Ici, on a un vendeur et on sort.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le Bund allemand (ZF) en "4A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance haussière, puis il y a une correction baissière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de positif à négatif, puis reste négatif sur plusieurs barres.]
+Voilà.
+
+[VISUEL: L'écran affiche une diapositive avec le titre "THE IMPORTANCE OF DELTA AND VOLUME". Un point de liste est visible.]
+Des nombres Delta massifs, positifs ou négatifs, qui sont si importants qu'ils vous font dire "WOW" peuvent vous indiquer une tendance à court terme dans cette direction.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le pétrole brut (CL) en "10A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance haussière, puis il y a une correction baissière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de positif à négatif, puis reste négatif sur plusieurs barres.]
+Donc, c'était pour vous présenter euh des exemples du Delta, de la puissance du Delta. Hein, on on on continue à regarder ici euh par exemple ici, là, à ce niveau-là, on a ici un très fort signal. Ici, on a déjà euh euh la présence des vendeurs. Bien que cette cette bougie soit euh euh haussière, on a en réalité un Delta négatif qui vient se confirmer ici, et puis après ça tombe.
+
+[VISUEL: L'écran affiche un graphique NinjaTrader. Le marché affiché est le S&P 500A_VERIFIER (ES) en "10A_VERIFIER Range". Le graphique montre une série de barres de prix. En bas, la zone du Delta est visible. Le marché est en tendance haussière, puis il y a une correction baissière. Une flèche rouge apparaît, pointant vers la zone du Delta où il passe de positif à négatif, puis reste négatif sur plusieurs barres.]
+Voilà, donc euh c'était pour vous montrer, je voulais vous montrer ça. C'est le dernier graphique, hein, euh que je voulais vous montrer, c'est que euh voici, on a un marché qui monte, et puis tout d'un coup, on a un signal baissier qui est donné automatiquement par le Order Flow, et on a un basculement ici, c'était des Deltas positifs. À partir de là, on revient négatif, on a l'entrée des vendeurs, et puis le Delta, il se déclenche là, il se déploie, regardez, avec force, et qui nous confirme, hein, que on peut rajouter à notre position. Voilà, c'était euh c'était c'était c'était sympathique, j'espère, hein, euh voilà, nous sommes nous avons euh fini la leçon 19. Et euh c'était une présentation, je pense que vous allez vous vous en souvenir, et vous allez vous habituer. Il y a beaucoup de données comme ça, ainsi le Delta fait ceci, ceci. Écoutez, ça, j'ai essayé d'être le plus complet possible, et j'ai traduit, hein, euh ce que les cours de Valdoz également pour que vous puissiez avoir également son avis sur euh sur cette idée-là. Et et dans la prochaine leçon, nous allons euh regarder un concept intéressant et inédit, hein, dans le dans le carnet d'ordre, c'est la notion de rejet du prix, le fameux drapeau. Ce drapeau, quand il sort, ça veut dire que le prix va être rejeté. C'est très important. Si vous êtes en train de faire du trading et que vous voyez le drapeau, vous savez déjà que vous pouvez prendre vos profits. Voilà, c'est c'est c'était sympathique, j'espère, hein, euh vous êtes en train de de de comprendre un peu ce qui se passe. La la vidéo était un peu plus longue que d'habitude, mais bon, on ne peut pas traiter ces sujets-là juste comme ça. J'ai besoin de vous en parler, de vous donner une idée globale, hein, pour que vous puissiez euh commencer à comprendre les mécanismes. Il faut, il n'y a pas beaucoup de mécanismes, en fait, ne vous inquiétez pas. Une fois que vous avez compris euh euh le le Delta, le le point de contrôle, et et ces points-là, après c'est bon, vous allez les utiliser comme quand vous conduisez une voiture, hein. Au début, quand vous disiez conduire une voiture, vous devez faire attention à plein de choses en même temps. Mais et et mais à un moment donné, euh moi, par exemple, quand je trade, je je fais attention à tout ça, mais je me rends presque pas compte comme si c'est c'est je pilote de manière automatique. Donc, je vous rassure, hein, même si je vous donne beaucoup d'éléments comme ça, et vous allez dire oh là là là là, mais les gars, on est en train de bâtir une vie là. On est en train de bâtir un système qui va vous permettre d'être indépendant financièrement. C'est sérieux. Donc, il faut absolument faire des efforts. Et sans effort, il y a rien. Donc, si vous faites pas d'effort, il y a aucune possibilité pour que vous puissiez vivre du trading. Mais si vous faites l'effort de comprendre, j'essaie de faire de mon mieux pour vous donner les différents éléments, mais je vous rassure que sur les prochaines vidéos qui arrivent, ça va être vraiment que du plaisir parce que on va appliquer Belkhayate méthode au carnet d'ordre tranquillement. Vous allez voir, c'est absolument magique. C'est le mot. Voilà, je vous donne rendez-vous à la leçon 20.
+
+[VISUEL: Écran divisé en deux. À gauche, une image de deux personnes en costume travaillant sur des documents financiers. À droite, un fond noir avec des lignes de code stylisées. Le texte "MERCI POUR VOTRE ATTENTION" apparaît en blanc. Le logo "belkhayate method" est visible en bas à droite.]

@@ -1,0 +1,65 @@
+[QUALITE_VIDEO: BONNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-25]
+[SOURCE: Leçon 29 Partie 2  ZN le marchés que je recommande .mp4]
+---
+[VISUEL: Écran divisé en deux. À gauche, le logo "belkhayate method" et le texte "Appliquée à l'Order Flow (Carnet d'Ordre)" et "BELKHAYATE.NET". À droite, une main tenant un smartphone affichant un graphique boursier. Des éléments graphiques abstraits (lignes, carrés, croix) animent l'écran. Le texte change pour "LEÇON -29A_VERIFIER Bis" et "ZN, le marché que je recommande".]
+(Musique d'introduction)
+
+[VISUEL: Écran NinjaTrader. Le graphique principal est un Order Flow Trader (Footprint) pour ZN 12A_VERIFIER-22A_VERIFIER (5A_VERIFIER Range). La moyenne mobile de 15A_VERIFIER minutes est une ligne blanche horizontale. Le panneau de droite est le SuperDOM (Depth of Market). Le panneau inférieur montre le Delta. Le prix est au-dessus de la moyenne mobile. Le Delta est légèrement positif.]
+Bonsoir tout le monde, bonsoir. Je fais cette vidéo pour euh commenter le trade de Ilyas. Nous avons euh donc inauguré notre salle de trading à Marrakech. Et Ilyas a fait donc, il a il a fait le premier trade de la salle de marché. Et donc c'est avec grand plaisir qu'on va montrer comment il est rentré, pourquoi il est resté, pourquoi il a renforcé et comment il a pu gagner cet argent-là sur le ZN. Donc nous avons ici le bon du trésor de 10 ans. Et euh nous allons voir comment ça se présente.
+
+[VISUEL: Le graphique avance. Le prix est toujours au-dessus de la moyenne mobile. Le Delta est positif. Une zone de volume importante (POC) est visible sur les barres précédentes.]
+Voilà maintenant ici, ça c'est le carnet d'ordre. Et et nous avons la moyenne mobile ici sur 15 minutes alors qu'on est en 5 range. Donc, OK.
+
+[VISUEL: Le graphique continue d'avancer. Le prix commence à descendre vers la moyenne mobile. Le Delta reste positif mais avec des fluctuations. Une petite flèche verte apparaît sur le graphique, indiquant un signal d'achat de l'algorithme.]
+Donc on est en train d'assister ici à une correction du marché. On arrive ici sur cette zone où on sait qu'on a un support. Donc ici. Et on est en train de surveiller ici le Delta qui est pour le moment positif. Et on regarde. Ah, pour le moment, on a un signal ici baissier à ce niveau-là.
+
+[VISUEL: Le prix est juste au-dessus de la moyenne mobile. Le Delta est positif. Une flèche rouge apparaît, indiquant un signal de vente. Le texte "Order filled" apparaît sur le SuperDOM, indiquant une entrée en position de vente.]
+Donc il est rentré avec euh il est rentré avec un lot. On va faire ça. Il est rentré ici avec un lot.
+
+[VISUEL: Le graphique avance. Le prix est toujours autour de la moyenne mobile. Le Delta est positif. Une flèche rouge apparaît à nouveau, indiquant un autre signal de vente. Le texte "Order filled" apparaît, indiquant un renforcement de la position de vente.]
+À ce niveau-là. Voilà. Lorsqu'on voit ici cette configuration, elle est négative cette cette configuration là. Donc il est rentré ici. Voilà.
+
+[VISUEL: Le prix est maintenant sous la moyenne mobile. Le Delta est négatif. La position de vente est en gain, affichant un profit de plusieurs centaines de dollars. Une flèche verte apparaît, indiquant un signal d'achat.]
+Donc il est rentré avec un seul lot pour le moment. Et on essaie de voir comment le marché va réagir par rapport à cette moyenne mobile là. Et pour le moment, on sent pas qu'il y ait vraiment des acheteurs parce que les acheteurs sont de ce côté-là. Mais là, on a un signal ici, il a doublé. Ici, il a doublé ici. Donc je suis un peu en retard mais c'est pas grave. On va doubler.
+
+[VISUEL: Le prix est nettement sous la moyenne mobile. Le Delta est fortement négatif. La position de vente est en gain, affichant un profit de plus de 1000A_VERIFIER dollars. Une flèche rouge apparaît, indiquant un signal de vente.]
+Pourquoi il a doublé ici ? Parce que ce petit rectangle ici signifie euh que euh il n'y a plus les acheteurs sont bloqués par les vendeurs à ce niveau-là. Donc on a un signal ici plus un uppercut. L'uppercut ici baissier, c'est quand on a un chiffre ici en rouge. Euh donc là pour le moment, on on on peut s'attendre à ce qu'il y ait de la force à cette fois-ci pour aller casser ce support là qui est représenté par la moyenne mobile de 15 minutes sur le ZN. On le voit ici.
+
+[VISUEL: Le prix continue de descendre, cassant la moyenne mobile. Le Delta est de plus en plus négatif. Le profit de la position de vente augmente, atteignant plusieurs milliers de dollars. Une flèche rouge apparaît, indiquant un signal de vente.]
+Et là, on est rassuré quand on voit euh l'algorithme qui est en train de nous vouloir nous donner encore une fois une fenêtre ici rouge. Pour le moment, on ne voit pas tellement de grande force pour les acheteurs. Il y a il y a une petite réaction ici pour le moment sur le support. Donc on s'attend à ça. Mais il n'y a pas véritablement un grand acheteur ici.
+
+[VISUEL: Le prix est bien en dessous de la moyenne mobile. Le Delta est très négatif. Le profit est d'environ 600A_VERIFIER dollars. Une flèche rouge apparaît, indiquant un signal de vente.]
+Donc la position est gagne pratiquement 600 pour le moment. 900. Voilà. Et donc on on le carnet d'ordre nous permet de regarder si effectivement on peut euh sortir notre position ou si euh on peut renforcer sur notre position.
+
+[VISUEL: Le prix continue de baisser. Le Delta est très négatif. Le profit est d'environ 1700A_VERIFIER dollars. Une flèche rouge apparaît, indiquant un signal de vente.]
+Là, voilà ici, on a un signal baissier ici qui est donné par l'algorithme qui nous rassure sur notre position de vente sur ce marché-là. On voit bien qu'il y a euh des des tentatives des acheteurs, mais immédiatement euh les acheteurs sont servis par les vendeurs. Et donc il malgré les efforts ici des acheteurs, les vendeurs montrent que euh ils sont preneurs. C'est pour ça que euh le marché ne progresse pas hein sur euh.
+
+[VISUEL: Le prix est en forte baisse. Le Delta est très négatif. Le profit est d'environ 2600A_VERIFIER dollars. Une flèche rouge apparaît, indiquant un signal de vente.]
+Là ici pour alors là, on a un très bon signal de vente ici qui vient d'être donné. Et on est en train de casser le support. Donc là, euh si euh il avait encore la possibilité de rajouter, il aurait pu rajouter ici mais il se il est resté à 11 parce que euh il veut respecter euh le test de Lilou qui euh qui propose au maximum 12 lots hein sur euh sur le marché.
+
+[VISUEL: Le prix est en forte baisse. Le Delta est très négatif. Le profit est d'environ 3000A_VERIFIER dollars. Une flèche rouge apparaît, indiquant un signal de vente.]
+Donc là, ça nous confirme euh qu'effectivement euh nous sommes en train de casser avec du volume. Vous avez vu 19000. Donc là, on passe à 1700.
+
+[VISUEL: Le prix est en forte baisse. Le Delta est très négatif. Le profit est d'environ 4000A_VERIFIER dollars. Une flèche rouge apparaît, indiquant un signal de vente.]
+On voit bien que pour le moment, ce sont les vendeurs qui attaquent. Et lorsqu'il y a des acheteurs du côté ici, euh ils sont immédiatement servis. Alors que du côté ici, nous avons ce qu'on appelle un balayage. Et là, le ce balayage, il n'aurait pu doubler ici sur ce balayage parce que c'est un balayage du côté des vendeurs. Donc les vendeurs ont pris tout ce qu'il y avait sur le carnet d'ordre ici. Et ça nous confirme que nous sommes vraiment dans une position de vente. Ici également. Donc là, il n'y a pas à à s'inquiéter. Notre position, elle va elle est en train de gagner de l'argent de manière sympathique. Euh là pour le moment, il y a une réaction, mais cette réaction immédiatement après, il y a les vendeurs qui sont en train de taper pour le moment. Donc on garde toujours la position. Et on est à 4000 200. C'est là que j'ai fait la vidéo. C'est en ce moment-là que je suis arrivé, que j'ai fait la vidéo de Ilyas que je vais vous mettre tout de suite par la suite. Je vais mettre la vidéo.
+
+[VISUEL: Une petite fenêtre vidéo apparaît sur l'écran NinjaTrader. On y voit Ilyas, un homme barbu, souriant, assis devant un ordinateur avec plusieurs écrans. Un autre homme est assis derrière lui. L'écran d'Ilyas montre le même graphique Order Flow Trader que précédemment.]
+(Musique d'introduction)
+[Belkhayate]: Eh, bonjour Ilyas, tu peux nous commenter s'il te plaît ton trade ?
+[Ilyas]: Euh, c'est c'est une vente. C'est du euh c'est du ZN.
+[VISUEL: Gros plan sur l'écran d'Ilyas. Le graphique Order Flow Trader est visible, montrant une tendance baissière. Le profit affiché est d'environ 4200A_VERIFIER dollars avec 11A_VERIFIER lots.]
+[Ilyas]: Voilà, je suis rentré dans un premier temps avec quatre premiers lots, puis j'ai rajouté 10. C'est mon trade.
+[Belkhayate]: Et pourquoi tu as rajouté ?
+[Ilyas]: En fait, avant, je suis rentré au au bon moment parce qu'il y avait un pullback sur la 209. Et puis ensuite, il a cassé le pivot de la journée. Et euh voilà, en fait, une fois qu'on arrive jusqu'au la la 209, j'ai rajouté 10.
+[Belkhayate]: Et comment tu as utilisé le carnet d'ordre ?
+[Ilyas]: Euh en fait, pour le carnet d'ordre, on on regarde les volumes. Euh je regarde les Deltas, est-ce qu'on est toujours euh dans dans le négatif. Et euh aussi je je regarde les ordres en attente. Tout ce que j'ai en en en tant que vendeur, je regarde les ordres que j'ai en tant que vendeur et euh et j'essaie de regarder les les drapeaux. Les petits drapeaux comme quoi il y a plus de vendeurs qui euh donc en fait, c'est comme si le marché freine les vendeurs et ça descend.
+[Belkhayate]: Merci, merci Ilyas.
+
+[VISUEL: La fenêtre vidéo d'Ilyas se ferme, révélant à nouveau l'écran NinjaTrader complet. Le graphique Order Flow Trader montre une forte baisse du prix, formant une sorte de "U" inversé. Le prix est bien en dessous de la moyenne mobile. Le Delta est très négatif. Le profit final affiché est d'environ 5500A_VERIFIER dollars.]
+Voilà, donc euh c'était un grand plaisir. C'était l'inauguration de notre. Vous voyez, juste après, le marché est finalement remonté. Et euh et donc on est sorti vraiment ici au meilleur moment. Alors voilà, c'était une présentation sympathique du premier trade de la de la salle de marché à Marrakech de Belkhayate Method. Voilà. Donc je vous dis merci pour votre attention et je vous dis bon courage, bon trading et à très bientôt inch'Allah.
+
+[VISUEL: Écran divisé en deux. À gauche, deux personnes en costume analysant des graphiques. À droite, le logo "belkhayate method" et le texte "MERCI POUR VOTRE ATTENTION". Des éléments graphiques abstraits animent l'écran.]
+(Musique d'outro)

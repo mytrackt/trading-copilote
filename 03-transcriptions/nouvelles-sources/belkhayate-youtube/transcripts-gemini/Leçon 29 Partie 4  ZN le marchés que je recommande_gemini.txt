@@ -1,0 +1,37 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-25]
+[SOURCE: Leçon 29 Partie 4  ZN le marchés que je recommande.mp4]
+---
+[VISUEL: Écran noir avec le logo "belkhayate method" et le texte "Appliquée à l'Order Flow (Carnet d'Ordre)". En arrière-plan, une personne regarde un graphique de trading sur un téléphone et une autre personne analyse des graphiques imprimés.]
+[VISUEL: L'écran passe au texte "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE" sur fond noir avec des lignes de code stylisées.]
+[VISUEL: L'écran affiche "LEÇON - 29B" dans un cadre blanc, avec "ZN, le marché que je recommande" en dessous sur une barre bleue.]
+
+Je refais une autre vidéo pour toujours cette histoire euh sur le ZN.
+
+[VISUEL: L'écran affiche un graphique de trading de type Footprint ou Volume Profile. Le marché est le ZN (10A_VERIFIER-year Treasury Note futures) sur un timeframe de 5A_VERIFIER Range. Le graphique montre une série de barres de prix, chacune divisée en niveaux de prix avec des chiffres représentant le volume ou le delta. Les couleurs vertes indiquent une dominance acheteuse, les rouges une dominance vendeuse.
+Sur la partie gauche du graphique, on observe une poussée haussière suivie d'une divergence baissière (flèche rouge pointant vers le bas). Le prix corrige ensuite.
+Une zone horizontale bleue est tracée sur le graphique, englobant un niveau de prix où le marché a consolidé après la première divergence.
+Plusieurs flèches rouges pointent vers le bas, indiquant des signaux baissiers. Une flèche orange pointe vers le haut, indiquant une petite réaction haussière.
+Une zone horizontale rouge est tracée sur la partie droite du graphique, indiquant une forte impulsion baissière. Des flèches vertes pointent vers le haut en bas de cette zone, suggérant un support.]
+
+Où vous avez une première poussée baissière, vous avez une correction et vous avez une autre poussée baissière. Alors, parce que ça, je, vous allez comme je l'ai dit dans dans la vidéo précédente, c'est quelque chose que vous allez retrouver très très très souvent. Vous allez, moi je l'ai je l'ai trouvé toute cette année 2021-2022 et vous allez pouvoir gagner de l'argent avec ça. Regardons la situation. Voilà.
+
+[VISUEL: Le graphique est toujours affiché. Belkhayate pointe du doigt la zone de divergence baissière sur la gauche, puis la zone de consolidation sous la ligne bleue. Il trace la ligne bleue horizontale sur le graphique, couvrant une zone de prix où le marché a évolué après la première impulsion baissière.]
+
+Vous avez ici, donc le marché qui monte et une fois qu'il a fait cette cette cette divergence baissière, vous avez ici un balayage sur le carnet d'ordre. Un très très fort balayage. Autrement dit, des personnes qui sont pas des des professionnels à mon avis, qui achètent de manière agressive sur le marché. Donc ils achètent au prix euh du marché, donc au marché, pas et pas sur le carnet d'ordre en limite. Et on voit bien qu'avec beaucoup d'efforts, finalement, il y a pas tellement d'effet. Vous avez vu, il n'a même pas pris plus de un tick ici. Et surtout, on a une attaque baissière avec ce signal là.
+
+[VISUEL: Belkhayate pointe la zone sous la ligne bleue, où le prix a cassé un niveau de support. Il trace une ligne horizontale bleue plus large, englobant une zone de prix plus étendue. Il pointe ensuite vers la droite, vers une zone où le prix a chuté, puis a fait un pullback avant de chuter à nouveau. Il pointe une flèche rouge vers le bas, indiquant un signal de vente. Il pointe ensuite une flèche orange vers le haut, indiquant une petite réaction haussière, puis une autre flèche rouge vers le bas, indiquant une nouvelle impulsion baissière.]
+
+À partir de là, nous on fait ça, on vient et on fait, on va tracer ici à ce niveau-là, ici, on va tracer ce niveau-là. Pour nous, ici, quand ça va casser, c'est un signal de vente. Puisqu'on le sait, on a un premier percut, une correction, un un second percut qui lui va me permettre de rentrer. Donc on va rentrer ici à ce niveau-là et on va peut-être, on va prendre ici uniquement quatre ticks. Parce que on a ici, on voit ici que on a de la de un support ici. Donc on va prendre quatre ticks ici. Et on laisse voir le marché ce qu'il fait. On a une on a une réaction ici, on a une correction ici, vous le voyez là.
+
+[VISUEL: Belkhayate pointe la zone de pullback (flèche orange) et la réaction baissière (flèche rouge) qui suit. Il souligne la force de la poussée baissière suivante, représentée par une série de barres rouges avec des volumes importants. Il pointe du doigt les chiffres de volume/delta dans les barres, notamment les chiffres rouges élevés indiquant une forte pression vendeuse. Il met en évidence une zone de support (flèches vertes) en bas du mouvement baissier.]
+
+Et le marché va revenir pour faire son pullback. Il fait un premier pullback ici et il y a la réaction. Et c'est là que c'est intéressant. Nous avons la le pullback, la réaction dont je parle toujours, et puis ici, on a la deuxième poussée. Cette deuxième poussée est confirmée par cette de cette poussée ici qui est très très forte. Alors que sur le delta, on est encore, il y a encore des acheteurs. Mais lorsqu'on vend ici, nous, on regarde cette première poussée, elle nous fait pas peur parce qu'elle ne vient pas englober le plus haut ici. Mais surtout ici, j'ai un balayage baissier. Ce balayage baissier me permet de demander huit ticks. Maintenant, je peux demander huit ticks avec ce balayage là, puisque j'ai fait mon pullback, j'ai une attaque ici. J'ai la configuration parfaite pour pouvoir demander un minimum de huit ticks et je peux même mettre huit lots ici parce que c'est la configuration que j'attends. Et effectivement, le marché, il nous il me donne largement ces huit ticks là jusqu'ici. Vous avez vu ? Là, il y a eu encore une tentative de réaction, mais immédiatement après, il y a encore eu un ce mouvement qui confirme qu'on est vraiment baissier et on reste baissier, baissier, baissier. Et c'est ici qu'on a encaissé en fait, on on aurait pu on a encaissé ici deux fois huit ticks.
+
+[VISUEL: Belkhayate revient à l'image, parlant directement à la caméra.]
+
+Voilà, donc euh c'était c'était encore juste pour souligner ce ce cette cette configuration qui arrive assez souvent sur les marchés des bons du Trésor américains. Je vous remercie et puis à très bientôt inch'Allah pour la première pour la prochaine vidéo. Assalamou alaykoum wa rahmatoullahi ta'ala wa barakatuh.
+
+[VISUEL: L'écran passe à une image de deux personnes en costume analysant des graphiques sur une table. Le texte "MERCI POUR VOTRE ATTENTION" est affiché à droite, avec le logo "belkhayate method".]

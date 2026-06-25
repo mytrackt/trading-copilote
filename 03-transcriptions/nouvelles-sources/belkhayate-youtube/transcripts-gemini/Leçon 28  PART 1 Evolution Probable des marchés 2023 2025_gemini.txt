@@ -1,0 +1,407 @@
+[QUALITE_VIDEO: BONNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-25]
+[SOURCE: Leçon 28  PART 1 Evolution Probable des marchés 2023 2025.mp4]
+---
+Voici la transcription détaillée de la vidéo :
+
+0:00
+[VISUEL: Écran partagé. À gauche, le logo "belkhayate method" avec le texte "Appliquée à l'Order Flow (Carnet d'Ordre)" et "BELKHAYATE.NET". À droite, une personne utilise un smartphone affichant un graphique boursier.]
+
+0:02
+[VISUEL: Une personne en costume noir pointe un stylo sur un graphique boursier imprimé, posé sur une table en bois à côté d'un ordinateur portable.]
+
+0:06
+[VISUEL: Écran noir avec des lignes de code stylisées en orange et blanc. Le texte "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE" apparaît en blanc.]
+
+0:13
+[VISUEL: Écran noir avec des lignes de code stylisées. Un cadre blanc apparaît avec le texte "LEÇON -28A_VERIFIER-1A_VERIFIER". En dessous, une bannière bleue affiche "Evolution Probable des marchés 2023A_VERIFIER-2025A_VERIFIER".]
+
+0:18
+[VISUEL: Graphique NinjaTrader, marché Nasdaq (NQ 12A_VERIFIER-22A_VERIFIER) en 20A_VERIFIER Range bars. La tendance générale est baissière. Des zones de volume (rectangles transparents rouges et verts) sont visibles. Des flèches rouges (vente) et vertes (achat) indiquent des signaux. Le prix est nettement sous une moyenne mobile blanche.]
+Il est 15h22, on est le 15 septembre et le marché vient d'ouvrir il y a une heure et vous voyez ici, ça ça ça tombe. Vous voyez là, ça tombe.
+
+0:30
+[VISUEL: Le prix continue de baisser sur le graphique Nasdaq 20A_VERIFIER Range. Deux flèches rouges de vente sont visibles en haut de la tendance baissière. Le prix est bien en dessous de la moyenne mobile.]
+Et vous avez deux deux grands signaux ici de vente sur le Nasdaq en 20 Range.
+
+0:36
+[VISUEL: Le prix continue de baisser sur le graphique Nasdaq 20A_VERIFIER Range. Plusieurs flèches rouges de vente sont visibles, ainsi que quelques flèches vertes d'achat, mais la tendance baissière est dominante. Le prix est bien en dessous de la moyenne mobile.]
+Et bon, c'était pour vous faire plaisir pour ceux qui sont des amoureux du Nasdaq. Je voulais vous montrer que sur 20 Range, regardez comme c'est très très très rapide sur le carnet d'ordre.
+
+0:47
+[VISUEL: Le prix continue de baisser sur le graphique Nasdaq 20A_VERIFIER Range. Des flèches rouges de vente et vertes d'achat sont visibles. Le prix est bien en dessous de la moyenne mobile.]
+Euh, bien sûr, on peut avoir des bons signaux, par exemple ici vente, achat et puis voici vente, vente très très fort, vente ici, puis ça s'écroule. Ça s'écroule, encore ça s'écroule.
+
+0:56
+[VISUEL: Le prix continue de baisser sur le graphique Nasdaq 20A_VERIFIER Range. Une flèche verte d'achat est visible en bas de la tendance baissière, suivie d'une remontée du prix. Le prix est bien en dessous de la moyenne mobile.]
+Ici, on a une prise de profit, vous voyez, on passe de -86 à 16 et puis ça remonte. Vous voyez, ça remonte.
+
+1:04
+[VISUEL: Le prix continue de baisser sur le graphique Nasdaq 20A_VERIFIER Range. Des flèches rouges de vente et vertes d'achat sont visibles. Le prix est bien en dessous de la moyenne mobile.]
+Donc, on peut effectivement utiliser euh le Order Flow de Mike Valtos pour faire euh du du Nasdaq.
+
+1:11
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides.]
+Mais regardez si vous si vous regardez bien ici, attendez, vous allez voir.
+
+1:17
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides.]
+Regardez. Regardez comment ça va très très très vite. Regardez. Ça va vraiment très très très vite.
+
+1:29
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides. Une flèche rouge de vente apparaît en haut d'une barre.]
+Et même sur 20 Range, moi je pense que c'est pas du trading euh pour euh pourquoi on va stresser toute notre vie à faire un marché stressant, hein ?
+
+1:38
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides. Une flèche rouge de vente apparaît en haut d'une barre.]
+Pourquoi on va faire ça ? Pourquoi on n'irait pas sur des marchés tranquilles ? Vous savez que euh euh nos neurones, une une il y a une il y a une fausse idée qui dit que euh la quantité de neurones diminue avec l'âge et qu'on n'en produit pas. C'est pas vrai, il a été prouvé scientifiquement qu'on peut produire des neurones euh neuves quoi.
+
+2:00
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides. Une flèche rouge de vente apparaît en haut d'une barre.]
+Je veux dire qu'on peut et et et la seule chose qui freine la la la production de neurones, c'est le stress. Alors pourquoi on va s'engager dans une vie professionnelle stressante et diminuer euh et finalement mourir trop trop tôt ? Pourquoi on meurt ? C'est parce que on ne produit pas suffisamment, on ne produit plus de neurones.
+
+2:22
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides. Une flèche rouge de vente apparaît en haut d'une barre.]
+Regardez ça. Ça c'est en temps réel, hein, on est en temps réel. Regardez à quel point euh le le Nasdaq est stressant.
+
+2:30
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides. Une flèche rouge de vente apparaît en haut d'une barre.]
+Bon, c'est vrai qu'ici, quand il a fait ce pic là, on aurait pu en profiter, et cetera, mais c'est pas tout le temps. Il fait pas ça tout le temps.
+
+2:38
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range est zoomé, montrant les détails des barres de prix avec les volumes et deltas. Le prix est en tendance baissière, avec des mouvements rapides. Une flèche rouge de vente apparaît en haut d'une barre, suivie d'une nouvelle flèche rouge.]
+Là, pour le moment, voilà, il redonne encore un autre signal de vente sur 20 Range bar. Donc sur 20 Range bar, ça veut dire ça veut dire qu'on est euh dans dans une volatilité sur le Nasdaq.
+
+2:51
+[VISUEL: Le graphique NinjaTrader affiche le marché Crude Oil (CL 10A_VERIFIER-22A_VERIFIER) en 10A_VERIFIER Range bars. La tendance générale est haussière, puis se retourne à la baisse. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+On va regarder le le pétrole.
+
+2:54
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est haussière, puis se retourne à la baisse. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Regardez sur le pétrole, ça marche bien le carnet d'ordre sur le pétrole. Ça c'est le le volume profile. On va l'enlever, hein, c'est pas la peine.
+
+3:01
+[VISUEL: Le menu "Display" est ouvert, montrant les options d'affichage. L'option "Volume Profile" est décochée.]
+
+3:06
+[VISUEL: Le menu "Display" est ouvert, montrant les options d'affichage. L'option "Volume Profile" est décochée.]
+
+3:11
+[VISUEL: Le menu "Display" est ouvert, montrant les options d'affichage. L'option "Volume Profile" est décochée.]
+Ah oui, il il il s'est multiplié euh voilà.
+
+3:17
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est haussière, puis se retourne à la baisse. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile n'est plus affiché.]
+Donc regardez les signaux ici d'achat sur le pétrole, puis ensuite, hop hop hop hop hop, ça monte et puis là, on a la le drapeau rouge et à la perfection là. Là vraiment, c'est vous pouvez pas dire que c'est pas vous avez pas vous avez pas été averti. Vous achetez pile poil ici, ça monte, ça monte, vous doublez, vous doublez.
+
+3:37
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est haussière, puis se retourne à la baisse. Des flèches vertes (achat) et rouges (vente) sont visibles. Le prix est en dessous de la moyenne mobile.]
+Et ici, euh 15 à 15h18, vous avez un signal de vente. Vous vous attendez de la confirmation, elle arrive et puis pouf, ça tombe.
+
+3:46
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est baissière. Des flèches vertes (achat) et rouges (vente) sont visibles. Le prix est en dessous de la moyenne mobile.]
+Donc là, en temps réel sur 10 euh 10 Range bar, on arrive sur ce support qui a été tracé automatiquement par le logiciel Order Flow.
+
+3:55
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est baissière. Des flèches vertes (achat) et rouges (vente) sont visibles. Le prix est en dessous de la moyenne mobile.]
+Regardez-moi ce ce ici. Donc on a et on est en train de rebondir du sud, mais c'est quand même tradable. Je veux dire sur le le le le pétrole, c'est tradable.
+
+4:09
+[VISUEL: Le graphique NinjaTrader affiche le marché Wheat (ZW 12A_VERIFIER-22A_VERIFIER) en 10A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+On va jeter un coup d'œil sur le blé. Le blé également sur 10 Range bar.
+
+4:14
+[VISUEL: Le graphique Wheat 10A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+On voit que c'est tradable. On a un signal très puissant ici de basculement et ensuite on passe dans le vert avec 49 Delta et puis ça part et puis pile poil ici, nous avons le balayage baissier cette fois-ci. Quelqu'un est venu balayer ici, le marché tombe.
+
+4:31
+[VISUEL: Le graphique Wheat 10A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le prix est en dessous de la moyenne mobile.]
+Et là, pour le moment, regardez, c'est tout à fait tradable. D'accord ? On va pas trader n'importe quoi, on va trader dans des moments euh où on va avoir le contexte, on va on va étudier le contexte et on va trader.
+
+4:49
+[VISUEL: Le graphique TradingView affiche le marché ZN (10A_VERIFIER-year T-Bond) en Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Regardons maintenant ici euh ce que fait le ZN.
+
+4:51
+[VISUEL: Le graphique NinjaTrader affiche le marché ZN (10A_VERIFIER-year T-Bond) en 5A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Le ZN, regardez, c'est beaucoup plus calme.
+
+4:56
+[VISUEL: Le graphique NinjaTrader affiche le marché ZN (10A_VERIFIER-year T-Bond) en 5A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Là, franchement, ça n'a rien à voir avec euh avec avec le Nasdaq.
+
+5:01
+[VISUEL: Le graphique NinjaTrader affiche le marché S&P 500A_VERIFIER (ES 12A_VERIFIER-22A_VERIFIER) en 5A_VERIFIER Range bars. La tendance est haussière, puis se retourne à la baisse. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Ici, nous avons euh le S&P.
+
+5:06
+[VISUEL: Le graphique S&P 500A_VERIFIER 5A_VERIFIER Range bars. La tendance est haussière, puis se retourne à la baisse. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+On voit sur le S&P qu'on a eu euh de bons mouvements sur le S&P.
+
+5:13
+[VISUEL: Le graphique S&P 500A_VERIFIER 5A_VERIFIER Range bars. La tendance est haussière, puis se retourne à la baisse. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Euh ici et ici, on a eu la vente qui a été donnée sur le S&P tranquillement et on est toujours en train de proposer la vente sur le S&P en temps réel. Vous voyez, on a quand même une belle visibilité, c'est tranquille euh sur 5 Range bar.
+
+5:27
+[VISUEL: Le graphique NinjaTrader affiche le marché ZB (30A_VERIFIER-year T-Bond) en 4A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Et jeter un coup d'œil sur euh le ZB. Le ZB, voilà, c'est il y a pas de stress.
+
+5:36
+[VISUEL: Le graphique NinjaTrader affiche le marché ZB (30A_VERIFIER-year T-Bond) en 4A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+
+5:38
+[VISUEL: Le graphique NinjaTrader affiche le marché Nasdaq (NQ 12A_VERIFIER-22A_VERIFIER) en 20A_VERIFIER Range bars. La tendance générale est baissière. Des flèches rouges (vente) et vertes (achat) sont visibles. Le prix est en dessous de la moyenne mobile.]
+Donc on revient sur le Nasdaq. Le Nasdaq est en train de tomber, il continue à là, pour le moment, on voit bien que il y a une panique à bord sur le Nasdaq.
+
+5:49
+[VISUEL: Le graphique Nasdaq 20A_VERIFIER Range bars. La tendance générale est baissière. Des flèches rouges (vente) et vertes (achat) sont visibles. Le prix est en dessous de la moyenne mobile.]
+Alors, je voulais euh profiter de cette vidéo 21 pour euh vous dire que si vous voulez gagner de l'argent tranquillement sans stresser, on va on va aller ici.
+
+6:00
+[VISUEL: La fenêtre "Data Series" est ouverte. Le marché "NQ 12A_VERIFIER-22A_VERIFIER" est sélectionné. Le type de barre est "Range", la valeur est "20A_VERIFIER".]
+On va euh mettre par exemple le Nasdaq.
+
+6:04
+[VISUEL: La fenêtre "Data Series" est ouverte. Le marché "NQ 12A_VERIFIER-22A_VERIFIER" est sélectionné. Le type de barre est "Range", la valeur est "20A_VERIFIER". Le menu déroulant "Type" est ouvert, montrant les options de timeframe.]
+Voilà, et on va le mettre on va le mettre en par jour. D'accord ?
+
+6:10
+[VISUEL: La fenêtre "Data Series" est ouverte. Le marché "NQ 12A_VERIFIER-22A_VERIFIER" est sélectionné. Le type de barre est "Day", la valeur est "1A_VERIFIER". Le champ "Days to load" est réglé sur "2000A_VERIFIER".]
+Et on va mettre 4000 jours. Voilà, comme ça.
+
+6:14
+[VISUEL: Le graphique TradingView affiche le marché Nasdaq (NQ 12A_VERIFIER-22A_VERIFIER) en Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Comme ça, on est bien. Voilà.
+
+6:20
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Alors là, on regarde, voilà. Ça c'est ce que fait ça c'est le début de l'année. Vous voyez, c'est ici.
+
+6:27
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Alors, la situation est comment ? La situation, le marché est baissier depuis le début de l'année. Et donc, avant de commencer même le trading sur n'importe quel marché, il faut il faut il faut que vous ayez une visibilité sur le contexte général. Que sont que que sont en train de faire les marchés ?
+
+6:47
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Et ici, je sais pas si vous avez suivi mes vidéos euh sur YouTube, mais à ce niveau-là, j'ai annoncé que c'était la fin ici.
+
+7:05
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+À l'avance la fin de la la fin de la hausse du Nasdaq. Je vais vous donner vous pouvez retrouver cette vidéo là sur YouTube. Et ensuite, le marché n'a fait que tomber.
+
+7:25
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Mais pourquoi il y a eu il y a eu ici une certitude ? C'est parce que je vais vous allez voir, j'ai on a regardé euh le ratio des options, des puts et des calls. On a il y a beaucoup d'éléments qui font que c'était la fin ici. Bon, ensuite, les marchés tombent. Alors, est-ce que les marchés vont continuer à tomber ?
+
+7:50
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Ce n'est que le début. On est qu'à 20, 25 % de ce qui attend le marché financier. Donc, ça bien sûr, c'est c'est un avis personnel, mais c'est je ne suis pas le seul dans le monde à pouvoir dire que les marchés, les indices boursiers sont désormais orientés vers la vers le bas.
+
+8:10
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Donc euh ils vont continuer à baisser et et on peut s'attendre à ce qu'il arrive bien plus bas que ce niveau-là. Ici, jusqu'au plus le plus bas du Covid. Ça peut aller bien plus bas que le Covid parce que toute cette partie là au-dessus du Covid, c'est juste du cash qui a été injecté à à fond par la panique, par plein de raisons, mais on va pas rentrer dans les détails du fondamental, et cetera.
+
+8:27
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Une ligne de tendance baissière est tracée.]
+On va dire tout simplement que là, nous sommes sur une tendance qui se propose d'être encore euh elle n'a pas fini en fait. On fait ça.
+
+8:34
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+On fait ça. Et vous voyez là, voilà, on est dans ce couloir là sur le Nasdaq et on peut s'attendre à ce que sur les deux à trois prochaines années, je vous propose de vendre les indices boursiers tranquillement, sans faire de bruit.
+
+8:55
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Euh ce que je veux dire par là, c'est que euh les analyses du contexte Daily et Weekly nous montrent que sur les indices boursiers, que ce soit le Nasdaq, le S&P, le Dow Jones, le DAX, l'Euro Stoxx, tous les indices boursiers sont désormais maintenant orientés vers le bas.
+
+9:18
+[VISUEL: Le graphique Nasdaq Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Donc, ça c'est un premier point. On va étudier les bons de trésor. Les bons de trésor, eux, on va les regarder.
+
+9:27
+[VISUEL: La fenêtre "Data Series" est ouverte. Le marché "ZN 12A_VERIFIER-22A_VERIFIER" est sélectionné. Le type de barre est "Day", la valeur est "1A_VERIFIER". Le champ "Days to load" est réglé sur "2000A_VERIFIER".]
+On va par exemple prendre le ZB.
+
+9:33
+[VISUEL: La fenêtre "Data Series" est ouverte. Le marché "ZB 12A_VERIFIER-22A_VERIFIER" est sélectionné. Le type de barre est "Day", la valeur est "1A_VERIFIER". Le champ "Days to load" est réglé sur "2000A_VERIFIER".]
+Voilà, et on va mettre 4000 jours.
+
+9:40
+[VISUEL: Le graphique TradingView affiche le marché ZB (30A_VERIFIER-year T-Bond) en Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+On va regarder ce que fait le ZB. Le ZB, c'est le bon de trésor de 30 ans. Donc c'est très très important l'évolution de ce marché-là. Normalement, quand les marchés allaient bien, quand il y avait des vases communiquant entre les obligations, les actions, les matières premières, les devises, et cetera, quand un un quand un compartiment monte, l'autre baisse parce que ça servait de protection. J'achète des actions, je me protège avec les les les obligations ou ou vice versa.
+
+10:12
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Mais lorsqu'on a imprimé de l'argent à fond la caisse, alors euh tout montait, tout montait. Tous les tous l'or montait, les obligations montaient, euh les les les les actions montaient et on voyait plus vraiment les gens n'avaient plus peur parce que en fait, il y avait tellement d'argent sur les marchés, hein, que tout monte. Maintenant que on est en train d'assécher la liquidité sur les marchés financiers, euh on est obligé parce que c'est cette liquidité qui a qui provoque l'inflation. Et l'inflation vient bloquer, c'est un grain de sable très très très pernicieux qui bloque l'économie mondiale et qui appauvrit le monde.
+
+11:00
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Donc, on ne peut pas laisser l'inflation s'installer et donc on doit retirer le cash qu'on a imprimé euh en panique. Et donc là, à partir de là, vous voyez là, les bons de trésor tombent.
+
+11:14
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Une ligne de tendance baissière est tracée.]
+Et nous sommes dans une dans une situation claire. Attendez, je pense que tout le monde voit ce que je vois, à moins que je me trompe.
+
+11:24
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Mais lorsque on fait ça, voilà. On voit bien que nous sommes dans un couloir baissier, de même que les indices. Donc, encore une fois, euh je je voulais vous montrer ces ces éléments-là pour qu'ensuite vous ayez une idée globale quand vous allez faire du trading, pourquoi vous allez chercher à acheter un marché qui est qui plonge.
+
+11:54
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Donc, depuis le début de l'année, depuis depuis ici, regardez, depuis le début de l'année, ici. Je je je recommande à tous mes étudiants de ne faire que vendre les bons de trésor et rien d'autre.
+
+12:13
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Quand vous voyez qu'il y a un signal d'achat, comme ici, vous faites rien. Mais quand vous attendez et lorsque vous voyez qu'il remonte pile poil pour faire un un ressort, pour faire un pullback pile poil sur la 209, c'est de l'argent gratuit. On vous donne de l'argent là.
+
+12:32
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+De même qu'ici, quand ça remonte ici, que ça veut taquiner ici, que ça vient ici et que ça montre qu'il y a plus de force, ici, vous vendez. Donc, dans tous les cas de figure, vous fermez les yeux, vous vendez les ZN, vous avez 80 % de chance d'avoir raison.
+
+12:48
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Et c'est pas fini, c'est sur les les prochaines années, on va on va atteindre des niveaux très bas sur le sur ces marchés-là.
+
+12:57
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Alors, donc, je répète, les indices boursiers d'ici jusqu'à 2026, ne cherchez pas absolument à dire tiens, les marchés vont remonter, et cetera. Nous sommes vraiment dans une phase de correction qui va pas durer un mois, qui va pas durer 6 mois. Le marché a exagéré pendant 20 ans. Donc, maintenant, on va on peut s'attendre à une correction qui va durer au moins 3 ans à 4 ans.
+
+13:25
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Bon, évidemment, les marchés sont imprévisibles. Bien sûr, et on ne peut jamais prévoir ce que l'être humain lui-même va vouloir faire. Mais aujourd'hui, force est de constater que nous avons affaire à deux marchés qui sont baissiers. Les marchés des indices boursiers, donc des actions, et les marchés des bons de trésor qui normalement devraient remonter pour servir de couverture.
+
+13:55
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Mais aujourd'hui, plus personne ne vient se cacher dans des bons de trésor parce que ces bons de ces bons de trésor vous promettent 1, 2, 3 %, alors que l'inflation, elle est de 8 %, 9 % et qui monte à 10 %. Donc, à quoi ça sert de placer de l'argent à 1 %, alors que vous perdez déjà 9 % de notre côté ? Donc, les bons de trésor ne sont pas compétitifs, il va falloir monter les taux. Et si on monte les taux, plus on monte les taux, plus les bons tombent.
+
+14:25
+[VISUEL: Le graphique ZB Daily. La tendance générale est baissière depuis le début de l'année. Une moyenne mobile blanche est visible. Le volume est affiché en bas. Deux lignes de tendance baissière parallèles sont tracées, formant un canal baissier.]
+Donc, euh euh donc ça c'est quand même très très important. Je voulais vous montrer cette situation-là. Maintenant, euh on va peut-être regarder un marché très important qui est l'or qui est qui est le dollar.
+
+14:44
+[VISUEL: Le graphique TradingView affiche le marché Dollar Index (DX 12A_VERIFIER-22A_VERIFIER) en Daily. La tendance générale est haussière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Et je je suis pas sûr que je vais l'avoir ici, mais si je l'ai, c'est tant mieux. Alors, le dollar lui, c'est c'est une devise qui est en train d'exploser à la hausse.
+
+14:58
+[VISUEL: Le graphique Dollar Index Daily. La tendance générale est haussière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Donc là, vous avez vu, c'est vraiment carrément l'explosion du dollar, hein, depuis depuis, regardez ça. Le le dollar, il a carrément explosé. Mais à quoi est dû cette cette explosion ?
+
+15:15
+[VISUEL: Le graphique Dollar Index Daily. La tendance générale est haussière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Et d'abord parce que l'euro et le yen sont très faibles parce que eux, ils ont voulu aussi print aussi printé de l'argent, imprimé de l'argent, mais euh l'euro il a montré toutes ses faiblesses et il n'a même pas raison d'être. Finalement, l'euro, il va sur les deux années, maximum, il lui reste à vivre. Et puis après des des des pays européens vont sortir de l'euro. Je ne pense pas personnellement que l'euro va tenir longtemps.
+
+15:45
+[VISUEL: Le graphique Dollar Index Daily. La tendance générale est haussière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Euh et pour euh et donc là, les gens sont en train de sortir. Quand vous voyez cette force là sur le dollar, cela signifie qu'il y a de la liquidité qui sort. Les gens les gens liquident, ils ont du dollar. C'est pour ça que ça explose comme ça le dollar. Mais à un moment donné, vous avez vu comment il a bien respecté la 209, c'est extraordinaire. Regardez-moi ça. Une fois qu'il a cassé, il est revenu faire un ressort une fois, deux fois, puis il s'est envolé.
+
+16:12
+[VISUEL: Le graphique Dollar Index Daily. La tendance générale est haussière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Donc, on a affaire à un à des sur les sur les devises, c'est clair. On a un dollar puissant et tout le reste, c'est du papier qui sert pratiquement à rien pour le moment. Mais on a bien vu aujourd'hui que on a une situation historique qui est que les Russes et les Chinois ne cachent plus, ils le disent officiellement, qu'ils vont faire des business entre eux sans passer par le dollar.
+
+16:40
+[VISUEL: Le graphique Dollar Index Daily. La tendance générale est haussière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Ça a pas l'air vraiment de de de faire un grand bruit en Europe, mais ça reste quand même la plus grande information depuis les 40 dernières années parce que euh c'est quand même et on le voit maintenant sur les opérations euh en dollar dans le monde, ils sont en en diminution permanente maintenant depuis quelques mois déjà.
+
+17:03
+[VISUEL: Le graphique Dollar Index Daily. La tendance générale est haussière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Donc, on se dirige vers un autre système monétaire, c'est certain. Donc, euh et ça il faut il faut il faut l'avoir ce contexte, il faut voir ce contexte dans la tête.
+
+17:13
+[VISUEL: Le menu déroulant "Instrument" est ouvert, montrant les options de marché. "Euro FX Futures" est sélectionné.]
+Si vous mettez par exemple ici l'euro, vous allez vous allez vous allez voir que il y a plus photo.
+
+17:21
+[VISUEL: Le graphique TradingView affiche le marché Euro FX Futures (6E 12A_VERIFIER-22A_VERIFIER) en Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Regardez l'euro, c'est carrément la mort. La mort de l'euro. Donc, il n'y a aucune, mais alors aucune information, aucune décision qui peut faire que l'euro puisse remonter sur ces 1,34, et cetera. Il y a plus rien.
+
+17:40
+[VISUEL: Le graphique Euro FX Futures Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Euh donc euh voici une monnaie qu'il faut pas chercher à à acheter, hein, mais si vous avez un signal vendeur, vous vendez parce que ça peut aller jusqu'à 0,50.
+
+17:53
+[VISUEL: Le graphique Euro FX Futures Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Bon, peut-être pas là, ils vont peut-être que ils vont clôturer, ils vont arrêter et tout ça avant bien avant. Donc, nous avons euh les indices qui sont baissiers. Nous avons les obligations qui sont baissières, les bons de trésor.
+
+18:10
+[VISUEL: Le graphique Euro FX Futures Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+On va regarder pour FGBM, le bon de trésor allemand. Qu'est-ce qu'il fait ? Il est haussier, il est baissier. Vous imaginez bien que le FGBM sera dans une situation il y a pas photo là.
+
+18:27
+[VISUEL: Le graphique FGBM (German Bund) Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Regardez comment il respecte à la perfection le la la 209 en Daily, c'est-à-dire que il vient ici faire pile poil le pullback, boom, il s'écroule. Il vient faire ici ce qu'on appelle ça le baiser du serpent, du cobra. C'est-à-dire vous venez juste ici, touchez ici, pam, et vous partez là. Et encore ici, et pam. Donc là, qui c'est qui va vouloir acheter ce marché-là sur les années à venir ?
+
+18:54
+[VISUEL: Le graphique FGBM Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Les les bons de trésor européens ne peuvent ils doivent bénéficier de la confiance, mais ils n'ont plus de confiance. Les gens ne veulent plus investir en Europe. Il y a un basculement sur l'Asie aujourd'hui, c'est clair. Donc, euh nous en tant que trader, on va pas euh on n'a pas on va pas jouer à on est anti-américain ou pas anti-américain, anti-russe ou anti pas anti-russe, et tout ça. Ça, ça ne nous regarde pas.
+
+19:21
+[VISUEL: Le graphique FGBM Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Comme disaient les les inconnus, ça ne nous regarde pas. Nous, notre objectif, c'est de pouvoir gagner de l'argent pour envoyer nos enfants faire les meilleures études possibles et nos parents qu'on les pour les envoyer à la Mecque ou là où ils ont envie d'être. C'est ça notre objectif, nous.
+
+19:40
+[VISUEL: Le graphique FGBM Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Donc, notre objectif, c'est de regarder ce que font les marchés et on ne fait pas de politique. On n'a pas d'idéologie, ça sert à rien. C'est pas ça qui va vous faire gagner de l'argent. Donc, pour le moment, le bon allemand qui est donc l'obligation la plus importante en Europe, cette obligation est en train de baisser et baisser sérieusement.
+
+20:06
+[VISUEL: Le graphique FGBM Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Et son potentiel de baisse est très élevé. Si je mets si je mets Weekly, et que je mets euh on va voir, je sais pas si je vais avoir euh plus de data, mais on va voir, on va voir.
+
+20:24
+[VISUEL: Le graphique FGBM Weekly. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Ok, donc vous voyez que on a un potentiel de baisse très important. On on peut venir, il y a on a peut-être 50 % encore à faire. Donc, il y a un potentiel très important. Et pourquoi je vous en parle ? C'est parce que la méthode Belkhayate, elle est basée sur le fait de ne pas stresser.
+
+20:47
+[VISUEL: Le graphique FGBM Weekly. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Elle est basée sur le fait de de de faire cette position du judo. Vous rappelez ? Vous vous rappelez au début, vous avez un judoka qui pèse 200 kg et vous vous pesez 80 kg et vous pouvez le battre parce que vous le laissez venir à vous. Là, le marché est en train de tomber, on le laisse venir à nous. Si nous, on veut l'acheter, on on est contre la force d'inertie.
+
+21:12
+[VISUEL: Le graphique FGBM Weekly. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Donc, euh le trading sur les années à venir, en tout cas, de 2022, aujourd'hui 15 septembre 2022, jusqu'en 2025, je pense que il sera vraiment pas compliqué de gagner de l'argent sur les marchés financiers en respectant simplement ce qui sont en train de faire dans le contexte général en prenant du recul. On voit bien que il y a quelque chose qui ne va plus dans le système financier international, que maintenant, ils ont plié un genou, mais il reste ils vont encore plier. Donc, nous, on va utiliser le carnet d'ordre pour juste optimiser les entrées, sachant que pour le pétrole, par exemple, là, pour le pétrole, je je vous propose.
+
+22:13
+[VISUEL: Le graphique NinjaTrader affiche le marché Crude Oil (CL 10A_VERIFIER-22A_VERIFIER) en 10A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Moi, pour le pétrole et pour les les tout ce qui est gaz naturel, pétrole, ce sont des des des marchés que je je à mon avis, ça va être haussier.
+
+22:27
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Et par contre, les matières premières, elles vont être très volatiles. Vous avez entendu parler, vous avez entendu dire Poutine que il avait décidé d'envoyer 60 navires en Afrique, mais sur les 60, il n'y en a que deux qui sont arrivés en Afrique. Les 58 autres navires ont été euh euh distribués et plus ou moins en Europe, alors que alors que c'était pas prévu pour l'Europe puisque et parce qu'il y a la guerre. Bon.
+
+23:05
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Donc, on voit et donc il a il a menacé d'arrêter d'envoyer de la nourriture, des des céréales en Afrique. Donc, ça explique pourquoi les céréales montent. Mais en réalité, nous gardons cette idée générale euh comme quoi euh les euh indices à la baisse, les bons de trésor à la baisse, les matières premières d'énergie à la hausse, les autres très volatiles, l'or et l'argent devraient remonter à la hausse. Et puis euh les indices les devises, c'est très simple. Euh pour le moment, elles vont toujours être faibles par rapport au dollar jusqu'au jour où le dollar va courber l'échine et là, plus rien ne va l'arrêter la chute brutale du dollar.
+
+23:46
+[VISUEL: Le graphique Crude Oil 10A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Voilà, donc euh c'était euh la vidéo 21 pour partager avec vous en temps réel ce qui se passe sur les marchés.
+
+23:54
+[VISUEL: Le graphique TradingView affiche le marché Nasdaq (NQ 12A_VERIFIER-22A_VERIFIER) en Daily. La tendance générale est baissière. Une moyenne mobile blanche est visible. Le volume est affiché en bas.]
+Regardons encore ici euh le le Nasdaq.
+
+23:59
+[VISUEL: Le graphique NinjaTrader affiche le marché Nasdaq (NQ 12A_VERIFIER-22A_VERIFIER) en 20A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Regardez, vous voyez, c'est c'est très très très euh volatile. Vous voyez, et et moi je je trouve que ça vraiment c'est je sais pas si vous êtes d'accord avec moi, mais c'est pas du trading. C'est pas une vie de de de chercher à voir qu'est-ce qu'il va faire le le le le Nasdaq. Moi, je préfère venir sur des marchés comme le ZB.
+
+24:20
+[VISUEL: Le graphique NinjaTrader affiche le marché ZB (30A_VERIFIER-year T-Bond) en 4A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Et regardez le ZB, vous pouvez gagner, vous savez que si vous arrivez à gagner deux trois ticks de manière constante sur le ZB, vous pouvez acheter un hôtel. Parce que je je vous le répète, cette phrase, elle va vous surprendre.
+
+24:36
+[VISUEL: Le graphique ZB 4A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Vous voyez ici, entre ce point-là et ce point-là, il y a un tick. 131,25 entre 131,24, il y a un tick. Si vous êtes capable de pouvoir prendre régulièrement un tick sur ces marchés-là de manière constante, vous allez finir par pouvoir acheter un hôtel. Parce que ZB, un tick, ce tick là, c'est 31,25.
+
+25:05
+[VISUEL: Le graphique ZB 4A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Donc, vous pouvez vous pouvez aller très très loin, construire votre avenir professionnel grâce grâce à un trading sur un marché qui n'est pas compliqué.
+
+25:15
+[VISUEL: Le graphique ZB 4A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche.]
+Là, pour le moment, voyez par exemple ici, moi je serai acheteur vendeur. Vendeur parce que j'ai un drapeau ici qui vient de sortir. Voilà, tout à l'heure, j'ai eu ce drapeau, il m'a donné 1 2 3 4 10 ticks. Ce drapeau là m'a donné 10 ticks. D'accord ? Pour le moment, ici, dans cette configuration là, vous voyez, vous voyez ici le le volume profile qui est donné par le logiciel Order Flow. Ici, là, on a euh attendez, je vais vous le tracer.
+
+25:46
+[VISUEL: Le graphique ZB 4A_VERIFIER Range bars. La tendance est latérale avec des mouvements haussiers et baissiers. Des flèches vertes (achat) et rouges (vente) sont visibles. Le volume profile est affiché sur le côté gauche. Une ligne horizontale est tracée sur le graphique.]
+Ici, ici, on a un une une résistance. Regardez, non seulement c'est le volume profile qui vous la donne, mais c'est également le le carnet d'ordre ici parce que il y a le POC que je vous ai appris, un POC ici, un POC là, un POC là. Donc, cette zone-là, c'est une zone euh très intéressante. On peut vendre, on est protégé. Si le marché vraiment casse cette zone-là, ben on est dehors. Mais pour le moment, depuis que je vous parle, hein, nous avons déjà gagné deux ticks, puisque nous venons d'avoir un autre euh nous venons d'avoir un autre drapeau qui vient de partir. Mais on est en train de faire 274, c'est le chiffre du du ratio. Ce 274 en plus signifie attention, il y a peut-être quelque chose qui va se passer, ça va pousser. Il a là, il va y avoir de la poussée, il y a du volume là qui est arrivé. Et il y a une percute ici qui vient de se prononcer. Donc, là, notre position vendeur, on est tranquille. On peut attendre si vous voulez, bien que déjà c'est une vidéo assez longue. Mais je trouve que c'est c'est c'est passionnant, c'est c'est vraiment magnifique. Donc, toute la zone qui est importante ici, elle est donnée par ce volume profile là. Ici aussi également, vous pouvez là euh là voilà, ici. À partir de là, voilà, vous avez ici votre zone, c'est-à-dire que ici, tout le monde est d'accord. Ah, vous voyez ? Regardez, regardez-moi ça. C'est pas magnifique. Là, on est en temps réel, hein. Là, on est en temps réel, il est 14h49 exactement. Voilà, et et on vient d'encaisser, on est en train de gagner là sur sur cette baisse là du ZB. Alors, ne me dites pas que ce trading là n'est pas facile. Regardez. Tout est en place. Vous avez le drapeau, un autre drapeau qui vous dit, rassurez-vous, il n'y a que des hypercutes baissiers et et et sur le sur le gâteau, nous avons des du Delta baissier, -200, -174, -50. Voilà, donc ici, par exemple, vous pouvez encaisser votre gain. Vous voyez, boom, il vous dit ah, on passe de -6, et cetera. On s'en fout, on prend, il y a enfin ici un premier une première tentative. Vous voyez ? Donc, on voit bien, on voit clairement ce qui est en train de se passer. Je sais pas si vous êtes comme moi, mais franchement, on voit bien. On voit bien que là, mais nous sur le trading du ZB, on ne cherche pas à prendre des grands mouvements. On prend 3, 4, 5 ticks et et et c'est déjà magnifique. Parce que si vous apprenez à prendre ces ticks là comme ça, vous après, vous sortez. Là, bien sûr, qu'il faut sortir parce que d'abord le Delta est revenu là, il y a un certain équilibre. On s'amuse pas. On encaisse, on attend de voir ce qui se passe, sachant que euh sachant que si le marché vient casser cette ligne là, il va s'écrouler là. Il va accélérer s'il casse cette ligne. Vous voyez ici, il y a plus rien. Il est volume, il y a il y a pas grand-chose. Donc, sur le volume profile, quand euh vous n'avez pas de volume, comme ici, par exemple, quand le marché vient où il y a pas de volume, il va très très vite. Et là, quand il y a des volumes ici, il va moins vite. D'accord ? Donc, là, pour le moment, euh voilà, on est sorti sur le ZB. Voilà, je vais pas je vais pas vous retenir plus longtemps pour cette vidéo. J'espère que vous avez aimé cette vidéo. Euh et ça vous donne une idée un petit peu de de comment on peut euh on peut trader de manière facile. Il faut qu'on évite d'aller là où il y a des crocodiles. Il faut qu'on évite d'aller dans des endroits qui sont stressants. Merci encore une fois.
+
+29:37
+[VISUEL: Écran partagé. À gauche, deux personnes en costume discutent devant des graphiques. À droite, le logo "belkhayate method" avec le texte "MERCI POUR VOTRE ATTENTION".]

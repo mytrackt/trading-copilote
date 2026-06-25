@@ -1,0 +1,177 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: Leçon 1  Du Métier de Trader.mp4]
+---
+[VISUEL: Une personne en costume noir, la main droite tenant un stylo blanc, pointe un graphique financier affiché sur une feuille de papier. Un ordinateur portable est visible en arrière-plan sur une table en bois. Le graphique montre des bougies rouges et vertes, avec des lignes de tendance et des indicateurs. Des éléments graphiques blancs et bleus sont superposés sur la vidéo.]
+
+00:00 [Musique douce et entraînante]
+
+[VISUEL: Écran noir avec des lignes lumineuses dorées et des formes géométriques blanches et bleues. Le texte "BELKHAYATE" apparaît en blanc, puis "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE" s'affiche en blanc.]
+
+00:02 "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE"
+
+[VISUEL: Le texte "D'ORDRE" disparaît. Le texte "LEÇON -1A_VERIFIER" apparaît dans un cadre blanc, puis "Présentation Du Métier de Trader" apparaît en bleu en dessous.]
+
+00:08 LEÇON -1
+Présentation Du Métier de Trader
+
+[VISUEL: El Mostafa Belkhayate apparaît à l'écran, souriant, devant une bibliothèque remplie de livres. Il porte un costume noir et une chemise blanche.]
+
+00:15 Bonjour, bonjour tout le monde. Bienvenue à Belkhayate Method appliquée au carnet d'ordre.
+
+[VISUEL: Écran noir. En haut à gauche, le logo "Belkhayate Method" en bleu et blanc. En haut à droite, une petite vignette de El Mostafa Belkhayate. Au centre, le texte "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE" en blanc. En dessous, "PROFESSEUR : EL MOSTAFA BELKHAYATE" en jaune, puis "CHAMPION DU MONDE DE TRADING 1999A_VERIFIER - 2006A_VERIFIER - 2012A_VERIFIER" en blanc.]
+
+00:22 Votre professeur, c'est Mostafa Belkhayate, moi-même. Et j'ai le plaisir de vous enseigner les principes de base de la méthode Belkhayate, d'abord sous forme de 14 vidéos.
+
+[VISUEL: Le texte "Les Principes de Base de Belkhayate Method (14A_VERIFIER vidéos)" apparaît en haut. En dessous, une liste de 14A_VERIFIER leçons avec des coches bleues :
+Leçon 1A_VERIFIER : Du Métier de Trader
+Leçon 2A_VERIFIER : De la plateforme NinjaTrader
+Leçon 3A_VERIFIER : De l'Analyse Technique d'un Marché
+Leçon 4A_VERIFIER : De l'Analyse Graphique d'un Marché
+Leçon 5A_VERIFIER : Des Niveaux de Fibonacci
+Leçon 6A_VERIFIER : Couloir Horaire et Zones d'Accalmie
+Leçon 7A_VERIFIER : Les 3A_VERIFIER Signaux Belkhayate : Squeeze, Impulsion et Ressort sur le carnet
+Leçon 8A_VERIFIER : La ligne qui raconte l'histoire
+Leçon 9A_VERIFIER : Sur la Puissance des Couloirs
+Leçon 10A_VERIFIER : L'Analyse du Contexte sur 15A_VERIFIER minutes
+Leçon 11A_VERIFIER : Les bougies japonaises
+Leçon 12A_VERIFIER : Graphique en Range
+Leçon 13A_VERIFIER : Les marchés « Futures »
+Leçon 14A_VERIFIER : Trader les marchés les plus faciles]
+
+00:40 Nous allons étudier d'abord ce que c'est le métier de trader. Ces premières vidéos sont destinées à vous initier au trading en général, vous faire comprendre l'intérêt du trading. Et ensuite, on va étudier la plateforme NinjaTrader parce que elle est essentielle pour que vous puissiez réussir les tests et également utiliser des systèmes automatiques de trading, et cetera. Donc c'est quand même une plateforme indispensable si vous voulez avoir une approche professionnelle. Et on va bien sûr jeter un coup d'œil sur ce qui compte dans l'analyse technique et l'analyse graphique, l'essentiel en fait du chartisme. On va étudier, vous voyez ici, Fibonacci, les couloirs horaires, en fait la ligne qui raconte l'histoire. En fait, voilà, donc ça c'est 14 vidéos qui vont vous mettre le pied à l'étrier.
+
+[VISUEL: La liste des leçons 1A_VERIFIER à 14A_VERIFIER reste à gauche. À droite, une nouvelle liste apparaît : "Application de Belkhayate Method au Carnet d'Ordre (20A_VERIFIER vidéos)".
+Leçon 15A_VERIFIER : Tests de Trading ou ouvrir un compte de Trading ?
+Leçon 16A_VERIFIER : Lire le Carnet d'Ordre
+Leçon 17A_VERIFIER : Le déséquilibre sur les volumes
+Leçon 18A_VERIFIER : Le point de Contrôle
+Leçon 19A_VERIFIER : Le Delta
+Leçon 20A_VERIFIER : Le Drapeau de Rejet
+Leçon 21A_VERIFIER : La Zone d'Absorption
+Leçon 22A_VERIFIER : Balayage sur le Carnet
+Leçon 23A_VERIFIER : Supports et Résistances du Carnet
+Leçon 24A_VERIFIER : Stop Loss et Prise de Profits
+Leçon 25A_VERIFIER : Belkhayate Money Management, Alembex
+Leçon 26A_VERIFIER : Plan B et Humilité du Trader
+Leçon 27A_VERIFIER : Mental du Trader
+Leçon 28A_VERIFIER : Évolution Probable des marchés 2023A_VERIFIER-2025A_VERIFIER
+Leçon 29A_VERIFIER : Installation de la Template Belkhayate OrderFlow
+Leçon 30A_VERIFIER : ZN, le marché que je recommande
+Leçon 31A_VERIFIER : Les Devises au Carnet
+Leçon 32A_VERIFIER : Les Matières Premières au Carnet
+Leçon 33A_VERIFIER : Les Indices Boursiers au Carnet
+Leçon 34A_VERIFIER : La crypto au Carnet]
+
+01:39 Et on va ensuite passer à l'application sur le carnet d'ordre. Et là, on va commencer à regarder différents marchés et pourquoi ces marchés-là et pourquoi pas d'autres. Et pourquoi je choisis ce carnet d'ordre et pas un autre carnet d'ordre, et cetera. Vous allez pouvoir également, vous voyez ici, on va revenir sur le money management, on va revenir sur des points importants comme par exemple l'évolution probable des marchés en 2022, 2023, 2025. Et le marché que je recommande, c'est quel est ce marché que je recommande ? Et euh, et en fait,
+
+[VISUEL: Écran noir. Au centre, une photo de El Mostafa Belkhayate en costume. Le titre "PROFESSEUR EL MOSTAFA BELKHAYATE" est au-dessus. Une ligne de temps apparaît avec des dates et des réalisations :
+1999A_VERIFIER : Champion du monde de Trading sur 6000A_VERIFIER candidats
+2001A_VERIFIER : Création et Gestion du premier hedge fund marocain sur les marchés internationaux en partenariat avec BMCE Bank
+2004A_VERIFIER : Création et Gestion d'un fonds canadien dédié à l'or physique, Bloomberg me classe meilleur gérant sur matières premières au monde
+2009A_VERIFIER : Trophée Or de l'Analyse Technique et Graphique à Paris
+2012A_VERIFIER : Belkhayate Gravity System remporte la compétition international des algorithmes automatiques de Trading à Los Angeles
+2016A_VERIFIER : Monte à Marrakech le premier Centre de Recherche sur l'Intelligence Artificielle appliquée au Trading SpringBox obtient la licence]
+
+02:19 On va, là je vais vous présenter votre professeur. Donc je, je juste je rappelle pour ceux qui ne me connaissent pas que j'ai été champion du monde en en 1999. Et ensuite c'est suite à ça que j'ai été invité à travailler avec Michael Jackson chez lui à Los Angeles. Et ça a changé ma vie en fait, en tant que trader professionnel, c'était le début en fait de ma carrière de trader professionnel. Après, ensuite en 2001, j'ai créé et géré le premier hedge fund marocain sur les marchés internationaux en partenariat avec BMCE Capital, c'était Med Capital. Et en 2004, j'ai créé et géré un fonds canadien dédié à l'or physique. Bloomberg m'avait classé meilleur gérant sur matières premières au monde à cette époque. J'ai eu le plaisir de recevoir le trophée d'or de l'analyse technique et graphique à Paris en 2009. Et en 2012, mes systèmes de Belkhayate Gravity System ont remporté la compétition internationale des algorithmes automatiques de trading à Los Angeles. Et en 2016, j'ai monté à Marrakech le premier Centre de Recherche sur l'Intelligence Artificielle. Et euh, et j'ai le plaisir de de de de vous dire que euh mon robot d'intelligence artificielle SpringBox que j'ai fondé avec un autre Marocain qui s'appelle Faïz Bouhaddou a obtenu la licence américaine, la licence des Émirats Arabes Unis. C'est la première Fintech du monde arabe, du monde africain à avoir obtenu la licence aux États-Unis.
+
+[VISUEL: Écran noir. Le logo "Belkhayate Method" est en haut à gauche. La vignette de Belkhayate est en haut à droite. Au centre, le texte "PRÉSENTATION DU MÉTIER DE TRADER" en blanc, et en dessous "VOTRE LIBERTÉ FINANCIÈRE À PORTÉE DE MAIN" en bleu.]
+
+04:01 Donc, j'ai le plaisir de vous présenter un métier extraordinaire, c'est le métier qui va vous permettre d'avoir une liberté financière.
+
+[VISUEL: Le texte "La Richesse des Footballeurs" apparaît en haut à gauche. Une liste de footballeurs avec leurs richesses estimées en millions de dollars est affichée :
+• Zlatan Ibrahimovic - $190A_VERIFIER million
+• Neymar - $200A_VERIFIER million
+• Dave Whelan - $220A_VERIFIER million
+• David Beckham - $400A_VERIFIER million
+• Lionel Messi - $400A_VERIFIER million
+• Cristiano Ronaldo - $450A_VERIFIER million
+À droite, des photos de Cristiano Ronaldo, Lionel Messi, David Beckham et Neymar.]
+
+04:14 Alors, je vais commencer d'abord par la la la richesse des footballeurs. Et on voit bien que euh euh Zlatan, Zlatan, Neymar, Messi, et cetera, c'est entre 200 et 400 millions de dollars. Et beaucoup de gens, beaucoup de jeunes pensent que c'est c'est le top, c'est le nec plus ultra, c'est le maximum qu'on peut faire dans le monde, dans ce monde, dans sur cette planète Terre.
+
+[VISUEL: Le texte "La Richesse des TRADERS" apparaît en haut à gauche. Un tableau est affiché avec le classement des traders les plus riches, leurs firmes et leurs gains (Earnings) :
+1A_VERIFIER. David Tepper - Appaloosa Management - $3.5A_VERIFIER billion
+2A_VERIFIER. Steven Cohen - SAC Capital Advisors - $2.4A_VERIFIER billion
+3A_VERIFIER. John Paulson - Paulson & Co. - $2.3A_VERIFIER billion
+4A_VERIFIER. James Simons - Renaissance Technologies - $2.2A_VERIFIER billion
+5A_VERIFIER. Kenneth Griffin - Citadel - $950A_VERIFIER million
+6A_VERIFIER. Israel (Izzy) Englander - Millennium Management - $850A_VERIFIER million
+7A_VERIFIER. Leon Cooperman - Omega Advisors - $825A_VERIFIER million
+8A_VERIFIER. Lawrence Robbins - Glenview Capital Management - $750A_VERIFIER million
+9A_VERIFIER. Daniel Loeb - Third Point - $700A_VERIFIER million
+10A_VERIFIER. Raymond Dalio - Bridgewater Associates - $600A_VERIFIER million
+10A_VERIFIER. Paul Tudor Jones II - Tudor Investment Corp. - $600A_VERIFIER million
+Les photos des footballeurs sont toujours visibles à droite, mais plus petites.]
+
+04:42 Mais euh, j'ai le plaisir de vous montrer la richesse des traders. David Tepper, il a touché 3,5 milliards de dollars, non pas dans sa carrière, mais par an, il touche par an. Ce sont ce sont les salaires des plus grands gérants, les plus grands traders au monde. Et euh, et c'est très important de le savoir. Il n'y a pas une activité plus rentable sur cette planète que d'aller que d'aller directement sur le fleuve où circulent les milliards et d'apprendre à extraire cet argent de ces de ces fleuves-là, quitte à rester en Afrique ou en France ou n'importe où, on n'a pas besoin d'aller à Wall Street, on n'a pas besoin d'aller nulle part. Il suffit d'avoir un savoir-faire pour cela.
+
+[VISUEL: Le texte "DÉBOUCHÉS POTENTIELS" apparaît en haut. Une liste de débouchés potentiels est affichée :
+• Le métier de Remote Trader, qui consiste à gérer à distance des capitaux américains ou européens sur les marchés des matières premières et des devises.
+• Journaliste boursier sur internet ou hors ligne
+• Conférencier boursier ou coach de trading dans des écoles privées ou publiques
+• Blogueur boursier
+• Prévisionniste pour les sociétés de négoce international
+• Analyste technique et graphique
+• Programmeur de robots de trading automatique]
+
+05:31 Alors, je vais euh euh vous montrer les débouchés potentiels de la formation Belkhayate. Ce n'est pas forcément que le métier de remote trader, c'est-à-dire trader à distance des capitaux. Il n'y a pas que ça. Vous pouvez également apprendre, une fois que vous avez ce savoir-faire, une fois que vous avez suivi cette formation, que vous savez utiliser le carnet d'ordre, que vous savez lire les marchés, que vous savez tirer les les lignes qui racontent l'histoire, et cetera. Vous allez pouvoir être aussi journaliste boursier sur internet, conférencier boursier ou coach de trading comme ce que je fais en ce moment, ou blogueur boursier, ou bien euh vous pouvez faire prévisionniste sur les pour les sociétés de négoce international, les conseillers par exemple sur le meilleur moment pour acheter du blé et lorsqu'on a on a fait un contrat, est-ce qu'on le fait en dollar, en euro ? Parce qu'on a analysé sur le moyen terme ce qui va se passer sur les devises. Donc c'est très important pour les sociétés de négoce international. On peut aussi être tout simplement un analyste technique et graphique sans avoir à faire du trading. Et on peut, pourquoi pas, faire comme moi et se lancer dans la programmation de robots d'intelligence artificielle ou de trading automatique. En réalité, euh il y a plus d'une centaine de métiers nouveaux qui ont un rapport direct avec le trading. Et cette formation, c'est une fenêtre pour vous, pour que vous puissiez avoir une idée du potentiel de la technologie et de la finance dans ce domaine-là.
+
+[VISUEL: Le texte "LES TESTS DE TRADING" apparaît en haut. Un texte explicatif est affiché :
+"Des dizaines d'entreprises comme ONEUP Trader, Leeloo, Audacity, Earn2Trade etc. ont mis en place des tests de trading en ligne ouverts à tous, sans aucune discrimination.
+Leur objectif est de sélectionner des Traders à distance capables de respecter leurs conditions en terme de résultats et surtout en termes de discipline. Une sorte de cahier des charges qui encadre au millimètre près les activités de trading des candidats.
+Ceux qui prouvent un savoir-faire professionnel obtiennent le droit de gérer à distance un capital réel allant de 50A_VERIFIER 000A_VERIFIER à 250A_VERIFIER 000A_VERIFIER dollars américains et de percevoir mensuellement jusqu'à 80A_VERIFIER % des bénéfices.
+Passer ces tests, c'est comme obtenir un emploi très bien rémunéré à Wall Street tout en travaillant à domicile."]
+
+07:12 Alors là, je voulais vous parler tout de suite des tests de trading parce que des dizaines d'entreprises comme ONEUP Trader, Leeloo, Audacity, Earn2Trade, et cetera, ils ont mis en place des tests de trading en ligne ouverts à tous, d'accord, sans aucune discrimination. Leur objectif est de sélectionner des traders à distance capables de respecter leurs conditions en termes de résultats et surtout en termes de discipline. Une sorte de cahier des charges qui va qui va encadrer au millimètre près les activités de trading des candidats. Ceux qui prouvent un savoir-faire professionnel obtiennent le droit de gérer à distance un capital réel allant de 50 000 à 250 000 dollars américains et de percevoir mensuellement jusqu'à 80 % des bénéfices. Ça semble étonnant, mais c'est la réalité de ce qui se passe. Pourquoi cela ? Parce que pendant le Covid, ils se sont rendu compte que au lieu de payer des traders professionnels euh euh 10 millions, 20 millions au recrutement, ils vont plutôt essayer de chercher des traders un peu partout dans le monde qui respectent un cahier des charges et qui sont capables de pouvoir obtenir des résultats. Et c'est comme ça qu'est né ce business, cette cette activité de tests de trading. Et passer ces tests, c'est comme obtenir en fait un emploi très bien rémunéré à Wall Street, à Londres ou ailleurs, tout en travaillant tranquillement à domicile.
+
+[VISUEL: Le texte "UNE MÉTHODE QUI FONCTIONNE" apparaît en haut. Un texte explicatif est affiché :
+"Ces tests ont tous un point commun : ils ont été conçus par des professionnels connaissant les exigences de ce métier pour tester le mental, la discipline et les capacités techniques du candidat trader.
+Il n'est pas facile de passer ces tests ; la moindre erreur ou maladresse est éliminatoire. Le pourcentage de réussite, toutes sociétés commerciales confondues, est très faible : environ 2A_VERIFIER %.
+Cependant, Belkhayate METHOD parvient à dépasser les 20A_VERIFIER %, soit 10A_VERIFIER fois mieux que la moyenne mondiale.
+En effet, plus d'un millier d'hommes et de femmes de tous niveaux, de tous âges, ont obtenu leurs certificats de Wall Street, reconnaissance officielle en tant que traders professionnels.
+Certains reçoivent entre 2A_VERIFIER 000A_VERIFIER et jusqu'à 5A_VERIFIER 000A_VERIFIER euros par mois, gérant des fonds américains depuis chez eux. D'autres, forts de leur certification et des résultats des tests, se sont lancés dans la gestion à distance de comptes pour des investisseurs au Moyen-Orient et ailleurs."]
+
+08:47 Et la méthode Belkhayate, c'est une méthode qui aujourd'hui a prouvé qu'elle fonctionne. Ces tests ont tous un point commun : ils ont été conçus par des professionnels qui connaissent les exigences de ce métier pour tester le mental, la discipline et les capacités techniques du candidat trader. Il n'est pas facile de passer ces tests ; la moindre erreur ou maladresse est éliminatoire. Le pourcentage de réussite, toutes sociétés commerciales confondues, est très faible, environ 2 %. Cependant, la méthode Belkhayate parvient à dépasser les 20 %, soit 10 fois mieux que la moyenne mondiale. En effet, plus d'un millier d'hommes et de femmes de tous niveaux, de tous âges, ont obtenu leurs certificats de Wall Street, reconnaissance officielle en tant que traders professionnels. Certains reçoivent entre 2 000 et jusqu'à 5 000 euros par mois, gérant des fonds américains depuis chez eux. D'autres, forts de leur certification et des résultats des tests, se sont lancés dans la gestion à distance de comptes pour des investisseurs au Moyen-Orient et ailleurs.
+
+[VISUEL: Le texte "SALLES DE MARCHÉS AU MAROC" apparaît en haut. Deux photos de groupes de personnes sont affichées. La photo de gauche montre un grand groupe de personnes souriantes devant un bâtiment avec une inscription en arabe. La photo de droite montre un autre grand groupe de personnes dans une salle, certaines levant les bras, avec des tables et de la nourriture.]
+
+10:03 Voici les salles de marché euh au Maroc. Vous voyez ici, les salles de marché à Casablanca, à Agadir, Marrakech.
+
+[VISUEL: Le texte "CASABLANCA, AGADIR, MARRAKECH" apparaît en haut. Trois photos de groupes de personnes sont affichées. En haut à gauche, un groupe dans une salle de classe. En bas à gauche, un groupe autour d'une table de réunion. À droite, un grand groupe dans une salle, levant les bras.
+En dessous, deux certificats de trading :
+- Un certificat "UPROFIT" au nom de "Marouane Essakhi".
+- Un certificat "LEELOO" au nom de "Othmane Ghorfi", daté du "May 08A_VERIFIER, 2022A_VERIFIER".]
+
+10:13 Voilà, vous avez ici Agadir, ici Marrakech, ici Casablanca. Et euh, vous avez ici des un exemple des des des certificats de trading de Wall Street.
+
+[VISUEL: Le texte "PROBLÉMATIQUES DU TRADING" apparaît à gauche. Une liste de points est affichée verticalement avec des icônes bleues :
+• Difficulté d'ouvrir des comptes de TRADING
+• Quels marchés éviter ? Quels marchés privilégier ?
+• Quels courtiers éviter ?
+• Les charlatans du TRADING
+• Qui enseigne le TRADING professionnel ?]
+
+10:26 Vous les voyez là. Et je vais traiter ici de la problématique en fait du trading. Lorsque euh on veut commencer le trading, on a des difficultés pour ouvrir des comptes, qu'on soit au Maroc ou à l'étranger ou en Afrique. Il y a un problème pour ouvrir des comptes. Mais l'idée est-ce qu'on doit vraiment ouvrir un compte ou il nous suffit juste de passer des tests et de vivre en gérant de l'argent de Wall Street ? Ça, c'est une question à laquelle je vais répondre dans cette formation. Une question très importante. Ensuite, quels sont les marchés qu'on peut à éviter ? Parce que il est clair qu'il y a des marchés euh à éviter, des marchés à privilégier. Quels sont les courtiers à éviter ? Parce que dans le monde de la finance et du trading, il y a des absolument des courtiers à éviter et des courtiers à à à à privilégier. Ensuite, il faut connaître l'esprit qui règne dans le monde du trading, les charlatans du trading, il faut connaître. Si vous connaissez pas, vous êtes piégés. Vous allez être souvent piégés. Donc il faut c'est une culture générale que je vais vous donner pendant toute cette formation de manière à ne pas être piégé par les charlatans du trading. Et enfin, je finis ici pour vous parler de qui enseigne le trading professionnel. Qui enseigne en Afrique, au Maroc et même en Europe ? Qui enseigne un trading professionnel ? Trading professionnel, ça consiste non pas à regarder le prix, mais
+
+[VISUEL: El Mostafa Belkhayate apparaît à l'écran, devant la bibliothèque. Il gesticule avec ses mains.]
+
+11:58 à regarder ce qui se passe sur les volumes exécutés, sur le bid et le volume exécuté sur le ask. Le trading professionnel, c'est de savoir dans le court terme ce qui est en train de se passer. Parce que plus vous allez euh euh trader dans le moyen et long terme, moins vous allez avoir la probabilité de gagner de l'argent parce que les marchés sont imprévisibles. Les marchés peuvent tout faire à n'importe quel moment. Mais lorsque vous réduisez votre espace d'intervention, vous allez pouvoir augmenter votre probabilité de gain. Et on va voir dans cette formation que on a choisi un marché bien spécifique pour faire du trading gagnant. On n'a pas besoin d'intervenir sur 100 marchés ou 10 marchés. On a besoin d'intervenir sur le marché le plus facile au monde. Et le marché qui peut vous permettre de bâtir votre patrimoine financier et d'avoir un métier, n'est plus besoin d'aller chercher des métiers ailleurs. Donc, cette formation va vous donner un enseignement professionnel qui va vous permettre de bâtir votre carrière et votre patrimoine financier.
+
+[VISUEL: Le texte "OBJECTIFS DE LA FORMATION" apparaît en haut. Une cible de fléchettes est au centre avec une fléchette bleue au milieu. Quatre objectifs sont listés avec des icônes bleues :
+• OBJECTIF #1A_VERIFIER : Vous démontrer que le Trading Professionnel est à votre portée
+• OBJECTIF #2A_VERIFIER : Expliquer comment avoir des revenus en travaillant à domicile et sans avoir besoin de capital
+• OBJECTIF #3A_VERIFIER : Réveiller le génie qui sommeille en vous
+• OBJECTIF #4A_VERIFIER : Vous aider à atteindre votre liberté financière]
+
+13:32 Ici, vous voyez, là, je passe ici. L'objectif de la formation, c'est de vous démontrer que le trading professionnel est à votre portée. Et et et l'objectif numéro 2, c'est de vous expliquer comment avoir des revenus en travaillant à domicile et sans avoir besoin de capital. L'objectif 3, c'est de réveiller le génie qui sommeille en vous. Et enfin, le dernier objectif, c'est de vous aider à atteindre votre liberté financière.
+
+[VISUEL: Le logo "Belkhayate Method" est en haut à gauche. La vignette de Belkhayate est en haut à droite. Trois photos de groupes de personnes sont affichées : en haut à gauche, un groupe de personnes souriantes ; en bas à gauche, un groupe d'hommes ; à droite, un groupe de personnes en extérieur. Au centre, le texte "Je vous souhaite la bienvenue pour suivre avec moi un enseignement qui va changer radicalement votre vie" en blanc. En bas, des icônes de réseaux sociaux (LinkedIn, YouTube, Facebook, Instagram).]
+
+14:11 J'ai le plaisir de vous montrer ici mes étudiants. Et je vous souhaite la bienvenue pour suivre avec moi un enseignement qui va changer radicalement votre vie. À très vite pour la leçon numéro 2.
+
+[VISUEL: Écran noir avec des lignes lumineuses dorées et des formes géométriques blanches et bleues. Le texte "MERCI POUR VOTRE ATTENTION" apparaît en blanc. Le logo "Belkhayate Method" est en bas à droite. Une personne en costume noir, la main droite tenant un stylo blanc, pointe un graphique financier affiché sur une feuille de papier. Un ordinateur portable est visible en arrière-plan sur une table en bois. Le graphique montre des bougies rouges et vertes, avec des lignes de tendance et des indicateurs. Des éléments graphiques blancs et bleus sont superposés sur la vidéo.]
+
+14:34 [Musique douce et entraînante]

@@ -1,0 +1,193 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-24]
+[SOURCE: Leçon 2  De la plateforme NinjaTrader.mp4]
+---
+[VISUEL: Écran noir avec le titre "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE" en blanc, avec des éléments graphiques abstraits en fond.]
+[VISUEL: Le titre change pour "LEÇON -2A_VERIFIER" dans un cadre blanc, et en dessous, une bannière bleue avec le texte "Présentation De la plateforme NinjaTrader".]
+
+Bonjour, bonjour tout le monde et bienvenue à la vidéo numéro 2. Il s'agit de parler de NinjaTrader, la plateforme qui va vous accompagner non seulement pour réussir les tests de trading, mais qui va vous accompagner dans votre parcours de trader professionnel. NinjaTrader, c'est une plateforme qui vous permet de lire le carnet d'ordres. Il y a très peu de plateformes qui le permettent. Par exemple, TradingView ne permet pas d'aller lire les volumes exécutés sur le bid et le ask et cetera pour vous permettre d'avoir une visibilité sur l'intérieur d'une unité de temps. NinjaTrader va vous permettre de pouvoir lire le carnet d'ordres, mais également va vous permettre d'utiliser des systèmes automatiques de trading, va vous permettre de pouvoir gérer soit votre compte, soit le compte de clients qui vous ont confié un compte, soit gérer à distance les comptes de Lilou, de OneUp et cetera. Donc finalement, j'ai le plaisir de vous présenter NinjaTrader.
+
+[VISUEL: L'écran affiche le site web de NinjaTrader (ninjatrader.com). Le titre principal est "Trade Futures with the Industry Leader". Un champ "Your Email Address" et un bouton "Download" sont visibles. En haut, des liens "Brokerage", "Platform", "Help" sont présents.]
+que vous voyez ici. Vous allez sur le site et vous allez voir tout de suite un "Brokerage" ici, c'est-à-dire que ils sont devenus courtiers. Au début, ils n'étaient que des providers, c'est-à-dire des fournisseurs de de plateformes pour pouvoir faire de l'analyse technique et graphique.
+
+[VISUEL: Le curseur survole le lien "Brokerage" en haut de la page. Un menu déroulant apparaît avec "Trade Futures", "Micro E-minis", "Micro Crude Oil", "Micro Bitcoin".]
+Et puis, ils ont compris que ils avaient plus intérêt à devenir des courtiers pour que vous puissiez utiliser NinjaTrader pour passer des ordres directement sur leur plateforme.
+
+[VISUEL: Le curseur survole le lien "Help" en haut de la page. Un menu déroulant apparaît avec des options comme "Platform Guides", "Video Guides", "Training", "Livestreams", "Brokerage", "Account Management", etc.]
+Et lorsque vous voyez ici, vous voyez que vous pouvez ouvrir des comptes à partir de 400 dollars et vous vous allez trader ici ce qu'on appelle les micro lots. Ce sont des petits lots par rapport à 400 dollars, vous allez pouvoir chercher à gagner 20, 30, 40 dollars. Mais vous savez, petit à petit, l'oiseau fait son nid. On peut commencer petit et puis avoir un compte qui grossit, surtout si on est discipliné et qu'on respecte ce qu'on est en train de voir devant nous, on on essaie d'anticiper et de prévoir ce que les marchés vont faire, car les marchés, comme vous le savez, sont imprévisibles.
+
+[VISUEL: La page web de NinjaTrader affiche maintenant "Experience the Power of NinjaTrader!". Deux sections principales sont "1A_VERIFIER. Get NinjaTrader" avec un bouton "Download" et "2A_VERIFIER. Connect to Live Data" avec un bouton "Connection Guide".]
+Bien, nous allons nous allons mettre un email ici. Donc vous choisissez de mettre votre email là et vous allez appuyer sur "Download" et il va vous demander des informations. Je le fais pas puisque moi je l'ai déjà fait. Mais une fois que vous avez cliqué et vous avez demandé "Download", il va vous demander des détails sur vous, le nom, le prénom et cetera.
+
+[VISUEL: L'écran affiche une boîte de réception Gmail. Deux e-mails sont visibles: "CQGTrader - Demo Login Credentials" et "NinjaTrader Brokers - Connect NinjaTrader to Live Futures Data".]
+Et vous et il va vous envoyer ensuite ici.
+
+[VISUEL: L'e-mail "CQGTrader - Demo Login Credentials" est ouvert. Il contient un message de remerciement et les informations de connexion: "User name: demoXXXXXX" et "Password: YYYY/YYYY".]
+Il va vous dire allez, vous allez télécharger NinjaTrader gratuitement sur votre sur votre portable. Alors là, je vous dis tout de suite, j'espère que vous avez un Windows et que vous n'avez pas un Macintosh ou quelque chose comme ça, parce que si vous voulez faire du trading, il faut vous équiper, il faut avoir un bon PC Windows et il faut avoir un minimum de i7. i7, c'est-à-dire, vous devez avoir un microprocesseur, rappelez-vous de ça, i7, parce que si vous voulez travailler et utiliser euh euh le le le l'order flow, le carnet d'ordres, il vaut mieux avoir une bonne machine à partir de, rappelez-vous de ça, certains d'entre vous, euh certainement la plupart ont encore un i5, mais le i7, c'est bien. Le mieux, évidemment, si vous avez le i9, ça serait très très bien.
+
+[VISUEL: L'écran affiche la plateforme NinjaTrader. Un graphique de ZN (10A_VERIFIER-Year T-Note Futures) en 15A_VERIFIER minutes est visible, avec une moyenne mobile exponentielle (EMA) blanche. Un panneau d'entrée d'ordres (SuperDOM) est sur la droite. Une petite fenêtre "Control Center - Positions" est ouverte en haut à gauche.]
+Donc, vous, vous allez télécharger ici.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "Connections" est ouvert, affichant plusieurs options de connexion, dont "Belkhayate System", "CQG", "My NinjaTrader Continuum", "My NinjaTrader FCM", etc.]
+Et sur l'e-mail que vous avez envoyé, vous avez reçu ici deux e-mails. Un e-mail de NinjaTrader Broker qui vous invite et qui vous explique ce qu'il faut faire. Et puis vous avez un e-mail de CQG. CQG, c'est en fait le fournisseur des cours en temps réel. Et il vous donne gratuitement ici, vous voyez là, il vous donne un login que vous allez mettre, je vais vous montrer où. Vous mettez ce login là et vous avez euh NinjaTrader qui va fonctionner.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "Connections" est ouvert. Le curseur survole "My NinjaTrader Continuum".]
+Comme ici, vous allez voir, on va venir là et on va choisir ici le contrôle ici. Voilà. Alors ici, vous vous avez NinjaTrader et ce que vous voyez là, c'est Ninja, c'est cette c'est ce rectangle là qui vous permet de contrôler NinjaTrader. Et quand vous venez ici, sur "Connections", vous, j'ai déjà moi ma connexion NinjaTrader Continuum ici, vous voyez. Voilà, que vous pouvez faire. Alors, euh vous, quand vous avez des codes, vous venez par exemple sur Belkhayate System ici, par exemple.
+
+[VISUEL: Une boîte de dialogue "Error" apparaît, indiquant "Belkhayate System Provider 'NinjaTrader Continuum' already configured. There can be more than one connection to 'NinjaTrader Continuum' but only one 'Belkhayate System' can be generated. (Pass)". Belkhayate clique sur "OK".]
+Attendez ici, on va prendre ici par exemple Ninja Continuum.
+
+[VISUEL: La fenêtre "Connections" est ouverte. Belkhayate clique sur "Configure". Une nouvelle fenêtre "Connections" apparaît, montrant une liste de connexions disponibles et les propriétés de la connexion sélectionnée ("Belkhayate System"). Le champ "User name" est pré-rempli avec "092011200A_VERIFIER".]
+Pardon, configurer. On vient dans "Configure" ici. Et vous allez choisir par exemple la connexion en question et ici vous allez changer le vous allez mettre le démo, le login et le password que vous avez ici. Et euh euh chaque fois que euh euh vous avez expiré votre démo, votre version démo, vous pouvez revenir ici et utiliser un autre e-mail et comme ça, ils vont vous renvoyer encore euh un autre login que vous allez mettre dans la connexion ici, en venant "Connection", "Configure". Vous venez dans votre connexion par exemple NinjaTrader Continuum ici. Et vous pouvez mettre ici euh les les mots de passe et cetera. Voilà, donc ça, c'est ce qui concerne la connexion. Maintenant, on va commencer tout de suite avec on vient ici dans "New" ici.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert, affichant diverses options comme "Basic Entry", "FX Pro", "Order Ticket", "SuperDOM (Dynamic)", "Alerts Log", "Chart", "Depth Chart", "FX Board", "FX Correlation", "Bid/Ask Analyzer", "Market Analyzer", "Market Watch", "News", etc. Belkhayate clique sur "Chart".]
+Et on vient dans on va essayer on va commencer déjà par un un chart. Donc on vient ici et on fait un chart. Pour choisir le chart, vous venez ici et vous tapez par exemple, on va commencer par le ZN.
+
+[VISUEL: Une fenêtre "Data Series" est ouverte. Le champ "Instrument" est sélectionné. Belkhayate tape "ZN". Un menu déroulant apparaît avec "ZN 10A_VERIFIER Year T-Note Futures".]
+Le ZN qui est le marché que je vous recommande. Mais évidemment, vous allez voir pendant toute cette formation, je vais vous parler énormément du ZN qui est le marché des bons de trésor américains qui que je considère comme étant le marché le plus facile à trader, en tout cas, d'après mon expérience sur les marchés. Et vous choisissez ici "Future".
+
+[VISUEL: Dans la fenêtre "Data Series", "Future" est sélectionné. "ZN 10A_VERIFIER Year T-Note Futures" est sélectionné. Les propriétés de la série de données sont affichées, avec "Type: Minute" et "Value: 15A_VERIFIER".]
+Donc, et vous avez ici le ZN Future que vous allez que vous allez cliquer ici. Et vous vous avez ici 15 minutes. Vous me laissez 15 minutes et vous faites ça.
+
+[VISUEL: Le graphique de ZN (10A_VERIFIER-Year T-Note Futures) en 15A_VERIFIER minutes est affiché. Une moyenne mobile exponentielle (EMA) blanche est visible, ainsi que des barres de volume en bas. Le SuperDOM est toujours sur la droite.]
+Et vous avez donc NinjaTrader qui, je vais le faire comme ça, voilà, c'est quand même magnifique. Vous avez NinjaTrader qui est en train de vous donner euh euh le le graphique du du ZN sur 15 minutes. Et ici, j'ai mis la moyenne mobile 209, hein, et la moyenne mobile exponentielle de 209. Vous regardez, je fais comme ça.
+
+[VISUEL: Une boîte de dialogue "Always Indication" apparaît, demandant de redémarrer NinjaTrader pour utiliser les indicateurs. Belkhayate clique sur "OK".]
+Ici.
+
+[VISUEL: La fenêtre "Indicators" est ouverte. L'indicateur "EMA" est configuré avec une période de 209A_VERIFIER.]
+Voilà. Regardez, la moyenne mobile 209. EMA 209. Vous la voyez ici. Voilà. Donc là, j'ai tout simplement la moyenne mobile 209. Et j'ai le volume ici qui est là. Donc j'utilise NinjaTrader sur tous les marchés financiers. Euh en général, on va commencer à utiliser euh sur 15 minutes n'importe quel marché. On va juste mettre la moyenne mobile de de 209, ça veut dire euh euh 209, c'est la je vais vous l'expliquer plus tard. Pour le moment, on est en train de définir juste euh euh le NinjaTrader, ce que vous pouvez faire avec NinjaTrader.
+
+[VISUEL: Le graphique de ZN 15min est toujours visible.]
+Alors, ça c'est un premier point, comment mettre un graphique. Ensuite, on va revenir sur la plateforme en question ici.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert. Belkhayate clique sur "Market Watch".]
+Et on va taper ici, on va taper la.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "Tools" est ouvert, affichant diverses options, dont "Instrument Lists". Belkhayate clique sur "Instrument Lists".]
+Instrument List. C'est très important de pouvoir créer votre votre liste. Alors moi, j'ai créé plusieurs listes ici, African Commodity, Belkhayate List et cetera. Vous venez, vous vous pouvez appuyer sur "Add", par exemple, comme ça, et vous créez une liste. On va le on peut le faire ensemble. Par exemple, la liste de la formation, par exemple.
+
+[VISUEL: La fenêtre "Instrument Lists" est ouverte. Belkhayate a créé une liste nommée "liste de la formation". Il clique sur "Add" pour ajouter des instruments. Il tape "ZN", puis "CL", puis "GC".]
+La formation, on va faire comme ça. Et la liste de la formation, voilà, elle est là. Et vous allez ajouter ici des des marchés. Par exemple, on va mettre le ZN. Voilà, on a mis le ZN. On va ajouter un autre marché, par exemple, le Crude Oil, c'est le pétrole. Vous le mettez. Et ensuite, on va mettre l'or et puis c'est tout, je vais m'arrêter là. Vous faites ça et vous avez donc une liste où vous avez choisi vous avez choisi trois marchés.
+
+[VISUEL: La fenêtre "Instrument Lists" est fermée. La fenêtre "Control Center" est active. Le menu "New" est ouvert. Belkhayate clique sur "Market Watch".]
+C'est très important de pouvoir le faire. Comme ça, vous allez vous allez voir pourquoi. Ensuite, on va venir dans "New" et on va regarder "Market Watch".
+
+[VISUEL: La fenêtre "Market Watch" est ouverte. Elle est vide. Belkhayate fait un clic droit. Un menu contextuel apparaît, avec "Add Instrument(s)", "Create new Instrument List", "Remove Tile", etc. Belkhayate clique sur "Add Instrument(s)" et sélectionne "liste de la formation", puis "Select All".]
+"Market Watch", ça va nous donner une idée de ce que les marchés peuvent faire. D'accord ? On vient ici, on va ajouter des instruments. Alors là, on peut choisir notre liste qu'on a fait tout à l'heure, la liste de la formation, et on va choisir par exemple "All".
+
+[VISUEL: La fenêtre "Market Watch" affiche maintenant plusieurs instruments sous forme de petits graphiques en bougies. Certains sont rouges (baissiers), d'autres verts (haussiers). On peut voir des marchés comme le pétrole (CL), l'or (GC), le maïs (ZC), le blé (ZW), le S&P 500A_VERIFIER (ES), le Nasdaq (NQ), etc.]
+Et nous avons les trois marchés qui sont négatifs. Tout de suite, on voit que le pétrole est négatif, que l'or est négatif et que le ZN sont négatifs. Donc, on va faire ça, on va retourner voir une liste de Belkhayate qui est beaucoup plus importante. Et là, on voit que en utilisant "Market Watch", en une fraction de seconde, on peut voir quels sont les marchés qui sont en train de monter, quels sont les marchés qui sont en train de tomber. On voit très bien, par exemple, que le Corn, le ZC, il est en train de de tomber. Les marchés dans général, en général, les marchés sont en train de euh sont dans le rouge, on le voit en une fraction de seconde. Par contre, on voit tout de suite que le gaz naturel en temps réel, il est fortement haussier. Donc, on va pas s'amuser à vendre le gaz naturel, on va pas s'amuser à vendre euh euh, par exemple, FGBEL pour le moment. Euh c'est pas ça qui on va pas le faire. Bon, donc, c'est une visibilité immédiate sur différents marchés que euh vous pouvez utiliser euh avec NinjaTrader qui est une fonction très intéressante. Une autre fonction que j'utilise beaucoup, c'est "Market Analyzer".
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert. Belkhayate clique sur "Market Analyzer".]
+Et ici, "Market Analyzer", c'est un radar en fait qui va vous permettre de sélectionner, par exemple, vous mettez 40 ou 50 marchés et vous demandez des spécifications. Vous regardez, je vais ajouter, je vais ajouter, par exemple, Belkhayate List là, OK, sur le radar.
+
+[VISUEL: La fenêtre "Market Analyzer" est ouverte. Elle affiche une liste d'instruments avec des colonnes "Bid Price", "Ask Price", "Last Price". Certaines lignes sont surlignées en jaune.]
+Et j'ai j'ai tous les marchés ici qui sont là. Et ensuite, je peux ajouter ici un indicateur pour euh euh pour scanner en fait les marchés par rapport à un indicateur. On vient dans "Columns" ici.
+
+[VISUEL: La fenêtre "Market Analyzer" est ouverte. Belkhayate fait un clic droit et sélectionne "Columns". Une fenêtre "Columns" apparaît, affichant une liste d'indicateurs disponibles. Belkhayate sélectionne "Indicator" et choisit "Volume Up-Down". Il configure le "Time Frame" à 15A_VERIFIER minutes.]
+Et on vient ici dans euh et on va rajouter ici un indicateur ici et on va mettre comme indicateur, par exemple, le volume. Voilà. On va mettre le volume ici. Donc, on a choisi de mettre le volume en une minute. Et on va on va mettre 15 minutes. Voilà. Et on va appuyer.
+
+[VISUEL: La fenêtre "Columns" est fermée. La fenêtre "Market Analyzer" affiche maintenant une colonne "Volume Up-Down (15A_VERIFIER Minute)" avec des valeurs numériques.]
+Voilà, il est en train de charger. Et voilà, vous avez les vous avez les volumes ici. Et euh euh et ensuite, on peut choisir de de des alertes par rapport à des volumes dans dans le dans le radar. Ça vous donne une idée tout de suite si vous avez une cassure sur un volume donné. Vous savez que Belkhayate Method est basée sur la cassure dans le volume. Donc, c'est un élément très important qui peut vous alerter que on a une accélération de volume sur le cuivre ou bien sur le maïs et cetera. Donc, c'est très intéressant. Et en fait, euh NinjaTrader euh elle vous elle vous permet d'avoir énormément d'avantages euh pour pouvoir faire du trading professionnel.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert, affichant diverses options.]
+Et on peut revenir ici. Ici, sur le "Tools", quand vous voulez ajouter un un un un indicateur de NinjaTrader, vous pouvez venir dans "NinjaScript" ici et vous pouvez l'ajouter ici. Il y a énormément de choses euh à à à sur NinjaTrader. Je peux pas tout vous montrer comme ça en en un ce laps de temps. Mais toujours est-il que euh je vous je vous recommande de de vous focaliser sur l'utilisation de NinjaTrader. Hein, il y a des il y a des il y a beaucoup de vidéos YouTube sur ça. Vous n'avez pas besoin de moi euh pour maîtriser NinjaTrader. Pour le moment, je suis en train de vous diriger, hein, vers cette plateforme pour que vous puissiez vous habituer. Hein, euh je vais la formation, on va se dérouler sur NinjaTrader. Euh on va installer le carnet d'ordres sur NinjaTrader. Et on va voir comment on va utiliser euh la méthode Belkhayate pour pouvoir euh faire du trading en en repérant des configurations bien spécifiques dans le carnet d'ordres. Voilà, c'était euh une présentation de de de de la plateforme et du potentiel énorme que vous avez avec cette plateforme NinjaTrader pour faire du trading avec le carnet d'ordres. Je vous remercie et je vous donne rendez-vous pour la leçon numéro 3.
+
+[VISUEL: Écran divisé en deux. À gauche, deux personnes en costume regardent des graphiques sur papier. À droite, un écran noir avec le texte "MERCI POUR VOTRE ATTENTION" et le logo "BELKHAYATE METHOD".]
+[VISUEL: Écran noir avec le logo "BELKHAYATE METHOD".][VISUEL: Écran noir avec le titre "BELKHAYATE METHOD APPLIQUÉE AU CARNET D'ORDRE" en blanc, avec des éléments graphiques abstraits en fond.]
+[VISUEL: Le titre change pour "LEÇON -2A_VERIFIER" dans un cadre blanc, et en dessous, une bannière bleue avec le texte "Présentation De la plateforme NinjaTrader".]
+
+Bonjour, bonjour tout le monde et bienvenue à la vidéo numéro 2. Il s'agit de parler de NinjaTrader, la plateforme qui va vous accompagner non seulement pour réussir les tests de trading, mais qui va vous accompagner dans votre parcours de trader professionnel. NinjaTrader, c'est une plateforme qui vous permet de lire le carnet d'ordres. Il y a très peu de plateformes qui le permettent. Par exemple, TradingView ne permet pas d'aller lire les volumes exécutés sur le bid et le ask et cetera pour vous permettre d'avoir une visibilité sur l'intérieur d'une unité de temps. NinjaTrader va vous permettre de pouvoir lire le carnet d'ordres, mais également va vous permettre d'utiliser des systèmes automatiques de trading, va vous permettre de pouvoir gérer soit votre compte, soit le compte de clients qui vous ont confié un compte, soit gérer à distance les comptes de Lilou, de OneUp et cetera. Donc finalement, j'ai le plaisir de vous présenter NinjaTrader.
+
+[VISUEL: L'écran affiche le site web de NinjaTrader (ninjatrader.com). Le titre principal est "Trade Futures with the Industry Leader". Un champ "Your Email Address" et un bouton "Download" sont visibles. En haut, des liens "Brokerage", "Platform", "Help" sont présents.]
+que vous voyez ici. Vous allez sur le site et vous allez voir tout de suite un "Brokerage" ici, c'est-à-dire que ils sont devenus courtiers. Au début, ils n'étaient que des providers, c'est-à-dire des fournisseurs de de plateformes pour pouvoir faire de l'analyse technique et graphique.
+
+[VISUEL: Le curseur survole le lien "Brokerage" en haut de la page. Un menu déroulant apparaît avec "Trade Futures", "Micro E-minis", "Micro Crude Oil", "Micro Bitcoin".]
+Et puis, ils ont compris que ils avaient plus intérêt à devenir des courtiers pour que vous puissiez utiliser NinjaTrader pour passer des ordres directement sur leur plateforme.
+
+[VISUEL: Le curseur survole le lien "Help" en haut de la page. Un menu déroulant apparaît avec des options comme "Platform Guides", "Video Guides", "Training", "Livestreams", "Brokerage", "Account Management", etc.]
+Et lorsque vous voyez ici, vous voyez que vous pouvez ouvrir des comptes à partir de 400 dollars et vous vous allez trader ici ce qu'on appelle les micro lots. Ce sont des petits lots par rapport à 400 dollars, vous allez pouvoir chercher à gagner 20, 30, 40 dollars. Mais vous savez, petit à petit, l'oiseau fait son nid. On peut commencer petit et puis avoir un compte qui grossit, surtout si on est discipliné et qu'on respecte ce qu'on est en train de voir devant nous, on on essaie d'anticiper et de prévoir ce que les marchés vont faire, car les marchés, comme vous le savez, sont imprévisibles.
+
+[VISUEL: La page web de NinjaTrader affiche maintenant "Experience the Power of NinjaTrader!". Deux sections principales sont "1A_VERIFIER. Get NinjaTrader" avec un bouton "Download" et "2A_VERIFIER. Connect to Live Data" avec un bouton "Connection Guide".]
+Bien, nous allons nous allons mettre un email ici. Donc vous choisissez de mettre votre email là et vous allez appuyer sur "Download" et il va vous demander des informations. Je le fais pas puisque moi je l'ai déjà fait. Mais une fois que vous avez cliqué et vous avez demandé "Download", il va vous demander des détails sur vous, le nom, le prénom et cetera.
+
+[VISUEL: L'écran affiche une boîte de réception Gmail. Deux e-mails sont visibles: "CQGTrader - Demo Login Credentials" et "NinjaTrader Brokers - Connect NinjaTrader to Live Futures Data".]
+Et vous et il va vous envoyer ensuite ici.
+
+[VISUEL: L'e-mail "CQGTrader - Demo Login Credentials" est ouvert. Il contient un message de remerciement et les informations de connexion: "User name: demoXXXXXX" et "Password: YYYY/YYYY".]
+Il va vous dire allez, vous allez télécharger NinjaTrader gratuitement sur votre sur votre portable. Alors là, je vous dis tout de suite, j'espère que vous avez un Windows et que vous n'avez pas un Macintosh ou quelque chose comme ça, parce que si vous voulez faire du trading, il faut vous équiper, il faut avoir un bon PC Windows et il faut avoir un minimum de i7. i7, c'est-à-dire, vous devez avoir un microprocesseur, rappelez-vous de ça, i7, parce que si vous voulez travailler et utiliser euh euh le le le l'order flow, le carnet d'ordres, il vaut mieux avoir une bonne machine à partir de, rappelez-vous de ça, certains d'entre vous, euh certainement la plupart ont encore un i5, mais le i7, c'est bien. Le mieux, évidemment, si vous avez le i9, ça serait très très bien.
+
+[VISUEL: L'écran affiche la plateforme NinjaTrader. Un graphique de ZN (10A_VERIFIER-Year T-Note Futures) en 15A_VERIFIER minutes est visible, avec une moyenne mobile exponentielle (EMA) blanche. Un panneau d'entrée d'ordres (SuperDOM) est sur la droite. Une petite fenêtre "Control Center - Positions" est ouverte en haut à gauche.]
+Donc, vous, vous allez télécharger ici.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "Connections" est ouvert, affichant plusieurs options de connexion, dont "Belkhayate System", "CQG", "My NinjaTrader Continuum", "My NinjaTrader FCM", etc.]
+Et sur l'e-mail que vous avez envoyé, vous avez reçu ici deux e-mails. Un e-mail de NinjaTrader Broker qui vous invite et qui vous explique ce qu'il faut faire. Et puis vous avez un e-mail de CQG. CQG, c'est en fait le fournisseur des cours en temps réel. Et il vous donne gratuitement ici, vous voyez là, il vous donne un login que vous allez mettre, je vais vous montrer où. Vous mettez ce login là et vous avez euh NinjaTrader qui va fonctionner.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "Connections" est ouvert. Le curseur survole "My NinjaTrader Continuum".]
+Comme ici, vous allez voir, on va venir là et on va choisir ici le contrôle ici. Voilà. Alors ici, vous vous avez NinjaTrader et ce que vous voyez là, c'est Ninja, c'est cette c'est ce rectangle là qui vous permet de contrôler NinjaTrader. Et quand vous venez ici, sur "Connections", vous, j'ai déjà moi ma connexion NinjaTrader Continuum ici, vous voyez. Voilà, que vous pouvez faire. Alors, euh vous, quand vous avez des codes, vous venez par exemple sur Belkhayate System ici, par exemple.
+
+[VISUEL: Une boîte de dialogue "Error" apparaît, indiquant "Belkhayate System Provider 'NinjaTrader Continuum' already configured. There can be more than one connection to 'NinjaTrader Continuum' but only one 'Belkhayate System' can be generated. (Pass)". Belkhayate clique sur "OK".]
+Attendez ici, on va prendre ici par exemple Ninja Continuum.
+
+[VISUEL: La fenêtre "Connections" est ouverte. Belkhayate clique sur "Configure". Une nouvelle fenêtre "Connections" apparaît, montrant une liste de connexions disponibles et les propriétés de la connexion sélectionnée ("Belkhayate System"). Le champ "User name" est pré-rempli avec "092011200A_VERIFIER".]
+Pardon, configurer. On vient dans "Configure" ici. Et vous allez choisir par exemple la connexion en question et ici vous allez changer le vous allez mettre le démo, le login et le password que vous avez ici. Et euh euh chaque fois que euh euh vous avez expiré votre démo, votre version démo, vous pouvez revenir ici et utiliser un autre e-mail et comme ça, ils vont vous renvoyer encore euh un autre login que vous allez mettre dans la connexion ici, en venant "Connection", "Configure". Vous venez dans votre connexion par exemple NinjaTrader Continuum ici. Et vous pouvez mettre ici euh les les mots de passe et cetera. Voilà, donc ça, c'est ce qui concerne la connexion. Maintenant, on va commencer tout de suite avec on vient ici dans "New" ici.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert, affichant diverses options comme "Basic Entry", "FX Pro", "Order Ticket", "SuperDOM (Dynamic)", "Alerts Log", "Chart", "Depth Chart", "FX Board", "FX Correlation", "Bid/Ask Analyzer", "Market Analyzer", "Market Watch", "News", etc. Belkhayate clique sur "Chart".]
+Et on vient dans on va essayer on va commencer déjà par un un chart. Donc on vient ici et on fait un chart. Pour choisir le chart, vous venez ici et vous tapez par exemple, on va commencer par le ZN.
+
+[VISUEL: Une fenêtre "Data Series" est ouverte. Le champ "Instrument" est sélectionné. Belkhayate tape "ZN". Un menu déroulant apparaît avec "ZN 10A_VERIFIER Year T-Note Futures".]
+Le ZN qui est le marché que je vous recommande. Mais évidemment, vous allez voir pendant toute cette formation, je vais vous parler énormément du ZN qui est le marché des bons de trésor américains qui que je considère comme étant le marché le plus facile à trader, en tout cas, d'après mon expérience sur les marchés. Et vous choisissez ici "Future".
+
+[VISUEL: Dans la fenêtre "Data Series", "Future" est sélectionné. "ZN 10A_VERIFIER Year T-Note Futures" est sélectionné. Les propriétés de la série de données sont affichées, avec "Type: Minute" et "Value: 15A_VERIFIER".]
+Donc, et vous avez ici le ZN Future que vous allez que vous allez cliquer ici. Et vous vous avez ici 15 minutes. Vous me laissez 15 minutes et vous faites ça.
+
+[VISUEL: Le graphique de ZN (10A_VERIFIER-Year T-Note Futures) en 15A_VERIFIER minutes est affiché. Une moyenne mobile exponentielle (EMA) blanche est visible, ainsi que des barres de volume en bas. Le SuperDOM est toujours sur la droite.]
+Et vous avez donc NinjaTrader qui, je vais le faire comme ça, voilà, c'est quand même magnifique. Vous avez NinjaTrader qui est en train de vous donner euh euh le le graphique du du ZN sur 15 minutes. Et ici, j'ai mis la moyenne mobile 209, hein, et la moyenne mobile exponentielle de 209. Vous regardez, je fais comme ça.
+
+[VISUEL: Une boîte de dialogue "Always Indication" apparaît, demandant de redémarrer NinjaTrader pour utiliser les indicateurs. Belkhayate clique sur "OK".]
+Ici.
+
+[VISUEL: La fenêtre "Indicators" est ouverte. L'indicateur "EMA" est configuré avec une période de 209A_VERIFIER.]
+Voilà. Regardez, la moyenne mobile 209. EMA 209. Vous la voyez ici. Voilà. Donc là, j'ai tout simplement la moyenne mobile 209. Et j'ai le volume ici qui est là. Donc j'utilise NinjaTrader sur tous les marchés financiers. Euh en général, on va commencer à utiliser euh sur 15 minutes n'importe quel marché. On va juste mettre la moyenne mobile de de 209, ça veut dire euh euh 209, c'est la je vais vous l'expliquer plus tard. Pour le moment, on est en train de définir juste euh euh le NinjaTrader, ce que vous pouvez faire avec NinjaTrader.
+
+[VISUEL: Le graphique de ZN 15min est toujours visible.]
+Alors, ça c'est un premier point, comment mettre un graphique. Ensuite, on va revenir sur la plateforme en question ici.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert. Belkhayate clique sur "Market Watch".]
+Et on va taper ici, on va taper la.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "Tools" est ouvert, affichant diverses options, dont "Instrument Lists". Belkhayate clique sur "Instrument Lists".]
+Instrument List. C'est très important de pouvoir créer votre votre liste. Alors moi, j'ai créé plusieurs listes ici, African Commodity, Belkhayate List et cetera. Vous venez, vous vous pouvez appuyer sur "Add", par exemple, comme ça, et vous créez une liste. On va le on peut le faire ensemble. Par exemple, la liste de la formation, par exemple.
+
+[VISUEL: La fenêtre "Instrument Lists" est ouverte. Belkhayate a créé une liste nommée "liste de la formation". Il clique sur "Add" pour ajouter des instruments. Il tape "ZN", puis "CL", puis "GC".]
+La formation, on va faire comme ça. Et la liste de la formation, voilà, elle est là. Et vous allez ajouter ici des des marchés. Par exemple, on va mettre le ZN. Voilà, on a mis le ZN. On va ajouter un autre marché, par exemple, le Crude Oil, c'est le pétrole. Vous le mettez. Et ensuite, on va mettre l'or et puis c'est tout, je vais m'arrêter là. Vous faites ça et vous avez donc une liste où vous avez choisi vous avez choisi trois marchés.
+
+[VISUEL: La fenêtre "Instrument Lists" est fermée. La fenêtre "Control Center" est active. Le menu "New" est ouvert. Belkhayate clique sur "Market Watch".]
+C'est très important de pouvoir le faire. Comme ça, vous allez vous allez voir pourquoi. Ensuite, on va venir dans "New" et on va regarder "Market Watch".
+
+[VISUEL: La fenêtre "Market Watch" est ouverte. Elle est vide. Belkhayate fait un clic droit. Un menu contextuel apparaît, avec "Add Instrument(s)", "Create new Instrument List", "Remove Tile", etc. Belkhayate clique sur "Add Instrument(s)" et sélectionne "liste de la formation", puis "Select All".]
+"Market Watch", ça va nous donner une idée de ce que les marchés peuvent faire. D'accord ? On vient ici, on va ajouter des instruments. Alors là, on peut choisir notre liste qu'on a fait tout à l'heure, la liste de la formation, et on va choisir par exemple "All".
+
+[VISUEL: La fenêtre "Market Watch" affiche maintenant plusieurs instruments sous forme de petits graphiques en bougies. Certains sont rouges (baissiers), d'autres verts (haussiers). On peut voir des marchés comme le pétrole (CL), l'or (GC), le maïs (ZC), le blé (ZW), le S&P 500A_VERIFIER (ES), le Nasdaq (NQ), etc.]
+Et nous avons les trois marchés qui sont négatifs. Tout de suite, on voit que le pétrole est négatif, que l'or est négatif et que le ZN sont négatifs. Donc, on va faire ça, on va retourner voir une liste de Belkhayate qui est beaucoup plus importante. Et là, on voit que en utilisant "Market Watch", en une fraction de seconde, on peut voir quels sont les marchés qui sont en train de monter, quels sont les marchés qui sont en train de tomber. On voit très bien, par exemple, que le Corn, le ZC, il est en train de de tomber. Les marchés dans général, en général, les marchés sont en train de euh sont dans le rouge, on le voit en une fraction de seconde. Par contre, on voit tout de suite que le gaz naturel en temps réel, il est fortement haussier. Donc, on va pas s'amuser à vendre le gaz naturel, on va pas s'amuser à vendre euh euh, par exemple, FGBEL pour le moment. Euh c'est pas ça qui on va pas le faire. Bon, donc, c'est une visibilité immédiate sur différents marchés que euh vous pouvez utiliser euh avec NinjaTrader qui est une fonction très intéressante. Une autre fonction que j'utilise beaucoup, c'est "Market Analyzer".
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert. Belkhayate clique sur "Market Analyzer".]
+Et ici, "Market Analyzer", c'est un radar en fait qui va vous permettre de sélectionner, par exemple, vous mettez 40 ou 50 marchés et vous demandez des spécifications. Vous regardez, je vais ajouter, je vais ajouter, par exemple, Belkhayate List là, OK, sur le radar.
+
+[VISUEL: La fenêtre "Market Analyzer" est ouverte. Elle affiche une liste d'instruments avec des colonnes "Bid Price", "Ask Price", "Last Price". Certaines lignes sont surlignées en jaune.]
+Et j'ai j'ai tous les marchés ici qui sont là. Et ensuite, je peux ajouter ici un indicateur pour euh euh pour scanner en fait les marchés par rapport à un indicateur. On vient dans "Columns" ici.
+
+[VISUEL: La fenêtre "Market Analyzer" est ouverte. Belkhayate fait un clic droit et sélectionne "Columns". Une fenêtre "Columns" apparaît, affichant une liste d'indicateurs disponibles. Belkhayate sélectionne "Indicator" et choisit "Volume Up-Down". Il configure le "Time Frame" à 15A_VERIFIER minutes.]
+Et on vient ici dans euh et on va rajouter ici un indicateur ici et on va mettre comme indicateur, par exemple, le volume. Voilà. On va mettre le volume ici. Donc, on a choisi de mettre le volume en une minute. Et on va on va mettre 15 minutes. Voilà. Et on va appuyer.
+
+[VISUEL: La fenêtre "Columns" est fermée. La fenêtre "Market Analyzer" affiche maintenant une colonne "Volume Up-Down (15A_VERIFIER Minute)" avec des valeurs numériques.]
+Voilà, il est en train de charger. Et voilà, vous avez les vous avez les volumes ici. Et euh euh et ensuite, on peut choisir de de des alertes par rapport à des volumes dans dans le dans le radar. Ça vous donne une idée tout de suite si vous avez une cassure sur un volume donné. Vous savez que Belkhayate Method est basée sur la cassure dans le volume. Donc, c'est un élément très important qui peut vous alerter que on a une accélération de volume sur le cuivre ou bien sur le maïs et cetera. Donc, c'est très intéressant. Et en fait, euh NinjaTrader euh elle vous elle vous permet d'avoir énormément d'avantages euh pour pouvoir faire du trading professionnel.
+
+[VISUEL: La fenêtre "Control Center" est active. Le menu "New" est ouvert, affichant diverses options.]
+Et on peut revenir ici. Ici, sur le "Tools", quand vous voulez ajouter un un un un indicateur de NinjaTrader, vous pouvez venir dans "NinjaScript" ici et vous pouvez l'ajouter ici. Il y a énormément de choses euh à à à sur NinjaTrader. Je peux pas tout vous montrer comme ça en en un ce laps de temps. Mais toujours est-il que euh je vous je vous recommande de de vous focaliser sur l'utilisation de NinjaTrader. Hein, il y a des il y a des il y a beaucoup de vidéos YouTube sur ça. Vous n'avez pas besoin de moi euh pour maîtriser NinjaTrader. Pour le moment, je suis en train de vous diriger, hein, vers cette plateforme pour que vous puissiez vous habituer. Hein, euh je vais la formation, on va se dérouler sur NinjaTrader. Euh on va installer le carnet d'ordres sur NinjaTrader. Et on va voir comment on va utiliser euh la méthode Belkhayate pour pouvoir euh faire du trading en en repérant des configurations bien spécifiques dans le carnet d'ordres. Voilà, c'était euh une présentation de de de de la plateforme et du potentiel énorme que vous avez avec cette plateforme NinjaTrader pour faire du trading avec le carnet d'ordres. Je vous remercie et je vous donne rendez-vous pour la leçon numéro 3.
+
+[VISUEL: Écran divisé en deux. À gauche, deux personnes en costume regardent des graphiques sur papier. À droite, un écran noir avec le texte "MERCI POUR VOTRE ATTENTION" et le logo "BELKHAYATE METHOD".]
+[VISUEL: Écran noir avec le logo "BELKHAYATE METHOD".]
