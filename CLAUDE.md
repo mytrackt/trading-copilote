@@ -247,7 +247,10 @@ ROLLBACK    : documenter avant chaque phase risquée
 
 ---
 
-## ÉTAT ACTUEL (Session S26 — 24/06/2026)
+## ÉTAT ACTUEL (Session S27 — 25/06/2026)
+
+> **S27** : Scraping de masse 6 sources **COMPLET** (479 bundles bruts, 0 erreur) — StockCharts 236 · Adam Grimes 130 · NinjaTrader 38 · Optimus 32 · Sierra 34 · CFTC 9. **Extraction** prioritaire + bulk lots 1-2 = **63 fichiers / 721 décisions** dans `04-cerveau-trading\validation\extractions_S27\` (D177→D1410). **AUCUNE fusion master** (master reste **D176**). Reprise bulk déterministe : `01-pipeline\assignment_bulk.tsv` idx 48 = D1411+ (413 bundles restants). Détails : `00-pilotage\_context\README_FIN_SESSION_S27_20260625.md` + `KB_INDEX §0bis`.
+
 
 | Élément | État |
 |---------|------|

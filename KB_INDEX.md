@@ -29,9 +29,17 @@
 | **Prioritaires (13)** | VWAP D199-210 · AnchoredVWAP D219-228 · VolumeByPrice D239-248 · PutCall D259-270 (C5) · VIX D279-290 (C5) · Intermarket D299-309 (C7) · CME_Symbols D319-325 · NT_OrderFlow D339-349 · NT_Delta D359-366 · NT_VWAP D379-387 · Sierra_Footprint D399-409 · Sierra_VolByPrice D419-429 · Sierra_Delta D439-450 | 136 | `a9c9ddb` | ✅ BRUT |
 | **TOTAL extrait** | **15 fichiers** | **158 décisions** | | en `validation/` |
 
-⚠️ **Limite découverte** : certaines pages NinjaTrader ont des sections rendues en JS (accordéons) non capturées par `scraper_static.py` → contenu manquant honnêtement tagué 🔴 dans les extractions (formules VWAP renvoyées, tape/L2 vides). À compléter (re-scrape JS ou source alternative) lors de la phase bulk.
+⚠️ **Limite découverte** : certaines pages NinjaTrader ont des sections rendues en JS (accordéons) non capturées par `scraper_static.py` → contenu manquant honnêtement tagué 🔴 dans les extractions (formules VWAP renvoyées, tape/L2 vides). À compléter (re-scrape JS ou source alternative).
 
-Reste : extraction du **corpus bulk** (~324 bundles restants) par lots, toujours sans fusion.
+### Bulk extraction — avancement (lots de sous-agents, sans fusion)
+| Lot | Bundles | Plage D### | Commit |
+|-----|---------|-----------|--------|
+| Bulk 1 | 12 StockCharts (A/D → Aroon) | D451-682 | `31b78ee`→ (extractions `a9c9ddb` suite) |
+| Bulk 2 | 36 StockCharts (ArthurHill → Correlation) | D691-1410 | lot 2 |
+
+**Extraction S27 TOTALE à ce point : 63 fichiers · 721 décisions · D177→D1410 · 0 collision · zone `validation/`.**
+
+**RESTE BULK : 413 bundles** (assignment_bulk.tsv idx 48→460 · StockCharts ~180 + Adam Grimes 127 + NinjaTrader 35 + Optimus 31 + Sierra 31 + CFTC 9). **Reprise déterministe** : prochaines plages D### déjà figées dans `01-pipeline\assignment_bulk.tsv` (idx 48 = D1411+). Re-dispatcher des sous-agents par lots, skip si fichier sortie déjà présent.
 
 **Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
