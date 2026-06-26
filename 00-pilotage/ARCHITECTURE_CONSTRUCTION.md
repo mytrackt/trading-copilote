@@ -61,7 +61,7 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 
 **Contenu** :
 - `config/settings.py` : actifs, seuils, chemins, R/R par instrument
-- `engine/data_reader.py` : lecture flux NT8/ATAS JSON
+- `engine/data_reader.py` : lecture flux NT8/ATAS JSON + validation plausibilité prix par actif (D-S31-11) → hors fourchette = BLOCKED + alerte
 - `engine/staleness_monitor.py` : détection données périmées
 - `utils/atomic_writer.py` : écritures atomiques sécurisées
 - Création dossier `data/` avec structure correcte
@@ -78,7 +78,7 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 
 ### MODULE 01 — CERVEAU BELKHAYATE
 
-**Objectif** : KB → signaux → 10 prompts → structure signal 15 champs
+**Objectif** : KB → signaux → 16 prompts → structure signal 18 champs + contexte veille MODULE 07 + intégrité KB garantie
 **Branche** : `feature/module-01`
 **Taille cible** : 200 lignes
 **GATE BLOQUANT** :
@@ -87,8 +87,10 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 - ✅ MODULE 00 terminé et mergé
 
 **Contenu** :
-- `engine/claude_brain.py` : 10 prompts spécialisés (D-S30-3)
-- Structure signal 15 champs (D-S30-2)
+- `engine/claude_brain.py` : 16 prompts spécialisés (D-S31-2) dont Prompt 16 Formation Progressive
+- Structure signal 18 champs (D-S31-1) : 15 existants + probabilité qualitative + conditions annulation + message pédagogique
+- Hash SHA256 KB au démarrage (D-S31-12) : si différent → restauration git auto + alerte malware + refus démarrage
+- `04-cerveau-trading/KB_HASH.txt` (à créer) : hash de référence git-tracké
 - Règle 3/4 + 2/3 en pré-filtre (avant appel API)
 - Grille /10 Belkhayate (seuil ≥ 7,0)
 - Prompt caching : cache_control sur KB (~90% économies)
@@ -96,7 +98,7 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 **Rollback** : restaurer `claude_brain.py` depuis Git (version précédente)
 
 **Tests** :
-- [ ] Signal produit sur données de test contient 15 champs
+- [ ] Signal produit sur données de test contient 18 champs
 - [ ] Filtre 3/4+2/3 bloque quand conditions non remplies
 - [ ] Score /10 cohérent avec les règles Belkhayate
 - [ ] Appel API Claude fonctionne avec prompt caching
@@ -114,8 +116,9 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 **Contenu** :
 - `engine/risk_manager.py` : risque 0,25–0,50% par trade (D-S30-5), suspension auto, revenge trading
 - `engine/circuit_breaker.py` : timeout 15s → retry 2x → fallback ATTENDRE
-- News gate : blocage 30min avant NFP/FOMC/CPI (timezone ET)
-- Kill switch : 7 conditions de blocage total
+- News gate GRADUÉ (D-S31-5) : Zone 1 (2h avant → REDUCE_RISK -50%) · Zone 2 (30 min → BLOCAGE TOTAL) · Zone 3 (post-annonce → scoring surprise)
+- Kill switch : 7 conditions de blocage total (D-S31-3 : + kill switch journalier + anti-martingale + pause série pertes)
+- `engine/time_guard.py` (à créer) : sync NTP au démarrage · écart > 60s → BLOCKED (D-S31-15)
 - Détection comportements dangereux (sur-trading, après-perte)
 
 **Rollback** : restaurer `risk_manager.py` et `circuit_breaker.py` depuis Git
@@ -138,6 +141,10 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 - ✅ MODULE 00 terminé
 
 **Stack** : React 18 + Vite + Tailwind 3.4 (local)
+**Écran principal — 7 BLOCS VERROUILLÉS (D-S30-13)** :
+BLOC 1 Verdict · BLOC 2 Score 5D · BLOC 3 Plan trade · BLOC 4 Raisons pour (x3)
+BLOC 5 Raisons contre (x3) · BLOC 6 Checklist 8 points · BLOC 7 5 boutons action
+Logique couleurs : vert/orange/rouge/gris/bleu/noir (verrouillée)
 **10 écrans** :
 1. Décision instantanée (verdict en 5 secondes)
 2. Analyse marché (7 Cercles)
@@ -169,10 +176,11 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 
 **Contenu** :
 - Moteur paper trading : ouvrir/fermer trades simulés, P&L fictif
-- `engine/memory_manager.py` (à créer) : 10 mémoires opérationnelles (D-S30-4)
+- `engine/memory_manager.py` (à créer) : 10 mémoires opérationnelles détaillées (D-S30-10)
+- `engine/error_tracker.py` (à créer) : 20 types d'erreurs détectables (D-S30-11)
+- `engine/report_generator.py` (à créer) : 8 types de rapports (D-S30-15)
 - Journal : 12 champs par décision (date, signal, score, émotion, résultat, erreur…)
-- Audit post-trade : comparer scénario prévu vs résultat réel
-- Rapport quotidien automatique (prompt 6 — D-S30-3)
+- Audit post-trade : prompt 7 — comparer scénario prévu vs résultat réel (D-S30-17)
 
 **Rollback** : supprimer `memory_manager.py` + restaurer DB depuis backup Git
 
@@ -192,17 +200,62 @@ Avant d'écrire ou d'exécuter un module, Claude Code doit :
 **Prérequis** : MODULE 04 terminé
 
 **Contenu** :
+- `engine/anti_repetition.py` (à créer) : Module Anti-Répétition — 10 fonctions (D-S30-14)
+- `engine/optimizer.py` (à créer) : Optimisation contrôlée 10 règles + 15 critères (D-S30-12)
+- Strategy Lab (D-S30-16) : fiches 20 champs + 18 fonctionnalités, versionnement, désactivation auto dégradée
+- Rapports hebdo/mensuel/par stratégie/par erreur (D-S30-15)
 - Statistiques : win rate, profit factor, drawdown, discipline score
-- Anti-répétition : 14 types d'erreurs détectées automatiquement
-- Strategy Lab (D-S30-6) : fiches avec statuts active/test/suspendue/rejetée
-- Rapport hebdomadaire : erreur la plus répétée + correction proposée
 
 **Rollback** : restaurer depuis Git
 
 **Tests** :
 - [ ] Win rate calculé correctement sur historique de test
+- [ ] Anti-répétition déclenche alerte après 3 occurrences de la même erreur
 - [ ] Stratégie suspendue automatiquement si dégradation détectée
 - [ ] Rapport hebdomadaire généré avec au moins 1 erreur identifiée
+- [ ] Optimisation refusée si données insuffisantes
+
+---
+
+### MODULE 07 — AGENT VEILLE MACRO (D-S31-6 à D-S31-10)
+
+**Objectif** : Répondre à la question "Le contexte autorise-t-il un trade ?" avant tout signal
+**Branche** : `feature/module-07`
+**Taille cible** : 200 lignes (spec) + 4 fichiers Python séparés
+**Prérequis** : MODULE 00 terminé · MODULE 02 terminé (news gate gradué D-S31-5)
+**Parallélisable avec** : MODULE 04, MODULE 05
+
+**4 sous-agents (fichiers séparés)** :
+- `engine/veille_collector.py` : enrichit news_collector.py + macro_collector.py — sources priorité 1→5
+- `engine/veille_filter.py` : classement 8 catégories (fait confirmé · rumeur · bruit · signal risque…)
+- `engine/macro_scorer.py` : scoring 8 dimensions par info macro (D-S31-7)
+- `engine/veille_synthesizer.py` : contexte macro structuré → cerveau IA principal (MODULE 01)
+
+**Fichiers additionnels** :
+- `engine/market_risk_alert.py` : Market Risk Alert mode rouge (D-S31-8) — 8 déclencheurs · 8 actions
+- `engine/veille_prompts.py` : 14 prompts internes veille (D-S31-9)
+- Rapport quotidien veille macro 12 éléments dans `report_generator.py` (D-S31-10)
+
+**News Gate gradué (D-S31-5)** :
+- Zone 1 (2h avant) : REDUCE_RISK → taille -50% · signal prudence
+- Zone 2 (30 min avant) : BLOCAGE TOTAL — intouchable
+- Zone 3 (post-annonce) : scoring surprise → prudence variable 30–60 min si surprise élevée
+
+**Règle absolue** : cet agent ne trade pas · ne produit pas d'ordre · enrichit uniquement le contexte.
+
+**8 moments de veille** : avant ouverture · après statistiques · avant/après BC · séances US/EU/AS · synthèse fin journée · actualité urgente · avant session Abdelkrim.
+
+**Rollback** : supprimer les 6 fichiers engine/veille_*.py + engine/market_risk_alert.py · restaurer news_collector.py et macro_collector.py depuis Git
+
+**Tests** :
+- [ ] Collecteur lit Finnhub + GDELT + FRED sans erreur
+- [ ] Filtre classe correctement 10 actualités de test (8 catégories)
+- [ ] Scorer produit 8 dimensions sur 5 infos macro de test
+- [ ] Market Risk Alert déclenche alerte sur simulation FOMC surprise
+- [ ] News Gate Zone 1 (2h) réduit taille 50% sur datetime simulé
+- [ ] News Gate Zone 2 (30 min) bloque totalement sur datetime simulé
+- [ ] Rapport quotidien veille 12 éléments généré sans erreur
+- [ ] Synthétiseur transmet contexte lisible à claude_brain.py
 
 ---
 

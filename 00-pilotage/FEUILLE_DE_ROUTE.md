@@ -445,6 +445,213 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 ---
 
+## CRITÈRES GO / NO-GO PAR PHASE (D-S31-4 — 26/06/2026)
+
+> Format : chaque phase doit satisfaire TOUS les critères GO avant de démarrer la suivante.
+> Validé par Abdelkrim. Aucune exception.
+
+---
+
+### PHASE A — Documentation & Garde-fous
+**Statut : ✅ TERMINÉE — GO acquis**
+
+---
+
+### PHASE B — KB Belkhayate
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Batch Gemini terminé | `ls 03-transcriptions\nouvelles-sources\` | 203 fichiers |
+| KB fusion terminée | `python -c "import json; d=json.load(open('04-cerveau-trading/KNOWLEDGE_BASE_MASTER.json')); print(len(d['rules']))"` | ≥ 1 461 règles |
+| KB chargeable sans erreur | `python -m py_compile 05-saas/engine/claude_brain.py` + `load_kb_rules()` | 0 erreur |
+| KB < 50k tokens | Comptage tokens prompt système | < 50 000 tokens |
+| Zéro règle sans source_url | Script audit source_url | 0 règle sans URL réelle |
+| Validation humaine | Relecture 50 règles aléatoires par Abdelkrim | OK confirmé |
+
+**NO-GO si :** batch incomplet · KB plante au chargement · règles sans source · tokens > 50k
+**Rollback :** relancer batch Gemini sur vidéos manquantes · supprimer règles non sourcées
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE C — Collecteurs de données
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase B validée | GO Phase B | ✅ |
+| NinjaTrader 8 actif | NT8 ouvert + ATI activé port 36973 | Connecté |
+| ATAS configuré | ATAS Pro ouvert + export JSON actif | Connecté |
+| Dossier `data\` créé | `Test-Path C:\trading-copilote\data` | True |
+| 5 collecteurs compilent | `python -m py_compile` sur chacun | 0 erreur |
+| 10 cycles sans crash | Lancer chaque collecteur 10 itérations | 0 crash |
+| Atomic writes actifs | Vérifier tempfile + os.replace dans chaque fichier | Présent |
+
+**NO-GO si :** NT8 ou ATAS non disponibles · un collecteur crash sur 10 cycles · atomic writes absents
+**Rollback :** corriger le collecteur fautif · ne pas avancer tant que les 5 ne tournent pas
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE D — Moteur Belkhayate Python
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase B + C validées | GO Phase B + C | ✅ |
+| belkhayate_formulas.py compile | `python -m py_compile belkhayate_formulas.py` | 0 erreur |
+| BGC calculé | Test sur 50 bougies GC | Valeur != 0 |
+| Direction calculée | Test sur 50 bougies | Valeur dans [-1, 0, 1] |
+| Energie calculée | Test sur 50 bougies | Valeur numérique |
+| Pivots calculés | Test sur 50 bougies | PP + R1-R3 + S1-S3 |
+| Écart Python vs NT8 < 1% | Comparaison sur 50 bougies × 4 actifs (GC/HG/CL/ZW) | < 1% sur chaque actif |
+
+**NO-GO si :** écart > 1% sur un actif · formule ne compile pas · valeur absurde détectée
+**Rollback :** revoir formule concernée · re-sourcer dans Pine Script TradingView
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE E — Signal Scorer + Régime + WFO + Loop3
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase C + D validées | GO Phase C + D | ✅ |
+| signal_scorer.py compile | `python -m py_compile` | 0 erreur |
+| regime_detector.py compile | `python -m py_compile` | 0 erreur |
+| feedback_engine.py compile | `python -m py_compile` | 0 erreur |
+| threshold_adapter.py compile | `python -m py_compile` | 0 erreur |
+| SQLite schema créé | `db\schema.sql` exécuté + 5 tables présentes | OK |
+| WFO 3 mois (IS 90j + OOS 30j) | walk_forward_validate() | Pas d'erreur |
+| Win rate backtest | SQLite analytics | ≥ 55% sur 50+ signaux |
+| OOS/IS ratio | walk_forward_validate() | ≥ 0.70 |
+| Seuil score_min dans bornes | threshold_adapter | 6.0 ≤ score_min ≤ 9.0 |
+
+**NO-GO si :** WFO échoue · win rate < 55% · OOS/IS < 0.70 · score_min hors bornes [6.0–9.0]
+**Rollback :** revoir paramètres · relancer WFO · ne pas activer le scorer sur live
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE F — Trade Validator + Risk Engine + OOD + Dual-Claude
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase E validée | GO Phase E | ✅ |
+| trade_validator.py compile | `python -m py_compile` | 0 erreur |
+| Blocage ordre sans stop | Test : envoyer signal sans SL → validator doit refuser | REFUSÉ confirmé |
+| Kelly fraction dans bornes | kelly_fraction() avec N >= 50 trades | 0.5% ≤ Kelly ≤ 2.0% |
+| OOD detector testé | 5 métriques zscore sur données historiques 252j | Détecte EXTREME + ELEVATED |
+| Dual-Claude testé | 10 signaux tests bull/bear advocates | AMBIGUOUS → WAIT |
+| Portfolio heat testé | 2 trades corrélés > 0.7 → bloquer le 2e | BLOQUÉ confirmé |
+| Risque journalier actif (D-S31-3) | kill switch déclenché si perte > max/jour | BLOQUÉ confirmé |
+| Anti-martingale actif (D-S31-3) | Tentative d'augmenter taille après perte → refus | REFUSÉ confirmé |
+
+**NO-GO si :** un ordre sans SL passe · Kelly hors bornes · dual-Claude non testé · kill switch inactif
+**Rollback :** corriger le validateur · ne pas toucher au live tant que tous les tests ne passent pas
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE G — NT8 ATI port 36973 + Killswitch Internet
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase F validée | GO Phase F | ✅ |
+| NT8 ATI active port 36973 | Connexion TCP/IP locale | Connecté |
+| nt8_ati_client.py compile | `python -m py_compile` | 0 erreur |
+| 48h simulation demo Rithmic | Test continu | 0 erreur · 0 déconnexion |
+| Zéro ordre fantôme | Log order_manager.py sur 48h | 0 ordre non voulu |
+| Killswitch internet testé | Couper réseau → vérifier blocage immédiat | BLOQUÉ confirmé |
+
+**NO-GO si :** déconnexion NT8 non gérée · ordre fantôme détecté · killswitch inactif
+**Rollback :** corriger client NT8 · répéter 48h test depuis zéro
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE H — FastAPI locale + Health monitoring
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phases C + E + F + G validées | GO phases | ✅ |
+| FastAPI démarre sans erreur | `uvicorn main:app` | 0 erreur au démarrage |
+| Routes testées | 100 requêtes sur chaque route | 0 crash · latence < 200ms |
+| Health check actif | `/health` renvoie statut 5 couches | OK |
+| Monitoring 5 couches actif | Alerte si une couche tombe | Alerte confirmée |
+
+**NO-GO si :** un endpoint crash sur 100 requêtes · health check absent · monitoring inactif
+**Rollback :** corriger l'endpoint fautif · ne pas avancer avant 100 requêtes sans erreur
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE I — Dashboard React 18
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase H validée | GO Phase H | ✅ |
+| `npm run build` sans erreur | Build production | 0 erreur |
+| 9 composants rendus | Visite manuelle de chaque écran | OK visuel |
+| Signal 18 champs affiché (D-S31-1) | Écran opportunité de trade | 18 champs visibles |
+| STOP ALL fonctionnel | Clic → toutes actions bloquées | BLOQUÉ confirmé |
+| Disclaimer AMMC visible | Présent sur TOUS les écrans | Visible en permanence |
+| Aucun bouton d'ordre réel | Audit UI | 0 bouton ordre réel |
+
+**NO-GO si :** STOP ALL non fonctionnel · disclaimer absent · bouton ordre réel présent
+**Rollback :** corriger composant · ne pas livrer l'UI tant que les 3 conditions critiques ne sont pas OK
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE J — Paper Trading 30 jours
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase I validée | GO Phase I | ✅ |
+| 30 jours de trading accomplis | Journal JSON + .md quotidien | 30 entrées |
+| Win rate | SQLite analytics | ≥ 55% sur 50+ trades |
+| Drawdown total | SQLite analytics | ≤ 5% du capital paper |
+| Stabilité connexion | Logs NT8/ATAS | 0 déconnexion > 60s sur 24h |
+| Kill switch testé en conditions réelles | Déclenché au moins 1 fois | Log SQLite |
+| Mode AUTO resté bloqué | Vérification code + logs | AUTO_MODE = False tout le long |
+
+**NO-GO si :** win rate < 55% · DD > 5% · déconnexion non gérée · mode AUTO activé
+**Rollback :** reprendre paper trading · corriger le problème · repartir de zéro sur les 30 jours
+**Validé par :** Abdelkrim ✋
+
+---
+
+### PHASE K — Activation Mode AUTO
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Les 8 conditions K (tableau existant) | Voir section PHASE K ci-dessus | 8/8 satisfaites |
+| Bouton activé + mot de passe | Action manuelle Abdelkrim | Log SQLite avec timestamp |
+| Circuit Breaker ACTIF | Test timeout 15s → retry 2x → ATTENDRE | Comportement confirmé |
+| Risque journalier/hebdo actif (D-S31-3) | Vérification settings.py | Valeurs configurées |
+
+**NO-GO si :** UNE seule des 8 conditions non remplie → blocage total · pas de dérogation possible
+**Rollback :** identifier la condition manquante · la corriger · re-valider toutes les 8
+**Validé par :** Abdelkrim ✋ (bouton physique + mot de passe)
+
+---
+
+### PHASE L — Intégration Vision-Décision 5 couches
+
+| Critère GO | Mesure | Seuil |
+|---|---|---|
+| Phase J validée (30j paper) | GO Phase J | ✅ |
+| Phase B complète (KB) | GO Phase B | ✅ |
+| vision_pipeline.py compile | `python -m py_compile` | 0 erreur |
+| rate_limiter.py actif | Test 31 appels → hard stop au seuil | BLOQUÉ confirmé |
+| Audit log opérationnel | Vérification 10 décisions loguées | OK |
+| Les 8 tests de validation passent | Plan de validation (section Architecture) | 8/8 |
+
+**NO-GO si :** un test sur 8 échoue · rate limiter inactif · audit log absent
+**Rollback :** corriger le test fautif · ne pas passer en production avant 8/8
+**Validé par :** Abdelkrim ✋
+
+---
+
 ## REGLES NON NEGOCIABLES
 
 1. Mode AUTO BLOQUE jusqu'a Phase K + 6 conditions.
