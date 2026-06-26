@@ -1,5 +1,5 @@
 # KB_INDEX — TRADEX-AI · Base de Connaissances Trading
-**Dernière mise à jour :** 24/06/2026 · Session S27 — scraping de masse 6 sources (bundles bruts)
+**Dernière mise à jour :** 26/06/2026 · Session S30 — bulk extraction 476 fichiers COMPLET (D177→D9670)
 **Repo :** `C:\trading-copilote\` · branch `main`
 **GitHub :** `mytrackt/trading-copilote`
 
@@ -32,18 +32,26 @@
 ⚠️ **Limite découverte** : certaines pages NinjaTrader ont des sections rendues en JS (accordéons) non capturées par `scraper_static.py` → contenu manquant honnêtement tagué 🔴 dans les extractions (formules VWAP renvoyées, tape/L2 vides). À compléter (re-scrape JS ou source alternative).
 
 ### Bulk extraction — avancement (lots de sous-agents, sans fusion)
-| Lot | Bundles | Plage D### | Statut |
-|-----|---------|-----------|--------|
-| Bulk 1 | 12 StockCharts (A/D → Aroon) | D451-682 | ✅ |
-| Bulk 2 | 36 StockCharts (ArthurHill → Correlation) | D691-1410 | ✅ |
-| Bulk 3 | 36 StockCharts (CupWithHandle → P&F traps) | D1411-2130 | ✅ |
-| Bulk 4 | 36 StockCharts (ICE → P&F traps) | D2131-2850 | ✅ |
-| Bulk 5 | **36/36** StockCharts (P&F → GSCI) | D2851-3562 | ✅ (8 derniers écrits main loop, fleet rate-limited) |
+| Lot | Bundles | Plage D### | Commit | Statut |
+|-----|---------|-----------|--------|--------|
+| Bulk 1 | 12 StockCharts (A/D → Aroon) | D451-682 | — | ✅ |
+| Bulk 2 | 36 StockCharts (ArthurHill → Correlation) | D691-1410 | — | ✅ |
+| Bulk 3 | 36 StockCharts (CupWithHandle → P&F traps) | D1411-2130 | — | ✅ |
+| Bulk 4 | 36 StockCharts (ICE → P&F traps) | D2131-2850 | — | ✅ |
+| Bulk 5 | 36 StockCharts (P&F → GSCI) | D2851-3562 | — | ✅ |
+| Bulk 6 | 36 StockCharts (SectorRota → TA101 p7) | D3571-4290 | `71fc8bc` | ✅ |
+| Bulk 7 | 36 StockCharts (TA101 p8 → Zigzag) | D4291-5010 | `948504b` | ✅ StockCharts 100% complet |
+| Bulk 8 | 36 AdamGrimes (lot 1 idx 228-263) | D5011-5730 | `c0230cc` | ✅ |
+| Bulk 9 | 36 AdamGrimes (lot 2 idx 264-299) | D5731-6450 | `ce184f4` | ✅ |
+| Bulk 10 | 36 AdamGrimes (lot 3 idx 300-335) | D6451-7170 | `8a85022` | ✅ |
+| Bulk 11 | 19 AdamGrimes final (idx 336-354) | D7171-7550 | `1e533bc` | ✅ AdamGrimes 100% complet |
+| Bulk 12 | NinjaTrader (idx 355-392) + Optimus (idx 393-420) | D7551-8870 | — | ✅ |
+| Bulk 13 | Sierra Chart (idx 421-451) | D8871-9490 | `fd83036` | ✅ |
+| Bulk 14 | CFTC (idx 452-460) | D9491-9670 | `3902fb9` | ✅ CFTC 100% complet |
 
-**Extraction S27 TOTALE : 171 fichiers · 2398 décisions · D177→D3562 · 0 collision · zone `validation/`.**
+**Extraction bulk TOTALE : 476 fichiers · 6446 décisions · D177→D9670 · 0 collision · zone `validation/`.**
 
-**RESTE BULK : 305 bundles** = `assignment_bulk.tsv` idx 156→460 (D3571+). StockCharts ~32 + Adam Grimes 127 + NinjaTrader 35 + Optimus 31 + Sierra 31 + CFTC 9. **Reprise déterministe** : plages D### figées ; sous-agents skip si fichier sortie déjà présent.
-> ⚠️ Fleet de sous-agents **rate-limited** (reset ~3h Africa/Casablanca) lors du lot 5. Reprise bulk idx 156 après reset (ou en main loop au ralenti).
+> ✅ **BULK COMPLET** — `assignment_bulk.tsv` idx 0→460 entièrement traité (26/06/2026). Aucun fichier manquant. Anti-collision vérifiée (0 doublon). Rien à extraire. Prochaine étape : fusion master (attendre OK Abdelkrim).
 
 **Outils S27 :** `build_queue_sc.py` (file GARDER depuis llms.txt + rejets cartographie) · `run_queue.py` (runner batch reprise + journal) · `build_queues_static.py` (files NinjaTrader/Sierra).
 
