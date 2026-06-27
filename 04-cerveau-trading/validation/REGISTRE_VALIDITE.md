@@ -109,3 +109,29 @@
 - Intégrité : top-level + 108 vidéos préservés ; bloc ajouts_manuels[1] ajouté (ticket 0.b)
 - Backup : KNOWLEDGE_BASE_MASTER.bak_chap5_20260620.json (local, non commité)
 - Ticket : 0.b → 🟢 INTÉGRÉ
+
+---
+
+## [2026-06-27] Ticket 0.l — Chap12 Macro et Actualités (Session S32)
+
+- Source : 02-sources-brutes/methode-belkhayate/TRADEX_KB_Chap12_Macro_Actualites.md
+- Briques fabriquées : 18
+- Types : 17 REGLE / 1 PIEGE
+- Fiabilité : 12 FAIT_STABLE / 4 CONVENTION / 1 ECOLE_DE_PENSEE / 1 NON_VERIFIE
+- Fichier : 04-cerveau-trading/validation/KB_CHAP12_MACRO.json
+
+### AUDIT AUTOMATIQUE — [2026-06-27]
+
+**Fichier audité :** 04-cerveau-trading/validation/KB_CHAP12_MACRO.json
+**Score :** 100/100 — 0 erreur critique / 0 avertissement
+**Verdict :** VALIDE 18/18
+
+| Étape | Résultat |
+|-------|----------|
+| Étape 5 — Fabrication | 18 briques JSON créées |
+| Étape 6 — Audit auto | 100/100 — VALIDE |
+| Étape 7 — Fusion | KB 1313 → 1331 règles (+18) — session S32 |
+
+**Catégories fusionnées :** macro_evenements+11, correlations+4, volume_liquidite+2, saisonnalite+1
+**Note anti-contradiction :** 11/11 règles macro_evenements avec ROLE: explicite
+**Ticket 0.l → 🟢 INTÉGRÉ**

@@ -241,7 +241,7 @@
 
 🟢 Les annonces macroéconomiques majeures (NFP, décision Fed, inventaires pétrole EIA) produisent des mouvements dont la direction est imprévisible et la volatilité extrême. Le spread s'élargit, les stops slippent.
 
-🟡 **Règle pratique :** éviter toute entrée dans les 15 minutes avant et après une annonce majeure. Fermer les positions ouvertes ou réduire la taille si une annonce est prévue pendant le trade.
+🟡 **Règle pratique :** éviter toute entrée dans les **30 minutes avant** une annonce majeure (aligné DECISIONS_VEROUILLEES — Zone 2 News Gate). Fermer les positions ouvertes ou réduire la taille si une annonce est prévue pendant le trade.
 
 ### 8.6.4 Le trade en période de faible liquidité
 

@@ -83,6 +83,9 @@ Avantage : simple, visuel, sans paramètre. Inconvénient : réactif (le régime
 
 🟡 Le seuil de 20/40 est une convention Wilder, pas une loi. Il peut être ajusté selon l'actif et le TF. À calibrer en backtest.
 
+⚙️ **Seuil opérationnel TRADEX-AI : ADX = 25** (décision verrouillée Session S32 — 2026-06-27). Le tableau Wilder ci-dessus (20/40) reste la **référence théorique**. Le moteur utilise **25** comme seuil unique (voir §9.2.3). Ne jamais utiliser 20 dans le code.
+
+
 🟢 **Méthode 3 — R² (coefficient de détermination d'une régression linéaire) :** Calculer R² d'une régression linéaire sur N bougies. R² proche de 1 \= tendance forte. R² proche de 0 \= marché aléatoire/range.
 
 🟡 N \= 14 est une convention commune. Non optimal universellement.
