@@ -50,6 +50,8 @@ _temp/
 
 # Backup KB
 *.bak.json
+*.bak*
+*.tmp
 
 # Claude settings local
 .claude/settings.json
