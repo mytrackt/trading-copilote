@@ -187,6 +187,13 @@
         "nb_regles": 18,
         "session": "S34",
         "date": "2026-06-27"
+      },
+      {
+        "phase": "S34-Chap8",
+        "source": "KB_CHAP8_PATTERNS.json — 12 briques patterns/setups",
+        "nb_regles": 12,
+        "session": "S34",
+        "date": "2026-06-27"
       }
     ],
     "phase3_transform": {
@@ -206,7 +213,7 @@
       },
       "description": "channel rempli via MANIFESTE + détection transcript_file + transcripts-bruts"
     },
-    "total_rules": 1359,
+    "total_rules": 1371,
     "session": "S19",
     "session_s32_chap12": {
       "date": "2026-06-27",
@@ -9831,6 +9838,38 @@
         "categorie": "gestion_risque_entree",
         "confiance": 0.7,
         "note": "Corrélations actifs TRADEX : 2 positions corrélées maximum — risque de concentration à calculer"
+      },
+      {
+        "regle": "Aucun setup TRADEX en production sans backtest OOS : définition écrite → in-sample → OOS (min 30 trades) → métriques (WR, RR, PF, MDD). Walk-forward ≠ backtest sur données récentes.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_backtest-protocole-in-out-sample",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.92,
+        "note": "Protocole backtest obligatoire : in-sample + out-of-sample"
+      },
+      {
+        "regle": "Biais look-ahead (info future dans le passé) et biais sélection (exemples cherry-picked) invalident tout backtest. Protocole écrit obligatoire avant de regarder les charts.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_biais-look-ahead-selection",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.92,
+        "note": "Biais de look-ahead et de sélection invalident le backtest"
+      },
+      {
+        "regle": "Score < 5 = interdit d'entrer. Score 5-6 = taille réduite. Score 7-8 = taille normale. Score ≥ 9 = taille pleine. Statut 🔵 — calibrer selon backtest.",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "CHAP8_scoring-grille-0-10-tradex",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.75,
+        "note": "Grille de scoring 0–10 pour décision d'entrée TRADEX"
+      },
+      {
+        "regle": "Maximum 3 paramètres libres par setup TRADEX. Au-delà = risque d'over-fitting significatif. Convention pratique.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_overfitting-max-3-parametres",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.82,
+        "note": "Maximum 3 paramètres libres par setup pour éviter l'over-fitting"
       }
     ],
     "gestion_position_active": [
@@ -12968,6 +13007,38 @@
         "categorie": "structure_marche",
         "confiance": 0.75,
         "note": "Architecture décisionnelle TRADEX-AI en 5 niveaux — du filtre régime à la gestion du trade"
+      },
+      {
+        "regle": "Tout setup TRADEX doit avoir exactement 5 composantes (contexte, niveau, signal, invalidation, cible/stop). Setup incomplet = non backtestable = interdit en production.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_setup-5-composantes-obligatoires",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Les 5 composantes obligatoires d'un setup tradeable"
+      },
+      {
+        "regle": "Pattern de bougie sans contexte (niveau clé + structure) = valeur statistique non démontrée. Confluence obligatoire.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_pattern-bougie-contexte-obligatoire",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Un pattern de bougie n'a de valeur que dans un contexte"
+      },
+      {
+        "regle": "Setup COG bande externe + rejet : 5 conditions requises (bande COG + signal bougie + Wyckoff + Market Profile + RR≥2:1). Statut 🔵 — backtester avant production.",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "CHAP8_setup-cog-bande-externe-rejet",
+        "categorie": "structure_marche",
+        "confiance": 0.75,
+        "note": "Setup principal TRADEX : COG bande externe + rejet"
+      },
+      {
+        "regle": "Setup Spring Wyckoff + COG : confluence forte théorique (Phase C + fausse cassure + COG + Volume). Statut 🔵 — valider en walk-forward avant production.",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "CHAP8_setup-spring-wyckoff-cog",
+        "categorie": "structure_marche",
+        "confiance": 0.75,
+        "note": "Setup secondaire TRADEX : Spring Wyckoff + COG"
       }
     ],
     "macro_evenements": [
@@ -13266,6 +13337,14 @@
         "categorie": "macro_evenements",
         "confiance": 0.82,
         "note": "Post-annonce : attendre 5-10min que la volatilité se stabilise, puis entrer sur la structure technique [ROLE: CONTEXTE_TECHNIQUE — exception post-blocage. 🟡 Convention, pas règle absolue.]"
+      },
+      {
+        "regle": "Aucune entrée dans les 30 min avant annonce majeure. Fermer ou réduire positions existantes. Conforme Zone 2 News Gate DECISIONS_VEROUILLEES.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_news-gate-30min-avant-annonce",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "Règle 30 min avant annonce majeure — alignée DECISIONS_VEROUILLEES"
       }
     ],
     "volume_liquidite": [
@@ -15879,6 +15958,30 @@
         "categorie": "psychologie",
         "confiance": 0.92,
         "note": "3 erreurs systémiques à éviter : sur-complexité, mythe du graal, curve fitting"
+      },
+      {
+        "regle": "Mieux vaut manquer un setup que d'entrer sur un setup incomplet. La fréquence de trading n'est pas une vertu.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_setup-vs-trade-selectivite",
+        "categorie": "psychologie",
+        "confiance": 0.92,
+        "note": "Setup ≠ Trade — sélectivité > fréquence"
+      },
+      {
+        "regle": "Entrée uniquement sur signal confirmé. Anticiper = espoir = erreur de discipline. Règle absolue TRADEX.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_entrer-avant-confirmation-interdit",
+        "categorie": "psychologie",
+        "confiance": 0.92,
+        "note": "Entrer avant la confirmation du signal est interdit"
+      },
+      {
+        "regle": "Modification des règles setup uniquement sur données statistiques OOS — jamais après un trade perdant individuel. Over-fitting en temps réel = destruction de l'edge.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP8_changer-regles-apres-perte-interdit",
+        "categorie": "psychologie",
+        "confiance": 0.92,
+        "note": "Ne jamais changer les règles après un trade perdant"
       }
     ]
   }
