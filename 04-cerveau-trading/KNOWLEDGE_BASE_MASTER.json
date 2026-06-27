@@ -171,6 +171,14 @@
         ],
         "rules_before": 1265,
         "rules_after": 1279
+      },
+      {
+        "phase": "S34-Chap9",
+        "source": "KB_CHAP9_STRATEGIE.json — 10 briques méthode Belkhayate Chap9",
+        "statut": "VALIDE",
+        "nb_regles": 10,
+        "session": "S34",
+        "date": "2026-06-27"
       }
     ],
     "phase3_transform": {
@@ -190,7 +198,7 @@
       },
       "description": "channel rempli via MANIFESTE + détection transcript_file + transcripts-bruts"
     },
-    "total_rules": 1331,
+    "total_rules": 1341,
     "session": "S19",
     "session_s32_chap12": {
       "date": "2026-06-27",
@@ -7835,6 +7843,22 @@
           "taux_fiabilite"
         ],
         "date_extraction": "2026-06-21"
+      },
+      {
+        "regle": "ADX_SEUIL = 25 dans config/settings.py — valeur verrouillée D-S32-1. Ne jamais hardcoder une autre valeur.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_adx-seuil-25-regime",
+        "categorie": "indicateurs_tendance",
+        "confiance": 0.92,
+        "note": "Seuil ADX opérationnel TRADEX-AI = 25 — filtre de régime Range vs Tendance"
+      },
+      {
+        "regle": "En régime TENDANCE (ADX > 25), le COG ne génère pas de signaux de retournement — il identifie des niveaux uniquement.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_regime-cog-vs-tendance",
+        "categorie": "indicateurs_tendance",
+        "confiance": 0.92,
+        "note": "Appliquer COG mean-reversion en range uniquement — en tendance le prix reste sur les bandes externes"
       }
     ],
     "indicateurs_momentum": [
@@ -9735,6 +9759,30 @@
         "type": "PIEGE",
         "fiabilite": "FAIT_STABLE",
         "id_brique": "piege-biais-reversion-tendance-forte"
+      },
+      {
+        "regle": "Aucune stratégie ne peut passer en paper trading sans avoir passé les critères OOS : PF >= 1,3 et DD max OOS <= 1,5x in-sample.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_backtest-in-out-sample",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.92,
+        "note": "Backtest obligatoire : in-sample (min 100 trades, 2 ans) + out-of-sample walk-forward"
+      },
+      {
+        "regle": "Tout backtest TRADEX doit inclure commission + spread + slippage estimés pour l'actif testé. Résultat net uniquement.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_frais-transaction-integration",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.92,
+        "note": "Frais de transaction réels à intégrer obligatoirement — un backtest sans frais est non représentatif"
+      },
+      {
+        "regle": "Maximum 2 positions simultanées sur actifs corrélés. En cas de signal simultané CL+GC dans la même direction = 1 seul trade en termes de risque.",
+        "statut": "DOUTEUX",
+        "source_video_id": "CHAP9_correlation-actifs-risque-concentration",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.7,
+        "note": "Corrélations actifs TRADEX : 2 positions corrélées maximum — risque de concentration à calculer"
       }
     ],
     "gestion_position_active": [
@@ -12840,6 +12888,38 @@
           "ES"
         ],
         "date_extraction": "2026-06-21"
+      },
+      {
+        "regle": "Toute stratégie incomplète (pilier manquant) est refusée par le moteur TRADEX.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_strategie-7-piliers",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Les 7 piliers obligatoires d'une stratégie complète avant toute exécution"
+      },
+      {
+        "regle": "Le signal d'entrée doit être aligné avec la direction du TF supérieur. Signal contra-tendance = taille réduite obligatoire.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_mtf-analyse-hierarchie",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Hiérarchie MTF TRADEX-AI : H4 (contexte) → H1 (signal) → M15 (entrée) — TF supérieur prime toujours"
+      },
+      {
+        "regle": "Une stratégie qui ne peut pas être écrite en pseudo-code non ambigu n'est pas prête à être tradée ni codée.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_pseudo-code-regles-non-ambigues",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Format pseudo-code non ambigu — toute règle TRADEX doit être écrite en pseudo-code testable"
+      },
+      {
+        "regle": "Le mode AUTO (Niveau 4 automatique) est bloqué par défaut (D-F-07). Niveau 4 = décision humaine obligatoire jusqu'à activation formelle.",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "CHAP9_architecture-5-niveaux-tradex",
+        "categorie": "structure_marche",
+        "confiance": 0.75,
+        "note": "Architecture décisionnelle TRADEX-AI en 5 niveaux — du filtre régime à la gestion du trade"
       }
     ],
     "macro_evenements": [
@@ -15639,6 +15719,14 @@
           "performance_passee"
         ],
         "date_extraction": "2026-06-21"
+      },
+      {
+        "regle": "Max 3 conditions d'entrée TRADEX. Taux de gain 40-55% avec RR 1,5-3 = réaliste et viable. Toute prétention à > 80% = red flag.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP9_erreurs-sur-complexite-sur-optimisation",
+        "categorie": "psychologie",
+        "confiance": 0.92,
+        "note": "3 erreurs systémiques à éviter : sur-complexité, mythe du graal, curve fitting"
       }
     ]
   }
