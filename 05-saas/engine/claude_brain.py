@@ -211,11 +211,18 @@ def load_kb_rules(kb_path: str = None, kb_provisoire: bool = KB_PROVISOIRE_DEFAU
     else:
         with open(kb_path, "r", encoding="utf-8") as f:
             kb_data = json.load(f)
+        # Structure KB : aggregated_rules = {categorie: [briques]}
+        aggregated = kb_data.get("aggregated_rules", {})
+        total = sum(len(v) for v in aggregated.values())
         rules_text = "# KNOWLEDGE BASE TRADEX-AI -- Methode Belkhayate\n\n"
-        rules_text += f"Total regles : {len(kb_data.get('rules', []))}\n\n"
-        for rule in kb_data.get("rules", []):
-            rules_text += f"## {rule.get('categorie', 'GENERAL')}\n"
-            rules_text += f"{rule.get('contenu', '')}\n\n"
+        rules_text += f"Total regles : {total}\n\n"
+        for categorie, briques in aggregated.items():
+            rules_text += f"## {categorie.upper()}\n"
+            for rule in briques:
+                titre = rule.get("titre", rule.get("id", ""))
+                contenu = rule.get("contenu", "")
+                fiabilite = rule.get("fiabilite", "")
+                rules_text += f"### {titre} [{fiabilite}]\n{contenu}\n\n"
 
     return {
         "rules": rules_text,
