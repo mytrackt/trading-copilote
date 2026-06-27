@@ -39,9 +39,10 @@ except ImportError:
 
 # Import circuit breaker
 try:
-    from .circuit_breaker import CB_CLAUDE
+    from .circuit_breaker import CB_CLAUDE, protected_call as _cb_protected_call
 except ImportError:
     CB_CLAUDE = None
+    _cb_protected_call = None
     logger.warning("circuit_breaker non disponible")
 
 
@@ -94,8 +95,12 @@ def call_claude_kb(kb_rules: str, god_mode_prompt: str) -> dict:
         time.sleep(1.5)  # Rate limiting inter-appels
         return _parse_claude_json(response.content[0].text)
 
-    if CB_CLAUDE is not None:
-        return CB_CLAUDE.call(_call)
+    if CB_CLAUDE is not None and _cb_protected_call is not None:
+        result = _cb_protected_call(CB_CLAUDE, _call, timeout_sec=15, retry_max=2)
+        # Si protected_call a déclenché le fallback → on lève pour que get_signal gère
+        if isinstance(result, dict) and str(result.get("raison", "")).startswith("CB_FALLBACK"):
+            raise RuntimeError(f"Circuit breaker declenche : {result['raison']}")
+        return result
     else:
         return _call()
 

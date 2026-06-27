@@ -7,20 +7,16 @@
 
 ---
 
-## 1. ✅ PARTIELLEMENT RÉPARÉ (11/06/2026 — commit 75a517e) — Bug `code\code\` — chemins doublés
+## 1. ✅ RÉPARÉ COMPLET (S35, commit c8ffb0f) — Chemins KB + `load_kb_rules`
 
-Les modules calculent `BASE_DIR` = "2 crans au-dessus du fichier" (= `05-saas\` depuis la réorganisation),
-puis y ajoutent encore `code\` — un segment qui n'existe plus.
+Chemins `KB_DIR`/`KB_PATH` dans `settings.py` corrigés en S35 → pointent vers
+`C:\trading-copilote\04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json` (emplacement réel).
 
-| Fichier | Ligne | Chemin calculé (constaté le 11/06/2026) | Existe ? |
-|---|---|---|---|
-| `05-saas\engine\claude_brain.py` | 177 | `05-saas\code\knowledge_base\KNOWLEDGE_BASE_MASTER.json` | ❌ |
-| `05-saas\config\settings.py` | 69 (`KB_DIR`) | `05-saas\code\knowledge_base\` | ❌ |
-| `05-saas\config\settings.py` | 72 (`KB_PATH`) | `05-saas\code\knowledge_base\KNOWLEDGE_BASE_MASTER.json` | ❌ |
+`load_kb_rules()` dans `claude_brain.py` réparé S35 : lit la clé `aggregated_rules`
+(au lieu de `rules` inexistante) et gère 2 formats KB coexistants (vidéo + chapitre).
+Résultat : 1398 règles chargées correctement · SHA256 = `bcaaaeed...`
 
-**Correctif futur** : pointer vers `C:\trading-copilote\04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json`
-(emplacement réel de la KB depuis la Phase 7 — `transcript_processor.py` montre le pattern correct :
-`PROJECT_ROOT / "04-cerveau-trading"`).
+**Aucune action requise.**
 
 ## 2. Dossier `data\` inexistant
 
@@ -34,19 +30,11 @@ puis y ajoutent encore `code\` — un segment qui n'existe plus.
 **Correctif futur** : le dossier `data\` (flux JSON NT8/ATAS) sera créé par les collecteurs en Phase C —
 décider alors de son emplacement définitif et harmoniser les 4 références ci-dessus.
 
-## 3. ✅ RÉPARÉ (11/06/2026 — commit 75a517e) — Import inter-modules cassé
+## 3. ✅ RÉPARÉ (S03, commit 75a517e + S35, commit c8ffb0f) — Import inter-modules + load_kb_rules
 
-```python
-# AVANT (cassé) :
-from code.engine.circuit_breaker import CB_CLAUDE
-from code.engine.prompt_builder import build_god_mode_prompt
-
-# APRÈS (corrigé) :
-from .circuit_breaker import CB_CLAUDE
-from .prompt_builder import build_god_mode_prompt
-```
-Chemin KB dans `load_kb_rules()` également corrigé :
-`dirname(BASE_DIR) / "04-cerveau-trading" / "KNOWLEDGE_BASE_MASTER.json"` — KB existe et est chargeable.
+Imports relatifs corrigés S03 (`from .circuit_breaker import CB_CLAUDE`).
+`load_kb_rules()` réparé S35 : chemin KB correct + lecture `aggregated_rules` + 2 formats KB.
+**Aucune action requise.**
 
 ## 4. Hypothèse « 1 transcript vide » — INFIRMÉE (vérifiée le 11/06/2026)
 
@@ -61,6 +49,29 @@ pipeline whisper, qui n'est pas un transcript. Cohérence confirmée par la KB :
 - Fichiers concernés : 05-saas\utils\gemini_transcriber.py
 - Priorité : P2 — à faire AVANT mise en prod, après validation pipeline complet
 - Risque si ignoré : rupture future sans préavis lors d'une mise à jour pip
+
+---
+
+## 6. ✅ RÉPARÉ (S36) — Circuit Breaker INACTIF
+
+### Problème
+`protected_call()` (timeout 15s + retry 2x + fallback ATTENDRE) implémentée dans
+`circuit_breaker.py` mais jamais appelée en production.
+`claude_brain.py` et `data_reader.py` utilisaient `CB.call()` directement → 0 timeout.
+Un appel Claude API ou lecture JSON bloqué gelait le thread moteur indéfiniment.
+
+### Correctif appliqué (S36)
+- `claude_brain.py` : `CB_CLAUDE.call(_call)` → `protected_call(CB_CLAUDE, _call, timeout_sec=15, retry_max=2)`
+- `data_reader.py` : `CB_NT8.call()` / `CB_ATAS.call()` → `protected_call(..., timeout_sec=5, retry_max=1)`
+- Détection fallback dict CB_FALLBACK → comportement correct dans get_signal() et data_reader
+
+### Validation
+Tests `test_risk_guardrails.py` : 21/21 PASS (tests CB préexistants couvrent tous les cas).
+Lint `py_compile` : 0 erreur sur les 3 fichiers. KB inchangée : 1398 règles.
+
+### Mode AUTO
+Toujours BLOQUÉ (`AUTO_MODE = False`). La réparation du circuit breaker est un prérequis
+**nécessaire mais pas suffisant** pour envisager le mode AUTO.
 
 ---
 

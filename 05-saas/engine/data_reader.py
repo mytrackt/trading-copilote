@@ -9,15 +9,18 @@ def read_nt8_asset(symbol: str) -> dict:
     Retourne {} si le fichier est absent ou corrompu.
     Passe par CB_NT8 (circuit breaker).
     """
-    from engine.circuit_breaker import CB_NT8
+    from engine.circuit_breaker import CB_NT8, protected_call as _cb_protected_call
     from utils.atomic_writer import safe_read_json
     from config.settings import get_nt8_path
     path = get_nt8_path(symbol)
     try:
-        result = CB_NT8.call(lambda: safe_read_json(path))
+        result = _cb_protected_call(CB_NT8, lambda: safe_read_json(path),
+                                    timeout_sec=5, retry_max=1)
+        if isinstance(result, dict) and str(result.get("raison", "")).startswith("CB_FALLBACK"):
+            return {}
+        return result if isinstance(result, dict) else {}
     except Exception:
         return {}
-    return result if isinstance(result, dict) else {}
 
 
 def read_nt8_data() -> dict:
@@ -35,14 +38,17 @@ def read_atas_signals() -> dict:
     Retourne {} si absent ou corrompu.
     Passe par CB_ATAS (circuit breaker).
     """
-    from engine.circuit_breaker import CB_ATAS
+    from engine.circuit_breaker import CB_ATAS, protected_call as _cb_protected_call
     from utils.atomic_writer import safe_read_json
     from config.settings import ATAS_DATA_PATH
     try:
-        result = CB_ATAS.call(lambda: safe_read_json(ATAS_DATA_PATH))
+        result = _cb_protected_call(CB_ATAS, lambda: safe_read_json(ATAS_DATA_PATH),
+                                    timeout_sec=5, retry_max=1)
+        if isinstance(result, dict) and str(result.get("raison", "")).startswith("CB_FALLBACK"):
+            return {}
+        return result if isinstance(result, dict) else {}
     except Exception:
         return {}
-    return result if isinstance(result, dict) else {}
 
 
 def get_vix_delta_pct(minutes: int = 15) -> float:  # noqa: ARG001
