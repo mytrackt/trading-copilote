@@ -16,3 +16,4 @@ Get-FileHash C:\trading-copilote\04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json -
 ```
 
 *Conforme D-S31-12 — tout accès ou modification à la KB doit logger le SHA256 avant/après*
+| 2026-06-27 | S34 | 1384 | 3c76e32ed1d2222cc166e185acd44b2392fc08b654e313dc435e793abc7b3cce | APRÈS fusion Chap6 (+13) |

@@ -7914,6 +7914,14 @@
         "categorie": "indicateurs_tendance",
         "confiance": 0.92,
         "note": "Appliquer COG mean-reversion en range uniquement — en tendance le prix reste sur les bandes externes"
+      },
+      {
+        "regle": "COG Belkhayate en tendance forte (ADX > 25) = faux signaux de fade possibles. Désactiver les entrées COG contrariantes en régime tendance. Filtre de régime obligatoire.",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "cog-tendance-faux-signaux-filtre-regime",
+        "categorie": "indicateurs_tendance",
+        "confiance": 0.75,
+        "note": "Chap6 §§6.7.2 | ECOLE_DE_PENSEE | S34"
       }
     ],
     "indicateurs_momentum": [
@@ -9870,6 +9878,14 @@
         "categorie": "gestion_risque_entree",
         "confiance": 0.82,
         "note": "Maximum 3 paramètres libres par setup pour éviter l'over-fitting"
+      },
+      {
+        "regle": "Confluence maximale (5 outils alignés) ≠ certitude. Stop-loss obligatoire dans tous les cas. La probabilité augmente, pas la garantie.",
+        "statut": "VALIDE",
+        "source_video_id": "confluence-probabilite-pas-certitude",
+        "categorie": "gestion_risque_entree",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.8 | FAIT_STABLE | S34"
       }
     ],
     "gestion_position_active": [
@@ -13039,6 +13055,70 @@
         "categorie": "structure_marche",
         "confiance": 0.75,
         "note": "Setup secondaire TRADEX : Spring Wyckoff + COG"
+      },
+      {
+        "regle": "Tendance haussière = HH + HL successifs. Baissière = LH + LL. Rupture HL en clôture = alerte BoS. Aucun indicateur requis — géométrie pure.",
+        "statut": "VALIDE",
+        "source_video_id": "price-action-structure-hh-hl",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.1.3 | FAIT_STABLE | S34"
+      },
+      {
+        "regle": "Taux de réussite des patterns candlestick (ex. 73%) = non reproductibles sans backtest rigoureux sur l'actif et TF cibles. Ne pas utiliser comme fait.",
+        "statut": "VALIDE",
+        "source_video_id": "pattern-catalogue-taux-reussite-invalide",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.1.2 | FAIT_STABLE | S34"
+      },
+      {
+        "regle": "Wyckoff Phase C (Spring) = fausse cassure + reprise rapide. Phase D (LPS) = dernier point d'entrée propre après SOS. Basé sur dynamique offre/demande — logique vérifiable.",
+        "statut": "VALIDE",
+        "source_video_id": "wyckoff-phases-a-e-logique",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.2.2 | FAIT_STABLE | S34"
+      },
+      {
+        "regle": "Le Spring Wyckoff ne peut pas être confirmé en temps réel avant sa résolution. Identification rétrospective par nature — toujours taguer 🔵 les lectures Wyckoff en cours de formation.",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "wyckoff-spring-temps-reel-difficile",
+        "categorie": "structure_marche",
+        "confiance": 0.75,
+        "note": "Chap6 §§6.2.3 | ECOLE_DE_PENSEE | S34"
+      },
+      {
+        "regle": "Value Area = 70% volume session (convention, pas loi). POC = valeur juste. VAH/VAL = S/R session suivante. Complémentaire COG : COG = gravité statistique N bougies, Market Profile = acceptation participants sur la session.",
+        "statut": "VALIDE",
+        "source_video_id": "market-profile-value-area-poc",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.5.1 | FAIT_STABLE | S34"
+      },
+      {
+        "regle": "Order flow fiable uniquement sur futures CME (CL, GC, ES). Sur Forex OTC = tick volume broker ≠ order flow réel. Ne jamais traiter le tick volume Forex comme de l'order flow.",
+        "statut": "VALIDE",
+        "source_video_id": "order-flow-futures-seulement",
+        "categorie": "structure_marche",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.4.3 | FAIT_STABLE | S34"
+      },
+      {
+        "regle": "L'order flow visible ne montre pas les grandes mains (dark pools + TWAP/VWAP). Ne jamais interpréter l'order flow comme un reflet direct des décisions institutionnelles.",
+        "statut": "VALIDE",
+        "source_video_id": "institutionnels-dark-pool-twap-vwap",
+        "categorie": "structure_marche",
+        "confiance": 0.82,
+        "note": "Chap6 §§6.4.3 | CONVENTION | S34"
+      },
+      {
+        "regle": "SMC/ICT : FVG mesurables et testables (tagger 🔵). Order Blocks = hypothèse non prouvée (tagger 🔵). Jamais présenter SMC comme méthode prouvée dans les livrables TRADEX.",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "smc-iceberg-hypotheses-non-validees",
+        "categorie": "structure_marche",
+        "confiance": 0.75,
+        "note": "Chap6 §§6.6.1 + §6.6.4 | ECOLE_DE_PENSEE | S34"
       }
     ],
     "macro_evenements": [
@@ -13989,6 +14069,22 @@
         "categorie": "volume_liquidite",
         "confiance": 0.82,
         "note": "API Bulletin (mardi ~16h30 ET) : J-1 avant EIA officiel. Préfigure souvent la direction EIA sur CL. [🟡 Convention — préfigure 'souvent' EIA, pas une règle déterministe.]"
+      },
+      {
+        "regle": "Grand volume + faible déplacement = absorption. No Supply (bougie baissière + vol faible) = force cachée. Stopping Volume (vol extrême + clôture haute) = demande absorbe l'offre.",
+        "statut": "VALIDE",
+        "source_video_id": "vsa-effort-vs-resultat",
+        "categorie": "volume_liquidite",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.2.4 + §6.3.2 | FAIT_STABLE | S34"
+      },
+      {
+        "regle": "Volume 'fort' VSA = relatif aux 15-20 bougies précédentes (convention). Fixer le paramètre avant tout backtest et ne jamais le modifier après coup.",
+        "statut": "VALIDE",
+        "source_video_id": "vsa-seuils-relatifs-convention",
+        "categorie": "volume_liquidite",
+        "confiance": 0.82,
+        "note": "Chap6 §§6.3.2 | CONVENTION | S34"
       }
     ],
     "psychologie": [
@@ -15982,6 +16078,14 @@
         "categorie": "psychologie",
         "confiance": 0.92,
         "note": "Ne jamais changer les règles après un trade perdant"
+      },
+      {
+        "regle": "Assemblage TRADEX : 1 contexte (Wyckoff/structure) + 1 niveau clé (COG/Market Profile) + 1 confirmation (Price Action/Order Flow). Maximum 3 couches. Au-delà = surcharge.",
+        "statut": "VALIDE",
+        "source_video_id": "regle-assemblage-1-contexte-1-confirmation",
+        "categorie": "psychologie",
+        "confiance": 0.92,
+        "note": "Chap6 §§6.9 | FAIT_STABLE | S34"
       }
     ]
   }
