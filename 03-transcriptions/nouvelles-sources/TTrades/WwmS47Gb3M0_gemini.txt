@@ -1,0 +1,87 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: WwmS47Gb3M0.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+[VISUEL: Texte de disclaimer en anglais sur fond blanc. Le texte mentionne les risques du trading et de l'investissement, et que les informations fournies sont à des fins éducatives uniquement.]
+(Pas d'audio du locuteur)
+
+[VISUEL: Animation du logo "TTRADES" en blanc sur fond noir, puis le logo se transforme en un "T" stylisé. Ensuite, une animation de particules blanches sur fond noir, suivie d'un graphique en chandeliers sur fond gris foncé, qui s'éclaircit progressivement.]
+
+[VISUEL: Graphique en chandeliers sur fond blanc. Le marché est en tendance haussière générale. L'axe des prix est vertical, l'axe du temps horizontal. Il y a des lignes horizontales et verticales pointillées, ainsi qu'une ligne verticale pleine marquant une date.]
+"How's it going everyone? This video is going to be over the MMXM Traders Twitter model. Let's hop into the PDF, go over the model, and then we will come back to TradingView for some examples."
+
+[VISUEL: Une capture d'écran d'un tweet de "The MMXM Trader" (@TheMMXMTrader) sur fond noir. Le texte du tweet est : "Previous Day High (ERL) > Hit Bullish FVG (IRL) > m15 MSS / SMT > Only Short Above 00A_VERIFIER:00A_VERIFIER. Vice versa for longs. That's a complete model for you. Is that complicated?"]
+"So what is the MMXM Traders Twitter model? Well, essentially, it is moving from external liquidity to internal liquidity on a smaller timeframe, and pairing that with a market structure shift and SMT. So, if you can see right here, using previous day's high, and then targeting a one-hour bullish fair value gap, looking for a M15 market structure shift and SMT, and then looking to only short above midnight open. And then vice versa for longs. So if it was a long setup, it would be previous day's low, a one-hour bearish fair value gap, and then the same market structure shift and SMT, and then only longing below midnight open."
+
+[VISUEL: Animation montrant un graphique en chandeliers.
+1A_VERIFIER.  Un chandelier journalier (D) vert est affiché. Une ligne horizontale pointillée marque le plus haut du jour précédent (PDH).
+2A_VERIFIER.  Le graphique passe à une vue horaire (H1). Le prix a dépassé le PDH. Un fair value gap (FVG) baissier est identifié en dessous du prix actuel, marqué par deux lignes horizontales.
+3A_VERIFIER.  Le graphique passe à une vue 15A_VERIFIER minutes (M15). Le prix a formé un SMT (Smart Money Trap) et un MSS (Market Structure Shift) après avoir dépassé le PDH. Une zone de retracement est mise en évidence.
+4A_VERIFIER.  Le prix redescend, touchant la zone de retracement et le FVG horaire.
+5A_VERIFIER.  Le chandelier journalier (D) devient noir, indiquant une clôture baissière.
+6A_VERIFIER.  L'animation se rejoue, montrant le mouvement du prix du PDH vers le FVG horaire.]
+"Let's take a look at this. So, you can see on the daily chart, we've reached above previous day high. On the hour, we identify a bullish fair value gap. And then on the 15 minute, we're looking to short above midnight open to that hourly fair value gap. So you can see here, we have an SMT, a market structure shift, and then any sort of retracement, I'm looking to sell above midnight open, targeting that fair value gap. So you can see if we play that through one more time, we go from previous day high, and then we drop down into that hourly fair value gap."
+
+[VISUEL: Le même graphique animé que précédemment, mais les timeframes sont étiquetés différemment : W (Weekly), H4 (4A_VERIFIER-hour), H1 (1A_VERIFIER-hour). L'animation montre le même mouvement de prix, mais avec l'idée que cela peut s'appliquer à différentes échelles de temps.]
+"Now the one thing I'm going to add is this is fractal. So, as I was just showing on here, with the daily, hour and 15 minute chart, I can move that up a timeframe to the weekly, four-hour and one-hour, or I could move it down to the lower timeframes. Let's hop back into TradingView for some examples."
+
+[VISUEL: Graphique journalier de l'Or (GC) sur TradingView. Le prix est en tendance haussière. Une ligne horizontale pointillée marque le plus bas du jour précédent (PDL).]
+"So here we are in our first example, and you can see we are on the Gold daily chart. It is currently in an uptrend, so looking at previous day low. Let's drop down to the one-hour timeframe."
+
+[VISUEL: Graphique horaire de l'Or (GC). Le prix a cassé sous le PDL. Un fair value gap (FVG) baissier est identifié au-dessus du prix actuel, marqué par une zone jaune. Une ligne verticale pointillée marque minuit (00A_VERIFIER:00A_VERIFIER).]
+"So here we are on the one-hour timeframe, and what do we notice? Well, we have previous day low here. And so let's see when that gets taken out."
+[VISUEL: Le prix continue de baisser, cassant le PDL. Le prix est nettement en dessous de la ligne de minuit.]
+"So here we reach into previous day low, and what do we see? Do we have a fair value gap or a bearish fair value gap above us?"
+[VISUEL: Un FVG baissier est mis en évidence au-dessus du prix actuel, marqué par une zone jaune. Le PDL est clairement cassé.]
+"So now the first two parts of the model have been met: previous day low, looking to target a bearish fair value gap on the hourly timeframe. So now let's drop down to the 15-minute timeframe."
+
+[VISUEL: Graphique 15A_VERIFIER minutes de l'Or (GC). Le prix a cassé le PDL. Un SMT (Smart Money Trap) est identifié avec l'argent (Silver) qui n'a pas cassé son plus bas correspondant, indiqué par une ligne diagonale sous les plus bas. Une zone d'entrée potentielle est tracée (zone verte), avec un stop loss sous le plus bas du chandelier FVG et un take profit au FVG horaire (zone jaune). Le prix est en dessous de la ligne de minuit.]
+"So down here on the 15-minute timeframe, you can see we have that bearish fair value gap. Here's our purge of previous day low. And here we actually create an SMT with silver."
+[VISUEL: Le SMT est tracé avec une ligne diagonale sous les plus bas. Une zone d'entrée est tracée, avec un stop loss sous le plus bas du chandelier FVG et un take profit au FVG horaire. Le prix est en dessous de la ligne de minuit.]
+"So now I'm looking for a market structure shift or some sort of change in the state of delivery. We have an inversion right here, as well as a change in the state of delivery, with closing over this down close candle. So looking to take an entry on this fair value gap. My stop on the fair value gap candle's low, and looking to target that fair value gap. Now, why did I choose this for my stop loss? Well, if I had my stop loss at this low, that would be 1.4R. I want to have a 2R minimum, so that is what I would look to do. Now, is this below midnight? It is, right? So let's see how this works out."
+[VISUEL: Le prix remonte, touche la zone d'entrée et continue de monter pour atteindre le take profit au FVG horaire. La transaction se termine avec un gain.]
+"And there we go, we hit our TP. So you can see, we used a raid of previous day low, looking to target an hourly bearish fair value gap, pairing that with SMT, a change in the state of delivery, and longing below midnight open."
+
+[VISUEL: Graphique journalier du Nasdaq (NQ). Le prix est en tendance baissière. Une ligne horizontale pointillée marque le plus bas du jour précédent (PDL).]
+"So here on the next example, we have the NQ daily chart. I'll go ahead and mark out our previous day low, and then drop down to the hourly chart."
+
+[VISUEL: Graphique horaire du Nasdaq (NQ). Le prix a cassé sous le PDL. Un fair value gap (FVG) baissier est identifié au-dessus du prix actuel, marqué par une zone jaune. Une ligne verticale pointillée marque minuit (00A_VERIFIER:00A_VERIFIER).]
+"Now down here on the hourly chart, you can see I have previous day low marked out. And so marking out a fair value gap, we have a rather large one right here. And why this one over this one? Well, this fair value gap has been reached into, and considering premium and discount of the range, reaching an equilibrium of the range would be somewhere above the start of this fair value gap. So now dropping down to the 15-minute chart."
+
+[VISUEL: Graphique 15A_VERIFIER minutes du Nasdaq (NQ). Le prix a cassé le PDL. Un SMT (Smart Money Trap) est identifié avec l'ES (S&P 500A_VERIFIER) qui n'a pas cassé son plus bas correspondant, indiqué par une ligne diagonale sous les plus bas. Une zone d'entrée potentielle est tracée (zone verte), avec un stop loss sous le plus bas du chandelier FVG et un take profit au FVG horaire (zone jaune). Le prix est en dessous de la ligne de minuit.]
+"Now down here on the 15-minute chart, you can see we swept previous day low, once again. And this actually created an SMT with ES. So marking that out, do we have our market structure shift or a change in the state of delivery? We do, as we broke and closed over this high here. So, wanting to take a long, I want to use below midnight open. I'll have my stop on the low, and that gives me my minimum 2R for an entry. So let's see how this works out."
+[VISUEL: Le prix remonte, touche la zone d'entrée à minuit et continue de monter pour atteindre le take profit au FVG horaire. La transaction se termine avec un gain.]
+"So there we go, we get tagged in at midnight open, and then a move higher to the one-hour fair value gap. And zooming back out to the hourly chart, you can see we do go reach up to an equilibrium of this range, as I discussed in this example. Now before I continue further, the indicator I'm using to mark out midnight open is ICT Killzones and Pivots. I have everything turned off except for the opening price at midnight, and I just label it as so. It will automatically draw midnight open for me."
+
+[VISUEL: Graphique journalier du GBP/CAD. Le prix est en tendance baissière. Une ligne horizontale pointillée marque le plus bas du jour précédent (PDL).]
+"So here in our next example, you can see we just swept out this low here on this day. And so I'm going to go ahead and mark out our previous day low like this. Let's drop down to the hourly chart."
+
+[VISUEL: Graphique horaire du GBP/CAD. Le prix a cassé sous le PDL. Un fair value gap (FVG) baissier est identifié au-dessus du prix actuel, marqué par une zone jaune. Une ligne verticale pointillée marque minuit (00A_VERIFIER:00A_VERIFIER).]
+"So down here on the hourly chart, you can see we have a fair value gap resting right here, which has been slightly tapped into on the hourly, mostly creating equal highs with all these failure swings here. Let's see when we tap into previous day low."
+[VISUEL: Le prix continue de baisser, cassant le PDL. Une nouvelle journée commence. Le prix est en dessous de la ligne de minuit.]
+"We start a new day. And there we tap into previous day low. So let's go take a look at this on the 15-minute timeframe."
+
+[VISUEL: Graphique 15A_VERIFIER minutes du GBP/CAD. Le prix a cassé le PDL. Un SMT (Smart Money Trap) est identifié avec le GBP/CAD qui a cassé son plus bas, tandis que le YM (Dow Jones) n'a pas cassé le sien, indiqué par une ligne diagonale sous les plus bas. Une zone d'entrée potentielle est tracée (zone verte), avec un stop loss sous le plus bas du chandelier FVG et un take profit au FVG horaire (zone jaune). Le prix est en dessous de la ligne de minuit.]
+"So the first thing I notice on the 15-minute timeframe is we actually have an SMT with GBP CAD right here on this low. And then we are making a market structure shift after taking previous day low. So, if I'm looking to take an entry below midnight open, I could just go ahead and enter right now, or I could wait for a retracement, but what would our risk to reward look like? I'm going to go ahead and just enter right on the close of this market structure shift candle, as we're below midnight."
+[VISUEL: Le prix remonte légèrement, puis redescend. Une zone d'entrée est tracée, avec un stop loss au-dessus du plus haut du chandelier FVG et un take profit au FVG horaire. Le prix est en dessous de la ligne de minuit.]
+"And you can see, we do get a retracement to this order block, so could have got a better entry, but let's see what happens."
+[VISUEL: Le prix continue de baisser, atteignant le take profit au FVG horaire. La transaction se termine avec un gain.]
+"Here we close over this series of down close candles, making an order block. So now I wouldn't anticipate this low being touched. And there we go, it takes until the next day, but we do go reach that draw on liquidity."
+
+[VISUEL: Graphique journalier du Nasdaq (NQ). Le prix est en tendance baissière. Une ligne horizontale pointillée marque le plus haut du jour précédent (PDH). Un FVG baissier est identifié au-dessus du prix actuel.]
+"Now although the model says a market structure shift, I will also look for an inversion or a change in the state of delivery. So let's look at an example of that. So you can see here on Nasdaq daily, we have previous day's low. So let's drop down to the hourly timeframe."
+
+[VISUEL: Graphique horaire du Nasdaq (NQ). Le prix a cassé au-dessus du PDH. Un FVG baissier est identifié au-dessus du prix actuel, marqué par une zone jaune. Une ligne verticale pointillée marque minuit (00A_VERIFIER:00A_VERIFIER). Un SMT (Smart Money Trap) est identifié avec l'ES (S&P 500A_VERIFIER) qui n'a pas cassé son plus haut correspondant, indiqué par une ligne diagonale sous les plus hauts.]
+"So down here on the hourly timeframe, you can see we have rated previous day low. We have created an SMT with YM. And then where do we have a fair value gap? Well, right here, we have a fair value gap, which has been partially mitigated by this FOMC candle. Let's drop down to the 15-minute chart."
+
+[VISUEL: Graphique 15A_VERIFIER minutes du Nasdaq (NQ). Le prix a cassé au-dessus du PDH. Un FVG baissier est identifié au-dessus du prix actuel, marqué par une zone jaune. Une ligne verticale pointillée marque minuit (00A_VERIFIER:00A_VERIFIER). Un SMT (Smart Money Trap) est identifié avec l'ES (S&P 500A_VERIFIER) qui n'a pas cassé son plus haut correspondant, indiqué par une ligne diagonale sous les plus hauts.]
+"So down here on the 15-minute chart, you can see, I have a bearish fair value gap right here, looking for an inversion, I could use that, or my change in the state of delivery would be up here. So let's see, do we close over this fair value gap? We do. So then, I could look to take an entry on this order block. My stop above the opposing candles. And then looking for a target of this hourly fair value gap."
+[VISUEL: Le prix remonte, touche la zone d'entrée et continue de baisser pour atteindre le take profit au FVG horaire. La transaction se termine avec un gain.]
+"So here we get tagged in. Move lower. If I wanted to take 2R off, wouldn't have quite hit it yet. So let's see. We return to our entry, and then we get a continuation lower. So there's another example, except instead of using midnight open, I use the daily open."
+
+[VISUEL: Graphique 15A_VERIFIER minutes du Nasdaq (NQ) avec la transaction précédente affichée. Puis transition vers le logo "TTRADES" sur fond rouge avec "THANKS FOR WATCHING" et "LIKE & SUBSCRIBE".]
+"I hope you found this video helpful. It gave you some insight into the MMXM Traders Twitter model, as well as how you could possibly adjust it to suit yourself. If you did enjoy it, please consider liking and subscribing, and I'll see you guys next time. Have a good one."

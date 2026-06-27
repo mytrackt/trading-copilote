@@ -1,0 +1,234 @@
+if you are tired of risking too much money just to make peanuts you need to master high risk
+reward trading so in this video i'm breaking down step by step how i consistently catch trades with
+massive risk reward ratio so this is part two so if you missed the first one where i talk about how
+to select high property zones to trade from make sure you check that out after this with that said
+let's get right into it before we get into the strategy let me quickly explain why is it so
+important for us to try to aim for high r multiple high risk reward ratio trades reason is simple
+because when you catch high risk throughout trades it's much more easier for you to become consistently
+profitable here's what i mean if you only take one is to one or one is to two trades your win rate is
+to be like ridiculously high just to make decent returns right for example if you reach one is to
+one you need to win at least six out of ten trades right which by the way is incredibly difficult
+right even professional traders have like a 40 to 50 win rate and if you take trades with a one is to
+two risk to drop ratio which means you're risking hundred dollars to make two hundred dollars guess
+what you need 34 win rate just to become profitable which is still okay but here's where it gets really
+interesting when you aim for trades with a one is to five risk reward where which means you are
+literally risking one hundred dollars your risk per trade is still the same but this time around you
+are making five hundred dollars on each trade five times of what you are risking and in this case
+you only need a 17 win rate to be profitable which means you can literally lose eight out of ten
+trades but the two trades that you win you make a shit ton of money back and here's where it gets
+even better with a one is to ten reach throughout you only need a 10 win rate to be profitable which
+means you can literally lose like nine trades in a row if you win the next one guess what you are in
+profit which is insane if you think about it so this is exactly why we focus on r multiple instead of
+win rate because the average retail trader has probably like a 20 to 50 win rate which means it's
+very important for us to try to catch this high risk to drop ratios trades in order for us to you know
+actually be profitable and most retail traders they struggle because they are focused on being
+rights rather than maximizing their reward when they are rights now in order to catch this high
+risk to drop trades you need to trade with precision which means you need to enter at the perfect timing
+and a lot of traders they enter too early or they chase move and as a result they destroy their edge
+so here's how to actually refine your entries and make it even better so let me show you how to refine
+your entries in fact let me walk you through an actual high risk to reward trade that i took
+recently this was a textbook setup which made me over 102k and this was in fact like the biggest
+trade in my entire trading career so here's how i did it as you all know by now the first step is
+always to identify a clear directional bias right so in this case we saw price comes down pulls back
+and then break structure to the downside right so we have seen that this is our swing high and then this is
+our swing low right so this is the swing range that we are trading from and we are obviously in a
+bearish market structure which means we want to be selling at supply zones within premium pricing so in
+this case we can easily identify our extreme supply zone that we have right here and this is a strong
+zone because it's swept available liquidity from this swing high that we have on the left hand side
+right so we know that this is a institutional zone that we want to be trading from
+and when you go on to a lower time frame which could be the 15 minute time frame we can also
+identify another supply zone that we have right here on extreme and the reason why this original
+supply zone is not that strong anymore is because it has already been mitigated right what happens
+the price came down here go up there read that's it fill up the remaining sell orders within the
+supply zone and it goes down right so it already used all the supply that we have in this
+original zone right so that is where i personally would not care too much about it and i will only
+focus on the unmitigated supply zone that we have right here so the second step is to look for
+inducements in the continuation phase right so in this case right here we notice that price did not
+went straight down like this what happens that price came down make a structural pullback and then
+goes down even further pullback goes down pullback and then go down even further so inducements are
+basically all these swing highs that we have on the left hand side doing the continuation phase itself
+right so we know that there is available liquidity sitting above this high right here
+right so these are our inducements so we want to wait for that to be swept and ideally we want to
+wait for price to sweep the inducement that is nearest to the extreme supply zone right so in this case
+it'll be this one right here i want to see that to be swept so that we know that smart money has used
+the available liquidity and it's now going to push price to the downside okay so in this case i could
+identify all my inducements right here right but this one has already been used right you can see
+prices blast right through it right so i wouldn't really care about this one and i know that there
+is another inducement that is extremely near to our supply zone right so i want to see that one to
+be swept so that is where i will mark up my inducement line just on the candlestick wick like
+this right at the height of this candlestick wick and i'll put it all the way up here to the right
+hand side okay so basically you want to wait for price to sweep the available liquidity above this
+inducement right tap into the extreme supply zone and then move to the downside and this is the move
+that we want to capture which is why the next step is to set an alert at the inducement line itself
+right so ideally we want price to close have the candlestick close above the inducement line and then
+that is where we can start looking for our entry in this case right here the candlestick did not
+really close above the inducement line right so we can just ignore this move and we'll just be
+continuously waiting being very patient until price break above this line then that is where we start
+looking for our entry model okay so right now we pretty much still do nothing until price triggers
+our alerts right so in this case does it trigger it yes it does right so in this case it did trigger
+our alert this is where i will go on to the charts and then i will start to find my entry model
+remember the candlestick must close above this push inducement line in order for us to actually
+enter for the trade itself right so at this point of time i'm analyzing i'm being very patient because
+the candlestick has not closed it above it yet okay so at this point of time our alert has been
+triggered that is where i want to find my liquidation candle right so this is indeed my liquidation candle
+because this is the candle that has swept the available liquidity from the inducement in the push
+phase itself but remember you don't want to enter right here immediately you want to wait for price
+to mitigate the extreme supply zone so they can fill up some remaining sell orders and then that is where
+you can potentially look for our entry itself right so at this point of time i'll jump down to my lower
+time frame it will be the five minute for you and i'll just wait for price to mitigate that extreme
+supply zone right so i won't do anything until it does all right so once you mitigate this extreme
+supply zone once again i want to look at price right so in this case this is where you can place
+your sell stop order below the liquidation candle itself right so in this case right here we have
+established that this was our liquidation candle and you can place your sell stop order below it
+if you're entering on a 15 minute time frame right so in this case you wouldn't be tempted to trade
+because the next candlestick is actually bullish and you will move your sell stop order from here
+to below this low right here okay but if you're entering on a five minute time frame it's like a
+different story right in that case same thing you find a liquidation candle which is this candle right
+here and then we know that we should be placing our sell stop order below this low right
+so that's where you place your sell stop order below this low and if the next candlestick is
+bullish just like this you move your sell stop order from this low to the low of this new candlestick
+itself and if it's like an inside bar candle just like this which is neither a bullish or bearish candle
+you do nothing right and then the next candle is a bullish candlestick same thing you just move your
+your sell stop order to this new bullish candlestick and then let's see whether they're going to
+trade or not okay so not yet right so in this next candle itself
+i'll move it right here and then do you get them to trade now
+there we got tap into trade okay so this is where we should have been tapping into trade
+and then that is where i place my stop loss above this candlestick itself and i'll place
+my take profit at this nearest five minute demand zone since this is going to be like a very quick
+scalp and this will be like a quick little one is the three one is the 3.5 reach throughout right
+let's see video so price goes down there tap out take profit and then we are out of the trade okay
+so this is the aggressive version of the entry model itself let me show you the conservative
+version of this entry model so for the conservative version of the entry model you basically want to
+wait for more confirmation before you actually enter for the trade right ideally you want to wait for some
+sort of signs that show you that this pullback is over and right now we are shifting bearish because in this
+case right here if you identify the internal structure we saw that price is still in and
+bullish internal order flow right so if you enter for sale right here we are just assuming that price
+could potentially pull back to this last internal higher low and continue going up right so it must be
+a very fast scalp if you are using the aggressive version of the entry model itself and for the
+conservative version like i said you want to wait for signs that tell us that the structure is shifting
+this internal order flow is shifting from bullish to bearish and in that case we want to wait for
+this internal high low to get taken out once the internal high low get taken out we know that there
+is a shift in structure and right now price is shifting bearish and we're going to create lower
+highs and lower lows so let me show you how to actually use the conservative version right and
+ideally depending on the type of trader you are you can choose one that works for you okay so in this
+case if you go down to the five minute time frame and you can see that right here the internal
+structure is what creating higher highs higher lows higher highs higher lows higher highs higher
+lows right so we can establish that this is the most nearest internal higher low right so ideally we
+want to see price take out that last internal higher low how do i know that this is the most
+recent higher low because this is the most recent internal break of structure right so we want to see
+that get taken out once that get taken out that is where we got our confirmation that price is
+potentially shifting bearish which means we are not doing anything until price take out
+that low right so over here i'm not doing anything not really interested in what price does you can
+see price continue going up i don't care right so in this case what happened is that price actually
+went up there swept more liquidity right it swept the liquidity above this swing high that we have
+right here and now we can potentially start to anticipate that strong move is coming very very
+soon right since it swept the available liquidity above the inducement during the pullback phase as
+well right so in this case we finally got our market shift where price actually broke the last
+internal higher low when this happens this is where you can start looking for your entry so you
+basically want to identify the point of interest that led to this market shift itself right so in
+this case i can identify that this right here is the 15 minute supply zone that led to the market
+shift itself right so that is where you can potentially place your sell order at the edge
+of the supply zone itself and it'll place your stop loss above the supply zone and it can potentially
+target let's say like this high right here this low right here just for demonstration purposes right
+let's see where to get them to trade boom this is where you attempt to trade right here
+now get them to trade let's see what happens next okay boom price just have an absolute meltdown
+just like this very very simple and you have placed your stop loss above the supply zone right so
+that will be like a quick one is to five risk reward trade and this right here is actually the trade
+that i took this is actually the one that made me over 102k right and honestly i did not enter right
+here the minute price mitigate the extreme supply zone i was a little bit late i entered somewhere
+right around here and then honestly i got really lucky on this trade cpi news came out and it cost
+price to absolutely collapse and i placed my take profit at the edge of like this zone that we have
+right here on the left hand side this 15 minute supply zone right here once again guys please please
+please do not trade the news right because the news is prone to a lot of market manipulation
+and the only reason why i had onto this trade is because i was already in the position before the
+news come out right so before the news i actually moved my stop loss like below this last high lower
+lower high right here so if the news does not go in my way guess what i will still be able to protect
+my downside i get stopped out with just a small loss but in this case yeah price did went in my way so
+you can call me lucky all right so if you still don't get it don't worry let me show you a bullish
+example right so in this case we got a bullish break of structure so we have identified that we
+are in a bullish trend direction and we see that this right here is our extreme demand zone and we
+also saw that this is actually indeed a very strong demand zone because price actually swept available
+liquidity below these swing lows right here and then demand step into the market and cause price to
+push up right so at this point of time i'm waiting for price to pull back to this point of interest
+but remember the step two is to look for inducements during the push phase during the continuation phase
+so in this case we saw that price did not go up straight like this if price goes up straight like
+this then we know that there is no push inducement then we can expect the zone to fail right but in
+this case price actually went up pulls back goes up pulls back goes up pulls back and then goes up even
+higher itself right so we know that there's available liquidity below this low below this low
+so on and so forth but remember the most important inducement in the continuation phase that i want
+to see get swept is the one that is nearest to the extreme zone itself which is this one right here
+right so you can see this is where i will draw my inducement line right so this is the line that i
+want to see to get swept right so that is where i personally i will place an alert at this inducement
+line right here and i wouldn't do anything until my alert get triggered okay so in this case i'm just
+patiently waiting not doing anything until price step into my demand zone and actually trigger this
+inducement line right here right so let's just wait and see what price does next okay nothing
+boom all right so it's approaching our point of interest right that is where you can start
+uh to go down to your 15 minute or even the one hour time frame to start looking for your entry as
+you can see right now price is approaching our inducement line right so that's where i'll
+potentially go down to the 15 minute time frame and that is where i can start looking and observe
+what price does right so you go down even further all right cool do we that's how we look at triggered
+there we go right so our alert got triggered right here but remember we only want to enter when the
+candle stick close below the liquidation so in this case right here does the candlestick close below
+the liquidity line no it doesn't it create like a weak break and then goes back up so it doesn't
+count whatsoever right so i'm still waiting for my candlestick to close uh there we go right so the
+minute the candlestick close just like this right you can see it right here the candlestick has closed
+below you can jump down to your five minute time frame your lower time frame and that is where you look
+for the liquidation candle itself right so in this case trading view does not allow me to do so
+so i'm just gonna enter on the 15 minute time frame itself so that is where i'll identify my
+liquidation candle which is this candlestick right here and i'll place my buy stop order above the
+liquidation candle itself right so let's just go back one more right here place your buy stop order
+above the liquidation candle place the stop loss below the liquidation candle itself and potentially
+let's just try to target like this 15 minute demand zone right here okay just to just for demonstration
+purposes but i myself if i want to place a take profit i'll probably place it like the nearest 15
+minute zone right here this is the nearest 15 minute internal high low right here you know what let's try
+to target this 15 minute internal high low okay so let's see what price does okay price goes up
+up do we smash our tp or not this would be like a more of like a intraday to swing trade already
+okay do we get our tp smash there we go there we go baby so yeah this was a pretty simple
+1 is to 6.7 risk to reward trade and the reason why we actually place our tp right here is because
+this was that internal lower high which we are expecting price to pull back to
+2 and this is also a supply zone that swept liquidity from this highest right here right
+so quick little bread and butter 1 is to 6 risk to reward trade so that's the aggressive version
+but what about the conservative version how would i have entered this trade if i were deploying the
+conservative version of this entry model that is where let's go back right remember i want to wait for
+a market shift after price has swept the push inducement the inducement that we have on the
+continuation phase itself right so the minute price has swept that low right here and trigger
+our liquidity line i don't care right i only care after i got a market shift so in this case
+where is the most nearest lower high it'll be this one right here okay this is the nearest lower
+high because this is one that led to the last internal break of structure to the downside which is
+why i want to see that high get taken up before i start looking for my entry right so that is where
+right here i'm not entering yet i'm not caring about what price does and then once that actually
+happens this is our market shift which tells us that right now price could potentially shift bullish
+right the order flow which is shift bullish and it's potentially gonna pull back to this internal lower
+high that we have right here right so i'm looking to catch this move right here so after you got your
+market shift that is where you can look for the point of interest that led to this market shift
+itself right so you can see that this is the extreme zone okay this is our extreme demand zone
+and we also have a flip zone that we have right here all right if you are not sure what is flip
+zone please watch part one of this video itself and we have identified that this is a flip zone because
+it caused this supply zone to fail and then we got a failed reaction right so at this point of time
+got a market shift this is where we are waiting for price to pull back to either one of our point of
+that is where we got our entry right here but i want you to observe what happens next all right
+okay so in this case price consolidated around here does not okay tap into our flip zone right here
+but let's go back a little bit look at what happened okay i don't want to show you like a perfect
+textbook example i want to show you what the market actually does in this case what do we have
+we have available liquidity below this low right here right how do i know that there is available
+liquidity below this low because what happens is that price went up pulls back goes up pulls back
+and then goes up right so in this case that is clear as they equal lows right so we know that
+retail traders will enter for a buy right here they're gonna be placing their stop loss below this
+low right that is why price actually did not respect this flip zone right price actually blast right
+through it sweep the low right here and then go that is why i personally i have a mechanical rule which
+states that i either enter on the extreme zone or i enter on a flip zone that sweep liquidity right
+so in this case this is not a flip zone that swept liquidity because the flip zone that swept liquidity
+it looks something like this right where i swept the liquidity and then we get a move and we know that
+this is the hype of this zone and then you can wait for price to pull back to that zone and you can
+look for your entry right so in this case i personally would not have entered for this trade if i'm using
+this particular entry model itself right so yeah but if you want what you can potentially do is that
+same thing you can wait for price to sweep those lows right and you identify the liquidation candle
+itself which will be this candle right here and it'll just place your buy stop order right above it
+just like that very very simple or actually above this bearish candlestick because that's the inside
+bar candle and that is where you could tap in your trade and then potentially tp at this 15 minute
+supply as well okay so that's pretty much the entire entry strategy to catch higher rr trades
+obviously there's a lot of nuances to it and i cover a lot of this stuff more in depth inside the
+one percent club so if you are looking for direct mentorship and you're looking for my entire proven
+mechanical trade plan you can click the link in the description and try to apply for my mentorship
+with that said if you want to learn how to master trading in 2025 make sure to check out this video
+right here and as always remember you're just one trade away

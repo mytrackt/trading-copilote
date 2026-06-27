@@ -1,0 +1,203 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: vIX6ztULs4U.mp4]
+---
+Voici la transcription détaillée de la vidéo :
+
+[VISUEL : Écran d'ordinateur affichant une publication sur X (anciennement Twitter) du compte "Trades Don't Lie" (@TradesDontLie). La publication montre une capture d'écran d'un graphique TradingView avec plusieurs indicateurs et une fenêtre de terminal affichant du code. Le texte de la publication dit : "Claude controlling @tradingview live -- switching symbols, writing Pine Script, batch scanning futures, replay trading, drawing levels. All from the terminal. Still rough edges but the vision is clear." En bas de l'écran, une autre publication du même compte est visible, avec le titre "How to connect Claude to TradingView". À droite, le présentateur parle face caméra.]
+
+Hier sur X, quelqu'un a découvert comment connecter Claude, l'IA, à TradingView. Elle interagit avec TradingView en direct, elle crée des indicateurs de toutes pièces, elle fait toutes sortes de choses directement dans TradingView en direct. Et tout cela se fait simplement depuis votre terminal. Il y a actuellement trois quarts de million de traders qui en sont fous en ligne.
+
+Maintenant, il y a eu des outils auparavant qui prétendaient avoir une IA intégrée à un graphique, mais la plupart du temps – et je les ai utilisés, d'ailleurs – vous finissez par faire une capture d'écran du graphique, vous la jetez dans l'IA, et au moment où vous avez déplacé la capture d'écran vers l'IA, les bougies ont bougé et c'est potentiellement différent. Et il y a toujours ce décalage. Donc vous obtenez une lecture sur le graphique de l'IA qui est maintenant hors de propos.
+
+Mais ceci est complètement différent. Donc, parce que c'est ce que je fais sur cette chaîne, je suis allé, je l'ai testé, je l'ai utilisé, et je l'ai même amélioré. Et oui, vous allez voir à quel point c'est incroyable, mais il y avait des éléments où je pensais que, vous savez, il pourrait y avoir des améliorations ici. Et tout le mérite revient à Trades Don't Lie qui a créé cette chose, mais il y a des éléments que je pensais vraiment devoir être améliorés et je l'ai fait.
+
+[VISUEL : Le présentateur est maintenant filmé en gros plan, assis devant un microphone. Derrière lui, on voit un intérieur de maison avec une cheminée en briques, un miroir doré et une fenêtre avec des volets blancs.]
+
+Nous sommes à un point où l'IA, le trading, la finance, l'investissement et la blockchain se rejoignent et créent un mélange puissant. Et si vous ne faites pas attention, et que vous n'allez pas simplement vers l'IA en disant "Hé, qu'est-ce que Bitcoin va faire ?", vous connectez réellement ces projets et créez votre stratégie, votre cerveau, dans le code, vous allez être laissé pour compte. Parce que les gens qui comprennent cela maintenant ont un avantage injuste et obscène. Et c'est ce que cette chaîne représente. Je veux vous donner un avantage injuste par rapport à tout le monde sur le marché. Et ceci est l'une de ces vidéos incontournables.
+
+Donc, à la fin de cette vidéo, je vais vous donner trois choses. Numéro un, vous saurez exactement comment cela fonctionne. Numéro deux, je vais vous apprendre à tout configurer vous-même en quelques minutes. Et trois, j'ai apporté des améliorations à ce que le créateur original a fait. J'ai vu beaucoup de gens dans les commentaires qui avaient des difficultés avec certains éléments, et je les ai corrigés. Et je vais vous donner ma version complètement gratuitement. Je ne veux même pas votre e-mail. Je veux juste que vous fassiez un tas d'argent. Et après vous être abonné, passons aux choses sérieuses.
+
+[VISUEL : Retour à l'écran d'ordinateur. La publication X est toujours visible à gauche. À droite, le présentateur parle face caméra. Le titre de la publication est "Post".]
+
+Alors, qu'est-ce que c'est réellement ? L'outil qui a été créé s'appelle TradingView MCP. Vous n'avez pas besoin de savoir ce que MCP signifie réellement. Tout ce que vous devez savoir, c'est qu'il permettra à Claude d'interagir directement, presque comme sur une base de code à code, avec TradingView. Je pense que la plupart des gens supposent que c'est juste un autre outil de lecture de graphiques IA. Vous savez, vous lui montrez le graphique et vous lui demandez ce qu'il faut faire. Mais si c'est ce que vous attendez de cet outil, vous allez l'utiliser entièrement à mauvais escient et vous obtiendrez les mauvais résultats, et ce ne sera pas une bonne expérience. Mais laissez-moi vous dire ce qui est différent.
+
+Lorsque vous faites une capture d'écran d'un graphique et que vous la mettez dans l'IA, l'IA devine essentiellement parce qu'elle regarde une image. Elle essaie d'interpréter une image. Une image n'est qu'une série de pixels, n'est-ce pas ? Et vous pouvez voir immédiatement pourquoi cela ne fonctionnerait pas. Parce que si vous fournissiez une image pixélisée ou de très basse qualité, vous savez, ces petits éléments, la différence en pixels, peuvent réellement signifier quelque chose pour savoir si, vous savez, vous devriez entrer dans une transaction ou vendre une transaction, n'est-ce pas ? Et je sais que nous parlons de détails fins, mais le trading est en quelque sorte les détails fins, n'est-ce pas ? Sans compter que lorsque vous avez livré la capture d'écran à votre IA, elle est hors du temps, elle est déjà obsolète. Elle est hors de propos parce que le graphique a bougé.
+
+Mais dans ce système, Claude ne regarde pas une image. Il regarde réellement le code et les valeurs à l'écran. Ce que cela signifie, c'est qu'il connaît le positionnement exact, au niveau du code, de toutes les bougies à l'écran, et il observe cela en direct. Donc, si vous êtes sur le graphique d'une minute, même si vous êtes sur le graphique d'une seconde, Claude est capable de lire ces changements d'une seconde, chaque seconde. Il connaît le prix précis de chaque bougie, du haut vers le bas, avec les mèches et tout, et en direct, tout le temps. C'est une chose très différente de la reconnaissance d'images. Et le plus fou, c'est que vous parlez simplement au graphique depuis votre terminal. Donc vous parlez à Claude et Claude interprète ce que vous dites depuis votre langage naturel et associe cela au code en arrière-plan. Et cela change absolument tout sur la façon dont vous utilisez cette chose.
+
+Alors, regardons comment cela fonctionne sous le capot.
+
+[VISUEL : L'écran affiche la page d'accueil de Google. Le présentateur est toujours visible à droite.]
+
+Beaucoup d'entre vous le savent peut-être ou non, mais si vous allez sur un navigateur n'importe où et que vous faites un clic droit, vous verrez un bouton en bas appelé "Inspecter".
+
+[VISUEL : Le présentateur fait un clic droit sur la page Google. Un menu contextuel apparaît. Il sélectionne "Inspecter" en bas du menu.]
+
+Lorsque vous cliquez sur "Inspecter", cela vous montre essentiellement tout le code qui se trouve sur une page.
+
+[VISUEL : La fenêtre du navigateur se divise en deux. La partie gauche reste la page Google. La partie droite affiche le code HTML et CSS de la page dans les outils de développement du navigateur. Le présentateur fait défiler le code.]
+
+Et ce qui est intéressant, c'est que lorsque la page se met à jour ou que de nouvelles informations se chargent à l'écran, elles apparaîtront également ici. Le code change, il est dynamique. Et donc ce projet qui connecte Claude à TradingView a essentiellement Claude lisant en direct toutes les données qui se produisent sur le code à l'écran à ce moment-là. Donc il lit réellement les données en direct qui sont à l'écran en ce moment sans utiliser d'images.
+
+[VISUEL : L'écran se divise en deux. À gauche, la page GitHub du projet "LewisJackson/tradingview-mcp-jackson" est affichée. Le titre est "TradingView MCP Jackson". À droite, une fenêtre de terminal "Claude Code" est ouverte, affichant une invite de commande.]
+
+Alors, passons à la construction, d'accord ? Ce sera super simple parce que j'ai déjà filmé ce tutoriel. J'ai essayé la version manuelle, si vous descendez sur GitHub, vous pouvez voir qu'il y a une version manuelle. Vous savez, copier-coller ceci, copier-coller cela, faire tous ces détails. C'est juste un peu un casse-tête. J'ai décidé de sauter tout ce processus et de vous livrer une invite de configuration en un seul clic.
+
+[VISUEL : Sur la page GitHub, le présentateur fait défiler vers le bas jusqu'à la section "One-Shot Setup". Il y a un bloc de code avec un bouton "Copier".]
+
+Tout ce que vous avez à faire, c'est de venir ici, juste là où il est écrit "One-Shot Setup".
+
+[VISUEL : Le présentateur clique sur le bouton "Copier" à côté du bloc de code.]
+
+Copier.
+
+[VISUEL : Le présentateur colle le code copié dans la fenêtre "Claude Code" à droite.]
+
+Collez-le dans votre code Claude. Et voilà. C'est tout ce que vous avez à faire. Et je vais passer en revue le processus d'utilisation de cette invite de configuration en un seul clic maintenant.
+
+[VISUEL : Le terminal Claude Code exécute les commandes. Il demande : "Do you want to create mcp.json?". Deux options sont affichées : "1. Yes" et "2. Yes, and allow Claude to edit its own settings for this session".]
+
+Donc, pendant que j'exécute cela, il va juste me poser quelques questions pour confirmer ou refuser quelques choses. En bas, vous pouvez voir "Voulez-vous que je crée mcp.json ?". Il dit "Oui", "Oui, et autoriser Claude à modifier ses propres paramètres pour cette session" ou "Non". Je choisis toujours celui qui lui permet d'être plus automatisé. Donc je vais choisir le numéro deux ici.
+
+[VISUEL : Le présentateur tape "2" et appuie sur Entrée. Le terminal continue d'exécuter des commandes. Il affiche "Done. Already had deps, all good" et "No existing mcp.json - creating it fresh. Let me also check rules.example.json". Puis "Done. I'll create the MCP config and copy rules.example.json to rules.json".]
+
+Vous appuyez simplement sur le bouton deux de votre clavier et il continuera. Nous pourrions en avoir quelques autres au fur et à mesure que le processus se poursuit, mais finalement, cela ne pourrait pas être plus facile.
+
+[VISUEL : Le terminal affiche une erreur : "Error: "CDP connection failed after 5 attempts: fetch failed", "error": "TradingView is not running with CDP enabled. Use the tv_launch tool to start it automatically." Puis "Setup complete. TradingView Desktop just needs to be running with CDP enabled - it's not open right now." Il suggère de lancer TradingView Desktop ou d'ouvrir TradingView et d'exécuter `tv_health_check`.]
+
+Pendant que nous attendons cela, je pensais que je pourrais aussi bien vous montrer mon tableau de bord 10X. Si vous ne le savez pas déjà, j'essaie de transformer 50 000 livres en 500 000 livres en une seule année.
+
+[VISUEL : L'écran passe à un tableau de bord sombre intitulé "10X CHALLENGE". Il affiche "TOTAL CHALLENGE VALUE £22,963.06" et "+£3,863.22 Overall P&L (+18.6%)". Un graphique montre la "Portfolio Value Over Time". En dessous, il y a des sections "Trigger Conditions", "Total Invested", "Current Value", "P&L (after fees)", "Triggers Fired". Plus bas, une section "BTC Price - Crypto Purchases" avec un graphique et une liste d'actifs (TAO, LINK, RENDER, ONDO, TRAC, BSSW).]
+
+Jusqu'à présent, nous nous en sortons merveilleusement bien. Nous sommes en hausse de près de 4 000 livres sur les achats que nous avons effectués jusqu'à présent. Je n'ai pas encore entré toutes les positions, mais vous pouvez voir chaque position que j'ai entrée, le P&L sur chacune, et les moments exacts où j'ai acheté ma crypto. Comme vous pouvez le voir, ma stratégie est... [Le présentateur fait un geste de "baiser du chef" avec ses doigts.] ...un baiser de chef. Chaque baisse que vous voyez sur le marché ici, je l'achète. Et tout est entièrement automatisé. L'ensemble du système est automatisé. C'est une chose incroyable. Si vous êtes intéressé par la façon de configurer cela vous-même, ou d'être alerté exactement quand je suis alerté, afin que vous puissiez acheter les cryptos que vous cherchez à acheter, il y a un lien dans la description pour que vous puissiez le consulter. Vous pouvez également regarder ma vidéo sur ma stratégie, juste en haut à droite de cet écran.
+
+[VISUEL : Retour au terminal Claude Code et à la page GitHub. Le terminal affiche toujours le message d'erreur concernant TradingView Desktop.]
+
+Mais revenons à notre terminal et regardons. Il dit "Terminé. La configuration est complète. TradingView Desktop doit juste être exécuté avec CDP activé." Donc il me dit maintenant que pour utiliser cela, je dois soit lancer TradingView Desktop, soit simplement ouvrir TradingView et ensuite exécuter cette commande spécifique ici que je surligne, pour juste vérifier la connexion.
+
+[VISUEL : Le présentateur ouvre TradingView Desktop, qui affiche un graphique de prix. Il revient au terminal Claude Code.]
+
+Donc, j'ai TradingView ouvert. Et je vais juste exécuter ceci à nouveau juste pour voir si cela fonctionnera.
+
+[VISUEL : Le présentateur colle la commande `tv_health_check` dans le terminal et l'exécute. Le terminal affiche "Running. Skimming. (thinking with medium effort)".]
+
+Ceci vérifie essentiellement si le MCP est correctement connecté et si nous sommes prêts à passer à l'étape suivante.
+
+[VISUEL : Le terminal affiche "Still no connection. TradingView Desktop isn't running with CDP enabled." Il donne des instructions pour lancer TradingView Desktop avec un port de débogage à distance.]
+
+Afin que cela fonctionne très bien, il vous suffit de télécharger TradingView Desktop. Vous pouvez aller sur tradingview.com/desktop et vous pouvez sélectionner celui qui vous convient. Évidemment, pour moi, c'est le Mac. Allez-y et suivez le processus d'installation normal.
+
+[VISUEL : Le présentateur a maintenant TradingView Desktop ouvert sur le côté gauche de l'écran, affichant un graphique de prix. Le terminal Claude Code est à droite.]
+
+Donc, nous avons ouvert notre TradingView Desktop. Il a dit que pour le lancer, tout ce que nous avons à faire est de coller ceci dans notre terminal.
+
+[VISUEL : Le présentateur copie une commande longue du terminal qui inclut le chemin vers l'application TradingView et le port de débogage à distance. Il la colle dans le terminal.]
+
+Et c'est ce que nous allons faire. Nous allons juste prendre cela et le coller là.
+
+[VISUEL : Le terminal affiche une erreur "No such file or directory". Le présentateur explique qu'il faut copier le chemin exact de l'application TradingView.]
+
+Il nous faut maintenant lancer TradingView avec l'emplacement exact de TradingView. Donc, tout ce que vous allez faire, c'est d'aller dans votre Finder et de trouver TradingView dans votre liste d'applications. Ce sera un peu étrange à faire, mais cliquez sur Commande et C, donc vous copiez cette application, et vous la collez dans Claude Code.
+
+[VISUEL : Le présentateur ouvre le Finder, navigue vers "Applications", trouve "TradingView.app". Il fait un clic droit, sélectionne "Copier TradingView". Il revient au terminal Claude Code, colle le chemin de l'application dans la commande de lancement, puis exécute la commande.]
+
+Claude Code va ensuite vous donner une commande mise à jour que vous devez copier-coller dans Claude Code pour configurer cela correctement. Il nous faut juste lui donner 5 à 10 secondes pour démarrer, et ensuite nous allons exécuter à nouveau `tv_health_check` pour voir si cela fonctionne.
+
+[VISUEL : Le terminal exécute la commande de lancement. Il affiche "Launched. Give it 5-10 seconds to start, then run tv_health_check again." Puis le présentateur exécute `tv_health_check` à nouveau.]
+
+C'est bon. Il a fait quelques rechargements de fenêtres et tout, et TradingView est de retour. Et il dit que le CDP est en direct.
+
+[VISUEL : Le terminal affiche "CDP is live - DevTools listening on ws://127.0.0.1:9222/devtools/browser/f6a07002-d0b3-40d1-9800-036900000000 confirmed. Connected. TradingView MCP is fully working. Symbol: AAPL (Daily) CDP: live on port 9222 API: available". Puis "Now fill in rules.json with your watchlist and trading rules, and you're good to go. To keep TradingView on future sessions, you'll want to always launch it via /Applications/TradingView.app/Contents/MacOS/TradingView --remote-debugging-port=9222 rather than clicking the dock icon." Le présentateur est visible à droite.]
+
+Maintenant, c'est là que ça devient vraiment intéressant et je veux que vous fassiez attention ici. En bas, il est écrit : "Maintenant, remplissez rules.json avec votre liste de surveillance et vos règles de trading, et vous êtes prêt à partir." Normalement, ce que les gens feraient, c'est d'aller dans ce fichier et d'y apporter les modifications. Je n'aime pas faire ça parce que j'utilise Claude, n'est-ce pas ? Je veux lui parler. Nous savons que maintenant il regarde mon écran.
+
+[VISUEL : Le présentateur est visible à droite. Le graphique TradingView affiche le symbole "AAPL" (Apple) sur un timeframe "Daily".]
+
+Maintenant, quelques-unes de ces choses vont commencer à ressembler un peu à de la magie, mais je veux vous montrer les capacités pour commencer, et ensuite nous passerons à des choses plus avancées. Donc, disons que nous regardons le graphique d'Apple ici. Disons que nous voulons regarder le graphique de Bitcoin. Eh bien, tout ce que je vais faire, c'est parler à mon WhisperFlow. Vous pouvez le télécharger en utilisant le lien dans la description. Je vais lui dire ce que je veux voir à l'écran. D'accord, allons-y.
+
+[VISUEL : Le présentateur parle au microphone.]
+
+"Peux-tu me montrer le graphique Bitcoin sur le timeframe d'une semaine, s'il te plaît ?"
+
+[VISUEL : Le présentateur appuie sur Entrée dans le terminal. Le terminal affiche "tradingview - chart_set_symbol (MCP){'symbol': 'BTCUSD'}" et "tradingview - chart_set_timeframe (MCP){'timeframe': 'W'}". Le graphique TradingView change instantanément pour afficher "BTCUSD" sur un timeframe "1W".]
+
+Je viens d'appuyer sur Entrée et, espérons-le, nous devrions voir notre TradingView commencer à changer. Le voilà ! C'est déjà fait ! C'est littéralement, c'est littéralement magique. C'est magique. C'est absolument magique.
+
+[VISUEL : Le présentateur est visible à droite. Le graphique TradingView affiche BTCUSD sur 1W. Il y a un indicateur de volume en bas.]
+
+Disons que je veux supprimer l'indicateur de volume du bas. "Peux-tu s'il te plaît supprimer l'indicateur de volume du bas de l'écran ?"
+
+[VISUEL : Le présentateur appuie sur Entrée. Le terminal affiche "tradingview - chart_manage_indicator (MCP){'action': 'remove', 'indicator': 'Volume'}". Le graphique TradingView supprime l'indicateur de volume.]
+
+C'est, quand vous commencez à utiliser cela, c'est incroyable et nous n'avons même pas encore effleuré la surface ici, d'ailleurs. Comme l'une des choses que nous pouvons faire ici, c'est de lui donner une stratégie. Nous pouvons lui demander de placer différents indicateurs. Juste comme vous pouvez le voir là. Il a juste supprimé l'indicateur de volume du bas. C'est absolument incroyable.
+
+[VISUEL : Le présentateur est visible à droite. Le graphique TradingView affiche BTCUSD sur 1W.]
+
+Donc, maintenant ce que nous voulons faire, c'est nous assurer que nos théories d'investissement, nos stratégies de trading, sont correctement communiquées avec Claude. Parce que Claude va aller dans la structure de fichiers que nous avons créée et modifier la stratégie, la façon dont vous aimez trader, et il va l'implémenter sur le graphique. Je n'ai pas nécessairement une stratégie de trading en ce moment, mais je vais lui demander, très naturellement ici, de copier la stratégie de quelqu'un d'autre. Et voyons tout cela être implémenté sur le graphique.
+
+[VISUEL : Le présentateur parle au microphone.]
+
+"Hé, donc je ne suis pas un grand day trader, je ne connais pas grand-chose au day trading, mais je suis sûr qu'il y a quelques personnes très populaires qui parlent de leur day trading et qui sont vraiment, vraiment bonnes. Elles ont de solides performances et tout. Je veux que tu recherches ce qu'elles ont fait avec leur stratégie de trading, les indicateurs qu'elles utilisent, les moyennes mobiles qu'elles utilisent, quoi que ce soit. Et ensuite, peux-tu s'il te plaît installer cela sur mon graphique Bitcoin ici ? Tu peux mettre à jour mon fichier rules.json avec toutes ces informations, et ensuite nous pourrons voir cela se dérouler sur mon écran."
+
+[VISUEL : Le présentateur appuie sur Entrée. Le terminal affiche "Agent: Research top Bitcoin trader strategies". Il effectue des recherches web pour "top Bitcoin trader strategies", "Michael van de Poppe trading strategy indicators", "Tone Vays 'momentum reversal indicator'", "Peter Brandt factor trading rules entry chart pattern completion breakout volume stop loss". Il affiche "Zigzagging. (3m 5s - 948 tokens) thinking with medium effort".]
+
+Donc, pendant que nous laissons cela fonctionner, il trouve maintenant les meilleurs traders de day trading Bitcoin et il va implémenter leur stratégie. Maintenant, cette stratégie sera juste des données dans un fichier. Mais nous avons besoin que ces données dans un fichier soient converties en quelque chose que nous voyons réellement à l'écran. Et donc, ce que nous voulons finir par faire, c'est de créer une stratégie Pine Script qui peut être implémentée ici et nous donner des directions sur ce qu'il faut trader et quand il faut trader. Donc, vous pourriez parler à Claude et dire quelque chose comme ceci.
+
+[VISUEL : Le terminal affiche "Once you've actually created the whole strategy based on the trader that you're researching, can you actually turn that into a Pine Script please and then implement that Pine Script onto the chart here?". Le présentateur parle au microphone.]
+
+"Une fois que tu as réellement créé l'ensemble de la stratégie basée sur le trader que tu recherches, peux-tu réellement transformer cela en un Pine Script s'il te plaît, et ensuite implémenter ce Pine Script sur le graphique ?"
+
+[VISUEL : Le présentateur appuie sur Entrée. Le terminal affiche "Zigzagging. (2m 2s - 1.5k tokens) thinking with medium effort".]
+
+Et donc, tout ce que je fais maintenant, c'est de mettre en file d'attente, séquentiellement, un tas de choses que je veux dire à Claude. Et il s'en occupera une fois qu'il aura terminé la recherche. Donc, maintenant il a dit : "Excellente recherche ! Je vais appliquer la configuration Van de Poppe, la plus reproductible, la meilleure pour le swing trading Bitcoin sur une base hebdomadaire, combinée avec le MACD de Tone Vays, l'EMA 21, le 50 et le 200, le RSI à 14 et le MACD. Je vais mettre à jour votre fichier rules.json, laissez-moi les ajouter maintenant."
+
+[VISUEL : Le terminal affiche "tradingview - chart_manage_indicator (MCP){'action': 'add', 'indicator': 'Moving Average Exponential', 'entity_id': 'EMA_21'}". Le graphique TradingView à gauche affiche maintenant des moyennes mobiles exponentielles (EMA) sur le graphique BTCUSD 1W. Le code Pine Script est également visible dans une fenêtre séparée.]
+
+Donc, il a réellement créé la stratégie. Il est maintenant en train d'ajouter les indicateurs à l'écran. Et ensuite, une fois qu'il aura terminé cela, il verra ma prochaine invite, qui concerne la transformation en un Pine Script. Un Pine Script nous permettra ensuite de backtester la stratégie pour voir comment elle aurait performé dans le passé. Il va maintenant créer un Pine Script pour ce graphique hebdomadaire Bitcoin.
+
+[VISUEL : Le terminal affiche "tradingview - pine_set_source (MCP)". Le code Pine Script est affiché dans l'éditeur Pine Script de TradingView. Il y a des erreurs de syntaxe mises en évidence.]
+
+Et juste comme ça, vous pouvez voir que tout a changé là, n'est-ce pas ? Il a complètement et entièrement écrit tout ce Pine Script. Et ce qui est vraiment cool avec le Pine Script, c'est que juste ici, vous pouvez voir qu'il y a un des deux problèmes. Il y a en fait deux problèmes avec le code ici. Mais parce que Claude Code observe ce qui est à l'écran au niveau du code, il peut voir qu'il y a un des deux problèmes. Et il va y aller et corriger ces problèmes. Et il continuera à le faire, et continuera à les corriger jusqu'à ce que tout soit résolu.
+
+[VISUEL : Le terminal affiche "Compiled clean. Now adding it to the chart." Puis "tradingview - ui_find_element (MCP){'query': 'Add to chart', 'strategy': 'text'}" et "Error: "No matching element found for text > 'Add to chart'". Le présentateur est visible à droite.]
+
+J'imagine quelqu'un qui n'a jamais été dans le terminal auparavant, qui n'a jamais utilisé Claude Code comme ça, regardant l'écran maintenant. Vous avez l'impression d'être dans la Matrice. C'est comme si tout bougeait.
+
+[VISUEL : Le terminal affiche "tradingview - ui_mouse_click (MCP){'x': 518, 'y': 62}". Le présentateur est visible à droite.]
+
+Donc, pendant que nous attendons que ce Pine Script s'installe dans son intégralité, je vais mettre en file d'attente une autre invite ici. Dans cette invite, je veux lui donner ma liste de surveillance complète d'actifs que je veux suivre, n'est-ce pas ? Dans la version précédente que j'ai en quelque sorte reproduite ici, vous deviez, chaque jour ou chaque matin, ou chaque fois que vous veniez à votre ordinateur, vous deviez demander à l'IA de regarder un graphique spécifique, un à la fois. Donc ce serait comme, d'accord, ouvre mon graphique Ethereum. Analyse le graphique Ethereum. Maintenant celui de Bitcoin. Maintenant celui de Solana. Maintenant celui de XRP. Et c'est juste un peu un casse-tête de le faire encore et encore. Donc, ce que j'ai fini par créer, c'est une sorte de routine quotidienne qui, essentiellement chaque matin, viendra, regardera votre liste de surveillance, et ensuite vous produira un rapport de votre liste de surveillance à ce moment-là, n'est-ce pas ? Vous évitant d'avoir à le faire un par un. C'est l'une des petites améliorations que j'ai apportées.
+
+[VISUEL : Le terminal affiche "So it says that everything is live, the Bitcoin strategy, the Van de Poppe and the Tone Vays is live on BTCUSD weekly. It tells us exactly what is entailed in this, and we're going to have a look to see. Holy moly, it did it. It actually did it. It's installed the whole thing." Le graphique TradingView affiche maintenant la stratégie complète avec des zones colorées et des indicateurs. Le présentateur est visible à droite.]
+
+Donc, il nous dit maintenant que les étiquettes de la zone d'achat, lorsque le prix recule dans la zone avec le RSI 35-58 et le MACD toujours haussier, il nous informera simplement qu'il y a une opportunité d'achat. Vous pouvez voir, à mesure que nous zoomons, il y avait une opportunité d'achat juste ici, il y avait une zone d'achat juste là, et ça a bien monté. Ce n'est pas, évidemment, je viens d'inventer cette stratégie sur le coup. Ce n'est en aucun cas solide ou quoi que ce soit. Mais le processus est là, et vous pouvez l'installer à votre manière.
+
+[VISUEL : Le terminal affiche "But as I said, I want to tell it what my what the assets are on my watchlist because this is going to help us later. So, let's have a go. So, I've got a few assets on my watchlist that I want you to apply this to. So, Bitcoin, Ethereum, Solana, XRP, Chainlink, and Pepe. Let's just let's just see what it says." Le présentateur est visible à droite.]
+
+Mais comme je l'ai dit, je voulais lui dire quels sont les actifs de ma liste de surveillance parce que cela nous aidera plus tard. Alors, essayons. J'ai donc quelques actifs sur ma liste de surveillance auxquels je veux que vous appliquiez cela. Donc, Bitcoin, Ethereum, Solana, XRP, Chainlink et Pepe. Voyons juste ce qu'il dit.
+
+[VISUEL : Le présentateur appuie sur Entrée. Le terminal affiche "tradingview - batch_run (MCP){'symbols': ['BTCUSD', 'ETHUSD', 'SOLUSD', 'XRPUSD', 'LINKUSD', 'PEPEUSD'], 'action': 'screenshot', 'timeframe': '1W', 'delay_ms': 1000}". Il exécute des commandes pour chaque actif, affichant des graphiques différents (BTC, ETH, SOL, XRP, LINK, PEPE) sur TradingView.]
+
+Je vais juste supprimer ce dernier morceau parce que je n'ai pas arrêté de transcrire. Et faisons cela. Donc, il devrait ajouter ces actifs à ma liste de surveillance. Et vous pouvez voir qu'il parcourt tous les actifs et applique l'indicateur que nous avons créé ici, le Pine Script, sur tous les actifs dont nous avons parlé. Maintenant, il vient de l'appliquer à Solana. Et ensuite, nous devrions le voir sur XRP. Voilà. Et il va juste parcourir tout cela, le faisant pour chaque actif de notre liste de surveillance.
+
+[VISUEL : Le terminal affiche "Get all it. Let me read them all now." Puis un tableau intitulé "Here's the full strategy read across all 6 on the weekly." Le tableau a des colonnes "Asset", "Bias", "Price vs EMA 200", "RSI", "MACD", "Signal". Il y a des lignes pour BTC, ETH, SOL, XRP, LINK, PEPE, avec des valeurs pour chaque colonne. En dessous, il y a une section "Key takeaways". Le présentateur est visible à droite.]
+
+Bien sûr, si vous vouliez modifier quoi que ce soit, vous le pouvez absolument, n'est-ce pas ? Vous pouvez dire : "Peux-tu ajouter une ligne EMA à la, vous savez, l'EMA de 20 semaines ? Et si le prix descend et touche deux fois cette ligne, par exemple, alors alerte-moi." Et il construira le Pine Script en fonction de ce que vous avez dit. Mais séparément, vous pouvez déjà voir que, à partir de la liste de surveillance que j'ai créée, il m'a donné un signal sur chaque actif, sur le graphique hebdomadaire, sur ma liste de surveillance, basé sur cette stratégie. Il m'a dit que Bitcoin est baissier, Ethereum est baissier, Solana est baissier, XRP est neutre, Link est baissier et Pepe est neutre aussi. Il me donne une très bonne idée de ce que je devrais faire.
+
+[VISUEL : Le terminal affiche "Now that brings me to what I have built and added on top in a more concrete way, right? There's a lot of issues with this that I didn't feel sat right with me, so I'm going to tell you about the changes that I've made, and show you how to use them in your terminal." Le présentateur est visible à droite.]
+
+Maintenant, cela m'amène à ce que j'ai construit et ajouté par-dessus de manière plus concrète, n'est-ce pas ? Il y a beaucoup de problèmes avec cela qui ne me convenaient pas, alors je vais vous parler des changements que j'ai apportés et vous montrer comment les utiliser dans votre terminal.
+
+[VISUEL : Le terminal affiche "As I mentioned, it's very frustrating asking the AI to show me one chart, and then tell it, then get it to show me another chart, and another chart. I felt like that was too much effort. I'm lazy now, right? Now that AI does everything for me. And so I set up something called the morning brief. And in order to get your morning brief, all you have to do is type in morning_brief into your terminal, and what it will do is it will go out and it will look at all the items on your watchlist and deliver you a morning brief, right? So you it doesn't have to be the morning when you run it, but at least you only have to type this one time instead of every asset individually. So imagine you come into your office, you open up your computer, and you run a morning brief. That morning brief will just show you all the assets and the positions of all your assets anytime you want. If you want to make this extra on steroids, you can even set it up to send you a brief every 10 minutes if you want. Every minute if you want. It might get a little bit annoying, but you can set it up in that way. I like a morning brief, just to see the status of all the assets, and if it's a good moment right then, maybe I'll add some to a position or I'll take some away from a position." Le présentateur est visible à droite.]
+
+Comme je l'ai mentionné, c'est très frustrant de demander à l'IA de me montrer un graphique, puis de lui dire, puis de lui demander de me montrer un autre graphique, et un autre graphique. J'ai trouvé que c'était trop d'efforts. Je suis paresseux maintenant, n'est-ce pas ? Maintenant, l'IA fait tout pour moi. Et donc j'ai mis en place quelque chose appelé le "morning brief". Et pour obtenir votre "morning brief", tout ce que vous avez à faire est de taper "morning_brief" dans votre terminal, et ce qu'il fera, c'est qu'il ira et regardera tous les éléments de votre liste de surveillance et vous livrera un "morning brief", n'est-ce pas ? Donc, vous n'avez pas besoin de le lancer le matin, mais au moins vous n'avez à taper cela qu'une seule fois au lieu de chaque actif individuellement. Alors imaginez que vous arrivez à votre bureau, vous ouvrez votre ordinateur, et vous lancez un "morning brief". Ce "morning brief" vous montrera simplement tous les actifs et les positions de tous vos actifs à tout moment. Si vous voulez rendre cela "extra sous stéroïdes", vous pouvez même le configurer pour vous envoyer un brief toutes les 10 minutes si vous voulez. Chaque minute si vous voulez. Cela pourrait devenir un peu ennuyeux, mais vous pouvez le configurer de cette manière. J'aime un "morning brief", juste pour voir l'état de tous les actifs, et si c'est un bon moment à ce moment-là, peut-être que j'ajouterai à une position ou que j'en retirerai d'une position.
+
+[VISUEL : Le terminal affiche le "MORNING BRIEF" pour le 2 avril 2024, avec des informations détaillées sur BTC, ETH, SOL, XRP, LINK, PEPE (biais, niveau clé, prix vs EMA, RSI, MACD, signal). Le présentateur est visible à droite.]
+
+J'ai également ajouté ce fichier de règles dont nous avons déjà commencé à parler. Il vous permet essentiellement de parler à Claude pour ajouter les règles que vous voulez implémenter, comme, vous savez, quelque chose est haussier si ces choses se produisent. Quelque chose est baissier si ces choses se produisent. Quelque chose est neutre si ces choses se produisent. Vous savez, quelles règles avons-nous pour entrer dans une position longue, entrer dans une position courte ? Qu'en est-il de la sortie ? Qu'en est-il du risque que nous assumons ? Qu'en est-il des timeframes que nous utilisons ? Vous pouvez saisir tout cela ici, juste en parlant simplement à Claude. Et cela signifie que vous obtenez un niveau supplémentaire d'intrication ici, n'est-ce pas ? Vous pouvez voir que le "morning brief" a été livré ici. Il nous donne juste toutes les informations. Il n'y a pas de configurations longues sur Bitcoin. C'est le graphique le plus moche de tous les majors. Sur Ethereum, c'est le plus proche d'un renversement potentiel pour XRP, mais ce n'est toujours pas un achat. C'est juste vraiment bien. Je ne sais pas comment le dire autrement. C'est juste bien, bien, bien.
+
+[VISUEL : Le présentateur est filmé en gros plan.]
+
+Je suis sûr que vous pourriez y attacher l'idée de, par exemple, prendre la stratégie de quelqu'un en entier. Disons que vous avez téléchargé toutes les transcriptions de CoinSkid, par exemple. Un analyste technique éminent. Vous pourriez récupérer toutes les transcriptions de ses vidéos et dire : "Quelle est sa stratégie ? Quels indicateurs utilise-t-il ? Peux-tu déterminer si les choses sont un achat ou une vente, vous savez, en fonction de ce dont il a parlé dans ses vidéos ?" Et appliquer cela comme un Pine Script dans mon graphique. Ce qui se passe à la fin, c'est que vous finissez par regarder un graphique de la même manière que CoinSkid le fait, ou Blockchain Backer, par exemple, il est incroyable. Ou si vous avez récupéré toutes les transcriptions de toutes ses vidéos et déterminé, vous savez, quels graphiques il regarde. Vous savez, comment il regarde les choses ? Quel est son processus de prise de décision ? Et comment puis-je mettre cela dans un Pine Script qui est tout accessible pour vous ? Grâce à cela, il va juste mettre à jour le fichier rules.json avec toutes les règles, et l'implémenter sur votre truc. Vous faites un "morning brief" chaque jour, et on vous dit quoi faire en fonction de personnes qui savent de quoi elles parlent, ou si c'est vous qui savez de quoi vous parlez, c'est basé sur votre stratégie. Aucune émotion n'est impliquée. C'est comme si vous aviez fait la réflexion de la stratégie, et la voilà. Voici les décisions à prendre. À quel point c'est plus facile ? Combien de bande passante ouvrez-vous ? Il y avait aussi un petit bug de lancement qui était un problème avec le truc TradingView. Cela a également été entièrement corrigé. Et donc, tout ce que vous avez vu construire ici est accessible pour vous, dès maintenant, gratuitement. Je ne veux pas votre e-mail, je ne veux pas que vous me payiez. Je veux juste que vous fassiez un tas d'argent. Et je pense que c'est l'un de ces outils qui débloque quelque chose qui n'existait pas auparavant. Si vous voulez l'utiliser maintenant, vous pouvez cliquer sur le lien dans la première ligne de la description. Copiez-collez cette invite en un seul clic et, hop, hop, hop ! Vous savez quoi faire. Vous allez faire un tas d'argent. Merci d'avoir regardé.

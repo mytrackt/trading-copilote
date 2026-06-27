@@ -56,13 +56,15 @@
 
 ---
 
-## 0.l [S16 · 17/06/2026] TRADEX_KB_Chap12_Macro_Actualites — P1 · 📥 À TRAITER
+## 0.l [S16 · 17/06/2026] TRADEX_KB_Chap12_Macro_Actualites — P1 · ✅ AUDIT AUTO
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap12_Macro_Actualites.md`
 **Source :** Abdelkrim (document interne) — Chapitre 12 "Macro et actualités", cours Mentor Trader Senior
-**Action à l'interstice :** pipeline KB étapes 3-7
-**Catégories KB candidates :** `macro_evenements`, `correlations`, `saisonnalite`
-**Note :** P1 — macro directement câblée dans TRADEX (News Gate NFP/FOMC/CPI, cercle C4+C6). Extraire les règles de blocage et de lecture macro compatibles avec le moteur.
+**Audit hostile :** `00-pilotage\AUDIT_HOSTILE_P1_Chap6_8_9_12.md` (S32 · 2026-06-27) — Verdict : UTILISABLE APRÈS CORRECTION
+**Briques estimées :** 10-12 briques | Catégories : `macro_evenements`, `correlations`, `saisonnalite`
+**Corrections requises AVANT pipeline :** (1) Aucune correction spécifique Chap12. (2) Tous éléments 🔵 → rester 🔵 dans KB.
+**Action à l'interstice :** pipeline KB étapes 3-7 — **PRIORITÉ 1 des 4 chapitres** (News Gate directement câblé)
+**Note :** Sources officielles nombreuses et vérifiables (federalreserve.gov, eia.gov, bls.gov, cftc.gov, fred.stlouisfed.org). Chap le plus sourcé des 4.
 
 ---
 
@@ -86,23 +88,33 @@
 
 ---
 
-## 0.i [S16 · 17/06/2026] TRADEX_KB_Chap9_Construire_Strategie — P1 · 📥 À TRAITER
+## 0.i [S16 · 17/06/2026] TRADEX_KB_Chap9_Construire_Strategie — P1 · ✅ AUDIT AUTO
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap9_Construire_Strategie.md`
 **Source :** Abdelkrim (document interne) — Chapitre 9 "Construire sa stratégie de trading", cours Mentor Trader Senior
-**Action à l'interstice :** pipeline KB étapes 3-7
-**Catégories KB candidates :** `gestion_risque_entree`, `psychologie`, `structure_marche`, `timing`
-**Note :** P1 — construction stratégie = cadre global du signal TRADEX. Filtrer les règles de décision (entrée/sortie/filtre) directement applicables au moteur claude_brain.py.
+**Audit hostile :** `00-pilotage\AUDIT_HOSTILE_P1_Chap6_8_9_12.md` (S32 · 2026-06-27) — Verdict : UTILISABLE APRÈS CORRECTION
+**Briques estimées :** 8-10 briques | Catégories : `gestion_risque_entree`, `psychologie`, `structure_marche`, `timing`
+**Corrections requises AVANT pipeline :**
+  - ⚠️ BLOQUANT : Trancher conflit ADX (seuil 20 §9.2.2 vs seuil 25 §9.2.3) → recommandation = choisir **25**
+  - Dégrader tag §9.7.2 "taux gain 40-55%" de 🟢 → ⚠️
+  - Dégrader tag §9.3.4 "Profit Factor ≥ 1,3" de 🟢 → 🟡
+  - Dégrader tag §9.7.4 "slippage CL 1-3 ticks" de 🟢 → ⏳
+**Action à l'interstice :** pipeline KB étapes 3-7 — **PRIORITÉ 2 des 4 chapitres** (filtre ADX = cœur moteur)
+**Note :** Pseudo-code du setup COG (§9.3.2) est directement utilisable pour claude_brain.py — taguer 🔵.
 
 ---
 
-## 0.h [S16 · 17/06/2026] TRADEX_KB_Chap8_Patterns_Setups — P1 · 📥 À TRAITER
+## 0.h [S16 · 17/06/2026] TRADEX_KB_Chap8_Patterns_Setups — P1 · ✅ AUDIT AUTO
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap8_Patterns_Setups.md`
 **Source :** Abdelkrim (document interne) — Chapitre 8 "Patterns et setups de trading", cours Mentor Trader Senior
-**Action à l'interstice :** pipeline KB étapes 3-7
-**Catégories KB candidates :** `structure_marche`, `gestion_risque_entree`, `indicateurs_tendance`, `indicateurs_momentum`
-**Note :** P1 — patterns/setups = cœur des signaux TRADEX. Filtrer strictement les patterns compatibles méthode Belkhayate (COG+Timing) vs patterns génériques non utilisés.
+**Audit hostile :** `00-pilotage\AUDIT_HOSTILE_P1_Chap6_8_9_12.md` (S32 · 2026-06-27) — Verdict : UTILISABLE APRÈS CORRECTION
+**Briques estimées :** 10-12 briques | Catégories : `structure_marche`, `gestion_risque_entree`, `indicateurs_tendance`, `indicateurs_momentum`
+**Corrections requises AVANT pipeline :**
+  - ⚠️ BLOQUANT : §8.6.3 corriger "15 min avant annonce" → **"30 min avant annonce" (alignement DECISIONS_VEROUILLEES)**
+  - Tous setups COG restent tagués 🔵 (jamais promus 🟢 sans backtest validé)
+**Action à l'interstice :** pipeline KB étapes 3-7 — **PRIORITÉ 3 des 4 chapitres** (grille scoring 0-10 = cœur signal)
+**Note :** Grille scoring 0-10 (§8.8) est directement implémentable dans signal_scorer.py — taguer 🔵.
 
 ---
 
@@ -116,13 +128,18 @@
 
 ---
 
-## 0.f [S16 · 17/06/2026] TRADEX_KB_Chap6_Approches_Universelles — P1 · 📥 À TRAITER
+## 0.f [S16 · 17/06/2026] TRADEX_KB_Chap6_Approches_Universelles — P1 · ✅ AUDIT AUTO
 
 **Fichier archivé :** `02-sources-brutes\methode-belkhayate\TRADEX_KB_Chap6_Approches_Universelles.md`
 **Source :** Abdelkrim (document interne) — Chapitre 6 "Approches universelles complémentaires", cours Mentor Trader Senior
-**Action à l'interstice :** pipeline KB étapes 3-7
-**Catégories KB candidates :** `correlations`, `structure_marche`, `indicateurs_tendance`, `macro_evenements`
-**Note :** Approches complémentaires à la méthode Belkhayate (VWAP, SMC, Wyckoff, inter-marchés probable). P1 car complète la série TRADEX KB et enrichit les 7 cercles d'intelligence.
+**Audit hostile :** `00-pilotage\AUDIT_HOSTILE_P1_Chap6_8_9_12.md` (S32 · 2026-06-27) — Verdict : UTILISABLE APRÈS CORRECTION
+**Briques estimées :** 12-15 briques | Catégories : `correlations`, `structure_marche`, `indicateurs_tendance`, `volume_liquidite`
+**Corrections requises AVANT pipeline :**
+  - SMC/ICT : conserver tag 🔵 strict (pas de validation indépendante publiée)
+  - §6.6.3 "taux de réussite SMC 70-80%" : NE PAS intégrer dans KB (déjà flaggé 🔴)
+  - Matrice confluence §6.7.3 : taguer ℹ️ OPINION + 🔵 dans KB (aide à la réflexion, non exécutable)
+**Action à l'interstice :** pipeline KB étapes 3-7 — **PRIORITÉ 4 des 4 chapitres** (contexte et confirmation)
+**Note :** Section Order Flow §6.4 + Wyckoff §6.2 sont les plus intégrables (logique bien sourcée). SMC §6.6 = couche optionnelle uniquement.
 
 ---
 

@@ -1,0 +1,398 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-27]
+[SOURCE: GVbWx5x2i-Q.mp4]
+---
+[VISUEL: Une femme aux longs cheveux bruns, vêtue d'un cardigan crème avec un col noir, est assise à un bureau. Une statue de taureau doré est sur le bureau à sa gauche. Elle parle directement à la caméra.]
+"What if I told you that just one simple candlestick chart pattern"
+
+[VISUEL: L'arrière-plan change pour un bleu clair avec divers motifs de graphiques en chandeliers flottant autour. Un motif spécifique en forme de "W" (double bottom) est mis en évidence dans un cercle bleu clair avec une flèche verte pointant vers le haut, indiquant un renversement haussier. Des billets de banque (dollars américains) commencent à tomber du haut de l'écran.]
+"could transform your swing trading success."
+
+[VISUEL: L'arrière-plan revient au cadre original. La femme gesticule avec ses mains.]
+"Imagine spotting a setup like this one,"
+
+[VISUEL: L'écran se divise. À gauche, un graphique TradingView pour "HT24" (probablement un ticker générique ou un espace réservé) est affiché. C'est un graphique journalier avec des barres de prix, une EMA 8A_VERIFIER (ligne orange) et une SMA 200A_VERIFIER (ligne bleue). Une tendance baissière est visible, atteignant un "Key Level" (ligne horizontale verte) et formant une forme de "W". Une ligne de tendance baissière rouge est tracée. Le prix franchit ensuite la ligne de tendance baissière et l'EMA 8A_VERIFIER, se déplaçant vers le haut (flèche verte). Une pièce d'or apparaît au sommet du mouvement ascendant, et une barre verticale orange indique un breakout.]
+"getting in early just as a pattern is forming, riding the wave, and then cashing out for massive gains once a stock actually breaks out."
+
+[VISUEL: L'arrière-plan revient au cadre original. La femme parle. Le mot "Opportunity" avec une croix rouge apparaît à l'écran.]
+"But here's the catch. Most traders miss these golden opportunities"
+
+[VISUEL: La femme continue de parler. Des points rouges apparaissent à côté d'elle : "Chart patterns?", "When to enter?", "When to exit?".]
+"because they don't know where to find these charts patterns to trade, when to enter, or when to exit."
+
+[VISUEL: La femme sourit et gesticule.]
+"And that's exactly what we're solving today."
+
+[VISUEL: Écran bleu avec le logo "humbled trader" (une icône de hibou et du texte).]
+"Humbled Trader"
+
+[VISUEL: Femme parlant à son bureau.]
+"The market has been tough lately."
+
+[VISUEL: Un graphique intitulé "S&P 500A_VERIFIER YTD through March 17A_VERIFIER, 2025A_VERIFIER" est affiché, montrant un déclin de l'indice. Source : usbank.com.]
+"With the S&P 500 entering correction territory,"
+
+[VISUEL: Femme parlant à son bureau.]
+"it has definitely been challenging for day traders and swing traders."
+
+[VISUEL: Un plan flou d'une personne tradant sur plusieurs moniteurs avec une vue sur la ville. Puis un plan clair de la femme qui parle. Un graphique montrant une tendance haussière avec une étiquette "Breakout" apparaît à côté d'elle.]
+"While breakouts like these are no longer working,"
+
+[VISUEL: Femme parlant. Le texte "DON'T WORRY ✨" apparaît.]
+"Don't worry."
+
+[VISUEL: Femme parlant.]
+"If you're selective and know where to look, there's still opportunities in the market."
+
+[VISUEL: Femme parlant. Le texte "3A_VERIFIER Chart Patterns for Swing Trading" apparaît avec un "3A_VERIFIER" jaune et une icône de crayon.]
+"In this video, I'm sharing the three most powerful charts patterns for swing trading."
+
+[VISUEL: L'écran se divise en deux. À gauche, une capture d'écran de Finviz.com avec des données boursières et des graphiques. À droite, un graphique TradingView montrant divers motifs (wedge breakout, long-term downtrend break, oversold reversal). Des superpositions de texte mettent en évidence "Stop", "Potential Entry", "Risk".]
+"Exactly how to find them in real time and scan for these stocks, when to enter, and how to maximize your profit while minimizing risk."
+
+[VISUEL: Femme parlant. Un graphique de note autocollante apparaît avec des points : "3A_VERIFIER Chart Patterns For Swing Trading", "How to find Patterns & Indicators", "How To Time Your Entries & Exits". Le texte "*Stay Tuned ✅" apparaît.]
+"If you're serious about improving your swing trading game, then stick around till the very end."
+
+[VISUEL: Femme parlant. Une capture d'écran de Finviz.com apparaît avec un point d'interrogation, puis disparaît. Elle gesticule avec ses mains.]
+"I'll also share my top scanner settings and criteria to help you find these setups. And it wouldn't cost you a cent."
+
+[VISUEL: Femme parlant. Un graphique de bouton d'abonnement YouTube apparaît avec "Humbled Trader" et le bouton "SUBSCRIBE". Elle le pointe du doigt.]
+"If you're ready to level up your swing trading game, then smash the like button, and let's dive in."
+
+[VISUEL: Fond bleu avec un graphique de bloc-notes. "Chapter 1A_VERIFIER" et "Top 3A_VERIFIER Chart Patterns for Swing Trading" sont écrits dessus.]
+"Okay, let's start with the swing trading chart patterns now, shall we?"
+
+[VISUEL: Femme parlant. Plusieurs commentaires YouTube sont superposés à l'écran, exprimant du scepticisme quant aux motifs graphiques dans le day trading.]
+"This is a highly debated topic, at least in day trading."
+
+[VISUEL: Femme parlant. Une "Chart Patterns Cheat Sheet" avec de nombreux motifs de renversement et de continuation est affichée, puis un autre graphique similaire.]
+"You guys know me, I'm often quite skeptical about all these charts patterns you see on the internet that day traders memorize."
+
+[VISUEL: Femme parlant.]
+"When they are used in intraday in day trading."
+
+[VISUEL: Femme parlant. Des vignettes de ses précédentes vidéos YouTube sur le swing trading apparaissent. Ensuite, deux graphiques sont affichés : "Long term downtrend break" et "Daily consolidation".]
+"But like I mentioned before in my various swing trading video lessons, when it comes to swing trading, I actually have seen a lot of examples of these candlestick charts patterns working out on the daily chart."
+
+[VISUEL: Femme parlant.]
+"For the large cap stocks, and again, on the higher time frames."
+
+[VISUEL: Femme parlant. Le texte "Nothing in trading is ever guaranteed" apparaît.]
+"But again, I'm not saying they're going to work 100% of the time, because nothing in trading is ever guaranteed."
+
+[VISUEL: Femme parlant. Le mot "Repeat" avec une flèche circulaire apparaît et se répète.]
+"But I have seen these daily charts patterns for swing trading repeat and work out again and again in the past."
+
+[VISUEL: Un montage de la femme tradant sur plusieurs moniteurs, regardant par la fenêtre et travaillant à son bureau. L'éclairage passe du soir au jour.]
+"Since you are swing trading and holding on to these positions for a longer period of time, the charts are a bit more forgiving. And you have more time to let the trade work out."
+
+[VISUEL: Femme parlant. Une vignette de sa précédente vidéo "SWING TRADING COMPLETE GUIDE" apparaît.]
+"In my previous masterclass on swing trading, I went over the three basic swing trading charts patterns. If you haven't seen that video, make sure to check it out after this one."
+
+[VISUEL: Femme parlant, levant trois doigts.]
+"But here's a quick review. The three fundamental charts patterns you need to know for swing trading are:"
+
+[VISUEL: Femme parlant. Une bannière jaune "Review of Fundamental Chart Patterns" apparaît. Trois motifs graphiques sont affichés avec des icônes de crayon : "Breakout" (triangle ascendant), "Breakdown" (canal descendant), "Consolidation" (canal latéral).]
+"the breakout chart pattern, the breakdown pattern, and consolidation charts pattern."
+
+[VISUEL: Femme parlant. Du texte rouge "More patterns again?!" et "Chart patterns again?!" clignote et remplit l'écran, indiquant la frustration.]
+"But okay, now you must be wondering, 'Shay, then why are you sharing even more charts patterns for us to learn today for swing trading?'"
+
+[VISUEL: Femme parlant. L'écran glitch brièvement. Elle fait un geste de "m'appeler".]
+"Okay, here's the thing. There is no strategy and no chart patterns that are guaranteed to work in all the market conditions. If you've found one though, then call me."
+
+[VISUEL: Femme parlant. Le texte "*Gap Ups that hold" apparaît. Ensuite, des titres de journaux sur les tarifs de Trump et les augmentations d'impôts sont affichés.]
+"Unfortunately, gap ups that hold and multi-day breakouts have been really scarce. I have barely found any good breakout swing trades since the last two months."
+
+[VISUEL: Femme parlant.]
+"And this is to be expected. That's why I've turned to scanning for charts patterns that work best in a bear market, or just a downtrending market in general."
+
+[VISUEL: Femme parlant. Ensuite, trois motifs graphiques (wedge, downtrend break, oversold) sont affichés sur du papier déchiré.]
+"Let me share that with you right now."
+
+[VISUEL: Fond bleu avec un graphique de bloc-notes. "Pattern 1A_VERIFIER" et "Wedge Breakout" sont écrits. Un motif de wedge breakout est dessiné sur le bloc-notes.]
+"Pattern number one, the wedge breakout."
+
+[VISUEL: Graphique TradingView pour "AU" (AngloGold Ashanti PLC) sur un horizon temporel de 1D. La femme pointe le graphique.]
+"So you can see on this example over here, AU, this is a gold stock."
+
+[VISUEL: Graphique TradingView zoomé pour AU. Un gap up est mis en évidence. Une ligne horizontale orange indique un "Resistance Level" à 33.52A_VERIFIER. La femme pointe le graphique.]
+"You can see the breakout here, the stock had gapped up over the 33.52's resistance here."
+
+[VISUEL: Graphique AU zoomé. Une ligne de tendance baissière rouge est tracée, montrant trois retests. Ensuite, un motif en coin est dessiné, se resserrant. Le cours de l'action reprend l'EMA 8A_VERIFIER et sort. Le texte "Wedge Breakout" apparaît.]
+"But before there, you see like a downtrend that's been retested. Once, twice, three times. That downtrend over here, once the stock breaks out through that little wedge here, you can see the wedge squeezed, squeeze, squeeze tighter, and the stock finally reclaims over 8 EMA and breaks out. Yes, it is still technically a form of breakout chart."
+
+[VISUEL: Graphique AU zoomé. Le wedge breakout est mis en évidence par une flèche jaune. Des coches apparaissent sur les bougies de breakout. Le texte "1A_VERIFIER to 3A_VERIFIER weeks of downtrend" apparaît.]
+"But you want to make sure that there's at least a retest of one to three weeks of downtrend, like the one over here on AU."
+
+[VISUEL: Graphique AU zoomé. Le texte "BREAKOUT: The stocks that breaks through a resistance." apparaît. Un cercle rouge met en évidence le breakout de résistance. Ensuite, le wedge breakout est mis en évidence par une coche verte, montrant qu'il a cassé la tendance baissière et la résistance.]
+"Again, a breakout is when a stock breaks through a resistance, which you can see here around the 3350s, but for a wedge breakout, it needs to break the downtrend and break out above that resistance."
+
+[VISUEL: Femme parlant. Un graphique de bloc-notes avec le motif de wedge breakout est affiché. Le texte "Triangle Breakout", "Rising Wedge", "Downtrend Break" apparaît.]
+"There's many names for this chart pattern number one. Many people call this the triangle breakout, the rising wedge, or just a very simple downtrend break."
+
+[VISUEL: Graphique TradingView pour "ERJ" (Embraer S.A.) sur un horizon temporel de 1D. La femme pointe le graphique. La SMA 200A_VERIFIER (bleue) et l'EMA 8A_VERIFIER (orange) sont mises en évidence. Le texte "*2A_VERIFIER Key Indicators for Swing Trading" apparaît.]
+"Another really clear example here is ERJ. This is an energy stock, I believe. You can see over here on the daily chart, we have the 200 SMA, the 8 EMA. Again, these are the two indicators I use for swing trading on my daily chart."
+
+[VISUEL: Graphique ERJ zoomé. Un motif en coin est dessiné. Le cours de l'action franchit la tendance baissière et l'EMA 8A_VERIFIER. Les textes "Wedge Breakout" et "Breakout" apparaissent. Un autre motif en coin similaire est affiché en dessous.]
+"So you can see another wedge pattern forming here, a stock broke out, and then you have this triangle pattern here over here as you can see, and once the stock retests that downtrend and breaks out, then boom, you break out above to new, um, I think it's 52-week highs. And same thing down here as well from maybe like last month, uh, you know, like a rising wedge over here, triangle, downtrend breakout. Once the stock reclaims over that 8 EMA, breaks out above that downtrend, then you have a nice breakout pattern."
+
+[VISUEL: Femme parlant. L'écran se divise. À gauche, le motif de wedge breakout. À droite, un motif générique de "Breakout" (le prix franchissant une résistance horizontale). Le texte "CONSOLIDATION: A phase where an asset's price moves within a narrow range without a clear trend. Consolidation usually occurs right before a big upward or downward movement" apparaît. Le graphique ERJ est à nouveau affiché, mettant en évidence les périodes de consolidation.]
+"Again, the big difference between this wedge breakout pattern versus just a generic daily resistance breakout is that the wedge pattern often has, like you can see on the charts here, a couple days of consolidation. A lot of these breakout, if you have the time to consolidate, often times the success rate is drastically higher versus like a one-day resistance breakout like this one."
+
+[VISUEL: Femme parlant. Un graphique de note autocollante avec "Pattern #1A_VERIFIER", "ENTRY", "EXIT", "STOP" apparaît.]
+"Okay, let's talk about the entries, exits, and stops for this chart pattern number one, the wedge breakout."
+
+[VISUEL: Graphique TradingView pour "SMCI" (Super Micro Computer, Inc.) sur un horizon temporel de 1D. Un motif en coin est dessiné. Le cours de l'action sort avec une grande bougie. La femme pointe la bougie étendue, puis une bougie plus petite et consolidée.]
+"So with these kind of breakout patterns, even though it's clear in hindsight, if the candle is too extended, like this one, I actually don't like to get in on this kind of candles. I think that's a little bit of a chase, and the risk reward is not that good."
+
+[VISUEL: Graphique TradingView pour "ERJ" (Embraer S.A.) sur un horizon temporel de 1D. La femme recherche "ERJ". Elle pointe une période de consolidation sur le graphique. Le texte "8A_VERIFIER EMA" est mis en évidence.]
+"I prefer what we saw earlier with um ERJ. This here. What we saw earlier, I prefer these kind of consolidation candle."
+
+[VISUEL: Graphique ERJ zoomé. Le cours de l'action suit l'EMA 8A_VERIFIER, formant un coin. La tendance baissière est mise en évidence, montrant qu'elle doit être testée pendant au moins deux jours à une semaine. Un point d'entrée potentiel est marqué par une ligne verte et une flèche, et un stop loss par une ligne rouge. La femme pointe ces éléments.]
+"You can see the stock is riding along that 8 EMA once again, forming that wedge pattern here. And once we have a candle, one, candle one or two that have broken out above that daily downtrend, remember that downtrend must have been retested for at least a couple of days to a week. And once we have an actual candle that broke out, riding above the 8 EMA and above that daily downtrend, and you know, above that downtrend wedge breakout, then this is the kind of candle I like to get in for a swing trade."
+
+[VISUEL: Femme parlant. Une capture d'écran de "the weekend watchlist by humbled trader" apparaît, montrant un résumé du marché et des niveaux techniques. Elle pointe un lien en dessous.]
+"I share a lot of these swing trading and day trading charts patterns and ideas in my free weekend watchlist. If you're interested in checking that out, you can sign up for free down below."
+
+[VISUEL: Fond bleu avec un graphique de bloc-notes. "Pattern 2A_VERIFIER" et "Long Term Downtrend Break" sont écrits. Un motif graphique montrant une tendance baissière à long terme se brisant à la hausse est dessiné.]
+"The next chart pattern we'll talk about is the long-term downtrend break chart pattern."
+
+[VISUEL: Femme parlant.]
+"Okay, it sounds really similar to the previous wedge pattern, but it's not. Hear me out."
+
+[VISUEL: Graphique TradingView pour "INTC" (Intel Corporation) sur un horizon temporel de 1D. La femme pointe le graphique. Une longue période de tendance baissière est mise en évidence en jaune. La SMA 200A_VERIFIER est visible.]
+"Let me show you a couple of examples here. The first one is INTC Intel. You can see this stock, when I say long-term downtrend, I mean, this stock has been in a downtrend since the beginning of uh 2024."
+
+[VISUEL: Graphique INTC zoomé. Le cours de l'action chute en dessous de la SMA 200A_VERIFIER. Le texte "Breakdown below 200A_VERIFIER SMA" apparaît. Le cours de l'action continue de se négocier en dessous de la SMA 200A_VERIFIER, avec un énorme gap baissier et une forte vente.]
+"You can see the stock over here trending below, breaking down that 200 SMA, and then traded for a while, broke out, never retested or reclaimed that, and then just a huge gap down and sell off again."
+
+[VISUEL: Graphique INTC zoomé. Une ligne rouge indique la "Long Term Downtrend". Le texte "Small Caps below 800M market cap are not suitable" apparaît avec une croix rouge.]
+"So for these long-term downtrend breakout charts, you're looking for specifically the large cap stocks. This would not work on small caps below the 800 million market cap. Just don't, because those are dilutive, those are not the kind of swing trading candidates to look at."
+
+[VISUEL: Graphique INTC zoomé. La SMA 200A_VERIFIER et l'EMA 8A_VERIFIER sont mises en évidence. Le cours de l'action reprend l'EMA 8A_VERIFIER et tente de franchir la SMA 200A_VERIFIER. Il recule et tente à nouveau.]
+"So you're looking for these stocks that are trading below the 200 SMA, and now it's starting to ride above the 8 EMA. You can see that even though Intel was still below the 200 SMA for a while, it's starting to reclaim over that. You have a retest of breakout above the 200 SMA, pull back, and now you are attempting that again."
+
+[VISUEL: Graphique INTC zoomé. La femme pointe le graphique, indiquant un renversement potentiel. Ensuite, un reportage de Yahoo Finance sur le nouveau PDG d'Intel apparaît.]
+"So this is the kind of wave or kind of reverse of a trend that I'm trying to catch with this specific chart pattern. It would be even better if there's a catalyst for that. In which for Intel, it did. So, I believe it's, I forgot it's this day or that day, they announced that a new CEO, who's very experienced in the semiconductor industry, is taking over."
+
+[VISUEL: Graphique INTC zoomé. La femme pointe le graphique, expliquant l'impact positif du changement de PDG. Une flèche verte vers le haut indique des objectifs de prix potentiels à 28A_VERIFIER $ et 30A_VERIFIER $.]
+"And for a company like Intel that's been trending downtrend for years and really, really beaten up, this is something transformative that can be really positive and transformative for the company. So that's why for the stock, with that catalyst in mind, if it's able to break through that 200 SMA, reclaim that 8 EMA breakout and break through that 200 SMA, we can see a huge reversal of that long-term downtrend, and we want to see a breakout to the upside. Um, from here, $24, potentially to that, you know, $28 and $30 or above."
+
+[VISUEL: Graphique TradingView pour "CRSR" (Corsair Gaming, Inc.) sur un horizon temporel de 1D. La femme pointe le graphique. Une ligne rouge indique une "Long Term Downtrend". Le cours de l'action est en dessous de la SMA 200A_VERIFIER. Le texte "Below 200A_VERIFIER SMA" apparaît. Le cours de l'action reprend l'EMA 8A_VERIFIER, puis la SMA 200A_VERIFIER, et remonte fortement. Un cadre vert met en évidence la remontée.]
+"Let me show you another example here with um CRSR Corsair. So you can see, another example of a long-term downtrending stock. The stock has been below that 200 SMA since late 2023. It's just been a downtrend. And over here, only at the beginning of uh 2025, then it's reclaiming that 8 EMA. Again, it needs to reclaim that and then trending up above towards that 200 SMA. You can see a nice 200 SMA breakout, and the stock rallied up higher from um this one around like 850 to $12. So this is the kind of long-term downtrend break chart that I'm looking for."
+
+[VISUEL: Femme parlant. Un graphique de note autocollante avec "Pattern #2A_VERIFIER", "ENTRY", "EXIT", "STOP" apparaît.]
+"In terms of the executions, entries, exits, and stop out is very similar to the previous pattern number one, the wedge breakout. So again, you're still looking for that long-term downtrend to break around here to get in. Again, I wanted to already be trending up towards the 200 SMA, or even over that 200 SMA, just like what we saw for Intel. So for this example, I will get in right over that 200 SMA and 8 EMA cross, also synchronized with the downtrend break, right along that 8 EMA again for that breakout move. And then for this one, the stocks I'll put below the 200 SMA."
+
+[VISUEL: Femme parlant. L'écran se divise. À gauche, le motif de "Long Term Downtrend Break" avec un pouce bleu vers le haut. À droite, le motif de "Wedge Breakout" avec un pouce bleu vers le haut.]
+"I actually like this particular chart pattern more than the first one, the wedge breakout chart pattern."
+
+[VISUEL: Femme parlant. Le graphique CRSR est à nouveau affiché, mettant en évidence la consolidation lente et régulière et le breakout. Elle le compare à un breakout rapide où l'entrée est manquée.]
+"Because the good thing with this particular chart pattern versus the previous is that a lot of times the breakout and consolidation is often slow and steady. Like you're not seeing like a giant breakout candle like this one all the way here. So it gives you a little bit of time to build your position and to ride that wave slow and steady up. Versus what you saw earlier with the wedge breakout pattern, a lot of times the first day of the breakout, that's it, the stock shoots up, and you miss your entry."
+
+[VISUEL: Femme parlant.]
+"Okay, let's talk about the next chart pattern for swing trading. But before we do so, here's a quick word from our sponsor for this video."
+
+[VISUEL: Femme parlant, l'air fatigué.]
+"Ugh. The last couple of weeks have been tough for the market."
+
+[VISUEL: Titres de journaux sur les tarifs de Trump, les guerres commerciales et la récession. Une carte thermique Finviz montre une vente massive du marché (principalement des carrés rouges). Le texte "*Not friendly to the Market" apparaît.]
+"All these talks about trade wars, recession, and potentially more inflation, these issues are not friendly to the market."
+
+[VISUEL: Femme parlant. Un montage en noir et blanc, légèrement flou, d'elle regardant ses moniteurs, l'air pensive et préoccupée.]
+"And as a trader who's predominantly long biased, I'm not gonna lie. There were many days when I was just sitting here on my hands and watching this bloodbath in the market."
+
+[VISUEL: Femme parlant. Le texte "Inverse ETFs" avec des effets scintillants et une flèche pointant vers lui.]
+"One solution that has been helping me in this market is the use of inverse ETFs."
+
+[VISUEL: Femme parlant. Fond rouge. Le texte "Inverse ETF is an exchange-traded fund (ETP) constructed by using various derivatives to profit from a decline in the value of an underlying benchmark. Investing in inverse ETFs is similar to holding various short positions, which involve borrowing securities and selling them with the hope of repurchasing them at a lower price. Source: Investopedia.com" est affiché. Un graphique montre "Index -1x" et "2x Inverse ETFs 2x" avec un taureau doré.]
+"Inverse ETFs, also known as bear ETFs, are instruments that profit from a decline in the value of an underlying asset."
+
+[VISUEL: Femme parlant. Le texte "*Inverse ETFs typically must only used in the short term or on a daily basis." apparaît.]
+"And typically, must only be used in the short term or on a daily basis."
+
+[VISUEL: Femme parlant. Une carte thermique Finviz (3A_VERIFIER avril 2025A_VERIFIER) montre une vente massive du marché. Elle gesticule.]
+"For example, on a major sell-off day like this one, instead of short selling the S&P 500 or individual stocks, and incur the use of margin and its potential risks,"
+
+[VISUEL: Femme parlant. Un graphique pour "SPXD Daily Breakout" est affiché avec une flèche rouge vers le haut. Elle sourit.]
+"I can go long on SPXD instead."
+
+[VISUEL: Graphique TradingView divisé. Gauche : Indice S&P 500A_VERIFIER (SPX) montrant une tendance baissière en dessous de la SMA 200A_VERIFIER, mise en évidence en rouge. Droite : "BETAPRO S&P 500A_VERIFIER® -2X DAILY BEAR ETF" (SPXD) montrant une tendance haussière au-dessus de la SMA 200A_VERIFIER, mise en évidence en vert.]
+"As you can see here on this chart, SPXD is the inverse exposure to the S&P 500 index fund. So when the index is breaking down below that 200 SMA and selling off drastically,"
+
+[VISUEL: Le même graphique divisé. Le graphique SPXD montre un breakout au-dessus de la SMA 200A_VERIFIER et une forte tendance haussière. Les textes "S&P500 Index" et "SPXD" sont étiquetés, montrant des mouvements inverses.]
+"the SPXD chart on the other hand, is breaking out of that 200 SMA and forming a nice uptrend and breaking out daily, mirroring the inverse of the S&P 500."
+
+[VISUEL: Femme parlant. Le texte "SPXD BETAPRO S&P 500A_VERIFIER® -2X DAILY BEAR ETF" est affiché. Une capture d'écran du site web de BetaPro montre "Target Level Exposure Without Margin" et explique la fonction de SPXD. Un graphique illustre "S&P500 -2A_VERIFIER%" et "SPXD +4A_VERIFIER%".]
+"The BetaPro S&P 500 -2X Daily Bear ETF provides double the inverse exposure to the daily performance of the S&P 500 index. This is a tool to potentially profit from the declines in the US large-cap stocks."
+
+[VISUEL: Le graphique "S&P500 -2A_VERIFIER%" et "SPXD +4A_VERIFIER%" est à nouveau affiché. La femme explique la relation inverse.]
+"So when the market is down 2%, SPXD should be up 4% on the day. It's a good option for traders who are mostly long biased, like myself, by mirroring the inverse movements of the index."
+
+[VISUEL: Femme parlant. Le texte "SPXD BETAPRO S&P 500A_VERIFIER® -2X DAILY BEAR ETF" est affiché. Une boîte de texte avec un avertissement sur les risques des ETF à effet de levier est affichée. Elle conseille la prudence.]
+"Investors may also consider these bear ETFs to potentially hedge against market downturns. It's important to note that some experts advise caution due to factors like potential underperformance over a long period of time."
+
+[VISUEL: Femme parlant. Un graphique montre "Index 1x" et "2x Inverse ETFs -2x", illustrant des rendements et des pertes amplifiés.]
+"Leveraged ETFs can amplify index returns, enhancing daily gains, but also magnifying daily losses in downturns, and can incur rapid daily losses if trends reverse."
+
+[VISUEL: Femme parlant. Le texte "Conduct Research", "Assess Risk Tolerance", "Consult with Professionals" apparaît avec des icônes de crayon.]
+"So make sure you do your own research, assess your risk tolerance, and consult with professionals before using them in your strategy."
+
+[VISUEL: Femme parlant. Une capture d'écran du site web de BetaPro montre une liste de leurs ETF. Elle pointe le lien en dessous.]
+"You can check out the full list of BetaPro ETFs, as well as the indices, commodities, and sectors they cover in the link down below. Now back to the video."
+
+[VISUEL: Fond bleu avec un graphique de bloc-notes. "Pattern 3A_VERIFIER" et "Oversold Chart Pattern" sont écrits. Un motif graphique montrant une forme de "W" après une forte baisse, indiquant un renversement, est dessiné.]
+"Pattern number three, the oversold chart pattern."
+
+[VISUEL: Femme parlant.]
+"This is the one in which I'm looking for potential reversals."
+
+[VISUEL: Femme parlant. Un graphique montre une forte baisse en dessous de la SMA 200A_VERIFIER, suivie d'un rebond. Un cercle vert met en évidence le rebond. Elle explique que c'est plus difficile à trouver mais que le rapport risque-récompense est bon.]
+"I would say out of the three chart patterns that you're learning today, this one is a little bit harder to find, but the risk reward is really good when you do find them."
+
+[VISUEL: Femme parlant. Un graphique de bloc-notes avec le motif "Oversold Chart Pattern" est affiché. Un graphique montre une action subissant une pression de vente drastique à court terme, chutant significativement en dessous de la SMA 200A_VERIFIER.]
+"Essentially, for this chart pattern number three, the reversal chart pattern or oversold chart pattern, I'm looking for stocks that have experienced short-term selling pressure that's really drastic, and big drops below the 200 SMA for the last couple of weeks or month."
+
+[VISUEL: Graphique zoomé montrant une action chutant en dessous de la SMA 200A_VERIFIER. Une flèche verte pointe vers un petit rebond. La femme explique qu'elle recherche des signes d'un éventuel rebond.]
+"And I'm looking for signs that this stock is due for an eventual bounce."
+
+[VISUEL: Femme parlant. Elle souligne l'importance de comprendre le catalyseur de la vente.]
+"But the key here is that you must really understand the catalyst that caused the company stock to sell off so drastically below the 200 SMA. And the catalyst must be something that the company or the stock can recover from, and that is short-term, not permanent."
+
+[VISUEL: Graphique TradingView pour "CAVA" (Cava Group, Inc.) sur un horizon temporel de 1D. La femme pointe le graphique, montrant une forte tendance haussière en 2024A_VERIFIER, puis une forte baisse récente.]
+"Okay, let me explain further with some examples here. So you can see this stock, CAVA. You can see that this stock was on a tear for the entire 2024. It went from like 33 all the way to $160."
+
+[VISUEL: Graphique CAVA zoomé. Une ligne horizontale rouge indique une résistance précédente. Le cours de l'action passe en dessous de la SMA 200A_VERIFIER et de l'EMA 8A_VERIFIER, continuant de chuter. Il se stabilise autour de 80A_VERIFIER $.]
+"But recently, in February, the stock had a huge sell-off from 130 all the way down, cracking that 200 SMA, and below to 110, below 100, and now it's settling in at around $80."
+
+[VISUEL: Femme parlant. Un article de presse sur les résultats du T4 de Cava est affiché, indiquant qu'il a "couronné une 'année stellaire'" mais que les prévisions de bénéfices étaient "légèrement timides".]
+"And another reason is that the stocks, the the earnings report from um for Q4 that was reported at the end of February, just wasn't that impressive."
+
+[VISUEL: Graphique CAVA zoomé. Une ligne horizontale rouge marque la rupture de la SMA 200A_VERIFIER. Le cours de l'action chute drastiquement, rebondissant à peine. Une autre ligne rouge indique un niveau de support.]
+"So this is the kind of chart I like. Remember, 200 SMA breakdown here. The stock has sold off drastically. You can see this thing from 112 all the way down to $80. It barely even bounced until recently. Now, what I'm looking for is when the stock was selling off, you can see it's selling off, trending below the 8 EMA."
+
+[VISUEL: Graphique CAVA zoomé. Le cours de l'action reprend l'EMA 8A_VERIFIER et commence à se consolider. Un cadre jaune met en évidence la reprise. La femme explique qu'elle recherche ce signal.]
+"I'm looking for the stock to reclaim over that 8 EMA once again, the momentum indicator I love using, and start consolidating. So you can see, it's starting to break out here on Wednesday, March 19th, reclaiming over that 8 EMA. And this is the signal I'm looking for."
+
+[VISUEL: Graphique CAVA zoomé. Une ligne horizontale verte marque le "Potential Entry" à la reprise de l'EMA 8A_VERIFIER. Une ligne horizontale rouge marque le niveau de "Risk" en dessous. La femme explique les niveaux de risque conservateurs et agressifs.]
+"So with this, you know, once it starts reclaiming, where I want to get in is a reclaim of 8 EMA, and I will be risking below that. So, you know, if you're conservative, I would risk all the way at $75, but I understand not everyone's comfortable with that. If you want to use tighter risk, then I'll risk just below, you know, give it some room, like maybe a dollar below the 8 EMA."
+
+[VISUEL: Graphique CAVA zoomé. La femme explique qu'elle recherche un rebond technique vers la SMA 200A_VERIFIER après une forte baisse.]
+"And big picture wise, you're looking for a reversal, right? Because we talked about the sell-off is so drastic here, you're looking for a technical bounce towards that 200 SMA."
+
+[VISUEL: Graphique CAVA zoomé. La femme pointe des objectifs de prix potentiels à 97A_VERIFIER $ et 100A_VERIFIER $, qui sont des niveaux de résistance journaliers.]
+"But with this one, you know, you definitely want to be cognizant of the recent resistance. So for this one, the first target I'll look at around $97, eventually around hundreds over here. Those are the daily resistance for CAVA."
+
+[VISUEL: Graphique TradingView pour "ACN" (Accenture plc) sur un horizon temporel de 1D. La femme pointe le graphique, montrant une forte baisse, passant en dessous de la SMA 200A_VERIFIER. Le texte "200A_VERIFIER SMA Breakdown" apparaît.]
+"So another example here, ACN. You can see the stock really sold off drastically from 380 down to 340. Um, you had another gap down here with um earnings catalyst. Now it's great. All the way down to $300."
+
+[VISUEL: Graphique ACN zoomé. Le cours de l'action n'a pas encore repris l'EMA 8A_VERIFIER. La femme explique qu'il n'est pas encore prêt pour une entrée.]
+"Now for this one, it's not ready yet. You can see the stock has not reclaimed or caught up to the 8 EMA just yet."
+
+[VISUEL: Graphique ACN zoomé. La femme explique que trouver une configuration potentielle ne signifie pas qu'elle est immédiatement exploitable. Elle sauvegarderait le ticker et le surveillerait quotidiennement pour une reprise de l'EMA 8A_VERIFIER.]
+"But again, like I often talk about for all the swing trades, almost all of them, a lot of times after you scan the stock, it doesn't means it's actionable the day you find the potential. So for this chart setup, I will save this ticker in my watchlist and just look at it every single day near close. And I'll see whether the stock is reclaiming that 8 EMA and whether it's setting up for my entry. Remember, you're not in the business of trying to like pick the bottoms and then like, you know, catch a falling knife. Who knows, this stock 305 can keep falling as well."
+
+[VISUEL: Deux graphiques sont affichés côte à côte : "ADBE" (Adobe Inc.) et "CRWD" (CrowdStrike Holdings Inc.). Les deux montrent de fortes baisses en dessous de la SMA 200A_VERIFIER, suivies d'une reprise de l'EMA 8A_VERIFIER et d'un rebond. Des flèches rouges indiquent la rupture de la SMA 200A_VERIFIER, et des cercles verts mettent en évidence la reprise/le rebond. Le texte "Pause for Screenshot" apparaît.]
+"Here are some more examples of this chart pattern. You can pause it on screen for a closer look of Adobe and CrowdStrike. And before we move on,"
+
+[VISUEL: Femme parlant. Un graphique de bouton d'abonnement YouTube apparaît. Elle encourage les spectateurs à aimer et à s'abonner.]
+"If you're enjoying this comprehensive swing trading video lesson so far, and you want to see more, please remember to hit the like button down below. So more people who are interested in swing trading will see this video. And I really appreciate it."
+
+[VISUEL: Fond bleu avec "3A_VERIFIER Chart Patterns". Les trois motifs graphiques (Wedge Breakout, Long Term Downtrend Break, Oversold Chart Pattern) sont affichés.]
+"With the three swing trading chart patterns that you learned today, there are a lot of similarities."
+
+[VISUEL: Femme parlant. Le texte "Entry", "Exit", "Take Profit" apparaît avec des icônes de diamant orange.]
+"But remember, trading is very nuanced, and so is pattern recognition and your entries, exits, and take profit."
+
+[VISUEL: Femme parlant. Un graphique montrant un simple "Breakout" au-dessus d'une résistance horizontale est affiché. Elle explique que ce type de breakout est risqué dans un marché difficile.]
+"Not all the breakout patterns are created equal. In a bull market, maybe, but in a tougher market environment that we've seen lately, this kind of breakout is very risky."
+
+[VISUEL: Femme parlant. Les trois motifs graphiques (Wedge Breakout, Long Term Downtrend Break, Oversold Chart Pattern) sont à nouveau affichés, avec des icônes de pouce bleu sur les deux premiers. Elle souligne les nuances qui déterminent le succès.]
+"While this kind of wedge consolidation and downtrend break has a much better risk reward and win rate. It's these nuances that can determine the success rate of these chart patterns for swing trading."
+
+[VISUEL: Femme parlant. Fond bleu avec un graphique de bloc-notes. "Chapter 2A_VERIFIER" et "How to Scan for Swing Chart Patterns" sont écrits.]
+"Okay, now in the next section, we're gonna cover how to find these profitable chart patterns to swing trade, all for free."
+
+[VISUEL: Capture d'écran de la page d'accueil de Finviz.com. La femme pointe l'onglet "Screener".]
+"So the first step is just to go to finviz.com and go to the screener section over here."
+
+[VISUEL: Capture d'écran de la page du screener de Finviz.com. La femme explique que la version gratuite est bonne pour le swing trading mais pas pour le day trading en raison des données retardées. Elle mentionne l'utiliser le week-end.]
+"This screener, the free version, it's perfect for scanning for swing trading charts. Since the market data is delayed by 15 minutes, it's not good for day trading. I wouldn't recommend using delayed data for day trading. But for swing trading, that's perfectly fine. I use this all the time on the weekends."
+
+[VISUEL: Capture d'écran du screener de Finviz.com. La femme pointe le filtre "Market Cap". Un graphique de note autocollante avec "Scanner Criteria" et "Market Cap > 2B" apparaît.]
+"So, let's talk about the criteria I'll use. And this is a very simple criteria. You can use the same settings for any scanner you use, whether it's a free version or paid. So market cap, I always scan for stocks that are above 2 billion."
+
+[VISUEL: Capture d'écran du screener de Finviz.com. La femme sélectionne "Mid (over $2bln)" pour la capitalisation boursière. Ensuite, elle sélectionne "Over $1A_VERIFIER" pour le prix. La note autocollante est mise à jour avec "Price > $1A_VERIFIER".]
+"You know, I do not like to swing trade small cap stocks. Price definitely over a dollar per share."
+
+[VISUEL: Capture d'écran du screener de Finviz.com. Le nombre de résultats est de 96A_VERIFIER pages, ce qui est trop.]
+"And now you can see there's 96 pages of results, that's way too many."
+
+[VISUEL: Capture d'écran du screener de Finviz.com. La femme pointe "Average Volume". Elle sélectionne "Over 750K" pour le volume moyen. La note autocollante est mise à jour avec "Average Volume > 750K".]
+"Again, we need to narrow this down. So average volume, I'm looking for at least minimum 750,000 volume. For day trading, that wouldn't be enough, but for swing trading, that's totally fine. So, I'm looking at over 750K."
+
+[VISUEL: Capture d'écran du screener de Finviz.com. La femme pointe "Current Volume". Elle sélectionne "Over 1M" pour le volume actuel. La note autocollante est mise à jour avec "Current Volume > 1M". Ensuite, elle pointe "Relative Volume" et sélectionne "Over 2A_VERIFIER". La note autocollante est mise à jour avec "RVOL > 2A_VERIFIER". Elle explique ce qu'est le volume relatif.]
+"You can see that narrows down all the results drastically. Now, current volume, I'm looking for over a million on the day. And then the most important one is relative volume. Now, this is the one you can play with. I'm looking for relative volume of anywhere between 1.5, or I'll try 2, or sometimes when there's a lot going on, I'll try 3. So you can see, uh, I'll try any of this range. For now, let's try over 2. So remember, relative volume just shows you the current volume of the stock compared to the average over the last three months. So if you hover over relative volume here, it's a good indicator to use for momentum."
+
+[VISUEL: Capture d'écran du screener de Finviz.com. La femme explique qu'il y a encore beaucoup de résultats, elle pourrait donc essayer "Over 3A_VERIFIER" pour le volume relatif. Elle pointe ensuite les onglets au-dessus des résultats.]
+"So you can see that this is still a lot of results. So you can play around and even do over 3 if you would like. So, uh, and once we're here, I like to, you can see the tabs over here, there's overview, valuation."
+
+[VISUEL: Capture d'écran du screener de Finviz.com. La femme pointe l'onglet "Charts" et clique dessus. Il affiche une grille de graphiques journaliers pour les actions filtrées.]
+"Um, the really useful ones I like to use when I'm screening for swing trading charts is the charts one. You can see if I click it, it'll show me like a quick preview of all the results of the charts."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant des graphiques. La femme pointe l'onglet "TA" (Analyse Technique) et clique dessus. Il affiche un tableau avec divers indicateurs techniques comme le RSI, la SMA, le plus haut/bas sur 52A_VERIFIER semaines, etc.]
+"So you can use the charts, you can see it gives you like a really cool snapshot of the daily chart on the stock and some of the basic indicators. Um, but the one I actually use 200 SMA. Um, but the one I like more is TA. Essentially, it's technical analysis. If you click TA, it will also show you the RSI, some of the indicators on the side. It'll show you the daily SMA, you know, how much is like 10% off the below the daily SMA. It'll show you year to date, some of the relative volume, you know, 52-week high range."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant des graphiques et des données TA. La femme pointe la valeur du RSI (38.57A_VERIFIER), expliquant qu'un RSI bas (par exemple, en dessous de 40A_VERIFIER) indique une condition de survente. Le texte "RELATIVE STRENGTH INDEX: The relative strength index (RSI) is a momentum indicator used in technical analysis. Generally, an RSI reading of 70A_VERIFIER or above indicates an overbought condition. A reading of 30A_VERIFIER or below indicates an oversold condition." est affiché.]
+"So this is the one I like to use the the most when I'm screening for potential tickers. And this is how I found some of the tickers earlier for the three chart patterns that you learned today."
+
+[VISUEL: Femme parlant.]
+"So, let's take a look at these charts patterns one by one, and I'll tell you how I analyze them, and whether they fit the three patterns we learned earlier."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour ACN et ADM. La femme pointe ACN, le mettant en évidence comme un "Oversold Pattern" (Motif n°3A_VERIFIER).]
+"So ACN, you already saw, this is the oversold reversal pattern that we're looking at. You can see the indicators over here. Again, the one that we actually only use is the 200 SMA here."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour ADM et ADMA. La femme pointe ADM, l'identifiant comme une "Long Term Downtrend Break" (Motif n°2A_VERIFIER) mais note qu'il ne montre aucun signe de renversement.]
+"ADM, this one is in a long-term downtrend. So, you know, this is also don't show any signs of reversal, so I wouldn't pick this one."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour ADMA. La femme pointe ADMA, l'identifiant comme un "Wedge Breakout" (Motif n°1A_VERIFIER). Elle met en évidence la rupture de la tendance baissière à long terme, le motif triangulaire et la reprise de l'EMA 8A_VERIFIER.]
+"This one, ADMA. You can see this one is considered, you know, also like a wedge breakout here. You can see the triangle breakout, downtrend break, and the stock is reclaiming over the 8 EMA. So this one would actually fit the pattern for pattern number one, the wedge breakout."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour ADT et AESI. La femme pointe ADT, le rejetant car il n'a pas de rupture claire de tendance baissière à long terme. Elle pointe ensuite AESI, l'identifiant comme un "Oversold Pattern" (Motif n°3A_VERIFIER).]
+"Um, ADT, you know, I don't see anything there. It's riding the uptrend, but I don't really see any, um, really obvious long-term downtrend break. This one, I think this one, AESI, you know, oil stock here. This one will actually fit the oversold chart pattern."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour AESI. La femme met en évidence le RSI (38.57A_VERIFIER), expliquant qu'un RSI bas indique une condition de survente. Le texte "RELATIVE STRENGTH INDEX: The relative strength index (RSI) is a momentum indicator used in technical analysis. Generally, an RSI reading of 70A_VERIFIER or above indicates an overbought condition. A reading of 30A_VERIFIER or below indicates an oversold condition." est affiché.]
+"If you take a look at it over here, the RSI is also below 40. It's relatively low. RSI stands for Relative Strength Index. It's when the number is low, usually around 20 or 30, it shows you that the stock is generally speaking oversold. But again, like obviously you need to put it up on the actual charts here and take a look at it."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour AESI. La femme pointe le graphique, montrant que l'action est en dessous de la SMA 200A_VERIFIER et a repris l'EMA 8A_VERIFIER. Elle l'identifie comme un bon candidat.]
+"So AESI, you can see, the stock is way below the 200 SMA. Um, looks like it's also earnings miss here. You can see the E sign here. You can see it's reclaiming over the orange line, which is the 8 EMA. So this one is also worth taking a look at."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour AIG. La femme pointe AIG, l'identifiant comme un "Resistance Breakout" mais déclare qu'elle ne le traderait pas en swing dans le marché actuel.]
+"You can see this one is what I would call a daily breakout chart that we learned from the previous um swing trading masterclass video. You can see a huge daily range resistance breakout, this line here around $79, and the stock is breaking above it. But in this market environment, this would not be the kind of chart pattern I will want to swing trade."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour ALK. La femme pointe ALK, une action de compagnie aérienne, et dit qu'elle l'éviterait en raison de la sensibilité du marché.]
+"ALK. This one's an airline stock. So I would personally stay away from tech, airlines, um all these really sensitive to current market environment."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour ALLY. La femme pointe ALLY, notant qu'il y a de nombreux résultats potentiels.]
+"So you can see there's actually a lot of potential results."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour ALV. La femme pointe ALV, une action en tendance baissière, et dit qu'elle ne l'aimerait pas.]
+"But let me just show you. This one, in a downtrend, I would not take a I would not like this one."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour AM. La femme pointe AM, une action pétrolière et gazière, l'identifiant comme un "Wedge Breakout" (Motif n°1A_VERIFIER) ou un breakout en coin ascendant.]
+"This one, oil and gas, it's been doing well. AM. You can see it's been uptrending. This one, you can see that it's kind of a triangle breakout over here. You can see that's a good thing with Finviz. It kind of shows you some basic technical analysis chart pattern. So this one is a rising wedge breakout as well."
+
+[VISUEL: Capture d'écran du screener de Finviz.com, affichant les graphiques pour AMKR. La femme pointe AMKR, déclarant que ce n'est pas une tendance baissière à long terme et qu'il faut l'éviter pour le swing trading.]
+"AMKR. Nothing here. This is not a long-term downtrend at all. In fact, this AMKR is the kind of charts you want to avoid. There's no breakout at all. It's not making higher lows. This one probably gonna continue fading lower."
+
+[VISUEL: Femme parlant. Elle résume comment elle a trouvé les motifs graphiques en utilisant le screener gratuit de Finviz et ses paramètres.]
+"So using this very simple scanner with all the free settings that you saw earlier, it's how I found some of the chart patterns that you saw earlier in the video."
+
+[VISUEL: Femme parlant. Un graphique de note autocollante avec "Scanner Criteria" et la liste des critères apparaît. Elle encourage les spectateurs à poser des questions dans les commentaires. Une vignette de sa vidéo "FULL GUIDE SWING TRADING" est affichée.]
+"Remember, with these criteria that you see on screen, you can pretty much use it for any scanner that you're using, free or paid. Or if you have questions regarding the charts analysis process we just did, analyzing the scan results one by one, then you can ask me in the comment section below. I'll do my best to answer them. I have even more swing trading resources below in the video description, more in-depth free masterclass, the brokers and charting platforms that I would recommend for swing trading. Everything is down below."
+
+[VISUEL: Fond bleu avec le logo "humbled trader". La femme pointe le côté droit de l'écran, indiquant une autre vidéo.]
+"Coming up next, in this video over here, I share my favorite swing trading strategies with you step by step, and I'll see you over there."

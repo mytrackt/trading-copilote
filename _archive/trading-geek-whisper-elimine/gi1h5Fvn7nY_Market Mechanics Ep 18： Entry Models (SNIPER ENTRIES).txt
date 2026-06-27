@@ -1,0 +1,485 @@
+one of the biggest reasons traders hesitate is because they do not have a clear entry model
+they see a setup forming but they're still second guessing themselves they're still
+doubting themselves they're still hesitating not sure whether they should actually enter for a trade
+or not was that the liquidity sweep was that the market shift is this actually the real entry or
+am i too early or am i too late and that is exactly what this lesson is going to solve
+all right so welcome to this lesson of the market mechanics mentorship series so far we have talked
+about order flow liquidity concepts supply and demand zones all of these good old market mechanics
+concepts but at the end of the day understanding the concepts is not enough you still need to know
+how to actually enter for the trade with confidence with conviction so in this lesson i'm gonna break
+down two of my main entry models which is the market shift entry model and the flip zone entry model
+because the goal is not to understand the market intellectually the goal is to know what you are
+waiting for when it is finally time to execute at the end of the day it's not about just understanding
+the theory it's about having a repeatable model for execution having something that you can look out for
+every single time before you enter for the trade so that you can get consistent results now before i
+break down these different entry models for you guys to see you must understand that these entry models
+they are not just random chart patterns that you have to memorize on the chart these entry models only
+make sense when they appear in the right context this means that you need to pair them with the right higher
+time frame buyers and they need to be located at the right point of interest and it needs to happen
+at the right session with the right liquidity conditions and the right story behind the setup
+the model itself is just the entry trigger it's just the entry confirmation it's just the pattern that
+you are looking out for before you enter for the trade but it is not the reason for the trade
+so you still need to make sure that you build a higher time frame bias you develop a daily bias
+you determine who's in control of price and then once price get to your point of interest then you
+look for this confirmation itself all right so yeah once again this is the set of time frames that you
+should be following based on your trading style if you're a swing trader this is a time frame you're
+going to be following day trader scalper all right so pick the trading style that you are specializing in
+and focus on that set of time frames so in this example right here on the left hand side what we
+have is the higher time frame or the medium time frame what we want to see on those time frame itself
+and then on the right hand side this is the patterns that we want to see happen on the lower time frame
+so once again these are the confirmation these are the confluences that we need before we press the
+buy and sell button all right so all this is is just the confirmation which means that we need to
+see this happen first then we can go down to the lower time frame to look for this
+now what is an entry model right like what's the definition of an entry model an entry model is a
+repeatable sequence of price action you wait for before entering for a trade so it should help you answer
+what needs to happen first what confirms the setup where the entry comes in and whether invalidation is
+which means if this happens then this trade idea is no longer valid
+so in this case itself what we have on right here right these are the two sort of like patterns that
+ideally you want to look out for all right so let's start with the first one right which is the flip entry
+model so but before i dive into the entry model itself let me just explain what we have over here
+so over here price went up pulls back goes up pulls back and then goes up and breaks structure
+so when this happens we know that the bars are in control of price and then this is where we can map
+this as a swing low and a swing high right so this is the swing range in which we want to focusing on
+and in a bar uptrend just like this we want to trade with the trend which means that we want to
+look for longs and ideally we want to look for longs at some form of demand zone right at some
+form of demand zone we have a new higher low to be formed and we want to capture that higher low and
+then we want to trade the continuation to the upside just like this so this is what we are trying to
+see okay so this is our trade bias our trade bias is telling us that all right we got price bullish
+right now i want to look for longs but i only want to look for longs once price comes down to this
+demand zone that led to this break of structure right here and ideally i also want to see some
+form of liquidity sweep right because like i said the market needs the fuel in order for it to drive
+price up significantly so we need that liquidity so once again if you look at the left hand side right
+here price went up pulls back and then goes up right so it created like this minor internal high
+low right here and below every swing low that is going to be liquidity there is going to be available
+liquidity so ideally we want to see price comes down mitigate its demand zone set that liquidity create
+a v-shaped reaction and then at this point in time right the minute price touches the zone this is the
+patterns that we want to see either one of these two patterns right here okay so let's delve deeper into
+each one so the first entry model is the flip entry model so if you guys have record how to map out
+your flip zone it's pretty much the same thing right here so you can see in the lower time frame if you
+zoom into this price action right here this leg right here what you will see is that lower time frame
+price have shifted bearish creating lower highs lower lows just to facilitate the pullback so in this
+case what we want to see in order for price to give us confirmation that it's going to continue to push
+to the upside is that we want to see signs that this pullback is over the internal structure has
+shifted from bearish to bullish which means that we need to have some form of market shift that's the
+prerequisite that's the non-negotiable for each one of this entry model itself and that is the market
+shift the market shift tells us that internal structure has shifted from bearish to bullish and the
+pullback is over and right now the continuation is going to happen so that's the market shift right
+so ideally we want to see the market shift happen in the market itself so in this entry model first
+thing first is price comes down mitigate the point of interest all right so the minute price mitigate
+the point of interest this is where you will jump down to the lower time frame okay which means that
+if price is in the middle of nowhere just like this you do not jump down to the lower time frame
+so if you're a day trader this is what you want to be seeing on either the four hour or the 15 minute time
+frame and then once price touches your 15 minute demand zone then you jump down to the five minute
+time frame to look for this particular pattern to look for this entry confluence entry confirmation
+entry model okay so this is very important right because a lot of you guys are jumping into the lower
+time frame prematurely right you should be only jumping down once price touches your demand zone that is on
+the 15 minute time frame if you are day trading okay so ideally i want to see price pull back to
+my medium time frame point of interest the 15 minute demand zone and when it does i jump down to the
+five minute to look for either one of this confirmation itself okay so let's go back to the entry model
+so this black box that you can see right here this is pretty much this medium time frame point of
+interest here so you can see the minute price mitigate it boom jump down five minute look for this
+pattern if the pattern appears in the market you enter the trip with confidence with conviction
+if the pattern does not appear then you stay out of the market as simple as that so the minute price
+mitigate this zone ideally the next thing i want to see is price create a market shift just to confirm
+to me that the structure is indeed shifting bullish right but in this case what is price going to use in
+order to create that market shift liquidity it needs that available liquidity so ideally we want to see
+that suit the low that was formed right here ideally we want to see them grab the liquidity that we have
+over here okay so that has to be swept and if that gets swept then now we got a fewer that price need to
+get the market shift to the upside to you know take back control of price from the sellers
+so in this case price mitigate the demand zone 15 minute demand zone and then it led to a market
+shift but before it led to a market shift it gave us a flip zone okay so remember what is flip zone a
+flip zone is pretty much a zone that caused the opposing zone to fail so in this case price went up
+react from this supply zone if this supply zone were to do its job price would just continue coming
+down take out the last low creating a new lower low lower high just continuing this bearish dynamic
+which means that there's a chance for price to just continue bearish and if price continue bearish
+and take out this low then we got a market shift and the entire trend has just reversed from bullish
+to bearish but if it doesn't if this low continue holding then there's still a chance that price will
+achieve bullish all right so that's what would happen if this supply zone were to do its job but it
+failed to do its job right because when price actually reacted from this supply zone it created a failed
+reaction right here which is just a fancy way of saying that you know there was insufficient sell
+orders in the market for price to continue going down as a result the demand has exceeded the supply
+the bars have overwhelmed the sellers and right now we are pushing to the upside leaving us a failed
+reaction which means that we can mark this entire thing right here as the flip zone so now what does this
+tell us this tell us this tell us that there were so many bars in the market that they pretty much
+kicked all the sellers out of the market how do we know that well we got a market shift right which
+tells us that there's a shift in structural shift in order flow shift in market sentiment and not only do
+we have a market shift we also have a flip zone we still ask that there's just insufficient sell orders
+for price to continue going down so we pretty much got all the conferences in the world that tell us that
+the buyers have took back control of price and now all we do is that we wait for price to pull
+back to the flip zone right here and then we make our entry we enter for our long position the mini
+price mitigate the flip zone and then we look to trade the move to the upside as simple as that
+okay as simple as that that's the flip entry model itself
+now the next entry model is the market shift entry model and this one is very classy it's pretty
+much my bread and bottle entry model you know it appears quite commonly in the market itself and
+it's quite reliable if you use it with the right context okay so here's a tip for this market shift
+entry model to work really really well you want to make sure that you wait for price to sweep as much
+liquidity as humanly possible all right so same thing right here when price mitigate this zone ideally
+we want to look towards the left to see whether you have swept any liquidity that we have created over
+here if it swept the liquidity then nice it got a fewer that you need to actually move to the upside
+all right so in this case price mitigate a 15 minute demand zone got the liquidity creating a v-shaped
+reaction telling us that the buyers has took back control of price buyers have you know gained regained
+control of the market and then right now we are potentially going to shift bullish all right so the
+minute we got this market shift right here what can potentially happen is that we are just going to
+be doing nothing until price pull back to the demand zone that created that market shift this is your
+lower time frame demand zone right so this second black box that you can see right here this is your
+five minute demand zone right so on the five minute time frame before you enter for the trade you want
+to make sure that you have met out a demand zone that created the market shift and then just wait for
+price to pull back react from this demand zone and then you look for entries to trade it to the upside
+as simple as that right so that is the market shift entry model now one thing you have to understand
+is that a lot of times this could potentially be a false breakout what i basically mean by that is that
+sometimes price can come down here mitigate this demand zone over here and then starts going up there
+and take out the last lower high okay so when this actually happened we actually got a market shift
+but instead of continue going up just like this as a result price continue going down taking out
+this low here when this happens what this is essentially telling us is that there was not
+enough buyers in the market to sustain this move to the upside in fact this move to the upside is just
+sort of like a manipulated move that was created by smart money by the big banks by the institutions
+for price to go up there grab the available liquidity that was above the lower high
+trigger all the stop losses of retail traders who entered for a short position or any other stop
+orders and then now they're going to use the liquidity for price to continue going down even further
+and perhaps even come down here grab the available liquidity below this swing low right here
+before causing price to reverse to the upside all right so this is a tip or whether this is more
+of like a warning that i want to give to you guys when you guys are using this entry model this is the
+situations that you will see sometimes sometimes there's just insufficient liquidity for price to move up
+just like this as a result you need to create more liquidity grab more liquidity before the real move can actually
+happen and if that's the case what you want to do is to wait for price to create that market shift entry
+model again right so in this case when price comes down pick out this low this is our internal break of
+structure and this is also where we can expect a liquidity sweep so the minute price create a v-shaped
+reaction just like this taking out the last strong lower high this is where you're going to market
+shift and same thing you just wait for price to pull back to this lower time frame demand
+zone and then look for your entry and trade it to the upside
+all right so those are the entry models itself
+one entry model is more centered around like the field reaction you know like pretty much the shift
+in sentiment the shift in order flow the other entry model is more centered around like the shift in
+structure okay so both of these entry models they are designed to stop you from entering
+too early and to help you wait for the market to reveal more information before you commit
+because these are the mistakes a lot of traders tend to make they see price touch the demand zone
+they enter for a buy they don't wait for liquidity sweep they don't wait for structure shift they don't
+wait for fair reaction they don't wait for any confirmation they just automatically assume that
+price is just going to magically go up just because they entered for the big not really big but like
+just because they entered for the buy position they think that they are smart money when in reality
+no that's not the case all right so once again i can't emphasize this enough but the context matters
+so much more than the entry confirmation itself a clean looking entry model it means nothing if it's
+forming in the wrong location in the wrong part of the range the premium discount range or against the higher
+time frame story a good model in a bad context is still a bad trade okay so it doesn't matter
+whether you have 10 000 different confluences right you got all the stars in the world lighting up for
+you to enter for this trade but if it's paired with the wrong context located at the wrong location
+taken at the within the wrong timing it's gonna fail all right so context matters as much as the entry
+model itself and bear in mind that these are just two of the many proven entry models that we actually
+teach inside my mentorship program one percent clock right so if you're interested to find more
+find out more of these entry models you know get more weapons in the arsenal you can check
+out my mentorship program link in the description with that being said let's go on to the chart
+and just try to apply these entry models right so first of all i'm gonna show you what the entry
+model looks like on the chart just so that you can like get used to seeing it because it's not as
+simple as you know these perfect diagrams all the time right sometimes it just doesn't look like this
+sometimes price can consolidate a little bit and then start shifting bullish and if that's the
+case if you don't understand what the pattern looks like on the chart you are just gonna get lost
+confused and you are just not gonna be able to spot it
+so in this case itself what do we have we got price comes down okay clear as day very bearish how do
+we know it's bearish because price is creating your lower highs and lower lows lower highs lower lows
+so in this case this is the swing high and this is the swing low so right now our expectation is that
+if price were to remain bearish what gonna happen next is that price gotta maybe come up to this
+supply zone the last supply zone at this last lower high right here react from it and just continue going
+down but in this example right here what we had was that price was actually pulling back
+okay you can see this right here the minute this candlestick was formed over here
+clear as day all right let me just show you guys right here right you can see the supply zone is doing
+its job price come up here to the 50 of this supply zone some sell other step into the market causing
+price to push to the downside all right so it is doing its job but whether it's gonna finish its job is
+another thing all right let's just continue to see remember if the sellers want to maintain control
+of price what needs to happen is that price need to continue coming downhill taking out this previous
+low previous week low creating a new strong lower high right here but if that doesn't happen then
+that's the first sign that tell us that the market is shifting bullish it's just the first sign it's
+not a it's not a definite sign all right so later on price went up it's totally coming up just like
+this you can see and we have this this is your failed reaction which tells us that you know what
+maybe bias has overpowered supply but we cannot confirm for sure yet all right so in this example
+you cannot assume that oh my god price is going up i'm just gonna enter for a buy right here
+why not right you got a reaction why not enter for a long position right here
+because you haven't gotten a confirmation that the structure is indeed shifting bullish
+you haven't gotten the market shift so what can still potentially happen is that price can pull
+back to the supply zone goes down create a failed reaction maybe it's just coming up here to sweep the
+liquidity above this high and just continue crashing down all right nothing is set in stone yet since
+price is still within this range it has not taken out this low it has not taken out this high has not
+taken out the strong high has not taken out the weak low nothing is set in stone yet so if price
+would continue going down take out this low then we know that it's bearish if price would continue
+going up take out this strong high then we know it's bullish all right so at this part of time you
+shouldn't be doing anything you should just be staying calm being very patient and just waiting to see
+what happens next right just observe the minute price come up there and create a candlestick just like this
+where it close above the last lower high this is where you pretty much got your confirmation that
+price is indeed shifting bullish because this is where we got a market shift okay the structure has
+essentially shifted from bearish to bullish now we can expect a new higher low to be formed somewhere
+around here and just continue going up and that's what we are trying to capture we are trying to
+capture this higher low so the minute this happens this is where you can draw two zones all right so let me
+just go back in time a little bit right here let me just erase those zones and do it with you guys
+so in this case this is the market shift and you always draw the zone from the extreme right so this
+is the extreme swing low and then this is like the new swing high so this is where you can draw the
+extreme demand zone which is this entire range right here if you are using the range method if you're
+using the pivot method you'll be this candlestick right here this pivot reversal candlestick right here
+this is your extreme demand zone so going back to the entry model if we were to enter at the extreme
+demand zone which entry model is it well it's going to be the market shift entry model which states
+that you need to be entering upon the mitigation of a lower time frame point of interest that created
+the market shift all right so that's the extreme demand zone and then later on price went up create a
+failed reaction right here and then continue going up so in this case there is a failed reaction over here so
+we can draw this entire range right here as our flip zone okay so this is our flip zone if you were
+to refine it to the pivot candle it'll be somewhere around here all right so now we got your flip zone
+right here and then we also got your extreme zone right here so let's continue to observe what happens
+next price comes down mitigate this flip zone if you are using this particular entry model itself this is
+where you look for longs and you will enter upon the mitigation of this flip zone itself boom enter
+for buy order right here the minute price reverse at this flip zone and then you will be able to capture
+this very nice move to the upside before price continue coming down to the extreme zone right extreme
+zone mitigate the extreme zone and then push to the upside now here's a mechanical rule that i have in my
+system if something like this occurs i always enter on the extreme zone rather than the flip zone why
+because in this case if a flip zone is being formed right here chances are there's going to be available
+liquidity being built up below this field reaction right here so ideally i want to see that get swept
+and also mitigate this extreme demand zone and then i make my entry from here okay so this is just a
+mechanical rule that i have in my system you can test it out right usually what i've seen is that
+if there's a flip zone and an extreme zone just like this price tends to come down to the extreme
+zone not always depends on the market condition depends on the amount of fewer the market gets
+at the flip zone but yeah this is just a simple mechanical rule that i have in my system right so
+that's that now i just wanted to show you this example just to show you guys what the entry model
+looks like in the market itself right this is what you should expect to see as long as you follow
+the systematic framework you should be fine right the systematic framework is you know what you gotta
+wait for the market shift to happen you gotta wait for the flip reaction then you get a flip entry model
+obviously after the point of interest mitigation and also the liquidity sweep and then for the market
+shift entry model is that you gotta wait for the market shift wait for price to pull back to a point
+of interest that created the market shift then you look for your entry all right so with that being
+said let's look at some more examples before i do let me just fuel with this green tea
+if liquidity is the fuel for the market green tea is the fuel for the soul oh my god that's deep man
+oh oh my god that's so good man life is good bro life is good man life is good when you're enjoying this
+korean green tea that tastes immaculate ah okay cool now let's take a look at this example right here
+next so now we are looking at nq all right once again market mechanics concepts is universal it works
+across every single market every single asset class it works for futures works for indices stocks
+commodities crypto whatever you are trading that has a chart it works all right anything and everything
+so let's take a look at this example here right let's you know go up to our medium time frame
+all right so in this case medium time frame i'm gonna be looking it from the lens of like a day
+trader just like this all right so this is how i'm gonna be operating i'm gonna look at the chart
+of no maybe should day trade yeah you know what let's just go day trade just to keep things simple
+right so higher time frame medium time frame i want to be seeing this lower time frame i want to be seeing
+this so as a day trader my higher time frame is the four hour my medium time frame is the 50 minute
+and my lower time frame is the five minute so to keep things simple i'm gonna be using the 50 minute
+time frame and the five minute time frame in this example 50 minute as my medium time frame five
+minutes as my lower time frame so in this case we have clearly established the fact that price is
+bullish how do we know that price went up goes back goes up price getting higher highs higher lows
+and clear as day there's a lot of bullish imbalance a lot of buying momentum a lot of buying pressure
+right so in this case we can mark this entire zone up as your demand zone right this entire
+pivot right here so you can also make this as your swing low and your swing high all right so now
+we have done our analysis we have done our research we have done our preparation
+what's the next step the next step is that we develop our trade ideal which means that we want to
+look for longs and ideally we want to look for longs at this demand zone right here all right
+once again you can even go one step even further and map out the premium discount
+but there's kind of no use in this case because like there is no demand zone within the premium
+pricing right so it's very obvious that you need to wait for price to pull back to this demand right
+here i think it's like the only demand here anyways yeah so it's like the only demand here there's
+another very subtle demand right here right but because this is such a small little demand i wouldn't even
+consider it what i would instead do is that i'll mark up this as like a inducement right that's
+available liquidity sitting below this low right here all right so the next step is to develop a
+trade idea and we know that we should be looking for long positions at this demand zone right here
+but right now price is over here so do we do anything no we don't do anything right we just wait here
+play with our fingers you know do what you need to do just chill until price comes down to our
+zone boom you can see the minute price touches the zone just like this right it touches it
+boom this is your wake up call jump down to your lower time frame to look for your entry confluence
+to look for entry confirmation so i jump down to the five minute time frame
+and this is where i'm looking for my confirmation all right so once again what do we want to see
+we want to see price mitigate the point of interest right the minute price mitigate the point of
+interest jump down to the lower time frame that's the first step the next step is that i want to
+see price sweep some form of liquidity that have been built on the left hand side during the
+continuation phase so in this case when price is going up it pulls back goes up pulls back and then
+goes up it gives us a lower high i mean a new higher low just like this which means which means
+there's available liquidity being built up below those lows right here so ideally i want to see that
+logo as well right so in this case that's exactly what's happening right here price came down
+sweeping the low below this sweeping the liquidity below this low right here you can see it creates
+like a very long week just like this and then starts pushing up right we can potentially get a v-shaped
+reaction any time right now and in this case all right this is where you will be able to see that
+the internal structure is bearish right now okay so internal structure bearish right here so for us to
+know that the trend is going to shift to bullish we want to see price take out the last lower high
+all right so where's the last lower high the last lower high is probably somewhere around here
+okay this is the last lower high we want to see price take that high up
+okay so in this case if i want to you know get even much more precise entry this might be for the
+scalpers out there i would jump down to the one minute time frame and if i jump down to the one
+minute time frame this is where things get a lot more clearer right you will see that this is actually
+the last break of structural this is also the last break of structural which means that this right
+here it's actually the last lower high so if price take out that last lower high then this is where
+we got our market shift okay this is where we got our market shift right here
+all right but to keep things simple we just gonna stay at a five minute time frame for now just to
+show you the price action over here the minute we got a market shift over here
+this is where you want to go and identify the lower time frame demand zone that created this market
+shift right so in this case price come all the way down here and it started going up creating a v-shaped
+reaction after sweeping the liquidity that we have on the left hand side right here so this right here
+becomes our extreme demand zone right which means that after this market shift we don't want to enter
+for the position yet we want to wait for price to pull back to our extreme demand zone right here
+so we wait we wait the minute price pull back to the extreme demand zone you can execute either
+a manual buy order or you can place like a limit or stop order at this price point right here
+and then once price step into that a well you get tapped into the trade by your broker
+okay so in terms of the stop loss my idea is always place your stop loss at a price point which
+invalidate the trade ideal right so in this case you can either place it below this lower
+time frame demand zone if you're conservative or if you're aggressive you might want to even
+place it below this candlestick that you actually enter the trade from once again up to you i
+will advise you to test this out and then for take profit to keep it simple and mechanical in this
+lesson we're just going to set it at 2r right so sure sure enough very fast prices go up there and
+smash a tp right as simple as that all right so now that's pretty much how you use the this entry
+model itself which is the market shift entry model it's quite straightforward you're just waiting for
+a liquidity sweep market shift wait for price to pull back to this demand zone right here now let's
+talk about the other entry model which is the flip entry model because if you jump down to the lower
+time frame you will see that there was actually a flip entry model all right this is very interesting
+all right so when i jump down to one minute time frame now i see a few different things i see that
+when price was creating this v-shaped reaction right here and creating this market shift
+that was actually a failed reaction right here
+right so in this case once again what happened over here was that price went up
+pulls back mitigating this supply over here
+all right mitigating this supply over here and we have we got a failed reaction before price goes up
+which means that this entire range right here becomes our flip zone all right if you want to
+even more precise you can map out this pivot candle right here and this is our flip zone so when price
+have mitigated this 15 minute demand zone right here you jump down to the lower time frame either the
+five minute or the one minute and then this is where search for entry model and ideally like i said i
+want to see this liquidity get swept this liquidity get swept right here we create a v-shaped reaction this
+tell us that that's institutional buying intent right price is indeed shifting bullish and it's
+further backed up by this market shift right here which does that buyers has indeed took back control
+of price so yeah in this case like let's just go back a little bit over here price come out there
+creating this market shift over here so this starts that the structure is indeed shifting from
+bearish to bullish and now we pretty much got all our criteria right we got the liquidity sweep we got
+price mitigating this point of interest we got the felt reaction being formed we got this flip zone
+being formed right here we got our market shift and now we just do nothing until price pull back to
+this flip zone itself as simple as that right so you do nothing do nothing right maybe you want to
+place like a limit of stop order right here instead of entering manually you place it at the edge of the
+zone and you just do nothing until price comes down here and tap you into the trade right so at this
+point of time you are tapped into the trade and let's observe what happens next okay so once again
+you can either place your stop loss below the zone itself right below the flip zone just like this or
+below the candlestick in which you enter the trade from right and then just set a tb at 2r and you can
+see you will smash it just very fast just like this okay and then prices continue bullish and just
+continue going up and just absolutely skyrocket so that is an example of the flip entry model and also
+the market shift entry model applied on nasdaq right i hope you guys have gotten like kind of used to like
+just identifying these patterns if not don't worry now let's take a look at a bearish example right we have
+looked at a bunch of bullish examples now let's try to take a look at a bearish example
+okay so in this case itself all right this is price on the 15 minute time frame over here i think
+this is price in a consolidation so this is going to be an interesting one right so let's just go back
+in time a little bit right here okay so right now this is the consolidation but if you zoom in at
+the most recent price section you will see that we are actually bullish right here price goes up
+pulls back goes up we're actually bullish so once again swing highs uh swing low right here
+all right so right now our expectation is that price is going to remain bullish so if price comes
+down mitigate this demand zone right here you know this is where perhaps price is going to shift bullish
+right so we want to look for longs right here but in this case price goes up all the way up here
+creating your failed reaction right which pretty much does that you know what maybe price is not
+shifting bullish yet but we cannot confirm until price take out this low all right so later on price
+comes down take out this low right here giving us a market shift okay so when you get a market shift
+just like this which confirmed to you that the market has officially shifted bearish this is where
+we know for a fact that swing high swing low right now where can we expect price to pull back to
+well in this case you always draw from the extreme right this is the extreme supply zone right here
+and is this just an ordinary supply zone no it's not because price went up there
+pulls back creating a swing high generating available liquidity above those highs the ton price went up
+there swept the high and then started coming down right here so this right here is actually a liquidity
+swing right so this is the supply zone that swept liquidity itself and then later on price comes down
+pulls back goes down right you can even map this up as an additional supply zone right here
+and then price comes down reacting from this demand zone failed to do its job creating a failed reaction
+before going down which means that this right here is our flip zone okay this right here is our flip zone
+all right so let's just observe what price does next right price comes up mitigate the flip zone and then
+go okay so once again this is just a variation of what the flip zone entry model looks like
+in a bearish scenario but i want you guys to pay attention to what happened right here okay so over
+here when price mitigate this flip zone if you go down to the lower time frame this is where you
+should be able to see some form of entry model itself all right the five minute the one minute let's
+just see what happens price comes down and i just start crashing down like crazy okay
+so i'm gonna show you this on the five minute time frame right so let's say once again we're
+approaching this from the lens of a day trader which means that the 15 minute time frame is our
+medium time frame and the five minute or one minute is our lower time frame so over here 15 minute
+time frame has confirmed to us that price has shifted bearish so we should only be looking for
+shots and where are we looking for shots we are looking for shots either at this flip zone
+or this supply zone right here as simple as that so once price step into this point of interest or
+this one right here this one right here then i would jump down to the lower time frame which is
+the five minute time frame to look for my entry model so if price is still right here i'm not doing
+anything i'm not doing anything i'm not doing anything boom touch the zone go down to the lower
+time frame the five minute time frame and this is where i'm searching for the entry model itself
+and if you look at this flip zone it's not just on an ordinary flip zone it's a flip zone that
+sub liquidity because price went up pulls back goes up sub liquidity and then goes down so pay
+attention to the tiny little details right the tiny little details add up in the grand scheme of things
+so in this case price pull back to this flip zone that sub liquidity mitigates it touches it cool now
+i'm interested now i'm seeing where is the market shift going to happen right price goes up pulls back
+goes up right this is the last high low which means that the market shift will only happen if price
+take out this low here now observe what happens next price continue coming down creating this market
+shift and right now the minute price creates market shift our expectation is that price is potentially
+going to pull back to this supply zone that created this market shift and then this is where we can use
+our market shift entry model right where we look for shorts the minute price mitigate this zone and then
+we short it all the way down here but observe what happens next price comes all the way down here
+there was no pullback whatsoever so in this case what do you do well you don't do anything all right so
+this is where if you want to be very strict very mechanical with your trading system
+you have to be okay with letting these trades go sometime because sometimes there's just so much
+liquidity in the market at a specific price point at a specific location that it does not create that
+pullback to grab more liquidity right because if it needs more liquidity then obviously after the
+market shift it's going to pull back to this supply zone fill up the remaining sell orders and then
+continue dumping but there was already enough liquidity right here right that's why price actually came
+down so this is something that we actually teach our students inside the one percent club which is
+aggressive version of the entry model itself it's a little bit more advanced right because you need to make sure
+that you are not using this entry model in every market condition you are only using it in high
+probability scenarios where you enter for seller position the minute your price actually mitigate
+this point of interest but yeah i'm not gonna delve too deep into that right i'm not gonna confuse you
+for now to be strict and mechanical with your trading system remember you want to see price pullback
+to your point of interest then you look for entry all right so let's jump down to the one minute
+time frame to see what happened right here to see whether we can actually have any entry over here
+okay so this is where it gets a little bit nuanced right a little bit advanced like i said
+if you guys are watching this right now chances are you might be interested in this advanced sort of
+concepts so i'm gonna show you like how to really get like those precise entries so in this case over
+here we actually did get a market shift but it was at a very subtle level it was at a fractal level
+that if you jump down to the one minute time frame then you can see the market shift
+so in this case price goes up pulls back creating this badge counter and then goes up right so this
+right here is the last fractal high right the last factor low so if price take out this last factor low
+then this is where we got our fractal market shift once again i don't believe i'm teaching this
+concept inside this series because this is just an advanced concept that we teach inside the one
+percent club the mentorship program but yeah this is the fractal market shift which means that this
+is our extreme supply zone that led to the fractal market shift and then this is our flip zone that
+led to the fractal market shift itself and you can see what happens that after the market shift price
+pulled back to this flip zone there was not enough liquidity right as a result price came down you can
+see it just did not continue going down even further as a result it pulled back all the way up here to
+this extreme supply zone and then go down and notice what happened before it went down it swept some
+liquidity from the flip reaction right here right so this is the flip reaction this is the flip zone
+it swept the liquidity from the flip zone itself and then continue going down this is why i have a
+mechanical rule that says that if i have an extreme zone and a flip zone at the same area ideally i only
+want to enter for a short position at the extreme zone itself right so this is where you enter for the
+trade the midi price mitigate the sweep zone the extreme zone extreme supply zone swap the liquidity
+from the flip reaction place a stop loss above this zone itself or even above the candlestick you
+can see this is where things get really like precise right if you place it above the candlestick you
+are getting like two pip stop loss place above the zone this is like four pip stop loss right this
+is how people catch those sniper entries itself this is how my students manage to get funded over and
+over again and just get so much payouts you know make anywhere from 5k to 10k to 20k to 30k to 50k
+a month using this sniper like entries right here they place the stop loss above this zone itself and
+their target they can target the moon right they can target all the way down here and you will see the
+trade still play out perfectly right it pretty much plays out just just go down very very smoothly all
+because they know how to trade with sniper like precision so this is the concept which is called sniper
+entries which is a lot more advanced i don't recommend you guys to actually learn this if you're
+still in the first year of trading if you're not even profitable at trading you're much better off
+sticking to like whatever i've been teaching you for like the past 15 minutes or so right like i said
+this is the advanced version of the entry model itself we teach this inside the mentorship program so
+for now just stick to like the basic stuff all right if you want to learn the advanced stuff you want to
+learn about all of the nuances in which you can apply these entry models all the tips and
+tricks and the hacks then yeah the mentorship program that's the right place for you by anyways
+in this case you can see what happens that price came down giving us an internal break of structure
+which further validates this market shift right here which tells us that price is indeed bearish
+and after this after this internal break of structure where the price pull back to
+price pull back to this little supply zone right here that's up liquidity okay so this was
+the new supply zone that's up liquidity itself price mitigated debts and then continue collapsing
+so this is where advanced students will try to scale in for another position right here
+and capture the next move to the downside so now they not only have one trade running to tp
+right but they have two position running to tp right so now the first trade you know they had like
+a one is to eight reached reward somewhere around here right once they reach the reward the second
+trade they have one is a 10 risk to reward now they are able to capture a total of 18 on the trade
+what this essentially means is that if you're risking one percent of your account you have a chance
+to actually make 80 percent of the account 18 of your account right so if you are risking a thousand
+dollars a trade guess what if you win these two trades you have made eighteen thousand dollars
+if risking 10k on the trade itself and in this trade if you want both of these trades you have made
+about 180k right 10k yeah 180k so that's the power of sniper entries and this is how
+we are able to capture this insane entries one is the five or one is the eight uh one is the nine
+so yeah like i said this is a little bit more advanced i wouldn't recommend you guys to even
+like synthesize this but you know i just wanted to share that with you just to give you like more options
+as well for my fellow traders who want to take things to the next level but like i said this sort of
+advanced entry models they don't work all the time you have to make sure that you are using it in the
+right market conditions at the right location okay like this sort of advanced aggressive version of the
+entry model we teach our students to use it in very specific market condition you cannot just be using
+this in every market condition right you have to use it in very specific market condition at a high
+probability zone you have to take into account the timing you know the location and all the other
+variables before you actually enter for the trade but yeah i don't want to confuse you for now just
+understand that these are the entry models right here your goal is to make sure that you look out for
+these entry models the minute price mitigate a medium time frame point of interest right your goal
+is not to predict first your goal is to react correctly once the model is clear once you see the
+entry model in the charts then you react accordingly and you enter for the long or the short position
+i'll say i'll just end off by saying that a good entry model is not just about forcing trades it's
+about waiting for the market to tell a clear story then executing with precision waiting for the market to
+give you the signal then you enter for the trade itself patience really pays off right if you have the
+patience to just wait for this entry models to appear in the market at the desired point of interest at the
+medium time frame point of interest trust me you will save yourself a lot of unnecessary losses and you
+will be able to make a lot of money all right so with that being said i hope you guys have enjoyed
+this lengthy lesson and as always remember you're just one trade away

@@ -1,0 +1,404 @@
+If you can master order flow, you will be able to understand how the market truly operates and how
+price works, which is really the most important thing a trader must understand. And then you will
+be able to learn how to capitalize on large move before they even happen so that you can make
+consistent profits. So welcome to order flow, ladies and gents. So inside this full complete
+course on order flow, here's what you will learn. What is order flow? Why use order flow, right? We
+help you gain a deeper understanding behind the dynamics of order flow and how price move, right?
+In balance versus balance and how order flow actually move prices and how to trade with order
+flow using both footprint charts and candlestick charts. Now, please watch this video in order
+from start to the end. Don't skip around, right? If not, you won't be able to understand what I'm
+actually saying because you need to have a deep understanding of how price works on the fundamental
+level in order to understand and master order flow. And like I said, if you don't have the attention
+spent to even watch finish a goddamn video, how are you going to have the patience to become a
+successful trader? Dumbass.
+Now, what is order flow? Order flow trading allows you to see the interactions between the buyers and
+the sellers in order to identify who is in control of price. And that's really all successful trading
+is about, right? It's about figuring out who is in control of price, whether the bulls or the bears
+and being on the correct side of the market. It's the process of analyzing the flow of trades being
+placed by other traders, institutional traders, retail traders on a specific market or an asset
+by watching the order book or footprint charts, right? So this really allow traders to see the
+amount of buy and sell orders that are being placed at a certain time in the market at a given price
+point. And guess what this allows you to do? This allows you to anticipate changes in price
+before they even happen. So the truth is, why do you use order flow, right? What is so magical about
+order flow? And the truth is order flow is not a holy grail, right? But it allows you to figure out
+what price is doing. And that's the most important thing ever. And it is not lagging. That means it's
+not moving like a snail, like all the other trading indicators. So if you are still trading, we've got
+them moving averages, Bollinger Bands, RSI. Understand that you are a bit late to the party,
+buddy. So in trading, the fastest finger wins. If you are able to understand order flow, you will be
+able to understand how the market moves and most importantly, how price works. And this really
+allows you to gain such a deep understanding of the market and change your paradigm so that you are
+aligned with the professional traders that actually know how to move the markets, right?
+And this really allows you to overtake all the other retail traders, like what Yuzin Boat is doing
+right here, who are still relying on all the lagging trading indicators or freaking stupid chart patterns
+right here, right? All these guys here, right? So don't be like these guys here. Be Yuzin Boat,
+my friend. So by trading order flow, you are able to gain an edge over the retail traders,
+right? Pretty much the entire retail space because trust me, no retail traders are going
+to be looking at order flow. Who the hell cares about order flow, order book, when you can rely
+on chart patterns, you know, because when you are trading order flow, you are able to see
+institutional activity. That means you are able to see what all the big boys, the smart money,
+the financial institutions, the investment funds, the, okay, basically all the smart money,
+what they are doing. And if you're able to see what they are doing earlier than the rest of the
+world, you will be able to trade with them. So when those big move happens in the market,
+you will be able to get in before they actually even happen.
+Now, not only does it allow us to spot institutional activity earlier, it is also much more
+reliable since it comes straight from a centralized order book, right? An order book is basically
+where you see all the limit and market orders that is existing inside the market, right? So all the
+buy or sell orders is all shown on the order book. And this centralized order book literally shows
+everything, all the orders. This means there is no hidden orders from the black market or something
+out there, right? It's all on the order book, right? Like, come on, all the orders are literally
+displayed right in front of your face on the order book itself. And that relationship really helps
+you understand what's actually going on in the current market environment. And when you are
+really able to understand what's going on, you are able to be in sync with what the market is actually
+doing, right? And you will be able to really write the liquidity. And quite simply put, market liquidity
+doesn't lie. Numbers can't lie, right? You are literally looking at cohort numbers, which tell you
+exactly who is in control of price. And yeah, there's no way that it's a lie. It's cohort truth.
+So the financial markets work based on the auction market theory, which states that financial markets
+are just like any other business in this world, meaning there's going to be buyers and sellers.
+And they are both actively trying to seek the fair value of an asset, right? This theory is based on
+the principles of supply and demand and the auction process. And that's really how the world works,
+right? If you go to the market, right? You're essentially buying from a seller. And if you
+are trying to sell away your used car or your Apple iPhone or whatever, you are essentially looking for
+a buyer to fill up your sell order, right? Same thing with the financial markets.
+So let me just give you a quick example to really deepen your understanding behind this auction market
+theory and what is this complicated weird ass term all about. Say there is a beautiful five bedroom
+house that is on auction right now and it's priced at $400,000. Now, since this house is so gorgeous
+and it's located right beside the beach, you know, it has such a great location. People perceive this
+house as valuable. So they start bidding for it. I want to buy this house at $420,000. I want to buy
+this at $430,000. And then when this happens, this creates demand, right? This creates demand for the
+house. And since there's only one house and there's so many people just bidding for the house,
+demand exceeds supply, right? When demand exceeds supply, this drives the price of the house up to
+$450,000. Now, this is the new price that the market deems is fair. Meaning this is the fair value
+of the house. Now, suddenly, let's say there's a bad news, okay? Bad news come out about the house is
+being announced. The roof is falling apart. It does not include furnitures, right? So whatever you see
+right there, it's just your imagination. It's not real, right? You are not going to get the nice letter
+sofa. It's not included in the house. Boom! When this happens, people start backing out, yeah? Come on, man.
+This is what I expected and this is what I get. Come on, doesn't make no sense. So people start
+making backing out. And since less people want the house now, supply exceeds demand, right? And this
+causes prices of the house to drop to $420,000, which is the new fair value of the house, right? It's
+the price where the bidders, they deem as fair. Since now, yes, take into account all this bad news,
+right? And if they project the cash flow, right? How much return on investment this house can
+actually get me is actually not that great, right? So this is the new fair value. However, let's say
+later on, good news come out again. If you buy this house, you get a nice Tesla, right? For free.
+Buy one, get one free. This is obviously not real, but like, let's say it's real. Later on, good news come
+out and this causes price to actually increase back to $450,000, right? Because now, there is people who
+is more interested in the house and demand, exit, supply once again. Essentially, this is what
+happens in the markets every single day. Every single day, buyers and sellers, they meet each
+other. And what they are doing is that they are trying to find the fair value of an asset, be it a
+stock or a crypto coin or a forex currency pair, right? Which result in buy or sell orders, which
+pretty much constitute the order book and mix up the order flow. And this is exactly why price is
+always moving from balance to imbalance to balance and imbalance, right? If you look at the charts
+right now, any price charts on trading view, whatever, you will notice this common similarity.
+And this is essentially just how the markets move on a fundamental level, right? To really understand
+how you move on a fundamental level, you need to understand the concept of balance and imbalance.
+So in a balanced market, buyers and sellers, they agree on a certain price based on their
+perception of what is fair, your fair value. And this leads to lower volatility and price just
+remain quite stable, right? And this causes price to range, right? Just stuck in a consolidation,
+just like this, where it's just going sideways and not really going anywhere. However, financial markets
+they can't stay in this balance forever because new information is going to come in. New information,
+whether that is fundamental news or it could be technicals, right? Based on price action,
+this causes markets to move away from the fair value and transition into a completely different
+environment, which is your imbalance, right? An imbalance occurs when there is a disagreement about
+the fair value. And this is where one side of the market participants, be it the buyers or the
+sellers, they actually become more aggressive. And this leads to a trending market. And imbalance
+actually cause price to either move higher or lower until eventually this imbalance fades away,
+doesn't have enough momentum anymore, and it stops and price starts consolidating again,
+going back to the balance phase. And then eventually it can't stay in the balance forever.
+So it eventually break out of the balance phase, go into the imbalance phase, back to balance.
+And this just happens over and over again, right? And this is essentially just how the markets work.
+If you think about it, this is actually how the universe and how life works. It's always a balance
+between chaos and order. Yin and yang. So quite simply put, the market are basically an oscillation
+between imbalance and balance because it is always seeking fair value. When there is an efficient market,
+it is not able to stay in there forever. Because eventually due to some sort of new information,
+demand will exceed supply or supply will exceed demand. And then when this happens, this causes your
+imbalance to occur, right? Where there's a lot of buyers, value to sellers or a lot of sellers, value to
+buyers, imbalance, right? Just imagine a seesaw, right? It's like, it's like not balanced right
+now. That's why we call it imbalance. And when there's this imbalance, creates inefficiency in
+price. And then price look for balance again to form an efficient market. And this whole loop just
+keep happening over and over again forever. And this is essentially just how the market works.
+Don't ask me why. This is just how it works, right?
+So your goal as a trader is to really make sure that you can capitalize on the imbalance move
+because that is where the big money is at. Just think about it. When you go onto the charts,
+you identify all those large moves that you always miss because you suck at trading.
+These are where the big gold mine is. This is where you're able to make the most amount of money by
+really capitalizing on all these large moves. So like I said, your job is to look for this large
+move and actually get in before they happen so they can write this large move and make a lot of money
+very, very fast. Now, when you look at a candlestick chart just like this, it doesn't really give us
+information that tell us about volume, price, and the exchange between sellers and buyers, right?
+When you see something like this, all this green candlestick tell you just that this is actually
+a bullish candlestick, right? And this tell us that, okay, there's buying momentum and price is going up.
+But that's all it is. That's all a candlestick chart tell us. And if you see a red candlestick,
+it just means that price is bearish and price is going down.
+Now, you're essentially looking at the outcome of buyers and sellers, right?
+You are not looking at how it was being formed and looking at just at what price is doing,
+like what's the outcome, right? It doesn't really tell you what is going on at a deeper level beneath
+the candlestick. And that is when your footprint chart come in, right? So this footprint chart,
+how it works is that once again, it dissects the candlestick into orders, right? So the right hand
+side, all these numbers right here, it basically show you the buy orders, right? The market orders
+on the right side are the buyers, right? So you can see all these numbers is essentially
+how much buy orders at the specific price. And then on the left hand side, this is basically
+how much sell orders on the left hand side. What a candlestick does is that it just show you the
+outcome, right? It shows you the high price, the close, the open, and the low. But a footprint chart
+actually show you how many orders, how many buy or sell orders happen at each price, each pip.
+Now, this is important because when you are able to get so much more information when it comes to
+volume and the exchange between the buyers and the sellers, between the supply and demand,
+this allows you to really understand on the fundamental level who is actually in control of
+the market. And yeah, this is just very powerful. If you can really look at this footprint chart and
+actually understand what is going on with all these randomness numbers, you will be able to
+understand that nothing is random in the market. Now let's talk about how order flow actually move
+prices, right? And let's kind of understand how this footprint chart works on a deeper level.
+So when you look at your bid and ask spread or rate, rather this is actually your order book, right?
+So let's look at the order book and how this order book works is that these numbers on the right hand
+side, these ask, right? These are essentially your sell orders, okay? As simple as that, these are your
+sell orders. And then this bid right here, these are essentially your buy orders, okay? But here's the
+tricky part, right? These numbers right here, right? It represents the amount of orders
+at the specific price. So this is essentially 1,103 sell orders at this price. And then this is
+1,687 sell orders at this price. But you can see, this is the market price. This is where the market
+currently is at right now. This is price of a specific asset right now. So over here, right?
+All of this, right here, all of these are essentially what we call your limit orders. Now, if you don't
+understand what are limit orders, they are basically orders that have yet been activated.
+They are pretty much pending orders inside the market, right? Because right now, this is where
+the market is at, right? This price right here is the price of the asset. And right now, these sellers,
+they want to actually enter for a sell at this price. They want to enter for a sell at this price
+or this price, right? And you can see these are the different number of orders that is located
+at different prices, right? These are all limit orders which haven't been activated yet.
+Now, let's say there is an Apple that costs $5. And this is just to help you understand what is the
+difference between limit order and market order. So Apple costs $5. A market order is you buy the
+Apple right now at $5, right? You don't care about what the price is right now, you just buy it.
+Okay, that's a market order. You execute at the current market price. A limit order is when there's
+some sort of condition. You only want to buy an Apple only if it costs less than $3, okay? That means
+that $3, it's actually below the current market price, which is $5. So in that scenario, I only
+want to buy when it's at $3. But right now, it's not at $3 yet. So I will wait until price of the
+Apple drop to $3, then I will get in for the order, right? So that is essentially what a limit order
+is. Now, the Apple will be bought when its price drop to $3 or lower. So quite simply,
+when you look at order flow, if you think about it from the first person perspective, right? Or
+underlying belief, order flow is essentially an interaction between your limit orders and your
+market orders. And this pretty much forms the liquidity that you see in the market. So let's say
+John, right? John, this guy is a trader working for a large financial institution. And this guy has
+insider information, right? Which is not accessible to public, right? That is why, right, when you look
+at news and you expect the news to actually come up and actually cause price to move, but then price
+has already made a huge move before the news even come out. And that's most likely because these
+institutioners, traders, this smart money, they have inside information and they act on it before
+the news actually come out, which result in all this large move before they even happen. So yeah,
+let's say John, this guy, right? He's an institutional trader, right? So that means he's
+managing millions of dollars. He has a lot of buying power, right? And he has insider information,
+which happens to be positive news. So he has to act on this information as soon as possible
+before the market knows about it, before the news come out and the market takes into account
+of the news. He has to act on it right now. So he's not going to be placing a limit order,
+which will take like a few hours to fill up. He's going to execute the market order,
+which allows him to get into the buy position immediately. And he's going to do it with a
+large sum of money. And I'm talking about millions, if not billions of dollars here.
+And this is essentially where a process actually create imbalances, right? This actually fills up all
+the ask on the order book, right? It fills up all these ask orders. You can see previously,
+it was like thousand sell orders right here, right? Thousands of sell orders. But right now,
+it's all being filled up. Boom, boom, boom, boom, boom, boom. It's all been filled up.
+And when this happens, it's because he was able to execute a large buy order, right? He was able to
+enter into the market in bulk. And this creates massive imbalances in the market. If you look at the
+left-hand side, right? It creates your imbalances. And like I said, your goal as a trader is to really
+spot the imbalance move before they actually happen so that you can write the big money and make bank.
+Now, how do we spot these imbalances and order flow? By utilizing footprint charts,
+right? And that's what we're going to talk about next. So where do you actually find footprint charts?
+There's actually three main software that you can actually find these footprint charts to trade with
+to really understand the underlying order flow. And first is Atas. And second is TradingView.
+And next is Sierra Chart. Right? In my opinion, I think Atas is the best software to actually use
+when it comes to finding and actually utilizing your footprint charts. But like I said, here's a
+quick note. Footprint charts are not cheap at all. Yeah, it's actually not cheap. So if you want to
+trade like professional trader, because this is what professional traders look at, it's not going to be
+cheap. Just going to warn you. And yeah, different software have different packages and different
+pricing for the footprint chart. Anyways, now let's go on to the footprint charts and let's learn how
+to trade order flow. Now, when you go on to TradingView, you have the option to switch to your
+footprint charts just by pressing this button right here. And right now, you're probably on the
+candlestick charts. You just need to press it, click and volume footprint, and then you will be able to
+switch to the footprint charts. Bear in mind, this is only on the premium plan and above. So you do need
+to purchase a subscription with TradingView in order to access these footprint charts.
+Like I said, it's not cheap. But if you want to be serious in trading and you want to add these
+footprint charts into your arsenal, then this is something that I recommend you to actually invest
+in. Right. So let's dive deep into how to actually read these footprint charts. Right. So I'm just going
+to zoom into one candlestick like this. So over here, we got the candlestick. And on the right hand side,
+we pretty much got the buying volume. Right. The buy orders. And then the left hand side,
+we got the sell orders, the selling volume. Right. So this is basically your bid and ask.
+Right. So when you look at this, you can see there's a lot of things going on here. But like I said,
+I'm just going to simplify things with you guys by having like a little description for you to
+actually understand what's actually going on with this footprint thing here. Right. So first of all,
+maybe you want to copy my settings. So let me just show you my settings. You can just pause the
+video right now and you can just copy these settings that I have right now. And basically,
+the darker the gradient. Right. You can see the darker the gradient of the footprint rectangle
+thing. The more volume that is. Right. The more orders that is. Right. So let's go dive deep into
+understanding how to actually read these footprint charts. Right. So once again, left hand side,
+what you see is your sell orders. And like I said, the darker the color. Right. The more order that is.
+Right. So you can see the number in the middle that pretty much just represent the number of
+limit orders. Right. That pretty much represent the number of orders inside the market. Right.
+Limit or market orders. Right. So you can see the gray box basically represents like the most amount
+of order. So pretty much at this pricing right here, 1.084 Arial. This is when there was the most
+amount of buy orders and there's the most amount of sell orders being filled up. Right. So you can see
+4.622 K buy orders right there for 3.828 K sell orders right there. Right. So that's basically how
+you read these numbers. Right. So first thing you have to understand is that the darker the shade of
+the green or red. Right. The more orders that is. And yeah, the higher the number is basically means
+that is higher amount of orders. Right. It's not rocket science. And then when you come down here,
+this delta thing, right, delta this number right here, it basically represents the difference between
+your buy and selling volume or orders. Right. So it's basically you just take the total amount of
+buy orders. Right. Minus the total amount of your sell orders. Okay. And then the total right here,
+this number right here is pretty much the total volume, the total amount of orders when this entire
+candlestick was being formed right here. Okay. So if you see like a positive delta number like this,
+like 7.534 K, that's pretty positive. Right. This tell us that that is aggressive buying. Now,
+if you see a negative number, like say maybe this one right here. Yeah, this one right here,
+you can see this means that is aggressive selling. Right. And one thing to note is that just because the
+number is positive or negative does not really mean that the number like it correlates to who is in
+control of price. For example, right here, even though the delta was negative, right, meaning
+there is a lot of aggressive selling going on here, the candlestick actually end up bullish,
+right? It end up being a bullish candlestick, which means the bulls are actually in control of
+price, even though there was a lot of selling. So yeah, that's one thing that you guys have to
+be careful of. Don't just assume that just because the delta is negative, that means that sellers are
+in control or just because the delta is positive, buyers are in control. Now, that's basically how
+this entire footprint chart actually works, like how you actually read it. And there's different
+type that you can actually choose from. You can see this is the normal buy and sell one. And then
+you can have one where it's the delta one, which is just focused on just like one row instead of
+having two rows where you differentiate the buy and sell one. You just have one row,
+which shows you the total buy volume here, total sell volume here. And then if you go to the total,
+this is just volume, right? Just really looking at the total amount of orders, total amount of
+volume. So yeah, that's pretty much how it is. We're just going to stick to this one because this one
+really tell us the buy orders, the sell orders, and whether there's any sort of imbalance whatsoever.
+Okay, so that's basically how you understand a footprint chart. Now, let's talk about how to
+actually trade it, how to actually add it into our trading arsenal. First things first,
+this is a very important thing to note, right? I don't really like to jump straight into the
+footprint charts because this is what your charts will look like. If you just jump straight into
+the footprint charts, it's very hard for you to understand what's actually going on. So what I
+like to do is that I will start off by analyzing my charts on the candlestick charts, you know, a normal
+candlestick chart. And how I trade is that I always like to build a higher time frame narrative first.
+That means I need to understand who is in control of price on the higher time frame. And to do that,
+I don't really need to look at footprint charts to actually confuse myself. I just look at candlestick
+charts. I analyze the price action. I look at the market structure to see whether price is in bullish
+or bearish order flow, right? So obviously, first things first is you map out your market structure,
+right? So if I have to map out my market structure based on what we have right here, you can see price
+is pretty bullish right now. So price actually created a market shift right there. And then this
+led to the market reversing from bearish to bullish. So now, based on looking at the candlesticks
+alone, you would see that the buyers are actually in control of price, right? There is more demand
+than supply in the market. And then when price actually break above the market shift, it actually
+end up creating a new higher high, higher low, and it's starting to create a new high. So I can
+actually have my bullish break of structure right now, right? So that's all I'm trying to do is to
+really map out the market structure, identify any sort of underlying point of interest. Maybe that's
+like a supply zone that we have right here, right? You can see your supply zone, mark up any significant
+point of interest. Then there's a demand zone right here. So we are pretty much playing within this range
+right now, right? So the first thing first is to always go and build the higher time frame narrative
+to see what is the range that you are trading within, and also to see whether price is in a
+bullish uptrend or a bearish order flow, right? And we do that just by purely looking at candlesticks,
+right? And really analyzing the market structure. Now, my point, or rather, here's a tip for you
+guys, because this is what I do, right? I just wait for price to get to a point of interest,
+then I switch to footprint charts, okay? So I only switch to footprint charts when price get to some
+sort of demand zone or supply zone or order block or sweep zone or flip zone, some sort of point of
+interest. Because what I'm trying to do is to figure out whether price will respect or disregard that
+point of interest, like just blast right through it. And how I know that price will actually respect this
+point of interest is when I go down and look at the footprint and I see whether the sellers or the buyers
+are in control of price at this area, right? If at this area, this buying momentum, it starts losing
+some sort of momentum, right? And I can see like the buying volume fading away, right? The buying,
+the buy orders are fading away and the sell limit orders are just filling up and it's going to cost
+price to actually respect this supply zone that we have right here and actually go down. If I am able
+to see sustained buying pressure and actually there's a lot of buying volume and it can actually
+sustain, right? There's actually aggressive buyers and the buyers are still in control. Then most
+likely it's going to pierce right past this point of interest that we have right here. Okay, so right
+now price has reached our point of interest. Let me just delete this and then I will probably just
+switch to the footprint charts right here. Footprint charts and then I will go down to perhaps the
+smaller time frame to analyze what price is doing at this supply zone, right? So like I said, right,
+just because you get a negative delta does not mean that the sellers are in control of price,
+right? So you just need to understand that what this footprint charts does is that it tells you
+who is more aggressive and who is more passive. Now the aggressive people are the ones that is
+filling up the market orders, right? They are actually filling up the market orders. They don't
+care about what price the market is at right now. They just want to enter for the trade. Those are the
+aggressive traders. And then the passive traders are the ones that have their limit orders, right?
+They have their buy limit orders. They have their sell limit orders, right? They are not as aggressive as
+the aggressors, right? And yeah, that's basically what footprint does. It shows you who is more
+aggressive, who is more passive. And like I said, the higher the number, the more aggressive
+the person is, right? The traders is. And like I said, most importantly, you just want to focus on the
+volume, right? At the point of interest. So right now, price come into this supply zone. How do we know
+that price is going to respect this supply zone? We need to see that the price actually
+loses control, right? I mean, the buyers actually lose control at this supply zone. That is what we
+want to see. If price were to respect this supply zone and reverse, you must see the buy orders,
+right? The buying volume fades away and supply step into the market and take control of the market,
+right? That's all we are trying to do. So right here, you see price approach this supply zone.
+And if you are observing the delta that we have right here, right? And looking at the total orders,
+what we have is that there's a lot of strong momentum, right? You can see positive delta,
+right? There's a lot of aggressive buying into this supply zone. And the volume is also quite high,
+right? The volume is also quite high and it's just getting more and more aggressive. But you can see
+over here, the trading volume is starting to decrease a little bit compared to what we have
+right here. So there is some sort of supply starting to enter into the market. So to simplify things even
+further, let me just draw it out for you guys like a quick example. So let's say there's a demand zone
+right here. And then price is going down, right? To the demand zone and it has a lot of aggressive
+selling volume, right? And price is just going down, you know, negative delta, strong amount of volume,
+there's a lot of orders, a lot of momentum pushing the price down. Eventually, when price get to this
+demand zone, you realize that it can't seem to break past it multiple times, right? Even though
+there's a lot of aggressive selling, right? But it can't seem to break past it. This is because
+there's a lot of demand at this demand zone and pretty much all the buy limit orders that we have
+right here is just eating up all the aggressive sell orders, right? It's literally like Pac-Man,
+right? All the passive limit orders right here, all the buy limit orders right here is eating up
+all the aggressive sell orders. That is why this demand zone is most likely going to hold and price
+is going to trade even higher and potentially reverse because of the fact that the buyers are
+actually took back control of the market at this demand zone just because the passive limit orders
+was just so overwhelming. So that's essentially what we are trying to do on by using the footprint to
+do, right? So by seeing price actually approach this supply zone that we have right here, we need to
+see what the volume is actually showing us, right? We need to see whether the aggressive buyers are able
+to break past this zone. And to do that, it must overwhelm the sell limit orders at this level here.
+If not, then the supply will come and step into the market and price is just going to reverse and head
+back down. As simple as that. Now here's another example. So based on the price action that we can
+see right here, there's a lot of demand at this area, right? There's pretty much a lot of demand
+at this area supporting price, right? So this entire area here, there's a lot of demand at this area.
+So this is a demand zone. And you can see as price comes down into the demand zone, right? We observe
+the candlestick when it actually reached that point of interest, right? So that is where we really want
+to focus on the footprint, right? And if you look at this candlestick right here, the one that
+actually touched into the demand zone, what we have right here was that there was a lot of aggressive
+selling, right? There's a lot of aggressive selling that results in a negative delta, right? And if you
+look at this, there's a lot of trading volume and there's a lot of aggressive selling. But if you look
+at the buy orders, right? That is 2.462k buy orders. And that completely overwhelmed the 1.381k
+sell orders. Now this pretty much tell us that, okay, even though the sellers were aggressive,
+but then there is so much demand at this demand zone, right? There was so much passive limit orders,
+buy limit orders that actually just completely eat up the sell orders that we have right here,
+which result in price respecting this demand zone, right? And then next thing you know,
+demand step into the market and push price up forming this huge bullish candlestick right here.
+And you can see the delta is a very big number, like a very big positive number, right? And this
+pretty much just show us that demand have officially stepped into the market. And quite simply, that's
+essentially how you actually trade footprint charts, right? You basically just want to wait for
+price to get to a point of interest, right? Be it a supply or demand zone. And then to decide whether
+it's going to respect that supply and demand zone, you go and look at the aggressive selling,
+aggressive buying, and then figure out who is actually in control of price, right? And just like
+I said, just because there is aggressive selling doesn't necessarily mean that it's going to break
+past the demand zone. Because the passive buy limit orders can eventually just eat up the aggressive
+selling and just cause price to reverse. So my advice would be to always start off with the higher
+timeframe, looking at the candlestick chart first to figure out who is actually in control of price,
+like whether price is bullish or bearish based on the higher timeframe narrative, and as much as
+possible, stick to that bias. So if price is bullish on the four hour timeframe, you should
+potentially look for buy orders within the lower timeframes. And then you just wait for price to
+get to some sort of demand zone, right? And then once price get into the demand zone on the lower
+timeframe, you go to your footprint charts and you see that what you want to see is that you want to
+see buyers take back control of price, right? If price is pulling back to that demand zone, you want
+to see buyers take back control, and that is when you can potentially enter for your trade, right?
+So all footprint charts work is that it acts as like an additional signal, right? So at the end of the day,
+price action, market structure, supply and demand, liquidity, all of these concepts are really
+what drive the market as well, right? And they are always going to be the core components of my own
+trading strategy, my own mechanical trading strategy. This order flow, this footprint charts
+thing is just an additional confluence to me. So yeah, just understand that footprint charts are not
+the holy grail to trading. You're not going to automatically make $1 million after you started
+learning about footprint charts, right? And the thing is, you guys need to understand that this
+footprint chart is just an additional confluence, an additional tool in your arsenal. So that right
+now, you don't just have market structure, you don't just have price action on supply and demand,
+but you have also understood the order flow, the underlying forces of what actually moved the
+market, and you can really figure out who is in control of price. Like I said, there's no point of
+you understanding order flow and footprint charts if you cannot even identify your point of interest
+correctly. If you cannot identify your supply and demand zones properly, there's no point of you
+just looking at footprint charts, right? You're not just going to enter for a buy or sell automatically
+just because you see there's aggressive buying and aggressive selling. It doesn't work that way.
+You need that additional confluence to support your buyers. So yeah, this is just one of the 154 plus
+in-depth video lessons that we have inside the 1% club. You can see inside the 1% club, it doesn't matter
+if you are a beginner or you're an intermediate trader who are losing money right now. If you
+want to master trading and achieve consistent profits, you know where to go. 1% club is the
+greatest trading education in the world. Like you can see, this is our classroom. We literally lay
+out the course modules step-by-step in chronological order so that we can get you from a complete
+beginner with no prior knowledge or experience whatsoever into the point of mastery where you're
+able to really become a professional trader who bank consistent profits. And we also got coaching
+call going on every single day. You can see this is our schedule right now. We also host live trading
+session every single week. And then this is the results, right? We don't just claim that we are the
+greatest trading education, right? We have students who are actively getting results, who have gained
+extreme clarity and confidence of the markets. And Alia made over $25,000 just last month after joining us
+for only two months. And Samuddin made over $10,000 in a week. And that's his first 10k from trading
+just after joining us for what? One month? And yeah, it's just absolutely crazy and mind-blowing the amount
+of results that we are getting for our students right now. So yeah, join the 1% club if you want. If not, go and
+watch this playlist on market mechanics, which will really help you understand how the market really works and really
+refine your edge as a profitable, you know, as a professional trader and help you become a profitable trader.
+As always, I will always be rooting for you. And remember, you are just one trade away.

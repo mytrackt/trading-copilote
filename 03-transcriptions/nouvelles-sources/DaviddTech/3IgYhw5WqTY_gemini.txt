@@ -1,0 +1,226 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: 3IgYhw5WqTY.mp4]
+---
+[VISUEL: Un homme d'âge moyen, portant des lunettes et un polo noir, est assis devant un microphone. Il y a des néons colorés (rose, bleu, violet) en arrière-plan, ainsi qu'un canapé rouge vif et une étagère avec des livres et une petite figurine de robot blanc. Deux écrans d'ordinateur affichant des graphiques de trading sont visibles derrière lui.]
+In five years of backtesting trading strategies,
+
+[VISUEL: L'écran de l'homme est maintenant visible à droite, affichant l'interface "TRADER.dev" sur un thème sombre. L'onglet "Strategy Report" est sélectionné. Un graphique d'une "Equity Curve" (courbe de capitaux propres) montre une tendance ascendante constante, avec un gain de "+3345.02A_VERIFIER%". D'autres cartes de stratégies plus petites sont floues mais semblent également montrer des tendances positives. Le texte "No time to build & optimise winning strategies? 100A_VERIFIER% AI-built, backtested, one-click install - no code." est affiché en haut.]
+this is one of the cleanest equity curves I've ever seen.
+
+[VISUEL: L'homme est de nouveau visible en plein écran. Une icône rouge avec une étoile blanche apparaît sur sa poitrine.]
+And the thing that's going to mess with your head is that I didn't even build it. Claude did.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant un serveur Discord nommé "DaviddTech". Le canal "announcements" est ouvert, montrant des messages concernant des sessions en direct reportées et une "Elite refresh in the works". Les statistiques du serveur indiquent "Members: 9608A_VERIFIER", "Bots: 25A_VERIFIER".]
+And thanks to one of the members of my community,
+
+[VISUEL: Une séquence animée apparaît à droite : une icône de code, puis une icône d'horloge avec le texte "2A_VERIFIER minutes", puis une icône de graphique de trading. Des flèches les connectent.]
+in less than two minutes, one prompt and no TradingView account.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Last week, I built a new AI tool called TraderDev.
+
+[VISUEL: L'interface "TRADER.dev" est affichée à droite, sur l'onglet "Browse Strategies". De nombreux petits graphiques de courbes de capitaux propres sont visibles, tous avec des tendances ascendantes. Certains sont étiquetés "Public". Diverses paires de cryptomonnaies comme AVAXUSDT, ETHUSDT, BTCUSDT sont affichées. Le nombre total de stratégies est "7,631A_VERIFIER" et de backtests "17,286A_VERIFIER".]
+It builds TradingView strategies, runs the backtest for you, and no TradingView account needed.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+In less than 24 hours of given this to my community, they built and backtested
+
+[VISUEL: Le texte "10,000A_VERIFIER Trading Strategies" apparaît en surimpression sur l'homme.]
+nearly 10,000 trading strategies.
+
+[VISUEL: L'interface "TRADER.dev" est affichée à droite, sur l'onglet "Strategy Report", identique à 0A_VERIFIER:03A_VERIFIER. La courbe de capitaux propres montre "+3345.02A_VERIFIER%".]
+And that equity curve that you just saw was one of them.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+In this video, I'm going to be showing you
+
+[VISUEL: Trois instances de l'interface "TRADER.dev" sont affichées à droite, montrant différents rapports de stratégie, tous avec des courbes de capitaux propres ascendantes. Le texte "Best strategies" apparaît en surimpression.]
+three of the best strategies from this weekend, including the one that you just looked at.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Then I'm going to show you how to get started.
+
+[VISUEL: Des icônes animées apparaissent à droite : "1A_VERIFIER Prompt", "1A_VERIFIER Tool", puis l'icône rouge en forme d'étoile de Claude. Le texte "No subscriptions needed" apparaît.]
+One prompt, one tool inside of Claude, no subscriptions needed, and you can get started right now.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+And guys, if you don't know who I am, my name is David. I have been backtesting rules-based trading systems for over five years here on YouTube.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant sa chaîne YouTube "Trading with DaviddTech". Diverses miniatures de vidéos sont visibles avec des titres comme "Claude Trader INSANE", "TRADING STRATEGIES 1500A_VERIFIER+", "ChatGPT 5.4A_VERIFIER +7,683A_VERIFIER%".]
+[VISUEL: Le texte "SUBSCRIBE" apparaît en bas à droite de l'écran de l'homme.]
+Bybit has ranked me and multiple members of my community as top traders on their exchange.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le classement des traders de Bybit, onglet "High ROI". "Daviddtech- Wen Me..." est classé #1A_VERIFIER avec "321.50A_VERIFIER% P&L".]
+[VISUEL: L'homme est de nouveau visible en plein écran, tenant un trophée. Le logo de Toobit apparaît à droite.]
+And Toobit gave me this for last year's performance.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+And here's the thing that I'm most excited about:
+
+[VISUEL: Le texte "You're not doing this alone" apparaît en surimpression sur l'homme.]
+you're not doing this alone.
+
+[VISUEL: Une séquence animée apparaît à droite : le nombre "200A_VERIFIER", puis une icône de groupe de personnes, puis l'interface "TRADER.dev" avec de nombreuses stratégies. Le texte "200A_VERIFIER people inside and using TraderDev" apparaît.]
+There's already over 200 people inside and using TraderDev, and everybody gets access to everyone else's strategies.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+You don't just get another AI tool, you walk into a room of over
+
+[VISUEL: Le texte "200A_VERIFIER Elite traders" apparaît en surimpression sur l'homme.]
+200 elite traders that have already started the work for you.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le serveur Discord "DaviddTech". Le texte "9000A_VERIFIER traders" apparaît en surimpression.]
+I have a community of over 9,000 traders,
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le site web StrategyFactory.ai. Le texte espagnol "Automatizadas Probadas por IA" est visible. Des statistiques comme "574A_VERIFIER Estrategias probadas", "207A_VERIFIER Estrategias desplegadas", "2,733A_VERIFIER Trades ejecutados", "1,626A_VERIFIER Automatizaciones activas" sont affichées.]
+and 500 validated strategies on strategyfactory.ai.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+I don't predict, I don't sell, I publish results with the data behind them.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+And guys, don't forget that I have put together a beautiful workbook for you,
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant un document intitulé "Install the Trader.dev MCP Server in Claude and Codex". Il montre des instructions étape par étape avec des captures d'écran de Trader.dev et Claude. Le texte "AI Leave a comment!!" apparaît en surimpression sur l'homme.]
+including prompts to get you started. All you have to do is comment "AI" down below and I will send that to you for free.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+So without further ado, let's get straight over to my computer and let's have a look at those strategies and how you can become part of this absolutely amazing tool. But guys, before we go, if you do find value in this video, if you don't mind giving it a good old thumbs up and subscribe, I do videos every single week with tools about AI and how to trade better.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le site web "TRADER.dev". Thème sombre. Le texte "I use Grok to trade." est visible. Une fenêtre de chat est ouverte à droite, montrant une invite "Backtest me a trading strategy on BTCUSDT 1h". Puis un résultat "Done - Backtested a classic Momentum strategy on BTCUSDT 1h over the last -90A_VERIFIER days. Net P&L: +21.06A_VERIFIER% (+206.69A_VERIFIER on $10k)". Une courbe de capitaux propres est affichée. Ensuite, le texte change pour "I use Cursor to trade.", "I use Kimi to trade.", "I use Claude to trade.", "I use Gemini to trade.", et de nouveau "I use Grok to trade.". Puis le logo TraderDev apparaît. Ensuite, la page "Browse Strategies" avec de nombreuses courbes de capitaux propres.]
+Okay, so here I am on my screen. This is TraderDev. A very simple tool which you plug into your AI subscription and it will backtest trading strategies. Let me explain very quickly, it's a bit like if TradingView had a baby with GitHub and Claude AI. This allows AI to have the tools it needs to backtest and create strategies. But the best part is you become part of an amazing community, where we're building strategies that look like this. No coding involved, just one simple prompt.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+And guys, I have also put together a full workbook with prompts to get you started.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le document "Install the Trader.dev MCP Server in Claude and Codex". Il montre les étapes pour s'inscrire, copier la clé API, ajouter le serveur MCP à Claude. Le texte "AI Leave a comment!" apparaît en surimpression sur l'homme.]
+Everything is free, including the tools that I'm using. Just comment "AI" down below and I will send it directly to you. But before I go any further, I did promise you
+
+[VISUEL: Le texte "3A_VERIFIER backtested strategies" apparaît en surimpression.]
+three backtested strategies.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Let's have a look at these absolutely insane strategies.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le rapport de stratégie "TRADER.dev" pour ETHUSDT 60min. Le texte "Trading #1A_VERIFIER" apparaît en surimpression. Net P&L: $334,502A_VERIFIER.44A_VERIFIER (+3345.02A_VERIFIER%). Max Drawdown: -22.00A_VERIFIER%. Total Trades: 238A_VERIFIER. Win Rate: 33.2A_VERIFIER%. Profit Factor: 1.68A_VERIFIER. La courbe de capitaux propres montre une forte tendance ascendante. Une liste détaillée des transactions et des métriques de performance sont visibles.]
+So first of all, our first one is on Ethereum USDT on the 60-minute timeframe. The P&L is 3,345%. The max drawdown at 22%. We did have a bit of a low win rate, but we did have 238 closed trades and a profit factor of 1.68. We can go down and we can see the full stats and all of the trades that were made by this trading strategy. But if I go into a little bit further behind this logic, one thing that excites me about this trading strategy is it is a mean reversion strategy. This is something that I've been looking for for years and never ever found something that was particularly profitable on a full backtest. This one is profitable and after a long forward testing period, I will be adding maybe to my personal portfolio.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le rapport de stratégie "TRADER.dev" pour AVAXUSDT 60min. Le texte "Trading #2A_VERIFIER" apparaît en surimpression. Net P&L: $210,410A_VERIFIER.39A_VERIFIER (+2104.10A_VERIFIER%). Max Drawdown: -26.17A_VERIFIER%. Total Trades: 485A_VERIFIER. Win Rate: 34.4A_VERIFIER%. Profit Factor: 1.42A_VERIFIER. La courbe de capitaux propres montre une forte tendance ascendante.]
+The next strategy is on AVAX USDT. Look at that equity curve, up 2,104%. Max drawdown is a little bit higher at 26%. We have 485 closed trades, and once again, we do have a bit of a low win rate, but that's most probably expected on a mean reversion strategy. We have a profit factor of 1.42. And again, you can see all of these stats on this strategy.
+
+[VISUEL: L'homme est de nouveau visible en plein écran. Le texte "AI Leave a comment!" apparaît en surimpression.]
+I'm going to be sharing these strategies with a workbook at the end of this video. All you have to do is comment "AI" down below and I will send you the link to everything you need to get started with TraderDev and also the workbook as well.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le rapport de stratégie "TRADER.dev" pour SOLUSDT 60min. Le texte "Trading #3A_VERIFIER" apparaît en surimpression. Net P&L: $76,432A_VERIFIER.25A_VERIFIER (+764.32A_VERIFIER%). Max Drawdown: -37.46A_VERIFIER%. Total Trades: 292A_VERIFIER. Win Rate: 30.1A_VERIFIER%. Profit Factor: 1.29A_VERIFIER. La courbe de capitaux propres montre une tendance ascendante mais avec une récente baisse.]
+Okay, and this one here, which is on SOL USDT. It's on the one-hour timeframe and made 764%. I was going to show you this one here mainly for one reason: I'm going to show you how you can fork it at the end and actually improve on this strategy. This one had 37% max drawdown, and the end of the equity curve doesn't look great, but that we're going to ask AI to fix in a minute. It had 292 closed trades and a win rate of 30%, and a profit factor of 1.29. As always, we have all of these stats, and we can get access to all of the actual strategy settings and the actual code directly through Claude.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+So within less than 24 hours, we had over
+
+[VISUEL: Le texte "10,000A_VERIFIER Scripts backtested" apparaît en surimpression sur l'homme.]
+10,000 scripts actually backtested.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Imagine if we were 600 people, or 6,000, or even 600,000 people all backtesting together.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant la page "Browse Strategies" de "TRADER.dev" avec de nombreuses courbes de capitaux propres.]
+Even by the time this video is edited, there's probably going to be tens of thousands of more actual strategies on the site.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+So now I'm going to show you how exactly you can install this on your Claude
+
+[VISUEL: Le texte "1A_VERIFIER Text 1A_VERIFIER Prompt" apparaît en surimpression sur l'homme.]
+with one single line of text and one single prompt.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Before I go back over to my computer and show you that, I do want to give you a little bit of a disclaimer.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant sa chaîne YouTube "Trading with DaviddTech" avec diverses miniatures de vidéos. Le texte "2,000A_VERIFIER Manually" apparaît en surimpression.]
+I've been backtesting strategies for over five years. I've backtested tens of thousands of settings and over 2,000 strategies manually, and I could tell you that when you put some of these strategies into live trading, a lot of them won't work.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Past performance will never guarantee future performance.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant la page "Browse Strategies" de "TRADER.dev". Le texte "Live" apparaît en surimpression.]
+That's why everything's live on the website, and you can download the code for yourself and add it to your own TradingView and retest it after a long period of forward testing.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Right, with that out of the way, let's get back over to Claude, and let me show you how you can get started.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le site web "TRADER.dev", page "Account". Il montre "Your API Key" et une commande "CLAUDE CODE". Ensuite, la page claude.com/download. Puis de nouveau la page "TRADER.dev" "Account".]
+Okay, so let's get started implementing this onto your Claude setup. So, we're going to need a couple of things. First of all, you're going to need to download the Claude AI app from Claude desktop, which is very simple. Go to claude.com/download. Choose the OS which you're on. I'm currently on Mac, so I'm going to click here and download it. Once that's installed, we're going to go all the way back over to TraderDev and create ourselves an account. We're going to click on "Account" up here, and you're going to end up on this page just here. This is your control panel where you find the code to get started. We're going to be using Claude, but you can use it on Codex and many other platforms. So I'm going to click here and press "Copy" for Claude.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant l'application de bureau Claude. L'homme sélectionne le mode "Code". Il colle la commande `claude mcp add` dans le chat et dit "Hey there Buddy, I'd love it if you can install this for me." Claude répond avec des instructions.]
+Going to go back over to Claude. Okay, so I'm going to be using Claude Code today. Generally, I quite like Claude Cowork, but for this example, I'm going to be using Claude Code. First thing I'm going to do is go down to here. I'm going to paste in here the line of text that I got from TraderDev, and we're going to say, "Hey there Buddy, I'd love it if you can install this for me." Boom! So that's going to go away and install that. As you can see from the text, I've already got it installed, so I don't have to worry about that.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant l'application de bureau Claude. L'homme passe en mode "Cowork". Il clique sur "New task". Il tape "Hey there Buddy, could you please backtest a simple moving average strategy on the BTCUSDT 1A_VERIFIER-hour time frame? Use the TraderDev MCP to actually backtest." dans le chat.]
+That means that I can go back over to Cowork and we can start using Cowork. I'm going to click on "New task" just here. And then we're going to say, "Hey there Buddy, could you please backtest a simple moving average strategy on the BTCUSDT 1-hour time frame? Use the TraderDev MCP to actually backtest." And boom! That's going to go away. It's going to code a Pine Script strategy ready for TradingView. And within a less of a couple of seconds, we have a full report back from us saying that we would have earned 2.07% with six trades. Not bad. We're going to click on this, and you can see we get a full report on TraderDev with all of the trades and the equity curve.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Okay, that's an absolutely brilliant start. But I promised you at the beginning of this video
+
+[VISUEL: Le texte "Autopilot" apparaît en surimpression sur l'homme.]
+to be able to do this all on autopilot,
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+without having to sit in front of a screen and let AI build trading strategies 24/7 for you, and find you
+
+[VISUEL: Le texte "THE BEST Trading strategies" apparaît en surimpression sur l'homme.]
+the best trading strategies in the world.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le dépôt GitHub "daviddtech/ai-trading-agent". Il montre des dossiers comme "loop", "prompts", "skills", "examples".]
+So, what we're going to do is we're going to head straight over to GitHub. And for those who don't know what GitHub is, let me explain. GitHub is just like having a great big folder with lots of people all together putting their files in it. I've stored on it here a couple of skills and tools for AI to help you get started on autopilot building strategies every day while you sleep. In here we have some prompts, some loops, and some examples. We're going to go over to "Loop". And as you can see, I have written multiple loops. So what is the difference between a loop and a prompt?
+
+[VISUEL: Le texte "Prompt" apparaît en surimpression, puis "Giving detailed instructions to your AI".]
+[REGLE: A prompt is giving detailed instructions to your AI.]
+
+[VISUEL: Le texte "Loop" apparaît en surimpression, puis "Allows you to give detailed instructions, but it allows it to run multiple times per day."]
+[REGLE: A loop allows you to give detailed instructions, but it allows it to run multiple times per day.]
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Let's say that you want to loop every 15 minutes a certain prompt. Well, you can do that thanks to the loop function inside of Claude.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant le dépôt GitHub "daviddtech/ai-trading-agent", dossier "loop". Il montre divers fichiers de boucles comme "ai-hedge-fund-manager.md", "mean-reversion-engineer.md", "trend-following-engineer.md", "moon-phase-strategist.md".]
+So, I put these together. As you can see, we have different kinds of strategies, from the moon phases strategist to all the way to the trend following. Personally, I haven't got any moon phase strategies currently at the moment. So what I'm going to do is I'm going to go in here and I'm going to click the copy button just here. And then I'm going to go back over to Claude.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant l'application de bureau Claude. L'homme colle la commande de boucle et dit "Hey there Buddy, could you loop this and execute every 15A_VERIFIER minutes?". Claude demande une approbation. L'homme dit "I approve".]
+And I'm just going to paste this in here like that. We're going to remove the title up here, and I'm going to say, "Hey there Buddy, could you loop this and execute every 15 minutes?" Boom! So Claude's going to go away and create a schedule and ask for us to approve that we are building this and running it every 15 minutes. And we just have to say, "I approve." Boom!
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant l'application de bureau Claude. Claude a traité la demande de boucle. Il montre les résultats du backtest pour la stratégie "Lunar" sur BTCUSDT 4h, la comparant à "Random". Ensuite, le dossier GitHub "examples" avec "prompt-position-optimizer.md".]
+Okay, so what this has now done is it's gone away, done its first backtest. As you can see, it's taken over 132 closed trades using the moon cycle on the four-hour timeframe, and it's going to continue backtesting and finding other strategies on different timeframes for different coin pairs. Now that it's completed its cycle, it's going to go away and set that schedule. And for every single strategy that you submit over to, means that you can actually download other people's strategies. You can improve them and submit those, using something like the overfit detector, or the position optimizer, or the optimizer loop. Any one of those will help you to get access to more and more strategies.
+
+[VISUEL: L'homme est de nouveau visible en plein écran. Le texte "Bi trading" apparaît en surimpression.]
+Now that is what I call vibe trading. Let me just specify what I mean. Most people hear vibe trading and think of FOMOing into a trade after reading a Twitter post.
+
+[VISUEL: L'homme est de nouveau visible en plein écran, avec un filtre noir et blanc.]
+In my eyes, that's not vibe trading, that's just the next step to gambling.
+
+[VISUEL: L'homme est de nouveau visible en plein écran. Le texte "Bi trading" apparaît en surimpression, puis "Automated".]
+Vibe trading is the opposite. It's using natural language wired into a rules-based system through AI. You describe what you want, a strategy, a trigger, an automation, and the AI builds, backtests, and runs it. Fully automated from A to Z. You stay in the strategy layer, the vibe is getting translated into rules.
+
+[VISUEL: L'homme est de nouveau visible en plein écran. Le texte "Next level" apparaît en surimpression.]
+And for me, that is the next level. This is what we're doing here together. 200 people back 10,000 strategies in less than 24 hours. That's not vibe trading, that is vibe trading at scale.
+
+[VISUEL: L'homme est de nouveau visible en plein écran.]
+Okay guys, now you have all of the tools, you have the workbook, and access to the library.
+
+[VISUEL: Le texte "AI Leave a comment!" apparaît en surimpression sur l'homme.]
+Of course, if you don't, comment "AI" down below and I will send that to you.
+
+[VISUEL: L'homme est de nouveau visible en plein écran. Le texte "This Sunday" apparaît en surimpression.]
+This Sunday, I'm running a live session for 200 people.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant la page "Browse Strategies" de "TRADER.dev". Le texte "30A_VERIFIER days" apparaît en surimpression.]
+We're going to set up and plug into the network properly. I'm going to show you how you can take your first trade directly from AI. We're going to be browsing the library, finding these strategies. And I'm going to show you how you can get AI to rebalance your portfolio and choose the strategies that it should be trading, removing the ones that are losing their edge, and automatically doing everything in the background whilst you're doing something else. Everybody in the live gets 30 days of StrategyFactory for free. That's 500 pre-validated strategies on top of that 10,000 strategies that you saw earlier.
+
+[VISUEL: L'écran de l'homme est visible à droite, affichant la page "Browse Strategies" de "TRADER.dev". Le texte "ALL THE LINKS DOWN BELLOW" apparaît en surimpression.]
+The link is in the description. Even if you can't make the live, sign up as the replay goes live for everyone that registers.
+
+[VISUEL: L'homme est de nouveau visible en plein écran. Les icônes "Like", "Subscribe", "Bell" apparaissent.]
+Okay guys, that's it for me. Have an absolutely wonderful week. Take care, keep safe, trade like a boss, and I hopefully will see you in the live webinar. Take care. Goodbye!
+
+[VISUEL: Animation de fin. Un dessin animé de l'homme apparaît. Les textes "DAVIDDTECH.COM", "EVERY TRADER SHOULD KNOW THIS", "Trade like a BOSS!" sont affichés.]
+(Musique entraînante)

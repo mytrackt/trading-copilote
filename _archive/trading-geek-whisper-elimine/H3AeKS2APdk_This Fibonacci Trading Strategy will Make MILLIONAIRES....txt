@@ -1,0 +1,175 @@
+I'm going to show you everything you need to know about Fibonacci retracements
+and how you can use this magical tool to make millions from trading.
+So what is Fibonacci retracements?
+I do not want to waste your time by telling you like the boring history behind this tool
+because honestly you do not need to know who created this and stuff
+but you must learn how to use it.
+So when do you actually use the Fibonacci retracement?
+Look at this example right here.
+Price has already made this huge up move and you cannot enter right here
+because if you enter right here, your stop loss must be super duper wide.
+So what we want to do is to wait for Price to retrace a little bit first
+and then that is when we can enter for a buy position.
+So what I will do right now is to plot my Fibonacci retracement too
+and place it on my charts.
+So right now you can see these are your retracement levels.
+Your 38.2, 50, 61.8, 78.6.
+These are your retracement levels.
+That means that we are expecting Price to retrace to either one of these retracement levels.
+And as you can see, Price went down to the 38.2 retracement levels.
+So the next question is, after Price is done retracing, where is it going to go next?
+Extension levels.
+It's going to go to the extension levels next.
+Just check out this example right here.
+Okay, Price went up to your extension level.
+So the extension level is these two levels that we have on top right here.
+The negative 27 level and the negative 61.8 level.
+So basically, Price is going to retrace to either one of these retracement levels.
+The 38.2, 50, 61.8 and the 78.6 levels.
+Either one of them.
+And then after Price is done retracing, it's going to go to the extension levels.
+Which is the negative 27 or the negative 61.8 level.
+A lot of videos on YouTube are trying to make this look complicated as hell.
+When in reality, it is really just as simple as that.
+So how do you use it to find high win rate trade opportunities?
+The first thing we must learn is how to set it up, right?
+So what you can do is click on this button right here if you are trading on TradingView.
+And then this will be your Fibonacci retracement too.
+So you put out a Fibonacci retracement too.
+And the first thing you want to do is to copy my settings.
+Right now, you can see my settings on the screen.
+And I want you to literally like copy like my exact settings.
+And you can pause the video if you want.
+And basically, I ask you guys to copy my settings.
+Because it will be so much easier for you to follow along.
+So the first step is to find a clear trend.
+And right now, this is clearly an uptrend.
+Because price is going up, right?
+So the second step is that you want to apply the Fibonacci retracement too.
+So in an uptrend just like this, you want to drag your Fibonacci tool from the swing low to the swing high.
+So the swing low will be the lowest point price was at before it did this beautiful up move.
+And then the swing high will be the highest point price was at before it starts retracing.
+So this is the swing low and this is the swing high.
+So I will drag my Fibonacci retracement tool from the swing low all the way up to my swing high right here.
+And also make sure that you connect them at the end of the candlestick wigs.
+So the third step is to wait for price to retrace to either one of the retracement levels.
+Either one, guys.
+And I also want you to know that if price breaks through the 100% level,
+that means that price is no longer retracing.
+This is no longer a retracement and price is about to reverse and head back down.
+Another very important point is that you want to treat these levels as your support and resistance areas.
+Which means that they are an area.
+They are not an exact level, alright?
+What I mean by that is that price won't just go to 50% level and then reverse.
+No.
+It can go to an area around the 50% level.
+An area, not an exact level, guys.
+Now the next question is how do we know at which level will the retracement ends?
+Now you cannot enter immediately when price is at the retracement levels like this.
+Alright, you cannot enter right here.
+Because you still do not know if this is the end of the retracement.
+Price can easily retrace and go down even further to the 50% level or the 61.8% level.
+So you must wait for price to show you some sort of signs that price is done retracing and it's about to head back up.
+So you can see that in this example, price break through the 38.2% retracement levels and it still continue going back down.
+So right now, we still do not want to enter yet.
+We want to wait for a sign that show you that this retracement is done and it's still not done yet.
+So you can see price continue breaking through the 38.2% level and went down to the 50% retracement level next.
+And we still do not want to enter yet.
+So we wait, we wait, we wait.
+Okay, you can see like price is starting to find like a bottom at this level.
+How do we know that?
+Because we see 2 green candlesticks with like 2 long wigs.
+You can see these 2 candlesticks have had 2 long wigs.
+That show us that at some point of time, price got pushed all the way down there.
+But then buyers come back into the market and push the price up.
+So this tell us that maybe this retracement is done.
+Alright.
+And then after price formed this candlestick pattern, it formed another green candlestick pattern and another green candlestick pattern.
+Which show us that there is a lot of upward momentum.
+And this show us that price is done retracing.
+So at this exact moment, this is when we enter for a buy position.
+Finally, right?
+And finally, we enter for a buy right here.
+And we will place our stop loss below the swing low right here.
+And then for your take profit, you want to place your take profit at the extension level that we have drawn.
+The negative 27 extension level all the way up here.
+So let's see how this trade plays out.
+Bam, bam, bam.
+Absolutely smashed our take profit level, guys.
+Price went all the way up there to negative 27 level.
+Making this a super successful trade.
+It is okay if you still do not understand.
+Let me show you another example.
+So you can see right now, price has did this beautiful uptrend.
+It went all the way up here.
+So that's the first step, right?
+We have identified that this is the uptrend and price is going to go up.
+So the next step is to draw our Fibonacci retracement tool.
+So you can take out your Fibonacci retracement tool and mark from the swing low.
+Pull it all the way up to the swing high, which is right here.
+This is the swing high before price starts retracing.
+So now we want to wait for price to retrace to either one of these retracement level that
+we have drawn right here.
+Either one of these retracement levels.
+So right now, price has retraced to the 38.2 level.
+Do you think we should enter right here?
+Comment down your answer below.
+If you comment, yes, you should enter.
+You are wrong, bro.
+You should not enter right here because price has not shown us any signs that price is
+going to reverse and head back up.
+Price can easily go down even further.
+And this is what price did.
+Price went down even further to the 50 extension level.
+And at this point of time, we see a bullish engulfing candlestick.
+We see a morning star candlestick pattern.
+So this morning star candlestick pattern tell us that price is done retracing and price is
+going to reverse and head back up.
+Along with this bullish engulfing candlestick telling us that is a lot of upward momentum.
+So in this case, this is where we enter for our buy position.
+So we'll place our stop loss below this swing low right here and place our take profit all
+the way up at the extension level, the negative 27 extension level.
+And let's see how this beautiful trade play out.
+Bam, bam, bam.
+Absolutely smashed our take profits.
+It's really as simple as that, boys.
+Now let me show you what it will look like in a downtrend.
+So in a downtrend, just like this, price is going down.
+So in a downtrend, when you apply the Fibonacci retracement tool, it's the opposite.
+That means you will drag it from the top, the swing high, all the way down to the swing
+low before price starts retracing, which is right here.
+This is the lowest point before price starts retracing.
+Now we want to wait for price to retrace to our retracement level first before we can
+consider entering for our sell position.
+So we wait, we wait, we wait, we wait, we wait.
+Bam, bam, bam, bam, bam.
+Bam, okay, price went all the way up to the 50 extension level.
+But it still have not shown us that price is going to reverse and head back down yet.
+But we still wait, patiently, wait for signs that tell us that price is going to head back
+down.
+Okay, you can see like price is starting to, bam, right there, guys, right there.
+Price did this super long week candle, which show us that at some point of time, price got
+pushed all the way up to the 61.8 level, but then it got rejected.
+That's why price did this super long week candle.
+So once we see this candlestick, we can enter for our sell right here because this show us
+that there is a lot of selling pressure and this overall downtrend is about to continue.
+So you'll place your stop loss above this swing high right here and then you'll place
+your take profit all the way down at this negative 27 extension level.
+And let's see how this trade plays out.
+Absolutely collapse.
+And at this point of time, yeah, smash our take profit and we have closed that trade.
+If you find this video helpful, make sure to scroll down right now and smash that like
+button and also hit on that subscribe button.
+I forgot to mention, but you cannot just use Fibonacci retracement.
+You need to combine this with other confluences and other trading strategy.
+So I will advise you to click on this video right here, this video right here to learn
+more about this trading strategy.
+And if you can combine this strategy with the Fibonacci retracement strategy, trust me,
+it's going to make your trading so much more easier.
+So click on this video to find out more.
+Click on it, bro.
+Click on it.
+Click on it.
+Click on it.
+Click on it.
+Click on it.

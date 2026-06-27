@@ -1,0 +1,19 @@
+2026-06-27 00:57:54  ================ BATCH LAYER3 NT8 — S31 ================
+2026-06-27 00:57:54  Dossier sortie : C:\trading-copilote\03-transcriptions\nouvelles-sources\Claude NinjaTrader
+2026-06-27 00:57:54  Videos a traiter : 5
+2026-06-27 00:57:54    - gPl_X7xkLW0  (https://youtu.be/gPl_X7xkLW0)
+2026-06-27 00:57:54    - RtHca3NU-D4  (https://youtu.be/RtHca3NU-D4)
+2026-06-27 00:57:54    - 7oJ1ExbuaxQ  (https://youtu.be/7oJ1ExbuaxQ)
+2026-06-27 00:57:54    - 6njREUQAFdg  (https://youtu.be/6njREUQAFdg)
+2026-06-27 00:57:54    - lIMu8ysJW68  (https://youtu.be/lIMu8ysJW68)
+2026-06-27 00:57:54  [1/5] gPl_X7xkLW0 -> telechargement...
+2026-06-27 01:00:31  [1/5] gPl_X7xkLW0 [OK] -> gPl_X7xkLW0_gemini.txt (40 VISUEL, 0 REGLE)
+2026-06-27 01:00:33  [2/5] RtHca3NU-D4 -> telechargement...
+2026-06-27 01:01:49  [2/5] RtHca3NU-D4 [ERREUR] Echec apres 3 tentatives : 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually t
+2026-06-27 01:01:49  [3/5] 7oJ1ExbuaxQ -> telechargement...
+2026-06-27 01:03:55  [3/5] 7oJ1ExbuaxQ [OK] -> 7oJ1ExbuaxQ_gemini.txt (14 VISUEL, 0 REGLE)
+2026-06-27 01:03:57  [4/5] 6njREUQAFdg -> telechargement...
+2026-06-27 01:08:14  [4/5] 6njREUQAFdg [OK] -> 6njREUQAFdg_gemini.txt (33 VISUEL, 0 REGLE)
+2026-06-27 01:08:16  [5/5] lIMu8ysJW68 -> telechargement...
+2026-06-27 01:11:41  [5/5] lIMu8ysJW68 [OK] -> lIMu8ysJW68_gemini.txt (49 VISUEL, 0 REGLE)
+2026-06-27 01:11:43  ==== TERMINE  OK:4  SKIP:0  ERREURS:1  TOTAL:5 ====

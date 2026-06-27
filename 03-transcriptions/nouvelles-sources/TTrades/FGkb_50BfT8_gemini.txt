@@ -1,0 +1,112 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: FGkb_50BfT8.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+"How's it going everyone? This video is going to be over the differences between low resistance liquidity and high resistance liquidity. Let's hop into the PDF before we go into the charts for some examples."
+
+[VISUEL: Slide PDF intitulé "Failure swings". Deux exemples de graphiques en chandeliers.
+À gauche (Bearish Example) : Une tendance haussière, puis un swing high. Le prix fait un plus bas haut (lower high) par rapport au swing high précédent, puis inverse la tendance à la baisse. Une flèche jaune indique le "failure swing" (le plus bas haut qui n'a pas cassé le swing high précédent).
+À droite (Bullish Example) : Une tendance baissière, puis un swing low. Le prix fait un plus haut bas (higher low) par rapport au swing low précédent, puis inverse la tendance à la hausse. Une flèche jaune indique le "failure swing" (le plus haut bas qui n'a pas cassé le swing low précédent).]
+"So to understand the differences between high resistance and low resistance liquidity, you have to understand what a failure swing is. So what a failure swing is, is when we have a swing high, and then we make a lower high relative to that before reversing. So this high never got swept before the reversal. And similarly over here, we make a low with a higher low. This low was never swept prior to the reversal."
+
+[VISUEL: Slide PDF intitulé "LRLR". Deux exemples de graphiques en chandeliers.
+À gauche (Bearish Example) : Tendance haussière, un swing high est marqué par une ligne pointillée horizontale avec un symbole '$' au-dessus. Le prix fait un plus bas haut (lower high) juste à côté du swing high précédent, sans le dépasser. Une flèche jaune pointe vers ce plus bas haut, indiquant un "failure swing". Des symboles '$' apparaissent au-dessus des plus bas hauts successifs, montrant l'accumulation de liquidité.
+À droite (Bullish Example) : Tendance baissière, un swing low est marqué par une ligne pointillée horizontale avec un symbole '$' en dessous. Le prix fait un plus haut bas (higher low) juste à côté du swing low précédent, sans le casser. Une flèche jaune pointe vers ce plus haut bas, indiquant un "failure swing". Des symboles '$' apparaissent en dessous des plus hauts bas successifs, montrant l'accumulation de liquidité.]
+"So now what is low resistance liquidity? Well, low resistance liquidity is just a failure swing. So how I like to picture it is we have liquidity resting above highs and lows. So as we trade away, we then generate more highs and lows and thus more liquidity."
+
+[VISUEL: Slide PDF intitulé "HRLR". Deux exemples de graphiques en chandeliers.
+À gauche (Bearish Example) : Tendance haussière, un swing high est marqué par une ligne pointillée horizontale avec un symbole '$' au-dessus. Le prix dépasse ce swing high (sweep), puis inverse la tendance à la baisse. La zone de dépassement est mise en évidence par un rectangle rouge. Une croix rouge apparaît sur le symbole '$' initial, indiquant que la liquidité a été "swept". Un nouveau symbole '$' apparaît au-dessus du nouveau plus haut, qui a été dépassé.
+À droite (Bullish Example) : Tendance baissière, un swing low est marqué par une ligne pointillée horizontale avec un symbole '$' en dessous. Le prix casse ce swing low (sweep), puis inverse la tendance à la hausse. La zone de cassure est mise en évidence par un rectangle rouge. Une croix rouge apparaît sur le symbole '$' initial, indiquant que la liquidité a été "swept". Un nouveau symbole '$' apparaît en dessous du nouveau plus bas, qui a été cassé.]
+"So what is high resistance liquidity? Well, high resistance liquidity is the opposite of low resistance liquidity. It is where we first sweep that liquidity before the reversal. You can see here, we have a high, we make a higher high before reversing. We have a low, we make a lower low before reversing. And then what this does is wipes out the liquidity resting right here and right here. So now the liquidity is resting above this high and low, and that is what creates high resistance liquidity."
+
+[VISUEL: Slide PDF intitulé "Buyside & Sellside of the curve". Un graphique en chandeliers montrant une tendance baissière.
+Initialement : Un swing high est marqué par une ligne pointillée horizontale avec un symbole '$' au-dessus (LRLR). Un swing low est marqué par une ligne pointillée horizontale avec un symbole '$' en dessous. Le prix casse ce swing low, la zone de cassure est mise en évidence par un rectangle rouge (HRLR). Une croix rouge apparaît sur le symbole '$' initial.
+Ensuite : Le prix remonte, fait un plus bas haut (failure swing) qui n'atteint pas le swing high initial. Un nouveau symbole '$' apparaît au-dessus de ce plus bas haut (LRLR). Le prix casse ensuite ce plus bas haut et continue à monter.]
+"So now how do I actually use high resistance liquidity and low resistance liquidity together? Well, simply put, I want to be targeting low resistance liquidity and having high resistance liquidity for my stop loss or on my side of the curve. So in this diagram here, you can see we have a high with a lower high next to it, that is our low resistance liquidity, and we just swept out a low here. So if we get a market structure shift and start to trade away, this is high resistance liquidity. So here we get the market structure shift or the change in the state of delivery. Now here I could look for an entry on the fair value gap or the order block, or if you notice here, we could not make a new high after making a low. And so what happens is we sweep this low. And what else do you notice? We have a high with a lower high, or more low resistance liquidity, and then the move finishes here."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe 15min. Le prix a une tendance haussière, puis latérale, puis baissière, puis haussière.
+À 2A_VERIFIER:38A_VERIFIER, le curseur marque un swing high.
+À 2A_VERIFIER:40A_VERIFIER, une ligne horizontale est tracée au-dessus d'un swing high.
+À 2A_VERIFIER:43A_VERIFIER, une autre ligne horizontale est tracée au-dessus d'un plus bas haut (failure swing).
+À 2A_VERIFIER:48A_VERIFIER, le curseur se déplace vers un swing high plus ancien à gauche.
+À 2A_VERIFIER:53A_VERIFIER, le curseur se déplace vers un swing low. Une ligne horizontale est tracée sous ce swing low.
+À 2A_VERIFIER:55A_VERIFIER, une autre ligne horizontale est tracée sous un plus bas bas (sweep) par rapport au swing low précédent.
+À 3A_VERIFIER:00A_VERIFIER, le curseur trace une flèche du plus bas bas vers le plus bas haut.
+À 3A_VERIFIER:06A_VERIFIER, le prix se déroule. Il casse le plus bas bas (sweep) et remonte pour casser le plus bas haut (failure swing) et le swing high initial.]
+"Let's hop into TradingView for some examples. So here we are in our first example. And if you take a look at this price action, what do you notice? Well, for me, the first thing that stands out are all these highs resting above here. You can see we have a bunch of highs lined up. And if we look to the left, this high here never took out this high. So we have a higher timeframe failure swing there. And if you look down here, we just took out these equal lows into this gap. So, if we're going to change the state of delivery, I'd like to see price go from this low to take out these failure swings. So let's see what happens. And there we go. So you can see, price swept this low over here, making high resistance liquidity, and then we trade to these failure swings. You can see, we do take out this high here, but we end up leaving equal highs from this previous high. And then we retrace to get another expansion."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe Daily. Le prix est dans une tendance haussière, puis latérale, puis baissière.
+À 3A_VERIFIER:36A_VERIFIER, le curseur marque une série de plus hauts bas (failure swings) sur les lows des bougies. Des lignes horizontales sont tracées sous ces lows.
+À 3A_VERIFIER:50A_VERIFIER, le curseur marque un plus bas haut (failure swing) sur le high d'une bougie.
+À 3A_VERIFIER:58A_VERIFIER, le timeframe passe à 1h.
+À 4A_VERIFIER:00A_VERIFIER, le graphique 1h montre une tendance baissière. Des lignes horizontales sont tracées sous les lows (failure swings). Une ligne horizontale est tracée au-dessus d'un high (sweep).
+À 4A_VERIFIER:05A_VERIFIER, le curseur marque un high qui a été "swept".
+À 4A_VERIFIER:10A_VERIFIER, le curseur marque un low qui a été "swept".
+À 4A_VERIFIER:14A_VERIFIER, le prix se déroule. Il remonte pour toucher le high "swept", puis redescend pour casser les lows "failure swings".]
+"So here we are in the second example. And if you take a look at the last three days of price action here, what do you notice? Well, if you notice, we have all these lows or previous day's lows, which have not been taken out. So, you can see that that is low resistance liquidity on a lower timeframe, as they are making failure swings. If we look at the high end of this, what do we see? Well, we see that this second day here took out this first day's high. Let's drop down to the hourly chart to see what this looks like. So down here on the hourly chart, you can see we actually have another low resting right here. But what do you see? Well, we took out this side of the range, creating high resistance liquidity, and we have failure swings resting below. So let's see what happens. And there we go. We retrace into the range before dropping and taking out all this low resistance liquidity. So a lot of times what I like to do on the daily chart is just see where do we have failure swings and where do we have high resistance liquidity, and that can add to my bias."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe Daily. Le prix est dans une tendance haussière.
+À 4A_VERIFIER:40A_VERIFIER, le curseur marque un high. Une ligne horizontale est tracée au-dessus.
+À 4A_VERIFIER:42A_VERIFIER, le curseur marque un low. Une ligne horizontale est tracée en dessous.
+À 4A_VERIFIER:44A_VERIFIER, le curseur marque un plus bas haut (failure swing).
+À 4A_VERIFIER:48A_VERIFIER, le prix se déroule. Il casse le low (sweep), puis remonte pour casser le high (sweep).]
+"Let's take a look at NQ daily chart here to see what we have. Well, we are trading within a range. And if you see, we have a high and a low, and then we have a failure swing. So let's see what happens. So here you can see, we take out this low. So, that has the possibility of becoming high resistance liquidity. But as we play this ahead one more day, you can see, now we get the sweep and the closure back inside the range. So, here is our high resistance liquidity. And what do we have on the highs? Failure swings. So if I have high resistance liquidity on the lows, and failure swings on the highs, I can use this to add to my bias for long setups. So there we go. We run the high."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe Daily. Le prix est dans une tendance haussière.
+À 5A_VERIFIER:25A_VERIFIER, le curseur marque un high. Une ligne horizontale est tracée au-dessus.
+À 5A_VERIFIER:26A_VERIFIER, le curseur marque un low. Une ligne horizontale est tracée en dessous.
+À 5A_VERIFIER:28A_VERIFIER, le prix se déroule. Il casse le high (sweep), puis remonte pour casser le low (sweep).]
+"Alright, well, let's take a look at another example. Here we have a high, and here we have a low. So, let's see. Okay, we just took out this high. And what do we have on the low? Failure swings. So, ideally, this high does not get taken before running this low. So, letting this play out. We get some consolidation, but that is what happens. Now what do you see? Well, now we have a high here with a lower high. And we just swept out this side of the range in an uptrend. So, if this is going to be high resistance liquidity, where would we want to see price trade to? These previous highs."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe 1h. Le prix est dans une tendance haussière, puis baissière, puis haussière.
+À 6A_VERIFIER:32A_VERIFIER, le curseur marque un high. Une ligne horizontale est tracée au-dessus.
+À 6A_VERIFIER:35A_VERIFIER, le curseur marque un plus bas haut (failure swing). Une courbe est tracée au-dessus des highs.
+À 6A_VERIFIER:45A_VERIFIER, le curseur marque un low. Une ligne horizontale est tracée en dessous.
+À 6A_VERIFIER:53A_VERIFIER, le prix se déroule. Il casse le low (sweep), puis remonte pour casser le high (failure swing).]
+"So here we are with our next example. Go ahead and pause the video and take a moment to mark it up. So what do you see right here? Well, the first thing that catches my eyes are these highs up here. You can see, we just have a bunch of failure swings, right? So, I'll just go ahead and mark that out like so. And that is acting as a draw on liquidity. Now, if we're going to be targeting this high, I want to see a sweep or high resistance liquidity. Well, what do we see right here? We sweep this low, creating high resistance liquidity. And another important note, this is an important low, as it is previous day low. So now I anticipate this low to hold and trade away to this high. So let's see what happens. And there we go. So you can see by just understanding low resistance liquidity and high resistance liquidity, an ideal was framed."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe Daily. Le prix est dans une tendance haussière.
+À 7A_VERIFIER:22A_VERIFIER, le curseur marque une série de plus bas hauts (failure swings) sur les highs des bougies. Des lignes horizontales sont tracées au-dessus de ces highs.
+À 7A_VERIFIER:30A_VERIFIER, le curseur marque un low qui a été "swept".
+À 7A_VERIFIER:35A_VERIFIER, le curseur marque un high qui a été "swept".]
+"Now out on the daily chart, you can also see this low resistance liquidity, as these previous day's highs, or the last three day's highs were lined up like so. And how this day took previous day low before coming in and closing, and where does it close? Above 50% of this wick. So then I can anticipate the next day to trade higher to these highs and into this fair value gap."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe 1h. Le prix est dans une tendance haussière, puis baissière.
+À 7A_VERIFIER:52A_VERIFIER, le curseur marque un high qui a été "swept" (SMT).
+À 7A_VERIFIER:55A_VERIFIER, le curseur marque un low qui a été "swept".
+À 8A_VERIFIER:00A_VERIFIER, le curseur trace une flèche du low "swept" vers le high "swept".]
+"So once again, in this next example, where is the high resistance liquidity and where is the low resistance liquidity? So you can see, we purge this high, creating high resistance liquidity. And ideally, I'd like to see price trade down to this low resistance liquidity. Now since ES formed an SMT here and is weaker, we're going to hop into that chart for the rest of this example."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe 1h. Le prix est dans une tendance haussière, puis baissière.
+À 8A_VERIFIER:11A_VERIFIER, le curseur marque un high qui a été "swept" (SMT).
+À 8A_VERIFIER:18A_VERIFIER, le curseur marque une série de lows (failure swings) juste au-dessus d'un fair value gap et d'un order block. Des lignes horizontales sont tracées sous ces lows.
+À 8A_VERIFIER:27A_VERIFIER, le curseur marque un order block.
+À 8A_VERIFIER:37A_VERIFIER, le curseur marque le mean threshold de l'order block.
+À 8A_VERIFIER:43A_VERIFIER, le prix se déroule. Il casse les lows (failure swings) et touche l'order block.
+À 8A_VERIFIER:50A_VERIFIER, le prix remonte pour toucher le high "swept" (SMT).]
+"So here we are in ES. You can see, this is the SMT at the high, where NQ created the high resistance liquidity. And where is the low resistance liquidity? You can see, we have this really obvious series of lows resting right here, right above a fair value gap with an order block. Why is this an order block? Well, it retched into an important level, then price closed above, creating an order block. So you can see, we have low resistance liquidity right above an order block. So let's see what happens. And there we go. We run all these low resistance lows into the order block. You can see, the mean threshold of this creates a reaction. And where do we go? Well, if you take a look at these highs now, so we have a series of lower highs all stacked up. We just swept out all these lows. Where is price likely to go? Well, to these highs. Let's see. And there we go."
+
+[VISUEL: Graphique en chandeliers sur TradingView, timeframe 1h. Le prix est dans une tendance baissière, puis haussière.
+À 9A_VERIFIER:12A_VERIFIER, le curseur marque un low qui a été "swept".
+À 9A_VERIFIER:17A_VERIFIER, le curseur marque un high. Une ligne horizontale est tracée au-dessus.
+À 9A_VERIFIER:19A_VERIFIER, le curseur marque un plus bas haut (failure swing).
+À 9A_VERIFIER:26A_VERIFIER, le prix se déroule. Il remonte pour toucher le plus bas haut (failure swing).
+À 9A_VERIFIER:30A_VERIFIER, le curseur marque un order block.
+À 9A_VERIFIER:35A_VERIFIER, le curseur marque le mean threshold de l'order block.
+À 9A_VERIFIER:40A_VERIFIER, le prix se déroule. Il remonte pour toucher le mean threshold de l'order block.
+À 9A_VERIFIER:45A_VERIFIER, le curseur marque un autre order block.
+À 9A_VERIFIER:50A_VERIFIER, le prix se déroule. Il remonte pour toucher le mean threshold du deuxième order block.
+À 9A_VERIFIER:55A_VERIFIER, le curseur marque un low qui a été "swept".
+À 10A_VERIFIER:00A_VERIFIER, le curseur marque un high qui a été "swept".
+À 10A_VERIFIER:05A_VERIFIER, le curseur marque un order block.
+À 10A_VERIFIER:10A_VERIFIER, le curseur marque le mean threshold de l'order block.
+À 10A_VERIFIER:15A_VERIFIER, le prix se déroule. Il remonte pour toucher le mean threshold de l'order block.
+À 10A_VERIFIER:20A_VERIFIER, le curseur marque un autre order block.
+À 10A_VERIFIER:25A_VERIFIER, le curseur marque le mean threshold du deuxième order block.
+À 10A_VERIFIER:30A_VERIFIER, un outil de position longue est placé : entrée sur le mean threshold de l'order block, stop loss sous le low "swept", take profit sur le high "failure swing".
+À 10A_VERIFIER:35A_VERIFIER, le prix se déroule. Il touche l'entrée, puis le take profit.]
+"So here we are in our last and final example. And if you notice, we just took out our previous day low. So, as we zoom in here, what do we have on the high? Well, we have a swing high with a lower swing high to the right of it, or failure swings. So let's see if we get a reaction off of this level. We do. And we get a closure over this series of down close candles here, validating it as an order block. Now, just in terms of discount and premium, doesn't really make sense to look for an entry off this order block here. So then I will use the mean threshold, or I can just wait for a second entry. So let's see. So the mean threshold does hold. And then we validate another order block. So, marking out the mean threshold of that as well. Let's see. Here we create a low. I could have looked for that. So if you notice, we swept out this low here. What else do we have resting? Well, we have failure swings here. So, this looks pretty much just like the diagram from the PDF. But what do we have here? Well, the down close candle into the important level, or sweeping right here. Once I get a close up that, validates it as an order block. And so there we get an order block formation. I'd look to take my entry right here, my stop on the high resistance liquidity, and then looking to take off at the highs. So let's see how this works out. And there we go. We get a run higher to the take profit. So just a little thing with order blocks here. You can see, once we close over the series of down close candles here, mean threshold is respected. Here we close over, creating this propulsion block, which the mean threshold is continuously respected. But why would I not expect this low to hold or wouldn't really trust it and want my invalidation here unless I get a sweep creating high resistance liquidity? Well, price never came and closed over this level, right? So, I'm not using that as a valid low for invalidation. Once we sweep it, then we form another order block off of this propulsion block, and the mean threshold of that should be respected, which it is, and then it continues higher. Now I hope you found this video helpful. If you did, please consider liking and subscribing. And I'll see you guys next time. Have a good one."

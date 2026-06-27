@@ -1,0 +1,221 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: pGO9MwMCJKo.mp4]
+---
+Please note: The video provided features a speaker who is not Mustapha Belkhayate and the language spoken is English, not French. I will transcribe the video as presented in English, following your formatting rules for visual and rule descriptions.
+
+00:00 [VISUEL: Un homme asiatique souriant, portant un t-shirt bleu avec le logo de Superman, parle devant un microphone noir. L'arrière-plan est un mur blanc uni avec un rideau gris clair sur la gauche.]
+"Hey hey, what's up, what's up, my friend?"
+
+00:05 "So let me ask you, do you feel this way?"
+00:08 "You don't know if your trading strategy really works or not?"
+00:16 [VISUEL: L'homme continue de parler. Une image d'un homme noir pleurant, les yeux fermés et la bouche ouverte, apparaît en surimpression sur la droite de l'écran, puis disparaît.]
+"And after a few losing trades, you start to lose confidence in your strategy and sometimes even in yourself."
+00:23 [VISUEL: L'homme continue de parler. Une animation d'un homme fatigué, les yeux cernés, assis devant un vieil ordinateur, apparaît en surimpression sur la droite de l'écran, puis disparaît.]
+"So you hop from one strategy to another with the hopes of finding something better."
+00:30 [VISUEL: L'homme continue de parler. Une image d'un graphique boursier avec de nombreuses lignes colorées et complexes (lignes de tendance, indicateurs) apparaît sur la droite de l'écran. Le graphique est très encombré.]
+"You've tried different tools, indicators, and what not, but the losses eventually show up."
+00:34 [VISUEL: L'homme continue de parler. L'image de l'homme noir pleurant réapparaît sur la droite de l'écran, puis disparaît.]
+"And you don't know what to do about it."
+00:38 "And this entire process rinse, repeat itself."
+00:41 "Sounds familiar?"
+00:43 "And if you can relate to it, don't worry, because in today's training, you will discover..."
+00:47 [VISUEL: L'écran passe à une diapositive de présentation avec le titre "You'll discover:" et une liste à puces. L'homme apparaît dans une petite fenêtre en haut à droite.]
+"Number one, my 4-step framework to create profitable trading strategies (even if you have tried everything else and failed)."
+00:57 "I'll share with you how to get an endless supply of trading ideas, so you can develop trading strategies that actually work."
+01:05 "How to create a complete trading system from start to finish, the entries, the exits, the setups, the risk management, so on and so forth, so you know when exactly to buy and sell (without emotions)."
+01:19 "And you can minimize the emotions messing with your head."
+01:21 "And finally, I'll give you the complete trading rules of a trend following system, so you can profit in bull and bear markets, even during a recession."
+01:29 [VISUEL: L'homme dans la petite fenêtre fait un geste de la main vers la diapositive.]
+"So all this and more in today's training."
+01:31 [VISUEL: L'homme fait un pouce en l'air. Une animation d'un bouton "SUBSCRIBED" et d'une cloche de notification YouTube apparaît en surimpression.]
+"Sounds good? Then subscribe to the channel and let's get to it."
+01:35 [VISUEL: L'écran devient bleu avec le texte "PART 1A_VERIFIER" puis "THE R.E.T.T. FORMULA" en blanc.]
+
+01:39 [VISUEL: L'écran passe à une diapositive avec le titre "Read the right stuff" et une liste à puces. L'homme apparaît dans une petite fenêtre en haut à gauche.]
+"Now, the first step of the framework is to read the right stuff. This means you want to read trading books that contain trading systems and backtest results."
+01:51 "Why is that? That's because you will then have a foundation to work on so you don't have to start from scratch."
+01:59 "In other words, you don't have to reinvent the wheel."
+02:01 "And another thing is that there's a good chance these books will contain trading systems that are likely to work because the author's reputation is at stake."
+02:17 "You don't want to publish something that doesn't work because, you know, it makes your name kind of smelly, right? So, more often than not, the systems in trading books, there's a good chance that it will work."
+02:24 "And if you want to have a list of my top trading books that contains trading systems with backtested results, then you can actually go to this page over here."
+02:30 [VISUEL: L'écran montre une page web avec le titre "I've read hundreds of trading books and most are a waste of time." Sur la droite, il y a un formulaire d'inscription avec un PDF et le texte "Get my list of top trading books with backtested results."]
+"The URL is quite, quite long, so I'll put the link in the description below."
+02:37 "So, go to that link, right, and you'll come to this page, and I'll send my list of top trading books to your inbox, so you can actually know what are the trading books worth reading and what are the ones that you don't want to waste much time on. Yeah, so I'll put the link in the description below."
+02:49 [VISUEL: L'écran passe à une diapositive avec le titre "Extract the essence" et une liste à puces.]
+"The second part of the framework is to extract the essence. I know that sounds kind of complex, but let me break it down."
+02:59 "You want to extract the essence behind a strategy so you can actually use it to develop your own strategy."
+03:08 [VISUEL: L'homme fait une expression de confusion, son visage devient rouge vif, puis redevient normal.]
+"Now you might be thinking, 'Man, Rainer, what do you mean by essence?'"
+03:12 "Let me explain."
+03:13 [VISUEL: L'homme continue de parler. Une image d'une petite voiture jaune (Mini Cooper) avec un fauteuil sur le toit apparaît sur la gauche.]
+"So if you think about this, a car, an automobile, what is the essence behind a car? What are the things that make a car a car?"
+03:23 [VISUEL: L'image de la voiture est rejointe par une image d'un volant de Formule 1A_VERIFIER, puis d'un moteur de voiture de sport.]
+"So if you ask me, it will be things like the steering wheel, the engine, the body, the chassis of a car. These are the things, the parts that make up the essence of a car."
+03:33 "So what are the things that are not part of the essence? If you ask me, it will be things like the air conditioner, the windscreen. Those are, you know, nice to have, but not essential."
+03:46 "So this is what we mean by the essence. The core things that make up a car. So it's the same thing for trading. What are the essence that is behind the strategy?"
+03:55 [VISUEL: L'homme continue de parler. Le texte "Trend following" est écrit à la main sur la diapositive.]
+"Let me give you an example. Trend following. It's a proven strategy. When I talk about trend following, I'm referring to the futures trend following strategy."
+04:08 "So trend following does well in bull and bear markets, especially during a crisis, during recession, when there's fear. Why is that? Let me explain why."
+04:16 [VISUEL: L'homme continue de parler. Une image d'une salle de cinéma vide avec des sièges rouges apparaît sur la gauche.]
+"Imagine you're in a cinema watching a movie, maybe it's Avengers Endgame, right?"
+04:23 [VISUEL: L'image de la salle de cinéma est rejointe par une image d'une boule de feu géante qui semble se diriger vers les sièges.]
+"And during the movie, you notice that there's a ball of fire starting to get bigger and bigger."
+04:30 "And now it's at a point where you're starting to feel the heat, starting to, you know, make you sweat buckets."
+04:36 [VISUEL: L'image de la boule de feu est remplacée par une image d'une petite fille courant avec une expression de panique.]
+"Let me ask you, will you start to rush for the exit of the cinema or will you continue watching the movie till Captain America lift the hammer?"
+04:42 [VISUEL: L'image de la petite fille est remplacée par une bande dessinée d'un chien assis dans une pièce en feu, disant "This is fine."]
+"For 99.9% of you, you guys are going to rush, run for the exit because your life comes first."
+04:52 "This is what we call the herd mentality."
+04:55 "Now, what has this got to do with trading?"
+04:57 [VISUEL: Le texte "WHEN THERE'S FEAR IN THE MARKETS" apparaît en surimpression sur l'homme.]
+"It's the same thing. When there's fear in the market, when there's crisis, when there's recession, what is the herd going to do?"
+05:04 [VISUEL: Le texte "SELL RISKY ASSETS" apparaît sur la gauche de l'homme.]
+"They will sell. They will sell away their risky assets like stocks."
+05:09 [VISUEL: Le texte "BUY SAFE HAVEN ASSETS" apparaît sur la droite de l'homme.]
+"And for those who are a little bit smarter, they will not hold in cash. They will take that money, that capital, and put it towards safe haven assets like gold, bonds, US dollars, safe haven currencies, etc."
+05:20 [VISUEL: Le texte "TRENDS" apparaît en surimpression sur l'homme.]
+"And this creates trends. Downtrend across risky assets and uptrend in safe haven assets."
+05:26 "And as you know, when there's trends, trend follower will profit from it."
+05:31 [VISUEL: L'homme fait un geste de la main vers le haut.]
+"And this is why during a crisis period, during a recession, trend following does so well."
+05:37 [VISUEL: L'écran passe à la diapositive "Extract the essence" avec la liste à puces.]
+"So, to extract the essence, you want to ask yourself this question: What are the concepts behind the strategy? What are the concepts behind trend following?"
+05:48 "Well, I'm going to share with you shortly what are the concepts behind trend following, plus even give you a complete trend following system that allows you to profit in bull and bear markets, even during a recession."
+05:59 "But for now, let's put that on hold and move on to the third step of the framework, which is turn it into an objective set of rules."
+06:05 [VISUEL: L'écran passe à la diapositive "Turn it into an objective set of rules" avec une liste à puces.]
+"Because here's the thing, concepts, they are vague."
+06:09 "Like, you know, trend following, you profit when the market is trending. You know you have to ride trends, but this it's vague. How do you turn it into a tangible set of rules?"
+06:18 "And a simple tip that I have for you is that you can write it in this way: 'If X happens, then do Y.'"
+06:25 "So for example, let's say if you have a red trading day, means you lost money today, right? Then go for a walk."
+06:34 [VISUEL: Le texte "IF you have a red trading day THEN go for a walk" apparaît sur la diapositive. Puis "IF you have a red trading week THEN review your trades" apparaît.]
+"If you have a red trading week, then review your trades."
+06:38 [VISUEL: Le texte "IF you have a red trading month" apparaît. Une image d'un formulaire de demande d'emploi apparaît sur la gauche, puis le texte "THEN start looking for a job" apparaît.]
+"And if you have a red trading month, then start looking for a job. Yeah?"
+06:42 "So this is how we actually turn concepts into a tangible set of rules using the 'if then' syntax or statements, however you want to call it. I think for those of you who are into programming, you're familiar with it."
+06:55 "Now, to help you with this, you can actually answer this series of questions to help you transform your concepts into an objective set of rules."
+07:02 [VISUEL: L'écran passe à une diapositive avec le titre "Turn it into an objective set of rules" et une liste numérotée de 7A_VERIFIER questions.]
+"So let me go through with them. Number one, which markets are you trading? So this pretty much, you know, it's straight, straightforward, isn't it? Currency pair, stocks, futures, etc."
+07:13 "Next one, which timeframe are you trading? Is it the lower timeframe, the 5 minutes, 15 minutes, or my favorite, daily timeframe?"
+07:19 "How do you manage the risk? Such that if the trade goes against you, you can actually contain your losses."
+07:25 "And number four, what are the conditions of your trading setup? Yeah, like, like, you know, kind of like, let's say you want to find a wife. What are the conditions that your potential partner must have? Is it long hair, short hair, armpit hair? I have no idea. Yeah, you decide."
+07:42 "Next one, when do you enter a trade? What's the entry trigger that will get you into a trade?"
+07:47 "Number six, where to exit if you are wrong? For most people, they are familiar with a stop loss, and that's pretty much one way to answer question number six, having a stop loss, a price-based stop loss."
+07:57 "And number seven, when to exit if you are right? A.k.a., right, take profit."
+08:02 [VISUEL: L'écran passe à une diapositive avec le titre "Test the trading system" et une liste à puces.]
+"And the fourth step of the framework is this: test, test the trading system. You can do it either through backtesting or forward testing. Personally, my favorite is to backtest because it saves me a ton of time and money."
+08:17 "And the reason why you want to test the trading system is because you want to validate it that it works before risking a single cent."
+08:26 "Makes sense? Why would you want to trade something that you do not know whether it works or not in the live markets using real money? Because that's just taking on additional risk."
+08:35 "And also, when you test the trading system, you get to identify the strength and weakness of the system. You'll know when it does well and when it underperforms, and you can better manage your expectations."
+08:45 "And when you do that, guess what? You're going to build confidence in your trading system because you know how it has performed historically. You know what market conditions it tends to do well and what market conditions it tends to underperform. So your expectations are in check, and this allows you to trade the system with confidence for years to come."
+09:04 [VISUEL: L'homme fait un geste de la main vers le haut. Une animation d'un bouton "SUBSCRIBED" et d'une cloche de notification YouTube apparaît en surimpression.]
+"Agree? If you agree, smash the thumbs up button, right, and subscribe to the channel."
+09:08 "And of course, when you test the system, when you backtest, you get faster feedback loop so you can quickly improve. You can see, you know, what's not working, what doesn't work so well. The feedback loop, the iterations is much faster, so you can quickly improve on things."
+09:21 "This is kind of like buying a car. You want to test the car, go for a test drive before you buy it because you don't want to buy a lemon. So same thing for trading strategy. You want to test it first, backtest it first to make sure that, yep, it's working within your expectations before you risk real money in the markets. Okay?"
+09:41 "So now, next, moving on, I'm going to walk you through an example, a full-fledged example of this 4-step framework to show you how I use this to create profitable trading strategies."
+09:53 [VISUEL: L'écran devient bleu avec le texte "PART 2A_VERIFIER" puis "TREND FOLLOWING SYSTEM" en blanc.]
+
+09:56 [VISUEL: L'écran passe à une diapositive avec le titre "A trend following system that allows you to profit in bull & bear markets (even during a recession)".]
+"So, in this section, right, I'm going to share with you how I go about developing one of such strategy, which is a futures trend following system, so you can profit in bull and bear markets, even during a recession. I will give you the complete trading rules, even walk you through a few chart examples so you can see how it works, plus give you the backtested results. So hopefully, it inspires confidence in you, or you can use this as a framework, a foundation to, you know, start building something of your own. So, let's get to it."
+10:23 [VISUEL: L'écran passe à une diapositive avec le titre "Read books with backtest results" et une puce "Following the trend by Andreas Clenow." Une image de la couverture du livre "Following the Trend" est sur la droite.]
+"So firstly, read books with backtest results. So this is a book I read, Following the Trend by Andreas Clenow, a fantastic book, especially for those of you who wants to get involved in futures trend following."
+10:36 [VISUEL: L'écran passe à une diapositive avec le titre "Extract the essence" et une liste à puces. L'homme parle dans la petite fenêtre en haut à gauche.]
+"Next, I extract the essence behind trend following. So after reading the book, it really boils down to these few simple concepts. Number one, trade in the direction of the trend. This means you want to be buying breakouts and to short breakdowns. And of course, buying breakouts isn't the only way."
+10:55 [VISUEL: L'homme dessine une ligne horizontale sous le texte "Trade in the direction of the trend (buy breakouts and short breakdowns)".]
+"You can also use things like moving average, moving average crossover to get you into a trade and to exit the trade."
+11:02 [VISUEL: L'homme dessine une ligne horizontale sous le texte "Trail your stop loss so you can ride the trend."]
+"Number two, you want to trail your stop loss so you can ride the trend. This means you don't want to have a fixed target profit because when you have a fixed target profit, you are kind of limiting your upside, you're capping your profit potential. So this is why, as trend follower, you never have a fixed target profit. You always trail your stop loss so you can ride the trend up higher."
+11:21 [VISUEL: L'homme dessine une ligne horizontale sous le texte "Trade many markets to increase your odds of capturing a trend."]
+"And number three, you want to trade as many markets as possible across different sectors to increase your odds of capturing a trend. This means you don't want to be just trading, let's say, currency pairs because currency pairs, how many are there? There's like maybe 20, 30 at most, and the rest are pretty much, or rather, they are all generally correlated to one another."
+11:38 "So this is why you want to trade currency pairs, bonds, indices, commodities, orange juice, metals, etc. to increase your odds of capturing the trends out there because you're trading across so many different sectors."
+11:51 [VISUEL: L'homme dessine une ligne horizontale sous le texte "Keep your losses small so one winning trade can pay for many small losses."]
+"And you want to keep your losses small. So this way, when you catch a trend, when you catch one winning trade, it's enough to pay for many of these small losses and still put you in the green. In essence, right, this is the key concepts behind futures trend following."
+12:09 [VISUEL: L'homme continue de parler. L'écran passe à la diapositive "Turn it into an objective set of rules" avec la liste numérotée de 7A_VERIFIER questions.]
+"Moving on to the third step of the framework. Do you remember what it is? No? Yeah? Memory of a goldfish, yeah. Third step is this: turn it into an objective set of rules. And I've given you this list of seven questions. If you can answer all of these seven questions, then guess what? You will have a complete trading system, and that's a huge step forward."
+12:36 "So now let's answer each of these questions so we have a complete trend following system."
+12:40 [VISUEL: L'écran passe à une diapositive avec le titre "Trading rules" et des listes de marchés, de timeframe et de risk management.]
+"So let's talk about the markets. So these are the markets that we are trading. As you can see, I'm trading across different sectors, you know, currencies, metals, commodities, bonds, etc. It's not the full-fledged sectors, but this gives us enough diversification for this current training video purposes."
+12:56 "The timeframe is the daily timeframe, and our risk management is 2% risk on each trade. So this means if a trade hits our stop loss, our trailing stop loss, or rather, our initial trailing stop loss, we will lose not more than 2% of our account."
+13:11 "Now, here comes the most exciting part, the trading rules. Ready? Let's go. Don't blink."
+13:19 [VISUEL: L'écran passe à une diapositive avec le titre "Trading rules" et deux sections: "Trading rules (long)" et "Trading rules (short)".]
+"Okay, there you have it. Pretty simple stuff. So if the trading rules for long is this: If the price, right, the market that we are trading, if the price closes at the highest over the last 200 days, go long. In other words, the highest closing price over the last 200 days, if the market did that, go long."
+13:39 [VISUEL: L'homme dessine un rectangle autour du texte "If you're long, then have a 6A_VERIFIER ATR trailing stop loss." Puis il écrit "20A_VERIFIER-period" à côté.]
+"And if you are long, you just have a 6 ATR trailing stop loss. And often, one of the common questions I get is, you know, which is the look back period? It's a 20-period ATR. Okay, so in case you're wondering, it's a 20-period ATR, and we use a multiple of 6 as our trailing stop loss. I'll share with you some examples later on so you can see how it looks like on the chart and how you can ride long-term trends because your trailing stop loss will progress progressively move up higher as the price moves in your favor."
+14:10 [VISUEL: L'homme dessine un rectangle autour du texte "If the price closes at the lowest over the last 200A_VERIFIER days, go short." Puis il dessine un rectangle autour du texte "If you're short, then have a 6A_VERIFIER ATR trailing stop loss."]
+"And for the rules for short is just the opposite. If the price closes at the lowest over the last 200 days, go short. In other words, if there's the lowest close over the last 200 days, you go short. And if you are short, then you just have a 6 ATR trailing stop loss. And that's it. That's the rules of this trading system, right? Simple stuff."
+14:32 [VISUEL: L'écran passe à un graphique TradingView affichant les contrats à terme sur l'or (GC1!) en daily timeframe. L'homme est dans la petite fenêtre en bas à gauche.]
+"Okay, now let's have a look at an example so you can see this in action. And to do this, I need a couple of indicators to make my life easier. If not, I'll have to be counting the last 200 candles and see which is the highest close."
+14:45 [VISUEL: L'homme ajoute un indicateur "Closing Price Donchian Channels 200A_VERIFIER" au graphique. Une ligne bleue horizontale apparaît en haut du canal, et une ligne bleue plus claire en bas.]
+"The first one is the Donchian Channel. There's a slight modification to this because I got the Donchian Channel to just simply demarket the closing price instead of the the highest price or the lowest price. So I use the modified the code and get the closing price only."
+14:57 [VISUEL: L'homme dessine une flèche pointant vers la ligne bleue supérieure du canal Donchian.]
+"I think you should be able to find it on TradingView, it's a free indicator. So if not, you can just, you know, use ChatGPT or Claude or whatever to help you, you know, come up with the script, and not too difficult."
+15:09 [VISUEL: L'homme dessine une flèche pointant vers la ligne bleue supérieure du canal Donchian, puis vers une bougie verte qui a clôturé au-dessus de cette ligne.]
+"So you can see over here, this is the Donchian Channel, and what I'm looking for is for this to touch this blue line, right, for it to close beyond that level. Because when it does, it means that this market, which is gold, has just formed the highest close over the last 200 days."
+15:27 [VISUEL: L'homme dessine une flèche pointant vers la bougie verte qui a clôturé au-dessus de la ligne bleue. Il dit qu'il va "cherry pick" la prochaine bougie.]
+"And I'm going to tell you upfront, this is a cherry-picked chart, and I can guarantee you the next candle is going to boom, hit the highest close over the last 200 days."
+15:34 [VISUEL: La bougie suivante apparaît, clôturant nettement au-dessus de la ligne bleue. L'homme dessine une flèche pointant vers le haut de cette bougie.]
+"So at this point now, the entry trigger, the setup is met. So what I need to do is to, since it's a daily timeframe, I need to enter my trade on the next day."
+15:44 [VISUEL: L'homme dessine une flèche pointant vers le haut de la bougie précédente, puis vers le point d'ouverture de la bougie suivante.]
+"So wait for the next day, market to open, boom, it opened here."
+15:49 [VISUEL: L'homme dessine une petite ligne noire au niveau du prix d'ouverture de la bougie suivante.]
+"Let me just highlight this part. It opened, okay, let me just zoom in a little bit, right, for those of you who are like me, getting on the getting on my years, right, can't see properly. This is the opening price. This is where you would have gotten long on the trade at the open of the next day."
+16:02 [VISUEL: L'homme continue de parler. Il ajoute un indicateur "Chandelier Stop" au graphique. Une ligne bleue claire apparaît sous les bougies, représentant le trailing stop loss.]
+"So now, where do you then set your stop loss, your trailing stop loss? So remember, we have a 6 ATR trailing stop loss. You can use this indicator over here, this one, it's called the Chandelier Exit, I think this one is from Pip Charlie, if I, if I recall. Then this is the settings I use, 6 ATR, and then the 20-period ATR."
+16:21 [VISUEL: L'homme clique sur "OK" dans la fenêtre des paramètres de l'indicateur. La ligne bleue claire du Chandelier Stop apparaît sous les bougies.]
+"Click okay, and what's going to happen is that this light blue line will pop up. So this is our trailing stop loss because from here all the way down to here is pretty much 6 ATR. Okay? So what we're going to do, okay, is to hold this position until the price, until the price reverse down and then closes below this 6 ATR trailing stop loss. If it doesn't do that, we'll be holding this position, right, till that happens."
+16:54 [VISUEL: L'homme fait avancer le graphique. Les bougies montent, le Chandelier Stop suit. Le prix continue de monter, puis commence à baisser.]
+"So let's see what happens. And of course, this is a cherry-picked trade. So you can see that the market of gold did progressively move in our favor. Still has not hit our trailing stop loss. And one thing about trailing stop loss you need to be aware of is that you can see it progressively move up higher as the market goes up higher along the way. So in other words, it's kind of like locking your profits, but still at the same time giving it some buffer, or quite a bit of buffer, a bit of quite a bit of wiggle room for the trade to move so you don't get stopped out prematurely."
+17:24 [VISUEL: Le graphique continue d'avancer. Une bougie rouge clôture sous le Chandelier Stop.]
+"Okay, so you can see over here, boom, right, trailing stop loss still intact. Still going up. And finally over here, boom. Okay, I jumped the gun a little bit too early, but you can see over here, this candle over here, it closed, or rather, this, this, uh, this candle over here. Okay, it closed below our 6 ATR trailing stop loss. Let me just highlight to you."
+17:50 [VISUEL: L'homme dessine une ligne noire sous la bougie rouge qui a clôturé sous le Chandelier Stop.]
+"This candle over here, it closed below our 6 ATR trailing stop loss. And this is where we need to exit the trade. So we exit at the next day open over here. And, you know, it's clearly a winning trade because we have, you know, right the meat of the move. You can see over here, I'll just zoom out a little bit."
+18:08 [VISUEL: L'homme zoome sur le graphique, montrant la longue tendance haussière capturée par le système.]
+"Okay, we enter over here. As you can see, we have right the meat of the move, which is all the way here, right, from here all the way until here. And the thing about trend following is that there are times where you get stopped out only having to re-enter shortly again. So you can see in this case, shortly afterwards, there, this candle, boom. The price forms another highest close over the last 200 days. So we should have, again, following the rules of this system, we should enter long on the next candle, which is this over here. And then this is our 6 ATR trailing stop loss. And again, the same process repeats itself again. We hold that position until we get stopped out. And in this case, I think, uh, kind of still, still riding it till as at this current point in time as I'm shooting this video."
+18:59 [VISUEL: L'écran devient bleu avec le texte "PART 3A_VERIFIER" puis "TREND FOLLOWING SYSTEM RESULTS" en blanc.]
+
+19:02 [VISUEL: L'homme continue de parler. L'écran passe à un graphique d'équité (equity curve) montrant une croissance constante de 2000A_VERIFIER à 2024A_VERIFIER, avec des pullbacks occasionnels.]
+"Now, since the rules of this trading system is fixed, it's objective, there is no guesswork. You can backtest it and see how it has performed over time. So let's do that. And you can see over here, I've run a backtest from 2000 till I think this was 2024. You can see that this equity curve overall, it's sloping higher over time."
+19:22 [VISUEL: L'homme dessine une flèche noire montrant la tendance générale à la hausse de la courbe d'équité.]
+"It's not going up in one straight line. There is, you know, pullback along the way. So over here, we have a pullback, a pullback, pullback, pullback. So it's important, of course, to ask yourself, what led to the pullback? Because that's probably market conditions that are not favorable for this particular trading system. And it's, of course, when the market is choppy, range bound, that's where where you get such pullbacks in your equity curve."
+19:46 [VISUEL: L'écran passe à un tableau de résultats de trading, affichant les retours mensuels et annuels de 2000A_VERIFIER à 2024A_VERIFIER. Les années 2008A_VERIFIER, 2020A_VERIFIER, 2021A_VERIFIER et 2022A_VERIFIER sont encadrées.]
+"So breaking this down even further, you can see that in 2000, up 22%. 2008, this system is up 65%. 2020, this is COVID, up 8%. 2021, Russia-Ukraine war, up 56%. So these are the these are the key, I would say, crisis, difficult periods."
+20:10 [VISUEL: L'homme encadre les années 2008A_VERIFIER, 2020A_VERIFIER, 2021A_VERIFIER et 2022A_VERIFIER dans le tableau.]
+"And you can see that this system clearly, right, does well in such difficult times. As explained earlier, the logic behind it is because there's fear in the market, because of the herd mentality, this system will usually shine."
+20:21 "And like all trading systems, it doesn't make money every month or every year. So for example, you'll have losing months like this is 2000 March, lost money, 2000 May, June, you lose money. Losing years in 2009, as you can see over here, we have losing years in 2012, 2013. So, but all in all, you can see that this is a long-term profitable trading system."
+20:41 [VISUEL: L'écran passe à une diapositive avec le titre "Trading results" et une liste de statistiques de trading.]
+"And looking even into more granular details, you can see the total return since 2000 is about 2000, 2864%, an average of about 14% return a year. 45% winning rate. This means that you actually lose more than half the time. Your payoff ratio is 1.74. How this is being calculated is just take your average size of your profits divided by the average size of your loss. And you get a payoff ratio. So in other words, you can see that on average, your winners is 1.74 times larger than the size of your average losers. And maximum drawdown of 37%."
+21:18 [VISUEL: L'écran passe à une diapositive avec le titre "Tweak the trading system" et une liste à puces.]
+"And that's not all because you can also tweak the trading system. So after the testing phase, if you are happy, you want to trade live with it, right, feel free to start with a small account. But if you still want to fine-tune things and make things better, then of course, there are many things that you can tweak."
+21:37 [VISUEL: L'homme dessine un rectangle autour du texte "Length of breakout?".]
+"Number one, you can tweak the length of the breakout. Maybe instead of looking for the highest close over the last 200 days, maybe that is too long-term for you."
+21:46 "You can go with a 50-day breakout, 100 days, whatever. Do the testing and see what it says."
+21:51 [VISUEL: L'homme dessine un rectangle autour du texte "Duration of trend?".]
+"You can also change the duration of the trend, the type of trends that you're riding. Maybe 6 ATR is too long-term for you. You want to shorten it. 3 ATR, that's fine."
+22:02 [VISUEL: L'homme dessine un rectangle autour du texte "Different entry and exit?".]
+"Or if you don't want to use a ATR to trail your stop loss, you can use a moving average. There are different ways to go about doing it. So this is where you can have different types of entries and exits. If you don't want to trade breakouts, you can also trade moving average crossover, like what I talked about earlier."
+22:16 [VISUEL: L'homme dessine un rectangle autour du texte "More markets?".]
+"And of course, you can add more markets, more markets like indices, more currency pairs, more commodities, you know, it's endless."
+22:25 [VISUEL: L'homme dessine un rectangle autour du texte "You can even create multiple trading systems based on the same strategy!".]
+"And with this in mind, you can take one simple strategy, the trend following strategy, and create multiple trading systems based on this strategy. Maybe one's a long-term trend following system, one's a short-term trend following system. You know, really, it's, it's the ideas are limitless, and I leave it to you because this is where you have to do the work on your own."
+22:47 "And once you've done backtesting, right, you will realize that trend following has its pros and cons."
+22:52 [VISUEL: L'écran passe à une diapositive avec le titre "Pros & cons" et deux listes.]
+"Number one, there's no correlation to the stock market. So whether the market is up or down, trend following, the results won't have much resemblance to it."
+23:00 [VISUEL: L'homme dessine une ligne sous le texte "No correlation to the stock market".]
+"Usually does well in a bear market, in a crisis, as I've explained why earlier. If not, rewind this video, watch it from the start because everything is built on chronological order."
+23:10 [VISUEL: L'homme dessine une ligne sous le texte "Low winning rate".]
+"The downside of this system is that low winning rate. You've seen that you win about 40 to 45% of the time."
+23:17 [VISUEL: L'homme dessine une ligne sous le texte "Difficulty for most traders' psychology".]
+"And it can be difficult for most traders' psychology because you have to endure drawdown. Your drawdown can be months or sometimes even years. Imagine trading a system only to see it lose, you know, for one year, two years. It's psychologically difficult for most traders. So this is why I'm a huge proponent, right, of having multiple trading systems, multiple strategies. You can have a trend following strategy, you can have a mean reversion one, etc. And this helps smooth out and improve your risk-adjusted returns over time."
+23:46 [VISUEL: L'écran passe à une diapositive avec le titre "RETT Formula" et une liste à puces.]
+"Now, as a recap to what you've just learned, today you have learned what I call the RETT Formula. No, I'm not, I'm not calling you a rat, but it's called the RETT Formula. So this stands for read trading books that contains trading systems and backtested results."
+23:58 [VISUEL: L'homme dessine un rectangle autour du texte "RETT Formula", puis autour de "Read books that contain trading systems with backtested results".]
+"Number two, extract the essence behind the strategy, the concepts that make it work, the logic behind it to why it should work."
+24:08 [VISUEL: L'homme dessine un rectangle autour de "Extract the essence", puis autour de "Turn it into an objective set of rules".]
+"Then turn it into an objective set of rules. I shared with you seven questions that will help you take any trading concepts and to turn it into a complete trading system."
+24:19 [VISUEL: L'homme dessine un rectangle autour de "Test and tweak the trading system".]
+"And of course, you want to test it, backtest it, forward test the trading system to see whether it works or not. And to take things a step further, you can also tweak the trading system. You can use one strategy and turn it into multiple trading systems based on that one strategy. That's definitely possible as well."
+24:37 "And before you go, again, if you want to get my list of top trading books, the books that I've read that I realized that contains complete trading systems with backtested results, then just, I'll put the link in the, tell you what, in the description below, just click on this link, you'll be brought to this page. Enter your email, and I'll send you my list of top trading books, trading books that I've read that contains complete trading systems with backtested results. So this way, you don't have to start from scratch, and it's going to save you a ton of time, effort, and money."
+25:07 "So with that said, I wish you good luck, good trading. Pleasure speaking with you again, and I will talk to you soon."
+25:13 [VISUEL: L'écran passe à un écran de fin avec le texte "WHAT'S NEXT?" et des options pour s'abonner ou apprendre une nouvelle stratégie de trading.]

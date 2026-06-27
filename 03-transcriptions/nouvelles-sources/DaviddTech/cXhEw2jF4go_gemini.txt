@@ -1,0 +1,38 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: cXhEw2jF4go.mp4]
+---
+[VISUEL: Un homme parle face caméra. En arrière-plan, une étagère blanche avec des livres et des objets décoratifs. Sur l'écran d'ordinateur incrusté à gauche, un tableau de bord Paperclip avec des agents IA listés, des graphiques d'activité et des tâches en cours. Le titre "Lewis Jackson Trading" est visible en haut à gauche.]
+This is my 32 AI agent trading firm that runs 24/7 without any human involvement.
+
+[VISUEL: Le tableau de bord Paperclip est maintenant en plein écran. On voit "32A_VERIFIER Agents Enabled", "3A_VERIFIER Tasks in Progress", "Month Spend $70.57A_VERIFIER". Des graphiques montrent l'activité des agents, les problèmes par priorité et par statut. Une liste d'activités récentes est visible.]
+When you first see these agents running, your mind can't help but be blown.
+
+[VISUEL: L'écran affiche un organigramme d'entreprise avec "Desk Commander" en haut, puis cinq départements : "Head of Signals", "Research Director", "Head of Intelligence", "Chief Risk Officer", "Head of Performance". Chaque département a plusieurs agents subordonnés avec leurs responsabilités. Le texte "CHAIN OF COMMAND IS LAW" est visible en haut.]
+The way it's created is that a CEO agent delegates tasks to five other departments. Each one of those departments has its own series of agents with its own responsibilities. Feel free to pause this org chart here and just have a look at all the responsibilities and roles that are in this firm. Everything from an agent that actually executes trades to an agent that is responsible for backtesting, an agent that is responsible for research and iteration and new ideas, all the way through to risk management and strategy formulation.
+
+[VISUEL: L'écran d'ordinateur montre une interface de chat Paperclip avec une discussion sur les raccourcis clavier. L'homme est incrusté en haut à droite, puis en plein écran.]
+In my last video on this topic, I talked to the creator of the tool that hosts all the agents called Paperclip. And the video ended up being quite technical, even though it wasn't supposed to be. And I saw many of you looking for a simpler version of this to install yourself, even if you have no experience in coding or developing. So that is this video. In this video, I'm going to give you three things.
+
+[VISUEL: L'écran affiche une page web stylisée avec le titre "One paste. Whole firm." et un bloc de code dans un terminal. Le code commence par `sh -c "$(curl -fsSL paperclip.dev/install)"`. L'homme est incrusté en bas à droite.]
+The first thing is I'm going to give you a copy and paste prompt that you can put into your own Claude code to set this all up in about 10 minutes.
+
+[VISUEL: L'écran affiche une autre page web stylisée avec le titre "What each agent actually does." et quatre blocs : "01A_VERIFIER - RESEARCH The finder", "02A_VERIFIER - BACKTEST The memory", "03A_VERIFIER - RISK The gatekeeper", "04A_VERIFIER - EXECUTION The hand". Chaque bloc décrit le rôle de l'agent et ses entrées/sorties. L'homme est incrusté en bas à droite.]
+Second, I'm going to show you what each agent is going to do and how to edit those responsibilities.
+
+[VISUEL: L'homme est en plein écran.]
+And number three, I'm going to share with you a really important rule that you need to apply to this whole system so that it never breaks. This tutorial is strictly for Mac, but if you're on Windows or Linux, there is a link in the description that will take you over to GitHub.
+
+[VISUEL: L'écran affiche une page GitHub avec le titre "Paperclip Zero Human Trading Firm". On voit des liens pour "prompts/mac.md", "prompts/windows.md", "prompts/linux.md" sous la section "Pick Your Platform". L'homme est incrusté en bas à droite.]
+The GitHub will have the one-shot prompt for your system, so this works for everyone.
+
+[VISUEL: L'homme est en plein écran.]
+I don't want your email, I don't want you to pay me, I just want you to make a butt-ton of money. So right after you subscribe, let's get into it.
+
+[VISUEL: L'écran affiche la page d'accueil de Paperclip (paperclip.me) avec une illustration de flamants roses. Le titre est "Paperclip The human control plane for AI labor". L'homme est incrusté en bas à droite.]
+I think first we need to talk about what this tool is that we're going to be using, and it's called Paperclip. I talked to the creator, his name is Dota, the other day, and it's just a fascinating thing. It's taken over the community of developers like crazy. It had 50,000 stars in like two weeks. It's insane. This is like mega viral in the world of development. What's really great about it is that it's open source and it has something called an MIT license, which means anyone can copy it and build an improved version or a tailored version of it for themselves. What's even better is that you can link it up with Claude Code so easily that it's an absolute no-brainer to have this on your system.
+
+[VISUEL: L'homme est en plein écran.]
+So while Paperclip is free, using the agents is not free, but that doesn't go to Paperclip. Paperclip makes no money from this. The money just goes into Anthropic, who, you know, is giving you the computing power to run these agents. And I learned this the hard way, by the way. I ran all of my tasks all at the same time, just all at once, and it cost me about $40 in one minute. But

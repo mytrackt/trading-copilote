@@ -1,0 +1,148 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: 5fnFOh5YuM0.mp4]
+---
+[VISUEL: Écran de disclaimer avec du texte en anglais sur les risques du trading et l'information fournie.]
+(Silence)
+[VISUEL: Animation du logo "TTRADES" en blanc sur fond noir, puis le logo stylisé "T" apparaît.]
+(Musique d'intro)
+[VISUEL: Écran gris clair avec le texte "Daily swing model day 4A_VERIFIER" à gauche et le logo "TTRades" à droite.]
+(Musique d'intro)
+"How's it going everyone? In today's video, we are going to talk about how to trade the fourth day in a swing point, specifically using the daily timeframe, and that is where you get your daily swing point model or day four of that."
+"So if you have been following my content for a while, you know the foundation of my model is built off the fact that the market cannot reverse without a swing high or a swing low. So if price is going to go from bearish to bullish, it has to form a swing low."
+[VISUEL: Graphique en chandeliers. À gauche, une formation de "Swing low" est illustrée : un chandelier vert (jour 2A_VERIFIER) avec un plus bas, encadré par deux chandeliers noirs (jour 1A_VERIFIER et jour 3A_VERIFIER) dont les plus bas sont plus hauts que celui du jour 2A_VERIFIER. Une ligne pointillée jaune relie le plus bas du jour 2A_VERIFIER à l'étiquette "Swing low".]
+"If it is going from bullish to bearish, it has to form a swing high."
+[VISUEL: À droite, une formation de "Swing high" est illustrée : un chandelier noir (jour 2A_VERIFIER) avec un plus haut, encadré par deux chandeliers verts (jour 1A_VERIFIER et jour 3A_VERIFIER) dont les plus hauts sont plus bas que celui du jour 2A_VERIFIER. Une ligne pointillée jaune relie le plus haut du jour 2A_VERIFIER à l'étiquette "Swing high".]
+"With this, if a swing low forms, I can then anticipate a bullish continuation on the following day with a strong closure in day three."
+[VISUEL: Le chandelier vert du jour 3A_VERIFIER à gauche est mis en évidence, montrant une clôture forte vers le haut.]
+"Or with a strong bearish closure in day three, I can anticipate a bearish continuation."
+[VISUEL: Le chandelier noir du jour 3A_VERIFIER à droite est mis en évidence, montrant une clôture forte vers le bas.]
+"And paired with my equilibrium video, with a swing low and a bullish continuation, I would be looking for price to continue out of the upper half of candle three's range."
+[VISUEL: Des lignes horizontales grises sont ajoutées pour marquer le plus haut, le plus bas et le point d'équilibre (EQ) du chandelier du jour 3A_VERIFIER (vert) à gauche. Une flèche pointillée indique une continuation haussière au-dessus de l'EQ.]
+"And with a bearish continuation, I would be looking for price to continue out of the lower half of candle three's range."
+[VISUEL: Des lignes horizontales grises sont ajoutées pour marquer le plus haut, le plus bas et le point d'équilibre (EQ) du chandelier du jour 3A_VERIFIER (noir) à droite. Une flèche pointillée indique une continuation baissière en dessous de l'EQ.]
+"And this is due to expansions not giving those deep retracements, right? If price is going to expand, I don't want to see a deep retracement into a discount of this range to go higher. I just want to see it expand. That shows me strength, or it will show me weakness."
+"So with this, I then have a bias and an area to be looking for lower timeframe PD areas. So for instance, if I have a daily bullish bias, I'm looking in this area for the wick to form, then I look for PD arrays on the lower timeframe in here to form the low of day, and then I can trade the continuations on this day."
+[VISUEL: Le graphique de gauche montre maintenant un 4ème chandelier vert (jour 4A_VERIFIER) qui a ouvert bas et clôturé haut, formant une mèche basse dans la moitié supérieure du chandelier du jour 3A_VERIFIER. Le graphique de droite montre un 4ème chandelier noir (jour 4A_VERIFIER) qui a ouvert haut et clôturé bas, formant une mèche haute dans la moitié inférieure du chandelier du jour 3A_VERIFIER.]
+"So what does this look like top-down wise? Well, I have my fourth day in which I can anticipate a bias. I use a middle timeframe for structure, and then I use a lower timeframe for entry, or this is exactly what I've gone over in my top-down analysis video if you haven't seen that. But with that said, let's get into TradingView and go over some examples."
+[VISUEL: Trois graphiques sont affichés côte à côte.
+*   "Bias" (gauche) : Un chandelier daily noir suivi d'un chandelier daily vert. Le chandelier vert a une mèche basse qui touche le corps du chandelier noir précédent.
+*   "Structure" (milieu) : Un graphique en chandeliers avec des hauts et des bas plus bas, puis un changement de structure haussier avec des hauts et des bas plus hauts.
+*   "Entry" (droite) : Un graphique en chandeliers montrant une tendance baissière, puis un mouvement haussier qui retrace dans une zone grisée (PD array) avant de continuer à la baisse. Une zone verte est mise en évidence pour l'entrée.]
+[VISUEL: Graphique en chandeliers daily sur TradingView. On voit une série de chandeliers noirs (baissiers) suivis d'un chandelier vert (haussier), puis un autre chandelier noir, puis un chandelier vert. Le plus bas du chandelier vert (jour 2A_VERIFIER) est plus bas que les plus bas des chandeliers noirs adjacents (jour 1A_VERIFIER et jour 3A_VERIFIER). Le chandelier vert du jour 3A_VERIFIER clôture fortement à la hausse.]
+"So here we are with our first example, and do we have a swing low?"
+[VISUEL: Le plus bas du chandelier vert (jour 2A_VERIFIER) est mis en évidence avec une ligne pointillée verticale. Les plus bas des chandeliers adjacents sont également marqués.]
+"Well, you can see, we have a low with a higher low on each side, which is a swing low, so I could be looking for a continuation higher."
+"Now where would I want that continuation higher from?"
+[VISUEL: Le chandelier vert du jour 3A_VERIFIER est mis en évidence. Une ligne horizontale est tracée à son point d'équilibre (EQ).]
+"Candle three, mark out the EQ. I don't want to see the 0.5 of this be respected to trade higher if we're going to continue to expand."
+[VISUEL: Une zone jaune est tracée autour du plus haut du chandelier noir précédent (jour 1A_VERIFIER) et du plus bas du chandelier vert (jour 2A_VERIFIER), indiquant un Fair Value Gap (FVG).]
+"Now you may be asking yourself, why am I not focused on this swing high here? So we form out of a fair value gap. We have a high with a lower high on each side. Why am I not looking for this to go lower?"
+[VISUEL: Une ligne est tracée sous le plus bas du chandelier vert (jour 2A_VERIFIER), et une autre sous le plus bas du chandelier noir (jour 1A_VERIFIER), montrant une divergence (SMT) avec l'ES (non visible sur ce graphique mais mentionné dans l'audio).]
+"Well, if you take a look at ES, ES swept out this low. So we have SMT here."
+[VISUEL: Le chandelier vert du jour 3A_VERIFIER est mis en évidence. Une ligne horizontale est tracée à son point d'équilibre (EQ).]
+"And with this closure, we then have a valid change in the state of delivery here on the daily timeframe. So with that, I would be looking for price to trade higher on this fourth day."
+[VISUEL: Le graphique est nettoyé. Le chandelier vert du jour 3A_VERIFIER est toujours visible. Une ligne horizontale est tracée au plus haut du chandelier noir précédent (jour 1A_VERIFIER), et une autre au plus bas du chandelier vert (jour 2A_VERIFIER).]
+"So cleaning up the chart a little, what I will look for is for price to open, make a low in the upper half of this previous candle and then trade higher. Higher to where? Previous day high, this swing point to the left, and anything beyond that."
+[VISUEL: Le graphique passe au timeframe 30A_VERIFIER minutes. On voit une tendance haussière, puis une consolidation, puis une baisse, puis une forte hausse. Les lignes verticales marquent les sessions de trading. La ligne horizontale bleue marque le plus haut du chandelier daily précédent. Une zone grisée marque le FVG daily.]
+"So, dropping down to the 30-minute timeframe, I'm wanting to see price form its daily wick above the EQ of the previous candle. So with this area here, where do I have an invalidation?"
+[VISUEL: Une ligne horizontale est tracée au plus bas d'un chandelier précédent, marquant un niveau d'invalidation.]
+"Well, I'm not wanting to see price trade below this low. So with that, I'd want to see price form a low above this area here."
+"So, let's see what happens."
+[VISUEL: Le prix se déplace vers le bas, puis remonte légèrement.]
+"We have a move lower."
+[VISUEL: Le prix continue de se consolider.]
+"And if you're thinking in the phases of price, we have expansion, is this met with expansion forming a reversal? No, this is a retracement or a consolidation. So I'd want another run of this low."
+[VISUEL: Le prix continue de se consolider, puis descend légèrement.]
+"Now as we get into London session, what happens? We're moving towards this low. Do we go and take it out?"
+[VISUEL: Le prix descend, mais ne prend pas le plus bas précédent.]
+"And no, we do not, but why do we not? We form an SMT with ES, so I can anticipate this low to hold if what? If we get a confirmation of that, which would be the closure through the down close candles that formed that SMT."
+[VISUEL: Le prix remonte, clôturant au-dessus des chandeliers baissiers précédents.]
+"So now with that closure through, I can anticipate this London reversal to hold if we're going to trade higher, and then I'll get a New York continuation. So let's see what happens as we approach New York."
+[VISUEL: Le prix continue de monter, formant des Fair Value Gaps (FVG) haussiers.]
+"So as we reach into New York session, we are forming some fair value gaps in here."
+[VISUEL: Les FVG sont mis en évidence avec des zones jaunes.]
+"So I'd want to see those be respected. Now, do I need to know which one of these is going to react and hold? No, I do not yet. I can just wait for the lower timeframe price action and the drivers around the New York session to form the low and then trade off of that."
+[VISUEL: Le graphique passe au timeframe 3A_VERIFIER minutes. Les FVG sont toujours visibles. Le prix est en train de descendre vers les FVG.]
+"So let's drop down to the three-minute timeframe to watch this play out."
+"So down here on the three-minute timeframe, you can see we have an expansion, we're into a consolidation, so I'd want a run of the lows to then trade higher. Now where could I expect those to occur? Well, into these fair value gaps here on the higher timeframe candles, but I also want to pair that with a driver. When would that be? 8:30 or 9:30."
+[VISUEL: Le prix descend, puis remonte légèrement.]
+"So I can go ahead and wait for 8:30. We'll go ahead and play forward to that."
+[VISUEL: Le prix descend, puis remonte. La ligne verticale de 8A_VERIFIER:30A_VERIFIER est atteinte.]
+"And you can see, 8:30, we open up. What occurs? We run out these lows, which is ideal if we're having a consolidation prior to a news driver. And then now with this, the down close candles, in this case it's a singular one, that took out the low, paired with 8:30, that is a change in the state of delivery here on this timeframe. So now what is occurring? Our three-minute, our 30-minute, and our daily is all aligned in one direction."
+[VISUEL: Une position longue est tracée sur le graphique. L'entrée est au-dessus du plus bas de la mèche, le stop loss est sous le plus bas de la mèche, et le take profit est à 2R.]
+"So with this, I can look to take an entry, have my stop at the low, and then look for 2R. So let's see how this works out."
+[VISUEL: Le prix monte rapidement, atteignant le take profit.]
+"And there we go, we get to 2R. Now the most important concept here is aligning all those timeframes together."
+[VISUEL: Graphique en chandeliers daily. On voit une tendance haussière, puis une consolidation, puis une baisse. Le chandelier du jour 3A_VERIFIER (noir) clôture fortement à la baisse. Le plus haut du chandelier précédent (vert) est un swing high valide.]
+"But you can see how it all came down to anticipating that daily candle. Where did we want that higher timeframe wick to form? In the upper half of candle three. So looking in that upper half of the area, we also have that level from the daily change in the state of delivery, and then just using lower timeframes to align with that idea."
+"So here we are in our next example, and if we're taking a look, what do we see? You notice we have a consolidation here."
+[VISUEL: Une boîte est tracée autour d'une zone de consolidation. Le prix sort de la consolidation par le haut, puis redescend agressivement.]
+"We've taken out the highs in the consolidation, and then we aggressively move through the lows. And then what do we notice about the phases of price right here? We have expansion into the lows, expansion back out of the lows. So this is going to be a higher timeframe wick or a reversal."
+[VISUEL: Le prix remonte, puis redescend, formant une consolidation. Une boîte est tracée autour de cette nouvelle consolidation.]
+"So, thinking in terms of the phases of price once again, expansion, what do we have here? Either a consolidation or a retracement, viewing it as a consolidation right here. What do we notice? We sweep out the lows in the consolidation, aggressive out, aggressive back in, so I could be looking to trade this higher."
+[VISUEL: Le prix remonte, puis redescend, ne formant pas de swing low valide.]
+"Now pairing that with the daily closures, what do we notice here? We notice that we have a nice aggressive candle closure here, but what do we see? This is the low. Do we have a low on each side? We do not. So this would be trading candle three in the swing, so I'm going to let one day pass."
+[VISUEL: Un nouveau chandelier daily apparaît. Il est vert et clôture fortement à la hausse. Le plus bas du chandelier précédent (noir) est maintenant un swing low valide.]
+"And now we have that confirmed swing low. And if you notice, we were focusing on this higher timeframe range. So I could still be looking towards these equal highs up here as a target."
+[VISUEL: Une ligne horizontale est tracée au niveau des plus hauts précédents, marquant la cible. Le chandelier vert du jour 3A_VERIFIER est mis en évidence.]
+"So now that this is confirmed, what would I want to look for? I'd want to look for the upper half of candle three to form a continuation higher. So, let's drop down to the lower timeframe."
+[VISUEL: Le graphique passe au timeframe 1A_VERIFIER heure. Le prix est en train de descendre. Les lignes verticales marquent les sessions. Une ligne horizontale marque le plus bas du chandelier daily précédent. Une zone grisée marque le FVG daily.]
+"So opening up the new candle, you can see we have expansion into either a retracement or consolidation. So let's see how we trade out of this area. And that will tell me if I'm anticipating this low to hold, or if it consolidates, then I expect this low to get taken out."
+[VISUEL: Le prix descend, puis remonte légèrement. Une ligne horizontale est tracée au plus bas d'un chandelier précédent, marquant un niveau d'invalidation.]
+"Well, I'm not wanting to see price trade below this low. So with that, I'd want to see price form a low above this area here."
+"So, let's see what happens."
+[VISUEL: Le prix se déplace vers le bas, puis remonte légèrement.]
+"We have a move lower."
+[VISUEL: Le prix continue de se consolider.]
+"And if you're thinking in the phases of price, we have expansion, is this met with expansion forming a reversal? No, this is a retracement or a consolidation. So I'd want another run of this low."
+[VISUEL: Le prix continue de se consolider, puis descend légèrement.]
+"Now as we get into London session, what happens? We're moving towards this low. Do we go and take it out?"
+[VISUEL: Le prix descend, mais ne prend pas le plus bas précédent.]
+"And no, we do not, but why do we not? We form an SMT with ES, so I can anticipate this low to hold if what? If we get a confirmation of that, which would be the closure through the down close candles that formed that SMT."
+[VISUEL: Le prix remonte, clôturant au-dessus des chandeliers baissiers précédents.]
+"So now with that closure through, I can anticipate this London reversal to hold if we're going to trade higher, and then I'll get a New York continuation. So let's see what happens as we approach New York."
+[VISUEL: Le prix continue de monter, formant des Fair Value Gaps (FVG) haussiers.]
+"So as we reach into New York session, we are forming some fair value gaps in here."
+[VISUEL: Les FVG sont mis en évidence avec des zones jaunes.]
+"So I'd want to see those be respected. Now, do I need to know which one of these is going to react and hold? No, I do not yet. I can just wait for the lower timeframe price action and the drivers around the New York session to form the low and then trade off of that."
+[VISUEL: Le graphique passe au timeframe 3A_VERIFIER minutes. Les FVG sont toujours visibles. Le prix est en train de descendre vers les FVG.]
+"So let's drop down to the three-minute timeframe to watch this play out."
+"So down here on the three-minute timeframe, you can see we have an expansion, we're into a consolidation, so I'd want a run of the lows to then trade higher. Now where could I expect those to occur? Well, into these fair value gaps here on the higher timeframe candles, but I also want to pair that with a driver. When would that be? 8:30 or 9:30."
+[VISUEL: Le prix descend, puis remonte légèrement.]
+"So I can go ahead and wait for 8:30. We'll go ahead and play forward to that."
+[VISUEL: Le prix descend, puis remonte. La ligne verticale de 8A_VERIFIER:30A_VERIFIER est atteinte.]
+"And you can see, 8:30, we open up. What occurs? We run out these lows, which is ideal if we're having a consolidation prior to a news driver. And then now with this, the down close candles, in this case it's a singular one, that took out the low, paired with 8:30, that is a change in the state of delivery here on this timeframe. So now what is occurring? Our three-minute, our 30-minute, and our daily is all aligned in one direction."
+[VISUEL: Une position longue est tracée sur le graphique. L'entrée est au-dessus du plus bas de la mèche, le stop loss est sous le plus bas de la mèche, et le take profit est à 2R.]
+"So with this, I can look to take an entry, have my stop at the low, and then look for 2R. So let's see how this works out."
+[VISUEL: Le prix monte rapidement, atteignant le take profit.]
+"And there we go, we get to 2R. Now the most important concept here is aligning all those timeframes together."
+[VISUEL: Graphique en chandeliers daily sur Euro USD. On voit une tendance haussière, puis une consolidation, puis une baisse. Le chandelier du jour 3A_VERIFIER (noir) clôture fortement à la baisse. Le plus haut du chandelier précédent (vert) est un swing high valide.]
+"Here we form a swing low with a low with a higher low on each side. What do we get the next day? This continuation right here. So let's get into our next example."
+"So here we are in our next example. We are on Euro USD on the daily chart, and what do we notice? Right? Do we have any low resistance liquidity? Well, we have all these failure swings at the high here, these equal highs."
+[VISUEL: Une ligne horizontale est tracée au niveau des plus hauts précédents, marquant la liquidité. Le chandelier du jour 3A_VERIFIER (noir) est mis en évidence.]
+"So, using that as a draw, we have expansion into what I would consider a retracement, right? And then looking for a continuation here, which fails, right? And so this is just a consolidation."
+[VISUEL: Le prix descend, puis remonte légèrement. Le chandelier du jour 3A_VERIFIER (noir) est mis en évidence. Une ligne horizontale est tracée au plus bas du chandelier précédent (vert).]
+"So, keeping our same drawn liquidity, if we run out the consolidation low, I'd want to see price trade back higher and then look for a continuation into these highs."
+[VISUEL: Le prix descend, puis remonte légèrement. Le chandelier du jour 3A_VERIFIER (noir) est mis en évidence.]
+"Is there any bullish closures yet? No, so we go ahead and wait. And now we have that bullish closure. And what else do we have? We have a low with a higher low on each side, so that is a swing point. So, looking for a continuation the next day into these highs. What do we have? We can mark out 0.5 of this range and then drop down to our lower timeframe."
+[VISUEL: Le graphique passe au timeframe 1A_VERIFIER heure. Le prix est en train de descendre. Les lignes verticales marquent les sessions. Une ligne horizontale marque le plus bas du chandelier daily précédent. Une zone grisée marque le FVG daily.]
+"Now down here on the lower timeframe, I want to see price hold the upper half of this area, right here. So my mind goes to what? What PD arrays are in this area? Well, there's a lot of fair value gaps here, that doesn't really help us out. But we do have a low right here. So, that would be what I'm watching for."
+[VISUEL: Le prix descend, puis remonte légèrement. Une ligne horizontale est tracée au plus bas d'un chandelier précédent, marquant un niveau d'invalidation.]
+"And since we cannot aggressively move lower and then close through here, I expect this low to get taken out."
+[VISUEL: Le prix descend, puis remonte légèrement. Une ligne horizontale est tracée au plus bas d'un chandelier précédent, marquant un niveau d'invalidation. Une zone grisée marque le FVG daily.]
+"Now right here, we have an SMT, so I don't need this low to get taken out anymore, and then I can look towards these down close candles here."
+[VISUEL: Le prix remonte, clôturant au-dessus des chandeliers baissiers précédents. Une position longue est tracée. L'entrée est au-dessus du plus haut du chandelier, le stop loss est sous le plus bas du chandelier, et le take profit est à 2R.]
+"Now with a closure through here, do I need to go down to a lower timeframe? Some people prefer to just take entries on the one-hour, in which case, I could take an entry on this close, my stop on the low, or below the bodies, and then look for 2R. What else could I do? I could see if there's any retracements. So let's see what happens."
+[VISUEL: Le prix retrace légèrement, puis monte rapidement, atteignant le take profit.]
+"Right here, we get a retracement, could look for a buy in this fair value gap, this swing point, as we continue higher. Or as we come into the New York session, if we have a London reversal, I'd want to see a New York continuation."
+[VISUEL: Le prix monte, puis retrace légèrement, puis monte encore.]
+"What do we notice? Aggressive up, do we get a retracement or a reversal? This is a reversal. We sweep out a low. If we are going to continue with that New York trend, this should form the low, and then I could look to get on side, which I can go down to the five-minute chart to do."
+[VISUEL: Le graphique passe au timeframe 5A_VERIFIER minutes. Le prix est en train de descendre, puis remonte légèrement. Une ligne horizontale marque le plus bas d'un chandelier précédent, marquant un niveau d'invalidation.]
+"Down here on the five-minute chart, I have a nice closure on the hourly. Do I have the confirmation? I do, as we've closed through the series of candles that made that low. I could just look to get on side with this trade here, my stop on the low or below the bodies, and then looking for 2R. So let's see what happens. Do we get a continuation or do we get stopped out?"
+[VISUEL: Le prix descend fortement, puis remonte légèrement. Une position courte est tracée. L'entrée est au-dessous du plus bas du chandelier, le stop loss est au-dessus du plus haut du chandelier, et le take profit est à 2R.]
+"And you can see, we almost get stopped out, but we allow price to trade back up into that fair value gap, right? I want to have my stop above that, because it can reach back up and respect 0.5 of this higher timeframe candle. So, there we go. Now, I hope you found this video helpful. It is a fractal concept. However, I prefer to use it on the daily candles. If you did find it helpful, please consider liking, subscribing, and I'll see you guys in the next video. Have a good one."
+[VISUEL: Écran de fin avec "TTRADES" et "THANKS FOR WATCHING", "LIKE & SUBSCRIBE".]
+(Musique d'outro)

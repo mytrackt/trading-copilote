@@ -1,0 +1,420 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: YGpiVS8BNLw.mp4]
+---
+Voici la transcription de la vidéo, en intégrant les descriptions visuelles et en respectant les règles que vous avez fournies. Veuillez noter que la personne qui parle dans la vidéo n'est pas Mustapha Belkhayate, et que la langue parlée est l'anglais, non le français. J'ai transcrit l'audio tel qu'il est prononcé dans la vidéo.
+
+---
+
+**00:00 - 00:02**
+[VISUEL: Une femme est assise devant un bureau avec plusieurs écrans d'ordinateur affichant des graphiques boursiers. Elle utilise une souris et un clavier. Un texte "DAY TRADING" apparaît à l'écran.]
+So, you're interested in learning to day trade.
+
+**00:02 - 00:06**
+[VISUEL: La femme est maintenant affalée sur son clavier, l'air dépassé. Des formules mathématiques et des symboles géométriques flottent autour d'elle, l'image passe en noir et blanc.]
+And you feel really overwhelmed by everything that you have to learn.
+
+**00:06 - 00:09**
+[VISUEL: La femme est de nouveau souriante, face à la caméra, avec les écrans de trading en arrière-plan. L'image est en couleur.]
+Don't worry, you found this video.
+
+**00:09 - 00:11**
+[VISUEL: Logo "humbled trader" avec un hibou stylisé sur fond bleu, avec une ligne de graphique boursier en arrière-plan.]
+
+**00:11 - 00:13**
+[VISUEL: La femme souriante, l'image est très lumineuse, puis revient à la normale.]
+
+**00:13 - 00:20**
+[VISUEL: La femme parle face caméra. L'arrière-plan est bleu uni. Une image d'elle-même, l'air fatigué, apparaît dans un cercle avec le texte "Beginner". Une flèche pointillée relie ce cercle à un autre cercle où elle apparaît souriante et confiante, avec le texte "Pro" et une coche verte.]
+In this video, I'm going to show you step-by-step exactly what you need to learn in order to start day trading as a complete beginner.
+
+**00:20 - 00:32**
+[VISUEL: La femme parle face caméra sur fond bleu. Le chiffre "#1A_VERIFIER" apparaît en grand, suivi du texte "Technical Analysis". Une liste à puces apparaît : "Supply & demand key levels", "Chart patterns", "Trend analysis".]
+We're going to go over some major sections. The first one, Technical Analysis, which includes drawing supply and demand key levels, two common chart patterns, and trend analysis.
+
+**00:32 - 00:40**
+[VISUEL: Le chiffre "#2A_VERIFIER" apparaît, suivi du texte "Platform Setups". Une liste à puces apparaît : "Brokers & platform layout for paper & live trading".]
+Then you'll learn about trading platform setups, the best trading platform and layout for paper trading and live trading.
+
+**00:40 - 00:49**
+[VISUEL: Le chiffre "#3A_VERIFIER" apparaît, suivi du texte "How to Find Stocks to Trade". Une liste à puces apparaît : "Settings download", "Paid & free tools".]
+Next, you'll learn about how to find stocks to trade, as well as the different options of free and paid tools that I recommend for day trading.
+
+**00:49 - 01:00**
+[VISUEL: Le chiffre "#4A_VERIFIER" apparaît, suivi du texte "How Much Money to Start Day Trading". Une liste à puces apparaît : "PDT rule".]
+I'll also answer the important question of how much money do you need to start day trading, and break down the PDT rule, and how you can potentially avoid it.
+
+**01:00 - 01:05**
+[VISUEL: La femme fait un signe "OK" avec sa main. Un cercle rouge apparaît avec le texte "Experience" et une flèche pointant vers le cercle. Le cercle rouge disparaît et des éclairs jaunes apparaissent autour d'elle.]
+Even if you have zero trading experience, don't worry, I'm here to lead the way.
+
+**01:05 - 01:11**
+[VISUEL: La femme parle face caméra. Puis elle est montrée de dos, assise devant ses écrans de trading, avec une vue sur une ville en arrière-plan.]
+So by the time you're done with this video, you have the exact roadmap you need to start day trading.
+
+**01:11 - 01:19**
+[VISUEL: La femme parle face caméra. Des personnages de dessins animés avec des liasses de billets apparaissent de chaque côté d'elle.]
+And hopefully, turn this into a real profitable side hustle or a business with a real game plan.
+
+**01:19 - 01:29**
+[VISUEL: La femme parle face caméra. Une barre de progression YouTube apparaît avec le nom "Humbled Trader" et un bouton "SUBSCRIBE" qui passe de rouge à "SUBSCRIBED" avec une cloche.]
+If that sounds good to you, then make sure to hit the like button down below if you want to see more day trading videos like this. We have a lot to cover today, so let's get started.
+
+**01:29 - 01:33**
+[VISUEL: Texte "HOW TO START DAY TRADING FOR BEGINNER" apparaît en bas de l'écran.]
+
+**01:33 - 01:39**
+[VISUEL: L'écran se déchire au milieu. La femme est maintenant assise à son bureau, souriante, avec un taureau doré sur le bureau.]
+Alright, let's start with the most important foundation in day trading, which is...
+
+**01:39 - 01:49**
+[VISUEL: Fond bleu. Le chiffre "#1A_VERIFIER" apparaît en grand, suivi du texte "Technical Analysis". Une liste à puces apparaît : "Support & resistance", "Breakout charts", "Breakdown charts", "Trend analysis".]
+Technical Analysis. In this section, we'll be going over support and resistance, breakout charts, breakdown charts, and trendline analysis.
+
+**01:49 - 02:02**
+[VISUEL: Graphique boursier de NVDA sur TradingView. Le graphique de gauche est un graphique journalier, celui de droite un graphique en 5A_VERIFIER minutes. La femme pointe des éléments sur le graphique.]
+So on the screen over here, you're looking at the stock, the daily chart for NVIDIA. And this is probably the most important AI stock that's got everyone's attention for the last couple of years.
+
+**02:02 - 02:16**
+[VISUEL: Le graphique de NVDA est affiché. La femme pointe des hauts et des bas sur le graphique. Des cercles jaunes apparaissent autour des "extreme highs" et "extreme lows". Le texte "PEAKS & VALLEYS" apparaît.]
+But out of this entire move, as you can see, you see a lot of highs and lows, extreme highs, extreme lows, and then extreme high over here. And this is what we call peaks and valleys.
+
+**02:16 - 02:39**
+[VISUEL: Le graphique de NVDA est affiché. La femme pointe des zones où le prix rebondit. Des cercles jaunes apparaissent autour de ces zones. Des flèches rouges indiquent les mouvements de rebond. Le texte "Support areas" apparaît.]
+These extreme valleys that you can see, such as here, here, here, here, here, where you can see the stock bounce off, the candlesticks bouncing off at lows and coming back up. Same thing here, there's a V-shape down here where this candlestick went all the way down to 90 dollars and bounced back up. This is what we call support areas.
+
+**02:39 - 02:59**
+[VISUEL: Le graphique de NVDA est affiché sur la gauche. Sur la droite, la femme parle. Une boîte d'information jaune apparaît avec le texte "SUPPORT LEVELS: Are historical price levels, where buyers stepped in to buy the stock."]
+Support levels, these are historical price levels, where buyers stepped in to buy the stock at low prices. Therefore, it's very common for you to see the stock bounce off the same price multiple times, as you saw on the screen, because there are buyers around those areas to support the stock when it's sold off to those low levels.
+
+**03:01 - 03:18**
+[VISUEL: Le graphique de NVDA est affiché. La femme pointe des sommets où le prix chute. Des cercles jaunes apparaissent autour de ces sommets. Le texte "Resistance" apparaît.]
+And vice versa, all these peaks of the mountain here, here, and you can see up here, all these extreme highs, what we call peaks, these are areas when the candlestick went up to the highs and fell back sharply. And these are what we call resistance.
+
+**03:18 - 03:40**
+[VISUEL: Le graphique de NVDA est affiché sur la gauche. Sur la droite, la femme parle. Le texte "Resistance" est toujours visible. Une boîte d'information jaune apparaît avec le texte "RESISTANCE LEVELS: Are historical price levels, where sellers stepped in to sell the stock."]
+Resistance or supply areas are the opposite of support and demand. These areas are historical price levels where sellers stepped in to sell the stock. So whenever you see the stock run up to those areas, buyers decrease and sellers step in to take profit or to get out of their position.
+
+**03:40 - 04:16**
+[VISUEL: Le graphique de NVDA est affiché. La femme pointe des zones de hauts et de bas. Des lignes jaunes horizontales sont tracées pour marquer les niveaux de support et de résistance. Des flèches rouges indiquent les formes en V et W. Le texte "Demand zones (support areas)" apparaît.]
+So there are two things to look out for when you're drawing support and resistance, or aka supply and demand. Number one is to find the extreme highs and lows that we talked about, the peaks over here, the extremes, right, the extreme highs, and the extreme lows, which is the valleys, or what we call the V-shape. You see a huge V-shape here, here, and here. So these are what we call the demand zones, or the support areas. If you're ever confused, just remember, you're looking for mountain ranges, the peaks and valleys, or the extreme V-shapes and W-shapes.
+
+**04:16 - 04:32**
+[VISUEL: Le graphique de NVDA est affiché. La femme fait un signe "deux" avec ses doigts. Des lignes jaunes horizontales sont tracées. Le texte "Pro tip: The more contact points, the stronger the support/resistance level." apparaît.]
+The second thing you want to look out for is that you want to see at least three contact points in the past. Generally speaking, the longer term a daily resistance is, the stronger the breakout will be in today.
+
+**04:32 - 04:39**
+[VISUEL: L'écran se déchire. La femme est souriante face caméra. Des coches vertes apparaissent à côté des textes "Support" et "Resistance".]
+Okay, now that we understand support and resistance, I hope you paid attention and took notes. Because this is a key aspect of your technical analysis foundation.
+
+**04:39 - 04:55**
+[VISUEL: Fond bleu. Le chiffre "#1A_VERIFIER" apparaît en grand, suivi du texte "Technical Analysis". Des points rouges apparaissent à côté de "Breakout charts" et "Breakdown charts".]
+From here, we're going to learn about breakouts and breakdowns. The first chart pattern that you should learn is the breakout chart pattern. This is an important one, so pay attention now.
+
+**04:55 - 05:08**
+[VISUEL: Graphique boursier de TSLA sur TradingView. La femme parle. Une boîte d'information jaune apparaît avec le texte "BREAKOUT CHART: A stock breaks through key daily resistance levels or supply zones."]
+A breakout is a chart pattern that occurs when a stock is breaking through a daily resistance. Now you can see that we're tying all the technical analysis concepts that we learned earlier together now.
+
+**05:08 - 05:34**
+[VISUEL: Graphique de TSLA. Des lignes horizontales oranges marquent les niveaux de résistance. Une flèche verte indique un "Breakout" où le prix franchit une résistance. La boîte d'information "BREAKOUT CHART" est toujours visible.]
+So if you look at this Tesla chart, there's some major daily resistance area. So what is a breakout? Let's look at this example here. A breakout is when a stock breaks through that daily resistance. So you see this resistance that we identified on the daily chart. This is a major breakout when the stock, the candlestick, breaks through that orange line over here and continues higher. This is what we call a breakout.
+
+**05:34 - 06:00**
+[VISUEL: Graphique de TSLA. Une autre ligne de résistance orange est franchie par un "Breakout". La femme parle. Une boîte d'information jaune apparaît avec le texte "GOING LONG: Buying a stock, with the thesis that the price will go higher."]
+And same thing here. You can see that this is a prior resistance near all-time highs. The stock broke out, now it's coming back down. But the last couple of days, this was a breakout chart. And for me, this will be the perfect kind of chart pattern for a lot of my long strategies, whether that's day trading or swing trading. Going long means you're buying a stock, with the thesis that the price will go higher.
+
+**06:00 - 06:06**
+[VISUEL: Fond bleu. La femme parle. Le texte "Not all breakouts are created equal" apparaît.]
+Now here's a pro tip. Now that we're on the breakout chart, "Not all breakouts are created equal".
+
+**06:06 - 06:12**
+[VISUEL: Fond bleu. La femme parle. Deux exemples de graphiques sont affichés. Le graphique du haut montre un "Multiple attempted breakout through multiple months. The stock now breaks through new all time highs." Le graphique du bas montre un "Example of a weak breakout: The stock cannot hold a resistance."]
+In general, the longer term a daily resistance is, the stronger the breakout will be in today.
+
+**06:12 - 06:56**
+[VISUEL: Graphique de TSLA. La femme pointe une zone de résistance testée plusieurs fois sur plusieurs mois. Le texte "Multi-month Resistance" apparaît. Le prix franchit cette résistance et monte fortement. Les prix "356A_VERIFIER$" et "469A_VERIFIER$" sont affichés.]
+So this was an example of a strong breakout. You can see that this resistance that we talked about has been tested one, two, three, four, five times in the past, or six or seven actually, all the way back from November of last year. So this is a multi-month resistance. It's been tested for at least eight months. So that's the reason when this thing is broken out of, you can see that the stock continued to go higher for multiple days or weeks. It went up from 356 dollars all the way to 469 dollars. That's a 100 dollar per share move on this breakout. So that's an example of a really strong breakout.
+
+**06:56 - 07:33**
+[VISUEL: Graphique de AMD. La femme pointe un breakout qui ne tient pas. Le prix franchit une résistance mais redescend rapidement. Les prix "245.50A_VERIFIER" et "240.99A_VERIFIER" sont visibles.]
+Now let's take a look at an example of a breakout that's not so strong. So this AMD, you can see that this breakout here back in at the end of October, you broke through this, I think this is all-time highs 240s. Yeah, this is another all-time highs breakout, which is great. But you can see that this resistance was only created a couple of weeks ago. It's not a multi-month resistance or a multi-year resistance. So that's what I mean by not all breakouts are created equal. You can see this thing broke out, yes, from 240 to 260s for a little bit, but it's coming back down.
+
+**07:33 - 07:52**
+[VISUEL: Graphique de AMD. La femme pointe le prix qui redescend sous la résistance. Le prix "240.42A_VERIFIER" est visible. Elle explique l'importance de l'analyse technique.]
+Now, if the stock, you know, they can reclaim back over 220s and try to break out again in a couple of months, I think we can see another really strong breakout. You can see why it's so important to learn these technical analysis basics early on. So I'm glad you're watching this video. Because trading is very nuanced. If you really want to become an active trader, then you need to learn so many pieces of a puzzle.
+
+**07:52 - 08:08**
+[VISUEL: La femme est assise devant ses écrans de trading, l'air concentré, puis elle se lève et regarde son téléphone. Elle est de nouveau assise, l'air pensif.]
+And it's your job as a day trader to put all these pieces together in real time in order to make good decisions with calculated risk.
+
+**08:08 - 08:12**
+[VISUEL: La femme parle face caméra, avec le graphique de AMD en arrière-plan.]
+And I'm here to help you build your trading foundation with this video.
+
+**08:12 - 08:18**
+[VISUEL: L'écran se déchire. La femme est souriante face caméra. Une coche verte apparaît à côté de "Breakout charts". Un point rouge apparaît à côté de "Breakdown charts".]
+Okay, now that you learned about breakout charts, let's talk about breakdowns now. As the name suggests, a breakdown is the opposite of a breakout.
+
+**08:18 - 08:29**
+[VISUEL: Graphique de OKLO sur TradingView. La femme parle. Une boîte d'information jaune apparaît avec le texte "BREAKDOWN CHART: When a stock breaks down a daily support and is unable to reclaim".]
+A breakdown chart occurs when a stock is breaking below a key support level. So looking at this chart, OKLO now, um there's some examples of a breakdown.
+
+**08:29 - 08:50**
+[VISUEL: Graphique de OKLO. Des lignes horizontales oranges marquent les niveaux de support. La femme pointe des zones où le prix rebondit, puis franchit un support. Le texte "Resistance" apparaît, puis "Breakdown" avec des flèches rouges.]
+So you can see that there's some support here. You can see multiple touch points. Support here, this is where the previously the stock bounced off here and here. And you can see there's another support here. Support area here, here, and here. Now you can see that when the stock broke down on the daily, this orange line here, the first one, it broke down, retested, and came back down lower. Same thing here, when it's testing that support area, it bounced off at first, back in early December, and now today, the last couple of days actually, it's breaking down below that support again. You can see once it's below that orange line, it's heading up slowly, dripping lower, especially today when the market's not doing so well. So where it's going next? You can see that there's the next support around this area. 68 dollars or maybe a couple points above it.
+
+**08:50 - 09:34**
+[VISUEL: Graphique de OKLO. La femme pointe les niveaux de support. Le prix "110.90A_VERIFIER", "94.96A_VERIFIER", "84.25A_VERIFIER", "80.00A_VERIFIER", "76.04A_VERIFIER", "68.58A_VERIFIER" sont visibles. Des flèches rouges indiquent les "Breakdown".]
+So that's where it's going down next, to the next support level lower on the daily chart.
+
+**09:34 - 09:47**
+[VISUEL: Graphique de OKLO. La femme parle. Le texte "Pro tip: The longer term the daily support is, the more aggressive the breakdown will be." apparaît.]
+And you can see for this kind of breakdown chart, you see something similar as a breakout chart pattern that we talked about. The longer term the daily support is, the more aggressive the breakdown will be.
+
+**09:47 - 10:08**
+[VISUEL: La femme parle. Un document "the weekend watchlist by humbled trader" est affiché. Il contient un "WEEKLY MARKET SUMMARY", "UPCOMING EVENTS" et "TRADE IDEAS FOR NEXT WEEK". Un bouton "SIGN UP FOR FREE" apparaît.]
+If you're learning a lot about all these different kinds of chart analysis, then you should also check out my free weekend watchlist that I send out every single Sunday. This email includes three to four stocks I'm watching for day trading and swing trading, and of course, my personal game plan. The link to sign up is down below, and again, it's free.
+
+**10:08 - 10:15**
+[VISUEL: L'écran se déchire. La femme est souriante face caméra. Le chiffre "#1A_VERIFIER" apparaît, suivi de "Technical Analysis". Des points rouges apparaissent à côté de "Trends" et "Trendlines".]
+The next key technical analysis concept you need to learn is trends and trendlines.
+
+**10:15 - 10:25**
+[VISUEL: La femme parle. Une boîte d'information jaune apparaît avec le texte "TREND: A trend is the general, sustained direction a stock's price moves over time. A trend is identified through technical analysis as either an uptrend, a downtrend, or a sideways movement, helping traders predict future price action."]
+In trading, a trend is a general overall direction that a stock price is moving over time. So again, it can be higher or lower. Let me show you an example now.
+
+**10:25 - 10:43**
+[VISUEL: Graphique de NVDA. La femme pointe une zone de tendance haussière. Une ligne jaune horizontale marque un support à "124A_VERIFIER$". Une autre ligne jaune marque une résistance à "180A_VERIFIER$". Une flèche verte indique une tendance haussière. Le texte "200A_VERIFIER SMA" est visible.]
+So once again, back at the NVIDIA daily chart. In this example, you can see that prior to all these area here, we're looking at the stock breaking through that 200 SMA from 124 dollars all the way to 180 dollars. So that's a 60 dollar per share move.
+
+**10:43 - 11:28**
+[VISUEL: Graphique de NVDA. La femme trace une ligne de tendance haussière (jaune) reliant les bas des chandeliers. Des cercles jaunes marquent les points de contact. Le texte "Trendline" apparaît. Une boîte d'information jaune apparaît avec le texte "Pro tip: An uptrend is identified by steady higher highs and higher lows."]
+And you can see that if I line up the bottom of these candles over here with a line drawing tool, you can kind of see this kind of trend over here. This is what we call a trendline. And this trendline highlights an uptrend. An uptrend is identified by consistent higher highs, which you can see the highs here, just keep on getting higher, higher highs over here, getting steadily higher as we go. Same thing as the lows. The lows of these candle here, 120, 130s, 140s, just keep on getting higher. So remember, an uptrend is identified by higher highs and higher lows. Uptrends are generally considered bullish.
+
+**11:28 - 12:01**
+[VISUEL: Graphique de NVDA. La femme déplace le graphique pour montrer une tendance baissière. Elle trace une ligne de tendance baissière (orange) reliant les hauts des chandeliers. Des flèches rouges indiquent les mouvements. Le texte "Downtrend" apparaît.]
+So that's a great example here. But now if we shift a little bit over here to the end of 2024 and beginning of 2025, you see something different. You see the highs are consistently going lower for multiple months. You go from 150 down to 140s down to 110s or even below 100. And same thing for the lows. The lows are getting lower as well. So once you connect the dots like I have, you can see that this trendline is sloping down. This is what we call a downtrend.
+
+**12:01 - 12:52**
+[VISUEL: Graphique de NVDA. La femme parle. Le texte "Pro tip: A downtrend is identified by steady lower highs and lower lows." apparaît. Elle montre un "Trend Reversal" où la tendance passe de baissière à haussière.]
+And of course, you guessed it, downtrends are generally considered bearish. And it's a good thing that we have the downtrend and the uptrend on NVIDIA side by side here. Because you see another pattern that you see a lot on the bigger picture. You see a trend reversal. You see there's a reason that uptrends are often preceded by downtrends. Because you can see a stock is going lower, lower, lower beneath this trendline, and when it's broken out of, once again, it's a breakout over that daily downtrend, that's when you see it starts heading towards a different direction. And this is what we call a trend reversal. Daily big picture trends or trend reversals like the ones you just saw, is used by traders and investors all the time to predict future movements short term.
+
+**12:52 - 13:00**
+[VISUEL: La femme parle. Le texte "The trend is your bestfriend" apparaît.]
+In trading, there's an important saying called "The trend is your bestfriend" or you should trade with the trend.
+
+**13:00 - 13:08**
+[VISUEL: L'écran se déchire. La femme est souriante face caméra. Le chiffre "#2A_VERIFIER" apparaît en grand, suivi du texte "Trading Platform".]
+Alright, now that you learned the foundation of technical analysis, let's get you set up on a trading platform now.
+
+**13:08 - 13:16**
+[VISUEL: La femme parle. Le texte "Brokers & platform layout for paper & live trading" apparaît.]
+Before I dive into which trading platform you should sign up for, let me show you my recommended platform setup for beginner day traders.
+
+**13:16 - 13:24**
+[VISUEL: Écran de trading "DAS TRADER PRO". Plusieurs graphiques et fenêtres sont affichés. Le texte "Trading Platform: DAS TRADER PRO" apparaît.]
+So on the screen over here, you're looking at my trading platform, DAS Trader Pro, that's connected to my brokerage account.
+
+**13:24 - 13:35**
+[VISUEL: Écran de DAS TRADER PRO. Des zones sont mises en évidence : "Daily Chart" à gauche, "Intraday Chart (5min)" au centre. La femme parle.]
+So for the chart layout, you can see the daily chart on the left-hand side, and the intraday chart on the right-hand side. I like to line them up side by side. And I recommend having at least two sets of these charts.
+
+**13:35 - 13:55**
+[VISUEL: Écran de DAS TRADER PRO. Des zones sont mises en évidence : "Level 2A_VERIFIER montage & order entry", "Time & sales", "Watchlists", "Positions", "Orders". La femme parle.]
+Essentially, you're looking at at least two tickers at once. You also see the order execution window I have here for the order entries and level two, the time and sales, the watchlists at the bottom, and the positions window, and the window for all your pending orders.
+
+**13:55 - 14:05**
+[VISUEL: La femme est assise devant ses écrans, puis elle se lève et travaille debout. Elle est concentrée sur ses écrans.]
+And it's very crucial that when you're getting started with day trading, you should always start trading with a paper trading account first. That gives you real-time market data.
+
+**14:05 - 14:18**
+[VISUEL: La femme parle face caméra. Une boîte d'information jaune apparaît avec le texte "PAPER TRADING: Trading with fake simulated money." Elle explique l'importance du paper trading.]
+Paper trading means you're trading fake simulated money. Because the reality is, if you're brand new to day trading, you are most likely going to lose money first. I'm not going to sugarcoat it.
+
+**14:18 - 14:25**
+[VISUEL: La femme est affalée sur son clavier, l'air triste. Des chiffres négatifs apparaissent à l'écran, indiquant des pertes ("Realized -10159.39A_VERIFIER", "-11734.81A_VERIFIER", "-972.01A_VERIFIER").]
+Like I mentioned in many of my previous videos, I've lost thousands of dollars when I first started day trading.
+
+**14:25 - 14:36**
+[VISUEL: La femme est debout devant ses écrans, puis assise. Elle parle. Le texte "Pro tip: Trade in a simulated account for at least 3A_VERIFIER-4A_VERIFIER days/ week for 1A_VERIFIER month." apparaît.]
+And most of those mistakes could have been avoided had I practiced more and familiarized myself with all the different strategies and order types in a paper trading account. So make sure you learn from my mistakes, spend at least two weeks to one month trading on a simulated trading account first.
+
+**14:36 - 15:05**
+[VISUEL: La femme parle face caméra. Le texte "Pro tip: Trade in a simulated account for at least 3A_VERIFIER-4A_VERIFIER days/ week for 1A_VERIFIER month." est toujours visible. Un nouveau texte apparaît : "*2A_VERIFIER months if only trading less than 2A_VERIFIER days a week".]
+And that's assuming you're spending time looking at the live market data charts for at least three to four days on average per week. If you're only spending one or two days a week looking at your paper trading platform, then I recommend spending minimum two months with a simulated trading account. Trust me on this, your future self will thank you.
+
+**15:05 - 15:15**
+[VISUEL: La femme parle face caméra. Le chiffre "#2A_VERIFIER" apparaît, suivi de "Platform Setups". Le texte "Brokers & platform layout for paper & live trading" est visible. Elle mentionne qu'elle laissera les liens et réductions en description.]
+Okay, next we'll talk about the paper trading platform options that I recommend you to sign up for. And I'll leave all the links and discounts in the video description below.
+
+**15:15 - 15:25**
+[VISUEL: La femme parle. Le logo "Interactive Brokers" apparaît. Elle mentionne la disponibilité mondiale.]
+A good option for paper trading is on Interactive Brokers desktop, which is available in US, Canada, and pretty much the rest of the world.
+
+**15:25 - 15:37**
+[VISUEL: La femme parle. Une capture d'écran des frais de données de marché d'Interactive Brokers est affichée. Le texte "US Equity and Options Add-On Streaming Bundle USD 4.50A_VERIFIER", "NASDAQ TotalView-OpenView USD 16.50A_VERIFIER", "NYSE ArcaBook USD 11.00A_VERIFIER" est visible.]
+With Interactive Brokers, you need to purchase their market data subscriptions in order to get live market data. I believe the packages are about 20 dollars a month, which is not bad at all.
+
+**15:37 - 15:44**
+[VISUEL: La femme parle. Elle montre un exemple de layout sur Interactive Brokers.]
+The reason I recommend them is because their Interactive Brokers desktop platform is actually really easy to use. With flexible charting, indicators, and order entry options.
+
+**15:44 - 15:59**
+[VISUEL: Écran de Interactive Brokers. Des zones sont mises en évidence : "Order Entry", "Daily Chart", "Intraday Chart", "Portfolio", "Quote Details", "Order Table", "Watchlist", "News". La femme parle. Elle montre comment lier les fenêtres.]
+And on screen over here, you can see this is the exact layout I like to use as well. I've done a video tutorial going over the new platform, and I'll link it down below as well.
+
+**15:59 - 16:21**
+[VISUEL: La femme parle. Le logo "Webull" apparaît. Elle explique pourquoi elle ne recommande pas les brokers à commission zéro pour le trading en direct.]
+The second recommended platform for paper trading is Webull, which is a free commission broker platform. While I do not recommend using 0 dollar commission brokers for live day trading, for paper trading, I think it's totally fine. Especially if you're brand new and just getting warmed up with learning all these charting and technical analysis that we talked about.
+
+**16:21 - 16:31**
+[VISUEL: Écran de Webull. La femme parle. Elle montre l'interface de Webull, y compris l'application mobile.]
+The user interface on Webull is very easy to use. I personally use their mobile app to track the stocks I'm watching on the go for day trading and swing trading.
+
+**16:31 - 16:39**
+[VISUEL: Écran de Webull. La femme parle. Elle montre le screener intégré de Webull.]
+They also offer free live market data, as well as a built-in screener. So that's definitely a plus.
+
+**16:39 - 16:54**
+[VISUEL: La femme parle. Le logo "TradingView" apparaît. Elle montre un graphique de PLTR sur TradingView, avec une forte hausse (+340A_VERIFIER% en 2024A_VERIFIER).]
+Option number three, TradingView. This has now become my favorite charting platform. I really like the versatility across all the platforms, since it's web-based, it's available to anyone on any devices around the world.
+
+**16:54 - 17:09**
+[VISUEL: La femme parle. Elle montre une capture d'écran des frais de données de marché de TradingView. Le texte "US Stock Markets bundle for $9.95A_VERIFIER" est visible.]
+And best of all, you can start with a free version online. If you require live market data, which you do for paper trading or even live trading later, that's an additional cost of around I think like 20 dollars a month.
+
+**17:09 - 17:20**
+[VISUEL: La femme parle. Elle montre un graphique de NVDA sur TradingView, puis un graphique de TSLA. Elle explique qu'elle utilise TradingView pour ses démos.]
+I love using TradingView personally. You can see that this is the charting platform I use for all my YouTube video demos, as well as my weekend watchlist as well.
+
+**17:20 - 17:28**
+[VISUEL: La femme parle. Les logos "Interactive Brokers", "Webull", "TradingView" sont affichés. Elle les recommande pour le paper trading, mais pas nécessairement pour le live trading.]
+So all the above are my recommendations for paper trading. But I don't necessarily recommend using them for live trading.
+
+**17:28 - 17:46**
+[VISUEL: La femme parle. Les logos "Interactive Brokers" et "centerpoint by CLEAR STREET" apparaissent. Le texte "Links to Discount Codes & Promos" est affiché.]
+When you're ready to open a live trading account, I recommend these two. Interactive Brokers, once again, and Centerpoint Securities. These two brokers are the active trading platforms that I personally use for day trading as well as swing trading. And I'll link any active promotions for them down below.
+
+**17:46 - 17:57**
+[VISUEL: La femme parle. Elle explique qu'il n'y a pas de broker parfait.]
+I'll say this, that there is no perfect broker out there. There's pros and cons for each and every single one. If you have questions about any of the platforms, feel free to ask me in the comment section below.
+
+**17:57 - 18:07**
+[VISUEL: La femme parle. Le chiffre "#3A_VERIFIER" apparaît en grand, suivi du texte "How to Find Stocks to Trade".]
+Alright, now you have your paper trading platform and a live trading account set up. It's time to move on to the next step, which is finding stocks to trade.
+
+**18:07 - 18:19**
+[VISUEL: La femme parle. Elle explique l'importance de trouver des actions avec du volume et de la portée. Le texte "Finding Stocks in Play" apparaît.]
+Essentially, your job as a day trader is to find the stocks that have the most volume and range each day to trade. And that's what we call finding stocks in play.
+
+**18:19 - 18:25**
+[VISUEL: La femme parle. Elle mentionne l'utilisation d'un "gap scanner".]
+And the simplest way to do so every single morning pre-market is using a gap scanner.
+
+**18:25 - 18:37**
+[VISUEL: La femme parle. Des exemples de graphiques avec des "Overnight Gappers" sont affichés. Des flèches rouges indiquent les "Overnight gap up after earnings & guidance beat".]
+And like the example you just saw, whenever you have huge volume surge and huge range from the overnight gap, that's where you see a lot of opportunities for us day traders to profit from.
+
+**18:37 - 18:47**
+[VISUEL: La femme parle. Elle mentionne qu'elle donnera différentes façons de scanner les "overnight stock gap ups".]
+And just like the previous paper trading and live trading broker platforms, I'll give you a variety of different ways to scan for these overnight stock gap ups every single morning.
+
+**18:47 - 19:06**
+[VISUEL: Écran de trading avec des "gap scanners" colorés. La femme parle. Elle montre deux scanners : un pour les "Small Caps" et un pour les "Large Caps".]
+You can see these colorful windows here, different windows. And these two are my gap scanners. I have one set up for small caps, and one for large caps. As the name suggests, this scanner picks up stocks that are gapping up every single morning pre-market with volume.
+
+**19:06 - 19:29**
+[VISUEL: La femme parle. Elle montre les réglages de son scanner pour les "Small Caps". Le texte "Market Cap <1B", "Change from close <10A_VERIFIER%", "Price <1A_VERIFIER$", "Volume >20K" est visible.]
+And let me show you my settings here. Um, this is my setting for small caps. So for the small cap scan, this is my criteria. I'm selecting stocks with a maximum market cap of 1 billion dollars. I want to see stocks that's up at least 10% on the day. Remember, these are small caps after all. A dollar per share minimum price, and volume, I want minimum 20,000 shares traded.
+
+**19:29 - 19:59**
+[VISUEL: La femme parle. Elle montre les réglages de son scanner pour les "Large Caps". Le texte "Market Cap <1B", "Change from close <3A_VERIFIER%", "Price <1A_VERIFIER$", "Volume >50K" est visible.]
+As for large caps, the settings are largely the same, you can see over here. Except this time, um the minimum market cap is 1 billion, and change from close, I want minimum 3% change. Um, price can be a dollar actually. Volume, I'm looking for around 50,000 shares minimum for larger cap stocks. Feel free to take a screenshot of the settings here. It's very simple, and you can apply these exact settings to any scanner or screener that you're using.
+
+**19:59 - 20:15**
+[VISUEL: La femme parle. Elle montre un scanner appelé "Trade Ideas". Le texte "Scanner: Trade Ideas" apparaît.]
+The scanner that you see me use right here is called Trade Ideas. It's a premium scanner. In my opinion, it's the most customizable. You can even create different alerts and strategy windows like you see here. So you can scan for multiple strategies all at once.
+
+**20:15 - 20:37**
+[VISUEL: La femme parle. Elle mentionne que "Trade Ideas" est un scanner premium et qu'elle laissera un lien de téléchargement avec un code de réduction.]
+This is a premium scanner, so it does cost more than the other options that I'll give you later. But if you want to try it out, you can download my exact layout and settings down below, and there's also a coupon code for 15 to 30% off as well. But I do understand that Trade Ideas might be out of a lot of beginner traders' budgets. So no worries, I got you.
+
+**20:37 - 20:46**
+[VISUEL: La femme parle. Les logos "Interactive Brokers", "Webull", "TradingView" sont affichés. Elle les recommande pour le paper trading.]
+Remember the paper trading platforms I recommended earlier? Yes, that's Interactive Brokers desktop, Webull, and TradingView.
+
+**20:46 - 20:57**
+[VISUEL: La femme parle. Elle montre le screener d'Interactive Brokers, puis celui de Webull.]
+Both Interactive Brokers desktop and Webull have a decent screener that you can use. These are free within their trading platform, so you can use them for no additional cost.
+
+**20:57 - 21:02**
+[VISUEL: La femme parle. Elle mentionne qu'elle a couvert ces plateformes dans des tutoriels vidéo.]
+I went over both of those platforms in their dedicated video tutorials, which again, I'll link down below.
+
+**21:02 - 21:09**
+[VISUEL: La femme parle. Elle montre le screener de TradingView, qu'elle n'aime pas personnellement.]
+TradingView on the other hand, I personally dislike their screener. I think it's actually very difficult to use.
+
+**21:09 - 21:33**
+[VISUEL: La femme parle. Elle montre le scanner de DAS Trader Pro, qui est un "Top List" des actions les plus actives, gagnantes et perdantes.]
+Another one that you can consider is the DAS Trader platform. And if you go to the the quotes section, and then go to top list, this is a very simple scanner that they give you, which shows you the top, um most active stocks on the day, as well as the top gainers, top losers on the day as well. So that also gets the job done.
+
+**21:33 - 21:42**
+[VISUEL: L'écran se déchire. La femme est souriante face caméra. Le chiffre "#4A_VERIFIER" apparaît en grand, suivi du texte "How Much Money to Start Day Trading".]
+An important question that I'm sure you're wondering right now in your head is, how much money do I actually need to start day trading?
+
+**21:42 - 21:56**
+[VISUEL: La femme parle. Le texte "$3000A_VERIFIER - $4000A_VERIFIER" apparaît. Elle recommande ce montant pour les débutants.]
+So I'll give you the short answer and the long answer with all the details and caveat. The short answer is, I recommend a minimum of 3000 to 4000 dollars. This is the amount I recommend for all beginners to start with.
+
+**21:56 - 22:07**
+[VISUEL: La femme parle. Elle explique qu'elle va donner la longue réponse. Le texte "*Pattern Day Trader Rule" apparaît.]
+Okay, now let's talk about the details and long answer. Because yes, it does matter. And very important factor to consider is the pattern day trader rule, also called the PDT rule.
+
+**22:07 - 22:15**
+[VISUEL: La femme parle. Une capture d'écran d'un article de presse est affichée : "The $25,000A_VERIFIER Day Trading Rule May Soon Go Away".]
+Is a regulation that's pending to be removed or changed by the SEC. So this restriction may change very soon.
+
+**22:15 - 22:43**
+[VISUEL: La femme parle. Elle montre un graphique avec des icônes : drapeau américain, personne sur ordinateur, "< $25,000A_VERIFIER", "PDT RULE", "3A_VERIFIER Day Trades / 5A_VERIFIER Day", "M T W TH F" avec des coches et des croix.]
+Under this current restriction, if you are a US trader using a USA-based broker and trading with under 25,000 dollars, then you're subject to the PDT rule. This regulation limits you to 3 day trades within a rolling 5 day period. So once you hit that amount, let's say you place 3 day trades on a Monday, then you're effectively locked out from day trading for the rest of the week.
+
+**22:43 - 22:50**
+[VISUEL: La femme est affalée sur son clavier, l'air triste. Elle explique les conséquences de la règle PDT.]
+That means you can no longer buy and sell within the same day until the next rolling 5 day period.
+
+**22:50 - 23:16**
+[VISUEL: La femme parle. Elle explique que la règle PDT est une restriction importante. Elle montre un graphique comparant les traders américains (soumis à la PDT) et les traders canadiens/européens (pas de restrictions).]
+This is a huge restriction for beginner day traders, and something that many traders don't fully understand until it's too late. However, this rule does not apply to everyone. If you're trading from outside of USA, and you're not using a US broker, maybe you're in Canada, Singapore, or Europe, then there's no PDT restriction for you. Even if you're trading with less than 25,000 dollars. This alone can significantly change how you approach getting started with day trading. So if you're in the United States, then obviously the best scenario is if you have 25,000 dollars to fund your account.
+
+**23:16 - 23:46**
+[VISUEL: La femme parle. Elle explique que même avec 25A_VERIFIER 000A_VERIFIER$, il est recommandé de trader comme si on en avait moins. Elle donne des conseils pour éviter la règle PDT.]
+This doesn't mean to trade with all that entire 25,000 dollars capital. I would still recommend you to trade as if you only had 3 to 4,000 dollars. If you don't have 25,000 dollars, don't worry, that's still totally fine. I'll give you some tips on avoiding the PDT rule.
+
+**23:46 - 23:52**
+[VISUEL: La femme parle. Le texte "TRADE WITH CASH ACCOUNTS" apparaît.]
+Okay, so there are different ways to avoid the PDT rule. The first option is to trade with a cash account.
+
+**23:52 - 24:16**
+[VISUEL: La femme parle. Une liste de points apparaît : "PDT rule only applies to margin accounts", "No short selling allowed", "No leverage", "Need to be aware of cash settlement periods".]
+PDT rule only applies to margin accounts. So if you're trading with a cash account instead, that rule doesn't apply to you. That also means that your buying power will be limited to whatever capital you put in. Let's just say 3 to 4,000 dollars. But in my opinion, that's more than enough to get started. Just make sure you understand the cash settlement period from your broker.
+
+**24:16 - 24:36**
+[VISUEL: La femme parle. Le texte "MULTIPLE MARGIN ACCOUNTS" apparaît. Elle explique comment ouvrir plusieurs comptes pour augmenter le nombre de day trades.]
+The second option is to open multiple margin accounts at different brokers. If you have less than 25,000 dollars, but you have enough to open accounts, let's say at two brokers, Interactive Brokers or Webull, then that means you'll have 3 times 2, which is 6 day trades a week.
+
+**24:36 - 24:52**
+[VISUEL: La femme parle. Elle insiste sur le fait que le day trading n'est pas facile et recommande le paper trading.]
+As you can tell by now, day trading is not easy. There are no shortcuts, no alerts, or hacks that can replace your screen time and experience in the market. That's why I highly recommend you to start with a paper trading accounts first for at least one month.
+
+**24:52 - 24:59**
+[VISUEL: La femme parle. Le texte "Links to All The Resources Mentioned" apparaît.]
+You can check out all the trading platforms and tools I mentioned earlier down below, as well as any discount codes and video tutorials.
+
+**24:59 - 25:06**
+[VISUEL: La femme parle. Le logo "humbled trader" apparaît. Elle pointe vers une vidéo sur l'écran.]
+If you want to learn more about my day trading strategies, then you should check out this free crash course over here.
+
+---

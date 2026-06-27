@@ -1,0 +1,374 @@
+MODULE AGENT IA DE VEILLE ÉCONOMIQUE, FINANCIÈRE ET POLITIQUE - COMPLÉMENT AU PROMPT MAÎTRE
+
+Ajoute à l’application un module spécialisé appelé :
+
+“Agent IA de Veille Macro & Actualités de Marché”
+
+OBJECTIF DU MODULE
+
+L’application doit intégrer un agent IA autonome de veille, chargé de réunir chaque jour, au bon moment, les informations économiques, financières, monétaires, géopolitiques et politiques pouvant influencer les marchés.
+
+Cet agent ne doit pas trader.
+Cet agent ne doit pas produire directement un ordre d’achat ou de vente.
+Sa mission est d’informer l’application, contextualiser les signaux, détecter les risques externes et alerter l’utilisateur lorsqu’un événement important peut modifier les conditions de marché.
+
+Le rôle de cet agent est de répondre à cette question :
+
+“Le contexte économique, financier ou politique actuel autorise-t-il une décision de trading, impose-t-il la prudence, ou rend-il le marché trop dangereux ?”
+
+SECTION A — RÔLE DE L’AGENT IA DE VEILLE
+
+Décris précisément le rôle de cet agent.
+
+L’agent doit :
+
+1. Surveiller chaque jour les actualités économiques importantes.
+2. Surveiller les décisions des banques centrales.
+3. Surveiller les chiffres macroéconomiques.
+4. Surveiller l’inflation, les taux, l’emploi, la croissance, les devises, les matières premières et les indices majeurs.
+5. Surveiller les événements politiques pouvant impacter les marchés.
+6. Surveiller les tensions géopolitiques.
+7. Surveiller les annonces réglementaires.
+8. Surveiller les résultats d’entreprises importantes si l’application couvre les actions.
+9. Surveiller les événements programmés à fort impact.
+10. Surveiller les nouvelles inattendues à fort impact.
+
+L’agent doit transformer ces informations en contexte utile pour l’application de trading.
+
+SECTION B — MOMENTS DE VEILLE
+
+Conçois une logique intelligente de planification de la veille.
+
+L’agent doit travailler à plusieurs moments :
+
+1. Avant l’ouverture des marchés suivis.
+2. Après la publication des grandes statistiques économiques.
+3. Avant les annonces des banques centrales.
+4. Après les annonces des banques centrales.
+5. Avant les séances américaines, européennes ou asiatiques selon les actifs suivis.
+6. En fin de journée pour produire une synthèse.
+7. En cas d’actualité urgente ou exceptionnelle.
+8. Avant toute session de trading de l’utilisateur.
+
+L’agent doit permettre de configurer les marchés suivis :
+
+1. Forex.
+2. Indices.
+3. Actions.
+4. Crypto.
+5. Matières premières.
+6. Marchés marocains si disponibles.
+7. Marchés américains.
+8. Marchés européens.
+9. Marchés asiatiques.
+
+Pour chaque marché, indique le meilleur moment de veille et les informations prioritaires à collecter.
+
+SECTION C — SOURCES D’INFORMATION
+
+L’agent doit utiliser des sources fiables, hiérarchisées et traçables.
+
+Classer les sources en 5 niveaux :
+
+NIVEAU 1 — Sources officielles
+
+1. Banques centrales.
+2. Instituts statistiques officiels.
+3. Ministères des finances.
+4. Régulateurs financiers.
+5. Institutions internationales.
+
+NIVEAU 2 — Calendriers économiques
+
+1. Événements économiques programmés.
+2. Publications macroéconomiques.
+3. Décisions de taux.
+4. Discours de banques centrales.
+5. Publications de données d’inflation, emploi, PIB, ventes, PMI.
+
+NIVEAU 3 — Données de marché
+
+1. Indices.
+2. Devises.
+3. Obligations.
+4. Matières premières.
+5. Volatilité.
+6. Volumes.
+7. Spreads.
+8. Corrélations.
+
+NIVEAU 4 — Médias financiers reconnus
+
+1. Actualités économiques.
+2. Actualités entreprises.
+3. Analyses de marché.
+4. Alertes urgentes.
+
+NIVEAU 5 — Réseaux sociaux et rumeurs
+
+Ces sources doivent être considérées comme faibles, non vérifiées et jamais suffisantes pour influencer une décision de trading sans confirmation par une source plus fiable.
+
+SECTION D — FILTRAGE ET QUALIFICATION DES INFORMATIONS
+
+L’agent ne doit pas simplement accumuler des nouvelles.
+
+Il doit filtrer chaque information selon :
+
+1. Fiabilité de la source.
+2. Date et heure de publication.
+3. Actif concerné.
+4. Marché concerné.
+5. Impact potentiel.
+6. Urgence.
+7. Degré d’incertitude.
+8. Confirmation par plusieurs sources.
+9. Caractère programmé ou imprévu.
+10. Risque de fausse interprétation.
+
+Chaque information doit être classée comme :
+
+1. Fait confirmé.
+2. Donnée macroéconomique officielle.
+3. Événement programmé.
+4. Déclaration importante.
+5. Rumeur non vérifiée.
+6. Opinion d’analyste.
+7. Signal de risque.
+8. Bruit de marché.
+
+L’application doit distinguer clairement les faits, les interprétations et les hypothèses.
+
+SECTION E — SCORE D’IMPACT MACRO
+
+Crée un système de score d’impact macroéconomique.
+
+Chaque information doit recevoir :
+
+1. Score d’impact marché : faible, moyen, élevé, critique.
+2. Score de fiabilité : faible, moyen, élevé.
+3. Score d’urgence : faible, moyen, élevé.
+4. Score de risque : faible, moyen, élevé.
+5. Score de surprise : attendu, légèrement surprenant, très surprenant.
+6. Direction potentielle : favorable, défavorable, neutre, ambiguë.
+7. Actifs potentiellement affectés.
+8. Durée probable de l’impact : très court terme, intraday, plusieurs jours, structurel.
+
+Important : l’agent doit pouvoir conclure que l’impact est incertain ou contradictoire.
+
+SECTION F — INTÉGRATION AVEC LE CERVEAU IA DE TRADING
+
+L’Agent IA de Veille doit alimenter le cerveau IA principal.
+
+Il doit lui transmettre :
+
+1. Le résumé macro du jour.
+2. Les événements à fort impact.
+3. Les risques politiques ou géopolitiques.
+4. Les actifs à surveiller.
+5. Les actifs à éviter.
+6. Les périodes horaires dangereuses.
+7. Les annonces prévues.
+8. Les annonces déjà publiées.
+9. Les surprises économiques.
+10. Les contradictions entre actualités et analyse technique.
+
+Le cerveau IA de trading doit ensuite utiliser ces informations pour :
+
+1. Ajuster le score de risque.
+2. Refuser certains signaux techniques.
+3. Demander plus de confirmation.
+4. Recommander l’attente.
+5. Réduire la confiance d’un signal.
+6. Alerter l’utilisateur avant une annonce importante.
+7. Empêcher un trade juste avant une publication critique.
+8. Expliquer pourquoi le contexte externe change la décision.
+
+SECTION G — MODE ALERTE ÉVÉNEMENT CRITIQUE
+
+Ajoute un mode spécial :
+
+“Market Risk Alert”
+
+Ce mode se déclenche quand :
+
+1. Une banque centrale annonce une décision majeure.
+2. Une donnée économique sort très différente des attentes.
+3. Une crise politique ou géopolitique apparaît.
+4. Une volatilité anormale est détectée.
+5. Un actif casse violemment un niveau majeur.
+6. Les spreads augmentent fortement.
+7. Les marchés deviennent illisibles.
+8. Plusieurs sources fiables confirment un événement dangereux.
+
+Quand ce mode est activé, l’application doit :
+
+1. Afficher une alerte rouge.
+2. Réduire automatiquement le score des signaux.
+3. Bloquer les trades risqués.
+4. Recommander l’attente.
+5. Expliquer le risque en langage simple.
+6. Demander une confirmation humaine renforcée.
+7. Journaliser l’événement.
+8. Produire une synthèse post-événement.
+
+SECTION H — RAPPORT QUOTIDIEN DE VEILLE
+
+Chaque jour, l’agent doit produire un rapport clair.
+
+Ce rapport doit contenir :
+
+1. Résumé économique du jour.
+2. Résumé financier du jour.
+3. Résumé politique/géopolitique du jour.
+4. Événements programmés importants.
+5. Événements imprévus importants.
+6. Actifs à surveiller.
+7. Actifs à éviter.
+8. Périodes horaires dangereuses.
+9. Niveau général de risque du marché.
+10. Opportunités potentielles, uniquement sous forme de zones de surveillance.
+11. Points d’incertitude.
+12. Conclusion opérationnelle : marché favorable, prudent, dangereux ou illisible.
+
+Le rapport doit être lisible par un débutant, mais utile pour un trader professionnel.
+
+SECTION I — TABLEAU DE BORD DE VEILLE
+
+Ajoute un écran frontend appelé :
+
+“Veille Marché”
+
+Cet écran doit afficher :
+
+1. Niveau de risque global du jour.
+2. Top 5 événements économiques du jour.
+3. Top 5 actualités financières.
+4. Top 5 risques politiques ou géopolitiques.
+5. Actifs les plus exposés.
+6. Calendrier des prochaines annonces.
+7. Fenêtres horaires à éviter.
+8. Résumé IA en langage simple.
+9. Sources utilisées.
+10. Niveau de confiance de la veille.
+11. Bouton “Voir détails”.
+12. Bouton “Ignorer pour cette session”.
+13. Bouton “Ajouter au journal”.
+14. Bouton “Mettre le marché en pause”.
+
+Le dashboard principal doit afficher en permanence un indicateur simple :
+
+1. Macro favorable.
+2. Macro neutre.
+3. Macro prudente.
+4. Macro dangereuse.
+5. Macro illisible.
+
+SECTION J — RÈGLES ANTI-HALLUCINATION POUR LA VEILLE
+
+L’agent doit respecter des règles strictes :
+
+1. Ne jamais inventer une actualité.
+2. Ne jamais inventer une donnée économique.
+3. Ne jamais présenter une rumeur comme un fait.
+4. Ne jamais conclure sans source.
+5. Toujours afficher la date et l’heure de l’information.
+6. Toujours distinguer fait, interprétation et hypothèse.
+7. Toujours indiquer le niveau de fiabilité.
+8. Toujours signaler les contradictions.
+9. Toujours refuser de transformer une actualité isolée en signal de trading.
+10. Toujours privilégier les sources officielles pour les données économiques.
+11. Toujours indiquer quand l’information est trop ancienne.
+12. Toujours indiquer quand les données sont insuffisantes.
+
+SECTION K — APPRENTISSAGE DE L’AGENT DE VEILLE
+
+L’agent doit apprendre avec le temps.
+
+Il doit comparer :
+
+1. Les événements détectés.
+2. L’impact prévu.
+3. L’impact réel sur les marchés.
+4. La réaction des actifs suivis.
+5. Les erreurs d’interprétation.
+6. Les fausses alertes.
+7. Les alertes utiles.
+8. Les événements ignorés à tort.
+9. Les périodes où la veille a amélioré les décisions.
+10. Les périodes où la veille a ajouté du bruit.
+
+L’agent doit produire des améliorations prudentes :
+
+1. Meilleur classement des sources.
+2. Meilleure détection des événements importants.
+3. Meilleure compréhension des actifs sensibles.
+4. Réduction des fausses alertes.
+5. Amélioration du timing des rapports.
+6. Meilleure priorisation des informations.
+7. Meilleure détection des périodes à éviter.
+
+Toute amélioration doit être versionnée, expliquée et validée.
+
+SECTION L — PROMPTS INTERNES DE L’AGENT DE VEILLE
+
+Crée les prompts internes suivants :
+
+1. Prompt système de l’Agent IA de Veille Macro.
+2. Prompt de collecte quotidienne.
+3. Prompt de filtrage des actualités.
+4. Prompt de classement par impact.
+5. Prompt de détection des risques politiques.
+6. Prompt d’analyse des banques centrales.
+7. Prompt d’analyse des données économiques.
+8. Prompt de synthèse pré-marché.
+9. Prompt d’alerte événement critique.
+10. Prompt d’intégration avec le cerveau IA de trading.
+11. Prompt de rapport post-événement.
+12. Prompt d’audit anti-hallucination de la veille.
+13. Prompt d’apprentissage de l’agent de veille.
+14. Prompt de résumé débutant.
+
+Chaque prompt doit être prudent, sourcé, anti-hallucination, orienté risque et utilisable dans une application locale de trading assisté par IA.
+
+SECTION M — LIMITES DU MODULE
+
+Définis clairement les limites :
+
+1. L’agent de veille n’est pas un oracle.
+2. L’actualité ne suffit pas pour trader.
+3. Une bonne nouvelle peut faire baisser un marché.
+4. Une mauvaise nouvelle peut faire monter un marché.
+5. Le marché peut avoir déjà intégré l’information.
+6. Les réactions peuvent être temporaires.
+7. Les données peuvent être révisées.
+8. Les rumeurs peuvent être fausses.
+9. Les médias peuvent amplifier le bruit.
+10. L’utilisateur doit toujours voir le niveau d’incertitude.
+
+SECTION N — SORTIE ATTENDUE
+
+Complète le cahier des charges de l’application avec :
+
+1. Architecture du module Agent IA de Veille.
+2. Rôle exact de l’agent.
+3. Planning de veille.
+4. Sources recommandées.
+5. Système de scoring macro.
+6. Intégration avec le cerveau IA principal.
+7. Mode alerte événement critique.
+8. Rapport quotidien.
+9. Écran frontend de veille.
+10. Règles anti-hallucination.
+11. Mémoire d’apprentissage de la veille.
+12. Prompts internes du module.
+13. Limites et garde-fous.
+
+Priorité absolue : l’agent doit améliorer le contexte de décision, réduire le risque, éviter les trades dangereux et informer l’utilisateur. Il ne doit jamais remplacer la gestion du risque ni déclencher seul une décision d’achat ou de vente.
+
+Mes recommandations principales : ce module doit être traité comme un **filtre de contexte**, pas comme un générateur de signaux. Une actualité économique peut être vraie mais déjà intégrée par le marché, ou produire une réaction inverse à l’intuition. Donc l’agent doit surtout répondre : “est-ce le bon moment pour analyser/trader, ou faut-il attendre ?”
+
+Pour les sources, privilégie les sources officielles et calendriers économiques structurés. Par exemple, la Fed publie les calendriers et documents FOMC, la BCE publie ses calendriers de réunions, FRED propose un calendrier de publications économiques, et l’IMF/World Bank donnent des portails/API de données macroéconomiques. Ces sources sont plus fiables que les réseaux sociaux ou les résumés d’analystes. ([federalreserve.gov][1])
+
+Conseil technique : sépare ce module en 4 sous-agents simples : **Collecteur**, **Filtre de fiabilité**, **Scorer d’impact**, **Synthétiseur pour le cerveau IA**. Ne donne pas à cet agent le droit de modifier seul les règles de trading. Il peut seulement enrichir le contexte, augmenter/réduire le score de prudence, bloquer un trade avant une annonce critique, et produire une synthèse vérifiable.
+
+[1]: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm?utm_source=chatgpt.com "The Fed - Meeting calendars and information"

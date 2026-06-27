@@ -1,0 +1,206 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: 6_BCuy5QYPc.mp4]
+---
+**Note importante :** La vidéo fournie est en **anglais** et le locuteur n'est pas Mustapha Belkhayate. J'ai transcrit la vidéo en anglais, en suivant toutes les règles de formatage demandées pour les descriptions visuelles et les règles.
+
+---
+
+00:00 - 00:03: [VISUEL: Fond noir avec des lignes abstraites grises. Le texte apparaît : "Disclaimer: This video is for educational and informational purposes only. It does not constitute financial advice or investment recommendations. Trading in financial markets involves a high level of risk and may result in the loss of all or part of your capital. Past performance is not indicative of future results. The creators of this content are not responsible for any losses or damages arising from the use of the information or tools presented. We make no guarantee of profitability." Le mot "Disclaimer:" est en rouge en haut.]
+Every single day I get the same questions in my private Discord.
+
+00:03 - 00:08: [VISUEL: Le texte apparaît : "Claude to code strategies?". En dessous, une image avec le mot "Claude" en noir, entouré de points roses interconnectés, avec deux mains (une de chaque côté) interagissant avec les points.]
+"Oh, but it's for interactive coding. Like you have to actually understand code. Bit lost here."
+
+00:08 - 00:20: [VISUEL: Un message Discord d'un utilisateur est affiché. Le message dit : "Hi, Bit lost here. I can code and have used ChatGPT and DeepSeek to try and create NT8 indicators in the past. They do about 60A_VERIFIER% of the job leaving me to fix compilation errors and complete the indicator manually. Using an LLM or a service like Claude Code is completely new to me. I have done a bit of research and like the idea of Open Claw and MiniMax 2.5A_VERIFIER which is a fraction of the price of Claude Code Max. Will this be okay? To use the NT8 Bridge, do I have to use Claude Code and the Max subscription? Cheers".]
+I can code and have used ChatGPT and DeepSeek to try and create NT8 indicators in the past. They do about 60% of the job leaving me to fix compilation errors and complete the indicator manually.
+
+00:20 - 00:25: [VISUEL: Un autre message Discord d'un utilisateur est affiché. Le message dit : "Hi. I am new here. Is there any documentation on compiling or debugging strategies without using Claude Code? For instance, I tried to compile the 'Mother(EA_NT8) - Multi-Strategy Futures EA for NinjaTrader 8A_VERIFIER' strat but got a compile error. When I excluded 'addons' from the compile, I was able to compile but do not see the strat in my NinjaTrader Strategies pick-list. Just looking for basic setup assistance to start testing strats. Though I do not have Claude Code, I do have Cursor.".]
+Is there any documentation on compiling or debugging strategies without using Claude Code?
+
+00:25 - 00:29: [VISUEL: Un message Discord d'un utilisateur est affiché. Le message dit : "WHAT, FLAT FEE FOR CODING, omfg..... been wasting my time". Sous le message, il y a des réactions : un emoji rieur et un emoji pouce levé, tous deux avec le chiffre 4A_VERIFIER.]
+WHAT, FLAT FEE FOR CODING, omfg..... been wasting my time.
+
+00:29 - 00:37: That last one is my favorite because that reaction, that oh shit moment is exactly what I felt when I switched from ChatGPT to Claude Code.
+[VISUEL: Le logo ChatGPT (un nœud stylisé vert) apparaît à gauche. Une flèche pointe vers la droite, où une fenêtre de terminal avec "Welcome to the Claude Code research preview!" et "CLAUDE CODE" en texte orange pixélisé est affichée.]
+This video is the complete guide.
+
+00:37 - 00:42: [VISUEL: Le logo Claude Code (un astérisque stylisé orange) apparaît. Le texte en dessous liste : "What Claude Code actually is", "How I set it up", "Why it's different from every other AI tools".]
+What Claude Code actually is, how I set it up, why it's different from every other AI tool,
+
+00:42 - 00:50: [VISUEL: Un écran partagé. À gauche, une fenêtre d'analyse de stratégie NinjaTrader 8A_VERIFIER montre une courbe d'équité verte qui monte avec le temps. À droite, une fenêtre de terminal affiche du code (lignes vertes et rouges) et du texte indiquant "compiling conversation". La fenêtre de terminal est étiquetée "Short Side Trading".]
+and how it autonomously builds, compiles, debugs and back tests my trading strategies while I sit here and talk. Let me kill the confusion right now.
+
+00:50 - 00:56: [VISUEL: Le texte apparaît : "Claude Code is NOT ChatGPT". Le logo ChatGPT avec une croix rouge dessus est affiché. Ensuite, le logo Cursor (un cube stylisé gris) et le logo GitHub Copilot (un ruban stylisé arc-en-ciel) apparaissent également, tous deux avec des croix rouges dessus.]
+Claude Code is NOT ChatGPT. It's not Cursor, it's not Copilot, it's not a chatbot.
+
+00:56 - 01:10: [VISUEL: Une fenêtre de terminal (fond noir, texte blanc) est affichée. Elle dit "Welcome to Claude Code research preview!". L'utilisateur tape "explain to me this project structure". Le terminal affiche ensuite une série de commandes et de sorties, y compris la lecture d'un fichier "README.md" et d'un fichier "package.json", et la liste des composants clés d'une application Next.js. Le terminal est étiqueté "Project Structure".]
+Claude Code is a terminal agent. It runs inside your command line, this black window right here, and it has full access to your file system, your projects, your folders. It can read files, write files, create files, delete files, run commands, install packages.
+
+01:10 - 01:13: [VISUEL: Une interface web pour un "AI Agent" est affichée. Elle a une fenêtre de chat à droite et "Assistant Thinking" à gauche. Le chat montre une conversation sur le support client et les modèles Claude d'Anthropic.]
+It can do anything you can do on your computer.
+
+01:13 - 01:17: [VISUEL: Le texte apparaît : "When someone in my discord asks, 'Can Claude Code compile my Ninjatrader strategy?'"]
+When someone in my Discord asks, "Can Claude Code compile my Ninjatrader strategy?"
+
+01:17 - 01:37: [VISUEL: Un écran partagé. À gauche, une fenêtre d'analyse de stratégie NinjaTrader 8A_VERIFIER montre une courbe d'équité verte. À droite, une fenêtre de terminal affiche du code (lignes vertes et rouges) et du texte indiquant "compiling conversation". La fenêtre de terminal est étiquetée "Short Side Trading". Le terminal montre des commandes en cours d'exécution, y compris "Running strategy backtesting loop". La fenêtre NinjaTrader montre la stratégie en cours d'exécution, puis la courbe d'équité apparaît.]
+Yes. It literally opens the compiler, runs it, reads the errors, fixes them, and compiles again on its own. You don't touch anything. Crazy what AI agents can do right now. I asked Claude Code to autonomously code me a Gold strategy from scratch inside NinjaTrader 8. It compiled it, debugged it on its own, ran the back test, and came back with a profitable system.
+
+01:37 - 01:51: [VISUEL: Un tweet de "@ZenomTrader" est affiché. Il dit : "Crazy what AI agents can do right now. I asked Claude Code to autonomously code me a Gold strategy from scratch inside NinjaTrader 8A_VERIFIER. It compiled it, debugged it on its own, ran the backtest, and came back with a profitable system. Probably only 0.1A_VERIFIER% of the industry is doing this." Sous le tweet, il y a une image de l'écran partagé de la vidéo précédente (NinjaTrader et terminal Claude Code).]
+Probably only 0.1% of the industry is doing this. That tweet got 140,000 views because nobody in the trading industry is doing this. Everyone is still copy-pasting code from ChatGPT, getting errors and spending hours fixing brackets.
+
+01:51 - 02:04: [VISUEL: Un écran partagé avec le logo ChatGPT à gauche et le logo Claude Code à droite. Le texte apparaît : "Here's the difference between ChatGPT and Claude Code." Ensuite, "Gives you code" apparaît sous ChatGPT, et "Writes the code, puts it in the right file, compiles it, sees the errors, fixes them compiles again and tells you it's done" apparaît sous Claude Code.]
+Here's the difference between ChatGPT and Claude Code. In one sentence, ChatGPT gives you code. Claude Code writes the code, puts it in the right file, compiles it, sees the errors, fixes them, compiles again and tells you it's done.
+
+02:04 - 02:06: [VISUEL: Une infographie montrant "AI AGENT" à gauche (robots interagissant avec du code) et "CHATBOT" à droite (personnes interagissant avec des bulles de chat). Un "VS" est au milieu.]
+That's the difference between a chat bot and an agent.
+
+02:06 - 02:16: [VISUEL: Un message Discord d'un utilisateur est affiché. Il dit : "I just watched a really interesting video about Clawbot AI agents. From what I understand, when you're training an AI agent, you have to be careful with security/privacy and the level of access you give it (personal email, bank accounts, etc.). So I wanted to ask: Do you think it's a good idea to give an AI agent access to my funded prop firm accounts so it can analyze my data better, do backtesting/forward testing, learn my execution style, and help me build/improve a long-term intraday strategy? Also, how are you guys writing prompts for your agents? Any examples or frameworks that helped you? If you can recommend any books, tutorials, videos, or courses specifically about building good prompts/agents for intraday trading, I'd really appreciate it.".]
+I just watched a really interesting video about Clawbot AI agents. From what I understand, when you're training an AI agent, you have to be careful with security/privacy and the level of access you give it.
+
+02:16 - 02:28: [VISUEL: Une fenêtre de terminal est affichée. Elle affiche une tâche : "Create Test File in ~/Documents". En dessous, une commande bash `touch ~/Documents/test.txt && ls -la ~/Documents/test.txt` est affichée. Ensuite, une invite demande : "Do you want to proceed?". Les options sont : "1A_VERIFIER. Yes", "2A_VERIFIER. Yes, and always allow access to Documents/ from this project", "3A_VERIFIER. No, and tell Claude what to do differently (esc)". L'utilisateur sélectionne "1A_VERIFIER. Yes".]
+Valid concern. Claude Code asks you before running any command. You see exactly what it's about to do, and you press enter to approve it. You're in control the entire time, but the point is, it can do things. It's not just talking to you. It's working.
+
+02:28 - 02:34: Now, here's what made Jory lose his mind in the Discord.
+[VISUEL: Un message Discord d'un utilisateur est affiché. Il dit : "WHAT, FLAT FEE FOR CODING, omfg..... been wasting my time". Sous le message, il y a des réactions : un emoji rieur et un emoji pouce levé, tous deux avec le chiffre 4A_VERIFIER.]
+WHAT, FLAT FEE FOR CODING. Omfg been wasting my time.
+
+02:34 - 02:53: [VISUEL: La page de tarification de Claude AI est affichée. Elle présente trois plans : "Free" (0A_VERIFIER $), "Pro" (20A_VERIFIER $/mois) et "Max" (60A_VERIFIER $/mois, mais le locuteur mentionne 100A_VERIFIER $ plus tard). Le plan "Pro" est mis en évidence. Le texte à l'écran mentionne "unlimited messages" pour Pro et "higher output limits" pour Max.]
+Claude Code has a $20 per month subscription. Flat unlimited. You pay $20 and you can use it all day, every day. Compare that to the API where you're paying per token. Every message, every response, every line of code costs money. I've seen people burn $50 in a single day on the API. You've used 75% of your weekly limit and it's only Monday.
+
+02:53 - 03:06: [VISUEL: Le texte apparaît : "Do I really need the $100A_VERIFIER subscription?". Ensuite, la page de tarification de Claude AI est affichée à nouveau, avec le plan "Max" (60A_VERIFIER $/mois) mis en évidence. Le locuteur mentionne 100A_VERIFIER $, ce qui pourrait être un niveau différent ou une erreur de sa part concernant le plan à 60A_VERIFIER $.]
+Do I really need the $100 subscription? If you're hitting your weekly limit on Monday, yes. The $20 plan has a usage cap per week. The $100 plan increases that. I'm on the $100 plan because I average 4 to 5 hours a day.
+
+03:06 - 03:18: [VISUEL: Un graphique en grille intitulé "Each dot is ~3.2A_VERIFIER million people" est affiché. Il représente l'utilisation des outils de codage AI. Une très petite barre verte en bas indique "Free chatbot user" et une barre rouge encore plus petite indique "Does coding scaffold". La grande majorité de la grille est blanche, représentant "Never used AI".]
+Only 0.04% of people use coding tools like Claude Code for more than 90 minutes a day. I've been averaging 4 to 5 hours a day since I started. The results, 2,800% return on investment.
+
+03:18 - 03:23: Most people don't use it enough. They'll try it for 20 minutes, get confused and go back to ChatGPT.
+
+03:23 - 03:31: [VISUEL: Un écran partagé. À gauche, une fenêtre d'analyse de stratégie NinjaTrader 8A_VERIFIER est initialement vide, puis montre une courbe d'équité verte. À droite, une fenêtre de terminal affiche du code et du texte indiquant "Running CL strategy backtesting loop". Le terminal montre des commandes en cours d'exécution, y compris "Running strategy backtesting loop".]
+Meanwhile, the 0.04% who actually push through the learning curve are building entire businesses with it.
+
+03:31 - 03:42: [VISUEL: Un message Discord d'un utilisateur est affiché. Il dit : "wild.... ok, what models are you guys using on your side agents for "cheaper" running? My current pipeline -> Orchestrator - routes everything, never codes - Haiku 4.5A_VERIFIER researcherMines Sumo transcripts, methodology briefsDeepSeek R1 7b (local, FREE) coderWrites strategy code + runs backtestsSonnet 4.6A_VERIFIER validator (heavy)Quality gate, PASS/FAIL decisionsSonnet 4.6A_VERIFIER Opus escalationArchitecture review on 3rd consecutive FAILOpus (rare, Ghost approval required)".]
+And one of my members asked about other models. What models are you guys using on your side agents for "cheaper" running? My current pipeline, Orchestrator Haiku 4.5, Researcher Gemini Flash, Coder Claude Sonnet. That's advanced.
+
+03:42 - 03:50: We'll get to multi-agent setups later, but for most of you, start
+[VISUEL: La page de tarification de Claude AI est affichée à nouveau, avec le plan "Pro" (20A_VERIFIER $/mois) mis en évidence. Le texte apparaît : "Start with the 20A_VERIFIER$ Claude subscription".]
+with the $20 per month Claude Code subscription. That's it. One tool. That's all you need.
+
+03:50 - 04:00: [VISUEL: Un écran partagé. À gauche, un éditeur de texte (VS Code) affiche un fichier nommé "Explain GPT-4.5A_VERIFIER Process.md" avec diverses instructions et commandes. À droite, un graphique NinjaTrader 8A_VERIFIER est visible, montrant une courbe d'équité verte et une boîte "OVERALL REWARD" avec "99A_VERIFIER 991,56A_VERIFIER $". L'arrière-plan est un ciel étoilé avec une superposition de grille.]
+Let me show you what my setup actually looks like. This is not a demo. This is what I use every day to build the strategies that run across millions and prop firm accounts.
+
+04:00 - 04:19: [VISUEL: La configuration de l'écran partagé est affichée à nouveau. Le graphique NinjaTrader est actif. L'éditeur de texte à gauche affiche la sortie du terminal Claude Code, y compris "Running command by AI". La voix du locuteur est entendue, puis une voix AI féminine répond. Le graphique NinjaTrader montre une courbe d'équité. Le terminal montre des commandes en cours d'exécution et des résultats.]
+I gave Claude voice, wake word, and full autonomy. I say, "Hey Claude," and it wakes up. It listens through my microphone, transcribes what I say, processes it as a command, and then speaks the response back through my speakers. She's also a hot chick now. I say heart and she wakes up codes, compiles, back tests, and talks me through the results hands-free.
+
+04:19 - 04:29: This is not a gimmick. I use this while I'm eating, stretching, or doing something else.
+[VISUEL: Le texte apparaît : "Hey Claude, run the gold breakout backtest from 2018A_VERIFIER to now". Le logo Claude Code est sous le texte.]
+"Hey Claude, run the gold channel breakout backtest from 2018 to now." I don't touch the keyboard.
+
+04:29 - 04:35: Now the real power.
+[VISUEL: Une boîte de texte avec une définition d'un "serveur MCP (Model Context Protocol)" est affichée. Elle le décrit comme un programme léger agissant comme un pont sécurisé entre les modèles AI et les outils externes, les bases de données ou les fichiers, permettant une adaptation universelle pour l'AI.]
+MCP servers. MCP stands for Model Context Protocol.
+
+04:35 - 04:44: [VISUEL: Une infographie intitulée "MCP SERVER" montre "PLUGINS" au centre. Des flèches pointent de "PLUGINS" vers quatre boîtes : "Ability to see the screen", "Ability to listen the microphone", "Ability to use Google Maps", "Ability to access other APIs".]
+Think of MCP servers as plug-ins that give Claude new abilities. I have four MCP servers running.
+[VISUEL: Le texte apparaît : "Voice". Une tête stylisée avec des ondes sonores sortant de sa bouche est affichée.]
+Number one, voice. That's the microphone and text to speech.
+
+04:44 - 04:57: [VISUEL: Le texte apparaît : "Screenshot". Le logo Claude Code est affiché, avec une flèche pointant vers un écran d'ordinateur affichant du code et un graphique NinjaTrader. Le texte explique que Claude peut voir l'écran, prendre des captures d'écran et analyser ce qui s'y trouve.]
+Number two, screenshot. Claude can see my screen, take a screenshot instantly, and analyze what's on it. When I'm running a back test in NinjaTrader and I want Claude to look at the equity curve, it sees it not from a CSV, but visually.
+
+04:57 - 05:07: [VISUEL: Le texte apparaît : "Hands". Le logo Claude Code est affiché, avec une flèche pointant vers un écran d'ordinateur affichant du code et un graphique NinjaTrader. Un curseur de souris est vu en train de cliquer sur des boutons et d'interagir avec l'interface NinjaTrader.]
+Number three, hands. Claude can click buttons, type text, and control windows. When I needed to click run in NinjaTrader, it clicks it. When a dialog box pops up, it closes it.
+
+05:07 - 05:17: [VISUEL: Le texte apparaît : "Record". Le logo Claude Code est affiché, avec une flèche pointant vers une séquence de quatre écrans d'ordinateur, chacun montrant un état différent de l'interface code/NinjaTrader, impliquant une progression dans le temps.]
+Number four, record. Multiple screenshots over time stitched together so Claude can track progress and know when a process is done. All of this runs locally on your PC.
+[VISUEL: Le texte apparaît en rouge : "NO extra API costs".]
+No extra API costs.
+
+05:17 - 05:23: [VISUEL: Une interface Discord floue est affichée, avec des canaux comme "welcome-roadmap", "claude-code-setup", "resources" et "mentorship".]
+It's all in the setup guide I share with my VIP members.
+
+05:23 - 05:30: Now the most important piece.
+[VISUEL: Une icône de fichier avec du code à l'intérieur est affichée, étiquetée "CLAUDE.md". Le texte apparaît : "This is the difference between Getting 60A_VERIFIER% and Getting 95A_VERIFIER%".]
+Claude.md. This is the difference between someone getting 60% out of Claude and someone getting 95%.
+
+05:30 - 05:42: [VISUEL: L'icône du fichier "CLAUDE.md" est affichée. Le texte apparaît : "File inside your project folder". Ensuite, une animation montre une fenêtre de terminal (Claude Code) lisant le fichier "CLAUDE.md".]
+Claude.md is a file inside your project folder. Every time Claude Code starts a session, it reads this file. First, it's your instruction manual. It tells Claude who you are, what are you working on, project structure, rules.
+
+05:42 - 05:57: [VISUEL: L'icône du fichier "CLAUDE.md" est affichée. Le texte apparaît : "My CLAUDE.md tells Claude: I trade on Ninjatrader 8A_VERIFIER and Metatrader 5A_VERIFIER. I run prop firms. I use fixed dollar stop losses and daily profit caps. This are my instruments. This is my file structure and this is where strategies lives." Les mots "Ninjatrader 8A_VERIFIER" sont rouges, et "Metatrader 5A_VERIFIER" sont bleus.]
+My Claude.md tells Claude, I trade on NinjaTrader 8 and MetaTrader 5. I run prop firms. I use fixed dollar stop losses and daily profit caps. These are my instruments. This is my file structure and this is where strategies live.
+
+05:57 - 06:03: [VISUEL: Le texte apparaît : "Without this file, Claude is guessing with it. With it, Claude knows exactly what you need before you even type anything."]
+Without this file, Claude is guessing with it. With it, Claude knows exactly what you need before you even type anything.
+
+06:03 - 06:12: [VISUEL: Un message Discord d'un utilisateur est affiché. Il dit : "Are you willing to just share your prompting? Please thanks". En dessous, l'icône du fichier "CLAUDE.md" est affichée. Le texte apparaît : "This is the prompting. It's not a magic prompt in a chat. It's a file that loads automatically every time.".]
+Are you willing to just share your prompting? This is the prompting. It's not a magic prompt in a chat. It's a file that loads automatically every time. All right, let me show you what this actually looks like. I'm going to ask Claude Code to build me a gold breakout strategy from scratch.
+
+06:12 - 06:29: [VISUEL: Un écran partagé. À gauche, une fenêtre d'analyse de stratégie NinjaTrader 8A_VERIFIER est initialement vide, puis montre une courbe d'équité verte. À droite, une fenêtre de terminal affiche du code (lignes vertes et rouges) et du texte indiquant "compiling conversation". La fenêtre de terminal est étiquetée "Short Side Trading". Le locuteur tape une invite.]
+I type, "Build me a channel breakout strategy for gold futures on 30min bars. Entry on breakout above the 20 period high. Fixed 500usd sl and daily profit cap of 1000usd. NT8 format."
+
+06:29 - 06:45: [VISUEL: L'écran partagé continue. Le terminal Claude Code montre qu'il écrit le fichier de script Ninja, le compile, rencontre une erreur, corrige l'erreur et le recompile. La fenêtre NinjaTrader montre ensuite l'analyseur de stratégie s'ouvrant, sélectionnant l'or, définissant la plage de dates et exécutant le backtest, ce qui donne une courbe d'équité verte.]
+It starts working. It writes the Ninja script file, puts it in the correct directory, and compiles it. First attempt there's an error. It reads the error, fixes it, compiles again, done. Then it opens the strategy analyzer, selects gold, sets the date range, and runs the backtest.
+
+06:45 - 07:07: [VISUEL: L'écran affiche une interface "QuantDash Pro". Elle importe des données de backtests, affiche des courbes d'équité de portefeuille, une analyse de corrélation et un "Prop Firm Simulator" avec diverses métriques comme les paiements, les drawdowns maximums et les frais d'évaluation. Elle affiche également une liste de stratégies et leurs performances.]
+Then I take the results from the back tests and put them into QuantDash. This is a tool I created to analyze back test results, evaluate correlation, build portfolios, journal trades, and most importantly, run a prop firm simulator. I load the strategies and see how they perform under prop firm rules. It includes payouts, maximum drawdowns, and evaluation fees. I can also detect trading violations like hedging.
+
+07:07 - 07:13: [VISUEL: Une page produit pour "ZenomTrader Premium" est affichée. Elle propose "Prop Firm Journal & Simulator + VIP Discord Community + NT8 AI Agent Bridge" pour 80A_VERIFIER $/mois (20A_VERIFIER % de réduction sur 100A_VERIFIER $).]
+This is only available to members in our VIP community. So if you want to join, click the link in the description.
+
+07:13 - 07:23: That took about five minutes. A complete strategy coded, compiled, debugged and back tested. From nothing to an equity curve in minutes. Is it going to make you a millionaire? Probably NOT.
+
+07:23 - 07:31: But it's a starting point.
+[VISUEL: L'écran partagé est affiché à nouveau. L'analyseur de stratégie NinjaTrader est à gauche, et le terminal Claude Code est à droite, montrant les processus de débogage et de backtesting.]
+Now you iterate, add filters, adjust logic, test different instruments. The grunt work is done in minutes, not days.
+
+07:31 - 07:43: [VISUEL: Le logo Claude Code (points roses interconnectés avec des mains) est affiché. Le texte apparaît : "I built this with Claude Code agents. Described what I wanted. AI wrote the Ninja script. Compiled. Debugged. Back tested it, and handed me the equity curve." L'écran partagé NinjaTrader et terminal Claude Code est affiché à nouveau, avec la courbe d'équité verte.]
+I built this with Claude Code agents. Described what I wanted, AI wrote the Ninja script, compiled, debugged it, back tested it, and handed me the equity curve. Autonomous agents building trading systems while I slept.
+
+07:43 - 07:45: Here is how to set it up.
+
+07:45 - 07:51: [VISUEL: Une capture d'écran de la page de téléchargement de Node.js est affichée. Le texte apparaît : "Install Node.js". Le locuteur donne des instructions pour télécharger la version LTS et vérifier la version dans le terminal.]
+Install Node.js. Download the LTS version. Install it. Open terminal and check the version.
+
+07:51 - 08:03: [VISUEL: Une boîte de texte avec des instructions d'installation : "2A_VERIFIER. Install Claude Code. Open terminal/command prompt and run: npm install -g @anthropic-ai/claude-code". Ensuite, le texte apparaît : "Type 'claude'". Une fenêtre de navigateur affiche une page de connexion Google pour "GonnaClaude".]
+Then install Claude Code with npm install dash g at anthropic dash AI slash claude dash code. Then type "claude", log in through your browser, and you're authenticated.
+
+08:03 - 08:18: [VISUEL: Une interface VS Code est affichée, avec un dossier de projet "DEMOPROJECT" et un fichier "CLAUDE.md" mis en évidence. Le texte apparaît : "Navigate to your project folder and create a file called Claude.md. Start simple. Define your platform, instruments and file structure. Then start building. Type Claude and give it commands. Build me a strategy. Modify this one. Fix errors. It handles everything." Le terminal Claude Code est affiché à nouveau, avec "Welcome to the Claude Code research preview!" et "CLAUDE CODE".]
+Navigate to your project folder and create a file called Claude.md. Start simple. Define your platform, instruments and file structure. Then start building. Type Claude and give it commands. Build me a strategy. Modify this one. Fix errors. It handles everything.
+
+08:18 - 08:24: Now let's be honest, AI does not replace thinking. It's a battle of who's thinking more creatively.
+
+08:24 - 08:29: AI writes 95% of the code, but the 5% you bring is what makes it work.
+
+08:29 - 08:39: [VISUEL: Une boîte de texte avec une définition de la "connaissance du domaine" est affichée. Elle la décrit comme une compréhension spécialisée et approfondie d'une industrie, d'un domaine ou d'un processus commercial spécifique, y compris une terminologie, des réglementations, des pratiques et des défis uniques. Le texte apparaît : "You need domain knowledge, understanding of metrics like Sharpe and Drawdown, understanding of prop firm rules, and actual strategy logic." Le logo Claude Code est affiché.]
+You need domain knowledge, understanding of metrics like Sharpe and Drawdown, understanding of prop firm rules, and actual strategy logic. Claude can build anything, but it can't tell you if your idea is bad.
+
+08:39 - 08:47: [VISUEL: Le texte apparaît : "Common mistakes: -Being vague -Not using Claude.md -Treating it like ChatGPT".]
+Common mistakes: being vague, not using Claude.md, treating it like ChatGPT. Let it work. Don't fight the system.
+
+08:47 - 08:56: [VISUEL: Un écran affichant des lignes de code (texte bleu sur fond sombre) est affiché. Ensuite, l'écran partagé avec NinjaTrader et le terminal Claude Code est affiché à nouveau, illustrant le processus de débogage.]
+Yes, people are doing deep level coding with agents, but it takes practice. The first week is frustrating, then you get faster and eventually you build full systems.
+
+08:56 - 09:08: [VISUEL: Le logo Claude Code est affiché, suivi de trois figures humaines stylisées étiquetées "ORCHESTRATOR", "RESEARCHER" et "CODER". Le texte apparaît : "Advanced users move into multi-agent setups. One routes tasks, one gathers data, one writes code. CHEAPER MODELS = light tasks. EXPENSIVE MODELS = heavy tasks".]
+Advanced users move into multi-agent setups. Orchestrator, Researcher, Coder. One routes tasks, one gathers data, one writes code. You use cheaper models for simple tasks and stronger models for coding.
+
+09:08 - 09:11: You become the strategist while agents do the execution. That's the end game.
+
+09:11 - 09:22: [VISUEL: Le logo Apple est affiché, puis une fenêtre de terminal (Claude Code) sur un Mac. Le texte apparaît : "Mac users, Claude Code works natively". Ensuite, le logo NinjaTrader et le logo MetaTrader 5A_VERIFIER sont affichés, avec un logo Windows entre eux et une icône de serveur "VPS". Le texte apparaît : "but Ninjatrader and Metatrader require windows, so you need a VPS or another machine. You can still build an analyze on Mac, but execution requires windows.".]
+Mac users, Claude Code works natively, but NinjaTrader and MetaTrader require Windows, so you need a VPS or another machine. You can still build and analyze on Mac, but execution requires Windows.
+
+09:22 - 09:31: [VISUEL: Un menu déroulant dans Claude Code est affiché, présentant différents modèles : "Opus 4.6A_VERIFIER", "Sonnet 4.6A_VERIFIER", "Haiku 4.5A_VERIFIER". "Sonnet 4.6A_VERIFIER" est sélectionné. Un bouton "Extended thinking" est également visible. Le texte apparaît : "Yes, models like Claude Opus, and Sonnet are the best for coding. Others are slower and less reliable in this context. That's based on real testing.".]
+Yes, models like Claude Opus, and Sonnet are the best for coding. Others are slower and less reliable in this context. That's based on real testing. So here's the summary.
+
+09:31 - 09:46: [VISUEL: La page de tarification de Claude AI est affichée. Le texte apparaît : "Claude Code is $20A_VERIFIER a month. It's a terminal agent that Builds, Compiles, Debugs, backtests strategies autonomously. You enhance it with Claude.md and extend it with MCP servers for voice, screenshots, and control.".]
+Claude Code is $20 a month. It's a terminal agent that builds, compiles, debugs, and back tests strategies autonomously. You enhance it with Claude.md and extend it with MCP servers for voice, screenshots, and control.
+
+09:46 - 09:55: [VISUEL: Le graphique en grille intitulé "Each dot is ~3.2A_VERIFIER million people" est affiché à nouveau, mettant en évidence le faible pourcentage d'utilisateurs qui codent activement avec l'AI. Le texte apparaît : "The gap between people using agents and everyone else is growing fast. One person with agents can do what entire teams used to do. If you understand this early, you're ahead.".]
+The gap between people using agents and everyone else is growing fast. One person with agents can do what entire teams used to do. If you understand this early, you're ahead.
+
+09:55 - 10:07: [VISUEL: Une page produit pour "ZenomTrader Premium" est affichée. Elle propose "Prop Firm Journal & Simulator + VIP Discord Community + NT8 AI Agent Bridge" pour 80A_VERIFIER $/mois (20A_VERIFIER % de réduction sur 100A_VERIFIER $). Le texte apparaît : "If you want the full set up voice, MCP templates, everything, it's inside the VIP discord. Next video I'm going to live stream the full process from idea to live deployment. No edits, just real execution.".]
+If you want the full setup, voice, MCP templates, everything, it's inside the VIP Discord. Next video I'm going to live stream the full process from idea to live deployment. No edits, just real execution.
+
+10:07 - 10:12: [VISUEL: Une page de chaîne YouTube pour "ZenomTrader" est affichée, présentant diverses vidéos. Le texte apparaît : "If you got value from this subscribe. I'll see you in the next one." L'avertissement du début de la vidéo est affiché à nouveau.]
+If you got value from this, subscribe. I'll see you in the next one.

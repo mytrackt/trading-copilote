@@ -1,0 +1,264 @@
+most traders change strategy as often as they change their underwear
+they just change it because they feel like they should change rules
+you know they strategy hop every single week because they see this new shiny holy grail strategy
+and every single time they do that they're self-sabotaging because they reset their
+competence level back to zero and the other mistake is that when they hit a losing streak
+they instantly assume their strategy is no longer working when it could just be normal variance it
+could just be because of the fact that the market is random there is a random distribution between
+wins and losses that is why i don't adjust my trade plan based on emotions i adjust it based on data
+i adjust it based on evidence so in this video i'm going to walk you through how i personally
+tweak my trading plan to make it better right to improve it over time and my rule is very simple
+i don't change my trading plan as and when when i feel like it i don't change it when i've
+lost 10 trades in a row it just doesn't work that way i only change rules when i have either
+100 trades to review or i have at least three months of data if you don't have 100 trades yet
+you need at least 30 to 50 minimum trades just to see anything meaningful right because like that's
+the sample size that is required for you to gather sufficient data sufficient evidence to prove
+that your trading plan is not working or it can be better and if you're below that that threshold right
+below that 30 to 50 trades don't tweak the system at all right because when you do you're just tweaking
+it based on your gut feeling you're just tweaking it based on what you think it's not working within
+your trade plan right like i said just continue focus on executing more consistently and collecting
+more data because like i said really anything less than 30 to 100 trades it's like just not
+meaningful enough it's just not big of a sample size for you to make decisions on and one more thing
+when you introduce a new variable into your trade plan like for example you come here you add it maybe
+you add a new charting process or maybe you add a new entry criteria saying that i only want to
+enter after i see a fair value gap right something simple just like this bear in mind that you have
+to test the entire trip then again just to prove the hypothesis okay because you want to treat it like
+a science not as like an art right and in a science what happens is that you have a hypothesis right like
+this is what you think could potentially work and then you test the hypothesis and then based on data
+you can find out whether the hypothesis is actually proven to be right or proven to be wrong
+and then you test another hypothesis it's the exact same thing right here
+when you introduce a new entry criteria a new exit criteria or a new way to manage a trade
+bear in mind that because that haven't been tested yet now you need to undergo another round of testing
+to prove that variable actually works to prove that your fair value gap actually works to prove that
+you know trailing stop loss actually works okay so this is something that a lot of traders tend to
+overlook right they don't realize that when they introduce something new they have to test out
+the entire trip then again because if you don't you will never ever truly know what worked and what
+didn't work so quite simply put remember data isn't just for vibes isn't just for validation
+it's for you to make data driven decisions right and quarterly review is the perfect time frame to
+do so right because it filters out all the short-term noise and it reveals to you the real patterns
+so basically let's say today is march 31st right it's the end of quarter one this is where i come
+onto my journal and i'll review every single trade i've taken in the past 90 days in the past three months
+all right so you once again you want to make it a habit you want to make it a routine
+so at the end of each quarter right january february march 31st right march 31st is the last day of
+quarter one you want to go and look at all the trades that you have taken in the past three months
+okay go and review each one very very in-depth all right so this is where i literally block out
+one entire day just to do this properly so this is where after i'm done reviewing every single
+trade i've taken in the past three months i go on to my notebook and i go on to my quarterly review
+template okay so it'll probably look something like this okay like this is the quarterly review
+template and then i will fill it up based on once again the data that i've reviewed over the past three
+months right i can figure out what are the wins the loss the break even so and so far fill up all of
+these necessary details right here and once i'm done filling it up it will look probably something just like
+this okay so this is important right because what you're doing is that you are extracting the feedback
+from every single trade that you have taken and when you do that you're able to find out once again
+what works what doesn't work right what are the variables that influence the results so once you do
+that this entire quarterly review document right here it becomes your source of truth for the next 90 days
+which means that you want to like just go and reflect on okay what are the things that perform
+well and what are the things that didn't perform so well and then you want to do more of the things
+that perform well in next quarter and you want to do less of the things that didn't perform well in the
+next quarter right in fact you should even think about how you can eliminate all the mistakes that you
+committed in the past quarter so my process is very simple i review this entire quarterly review template
+you know after i'm done filling it up i use this as a source of truth and then as i'm doing that as
+i'm reviewing this quarterly report i want to identify the repeating patterns what are the
+mistakes that i tend to commit over and over again what are the emotional patterns that i tend to
+experience over and over again right whenever i feel fear i do this whenever i feel angry i feel this
+i feel like after uh after i win three trades in a row i always get overconfident i always you know
+start to size up even though my trip then tells me not to and if you keep on doing those stuff over and
+over again that's a pattern right so you want to identify the patterns you tend to repeat because
+when you start to make the unconscious conscious now you are trading the reality of the market now you're no
+longer trading a perception of the market now you're actually seeing the market for what it is now you're
+actually seeing the world as it is rather than what you think it is right so identify the repeating
+patterns and then once that's done i want you to convert i want you to convert each pattern into an if
+then rule all right so here's a cheat sheet that i've compiled in for you right so it's a very simple
+cheat sheet i'm going to go through a view later on but basically your goal is to turn each problem
+into solution to turn each pattern into a action that you can take to prevent yourself from committing
+that same pattern to prevent yourself from going unconscious again and then you also want to have
+like one actionable step that prevents the same mistake from repeating and then once done with this
+right once you have the problem and you have developed a solution to fix the problem you want to update
+your trade plan right you want to update your trade plan with the solution you want to adjust your
+guardrails to ensure that you adhere to your rules to adhere to your risk parameters in the next quarter
+or so and then just run that that new solution that new variables for the next quarter and when you do
+that you are pretty much making decisions you are taking your trading plan based on data not based on vibes
+right and then and then of next quarter you do this exact same five-step process again right so let me just
+quickly review like just quickly recap the entire five step process basically you want to review and
+fill up a quarterly template just like this and then you want to identify the repeating patterns and then
+you want to convert each pattern into an if then rule just like this if this happens then i'm going to
+do this if that happens i'm going to do that and then you want to implement it in edgeflow by picking
+your trading plan or adjusting your guardrails and then you want to run it for the next quarter that's
+it and then you re-evaluate and you do that this you do the exact same thing the next quarter at the
+next quarter itself now to help you do this right to me i really believe that the hardest part is being
+conscious because when we are stuck in that trends you know when we are stuck in that cycle of
+unprofitability we tend to commit the same emotion same actions we tend to experience the same emotions
+without realizing it right so like i said the hard part is really just getting conscious the hard part
+is really just building the awareness the easy part is to solve that problem itself right because once
+you have the awareness you know exactly what you need to do to prevent yourself from making the same
+mistake to prevent yourself from getting stuck in the exact same pattern so in order to help you spot the
+patterns i've came up with like this little cheat sheet right here and i pretty much categorize the
+patterns into these different categories right here all right so there are your technical patterns which
+is in terms of how you map out your process your entry criteria your exit criteria issues like i say
+this is heavily focused on how you build your trading plan in the first place right how you map out your
+higher time frame how you map out your point of interest what is your entry criteria whether the
+liquidity ship m3 model actually work in this condition in that condition so when you do a
+quarterly review go and spot this out right this should be the first priority right go and find out
+which part of your trading plan is no longer working which part of your technical analysis process do you
+need to refine right so that you can perform better in the next quarter next is timing timing wise right
+once again look at all the trades that you have taken if you have taken all of them in the london session
+then you can evaluate whether london session has been profitable for you or not if you you're just
+like you know trading at any time and every time then you can see and judge based on each trade what
+time they are in and then what is the session that is the most profitable for you for example you take
+20 trades and out of those 20 trades uh some of them were taken in london some of them were taken in
+new york some of them were taking an asian session and you found out that 15 of those 20 trades
+tends to work in your your the way that you envision it for it for it to work in right like
+you tend to win those trades when you take them in london session then perhaps that's a data point
+that tells you that you should be trading more during london session and the next is emotional
+right like i said until you make the unconscious conscious it will rule your life and you will call
+it fate you need to make sure that whenever you do your reviewing right you go and review
+what was the emotion that resulted in you taking that action that resulted in you getting this
+outcome if you lost that trade okay what was the emotion that you experienced seeing at the start
+of the trade itself what were the emotion that you feel when you got out of the trade because that
+big loss could have been avoided if you just stopped after the first loss but because you kept getting
+angry you kept trying to get back at the market you kept revenge trading you kept feeling like you know
+you are right and the market is wrong this caused you to go into this downward spiral where you
+incur even more losses right so when you do that what happens that you trace
+the problem all the way down to the root cause and the root cause is your emotion right it's the fact
+that you got angry it's the fact that you choose to put your ego over making money boom that's a
+repeated behavioral trigger that you can strive to to be more aware of the next time you actually arise
+right i revenge after losing streak example another pattern you can spot for is risk like in the way
+you actually manage your risk right sometimes you get inconsistent because you start feeling emotions
+right you start feeling like you're on top of the world and now you're sizing up or same thing after
+you lose a few trades in a row you feel like you want to get back in the market right you want to
+you know make back the loss you start sizing up okay so once again all of those are patterns that you want
+to be spotting and also trade management how you manage your trade how you manage winners how you
+manage losers how you manage the existing open position okay so ask yourself this and then execution
+quality right whether you're taking the right setup whether you're following your trading plan
+and then environment and context right external conditions that change performance it could be
+physiological it could be physical it could be digital it could be social it could be internal
+right there's like different types of environment it could be your workspace not being optimized it could
+be when you are trading when you are stressed and you have some form of problems in your life you
+don't you don't you tend to not perform as well as you like to perform or you could be trading during
+these certain market conditions you know when trump is making the market to go super duper uh volatile and
+there's a lot of uncertainty in the market and the trades that you take in these sort of market conditions
+tend to perform badly right so all of these are environment all of these are context right so you
+can just spot the pattern and just put it in here once you found the repeating patterns your job is to
+turn each pattern into a solution like i said pattern is the problem solution is the fix right the rule is
+the fix and this is where i will go through the if then sheet with you right if then cheat sheet
+like i said once you spot the pattern that's the first step right the first step is always becoming
+conscious because if you don't become conscious you will keep on staying in that trend state right
+you will keep on staying in the trend state where you just do the same thing get the same results
+right it's so it's the same thing that you're just going to be continue running the same program
+over and over again and if you run the same program over and over again guess what you are going
+to get the same outcomes over and over again so when you start becoming more conscious when you
+start becoming aware right when you start identifying these patterns right here what happens is that
+now you're waking up now you're no longer sleeping now you're no longer in a dream light state now
+you're waking up and now you're like okay cool this pattern needs to go i need to fix this
+shit right and then this is where you can develop solution right which is the next step
+so that you can get out of this state that you are in right so that you can break out of this
+pattern because of this loop so here's the key no more than one to three changes per quarter
+if you change too many variables at once you're going to create chaos and you will never ever know
+what actually cause improvement like i said every single variable that you change you need to test it
+out you need to undergo another cycle of testing to see whether that variable actually works or not
+whether it actually has a significant impact on your trading results or not
+so i would recommend you to change maybe just max three variables inside your trade plan
+i would advise you to change one right but if you want to change more i'll say three is like the
+maximum you could go uh and then just test it out for the next quarter and at the end of the next
+quarter you get all your results again you do your same quarterly review and then this is where you can
+come to a conclusion on whether the three variables that you have changed
+perform make the trade plan better or not you know make your trading results better or not
+and if not maybe you want to change another three variables right for the next quarter and you
+just test the next uh the next three variables in the next quarter itself
+so it's very simple right like i said just want to identify the rules that stop the biggest leak
+okay if you just have to fix three things in this quarter go and find out what are the biggest three
+patterns that cause you to lose the most amount of money and just focus on fixing those three things
+it could be a combination of technicals emotional uh execution quality or environment risk uh timing
+right you just find the three variables and just test it for the next quarter and that's how we find
+like a scientist not react like a gambler and when it comes to the solution part right the next question
+you might be asking is okay brad cool i've identified a pattern now how do i develop the solution to solve
+that pattern very very simple you use what i call the if then framework this is a very mechanical system
+okay once again super duper mechanical system first step identify the pattern once you identify the
+pattern then you can develop the solution and how the if then framework works is if the problem occurs
+then i'm going to implement the solution so if my performance is profitable
+but my results are inconsistent then i will tighten discipline i will take fewer trades i would
+maybe trade within a shorter window i will stick to my hard start after a max loss you know i'll just
+continue to just like i will not continue trading after a losing streak if win rate is high but your
+average r is low what that means is that i can win trades but then over the long run i might not be
+profitable because like my the amount of money that i make when i win is always much more lesser than
+the amount of money that i lose when i'm wrong right so maybe i need to stop cutting my winners
+maybe i need to reduce early exits maybe i need to delay pastures maybe i need to just let my waiting
+positions run if win rate is low but average r is strong then this is where i can think about how i can
+increase my win rate right maybe i need to improve improve selectivity right maybe i need to
+only just focus on the a plus setups if risk deviation is high consistency is low and synthesizing
+so on and so forth for every single pattern that you spot in your trading quarterly review
+that is going to be a solution to fix that pattern and if you don't know what it is
+thank god for ai you could just send it to ai right and if you're using edgeflow you could just
+send it to flow ai you could just send flow ai and just say hey flow ai or any ai software that
+you're using out there whether that's chat gpt or google gemini or claude right whatever it is just
+ask the ai hey ai i have completed my quarterly review and it seems like i tend to revenge trade
+after my first loss this is the pattern that happens over and over again how do i fix it what's the solution
+that uh will prevent me from actually committing this mistake again and when you ask that ai is
+so advanced nowadays where it will give you like the the right textbook answer right it will tell you
+that okay cool you revenge trade after the first loss now you might want to implement like a hard
+stop after your first loss right maybe you want to size down after your first loss whatever it is
+whatever they suggest you and that is your then framework that is a solution right so very simple like
+i said the hardest part is to just become aware of the problem in the first place and then once you
+got aware of the problem you can just send it to ai and then you can just ask it to like present you a
+solution and when you have the solution like i said just run it for the next quarter okay where do you
+have the solution in order to help you run it to the next quarter you should use edgeflow in some way
+shape or form right so for example in this case if performance is profitable but my results are
+inconsistent this is where i want to take fewer trades and i want to have a shorter time window
+or i want to stop after max loss this is where right once you have decided your rule changes the
+one to three variables that you want to be testing in the next quarter you want to lock them in your
+system so you're not relying on willpower or discipline and edgeflow helps you do that right so
+this is where i can come in here and i found that okay this is the solution that i want to be taking so
+this is where i'll update my guardrails maybe i actually go from five trades a day i want to take
+fewer trades for the next next quarter right i can just set it to three and then maybe i want to make
+sure that i stop after i only lose three hundred dollars now change that as well okay so you can
+either update your guardrails here or you can update your trade plan inside your edge feature itself right
+so maybe you want to test out the fair value gap right so this is where you can put it in right
+there or maybe you want to change your trade management method maybe you want to try um set
+and forget instead of you know like taking partial profits for the next quarter right so this is where
+you can change your roots okay you can adjust your trip plan in here but like i said the goal here is
+for you to do something right whatever it is just do something because nothing changes if nothing changes
+once you have developed the solution the three variables go and implement it into your trading
+system you can either adjust your roots inside your edge or change your guardrails all right that's it
+change your guardrails or adjust your edge because the last thing you want to do is to be relying on
+memory right you don't want to be doing stuff like okay cool i'm just done with my reviewing right now
+and i know that this is the stuff that i should be doing in the next quarter and now i'm just going to
+chill okay cool i already done my review right cool next knowledge yourself is not powerful when you
+do that what you're doing is that you are just trying to remember to do this in the future what
+you really want to do is do something with it is to bake it into your system bake it into edge flow
+because when emotions hit you're going to be forgetting about all of this stuff right here
+you're going to be forgetting about all of these like variables that you want to test out in the next
+quarter right so bake it into your system because the system is what keeps you consistent
+oh that rhymes okay so that's that after you implement the rule changes you might want to
+lock in one team for the next 90 days right once again not five or ten different goals just one
+focus and you could write it at the top of your quarterly review template just like this
+and you might want to like turn it into like a identity rule that you repeat like i'm the type of
+trader who reads the same every single trade or i'm the type of trader who shuts down after a max loss just
+like this so this is the identity statement because when you start putting the identity
+statement down right there and if you can try to review every single day what happens is that you
+are reprogramming the subconscious mind because right now to this day you might be the guy who tends to
+revenge straight after a losing streak you might be the guy who focus on you know your ego rather than
+making money but the minute you type this identity statement in you are unconsciously telling your
+body telling your mind telling your subconscious mind that i am the type of trader who shuts down
+after max loss and when you do that you have just undergone an identity shift and we always act in
+accordance with our belief and identity so if i'm the type of trader who shuts down after max loss
+i'm not gonna be the guy who revenge shoot after losing streak that's not me anymore right that's
+the past me now i'm the type of guy who just close my trading platform after i hit the max loss
+so you want to put some form of identity statement just like this and that my friend is how you evolve
+as a trader like i said you don't share the g-hop you don't panic after a losing streak you don't make
+random tweaks just because you feel like something is off you review a real simple size whether that's
+100 trades or three months worth of trading data you find the recurring patterns you convert them into
+one to three rule changes they can take for the next quarter you bake them into edge flow you build
+them into your system and you run the experiment for the next 90 days and then at the end of those 90 days
+you review you do the exact same process over and over again and that's how you trade like a
+scientist not like a gambler and that's the difference between a professional trader and a
+retail trader a professional trader will do what's required to succeed and this is part of what's
+required it's reviewing the tape and just continue iterating on the trip plan and just continue
+getting better just dedicating themselves to the craft itself like i said when you do this every
+single quarter your edge doesn't just works what happens is that it compounds all of this little
+improvement that you're making in your trade plan it tends to start compounding over time it tends
+to result in exponential growth right the only reason why i'm making a lot of money right now
+is because of all of these reviews that i've done in the past seven years of trading
+and all of this tiny little improvement tiny little feedback allowed me to get to where i am today
+and i'm still doing the exact same process right now and i'm still trying to level up still trying
+to improve and iterate my trip plan that's success in trading that's what separates the average traders
+from the great traders

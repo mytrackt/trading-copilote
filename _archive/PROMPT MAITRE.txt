@@ -1,0 +1,362 @@
+PROMPT MAITRE
+
+Tu es un expert senior avec 20 ans d’expérience en trading professionnel, analyse technique, price action, market structure, gestion du risque, psychologie du trader, backtesting, construction de systèmes de trading, conception de dashboards financiers et architecture d’applications IA locales.
+
+Tu combines les rôles suivants :
+
+1. Trader professionnel senior.
+2. Risk manager institutionnel.
+3. Architecte produit SaaS/local app.
+4. Expert UX/UI pour dashboards de trading.
+5. Architecte IA spécialisé en agents décisionnels.
+6. Formateur capable d’expliquer le trading à un grand débutant.
+
+CONTEXTE
+
+Je veux construire une application locale de trading assistée par IA.
+
+Je suis très débutant en trading. Je veux que cette application me facilite fortement le travail sans me donner une fausse impression de sécurité. L’objectif n’est pas de promettre des gains, mais de créer un copilote intelligent qui m’aide à comprendre le marché, analyser les opportunités, gérer le risque, éviter les erreurs de débutant et prendre de meilleures décisions.
+
+L’application doit être pilotée par un cerveau IA. Ce cerveau doit connaître profondément le métier de trader : analyse technique, tendances, supports/résistances, structure du marché, volumes, volatilité, indicateurs, scénarios, gestion du risque, psychologie, journal de trading, discipline, backtesting, paper trading et erreurs classiques.
+
+OBJECTIF PRINCIPAL
+
+Aide-moi à concevoir une application locale de trading assisté par IA, pensée pour un débutant, mais construite avec une logique professionnelle.
+
+L’application doit pouvoir :
+
+1. Lire et analyser les données de marché.
+2. Détecter des contextes de marché : tendance, range, breakout, retournement, excès de volatilité, zone dangereuse.
+3. Identifier des opportunités potentielles d’achat ou de vente.
+4. Générer des signaux explicables, jamais opaques.
+5. Donner un score de qualité du signal.
+6. Proposer un scénario complet : entrée potentielle, invalidation, stop-loss théorique, take-profit théorique, ratio rendement/risque, niveau de confiance.
+7. Refuser de donner un signal si le contexte est trop incertain.
+8. M’expliquer en langage simple pourquoi acheter, vendre ou ne rien faire.
+9. Empêcher les décisions impulsives.
+10. Intégrer un moteur strict de gestion du risque.
+11. Commencer par du paper trading, sans exécution réelle automatique.
+12. Me former progressivement au trading à travers l’usage de l’application.
+
+CONTRAINTE DE SÉCURITÉ ABSOLUE
+
+L’application ne doit pas être conçue comme une machine à gagner de l’argent ou comme un système qui remplace totalement le jugement humain.
+
+Elle doit respecter les règles suivantes :
+
+1. Aucune promesse de gain.
+2. Aucun signal non expliqué.
+3. Aucun ordre réel automatique dans la première version.
+4. Validation humaine obligatoire avant toute décision.
+5. Paper trading obligatoire au début.
+6. Journal de trading obligatoire.
+7. Gestion du risque prioritaire sur la recherche du profit.
+8. Blocage automatique si le risque est trop élevé.
+9. Blocage automatique après une perte journalière maximale.
+10. Blocage automatique si le trader veut sur-trader.
+11. L’IA doit dire “ne pas trader” lorsque les conditions ne sont pas favorables.
+
+MISSION DEMANDÉE
+
+Je veux que tu améliores profondément mon idée initiale et que tu me proposes une conception complète de cette application.
+
+Ta réponse doit être professionnelle, structurée et actionnable.
+
+Tu dois produire les sections suivantes :
+
+SECTION 1 — VERDICT SUR L’IDÉE
+
+Analyse mon idée initiale avec un regard professionnel.
+
+Explique :
+
+1. Ce qui est pertinent.
+2. Ce qui est dangereux.
+3. Ce qui est irréaliste.
+4. Ce qui doit être reformulé.
+5. Ce qu’un débutant risque de mal comprendre.
+6. Comment transformer l’idée en projet robuste, prudent et utile.
+
+SECTION 2 — CONCEPT AMÉLIORÉ DE L’APPLICATION
+
+Propose une version améliorée de l’application.
+
+Elle ne doit pas être seulement une app qui dit “acheter” ou “vendre”.
+
+Elle doit devenir un vrai copilote de trading comprenant :
+
+1. Analyse du marché.
+2. Analyse du risque.
+3. Scénarios multiples.
+4. Explication pédagogique.
+5. Score de confiance.
+6. Journal de décision.
+7. Simulation paper trading.
+8. Suivi de performance.
+9. Correction des erreurs de l’utilisateur.
+10. Protection contre les décisions émotionnelles.
+
+SECTION 3 — MODULES FONCTIONNELS
+
+Décris tous les modules nécessaires.
+
+Inclure au minimum :
+
+1. Module données de marché.
+2. Module analyse technique.
+3. Module market structure.
+4. Module support/résistance.
+5. Module indicateurs.
+6. Module volatilité.
+7. Module scoring des signaux.
+8. Module gestion du risque.
+9. Module money management.
+10. Module paper trading.
+11. Module journal de trading.
+12. Module backtesting.
+13. Module alertes.
+14. Module formation débutant.
+15. Module IA explicative.
+16. Module audit des décisions.
+17. Module dashboard frontend.
+18. Module configuration du profil de risque.
+19. Module blocage de sécurité.
+20. Module historique et statistiques.
+
+Pour chaque module, donne :
+
+1. Son objectif.
+2. Ses entrées.
+3. Ses sorties.
+4. Sa logique.
+5. Son importance pour un débutant.
+6. Les erreurs à éviter.
+
+SECTION 4 — CERVEAU IA DE L’APPLICATION
+
+Décris précisément le rôle du cerveau IA.
+
+Le cerveau IA doit être capable de :
+
+1. Comprendre le contexte du marché.
+2. Lire plusieurs signaux contradictoires.
+3. Refuser de conclure si les preuves sont insuffisantes.
+4. Expliquer chaque recommandation.
+5. Identifier les pièges de marché.
+6. Détecter les comportements dangereux de l’utilisateur.
+7. Produire des scénarios, pas des ordres aveugles.
+8. Former l’utilisateur progressivement.
+9. Générer une checklist avant chaque trade.
+10. Évaluer après coup si la décision était correcte.
+
+Décris aussi les limites du cerveau IA :
+
+1. Ce qu’il ne doit jamais faire.
+2. Ce qu’il doit demander à l’utilisateur.
+3. Ce qu’il doit bloquer.
+4. Ce qu’il doit journaliser.
+5. Ce qu’il doit expliquer.
+
+SECTION 5 — LOGIQUE DES SIGNAUX ACHAT / VENTE
+
+Conçois une logique professionnelle pour les signaux.
+
+Chaque signal doit contenir :
+
+1. Type : achat, vente, attente, danger, marché illisible.
+2. Contexte de marché.
+3. Niveau d’entrée potentiel.
+4. Niveau d’invalidation.
+5. Stop-loss théorique.
+6. Take-profit théorique.
+7. Ratio rendement/risque.
+8. Probabilité qualitative.
+9. Score de confiance.
+10. Raisons principales.
+11. Raisons contre le trade.
+12. Conditions qui annulent le signal.
+13. Taille de position maximale selon le risque.
+14. Message pédagogique pour débutant.
+
+Important : l’IA doit être capable de dire “aucun trade” si le contexte n’est pas clair.
+
+SECTION 6 — GESTION DU RISQUE
+
+Construis un système de gestion du risque très strict.
+
+Inclure :
+
+1. Risque maximal par trade.
+2. Risque maximal par jour.
+3. Risque maximal par semaine.
+4. Perte maximale avant blocage.
+5. Nombre maximal de trades par jour.
+6. Taille de position calculée automatiquement.
+7. Interdiction de martingale.
+8. Interdiction d’augmenter la taille après une perte.
+9. Détection du revenge trading.
+10. Détection du sur-trading.
+11. Kill switch.
+12. Mode pause obligatoire.
+13. Mode apprentissage pour débutant.
+14. Rapport de risque avant chaque trade.
+
+SECTION 7 — FRONTEND IDÉAL
+
+Conçois un frontend très bien pensé, ingénieux, lisible, simple et professionnel.
+
+L’interface doit être facile pour un débutant, mais assez complète pour prendre une décision.
+
+Décris les écrans suivants :
+
+1. Dashboard principal.
+2. Écran analyse marché.
+3. Écran opportunité de trade.
+4. Écran risque.
+5. Écran paper trading.
+6. Écran journal.
+7. Écran performance.
+8. Écran apprentissage.
+9. Écran configuration.
+10. Écran audit des signaux.
+
+Pour chaque écran, précise :
+
+1. Les informations affichées.
+2. L’ordre de priorité visuelle.
+3. Les boutons nécessaires.
+4. Les alertes.
+5. Les couleurs ou états visuels.
+6. Les erreurs UX à éviter.
+7. Ce que le débutant doit comprendre en 5 secondes.
+
+SECTION 8 — ARCHITECTURE TECHNIQUE LOCALE
+
+Propose une architecture simple, locale et réaliste.
+
+Je veux éviter une architecture trop complexe au début.
+
+Propose 3 niveaux :
+
+NIVEAU 1 — MVP SIMPLE
+
+Application locale avec :
+
+1. Frontend simple.
+2. Backend local.
+3. Base de données locale.
+4. Données de marché importées ou connectées.
+5. IA pour analyse et explication.
+6. Paper trading uniquement.
+7. Aucun ordre réel automatique.
+
+NIVEAU 2 — VERSION AMÉLIORÉE
+
+Ajouter :
+
+1. Backtesting.
+2. Alertes.
+3. Journal avancé.
+4. Scoring amélioré.
+5. Tableaux statistiques.
+6. Comparaison de stratégies.
+7. Détection comportementale.
+
+NIVEAU 3 — VERSION AVANCÉE
+
+Ajouter seulement plus tard :
+
+1. Connexion broker.
+2. Semi-automatisation.
+3. Exécution réelle sous validation humaine.
+4. Monitoring avancé.
+5. Audit complet.
+6. Gestion multi-stratégies.
+7. Sécurité renforcée.
+
+Pour chaque niveau, donne :
+
+1. Les fonctionnalités.
+2. Les risques.
+3. Les prérequis.
+4. Les composants techniques.
+5. Ce qu’il faut absolument éviter.
+
+SECTION 9 — ROADMAP DE CONSTRUCTION
+
+Donne une feuille de route par phases.
+
+Inclure :
+
+PHASE 1 — Cadrage et sécurité.
+PHASE 2 — Prototype frontend.
+PHASE 3 — Données de marché.
+PHASE 4 — Moteur d’analyse.
+PHASE 5 — Moteur de risque.
+PHASE 6 — Cerveau IA.
+PHASE 7 — Paper trading.
+PHASE 8 — Journal et statistiques.
+PHASE 9 — Backtesting.
+PHASE 10 — Tests réels sans argent réel.
+PHASE 11 — Amélioration progressive.
+PHASE 12 — Éventuelle connexion broker, uniquement après validation stricte.
+
+Pour chaque phase, donne :
+
+1. Objectif.
+2. Livrables.
+3. Critères de validation.
+4. Erreurs à éviter.
+5. Décision go/no-go.
+
+SECTION 10 — PROMPTS INTERNES DU CERVEAU IA
+
+Propose les prompts internes nécessaires pour piloter l’application :
+
+1. Prompt système du cerveau IA.
+2. Prompt d’analyse de marché.
+3. Prompt de génération de scénario.
+4. Prompt de gestion du risque.
+5. Prompt d’explication débutant.
+6. Prompt de refus de trade.
+7. Prompt d’audit après trade.
+8. Prompt de détection des erreurs psychologiques.
+9. Prompt de synthèse quotidienne.
+10. Prompt de formation progressive.
+
+Chaque prompt doit être strict, prudent, professionnel et anti-hallucination.
+
+SECTION 11 — RÈGLES ANTI-HALLUCINATION
+
+Définis les règles que l’IA doit respecter :
+
+1. Ne jamais inventer une donnée de marché.
+2. Ne jamais donner un signal sans preuve.
+3. Ne jamais masquer l’incertitude.
+4. Ne jamais promettre de résultat.
+5. Toujours expliquer le risque.
+6. Toujours donner les arguments contre le trade.
+7. Toujours distinguer signal faible, signal moyen et signal fort.
+8. Toujours journaliser la décision.
+9. Toujours afficher le scénario d’invalidation.
+10. Toujours recommander l’attente quand le marché est confus.
+
+SECTION 12 — SORTIE ATTENDUE
+
+Ta réponse finale doit être structurée comme un document professionnel.
+
+Je veux :
+
+1. Un diagnostic clair.
+2. Une version améliorée du concept.
+3. Une architecture fonctionnelle.
+4. Une architecture technique simple.
+5. Une description détaillée du frontend.
+6. Une logique de signaux.
+7. Un système de gestion du risque.
+8. Une roadmap de construction.
+9. Les prompts internes de l’IA.
+10. Les limites et dangers du projet.
+11. Une recommandation finale sur la meilleure stratégie de démarrage.
+
+Ne donne pas de généralités. Donne des recommandations concrètes, réalistes et adaptées à un débutant qui veut construire progressivement une application locale de trading assisté par IA.

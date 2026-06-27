@@ -1,0 +1,299 @@
+price is the leading indicator and the best way to truly understand price is to look at
+japanese candlesticks most beginners they look at candlesticks but they do not actually know
+how to read them they see green candles red candles big wigs small bodies engulfing patterns
+dojis and all of this like random stuff on the chart but the truth is every candlestick is
+actually telling a story and if you do not understand that story you're basically trading
+blind as traders we use candlestick charts to analyze and interpret price charts in the
+financial markets to us this is our key form of technical analysis so let's break it down in this
+entire lesson i'm gonna go through what is a japanese candlestick when you should use them
+how to use them and why you shouldn't just be blindly memorizing candlestick patterns
+all right i'm gonna teach you everything i know about japanese candlesticks now here's what a
+candlestick is a candlestick basically shows you what price did over a specific period of time
+it tells you where price open where price close the highest price reach to the lowest price reach
+and it basically just tells you like who is in control of price each candlestick is basically
+a snapshot of price action over a certain time period that time period could be the one minute
+the five minute the one hour the four hour the daily time frame depending on the time frame in which
+you are looking at for example right now we are on the four hour time frame so each one of these
+candlesticks represents the price action that is going on for the past four hours right so you can
+see this big bearish candlestick right here that means that within this four hour candlestick there is
+four times one hour bearish candlestick that was formed right so if you look at this right here
+go to the one hour time frame you can see one two three four four one hour bearish candlestick
+forms a four hour bearish candlestick and then you can see this four hour bullish candlestick right
+here this is formed by one two three four okay my math sucks one two three four four candlesticks right so
+these four candlesticks combined together it forms a four hour candlestick right so uh if you look at
+a 15 minute time frame this fall 15 minute time frame candlestick right here combine them together
+and you will get this one hour candlestick so candlestick allow us to know what's going on
+on the lower time frame itself without actually going down to the lower time frame all right so
+like i said it's a snapshot of the price action now there are basically four parts of the candlestick
+okay so this is what we call the anatomy of a candlestick like just dissecting the candlestick itself
+you must understand that at any point of time when the candlestick actually opens right so
+it opens like let me just show you the live market condition right now you can see this
+is a candlestick that is being open and when it opens it opens in a horizontal line just like this
+and if that is selling pressure is going to push price down and then it's going to start to create
+like this bearish candlestick to the downside if there is buying pressure it's going to push price up
+and creates this bullish candlestick to the upside okay so in this case you can see candlestick open just
+like this like a horizontal line just like this and then selling pressure right now is pushing price
+down okay so this is the one hour candlestick that's being formed and it was just created about
+nine minutes or so give or take around nine minutes and it opened somewhere around here and because
+there's so many sellers in the market is just keep on pushing price down you can see it's just starting
+to go down even lower and lower and lower lower right so if there's enough buyers later on price
+could potentially move up and then the candlestick body could close right here instead let me just go
+back to the basics right just to explain to you how the entire candlestick actually works so in this
+case you can clearly see that this is the open price in a bullish scenario there's going to be buying
+pressure stepping into the market causing price to go up to move up so eventually the candlestick close
+bullish right and how do we know it close bullish we know when the close price is higher than the
+open price this indicate to us that buying pressure caused price to came all the way up here and it
+closed just like this and then on the other side we got the bearish candlestick a bearish candlestick is
+when the close price is lower than the opening price which tells us that there was selling pressure causing
+price to go down as simple as that and then that is the candlestick body right see this rectangle thing
+that you can see right here this is the candlestick body and you might observe that there is these two
+thin lines right here right at the higher side and also at the lower side right so this is actually
+the upper wig and then this is the lower wig the body shows you the distance between the open and the
+close the wick shows you how far price moved before pulling back okay so bear in mind that this is the
+close price but then this shows us that at some point of time prices literally went all the way up here
+before coming down and closing at this price point right here leaving a trail behind which is our upper
+wig and this candlestick also show us that at some point of time prices went all the way down here
+right came all the way down here to the lowest price before it went all the way up and closing
+at this price point giving us our lower wick right it basically shows us how far price has moved
+before it starts to pull back and close at this price point and if you look at this bearish candlestick
+right here same exact thing open price close price this tells us that there was a lot of selling
+pressure causing price to come all the way down here but while this candlestick was forming at some point
+of time there was some buying pressure stepping to the market causing the price to get pushed all
+the way up here giving us a high before sellers start to step into the market causing price to come
+all the way down leaving us an upper week leaving us a trail and cut little it might potentially came
+all the way down here came down to the lowest price leaving us a low week as well so a bullish candle
+it closed higher than it opened which signals that's buying pressure a bearish candle closes lower than it
+opened which shows us that is selling pressure now here's an important thing to note a bullish candle
+does not always mean buy a bearish candle does not always mean sell it just tells you who had more
+control during that candle so once again looking at the live price action right here you can see this
+is the one hour candlestick that's being formed and at this moment it's bearish right open right here
+price keep on coming all the way down here you can see the selling pressure in the market which tell us
+that the sellers are in control of price but it haven't closed yet it requires around an estimate of
+around 47 minutes 30 seconds before it starts closing so a lot of things can happen within
+these next 47 minutes within this next 47 minutes you can get some buying pressure stepping into the
+market causing price to go up even higher and then maybe the candlestick close bullish just like this
+instead right so this candlestick just tell us the price action that is going on within that period of
+time right it just shows us the tug of war between the buyers and sellers
+so yeah that's pretty much the anatomy of a candlestick uh basically let's just to give
+you like a pro tip look at the candlestick body right if the candlestick body is big big candlestick
+body this means there's a lot of momentum small candlestick body means there's very little momentum
+so in this case right here if you look at let's say this candlestick right here big candlestick body
+right very big candlestick body compared to this previous candlestick right here this does that
+there's a lot of buying pressure a lot of buying momentum so as a result we can expect this buying
+pressure to continue and indeed it did just that price just continued going up even higher and then
+we also got a bearish candle right so let's take a look at this one right here you can see this bearish
+candlestick have a big strong body right this body right here is significantly bigger than the
+previous candlestick right here which tells that there was selling pressure in the market and we
+can expect this selling pressure to sustain now compare this to like maybe this little candlestick
+right here okay this candlestick is very very small right it has a very small candlestick body
+which tell us that there is not much momentum there's indecision in price right there's a very less
+conviction in the market right now which could potentially tell us that price is reversing
+or if that sufficient momentum price could just continue going up so when the body is large it
+usually means that one side has strong control during that candle when the body is small it usually
+means there was more hesitation or balance between buyers and sellers so that's what the candlestick
+body tells you and then you've got the candlestick wicks right which is once again all the upper
+week and the lower week that you can see right here when you have a very long upper week like in this
+instance this tell us that when this candlestick was forming price got pushed all the way up right it
+pushed all the way up here but then later on it got rejected right the sellers pushed price all the way
+down here and as a result the candlestick body closed somewhere around here and if there's a long
+low week just like this this tell us that price when this candlestick was forming got pushed all
+the way down here but then once again got rejected by the buyers and the buyers come in push price all
+the way up here as a result the candlestick closed somewhere around here so when you have this long
+upper week or low week it usually means that there's a lot of volatility in the market it usually means
+that there is a lot of price rejection or indecision in the market depending on the context in which the
+weeks are appearing in so once again weeks just show you where price tried to go but failed to hold
+okay so that is pretty much like everything you need to know about japanese candlesticks on a basic
+fundamental level like the anatomy of the candlestick itself now let's quickly go through this right
+because this is what a lot of you guys might have seen if you have started trading and that is the
+candlestick patterns cheat sheet now a lot of conventional advice will tell you to go and
+memorize every single one of these candlestick patterns and try to spot those patterns in the
+market and then when they do appear in the market just act accordingly so for example if you see this
+inverted hammer you should just buy if you see this tweezer top or whatever you should just sell
+but it's not as simple as that the candlestick pattern is as important as the context in which
+the candlestick pattern appears right so if you see this bullish three-line strike but the market is
+actually in a downtrend what tends to happen is that after this candlestick pattern is formed you should
+be entering for a sell instead of entering for a buy because the prevailing trend direction is actually
+bearish so i don't want you guys to just blindly memorize candlestick patterns instead i want you
+guys to understand the relationship between the buyers and the sellers by analyzing the candlesticks
+right by really understanding who is in control of price whether the buyers or the sellers
+whether demand or supply and you do that by looking at the candlestick body and the candlestick wick
+okay so next up i'm gonna go through like this golden rules of japanese candlesticks which will
+just fundamentally change the way you perceive candlesticks forever because trust me in my first
+year of trading i tried to follow the conventional path i was sitting over here and i was like trying
+to wrap my my head around all these like 30 different candlestick patterns trying to memorize them
+but it just didn't stuck with me like yes i could memorize this one or like this one but like
+you're asking me to memorize 50 freaking candlestick patterns that's like out of my world right i'm
+i'm not that smart all right i'm smart but i'm not that smart so as a result i just came up with like
+this own method of using candlestick patterns and that is to just observe the momentum and the pressure
+of the candlesticks just by looking at the anatomy of the candlestick itself that tells me so much about
+the price action without needing me to memorize useless patterns okay but if you want to like really just
+you know keep things simple for you the conventional advice or the advice that i used to give traders
+in my first three years is to just stick to three candlestick pattern right is to try to memorize just
+three and for me my favorite candlestick patterns last time was the bullish engulfing or the bearish
+engulfing candlestick pattern and the morning star and the evening star candlestick pattern and the three
+lines stripe candlestick pattern it's been so long since i even like look at this cheat sheet all right it's been
+ages but yeah this the reason why this candlestick pattern tends to work is because of really the
+momentum and the pressure if you look at this bullish engulfing candlestick look at the body
+the bullish candlestick body is significantly bigger than the previous candlestick body right
+the previous bearish candlestick which tells us that's buying pressure and buying momentum that is
+why bullish engulfing candlestick pattern tends to work it's not because the textbook says so it's because
+that these tell us that the buyers overpowered the sellers same thing with the morning star right the
+morning star basically tell us that there's a bearish candlestick a doji candlestick which signal
+indecision it does not really mean that price is going to go up or go down it just signal indecision
+and the next candlestick after the doji candlestick is a bullish candlestick which tell us that
+the buyers have won the tug of war the buyers have took back control of price so as a result price is
+most likely going to reverse to the upside same thing as the evening star same thing as the bearish
+engulfing which is like just the opposite and then same thing as the three line strike the reason why
+these candlestick patterns work is because of momentum and pressure and that's what we're going to
+talk about next okay so here's my golden rules of japanese candlesticks like i said do not just blindly
+memorize candlestick patterns understand how the candlesticks actually work why price move the way it does
+and when you do this is where you are able to really just observe the price action and trade with the
+institutions so the first rule is candlesticks tell you everything about price action which is who's in
+control of the market at any given moment if you look at a candlestick like for example if i look at a
+live price action right now i can straight away tell you that the market is actually bearish
+yes because of the structure has just shifted bearish but another reason is because if you
+look at the most recent candlesticks price is bearish right there was a lot more bearish candlesticks
+than bullish candlesticks in the past few hours which tell us that the sellers are in control of price
+or another example like let's say we look at this price action right here
+anybody can know like just tell that this is actually a uptrend right clear as day price is
+bullish why because if you look at the bullish candlesticks there's a lot of momentum there
+was a lot of bullish candlesticks and not only were there a lot of bullish candlesticks but the
+bullish candlesticks that was formed have a big body have a very huge body right here
+right that's what i always get the big black candlesticks and i'm saying the bbc okay so
+that's how you remember it all right bbc when it's bbc big bullish candlesticks a lot of buying
+pressure bbc big bearish candlesticks a lot of selling pressure that's it next up we got the doji
+candlesticks right like i said earlier doji candlesticks signal indecision does not signal a reversal
+it just signal indecision once again here's where a lot of traders tend to go wrong they assume that
+after a doji candlestick price is just gonna reverse let me just bust that myth in this case
+doji candlestick form but the price reversed straight away no it didn't in this case doji
+candlestick form right this is not really like a doji candlestick but like it's still kind of like a
+doji it's kind of shaped like a doji candlestick in this case was that reversal no so once again
+don't just blindly follow what the conventional trading advice tells you to do so understand that
+doji candlestick just signal indecision which means neither buyers nor sellers has gained control of
+the market so what you want to do is to focus on what happens after the doji candlestick because that
+will tell you a lot more what you do want to do is to focus on the context the location in which the
+doji candlestick appears so for example in this case price was heading down boom we got this
+candlestick right here with a long low week this is the first indicator that tell us that you know
+what buying pressure has stepped into the market pushing price up that long low week and then followed
+by a doji candlestick doji candlestick once again just signal indecision and it could potentially tell us
+that these sellers is losing momentum right the sellers are getting kicked out the market by the
+buyers because the first sign was that we got a long low week right here which indicate buying pressure
+the next sign was that we got a doji candlestick which tell us that there was indecision because if
+the sellers wanted to take control of price price would just continue going down with a lot of bearish
+momentum and pressure but that did not happen the third confirmation came when we got a bullish
+engulfing candlestick a big bullish candlestick right after the doji candlestick which signaled to us
+buying momentum has entered into the market buying pressure has entered into the market in fact this
+was so good it was so bullish that it didn't even have a week no upper week no lower week just a candlestick
+body just like this which does a lot of buying pressure momentum and just as expected after this is
+firm prices continue bullish so that's the other tip that i want to give you is don't just focus on
+the doji candlesticks but focus on the context in which it appears in and what it does after it appears
+in the market next one is the larger the candlestick body the more momentum or pressure there is
+so once again i've already covered this briefly just now look at this big bearish candlestick right here
+look at this bbc is that a way for price to actually go bullish after this bbc occurs it might
+but like the bbc is just going to dominate it's just going to dominate you know it's just going to
+dominate so as a result after the bbc is formed price just continue bearish and just continue going
+down because there's way too many selling pressure and selling momentum in this candlestick right here
+within this 15 minutes over here so just like gravity right and we're using the laws of physics
+when there's when something if a lot of momentum is just going to continue to just collapse with ease
+just try rolling a ball down a slope right it might requires a lot of you know pressure a lot of
+force to get the rock up the slope but once this rock gets up the slope and you push the rock
+down the slope it starts coming down and you will start to see it starts getting momentum the
+the pressure starts the light pressure or whatever the physics terms is starts building up the momentum
+starts building up and the rock rolls faster and faster and faster and faster it's the same scenario
+right here okay so after you see this big bearish candlestick over here what happens that there was a
+lot of selling momentum causing prices just collapse like crazy until that the momentum fades away until the
+rock comes to a stop and then the buyers took back control of price again once again the market moves
+back to a phase of balance before the next in balance occurs and we got a big bearish candlestick
+tells us that there was a lot of momentum and what happens after that is annihilation destruction
+collapse right where prices continue crashing down
+the next step is candlesticks on the higher time frame matter than more than the lower time frame
+so if i see like uh let's say like uh on the daily time frame right let's say i see this big bullish
+candlestick occurs on a daily time frame i know for a fact that there's a lot of buying pressure and
+momentum compared to if you see this exact same bullish candlestick on let's say the five minute time frame
+like over here it's less significant okay it's less significant because this just tell us that within
+five minutes the buyers you know overwhelm the sellers but this right here does that within a day
+the buyers overwhelm the sellers which means that this move right here is a lot more significant
+than the one that we have right here and therefore it's a lot more valuable which means that it's a
+it's a lot more like worthwhile right what i basically mean by that is that it's a lot more
+stronger so you can see the exact same candlestick pattern on the four hour time frame and it might
+work in the way you envision it to work but if you see the exact same pattern on the five minute time
+frame it might not work because the one that is on the four hour time frame is just a lot more significant
+so candlesticks on a hard time frame matter a lot more than the lower time frame itself and fifth tip
+is do not just rely on candlestick patterns without context like i said it's all about context it's all
+about location it's all about timing it's all about your buyers so you want to make sure that you are
+combining all the market mechanics concepts that we're going to cover with candlestick patterns right don't
+just use candlestick pattern alone it's not the best confluence out there you need multiple confluences
+you need multiple confirmations to support your trade idea to support your trade bias so use your
+structure right so if price is actually creating a bullish break of structure right now and this is
+where i know for a fact that okay bullish break of structure over here okay and then we got a bearish
+candlestick after the break of structure what does this tell us this tell us that price is potentially
+going to start pulling back okay and then price is going to start pulling back and then once price
+comes down here starts going up we can expect price to just continue bearish creating a new lower high
+and then eventually it comes down to the demand zone that we have right here which is another concept
+that we're going to cover very very soon and you can see once price is approaching this demand zone
+ideally i want to see some sort of big bullish candlesticks right or i want to see like
+this reversal candlestick pattern right here to signal to me that the market is actually
+respecting this demand zone the pullback is over and right now we are going to shift bullish
+so use all the weapons in your arsenal to develop a trade ideal to develop a trade bias and last tip
+that i have for you is to compare the size of the candlestick body to the size of the wick
+if you have a candlestick body which is a lot bigger than the wick itself once again what does
+this tell you this tell you this tell you that there is a lot of buying pressure a lot of buying
+momentum like in this case right here however if you have this candlestick right here with a very
+small body but very long upper and low wick right in this case it's like 20 body but 80 weak well in
+just now this is about 90 body and 10 weak right so this tells us that there is very less momentum
+very less pressure there's a lot of uncertainty in the market which is why you know price came all
+the way down here got rejected price went all the way up there got rejected again right so once again
+it's the talk of wall dynamic that's going on right here and as a result this tells us that there's a
+lot of indecision a lot of uncertainty which means that at any given moment price could just reverse
+and it did exactly that right after this candlestick was formed reverse and what candlestick pattern is
+this this is actually your good old evening style candlestick pattern or at least a variation of it
+and notice what happens after this candlestick was formed it was followed by a bearish candlestick with
+90 body and 10 weak big bearish candlestick body which signaled to us a lot of selling pressure
+a lot of selling momentum and just as expected right after this candlestick body is formed
+pressures continue collapsing this is the power of just understanding candlestick pressure and momentum
+when you do you can essentially bend the market to your will not really bend the market to your will
+but like you know what i mean you can essentially just observe what's going on in the market and just
+trade with it rather than against it and to me this is such a beautiful thing because i really believe
+that candlesticks are the heartbeat of the market you know you can just hear the heartbeat of the market
+and when you can hear the heartbeat of the market you can trade with it
+right because the market is always telling you a story all you got to do is to listen
+it's an art man it's a bloody masterpiece
+so that's everything i wanted to teach you guys about japanese candlesticks right i know you
+probably expected me to delve deeper into freaking candlestick patterns but that's just not how i
+operate because in my first year of trading i did that right i've tried that i've tried all the candlestick
+patterns in the world and i realized that over time the candlestick patterns it works to a certain
+extent but what's more important is once again the context of the market in which you are applying them
+in because the context of the market will determine whether the candlestick patterns work in the way
+where it's supposed to work candlesticks all they do is to help you read price help you listen to the
+heartbeat of the market they do not replace market structure they do not replace liquidity concepts or
+timing you still have to understand all of these market mechanics concepts so that you can have the
+full picture this is just a piece of the puzzle itself it's not the full picture yet okay so yeah do
+not just memorize candlestick patterns without any context right don't just enter for a buy because you
+see a bullish candlestick don't just enter for a sell because you see a freaking bearish candlestick
+don't just think that all you need to do is to just memorize the candlestick patterns
+i really wanted to like just you know share with you guys like everything that i wish i knew about
+candlestick patterns because i have your best interest at heart like when i create these lessons all
+i'm doing is that i'm speaking to my younger self if i knew all of these concepts back in my first
+year of trading i wouldn't have blown seven accounts i wouldn't have failed six freaking funding
+challenges i wouldn't have lost like ten thousand dollars of my life savings but now looking back
+in retrospect i realize that i have to do all of that i have to go through the hardship the trials the
+tribulations for me to become the man i am today for me to learn that all of these concepts
+is actually much more useful if you apply them in this manner all of the losses were just
+allowing me to you know learn these lessons so that i can pass on these lessons to you
+and i think that's the most beautiful thing about trading because yeah man like
+it means so much to me man to be able to like just create these free lessons i don't feel like this
+is work i don't know whether you guys can tell but like when i speak i speak with conviction i speak
+with passion because i genuinely love this game i really believe that trading is an art and if you
+really just you know view it as an art you will see how beautiful the market actually is it's really
+just a representation of the universe but that's another topic for another day so remember the goal here
+is not to memorize freaking candlestick names or patterns or to like you know be one of those guys
+where you buy like a mouse pad where it has all the candlestick patterns you look like a freaking
+weeaboo when you have that right don't be a geek okay even though i'm the trading gig instead the goal
+here is to understand what price is actually communicating candlesticks help you read the momentum
+the rejection the rejection the indecision the pressure the intent and once you understand that
+the chart becomes much more easier to interpret so yeah to keep things simple every candlestick tells
+a story it shows you where price open where it's going to close where it went to using the wigs how
+high it went how low it went and the candlestick body tells you who is in control of price and the wigs tell you
+where price was rejected and the real edge comes from reading those candlesticks in the right context
+so with that being said i look forward to teaching you guys more of these awesome market
+mechanics concepts and as always remember you're just one trade away

@@ -1,0 +1,314 @@
+excuse me sir but what do you do for a living to afford such an expensive watch
+oh i'm a forex trader yesterday i just turned like five dollars to a million dollars you want
+to join my signal group this is exactly why i hate the forex trading industry bro when people
+ask me what do i do for a living i tell them that i sell apples or i'm a businessman or something
+like that because i genuinely feel embarrassed if i tell them that i'm a forex trader they're
+automatically gonna think that i'm a scammer 100 that's just the sin of this trading industry
+so please for the love of god if you are still in a signal group or you are considering buying signal
+do not waste your time and money right get the hell out of that signal group right now use that money
+to invest in yourself master the skill set of trading and become an independently consistently
+profitable trader because the only person that's getting rich from signals is the person who is
+giving the signals the person who is literally taking your hard-earned money and offering you
+signals that does not work 80 percent of the time that's why in this uncut trading episode i'm gonna
+teach you how to actually backtest your trading strategy so that you can actually prove that your
+strategy works and you have the confidence to execute your trades according to your plan
+without hesitation reservation or fear and you can do it with a lot of confidence you can actually
+trust your analysis because you can't just plug like a random strategy from youtube by one of your
+favorite trading gurus and just expect to make money consistently with that random strategy that
+you found on youtube you need to actually go and test it out right to see whether it actually works
+for you and it suits your lifestyle your personality and your obligation right basically
+does it actually suits you or not does it actually works for you so here's how to backtest
+101 by a guy who sells apples for a living so step one is to go on to trading view and find the
+currency pair that you are trading be it your usd gpsd usd thai bar i don't know sgd thai bar whatever
+exotic pairs that you want to trade go to that particular pair and then click on this bar replay
+to right here and then just close your eyes all right just just just close your eyes close your
+eyes just scroll and just find like a random spot and just click on it right you can see what i've
+done right there okay and most importantly you want to be backtesting on the time frames that you are
+actually planning to trade on right so if you are entering the trades using four hour one hour 15
+minute time frame then you should be backtesting using this particular time frame right so in this
+example i'm gonna show you in the eyes of a scalpel right and excuse my broken english so
+basically i'm actually gonna backtest as a scalpel right so i'm gonna be using the 15 minute time
+frame as my medium time frame to identify my trend direction to mark up my point of interest my supply
+and demand zones my order blocks and then i'm gonna look for my entries on the one minute time frame
+right so first of all looking at this right here you got to like a random point in the market
+like this is really the random point if you don't believe me let me just go back in time again right
+just close my eyes boom right there all right just right there you can see right there oops it didn't
+work okay right there boom there we go all right so random point of price right now let me see if i
+can access the one minute time frame okay perfect i can all right so let me just go and identify the
+overall trend direction first right so we see that price have been in this bearish downtrend right very
+very obvious and then we got price actually breaking past the last low right here right
+breaking past the last low right here making this uh break of structure to the downside right so once
+we got the break of structure to the downside we know that this is our last swing high because this
+is the highest point that led to this break of structure so i can mark this as my 15 minute strong
+swing high right and right now you can see there's a lot of imbalance right here there's a lot of
+selling pressure a lot of supply step into the market at this point of time so we can draw like
+a little supply zone right there or you can even call it order block whatever and if you look towards
+the left hand side what do we have we have a liquidity suit right price went up there came down
+before this longest candlestick week take out the available liquidity that we have on above this
+swing high right here right so giving us our liquidity suit right here so this is a high property zone
+right this is not just an ordinary supply zone this is a supply zone that swept liquidity
+right which means that there is a bunch of institutional action at this point of interest
+right institutional activity i mean so right now knowing that there's so much imbalance in the
+market right here lots of supply we can expect price to actually gravitate towards this point of
+interest and fill up the remaining sell orders right within the supply zone before heading back down
+even further right in that case that is my buyers all right so you can see what i've done is that
+i've just used a 15 minute time frame to identify the trend direction identify my buyers and identify
+the point of interest that i want to be trading from so now all i got to do is just wait for price
+to get to my point of interest right so if this is the live market what i'll do is that i'll place my
+alerts right i'll set an alert on trading view at this price point right here so that trading view can send
+me an alert that price is finally mitigating this supply zone then it can go down to the lower
+time frame the one minute time frame to look for my entry model right so this is our 15 minute swing
+high and i almost forgot to mark up my 15 minute swing low right there right so i'll just mark this
+up right here this is my 15 minute swing low right and this is my 15 minute weak swing low because
+yeah in a downtrend just like this the lower highs are strong because we're expecting them to hold
+right so they can continue this lower high low low dynamic okay so this is the swing range that we
+are playing from right and there's actually another supply zone that we have right here
+right you can see what happened was that price came down pull back and then go down even further
+right and then we know that there's some some of available liquidity above this little swing high
+right here right because this is where most retail traders might enter for or sell like
+right here after price continue and then they place that stop loss above this high right here so we
+know that there's available liquidity above this high right there so now all we got to do is to just
+wait for price to mitigate our point of interest right so at this point of time i don't really know
+which one is price going to respect i'm just going to wait for price to mitigate you know these zones
+show me my entry model then i'll execute my trade right so based on this let's just play this thing
+forward right see okay price has finally tapped into this zone that we have right here now the minute
+price tap into my point of interest at this point of time i'm going down to my lower time frame to
+look for my entry model right so this is where i'll go down to either the one minute or the five
+minute time frame right let's just go down to the five minute first and what i want to see is this
+little internal structure right turn bearish right so that we can continue with the higher time frame
+trend remember what's the objective of price right here right it turned bullish to facilitate the pullback
+right on the 15 minute trend so right here we want to see this little uptrend go away right we want to
+see this uptrend fail and shift in structural and then the lower time frame trend is aligned with the
+higher time frame trend growth is bearish then we can actually look for our shorts if not we cannot look
+for sell yet right so at this point of time looking at a five minute time frame right mapping the internal
+structure we have price actually you know just continuously like creating this little higher highs
+higher lows higher highs higher lows higher highs higher lows so based on this my last internal break
+of structure will be somewhere right around here right we've got internal break of structure to the
+upside and then before price pull back right and actually this will be our last internal low
+right here right and then this led to another break of structure to the upside right there okay so
+we will only get a shift in structure when price break below this internal low right if it does not
+break past the internal low there is no entry model whatsoever because remember what we are trying
+to do here is to ensure that the lower time frames turn bearish right so we want to see that shift in
+structure right so price okay boom right there that could potentially happen right but i want to see
+that clear candlestick close okay right there you can see very very clear right this candlestick did not
+really close below this last low but this one did right price pullback all the way up here to this
+little supply zone that we have within this larger supply zone five minute supply zone tap into it
+mitigate more sell orders and then we just got this huge dump to the downside and right now price has
+officially closed below the last low that we have right here right so that give us our market shift
+this task there's a shift in structural and the lower time frame trend this internal structure is
+shifting bearish to facilitate the continuation of the higher time frame trend which is the 15 minute
+structure right so right now we got our entry model right we got a market shift and right now i'm just
+going to be waiting for price to pull back to this supply right here then i will actually look for my
+entry right there and short it down okay then i'll potentially target this little 15 minute week swing
+low that we have right here right so boom tap into our order right there okay we are tap into the trade
+let's see how this trade play out all right we got a dump okay price is consolidating around here a
+little bit you can see this is when price is coming up there sweeping the available liquidity
+right here right so in this case it's potentially coming up to this extreme zone that we have right
+here okay so let's say in this particular trade right you place a stop loss above this supply zone
+right here and you got stopped out okay no you haven't really got stopped out yet but let's say you got
+stopped out right what do you do next right what do you do next at this point of time this could
+potentially just be price sweeping available liquidity from this highs right there so that
+we can actually go down even further right so at this point of time you got two options you can leave
+it or you can actually look for your entry again right you can look to enter for a sell here again
+now how do you know that this is the last time price is going to sweep liquidity right because price
+could potentially even go up even further and sweep the available liquidity above this highs and above
+this highs as well how do you know you don't know right so that is the dangerous part of like
+you know liquidity right you will never ever know one with 100 certainty that price has finished
+sweeping available liquidity right so at this point of time just get out of this i'm gonna re-evaluate
+the situation okay so right here i see that okay we got a dump right there very very nice right
+clear sign of bearish movement seems like price is actually sweeping the available liquidity above
+these highs this is where you can potentially look for your re-entry right so let's say i enter for
+sell right here now i'm gonna be placing my stop loss above this high right here because this is the
+high that swept liquidity so this is some form of protected high right so there's some form of
+protected high now if i'm scalping i'm only going to be taking profit at the at the next demand zone
+right which will be like somewhere down here right so this will be where i'm planning to take profit
+right there okay so obviously i could have gotten a much better entry on the one minute time frame
+right the minute price available liquidity right here you know you're able to get that that shift
+in structure maybe somewhere right around here and then you can get a much better entry and you
+can just short it all the way down there
+okay but in this case you can see what happened right here price completely blew past this point
+of interest right here right so let's say in this example you are wrong two times okay so this is
+really the reality of backtesting guys i'm just going to show you the complete reality because
+sometimes you're going to lose trades especially when you're backtesting right the point of us doing
+this is to find out what is what actually works so you can do more of what works and what doesn't
+work so you can do less of what doesn't work right so right now based on my plan i've learned that okay
+maybe i shouldn't enter at the near supply zone i should enter at the extreme supply zone that we have
+right here so in the future i'm going to enter on the extreme zone i'm not going to enter on the near
+zone right so that is that right so right now prices finally came up to our extreme supply zone
+this is where we do the same thing we are looking for our entry model right and you can see this was
+just price making a pullback to this last internal low that we have right down here and then right now
+prices came all the way up here okay cool higher highs higher lows higher highs right the bullish momentum
+continues and right now based on this the last low will be right here right so this is the last
+internal low that led to this internal break of structure to the upside and right now prices
+officially also sweep the available liquidity that we have above this highs right so this is a more
+high property setup right so when we are looking at these two zones right here which zone do you think
+is more high property the one that have such a huge amount of imbalance and is swept liquidity
+and is a strong supply zone or the one that is just a supply zone obviously this one right here
+and it's also the extreme zone because this is the last line of defense price have to hold at this
+aerial for price to continue bearish right because if price break past this last lower high then guess
+what we are turning bullish right so this is really the last line of defense so this is the hype of the
+aerial so at this point of time once again we are still waiting for for this like um bullish
+structure to turn bearish then we can actually look for our entry models right so right there
+consolidate a little bit okay right just mark this up this is the next internal break of structure
+right there so this would be the market shift that we have right here okay we got a nice little market
+shift right there and then price did the pullback let's just go back a little bit right let's go back
+right here okay so after we got this market shift right we want to actually enter the trade at a point
+of interest that led to this market shift right so that's a supply zone right here so now let's say
+i want to enter for our sell at this supply zone right that led to this market shift and let's see
+we actually got and tap into the trade or not right nope in this case it is what it is right we miss
+this particular trade setup it is what it is right it's okay so we know that okay this is an internal
+break of structure to the downside okay so this is the entire supply zone that actually led to this
+internal break of structure now we know that price is potentially going to come up here mitigate it
+before going down even further that is when i can potentially place my my sell order at the edge of
+this zone right here and let's see whether we got tapped into the trade or not right so in this case
+okay boom we got tapped into the trade right there right touches the edge of the supply
+go down to the one minute time frame look at the charts a little bit and you can see that price
+is also sweeping the available liquidity that we have above this swing highs right here right except
+available liquidity above the swing highs so making this a very protected high right there so i'll place
+my stop loss above this protected high and on this one minute supply right there and then i'll place
+my take profit potentially at this last low that we have right here okay so this would be
+a very nice trade setup at this demand zone right there
+okay so let's see how this trade plays out
+boom easy this is this is 1 is 30 this actually looks unrealistic okay but let's say that yeah we
+didn't actually enter right here let's say we enter like maybe right here right it makes it a little
+bit more realistic okay 1 is to 10 or 1 is to 12 i don't know 1 is to 12 risk drop ratio that is very
+very good okay so based on the data that we have collected so far right we have already taken
+three trades and then we have lost two and then we have won one right and when we lost two we are
+risking one percent per trade so we have lost we are down like two percent but then since we want
+this third trade right and this is the one is the 12 risk drop ratio we are up about 12 percent
+right so total we are so far we are up about 10 percent right so this is basically how you actually
+backtest and like i said it's very important that you guys actually do this so you can gain the
+confidence since we won one and we have lost two we have an average about 30 percent win rate right
+around an estimated 30 percent win rate so now you might be thinking to yourself wow i'm a genius
+this trading strategy is definitely gonna work since i've just won one out of three trades and i just
+made 10 i'm gonna be rich no that is not how you backtest you need to backtest your strategy
+over the span of 100 trades at least so whatever you have just done so far just do it about 30 more
+times yeah this is actually the reality of backtesting you gotta backtest so that you have a large sample
+size you have a large amount of trades to actually prove that your trading strategy works over the law
+of large numbers now listen you cannot judge your trading strategy based on one trade or based on 10
+trades you have to judge it over the span of the large number of trades right that means yes go and
+backtest a thousand trades not a thousand trades you can do that if you want to be super confident
+but backtest at least a hundred trades right once you backtest a hundred trades then you're able to
+figure out your win rate right out of these hundred trades how many trades do you win how many trades do you
+lose what is your average are right when you lose are you losing one percent or are you losing two
+percent or whatever your trading strategy allows you to lose and then when you win are you making
+five are are you making three on average so that you can actually make back so much more money than you
+have lost and that is how you can actually become consistently profitable so please for the love of god
+go and backtest your trading strategy before you try out on your live account all right welcome to the
+uncut trading episode no pun intended you might be wondering why do i have a butter knife in my hand
+that's because i've just received this beautiful piece in the mailbox today all right so this should be
+the golden play button you know i've been i've been waiting for this movement my entire life
+since the age of 13 i've been waiting for this movement you know back when i was 13 year old i would like
+play uh first person shooter games like csgo and fortnite and then i would literally record the
+videos of me playing games you know hitting sniper shots and i would edit it and upload it onto youtube
+right so it's always been my dream to hit a million subscribers on youtube and yeah it's finally here
+the movement is finally here right let me just open this up real quick yeah
+hmm asmr little bit asmr right there yeah oh my god jesus christ jesus christ oh my godness this is
+this is crazy give me the letter that man the ceo wrote for me what the hell is that okay nice
+all right get the hell out of here so this is the golden play button
+look at this look at this look at this i did it guys i did it chat i did it
+oh my god i did it
+bro look at this thing this is crazy this is actually crazy bro for so long i've been
+visualizing about this you guys have absolutely no idea since the day i started the trading gig
+i wrote down the goal right i want to revolutionize the trading industry i want to clean the dirty
+trading industry that is filled with scams and filled with stupid gurus by providing free education
+right and for so long it was on my vision board right you can see this right here
+it was on my vision board and i visualized myself hitting a million subscribers every single day for
+the past three years since i started the trading gig right all i am is just an ordinary kid
+who came from absolutely nothing decided to pick up uh iphone 7 right that was like like the first
+phone that i actually used to record my videos on the trading gig
+and just decided to document my entire trading journey the good the bad the ugly the reality of
+trading and you guys were just part of this journey and i'm very very happy i'm very honored to have
+you guys here right so yeah this one is for you guys right i love each and every one of you guys out
+there you guys have absolutely no clue how much this means to me like literally for the past two years
+when i'm in the military it was so difficult for me to upload consistently on youtube upload every
+single week without fail but i still did it because i know that i have to do it for you guys right because
+whatever videos that i'm making on this channel it's literally advice for my younger self i wanted to be
+the mentor that i did not had when i started that is why i make all these amazing youtube videos and give you
+guys all this education for completely free because i just want to help you guys succeed you
+know i just want to make the world a better place right so let me just read out what was on this note
+which i'm pretty sure this guy actually like copy and pasted this and sent it to like every single
+person who made a million subscribers you did it one mission one channel and one more thing
+one million subscribers congratulations you may have started with just a few viewers true true i
+started with less than 100 viewers no less than 10 views on on my first video which is crazy but your
+voice passion and creativity have now touched the lives of people all around the world and the
+community you have built is enriched by the stories you have shared as you bring people together
+to honor this milestone we are proud to present you with the gold creator award we hope this special
+recognition will remind you how much you mean to so many every day you are redefining how content is
+created and watched one voice and one video at a time one trade away boys it's a privilege to be a
+part of your journey and we can't wait to see what you do next you're sincerely new mohan youtube ceo
+this one's for you guys no this one's for the team right i gotta get this for my team as well
+right so yeah we did it a million subs in three years the fastest growing trading youtuber to ever
+exist in history it's me right i literally live streamed like two years ago or one to two years ago
+right let me just like put up the clip right right here where do you see yourself a year later with this
+channel and discord i see myself dominating this industry i have just began my conquest for this
+trading industry i'm very very excited this is only the phase 0.5 we still have phase one to go
+phase two phase three phase four and phase five we will be taking over this trading industry you guys
+must understand that is has literally never been a guy like me in this industry i'm not trying to be
+cocky or what but there has never been a trader like me in this industry on youtube a lot of traders
+are either boring af not funny not entertaining or they are not educational they just show you their
+big mansion their cars their cash in their hands and all that stuff they are not educational they don't
+teach you their trading strategy they just ask you to buy their course so 100 i see myself taking over this
+industry i see myself to becoming a leader of this trading industry i see the trading tribe becoming
+the biggest trading community in the world a lot of people are thinking small in my industry they think
+that oh i want to be the best in singapore no i'm trying to be the best in the world there's a very
+difference you can literally see in the exact clip i had so much confidence in myself because i know that
+whatever my mind can conceive i can achieve whether that is youtube whether that is trading whether
+that is business whatever my goals are they are just a manifestation of the person that i become
+right so what i mean is that when i started the trading gig i was an average guy who is a little bit
+disciplined but i was still a little bit of a loser right did not have any mental resilience or perseverance
+right i was a little bit childish and immature right that is why i would do a lot of stupid
+shit when i at the start of the trading uh videos like the uncut trading the unfiltered trading episodes
+and now i've grown all right i've grown i've grown maybe not like vertically but i've grown
+so yeah guys let this be a motivation right let this go play button let that silver play button
+be a motivation for you guys to go out there and pursue your dreams and goals right you only have this
+one precious life why waste it doing something that you hate why waste 80 percent of your life
+working for a boss that you don't like why waste it you know like living an unfulfilling and depressing
+life go out there and do what you love and make money doing what you love i'm genuinely living my dream
+life right now because i've worked extremely hard for this i've worked my butt off for this
+and if i were to go back in time i would not change a single thing right all these trials and
+tribulations all these challenges and obstacles that i have to overcome build me into who i am today
+right so please if you want to do something with your life you want to do something great something
+extraordinary go and do it right don't let other people's opinions stop you other people's opinions are
+not gonna buy you your posh nobody is going to hand you anything right because you are the master of
+your own fate you decide the life that you want to live whether that is working a nine-to-five that you hate
+or you know trading providing your family with a better quality of life and have the freedom to be able to
+spend as much time as possible with your kids or your parents or just be able to walk into any stall
+and buy them anything they want you have the power to do so you have the power to change the fates of
+not just your life but also your families as i'm holding this golden play button i genuinely hope that i
+can be the inspiration i can be the role model for you to actually you know go and accomplish whatever
+you're trying to accomplish in life and the road will not be easy it will be extremely difficult
+right i had to sacrifice a lot of things to get to where i am today i have to sacrifice friends i have
+to sacrifice my love life right because i remember like when i started the trading gig when i started
+trading i had this beautiful girlfriend right she's everything i ever asked for but i was deciding right
+whether i should spend time with her or work on my business and i realized that i couldn't have both
+so i had to you know break up with her because i wanted to focus on my business focus on my training
+so that i can actually retire my dad and then i just decided okay that was the thing that is most
+important to me right now so i prioritize that right and yeah coming up to like where i am right now
+there are so many things that i sacrificed that you guys have no idea but i sacrificed my teenage years
+i sacrificed the times where you know my friends will ask me to hang out but i didn't because i was
+busy working on myself i was busy learning how to trade starting all these trading courses
+and then on the weekends doing the military i could easily just chew because i have a long week of
+training ahead and i've just came back from the jungle after like five days in there i could just
+chill but i choose to do something i choose to make these videos for you guys to help you guys out
+because i know that wherever you guys are trying to go right now i've done it for myself and i want
+to help you get there and i want to help you go further than where i got so yeah it's not going
+to be easy you're going to sacrifice a lot a lot of things but at the same time if you don't sacrifice
+for what you want what you want becomes the sacrifice so this question really comes down to
+would you rather suffer the pain of discipline or the pain of regret and i would much rather choose
+the pain of discipline because the pain of discipline weigh pounds right and the pain of regret weigh tons
+i don't want to be on my deathbed looking back at who i am and realizing that i could have been so
+much more than what i'm capable of and i did not try right yeah so live life with no regrets guys
+so yeah guys go out there and pursue your dreams and goals and sacrifice the things that you need
+to sacrifice anything that will not get you closer to your goals i'm sorry there is no trading psychology
+lecture during this uncut trading episode because i'm just too excited right now i'll probably do another
+one like next week or something but yeah i'll just continue to work hard i'm just gonna continue
+providing extreme amounts of value continue creating this awesome high quality trading videos
+for you guys and help you guys get to where you want to go right that is my promise to you this is
+the start of me concurring the trading industry mark my words when i say that i am gonna become the
+greatest trading educational the hell am i saying mark my words when i say that i'm gonna become the
+best trading leader in this industry i'm gonna create the best trading education company out there
+which is one percent club i've actually already created it but yeah i'm gonna do my best to transform
+your life so hit that subscribe button because we're gonna get to 5 million subscribers i want
+like i want like the diamond play button if that's even possible anything is possible all right so
+yeah and as always remember you're just one trade away and in this case you're just one video away

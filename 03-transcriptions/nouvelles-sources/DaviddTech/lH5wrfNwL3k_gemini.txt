@@ -1,0 +1,58 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: lH5wrfNwL3k.mp4]
+---
+[VISUEL: Graphique montrant deux courbes de rendement financier sur un an. La courbe bleue, "Copy McCaul's trades", part de 50A_VERIFIER 000A_VERIFIER $ et atteint 67A_VERIFIER 400A_VERIFIER $, soit un rendement de +34,8A_VERIFIER %. La courbe en pointillés gris, "S&P 500A_VERIFIER buy & hold", part également de 50A_VERIFIER 000A_VERIFIER $ et atteint 57A_VERIFIER 750A_VERIFIER $, soit un rendement de +15,5A_VERIFIER %. Un encadré vert indique "Extra profit vs S&P: +9,650A_VERIFIER, 2.A_VERIFIER2x the S&P return". Le présentateur est en bas à droite de l'écran.]
+Claude a juste changé la façon dont nous tradons les actions pour toujours.
+
+[VISUEL: Un graphique en grille avec de petits points bleus à gauche étiquetés "Regular traders $500A_VERIFIER - $10K" et un grand cercle bleu à droite étiqueté "$50M single trade" et "Whale Research teams, private data". Une étoile rouge est au centre. Le texte en bas dit "They didn't flip a coin. They know something."]
+Et c'est à cause de cette nouvelle compétence qui lui permet d'accéder aux données du marché en direct.
+
+[VISUEL: Le graphique de rendement est en arrière-plan. Au premier plan, un écran d'ordinateur affiche un tableau de bord sombre avec le titre "CAPITOL TRADES". Il y a des listes de "LATEST TRADES" et "FEATURED POLITICIANS" avec des noms comme "Michael McCaul", "Warren Davidson", "Tim Moore". Des graphiques à barres et des chiffres sont visibles. Une icône de cerveau avec une étoile est superposée au centre.]
+Suivre ce que les "baleines" de Wall Street et les politiciens américains achètent.
+
+[VISUEL: Un autre tableau de bord sombre avec le titre "QUIVER QUANTITATIVE". Il affiche des "Featured Datasets" comme "Congress Trading" avec des achats de David McCormick. Des "Hot Strategies" sont également listées. Le présentateur est en bas à droite.]
+Et utiliser toutes ces informations pour jouer en bourse automatiquement.
+
+[VISUEL: Un tableau de bord de trading clair avec le titre "Paper Trading". Il montre un portefeuille de 1A_VERIFIER 000A_VERIFIER 000A_VERIFIER $ en "Paper Trading". Des positions et des ordres récents sont listés, notamment des achats de TSLA. Des "API Keys" sont visibles en bas à droite. Le présentateur est en bas à droite.]
+J'utilise ça depuis quelques semaines et ça a complètement changé ma façon de penser au trading.
+
+[VISUEL: Le présentateur est face caméra, gesticulant avec ses mains.]
+Alors, dans cette vidéo, je vais vous expliquer comment vous pouvez commencer en trois niveaux.
+
+[VISUEL: Un graphique en grille blanc. Un cercle bleu avec le chiffre "1A_VERIFIER" apparaît, puis "2A_VERIFIER", puis un troisième cercle vide. Le présentateur est en bas à droite.]
+Donc, d'abord, nous allons nous installer.
+
+[VISUEL: Le cercle "1A_VERIFIER" est maintenant à gauche avec le texte "Setup". Une fenêtre pop-up affiche un graphique de prix avec des points d'achat et de vente, et des niveaux de stop loss. Le présentateur est en bas à droite.]
+Je vais vous guider à travers les bases du fonctionnement du trading.
+
+[VISUEL: La fenêtre pop-up change pour afficher un écran de connexion à un compte de trading. Le présentateur est en bas à droite.]
+Et nous allons configurer Claude et toute la technologie.
+
+[VISUEL: Le cercle "2A_VERIFIER" est maintenant à gauche avec le texte "Building a copy trading bot". Une fenêtre pop-up affiche un tableau de bord de trading sombre avec des listes de transactions. Le présentateur est en bas à droite.]
+Ensuite, nous allons construire un bot de copy trading. Je vais vous montrer comment suivre ce que les "baleines" de Wall Street et les politiciens américains achètent.
+
+[VISUEL: La fenêtre pop-up change pour afficher un écran de code avec des données tabulaires. Le présentateur est en bas à droite.]
+Et faire en sorte que Claude copie leurs mouvements exacts automatiquement.
+
+[VISUEL: Le cercle "3A_VERIFIER" est maintenant à gauche avec le texte "Options". Une fenêtre pop-up affiche un diagramme de flux comparant l'assurance automobile et les options boursières. Le présentateur est en bas à droite.]
+Et au niveau 3, nous allons nous intéresser aux options. Je vais vous expliquer ce que c'est, comment ça marche.
+
+[VISUEL: La fenêtre pop-up change pour afficher un graphique de profit/perte pour une option d'achat. Le présentateur est en bas à droite.]
+Et ensuite, nous allons construire un bot qui exécute l'une des stratégies de revenu les plus cohérentes en trading.
+
+[VISUEL: La fenêtre pop-up change pour afficher un diagramme circulaire divisé en quatre sections (Sell put, Get assigned, Sell call, Called away) avec des explications textuelles. Le présentateur est en bas à droite.]
+Appelée la stratégie de la roue.
+
+[VISUEL: Le présentateur est face caméra, gesticulant avec ses mains.]
+Et même si vous n'avez jamais acheté une seule action auparavant, ou si vous n'avez aucune formation technique, vous pourrez le faire. Parce que tout ce que nous allons faire, c'est simplement parler à Claude. Allons-y.
+
+[VISUEL: Le texte "Why this matters?" apparaît sur un fond blanc quadrillé. Le présentateur est en bas à droite.]
+[AUDIO: Bruit de transition]
+
+[VISUEL: Le présentateur est face caméra, gesticulant avec ses mains.]
+Ok, avant de commencer quoi que ce soit, je dois vous donner un peu de contexte sur pourquoi je fais cette vidéo et pourquoi c'est important.
+
+[VISUEL: Une image pixelisée d'un homme en costume travaillant sur plusieurs écrans

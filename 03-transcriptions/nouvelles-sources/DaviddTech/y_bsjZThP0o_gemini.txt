@@ -1,0 +1,51 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: y_bsjZThP0o.mp4]
+---
+[VISUEL: Un jeune homme asiatique, portant une veste zippée grise, parle directement à la caméra. Derrière lui, à gauche, se trouve une étagère avec des livres et une casquette de baseball noire avec le logo "LA". À droite, il y a trois tableaux abstraits encadrés, représentant des formes montagneuses dans des tons bleu/gris. Un support de microphone est devant lui. Il utilise des gestes de la main.]
+"In today's video, I'm going to show you how you can build a fully automated trading bot from scratch using Claude code."
+
+[VISUEL: Enregistrement d'écran d'un tableau de bord à thème sombre intitulé "AUTOMATIC TRADING BOT".
+En haut à gauche : "DETECTED REGIME: NEUTRAL (100A_VERIFIER% CONFIDENCE | MODERATE (66A_VERIFIER%))".
+En haut au milieu : "PORTFOLIO VALUE: $100,005A_VERIFIER.86A_VERIFIER", "BUYING POWER: $199,82A_VERIFIER...", "HMM REGIMES: 5A_VERIFIER", "MARKET: CLOSED", "POSITIONS: 1A_VERIFIER".
+En dessous, un graphique en chandeliers pour SPY, avec des bougies vertes et rouges, et une ligne orange en pointillés (probablement une moyenne mobile). L'arrière-plan présente des bandes verticales colorées (vert, rouge, jaune, violet) indiquant différents régimes.
+Le graphique défile pour montrer plus de données.
+Sous le graphique : Barres de volume (vert/rouge).
+En dessous, trois graphiques plus petits : "REGIME CONFIDENCE OVER TIME" (nuage de points), "REGIME DISTRIBUTION" (diagramme circulaire montrant "BULL 37.7A_VERIFIER%", "NEUTRAL 27.8A_VERIFIER%", "BEAR 17.9A_VERIFIER%", "CRASH 16.6A_VERIFIER%"), et "TRANSITION MATRIX" (tableau de type carte thermique).
+En dessous, deux tableaux : "HMM LEARNED REGIMES" (affichant Régime, E[Ret], Allocation, Stratégie, par exemple, CRASH -0.258 1.10 30% DEFENSIVE) et "RISK CONTROLS" (Contrôle, Actuel, Limite, par exemple, Daily DD 0.00% 3.00%).
+Tableau de droite : "SIGNAL FEED" (Date, Symbole, Action, Régime, Confiance, Allocation, Levier). Ce tableau défile, montrant des entrées comme "2024-06-09 SPY LONG EUPHORIA 100% 95% 1.0x".
+Barre inférieure : SPY, QQQ, AAPL, MSFT, NVDA avec les prix et les changements quotidiens.]
+"So it will first detect the type of market we're in, adjust your portfolio allocations automatically, and even places real trades for you."
+
+[VISUEL: Le même homme parlant à la caméra, gesticulant des deux mains.]
+"We're not going to be building some basic indicator bot that just buys when RSI crosses above 30, like what you would typically see on TradingView."
+
+[VISUEL: Enregistrement d'écran de TradingView. Une disposition multi-graphiques est affichée.
+En haut à gauche : Graphique Apple Inc. (AAPL) avec profil de volume.
+En haut à droite : Graphique Netflix Inc. (NFLX) avec bandes de Bollinger.
+En bas à gauche : Graphique Bitcoin (BTCUSD) avec plusieurs indicateurs (probablement moyennes mobiles, RSI, etc.).
+En bas à droite : Graphique Coca-Cola Company (KO) avec volume.
+Le graphique Bitcoin est mis en évidence, montrant le RSI croisant 30A_VERIFIER.]
+"like what you would typically see on TradingView."
+
+[VISUEL: Le même homme parlant, gesticulant.
+Ensuite, enregistrement d'écran du tableau de bord de trading papier d'Alpaca Markets.
+Barre latérale gauche : Accueil, Compte, Alpaca Connect, Plans & Fonctionnalités, API, Communauté, Support, Légal.
+Section principale : "Balances" (Pouvoir d'achat, Liquidités, Changement quotidien), "Top Positions" (NVDA, SPY avec Prix, Qté, Valeur de marché, P/L total).
+Tableau "Recent Orders", montrant plusieurs ordres SPY (achat, vente, limite, stop, annulé, exécuté).
+Barre latérale droite : "Market Price", "Quantity", "Order Type", "Choose how to buy", "Time in Force", "Estimated Cost", "Review Order".
+En dessous : Section "API Keys" avec Endpoint, Key, Secret. La clé et le secret sont partiellement visibles.]
+"Instead, we're going to be building an actual system that first connects to a real brokerage so that you can automatically place trades. Second, it'll manage your risks with circuit breakers. And then finally, it can even adapt to changing market conditions automatically."
+
+[VISUEL: Tableau blanc avec un organigramme intitulé "Automatic Trading Bot Start To Finish Complete Guide".
+Boîtes : "Brain" -> "Allocation" -> "Safety" -> "Broker" -> "Dashboard".
+Détails "Brain" : "Hidden Markov Models", "Classifies market", "Crash, Bear, Neutral, Bull, Euphoria".
+Détails "Allocation" : "Adjust how much of portfolio is invested", "Calm markets vs turbulent markets".
+Détails "Safety" : "Circuit breakers if losses hit certain levels", "Work independently of AI model".
+Détails "Broker" : "Alpaca (Free API)", "IBKR (Paid high volume)".
+Détails "Dashboard" : "See trades and insights in real time", "Understand everything that's happening for adjustments".]
+"And we're going to be doing this without writing any of the code ourselves."
+
+[VISUEL: Enregistrement d'écran d'un tableau de bord à thème sombre

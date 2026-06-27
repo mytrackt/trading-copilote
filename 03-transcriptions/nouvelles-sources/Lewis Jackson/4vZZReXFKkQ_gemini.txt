@@ -1,0 +1,60 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: 4vZZReXFKkQ.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+Je dois transcrire cette vidéo, mais il semble y avoir une confusion. La vidéo fournie n'est pas une vidéo de Mustapha Belkhayate sur le trading financier. Le locuteur parle anglais et présente un outil appelé "Claude Code" avec des agents IA dans un terminal. Par conséquent, les règles spécifiques concernant les indicateurs de trading et les marchés ne peuvent pas être appliquées. Je vais transcrire l'audio en anglais et le traduire en français, et décrire les éléments visuels pertinents de l'interface "Claude Code" comme demandé.
+
+[VISUEL: L'écran affiche un terminal avec l'interface "Claude Code V2.1.140A_VERIFIER" et "Opus 4.7A_VERIFIER". Il y a trois sections principales : "Needs Input" (Besoin d'entrée), "Working" (En cours), et "Completed" (Terminé). Chaque section liste des tâches avec des chemins de fichiers, des commandes Bash et des durées. Le locuteur, un homme, est visible dans le coin inférieur droit de l'écran.]
+Ce que vous voyez à l'écran en ce moment, ce sont huit agents IA dans le terminal, tous travaillant en parallèle pour atteindre mes objectifs de trading. Nous avons un backtester, un chercheur, un quant, un constructeur de stratégies, et ils effectuent tous des tâches spécifiques. Et ils le font au sein d'une seule vue sur le terminal. Cette vue est incroyable car je peux maintenant, avec mes touches fléchées uniquement, naviguer entre tous ces différents agents et voir les tâches qu'ils effectuent.
+
+[VISUEL: Le locuteur utilise les touches fléchées pour naviguer dans la section "Needs Input". La tâche "backtest.py parameter sweep" est mise en surbrillance.]
+Vous pouvez voir qu'actuellement, il y a des agents qui effectuent des tâches qui sont terminées. Celles-ci sont en cours de travail, et celles-ci nécessitent une entrée de ma part. Je vais juste expliquer comment l'utiliser ici. Vous pouvez l'utiliser pour n'importe quelle application que vous voulez, mais pour le trading, cela transforme en quelque sorte Claude Code dans votre terminal en une sorte de hub de délégation. C'est assez incroyable si vous voulez construire des stratégies étonnantes et tout voir d'un point de vue aérien.
+
+[VISUEL: La tâche "backtest.py parameter sweep" est toujours en surbrillance. Le locuteur continue de naviguer avec les touches fléchées.]
+Donc, il n'y a rien de vraiment difficile à ce sujet, n'est-ce pas ? J'ai mis une invite dans ma communauté 01. Vous pouvez prendre cette invite et faire exactement ce que j'ai fait à l'écran ici sur votre propre ordinateur juste pour voir comment cela fonctionne et l'utiliser, mais vous pouvez l'appliquer à presque n'importe quoi. La clé est que vous dites à Claude que vous voulez qu'il fasse quelque chose avec la "vue agent".
+
+[VISUEL: La tâche "Build a Pine..." est mise en surbrillance dans la section "Needs Input".]
+Assurez-vous donc de lui dire "vue agent" quelque part dans l'invite, et c'est ce qui sera produit. Donc, si je veux monter et descendre, je peux utiliser mes touches fléchées. Je peux voir ce qui est en cours de travail ici.
+
+[VISUEL: Le locuteur clique sur la tâche "Research momentum tradin..." dans la section "Working". L'écran passe à une vue détaillée de cette tâche, montrant plusieurs requêtes "Web Search" et une question "Do you want to proceed?".]
+Tout ce que j'ai à faire, c'est que je peux soit utiliser ma souris et cliquer dessus, et il dit ici : "Voulez-vous continuer ?" Allons-y, oui. J'ai donc délégué à celui-ci.
+
+[VISUEL: Le locuteur tape "2A_VERIFIER" pour "Yes, and don't ask again for Web Search commands in /Users/lewisjackson/agent-view-demo/.claude/worktrees/momentum-review/". Les recherches web sont lancées et les résultats sont affichés. Le locuteur utilise ensuite la flèche gauche pour revenir à la vue d'ensemble.]
+Et pour revenir, j'utilise juste la touche fléchée vers la gauche et cela me ramène à cette partie. Et je peux voir, je monte avec la touche fléchée vers le haut.
+
+[VISUEL: Le locuteur navigue vers la tâche "Build a Pine..." dans la section "Needs Input". Il clique sur la flèche droite pour entrer dans la tâche. L'écran affiche une description de la stratégie Pine Script V5 et une commande Bash pour créer un répertoire, suivie de "Do you want to proceed?".]
+Il dit qu'il construit un Pine quelque chose. Il a besoin de mon entrée, donc je vais cliquer sur la touche fléchée droite pour entrer dans cet agent. Je peux voir qu'il veut que je clique sur "procéder". Oui.
+
+[VISUEL: Le locuteur tape "2A_VERIFIER" pour "Yes, and always allow remote from this project". La commande Bash s'exécute. Le locuteur utilise la flèche gauche pour revenir à la vue d'ensemble.]
+Je clique juste sur la gauche à nouveau, je descends.
+
+[VISUEL: Le locuteur navigue vers la tâche "analyze trading performance by setup" dans la section "Needs Input". Il clique sur la flèche droite pour entrer dans la tâche. L'écran affiche un tableau d'analyse de performance avec des colonnes comme "setup", "n", "win%", "avg W", "avg L", "expectancy", "total". La ligne "pullback" a une "expectancy" négative. Une question "Want me to write a summary file?" est posée.]
+Je peux juste parcourir tout cela et dire, ok, cela a besoin de mon entrée. Voulez-vous que je l'écrive ? Je dis juste oui.
+
+[VISUEL: Le locuteur tape "yes". Le système "Puzzling..." puis "Brewed for 10s". Le locuteur utilise la flèche gauche pour revenir à la vue d'ensemble.]
+Je peux revenir. Je peux voir les autres tâches qui sont en cours de travail. Que veut-il que je fasse ? Je peux dire oui.
+
+[VISUEL: Le locuteur tape "yes". Le système "Gesticulating...". Le locuteur utilise la flèche gauche pour revenir à la vue d'ensemble.]
+Je peux juste revenir. Et j'ai ce système de délégation, cette sorte de vue pour interagir avec chaque agent et chaque tâche que chaque agent effectue. Je pense que si vous êtes quelqu'un qui construit avec plusieurs agents à la fois, et que ces tâches doivent être effectuées en parallèle, alors c'est une mise à niveau vraiment incroyable.
+
+[VISUEL: Le locuteur navigue vers la tâche "Build a Pine..." dans la section "Needs Input".]
+J'ai créé quelque chose de similaire pour moi-même manuellement en utilisant Tmux et Cmux et toutes sortes de choses. C'est maintenant une solution native dans Claude Code à ce problème. Donc, si vous construisez des stratégies de trading et que vous faites beaucoup de recherches, et que vous voulez savoir et avoir une vue de ce que tout le monde fait en même temps, eh bien, c'est la façon de le faire.
+
+[VISUEL: La tâche "Build a Pine..." est toujours en surbrillance. Le locuteur continue de parler.]
+Je n'ai pas besoin de continuer encore et encore. Je pense que vous comprenez tous. C'est super facile à utiliser. Je ne sais pas quoi dire de plus. Je vais certainement utiliser la vue agent pour pratiquement tous mes flux de travail à l'avenir qui ont plusieurs agents. Cela me fait aussi me demander, quand j'ai fait cette vidéo sur le fait d'avoir 32 agents de firme de trading IA opérant pour moi tout le temps...
+
+[VISUEL: Une superposition d'un tableau de bord web apparaît brièvement, montrant une interface avec "AGENTS", "CEO", "Backtest Agent", "Cost Optimizer", "Execution Agent", "Research Agent", "Risk Management Agent". Il y a des graphiques d'activité et des "Issues".]
+...cela me fait penser, vous savez, cela a nécessité toute une construction d'un outil appelé Paperclip. Eh bien, nous pouvons en grande partie, à un niveau très basique, faire tout cela ici. Nous pourrions avoir un nombre infini d'agents qui se lancent et effectuent des tâches ici. Et notre travail devient simplement un, vous savez, cette chose a besoin d'une entrée.
+
+[VISUEL: Le locuteur revient à la vue d'ensemble du terminal. La tâche "Research momentum tradin..." est en cours. Le locuteur clique sur la flèche droite pour entrer dans la tâche. L'écran affiche des recherches web terminées et une commande Bash pour créer un répertoire de recherche, suivie de "Do you want to proceed?".]
+Et je devrai juste venir et dire, oui, c'est bon, fais ça. Et puis revenir.
+
+[VISUEL: Le locuteur tape "1A_VERIFIER" pour "Yes". La commande Bash s'exécute. Le locuteur utilise la flèche gauche pour revenir à la vue d'ensemble. La tâche "delete this project" est mise en surbrillance dans la section "Needs Input". Le locuteur clique sur la flèche droite pour entrer dans la tâche. L'écran affiche un message d'erreur "I don't have context on which project you mean..." et une question "which project to delete (name from the routing table, e.g. "confirmd", "william", "wacko-alp"), and what scope - local dir only, Railway service only, or both?".]
+Et, vous savez, j'approuve juste des choses à ce stade. J'imagine que vous pourriez même construire un agent capable de lire ceci et d'approuver des choses pour vous, ou si vous installiez dans chaque agent le paramètre "dangerously skip permissions", où il approuve essentiellement beaucoup de choses et n'a pas besoin de votre approbation, alors cette liste de "Needs Input" diminue considérablement.
+
+[VISUEL: Le locuteur revient à la vue d'ensemble du terminal. La tâche "Build a Python..." est mise en surbrillance.]
+Alors, allez-y, construisez des stratégies sympas avec ça et faites-moi savoir ce que vous construisez. C'est une autre fonctionnalité sympa. Et je mettrai une invite à copier-coller pour vous en haut de la description. Et je vous verrai plus tard.

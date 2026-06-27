@@ -1,0 +1,434 @@
+So a lot of you guys have been asking me what are the moving averages that I use,
+what indicators do I use, and what are their settings.
+So in this video, I'm going to review it all.
+I'm going to show you guys everything there is to know about the moving average that I use.
+This is my own personal strategy, and I can't believe I'm going to give it away for free.
+So watch till the end of this video, and I can guarantee you,
+you will be able to understand where to enter for a buy, where to enter for a sell,
+so that you can get a sniper entry.
+Let's go.
+So how you can set up the moving averages that I use is by going to this indicator step right here,
+and then just click on moving average exponential.
+Click on this one right here, and then you add two of them,
+and then change one of it to 8, and one of them to 14.
+So one length is 14, the other one is 8, and you can change the color to whatever you want.
+I just use the blue and red, alright.
+And also, a lot of you have been asking me what is the indicator that I use.
+I have tried Bollinger Bands, RSI, MACD, basically all the indicators that you have
+think of, I've tried them.
+But I found that the moving average works best for me,
+because I like that it is so clean on my charts.
+Like, look at this.
+It is so clean.
+It's not even messy.
+And number two, it's just so simple to use, you know what I'm saying?
+So I'm going to show you how to use it right now.
+And the reason why I don't use a lot of indicators is because
+I want to focus on price action, because all indicators lack.
+But you know what does not lack?
+Price action.
+So basically, when the blue line is above the red line, just like this,
+this means price is in the uptrend.
+So we should only be looking to buy, because we want to trade with the trend.
+And then when the red line is above the blue line, like this,
+this means that right now we are in a downtrend, and we should only be looking to sell.
+So when the red line crosses over the blue line, immediately, just like this,
+we want to enter for a sell position.
+And then when the blue line crosses over the red line,
+this is when we want to enter for a buy position immediately.
+So this is what we call the moving average cross over share G.
+Yup, it's really just as simple as that.
+Wait, but wait.
+If it's so simple, that means every single trader should be driving Lamborghini everywhere, right?
+But that's not the truth, because it's not that simple, alright?
+Because most of the time, when the moving average cross over,
+it's actually a fake out.
+So how do you actually do this, man?
+Don't worry, I got you.
+That's why I always say that you cannot enter immediately when you only have one confluence.
+You need multiple confluences, because they all add up together
+to help you determine whether you should go in for a buy or a sell.
+So in this case right here, you can see like the moving average,
+the red line has been above the blue line for quite some time, right?
+Because it's in a very clear downtrend, and price is making lower highs, lower lows.
+So obviously, this is a downtrend.
+But you can see when price approach this support level that we have drawn,
+this major support area, this is like a little entire area right here.
+This is a very, very strong support area.
+So as price approaches this area,
+you will definitely start to see like some sellers start to go away,
+because some buyers is going to be waiting at this exact level to enter for a buy position.
+So you can see as price approaches this level,
+the candlesticks are getting smaller and smaller and smaller and smaller.
+This shows us that the price is losing momentum,
+and price is losing steam.
+And right here, guys, right here,
+this is when you see the blue line starts to cross over the red line.
+Holy shit, boys.
+The blue line have started to cross over the red line.
+So at first, it was still the red line above the blue line.
+But right here, blue above red.
+Guess what, guys?
+This right here is our opportunity.
+Opportunity.
+Opportunity.
+Oh my god.
+Opportunity.
+So this right here, we can enter for a buy position right here.
+But remember I said,
+you cannot just enter immediately when the moving average cross over.
+You need multiple confluences.
+And I always tell you guys to look for at least three confluences
+before you enter for the trade.
+So right now, the first confluence is this moving average cross over.
+Second confluence is this support area, right?
+This is a very strong support area.
+And there is bias in this area.
+The third confluence is obviously the bullish engulfing candlestick right here.
+This is a big fat green candlestick.
+And chances are, if you see this big ass green candlestick at the support area,
+guess what?
+Price is about to reverse and go to the fucking moon, baby.
+So this is when we enter for our buy position.
+And the right here, place our stop loss below this support area right here.
+And then we can place our take profit at the next key level.
+So if you zoom out, you see like the next key level may be somewhere right around here.
+There's another key level right here.
+This is a very strong resistance area.
+You can put it right here or even right here.
+I'll just put it way up here.
+And with that said, we are on the one hour time frame right now.
+And I always enter on the 15 minute time frame to get my sniper entry.
+So if you go down to the 15 minute time frame, you will see, holy shit,
+the moving average has crossed over right here, guys.
+This right here.
+This is when the moving average has crossed over.
+Not all the way up here, but all the way down here.
+So if you enter for the 15 minute time frame,
+you could have gotten like a sniper entry right here with your three confluences.
+Moving average crossed over, support area,
+and also some sort of like candlestick, bullish engulfing candlestick right here.
+Enter for buy there.
+Place our stop loss below the support.
+And your first take profit can be at this resistance area right here that we have drawn.
+Or it can be at a second resistance area,
+which is a much stronger resistance area right here.
+I'll place it just right there.
+And let's see how this trade plays out.
+Okay, this is going to take ages to go there.
+Come on, come on.
+This is on the 15 minute time frame, right?
+This is why I placed my first take profit right here, guys.
+Because on the 15 minute time frame,
+and if this is the intraday trade,
+you will have smashed your take profit within a day right here.
+Like this is the first take profit, right?
+If you place it right here,
+your first take profit,
+you will have closed this trade and gone out of this trade.
+But if you are like more of a swing trader,
+you want to catch more pips,
+you will place it right here.
+And we just wait.
+Just be patient, be patient.
+Now this is a really, really strong, long swing trade.
+And bam!
+There we go.
+There we go.
+There we go, boys.
+Took a while.
+Took a while.
+It took maybe one week for us to reach there.
+But yeah, this is highly suitable for you if you are swing trading.
+But if you are not,
+if you are intraday trading and you enter the 15 minute time frame,
+you might want to just place your take profit right here
+at like the most recent resistance area.
+But if you are swing trading and you don't mind holding the trade for weeks
+or days or months even,
+you can just put a trade up at the next major key level.
+I'm going to show you another example right now.
+So you can see there's like a little support area right here.
+And also like a very strong resistance area right here.
+And price has did this major downtrend.
+And now it starts retracing, right?
+So it could be creating a new lower high.
+How do we know price is done retracing?
+We wait for the moving average to cross over.
+So right now we still wait.
+We do not enter right here yet.
+And right here you can start to see like price might be crossing down.
+So in this case,
+we can even draw like a little trend line right here.
+Okay, draw like a little trend line right here.
+And you can see right here,
+this is when like the red line,
+I mean the blue line has crossed over the red line.
+You can see at first it's all red line above the blue line.
+This means it's a downtrend.
+And then the blue line starts crossing over the red line.
+This means this is a retracement.
+And now we want to wait for the red line to cross over the blue line again.
+And holy hell,
+that is a mouthful.
+That is a mouthful of words.
+So yeah,
+right now we just wait for the red line to cross over the blue line.
+I feel like I'm watching like a game right now.
+I'm like freaking like cheering for my trade.
+What the hell?
+So we just wait,
+we just wait.
+Okay,
+you can see right here,
+this is when price broke through the trend line.
+Price broke through the trend line right here.
+And the moving average has already crossed over.
+That is already two confluence.
+And your third confluence could be a candlestick pattern.
+You can see this is a bearish engulfing candlestick.
+Big fat red candlestick.
+Another big fat red candlestick.
+How do we know this is the bearish engulfing candlestick?
+You compare this candlestick right here with the previous candlesticks,
+which is small,
+small,
+small,
+big fat red candlestick.
+There's obviously a bearish engulfing candlestick.
+Three confluence,
+we can enter for ourselves right here.
+And then we place our stop loss at the last swing high,
+which is right here.
+This is the last swing high.
+Place our take profit at this support area that we have drawn.
+And now let's watch this trade go down to smash our take profit.
+Bam, bam, bam, bam, bam, bam, bam, bam, bam, bam, bam, bam, bam.
+And it ultimately went down and smashed our take profit right here, right?
+This is when we have smashed our take profit.
+And we have closed a 1 is to 4 risk to reward ratio trade.
+That is pretty pank, guys.
+That is pretty pank.
+So now that you have seen the power of moving average crossover,
+you can apply this into your trading arsenal.
+And make sure that you do not just enter immediately
+when you see a moving average crossover.
+Because there is a lot of fake outs.
+Make sure you always combine it with some sort of other confluencers
+like candlestick patterns, support and resistance, trend lines,
+market structure, Fibonacci, whatever tool that you use,
+combine it with at least two other confluencers.
+Welcome to the unfiltered section.
+So all of these unfiltered sections are literally designed
+to help you become profitable traders.
+There are either like tips on psychology or risk management tips
+that were 10x your trading.
+So I really, really need you to like put away all your distractions
+and be focused and like stop screwing around
+looking at your YouTube suggestions or like the comments on this video.
+Stop looking at the suggestions.
+Stop looking at the comments.
+Focus on what I'm about to say.
+So today we are going to talk about trust the process.
+Trust the process.
+Success looks like an exponential curve.
+And right now you are right here.
+You are right here at the point where you are working so hard.
+But you are not seeing results.
+You are not getting results in return.
+Let's say you have been practicing trading for quite some time now.
+But you have not made any significant profits.
+Yup, that's right.
+You are right there.
+You are right here guys.
+And if you feel like giving up, I want you to remember to never ever give up.
+Never throw in the tower.
+Because right now you are right here on this exponential curve.
+So you are right here and you are like just been pushing working hard
+but not seeing anything in return.
+But trust me when I say that when you reach right here,
+this is when the shit gets real.
+This is when your income is gonna explode.
+This is when you are gonna make the most amount of money
+that you made in your entire life.
+And you're gonna do that through trading.
+So if you give up right here, guess what?
+You're never gonna make it right here before the success come in and explode your wealth.
+You're never gonna make it there.
+Trading is literally one of the only jobs in the world
+which does not have a cap to the amount of money you can potentially make.
+So of course it's gonna be hard, right?
+Think about jobs like doctors, lawyers, and CEOs.
+These are all super high paying jobs
+which requires you to put in years and years of studying, experience, and hard work.
+Trading is the same.
+You see those traders on Instagram making like six figures in a year.
+Millions in a year.
+Guess what?
+They have put in the work.
+And trust me, they did not get there just because they traded for one year.
+That's unrealistic.
+You have to understand the fact that trading is not easy
+because trading requires you to master your emotions.
+And as humans, it is so hard for us to master our emotions.
+Think about like the last time you quarreled with a loved one.
+Were you able to control your emotions?
+No, because like when it's in the heat of a moment,
+you just like spur out.
+You spur out like a little spark.
+You know what I'm saying?
+You get angry at your wife or some shit and you shout at her.
+Right, because as humans, we have emotions
+and it's so damn hard to control these emotions.
+That is what makes trading so hard.
+But trust me when I say that it's gonna be worth it if you keep going.
+What if I tell you that I literally manifested my dream lifestyle?
+Three years ago when I first started learning like how to make money online,
+I remember like I was just searching for ways to make money online,
+starting a business, affiliate marketing, dropshipping,
+a lot of ways to make money online.
+And then that is when I discovered Forex trading, right?
+So when I first decided to become a trader,
+I told myself that one day I'm gonna live like the digital nomad lifestyle.
+You know like the one where I see on Instagram or YouTube
+where people like sit down on a nice beach
+and I have the laptop in their lap and then like make money.
+Like that is the dream, bro.
+That is the dream when I first started trading.
+And guess what?
+I've achieved that.
+After two to three years of hard work,
+I have finally achieved that.
+And for most of you guys who know my story,
+you will know that I was a dead broke college student
+who had less than $100 in my bank account two or three years ago.
+Less than $100 in my bank account.
+That was how fucking broke I went.
+I was dead fucking broke, bro.
+I remember that I was so fucking broke that I had to buy secondhand books, man.
+I have to buy used books that people have read before.
+People have read before, man.
+That is how hungry I was to succeed.
+I was willing to buy secondhand books, guys.
+Those filthy secondhand books.
+I can literally have like...
+I can literally go take a book from the bookshelf and show you guys right now.
+It's like this one book that is like so freaking yellow.
+Like the pages are yellow and it smells so fucking dirty.
+And fast forward to three years later,
+I have achieved my goal of becoming a digital nomad.
+I have just came back from Thailand where I literally like
+have been doing some trading in Thailand
+and just like sitting there and living the dream, you know what I'm saying?
+Like I feel so grateful, so content and so like proud
+that I have finally got to the place where I want to be.
+I have achieved the three types of freedom,
+which is time freedom, financial freedom and location freedom.
+Which means that I can work whenever I want.
+I can work at anywhere I want.
+And I have enough money that I don't have to worry about anything.
+Anything I want to eat, I can just get it, man.
+And three years ago, I was worried about buying a $5 chicken rice.
+$5 chicken rice and I was like,
+fuck, that shit is expensive, bro.
+$5, fuck, man.
+And now I can eat $50 chicken rice, bro.
+And now I can literally like buy whatever the fuck I want.
+This is the freedom that I have dreamed of for three years.
+Because for three years, I worked my ass off to get to the place where I am right now.
+So chances are, if you're watching this, you are probably like one year into the market
+or even like six months or you're just a complete beginner into trading
+and you have lost a few trades in a row and you feel like giving up.
+Man, you feel like giving up, bro.
+You feel like giving up.
+Why not push on for another few years?
+You need to give yourself some time to succeed, bro.
+You should not be putting like a time limit to yourself on when you should succeed.
+Like, oh, right now I'm 21 years old and I want to be a millionaire in 22 years old.
+You should not be giving yourself a time limit on when you can be a profitable trader.
+What I mean by that is that a lot of you will think that,
+oh, I have to be a profitable trader in six months.
+Guess what?
+That's the wrong mindset to have.
+Because if you go in with that mindset,
+after you lose a few trades in a row,
+you will feel like giving up.
+And after a few months and you are still not profitable,
+you will feel like giving up.
+Remember the curve that I've drawn for you?
+A few months is right here.
+A few years could be right here.
+You could be at this flatline for a few years
+before you start seeing significant amount of money
+which will change your life forever.
+I know friends who are like three years into the market
+and they are still not profitable.
+Three fucking years.
+And I know people who can master the markets
+and become profitable within six months.
+Six months.
+Everybody's trading journey is different.
+You can become profitable within six months
+but it can take me two years,
+three years, five years, ten years, right?
+So everybody's trading journey is different
+and I always tell my students that,
+bro, you are gonna become profitable faster than I do
+because I had no mentor to teach me.
+I had to went through everything by myself.
+I have to went through loads of trials and tribulations,
+trial and error, finding that right strategy
+and blowing multiple accounts
+before I actually start to figure some things out.
+That's why I always say that everybody's journey is different.
+What works for you might not work for me
+and what works for me might not work for you.
+You have to figure out your own trading style,
+your own trading strategy
+and do not put like a time limit on when you should succeed,
+when you can succeed.
+And I'm here to lead an example for you.
+I'm here as your tribe leader to lead this tribe,
+to lead this movement that we have.
+I have been in the two extreme ends of poverty and wealth.
+I was extremely broke
+and I'm also pretty comfortable right now
+with the amount of money I have.
+I'm on both spectrums.
+So I know what it feels like to be so broke
+where you work 9 hours per day
+and you could not have dinner.
+There was this one time where I was working at a bartender
+and I did not have dinner for days straight
+because my shift was at night
+and I just cannot afford to have dinner.
+I know what it feels like to be broke
+and I want to give you hope that you can make it.
+Trust me, if I can make it, you can make it.
+I'm not special.
+I do not come from a rich family.
+I do not have like a freaking university PhD.
+None of that shit.
+If I can do it, you can do it.
+And I want to tell you that I believe in you, brother.
+Keep going and we are all going to make it, brothers.
+Keep going, get locked in, stay focused,
+do not give up, watch all my videos,
+implement the advice, practice, backtest
+and just do whatever you can to get locked in into trading.
+And trust me, just try getting locked in into trading for 6 months.
+Just try it for 6 months
+and I can guarantee you, your life will change forever
+if you put in the work for at least 6 months straight.
+I want you to go down to the comment section right now
+and comment down below what are your hopes and dreams.
+Like what do you want to achieve from trading?
+And let's give each other hope and support
+by replying to each other's comments
+and liking each other's comments.
+It will be really, really wholesome for me to see that.
+And like this video if this video is helpful
+and hit on the subscribe button
+and the freaking bell beside it.
+Smash the bell beside it, alright?
+And welcome to the troll.

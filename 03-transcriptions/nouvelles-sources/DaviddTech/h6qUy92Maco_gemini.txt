@@ -1,0 +1,195 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: h6qUy92Maco.mp4]
+---
+**Note du transcripteur :** L'utilisateur a demandé une transcription en français, mentionnant "Mustapha Belkhayate" et des termes de trading français. Cependant, la vidéo fournie présente un orateur anglophone discutant d'outils de trading basés sur l'IA comme Claude et TradingView. Par conséquent, la transcription et les descriptions visuelles seront en anglais, reflétant le contenu réel de la vidéo.
+
+---
+
+(0:00) [VISUEL: L'orateur est assis devant un bureau avec deux écrans d'ordinateur affichant des graphiques de trading. Des néons triangulaires et verticaux éclairent le mur derrière lui. Un robot blanc est posé sur le bureau à droite. Un canapé rouge est visible à gauche. Le logo de l'application Claude AI apparaît à gauche de l'écran, puis une flèche pointe vers une icône "Trading Strategies" (Stratégies de Trading) avec un symbole de flèche montante et un signe dollar. Une autre flèche pointe vers "Stress test them" (Les tester sous stress), puis vers "Backtest them" (Les backtester). Une flèche remonte vers une icône de coche verte.]
+I build an AI assistant that builds profitable trading strategies, stress test them, backtest them, and make sure they actually work.
+
+(0:08) [VISUEL: Le texte "It takes minutes, not weeks" (Cela prend des minutes, pas des semaines) apparaît à l'écran.]
+And it takes minutes, not weeks.
+
+(0:10) Let me tell you why that sentence is a bigger deal than it actually sounds.
+
+(0:15) And in this video, I will show you how to do exactly the same thing.
+[VISUEL: Le texte "No Coding Experience" (Aucune expérience en codage) apparaît à l'écran, suivi de "In less than 10A_VERIFIER minutes" (En moins de 10A_VERIFIER minutes).]
+No coding experience needed, and in less than 10 minutes.
+
+(0:24) [VISUEL: Trois curseurs de réglage apparaissent à l'écran, puis un carré noir avec "1A_VERIFIER%" et le logo de Claude AI. Ensuite, le logo de Claude AI glisse vers la droite, révélant un graphique de TradingView en arrière-plan.]
+Yes, you will be able to control TradingView by simply prompting in Claude.
+
+(0:29) [VISUEL: Le graphique de TradingView pour BTC/USDT Perpetual Contract - 1H est affiché. Le panneau "Strategy Tester" (Testeur de Stratégie) est visible en bas, montrant une courbe d'équité verte en hausse. Des statistiques comme "Net Profit" (Profit Net), "Percent Profitable" (Pourcentage de Profits), "Profit Factor" (Facteur de Profit), "Max Drawdown" (Retrait Maximum) sont affichées. Le texte "PLEASE BE AWARE OF THE SCAMMERS IN THE COMMENTS. I WILL NEVER ASK FOR YOUR MONEY, CRYPTO OR CONTACT YOU." (ATTENTION AUX ARNAQUEURS DANS LES COMMENTAIRES. JE NE VOUS DEMANDERAI JAMAIS VOTRE ARGENT, CRYPTO OU DE VOUS CONTACTER.) est superposé. Ensuite, le texte "In a few minutes" (En quelques minutes) apparaît, suivi de "Make you money" (Vous faire gagner de l'argent).]
+You'll be able to build fully backtested profitable trading strategies in a few minutes that actually make you money.
+
+(0:36) But before we do that, let me explain why this is such a groundbreaking moment in the AI trading world.
+
+(0:38) [VISUEL: Le texte "Why this is such a groundbreaking moment in the AI trading world" apparaît, puis une sphère animée avec le logo de Claude AI.]
+Why this is such a groundbreaking moment in the AI trading world.
+
+(0:42) [VISUEL: Des boutons animés "Like", "Subscribe" et "Bell" apparaissent à l'écran.]
+If this sounds exciting, smash that like button and let's go!
+
+(0:47) [VISUEL: Un diagramme de flux apparaît, montrant "Scalping Strategy" (Stratégie de Scalping) avec des icônes pour EMA, RSI, MACD. Une flèche pointe vers "Backtest" (Backtest), puis vers "3A_VERIFIER Years" (3A_VERIFIER Ans).]
+Only last week I ran it on a scalping strategy that actually backtested over the past three years.
+
+(0:54) [VISUEL: Le panneau "Strategy Tester" de TradingView est affiché. Une flèche pointe vers "Total P&L" (Profit et Perte Total) affichant "+234,882A_VERIFIER.19A_VERIFIER USD +2,330A_VERIFIER.06A_VERIFIER%". Une autre flèche pointe vers "Profit factor" (Facteur de Profit) affichant "1.67A_VERIFIER". Une autre flèche pointe vers "Profitable trades" (Trades Rentables) affichant "52.14A_VERIFIER% 390A_VERIFIER/748A_VERIFIER". Le texte "800A_VERIFIER trades" (800A_VERIFIER trades) apparaît.]
+The net profit was over 2,329%. Profit factor of 1.67. A win rate of over 52%, and just under 800 trades over the past three years.
+
+(1:06) Back in the day, to get one single trading strategy meant that you would have had to learn to code, which could have taken weeks, potentially months, or pay a talented developer.
+[VISUEL: Un graphique de TradingView avec de nombreux signaux d'achat/vente. Le texte "Learn to code" (Apprendre à coder) apparaît, puis "Weeks - Months" (Semaines - Mois). Ensuite, une icône de développeur avec le texte "Pay a developer" (Payer un développeur). Le texte "$500A_VERIFIER" apparaît, puis "$2000A_VERIFIER". Le texte "You wouldn't even be sure that it would be profitable" (Vous ne seriez même pas sûr que ce serait rentable) apparaît.]
+
+(1:25) [VISUEL: Un homme est allongé dans son lit avec un ordinateur portable, affichant un graphique de trading. Le texte "Tweaking settings" (Ajuster les paramètres), "Adding indicators" (Ajouter des indicateurs), "Forward testing" (Tester en avant) apparaît. Ensuite, un graphique de TradingView avec des données de marché en direct. Le texte "Live markets" (Marchés en direct) apparaît.]
+You'd spend hours and late nights tweaking settings, adding indicators, forward testing, forward testing and trying to see whether they actually held up on live markets.
+
+(1:35) [VISUEL: Le texte "3A_VERIFIER Years" (3A_VERIFIER Ans) apparaît. Ensuite, le logo Discord et une capture d'écran d'un serveur Discord avec des discussions de trading.]
+Personally, it took me over three years before I actually found a real profitable system. And I was lucky because I was backed by 9,000 members in my Discord, where we were all working together for the same objective.
+
+(1:48) [VISUEL: Une icône de montagne apparaît. Le texte "Trading strategy" (Stratégie de trading) avec une flèche montant vers le sommet. Puis "Exchange" (Bourse) au sommet.]
+Okay, now let's say that you are actually lucky enough to have actually found a profitable trading strategy. Now comes another mountain: having to connect that strategy over to your exchange.
+
+(1:58) [VISUEL: Le texte "$99A_VERIFIER Month" (99A_VERIFIER $ par mois) apparaît. Ensuite, le texte "You don't own the system, you're just renting it" (Vous ne possédez pas le système, vous le louez juste).]
+You're either going to have to learn how to code that, or you're going to have to rent out somebody else's, which will cost you around $99 per month. You don't own the system, you're just renting it.
+
+(2:08) And if they make any updates that break your system, you won't be able to fix them.
+
+(2:12) [VISUEL: Une salle de bureau avec des développeurs travaillant sur des ordinateurs. Le texte "Developers" (Développeurs), "Proprietary code" (Code propriétaire), "Infrastructure" apparaît.]
+Now this kind of strategy is what you'd expect from a hedge fund, where they have multiple developers all sitting around a desk and quants specialized in actually building strategies. Teams of developers working together, proprietary code, and infrastructure that most retailers will never ever see.
+
+(2:30) That's where institutional quality backtesting has always lived, until now.
+[VISUEL: Le texte "And it is the future" (Et c'est l'avenir) apparaît.]
+
+(2:43) And all of this using walk-forward optimization. And once it's ready, I can deploy it on the exchanges in a couple of clicks. This kind of work used to take me days, if not weeks, of focused work.
+
+(2:54) [VISUEL: L'interface de Claude AI. Le champ de saisie "Ask anything" (Demander n'importe quoi) est visible. L'orateur clique sur l'icône du microphone. Le texte "YOU: Hey buddy, let's build a trading strategy together" (Salut l'ami, construisons une stratégie de trading ensemble) apparaît, suivi de "CLAUDE: Let's do it!" (CLAUDE: Faisons-le !).]
+But now, thanks to AI, it's just one single conversation, and that's what I'm going to show you right now.
+
+(2:59) [VISUEL: Le texte "THE PLAN" (LE PLAN) apparaît. Trois icônes numérotées "1A_VERIFIER Components", "2A_VERIFIER Components", "3A_VERIFIER Components" (1A_VERIFIER Composants, 2A_VERIFIER Composants, 3A_VERIFIER Composants) sont affichées. Les boutons "Connect" (Connecter) et "Install" (Installer) apparaissent, puis le texte "5A_VERIFIER Minutes" (5A_VERIFIER Minutes).]
+Okay, here's the plan. I'll walk you through exactly how everything works. There are three components that we're going to install. I'm going to show you how to connect them, how to install them, and it's going to take us around five minutes.
+
+(3:10) [VISUEL: Le texte "3A_VERIFIER Free Prompts" (3A_VERIFIER Prompts Gratuits) apparaît, avec le logo de Claude AI.]
+And then I'll give you three prompts, proven starting points, that you can paste directly into Claude to give you your first strategy before the end of this video.
+
+(3:18) [VISUEL: L'écran d'un iPhone affiche une notification "TradingView Alert". Ensuite, un graphique de TradingView avec des signaux de trading en direct. Le texte "100A_VERIFIER% Automated" (100A_VERIFIER% Automatisé) apparaît. Puis, l'interface de Claude AI avec le texte "YOU: Hey buddy, let's build a trading strategy together" et "CLAUDE: Let's do it!".]
+And at the end of this video, I want to show you the movement that I've been working for towards for the past five years. And that is my phone lighting up with live trades with no input from myself. 100% automated thanks to AI and automation. All of that built from one single conversation.
+
+(3:35) [VISUEL: La chaîne YouTube "Trading with DaviddTech" est affichée, montrant diverses miniatures de vidéos. L'orateur tient un trophée "Toolbit Top Trader". Le texte "TOP TRADER" apparaît. Ensuite, le logo de Claude AI.]
+And guys, if you don't know who I am, my name's David. I have been backtesting trading strategies for five years here on YouTube. I am one of the top traders on multiple exchanges. And now I'm adding AI to all of my strategies to make them even more profitable.
+
+(3:51) [VISUEL: Le texte "Free Workbook" (Cahier d'exercices gratuit) apparaît. Ensuite, le texte "Leave a comment!" (Laissez un commentaire !) et "AI" (IA).]
+Guys, if you want the full workbook that I've put together that explains everything step-by-step that we're about to see in this video, don't forget to comment AI down below in the comment section and I will send it directly to you.
+
+(4:04) [VISUEL: Le texte "How does this actually work?" (Comment cela fonctionne-t-il réellement ?) apparaît. Trois icônes numérotées "1A_VERIFIER Components", "2A_VERIFIER Components", "3A_VERIFIER Components" sont affichées.]
+Okay, so how does this actually work? There are three components, as I said earlier, to this system.
+
+(4:10) [VISUEL: Les logos de Claude AI, TradingView et une icône de réseau neuronal/cerveau (serveur MCP) apparaissent. Le texte "The Brain" (Le Cerveau) est sous le logo de Claude AI. Ensuite, un diagramme de flux montrant Claude AI -> Serveur MCP -> TradingView, avec des flèches. Le texte "Trading Strategy" (Stratégie de Trading) est sous le serveur MCP.]
+Those three parts are Claude, TradingView, and an MCP server. Number one being Claude, the brain. Claude is going to be everything behind trying to replace you as a human being. TradingView is the powerhouse that allows us to backtest trading strategies. We get data for a very low price, which used to be something that was very expensive. And then we have an MCP server. An MCP server is like giving tools to your agent. Think of it a bit like a translator. Claude speaks one language, TradingView speaks another. Your MCP server sits in the middle translating for both of them.
+
+(4:45) [VISUEL: Le texte "It takes some time" (Cela prend du temps) apparaît.]
+Now building an MCP server is quite an laborious task. It depends on the number of functions, but building a translator that speaks both language takes some time.
+
+(4:55) [VISUEL: La page de téléchargement de "Trader Assistant" est affichée. Le texte "ALL THE LINKS DOWN BELLOW" (TOUS LES LIENS CI-DESSOUS) apparaît.]
+You don't have to worry about that. I actually have already built the MCP server, and it's one simple click install.
+
+(5:01) So this is where I go straight over to my computer. I'm going to show you every single step to get this working. And I'm going to give you some examples to show you how you can build your own quant desk in your pocket. Right, let's go.
+
+(5:11) [VISUEL: L'orateur est assis devant son ordinateur. Le texte "Step-by-step guide" (Guide étape par étape) apparaît.]
+Okay guys, here we are on my computer. And I'm not going to lie to you, this is probably one of the least exciting parts about this video. But the most important. We're going to go through installing step-by-step the three tools that you actually need for everything to work.
+
+(5:25) [VISUEL: La page claude.com/download est affichée. L'orateur pointe l'URL et le bouton de téléchargement. Le texte "Step 1A_VERIFIER - Install Claude" (Étape 1A_VERIFIER - Installer Claude) apparaît.]
+And we're going to start with Claude. Claude is the motor, the brain behind everything that we're going to be working on today. So we're going to head straight over to claude.com/downloads. If you don't already have an account with Claude, you'll be able to find a link down in the description as well. Okay, so it depends whether or not you're on a macOS or on Windows. But we're going to click on download for Mac because I'm on Mac. That's going to go away into our download menu. It'll take a couple of seconds to download.
+
+(5:54) [VISUEL: La barre de téléchargement du navigateur montre "Claude (3A_VERIFIER).dmg". L'orateur clique dessus. Une fenêtre d'installation apparaît, montrant le logo de Claude AI et une flèche pointant vers le dossier "Applications". L'orateur fait glisser le logo de Claude AI vers le dossier "Applications".]
+And hey presto, we're ready to roll. We're going to double-click on that and that will open a folder that looks like this. We're going to move Claude over into our applications folder. We're going to drop it and that will save Claude onto your computer and install everything you need for Claude to run.
+
+(6:12) [VISUEL: L'interface de Claude AI est affichée, avec "Afternoon, Davidd" et un champ de saisie. L'orateur clique sur "New chat" (Nouvelle discussion). Le texte "How can I help you today?" (Comment puis-je vous aider aujourd'hui ?) est dans le champ de saisie. L'orateur clique sur l'icône du microphone et parle.]
+So we're going to open Claude by clicking on the Claude button and this is going to open a brand new chat. Now Claude is a beast of an application. There is so many features, but we're going to start today with just a simple chat. I do suggest that you're going to have a look at code afterwards when you get a little bit more experienced with Claude, because that is where all of the real magic happens. Okay, so we're in Claude. I am using the latest model, which is Opus 4.7, which was released recently. We're going to say hi and start our first conversation.
+(6:42) "Hi there, mate. How's things going?"
+(6:45) You have to stay polite, of course. And there we go. We have our AI ready to go to start building strategies for us.
+
+(6:51) [VISUEL: La page claude.com/download est affichée. L'orateur pointe l'URL. Ensuite, la page tradingview.com est affichée. Le texte "Step 2A_VERIFIER - Create TradingView Account" (Étape 2A_VERIFIER - Créer un compte TradingView) apparaît. Un graphique de BTC/USDT est affiché.]
+Right, the next thing that we will need is an account on TradingView. Once again, you will be able to find a link to TradingView down in the description below. TradingView is our powerhouse. It's going to be helping us build the strategies, backtest them, and use the data that is available already on their platform. It is absolutely brilliant and is my preferred charting system. We're going to set up our account on TradingView, and this is where all of the strategies will be built.
+
+(7:20) [VISUEL: La page de téléchargement de "Trader Assistant" est affichée. L'orateur pointe l'URL et le bouton de téléchargement. Le texte "Step 3A_VERIFIER - Install Trader Assistant" (Étape 3A_VERIFIER - Installer Trader Assistant) apparaît.]
+And next and finally, we're going to be going over to this link here, which is my Trader Assistant download page. As you can see, there's lots of information. You'll be able to find the link to this in the workbook, and you'll be able to also download for your OS just here. So I'm going to be downloading for macOS. This MCP, once again, is the middleman, the translator between TradingView and your Claude setup.
+
+(7:42) [VISUEL: L'orateur double-clique sur le fichier téléchargé. Une fenêtre d'installation apparaît, montrant le logo "AI Trading Assistant MCP" et une flèche pointant vers le dossier "Applications". L'orateur fait glisser le logo vers le dossier "Applications".]
+Okay, we're going to double-click on that and that is going to open this where we're going to do exactly the same thing as we did with Claude, and we're going to drag the AI Assistant over to our applications. That's going to install it on your computer, meaning that you will have your MCP ready in seconds.
+
+(7:57) [VISUEL: L'orateur ouvre l'application "AI Trading Assistant MCP". L'interface de l'application est affichée. Le texte "Live Server Control" est en haut, avec "SERVER STATUS: STOPPED". Le texte "Setup Wizard + Onboarding" est à droite.]
+We're going to open that. Okay, when it launches, you'll get something that looks exactly like this. The AI Trading Assistant MCP. We can see that we have a couple of things that we need to do. We need to set up the Claude setup and the Chrome extension. Claude is going to be pretty simple. We're going to click on Claude just here.
+
+(8:18) [VISUEL: L'orateur clique sur l'onglet "Claude Setup". Le texte "Setup Claude" apparaît. L'orateur clique sur "Apply Config" (Appliquer la configuration), puis "Copy JSON" (Copier le JSON), puis "Open Config File" (Ouvrir le fichier de configuration). Un éditeur de code avec un fichier JSON s'ouvre. L'orateur fait défiler le code.]
+And we're going to apply our settings. We're going to copy the JSON and open the config file, which should automatically open something that looks like this. You just literally have to copy and paste, save, press control S on your keyboard, and then you can restart Claude desktop.
+
+(8:36) [VISUEL: L'orateur clique sur l'onglet "Chrome Extension". Le texte "Install Extension" apparaît. L'orateur clique sur "Install Extension (Developer Mode)" (Installer l'extension (Mode développeur)).]
+Next, we need to set up a Chrome extension. What this Chrome extension does is it allows Claude to be able to see exactly what's going on on your TradingView charts. So, we're going to simply download it. We're going to click here, extension. That's going to download the zip file that we need to.
+
+(8:52) [VISUEL: L'orateur copie l'URL "chrome://extensions" et la colle dans le navigateur. La page des extensions Chrome s'ouvre. L'orateur active le "Developer mode" (Mode développeur) en haut à droite, puis clique sur "Load unpacked" (Charger l'extension non empaquetée). Une fenêtre de sélection de dossier apparaît. L'orateur sélectionne le dossier de l'extension téléchargée. L'extension "AI Trading Assistant MCP Extension" apparaît dans la liste des extensions, avec un bouton vert "OK".]
+I'm going to copy this here and then I'm going to go straight over to my Chrome extensions. This will be a list of all the Chrome extensions already installed. We're going to click developer mode at the top here to allow us to install this application. Now, literally, unzips, double-click on that zip file, then click load unpacked zip file, scroll through your computer, find the folder where it is actually installed, click open, and that will install the Trading Assistant MCP extension. Very simple, couple of steps, and we're ready to go.
+
+(9:24) [VISUEL: L'orateur retourne sur tradingview.com. Il ouvre un graphique. Le bouton des extensions Chrome est cliqué, montrant "AI Trading Assistant MCP Extension" avec "Full access" et une coche verte "OK". L'orateur retourne à l'application "AI Trading Assistant MCP".]
+So I'm going to now go back over to TradingView. We're going to open our chart. And that is it. If you go over here, you can click on the button, you'll be able to see the MCP server is now connected because it says okay in green. We go back to our assistant over here.
+
+(9:40) [VISUEL: L'orateur clique sur le bouton "Start MCP" (Démarrer le MCP). Le "SERVER STATUS" passe à "RUNNING" (EN COURS) et "Chrome extension connected" (Extension Chrome connectée) est coché en vert.]
+Then we do the final step, which is the most satisfying: click start MCP. That will now connect, as you can see, running at the top here, connected to your Chrome extension. You're ready to roll. We can move back over to Claude to start asking it questions.
+
+(9:57) [VISUEL: L'interface de Claude AI est affichée. Le texte "Afternoon, Davidd" est en haut. Le champ de saisie est vide. Le texte "Step 3A_VERIFIER - Build a Trading Strategy" (Étape 3A_VERIFIER - Construire une Stratégie de Trading) apparaît.]
+Okay, this is where it gets really exciting. We've had our payoff after all of the hard work that we've actually done. We're going to go back over to Claude and we're going to ask it to build our first trading strategy.
+(10:09) "Hey there, buddy. I would love you to do a backtest for me. I'd like you to backtest on BTC/USDT on the 4-hour timeframe. I would like you to do an EMA crossover strategy, something a bit simple. I'm looking for you to set a 3% stop loss and maybe a 4% take profit. And now I'd like you to backtest that trading strategy for me."
+
+(10:31) [VISUEL: Claude AI affiche "Thinking" (Réflexion) et "Loading tools" (Chargement des outils). Ensuite, il affiche les résultats du backtest : "Net profit +31.30A_VERIFIER%", "Profit factor 1.16A_VERIFIER", "Max drawdown -24.79A_VERIFIER%", "Sharpe ratio 0.12A_VERIFIER", "Win rate 22.53A_VERIFIER%", "Total trades 253A_VERIFIER". Il y a aussi une section "What the numbers actually mean" (Ce que les chiffres signifient réellement) et un "Verdict".]
+Okay, it's going to take that information away and now it's going to code, take your idea that you had. This idea can be absolutely anything from anywhere. And it's going to code that trading strategy. Not only is it going to code, but it's going to debug in real time to make sure that there's no bugs. It's also going to take some of the knowledge that I've acquired over the past five years to make sure that that strategy is robust and working long time. Okay, we're saving to TradingView right now. And as you can see, it is going to backtest on the 4-hour timeframe, BTC/USDT, using data from Binance. But not only is it actually backtesting, as you can see on my screen right now, it's actually giving us reasons for why it's actually backtesting on those periods. And it will give you advice on how to improve your strategy. You can even create prompts to help it think even more like a quant. Backtest complete. Drum roll, please! And look at that, it's actually created you not only a backtest but a full dashboard. It's giving you the net profit over time, the profit factor, and your max drawdown. It's gone through all of the data, like I said, very much like a hedge fund or a quant desk, telling you that, yes, the strategy is profitable, but the profit factor is only 1.16. That means for every $1.00 lost, you make $1.16 back. The win rate is at 22%, which could be normal for a trend-following strategy as long as the losses are small. Sharpe ratio is very low, so maybe this is going to be something that we need to actually optimize.
+
+(12:02) [VISUEL: Claude AI affiche des "Recommended next steps, in priority order" (Prochaines étapes recommandées, par ordre de priorité). Le texte "Step 4A_VERIFIER - Strategy Optimization" (Étape 4A_VERIFIER - Optimisation de la Stratégie) apparaît.]
+This is where the next part comes in. We can say,
+(12:05) "Hey there, buddy. It looks like this strategy may be worth spending a bit of time to improve. Maybe you can think of some improvements and optimize that strategy for us."
+(12:13) So this is now going to go away and walk-forward test. That means it's going to take samples of data and backtest the strategy to make sure it works not only in bull markets but also in bear markets.
+
+(12:25) [VISUEL: Claude AI affiche de nouvelles informations sur l'optimisation. Il ajoute de nouveaux indicateurs et ajuste les paramètres. Le texte "Running 80A_VERIFIER/80A_VERIFIER done so far. Let me give it a moment." (Exécution 80A_VERIFIER/80A_VERIFIER terminée jusqu'à présent. Laissez-moi un instant.) apparaît. L'orateur prend une gorgée de café. Ensuite, les résultats optimisés sont affichés : "Net profit +107.9A_VERIFIER%", "Profit factor 2.24A_VERIFIER", "Max drawdown -14.4A_VERIFIER%", "Sharpe ratio 0.30A_VERIFIER", "Win rate 47.7A_VERIFIER%", "Trades 51A_VERIFIER". Un tableau compare les versions "v1 baseline", "v2 trend-filtered" et "v2 optimized".]
+Okay, so as you can see on the screen, it's adding new different indicators, thinking of different ways to use the strategy. Time for me to take a coffee. I'm going to leave it in the background to optimize, and I'll come back and check in a couple of minutes. Cheers to you all. Okay, the optimization is in. And as you can see, the backtest results are considerably better. It's gone through and added extra indicators to improve. And we have a table comparing the baseline settings to what we have currently now. 107% net profit, a profit factor of 2.24, which is great. A max drawdown of 14%, which I would consider acceptable. There is only 51 trades, which isn't enough for me. But that kind of thing you can put into your prompt as guardrails. Make sure it doesn't choose a trading strategy with too fewer trades.
+
+(13:14) [VISUEL: Claude AI affiche des "Recommended next steps, in priority order" (Prochaines étapes recommandées, par ordre de priorité). Le texte "Step 5A_VERIFIER - Strategy Automation" (Étape 5A_VERIFIER - Automatisation de la Stratégie) apparaît.]
+It's going to go through and give you a full explanation. It's going to tell you exactly that it has been walk-forward validated. And this is where we go onto our next step. What happens next when we find an amazing trading strategy? Well, we literally just prompt Claude once more.
+(13:30) "Yeah, hey there buddy, I absolutely love this trading strategy. In our last session, we set up our Bybit account with a skill. Use that skill to automate any trades and open longs on Bybit. I'd like to use 50 USDT and set my leverage to 10x leverage."
+
+(13:49) [VISUEL: Claude AI affiche "Thinking" (Réflexion). Ensuite, il affiche "Mobilized strategy factory skill to execute leveraged trading position" (Compétence de l'usine de stratégies mobilisée pour exécuter une position de trading à effet de levier). Le texte "Let me load the StrategyFactory skill to understand how to execute trades on Bybit." (Laissez-moi charger la compétence StrategyFactory pour comprendre comment exécuter des trades sur Bybit.) apparaît.]
+And boom, that is now going to go away and set up an alert on TradingView, which is hooked up to my mobile phone. And as soon as this brand new strategy gets a trade signal, I'm going to get it up on my phone, which means that I can easily go over to Bybit and actually take that trade for myself. We can also connect it over to Bybit or any of our favorite exchanges, but that's going to be another video for another time.
+
+(14:01) By the way, if you haven't already got an exchange, you'll be able to find links down in the description to the best exchanges where I have negotiated all of fees to give you even more edge.
+[VISUEL: Claude AI affiche des informations sur la configuration du compte Bybit. Il vérifie les clés API et les paramètres. Il demande ensuite "How do you want to proceed?" (Comment voulez-vous procéder ?) avec des options.]
+So we've got to the end. The strategy is now built. It didn't exist less than an hour ago. It's now connected directly over to my exchange. So any trades that happen will happen and send directly to my phone. This has all gone from plain English to a coded strategy, backtested, optimized, and connected, ready to go.
+
+(14:30) [VISUEL: L'interface de Claude AI est affichée. Le texte "Are you still there, if so just say ok" (Êtes-vous toujours là, si oui dites juste ok) apparaît. Le texte "Step 6A_VERIFIER - Setting up an alert on tradingview" (Étape 6A_VERIFIER - Configurer une alerte sur TradingView) apparaît.]
+Okay, so now that we have our trading strategy, what we'd like is for every time that we get a trade for it to pop up on our phone. It'd be nice if it could trade for us, but let's take this step-by-step. And only today we're going to be setting up an alert. So we're going to ask Claude,
+(14:47) "Hey there, buddy. Love this trading strategy that you set up for us. Could you now get it so that it alerts us on our phone when we get a new trade?"
+
+(14:57) [VISUEL: Claude AI affiche des questions : "Q: How should the alert fire?" (Comment l'alerte doit-elle se déclencher ?), "Q: Do you want just entries, or entries + exits?" (Voulez-vous seulement les entrées, ou les entrées + sorties ?), "Q: Do you want the alert payload formatted as StrategyFactory webhook JSON?" (Voulez-vous que la charge utile de l'alerte soit formatée en JSON de webhook StrategyFactory ?), "A: No, just plain text for my phone" (Non, juste du texte brut pour mon téléphone).]
+We can do this through the alert system on TradingView. Okay, so it's asked me a couple of questions. It's asked me if it wanted to take a trade directly through the webhook. It's also asked me whether I want it on the bar closed or ticks. I personally prefer a bar closed myself. And it's also asked me if I want the entry and the exit. I've asked for both.
+
+(15:16) [VISUEL: Un graphique de TradingView est affiché. Le panneau "Alerts" (Alertes) est ouvert, montrant une alerte de trading active. L'orateur clique sur le bouton "Play" (Lecture) de l'alerte, puis sur le bouton "Pause" (Pause). Il montre comment l'alerte est connectée à son téléphone. Il clique sur le bouton "+" pour ajouter une nouvelle alerte.]
+Okay, so now in the background, what it's going to do is it's going to create an alert on TradingView, which is hooked up to my mobile phone. And as soon as this brand new strategy gets a trade signal, I'm going to get it up on my phone, which means that I can easily go over to Bybit and actually take that trade for myself. We can also connect it over to Bybit or any of our favorite exchanges, but that's going to be another video for another time.
+
+(15:41) [VISUEL: Le texte "Free Workbook" (Cahier d'exercices gratuit) apparaît. Le texte "ALL THE LINKS DOWN BELLOW" (TOUS LES LIENS CI-DESSOUS) apparaît.]
+And guys, you'll be able to find that workbook that I was talking about that I put together for you. So there's a step-by-step guide of every single step that you've seen here today. Everything is free of charge. You'll be able to find that in the description down below as well.
+
+(15:53) [VISUEL: Le texte "Manages your trades" (Gère vos trades) apparaît, puis "Stays up 24A_VERIFIER/7A_VERIFIER" (Reste actif 24h/24A_VERIFIER et 7j/7A_VERIFIER), puis "Remove and add" (Supprime et ajoute).]
+This is a trading assistant. The next step is to take this and turn it into an agent that manages all your trades, stays up 24/7, making sure that everything is going according to plan. Removes and adds strategies as market regimes change.
+
+(16:09) [VISUEL: Le logo de Claude AI apparaît.]
+If you're interested in me doing a video about that, comment AI below and I will put together a full video on how to set up your own Jarvis system for trading with AI.
+
+(16:20) [VISUEL: Les boutons "Subscribe", "Like" et "Bell" de YouTube apparaissent, avec le nom de la chaîne "Trading with DaviddTech".]
+Guys, I hope you've found some value from this video. Don't forget, I do videos every single week, so don't forget to subscribe. And if you found some value in this video, if you don't mind giving it a good old thumbs up. Take care, keep safe, trade like a boss, and I will see you in the next video next week. Goodbye, guys. Goodbye!
+
+(16:36) [VISUEL: Une animation de l'orateur en dessin animé apparaît, avec le texte "DAVIDDTECH.COM" et "Trade like a BOSS!" (Tradez comme un BOSS !).]
+(Musique entraînante)
+Come on, David, and once again he's gone to code.
+A new strategy, he'll be back in just five minutes.
+RSI and MACD.
+He'll be back in just five minutes.
+Trade like a BOSS!

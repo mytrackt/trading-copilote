@@ -1,0 +1,91 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-27]
+[SOURCE: 7oJ1ExbuaxQ.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+[VISUEL: Graphique NinjaTrader 8A_VERIFIER, 1A_VERIFIER-minute timeframe, instrument ES DEC23. Le graphique affiche des chandeliers blancs (haussiers) et bleus (baissiers). Le prix est dans une fourchette d'environ 6850A_VERIFIER à 6870A_VERIFIER. Une ligne verticale est positionnée à 17A_VERIFIER:00A_VERIFIER. La tendance générale est haussière avec des fluctuations. En haut à gauche, le nom de l'instrument est "ES DEC23" et le timeframe est "1A_VERIFIER Minute".]
+Welcome to this video. Today, I'm going to show you how I built a complete real-time AI system that analyzes trading charts using screenshots and open high low close volume data.
+
+[VISUEL: Animation montrant des icônes de motifs graphiques avec des pourcentages de probabilité.
+- Première icône : "DOUBLE TOPS" avec "LONG: 35A_VERIFIER% SHORT: 65A_VERIFIER%".
+- Deuxième icône : "FLAGS" avec "LONG: 58A_VERIFIER% SHORT: 42A_VERIFIER%".
+- Troisième icône : "WEDGES" avec "LONG: 60A_VERIFIER% SHORT: 40A_VERIFIER%".
+- Quatrième icône : "LIQUIDITY GRABS" avec "LONG: 52A_VERIFIER% SHORT: 48A_VERIFIER%".]
+detects patterns like double tops, flags, wedges or liquidity grabs, and returns precise long and short probability scores.
+
+[VISUEL: Le graphique NinjaTrader 8A_VERIFIER est de nouveau visible. Des logos apparaissent successivement sur le graphique : le logo "NT" de NinjaTrader, le logo Python, puis le logo "GPT-4o".]
+This system connects NinjaTrader, a Flask API and GPT-4o Vision, creating a fully automated analysis loop.
+
+[VISUEL: Le graphique NinjaTrader 8A_VERIFIER est affiché. Une liste de texte apparaît progressivement sur un fond noir à gauche du graphique :
+- "Full analysis cycle"
+- "Image upload"
+- "Open high low close volume"
+- "Pattern detection"
+- "Score generation"
+Ensuite, le texte "15A_VERIFIER seconds" apparaît en grand au centre du graphique.]
+Before we begin, it's important to mention that the processing pipeline is not instantaneous. From the time NinjaTrader sends the data and the screenshot to Flask, the full analysis cycle including image upload, open high low close volume interpretation, pattern detection, and score generation, takes around 15 seconds. This delay is normal given the depth of analysis performed by GPT-4o Vision.
+
+[VISUEL: Un fond noir avec une liste de texte apparaissant progressivement :
+- "Prerequisites"
+- "1A_VERIFIER. NinjaTrader 8A_VERIFIER"
+- "2A_VERIFIER. An OpenAI API key"
+- "3A_VERIFIER. Python installed on your computer"]
+Prerequisites. Before building this system, you need three essential components. One, NinjaTrader 8. This is the trading platform that collects market data and triggers the AI workflow. Two, an OpenAI API key. This gives you access to GPT-4o Vision, which performs the chart and data analysis. Three, Python installed on your computer. Python runs the Flask server, handles screenshot capture, communicates with OpenAI, and returns the AI analysis to NinjaTrader. Once these prerequisites are in place, you will be ready to follow the full workflow described in this video.
+
+[VISUEL: Un diagramme de flux animé sur un fond bleu clair.
+- En bas à gauche, une boîte "1A_VERIFIER. Ninjatrader" avec le texte "Chart Image" et "100A_VERIFIER OHLCV".
+- Une flèche relie cette boîte à une boîte "2A_VERIFIER. Flask API" au centre, avec le texte "Prepares request" et "Sends data to AI".
+- Une flèche relie la boîte "2A_VERIFIER. Flask API" à une boîte "3A_VERIFIER. GPT-4o Vision" en haut, avec le texte "Detect patterns", "Validate OHLCV", "Trend analysis" et "LONG/SHORT scores".
+- Une flèche relie la boîte "3A_VERIFIER. GPT-4o Vision" à une boîte "4A_VERIFIER. Flask API" au centre droit, avec le texte "Recieves AI reply" et "Sends data to NT8".
+- Une flèche relie la boîte "4A_VERIFIER. Flask API" à une boîte "5A_VERIFIER. Ninjatrader" en bas à droite, avec le texte "Recieves Scores" et "Executes strategy".]
+Diagram. Let's start with the overall structure of the project. NinjaTrader collects the last 100 open, high, low, close volume candles and sends them to a Flask server running locally. At the same time, the server captures a screenshot of the chart. Flask then sends both elements, the screenshot and the candle data to GPT-4o Vision. The AI reads the image and the numerical sequence together. It detects patterns, evaluates the market structure, identifies volatility, trend, momentum, and returns a detailed analysis. Most importantly, it produces two numerical values: a long probability score and a short probability score. These scores are sent back to NinjaTrader and can be used inside your trading strategy or displayed on your chart.
+
+[VISUEL: Un éditeur de code affichant du code Python. Une grande chaîne de caractères multiligne est visible, représentant le prompt de l'IA. Ce prompt décrit le rôle de l'IA en tant qu'expert en analyse technique, ses objectifs (identifier les motifs, valider avec les données OHLCV, évaluer la probabilité de mouvement, résumer le contexte du marché) et une liste détaillée de motifs à détecter (continuation, retournement, psychologiques/structurels). Il y a aussi une section "REQUIRED ANALYSIS (IN THIS ORDER)" et "EXPECTED FINAL OUTPUT FORMAT".]
+The Flask. Let's take a closer look at the Flask backend, the intelligent center of the system. I won't focus on the imports but initialization because those are straightforward. Instead, we will explore the essential components that power the analysis pipeline. One, the AI prompt. The system begins with a large structured prompt that defines how GPT-4o Vision should analyze the chart. It tells the model exactly which patterns to detect, such as flags, wedges, triangles, head and shoulders, liquidity grabs, or volatility compression. The prompt also instructs the AI to validate every visual signal using the open, high low close volume sequence. One important detail is that NinjaTrader sends the data from the most recent bar to the oldest. The prompt tells GPT-4o Vision to internally reorder the candles before analyzing momentum or trend. This ensures consistent and accurate interpretation. This prompt essentially acts as the brain of the entire system.
+
+[VISUEL: L'éditeur de code Python est toujours affiché. La fonction `capture_chart_screenshot()` est visible. Elle utilise `pygetwindow` pour trouver la fenêtre du graphique NinjaTrader et `pyscreenshot` pour capturer une région spécifique de l'écran, puis enregistre l'image au format PNG.]
+Two, screenshot capture function. The next key component is the screenshot capture function. Its purpose is to find the NinjaTrader chart window, read its exact position on screen and capture that specific region. The image is saved as a PNG file and prepared for upload to GPT-4o Vision. This allows the AI to visually analyze trend lines, candle formations, and market structure, just as a human trader would.
+
+[VISUEL: L'éditeur de code Python est toujours affiché. La fonction `extract_score(text, label)` est visible. Elle utilise une expression régulière (`re.search`) pour extraire des valeurs numériques associées aux labels "LONG" ou "SHORT" à partir d'un texte donné.]
+Three, score extraction function. GPT-4o Vision returns a long text containing descriptions of the detected patterns, validation using open high low close volume, and directional interpretation. Inside this text, the AI outputs two numerical values: the long score and the short score. A helper function extracts these values from the text, using a simple regular expression, making them easy for NinjaTrader to read and use.
+
+[VISUEL: L'éditeur de code Python est toujours affiché. Le code de l'endpoint Flask `@app.route("/process", methods=["POST"])` est visible. Ce code gère la réception des données, la capture d'écran, le téléchargement de l'image vers OpenAI, la construction de la requête IA avec le prompt et les données, l'appel à GPT-4o Vision, et l'extraction/renvoi des scores.]
+Four, the process endpoint. This is the heart of the Flask backend. Whenever NinjaTrader sends a post request, this endpoint executes automatically. Here's what happens inside. One, Flask receives the list of 100 open high low close volume candles. Two, it captures a screenshot of the chart. Three, it uploads the screenshot to GPT-4o Vision. Four, it constructs the AI request by combining the prompt, the chart image, the candle data, the instrument name. GPT-4o Vision then analyzes all this information and sends back a full market interpretation. Flask extracts the long and short scores and returns them to NinjaTrader as a clean JSON response. This endpoint connects every part of the system into a seamless automated loop.
+
+[VISUEL: L'éditeur NinjaScript de NinjaTrader est affiché, montrant du code C#. La méthode `OnBarUpdate()` est visible. Elle contient des conditions pour vérifier si c'est le premier tick d'une nouvelle barre et si le mode est en temps réel, avant d'appeler `SendToFlaskAsync()`. La fonction `SendToFlaskAsync()` est également visible. Elle construit une charge utile JSON avec le nom de l'instrument et les données OHLCV des 100A_VERIFIER dernières barres, puis envoie une requête POST au serveur Flask. Elle attend ensuite la réponse, extrait les scores long/short, et les affiche sur le graphique.]
+NinjaTrader. Now let's move to the NinjaTrader side. Here we focus only on the essential parts. On bar update and send to Flask. One, on bar update. This function runs on every market tick, but we only want to send data once per bar. The logic checks whether we're on the first tick of a new bar and whether we're in real-time mode. If both conditions are met, the workflow starts. Inside this block, NinjaTrader loops through the last 100 bars and collects the timestamp, the open, the high, the low, the close, and the volume. These values are assembled into a JSON array that represents the candle history. Once the data is ready, on bar update calls the asynchronous function, send to Flask. Two, send to Flask. This function creates the HTTP post request and sends it to the Flask server. It includes the instrument name and the candle history. It waits for the server's response, which contains the long and short scores computed by GPT-4o Vision. When the scores arrive, they are stored in memory and can be used in your strategy logic. For example, you could trigger trades only when certain score thresholds are exceeded. This transforms your strategy into an AI-assisted trading system that understands market structure visually and numerically.
+
+[VISUEL: Le graphique NinjaTrader 8A_VERIFIER est affiché. L'utilisateur fait un clic droit sur le graphique, sélectionne "Strategies", puis choisit "aChrisImageRecogAPI" dans la liste des stratégies disponibles et clique sur "Apply".
+Ensuite, l'écran est divisé : à gauche, la console du serveur Flask affiche des logs. À droite, le graphique NinjaTrader.
+Les logs du serveur Flask montrent :
+- "ask : Requête reçue !"
+- "LCV bien reçus : 100A_VERIFIER"
+- "res trouvées : ['Chart - ES DEC23']"
+- "nitro détecté : Chart - ES DEC23"
+- "screenshot OK -> debug_screenshot.png"
+- "appel OpenAI Vision..."
+Après un court délai, la console Flask affiche la réponse complète de l'IA, qui inclut :
+- "SUMMARY of Detected Patterns"
+- "Market Context"
+- "OHLCV Validation"
+- "Directional Analysis"
+- "SCORES" avec "LONG relevance": 0.75 et "SHORT relevance": 0.25.
+- "Final Remarks"
+- "PIN RESPONSE" avec "score long = 0.75", "score short = 0.25" et "Temps total = 16.25 sec".
+Sur le graphique NinjaTrader, en haut à droite, le texte "long score: 0.75 / short score: 0.25" est affiché.
+Une fenêtre d'explorateur de fichiers s'ouvre, montrant le fichier "debug_screenshot.png". Ce fichier est ensuite ouvert, affichant une image du graphique NinjaTrader.]
+Live Demo. In the next part of the video, I'll activate the strategy inside NinjaTrader. The platform will automatically send the latest open, high, low, close and volume data to the Flask server, and a screenshot of the chart will be captured. After roughly 15 seconds, the AI response will come back. It includes the detected pattern, the market context, and the probability scores for both long and short scenarios. Here, we can see that the Flask API successfully received the request from NinjaTrader and is now processing the data. Once the analysis is complete, the AI returns a detailed breakdown. According to the model, the chart shows a bullish continuation pattern, potentially forming a cup and handle, suggesting upward momentum. The recent price structure displays higher highs and higher lows, although there is also a period of consolidation, which can introduce some volatility. The probability of an upward move increases because the price has just broken out of that consolidation zone, and the trading volume appears to support the move. Finally, the AI provides a score, a 75% relevance for a long position, with a total processing time of about 16 seconds. Back in NinjaTrader, we can see these scores displayed on the upper right side of the chart. They can now be used to trigger additional logic and potentially execute trades automatically. And here's the actual screenshot captured by the Flask server and sent to the AI for analysis. It's important to make sure the chart is fully visible, with no other windows covering it, so the image can be processed correctly.
+
+[VISUEL: Un diagramme de flux animé sur un fond bleu clair, similaire au précédent, mais avec des flèches animées pour montrer le cycle.
+- Boîte "1A_VERIFIER. Ninjatrader" : "collects the market data and sends it once per bar".
+- Boîte "2A_VERIFIER. Flask API" : "captures a screenshot and sends everything to GPT-4o Vision".
+- Boîte "3A_VERIFIER. GPT-4o Vision" : "The AI analyzes the chart detects patterns and calculates directional probabilities".
+- Boîte "4A_VERIFIER. Ninjatrader" : "receives the LONG and SHORT scores and uses them for trading decisions".
+Le texte "15A_VERIFIER seconds" apparaît au centre du diagramme.]
+NinjaTrader collects the market data and sends it once per bar. Flask captures a screenshot, combines it with the open high low close volume candles, and sends everything to GPT-4o Vision. The AI analyzes the chart, detects patterns, evaluates momentum and structure and calculates directional probabilities. NinjaTrader receives the long and short scores and uses them for trading decisions. The full cycle takes around 15 seconds from start to finish.
+
+[VISUEL: Un fond noir flou avec du code en arrière-plan. Un bouton blanc "Subscribe" avec des icônes de pouce levé et de cloche apparaît. Le curseur clique sur le pouce levé, puis sur "Subscribe" qui devient "Subscribed", et la cloche est activée. Enfin, le texte "Thanks for watching" apparaît.]
+If you want the complete source code for both NinjaTrader and Flask, just let me know in the comments. Don't forget to like the video, subscribe, and activate notifications if you want more tutorials like this. Thanks for watching and enjoy building your own AI-powered trading tools.

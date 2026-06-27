@@ -1,0 +1,11 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: k1TKN8iGDao.mp4]
+---
+Je suis désolé, mais je ne peux pas transcrire cette vidéo en suivant toutes les instructions que vous avez données.
+
+La vidéo fournie est en **anglais** et le locuteur est **Rayner Teo**, et non Mustapha Belkhayate. Je ne peux donc pas transcrire l'audio en français ni l'attribuer à Mustapha Belkhayate.
+
+Si vous souhaitez une transcription de cette vidéo en anglais, avec l'intégration visuelle et les règles mises en évidence, veuillez me le faire savoir.

@@ -1,0 +1,285 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: -KKuZb5Z5aU.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+[VISUEL: Écran affichant un disclaimer sur le trading financier.]
+[AUDIO]
+Disclaimer: Les informations contenues dans cette vidéo sont à des fins éducatives et informationnelles uniquement et ne doivent pas être considérées comme des conseils d'investissement, fiscaux, juridiques ou financiers. Les opinions exprimées sont celles de l'auteur et ne reflètent pas nécessairement les opinions d'une entreprise ou d'une organisation. Les performances passées ne sont pas indicatives des résultats futurs. Le trading comporte des risques importants et peut entraîner la perte de capital. Vous devez consulter un professionnel qualifié avant de prendre toute décision d'investissement.
+
+[VISUEL: Animation du logo "TTrades" sur fond noir.]
+
+[VISUEL: Écran blanc avec le texte "Easy Daily Bias" à gauche et le logo "TTrades" à droite.]
+[AUDIO]
+Comment ça va tout le monde ? Dans cette vidéo, nous allons parler d'un cadre quotidien simple. Cela va utiliser les clôtures de bougies ainsi que la taille des mèches. Donc, si vous n'avez pas encore vu ma vidéo sur l'équilibre, ma vidéo sur la clôture de bougie 2 et bougie 3, je vous conseille de les regarder d'abord.
+
+[VISUEL: Écran blanc avec le titre "Framework". Deux diagrammes de bougies vertes sont affichés.
+- À gauche, "Expecting Reversal" : Une bougie verte avec une longue mèche inférieure et une courte mèche supérieure. Une flèche courbe indique que le prix ouvre, monte au-dessus du haut de la bougie précédente, puis redescend pour clôturer près du milieu (EQ) ou du bas de la bou bougie précédente.
+- À droite, "Expecting Continuation" : Une bougie verte avec une courte mèche inférieure et une longue mèche supérieure. Une flèche courbe indique que le prix ouvre, descend sous le milieu (EQ) de la bougie précédente, puis remonte pour clôturer près du haut de la bougie précédente.]
+[AUDIO]
+Ceci est basé sur le fait que je vais soit chercher un renversement, soit une continuation. Si je cherche un renversement, je vais toujours encadrer ce renversement par rapport au plus haut ou au plus bas du jour précédent.
+
+Donc ici, vous pouvez voir, nous avons eu une journée haussière. Nous avons clôturé près du plus haut. Je chercherais le jour suivant à ouvrir, à trader dans le plus haut du jour précédent, à avoir un renversement formé, et ensuite je pourrais chercher à le trader de nouveau dans la fourchette, en cherchant cet EQ ou le plus bas du jour précédent.
+
+Maintenant, si je cherche une continuation, je chercherai le prix à ouvrir, à trader plus bas d'abord, à respecter l'EQ de la fourchette du jour précédent, puis à trader à la hausse et à travers le plus haut du jour précédent.
+
+[VISUEL: Écran blanc avec le titre "Reversal". Trois sections sont affichées.
+- Section 1A_VERIFIER (gauche) : Une bougie verte (jour précédent). Une flèche courbe indique que le prix ouvre, monte au-dessus du haut de la bougie précédente.
+- Section 2A_VERIFIER (milieu) : Une bougie noire (jour actuel) qui a ouvert, a fait une petite mèche supérieure au-dessus du haut de la bougie précédente, puis a clôturé en dessous du milieu de la bougie précédente.
+- Section 3A_VERIFIER (droite) : Un graphique en chandeliers montrant une séquence de bougies journalières. Une bougie verte est suivie d'une bougie noire qui a balayé le plus haut de la bougie verte précédente (indiqué par une ligne horizontale bleue) et a ensuite chuté.]
+[AUDIO]
+Regardons à quoi ressemblerait un exemple de renversement. Ici, vous pouvez voir, nous voulons voir le prix ouvrir, trader plus haut d'abord, dans le plus haut du jour précédent, qui est notre niveau important. Et ensuite, avoir une mèche peu profonde pour former un renversement et trader plus bas. Maintenant, si vous ne savez pas pourquoi nous voulons une mèche peu profonde, une mèche peu profonde soutient l'expansion à la baisse, nous pouvons donc trader cela plus bas dans le jour du renversement. Si nous avons une grande mèche, alors nous allons vouloir attendre la bougie 3 ou la bougie suivante pour trader la continuation. Si vous n'avez pas encore vu ma vidéo sur la taille des mèches, veuillez la consulter. Mais essentiellement, au-dessus de ce plus haut du jour précédent, nous allons vouloir voir un changement d'état de livraison sur une période inférieure pour confirmer la mèche de cette bougie journalière, puis la trader plus bas. Je vais généralement chercher cela sur les graphiques horaires ou 30 minutes, si c'est en Asie ou à Londres, ou à New York, j'utiliserai la période de 5 minutes ou 15 minutes.
+
+[VISUEL: Écran blanc avec le titre "Continuation". Trois sections sont affichées.
+- Section 1A_VERIFIER (gauche) : Une bougie verte (jour précédent). Une flèche courbe indique que le prix ouvre, descend sous le milieu (EQ) de la bougie précédente.
+- Section 2A_VERIFIER (milieu) : Une bougie verte (jour actuel) qui a ouvert, a fait une petite mèche inférieure sous le milieu (EQ) de la bougie précédente, puis a clôturé au-dessus du haut de la bougie précédente.
+- Section 3A_VERIFIER (droite) : Un graphique en chandeliers montrant une séquence de bougies journalières. Une bougie noire est suivie d'une bougie verte qui a balayé le plus bas de la bougie noire précédente (indiqué par une ligne horizontale bleue) et a ensuite monté.]
+[AUDIO]
+Maintenant, lorsque je cherche une continuation, je veux voir le prix ouvrir, respecter l'EQ de la fourchette du jour précédent, puis trader plus haut. Nous avons donc une ouverture basse, puis la formation du corps avant d'avoir un plus haut et une clôture. Et de manière similaire à un renversement, j'utiliserai un changement d'état de livraison intraday pour confirmer la mèche de cette bougie sur une période supérieure. Donc, lorsque nous zoomons ici, vous pouvez voir que nous avons un changement d'état de livraison, ce qui confirme cette mèche sur une période supérieure, et ensuite nous pouvons trader le corps de la bougie sur une période supérieure. Alors, allons dans TradingView et passons en revue quelques exemples de cela.
+
+[VISUEL: Graphique journalier de YM (Dow Futures). Le prix est en tendance haussière. Des zones jaunes sont mises en évidence, indiquant des fair value gaps. Des lignes horizontales bleues indiquent les plus hauts et les plus bas des jours précédents, ainsi que l'EQ.]
+[AUDIO]
+Nous voici dans notre premier exemple. Nous sommes sur YM sur le graphique journalier. Maintenant, donnons d'abord un peu de contexte. Vous pouvez voir que nous sommes en tendance haussière et que nous créons de nouveaux plus bas protégés. Vous pouvez voir que nous atteignons un fair value gap et nous clôturons au-dessus de la bougie de clôture baissière dans ce fair value gap. Donc, maintenant ce plus bas est protégé si nous allons trader plus haut. Nous atteignons ensuite ce fair value gap ici. Et qu'est-ce que cette bougie précédente fait ? Elle clôture au-dessus des bougies de clôture baissières dans ce fair value gap. Donc, maintenant ce plus bas est protégé. C'est donc une clôture de bougie 2 idéale. Maintenant, en regardant cela, si nous nous attendons à une continuation, que devons-nous marquer ? Eh bien, avec tous ces jours, nous allons juste marquer l'EQ ainsi que notre plus haut et plus bas du jour précédent. Dans ce cas, puisque nous sommes haussiers, le plus haut du jour précédent. Maintenant, si nous sommes haussiers, en cherchant une continuation, nous voulons voir le prix ouvrir, trader plus bas d'abord, respecter l'EQ, puis trader plus haut à travers le plus haut du jour précédent. Maintenant, ma période préférée pour observer cela est l'heure, alors passons au graphique horaire.
+
+[VISUEL: Graphique horaire de YM. Les lignes verticales indiquent les jours. Les zones jaunes et les lignes bleues (EQ, plus haut/bas du jour précédent) sont toujours visibles. Le prix ouvre, descend sous l'EQ, puis remonte.]
+[AUDIO]
+Donc ici, vous pouvez voir, nous avons marqué l'EQ du jour précédent, ainsi que le plus haut du jour précédent. Alors, que voulons-nous voir de ce jour ? Eh bien, nous voulons voir le prix ouvrir, trader plus bas, dans ce fair value gap, en respectant l'EQ. Et quand je dis respecter l'EQ, il n'est pas idéal d'avoir des clôtures sur le graphique horaire en dessous de cela. Non pas qu'il ne puisse pas inverser et s'étendre, c'est juste moins probable. Donc, en laissant cela se dérouler, voyons comment cela fonctionne.
+
+[VISUEL: Le prix respecte l'EQ, puis commence à trader plus haut.]
+[AUDIO]
+Vous pouvez voir que nous respectons cet EQ, puis nous commençons à trader plus haut.
+
+[VISUEL: Le prix continue de monter, dépassant le plus haut du jour précédent.]
+[AUDIO]
+Alors, où voulons-nous voir ce trade aller ? Eh bien, parce qu'il a une mèche plus grande, de nouveau à l'ouverture journalière, mais notre plus haut du jour précédent ou au-delà.
+
+[VISUEL: Le prix continue de monter, atteignant de nouveaux plus hauts. La bougie journalière se forme avec une petite mèche inférieure et un corps vert étendu.]
+[AUDIO]
+Et là, vous pouvez voir, nous avons notre ouverture, notre plus bas, et ensuite nous avons notre plus haut, n'est-ce pas ? Et nous tradons dans ces plus hauts précédents sur la gauche ici. C'est donc un bon exemple de continuation et de ce que vous voulez voir. Vous voulez voir le prix ouvrir, faire un plus bas ou cette mèche inférieure, puis trader plus haut à travers son plus haut du jour précédent.
+
+[VISUEL: Graphique horaire de USDCAD. Le prix est en tendance baissière. Une bougie noire est suivie d'une autre bougie noire qui a balayé le plus bas de la bougie précédente. Des fair value gaps sont mis en évidence.]
+[AUDIO]
+Maintenant, en regardant une continuation. Nous voici sur USDCAD. Et qu'avons-nous ? Nous avons une clôture de bougie 2. Une belle clôture baissière. Donc, si nous cherchons une continuation, que voulons-nous marquer ? Nous voulons marquer l'EQ ainsi que le plus bas du jour précédent. Maintenant, quand je dis respecter l'EQ, le prix peut former son plus haut en dessous de ce niveau. Il n'a pas besoin d'aller le toucher. Donc, ce que je chercherai, ce sont des points d'intérêt en dessous de cet EQ. Donc, en marquant cela, nous avons un fair value gap ici et un fair value gap ici. Au lieu d'essayer de deviner lequel aura une réaction, je vais attendre qu'un swing se forme dans cette zone ou un nouveau swing protégé. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix descend, ne respectant pas le premier fair value gap, puis le deuxième. Il continue de descendre, formant de nouveaux plus bas.]
+[AUDIO]
+Vous pouvez voir que nous ne respectons pas ce fair value gap. Je peux donc simplement le supprimer. Maintenant, ici, voyons, avons-nous une clôture de bougie 2 ? Non. Avons-nous une clôture de bougie 2 ? Non. Mais nous avons une clôture de bougie 3, ce qui est idéal, car nous formons un nouveau swing protégé ici. Maintenant, je peux anticiper que cette mèche sur une période supérieure s'est formée, n'est-ce pas ? Parce que c'est ce que je cherche au renversement, soit sur la période inférieure, l'heure, soit sur la période inférieure en utilisant une clôture de bougie, je peux chercher le prix à trader dans ce plus bas du jour précédent, ou même plus bas.
+
+[VISUEL: Le prix continue de descendre, atteignant le plus bas du jour précédent et le dépassant. L'indicateur SMT (Smart Money Tool) est activé, montrant une divergence avec le dollar.]
+[AUDIO]
+Et vous pouvez voir, là nous obtenons un mouvement à travers ce plus bas du jour précédent comme première cible, et cette expansion à la baisse. Et si nous voulons regarder cela avec mon indicateur le marquant, vous pouvez voir que nous avons également ce SMT avec le dollar au renversement, ce changement d'état de livraison, et ensuite nous avons le T-spot marqué, qui dans ce cas est juste l'équilibre, et dans ce cas, nous chercherons ce point d'intérêt et chercherons à le trader plus bas.
+
+[VISUEL: Graphique horaire de YM. Le prix est en tendance baissière. Une bougie verte est suivie d'une bougie noire qui a balayé le plus bas de la bougie verte précédente. L'EQ et le plus bas du jour précédent sont marqués.]
+[AUDIO]
+Maintenant, regardons un renversement. Ici, vous pouvez voir, nous avons l'EQ marqué, et notre plus bas du jour précédent est juste ici. Donc, si nous allons chercher une continuation, que voulons-nous voir ? Le prix ouvrir, trader plus haut d'abord, en respectant ce fair value gap et l'EQ, puis trader plus bas dans le plus bas du jour précédent et au-delà. Mais que se passe-t-il ?
+
+[VISUEL: Le prix ouvre et trade plus bas d'abord, ce qui est haussier. L'indicateur SMT est activé, montrant une divergence.]
+[AUDIO]
+Nous ouvrons et nous tradons plus bas d'abord. C'est une ouverture basse, ce qui est haussier. Quand le prix ouvre et fait un plus bas d'abord, c'est haussier. Quand le prix ouvre et fait un plus haut d'abord, c'est baissier. Alors, que cherchons-nous avec un renversement ? Eh bien, nous voulons voir le prix ouvrir, atteindre ce plus bas du jour précédent, qui est ce niveau important. Ensuite, nous avons besoin de quoi ? Soit un changement d'état de livraison sur la période horaire, si c'est plus tôt dans la journée, soit si c'est à New York, un changement d'état de livraison sur la période de 15 minutes ou 5 minutes. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix remonte, formant une mèche inférieure, puis continue de monter. L'indicateur SMT est visible, confirmant le changement d'état de livraison.]
+[AUDIO]
+Ici, vous pouvez voir, nous avons un SMT au plus bas du jour précédent avec un changement d'état de livraison. Donc, maintenant nous avons tout mis en place avec une petite mèche pour voir un renversement trader de nouveau dans la fourchette. Où pourrions-nous chercher à ce que cela aille ? De nouveau vers l'EQ ou ce fair value gap ici. Alors, voyons comment cela se déroule.
+
+[VISUEL: Le prix remonte, dépassant l'EQ et le fair value gap, puis continue de monter. La bougie journalière se forme avec une longue mèche inférieure et un corps vert étendu.]
+[AUDIO]
+Et là, vous pouvez voir, nous allons bien au-delà de l'EQ, et nous avons un beau mouvement à partir de ce plus bas du jour précédent, qui forme un renversement. Maintenant, regardons cela une fois de plus. Si je cherche une continuation, que cherchons-nous ? Le prix à ouvrir, respecter l'EQ du jour précédent, et ensuite chercher au-dessus du plus haut du jour précédent. Alors, voyons, ouvrons-nous et tradons-nous plus bas d'abord ? Oui, nous sommes allés dans ce fair value gap ici et nous avons clôturé au-dessus. Alors, voyons si nous obtenons un mouvement dans le plus haut du jour précédent.
+
+[VISUEL: Le prix remonte, atteignant le plus haut du jour précédent, puis forme une petite mèche supérieure et commence à retracer. L'indicateur SMT est visible.]
+[AUDIO]
+Nous obtenons un mouvement dans le plus haut du jour précédent, et ensuite nous le faisons former un renversement ou un retracement ici. Voyons ce qui se passe. Et vous pouvez voir, un peu d'action de prix désordonnée ici, mais nous tradons plus haut. Donc, une chose dont je veux parler, oui, c'est un swing protégé, n'est-ce pas ? Mais ce swing n'est protégé que jusqu'à ce qu'il atteigne la liquidité. Une fois qu'il atteint la liquidité, c'est un schéma que je vois souvent, de prendre la liquidité, puis il balayera un swing protégé, et ensuite il aura son vrai mouvement. Donc, c'est juste un exemple de renversement, n'est-ce pas ? Donc, pour récapituler, balayer notre plus bas du jour précédent, a un changement d'état de livraison sur une période inférieure, et ensuite peut regarder vers cet EQ. Sur une journée haussière ou sur cette continuation haussière, je veux voir le prix ouvrir, faire un plus bas, puis trader plus haut dans le plus bas du jour précédent ou au-delà.
+
+[VISUEL: Graphique journalier de GBPUSD. Le prix est en tendance haussière. Une bougie noire est suivie d'une bougie verte qui a balayé le plus bas de la bougie noire précédente. L'EQ et le plus haut du jour précédent sont marqués.]
+[AUDIO]
+Dans cet exemple suivant, nous sommes sur GBPUSD, et je veux clarifier l'importance d'avoir un biais sur une période supérieure. Je ne vais pas juste trader ce schéma. Je veux en fait l'aligner avec un biais. Donc ici, vous pouvez voir, nous avons une clôture de bougie 3 idéale et un nouveau swing protégé, ce qui est haussier. Donc, idéalement, je veux encadrer à la hausse ici. Passons à la période horaire.
+
+[VISUEL: Graphique horaire de GBPUSD. Le prix est en tendance haussière. Le plus haut du jour précédent est marqué. Le prix ouvre, descend, puis remonte.]
+[AUDIO]
+Nous voici sur la période horaire, et nous avons notre plus haut du jour précédent juste ici. Et que voulons-nous voir ? Eh bien, idéalement, nous voulons voir le prix ouvrir, trader plus bas, respecter l'EQ, puis trader plus haut. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix ouvre, descend, puis remonte, atteignant le plus haut du jour précédent. Il forme une petite mèche supérieure et commence à retracer.]
+[AUDIO]
+Vous pouvez voir que le prix trade dans ce plus haut du jour précédent d'abord et a un changement d'état de livraison. Maintenant, est-ce baissier ? Oui, c'est baissier, mais cela peut encore faire partie d'un retracement, pas d'un renversement complet. Puisque je suis toujours haussier, je veux toujours anticiper que c'est un retracement pour ensuite le trader plus haut. Mais je vais devoir attendre quoi ? Que la mèche inférieure se forme et utiliser un changement d'état de livraison. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix descend, formant une mèche inférieure, puis remonte. L'indicateur SMT est visible.]
+[AUDIO]
+Vous pouvez voir que nous obtenons ce mouvement à la baisse, ce qui est possible à trader, n'est-ce pas ? Ce serait trader le renversement, de nouveau vers l'EQ de la fourchette, ou de nouveau dans les points d'intérêt autour de l'EQ.
+
+[VISUEL: Le prix remonte, puis redescend, formant une consolidation. L'indicateur SMT est visible.]
+[AUDIO]
+Ici, vous pouvez voir, nous avons une petite consolidation, nous balayons, respectons ce fair value gap, balayons une fois de plus. Et ensuite, qu'avons-nous ? Nous avons un changement d'état de livraison avec une clôture de bougie 2 idéale. C'est là que je pourrais prendre une entrée à l'ouverture de la bougie 3 pour la trader plus haut. Ou que pourrais-je faire ? C'est une clôture de bougie 2 horaire. Je pourrais regarder la période de 5 minutes pour trader une continuation de 5 minutes dans la bougie 3. Mais vous pouvez voir comment, si vous avez un biais, vous voulez venir et garder ce biais, et laisser les périodes s'aligner avec ce biais. Et vous pouvez voir, oui, nous obtenons un retracement ici, du renversement sur le plus haut du jour précédent, mais ce n'est qu'un retracement pour continuer plus haut dans cette fourchette journalière.
+
+[VISUEL: Le prix continue de monter, atteignant de nouveaux plus hauts. La bougie journalière se forme avec une longue mèche inférieure et un corps vert étendu.]
+[AUDIO]
+Maintenant, c'est un concept fractal. Donc, nous venons de passer en revue cela sur les périodes journalières et horaires, mais vous pouvez voir ici que nous avons eu cette expansion tout au long de la journée, et ensuite juste à 11h, qu'avons-nous ? Nous avons un renversement qui se forme. Donc, si je voulais trader un renversement sur une période inférieure, comment ferais-je cela ? Eh bien, c'est la même chose, mais au lieu du plus haut du jour précédent, ce sera le plus haut de la bougie précédente. Donc ici, vous pouvez voir, si je suis sur le graphique horaire, j'utiliserais le plus haut de 10h pour encadrer un renversement. Maintenant, je veux avoir une petite mèche, et ensuite je peux le trader plus bas. Passons à la période inférieure et vérifions cela.
+
+[VISUEL: Graphique 5A_VERIFIER minutes de GBPUSD. Le prix est en tendance haussière. Le plus haut de la bougie précédente est marqué. Le prix ouvre, descend, puis remonte.]
+[AUDIO]
+Nous voici sur la période de 5 minutes, et nous avons marqué le plus haut de la bougie précédente. Maintenant, idéalement, nous voulons que le plus haut de cette bougie se forme tôt dans la bougie et ait une petite mèche. Mais qu'est-ce qui confirme cela ? Allons-nous juste utiliser une clôture comme celle-ci ? Non, nous voulons attendre quoi ? Le changement d'état de livraison. Alors, voyons ce qui se passe ici.
+
+[VISUEL: Le prix descend, formant une mèche inférieure, puis remonte. Il y a une clôture sous le plus bas de la bougie précédente, formant un changement d'état de livraison.]
+[AUDIO]
+Vous pouvez voir que nous obtenons cette clôture en dessous, ce qui forme un changement d'état de livraison, ce qui protège ensuite ce plus haut et nous pouvons voir un mouvement à la baisse. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix descend fortement, atteignant de nouveaux plus bas. L'indicateur SMT est visible.]
+[AUDIO]
+Et vous pouvez voir, c'est assez désordonné, car nous sommes à contre-tendance, mais nous avons le SMT à ce plus haut, car l'euro et le dollar ont pris ce plus haut, tandis que le GBP ne l'a pas fait, et ensuite nous allons chercher ces plus bas cibles.
+
+[VISUEL: Le prix continue de descendre, atteignant les plus bas cibles. L'indicateur SMT est visible.]
+[AUDIO]
+La principale chose que je voulais souligner est que c'est un concept fractal. Donc, généralement, bien que je l'utilise normalement sur la période journalière avec l'heure, et que je trade cet intraday, vous pouvez l'utiliser sur les périodes inférieures telles que l'heure et les 5 minutes. Cependant, je ne préfère pas descendre en dessous de la période de 4 heures, car cela devient un peu plus désordonné. Si je vais trader ces renversements ou ces bougies 2, vous pouvez consulter ma vidéo précédente sur le trading de la bougie 2, alors je vais généralement me concentrer sur le trading d'une bougie de renversement sur la période journalière ou 4 heures. Une fois que vous descendez un peu plus bas que la période de 4 heures, cela devient un peu plus désordonné et plus difficile.
+
+[VISUEL: Graphique 4A_VERIFIER heures de USDCAD. Le prix est en tendance baissière. Une bougie verte est suivie d'une bougie noire qui a balayé le plus haut de la bougie verte précédente. L'EQ et le plus bas du jour précédent sont marqués.]
+[AUDIO]
+Faisons un dernier exemple ici, et nous montrerons la nature fractale, car nous allons faire cela sur la période de 4 heures, et ensuite avec la 4 heures, avec quoi l'associons-nous ? La période de 15 minutes. Donc ici, vous pouvez voir, nous avons eu trois bougies baissières. Nous avons un balayage ici, et ensuite une clôture formant un changement d'état de livraison.
+
+[VISUEL: Le prix descend, puis remonte, formant une consolidation. Le plus bas de la fourchette est marqué. L'indicateur SMT est visible.]
+[AUDIO]
+Après ces deux bougies d'expansion, nous n'avons pas encore atteint ce plus bas de la fourchette, nous avons donc toujours une cible ouverte. Ici, nous avons une consolidation. Donc, si nous voulons trader loin d'une consolidation, que voulons-nous voir ? Nous voulons voir le plus haut précédent balayé pour ensuite le trader plus bas. Nous anticiperions donc que le prix balaye ce plus haut, puis le trade plus bas. S'il a une petite mèche, alors nous pouvons chercher à trader la bougie de renversement. S'il a une grande mèche, alors nous n'allons pas vouloir trader la bougie de renversement, nous attendrons la bougie suivante. Passons à la période de 15 minutes pour vérifier cela.
+
+[VISUEL: Graphique 15A_VERIFIER minutes de USDCAD. Le prix est en tendance baissière. La consolidation est plus visible. Le prix balaye un plus haut, puis descend fortement.]
+[AUDIO]
+Donc ici, vous pouvez voir la consolidation un peu mieux. Et comment pouvez-vous voir cela ? Eh bien, nous ne pouvons pas former de continuation ici. Nous ne pouvons pas obtenir la clôture pour former un swing protégé, donc ensuite nous faisons un nouveau plus haut. Et ici, vous pouvez voir, nous ne pouvons pas non plus former une nouvelle continuation. Donc, c'est juste une continuation de la consolidation, donc je veux voir un autre plus haut balayé.
+
+[VISUEL: Le prix balaye un plus haut, puis descend fortement. L'indicateur SMT est visible.]
+[AUDIO]
+En mettant l'indicateur, voyons ce qui se passe. Donc ici, vous pouvez voir, nous allons dans ce plus haut. Maintenant, vais-je faire confiance à cela pour l'instant ? Non, je dois attendre une clôture à travers ou un changement d'état de livraison, ce qui confirme ensuite que cette mèche a été créée.
+
+[VISUEL: Le prix balaye un plus haut, puis descend fortement. Il y a une clôture sous le plus bas de la bougie précédente, formant un changement d'état de livraison.]
+[AUDIO]
+Et vous pouvez voir, nous avons du mal à clôturer, mais ensuite tout de suite nous clôturons après. Donc, si je vais trader un renversement, alors je pourrais chercher à trader cette position ici, mettre mon stop sur ce plus haut, et ensuite chercher 2R, ou dans ce cas c'est 1.83. Si je veux l'ajuster à 2R, je pourrais utiliser le corps là. Comme je ne veux pas le voir trader de nouveau à la hausse dans cela. Et voyons ce qui se passe.
+
+[VISUEL: Le prix descend fortement, atteignant la cible de 2R.]
+[AUDIO]
+Et là, vous pouvez voir, nous atteignons notre 2R. C'est donc juste un bon exemple de lorsque vous cherchez une continuation, je veux voir le prix ouvrir, atteindre un point d'intérêt, avoir une formation qui confirme la mèche de cette bougie sur une période supérieure, et ensuite je peux chercher à trader cette continuation. Dans un renversement, je veux voir le prix ouvrir, trader plus haut dans ce plus haut du jour précédent ou ce plus haut de la bougie précédente, avoir un changement d'état de livraison, ce qui confirme ce plus haut de la mèche, et ensuite je peux chercher à trader le renversement s'il a une mèche suffisamment petite.
+
+[VISUEL: Écran blanc avec le texte "Easy Daily Bias" à gauche et le logo "TTrades" à droite.]
+[AUDIO]
+J'espère que vous avez apprécié cette vidéo. Si vous avez des questions, laissez-les dans la section des commentaires ci-dessous. Et avec cela, j'espère que vous passerez une excellente fin de journée, et je vous verrai la prochaine fois.
+
+[VISUEL: Écran noir avec le texte "TTrades" et "THANKS FOR WATCHING" et "LIKE & SUBSCRIBE".]
+[AUDIO]
+(Musique de fin)[VISUEL: Écran affichant un disclaimer sur le trading financier.]
+Disclaimer: Les informations contenues dans cette vidéo sont à des fins éducatives et informationnelles uniquement et ne doivent pas être considérées comme des conseils d'investissement, fiscaux, juridiques ou financiers. Les opinions exprimées sont celles de l'auteur et ne reflètent pas nécessairement les opinions d'une entreprise ou d'une organisation. Les performances passées ne sont pas indicatives des résultats futurs. Le trading comporte des risques importants et peut entraîner la perte de capital. Vous devez consulter un professionnel qualifié avant de prendre toute décision d'investissement.
+
+[VISUEL: Animation du logo "TTrades" sur fond noir.]
+
+[VISUEL: Écran blanc avec le texte "Easy Daily Bias" à gauche et le logo "TTrades" à droite.]
+Comment ça va tout le monde ? Dans cette vidéo, nous allons parler d'un cadre quotidien simple. Cela va utiliser les clôtures de bougies ainsi que la taille des mèches. Donc, si vous n'avez pas encore vu ma vidéo sur l'équilibre, ma vidéo sur la clôture de bougie 2 et bougie 3, je vous conseille de les regarder d'abord.
+
+[VISUEL: Écran blanc avec le titre "Framework". Deux diagrammes de bougies vertes sont affichés.
+- À gauche, "Expecting Reversal" : Une bougie verte avec une longue mèche inférieure et une courte mèche supérieure. Une flèche courbe indique que le prix ouvre, monte au-dessus du haut de la bougie précédente, puis redescend pour clôturer près du milieu (EQ) ou du bas de la bougie précédente.
+- À droite, "Expecting Continuation" : Une bougie verte avec une courte mèche inférieure et une longue mèche supérieure. Une flèche courbe indique que le prix ouvre, descend sous le milieu (EQ) de la bougie précédente, puis remonte pour clôturer près du haut de la bougie précédente.]
+Ceci est basé sur le fait que je vais soit chercher un renversement, soit une continuation. Si je cherche un renversement, je vais toujours encadrer ce renversement par rapport au plus haut ou au plus bas du jour précédent.
+
+Donc ici, vous pouvez voir, nous avons eu une journée haussière. Nous avons clôturé près du plus haut. Je chercherais le jour suivant à ouvrir, à trader dans le plus haut du jour précédent, à avoir un renversement formé, et ensuite je pourrais chercher à le trader de nouveau dans la fourchette, en cherchant cet EQ ou le plus bas du jour précédent.
+
+Maintenant, si je cherche une continuation, je chercherai le prix à ouvrir, à trader plus bas d'abord, à respecter l'EQ de la fourchette du jour précédent, puis à trader à la hausse et à travers le plus haut du jour précédent.
+
+[VISUEL: Écran blanc avec le titre "Reversal". Trois sections sont affichées.
+- Section 1A_VERIFIER (gauche) : Une bougie verte (jour précédent). Une flèche courbe indique que le prix ouvre, monte au-dessus du haut de la bougie précédente.
+- Section 2A_VERIFIER (milieu) : Une bougie noire (jour actuel) qui a ouvert, a fait une petite mèche supérieure au-dessus du haut de la bougie précédente, puis a clôturé en dessous du milieu de la bougie précédente.
+- Section 3A_VERIFIER (droite) : Un graphique en chandeliers montrant une séquence de bougies journalières. Une bougie verte est suivie d'une bougie noire qui a balayé le plus haut de la bougie verte précédente (indiqué par une ligne horizontale bleue) et a ensuite chuté.]
+Regardons à quoi ressemblerait un exemple de renversement. Ici, vous pouvez voir, nous voulons voir le prix ouvrir, trader plus haut d'abord, dans le plus haut du jour précédent, qui est notre niveau important. Et ensuite, avoir une mèche peu profonde pour former un renversement et trader plus bas. Maintenant, si vous ne savez pas pourquoi nous voulons une mèche peu profonde, une mèche peu profonde soutient l'expansion à la baisse, nous pouvons donc trader cela plus bas dans le jour du renversement. Si nous avons une grande mèche, alors nous allons vouloir attendre la bougie 3 ou la bougie suivante pour trader la continuation. Si vous n'avez pas encore vu ma vidéo sur la taille des mèches, veuillez la consulter. Mais essentiellement, au-dessus de ce plus haut du jour précédent, nous allons vouloir voir un changement d'état de livraison sur une période inférieure pour confirmer la mèche de cette bougie journalière, puis la trader plus bas. Je vais généralement chercher cela sur les graphiques horaires ou 30 minutes, si c'est en Asie ou à Londres, ou à New York, j'utiliserai la période de 5 minutes ou 15 minutes.
+
+[VISUEL: Écran blanc avec le titre "Continuation". Trois sections sont affichées.
+- Section 1A_VERIFIER (gauche) : Une bougie verte (jour précédent). Une flèche courbe indique que le prix ouvre, descend sous le milieu (EQ) de la bougie précédente.
+- Section 2A_VERIFIER (milieu) : Une bougie verte (jour actuel) qui a ouvert, a fait une petite mèche inférieure sous le milieu (EQ) de la bougie précédente, puis a clôturé au-dessus du haut de la bougie précédente.
+- Section 3A_VERIFIER (droite) : Un graphique en chandeliers montrant une séquence de bougies journalières. Une bougie noire est suivie d'une bougie verte qui a balayé le plus bas de la bougie noire précédente (indiqué par une ligne horizontale bleue) et a ensuite monté.]
+Maintenant, lorsque je cherche une continuation, je veux voir le prix ouvrir, respecter l'EQ de la fourchette du jour précédent, puis trader plus haut. Nous avons donc une ouverture basse, puis la formation du corps avant d'avoir un plus haut et une clôture. Et de manière similaire à un renversement, j'utiliserai un changement d'état de livraison intraday pour confirmer la mèche de cette bougie sur une période supérieure. Donc, lorsque nous zoomons ici, vous pouvez voir que nous avons un changement d'état de livraison, ce qui confirme cette mèche sur une période supérieure, et ensuite nous pouvons trader le corps de la bougie sur une période supérieure. Alors, allons dans TradingView et passons en revue quelques exemples de cela.
+
+[VISUEL: Graphique journalier de YM (Dow Futures). Le prix est en tendance haussière. Des zones jaunes sont mises en évidence, indiquant des fair value gaps. Des lignes horizontales bleues indiquent les plus hauts et les plus bas des jours précédents, ainsi que l'EQ.]
+Nous voici dans notre premier exemple. Nous sommes sur YM sur le graphique journalier. Maintenant, donnons d'abord un peu de contexte. Vous pouvez voir que nous sommes en tendance haussière et que nous créons de nouveaux plus bas protégés. Vous pouvez voir que nous atteignons un fair value gap et nous clôturons au-dessus de la bougie de clôture baissière dans ce fair value gap. Donc, maintenant ce plus bas est protégé si nous allons trader plus haut. Nous atteignons ensuite ce fair value gap ici. Et qu'est-ce que cette bougie précédente fait ? Elle clôture au-dessus des bougies de clôture baissières dans ce fair value gap. Donc, maintenant ce plus bas est protégé. C'est donc une clôture de bougie 2 idéale. Maintenant, en regardant cela, si nous nous attendons à une continuation, que devons-nous marquer ? Eh bien, avec tous ces jours, nous allons juste marquer l'EQ ainsi que notre plus haut et plus bas du jour précédent. Dans ce cas, puisque nous sommes haussiers, le plus haut du jour précédent. Maintenant, si nous sommes haussiers, en cherchant une continuation, nous voulons voir le prix ouvrir, trader plus bas d'abord, respecter l'EQ, puis trader plus haut à travers le plus haut du jour précédent. Maintenant, ma période préférée pour observer cela est l'heure, alors passons au graphique horaire.
+
+[VISUEL: Graphique horaire de YM. Les lignes verticales indiquent les jours. Les zones jaunes et les lignes bleues (EQ, plus haut/bas du jour précédent) sont toujours visibles. Le prix ouvre, descend sous l'EQ, puis remonte.]
+Donc ici, vous pouvez voir, nous avons marqué l'EQ du jour précédent, ainsi que le plus haut du jour précédent. Alors, que voulons-nous voir de ce jour ? Eh bien, nous voulons voir le prix ouvrir, trader plus bas, dans ce fair value gap, en respectant l'EQ. Et quand je dis respecter l'EQ, il n'est pas idéal d'avoir des clôtures sur le graphique horaire en dessous de cela. Non pas qu'il ne puisse pas inverser et s'étendre, c'est juste moins probable. Donc, en laissant cela se dérouler, voyons comment cela fonctionne.
+
+[VISUEL: Le prix respecte l'EQ, puis commence à trader plus haut.]
+Vous pouvez voir que nous respectons cet EQ, puis nous commençons à trader plus haut.
+
+[VISUEL: Le prix continue de monter, dépassant le plus haut du jour précédent.]
+Alors, où voulons-nous voir ce trade aller ? Eh bien, parce qu'il a une mèche plus grande, de nouveau à l'ouverture journalière, mais notre plus haut du jour précédent ou au-delà.
+
+[VISUEL: Le prix continue de monter, atteignant de nouveaux plus hauts. La bougie journalière se forme avec une petite mèche inférieure et un corps vert étendu.]
+Et là, vous pouvez voir, nous avons notre ouverture, notre plus bas, et ensuite nous avons notre plus haut, n'est-ce pas ? Et nous tradons dans ces plus hauts précédents sur la gauche ici. C'est donc un bon exemple de continuation et de ce que vous voulez voir. Vous voulez voir le prix ouvrir, faire un plus bas ou cette mèche inférieure, puis trader plus haut à travers son plus haut du jour précédent.
+
+[VISUEL: Graphique horaire de USDCAD. Le prix est en tendance baissière. Une bougie noire est suivie d'une autre bougie noire qui a balayé le plus bas de la bougie précédente. Des fair value gaps sont mis en évidence.]
+Maintenant, en regardant une continuation. Nous voici sur USDCAD. Et qu'avons-nous ? Nous avons une clôture de bougie 2. Une belle clôture baissière. Donc, si nous cherchons une continuation, que voulons-nous marquer ? Nous voulons marquer l'EQ ainsi que le plus bas du jour précédent. Maintenant, quand je dis respecter l'EQ, le prix peut former son plus haut en dessous de ce niveau. Il n'a pas besoin d'aller le toucher. Donc, ce que je chercherai, ce sont des points d'intérêt en dessous de cet EQ. Donc, en marquant cela, nous avons un fair value gap ici et un fair value gap ici. Au lieu d'essayer de deviner lequel aura une réaction, je vais attendre qu'un swing se forme dans cette zone ou un nouveau swing protégé. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix descend, ne respectant pas le premier fair value gap, puis le deuxième. Il continue de descendre, formant de nouveaux plus bas.]
+Vous pouvez voir que nous ne respectons pas ce fair value gap. Je peux donc simplement le supprimer. Maintenant, ici, voyons, avons-nous une clôture de bougie 2 ? Non. Avons-nous une clôture de bougie 2 ? Non. Mais nous avons une clôture de bougie 3, ce qui est idéal, car nous formons un nouveau swing protégé ici. Maintenant, je peux anticiper que cette mèche sur une période supérieure s'est formée, n'est-ce pas ? Parce que c'est ce que je cherche au renversement, soit sur la période inférieure, l'heure, soit sur la période inférieure en utilisant une clôture de bougie, je peux chercher le prix à trader dans ce plus bas du jour précédent, ou même plus bas.
+
+[VISUEL: Le prix continue de descendre, atteignant le plus bas du jour précédent et le dépassant. L'indicateur SMT (Smart Money Tool) est activé, montrant une divergence avec le dollar.]
+Et vous pouvez voir, là nous obtenons un mouvement à travers ce plus bas du jour précédent comme première cible, et cette expansion à la baisse. Et si nous voulons regarder cela avec mon indicateur le marquant, vous pouvez voir que nous avons également ce SMT avec le dollar au renversement, ce changement d'état de livraison, et ensuite nous avons le T-spot marqué, qui dans ce cas est juste l'équilibre, et dans ce cas, nous chercherons ce point d'intérêt et chercherons à le trader plus bas.
+
+[VISUEL: Graphique horaire de YM. Le prix est en tendance baissière. Une bougie verte est suivie d'une bougie noire qui a balayé le plus bas de la bougie verte précédente. L'EQ et le plus bas du jour précédent sont marqués.]
+Maintenant, regardons un renversement. Ici, vous pouvez voir, nous avons l'EQ marqué, et notre plus bas du jour précédent est juste ici. Donc, si nous allons chercher une continuation, que voulons-nous voir ? Le prix ouvrir, trader plus haut d'abord, en respectant ce fair value gap et l'EQ, puis trader plus bas dans le plus bas du jour précédent et au-delà. Mais que se passe-t-il ?
+
+[VISUEL: Le prix ouvre et trade plus bas d'abord, ce qui est haussier. L'indicateur SMT est activé, montrant une divergence.]
+Nous ouvrons et nous tradons plus bas d'abord. C'est une ouverture basse, ce qui est haussier. Quand le prix ouvre et fait un plus bas d'abord, c'est haussier. Quand le prix ouvre et fait un plus haut d'abord, c'est baissier. Alors, que cherchons-nous avec un renversement ? Eh bien, nous voulons voir le prix ouvrir, atteindre ce plus bas du jour précédent, qui est ce niveau important. Ensuite, nous avons besoin de quoi ? Soit un changement d'état de livraison sur la période horaire, si c'est plus tôt dans la journée, soit si c'est à New York, un changement d'état de livraison sur la période de 15 minutes ou 5 minutes. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix remonte, formant une mèche inférieure, puis continue de monter. L'indicateur SMT est visible, confirmant le changement d'état de livraison.]
+Ici, vous pouvez voir, nous avons un SMT au plus bas du jour précédent avec un changement d'état de livraison. Donc, maintenant nous avons tout mis en place avec une petite mèche pour voir un renversement trader de nouveau dans la fourchette. Où pourrions-nous chercher à ce que cela aille ? De nouveau vers l'EQ ou ce fair value gap ici. Alors, voyons comment cela se déroule.
+
+[VISUEL: Le prix remonte, dépassant l'EQ et le fair value gap, puis continue de monter. La bougie journalière se forme avec une longue mèche inférieure et un corps vert étendu.]
+Et là, vous pouvez voir, nous allons bien au-delà de l'EQ, et nous avons un beau mouvement à partir de ce plus bas du jour précédent, qui forme un renversement. Maintenant, regardons cela une fois de plus. Si je cherche une continuation, que cherchons-nous ? Le prix à ouvrir, respecter l'EQ du jour précédent, et ensuite chercher au-dessus du plus haut du jour précédent. Alors, voyons, ouvrons-nous et tradons-nous plus bas d'abord ? Oui, nous sommes allés dans ce fair value gap ici et nous avons clôturé au-dessus. Alors, voyons si nous obtenons un mouvement dans le plus haut du jour précédent.
+
+[VISUEL: Le prix remonte, atteignant le plus haut du jour précédent, puis forme une petite mèche supérieure et commence à retracer. L'indicateur SMT est visible.]
+Nous obtenons un mouvement dans le plus haut du jour précédent, et ensuite nous le faisons former un renversement ou un retracement ici. Voyons ce qui se passe. Et vous pouvez voir, un peu d'action de prix désordonnée ici, mais nous tradons plus haut. Donc, une chose dont je veux parler, oui, c'est un swing protégé, n'est-ce pas ? Mais ce swing n'est protégé que jusqu'à ce qu'il atteigne la liquidité. Une fois qu'il atteint la liquidité, c'est un schéma que je vois souvent, de prendre la liquidité, puis il balayera un swing protégé, et ensuite il aura son vrai mouvement. Donc, c'est juste un exemple de renversement, n'est-ce pas ? Donc, pour récapituler, balayer notre plus bas du jour précédent, a un changement d'état de livraison sur une période inférieure, et ensuite peut regarder vers cet EQ. Sur une journée haussière ou sur cette continuation haussière, je veux voir le prix ouvrir, faire un plus bas, puis trader plus haut dans le plus bas du jour précédent ou au-delà.
+
+[VISUEL: Graphique journalier de GBPUSD. Le prix est en tendance haussière. Une bougie noire est suivie d'une bougie verte qui a balayé le plus bas de la bougie noire précédente. L'EQ et le plus haut du jour précédent sont marqués.]
+Dans cet exemple suivant, nous sommes sur GBPUSD, et je veux clarifier l'importance d'avoir un biais sur une période supérieure. Je ne vais pas juste trader ce schéma. Je veux en fait l'aligner avec un biais. Donc ici, vous pouvez voir, nous avons une clôture de bougie 3 idéale et un nouveau swing protégé, ce qui est haussier. Donc, idéalement, je veux encadrer à la hausse ici. Passons à la période horaire.
+
+[VISUEL: Graphique horaire de GBPUSD. Le prix est en tendance haussière. Le plus haut du jour précédent est marqué. Le prix ouvre, descend, puis remonte.]
+Nous voici sur la période horaire, et nous avons notre plus haut du jour précédent juste ici. Et que voulons-nous voir ? Eh bien, idéalement, nous voulons voir le prix ouvrir, trader plus bas, respecter l'EQ, puis trader plus haut. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix ouvre, descend, puis remonte, atteignant le plus haut du jour précédent. Il forme une petite mèche supérieure et commence à retracer.]
+Vous pouvez voir que le prix trade dans ce plus haut du jour précédent d'abord et a un changement d'état de livraison. Maintenant, est-ce baissier ? Oui, c'est baissier, mais cela peut encore faire partie d'un retracement, pas d'un renversement complet. Puisque je suis toujours haussier, je veux toujours anticiper que c'est un retracement pour ensuite le trader plus haut. Mais je vais devoir attendre quoi ? Que la mèche inférieure se forme et utiliser un changement d'état de livraison. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix descend, formant une mèche inférieure, puis remonte. L'indicateur SMT est visible.]
+Vous pouvez voir que nous obtenons ce mouvement à la baisse, ce qui est possible à trader, n'est-ce pas ? Ce serait trader le renversement, de nouveau vers l'EQ de la fourchette, ou de nouveau dans les points d'intérêt autour de l'EQ.
+
+[VISUEL: Le prix remonte, puis redescend, formant une consolidation. L'indicateur SMT est visible.]
+Ici, vous pouvez voir, nous avons une petite consolidation, nous balayons, respectons ce fair value gap, balayons une fois de plus. Et ensuite, qu'avons-nous ? Nous avons un changement d'état de livraison avec une clôture de bougie 2 idéale. C'est là que je pourrais prendre une entrée à l'ouverture de la bougie 3 pour la trader plus haut. Ou que pourrais-je faire ? C'est une clôture de bougie 2 horaire. Je pourrais regarder la période de 5 minutes pour trader une continuation de 5 minutes dans la bougie 3. Mais vous pouvez voir comment, si vous avez un biais, vous voulez venir et garder ce biais, et laisser les périodes s'aligner avec ce biais. Et vous pouvez voir, oui, nous obtenons un retracement ici, du renversement sur le plus haut du jour précédent, mais ce n'est qu'un retracement pour continuer plus haut dans cette fourchette journalière.
+
+[VISUEL: Le prix continue de monter, atteignant de nouveaux plus hauts. La bougie journalière se forme avec une longue mèche inférieure et un corps vert étendu.]
+Maintenant, c'est un concept fractal. Donc, nous venons de passer en revue cela sur les périodes journalières et horaires, mais vous pouvez voir ici que nous avons eu cette expansion tout au long de la journée, et ensuite juste à 11h, qu'avons-nous ? Nous avons un renversement qui se forme. Donc, si je voulais trader un renversement sur une période inférieure, comment ferais-je cela ? Eh bien, c'est la même chose, mais au lieu du plus haut du jour précédent, ce sera le plus haut de la bougie précédente. Donc ici, vous pouvez voir, si je suis sur le graphique horaire, j'utiliserais le plus haut de 10h pour encadrer un renversement. Maintenant, je veux avoir une petite mèche, et ensuite je peux le trader plus bas. Passons à la période inférieure et vérifions cela.
+
+[VISUEL: Graphique 5A_VERIFIER minutes de GBPUSD. Le prix est en tendance haussière. Le plus haut de la bougie précédente est marqué. Le prix ouvre, descend, puis remonte.]
+Nous voici sur la période de 5 minutes, et nous avons marqué le plus haut de la bougie précédente. Maintenant, idéalement, nous voulons que le plus haut de cette bougie se forme tôt dans la bougie et ait une petite mèche. Mais qu'est-ce qui confirme cela ? Allons-nous juste utiliser une clôture comme celle-ci ? Non, nous voulons attendre quoi ? Le changement d'état de livraison. Alors, voyons ce qui se passe ici.
+
+[VISUEL: Le prix descend, formant une mèche inférieure, puis remonte. Il y a une clôture sous le plus bas de la bougie précédente, formant un changement d'état de livraison.]
+Vous pouvez voir que nous obtenons cette clôture en dessous, ce qui forme un changement d'état de livraison, ce qui protège ensuite ce plus haut et nous pouvons voir un mouvement à la baisse. Alors, voyons ce qui se passe.
+
+[VISUEL: Le prix descend fortement, atteignant de nouveaux plus bas. L'indicateur SMT est visible.]
+Et vous pouvez voir, c'est assez désordonné, car nous sommes à contre-tendance, mais nous avons le SMT à ce plus haut, car l'euro et le dollar ont pris ce plus haut, tandis que le GBP ne l'a pas fait, et ensuite nous allons chercher ces plus bas cibles.
+
+[VISUEL: Le prix continue de descendre, atteignant les plus bas cibles. L'indicateur SMT est visible.]
+La principale chose que je voulais souligner est que c'est un concept fractal. Donc, généralement, bien que je l'utilise normalement sur la période journalière avec l'heure, et que je trade cet intraday, vous pouvez l'utiliser sur les périodes inférieures telles que l'heure et les 5 minutes. Cependant, je ne préfère pas descendre en dessous de la période de 4 heures, car cela devient un peu plus désordonné. Si je vais trader ces renversements ou ces bougies 2, vous pouvez consulter ma vidéo précédente sur le trading de la bougie 2, alors je vais généralement me concentrer sur le trading d'une bougie de renversement sur la période journalière ou 4 heures. Une fois que vous descendez un peu plus bas que la période de 4 heures, cela devient un peu plus désordonné et plus difficile.
+
+[VISUEL: Graphique 4A_VERIFIER heures de USDCAD. Le prix est en tendance baissière. Une bougie verte est suivie d'une bougie noire qui a balayé le plus haut de la bougie verte précédente. L'EQ et le plus bas du jour précédent sont marqués.]
+Faisons un dernier exemple ici, et nous montrerons la nature fractale, car nous allons faire cela sur la période de 4 heures, et ensuite avec la 4 heures, avec quoi l'associons-nous ? La période de 15 minutes. Donc ici, vous pouvez voir, nous avons eu trois bougies baissières. Nous avons un balayage ici, et ensuite une clôture formant un changement d'état de livraison.
+
+[VISUEL: Le prix descend, puis remonte, formant une consolidation. Le plus bas de la fourchette est marqué. L'indicateur SMT est visible.]
+Après ces deux bougies d'expansion, nous n'avons pas encore atteint ce plus bas de la fourchette, nous avons donc toujours une cible ouverte. Ici, nous avons une consolidation. Donc, si nous voulons trader loin d'une consolidation, que voulons-nous voir ? Nous voulons voir le plus haut précédent balayé pour ensuite le trader plus bas. Nous anticiperions donc que le prix balaye ce plus haut, puis le trade plus bas. S'il a une petite mèche, alors nous pouvons chercher à trader la bougie de renversement. S'il a une grande mèche, alors nous n'allons pas vouloir trader la bougie de renversement, nous attendrons la bougie suivante. Passons à la période de 15 minutes pour vérifier cela.
+
+[VISUEL: Graphique 15A_VERIFIER minutes de USDCAD. Le prix est en tendance baissière. La consolidation est plus visible. Le prix balaye un plus haut, puis descend fortement.]
+Donc ici, vous pouvez voir la consolidation un peu mieux. Et comment pouvez-vous voir cela ? Eh bien, nous ne pouvons pas former de continuation ici. Nous ne pouvons pas obtenir la clôture pour former un swing protégé, donc ensuite nous faisons un nouveau plus haut. Et ici, vous pouvez voir, nous ne pouvons pas non plus former une nouvelle continuation. Donc, c'est juste une continuation de la consolidation, donc je veux voir un autre plus haut balayé.
+
+[VISUEL: Le prix balaye un plus haut, puis descend fortement. L'indicateur SMT est visible.]
+En mettant l'indicateur, voyons ce qui se passe. Donc ici, vous pouvez voir, nous allons dans ce plus haut. Maintenant, vais-je faire confiance à cela pour l'instant ? Non, je dois attendre une clôture à travers ou un changement d'état de livraison, ce qui confirme ensuite que cette mèche a été créée.
+
+[VISUEL: Le prix balaye un plus haut, puis descend fortement. Il y a une clôture sous le plus bas de la bougie précédente, formant un changement d'état de livraison.]
+Et vous pouvez voir, nous avons du mal à clôturer, mais ensuite tout de suite nous clôturons après. Donc, si je vais trader un renversement, alors je pourrais chercher à trader cette position ici, mettre mon stop sur ce plus haut, et ensuite chercher 2R, ou dans ce cas c'est 1.83. Si je veux l'ajuster à 2R, je pourrais utiliser le corps là. Comme je ne veux pas le voir trader de nouveau à la hausse dans cela. Et voyons ce qui se passe.
+
+[VISUEL: Le prix descend fortement, atteignant la cible de 2R.]
+Et là, vous pouvez voir, nous atteignons notre 2R. C'est donc juste un bon exemple de lorsque vous cherchez une continuation, je veux voir le prix ouvrir, atteindre un point d'intérêt, avoir une formation qui confirme la mèche de cette bougie sur une période supérieure, et ensuite je peux chercher à trader cette continuation. Dans un renversement, je veux voir le prix ouvrir, trader plus haut dans ce plus haut du jour précédent ou ce plus haut de la bougie précédente, avoir un changement d'état de livraison, ce qui confirme ce plus haut de la mèche, et ensuite je peux chercher à trader le renversement s'il a une mèche suffisamment petite.
+
+[VISUEL: Écran blanc avec le texte "Easy Daily Bias" à gauche et le logo "TTrades" à droite.]
+J'espère que vous avez apprécié cette vidéo. Si vous avez des questions, laissez-les dans la section des commentaires ci-dessous. Et avec cela, j'espère que vous passerez une excellente fin de journée, et je vous verrai la prochaine fois.
+
+[VISUEL: Écran noir avec le texte "TTrades" et "THANKS FOR WATCHING" et "LIKE & SUBSCRIBE".]
+(Musique de fin)

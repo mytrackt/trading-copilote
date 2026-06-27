@@ -1,0 +1,151 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: tyoxl1l-6iI.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+**Note to User:** The provided video is in English and the speaker is not Mustapha Belkhayate. The content is about "Candle 2 Closure" in financial trading, presented by "TTrades". I will transcribe the video in English, following all your specified formatting rules for visual descriptions and clear rules.
+
+---
+
+[VISUEL: Disclaimer text on a black background, then the TTrades logo animation.]
+00:00 [Music]
+00:11 [VISUEL: Text "Candle 2A_VERIFIER Closure" on a light grey background, with the TTrades logo in the bottom right.]
+How's it going everyone? In this video, we are going to cover what is a candle two closure. Now, within my fractal model, I have two candle closure types: a candle two and a candle three closure. So let's get into this video that covers candle two closures.
+
+[VISUEL: Diagram titled "Continuation vs Reversal Closure". Two candlestick patterns are shown.
+Left pattern ("Continuation Closure"): A large black bearish candle (Candle 1A_VERIFIER). The next candle (Candle 2A_VERIFIER) is also black and bearish, opening within Candle 1A_VERIFIER's range, sweeping its low, and closing *below* Candle 1A_VERIFIER's low.
+Right pattern ("Reversal Closure"): A large black bearish candle (Candle 1A_VERIFIER). The next candle (Candle 2A_VERIFIER) is a smaller black bearish candle, opening within Candle 1A_VERIFIER's range, sweeping its low, but closing *above* Candle 1A_VERIFIER's low (back inside Candle 1A_VERIFIER's range).]
+00:23 So the first thing you have to understand is the difference between a continuation closure and a reversal closure. So this is in a bearish scenario. We have price trending lower. Are we anticipating price to continue or to reverse?
+00:35 [VISUEL: Focus on the "Continuation Closure" pattern. The speaker points to Candle 2A_VERIFIER's low relative to Candle 1A_VERIFIER's low.]
+Here you can see, we sweep out the previous candle's low, and where do we close? We close below it. When price closes below the previous candle's low, I can anticipate a continuation lower.
+00:45 [VISUEL: Focus on the "Reversal Closure" pattern. The speaker points to Candle 2A_VERIFIER's low relative to Candle 1A_VERIFIER's low.]
+However, with a reversal closure, that is when we sweep out the previous candle's low, but we don't close below it. We close back inside the previous candle's range or above this candle's low. And that is a reversal closure, and I can anticipate price to go in the other direction.
+
+[VISUEL: Diagram titled "Candle 2A_VERIFIER". Two candlestick patterns are shown.
+Left pattern (Bullish Reversal): A large black bearish candle (Candle 1A_VERIFIER). The next candle (Candle 2A_VERIFIER) is a smaller black bearish candle, opening within Candle 1A_VERIFIER's range, sweeping its low, but closing *above* Candle 1A_VERIFIER's low. A horizontal line labeled "HTF Key Level" is below Candle 1A_VERIFIER's low.
+Right pattern (Bearish Reversal): A large green bullish candle (Candle 1A_VERIFIER). The next candle (Candle 2A_VERIFIER) is a smaller green bullish candle, opening within Candle 1A_VERIFIER's range, sweeping its high, but closing *below* Candle 1A_VERIFIER's high. A horizontal line labeled "HTF Key Level" is above Candle 1A_VERIFIER's high.]
+01:06 Now, a candle two closure is focused on when we have a reversal closure, where we sweep out that previous candle's high or low, and then close back inside the range. So taking a look at this diagram here, you can see we have a reversal closure, or a candle two closure, where in a bullish scenario here, price sweeps out the previous candle's low, and then closes back above that candle's low, signifying that price has reversed in candle two, or this low here.
+01:23 In a bearish scenario, we have price sweeping out the previous candle's high, and then closing back below it, showing that it has reversed in this candle two here.
+01:31 Now, it's important to note that we want this to occur at a higher timeframe key level. If you just look for every pattern that has a sweep and a closure back in, that is unlikely to work. You want to define this with bias and a higher timeframe point of interest, which I use fair value gaps and highs and lows.
+
+[VISUEL: Diagram titled "Candle 3A_VERIFIER". The previous "Candle 2A_VERIFIER" patterns are shown, with an added Candle 3A_VERIFIER.
+Left pattern (Bullish Continuation): Candle 1A_VERIFIER (bearish), Candle 2A_VERIFIER (bearish, reversal closure above Candle 1A_VERIFIER's low). Candle 3A_VERIFIER is a large green bullish candle, opening within Candle 2A_VERIFIER's range and closing *above* Candle 2A_VERIFIER's high.
+Right pattern (Bearish Continuation): Candle 1A_VERIFIER (bullish), Candle 2A_VERIFIER (bullish, reversal closure below Candle 1A_VERIFIER's high). Candle 3A_VERIFIER is a large black bearish candle, opening within Candle 2A_VERIFIER's range and closing *below* Candle 2A_VERIFIER's low.]
+01:47 So once we have this closure, we can then anticipate candle three to have a continuation. And you may want to check out my video on trading candle three, but following this closure, we're looking for price to expand higher. Or in the bearish scenario, for price to expand lower.
+02:02 Now, with a closure outside the previous candle's range, so you can see candle three here, closing over candle two, is that a reversal closure or a continuation closure? That is a continuation closure, so we can anticipate price to expand higher as well in candle four. And the same in the bearish scenario here, we close below candle two's low, so we can anticipate it to continue lower in candle four as well.
+
+[VISUEL: Diagram titled "Candle 4A_VERIFIER". The previous "Candle 3A_VERIFIER" patterns are shown, with an added Candle 4A_VERIFIER.
+Left pattern (Bullish Expansion): Candle 1A_VERIFIER (bearish), Candle 2A_VERIFIER (bearish, reversal closure), Candle 3A_VERIFIER (bullish, continuation closure). Candle 4A_VERIFIER is a large green bullish candle, opening within Candle 3A_VERIFIER's range and closing *above* Candle 3A_VERIFIER's high.
+Right pattern (Bearish Expansion): Candle 1A_VERIFIER (bullish), Candle 2A_VERIFIER (bullish, reversal closure), Candle 3A_VERIFIER (bearish, continuation closure). Candle 4A_VERIFIER is a large black bearish candle, opening within Candle 3A_VERIFIER's range and closing *below* Candle 3A_VERIFIER's low.]
+02:24 And there you can see, candle four gets an expansion, which finishes off this candle two closure and this swing point. So just to review, we have a candle two closure, closing back above the low of candle one, allowing candle three to expand. Candle three closes strong or over candle two's high, which allows candle four to expand as well. And in the bearish scenario, we have candle two, closing back below candle one's high. Candle three, closing very strong below candle two's low, and then candle four continuation.
+02:53 Now, once again, it's really important that we combine this with a higher timeframe key level or a point of interest, being a high, low, or a fair value gap.
+
+[VISUEL: Diagram titled "Equilibrium". The previous "Candle 4A_VERIFIER" patterns are shown, with added 0.5A_VERIFIER (equilibrium) lines for the wicks of Candle 2A_VERIFIER and the bodies of Candle 3A_VERIFIER.
+Left pattern (Bullish): Candle 2A_VERIFIER has a long lower wick. A horizontal line at 0.5A_VERIFIER of this wick is shown. Candle 3A_VERIFIER has a long body. A horizontal line at 0.5A_VERIFIER of this body is shown.
+Right pattern (Bearish): Candle 2A_VERIFIER has a long upper wick. A horizontal line at 0.5A_VERIFIER of this wick is shown. Candle 3A_VERIFIER has a long body. A horizontal line at 0.5A_VERIFIER of this body is shown.]
+03:04 Now, let's say we want to blend this with my equilibrium video. That's where we can go ahead and mark out these areas we expect the wick to form in the higher timeframe candles. So with a candle two closure here, if I have a large wick, I'm going to want to watch the upper half of that wick to see if candle three forms its wick in respect to that. If it doesn't respect the 0.5, then it's likely to fail and a swing point is unlikely to form.
+03:21 And then with candle three, we can do the same. As we have a strong closure, I'll mark out the entire candle's range, 50% of that, looking for a continuation. If you don't know what I am talking about here, I'll link the two videos in the description below of using wicks and using EQ.
+
+[VISUEL: TradingView chart, USD (implied), Daily timeframe. Candlesticks are green (bullish) and black (bearish). The speaker starts marking swing highs and lows with pink circles and dashed lines.]
+03:39 Now, let's hop into TradingView and go over a few examples of spotting candle two closures. Here we are in TradingView, and the best way to identify candle two closures is to just practice finding them on the chart. So, what you'll want to do is just go find swing points. So find any point in which the market made a turn, and go ahead and mark them all out. And then we'll go back through and determine which one of these are a candle two closure.
+04:03 [VISUEL: The chart now has many pink circles marking swing highs and lows.]
+So here you can see we have quite a few marked out. Let's see which ones are actually candle two closures.
+04:08 [REGLE: To have a candle two closure, we need price to take out its previous candle's high and then close back below it in a bearish scenario, or take out its previous candle's low and close back above it in a bullish scenario.]
+04:14 [VISUEL: Speaker points to a bearish candle (Candle 2A_VERIFIER) that swept the high of the previous bullish candle (Candle 1A_VERIFIER) and closed below it.]
+So here you can see, price sweeps out its previous candle's high, and then closes back below it, having a candle two closure, looking for a candle three continuation lower.
+04:22 [VISUEL: Speaker points to a bullish candle (Candle 2A_VERIFIER) that swept the low of the previous bearish candle (Candle 1A_VERIFIER) and closed above it.]
+Now looking at this swing point here, we have price sweeping out the previous candle's low, closing back above it, so that is a candle two closure. I could look for price to trade higher.
+04:31 [VISUEL: Speaker continues to identify and mark candle 2A_VERIFIER closures on the chart.]
+And I'm just going to repeat this, looking for those reversal patterns. So you can see, sweeps out the previous high, closes back below it. You can see it trading lower. And we'll go ahead and just mark all of these out.
+04:41 [VISUEL: Speaker points to a bullish candle (Candle 2A_VERIFIER) that swept the high of the previous bearish candle (Candle 1A_VERIFIER) but closed above it.]
+So far, you can see all of these are candle two closures, but as we look at these swing points over here, this is not a candle two closure as price never closed back below its previous candle's high.
+04:51 [VISUEL: Speaker points to another bullish candle (Candle 2A_VERIFIER) that swept the low of the previous bearish candle (Candle 1A_VERIFIER) but closed below it.]
+And the same right here, this is not a candle two closure as price did not close back above its previous candle's low. So those were two that I would remove right away.
+05:00 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous high and closed below it.]
+Now, if you noticed, these are all candle two closures, but do they all occur at a point of interest? And that is what I'm going to want to mark out. So, taking a look, here we have a high that we sweep out. That is a point of interest, so this is valid to look lower the next day.
+05:14 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous low and closed above it.]
+Here we have a point of interest, sweeping out a low, so it's valid for this to look higher the next day.
+05:19 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous high and closed below it. A fair value gap is also highlighted.]
+And having to zoom out, you can go to the monthly chart and see we took out a previous high from quite long ago, but we use that as a point of interest here for this candle two closure.
+05:30 But one thing I will also add is, ideally we want candle two to have a reversal to set up a candle three continuation. But here you can see price formed a shallow wick and had an expansion in candle two as well. That does not set up the best conditions for candle three, as what can occur after an expansion, a new phase of price. But nonetheless, this is valid.
+05:48 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous low but failed to close above it.]
+Here you can see, do we have a point of interest? No, we failed to sweep out this low. So this is not one we would look for here.
+05:54 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous low and closed above it, occurring within a fair value gap.]
+Right here, we reach into this fair value gap, so it is a valid candle two closure to look lower.
+06:00 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept multiple previous lows and closed above them.]
+Right here, you can see we sweep out all these previous lows, so it's valid for this to look higher.
+06:05 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous high but failed to close below it.]
+And then this one here, we failed to take out this high, so it is not valid. Right, because I do not have that point of interest, and I need a point of interest to frame a candle closure.
+06:14 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous low and closed above it, forming a protected swing.]
+Now, what do we notice about this? We do form a protected swing, so I am not looking for price to return to this level if it's going to trade higher. That's when I can actually use the opposing candles as a point of interest, and why this one would remain valid. It's more advanced, but it is a valid one because I can use these opposing candles as the point of interest.
+06:33 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure that swept a previous high and closed below it.]
+And then right here on this most recent one, we have a sweep of this previous high, which provides the point of interest for this candle two closure, and for price to trade lower today.
+06:43 So once again, just to review, the best way to find this is to practice on the daily chart or a higher timeframe, and you want to find those candle closures first, then see if they have a point of interest, and then that gives you bias.
+06:54 [VISUEL: Speaker quickly highlights several candle 2A_VERIFIER closures and indicates bullish/bearish bias for the next candle.]
+Right, so looking back at this, I could be bearish this day, bullish this day, bearish this day. You can see it doesn't set up well because this already expanded. Right after this high, bearish this day, bullish this day, bullish this day, bearish this day.
+07:08 And that's the easiest way to get bias is just finding those candle two closures on the daily chart.
+07:13 [VISUEL: All previous markings are removed. Speaker highlights the most recent candle 2A_VERIFIER closure on the Daily chart.]
+So, if we remove all these drawings, we'll go into today. We have a sweep of a previous high, a candle two closure.
+07:20 [VISUEL: Speaker changes the timeframe from Daily to 1A_VERIFIER-hour.]
+Now, if you followed my model or my playbook, you know the next thing we're going to do is drop down to our aligned timeframe. So here we have a daily chart, we're going to drop down to the hourly chart.
+07:29 [VISUEL: 1A_VERIFIER-hour chart. Speaker replays the market action from the daily candle 2A_VERIFIER closure.]
+So going into the replay, you can see we have this candle two closure on the daily timeframe, as shown by these higher timeframe candles. We'll let it finish out. And right there we open a new candle.
+07:40 [VISUEL: Speaker marks the high of the daily candle 2A_VERIFIER closure on the 1A_VERIFIER-hour chart.]
+So, by marking out this candle two closure, how do we confirm this on a lower timeframe or get a validation of this candle two closure? We look for a change in the state of delivery.
+07:49 [VISUEL: Speaker marks a swing high on the 1A_VERIFIER-hour chart, then a series of candles that made that high, and then a fair value gap.]
+So we're going to find the high, find the series of candles that made that high, which is essentially here. Mark that out. And then now we can anticipate price to do what? To continue lower as long as it remains in respect to the previous candle's range.
+08:03 [VISUEL: Speaker points to a consolidation area on the 1A_VERIFIER-hour chart.]
+You can see, here's a consolidation. It's hard to trust that high. So as long as price doesn't trade up into these highs, right, it is valid to look for it to continue lower. And that's why we use the EQ. I want to see price respect this area here.
+08:14 [VISUEL: Market replays. Price trades up, sweeps a high, and then forms a bearish candle 2A_VERIFIER closure.]
+So as we let this play out, you can see, we do go take out a point of interest. And what do we notice now? It's a fractal concept.
+08:23 [VISUEL: Speaker zooms in on the 1A_VERIFIER-hour chart.]
+So if we zoom in, what do we have? We have a candle two closure at a point of interest on the hourly chart.
+08:30 Not only can this provide a bias for this next candle to trade lower on a lower timeframe, but we could anticipate this to be where the high of day forms.
+08:37 [VISUEL: Market replays. Price trades lower, forming a bearish continuation.]
+And then what can we look for? Continuations out of this. So, let's see what happens. Right there, you can see, we do what? We reach up into a point of interest, and we have what? A candle two closure. So what does that tell us? If we are going to continue and leave this high, we should anticipate a continuation here to trade lower. And you can see, we do get that continuation lower.
+09:00 [VISUEL: Speaker removes all drawings and shows the current market state.]
+And that's where we're at today right now.
+09:02 [VISUEL: Speaker highlights the daily candle 2A_VERIFIER closure and then marks the aligned timeframe (1A_VERIFIER-hour) for confirmation.]
+So, just to review, this is how you align timeframes. It's a fractal concept. Here we have a candle two closure. And I'm just going to confirm that using the aligned timeframes. So if I'm on the daily, I'm going to use the hourly for a change in the state of delivery. If I'm on the hourly, I will use the five minute. I'm just going to use those timeframe pairings.
+09:19 [VISUEL: Speaker adds an indicator that automatically marks candle 2A_VERIFIER closures, change in state of delivery, and equilibrium levels.]
+And if I want to make this really simple, this is where I will add in my indicator that marks out that candle two closure for me, marks out that change in the state of delivery, and that EQ in that area I'm looking for a continuation lower, as well as those liquidity targets.
+09:34 So let's get into a few more examples.
+09:35 [VISUEL: TradingView chart, Micro Bitcoin Futures (MBTK), Monthly timeframe. Speaker highlights a monthly candle 2A_VERIFIER closure.]
+The main thing I want you to take away from this video is how to spot a candle two closure and practice finding them. I have videos on candle three and how to trade them following a candle two reversal, so if you want more info on that, check out that video.
+09:49 [VISUEL: Speaker highlights a monthly candle 2A_VERIFIER closure, then a daily candle 2A_VERIFIER closure, showing the fractal nature.]
+But as you can see here, it is a fractal concept and works on all timeframes. So here we are on Micro Bitcoin Futures, and what do we notice about this monthly candle here? We have price sweeping out a point of interest or a previous high, and then forming what? A candle two closure by closing back inside the previous candle.
+10:07 [VISUEL: Speaker highlights a daily candle 2A_VERIFIER closure that swept a previous high and closed below it.]
+On the daily timeframe here, we have a high, we have a close through the series of candles that made that high. So what do we have? We have a valid monthly and daily fractal model that says we want to trade to these lows.
+10:19 [VISUEL: Speaker highlights a daily candle 2A_VERIFIER closure that swept a previous low and closed above it.]
+So, getting into this candle three or for this continuation, we can use this on the daily timeframe fractally. We have a point of interest, we have what? Another candle two closure.
+10:31 [VISUEL: Speaker changes timeframe from Daily to 1A_VERIFIER-hour.]
+And what could we do here? Is we could refine this down to the hourly. And you can see how it's fractal, we can go from the monthly, to the daily, to the hourly.
+10:38 [VISUEL: 1A_VERIFIER-hour chart. Speaker replays the market action from the daily candle 2A_VERIFIER closure.]
+Going to the hourly here, what do we have? Let's replay to here so we can watch it play out. We have a daily swing point or a daily candle two closure forming with SMT. Do we have a change in the state of delivery? We do, because we find the high, the series of candles that made it. And then we could be looking for a continuation lower.
+10:54 [VISUEL: Speaker highlights a fair value gap on the 1A_VERIFIER-hour chart.]
+And that is where the T-spot comes in, where I'm looking to sell in these boxes here.
+10:59 [VISUEL: Market replays. Price retraces into the fair value gap and forms a candle 2A_VERIFIER closure.]
+So, as we can see, we retrace up. And what do we form right at this high? Into this point of interest, we have a candle two closure.
+11:08 [VISUEL: Market replays. Price continues lower, forming another candle 2A_VERIFIER closure.]
+And this gets a continuation lower. And what are we saying about candle three? If candle three closes below candle two's low, we can look for candle four to continue lower as well. And that is why another T-spot is being printed out.
+11:19 [VISUEL: Market replays. Price trades higher, then forms another candle 2A_VERIFIER closure.]
+So into this next day, we see price trade higher. And what do we notice about this high here? We also have a candle two closure. And we have equal lows below, and more equal lows below, so could be looking for this to trade lower.
+11:34 [VISUEL: Market replays. Price trades lower, forming another candle 2A_VERIFIER closure.]
+And we do. And then since we close below the low, we could be looking for a continuation lower.
+11:39 [VISUEL: Market replays. Price continues to trade lower, forming multiple candle 2A_VERIFIER closures.]
+Now, the one thing I'll say, once you get into candle five and six, that's where you can get caught in a new phase of price, so you have to be a bit more careful. But there we are today, trading lower. And this is just a fractal concept.
+11:50 [VISUEL: Speaker changes timeframe from 1A_VERIFIER-hour to 4A_VERIFIER-hour.]
+So let's go to something like the four-hour chart. And you can see, do we have a candle two closure here? No, we do not. That is a candle three closure, which we'll talk about in a future video.
+12:00 [VISUEL: Market replays. Price displaces, retraces, forms a candle 2A_VERIFIER closure, and continues lower.]
+But let's let this continue. We displace down, we retrace. Do we have a candle two closure? We do. We displace, we retrace, candle two closure. Here we have a little gap from the overnight. And what do we do? We continue lower. What are we forming right now? A candle two closure.
+12:17 So, what I wanted to explain, just in this video, is a lot of times a candle two closure will mark a turning point in the market, and it's very critical to understand what they look like and how they can be used.
+12:28 [VISUEL: Speaker highlights a candle 2A_VERIFIER closure on the 4A_VERIFIER-hour chart.]
+So for instance here, let's say I wanted to trade this lower, then I could use the 15-minute chart to look for a 15-minute fractal model based off this four-hour timeframe.
+12:38 [VISUEL: Speaker changes timeframe from 4A_VERIFIER-hour to 15A_VERIFIER-minute.]
+We can just repeat this across numerous different timeframes. So you can see, we have a candle two closure, confirmed with the change in the state of delivery. Then I can look for this area to respect to trade lower.
+12:49 So, I hope you enjoyed this video. If you did, please consider liking and subscribing, and I'll see you guys in the next video going over candle three.
+12:56 [VISUEL: TTrades logo and "THANKS FOR WATCHING" text.]
+[Music]

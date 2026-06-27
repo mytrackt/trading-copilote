@@ -1,0 +1,245 @@
+I tried every single trading strategy you can think of, be it support and resistance levels
+or voodoo candlestick patterns or even stupid indicators. And I found that none of them works.
+And there's only one thing that actually works for me and it works really, really well and made
+me a lot of money. And that one thing is called order blocks. This is really the secret sauce
+that's allowed me to follow the smart money footprints. Don't worry, I'm not going to charge
+you $997. I'm going to give it to you for completely free. So firstly, what are order blocks? Order
+blocks are basically areas on price chart where large market participants like banks and financial
+institutions place a substantial amount of buy or sell orders. That is why they are called order
+blocks. It's literally in the name guys. Now order blocks and supply and demand zones, they are very
+similar with just a few differences. The first difference is that order blocks are much more
+effective than supply and demand zones. Because after all, the point of order blocks is to really
+show us where smart money has entered into the market and where they are most likely going to
+enter again. The second difference is different rules are used when identifying valid order blocks.
+Now for a zone to be considered as an order block, it needs to meet four criteria, which I'm going to
+show you later. Now the trick to identifying order blocks is to look for sharp and substantial upward
+movement or downward movement. So in this case, you can see we got a sharp and substantial upward
+movement right here where price is going up very aggressively just like this. In that case, you just
+want to look for the candle right before this sharp and substantial upward movement. And then there's a
+mouthful. So this is the candle right here. So in this case, you just need to draw a box marking the top,
+the high and the low of this particular candle and this creates your order block. And then in a bearish
+scenario, you should be looking for a sharp and substantial downward movement. And once again,
+you look for the last candle, which created this sharp downward movement, this aggressively
+down move, if that's even a word, and you just find the candle right there. And that is where you
+basically drop the order block. It's really not rocket science, guys. It's just you look for that
+one little candle before a sharp and substantial movement. And you'll just draw a box marking the high
+and the low of that pivot candle. And there you have your little beautiful order block.
+Like I mentioned just now, in order for a zone to be considered as an order block, it needs to meet
+four criteria, right? It must meet every single one of these four criteria. If it does not meet a single
+one of them, it is not an order block. It could just be like a normal supply and demand zone. So the
+first rule is that the pivot candle must close below or above the previous candle.
+So after identifying a sharp and substantial upward movement, just like this, we are able to identify
+that this is actually the pivot candle where we can actually draw the order block. Now, knowing that
+this is the pivot candle, you need to ensure that this pivot candle close below the previous candle
+because this indicates that institutional buyers are stepping in, absorbing sell orders and preparing
+to push price higher. So looking at these two examples that we have right here, this pivot candle
+did close below the last candle. But this pivot candle did not manage to close below the previous
+candle since this previous candle went all the way down here, right? So this pivot candle actually
+closed up here. So it's not really considered as a valid order block in this case. The second
+criteria is that the order block must cause imbalance. What that means is that there must be a gap.
+How do you know there's a gap there? You basically look at the high of the pivot candle and then you look
+at the low of the next candle in this case right here. And you can see this creates like a little
+gap that we have right here. What this gap tells us is that at this point of time, smart money have
+entered into the market and it has managed to push price aggressively up so much that it left a gap
+behind, telling us there was a large amount of demand stepping into the market at this point of time.
+And then in this example right here, there was actually no gap because if you look at the high
+of this pivot candle and then you look at the low of the next next candle in this case, it's pretty
+much at the exact same price, right? So since there is no gap right here, this order block cannot be
+considered as valid. Therefore, making it an invalid order block. The third criteria is that an order block
+must be unmitigated. It must be fresh. That means price cannot actually tap into it. If it tap into
+it, then it has already been mitigated. And what this means is that the orders yet to be filled within
+this order block itself, it has already been filled by the smart money. You must understand why an order
+block is formed. At this point of time, this is where smart money have entered for a large amount of
+buy orders, right? So knowing this, this creates an order block. This means that at some point of time,
+price is most likely going to come back into this order block, right? Fill up the remaining buy orders
+yet to be filled before going up even further. Now, in this case, since it has already been mitigated by
+this particular candle right here, what this does is that the orders yet to be filled within this order
+block has been filled by the smart money, right? So right now, price is most likely going to go up there
+and it's very less likely going to come down and mitigate it. However, there is still a chance that price
+could come down here and mitigate it in the future. But it's just less likely since it has already been
+mitigated. The strongest order blocks are always those that is fresh, new and unmitigated. The fourth
+criteria is that it must lead to a break of structure. So in this case, this order block right here, it led to
+this break of structure, making this a valid order block. And then this one right here led to this break of
+structure, making this a valid order block. And then this one led to this market shift. Once again,
+it's also a break of structure, but it's just like a reversal in the structure and making this still a
+valid order block. And then this is also going to be a valid order block because it did lead to a break
+of structure. So those are the four rules of order blocks, right? You must ensure that the point of
+interest or the zone must meet all four of these criteria for it to actually be considered as a real
+order block. If it does not meet a single one of them, it is not an order block. It could just be a
+supply and demand zone or just an ordinary stupid zone that is not going to work. So now let's apply
+what we have learned and really learn how to differentiate between valid order blocks and
+invalid order blocks. So this order block right here, right? We saw that there was a sharp and
+substantial upward movement. Cool. And then we know that this is the pivot candle that led to this
+movement. And did this pivot candle actually close below the previous candlestick low? Yes, it did.
+Cool. Is this unmitigated? Yes, it is, right? And was there some form of gap? Yes, there is. There's a gap
+between the high of this candle and the low of the next candle. Okay, cool. There is unmitigated. It
+caused imbalance. There is a gap at a close below the previous candlestick low. And did it lead to a
+break of structure? That's the last criterion. It did, right? It did lead to a break of structure.
+In this case, this tells us that this is a valid order block. So we can expect price to come down
+here at some point of time, mitigate it before going up even further. And then let's look at this
+next zone right here. Do we have a sharp and substantial upward movement? Yes, we do, right?
+But look at this pivot candle. This pivot candle did not close below the previous candlestick low,
+which is right down here. In this case, this is an invalid order block. And then let's look at this
+next zone right here. In this case, sharp and substantial upward movement. But the thing is
+there is no gap, right? You can see there is no gap. This is the high of this pivot candle and the low
+is like all the way down here. There is no gap. That is why there is no imbalance whatsoever. And
+this zone has also been mitigated, right? Which means smart money have already used this zone. In that case,
+we can just ignore about this zone right here. And then the last zone that we have right here. Okay,
+sharp and substantial upward movement. Cool. Is it unmitigated? Yes, it is. Did it cause imbalance?
+Yes, there's some form of, there's a small little gap right here. The marker that I'm drawing right
+here is way too big. But yes, there's a little bit of gap right there. And then this did close below
+the last candlestick low, making this a valid order block. So then now that you understood theory,
+let's go on to the charts and apply what we have learned so far. And really ensure that you get a
+deep understanding of the order blocks before you actually go and apply it onto your real account
+with your hard earned money. Now, how do you actually trade order blocks? Where do you enter
+and where do you exit? That's what I'm going to cover next, right? I'm going to show you my entire
+order block strategy from top to bottom. First thing you must understand is that there are two ways to
+actually enter for a trade using this order block strategy. The first way is called a risk entry method.
+And then the second way is called the confirmation entry method. I'm going to show you the pros and cons
+of each. And then based on this, you can decide which works best for you and then pick that one,
+right? So firstly, let's talk about the risk entry method. So based on what we have right here,
+let me just identify the order blocks. There's perhaps one like right here. You can see there's
+a large amount of imbalance right here. And then there is a gap. It's unmitigated, blah, blah, blah.
+We know that. Okay, cool. There is an order block right there. Okay. And then this is the pivot candle
+that caused this sharp and substantial downward movement. And since price has already came all
+the way down here, yes, there is still a chance that price could potentially move up there,
+mitigate it, and then go on even further. But let's look at what we have right here because we
+have another order block, right? So that is another order block right there because once again,
+there is your sharp and substantial downward movement. Okay. That is your gap. And then this
+also led to a break of structure to the downside that we have right here, where price,
+where price, I don't know why I just said that, where price has just broke past the last swing
+low, right? So that is your bearish break of structure to the downside. Okay. So now you can
+see we got these two order blocks right here. The question you guys are going to ask me is,
+okay, cool, Brad, which order block is price going to go? I have no idea. All right. I don't have a
+crystal ball. I'm not a fortune teller. I have no idea. Okay. So if you are using the risk entry method,
+that means you are most likely going to be placing a sell order at the edge of the zone itself.
+That means when price eventually go up there, touches the zone, you'll be tapped into a sell
+position automatically by your broker. And then you are praying for the best, right? You're praying
+that, you know, price will not heal stop loss and price will just go in your way. You're praying
+that this order block will work. So that's the risk entry method. All right. Basically placing
+a sell or buy limit order at the zone itself. And then once price step into the zone, your broker
+get you into the trade. The bad thing about this risk entry method is that you don't have extra
+confirmation, right? That means sometimes price can just blow right past your order block. In that case,
+you have lost this trade right here because you didn't actually wait for confirmation. Okay. But we
+are talking about that later. For now, let's say you actually decided to go for a risk entry method
+and you place your sell order at the edge of this order block right here and you place your stop loss
+above the order block itself. And then for a tick profit, you can place your tick profit at the
+next structure, be it the next swing low, right? You always look towards the left. So if I look
+towards the left right here, I'll see that based on the structure, this is the last swing low that we
+have right here because this is the last time price actually pull back all the way down here and then
+goes all the way up there and break structure right there. So this is the last swing low. So you can
+potentially target that last swing low that we have right there. Or you can even target the opposing
+order block, right? The next order block, which could potentially be this area right here. This
+is the next order block, right? So all in all, this looks exactly the same. So let's say you decide
+go for a risk entry right there. Let's see how this play out. Okay, cool. Right here, you got to tap
+into the trade. Let's just continue to see what price does. Okay, you can see supply stand to the market
+and bam, you hit take profit. Congratulations. Now here comes the brokies. Oh, Brad, you could have just
+cherry picked this. You know, like this is like a perfect zone. You just bar replay. Anybody can do it in
+bar replay. I agree with you. That is why I don't really like to use this risk entry because for every
+one order block that actually work, there is like five other order blocks that don't actually work. That's
+just the nature of the irrational and unpredictable market. Before I show you the next method, let me just
+show you more examples on this risk entry method. So let's look at what happens next. Okay, price just
+blow right past that and then we are looking for our new order block. Okay, price has stepped into
+this. Actually, this new little, okay, this is not really order block. This is more of like a supply
+zone because it did not met all four of these criteria, right? You know, there was no gap. It's
+also been mitigated whatsoever. So this is just an ordinary supply zone, right? But I can see price
+step into this. Okay, it came down here. Okay, cool. Now we can draw our new order block right
+here, right? This is the pivot candle that led to this sharp and substantial downward movement that
+we have right here. Okay, so this is our new order block and let's say we put our risk entry right
+there once again, right? We are entering for a sell at the edge of this zone and then let's just see
+what price does. Does it actually go up there? Nope. I don't think it has went all the way up there.
+Okay, so let's just look for another order block. Okay, there's another order block right there.
+Okay, and then let's place our risk entry right there. Okay, let's just, once again, this is what
+you guys do, right? Risk entry. Boom, you are tapped into the trade right here. Nice. At this point of
+time, I will target the previous swing low. Once again, where is the previous swing low? Okay, so this
+will be the previous swing low. You always look towards the left, right? So this is the previous swing
+low. Target just right there. And then let's just see whether we hit take profit right there.
+Okay, it came down here. Okay, I believe we are going very near to take profit, right?
+Bam, you hit your take profit right there. Congratulations! You just won two trades out of,
+I don't know, 10. So as exciting as this risk entry are, sometimes they just don't really work,
+right? Because sometimes price can just tap into this order block and then just blow right past it
+and then just reverse and hit up and just go against you. In that case, you have lost this trade,
+right? So if you want to get a higher win rate, that is where you need to deploy what I call a
+confirmation entry. So unlike the risk entry, where you're entering straight away after price
+tap into your order block, on a confirmation entry, you are waiting for extra confirmation
+after price has tapped into the order block. And if you use this method, you will get a much higher
+win rate because you will actually be waiting for confirmation that shows you, that confirms to you
+that the order block is actually working. And it's not just like a fake useless order block that price
+is just going to blow right past it. Step one is to draw your order blocks, obviously. So over here,
+we saw that there was a sharp and substantial downward movement just like this. So in this case,
+we can actually draw our order block at a pivot candle, right? So for this right here is a little bit
+weird, right? Because it's a very large aerial. So I'll just mark this entire aerial as my pivot
+candle right here from the high to the low of this pivot candle. So now that we got our order block
+right here, right now we are just waiting for price to come back up here. Now for confirmation entry,
+we are not going to be entering straight away with price tap into the zone. We are going to be waiting
+for the structure to shift once price tap into the zone, right? To get that extra confirmation.
+What I mean is that I want to see this little pullback to be over. Basically, right now price
+has turned bullish to facilitate the pullback. So what I want to see on a 15 minute time frame
+is for this little bullish uptrend, this little pullback to be over, right? So in that case,
+I need to look for some form of market shift, right? So let's just continue to look at a price
+pulling back. All right, you can see price pullback and then finally tap into our order block that we have
+right here. So based on this, this was the last break of structure to the upside, right? Since
+this is the last break of structure to the upside, we know that this one right here is the lowest point
+that led to this break of structure, making this the last swing low. That means if price comes down
+there and break past this last swing low, that tell us that this pullback is over and right now price
+is turning bearish and is aligned with the higher time frame trend. And right now price is about to
+go down even further, right? To continue the bearish order flow. So in this case, like I said,
+this is what confirmation entry is all about. It's waiting for the extra confirmation that tell you
+that structure has shifted before you actually enter for a sell. So at this point of time, I'm still
+waiting because it has not given me a valid market shift yet, right? Like I said, if you are playing
+the risk entry, you would have gotten in right here. But in this case, we are looking for the
+confirmation entry. So I'm just waiting still, waiting until price broke structure.
+By the way, this is more for swing traders, okay? So we are right there. This is where we
+officially got a market shift right now, right? And this tell us that, cool, right now, this pullback
+is over. This bullish internal structure has officially shifted bearish and the internal structure,
+the lower time frame trend is aligned with the higher time frame trend, which is bearish.
+Now everything start to click like clockwork, baby. All right? So this is where you got a market shift
+right here. Okay, cool. Now, this is where we start looking for our entry. Now, to refine my entry,
+what I like to do is to look for more order blocks that is within the entry time frame, which in this
+case, since I'm entering the trade on a 15-minute time frame, I want to look for some form of order
+block within the 15-minute time frame itself, right? So based on this, I can spot that, okay,
+there is a little order block right there. Okay, there's one order block right there. And then
+perhaps there's another one, I'll say right here, but this one has been mitigated. So it'll be this
+one right here. Okay, this one right here. Once again, sharp and substantial downward movement
+right here, guys. Let me just draw it out for you guys to see. Sharp and substantial downward
+movement. Sharp and substantial downward movement. And you can see this one right here,
+it also did lead to a break of structure. Okay, and there was a gap, so on and so forth. Pretty
+much a few, all four criteria. So now, like I said, I don't actually know which zone price is
+going to respect. So I'm just going to wait and see, right? So, okay, price eventually come up into
+this zone right here. Okay, there's a chance that at this zone it's going to go. Okay, but we still
+wait for actual confirmation. Okay, you can see price actually ended up going even further, came all the
+way up here to our extreme order block that we have right here. And somewhere along the lines,
+you just blow right past it. Okay, tap into this order block right here. So this one, we can just
+completely get rid of. Now, at this point of time, this is where you can actually enter for a sell
+right here at the edge of this zone. And if you do actually enter for a sell right here at this order
+block, if you think about it, it's still some form of risk entry because you are still not
+waiting for the extra confirmation, right? So for it to be really a confirmation entry,
+in this case, I will go down to the lower time frame, the five minute time frame and wait for
+this little pullback to be oval, right? This bullish pullback once again to be oval. And then that is
+when you can potentially get your confirmation entry in right there, right there, ladies and gents.
+Look at this. Internal structure on a five minute time frame. This is the last internal higher low.
+This is more for advanced traders already. We got the market shift to the downside, which tell us that
+right now, price is officially shifted bearish. And that is where you can enter for your sell
+position right there. Okay, so you can enter for a sell right here. Place your stop loss above this
+order block itself. And then like I say, you can take profit at the next structure or the next
+order block that we have right down here. Okay. So yeah, this is potentially what a confirmation
+entry is about. It's really waiting for the extra confirmation before you pull the trigger,
+right? If you want to even go like more extreme, right? More advanced, instead of entering right
+here, what you could have potentially done is to wait for price to pull back after this market shift
+into this area right here, right? This entire demand zone right there. And then you enter at the edge
+of this demand zone. And in this case, you can see this is a one is the six risk throughout ratio trade,
+right? It's a very refined entry. Okay. But yeah, like I said, this is more advanced stuff,
+right? And right now, if you are a beginner, take things slow, right? Master the risk entry first,
+then go and master the confirmation entry, and then find out what works best for you. And then based on
+the data that you have collected, go and stick to that particular method, whether that is risk entry
+and confirmation entry. For myself, based on my own experience, I found that the confirmation entry
+just works so much better for me because I found that when I use the risk entry, sometimes the order
+block just blow right past it. And I just take a bunch of losses that I wouldn't have taken if I
+just look or rather wait for the confirmation in the first place. Now, to be honest, order blocks itself
+is powerful. But if you want to make it even more powerful, you need to combine it with liquidity
+concepts. And if you can combine these two concepts, it's like having x-ray vision on the market.
+You can actually see where smart money entered into the market and where they are most likely going
+to enter. And I can kind of predict and you can just do some witchcraft on the market. So if you
+want to learn more about liquidity concepts, you can watch this video right here. And as always,
+remember you are just one trade away.
+I feel so weird kissing my little camera bro. It's like I'm cheating on the main camera.

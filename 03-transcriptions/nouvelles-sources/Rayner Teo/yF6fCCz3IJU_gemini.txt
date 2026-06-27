@@ -1,0 +1,163 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: yF6fCCz3IJU.mp4]
+---
+Voici la transcription détaillée de la vidéo :
+
+0:00 [VISUEL: Un homme asiatique, souriant et énergique, parle directement à la caméra. Il porte un t-shirt sombre et un microphone est visible devant lui. L'arrière-plan est un mur clair avec un rideau gris sur la gauche.]
+Hey hey, what's up, my friend? So I'm sure you can agree right that these days you can learn trading online for free, right? You've got things like, you know, YouTube, ChatGPT, blog posts, TikTok, Instagram, and whatnot. But still, most traders fail. Why is that?
+
+0:21 Well, if you ask me, it's because of this.
+0:22 [VISUEL: Le texte "INFORMATION OVERLOAD" apparaît en blanc, en majuscules, par-dessus l'homme, sur un fond gris foncé.]
+INFORMATION OVERLOAD.
+0:25 [VISUEL: Le texte "INFORMATION OVERLOAD" s'estompe. L'homme continue de parler.]
+And when you get information overload, you get conflicting information, right?
+0:29 [VISUEL: Le texte "BUY?" apparaît en blanc sur la gauche de l'écran. L'homme lève la main droite.]
+This indicator says buy,
+0:31 [VISUEL: Le texte "SELL?" apparaît en blanc sur la droite de l'écran. L'homme abaisse la main droite et l'étend vers la droite.]
+and then the other indicator says sell. And then the price action says stay out. What do you do?
+0:35 [VISUEL: L'image d'un homme stressé, les mains sur la tête et la bouche ouverte en un cri silencieux, est affichée. Il est assis devant plusieurs écrans d'ordinateur affichant des graphiques boursiers avec des bougies vertes et rouges. L'ambiance est sombre, avec des lumières de ville en arrière-plan.]
+And then you get analysis paralysis, right? Should I buy? Should I sell? Maybe I toss a coin, ask my girlfriend, ask my wife.
+0:39 [VISUEL: L'image de l'homme stressé disparaît, l'homme de la vidéo réapparaît, parlant à la caméra.]
+So if I were in your shoes right now, I understand how overwhelming this can be. So this is why, right, if I were to start trading all over again, right, here's how I would approach trading. First, I would do this.
+
+0:54 [VISUEL: Un écran bleu avec des motifs jaunes dans les coins supérieurs. Le texte "PART 1A_VERIFIER" est affiché en blanc, suivi d'une ligne horizontale, puis "RISK MANAGEMENT" dans un cadre blanc.]
+1:00 [VISUEL: L'homme réapparaît, parlant à la caméra. Le texte "1A_VERIFIER: Risk management" est affiché en haut à gauche sur un fond blanc.]
+Number one, risk management. So here's the thing, right? There are many different types of traders out there who can profit from the markets, you know, you've got options trader, price action trader, systems trader, swing trader, crypto trader, and they can trade the markets in different manner. But there's one thing that all of them have in common. Do you know what's that? That's it, risk management, yeah? Because you can have the best trading system out there, but without proper risk management, you will still lose, despite having the best system out there. Let me let me prove it to you.
+1:36 [VISUEL: Le texte "50A_VERIFIER% winning rate" apparaît sous "1A_VERIFIER: Risk management".]
+So here's an example, right? So let's say you have a trading system that has a 50% winning rate.
+1:40 [VISUEL: Le texte "1A_VERIFIER to 2A_VERIFIER risk-reward ratio" apparaît sous "50A_VERIFIER% winning rate".]
+And on average, right, you achieve a 1 to 2 risk-reward ratio. This means if you risk a dollar and you are right, you win two dollars, so two times your initial risk.
+1:52 [VISUEL: Le texte "L L L L W W W W" apparaît sous "1A_VERIFIER to 2A_VERIFIER risk-reward ratio".]
+And let's say, you know, your next eight trades, right, go something along this lines, right, where, you know, L stands for losing trade, lose, lose, lose, lose, and then the next four trades are winner.
+2:06 [VISUEL: L'homme dessine un cercle autour de "50A_VERIFIER% winning rate" et "1A_VERIFIER to 2A_VERIFIER risk-reward ratio". Il souligne "L L L L W W W W".]
+Now, let me show you the importance of risk management. As you can tell, this over here, this so-called system that I've, you know, just shared with you, it's a profitable one. In the long run, you will make money.
+2:15 [VISUEL: L'homme écrit "J" (pour John) et "S" (pour Sally) sur la gauche. Il écrit "$1000A_VERIFIER" en haut à droite.]
+Okay? And let's say there are two traders, John and Sally. Okay? So let's say John, right, let's say John and Sally, they both have a $1,000 trading account to start with.
+2:24 [VISUEL: L'homme écrit "- 500A_VERIFIER" à côté de "J".]
+And let's say John is, you know, a guy, you know, macho, you know, let's go home, go big or go home kind of trader, and let's say he risked $500 on each trade. Okay? So you can say, first trade is a losing trade, so minus $500.
+2:36 [VISUEL: L'homme écrit "- 500A_VERIFIER" à côté du premier "- 500A_VERIFIER" pour John, puis trace une croix sur les deux "- 500A_VERIFIER".]
+Second trade is also a losing trade, minus $500. You can tell that after two trades, John has, he's blown up his account.
+2:44 [VISUEL: L'homme écrit "- 20A_VERIFIER - 20A_VERIFIER - 20A_VERIFIER - 20A_VERIFIER" à côté de "S". Il écrit "$20A_VERIFIER" en haut à droite.]
+On the other hand, let's talk about Sally. She's more conservative, right? She wants to, you know, trade for the long run, the next 10, 20, 30 years. Instead of risking $500 a trade, Sally only risked, let's say, 20 bucks, right? 2% of her account. So clearly, the first four trades are loser, minus 20, minus 20, minus 20, minus 20.
+3:04 [VISUEL: L'homme écrit "+ 40A_VERIFIER + 40A_VERIFIER + 40A_VERIFIER + 40A_VERIFIER" à côté des pertes de Sally.]
+And then the next four trades, they are winners, winning trades for her. And she didn't get $20 for each trade. In fact, she got $40 return for each trade because it's a 1 to 2 risk-reward ratio.
+3:12 [VISUEL: L'homme dessine un cercle autour de "1A_VERIFIER to 2A_VERIFIER risk-reward ratio".]
+Her winners are two times the size of her losses. So it's going to be plus 40, plus 40, plus 40, and then plus 40.
+3:23 [VISUEL: L'homme dessine une flèche sous les pertes de Sally, indiquant un total de "- 80A_VERIFIER". Il dessine une autre flèche sous les gains de Sally, indiquant un total de "+ 160A_VERIFIER". Il écrit "= +80A_VERIFIER" à la fin.]
+And if you look at it, net, right, how much did Sally make? So the total loss is minus $80. Her total profit is $160, right? So if you look at all her total profits here, it's about $160. Her total loss from here to here, it's $80. So she has a net profit of $80 after these eight trades. And $80 off $1,000, that's about 8% gain. So can you see the difference?
+3:48 [VISUEL: L'homme réapparaît, parlant à la caméra.]
+Two traders using the same trading system, one blew up his account and one made a net profit of 8%. So this is the importance of risk management. And and here's the thing, right, about risk management, is that this is one of the lowest hanging fruit that you can tackle. It doesn't require, you know, rocket science to understand. In fact, if you just spend 45 minutes to an hour, you will be able to master risk management in no time. It's just simple math. I think a 10 or 12 year old kid will be able to do it. And this aspect of risk management will be relevant to you, will be essential to you the day you start trading and the day you end your trading career, right? Maybe you make too much money and you want to quit trading, yeah? Risk management will be there with you every step of the way. And you can't say the same for the strategies, the patterns, the stuff that you learn, because sometimes along the way you might change strategy and stuff like that. But risk management, you won't be changing it. You will be, you know, sticking with it from the day you start trading and the day you quit trading. So don't neglect this. Focus on this at the get-go.
+
+4:47 [VISUEL: Un écran bleu avec des motifs jaunes dans les coins supérieurs. Le texte "PART 2A_VERIFIER" est affiché en blanc, suivi d'une ligne horizontale, puis "EXPOSE YOURSELF" dans un cadre blanc.]
+4:50 [VISUEL: L'homme réapparaît, parlant à la caméra. Le texte "2A_VERIFIER: Expose yourself" est affiché en haut à gauche sur un fond blanc. L'homme fait un geste de tirer son col de chemise.]
+Next, expose yourself. No, I don't mean taking out your T-shirt and you know, showing me showing me your chest, right?
+4:54 [VISUEL: L'image d'un homme musclé, la chemise déchirée, criant dans un bureau de trading. Des écrans affichent des graphiques boursiers.]
+But expose yourself means, you know, go out there and learn as much as possible as you can about trading.
+4:59 [VISUEL: L'image d'une femme assise calmement, les yeux fermés, méditant devant des écrans d'ordinateur affichant des graphiques boursiers. L'ambiance est sombre et sereine.]
+Because here's the thing, right? As a new trader, you do not know what you do not know.
+5:07 [VISUEL: Le texte "YOU DO NOT KNOW WHAT YOU DO NOT KNOW" apparaît en blanc, en majuscules, par-dessus l'homme, sur un fond gris foncé.]
+Okay, let me repeat that once again. You do not know what you do not know.
+5:10 [VISUEL: Le texte "YOU DO NOT KNOW WHAT YOU DO NOT KNOW" s'estompe. L'homme réapparaît, parlant à la caméra. Le texte "2A_VERIFIER: Expose yourself" est affiché en haut à gauche sur un fond blanc.]
+So go out there, expose yourself and learn as much as you can about trading. You know, there are so many things that you can study, you know, things like,
+5:18 [VISUEL: Le texte "Trading strategies:" apparaît sous "2A_VERIFIER: Expose yourself".]
+for example, trading strategies, right? You can study things like, you know, swing trading, trend following, position trading, day trading,
+5:24 [VISUEL: Le texte "Swing trading, trend following, position trading, day trading" apparaît sous "Trading strategies:".]
+and much more, right? So, go out there and learn about all these different strategies out there.
+5:31 [VISUEL: Le texte "Trading methods:" apparaît sous "Trading strategies:".]
+Or you want to know what the trading methods are available, you have, you know, price action trading, options trading, systems trading,
+5:36 [VISUEL: Le texte "Price action trading, options trading, systems trading, trading indicators" apparaît sous "Trading methods:".]
+etcetera. So you can use things like, you know, YouTube, Google, read books, whatever, you know, floats your boat and just expose yourself. And one mistake that many traders make, including myself, is that there is no best trading strategy out there. So don't have that preconceived notion and, oh, price action trading, you know, it's it's it doesn't rely on lagging indicators, this is the best approach, right? Nothing else comes close. No, that's not true, right? Every trading methodology, every trading strategy, it has their pros and cons, right? After, you know, being in this business for more than 10 over years, everything has pros and cons. And the question is, are you able to accept the downside, the cons that comes along with the strategy or method? So this is where, you know, people say, you know, finding a strategy that suits your personality. So the thing is, you must expose yourself out there to see what's available before you can find something that suits you, before rather than, you know, having someone, you know, shaft a method, a strategy down your throat and you and choke and, you know, realize it's not good for you. So no, right? So once you master risk management, once you have, you know, learned the art of not blowing up your trading account, then go out there, learn all the different trading styles and approaches out there, because even if you were to hurt yourself, maybe the strategy doesn't work, guess what? Your risk management will contain the downside. Their losses won't be too monumental to the point where you blow up your account. So this is why I put risk management first. Once you nail that down, then we talk about the, the, the methods, the strategies that comes along with it. Yeah, so go out there, expose yourself, and these are some keywords and ideas that you can study further, right, if you do not know where to start. Yeah.
+
+7:07 [VISUEL: Un écran bleu avec des motifs jaunes dans les coins supérieurs. Le texte "PART 3A_VERIFIER" est affiché en blanc, suivi d'une ligne horizontale, puis "FOCUS ON A STRATEGY" dans un cadre blanc.]
+7:10 [VISUEL: L'homme réapparaît, parlant à la caméra. Le texte "3A_VERIFIER: Focus on a strategy" est affiché en haut à gauche sur un fond blanc. L'homme compte en malais et en mandarin.]
+Number three, satu dua tiga, yi er san. Focus on a strategy. So you would at this point, right, expose yourself to different strategies, techniques, patterns and whatnot. Your mind might be, you know, all over the place.
+7:26 [VISUEL: L'homme se penche vers la caméra, les yeux grands ouverts, et dit "focus".]
+So this is where I need you to focus, right? Focus. So, how do you focus? How do you know which strategy to go with? For starters, right, once you, you know, learn quite a bit about trading, you would start to gravitate towards a certain trading strategy or methodology. It will naturally come, right? You will tend to resonate with something. Something will make more sense to you compared to the other stuff. So, once you sense that, right, it's time to focus, okay? So how do you focus on a trading strategy? So this is where I need you to extract the concepts of the strategy that you want to focus on. So let me give you an example. There are many types of trading strategies out there. Trend following, counter trend trading, mean reversion trading, blah blah blah.
+8:05 [VISUEL: Le texte "The concepts behind mean reversion trading strategy" apparaît sous "3A_VERIFIER: Focus on a strategy".]
+So let's say you want to go with a mean reversion trading strategy for the stock market, right? The concepts behind it, right, is something like this.
+8:16 [VISUEL: Le texte "Identify stocks in an uptrend" apparaît sous "The concepts behind mean reversion trading strategy".]
+Just three simple thing. Number one, you're going to find stocks that are in an uptrend.
+8:20 [VISUEL: Le texte "Buy the pullback" apparaît sous "Identify stocks in an uptrend".]
+Identify stocks that are in an uptrend. You're going to buy on the pullback.
+8:24 [VISUEL: Le texte "Sell the rally" apparaît sous "Buy the pullback".]
+And then you're going to sell the rally. That is the entire concept behind a mean reversion stock trading strategy.
+8:31 [VISUEL: L'homme dessine une ligne montante en zigzag sur le fond blanc. Il encercle un point bas après une baisse et écrit "B" (Buy). Il dessine une flèche montante depuis ce point et écrit "S" (Sell).]
+So it actually looks something like this. Price goes up, comes down, goes up, comes down, pulls back, you buy, okay? And then if you have a bounce, you sell the rally and, you know, captured it, one small bounce up higher.
+8:44 [VISUEL: L'homme réapparaît, parlant à la caméra.]
+And if you want to learn more about mean reversion trading strategy for the stock market, right,
+8:49 [VISUEL: Un graphique boursier vert et rouge est affiché. Le titre est "Portfolio Equity = 5832884A_VERIFIER". Le texte "Total return: 5732A_VERIFIER%" et "Annual return: 18.46A_VERIFIER%" est affiché. L'axe horizontal montre les années de 2002A_VERIFIER à 2022A_VERIFIER. L'homme dessine une ligne sur le graphique.]
+this is a trading system, right, I actually teach in my live webinars, Stock Trading Secrets. You can see that this system, using the same concept which I've just shared with you earlier, the annual return is about 18.46%, right? And we have tested it over the last 20, about 24 years, right? And if you want to learn this system, right, with the exact trading rules,
+9:07 [VISUEL: L'homme montre une page web de "tradingwithrayner.com/sts". La page est une inscription à un webinaire "Stock Trading Secrets". Il y a un compte à rebours et des points clés sur ce que les participants découvriront.]
+So what you can do is just go down to this over here, right, tradingwithrayner.com/sts, right, Stock Trading Secrets, over here.
+9:14 [VISUEL: L'homme pointe l'URL dans la barre d'adresse du navigateur.]
+tradingwithrayner.com/sts, right? So this webinar, you know, I'll walk you through the exact mean reversion trading strategy, when to enter, when to sell, the rules, the chart examples behind it, and all the fun stuff. So if you can make it for this webinar, I highly encourage you to join, so we can go into more details.
+9:29 [VISUEL: L'homme réapparaît, parlant à la caméra. Le graphique boursier est de nouveau affiché.]
+Yeah, but for now, let's move on. Okay? So also, I want to talk about, you know, focusing on a strategy, right? By focusing on a strategy, you also get less conflict. You feel less conflicted. Why is that? Right? Let me explain why. Most conflicts in trading, right, they they arise because of different methodologies, right? You've heard the saying, you know, like value investor, they look to buy low and sell high. But at the same time, you know, momentum trader, trend follower, they look to buy high and sell higher. So now the question is, how do you deal with this conflict? This guy, you know, Rayner tells me to buy low, sell high. This one says he can make more money buying high, selling higher. Who should I follow? Who is right? Who is who is wrong? Well, the question is this. What are you focusing on? Are you focusing on trying to be a value investor, or are you focusing on trying to be a momentum trader? Once you know what's your focus, then you should follow the approach that's aligned with your focus and ignore everything else. Everything else is noise. Make sense? So this is the importance of focusing, because once you can focus on a strategy, then all this, you realize that all these conflicting information just kind of like melt away, because you only know what you're focusing on. Everything else outside of it is out of outside of it is noise. Okay? And another thing to add, right, when we are talking about strategy, is this, right? When you choose a strategy or a methodology, it has to suit your circumstance. Let's say you are working full-time job, right, one day, 8, 10, 12 hours a day. Maybe you're an auditor, you're doing 14, 16 hours a day.
+10:58 [VISUEL: L'image d'un homme, l'air fatigué et stressé, les yeux rivés sur un écran d'ordinateur affichant des graphiques boursiers. Il porte une chemise et une cravate, et son bureau est en désordre.]
+Then it doesn't make sense to be a day trader where you need to be glued to the screen, you know, for a few hours each day.
+11:01 [VISUEL: L'homme réapparaît, parlant à la caméra. Le texte "3A_VERIFIER: Focus on a strategy" est affiché en haut à gauche sur un fond blanc.]
+Yeah, so you need to find a strategy that suits your lifestyle, that suits your circumstance as well. Okay?
+
+11:07 [VISUEL: Un écran bleu avec des motifs jaunes dans les coins supérieurs. Le texte "PART 4A_VERIFIER" est affiché en blanc, suivi d'une ligne horizontale, puis "DEVELOP THE STRATEGY" dans un cadre blanc.]
+11:10 [VISUEL: L'homme réapparaît, parlant à la caméra. Le texte "4A_VERIFIER: Develop the strategy" est affiché en haut à gauche sur un fond blanc.]
+Next, we are going to develop the strategy. So once you've understood and extracted the concepts of a strategy that you want to focus on, we're going to take that concepts and turn it into a trading strategy that we can, you know, work on, right? So how do you take a concepts and then translate it into a strategy? I'll show you how.
+11:32 [VISUEL: Le texte "Your trading strategy should specify:" apparaît sous "4A_VERIFIER: Develop the strategy".]
+So for every trading strategy or most trading strategies, it needs to answer these four questions.
+11:37 [VISUEL: Le texte "1A_VERIFIER. Market conditions to trade" apparaît sous "Your trading strategy should specify:".]
+Number one, what is the market conditions that you will be trading?
+11:40 [VISUEL: Le texte "2A_VERIFIER. Entry trigger" apparaît sous "1A_VERIFIER. Market conditions to trade".]
+Number two, what is the entry trigger that gets you into a trade?
+11:42 [VISUEL: Le texte "3A_VERIFIER. Exit" apparaît sous "2A_VERIFIER. Entry trigger".]
+Number three, what's the exit, right? This could mean your stop loss and your take profit level.
+11:47 [VISUEL: Le texte "4A_VERIFIER. Risk management" apparaît sous "3A_VERIFIER. Exit".]
+And number four, your risk management. So, let me use a document over here, right, and kind of like, you know, walk you through this example, right, because I think you guys might be a little bit confused here.
+11:50 [VISUEL: L'homme ouvre un document Word vierge sur son écran.]
+12:00 [VISUEL: L'homme tape "MEER" en haut à gauche du document Word.]
+So the few things that we need, right, uh, let's call it the MEER. Okay? Market conditions, entry trigger, exit and risk management.
+12:11 [VISUEL: L'homme tape "Identify stocks in an uptrend" sous "MEER".]
+So let's use the mean reversion concepts, the mean reversion trading system concepts that we talked about earlier. So we are looking for identify stocks in an uptrend.
+12:16 [VISUEL: L'homme tape "Buy on the pullback" sous "Identify stocks in an uptrend".]
+Buy on the pullback.
+12:19 [VISUEL: L'homme tape "Sell on the rally" sous "Buy on the pullback".]
+Sell on the rally. Okay? So you can see this is the concepts behind the mean reversion trading system.
+12:26 [VISUEL: L'homme sélectionne les trois lignes qu'il vient de taper.]
+And and there are few things that we still need to uh fill in the gaps, right, which you will see shortly.
+12:32 [VISUEL: L'homme tape "Market conditions" sous les concepts.]
+But first, let's talk about market conditions. So we know that for this particular strategy, the market conditions that we are trading is stocks that are in an uptrend. So how do we define an uptrend?
+12:41 [VISUEL: L'homme tape "If the stock price is above the 200MA, then look for buying opportunities" sous "Market conditions".]
+A few ways you can go about it. For starters, I think if the stock price is above the 200MA, then look for buying opportunities. Okay? I think that's one way to go about it. Yeah, yeah, yeah. Another way you can go is if the stock price forms a series of higher highs and lows, then look for buying opportunities, because that can also be meaning that the stock is in an uptrend. And if you want to be more specific, right, it has to be on the daily timeframe or whatever timeframe that you are trading on. Okay? So this classifies the market conditions. And in fact, I think you're also looking for a buying on the pullback, right? So this can also the pullback part can be uh, let's over here, right?
+13:19 [VISUEL: L'homme tape "Entry" sous "Market conditions".]
+Let's say uh entry, right? You're looking to buy on the pullback. Okay? So how do we specify this criteria?
+13:26 [VISUEL: L'homme tape "If stock price makes a 5A_VERIFIER-day low, buy" sous "Entry".]
+You can say that if the stock price makes a 5-day low, buy, for example, if the stock price makes a new 5-day low, you can say buy.
+13:37 [VISUEL: L'homme tape "If the stock price drops 10A_VERIFIER% over the last 3A_VERIFIER days, buy" sous la ligne précédente.]
+If you want to be more detailed, right, you can say if the stock price, you know, drops, I mean, this is another way of writing this, drops 10% over the last three days, for example, buy.
+13:55 [VISUEL: L'homme tape "If the stock price drops 10A_VERIFIER% over the last 3A_VERIFIER days, then wait for a higher close, then buy" sous la ligne précédente.]
+So these are all different ways to to define the pullback. And of course, if you really want to be specific, right, you can say things like, you know, let's let's let's let's take things a step further, right? If the stock price drops 10% over the last three days, this means that the pullback has already been formed. And maybe for discretionary traders, you want to look for confirmation, right? Uh then wait for a higher close, right, or a hammer or whatever, right? Then buy. So you can see you can specify exactly what you're looking for before you enter. Yeah, so this is how you take a a concept and then translate it into a set of uh rules to trade it.
+14:24 [VISUEL: L'homme tape "Exit" sous "Entry".]
+Okay, so this is the entry. Let's talk about exit, right? So for exit, we are looking to sell on the rally, okay? So this means how do we take profit? So, for example, if the stock price, for example, closes higher, sell.
+14:30 [VISUEL: L'homme tape "If the stock price closes higher, sell" sous "Exit".]
+If the stock price, let's say, reaches resistance, sell, right?
+14:37 [VISUEL: L'homme tape "If the stock price reaches resistance, sell" sous la ligne précédente.]
+So these are how you, you know, can convert that concept into a set of rules that tells you when to sell. Now, exit is two parts, right? Your stop loss and your take profit level. So what about stop loss? For this one, it could be, you know, let's say we put it here, stop loss.
+14:52 [VISUEL: L'homme tape "Stop-loss: If the stock price drops 3A_VERIFIER ATR from entry, sell" sous "Exit".]
+If the stock price, if the stock price drops 3 ATR from your entry, sell, right? So this would cover your stop loss.
+15:04 [VISUEL: L'homme tape "Risk management" sous "Stop-loss".]
+Risk management. Okay? So this one could be a simple as, let's say, we trade stocks, uh maybe hold maximum of five stocks, 20% of capital to each stock.
+15:08 [VISUEL: L'homme tape "Hold maximum of 5A_VERIFIER stocks, 20A_VERIFIER% of capital to each stock" sous "Risk management".]
+That's one way of going about it. Or for those of you who have a pre-defined stop loss in place, you can say, uh 2% max stop loss, right?
+15:19 [VISUEL: L'homme tape "2A_VERIFIER% max stop loss from entry to SL" sous la ligne précédente.]
+From entry to SL. So there are different ways to again define your risk management. But hopefully, by now, right, you understand how we actually take the concepts, these concepts that I shared with you earlier, right? And translate it into a set of rules that you can then move on to the next step.
+
+15:38 [VISUEL: Un écran bleu avec des motifs jaunes dans les coins supérieurs. Le texte "PART 5A_VERIFIER" est affiché en blanc, suivi d'une ligne horizontale, puis "TEST THE STRATEGY" dans un cadre blanc.]
+15:42 [VISUEL: L'homme réapparaît, parlant à la caméra. Le texte "5A_VERIFIER: Test the strategy" est affiché en haut à gauche sur un fond blanc.]
+Now, the final thing is to test, to test the trading strategy that you've developed. Because here's the thing, right? You have no idea whether a trading strategy will work or not, right? Nobody is going to tell you. You have to test it, right, either through backtesting or forward testing, or maybe working with others, right, to help you come up with a conclusive data to tell you whether something works or not.
+16:04 [VISUEL: Le texte "Backtesting" apparaît sous "5A_VERIFIER: Test the strategy".]
+So there are generally two ways to test, right? Number one is uh what we call backtesting. This means that you are testing a trading strategy across historical data, across the past data, and see how it has performed over time. It's kind of like, you know, you go on a date, meet this girl for the first time. You're not going to marry her on the first date, but you're taking questions from her, right? You know, her her her past, how does she handle her money, how does she handle her relationship, how many ex she has, you know, what kind of family background she has, that's kind of like backtesting, right? Your partner, right? To see whether she'll be suitable wife material in the future. Yeah, so for backtesting, right, for in the context of trading, the advantage is that it's fast. You get feedback a lot faster because, you know, if you can you can, let's say, do programming or you can work with someone, right? You can, you know, test trading systems, you know, uh many trading systems, right, in a short period of time. Yeah? But the disadvantage of backtesting is that, uh usually for those people who are backtesting systematic trading systems, right, you require programming knowledge and it's something that I think not many traders would have it, right? But you can always hire someone to help you with it.
+17:04 [VISUEL: Le texte "Forward testing" apparaît sous "Backtesting".]
+Next one is forward testing. It's basically testing a strategy in the live markets and see how it has, you know, performed over time. Again, kind of like, you know, meeting the girl for the first time, you do not know her past, but you know, guess what? Let's hang out for the next three to six months, the next one year, and see how she's like, you know, let me travel with her, let me see her sleeping, her eating, her habits. Can I, you know, deal with it, right? How does she squeeze the toothpaste? Does it, you know, annoy me? Does she does she squeeze it from the top, or the bottom, or the middle? Yeah, that's forward testing. So advantage is that, you know, for in the context of trading, it's free, right? For testing, usually, you just need some charts, Microsoft Excel will be able to get the job done. Disadvantage is that forward testing is slow, right? You need the the the trade to happen in real time and it takes longer compared to someone who's backtesting. Yeah? So, so from the testing, right, you will then know whether a trading strategy works or not, right? And if it works, great, right? You now have a trading strategy that you can stick with for a long time. And this helps build your confidence in your strategy, in yourself. And what if the strategy doesn't work? Then go back to the drawing board, right? Going back to refining your strategy, right, to see, you know, how you can improve on things, you know, finding out, you know, where are the main losses coming in? Is it because, you know, the losses are too big? That's why it's eating a lot of your profits? Or maybe you're trading in a poor market condition, etcetera, etcetera. So it's only through the testing, can you get feedback, and from that feedback, can you then refine your strategy further to to improve on it and make it work in the, in the long run. Yeah? And of course, this process can be tedious, can be difficult. So this is why, uh again, if you want to kind of like a shortcut, or you want a system, a proven trading system that works, you can join me at this upcoming webinar called Stock Trading Secrets, right? I'll be happy to with you to share with you this mean reversion trading system. You can use it as a foundation to build your own trading strategy, so you can, you know, save time and avoid going around in circles, right? So if that sounds like something that you'd be interested in, again, uh the link is at tradingwithrayner.com/sts. I'll also put the link somewhere below this video, so you can uh sign up for it, okay? And again, right, uh this video, I've purposely given you a high-level overview of how I would go about trading the markets if I'm new to it. So we covered many different components from, you know, getting exposed, developing a strategy, focusing, etcetera. So if there's anything that you'd like me to cover in more details, leave in the comment section below, so I can check it out and see where or which other areas you guys need help in, and I'll create a future video that tackles that question of yours. So with that said, I wish you good luck, good trading. I will talk to you soon.
+
+19:30 [VISUEL: Écran noir avec des particules rouges et des lignes lumineuses. Le texte "WHAT'S NEXT?" est affiché en haut à gauche. Des boutons "Subscribe" et "Click here to Subscribe" sont visibles en haut à droite. Une flèche pointe vers le bas avec le texte "Learn a New Trading Strategy That Lets You Profit in Bull & Bear Markets".]

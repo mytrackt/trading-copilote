@@ -1,0 +1,368 @@
+APPLICATION DE TRADING ÉVOLUTIVE, AUTO-AMÉLIORABLE ET ORIENTÉE DÉCISION IMMÉDIATE - COMPLÉMENT AU PROMPT MAÎTRE
+
+Ajoute maintenant une dimension d’apprentissage progressif, d’optimisation contrôlée et de prise de décision rapide à l’application.
+
+L’application ne doit pas être figée. Elle doit s’améliorer avec le temps, apprendre de ses erreurs, analyser ses propres décisions passées, éviter de répéter les mêmes fautes et proposer progressivement de meilleures stratégies.
+
+Attention : cette amélioration ne doit jamais devenir une auto-modification dangereuse ou incontrôlée. L’application ne doit pas changer seule ses règles critiques de risque, ne doit pas augmenter automatiquement l’exposition, ne doit pas s’adapter émotionnellement à une série de pertes, et ne doit jamais optimiser uniquement pour le profit passé. Toute optimisation doit être testée, expliquée, versionnée, comparée et validée en paper trading avant d’être utilisée.
+
+OBJECTIF COMPLÉMENTAIRE
+
+Conçois l’application comme un copilote de trading évolutif capable de :
+
+1. Mémoriser chaque analyse de marché.
+2. Mémoriser chaque signal proposé.
+3. Mémoriser chaque décision prise par l’utilisateur.
+4. Comparer le scénario prévu avec le résultat réel.
+5. Identifier les erreurs récurrentes.
+6. Identifier les stratégies qui fonctionnent le mieux selon le contexte.
+7. Proposer des améliorations progressives.
+8. Tester les stratégies en paper trading avant validation.
+9. Classer les stratégies par performance, risque, stabilité et fiabilité.
+10. Améliorer le frontend pour permettre une décision très rapide, presque instantanée, sans surcharge cognitive.
+
+SECTION A — MÉMOIRE D’APPRENTISSAGE DE L’APPLICATION
+
+Décris une mémoire interne de trading composée de plusieurs couches :
+
+1. Mémoire des marchés observés.
+2. Mémoire des signaux générés.
+3. Mémoire des trades simulés.
+4. Mémoire des décisions humaines.
+5. Mémoire des erreurs.
+6. Mémoire des stratégies.
+7. Mémoire des conditions de marché.
+8. Mémoire des faux signaux.
+9. Mémoire des bons signaux.
+10. Mémoire des comportements dangereux de l’utilisateur.
+
+Pour chaque type de mémoire, précise :
+
+1. Les données à enregistrer.
+2. Pourquoi elles sont importantes.
+3. Comment les utiliser pour améliorer l’application.
+4. Les erreurs à éviter.
+5. La durée de conservation recommandée.
+6. Les indicateurs à calculer.
+
+SECTION B — BOUCLE D’AMÉLIORATION CONTINUE
+
+Conçois une boucle d’amélioration continue en 7 étapes :
+
+1. Observation du marché.
+2. Génération d’un signal ou refus de signal.
+3. Décision utilisateur.
+4. Résultat réel du scénario.
+5. Analyse post-trade.
+6. Détection des erreurs.
+7. Proposition d’amélioration.
+
+Pour chaque étape, explique :
+
+1. Ce que l’application doit faire.
+2. Ce que l’IA doit analyser.
+3. Ce que l’utilisateur doit voir.
+4. Ce qui doit être journalisé.
+5. Ce qui peut être optimisé.
+6. Ce qui ne doit jamais être modifié automatiquement.
+
+SECTION C — ANALYSE DES ERREURS
+
+L’application doit être capable de détecter les erreurs suivantes :
+
+1. Signal donné trop tôt.
+2. Signal donné trop tard.
+3. Mauvaise lecture de tendance.
+4. Mauvaise détection de range.
+5. Mauvaise zone d’entrée.
+6. Stop-loss mal placé.
+7. Take-profit irréaliste.
+8. Ratio rendement/risque insuffisant.
+9. Confiance excessive.
+10. Signal donné pendant une volatilité dangereuse.
+11. Signal donné contre une tendance forte.
+12. Mauvaise prise en compte du contexte multi-timeframe.
+13. Sur-trading.
+14. Revenge trading.
+15. Entrée impulsive.
+16. Sortie prématurée.
+17. Non-respect du plan.
+18. Mauvaise taille de position.
+19. Mauvaise gestion d’une série de pertes.
+20. Répétition d’une stratégie inefficace.
+
+Pour chaque erreur, donne :
+
+1. Comment la détecter.
+2. Comment la mesurer.
+3. Comment l’afficher à l’utilisateur.
+4. Comment éviter qu’elle se répète.
+5. Quel type d’alerte déclencher.
+6. Quelle règle de sécurité appliquer.
+
+SECTION D — STRATEGY LAB
+
+Ajoute un module “Strategy Lab”.
+
+Ce module doit permettre à l’application de proposer, tester et améliorer des stratégies de trading.
+
+Le Strategy Lab doit inclure :
+
+1. Création de stratégies.
+2. Description claire de la logique de chaque stratégie.
+3. Conditions d’entrée.
+4. Conditions de sortie.
+5. Conditions d’invalidation.
+6. Marchés adaptés.
+7. Timeframes adaptés.
+8. Indicateurs utilisés.
+9. Contexte de marché idéal.
+10. Contextes interdits.
+11. Backtesting.
+12. Paper trading.
+13. Comparaison entre stratégies.
+14. Scoring de robustesse.
+15. Détection du surapprentissage.
+16. Versionnement des stratégies.
+17. Validation humaine avant activation.
+18. Désactivation automatique des stratégies dégradées.
+
+Chaque stratégie doit avoir une fiche complète avec :
+
+1. Nom de la stratégie.
+2. Hypothèse de marché.
+3. Logique d’entrée.
+4. Logique de sortie.
+5. Stop-loss.
+6. Take-profit.
+7. Ratio rendement/risque minimum.
+8. Conditions favorables.
+9. Conditions dangereuses.
+10. Taux de réussite observé.
+11. Drawdown maximal.
+12. Nombre de trades testés.
+13. Performance en backtest.
+14. Performance en paper trading.
+15. Stabilité dans le temps.
+16. Niveau de confiance.
+17. Date de dernière modification.
+18. Historique des versions.
+19. Raisons des améliorations.
+20. Verdict : active, en test, suspendue, rejetée.
+
+SECTION E — OPTIMISATION CONTRÔLÉE
+
+L’application peut proposer des optimisations, mais elle ne doit jamais optimiser aveuglément.
+
+Décris un système d’optimisation prudent qui respecte les règles suivantes :
+
+1. Toute amélioration doit être basée sur des données suffisantes.
+2. Toute modification doit être testée sur des données historiques.
+3. Toute modification doit être testée ensuite en paper trading.
+4. Toute modification doit être comparée à la version précédente.
+5. Toute modification doit être expliquée.
+6. Toute modification doit être versionnée.
+7. Toute modification doit pouvoir être annulée.
+8. Toute modification doit être validée par l’utilisateur.
+9. Les règles de risque ne doivent jamais être assouplies automatiquement.
+10. Une stratégie rentable mais instable doit être rejetée ou suspendue.
+
+L’optimisation doit analyser :
+
+1. Taux de réussite.
+2. Ratio rendement/risque moyen.
+3. Profit factor.
+4. Drawdown.
+5. Nombre de trades.
+6. Stabilité selon les périodes.
+7. Stabilité selon les conditions de marché.
+8. Comportement en période volatile.
+9. Faux signaux.
+10. Perte maximale.
+11. Série de pertes.
+12. Qualité des entrées.
+13. Qualité des sorties.
+14. Respect du plan.
+15. Robustesse hors échantillon.
+
+SECTION F — FRONTEND POUR DÉCISION À LA SECONDE
+
+Repenser le frontend pour qu’un débutant puisse prendre une décision très rapidement, sans confusion.
+
+Le dashboard principal doit fonctionner comme un cockpit de décision.
+
+En moins de 5 secondes, l’utilisateur doit comprendre :
+
+1. Est-ce qu’il y a une opportunité ?
+2. Achat, vente ou attente ?
+3. Le marché est-il clair ou dangereux ?
+4. Quel est le niveau d’entrée potentiel ?
+5. Où est l’invalidation ?
+6. Quel est le risque ?
+7. Quel est le ratio rendement/risque ?
+8. Pourquoi ce signal existe ?
+9. Pourquoi il pourrait être faux ?
+10. Est-ce que l’application autorise ou bloque le trade ?
+
+Le frontend doit utiliser une logique visuelle simple :
+
+1. Vert : contexte favorable.
+2. Orange : prudence.
+3. Rouge : danger ou blocage.
+4. Gris : aucun trade.
+5. Bleu : information pédagogique.
+6. Noir/blanc : données neutres.
+
+Créer un écran “Décision instantanée” avec les blocs suivants :
+
+BLOC 1 — Verdict immédiat
+
+Afficher en très gros :
+
+1. ACHAT POSSIBLE.
+2. VENTE POSSIBLE.
+3. ATTENDRE.
+4. MARCHÉ DANGEREUX.
+5. SIGNAL REFUSÉ.
+
+BLOC 2 — Score global
+
+Afficher :
+
+1. Score de confiance.
+2. Score de risque.
+3. Score de contexte.
+4. Score de stratégie.
+5. Score de timing.
+
+BLOC 3 — Plan du trade
+
+Afficher :
+
+1. Entrée potentielle.
+2. Stop-loss.
+3. Take-profit.
+4. Ratio rendement/risque.
+5. Taille de position maximale.
+6. Perte maximale si le trade échoue.
+
+BLOC 4 — Raisons du signal
+
+Afficher les 3 raisons principales seulement.
+
+BLOC 5 — Raisons contre le signal
+
+Afficher les 3 risques principaux seulement.
+
+BLOC 6 — Checklist obligatoire
+
+Afficher :
+
+1. Tendance claire ?
+2. Zone pertinente ?
+3. Ratio correct ?
+4. Risque acceptable ?
+5. Pas de sur-trading ?
+6. Pas de revenge trading ?
+7. Signal confirmé ?
+8. Plan clair ?
+
+BLOC 7 — Boutons d’action
+
+Afficher uniquement :
+
+1. Simuler le trade.
+2. Ajouter au journal.
+3. Mettre en surveillance.
+4. Refuser le trade.
+5. Voir analyse détaillée.
+
+Ne pas afficher de bouton d’exécution réelle dans la première version.
+
+SECTION G — MODE “NE PAS RÉPÉTER LES MÊMES ERREURS”
+
+Ajoute un module spécial appelé “Anti-Répétition des Erreurs”.
+
+Ce module doit :
+
+1. Identifier les erreurs répétées.
+2. Calculer leur fréquence.
+3. Mesurer leur coût.
+4. Afficher leur impact sur la performance.
+5. Déclencher des alertes.
+6. Bloquer certains comportements.
+7. Forcer une pause après répétition.
+8. Proposer une règle corrective.
+9. Vérifier si la correction fonctionne.
+10. Produire un rapport hebdomadaire.
+
+Exemples :
+
+Si l’utilisateur prend trop de trades perdants dans un marché en range, l’application doit détecter que la stratégie de breakout est mal adaptée à ce contexte et recommander de la suspendre.
+
+Si l’utilisateur entre souvent trop tard, l’application doit signaler un problème de timing.
+
+Si l’utilisateur augmente la taille après une perte, l’application doit bloquer le trade.
+
+Si l’application a proposé plusieurs faux signaux dans le même contexte, elle doit réduire le score de cette stratégie dans ce type de marché.
+
+SECTION H — RAPPORTS D’APPRENTISSAGE
+
+L’application doit générer des rapports :
+
+1. Rapport après chaque trade.
+2. Rapport quotidien.
+3. Rapport hebdomadaire.
+4. Rapport mensuel.
+5. Rapport par stratégie.
+6. Rapport par type de marché.
+7. Rapport par erreur.
+8. Rapport par niveau de risque.
+
+Chaque rapport doit répondre à ces questions :
+
+1. Qu’est-ce qui a bien fonctionné ?
+2. Qu’est-ce qui a échoué ?
+3. Quelle erreur s’est répétée ?
+4. Quelle stratégie s’est améliorée ?
+5. Quelle stratégie s’est dégradée ?
+6. Quel comportement utilisateur est dangereux ?
+7. Quelle règle doit être renforcée ?
+8. Quelle décision doit être évitée à l’avenir ?
+9. Quelle amélioration tester en paper trading ?
+10. Quelle conclusion retenir pour la prochaine session ?
+
+SECTION I — PROMPTS INTERNES SUPPLÉMENTAIRES
+
+Crée les prompts internes suivants :
+
+1. Prompt d’analyse post-trade.
+2. Prompt de détection des erreurs répétées.
+3. Prompt d’amélioration de stratégie.
+4. Prompt de comparaison entre deux versions d’une stratégie.
+5. Prompt de validation avant activation d’une stratégie.
+6. Prompt de suspension d’une stratégie dangereuse.
+7. Prompt de rapport quotidien.
+8. Prompt de rapport hebdomadaire.
+9. Prompt de décision instantanée frontend.
+10. Prompt de simplification pédagogique pour débutant.
+
+Chaque prompt doit être strict, prudent, anti-hallucination, orienté risque et adapté à un débutant.
+
+SECTION J — SORTIE ATTENDUE
+
+Ta réponse finale doit compléter le concept initial avec :
+
+1. Une architecture d’apprentissage progressif.
+2. Une mémoire de trading.
+3. Une boucle d’amélioration continue.
+4. Un système d’analyse des erreurs.
+5. Un Strategy Lab.
+6. Un système d’optimisation contrôlée.
+7. Un frontend de décision instantanée.
+8. Un module anti-répétition des erreurs.
+9. Des rapports d’apprentissage.
+10. Des prompts internes complémentaires.
+
+La priorité absolue reste la sécurité, la gestion du risque, l’explication des décisions, le paper trading et la validation humaine.
+

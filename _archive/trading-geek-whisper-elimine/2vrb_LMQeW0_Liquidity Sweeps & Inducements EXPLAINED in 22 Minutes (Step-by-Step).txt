@@ -1,0 +1,260 @@
+What if I tell you that everything you knew about trading is wrong?
+Have you ever stopped and wonder why you keep on getting stopped out again and again and again?
+It's because you don't understand liquidity. At least one mistake is costing you thousands of
+dollars. So in this market mechanics course, I'm going to teach you how to spot liquidity
+so you don't become the liquidity. First and foremost, in order to spot liquidity,
+you have to understand what are inducements. Inducements are basically traps for retail
+traders where smart money entices market participants to enter for trades and transact
+at certain levels. In this way, smart money is able to generate a large amount of liquidity
+in order to fuel their large positions. They basically entice retail traders by using obvious
+chart patterns like double top and double bottom or support and resistance levels. Basically all
+these retail trading concepts, baiting them into entering the trade early. For example,
+when a retail trader see a double bottom chart pattern just like this from at a support level,
+they're going to enter for a buy thinking that price will go up. And as a result,
+they will most likely be placing the stop loss below the support level or below the double bottom
+just like this. And when this happens, this actually generate liquidity. Because if the retail traders who
+enter for a buy right here get stopped out, guess what? They have to sell the position. On the other
+hand, this double bottom chart pattern also induces the retail traders who might be bearish and they
+want to enter for a sell when price actually break out of this support level right here. In this case,
+they will most likely be placing a sell stop order below the support level or below the double bottom.
+once again generating liquidity below these lows right here. Now, once all the retail noobs have
+been induced to enter for their buy orders and their sell stop orders, smart money will then manipulate
+price by pushing it down to sweep the available liquidity below these lows. And when this happens,
+this will generate enough liquidity to fuel their large buy orders. And this causes price to skyrocket to
+the upside. This is exactly why you keep on getting stopped out only to see price go in your way. It's
+simply because smart money is just getting some liquidity from you. Now let's look at other types
+of inducements. So in this bearish scenario right here, we have price pulling back to this supply
+zone that we have right here. And the minute price actually mitigate the supply zone, it formed a
+double top. Once again, when retail traders see this double top chart pattern, they're going to think
+that, you know what, I'm going to enter for a sell right here and place my stop loss above this
+double top only for price to later go on there, sweep the available liquidity above this double top
+before going back down, right? It's pretty much the same concept right here. On the other hand,
+there will also be retail traders who want to enter for a buy after price actually break out of this
+resistance level or this double top. In that case, they'll be placing the buy stop orders right here
+only for smart money to manipulate price up there and sight them out of their position by causing price
+to reverse and head in the other direction after grabbing liquidity. So yeah, this is exactly why
+chart patterns don't work that well, right? So if you're still trading chart patterns, it's time to
+stop, all right? On the other hand, right here, we also got a strong low and strong high example. Now
+the other type of inducements is also created when there is a strong low or strong high. In this case,
+we got price pulling back to the last swing low, right? And what happened was that the internal
+structure turned bearish to facilitate that pullback. So we could expect the internal structure to be
+bearish. And when we see price breaking past the last internal lower high, that tells us that there
+is a market shift, there is a shift in structure and price is going to head up, right? Wrong. Because
+what can potentially happen is that price could just go out there, sweep the available liquidity above
+this swing high right there before coming down there even further sweeping the available liquidity below
+this swing low as well, right? So a lot of retail traders, they will most likely enter for a buy
+after this strong low is formed, but then later price come down and sweep more liquidity before
+actually going to the upside. Or in this bearish scenario right here, where a strong high is formed
+after price actually break past that strong internal higher low, right? When this happens, remember
+there is available liquidity above this swing high. Once again, because all the retail traders who
+enter for a sell here, they will be placing their stop loss above this swing high. Only for smart
+money to come up there, sweep the available liquidity above this swing high and causing price to go in
+that other direction. So my tip is always look out for inducements when price is approaching a point of
+interest, like an order block, a supply and demand zone, or a flip zone, or even a sweep zone, right?
+Any sort of point of interest. Because when price actually approach those zones, that is where so many
+retail traders, they will be impatient and they will enter too early just for price to come down and
+sweep the available liquidity before the actual move actually happens. So always wait for liquidity
+sweep before entering. And remember, if you cannot spot the liquidity, then you are most likely the
+liquidity. Instead of me yapping, why not? I just go onto the charts and show you how it's done,
+alright? So right now we got GU on a 15 minute time frame. The first thing you want to do is to
+actually map out your structure. So over here we got a break of structure to the downside and this
+tell us that this is that last 15 minute swing high, okay? So I'll just put this as the 15 minute
+strong swing high that led to this break of structure. And then over here we got price pull
+back a little bit before going down even further. And this could constitute as your internal break of
+structure, okay? So when we got a market shift right here where price actually broke past that
+last internal lower high, this does not signal that price has officially shifted bullish.
+This just signal that price is potentially turning bullish to facilitate that pullback back to that
+last swing high before continuing down, going even further and continue creating that lower high,
+lower low dynamic. So always try to understand what's the objective of price, right? What is price
+trying to do? So now we have figured out that, okay, price has officially turned bullish to facilitate
+that pullback. So on the internal structure, we can expect price to create higher highs, higher lows,
+until price actually break past that last higher low, that last internal higher low, give us the
+market shift, a shift in structure, then that confirm to us that price is shifting bearish and we can
+look for our sell position to trade with that swing structure. And then the next step is to actually
+mark up your point of interest, okay? So over here, we got our extreme supply zone right here that led
+to this break of structure. And then there is also another supply zone right here, okay? There's also
+another supply zone right here. This is more of an order block, right? But I'll just label this as a
+supply zone right there. Let me just mark this up right there, make it a little bit more cleaner.
+Okay, so right now we have our two points of interest. We know that price is turning bullish to facilitate
+that pullback. The objective of price is that it wants to mitigate this, either one of this supply
+zone, right? Fill up the remaining sell orders before heading back to the downside, right? So in
+this case, let's just continue to play price forward and just wait for price to mitigate that point of
+interest. So until price actually does that, we are not doing anything. Okay, cool. You can see price
+has stepped into our near supply zone. Remember when I told you that inducements tend to form at a
+point of interest? This is exactly what I mean. At this point of time, just because price has stepped
+into a supply zone does not mean that price is going to go down straight, okay? What can happen
+is that it can create inducements, traps to entice retail traders to enter a seller position early
+just for price to go up there, super available liquidity before heading back down even further,
+right? So you don't want to enter too early. You want to enter at the perfect timing. So at this
+point of time, we are waiting for our inducements. Okay, you can see price is reacting at the supply zone,
+but we are patient. We are not doing anything whatsoever because first of all, there is no
+inducement. Second of all, we haven't got a shifted structure that tells us that the structure have
+shifted bearish and right now we're going to continue to go down because right now price can
+continue to go up even further. Okay, so you can see price started shifting bearish and then we are
+getting a reaction from this zone right here. And what do we have right now? We have a double top,
+right? So if you look at this, we got a price reacting from the supply zone, pull back and then
+goes up there, react from this supply zone again and then start coming down right here, right? So
+there is actually a double top and remember double top, the two tops does not have to be the same
+height, okay? So you can have one that is higher than the other. It is still counted as a double top.
+And in this case, there is also another double top right here. You can see like a fractal double top
+right here on the five minute time frame. Okay, so right here, we got our inducements. Very,
+very nice double top right here. This is where most retail traders, they might want to enter for a
+sell somewhere right around here. And if they do enter for a sell here, guess what? They're going
+to be placing their stop loss above this highs right here. And in this case, let's look at what
+happened next. Okay, price went down, they are in profit, they are happy, they are celebrating,
+you know, they are considering getting that new car right now because, you know, they have made 10k and
+boom, they just lost, I don't know, their life savings or something, right? Too bad for you,
+you don't understand liquidity, right? So if you're watching my video, you shouldn't be operating
+in this way. You should be operating like a professional, professional, all right? So at
+this part of time, we know that, okay, we got that inducement, we are patient, right? We are not trying
+to enter for a sell here too early whatsoever. We are waiting for our liquidity to be swept before
+actually entering for the trade itself. And what do we have right here? We got a very nice liquidity
+sweep, right? Where price actually go up there, sweep the available liquidity above this swing high right
+here above this double top and then right now we can expect price to actually create like that
+reaction, right? But in order for this liquidity sweep to be valid, it needs to create a sharp
+V-shaped reaction just like this. So I'm waiting for that still, right? I'm not entering yet. You can see
+very sharp V-shaped reaction, right? Very, very nice. Now at this point of time, we got our liquidity
+sweep, but that does not allow me to enter for the trade yet. Because what can happen is that price can
+still go up even further because the internal structure is still bullish. So you map out your
+internal structure, you will see that, okay, this is that last swing high, okay? This is the 15-minute
+swing high and then this is that last swing low that we have right here, okay? So this is actually
+our 15-minute swing low. So in order for us to confirm a shift in structure, in order for price to
+turn bearish, price has to break past this last 15-minute swing low, right? And that will tell us
+that price has officially shifted bearish, right? So at this point of time, we got our liquidity
+sweep, we are still patient, we are waiting for our market shift right here that confirm to us,
+you know, we are, the lower timeframe structure is aligned with the higher timeframe structure,
+then we will start entering for the trade. And there we have it, a very, very beautiful market
+shift. Ladies and gents, this is your entry signal, right? So at this point of time, you know,
+I will be mapping out the point of interest that led to this market shift, okay? So this is a little
+supply zone, okay? Or order block, whatever you like to call it, that led to this market shift,
+and this is where I want to actually enter for the trade. If you have watched my videos in the past,
+you will also know that this is actually a flip zone, because we are reacting from this supply
+right here, I mean this demand zone right here, and if this demand zone were to do its job,
+price will continue to go up. But in this case, it created a reaction right here, right? So this is
+actually our 15 minute flip zone, and this is where I want to actually look for my entry.
+Price immediately pull back into the area right there, tap me into the trade, and at this point
+of time, your stop loss, you can place it above this flip zone, or you can even place it above that
+liquidity sweep, right? Because once price sweep the available liquidity above this swing high,
+we know that this high right here is somewhat protected, right? So in that case, you can place your
+stop loss above this high as well, okay? So it's really up to you. And for illustration purposes,
+we're just going to keep this strategy simple and just going to target about 3R, okay? Just going
+to target 3R just like this, okay? So obviously, I will actually place my stop loss above this flip
+zone. I wouldn't place it so far up, right? Because I know my shit, all right? So yeah,
+you can see price pullback, boom, immediately going to profit. Look at that large amount of imbalance.
+Okay, within like a few hours, it just dropped into our take profit. As simple as that. This is the
+power of liquidity. When you can understand liquidity, you're essentially God, right?
+You're essentially God. Now, this is how I personally trade liquidity sweeps, right? There
+are some traders out there who might actually enter for a sell somewhere right around here
+after price sweep liquidity. And in that case, they'll be placing their stop loss above once
+again, this protected swing high that swept liquidity and could potentially be targeting this
+area right here, right? And in that case, that might work for you as well, right? So if you want to do
+that, by all means, go ahead. My advice will always be the same. And that is to test out which entry work
+battle for you. For me personally, I need to wait for the market shift to give me further confirmation,
+right? And I get that multi-time frame alignment before I can actually, you know, let the trade
+do its thing. But for some of you guys who might be more aggressive, then in that case, you might want
+to enter straight away after the liquidity sweep. Find out what works for you based on data that you
+collect after countless of backtesting and forward testing, okay? Okay, now let's look at the next
+example that we have on curiosity on a four-hour time frame, right? So same thing, first things
+first, go and map out your structural. You will see that this is the last bullish break of structural
+that tells us that this is actually the last swing low. And then right here, this is that last swing
+high. So right now, we know that the objective of price is that it's turning bearish to facilitate
+that pullback to that last swing low before price could potentially create that new higher low and
+continue creating your higher highs and higher lows to the upside, okay? So now that you have
+understood the objective of what price is trying to do, you must mark up your point of interest,
+which is step two, right? And you will see that this is actually demand zone right there,
+a four-hour demand zone. And then there is also another demand zone right here. It's a tiny one
+because what happens is that price actually got there, it pulled back on the lower time frame,
+make a small little pullback and then it just goes back up, right? But it is still counted as a
+point of interest, right? So this is actually our demand zone, okay? So you can see right now,
+price has actually tapped into this near demand zone, right? So when you look at this, there is
+two demand zones. There's the near demand zone and then there's the extreme demand zone.
+I personally don't like to enter on the near demand zone because when you enter the near demand zone,
+right, you try to enter for a buy right here and you place your stop loss below this zone,
+what happens is that price could potentially come down and tap into the extreme zone before the real
+move actually happened. And in that case, if you entered once right here and then right now you
+enter again after price actually come into this extreme zone, you are prone to being wrong twice,
+okay? Because what happens is that if this zone fails as well, in that case, you have been wrong two
+times, one time right here and another time right here. But if you just enter the trade at the extreme
+zone, you might just be wrong once and that's it, right? But obviously, this depends on different
+scenarios in the market but that's a conversation for another day. But for now, price has stepped
+into our near demand zone so we are looking at what price is doing at this near demand zone.
+So at this point of time, price has actually reacted from this near demand zone that we have
+right here, right? So let's go down to the one hour time frame and see what price is doing,
+right? And you can see we got that price reacting right here and we know that we are trying to spot
+inducements at this point of interest, right? So let's continue to play price and see what price
+does. Okay, so you can see right here, when price actually reacted from this demand zone, guess what?
+All the retail traders, or rather most of them, they are going to enter for a buy right here and
+they're going to be placing their stop loss below these lows. Because what happens is that price has
+just mitigated from their demand zone or their support level, right? So obviously, price is going to go
+up now and then later on, price comes down, sweep the available liquidity up below this low right here
+and look at what we have. We got that sharp V-shaped reaction to the upside right there.
+Okay, so at this point of time, we got a strong low being from, right? Because prices actually went up
+there and broke structure, okay? It broke structure right here. Okay, when a strong low is formed just
+like this, once again, the retail traders, they're going to be entering for a buy right here and they
+will be placing their stop loss below this strong low right here. After all, what could go wrong,
+right? This is a strong low. Price is not going to go lower than this, right? Price is just going to
+go up right now. So let's look at what happened next. Guys, come on guys, you're better than this.
+This is what happens when you don't understand liquidity. You are the victim of market manipulation
+again and again and again, right? So wake up, buddy. So what we have right here was that price is just
+sweeping the available liquidity above this last high right here, just for price to go down even further.
+And that is why I don't actually recommend you guys to actually enter on the near zone.
+Okay, so we got that inducement, that strong low inducement right here. We know that there is
+available liquidity below this strong lows right here. Okay, so I'll just put that that liquidity
+mark right there that shows us that there is available liquidity below this strong lows. As you
+see right here, price has just went down there and the available liquidity below the strong low.
+And right now we can expect price to actually go up right there and then actually creates that real
+market shift to the upside. Okay, so at this point of time, if you look at the extreme zone,
+the extreme zone is still unmitigated, right? So there is still a chance that price will come
+down in the future to mitigate this extreme zone before it actually goes up there and break past that
+last swing high. Okay, so right now, if you did actually enter for a buy right here, after you got that
+liquidity shift below the strong low, you can potentially target like this area right here or
+1 to 3R, right? Like what I've mentioned earlier. But let's continue to see what price does. Because
+what happens is that if you look at it closely at a high level, you will actually see that there is
+available liquidity below this strong low as well, right? So this one is kind of harder to spot.
+But once again, I just want you to time travel back with me a little bit. Okay, so what we have
+right here was that this was that that last break of structure, right to the downside,
+which means this is that last low. And then we got price actually breaking past that last
+low that we have right here. When price break past this last low, we got a market shift right here.
+And this tell us that this is the new strong low. Okay, this is the strong low that led to this
+market shift right here. And because it is just a beautiful swing low, just like this, there is
+available liquidity below this swing low. Okay, so yeah, this one is a little bit trickier. Okay,
+but right now, remember your extreme zone is unmitigated. So what can potentially happen is
+that price is going to come down there, sweep the available liquidity from this strong low
+before the real move actually happens and take out this swing high right here. Okay, so you can see
+price came down later on available liquidity from that strong low. Okay, once again, you must
+understand the rationale of this. When retail traders, what they will do is that they're going
+to be entering for a buy right here. Okay, when retail traders, maybe even a lot of expert traders,
+they see price actually creating this market shift right here, they potentially enter a buy right here
+after this strong low is created. And that is where they could potentially be target, like maybe right
+here, or maybe even at this swing high, because they're expecting price to take out this swing high,
+right. And maybe they are placing a stop loss below this strong low right here, maybe the entry
+was like right here, because this is a little bit ridiculous, this is a little bit too late.
+But let's say they have like some good entry, let's give them some credit, okay. And in this case,
+stop loss below this strong low liquidity right here, they are trying to target this swing high.
+And then they see price going so near that swing high, then bam reverse against them and hit their stop loss.
+Now this is where they are raging, right. This is where they are angry because they just got
+stopped out right here. And that is really just price sweeping the available liquidity from this
+strong low. And then the real move actually happens right there and finally take out that last swing
+high and move up to the upside. This is what happens when you can really understand liquidity,
+it can actually prevent you from losing a lot of time and money. Now I know you're tired, bro. I know
+you're tired of losing again and again, getting stopped out over and over again. I was in your exact
+position until everything changed when I finally understood liquidity. Liquidity was that one
+game changer for me and my coaches inside the 1% club. After we really understood liquidity,
+we know how to spot liquidity, everything started to click like clockwork. I know you might be
+struggling right now. You can't pay your rent. The cars are repossessed. Nobody believes in you.
+You have lost again and again and again. The lights are cut off, but you're still looking at your dream,
+reviewing your goals every single day and telling yourself it's not over until you win. That's the
+spirit that you need to have, right? For me, I was so obsessed with trading and getting successful at
+trading where I literally locked myself in a room and just grinded at a charts. And I told myself that
+I could either succeed at trading or I would die trying. There is no in between. I was sick and tired
+of working my 9 to 5 job. I was sick and tired of being a waiter. I had to succeed. I have no choice.
+So don't stop running towards your dream. If you are to become a successful trader, don't stop.
+There is going to be days where you adopt yourself thinking that whether this is actually the right
+decision, especially after you have just lost like $5,000. But those are the times where you need
+to put your head up and just tell yourself to keep going. Because if you quit right now,
+the only thing you guarantee is failure. That's it. When the rough times come, tell yourself,
+they are not here to stay. They are here to pass. These too shall pass. So if you're having a bad
+trading day, don't say that you have a bad day. Say that you have a character building day. Today is
+going to make me a better trader. And that's the spirit. That's the mentality that you need to have
+in order to succeed in this tiring marathon. And if you want to learn more about liquidity,
+you can check out this video right here. And as always, remember you are just one trade away.

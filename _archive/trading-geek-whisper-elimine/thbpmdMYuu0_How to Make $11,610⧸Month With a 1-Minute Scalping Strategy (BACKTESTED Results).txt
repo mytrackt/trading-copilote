@@ -1,0 +1,290 @@
+most traders overcomplicate scalping but the truth is it doesn't have to be what if i told you that
+there's one simple mechanical strategy that allows you to pull profits from the market in just 30
+minutes a day without being glued to the charts this is the exact one minute scalping strategy
+that i use to make over six figures a month no guesswork no fancy indicators and i'm not just
+going to be throwing theory at you i'll break it down step by step and at the end i will show you
+real backtested results to prove to you that this actually works numbers don't lie so trust me i
+didn't pull this out of my ass with that said let me break down this entire scalping strategy into
+three simple steps that you need to follow the first step we are only going to be using two time frames
+your higher time frame will be your 15 minute time frame and your lower time frame will be your one
+minute time frame right we want to keep things very very simple so that we can execute without
+hesitation reservation or fear so as you can see on the screen this is the entire scalping trade plan at
+a high level and you can see that it only requires you to follow three simple steps by the way i'll
+leave this down in the description for you to download for completely free so the first step
+is to identify break of structure remember we always want to be trading with the order flow not
+against it because the market has already showed us where it wants to go so all we have to do as
+traders is just follow it so in this case we got a bullish break of structure to the upside
+once you identify that your first step is done as simple as that it's literally as simple as abc
+buddy so the second step is to define your point of interest this could be the form of supply and
+demand zones or auto blocks or flip zones or simply zones that grab some form of liquidity these are the
+zones that price is most likely going to react from so all we want to do is to wait for price to come
+back to these zones mitigate it and that step is once price mitigated that point of interest we jump down
+to our lower time frame and we execute our entry models now the next question becomes what are the entry
+models what do you want to see on the lower time frame itself so very simply once price mitigate
+your point of interest in this case this would be this demand zone right here or even this extreme
+demand zone you want to drop down to your lower time frame right which in this particular scenario
+it will be the one minute time frame itself now bear in mind that if you are not very experienced in
+trading you can use the five minute time frame as your lower time frame instead of the one minute
+time frame because the one minute time frame is incredibly volatile and you can be easily caught
+within the noise and all the freakouts if you're not careful if you're not really experienced
+but if you're indeed experienced and you have mastered the five minute time frame and you do want
+to catch those sniper sniper entries then feel free to use the one minute time frame as your lower
+time frame right so once price step into your point of interest drop down to your lower time frame
+one minute time frame and then you want to look for this pattern right here so all we are waiting for is
+some form of liquidity sweep right so in this case we got price creating like equal lows just like this
+which we know that it's just smart money building up available liquidity below these lows right all
+the retail traders entering for a buy position early right here they're going to be placing the stop loss
+below the lows itself which is liquidity to us professional traders so now we just wait for price
+to liquidate those lows right there right once we got a strong liquidation liquidity has been swept smart
+money has came into the market and then now it led to a market shift right where price actually
+break past the lower high which signaled to us that the internal order flow has shifted from
+bearish to bullish and this pullback is about to be over and right now the trend is about to shift
+bullish so once you got a market shift once you got your liquidity sweep all you do is to wait for
+price to pull back to the point of interest the demand zone or the most recent zone that swept liquidity
+and then once that happens you just enter for a buy right there as simple as that i'm going to show
+you on the charts what this actually looks like so just bear with me a little bit on the theory part
+because you need to have this embedded into your subconscious before we can go onto the charts and
+try to spot it in real time so that's one of the entry model another entry model is a failed reaction
+entry model right so in this case is the exact same scenario but what happened was that price actually
+went up there reacted to this supply zone that led to this liquidation and created a failed reaction
+right which means that demand has overpowered supply right because if this supply zone were to
+do its job price would just continue going down even further creating like a new low high just like
+this and it break structure just continue this bearish order flow right but that did not happen
+right we got a failed reaction and then what happened was that after the failed reaction guess
+what we got more liquidity being built up below this low right here right because this is where
+retail traders uh who are entering for a buy early somewhere around here once again they're going
+to be placing the stop loss below this swing low right here so over here price came down there
+swept that low right swept the liquidity below the failed reaction and then it finally led to a market
+shift so when this actually happens itself we can see that this becomes our most recent lower time
+frame sweep zone that we want to actually enter the trade on so all we have to do next is to wait for
+price to pull back to this sweep zone and then enter for a buy right there as simple as that right so
+you can see it doesn't matter which entry model you actually see on the charts the core concept behind
+it is that you just want to wait for price to pull back to the most recent lower time frame zone that
+swept some form of liquidity it's really not rocket science all right buddy so chill with that said let's go
+onto the charts and look at some real chart examples so you can actually visualize what this looks like
+in real time with candlestick charts itself so right now we are on usd cat on the 15 minute time frame
+itself you can see that we got a bullish break of structure to the upside so we know that we should
+be looking for longs at demand zones that led to the break of structure itself so this is where you want
+to mark up every single demand zone that led to this break of structure we can always start from the
+extreme right so this is the extreme zone and then this could be another zone right there and then
+this would be another demand zone right so you can see it's actually part of like this little demand
+chain where price greater the demand zone price pull back to this previous demand zone shoots up
+and then it pulls back to this recent demand zone and just continue going up right so this means that
+this demand chain is most likely going to sustain itself right so once you marked up your point of
+interest just like this you will see that it's kind of messy we got a lot of zones every single
+where and the question becomes how do you know which zone price is going to react from and the
+truth is we don't right because you must understand that trading is never a game of certainty it is
+always going to be a game of probabilities all we can do is to wait for price to come down into any
+one of these our point of interest and then once it does we look for our entry model and if our entry
+model presents itself we will be looking to get in for the trade so in this case let's see what price
+does next okay so you can see price went even deeper right so obviously it defied this point of
+interest we can just get rid of this one right here and price actually reacted from this demand
+zone right here so the minute price actually mitigates your 15 minute point of interest you want to
+immediately drop down to your lower time frame to look for your entry model itself right so in this
+case it touched the point of interest somewhere around here right so when this actually happens
+jump down to my one minute time frame and this is where i'm looking for this entry model that we have
+right here either one of these entry model to present itself so over here this is where we want
+to see where is the most recent break of structural on the lower time frame and you can see that this is
+the most recent break of structural which means we are expecting price to take out this last lower
+high right here in order for price to give us a market shift so let's see whether that actually
+happens or not right so price actually went down even further since price went down even further
+that is where you can drop your next internal break of structural which is this one right here
+and this becomes the most recent lower high which we want to see price takes out right so let's see
+what happened next right price continue going down even lower before price actually went up there and
+create a market shift okay so in this case we got our market shift which confirmed to us that you
+know what this bearish internal order flow is about to shift bullish and on top of that we also got
+some form of strong liquidation right so how do i know that right because if you look at what happened
+right here price actually went down right creating like some form of equal lows right here you can see
+there's a lot of lows right here building up a lot of liquidity below these lows and the return price
+come down there swept those lows before you actually push up right so we got a sharp v-shaped reaction
+just like that very very beautiful sharp v-shaped reaction so you can just put like your strong
+liquidation just like that so you got a liquidity sweep you got your market shift what's the next
+step the next step is to wait for price to pull back to the most recent lower time frame sweep zone
+and then you just make your entry right there and then so in this case itself where is the point of
+interest that led to this market shift right so we can obviously see this right here is the most
+recent demand zone right you can see price was just consolidating around here and then demand
+step into the market and cost price to go up there and take out this last lower high right here right
+which means that this is the demand zone that we actually want to look to enter on and remember
+very very simple right now you just don't do anything until price step into your lower time frame
+point of interest so this is where you can even consider setting an alert at this point of interest
+and then just wait for price to tap you into the trade itself okay so price is consolidating you're
+not panicking you are not getting fomo you're not getting in here because that's not part of the plan
+the plan is that you wait for price to pull back to your point of interest okay so once that actually
+happens you can see right here price mitigate your point of interest you get tapped into the trade
+right here and then this is where you want to place your stop loss below the point of interest
+itself obviously you don't want to put it super tight just like this give you a little bit of
+reading room at least 0.5 to 1 pips and then you want to target 2r right so targeting 2r will just be
+like this okay so remember for this particular strategy itself we are going to be using fixed
+our trade management method which means that we are always going to be taking profit at 2r this way
+we keep our risk consistent because consistent action leads to consistent profits right so in this case
+let's see what happens next right price goes into the draw now a little bit but it doesn't matter
+because we know that this is the zone that price is going to be reacting from since this zone swept
+liquidity so you can see price eventually go up into our take profit and let's see whether price hit
+our 2r take profit or not right so you can see price consolidated here a little bit and then eventually
+price went up there and smashed our take profit as simple as that right so it's really that simple
+and that mechanical all you are doing is that you are waiting for price to pull back to your
+point of interest on the lower time frame and then once that actually happens you enter okay so in
+this example right here this trade actually took quite long to play out so this was more of like
+an intraday trade rather than a scalp now this is where it's so important for you to understand how
+to refine your point of interest if you can refine your point of interest you can hit your take profit
+faster and you can have a much more higher risk to reward so in this case itself instead of drawing
+up the entire demand zone using the range method where we are marking up the entire consolidation
+that led to the breakout itself what we could do is to refine it to the pivot candle right so this
+is like a pro tip that i've never really shared a lot but if you are listening good for you
+so the pivot candle is basically the most recent candle that led to the breakout itself right so in
+this case you will most likely be this candle right here so you can see what happened over here if
+you zoom in here a little bit we've got price coming down here and then it led to price taking
+out this candlestick weak height right here so you can see this is literally the pivot candle that led
+to this fractal break of structure sort of thing so instead of entering right here you could have
+potentially made your entry at the edge of this zone itself right at the edge of the pivot candle
+place your stop loss below the zone that is created by the pivot candle itself and then just target
+2r so in this case this would have been done within like i don't know five minutes or something
+instead of waiting for 40 minutes or even like an hour for your trade to play out itself now with that
+said bear in mind that this refined method of marking up your point of interest is a little bit
+more risky because of the fact that sometimes price can just step into your range zone just like
+this right not the refined zone and it just goes up in that case if you're waiting for price to
+tap into your refined zone you might not get that into the trade itself so the pro tip is to find
+that sweet spot right gather as much data as possible which we're going to talk about later
+and then find out what is the best method for you to actually mark up your point of interest
+now let's look at another example in the bearish scenario right so you can see this time around we
+have done our first step which is identify the break of structure and we see that price is a
+downtrend right so we know that we should be looking to short at supply zones right so based on this
+itself you can see that this is the entire supply zone right here that led to the break of structure
+itself all right so now we are expecting price to pull back to this point of interest create like a
+lower high and then continue to head back down and we know that we are not going to be doing anything
+until price step into our point of interest so over here step one is done step two is also done so
+now you really just do nothing and this is where so many traders mess up they start getting itchy
+fingers they start looking for low property setups and start forcing trades when there is no clear
+opportunities whatsoever so don't be that brokey idiot all right so now just do nothing sit on your
+hands set an alert at a point of interest if you want and just wait for price step into that point of
+interest once that actually happens that is where you jump down to your lower time frame to look for
+entry itself okay so once again what you have even done better is you can also refine this point of
+interest right instead of marking up this entire range that led to this break of structure find a
+pivot candle right and then just refine it to that zone itself so you just be like this as simple as
+that okay so point of interest mitigation which brings us to the third step which means that we
+are going down to our lower time frame to look for our entry model itself right so if you go down to
+your lower time frame you can see the internal structure is actually bullish and once again why did
+price actually turn bullish it's so that if you could facilitate that pullback into this 15 minute
+lower high that we have downhill so that over here you can create like a new lower high for price to
+continue bearish right so now look at the structure you can see that our market shift will only happen
+if price actually take out this last higher low that we have down here right so now i'm not doing
+anything until price take out the last higher low once that actually happens we got our market shift
+nice little market shift now you must ask yourself is there any form of liquidity sweep whatsoever okay
+so in this example we actually got two liquidity sweep right so let's zoom in here a bit and you can
+see what happened when price mitigate the point of interest price went up right mitigated the point of
+interest started reversing this is so that it can induce the retail traders to enter or sell
+early thinking that oh price is going to reverse right now and then boom smart money come there and
+stop you out right so we know that this right here is a good old liquidity sweep because we are
+professionals we are not broker idiots and then once that actually happens price went down there and led
+to a market shift right so this was actually our sweep zone right and this is also our extreme zone
+which we have talked about earlier extreme zone that swept liquidity and it also led to the market
+shift itself right so by right we can just wait for price to pull back to this point of interest
+right well you're not actually wrong you're like partially right because if we go back to our
+entry models we can see that we haven't dived deep into this entry model itself which states that we are
+waiting for some form of fat reaction and then we are waiting for price to come back to the most
+recent lower time frame sweep zone remember the keyword here is recent so if we go back to this diagram
+right here this chart example we can see that price actually came down here and it reacted to this
+little demand that we have up here it reacted to this demand and we know that if this demand
+zone were to do it short price will go up there and take out this high to continue creating the higher
+high and higher low but in this case it failed to do that right supply overpowered demand and it
+caused price to go down even lower and when that happens we got a failed reaction and then what happens
+when we got a failed reaction we got liquidity being built up above the failed reaction itself right
+we got liquidity being built up above this lower high right here and then later on price swept that
+liquidity before price actually created a market shift okay so based on this itself we know that we got our
+the available sweep zone right here right so this is the most recent lower time frame supply zone that
+actually swept the available liquidity from the failed reaction itself so now we got two points of interest
+that we can look to trade from it is flip plus sweep zone right here right the most recent lower time frame
+sweep zone and also our extreme zone which also swept liquidity and both of them not only swept liquidity
+but it also led to the market shift itself so we know for a fact that both of these zones are
+institutional zones that we can actually look to sell from okay so now it's just a matter of waiting
+for price to actually pull back to this most recent lower time frame zone that we have marked up right
+here so over here we're not going to be doing anything actually in fact let me just refine this
+zone right to just the pivot candle itself so that we can really get like the best entry possible
+right so i'm not doing anything right here you can see price consolidating doing its thing you're doing
+nothing because it's not part of your trade plan and you just stay calm meditate whatever you want
+to do and then just wait for price to step into your point of interest once that actually happens you
+can see price step into your point of interest you enter for a sell position at the edge of the zone
+itself you place your stop loss above the zone right and just target to uh just like this okay as simple
+as that so you can see price actually went up there okay bear in mind that you need to give
+your stop loss a little bit of breathing room this is what happens if you don't give your stop loss
+a little bit of breathing room right if you put it super tight just like this get stopped out just
+for price to go in your way so you want to give it to at least like a 0.5 pips buffer or even like
+a one pip buffer right so if you give it like a one pip buffer you can see price go near your stop
+loss but you don't get stopped out and later on price go into your way and smash your take p at once to two r
+just like this as simple as that right but let's say you do get stopped out right let's say over
+here you stopped out okay cool you accept the loss you buy the loss and you move on to the next trade
+opportunity itself and where do you think it's going to be the next trade opportunity this zone
+right here because remember this zone has not been mitigated whatsoever right so over here when you take
+a loss you're not giving up whatsoever right you know for a fact that trading is a probability game and
+you can't win every single trade you continue to follow your edge you just move on right you just
+bite the loss and you move on and you just get rid of this point of interest and now you're waiting
+for price to pull back to this point of interest that we have right here and then once that actually
+happens let's see whether you get that into the trade or not right so here once again not doing
+anything place my sell limit order right above this zone itself and then eventually price goes up there
+it goes up super to put high up there and it taps into our refined zone right let me just mark that our
+refined zone right there okay so this is our refined zone this is where you should be placing
+your stop loss i mean this is where you should place your entry and then your stop loss will be above
+the zone itself and then you can just target to our just like this right so in this case we already
+been tapped into the trade let's see where the price go down and smash our tp it did as simple as that
+right so you can see let's say over here you got stepped out right it is what it is move on you find
+the next opportunity and over here you win the trade so over here you lost one percent and over
+here you lost you won two percent right so right now you're actually up one percent and that's what
+trading is really about it's not about how many times you lose it's not about how many trades you win
+it's about how much money you lose when you are wrong and how much money you actually make when you
+are actually right and if the profits always outweigh the losses it genuinely doesn't matter the next time
+you take a loss because you accept the fact that it is a variance it's part of this large sample size
+of trades and you know for a fact that if you continue trusting your edge you will eventually
+be profitable at the end of the month at the end of the week at the end of the quarter at the end of
+the year itself and that's really how i trade as a professional trader and i know some of you guys
+might be thinking does this actually work brad and to prove to you that this actually works i've actually
+gone ahead and back tested a hundred trades using this exact strategy and here's the results right
+so let's assume that the starting balance is one thousand dollars right because you are probably a
+broker and you don't have six figures like me right so in that case you start off with one thousand
+dollars and you reach one percent per trade because we are not reckless idiots we are professionals
+here even though we have a small account so we reach one percent per trade so that's about ten
+dollars on each trade right like there's panics right so in that case we are using a one is two
+risk to reward and assuming that the win rate is 45 percent right because this strategy actually works
+so it's at least 40 to 50 percent and we have taken 100 trades here's the results right obviously
+45 win rate does not mean that you are literally winning four trades in a row and then you are losing
+the last six or you are losing the first five trades and you're winning the next five no it's random
+and that's something that you must understand all right so in this case right here we win the first
+trade and then we lost the next three right so we were actually off to a bad start right so we lost
+the next three but you can see we get back to break even and then we slowly start getting good again
+and you can see just over the span of 100 trades we managed to end off the account balance at a whopping
+580 profit so imagine this you divorced it one thousand dollars into your trading account and you
+got back 580 dollars right which means you literally make back 58 of your account over the span of 100
+trades right so this could be one month it could be three months depending on how frequent you actually
+take a trade let's be real if you're a scalper this could probably be like one month right so in one
+month you made about 580 bucks based on your one thousand dollars account and if your account had
+ten thousand dollars you would have made 5.8k and if your account have twenty thousand dollars you
+have made eleven point six k using this particular strategy itself and how do you get an account with
+twenty k if you only have one thousand dollars well go and get funded buddy because if you have access
+to a large capital it becomes so much more easier to actually make a lot more money so if you have a lot
+of money you can make a lot more money that is why i can make six figures a month it's because i have
+a large account it doesn't mean that i'm a better trader than you it just means that i have a large
+account like just look at this if you have 100k in your account this strategy allows you to make 58k
+and if you have one million dollars in your account this strategy allows you to make 580 000
+and as you can see this isn't just theory we let the results speak for itself because at the end of the day
+numbers don't lie and by the way this is not just working for me it worked for my students as well
+right for example samudin right here who recently made about 26 000 on a goddamn monday morning
+just by scalping gold using the mechanical trade plan that we have given him and on top of that it's
+not just samudin alone once again if you look at our win section you will see that every single day
+people are winning like kevin right here who made about i don't even know how many how much money is
+this i think it's like a few thousands of dollars and then we got corey here as well who got his
+first payout on a small 5k account of 700 that is quite a significant amount for like a small account
+and you can see it's people winning every single day right one day ago three days ago five days ago
+six days ago and this goes on and on and on and on because our trading strategy actually works
+our proven mechanical trade plan is not something that is random it's something that we have back
+tested time and time again and it stood a test of time right you can see there's over a hundred plus
+of like this student wins posts so if that's it if you're gonna learn more proven trading strategies
+just like this one right here which allowed me and my students to consistently profit from the market
+itself check out the one percent club link in the description because inside the one percent club we
+not only teach you about strategies we teach you about mindset we teach about trading psychology how
+the market actually works how to manage risk and how you can scale your account to seven figures like
+a professional trader and by the way this is the only place where you're able to learn from three
+professional traders with over 20 plus years of combined experience people who actually know what
+they're doing like i said the secret to becoming successful at trading is to just follow traders who are
+successful and this is the best place to do it so if that's it i hope to see you inside the one percent
+club and as always remember you're just one trade away and if you want to see more lessons on
+mark your point of interest check out this video right here all right go on click on it what are you
+waiting for for me to kiss you

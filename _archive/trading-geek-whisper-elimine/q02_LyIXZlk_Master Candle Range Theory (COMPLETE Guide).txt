@@ -1,0 +1,246 @@
+most traders look at candlesticks like random bars on the chart bullish candle bearish candle
+maybe a nice looking wig maybe some candlestick pattern they memorize from youtube but the truth
+is not every candlestick matters equally sometimes one single candle gives you the entire framework
+for the next move it can show you where liquidity is sitting where price is likely to react and
+whether the move you're seeing is the real move or is just a threat in this video i'm gonna break
+down tender range theory in a much simpler way and i'm gonna show you how to actually use it properly
+where to find the best crt candlest how to know if the liquidity ship is actually valid and where the
+real entry comes from my name is brad gold i've been trading for seven years till date i've made over
+three million dollars in trading profits and every single trade is documented live on my second channel
+red trades i've also helped hundreds of students became six figure funded traders and i'm also the
+founder of edgeflow which is a discipline first trading platform which allows you to trade with
+structure before during and after you trade so quite simply put i don't want your money i just
+want you to become a better trader let's get into it now first of all before we talk about what to do
+let's talk about what not to do and what not to do is the trade like majority of the retail traders
+out there because if you trade like the majority of the retail traders out there you're just gonna
+get the same results of the majority which is losses upon losses and what majority of the retail
+traders do when they are trading candlestick patterns is that they are focusing on too much
+candlestick shapes and patterns and names and nuances right oh if i see this pattern it's gonna do this
+if i see that pattern it's gonna do that and as a result they treat every candlestick equally but the
+thing is not every candle matters the same every single candle actually tells us a story all you have
+to do is to listen the real question is which candle is price actually respecting that's the candle
+that we want to focus on everything else is just noise so what the hell is crt actually crt stands for
+candle range theory i don't know why i put a candlestick right there let me just cross out the
+stick so it's candle range theory and basically you must understand the anatomy of a candlestick
+every single candlestick has a high and a low there's a highest point that price went to when the candlestick
+is being formed and then that's the lowest point that price went to while the candlestick is being formed
+right so this is your candlestick high and this is your candlestick low which also means that technically
+every candle creates a range right because we've got a high here we've got a low here and this becomes
+the range which govern the entire candlestick and crt is about using that candlestick range as the
+framework for reading price so what we do in crt is that we actually use the high and the low as key
+levels to know whether price is actually respecting or breaking past those levels so we know whether price
+is reversing or continuing so in this example right here let's say this is the higher time frame
+screenshot right this is what price looks like on let's say the four hour time frame if you go down
+to the lower time frame you break this entire candlestick pattern down and you go and look at it in
+with like a microscope right on maybe let's say the one hour time frame which is the lower time frame
+or the 15 minute time frame this is what is going to look like okay so this is just a fractal view
+of what's actually going on on the higher time frame itself and realize that the highs and the lows
+these are literally the turning points okay so price pretty much went up to the candlestick high that we
+have established reverse and right now price is approaching the candlestick low which means that
+is potentially about to reverse as well so once again the high and the low of a particular candlestick
+essentially act as liquidity boundaries and when price revisits the range it can either accept beyond
+it or reject beyond it and this right here is pretty much the concept of order flow which says that
+when price want to move it often goes through this entire cycle of accumulation manipulation and distribution
+this is where you know maybe the institution are actually accumulating orders stacking a large
+amount of buy orders and then later you purposely push price all the way up here right manipulate price
+shipping some liquidity grabbing some liquidity so that they can actually have the liquidity that is
+needed to actually fulfill their opposing sell orders right which is what allow price to actually get
+manipulated and then later to continue to the downside right continue the entire real move so
+accumulation manipulation and distribution and if you apply that into candle range theory you will see
+that when price is sweeping the liquidity above the candlestick high or below the candlestick low this
+is where the manipulation phase is going on okay so if you don't understand what i mean basically if
+price goes up there and sweep one side of the candlestick range and closes back inside the range just like
+this forming like a v-shaped reaction causing like a false breakout this means that this move right
+here is just a liquidity grab this right here is just a liquidity sweep and after this has happened price
+is most likely going to move towards the opposite side of the range which is the candlestick low or continue
+in the direction of the higher time frame trend so crt is really about reading the range the sweep and the real intention of
+price all right cool now let's go on to the charts and try to spot some good old crt but before you do
+you must understand where to spot them because if you apply this candle range theory you will see it
+everywhere because every single time frame every single market every single whatever there is going
+to be some form of candlestick patterns which also means that if you don't know how to apply this crt
+theory properly what happens is that you are going to be lost and overwhelmed right you're going to be
+trying to spot the high and low of every single candle whatsoever and you must understand that just
+because a candlestick is building up right now a candlestick is forming right now does not necessarily
+mean that we want to apply this concept to that particular candlestick we only want to apply it to crt
+candlest right and where do you find a crt candlest you find it at higher time frame point of interest so i'm
+talking about some form of supply and demand zone order blocks support or resistance levels previous
+swing high or swing low right basically key levels okay those are the candlestick where you want to
+pay attention to because price tends to reverse at those key levels and that is where you can use the
+candle range theory to kind of give you an indicator or signal that price is potentially going to reverse
+soon and you can also look for crt setups in premium and discount areas so in an uptrend ideally you want
+to look for bullish crt setups in discount in a downtrend you want to look for bearish crts in the
+premium and also another place will probably be at the end of a correction right so if the market is
+trending right now this is where you can expect price to pull back to like a meaningful area before
+continue going down and this is where you might want to find the crt candle right here inside the pullback
+to give you a confirmation that price is actually continuing with the higher time frame trend and
+also another place that comes to mind is probably liquidity zones right so i'm talking about above
+equal highs below equal lows right obvious buy side sell side liquidity and prior session highs and lows
+now once again i'm not going to go too deep into each one of this concept like supply and demand zone
+all the blocks and liquidity concepts because i've already done a video covering each one of these
+concepts so you can just go to my youtube channel and just search it up and you will be able to find
+it easily what i really do want to go through in this video is the crt now looking at this example
+right here price has been heavily bearish but recently price actually reversed which indicated
+that potentially there was some bias some demand at this price point causing price to actually go up
+if that's the case this is where we can mark this as our low and this is where there is some form of
+demand zone within this area right here so now since there's demand sitting at this 1.536 price point
+we are pretty much expecting some buyers in the market to actually cause price to push up and this
+is where i'm gonna get interested in the crt right this is where i'm to look for my crt candles to tell
+me okay price is potentially gonna reverse right crt is always gonna be the first sign of reversal so over
+here this is the most recent candle right so this is where i'll mark up the high and the low of the
+candlestick just like this let me just zoom in for you guys to see okay so price is at the demand zone
+and we are on the 15 minute time frame and we have marked up the candlestick high and also the
+candlestick low right so this is a crt high and crt low now ben my that you can apply this theory this
+concept across all time frames right whether that's one hour four hour or whatever it's universal because
+candlestick is candlestick we love all shapes and sizes you know what i'm saying so yeah that's the
+crt high and low once that's done then the next thing we want to look out for is for price to
+actually sweep either the high or the low right remember your manipulation phase right we need to
+see that sweep and then if price get that sweep then potentially we are we can trade it in the
+opposite direction to uh the the opposing end of the range so in this case since price have not
+sweep let me just not do anything let's see what price does next okay you can see price came down
+sweep the candle range low so at this point of time this is where you want to go down to the lower
+time frame to look for entries right so for this example i'm going to keep things simple and just
+use two time frames the higher time frame which is the 15 minute which is the one that we are using
+to mark up the candle range and the five minute is the time frame that we're going to be using for
+entries right to look for our entry confirmation and trigger so this is where the minute price
+actually swept the low or the high of the entire candle range i will drop down to the lower time
+frame okay so listen up very very important you do not drop down to the lower time frame until
+either the high or the low get taken out because sometimes what can potentially happen is that
+after this candle is formed there is no liquidity sweep right so as a result prices continue
+consolidating in this area right here before we get an actual liquidity sweep so you want to be
+mindful and take into account of the fact that every single pattern in the market is different
+right every single movement in the market is unique which means that price might not give you this
+perfect price action textbook price action all the time but anyway this is where we go down to the
+lower time frame since price has already swept the low okay cool so now that we are on the lower
+time frame we saw that clear as day this is where sellers try to push the price down but they fail
+right as a result demand actually overpowered supply causing this huge bullish candlestick right
+here sweeping the liquidity below these lows right here and causing price to reverse this is where you
+can potentially look for longs if you look for longs right here this is where you want to be targeting
+the opposing end of the range right so if you're entering for a buy at a candlestick range theory low you're
+going to be targeting the candlestick range theory high if you are selling at a candlestick range high
+then you are going to be targeting the candlestick range low right so always target the opposing end
+okay yeah so this is the aggressive version of the entry model i'm going to show you the conservative
+version later on but for now just know that if you are super duper aggressive right you are re-seeking
+this is where after price have swept the range high or low you can immediately enter upon seeing
+some form of confirmation in terms of liquidity sweep so ideally what i want to see to confirm
+that this is indeed a valid liquidity sweep is first of all the v-shaped reaction second of all is some
+form of bullish candlestick just like this to confirm to me that demand is actually present in the
+market and i'm not delusional okay but yeah this is the confirmation for aggressive entry so once you see
+that you can easily enter for longs right here and this is where you can place your stop loss below
+the liquidation candle or below the candle range low right for me personally i like to be safe i'll
+place it below the liquidation candle which is pretty much the candlestick that swept the liquidity right
+which is this one right here came all the way down here this is the lowest point right so this is like
+where the liquidity should actually happen and i'll place it a few pips below it and this is where i
+will target the opposing end which is like somewhere right around here and you just like set and forget
+and you just let the trade do its thing right so low and behold within 10 minutes we're out of the
+trade as simple as that as simple as that just to keep things mechanical for now now once again i'm not
+going to dive too deep into how to you know get like insane sniper entries in this video because i've
+done a lot of videos on that right you guys can go and watch the other videos in this video i really just
+want to like dive deep into the crt and how to actually trade it properly so that's the aggressive
+entry model but the thing is not everybody is so risk seeking right because sometimes what can happen
+is that price can do this and i still continue going down so as a result you might want to use the
+conservative version of the entry model which one should you use it depends on you it depends on the
+risk tolerance depends on the trading style depends on the trading plan and most importantly it depends on
+your data so if you are testing out this new concept try both aggressive and conservative entry
+model and see which one works best for you and then you want to stick to that one but anyways next up
+let's talk about a conservative entry model so what i've just shown you is the aggressive version right
+which means we enter right after the liquidity sweep just like this and target the next high
+okay the conservative version entry model which is for people who are more risk averse requires you to
+wait for extra confirmation okay what do i mean by extra confirmation well extra confirmation in terms
+of a retracement of a pullback which means that after this liquidity sweep has happened we want to see
+price ideally pull back to some form of point of interest right here then you look for loans okay so
+this is the extra confirmation that you need in a conservative version of the entry model so you can either
+wait for price to pull back to the demand zone that sub liquidity which is this entire zone right here
+right you can just mark up the entire liquidation candle from high to low just like this this would
+be the demand zone that sub liquidity so you're expecting price to pull back to this area and then
+this is where you look for longs and trade it to the upside or another point of interest that we can
+look out for is the imbalance that was created okay so imbalance is basically the gap right so if you look at
+this huge candlestick right here what do we have we got a huge gap right here okay which is demarcated
+by the previous candlestick high high and the next candlestick low just like this creating a gap and
+this is what we call imbalance and this is also another point of interest where price tend to respect
+before pushing to the upside so in this case this is where you can enter for a long position
+on either the imbalance or the extreme point of interest the pros of entering upon the imbalance
+is that most of the time price tends to pull back to the imbalance and then blast off
+but the con of entering at the imbalance is that there's a chance that it's a little bit too aggressive
+and price can potentially make a deeper pullback into the extreme point of interest and then push it to
+the upside okay so i'm just gonna give you the raw truth you gotta find out which one works best for
+you based on data yeah so in this case let's say we enter at the imbalance right here so we wait for
+price to actually mitigate the imbalance once that actually happens you enter upon an imbalance just
+like this and this is where you can place your take profit at like 3r 4r or however you like to
+basically take profit but once again to keep it simple we're just gonna put it at like let's say
+3r in this particular lesson itself right so just stick to 3r so you can see what happens that
+price mitigated this imbalance and then went up there smash or take profit as fast as humanly possible
+so that's the conservative entry model now let's go through another example this time on nq and in an
+uptrend so in the uptrend we want to see our crt that tell us that price is reversing to the downside
+if that happens this means that price is potentially gonna start pulling back or it's potentially gonna
+start a huge reversal to the downside so over here we got price went up pull back and then goes up okay
+so price has literally just broke structure and when prices just broke structural we are anticipating
+prices start pulling back how do you know when price is gonna pull back well you look for the candle
+range theory okay so this is where we spot that this is the most recent candle this is where you can mark
+up your candle range low and candle range high just like this okay high low marked up very very cool
+now what do we do we do nothing remember waiting is the best position in trading not buy not sell but
+waiting okay so you do nothing until either the high or low get taken out so i'm over here chilling boom
+price up the high okay this is where i'm getting interested i'm getting intrigued so i go down to the
+five minute time frame which is my lower time frame to look for my entries so once again at this point
+of time if you are aggressive you can enter right after the liquidity sweep okay so the minute price
+actually swept liquidity just like this you know it went up there and take out the previous candlestick
+high gave us a long week just like this to indicate to us that there is indeed a liquidity sweep because
+what this essentially means is that at some point of time buyers try to push price all the way up here
+but then there was just too many damn sellers in the market causing price to come all the way down
+here creating this huge selling pressure and causing the candlestick to close bearish just like this so
+that right there is clear as day liquidity sweep so if you're aggressive enter for a shot right here
+place a stop loss above the crt candle just like this right above the high of the the liquidation candle
+sorry not the crt candle right you can either place a stop loss above the high of the liquidation candle
+or you can place a stop loss above the high of the crt high right but my personal recommendation is to
+place it above the liquidation candle above the high of the liquidation candle reason being this right here
+has just become a protected high which also means that price is most likely going to respect that high
+the next time you actually pull back to the area because time and time again i've seen people place
+their stop loss above the crt high just like this later on price make a tiny little pullback stop them
+out and then later on price went in their way so i'll say my personal recommendation once again this is
+based on data not vibes is to place a stop loss above the liquidation candle right above the protected high
+above the highest point of the entire liquidity strip and then this is where we target the opposing
+end right because remember if you're entering for a sell at a candle range high this is where you want
+to target the candle range low right so let's see what happens next later on price went down there
+smash our tp as simple as that and this is where it gets a little bit interesting right this is actually
+what i wanted to show you notice that if you actually base your stop loss above the candle range
+range i just like this let's say price doesn't hit tp right price doesn't hit tp whatsoever
+and price just end up consolidating around here next thing you know a candlestick just like this
+cause price to win all the way up to the other range and stopped you out you can see this is where
+it gets stopped out okay and then just for price to potentially go in your way later on
+yeah i can see just for price to go in your way later on so this would be like an epic fail okay if you
+actually like did not know where the place of stop loss properly but i've just given you the secret
+source right so stick to the stop loss placement make sure you place it at a price point which
+invalidate your trade ideal and to me that's the liquidation candle now cool let's talk about the
+conservative version of the entry model in this case so the conservative version of the entry model
+in this case remember after the liquidation candle this is where we can see that okay this is the entire
+liquidation candle you can mark this as your supply zone right your supply zone that swept liquidity
+so we are not doing anything until price mitigate that supply zone that swept liquidity
+so this is where just nice the next candle actually mitigated that supply zone that swept liquidity
+right so you can potentially place like a limit order right so that upon the mitigation of the
+supply zone you're tapped into the trade and you can target this high this low right here or
+you can target like the the next 2r 3r once again however you actually manage your trade properly
+but if you do this always make sure you place your stop loss a few pips above this high giving it a
+little bit of breathing room yeah so i'll say like once again i'm gonna leave it completely up to you
+to choose like which entry model do you want to be using right because both of them works it just depends
+on how good you are at using those entry models and how favorable the market conditions is because
+sometimes use the aggressive entry model it play out perfectly but sometimes it doesn't because the
+market conditions just sucks right so there's a lot of nuances there's a lot of variables that you
+need to take into account of right so i can't just sit here and just tell you yo use the aggressive
+entry model that's the holy grail or use the conservative entry model that's the best
+it really comes down to your data now before we end here today i just want to give you one final
+tip and that is only trade your a plus version of the candle range theory like i said just because
+the candlestick is there does not necessarily mean that you have to trade that particular candlestick
+does not necessarily mean that you have to apply the crt to that candlestick itself you want to find
+the version right the crt variation that is the cleanest that is the most obvious that is the most
+easiest for you to trade and i always say this to my students a good trade idea will hit your head like
+a two by four truck it'll be so obvious that it'll be stupid for you not to jump into the trade so make
+sure that you are extremely selective with your trade ideas focus on quality over quantity so that my
+friend is the real way to use the crt once you start seeing candlesticks as ranges as price action
+as sentiment as institutional flow of money instead of random patterns the whole chart becomes a lot
+cleaner and once you see it you can't unsee it just like when neo took the red pill in the matrix
+everything starts changing because key has changed now let's be honest this entire crt entry model is
+absolutely useless if you do not combine it with my market mechanics concepts if you do not understand
+where to spot these crts if you do not understand how to develop a daily bias if you don't even know how
+to identify liquidity then everything that you just learned here today is useless so this is why i highly
+highly recommend you to check out my full market mechanics playlist right here you can get access
+to all my concepts for absolutely free i just want to provide as much value as humanly possible right so
+go on check that out right now and as always remember you're just one trade away

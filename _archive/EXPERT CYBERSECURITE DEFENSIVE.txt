@@ -1,0 +1,307 @@
+EXPERT CYBERSECURITE DEFENSIVE
+
+
+Validation : tes choix sont cohérents. Le seul point critique est que tu veux une procédure “PC dédié au trading”, mais tu pars d’un PC personnel. Donc je vais proposer deux niveaux : niveau recommandé = transformer ton PC actuel en environnement strictement séparé ; niveau idéal = acheter ou réserver un PC uniquement pour NinjaTrader, banque et courtier.
+
+Le principe de sécurité pour ton cas est simple : moins il y a de logiciels, d’extensions, de téléchargements et d’usages personnels sur le PC de trading, moins il y a de surface d’attaque.
+
+Verdict prioritaire
+
+Pour faire du trading réel sur NinjaTrader, le plus dangereux n’est pas seulement “le hacker” classique. Les risques majeurs sont :
+
+Vol d’identifiants : email, courtier, banque, NinjaTrader.
+Malware via indicateurs, stratégies, scripts ou add-ons NinjaTrader.
+Phishing : faux site NinjaTrader, faux courtier, fausse mise à jour.
+Prise de contrôle du navigateur ou du PC par extension, logiciel piraté ou crack.
+Ransomware qui bloque tes fichiers, ton journal de trading ou ton accès au poste.
+Mauvaise configuration Windows : compte administrateur utilisé tous les jours, pas de chiffrement, pas de sauvegarde, mots de passe faibles.
+
+NinjaTrader confirme que les add-ons tiers peuvent être importés dans la plateforme et que ces add-ons s’exécutent nativement sur ton ordinateur ; la documentation précise qu’un add-on avec des bugs peut affecter toute l’application NinjaTrader et qu’il faut installer seulement des sources de confiance. C’est un point critique pour toi.
+
+Niveau 0 — Décision de base avant installation
+
+Pour argent réel, je recommande fortement ceci : ne transforme pas ton PC personnel entier en PC de trading sans séparation stricte.
+
+Option idéale : un PC dédié uniquement à NinjaTrader, banque, courtier, email trading et mises à jour. Aucun téléchargement personnel, aucun torrent, aucun crack, aucun jeu, aucun logiciel inconnu, aucune extension navigateur inutile.
+
+Option acceptable si tu gardes ton PC actuel : créer un environnement Windows séparé avec un compte dédié au trading, navigateur dédié, aucune extension, aucun téléchargement non lié au trading, et interdiction d’installer des indicateurs NinjaTrader non vérifiés.
+
+Priorité 1 — Sécuriser Windows 11 avant NinjaTrader
+
+Commence par mettre Windows à jour.
+
+Va dans :
+Paramètres → Windows Update → Rechercher les mises à jour → Installer tout → Redémarrer.
+
+Ensuite, vérifie les protections natives :
+
+Paramètres → Confidentialité et sécurité → Sécurité Windows.
+
+Active ou vérifie :
+
+Protection contre les virus et menaces : active via Kaspersky si Kaspersky est ton antivirus principal. Quand un antivirus non Microsoft est installé et enregistré, Microsoft Defender passe normalement en mode passif sur Windows 10/11 ; il ne faut donc pas chercher à faire tourner deux antivirus en protection temps réel en même temps.
+
+Protection basée sur la réputation / SmartScreen : à activer. Microsoft indique que Windows 11 utilise notamment Defender Antivirus, SmartScreen et des protections ransomware pour contrôler les téléchargements, les fichiers ouverts et les opérations sensibles.
+
+Smart App Control : à activer si disponible. Microsoft décrit Smart App Control comme une protection d’exécution qui combine l’intelligence applicative Microsoft et l’intégrité du code Windows pour bloquer les applications non fiables ou potentiellement dangereuses.
+
+Isolation du noyau / intégrité de la mémoire : active si ton PC le permet. Cela réduit certains risques liés aux pilotes malveillants.
+
+Protection contre les ransomwares / Accès contrôlé aux dossiers : à activer pour protéger Documents, Bureau, Images et tes dossiers importants. Microsoft indique que cette fonction aide à protéger les données importantes contre les applications malveillantes et les ransomwares.
+
+Priorité 2 — Chiffrer le disque avec BitLocker ou Device Encryption
+
+C’est indispensable si ton PC est volé ou manipulé.
+
+Va dans :
+Paramètres → Confidentialité et sécurité → Chiffrement de l’appareil.
+
+Si disponible, active-le. Sur Windows 11, le chiffrement de l’appareil utilise BitLocker pour chiffrer automatiquement le disque système et les lecteurs fixes compatibles.
+
+Ensuite, sauvegarde la clé de récupération BitLocker. Microsoft recommande de sauvegarder cette clé et explique qu’elle peut être retrouvée dans le compte Microsoft si elle y a été sauvegardée.
+
+Règle importante : imprime ou stocke la clé de récupération hors du PC. Ne la laisse pas seulement dans un fichier sur le même ordinateur.
+
+Priorité 3 — Créer deux comptes Windows séparés
+
+Ne travaille jamais tous les jours avec un compte administrateur.
+
+Crée :
+
+Compte administrateur : uniquement pour installer ou modifier le système.
+Compte standard Trading : utilisé pour NinjaTrader, banque, courtier et navigation trading.
+
+Procédure :
+
+Paramètres → Comptes → Autres utilisateurs → Ajouter un compte.
+
+Crée un compte local ou Microsoft dédié. Ensuite :
+
+Paramètres → Comptes → Autres utilisateurs → Type de compte → Utilisateur standard.
+
+Le compte Trading ne doit pas pouvoir installer librement des logiciels. Cela bloque beaucoup d’attaques simples.
+
+Priorité 4 — Sécuriser tes comptes critiques
+
+Tu dois avoir une adresse email dédiée au trading. Pas ton email utilisé partout.
+
+Exemple :
+
+Email personnel : réseaux sociaux, achats, forums.
+Email trading : NinjaTrader, courtier, banque, broker, données de marché.
+
+Active une authentification forte sur :
+
+Email trading.
+Compte Microsoft.
+NinjaTrader.
+Courtier.
+Banque.
+Gestionnaire de mots de passe.
+
+Le meilleur niveau est une clé de sécurité physique type YubiKey ou équivalent, quand le service l’accepte. CISA indique que les clés de sécurité physiques offrent la meilleure protection contre le phishing pour la MFA.
+
+Évite le SMS comme méthode principale si tu as une alternative. Préfère : clé physique, passkey, Microsoft Authenticator, Google Authenticator, Aegis, 1Password, Bitwarden ou équivalent.
+
+Microsoft documente aussi l’usage des passkeys dans Windows comme méthode d’authentification prise en charge sur les versions Windows compatibles.
+
+Priorité 5 — Configurer Kaspersky correctement
+
+Garde Kaspersky si tu le maîtrises et s’il est à jour. Kaspersky annonce pour Windows une protection temps réel, anti-malware, anti-ransomware, anti-phishing et des outils anti-hacking selon l’offre utilisée.
+
+À faire dans Kaspersky :
+
+Mettre à jour les bases antivirus.
+Lancer une analyse complète avant toute installation de NinjaTrader.
+Activer la protection web / anti-phishing.
+Activer la protection bancaire ou navigateur protégé si ton édition l’inclut.
+Activer la surveillance comportementale.
+Activer la protection contre les ransomwares.
+Activer l’analyse des fichiers compressés.
+Activer l’analyse des périphériques USB.
+Ne pas désactiver Kaspersky pour installer NinjaTrader.
+Ne créer aucune exclusion Kaspersky sauf si absolument nécessaire et uniquement pour un fichier officiel NinjaTrader.
+
+Point important : si Kaspersky te demande d’autoriser NinjaTrader à accéder à Internet, autorise uniquement l’application officielle téléchargée depuis ton compte NinjaTrader. NinjaTrader précise que son application doit pouvoir contacter ses serveurs pour la validation utilisateur, et qu’un pare-feu peut provoquer une erreur de connexion si l’accès est bloqué.
+
+Priorité 6 — Installer NinjaTrader proprement
+
+Procédure stricte :
+
+Crée ton compte depuis le site officiel NinjaTrader.
+Connecte-toi à ton compte.
+Télécharge NinjaTrader depuis le tableau de bord officiel.
+Installe uniquement la version officielle.
+Ne télécharge pas NinjaTrader depuis YouTube, Telegram, forums, Google Drive, Discord ou sites “crack”.
+N’installe aucun indicateur au début.
+Commence en simulation / paper trading.
+Sauvegarde la configuration initiale propre.
+
+La documentation officielle indique que l’installation passe par le compte NinjaTrader, puis par le menu de téléchargement, avant la connexion au broker ou au fournisseur de données.
+
+NinjaTrader indique aussi que la plateforme Desktop est destinée aux systèmes Windows et permet le trading simulé avant le live trading ; c’est préférable pour valider ta configuration sans exposer immédiatement ton argent réel.
+
+Priorité 7 — Règle spéciale contre les indicateurs malveillants
+
+C’est probablement ton plus gros risque spécifique au trading.
+
+Règle absolue : aucun indicateur NinjaTrader inconnu sur le PC réel.
+
+Les add-ons NinjaTrader peuvent être fournis sous forme d’archive NinjaScript, d’installeur personnalisé, ou de fichiers à placer manuellement. Cela signifie qu’un “simple indicateur” peut être en réalité du code exécutable dans ton environnement.
+
+Procédure sûre :
+
+N’installe que des indicateurs venant d’un vendeur connu.
+Vérifie le site officiel du vendeur.
+Évite les fichiers reçus par WhatsApp, Telegram, Discord, YouTube ou email.
+Évite les indicateurs gratuits trop prometteurs.
+Évite les “robots miracles”, “scalping auto profit”, “no loss strategy”.
+Installe d’abord tout add-on sur un environnement de test, pas directement sur le compte réel.
+Garde une liste des add-ons installés : nom, vendeur, date, source, preuve d’achat.
+Si un add-on demande de désactiver antivirus, pare-feu ou SmartScreen : refus immédiat.
+
+Pour toi, la règle professionnelle est : NinjaTrader officiel d’abord, indicateurs natifs seulement, puis ajout progressif d’un seul add-on à la fois après vérification.
+
+Priorité 8 — Navigateur dédié au trading
+
+Crée un navigateur ou profil navigateur uniquement pour le trading.
+
+Le plus simple :
+
+Microsoft Edge ou Chrome.
+Profil nommé : “Trading”.
+Aucune extension sauf gestionnaire de mots de passe fiable.
+Pas de Facebook, YouTube, sites de streaming, forums, téléchargements ou email personnel dans ce profil.
+Ne sauvegarde pas les mots de passe dans le navigateur si tu utilises un vrai gestionnaire de mots de passe.
+Active la protection renforcée contre le phishing.
+Efface les extensions inconnues.
+
+Tu peux utiliser un deuxième navigateur pour la vie personnelle. Ne mélange pas.
+
+Priorité 9 — Sécuriser le réseau Wi-Fi et le routeur
+
+Un PC sécurisé sur un routeur faible reste exposé.
+
+À faire :
+
+Changer le mot de passe administrateur du routeur.
+Mettre à jour le firmware du routeur.
+Utiliser WPA2-AES ou WPA3.
+Mot de passe Wi-Fi long, unique, non partagé.
+Désactiver WPS.
+Créer un réseau invité pour téléphones, TV, objets connectés, invités.
+Garder le PC trading sur le réseau principal.
+Ne pas trader sur Wi-Fi public.
+
+CISA recommande notamment de changer le mot de passe administrateur du routeur pour éviter les attaques utilisant les identifiants par défaut.
+
+Priorité 10 — VPN : utile mais pas obligatoire
+
+Le VPN peut être utile sur réseau public ou réseau non fiable. Pour trading à domicile, il n’est pas toujours nécessaire.
+
+Utilise un VPN seulement si :
+
+Il est payant, reconnu, stable.
+Il ne coupe pas souvent.
+Il ne ralentit pas exagérément la connexion.
+Il ne déclenche pas d’alertes de sécurité chez ton courtier.
+Il n’est pas utilisé pour masquer des comportements suspects.
+
+Pour NinjaTrader et courtier, la stabilité est prioritaire. Si le VPN crée des déconnexions ou change trop souvent d’adresse IP, il peut devenir un problème opérationnel.
+
+Priorité 11 — Sauvegardes propres
+
+Tu dois avoir deux types de sauvegarde :
+
+Sauvegarde système Windows.
+Sauvegarde documents / journal / exports trading.
+
+Attention spécifique : la documentation NinjaTrader avertit que le dossier Documents\NinjaTrader 8 doit être exclu des sauvegardes cloud comme OneDrive ou Dropbox, car cela peut créer des conflits d’accès aux fichiers.
+
+Donc ne synchronise pas directement le dossier actif NinjaTrader avec OneDrive. Fais plutôt :
+
+Export manuel de la configuration NinjaTrader.
+Copie sur disque externe.
+Copie chiffrée dans le cloud si nécessaire.
+Sauvegarde hebdomadaire.
+Test de restauration une fois par mois.
+Priorité 12 — Hygiène opérationnelle quotidienne
+
+Avant de trader :
+
+Redémarre le PC.
+Vérifie que Kaspersky est actif.
+Vérifie que Windows Update n’est pas en attente de redémarrage.
+Ferme les logiciels inutiles.
+Ouvre uniquement NinjaTrader, navigateur trading, gestionnaire de mots de passe.
+Ne télécharge rien pendant la session.
+Ne clique sur aucun lien reçu pendant la session.
+Ne fais pas de support technique à distance pendant la session.
+Ne partage jamais ton écran avec quelqu’un si NinjaTrader, banque ou courtier sont ouverts.
+
+Après la session :
+
+Ferme NinjaTrader.
+Déconnecte-toi du courtier si nécessaire.
+Sauvegarde ton journal.
+Note tout comportement anormal : lenteur, popup, demande de mot de passe, alerte antivirus, déconnexion.
+Priorité 13 — Plan d’urgence si tu suspectes un piratage
+
+Si tu vois un comportement suspect :
+
+Déconnecte Internet immédiatement.
+Ne te reconnecte pas à la banque depuis ce PC.
+Ne change pas les mots de passe depuis ce PC.
+Depuis un autre appareil propre, change d’abord le mot de passe email.
+Ensuite change NinjaTrader, courtier, banque.
+Contacte le courtier pour bloquer temporairement l’accès si nécessaire.
+Lance une analyse complète Kaspersky hors session trading.
+Vérifie les programmes installés récemment.
+Vérifie les extensions navigateur.
+Si doute sérieux : sauvegarde les documents importants, puis réinstallation propre de Windows.
+Configuration cible recommandée pour toi
+
+Pour ton profil, je recommande cette configuration :
+
+Windows 11 à jour.
+Kaspersky actif et à jour.
+BitLocker ou Device Encryption activé.
+Compte Windows administrateur séparé.
+Compte Windows standard dédié au trading.
+Email dédié au trading.
+Gestionnaire de mots de passe.
+MFA forte sur email, courtier, banque, NinjaTrader.
+Clé physique de sécurité si possible.
+Navigateur dédié sans extensions.
+NinjaTrader installé uniquement depuis le compte officiel.
+Aucun add-on tiers pendant les premières semaines.
+Paper trading d’abord.
+Add-ons testés un par un.
+Pas de OneDrive/Dropbox sur le dossier actif NinjaTrader.
+Sauvegarde externe régulière.
+Routeur sécurisé.
+Aucun accès à distance activé.
+Ordre d’exécution concret
+
+Aujourd’hui :
+
+Mets Windows 11 à jour.
+Mets Kaspersky à jour.
+Lance une analyse complète.
+Active BitLocker / Device Encryption.
+Sauvegarde la clé de récupération.
+Crée un compte Windows standard “Trading”.
+Crée ou réserve un navigateur “Trading”.
+Sécurise ton email avec MFA.
+Sécurise ton routeur.
+
+Ensuite seulement :
+
+Crée ton compte NinjaTrader.
+Télécharge depuis le compte officiel.
+Installe NinjaTrader.
+Autorise NinjaTrader dans le pare-feu/Kaspersky uniquement si l’application est bien officielle.
+Commence en simulation.
+Ne mets aucun indicateur externe au début.
+
+Décision finale : avec ton objectif “argent réel”, je ne recommande pas d’installer NinjaTrader immédiatement sur ton environnement personnel actuel sans appliquer au minimum les priorités 1 à 8. Le point le plus sensible sera la discipline sur les add-ons NinjaTrader : un seul mauvais indicateur peut compromettre toute la machine.

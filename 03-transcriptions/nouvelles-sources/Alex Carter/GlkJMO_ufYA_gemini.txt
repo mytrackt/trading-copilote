@@ -1,0 +1,401 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: GlkJMO_ufYA.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+Je dois d'abord signaler une divergence fondamentale avec votre demande. La vidéo fournie est en **anglais** et traite de **Claude AI et de son utilisation pour le trading crypto**, et non d'une vidéo de Mustapha Belkhayate enseignant le trading financier en français.
+
+Je vais transcrire la vidéo telle qu'elle est, en anglais, en intégrant les descriptions visuelles comme demandé, mais en adaptant les descriptions aux éléments réels de la vidéo (Claude AI, plateformes crypto, etc.) plutôt qu'aux outils de Belkhayate.
+
+---
+
+[VISUEL: Écran d'ordinateur affichant un post X (anciennement Twitter) de @claudeai. Le post annonce : "You can now enable Claude to use your computer to complete tasks. It opens your apps, navigates your browser, fills in spreadsheets—anything you'd do sitting at your desk. Research preview in Claude Cowork and Claude Code, macOS only." Une image d'un téléphone affichant une conversation avec "Dispatch" et un ordinateur portable avec une interface de code est visible.]
+Claude has just dropped something absolutely insane.
+
+[VISUEL: Le post X défile vers le bas, montrant une autre image avec le texte "Or when it's time to check the build, but you're on the train".]
+And honestly, I think most crypto traders are sleeping on this.
+
+[VISUEL: Le post X défile encore, montrant un autre post de @claudeai : "Claude uses your connected apps first: Slack, Calendar, and other integrations. When there's no connector for the tool you need, it asks for your permission to open the app on your screen directly." Une capture d'écran d'une fenêtre pop-up "Turn on computer use?" et une autre fenêtre "Claude wants to use:" sont affichées.]
+With this new update, you can create an AI agent that could actually handle your whole trading system for you.
+
+[VISUEL: Page web avec le titre "What is agentic AI?". Le texte "Agentic AI is an artificial intelligence system that can accomplish a specific goal with limited supervision. It consists of AI agents—machine learning models that mimic human decision-making to solve problems in real time." est surligné en bleu.]
+Not just give you analysis.
+
+[VISUEL: Tableau de bord de trading avec des statistiques de P&L par paire (ADA, SUI, SOL, BTC, VIRTUAL) et de taux de victoire par paire. La plupart des paires montrent des pertes importantes, sauf "VIRTUAL" avec un petit gain.]
+Not just write code.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Des indicateurs de moyenne mobile sont visibles. Une fenêtre d'édition de script (Pine Script) est ouverte à droite, montrant du code pour des indicateurs de moyenne mobile.]
+But actually open your exchange, execute positions, and run your entire trading workflow.
+
+[VISUEL: Interface de création de clé API sur une plateforme de trading (BioFin). Les options "Connect to Third-Party Applications", "API Transaction", "Tax Report API", "BioFin MCP" sont visibles. Les permissions "Read", "Trade", "Withdraw", "Transfer" sont affichées, avec "Read" et "Trade" cochées.]
+While you're doing something else completely.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Le prix est autour de 86,550A_VERIFIER.8A_VERIFIER. Des boutons "Buy long" et "Sell short" sont visibles.]
+That's exactly what Claude Cowork can now do.
+
+[VISUEL: Interface de chat avec Claude. Une question est posée : "Analyze the current Bitcoin price action on the 4A_VERIFIER-hour chart. Tell me if we're in a trending or ranging market, and give me your view on whether I should be looking long, short, or staying out." Claude répond avec une analyse détaillée du prix du Bitcoin, mentionnant un prix autour de 70,500A_VERIFIER-71,000A_VERIFIER USD et un marché en "Ranging - with a bearish lean".]
+And in this video, I'm going to show you how to set it up, connect it to your exchange, and turn it into your personal trading assistant. Let's get into it.
+
+[VISUEL: Page d'accueil de Claude Cowork. Le titre est "Delegate to Claude. Delight in the result." Une image d'un téléphone et d'un ordinateur portable est affichée, montrant une interaction entre les deux via Claude.]
+But first, let me explain what makes this completely different from every AI tool you've used before.
+
+[VISUEL: Interface de Claude Cowork, montrant les options "Schedule tasks", "Organize files", "Build spreadsheets", "Prepare reports", "Analyze notes". Un graphique de bulles est affiché en dessous.]
+So what exactly is Claude Cowork? This is Anthropic's latest release.
+
+[VISUEL: Page web de CNET avec le titre "Anthropic's Claude Can Now Control Your Computer". Le sous-titre est "The developer is boosting Claude's agentic capabilities in an apparent effort to compete with platforms like OpenClaw."]
+And it is a massive upgrade from the regular Claude you already know.
+
+[VISUEL: Page web d'Evident avec le titre "Explained: Anthropic's new Claude tool that can control your computer; Here's how it works, what it can do, and more". Une image d'un téléphone avec "Reach your desktop from your pocket" est visible.]
+Here's the thing, in regular Claude chat, you type a message, Claude responds.
+
+[VISUEL: Interface de chat de Claude (fond sombre). Le message "Hi! How can I help you today?" est affiché. L'utilisateur tape "Give me a market insight for Bitcoin today".]
+That's it. It can't touch your files, it can't open your apps, it can't remember what you told it last week.
+
+[VISUEL: Claude répond à la demande précédente avec un "Bitcoin market insight for today, March 24A_VERIFIER, 2026A_VERIFIER", mentionnant le prix actuel du Bitcoin autour de 71,000A_VERIFIER USD.]
+Every conversation starts from zero.
+
+[VISUEL: L'utilisateur tape "can you open my crypto account I'll give you the logins". Claude répond : "I appreciate the trust, but I'm not able to access external websites, apps, or accounts—I can't log into platforms on your behalf. I also wouldn't recommend sharing your login credentials with anyone or any AI system, as that poses a serious security risk." Il liste ensuite ce qu'il *peut* faire : "Market analysis", "Research", "Strategy planning", "Platform guidance".]
+Claude Cowork is completely different. It's what we call an agentic AI, meaning it doesn't just talk, it actually acts.
+
+[VISUEL: Page d'accueil de Claude Cowork.]
+Here's what that means in practice.
+
+[VISUEL: Page web avec le titre "What is agentic AI?". Le texte "Agentic AI is an artificial intelligence system that can accomplish a specific goal with limited supervision. It consists of AI agents—machine learning models that mimic human decision-making to solve problems in real time." est surligné en bleu.]
+Claude Cowork can open your apps directly.
+
+[VISUEL: Page d'accueil de Claude Cowork. Le bouton "Download Claude" est cliqué.]
+Your browser, your spreadsheets, your trading platforms.
+
+[VISUEL: Post X de @claudeai, montrant la fenêtre "Turn on computer use?" et "Claude wants to use: Finder, Google Chrome, Read your clipboard, Write to your clipboard".]
+It can read, edit, and create files and folders you give it access to.
+
+[VISUEL: Navigateur web (Google Chrome) ouvert sur la page d'accueil de Google.]
+It can remember context across sessions.
+
+[VISUEL: Feuille de calcul (Google Sheets) ouverte, montrant un tableau de progression de rangs de trading.]
+So it knows what you told it yesterday.
+
+[VISUEL: Page de connexion de BioFin, une plateforme de trading.]
+It can run tasks on a schedule, like scanning your email every morning or pulling a report every Friday.
+
+[VISUEL: Page d'accueil de Claude Cowork. Le titre "Delegate to Claude. Delight in the result." est affiché. Une vidéo est intégrée, montrant l'interaction entre un téléphone et un ordinateur.]
+And it can follow you from your phone to your desktop.
+
+[VISUEL: Interface de Claude Cowork, montrant les options "Schedule tasks", "Organize files", "Build spreadsheets", "Prepare reports", "Analyze notes". Un graphique de bulles est affiché en dessous.]
+You assign a task on your phone, come back to your computer, and the work is done.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "Set it once, skip the ask". Le texte explique les tâches planifiées.]
+This is not a chatbot. This is a full AI agent that works for you.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "Message Claude from anywhere. Come back when it's done." Des icônes de téléphone et d'ordinateur sont visibles.]
+And I'm going to show you exactly how to install it in just a moment.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "Message from your phone", "Claude works on your computer", "You get the result".]
+But first, let me show you the features that make this insane for crypto traders.
+
+[VISUEL: Page de téléchargement de Claude. Le titre est "Download Claude". Des boutons "Download for Windows" et "Windows (arm64)" sont visibles. Des sections "Desktop" et "Mobile" avec des options de téléchargement pour macOS, Windows, iOS, Android sont affichées.]
+This is where it gets really interesting for us as traders. So let me break down the key features.
+
+[VISUEL: Page de téléchargement de Claude. Des sections "Claude Cowork surfaces" et "Claude Code environments" sont affichées, avec des boutons "Download" ou "Install" pour différentes applications (Desktop, Chrome, Terminal, PowerPoint, Slack, JetBrains).]
+And specifically, why this matters for crypto.
+
+[VISUEL: Section "Take Claude on the go" avec des QR codes pour Apple et Google Play.]
+Number one, computer use.
+
+[VISUEL: Page d'accueil de Claude Cowork. Le titre "Delegate to Claude. Delight in the result." est affiché. Une vidéo est intégrée, montrant l'interaction entre un téléphone et un ordinateur.]
+Claude Cowork can literally control your computer.
+
+[VISUEL: Article de CNET "Anthropic's Claude Can Now Control Your Computer". Une capture d'écran de la fenêtre "Turn on computer use?" est affichée.]
+It opens apps, navigates your browser, fills in forms, anything you do sitting at your desk.
+
+[VISUEL: Post X de @claudeai, montrant la fenêtre "Turn on computer use?" et "Claude wants to use: Finder, Google Chrome, Read your clipboard, Write to your clipboard".]
+This is a research preview right now, available in Cowork and Claude Code. But it's already working.
+
+[VISUEL: Page d'accueil de Claude Cowork. Une section "Agent safety is still in development. Take precautions while using it." est affichée. Des témoignages d'entreprises (Thomson Reuters, jamf) sont visibles.]
+Number two, file access.
+
+[VISUEL: Section FAQ de la page Claude Cowork. La question "What kind of files can Claude Cowork read, create, edit, and analyze?" est ouverte, révélant une liste de types de fichiers (Documents and text, Spreadsheets, Presentations, Images, Data and config, Notebooks, Code files).]
+In regular chat, Claude can't touch your files.
+
+[VISUEL: Interface de chat de Claude (fond sombre). L'utilisateur tape "can you open my crypto account I'll give you the logins". Claude répond qu'il ne peut pas accéder aux comptes externes.]
+In Cowork, you give it permission to read, edit, and create files in specific folders.
+
+[VISUEL: Section FAQ de la page Claude Cowork. La question "What kind of files can Claude Cowork read, create, edit, and analyze?" est ouverte, montrant la liste des types de fichiers.]
+We're talking Word docs, PDFs, Excel spreadsheets, CSVs, JSON files, Python scripts, even Jupyter notebooks.
+
+[VISUEL: Tableau de bord de trading (Stonk Journal) affichant l'historique des trades, les gains/pertes, les paires performantes, etc. Des graphiques de performance par jour de la semaine et par heure sont visibles.]
+For traders, and this means it can read your trade history, analyze your performance data, and build reports automatically.
+
+[VISUEL: Page d'accueil de Claude Cowork. Le titre "Power through tedious tasks" est affiché. Les options "Schedule tasks", "Organize files", "Build spreadsheets", "Prepare reports", "Analyze notes" sont visibles.]
+Number three, scheduled tasks.
+
+[VISUEL: Section de la page Claude Cowork montrant un prompt : "Pull my metrics from the analytics dashboard and drop them in the weekly report template every Friday." Des "Attachments" (Quarterly Performance, Strategic Metrics) sont visibles.]
+Tell Claude once to pull a market report every morning or scan your portfolio every Friday, and it handles it from there.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "Describe the outcome and cadence, and it takes action and keeps you informed. Come back to the result."]
+You don't have to ask again.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "Message Claude from anywhere. Come back when it's done." Des icônes de téléphone et d'ordinateur sont visibles.]
+Number four, cross-device continuity.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "You're in control". Le texte explique que l'utilisateur choisit les dossiers et les connecteurs auxquels Claude peut accéder.]
+One conversation that follows you from your phone to your desktop.
+
+[VISUEL: Animation montrant un téléphone et un ordinateur portable. Le téléphone affiche une conversation avec "Dispatch" demandant de démarrer un serveur de code et de prendre une capture d'écran. L'ordinateur exécute la tâche et affiche une page "Library".]
+You assign a task on the go, come back to your computer, and it's done.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "Message from your phone", "Claude works on your computer", "You get the result".]
+This is huge if you're monitoring markets while you're out.
+
+[VISUEL: Graphique de prix BTC/USDT sur TradingView (fond sombre). Une moyenne mobile est visible.]
+Number five, app integrations.
+
+[VISUEL: Page d'accueil de Claude Cowork. Le titre "Customize Claude for your team with plugins" est affiché. Des sections "Skills", "Connectors", "Sub-agents" sont visibles.]
+Claude Cowork connects to Slack, Calendar, Notion, GitHub, and more.
+
+[VISUEL: Post X de @claudeai, montrant la fenêtre "Turn on computer use?" et "Claude wants to use: Finder, Google Chrome, Read your clipboard, Write to your clipboard".]
+And when there's no connector for the tool you need, it asks your permission to open the app directly on your screen.
+
+[VISUEL: Page d'accueil de Claude Cowork. Des sections "Plugins" pour "Brand voice", "Legal", "Finance" sont affichées.]
+The difference from regular chat is simple.
+
+[VISUEL: Page de blog de Claude Cowork avec le titre "Customize Cowork with plugins".]
+Regular Claude describes how to do things.
+
+[VISUEL: Section de la page Claude Cowork avec le titre "Claude asks before acting". Le texte explique que Claude demande confirmation avant d'agir.]
+Cowork actually does them.
+
+[VISUEL: Interface de chat de Claude (fond sombre). L'utilisateur tape "how to connect my API". Claude répond avec un guide étape par étape pour connecter une clé API d'échange crypto.]
+Now let me show you how to actually install this.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché.]
+This part is actually very simple, and let me walk you through it.
+
+[VISUEL: Page de téléchargement de Claude. Le titre est "Download Claude". Des boutons "Download for Windows" et "Windows (arm64)" sont visibles.]
+Alright, so to get started, you need to download the Claude desktop app.
+
+[VISUEL: Page de téléchargement de Claude. Des sections "Desktop" et "Mobile" avec des options de téléchargement pour macOS, Windows, iOS, Android sont affichées.]
+Head over to claude.ai/download. You'll see the download page right here. You'll see download options for Mac and Windows. Just click on your operating system, and the download will start automatically.
+
+[VISUEL: Notification de téléchargement Windows : "Claude Setup.exe Download complete".]
+Once it's installed and you open it up, you'll land on the main interface.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché.]
+It looks similar to a chat window, but this is where all the power lives.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché. L'utilisateur clique sur "Work in a folder".]
+Now, to access Cowork specifically, you'll need a Claude Pro or Claude Max.
+
+[VISUEL: Post X de @claudeai, mentionnant "Available on Pro and Max".]
+Cowork is a premium feature.
+
+[VISUEL: Page de tarification de Claude Cowork, montrant les plans "Pro" (17A_VERIFIER$/mois), "Max 5x" (100A_VERIFIER$/mois) et "Max 20x" (200A_VERIFIER$/mois).]
+Once you're on the right plan, you'll see the Cowork option available in your interface.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché.]
+When you first open Cowork, it will ask you to set up your connected folders.
+
+[VISUEL: Interface de Claude Cowork. L'utilisateur clique sur "Organize files".]
+These are the folders on your computer that Claude is allowed to access.
+
+[VISUEL: Explorateur de fichiers Windows, montrant le dossier "This PC > Documents > Claude Cowork". L'utilisateur crée un nouveau dossier nommé "Claude Trading".]
+I recommend creating a dedicated folder for your crypto work. Something like "Claude Trading" and pointing it there. That way, Claude has access to everything it needs without touching the rest of your computer.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché.]
+And that's it, you're installed and ready to go.
+
+[VISUEL: Page de téléchargement de Claude. Le titre est "Download Claude".]
+Now here's where it gets really powerful for crypto.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Le prix est autour de 86,550A_VERIFIER.8A_VERIFIER. Des boutons "Buy long" et "Sell short" sont visibles.]
+Let me show you how to actually use this for trading.
+
+[VISUEL: Interface de création de clé API sur une plateforme de trading (BioFin). Les options "Connect to Third-Party Applications", "API Transaction", "Tax Report API", "BioFin MCP" sont visibles. Les permissions "Read", "Trade", "Withdraw", "Transfer" sont affichées, avec "Read" et "Trade" cochées.]
+This is the part most people don't realize is possible.
+
+[VISUEL: Fenêtre "Create alert on BTCUSD" sur TradingView. L'onglet "Notifications" est sélectionné. L'option "Webhook URL" est cochée et un champ de texte avec "https://example.com/alert-hook" est visible.]
+So now that you have Cowork set up, let me show you exactly how to use this as a crypto trading assistant.
+
+[VISUEL: Page d'aide de TradingView sur la configuration des alertes webhook. Le texte explique comment les webhooks envoient des requêtes POST.]
+[REGLE: A TradingView webhook notifies your external app when an alert is triggered. Instead of manually checking charts, we can automatically send data via an HTTP POST request to a URL you provide.]
+Use case one: Market Analysis on Demand.
+
+[VISUEL: Document texte avec le titre "Prompt #1A_VERIFIER Market Analysis on Demand". Le prompt est : "Analyze the current Bitcoin price action on the 4A_VERIFIER-hour chart. Tell me if we're in a trending or ranging market, and give me your view on whether I should be looking long, short, or staying out."]
+You can tell Claude Cowork, "Analyze the current Bitcoin price action on the 4-hour chart. Tell me if we're in a trending or ranging market, and give me your view on whether I should be looking long, short, or staying out."
+
+[VISUEL: Interface de chat de Claude. Le prompt précédent est affiché. Claude est en train de "Working" et "Searching the web". Il affiche 10A_VERIFIER résultats de recherche. Ensuite, il présente une "Bitcoin 4H Analysis - March 24A_VERIFIER, 2026A_VERIFIER", mentionnant le prix autour de 70,500A_VERIFIER-71,000A_VERIFIER USD et un marché en "Ranging - with a bearish lean". Il donne des points clés et une recommandation : "My View: Stay Out or Wait for Clarity".]
+It will pull the data, analyze it, and give you a structured recommendation. And because it remembers context, you can follow up, ask questions, and build on the conversation over time.
+
+[VISUEL: Document texte avec le titre "Prompt #2A_VERIFIER Trade Journal & Performance Reports". Le prompt est : "Analyze my last 90A_VERIFIER days of trades. Show me my win rate, average risk-reward, my best and worst performing pairs, and tell me where I'm losing the most money."]
+Use case two: Trade Journal and Performance Reports.
+
+[VISUEL: Tableau de bord de trading (Stonk Journal) affichant l'historique des trades, les gains/pertes, les paires performantes, etc. Des graphiques de performance par jour de la semaine et par heure sont visibles. L'utilisateur clique sur "Export to CSV". Une notification "data_20260324T124331.940Z.csv Download complete" apparaît.]
+Drop your trade history CSV into your Claude folder and say, "Analyze my last 90 days of trades. Show me my win rate, average risk-reward, my best and worst performing pairs, and tell me where I'm losing the most money."
+
+[VISUEL: Interface de chat de Claude. L'utilisateur ajoute le fichier CSV. Claude est en train de "Working", "Reading the skill for file reading", "Load the full CSV and do a complete analysis", "Running command".]
+Claude will read the file, crunch the numbers, and give you a full performance breakdown.
+
+[VISUEL: Claude affiche un tableau de bord avec "Win rate" (24.5A_VERIFIER%), "Net P&L" (-$615A_VERIFIER), "Avg risk-reward" (1.A_VERIFIER73R), "Required win rate" (37A_VERIFIER%). Il montre le P&L par paire (ADA, SUI, SOL, BTC, VIRTUAL) et le taux de victoire par paire. Il diagnostique ensuite les problèmes, par exemple : "ADA is killing you. 13A_VERIFIER trades, 1A_VERIFIER win, -$319A_VERIFIER in losses. That's not bad luck - that's a pair you have no edge on. Cut it." et "Your shorts are the real bleed. 26A_VERIFIER short trades, 4A_VERIFIER winners (15A_VERIFIER%), -$475A_VERIFIER. Your longs sit at 35A_VERIFIER% win rate and -$140A_VERIFIER - bad, but manageable. Your shorts are catastrophic."]
+Like having a personal trading analyst.
+
+[VISUEL: Document texte avec le titre "Prompt #3A_VERIFIER Strategy Research". Le prompt est : "Build me a trend-following strategy using EMA crossovers on the 4A_VERIFIER-hour chart. Write the logic, explain the parameters, and generate the Pine Script code for TradingView."]
+Use case three: Strategy Research.
+
+[VISUEL: Graphique de prix BTC/USDT sur TradingView (fond sombre). Une moyenne mobile est visible. Une fenêtre d'édition de script (Pine Script) est ouverte à droite, montrant du code pour des indicateurs de moyenne mobile.]
+Ask Claude to research a specific trading strategy. Say, "a trend-following system using EMA crossovers on the 4-hour chart." It will write the logic, explain the parameters, and even generate the Pine Script code for TradingView.
+
+[VISUEL: Document texte avec le titre "Prompt #4A_VERIFIER Daily Briefing". Le prompt est : "Every morning at 8am, pull the top crypto news, check Bitcoin's overnight price action, and give me a one-page briefing."]
+Use case four: Daily Briefings. Set up a scheduled task. "Every morning at 8am, pull the top crypto news, check Bitcoin's overnight price action, and give me a one-page briefing."
+
+[VISUEL: Article de Fortune avec le titre "Current price of Bitcoin for March 24A_VERIFIER, 2026A_VERIFIER". L'article contient des informations sur le prix du Bitcoin, son histoire, et les facteurs qui l'affectent.]
+Claude handles it automatically. You wake up, open your computer, and your briefing is already there. This is what I mean when I say this is a game-changer. It's not just answering questions, it's doing the work.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché.]
+But now let me show you the most powerful part: connecting Claude Cowork directly to your exchange API.
+
+[VISUEL: Interface de création de clé API sur une plateforme de trading (BioFin). Les options "Connect to Third-Party Applications", "API Transaction", "Tax Report API", "BioFin MCP" sont visibles. Les permissions "Read", "Trade", "Withdraw", "Transfer" sont affichées, avec "Read" et "Trade" cochées.]
+This is the most important step. Pay close attention here.
+
+[VISUEL: Page de connexion de BioFin. Le lien "Join BioFin Today and Win Welcome Bonus Up to 85,000A_VERIFIER USDT" est visible.]
+So for Claude Cowork to interact directly with your exchange account, you need to connect it through an API. I'm going to show you how to do this with BloFin. The link is in the description below, and you'll get up to five USDT just for signing up, plus up to 30 USDT in bonuses when you deposit.
+
+[VISUEL: Page "Welcome Gifts" de BioFin, montrant des "Mystery Box" de 5A_VERIFIER, 50A_VERIFIER, 30A_VERIFIER, 50A_VERIFIER USDT pour différentes actions (Sign Up, New User Staking, First Deposit, First Trade, First Copy Trade).]
+Step one: Create your BloFin account and deposit. Go to BloFin using the link in the description, sign up with your email, and make your first deposit.
+
+[VISUEL: Page de dépôt de BioFin. L'utilisateur sélectionne "USDT Tether" et "Tron (TRC20)". Un QR code et une adresse de dépôt sont affichés.]
+I recommend using TRC20 for USDT. It's fast and the fees are very low.
+
+[VISUEL: Page "Overview" des actifs de BioFin. Le "Total Equity" est de 15.68A_VERIFIER USDT. Les sections "Funding", "Spot", "Futures" sont visibles.]
+Once your deposit arrives, transfer it from your spot account to your futures account. This is important. Your API will pull funds from your futures account for any trading activity.
+
+[VISUEL: Fenêtre de transfert d'actifs sur BioFin. L'utilisateur sélectionne "USDT" et transfère de "Spot" à "USDT-M" (Futures).]
+Step two: Generate your API keys. Go to your account settings and click on API.
+
+[VISUEL: Page "API Management" de BioFin. L'utilisateur clique sur "Create an API Key". Une fenêtre "Create an API Key" apparaît. L'utilisateur sélectionne "Connect to Third-Party Applications" et entre "ClaudeCoWorkTrading" comme nom de clé API et "ClaudeCoWork" comme phrase secrète.]
+Click "Create API Key" and give it a name. Something like "ClaudeCoWorkTrading". You'll see three things here: your application name, your API key, and possibly a passphrase depending on your settings.
+
+[VISUEL: Fenêtre "Create an API Key" sur BioFin. Les permissions "Read", "Trade", "Withdraw", "Transfer" sont affichées. "Read" et "Trade" sont cochées, "Withdraw" et "Transfer" ne le sont pas.]
+Now, these keys are extremely sensitive. Never share them with anyone. Here's the smart way to set this up: enable trading permissions, but leave withdrawal permission disabled. That way, even if something goes wrong, your funds cannot be withdrawn. This is very important.
+
+[VISUEL: Fenêtre "API Key" sur BioFin, affichant la clé API et la clé secrète. L'utilisateur clique sur "Copy" pour les deux.]
+Click next and save your API key and secret key somewhere safe. I'll use a password manager.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché.]
+Step three: Connect to Claude Cowork. Now open up Claude Cowork and give it this prompt.
+
+[VISUEL: Document texte avec le titre "Prompt #5A_VERIFIER API Connection Prompt". Le prompt est : "I want you to connect to my BloFin exchange account using these API credentials: API Key: [paste your API key here] Secret Key: [paste your secret key here] Once connected, check my account balance so I can confirm you have access."]
+"I want you to connect to my BloFin exchange account using these API credentials: API Key: [paste your API key here] Secret Key: [paste your secret key here] Once connected, check my account balance so I can confirm you have access."
+
+[VISUEL: Page "Overview" des actifs de BioFin. Le "Total Equity" est de 15.68A_VERIFIER USDT.]
+Claude will process this, connect to the BloFin API, and confirm your balance.
+
+[VISUEL: Page "API Management" de BioFin. La clé API "ClaudeCoWorkTrading" est listée avec le statut "Active".]
+Just like that, Claude Cowork now has direct access to your exchange account.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Le prix est autour de 67,350A_VERIFIER.3A_VERIFIER. Des boutons "Market buy" et "Market sell" sont visibles.]
+From here, you can give it trading instructions like, "Open a long position on Bitcoin with $10, using 5x leverage. Set a take profit at 3% and a stop loss at 1%."
+
+[VISUEL: Document texte avec le titre "Prompt #6A_VERIFIER Trade Execution". Le prompt est : "Open a long position on Bitcoin with $10A_VERIFIER, using 5x leverage. Set a take profit at 3A_VERIFIER% and a stop loss at 1A_VERIFIER%."]
+And it will execute it immediately.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Une notification "Order placed" apparaît. Une position longue est ouverte avec un P&L de 0.00A_VERIFIER USDT.]
+Now let me show you how to connect this to TradingView as well.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Le prix est autour de 67,350A_VERIFIER.3A_VERIFIER.]
+This is where the automation gets really powerful.
+
+[VISUEL: Graphique de prix BTC/USDT sur TradingView (fond sombre). Le prix est autour de 67,279A_VERIFIER.3A_VERIFIER.]
+Now BloFin is great, but you can take this even further by connecting Claude Cowork to TradingView using webhooks.
+
+[VISUEL: Fenêtre "Create alert on BTCUSD" sur TradingView. L'onglet "Notifications" est sélectionné. L'option "Webhook URL" est cochée et un champ de texte avec "https://example.com/alert-hook" est visible.]
+A webhook is basically a notification system.
+
+[VISUEL: Page d'aide de TradingView sur la configuration des alertes webhook. Le texte explique comment les webhooks envoient des requêtes POST.]
+[REGLE: A TradingView webhook notifies your external app when an alert is triggered. Instead of manually checking charts, we can automatically send data via an HTTP POST request to a URL you provide.]
+When your TradingView strategy triggers an alert, like an entry or exit signal, the webhook automatically notifies Claude Cowork, and it executes the trade on your BloFin account.
+
+[VISUEL: Fenêtre "Create alert on BTCUSD" sur TradingView. L'onglet "Message" est sélectionné. Un champ de texte avec "{text": "BTCUSD Greater Than 9000A_VERIFIER"}" est visible.]
+Here's how to set it up. Step one: Ask Claude to generate a webhook. Give Claude this prompt.
+
+[VISUEL: Document texte avec le titre "Prompt #7A_VERIFIER Creating Webhook URL". Le prompt est : "Create a webhook endpoint that I can use with my TradingView alerts. When a signal comes in, execute the corresponding trade on my BloFin account based on the signal parameters."]
+"Create a webhook endpoint that I can use with my TradingView alerts. When a signal comes in, execute the corresponding trade on my BloFin account based on the signal parameters."
+
+[VISUEL: Document texte avec le titre "WEBHOOK". Une URL de webhook est affichée : "https://gateway.claudecowork.com/v1/webhooks/tradingview/signals/execute/market?accountId=bf_main&region=ap-southeast-1A_VERIFIER".]
+Claude will generate a webhook URL and handle the logic behind it.
+
+[VISUEL: Graphique de prix BTC/USDT sur TradingView (fond sombre). Le prix est autour de 70,245A_VERIFIER.33A_VERIFIER.]
+Step two: Set up your TradingView alert. Go to TradingView, open your strategy or indicator, and click on "Create alert".
+
+[VISUEL: Fenêtre "Create alert on BTCUSDT" sur TradingView. L'onglet "Notifications" est sélectionné. L'option "Webhook URL" est cochée et le champ de texte contient l'URL générée par Claude.]
+In the alert settings, scroll down to "Webhook URL" and paste the URL that Claude generated.
+
+[VISUEL: Fenêtre "Create alert on BTCUSDT" sur TradingView. L'onglet "Message" est sélectionné. Le champ de texte est vide.]
+In the alert message, you'll format it as a JSON signal. Something like this.
+
+[VISUEL: Document texte avec le titre "JSON Message Alert". Le message JSON est : "{ "action": "buy", "symbol": "BTCUSDT", "price": "{{close}}", "quantity": 0.01A_VERIFIER }".]
+Claude will read this signal and execute the trade accordingly.
+
+[VISUEL: Fenêtre "Create alert on BTCUSDT" sur TradingView. L'onglet "Message" est sélectionné. Le message JSON est collé dans le champ de texte.]
+Step three: Test before going live. This is very important.
+
+[VISUEL: Fenêtre "Alerts" sur TradingView, montrant plusieurs alertes actives, y compris une alerte "btc" avec le message JSON de l'action "buy".]
+Always test the connection first with a very small position before you let it run on real size. That's just common sense.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Une notification "Order placed" apparaît. Une position longue est ouverte avec un P&L de 0.00A_VERIFIER USDT.]
+Make sure the signal is being received correctly and the trade is executing as expected.
+
+[VISUEL: Graphique de prix BTC/USDT sur TradingView (fond sombre). Le prix est autour de 70,245A_VERIFIER.33A_VERIFIER.]
+Once you've confirmed everything is working, you're done. Your TradingView strategy is now connected to Claude Cowork, which is connected to your BloFin account, fully automated.
+
+[VISUEL: Graphique de prix BTC/USDT sur une plateforme de trading (BioFin). Le prix est autour de 67,350A_VERIFIER.3A_VERIFIER.]
+Now let me give you my honest take on all this.
+
+[VISUEL: Article d'Evident "Explained: Anthropic's new Claude tool that can control your computer; Here's how it works, what it can do, and more".]
+Honestly, I think this is one of the most underrated tools in crypto right now.
+
+[VISUEL: Interface de création de clé API sur une plateforme de trading (BioFin). Les permissions "Read", "Trade", "Withdraw", "Transfer" sont affichées. "Read" et "Trade" sont cochées, "Withdraw" et "Transfer" ne le sont pas.]
+Most traders are still doing everything manually, checking charts, writing down trades, copy-pasting analysis.
+
+[VISUEL: Graphique de prix BTC/USDT sur TradingView (fond sombre). Le prix est autour de 70,245A_VERIFIER.33A_VERIFIER.]
+And look, there's nothing wrong with that.
+
+[VISUEL: Tableau de bord de trading (Stonk Journal) affichant l'historique des trades, les gains/pertes, les paires performantes, etc.]
+But when you can offload all of that to an AI that actually does the work for you, why wouldn't you?
+
+[VISUEL: Interface de chat de Claude. Le prompt précédent est affiché. Claude est en train de "Working", "Reading the skill for file reading".]
+What I really like about Claude Cowork specifically is that it's not some sketchy third-party bot.
+
+[VISUEL: Interface de Claude Cowork. Le message "Let's knock something off your list" est affiché.]
+This is Anthropic. This is one of the most trusted AI companies in the world.
+
+[VISUEL: Article de CNET "Anthropic's Claude Can Now Control Your Computer".]
+So you're getting serious power with serious reliability behind it. Is it perfect? No, it's still early.
+
+[VISUEL: Post X de @claudeai, montrant la fenêtre "Turn on computer use?" et "Claude wants to use: Finder, Google Chrome, Read your clipboard, Write to your clipboard".]
+You're going to need to test things, double-check your setups, and not just blindly let it run without monitoring. That's just common sense.
+
+[VISUEL: Tableau de bord de trading (Stonk Journal) affichant l'historique des trades, les gains/pertes, les paires performantes, etc.]
+But as a tool to make you more efficient, more informed trader, it's already there. And it's only going to get better from here.
+
+[VISUEL: Graphique de prix BTC/USDT sur TradingView (fond sombre). Une moyenne mobile est visible. Une fenêtre d'édition de script (Pine Script) est ouverte à droite, montrant du code pour des indicateurs de moyenne mobile.]
+And that's it, guys. That's your complete guide to Claude Cowork as your ultimate crypto trading assistant.
+
+[VISUEL: Page d'accueil de Claude Cowork. Le titre "Delegate to Claude. Delight in the result." est affiché.]
+From installation, to connecting your exchange API, to automating your TradingView signals.
+
+[VISUEL: Page web avec le titre "What is agentic AI?".]
+If you want to get started with BloFin and claim those bonuses, click the link at the top of the description.
+
+[VISUEL: Fenêtre "Create alert on BTCUSDT" sur TradingView. L'onglet "Notifications" est sélectionné. L'option "Webhook URL" est cochée et le champ de texte contient l'URL générée par Claude.]
+You get up to five USDT just for signing up, and up to 30 USDT when you deposit.
+
+[VISUEL: Page de téléchargement de Claude. Le titre est "Download Claude".]
+And if you want a full walkthrough of how BloFin's trading platform works, check out the video popping up on screen right now.
+
+[VISUEL: Interface de création de clé API sur une plateforme de trading (BioFin). Les permissions "Read", "Trade", "Withdraw", "Transfer" sont affichées. "Read" et "Trade" sont cochées, "Withdraw" et "Transfer" ne le sont pas.]
+If you found this useful, leave a thumbs up, it really does help the channel. Subscribe if you haven't already, and I'll see you in the next one.
+
+[VISUEL: Fenêtre "Alerts" sur TradingView, montrant plusieurs alertes actives.]

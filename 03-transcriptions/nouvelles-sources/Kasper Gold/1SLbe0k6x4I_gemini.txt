@@ -1,0 +1,203 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: 1SLbe0k6x4I.mp4]
+---
+[VISUEL: Un homme est assis devant un ordinateur Apple iMac, parlant dans un microphone. Un clavier est devant lui. Une lampe de table jaune est visible à droite. Des plantes sont en arrière-plan.]
+AUDIO: In this video, I'm gonna show you how to use Claude Opus 4.8,
+
+[VISUEL: L'écran de l'ordinateur affiche une page web d'Anthropic, le créateur de Claude. Le titre est "Introducing Claude Opus 4.8A_VERIFIER", daté du 28A_VERIFIER mai 2026A_VERIFIER. Des éléments de design abstraits sont visibles.]
+AUDIO: which has just been released for algo trading in Python.
+
+[VISUEL: Retour à l'homme parlant dans le microphone, avec l'ordinateur iMac en arrière-plan.]
+AUDIO: This model is supposed to be the best one that the money can buy at the moment,
+
+[VISUEL: Gros plan sur des mains tenant un bocal en verre rempli de billets de 100A_VERIFIER dollars américains.]
+AUDIO: and it's supposedly the king.
+
+[VISUEL: Retour à l'homme parlant dans le microphone.]
+AUDIO: And we're gonna use it to write trading strategies, to backtest them,
+
+[VISUEL: Animation numérique avec des chiffres binaires et des symboles mathématiques flottants. Un globe terrestre stylisé apparaît au centre avec le mot "PYTHON" en lettres lumineuses.]
+AUDIO: to iterate over them until it improves the results.
+
+[VISUEL: Retour à l'homme parlant dans le microphone.]
+AUDIO: And not only that, we will also ask the agent to ensure that the entry rules of the strategy that it has wrote for us has some statistical meaning and that they are not pure noise.
+
+[VISUEL: Un tableau noir avec des équations mathématiques complexes écrites à la craie blanche. Les formules sont floues par endroits.]
+AUDIO: or some lucky results.
+
+[VISUEL: Gros plan sur une main lançant deux dés rouges en l'air sur un fond noir.]
+AUDIO: And in the end, I will also go through my process of running the Monte Carlo simulation
+
+[VISUEL: Retour à l'homme parlant dans le microphone.]
+AUDIO: in order to decide whether or not the results that I'm getting is good enough for running it live.
+
+[VISUEL: L'écran de l'ordinateur affiche un tableau de bord de trading avec des métriques (Max Drawdown, Sharpe Ratio, Calmar Ratio, Net Profit) et un graphique de simulation Monte Carlo. La ligne jaune représente le backtest original, et les lignes bleues représentent 200A_VERIFIER scénarios de simulation. Le graphique montre une croissance globale avec des fluctuations.]
+AUDIO: Now, before we continue, I gotta say I'm not a financial advisor, and this video is for educational only.
+
+[VISUEL: Retour à l'homme parlant dans le microphone.]
+AUDIO: All right, I'm super excited, so let's get right into it.
+
+[VISUEL: Écran violet avec le texte "DISCLAIMER: Nothing in this video should be considered as financial advice. Trading cryptocurrencies is extremely risky and you should never trade what you cannot afford to lose."]
+AUDIO: (Musique de fond)
+
+[VISUEL: Retour à l'homme parlant dans le microphone.]
+AUDIO: Now, one question that you need to answer is how you're going to get access to Opus 4.8,
+
+[VISUEL: L'écran de l'ordinateur affiche une page de documentation de Claude Code, intitulée "Quickstart". Elle montre les étapes d'installation pour macOS, Linux, WSL et Windows PowerShell.]
+AUDIO: because it is one of the most expensive models at the moment, and it is not affordable just for everybody.
+
+[VISUEL: L'écran de l'ordinateur affiche la page de tarification de Claude (claude.ai/pricing). Trois plans sont visibles : "Free" (0A_VERIFIER$), "Pro" (17A_VERIFIER$/mois) et "Max" (À partir de 100A_VERIFIER$/mois). Le plan "Max" est mis en évidence.]
+AUDIO: However, my favorite way of using it is through the Claude Code subscription, which gives us generous limits. However, we do need to talk about like which plan you need to get. And realistically, if you want to use Claude Opus and not hit the limits like right away, you're gonna need the Max plan.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord de Claude Code, intitulé "What's up next, Saleh". Il montre un aperçu de l'utilisation (sessions, messages, tokens, jours actifs) et un graphique d'activité. Le modèle préféré est "Opus 4.7A_VERIFIER".]
+AUDIO: Now, there are two Max plans, $100 and $200. I am on the $100 plan, and I couldn't be happier about it. I have never hit the limit, and it is perfect. But if this isn't affordable for you, yes, you can go with the Pro plan, but chances are that you will hit the limits.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code, avec un terminal à gauche et un éditeur de code Python à droite. Le terminal montre des messages de bienvenue et des résultats de tests. L'éditeur de code affiche une stratégie de trading Python.]
+AUDIO: And there are multiple ways to use Claude Code. One is to use their desktop app, and the other is to use it via the terminal.
+
+[VISUEL: L'écran de l'ordinateur affiche une page de documentation de Jesse, intitulée "Getting Started". Elle liste les prérequis (Python, pip, PostgreSQL, Redis) et les options d'installation (Docker, Native).]
+AUDIO: And I'm using the terminal one because I find it to be a little bit faster. The first thing's first, we're gonna use the Jesse framework for the algo trading part, which will also expose an MCP, which we can use to connect to Claude Code.
+
+[VISUEL: L'écran de l'ordinateur affiche un terminal à gauche et un fichier `.env` à droite dans un éditeur de code. Le fichier `.env` contient des configurations de port, notamment `MCP_PORT=9007A_VERIFIER`.]
+AUDIO: And the way I'm gonna run Claude Code is via the terminal. Before I do that, we're gonna have to use the MCP which Jesse exposes.
+
+[VISUEL: L'écran de l'ordinateur affiche un terminal. La commande `jesse run` est exécutée, affichant des messages de démarrage, y compris "Dashboard is available at http://localhost:9005A_VERIFIER" et "MCP Server is running at http://localhost:9007A_VERIFIER/mcp".]
+AUDIO: So if I open my terminal and simply run `jesse run`, it's going to start the Jesse dashboard and here's the address for the dashboard itself, and here's the address for the MCP. So this is gonna be the one that I'm going to use.
+
+[VISUEL: L'écran de l'ordinateur affiche la page de documentation de Jesse, section "MCP", sous-section "Connect in Claude Code". Une commande `claude mcp add --transport http jesse-mcp http://localhost:9002A_VERIFIER/mcp` est affichée.]
+AUDIO: Now, if we check out the documentation for Jesse's MCP, under the "Connect in Claude Code", you can see this is the sole command that we're gonna have to run.
+
+[VISUEL: L'écran de l'ordinateur affiche un terminal avec la commande copiée. Le port est modifié de `9002A_VERIFIER` à `9007A_VERIFIER` pour correspondre à la configuration locale.]
+AUDIO: So inside my terminal, I'm gonna have to paste this command. And if you remember, for me, this port was a little bit different because I had changed it inside the `.env` file of my project. So it is 9007. So it's gonna be like this.
+
+[VISUEL: L'écran de l'ordinateur affiche le terminal. La commande est modifiée et l'utilisateur explique qu'il l'a déjà exécutée.]
+AUDIO: I have already done this, so I don't have to do it again. And that's it, guys. Now I am ready to run the Claude Code inside the terminal, which is inside the directory which I have Jesse installed.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'utilisateur tape `/model` et sélectionne "Opus 4.8A_VERIFIER" comme modèle.]
+AUDIO: Next, I'm going to ensure that I have selected the Opus 4.8 as the model for this session.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'utilisateur ouvre le fichier `AGENTS.md` qui contient des instructions pour l'agent Claude, notamment sur la gestion des backtests et la validation des règles.]
+AUDIO: Now, before we continue, I want to ensure that the agent is going to follow the `AGENTS.md` file of my project, which is basically telling the model how to behave. This file is shipped with every Jesse project, and whenever you update your Jesse, it will also update this file automatically. So you do not need to worry about this much.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'utilisateur ferme le fichier `AGENTS.md` et tape `@AGENTS.md` dans le terminal pour l'attacher à la session. Ensuite, il dicte une requête pour que l'agent écrive une stratégie de trading.]
+AUDIO: We can just close it. And here I'm going to simply attach it to my current session. Next, I'm going to simply say: "Write a trend following strategy for the 2024 market on the BTC/USDT using the 30 minutes timeframe. Once you write the strategy, run execute a rule validation test to ensure the entry rule of the strategy has statistical significance and isn't random noise. If it failed, tell me about it and then continue iterating over the entry rules until you get it right. Once it does pass the test, run a backtest on it and show me the results."
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. La requête dictée est affichée. L'utilisateur explique qu'il ne demande pas tout en une seule fois pour montrer le processus itératif.]
+AUDIO: So here's the thing, guys. I'm not asking the agent to do everything all at once. I could simply tell it to continue iterating over until the backtest also looks great on that period. But I'm not gonna do that because I want to show you how you can utilize this agent thing to develop your own strategies step by step. So even if you, for example, don't really know what a significance test is, or if you're not getting good results in the backtest and you're wondering what to do next, we can still use this thing. All right, let's hit enter and see what it does.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent Claude répond en décrivant la stratégie qu'il va concevoir (Donchian breakout + EMA trend-filter) et ses règles d'entrée (long/short). Il indique qu'il va d'abord créer une version "entry-only" pour le test de signification. Ensuite, il exécute le test de signification (RST).]
+AUDIO: All right, so it decided to create a Donchian breakout strategy plus the EMA for the trend. And it's saying that the long entry is gonna be whenever the candle closes above the prior breakout period candle high and close is bigger than the trend period using the EMA. It's creating the significance test. It ran it, and it says that it passed. So the p-value is almost zero, so it is definitely less than this value, which is our threshold, which means that the entry rule does indeed have statistical significance.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. Les résultats du test de signification (RST) sont affichés : `p_value = 0.0A_VERIFIER`, `observed_mean = 0.000367A_VERIFIER`, `annualized_return = 13.4A_VERIFIER%`, `n_simulations = 2000A_VERIFIER`, `n_observations = 17,519A_VERIFIER`. L'agent conclut que l'entrée n'est pas du bruit aléatoire et qu'il va construire la stratégie complète.]
+AUDIO: Now, here's what I meant earlier. Even if you do not know how to read the results of a significance test, you can read the guidelines that the agent wrote for you. So for instance, it's telling me that the Donchian-breakout + EMA-trend entry is not random noise. It beats every one of the 2000 random-entry variants. So because it did this, we can conclude that the entry rule of the strategy was not random noise. Now, if you do not understand how this test works, that's okay. I'm gonna create a video about it in the future. But for now, what's important is you learn how to use it, and the fact that even if you do not know that, the agent is able to do it for you is absolutely amazing.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent vérifie les utilitaires de dimensionnement de position, puis ajoute la gestion des risques (stop ATR, dimensionnement de position à 2A_VERIFIER% de risque, sortie suiveuse Donchian). Ensuite, il crée et exécute le backtest pour l'année 2024A_VERIFIER.]
+AUDIO: Next, you can see that the model did the position sizing of the strategy, because you see so far it only had written the entry rule of the strategy. It's only after this, after ensuring the entry rule is not pure noise and it does have some edge, that's when it decided to continue to write the position sizing and the exit rules of the strategy. Next, it is creating the backtest for BTC/USDT on the 30-minute timeframe for the full year of 2024.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. Le backtest est en cours d'exécution, puis il est terminé. L'agent écrit un fichier de rapport (`BTCTrend30m/reports/BTCUSDT_2024_trend_following_report.md`).]
+AUDIO: It is running the backtest. It keeps checking the results, and then it says the results are ready, and here we should be able to read the results. Now, by the way, it is also writing a report inside this file. So even if you want to see what exactly the model did later and you lost access to these logs, you can absolutely do that.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. Les résultats du test de signification sont affichés, puis les résultats complets du backtest pour 2024A_VERIFIER : Net profit (-19.74A_VERIFIER%), Total trades (285A_VERIFIER), Win rate (29.1A_VERIFIER%), Avg win/loss ratio (2.20A_VERIFIER), Sharpe/Sortino/Calmar (-0.42A_VERIFIER/-0.68A_VERIFIER/-0.58A_VERIFIER), Max drawdown (-34.24A_VERIFIER%), Fees paid (2,201A_VERIFIER$).]
+AUDIO: All right, so here's the results for that rule significance test again, and here's the full backtest results. So we can see the net profit is absolutely negative. The total trades is a huge number, 285, and the average win to loss ratio is 2.20, which is typical in a trend following strategy.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent donne un "honnête constat" : "A statistically significant entry does not guarantee a profitable strategy - and this is a clean example. RST proved the entries have forward-return edge, but the full run lost 19.7A_VERIFIER% because: (1A_VERIFIER) fee drag - 285A_VERIFIER round-trips burned $2,201A_VERIFIER; (2A_VERIFIER) shorts in a bull year - only 26A_VERIFIER% win rate; (3A_VERIFIER) the exit - the Donchian(20A_VERIFIER)/ATR exit harvests the edge differently than the fixed horizon that was validated. The entry isn't the problem; the cost/exit layer is."]
+AUDIO: All right, so the results are negative so far. So let's see if we can ask the model to improve it. It's also giving me its honest takeaway, which is really nice. And this is actually an important thing, which is, just because the strategy's entry has an edge, it doesn't mean that the strategy is gonna print money. In this case, for example, the strategy is actually losing money because the strategy is executing too many trades.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'utilisateur dicte une nouvelle requête pour que l'agent itère sur la stratégie deux fois de plus pour l'améliorer, en comparant les résultats.]
+AUDIO: Now, this is a classic thing in strategies, and whenever this happens, usually I add a couple of filters in order to improve the results and, you know, take the less amount of trades and pay less amount of trading fees. Now, in the end, it's actually asking me if I want to iterate the full strategy in order to improve the results. And that's exactly what I want to do, so I'm gonna ask the model to do that. "Please iterate over the results three more times and try to improve it, and then compare the results and show them to me to see which one looks better. And whenever you do, first run a significance test to ensure that new iteration is not pure noise and it has an edge before continuing to the backtest."
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent est en train de "cogiter". Le dossier `strategies` dans l'explorateur de fichiers est ouvert, montrant un nouveau dossier `BTCTrend30m` avec un fichier `__init__.py`.]
+AUDIO: All right, while this is going, let's take a look at here. So the strategies folder, we can see a new strategy have been created called `BTCTrend30m`, and inside it we have this `__init__.py` file, which is where it defined the properties of the strategy.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code, avec le fichier `__init__.py` de la stratégie. Le code Python est visible, définissant les propriétés `dc` (Donchian Channel), `dc_exit` (Donchian Channel pour la sortie), `trend_ema` (EMA de tendance) et `atr` (Average True Range).]
+AUDIO: We can see how it defined the Donchian Channel, the trend EMA, the ATR.
+
+[VISUEL: L'écran de l'ordinateur affiche le code Python de la stratégie. Les fonctions `should_long(self)` et `should_short(self)` définissent les règles d'entrée. Les fonctions `go_long(self)` et `go_short(self)` définissent la logique de prise de position, y compris le calcul du stop et de la quantité basée sur le risque.]
+AUDIO: Here are the entry rules of the strategy. So for example, for the `should_long`, it's simply saying, I want to go long whenever the closing price is above the prior high, which it is using the Donchian Channel again, and the current closing price is above the current trend EMA value. For a short entry, it's doing the opposite. And here we can see how it's doing the position sizing. So it's simply saying that for the entry, I want to use the current price, which is a market order.
+
+[VISUEL: L'écran de l'ordinateur affiche le code Python de la stratégie. La ligne `stop = entry - self.atr * self.stop_atr_mult` est mise en évidence, montrant comment le stop est calculé. La variable `stop_atr_mult` est définie à 2.0A_VERIFIER. La quantité est calculée avec `utils.risk_to_qty`.]
+AUDIO: For the stop, it's using the current entry minus the current ATR multiplied by a stop ATR multiplier. So let's see what this value is. Okay, so by default it is set to two. And next for the quantity, it is using the `risk_to_qty` utility function of Jesse. It's passing the current available margin, the risk percentage, which it has set to 2%, and the entry, the stop price, which we calculated here, and then it is setting the fee price. So this is absolutely great.
+
+[VISUEL: L'écran de l'ordinateur affiche le code Python de la stratégie. Les lignes `self.buy = qty, entry` et `self.stop_loss = qty, stop` sont visibles. La fonction `should_cancel_entry(self)` retourne `True`. La fonction `update_position(self)` gère la liquidation des positions basées sur les bandes inférieures/supérieures du Donchian Channel.]
+AUDIO: Then it is submitting the buy order using the quantity and the entry, and it is also submitting the stop loss here. Now, it did not need to define this since we are using a market order, so there's not gonna be any cancellation for the entry. And then the `update_position` function, which is what we execute whenever a new candle closes while we have an open position. So it's saying that if it's a long position, the exit price is gonna be the Donchian Channel's lower band, and if the closing price is below that, then we want to liquidate the current position. And for a short position, obviously, it's doing the opposite.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent a exécuté trois tests de signification pour les variantes V2, V3 et V4. Un tableau montre les entrées, les p-values (toutes 0.0A_VERIFIER), les moyennes observées et les retours annualisés (7.4A_VERIFIER%, 6.5A_VERIFIER%, 4.2A_VERIFIER%).]
+AUDIO: That's it. So this is a pretty simple strategy, and I would say a classic one. All right, let's take a look at what the agent did so far. So it looks like it defined three variants. So it's calling them V2, V3, and V4. Next, it is also comparing the results of their RST test, which again is the rule significance test, and all of them are passing.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'utilisateur commente les résultats du tableau RST, soulignant que les retours annualisés sont différents mais que l'important est que le test de signification soit passé.]
+AUDIO: Now, by the way, if you take a look at this value here, you can see the annualized return of them are different, but I wouldn't necessarily say that like one is better than the other because of this. Okay, so all that I need to see with the RST test is whether or not the strategy's entry has some edge, so I can continue to define the exit rules of the strategy. That's it. Because if it tells me that it doesn't, it could just mean that my entry rules are just some lucky guess. So for example, if I have a strategy that always goes long, of course, during a bull run it's gonna make me money, but it doesn't mean that it does actually have some predictive power.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. Un tableau de comparaison des backtests est présenté, comparant V1 (baseline), V2, V3 et V4. V3 est marqué d'une étoile jaune, indiquant qu'il est le meilleur. Les métriques incluent Net profit, Sharpe, Sortino, Calmar, Max drawdown, Trades, Win rate, Win/loss ratio et Fees.]
+AUDIO: All right, it finished the results, and here's again the table for the RST test, and here's the table for the backtest results. And we can see it is comparing the V1 of the strategy, V2, V3, and V4. So four different variants. It's telling me which one looks better. So the variant 3 is actually profitable. It has a Sharpe ratio of 2.11, which is absolutely amazing. The max drawdown is only minus 17%, which is great. The number of trades is 86, which actually makes a lot of sense. The win rate is low, which makes sense for a trend following strategy, especially if the average win to loss ratio number is high, which we can see here it is near four. So of course, this makes sense.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent a imprimé les URL vers les tableaux de bord des backtests V2, V3 et V4. Il conclut que V3 (BTCTrend30mV3) est le meilleur en termes de profit net et de métriques ajustées au risque.]
+AUDIO: And here's another cool thing that was added to Jesse's MCP recently. After it is done, it will also print out the URL to the dashboard. So for example, for the V3, I can click on this URL, and it will open the dashboard of Jesse, so I can look at some charts.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse pour le backtest V2. Le graphique "Cumulative Returns vs Benchmark" montre la stratégie (bleu) et BTC-USDT (orange). Le graphique "Equity Curve" est également visible.]
+AUDIO: So for example, here's the equity curve. Here's the log-scaled version of it.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse. Le graphique "Drawdown Chart" montre les cinq périodes de drawdown les plus importantes. Le graphique "Monthly Returns Heatmap" montre les retours mensuels pour 2024A_VERIFIER, avec des mois positifs (vert foncé) et négatifs (jaune clair).]
+AUDIO: And here is the five worst drawdown periods of the same strategy. And here is the monthly returns of the strategy. So as you can see, even though it is doing absolutely awesome in three months, in some other months it's actually negative, which is a typical thing with a trend following strategy.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse. Une section "MCP Backtest Notes" contient un résumé de la stratégie V2, la période, l'échange et les options. Le graphique "Trades" montre les points d'entrée (BUY - LONG) et de sortie (SELL - LONG) sur le graphique BTC-USDT 30m.]
+AUDIO: You can see the agent is also writing some summaries of like what the strategy's entry rules are about, what it's doing, and things like that. And if I want to, I can also click on this and view the interactive charts. So for example, I can take a look at the trades that we took. So for example, in this one, if I click here, it will take me to when the position was opened and when it was closed.
+
+[VISUEL: L'écran de l'ordinateur affiche le graphique interactif des trades. L'utilisateur zoome sur une période, montrant des trades BUY LONG et SELL LONG. Il pointe un trade perdant.]
+AUDIO: So as you can see, yes, this was a clear uptrend moment, and it makes sense that in these one it is losing money because this is a ranging period. Let's take a look at another one. So this one, for example, it went long here, and it closed it here. Let's take a look at the losing one, such as this one. So, you see, it opened it here, but it closed it here.
+
+[VISUEL: L'écran de l'ordinateur affiche le graphique interactif des trades. L'utilisateur zoome sur un trade perdant, montrant que le prix d'entrée et de sortie étaient très proches, entraînant une perte due aux frais.]
+AUDIO: Now, by the way, because it opened at the closing price of this candle, and at the closing price of this one, so that's why we actually lost money because if we had entered here and closed it here, it would have been a tie or maybe a small win.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent a conclu que V3 (BTCTrend30mV3) est le meilleur, avec un profit net de +93.9A_VERIFIER% et un Sharpe de 2.11A_VERIFIER. Il explique également ce qui a corrigé les problèmes de la version V1.]
+AUDIO: All right, so back to the terminal. So it's telling me that the V3 actually wins. It has the highest net profit and the best risk-adjusted metrics such as the Sharpe ratio. So it basically concluded everything that I just said. So even if you do not know how to read a Sharpe ratio, the agent does.
+
+[VISUEL: L'écran de l'ordinateur affiche l'interface de Claude Code. L'agent donne un "honnête constat" : "One honest caveat: 2024A_VERIFIER was a strong uptrend, which flatters a long-only trend follower. Want me to Monte Carlo V3 (overfit check) and validate it out-of-sample on 2023A_VERIFIER/2025A_VERIFIER before you trust these numbers?"]
+AUDIO: Now, by the way, the strategy that it wrote actually looks really good. So I'm happy with the results of the Opus 4.8 model so far. And it's also telling me what fixed the results. So what actually fixed it is that the entry signal was never the problem. So the RST proved it every time. V1 bled out from shorts in a bull year, a too-tight exit plus fee drag. Removing shorts and widening the exit (V2) flipped from this value into a positive one. A slower 55-candle breakout (V3) added the rest. However, as you probably know, we cannot trust the results of a backtest just yet and go to live trading with it. We also need to run a Monte Carlo test at the very least, of course, to make sure the results of the strategy is not overfit.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Monte Carlo". La stratégie BTC-USDT 30m V3 est sélectionnée pour la période 2024A_VERIFIER-01A_VERIFIER-01A_VERIFIER à 2025A_VERIFIER-01A_VERIFIER-01A_VERIFIER. 200A_VERIFIER scénarios sont configurés pour les simulations de trades et de bougies.]
+AUDIO: And in fact, that's what the agent is also telling me. So, "One honest caveat: 2024 was a strong uptrend, which flatters a long-only trend follower. Want me to Monte Carlo V3 (overfit check) and validate it out-of-sample on 2023/2025 before you trust these numbers?" Now, we could ask the model to also run the Monte Carlo, and that's exactly what I did, but there was a problem with it. So, I'm gonna try running it manually on the dashboard of Jesse.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Monte Carlo". La simulation est lancée. Le graphique "Monte Carlo Trades" montre l'évolution de l'équité pour 200A_VERIFIER scénarios. Un tableau de métriques compare l'Original, Worst 5A_VERIFIER%, Median et Best 5A_VERIFIER% pour le Return, Max Drawdown, Sharpe Ratio et Calmar Ratio.]
+AUDIO: So, here's the exchange that I've chosen, the BTC-USDT route, and let's change this into 30 minutes. I have chosen the BTC Trend 30mV3 strategy, which is what the agent made for us, and I have picked the entire 2024. Now we are ready to start the Monte Carlo test. So, the Monte Carlo trades is over. So, this one is always really fast.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Monte Carlo". Les résultats du Monte Carlo Trades sont affichés. L'utilisateur explique que cela montre ce qui se serait passé si l'ordre des trades avait été différent, et comment cela affecte le drawdown.]
+AUDIO: And what it basically gives us is what would have happened if the order at which we took the trades were different. So for example, if instead of beginning with the winning trade, if we started with losing ones. Like, if that was the case, what would have been the max drawdown of the strategy? And in that case, were we prepared for it? So basically, this is for the position sizing of the strategy. And it's telling me that in the worst 5%, my max drawdown would have been minus 23%. But in the original backtest, it was only minus 17%. We could have also been luckier, like in the best 5%, and in that case, it would have been minus 8.5%.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Monte Carlo Candles". La simulation est en cours d'exécution. L'utilisateur explique que cette simulation utilise des données synthétiques basées sur les données originales pour tester la robustesse de la stratégie et détecter l'overfitting.]
+AUDIO: But the thing that I really want to know is the Monte Carlo of candles, which is where we execute a Monte Carlo simulation by using synthetic data, which has been created based on the original data of the market. So this one is basically like a stress test for the strategy in order to see how robust it is, which also tells us whether or not it is overfit or not. So as you can see, this one's taking longer, which makes perfect sense.
+
+[VISUEL: L'écran de l'ordinateur affiche une conversation Telegram. Un message de "Jesse" annonce une vidéo benchmark et un autre message de "Jesse" contient un lien YouTube vers une vidéo intitulée "GPT-5A_VERIFIER tested: Is it good for algo trading strategies? (surprising results!)".]
+AUDIO: Now, while that's going, I want to quickly remind you guys about our Telegram. It's the fastest way to get notified about my future work, whether it's a new tutorial or a tool that I create.
+
+[VISUEL: L'écran de l'ordinateur affiche une conversation Discord, canal #general. Des messages de discussion sont visibles, avec des utilisateurs posant des questions sur Jesse et les mots de passe.]
+AUDIO: Also, don't forget to check out our free Discord, where more than 5,000 members like you and I are hanging out there and helping out each other with algo trading, so we can all succeed together. The links for both are down in the description.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Monte Carlo Candles". La simulation est terminée. Le graphique montre la ligne jaune du backtest original au milieu des lignes bleues des simulations. Un tableau de métriques compare l'Original, Worst 5A_VERIFIER%, Median et Best 5A_VERIFIER% pour Net Profit, Max Drawdown, Sharpe Ratio, Win Rate, Total Trades, Annual Return et Calmar Ratio.]
+AUDIO: All right, the candles Monte Carlo is over. Here we can see the chart. The yellow line is the original backtest, and these blue lines are the simulations. Now, the fact that the original backtest lines is almost in the middle is a good sign.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Monte Carlo Candles". Le tableau de métriques est mis en évidence. L'utilisateur compare les Sharpe Ratios de l'original (2.48A_VERIFIER), Worst 5A_VERIFIER% (0.11A_VERIFIER), Median (1.87A_VERIFIER) et Best 5A_VERIFIER% (3.41A_VERIFIER).]
+AUDIO: If we take a look at the results table, we can see that the original backtest Sharpe ratio was 2.48, while the best 5% was 3.41. And the fact that this one's lower than this is a good sign. So I wouldn't say the results are overfit. However, the median number is 1.87, and this one is lower than the one for the original backtest. So the original backtest result is somewhere between these two numbers. So again, I wouldn't say it's overfit, but I wouldn't say it is like super robust either.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Backtest History". L'utilisateur ouvre les résultats du backtest V3 pour 2024A_VERIFIER, 2023A_VERIFIER et 2025A_VERIFIER.]
+AUDIO: So that's it, guys. This is how I personally read the Monte Carlo results in order to take a guess at whether or not the results of the strategy are going to be as good in the live trading as what I'm seeing in the backtest. However, let's go to the history because I want to show you the results of the V3 in 2024.
+
+[VISUEL: L'écran de l'ordinateur affiche le tableau de bord Jesse, section "Backtest". L'utilisateur ajoute deux backtests supplémentaires pour la stratégie V3 : un pour 2023A_VERIFIER et un pour 2025A_VERIFIER. Il s'assure que le mode rapide est activé et que les graphiques interactifs sont désactivés.]
+AUDIO: And also, I'm gonna add two more. So this one being in 2023. Let's ensure the fast mode is on. I don't need the interactive charts anymore. All right, so let's run this. And I'm gonna run another one, this time for 2025. So let's run it.
+
+[VISUEL: L'écran de l'ordinateur affiche les résultats du backtest V3 pour 2023A_VERIFIER. Le graphique "Cumulative Returns vs Benchmark" montre une croissance. Le Net Profit est de 62.57A_VERIFIER%.]
+AUDIO: There we go. So here's the result for 2023. And as you can see, again, it is profitable. So it's making 62%.
+
+[VISUEL: L'écran de l'ordinateur affiche les résultats du backtest V3 pour 2025A_VERIFIER. Le graphique "Cumulative Returns vs Benchmark" montre une forte baisse. Le Net Profit est de -19.05A_VERIFIER%.]
+AUDIO: All right, so let's go to 2025. The strategy is falling apart if we are not in a clear uptrend.
+
+[VISUEL: L'écran de l'ordinateur affiche la page "Strategies" de Jesse.trade. Plusieurs stratégies sont listées avec leurs métriques (PNL, Max Drawdown, Sharpe Ratio, Win-rate).]
+AUDIO: This by its own could be enough reason to not jump into trading this strategy live yet. I would personally say that it is not ready for production, and it needs further work because even if you are not in a clear uptrend, I would prefer the strategy not to at least lose a lot of money in that period. Or, of course, we could also develop a short-only strategy to run besides this one to make up for the losses of this one. Now, I am going to submit the result of the strategy to our strategies page, where you can see and browse other strategies that I've developed before.
+
+[VISUEL: L'écran de l'ordinateur affiche la page "Strategies" de Jesse.trade. L'utilisateur clique sur "ADXWilliamsStrategy" et montre comment filtrer les métriques par période de trading, symbole et timeframe.]
+AUDIO: If you click on them, you can see the results of their metrics on different periods and symbols or timeframes. So feel free to check out that page as well.
+
+[VISUEL: L'homme est assis devant son ordinateur, parlant dans le microphone. L'écran de l'ordinateur affiche le logo Jesse.trade. La vidéo se termine par un écran noir avec le logo Jesse.trade et une musique de fond.]
+AUDIO: And that's it, guys. I hope you enjoyed this video and the experiment that we just did. And don't forget that the whole point of this was not to give you one strategy, it was to give you a tool which can save you countless hours when developing and evaluating your own strategies. All right, let's pick the winner from the previous video. The winner is: "Amazing as always, Saleh." Thank you so much for your comment. Please reach out to me so I can send you your bank tokens. Thank you so much for watching. I'll see you in the next one.

@@ -1,0 +1,121 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: Ebzawm73H4I.mp4]
+---
+"Now, imagine talking to Claude out loud, like a human, like a person. Then putting your phone away, coming back five minutes later, trade open, stop set, take profits in the exchange, exactly the way you described. I've been running AI workflows like this for months and they really do work.
+
+[VISUEL: Animation montrant deux boîtes connectées par un câble. La première boîte représente une banque avec des chandeliers boursiers à l'intérieur, étiquetée "Exchange". La deuxième boîte a le logo de Claude (une étoile orange) et est étiquetée "Claude". Le câble se connecte entre les deux.]
+And in this video, I'm going to show you how to wire up your exchange directly into Claude.
+[VISUEL: Le speaker montre trois boîtes numérotées 1A_VERIFIER, 2A_VERIFIER, 3A_VERIFIER avec le texte "Workflows" au-dessus. Le contenu des boîtes est flouté. Une ligne violette apparaît sous "Changed the way I trade day to day".]
+And at the end, I will walk you through three workflows I've built that generally changed the way I trade day to day. So for that, you'll have to stay till the end.
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Workbook".]
+And guys, if you want my workbooks for free, just comment "AI Agent" down below.
+[VISUEL: Un deuxième bandeau bleu apparaît avec le texte "Skills" et un troisième avec "Workbooks".]
+And I'll make sure that you get these skills, the workbooks, and everything you need to get started as an AI trader today.
+[VISUEL: Le speaker est de retour. Un bandeau rose apparaît en bas avec "Trading with Davidtech" et un bouton "SUBSCRIBE". Le bouton est cliqué et devient "SUBSCRIBED".]
+And if you don't know who I am, my name is David. I have been ranked with multiple members of my group as top traders on the Bybit exchange, smashing their leaderboards using our automated strategies.
+[VISUEL: Une application mobile avec le logo "Toobit" apparaît. L'écran du téléphone montre un profil "Davidtech-" avec un "NLP (30D)" de "+117.52A_VERIFIER%" et "$4,937A_VERIFIER.13A_VERIFIER". Il y a aussi un "Win ratio (30D)" de "48.36A_VERIFIER%", un "AUM" de "4,459A_VERIFIER.80A_VERIFIER USDT" et un "Sharpe ratio (30D)" de "20.52A_VERIFIER".]
+Toobit gave me this last year for my performance as I came second place on the whole of their exchange. So when I tell you AI has changed the way I trade, it comes from somebody who actually really does the trade.
+
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre le site web "claude.com/download" avec le titre "Download Claude". Un bouton "Download for macOS" est visible.]
+Okay guys, here we are on my computer. And to be clear, what we're going to be doing today is we're going to be connecting over our exchanges to Claude so that we can directly take trades inside of Claude and build workflows so that we don't have to spend 24/7 hours watching charts on our screens.
+[VISUEL: Le speaker est de retour. Trois boîtes numérotées 1A_VERIFIER, 2A_VERIFIER, 3A_VERIFIER apparaissent avec le texte "Steps" au-dessus. La première boîte est étiquetée "Install Claude", la deuxième "Open our exchange" et la troisième "Install a Skill".]
+So this is going to be set up in three simple steps that I have made as simple as possible. The first step is going to be installing Claude, second is opening our exchange, and our third is installing what we called a skill.
+
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre le site web "claude.com/download". Le bouton "Download for macOS" est cliqué. Une liste de téléchargements apparaît, montrant "Claude (7A_VERIFIER).dmg".]
+So first things first, we're going to have to download Claude. I'm going to click on download just here. I'm on Mac. We're going to wait for it to download.
+[VISUEL: Le fichier "Claude (7A_VERIFIER).dmg" est double-cliqué. Une fenêtre d'installation macOS apparaît, montrant l'icône de Claude et une flèche vers le dossier "Applications". L'icône de Claude est glissée vers le dossier "Applications".]
+And then we're going to double-click. And like on any respectable app, we're going to just drag and drop it into the applications folder. If you're on Windows, just follow the installation guide and you should end up with Claude looking very much similar to this.
+[VISUEL: L'interface de Claude apparaît. Sur le côté gauche, il y a des options comme "Chat", "Cowork" et "Code". Le speaker clique sur "Chat", puis sur "Cowork", puis sur "Code".]
+Claude is built up of three apps. As you can see over here, we have the chat program. We have Claude Cowork, and we have Claude Code. Now, for Claude Code, it may sound a little bit scary for anybody who doesn't know how to code, but it is very simple. You just have to give clear instructions to Claude and it will code everything for you.
+[VISUEL: Le speaker est de retour. Une animation montre l'icône de Claude avec une flèche vers un ordinateur portable, et le texte "10x Power".]
+Now, I spend most of my day between Cowork and Claude Code because this gives Claude access to your computer and gives it 10x power on everything that you want to accomplish with AI.
+[VISUEL: L'interface de Claude est affichée. Le speaker clique sur "Code" et sur "New session".]
+So I'm going to be using Claude Code. I'm going to click here and we're going to set up a new live session just here.
+
+[VISUEL: Le speaker est de retour. Trois boîtes numérotées 1A_VERIFIER, 2A_VERIFIER, 3A_VERIFIER apparaissent avec le texte "Steps" au-dessus. La première boîte est étiquetée "Install Claude", la deuxième "Open our exchange" et la troisième "Install a Skill". La deuxième boîte est mise en évidence.]
+Step two is opening your exchange account.
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre le site web de Bybit, sur la page "Assets Overview". Le solde est de "578.14A_VERIFIER USD".]
+Today, I'm going to be using Bybit as it is one of my favorite exchanges, and I have been using it for around five years with no problems.
+[VISUEL: Le speaker est de retour.]
+But the skill that I'm going to be providing you with afterwards allows you to connect to many exchanges, from Binance to Bybit, to Toobit, to WEEKS, to Blofin, and many other exchanges with exactly the same process.
+[VISUEL: Le speaker est de retour. Un bouton "SUBSCRIBE" apparaît.]
+Guys, don't forget to subscribe. I do videos about AI and trading every single week.
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Workbook".]
+And don't forget, if you want my workbooks for free, just comment "AI Agent" down below.
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre le site web de Bybit, sur la page "Assets Overview". Le solde est de "578.14A_VERIFIER USD". Le speaker clique sur le solde, qui change à "578.13A_VERIFIER USD".]
+Right, okay. So as you can see, once again, I'm on Bybit. I have put 578 dollars on that account, which is important because we'll be checking that in a minute on the exchange. Once we have an account set up,
+[VISUEL: Le speaker est de retour. Trois boîtes numérotées 1A_VERIFIER, 2A_VERIFIER, 3A_VERIFIER apparaissent avec le texte "Steps" au-dessus. La première boîte est étiquetée "Install Claude", la deuxième "Open our exchange" et la troisième "Install a Skill". La troisième boîte est mise en évidence.]
+we're going to go to step three, where we're going to be setting up our exchange in a skill.
+
+[VISUEL: Le speaker est de retour. Le texte "What on earth is a skill?" apparaît.]
+Okay, so you may be wondering, what on earth is a skill?
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Skills".]
+A skill is a very simple text file. What it does is it gives full instructions to Claude on how to use that tool. For example, let's say that you want to do a Google search.
+[VISUEL: Une barre de recherche Google apparaît, puis le logo Google. Le texte "Trading with Davidtech" est tapé dans la barre de recherche.]
+You, as a human, would go over to google.com, and then you'd scroll down over to the search engine in the middle, you'd type out your search query, and then you'd hit the enter.
+[VISUEL: Le speaker est de retour.]
+Which for a human being may seem very simple, but without instructions, AI costs a lot more to actually do those kind of things because it has to work out things itself.
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Skills".]
+With skills, you give it full instructions on how to use a service and what outcome you would like from that skill.
+[VISUEL: Le speaker est de retour.]
+So personally, I've spent the past six months building skills for Claude so that I can become an efficient AI trader, using all of the algo trading strategies that I have and optimizing even more my portfolio.
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre le site web "trader.dev". Le texte "I use ChatGPT to trade" est visible, puis "I use Kimi to trade", puis "I use Codex to trade", puis "I use Gemini to trade", puis "I use Grok to trade", puis "I use Claude to trade".]
+So back over to this website here, this website is TraderDev. It's something that I put together where I'm going to be storing all of the skills and MCP servers to help us all become better AI traders.
+[VISUEL: Le speaker clique sur "Continue with Google". Une fenêtre de connexion apparaît. Le speaker se connecte.]
+So you will have to log in.
+[VISUEL: Le speaker est de retour sur trader.dev. Un bouton "Set up your AI skills & tools" est visible. Le speaker clique dessus.]
+Once you're logged in, it's very, very simple. You just click here and click "Set up your AI skills & tools".
+[VISUEL: Une page avec une ligne de commande est affichée: "$ claude mcp add trader-dev --scope user https://mcp.trader.dev/v1". Le speaker clique sur le bouton "Copy".]
+Where you'll be redirected to this skill here. This is just going to tell Claude how to install the tools. So you click the copy button just here.
+
+[VISUEL: Le speaker est de retour. L'interface de Claude est affichée. Le speaker colle la ligne de commande dans la zone de texte.]
+Okay, now that you have that in your clipboard, we're going to go back over to Claude and we're going to ask it in plain English to install those skills. So I'm going to paste that here, as you can see. Inside of this tool is lots of trading tools, ready to backtest strategies, execute, and give you the latest information about what's going on inside those exchanges. But for today, we're just going to be connecting an exchange. So we literally just going to say, "Hey there buddy, could you take the code below and install these tools for me?"
+[VISUEL: Le speaker tape la phrase dans Claude et appuie sur Entrée. Claude répond avec une liste de fonctionnalités installées, dont "Affiliate check", "Encrypt API keys", "Account info & balance", "API health check", "Place trades", "Fetch live & closed P&L", "Set leverage / margin mode / hedge mode", "Cancel orders", "Multi-exchange".]
+We're going to enter. And that's it. It's going to go away, it's going to understand everything, and it will install those skills and MCP tools for you. So as you can see, the installation process was very, very simple. It said the StrategyFactory skill is installed and ready to roll. Here are some of the features. So you can see that it can go away and place trades, fetch P&Ls. It can backtest trading strategies, and it's not one single exchange. We can add multiple exchanges. We can add sub-accounts, and you'll be able to see all of them in one single aggregated place.
+[VISUEL: Le speaker est de retour.]
+Next step is probably the most boring, and I've got to be honest, is where a lot of people walk away. Setting up your API codes. It's not hard, but it can become a little bit confusing. So let me explain.
+[VISUEL: Une animation montre deux boîtes connectées par un câble. La première boîte représente une banque avec des chandeliers boursiers à l'intérieur, étiquetée "Exchange". La deuxième boîte a le logo de Claude (une étoile orange) et est étiquetée "Claude". Le texte "API codes" est au-dessus.]
+API codes allow for Claude to make a connection over to your exchange.
+[VISUEL: Le speaker est de retour.]
+They're a bit like a unique username and password for every single user. They're not your password, it's something that's unique that allows Claude to go away and make trades.
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Workbook".]
+And guys, if you want my workbooks for free, just comment "AI Agent" down below.
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre le site web de Bybit, sur la page "Assets Overview". Le solde est de "578.11A_VERIFIER USD". Le speaker clique sur le solde, qui change à "578.12A_VERIFIER USD".]
+And guys, if you want my workbooks for free, just comment "AI Agent" down below. Okay, so I've gone away and pasted my API key and secret over to Claude. I've put them into a file and then send them directly over to Claude Code. You may be asking yourself, where do my APIs go? Is this put onto a server? No, everything is stored on your computer and encrypted. So once again, if your nephew George comes along and looks at your computer, he won't be able to see your API keys and secrets, and they are fully encoded on your computer. So no risk of centralized exchanges being hacked or something like that.
+[VISUEL: L'interface de Claude est affichée. Le speaker tape "Hey there buddy, could you tell me exactly how much money I have on my account?" et appuie sur Entrée. Claude répond avec le solde Bybit : "Bybit Balance: $578.20A_VERIFIER USDT".]
+Right, so we're all set up and ready to go. This is where things get start to get exciting because everything just becomes so easy. You just sit talking to your AI agent, as if you're sitting next to the owner of the exchange. So, "Hey there buddy, could you tell me exactly how much money I have on my account?" It's going to go away, check your balance for you, and boom, there it is on the screen. We have 578 dollars. No open trades. Now, imagine if you like me and you have multiple exchanges, in less than a couple of seconds, Claude is going to go away, aggregate all of that data into one single place, tell you exactly what you have on your account, and how much exposure you have to each and every single crypto. It's absolutely amazing, very fast.
+[VISUEL: Le speaker est de retour. Il tient un téléphone.]
+And what's even cooler now, thanks to remote control, which I'll show you in a second, you can even do this from your phone.
+[VISUEL: Le speaker est de retour.]
+Now, as you can see, I'm extremely excited by this technology, not only because it can execute trades, because let's be honest, that alone is not the most exciting thing in the world. What's exciting to me is the possibilities of being able to connect other features from Claude directly into your exchange.
+[VISUEL: Le speaker est de retour. Le chiffre "3A_VERIFIER" apparaît avec le texte "Examples".]
+So I said earlier, I was going to give you three examples of how I use it day to day to make sure that I get the best possible results from my trading.
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Workbook".]
+And guys, if you want my workbooks for free, just comment "AI Agent" down below.
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre l'interface de Claude. Le speaker tape "Hey there buddy, I'd love for you to open a trade on BTCUSDT. I want to use $50A_VERIFIER of margin, and I'd like you to set a stop loss at the local high and a take profit at the local low." et appuie sur Entrée. Claude répond avec une analyse de la transaction proposée, y compris le risque/récompense et des suggestions. Le speaker tape "Yeah, let's go for it. Open it, market orders." et appuie sur Entrée. Claude exécute l'ordre. Sur le graphique Bybit, un ordre de vente est placé avec un stop loss et un take profit.]
+Right, okay. So I've put Claude and Bybit side-by-side. Let's open a trade. "Hey there buddy, I'd love for you to open a trade on BTCUSDT. I want to use $50 of margin, and I'd like you to set a stop loss at the local high and a take profit at the local low." Boom, we're going to send that. So it's going to go away. It's got the current direction of the market, which is absolutely insane. So it's given you a little bit of advice as well. Not only that, it's told you, it's told you probably that the risk to reward is actually going to be pretty poor. It's going to ask me whether I really want to take this trade. I'm going to just say yes so we can see. "Yeah, let's go for it. Open it, market orders." So there you go. There was our irresponsible trade with a terrible risk to reward. And as you can see, we have set our take profit at the local low, and the stop loss was set to the local high. All of that done with just plain English words. Everything set in the exchange, and I could do this, as I said, from my phone without even having a chart in front of me.
+[VISUEL: Le speaker est de retour.]
+Now, as you can see, I'm extremely excited by this technology, not only because it can execute trades, because let's be honest, that alone is not the most exciting thing in the world. What's exciting to me is the possibilities of being able to connect other features from Claude directly into your exchange.
+[VISUEL: Le speaker est de retour. Le chiffre "3A_VERIFIER" apparaît avec le texte "Examples".]
+So I said earlier, I was going to give you three examples of how I use it day to day to make sure that I get the best possible results from my trading.
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Workbook".]
+And guys, if you want my workbooks for free, just comment "AI Agent" down below.
+[VISUEL: Le speaker est en incrustation en haut à droite. L'écran principal montre l'interface de Claude avec un "Daily Dashboard". Le speaker clique sur un lien "Open Daily Dashboard - Thursday, 7A_VERIFIER May 2026A_VERIFIER". Un tableau de bord s'ouvre avec des statistiques de trading, des graphiques et une analyse de J.A.R.V.I.S. Co-Pilot.]
+Okay, so the three cases where I use it every single day to improve my trading. Number one is I get a dashboard sent to me. I ask Claude to go away every single day, fetch all of my trades into one single place. Now, this is also powered by Trade-Harbour, which was made by one of the members in the Davidtech community. So all I need to do is jump into WhatsApp every day. This is connected directly from Claude over to WhatsApp, and I get a wonderful dashboard that looks like this. You can see exactly the number of trades count, the win rate, my trades, and a bit of an AI analysis from my J.A.R.V.I.S. Co-Pilot that's helping me to trade better. So that's the first one. It's sent to me directly every single day. As you can see, it was sent to me this morning. I get a little bit of message from J.A.R.V.I.S. telling me a little bit about the things that are going on in the market and tells me and prepares my daily dashboard to make sure that none of my bots are failing.
+[VISUEL: L'interface de Claude est affichée. Le speaker clique sur "DCA Sniper". Un rapport de performance de bot DCA apparaît, montrant "BTC accumulated", "Avg entry price", "Current BTC price", "Unrealized P&L", etc.]
+Case number two is this DCA bot sniper. Now, I'm all about diversifying my portfolio. I love the strategies that I have built and backtested. I still do want to accumulate in things that interest me. So this DCA sniper bot, what it does is it goes away every single day and keeps an eye on the market. Instead of blindly going away and DCA entries every single day, this one goes away and looks to try and take advantage of sentiment. Goes away, goes to Twitter and multiple other sources to try and get a more optimal position than just a random time during the day. It gives me a full position overview. You can see exactly how much I've been purchased into DCA, and I'm currently up 4.78% since I actually started this.
+[VISUEL: Le speaker est de retour. Le chiffre "3A_VERIFIER" apparaît avec le texte "Bots".]
+And finally, case number three, which has been my most important bot since I actually started using AI, and this is my AI bot manager and chief risk officer.
+[VISUEL: L'interface de Claude est affichée. Le speaker clique sur "AI Bot Manager & Chief Risk Officer". Un rapport matinal apparaît, montrant le "Fleet Status Board" avec le statut des bots (vert, jaune, rouge, cygne noir) et des stratégies "Pruned Yesterday" et "Launched Today".]
+Checking for things like black swan events, where it will go away and close all of my positions if it feels like I have capital at risk. It's also connected to my StrategyFactory. StrategyFactory is a website that I built where we have 1,400 bots backtested and live trading. So you can find profitable bots very easily. But like humans, bots do go through stages where markets are less favorable, even if in the long run they are profitable. So what this AI agent does, but not only does it take care of my Bybit account, it also adds strategies when it feels like market conditions are more bullish or trending, and a particular strategy is standing out. On the other hand, if a strategy starts to fail and loses its edge, it does remove that strategy from my strategy stack. So as you can see, I have a count of 12 here. There is no emergency mode currently at the moment. Everything is good to go. A couple of strategies were pruned yesterday. No, sorry, one strategy was pruned yesterday, the Glitchy-Trend on ETH 1 hour. The 14-day Sharpe ratio slipped under 0.8. So it decided that this strategy was no longer worth risking my capital on, and it replaced that one with a stiff trend strategy on SOL USDT on the 15-minute timeframe, which kind of makes sense in the current market conditions.
+[VISUEL: Le speaker est de retour. Le chiffre "3A_VERIFIER" apparaît avec le texte "Bots".]
+So they are three bots that I used every single day to make my trading profitable using AI. But I have many, many more, which I will be sharing with you in the next couple of videos.
+[VISUEL: Le speaker est de retour. Un bandeau rose apparaît en bas avec "Trading with Davidtech" et un bouton "SUBSCRIBE".]
+Guys, I really hope that you enjoyed this video. If you did, don't forget to subscribe. I do videos about AI and trading every single week.
+[VISUEL: Le speaker est de retour. Un bandeau bleu apparaît avec le texte "Workbook" et un autre avec "Skills".]
+And don't forget, if you want my workbooks, free skills, you can get access just by commenting "AI Agent" down below. And guys, if you're interested in exactly how I add and remove strategies, this video here will tell you exactly how. And without further ado, take care, keep safe, trade like a boss. Goodbye.
+[VISUEL: Animation finale avec un personnage de dessin animé du speaker, le texte "DAVIDDTECH.COM" et "Trade like a BOSS!".]
+Come on David, and once again he's gone to go. A new strategy. He'll be back in just five minutes. RSI and MACD.

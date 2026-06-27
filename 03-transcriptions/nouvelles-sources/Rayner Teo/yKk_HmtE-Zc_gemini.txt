@@ -1,0 +1,95 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: yKk_HmtE-Zc.mp4]
+---
+**Disclaimer:** The user's prompt requested a transcription of a video by Mustapha Belkhayate. However, the provided video features **Rayner Teo** discussing trading concepts and reviewing feedback on his book. The transcription will follow the requested format for audio and visual descriptions, adapted to the actual content presented by Rayner Teo.
+
+**00:00**
+[VISUEL: Rayner Teo, un homme asiatique aux cheveux courts, vêtu d'un t-shirt bleu, parle directement à la caméra. Un microphone noir est devant lui. L'arrière-plan est un mur blanc uni.]
+Hey hey, what's up, my friend? So, in today's video, I want to share with you the secret. Or rather, what it takes to make daily trading profits. And the reason why I'm, I thought of this topic is because...
+
+**00:14**
+[VISUEL: L'écran passe à une capture d'écran d'une page Amazon. En haut, il y a une critique de livre avec 2A_VERIFIER étoiles sur 5A_VERIFIER, intitulée "AVOID THIS BOOK!" par "Korina", datée du 28A_VERIFIER mai 2021A_VERIFIER. En dessous, la couverture du livre "Price Action Trading Secrets: Trading Strategies, Tools, and Techniques to Help You Become a Consistently Profitable Trader" par Rayner Teo est visible, avec une note de 4,4A_VERIFIER étoiles sur 5A_VERIFIER et la mention "#1A_VERIFIER Best Seller in Foreign Exchange".]
+...I got this review, right, for my book, uh, Price Action Trading Secrets over here. So, if you want to get a copy of this book, you can just go down to priceactiontradingsecrets.com and grab a copy. But again, uh, I'm not interested or here to promote the book, but rather to answer, right, one of this, uh, feedback, right, that came my way.
+
+**00:32**
+[VISUEL: La critique Amazon est agrandie. Une boîte bleue est dessinée autour du premier paragraphe de la critique, qui dit : "The book is a recipe for disaster even for beginners like me. It is at rock bottom from what I have expected. Yes, it is a beginner book but atleast it should contribute on your foundation but it is the other way around."]
+So, if you have a look at it, uh, this is from Korina. Here's what she said, right: "The book is a recipe for disaster even for beginners like me. It is at rock bottom from what I have expected. Yes, it is a beginner book, but at least it should contribute on your foundation, but it is the other way around." Okay.
+
+**00:48**
+[VISUEL: La boîte bleue se déplace pour encadrer le premier point numéroté de la critique : "1A_VERIFIER. "If you want to make money every day, you must have a high frequency of trades" His rationale is the Law of large numbers - the more trades you do the more chances you get. Then what if you have 5A_VERIFIER stop loss in a row? Do you think you are still in sound mind after that?". Le deuxième point est également visible : "2A_VERIFIER. Gave 5A_VERIFIER examples on candlesticks then ended the chapter with "You can now read and understand ANY candlestick patterns LIKE A PRO"".]
+So, here are some ridiculous ideas quoted from the book. So, number one, this is which one, which is what I'll tackle today. Right, he said that, "If you want to make money every day, you must have a high frequency of trades." His rationale is the Law of Large Numbers - "the more trades you do, the more chances you get. Then what if you get five stop loss in a row, Rayner? Do you think you are still in a sound mind after that?" Okay, so yeah, that's what she said. And number two is, uh, pretty much, uh, some criticism on my candlestick chapter. But I won't talk about candlestick, uh, for this video, because the topic, uh, of this video is more of a, how do you actually make daily trading profits? And you can see over here, I actually explained in the book is the rationale of the Law of Large Number. And, and plus a lot more nonsense from the book. And all this nonsense pretty much contributed to the number one best seller in, in, in the Foreign Exchange, uh, category in Amazon. But anyway, anyway, um...
+
+**01:38**
+[VISUEL: L'écran revient à Rayner Teo parlant directement à la caméra.]
+...let's answer number one, right? So, when I first received this comment, right, I, I felt, man, I mean, for those of you who have written a book before, you know how hard it is to write a book. It takes you months or sometimes even years, right, of your effort, of consistent efforts to publish a book. It's like giving birth to a baby, sometimes even more than nine months, you know, you have the first draft, you have the editing, getting the people to design the cover, you know, the back and forth and stuff like that. Gosh. And when you give out, when you put in your heart and soul and, you know, give birth to a baby and people say your baby is ugly, it looks ridiculous, it is nonsense, it can be hurtful. It is hurtful, right, when I first received the comment. But looking back right now, I mean, it's been some time already, I kind of look at it as, as feedback, feedback that it is my opportunity, my chance to actually make the book even better, right? Maybe I didn't explain the concept well enough, and that's why that was how she felt about it. So, I'm just shooting this video to kind of like explain on this first point over here, why if you want to make money every day, right, how does the frequency of your trades matter? So, let's get to this one over here, this, this, uh, point number one. Let me just kind of like give my version or my take on it.
+
+**02:40**
+[VISUEL: L'écran passe à une diapositive de présentation avec le titre "Example". Le premier point est "You have a coin".]
+So, let me give you an example. Let's imagine it's you have a coin. Let's say this is a magic coin. It's not just an ordinary coin, because every time you toss the coin, it comes up head, you win two dollars, right? So, you get two dollars in your pocket, right, just whenever it comes up head.
+
+**02:51**
+[VISUEL: Un deuxième point apparaît : "Every time it comes up head, you win $2A_VERIFIER".]
+And every time it comes up tail, you lose one dollar, right? So, you have to give one dollar. So, you can see that this coin is really a magic coin, right, because, you know, uh, there's a 50% chance it'll come up head and a 50% chance it'll come up tail. And in the long run, you're going to make a lot of money with this coin.
+
+**03:06**
+[VISUEL: Un troisième point apparaît : "If you can only toss the coin once per day, what are the odds you'll make a profit every day?".]
+Now, let me ask you, what if you can only toss the coin once per day? What are the odds of you making a profit every day? What do you think the answer is? What are the odds of you making a profit every day? Let me give you five seconds to think about this. One, two, three, four, five. Okay.
+
+**03:26**
+[VISUEL: Rayner Teo dessine "50A_VERIFIER%" sur la diapositive à côté de la question.]
+So, the odds of you making a profit every day is very simple. You will have a 50% chance of making a profit every day. Why? Because, you know, if you can only can toss the coin once per day, you toss the coin, ting, right? There's a 50% chance it's going to come up head and 50% chance it's going to come up tail. If it comes up head, you make a profit. If it comes up tail, you lose, right, you lose a dollar. Right, so there's a 50% chance.
+
+**03:48**
+[VISUEL: Un quatrième point apparaît : "If you can toss the coin 100A_VERIFIER times a day, what are the odds you'll make a profit every day?".]
+Now, my next question to you is this. What if now you can toss the coin 100 times per day? What are the odds you'll make a profit every single day? Now, what are the odds? Now, how can we, you know, uh, find out? Well, you can use the statistical, uh, formula to find out, but I'm just give you a very simple, uh, explanation, right, to let you see the difference.
+
+**04:10**
+[VISUEL: Rayner Teo dessine sur la diapositive. Il écrit "50A_VERIFIER H = $100A_VERIFIER" puis "50A_VERIFIER T = -$50A_VERIFIER" et "Net Profit = $50A_VERIFIER".]
+So, let's say you toss the coin 100 times per day. 50 times it comes up head. What's your net profit, right? Or what's your total profit for when it comes up head? You make 100 dollars, right? Because every time it comes up head, you win two dollars. Two times 50 is 100. Now, what if it comes up tail? 50 times tail, well, you lose 50 dollars. Over here, you lose a dollar every time it comes up tail. So, 50 times it comes up tail, this should be actually a T, right? You lose 50 dollars. So, your net profit here is 50 bucks. Yeah, and you actually made a profit for the day if 50% of the time it comes up head, 50% 50% of the time it comes up tail.
+
+**04:47**
+[VISUEL: Rayner Teo efface les dessins et écrit de nouveaux calculs : "40A_VERIFIER H = 80A_VERIFIER" puis "60A_VERIFIER T = -60A_VERIFIER" et "Net Profit = $20A_VERIFIER".]
+Now, let's say maybe that day you're a little bit unfortunate. You didn't get 50 heads. Instead, maybe you got, let's say, 40 heads only. Okay. What is your profit for this? Well, 40 times two, 80 dollars. And of course, right, you have 60 tails. What is your loss for this one? 60 times one, negative 60 dollars. And still, you're up 20 dollar for the day.
+
+**05:12**
+[VISUEL: Rayner Teo pointe le quatrième point de la diapositive : "If you can toss the coin 100A_VERIFIER times a day, what are the odds you'll make a profit every day?".]
+So, can you see if you can toss the coin 100 times per day, what are the odds you'll make a profit every day? You can imagine this, right, that the odds of you making a profit on a given day is more than 50%. Can you see where I'm coming from? It's more than 50%. Yeah, and of course, if you can toss the coin 500 times, a thousand times, 10,000 times a day, you can even reach a point where you are guaranteed to make a profit almost every single day.
+
+**05:39**
+[VISUEL: L'écran passe à un article du Wall Street Journal intitulé "Virtu's Losing Day Was 1A_VERIFIER-In-1,238A_VERIFIER; Odds Say It Shouldn't Have Happened at All". Le texte de l'article est visible, notamment : "When the high-frequency trading firm Virtu Financial LLC published details about how the firm operated earlier this year, one fact stood out: The firm had only "one losing trading day" over 1,238A_VERIFIER days of trading."]
+Yeah, and to kind of like, you know, prove to you this, this concept that I'm sharing, right? You can actually, uh, I'm not sure if you have read this article before. This is actually talking about this high-frequency trading firm called Virtu Financial. Virtu's losing day was one in 1,238. Odds say it shouldn't have happened. So, what this article is saying that over the last 1,238 trading days, this firm only had one losing day.
+
+**05:56**
+[VISUEL: L'écran revient à Rayner Teo parlant directement à la caméra, avec le texte "Source: Wall Street Journal" en haut à gauche.]
+Man, Rayner, how is that possible? Ah.
+
+**06:00**
+[VISUEL: L'écran revient à l'article du Wall Street Journal. Un tableau est visible en haut, montrant "# Trades Per Day", "Daily Edge (p x 100A_VERIFIER)", et "Odds of a Profitable Week". Les valeurs pour "# Trades Per Day" vont de 1A_VERIFIER à 800,000A_VERIFIER. Les valeurs pour "Daily Edge" sont toutes de 51.0A_VERIFIER%. Les "Odds of a Profitable Week" augmentent avec le nombre de trades. Le texte en dessous du tableau est encadré en bleu : "The takeaway: Considering that Virtu trades so often every day that it is nearly impossible for it to not make money so long as it retains its ability to win at least 51A_VERIFIER% of the trades. In fact, the chance of not being profitable on a given day is so low that he concluded that Virtu's one day of losses "resulted from either a technological or human-caused error." His explanation of how high-frequency traders are able to consistently earn money despite only being profitable on 51A_VERIFIER% or more of trades is one of the better ones out there."]
+Yeah. So, the secret here is this. Okay, the secret here is this. Read this, right? The reason why they're able to do this, and by the way, their winning rate is, is not like what, 99% winning rate. Their winning rate is about 51% over here. Okay? And the reason why they're able to do this is because, I think you probably get the answer, right? It's because of their high frequency of trades. Okay? Virtu trades so often every day that it is nearly impossible for it not to make money so long as it retains its ability to win at least 51% of the trades. So, this tells you that they trade so many times a day that they are almost guaranteed a profit every single day, even though their winning rate is only 51%. So, actually, there's a table over here which you can refer to. Right, 51%, right? If they only trade once per day, right, then there's a 51% chance that they'll make money on a given day. If they trade, let's say, a thousand times per day, there's a 73.5% chance that they will be profitable for the day. If they trade 100,000 times a day, there's a 99.999999% chance they'll make money on a given day. And if they, you know, they trade 800 times, 800,000 times per day, here it shows it's a 100% chance of making money on a given day. So, can you see now how the frequency of your trades matter? Okay?
+
+**07:16**
+[VISUEL: L'écran passe à une diapositive de présentation avec le titre "How to make daily trading profits".]
+So, the question now is this: How do you actually make daily trading profits? Well, you need two things.
+
+**07:20**
+[VISUEL: Un premier point apparaît : "Edge (a positive expectancy)".]
+Number one, you need to have an edge in the market, a positive expectancy. I'm not asking you to go out there and click the buttons a thousand times, a 10,000 times a day, just to make this high frequency of trades. Because you still want to have an edge in the market. Because without it, the commissions will eat into your returns and you probably, you know, your broker will be more than happy, right, to serve you as a customer and you'll be, your account will be very sorry. So, number one, you must still have an edge in the markets, okay?
+
+**07:42**
+[VISUEL: Un deuxième point apparaît : "A large number of trades for your edge to play out (every day)".]
+And number two, you need a large number of trades for your edge to play out (every day). So, if you're looking to be profitable every day, then you need to have an edge and a large number of trades for your edge to play out. If you're looking to be profitable every year, for example, then you must have an edge and a large number of your trades for your edge to play out every year. Now, one of the biggest struggles, right, that, uh, that, uh, traders have is that they do not know what is their edge. And after a series of losing trades, their mind, right, will be not in the right place. So, for example, you just look back at the Amazon feedback that I had earlier.
+
+**08:16**
+[VISUEL: L'écran revient à la critique Amazon. Rayner Teo pointe le texte : "Then what if you have 5A_VERIFIER stop loss in a row? Do you think you are still in sound mind after that?".]
+You can see over here, what Korina said is that, "What if you have five stop loss in a row? Do you still think you are in a sound mind after that?" For most people, they won't be in a sound mind. Because what is that? Because if you do not know what is your edge in the market, if you, if you do not have an edge in the market, you have no conviction in your trading strategy, in your trading system. And what's going to happen is that after a series of losses, you'll just, you'll start to doubt yourself, you will start to doubt your trading system, and you probably would give up and move on to something else altogether. Right? So, this is why, you know, I tell traders, you don't have a discipline issue. You have an issue with not having an edge in the markets. Because once you have an edge in the markets, once you have sound risk management, your discipline will take care of itself. So, having an edge is very important, right? And you're probably wondering now, "Rayner, so where can I get an edge in the markets?" Right? So, so, uh, if that's what you're looking for, right, you can join me at this upcoming webinar called Stock Trading Secrets.
+
+**08:59**
+[VISUEL: L'écran passe à une page web d'inscription pour un webinaire intitulé "Discover How This Simple Trading System Has Generated 3,225A_VERIFIER% In Gains Over The Past 22A_VERIFIER Years...". Rayner Teo est visible sur une petite image en bas à gauche. Un formulaire d'inscription est à droite avec un compte à rebours. L'URL est "tradingwithrayner.com/sts".]
+I'll share with you a simple stock trading system, right, that has eight, an edge in the markets. Uh, I've backtested it for over the last 20 plus years. I'll share with you the data, the entries, the exits, right, on how this simple trading system, right, uh, beats the stock market and how you can actually use it, right, and get an edge in the markets. So, if you're interested, right, just, you know, again, just sign up for this, uh, event, right? Enter your, your name, email address, and reserve a spot for this upcoming event over here, right? The next one is in, uh, October, but I usually hold it once a month, once every, you know, five, six weeks or so. So, again, just sign up for it. It's free. I'll put the link below this video, right? And hopefully, right, uh, this gives you clarity, right, on what it takes to generate daily trading profits. So, with that said, I wish you all good luck, good trading, stay safe, and I will talk to you soon.
+
+**09:44**
+[VISUEL: Écran noir avec du texte blanc "WHAT'S NEXT?" et des éléments d'interface utilisateur pour YouTube (bouton d'abonnement, lien vers une autre vidéo, etc.).]
+(Musique de fin)

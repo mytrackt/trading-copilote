@@ -1,0 +1,223 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: TXLqKZRx6hg.mp4]
+---
+[VISUEL: Écran noir avec le texte rouge "Disclaimer:" en haut. En dessous, un texte blanc sur fond noir : "This video is for educational and informational purposes only. It does not constitute financial advice or investment recommendations. Trading in financial markets involves a high level of risk and may result in the loss of all or part of your capital. Past performance is not indicative of future results. The creators of this content are not responsible for any losses or damages arising from the use of the information or tools presented. We make no guarantee of profitability."]
+I built a tool that lets Claude autonomously backtest strategies inside NinjaTrader.
+
+[VISUEL: L'écran est divisé en deux. À gauche, l'interface de NinjaTrader 8A_VERIFIER avec un graphique d'équité montrant une courbe de profit croissante (verte) et des périodes de drawdown (rouge). En dessous, un éditeur de code NinjaScript. À droite, une fenêtre de terminal affichant des logs de processus. Le logo d'Anthropic Claude (une étoile orange) apparaît au centre, puis le logo de NinjaTrader (NT rouge) apparaît à droite du logo Claude.]
+I describe a strategy, Claude codes it, compiles it, runs the backtest and hands me back the full results as structured data.
+
+[VISUEL: La fenêtre du terminal à droite affiche un tableau de métriques de backtest (Net Profit, Total Trades, Win Rate, Profit Factor, Sharpe Ratio, Max Drawdown, etc.) pour deux stratégies comparées (15A_VERIFIER-Min vs H1). Le texte en dessous explique les résultats. Ensuite, un document PDF s'affiche, montrant des graphiques d'équité (courbes bleues et oranges) et des distributions de P&L (histogrammes jaunes et bleus).]
+It creates these sick PDFs to visualize everything too. All this while I do nothing.
+
+[VISUEL: Écran noir avec le texte blanc "Stay in this video to see how it automatically back tests and how to set it up."]
+Stay in this video to see how it automatically back tests and how to set it up.
+
+[VISUEL: L'écran est divisé en deux. À gauche, l'interface de TradingView avec un graphique de prix (YM1!) montrant des bougies vertes et rouges, des indicateurs et des signaux d'entrée/sortie. En dessous, un rapport de stratégie avec une courbe d'équité. À droite, une fenêtre de terminal affichant des logs de processus similaires à ceux vus précédemment.]
+A few weeks ago, I showed you how to connect Claude to Trading View.
+
+[VISUEL: Capture d'écran de la chaîne YouTube "ZenomTrader" montrant une vidéo intitulée "Claude + TradingView - Autonomous backtesting on...".]
+That video did well and I figured I should show the only tool in the space that lets you backtest with Claude.
+
+[VISUEL: Retour à l'écran divisé avec TradingView à gauche et le terminal à droite, montrant des signaux de trading sur le graphique.]
+This is similar to the Trading View tool, but it goes deeper.
+
+[VISUEL: Écran noir avec le texte blanc "and for serious backtesting it is a better tool."]
+And for serious backtesting, it is a better tool.
+
+[VISUEL: L'écran affiche une page GitHub pour "NT8Bridge". Le logo Python apparaît au centre.]
+This is NT8 bridge, a Python pipeline I built that controls Ninjatrader 8 directly.
+
+[VISUEL: Retour à l'écran divisé avec NinjaTrader 8A_VERIFIER à gauche (graphique d'équité, éditeur de code) et le terminal à droite (logs de processus).]
+It copies your strategy file into NinjaTrader's folder, hits compile, waits for a signal that compilation succeeded, opens the strategy analyzer, sets every parameter, hits run, waits for the backtest to finish, and reads the full results file.
+
+[VISUEL: La fenêtre du terminal affiche un tableau de métriques de backtest (Net Profit, Total Trades, Win Rate, Profit Factor, Sharpe Ratio, Max Drawdown, etc.) pour une stratégie unique.]
+You get all the important metrics. All of it is structured JSON that Claude can read, analyze, and compare.
+
+[VISUEL: Écran noir avec une icône d'ordinateur de bureau. Le texte blanc "Everything runs locally. Nothing leaves your machine."]
+Everything runs locally. Nothing leaves your machine.
+
+[VISUEL: L'écran est divisé en deux. À gauche, l'interface de NinjaTrader 8A_VERIFIER. À droite, l'interface de TradingView. Une flèche blanche pointe de NinjaTrader vers TradingView, puis un signe "plus grand que" (>) apparaît entre les deux, suggérant la supériorité de NinjaTrader.]
+This tool that I developed is more useful than the one I showed for Trading View. Not because of the tool itself, but because the Trading View backtesting engine is not very good.
+
+[VISUEL: L'interface de TradingView affiche une courbe d'équité verte montante avec des métriques (Net Profit, Total Closed Trades, Percent Profitable, Profit Factor, Max Drawdown, Avg Trade, Avg # Bars in Trades).]
+Trading View is great for speed and flexibility. If you want to quickly test whether an idea has any logic to it at all, Trading View is the right first stop. But Trading View's backtesting engine has real limitations.
+
+[VISUEL: Écran noir avec un quadrillage. Le texte blanc "High frequency", "Small timeframes", "High trade counts" apparaît successivement.]
+It struggles with high frequency strategies, small timeframes and high trade counts.
+
+[VISUEL: L'interface de NinjaTrader 8A_VERIFIER affiche une courbe d'équité verte montante. Le logo NT rouge est superposé au centre.]
+Ninjatrader is where you go when something passes the Trading View filter and you want to take it seriously.
+
+[VISUEL: L'écran affiche le logo NT rouge sur un fond de courbe d'équité verte. Le texte blanc "More realistic execution modeling", "More accurate results", "The data goes much further back" apparaît successivement.]
+The results are more accurate, the execution modeling is more realistic, you can set tick level slippage and commission templates that match your actual prop firm conditions, and the data goes back further. If you are running a strategy on a 5-minute chart with 3000 trades in the backtest, you want those results coming from Ninjatrader, not Trading View.
+
+[VISUEL: L'écran est divisé en deux. À gauche, l'interface de NinjaTrader 8A_VERIFIER avec le Strategy Analyzer vide et le NinjaScript Editor. À droite, la fenêtre de terminal vide.]
+Here is what the single strategy workflow looks like.
+
+[VISUEL: Une bulle de dialogue grise apparaît avec le texte : "Code a breakout strategy for NASDAQ. It should trade on the 15A_VERIFIER minute timeframe. The strategy goes long if the previous candle closes above the Keltner Channel. We place the stoploss and take profit at an ATR level. Use an ATR multiplier of 2A_VERIFIER, a 2A_VERIFIER to 1A_VERIFIER risk-reward and 20A_VERIFIER for the Keltner period. Include realistic commission and slippage. Give me the results in a PDF with the graph and an explanation of the strategy and why it did or didn't work, also, give me the results in the chat."]
+I tell Claude: "Code a breakout strategy for NASDAQ. It should trade on the 15 minute timeframe. The strategy goes long if the previous candle closes above the Keltner Channel. We place the stoploss and take profit at an ATR level. Use an ATR multiplier of 2, a 2 to 1 risk-reward and 20 for the Keltner period. Include realistic commission and slippage. Give me the results in a PDF with the graph and an explanation of the strategy and why it did or didn't work, also, give me the results in the chat."
+
+[VISUEL: La fenêtre de terminal à droite affiche le code NinjaScript généré par Claude. Le NinjaScript Editor à gauche se remplit également avec le code. Le Strategy Analyzer reste vide.]
+Claude writes the full Ninja Script file. Then it calls the pipeline.
+
+[VISUEL: Le NinjaScript Editor à gauche affiche le code. La fenêtre de terminal à droite montre les logs de compilation (texte vert et rouge). Le Strategy Analyzer à gauche se remplit progressivement avec les données du backtest (courbe d'équité, tableau de métriques).]
+The pipeline copies the strategy into NinjaTrader's custom strategies folder, hits F5 to compile and waits. Not a fixed sleep timer. It actually pulls for the compile signal file that backtest bridge writes. When the strategy hits an active state, that means compilation detection takes 3 to 5 seconds instead of waiting 15 seconds every single time, regardless of whether it is done or not. Once the compile signal lands, the pipeline opens. The strategy analyzer selects the strategy and writes every parameter value directly into the property grid: date range, bars period, slippage, all the strategy specific inputs. Then it clicks run.
+
+[VISUEL: La fenêtre de terminal à droite affiche les résultats du backtest sous forme de tableau structuré. Le Strategy Analyzer à gauche est rempli avec la courbe d'équité et les métriques.]
+Later, the results file lands in the results folder. Claude reads it and hands me back the full picture in a clean, structured table right in the chat. We can see all the important metrics like the gross profit and loss, the profit factor, Sharpe and Max drawdown plus the equity curve as a timestamped series.
+
+[VISUEL: Un document PDF s'affiche, montrant un rapport détaillé de la stratégie "Keltner Channel Breakout Strategy". Il inclut un tableau de métriques, des graphiques d'équité et de P&L mensuel, une explication de la stratégie, des conditions d'entrée/sortie, un verdict de performance, et des suggestions d'amélioration.]
+We also get this PDF with all the data in it. Now you can ask Claude to include more metrics, to include explanations, custom graphs. This is not a screenshot of the performance tab. This is structured data that Claude can actually reason about, compare across runs and use to make decisions.
+
+[VISUEL: La fenêtre de terminal à droite affiche une nouvelle commande. Le Strategy Analyzer à gauche est réinitialisé, puis se remplit avec de nouvelles données de backtest, montrant une comparaison entre deux timeframes (15A_VERIFIER-Min vs H1) dans le tableau de résultats.]
+I can then tell Claude: "Re-run this on the H1 timeframe and compare the results". It runs the whole cycle again with the new parameter, reads the new results file and shows me both side by side, or add a volume filter. Only take the breakout if the breakout bar volume is above the 20 period average. Claude rewrites that section of the strategy, redeploys, recompiles, reruns, and hands me the comparison. Every iteration costs zero manual effort. The old way, this was a one hour process per variation. You would run three or four variations in an afternoon if you were disciplined about it.
+
+[VISUEL: Un document PDF s'affiche, montrant un rapport de comparaison de stratégies (15A_VERIFIER-Min vs H1) avec des métriques, des courbes d'équité et des distributions de P&L.]
+Now you run 20 variations before lunch and you have actual data to make decisions from.
+
+[VISUEL: Écran noir avec trois icônes d'engrenages colorés (gris, bleu, violet) qui tournent. Le texte blanc "where it becomes a factory." apparaît.]
+Now here's where it becomes a factory.
+
+[VISUEL: Une icône de document PDF apparaît. Le texte "Mean reversion on NQ", "ADX breakout on Gold", "Trend following on USDJPY", "Opening range breakout ES" apparaît successivement.]
+I have a PDF with 10 strategy ideas. Mean reversion on NQ, ADX breakout on Gold, Trend following on the Japanese Yen, Opening range breakout on ES. 10 different concepts across different instruments and different logic types.
+
+[VISUEL: L'icône de document PDF est à gauche, le logo Claude à droite. Une bulle de dialogue grise apparaît avec le texte : "Go through all the strategies on this PDF, code each one as a Ninja Script strategy. Run the full backtest pipeline in each one and return all the results in a single PDF report".]
+I tell Claude: "Go through every strategy in this PDF, code each one as a Ninja Script strategy. Run the full backtest pipeline in each one and return all the results in a single PDF report".
+
+[VISUEL: Un document PDF s'affiche, montrant un "Portfolio Overview" avec un tableau comparatif de plusieurs stratégies (Mean Reversion, ADX Breakout, Trend Following, Opening Range Breakout). Il y a aussi des graphiques d'équité combinés et des P&L mensuels par stratégie.]
+One section per strategy, strategy metrics table, equity curve, and a one paragraph assessment of whether this is worth developing further. Claude works through them one by one. Each one gets coded, deployed, compiled, configured, run and logged. I come back and I have a report. 10 strategies evaluated with institutional quality backtesting results organized, readable and ready to filter.
+
+[VISUEL: Un graphique de courbes d'équité multiples et colorées s'affiche, représentant un "20A_VERIFIER Strategies Portfolio".]
+This is the exact research process behind the equity curve I showed you in the video about going from one strategy to 20 uncorrelated systems. That evolution did not happen because I got smarter or worked harder.
+
+[VISUEL: Un graphique linéaire avec deux courbes. La courbe rouge est une ligne droite horizontale étiquetée "Strategy decay rate (constant)". La courbe bleue en pointillés, étiquetée "New strategy creation rate (improves with AI leverage)", monte progressivement et croise la ligne rouge.]
+It happened because I built a pipeline that generates and validates new strategies faster than they decay.
+
+[VISUEL: Écran noir avec le texte blanc "Before."]
+Before.
+
+[VISUEL: Écran noir avec le texte blanc "This pipeline building and validating ten strategies took weeks."]
+This pipeline building and validating 10 strategies took weeks.
+
+[VISUEL: Écran noir avec le texte blanc "Now it takes an afternoon,".]
+Now it takes an afternoon,
+
+[VISUEL: L'écran est divisé en deux. À gauche, l'interface de NinjaTrader 8A_VERIFIER avec le Strategy Analyzer et le NinjaScript Editor. À droite, la fenêtre de terminal avec les résultats du backtest.]
+and the output is not a gut feeling about whether something worked. It is structured data with a Sharpe ratio, a drawdown profile, and a full trade list that you can audit.
+
+[VISUEL: Un graphique de prix en temps réel sur NinjaTrader 8A_VERIFIER, montrant des lignes vertes et bleues qui se croisent.]
+Your job is not to run backtests anymore. Your job is to feed Claude ideas and filter the results. The pipeline does everything in between.
+
+[VISUEL: Écran noir avec le texte blanc "Quick pause".]
+Quick pause.
+
+[VISUEL: L'écran est divisé en deux. À gauche, une fenêtre de terminal avec des logs de processus. À droite, l'interface de MetaTrader 5A_VERIFIER avec un graphique de prix et un rapport de backtest (Overall Rewards).]
+I also have this automatic backtesting pipeline for MetaTrader.
+
+[VISUEL: Une capture d'écran de "ZenomTrader Premium" sur une page web, montrant un abonnement et des fonctionnalités (Prop Firm Journal & Simulator + VIP Discord Community + MT5 AI Agent Bridge).]
+You will find that in my VIP community.
+
+[VISUEL: L'interface de "QuantDash Pro" avec un "Prop Firm Simulator" affichant des métriques et un graphique d'équité avec des signaux de trading.]
+You also get my prop firm simulator to test strategies under real challenge conditions before spending a dollar on fees,
+
+[VISUEL: L'interface de "QuantDash Pro" avec un "Portfolio Builder" affichant des métriques de portefeuille et une courbe d'équité.]
+a portfolio builder,
+
+[VISUEL: L'interface Discord de "ZenomTrader Premium" montrant un canal "forum-strategies" avec plusieurs publications de stratégies.]
+more than 15 coded strategies, and a community of like-minded traders like you. Link in the description.
+
+[VISUEL: Écran noir avec un quadrillage. Le texte blanc "Back to the setup".]
+Back to the setup.
+
+[VISUEL: L'écran affiche le logo NT rouge sur un fond de graphique de prix. Le texte blanc "You just need four things" apparaît.]
+You just need four things.
+
+[VISUEL: Le logo NT rouge est superposé sur un graphique de prix. Le texte blanc "Ninjatrader eight. With historical data already loaded." apparaît.]
+Ninjatrader eight. With historical data already loaded.
+
+[VISUEL: Le logo Python est superposé sur un quadrillage. Le texte blanc "Python 3.10A_VERIFIER or higher" apparaît.]
+Python 3.10 or higher.
+
+[VISUEL: La page GitHub de "NT8Bridge" est affichée. Le texte blanc "The NT8 bridge files from the GitHub repo in the description" apparaît.]
+The NT8 bridge files from the GitHub repo in the description.
+
+[VISUEL: Le logo "Claude" avec des mains connectant des points. Le texte blanc "and Claude code, which I covered the full installation in a separate video. Link in the description." apparaît.]
+And Claude code, which I covered the full installation in a separate video. Link in the description.
+
+[VISUEL: Écran noir avec le texte blanc "Install Python".]
+First install Python.
+
+[VISUEL: Le site python.org est affiché. Ensuite, une fenêtre d'installation de Python s'affiche, puis une fenêtre de confirmation d'installation réussie.]
+Go to python.org, download the latest stable version and run the installer. When the installer opens, check the box that says "Add Python to path" before you click install.
+
+[VISUEL: Une fenêtre de terminal Windows s'ouvre et affiche des commandes. La commande `pip install pywinauto` est tapée et exécutée.]
+Then open your terminal and run `pip install pywinauto`. That is the library that allows Python to control Ninjatrader's interface programmatically.
+
+[VISUEL: La page GitHub de "NT8Bridge" est affichée. Le bouton "Code" est cliqué, puis "Download ZIP" est sélectionné.]
+Next, go to the NT8 bridge repo on GitHub. Link is in the description and download the files.
+
+[VISUEL: Deux fenêtres d'explorateur de fichiers sont affichées côte à côte. À gauche, le dossier téléchargé "NT8Bridge-master". À droite, le dossier "Documents\NinjaTrader 8A_VERIFIER\custom\AddOns". Le fichier "BacktestBridge.cs" est copié du dossier de gauche vers le dossier de droite.]
+Open the folder and find `BacktestBridge.cs`. Copy that file into this exact path: Documents, Ninjatrader 8, bin, custom, add-ons.
+
+[VISUEL: L'interface de NinjaTrader 8A_VERIFIER est affichée. Le menu "New" est ouvert, puis "NinjaScript Editor" est sélectionné. Le NinjaScript Editor s'ouvre. Dans l'explorateur NinjaScript, "AddOns" est sélectionné, puis "BacktestBridge" est trouvé et compilé (icône de marteau).]
+Then open Ninjatrader. Go to New, Ninja Script Editor, AddOns. Find Backtest Bridge and compile it. You will see a confirmation in the Ninja Script output window when it is done.
+
+[VISUEL: Une fenêtre d'explorateur de fichiers s'ouvre sur le dossier "NT8Bridge-master\Config". Le fichier "config.json" est ouvert dans le Bloc-notes.]
+Now open the config folder inside NT8 bridge and open `config.json`. This is your control panel.
+
+[VISUEL: Le fichier "config.json" est affiché dans le Bloc-notes, montrant les paramètres configurables (symbole, timeframe, dates, capital, commission, slippage, paramètres de stratégie).]
+Symbol, time frame, date, range, starting capital, commission, slippage, and any strategy specific parameters. Set these to match what you are testing.
+
+[VISUEL: L'écran est divisé en deux. À gauche, l'interface de NinjaTrader 8A_VERIFIER avec le Strategy Analyzer et le NinjaScript Editor. À droite, la fenêtre de terminal avec les logs de processus.]
+The pipeline will write your parameter values directly into the Strategy Analyzer property grid every single run, which means it overrides whatever Ninjatrader cached from the last session. No more running a backtest and realizing halfway through that it used the wrong parameters because Ninjatrader remembered the old values.
+
+[VISUEL: L'interface de NinjaTrader 8A_VERIFIER est affichée. Le menu "New" est ouvert, puis "Strategy Analyzer" est sélectionné. La fenêtre du Strategy Analyzer s'ouvre. Le menu "Commission template" est ouvert et une option est sélectionnée.]
+Before you run anything, open Ninjatrader, open the Strategy Analyzer window and manually set your commission template. You set it once at the start of your session, and the pipeline handles everything else from that point forward.
+
+[VISUEL: L'écran est divisé en deux. À gauche, l'interface de NinjaTrader 8A_VERIFIER avec le Strategy Analyzer. À droite, la fenêtre de terminal. Une commande est tapée dans le terminal : "Use the Ninjatrader strategy bridge for this".]
+Now open Claude code pointed at your NT8 bridge folder and tell it the pipeline is ready. Claude is in control from here.
+
+[VISUEL: Écran noir avec le texte blanc "You should be aware that".]
+You should be aware that
+
+[VISUEL: Écran noir avec le texte blanc "No backtesting engine is reality".]
+No backtesting engine is reality.
+
+[VISUEL: Le logo NT rouge est à gauche, le logo TradingView (TV) est à droite. Une flèche de NT vers TV, puis un signe "plus grand que" (>) apparaît entre les deux.]
+Ninjatrader is significantly more accurate than Trading View for serious testing. But past performance in any backtester is not a guarantee of live results.
+
+[VISUEL: Écran noir avec le texte blanc "Another thing to consider is that the quality".]
+Another thing to consider is that the quality
+
+[VISUEL: Deux poubelles sont affichées. La première est étiquetée "In", la seconde "Out". Elles sont reliées par un signe égal. Le texte "of what comes out depends entirely on the quality of what goes in." apparaît.]
+of what comes out depends entirely on the quality of what goes in.
+
+[VISUEL: Le texte rouge "Vague strategy descriptions" est affiché, suivi d'un signe égal, puis du texte rouge "Vague code".]
+Vague strategy descriptions produce vague code.
+
+[VISUEL: Écran noir avec le texte blanc "Be specific".]
+Be specific
+
+[VISUEL: Le texte blanc "Be specific about your entry logic, your stop placement, your position sizing rules, and your exit conditions." apparaît.]
+Be specific about your entry logic, your stop placement, your position sizing rules, and your exit conditions.
+
+[VISUEL: Écran noir avec le texte blanc "The more precise your input, the more useful the output."]
+The more precise your input, the more useful the output.
+
+[VISUEL: Une icône d'une personne est à gauche, une flèche pointe vers une image d'une salle de trading avec plusieurs traders devant des écrans. Le texte blanc "One person with this setup runs the research volume of a small team." apparaît.]
+One person with this setup runs the research volume of a small team.
+
+[VISUEL: La page GitHub de "NT8Bridge" est affichée. Le texte blanc "The repos in the description." apparaît.]
+The repos in the description.
+
+[VISUEL: La capture d'écran de "ZenomTrader Premium" est affichée. Le texte blanc "VIP Community, simulator, Portfolio builder, and automations are also in the description." apparaît.]
+VIP Community, simulator, Portfolio builder, and automations are also in the description.
+
+[VISUEL: L'écran est divisé en deux. À gauche, une fenêtre de terminal avec des logs de processus. À droite, l'interface de MetaTrader 5A_VERIFIER avec un graphique de prix et un rapport de backtest (Overall Rewards). Le texte blanc "If you want to see the MetaTrader version of the same workflow, comment "MT5" below and I will build it. See you in the next one." apparaît.]
+If you want to see the MetaTrader version of the same workflow, comment "MT5" below and I will build it. See you in the next one.
+
+[VISUEL: Écran noir avec le texte rouge "Disclaimer:" en haut. En dessous, un texte blanc sur fond noir : "This video is for educational and informational purposes only. It does not constitute financial advice or investment recommendations. Trading in financial markets involves a high level of risk and may result in the loss of all or part of your capital. Past performance is not indicative of future results. The creators of this content are not responsible for any losses or damages arising from the use of the information or tools presented. We make no guarantee of profitability."]

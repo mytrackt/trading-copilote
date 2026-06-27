@@ -1,0 +1,430 @@
+Today, I'm going to teach you the concept of top-down analysis
+or some may call it multi-time frame analysis
+Top-down analysis is basically analyzing the charts
+from a higher time frame down to a lower time frame
+You will need three time frames
+The first time frame that you need is the direction time frame
+This time frame allows you to identify the direction of the market
+Is price going up or is it going down or is the market in sideways?
+The next time frame that you need is your behavior time frame
+This time frame will give you a clear direction of what price is doing
+Is there a lot of momentum or is the market breaking structure
+Or is there a lot of weak rejections, doji candlesticks
+Is the market retracing to create your new higher highs and higher lows
+So that is the second time frame
+For your third time frame, this is where we're going to be entering the trade
+So this is your entry time frame
+If the price is in the downtrend, you should be looking to sell
+And if price is in the uptrend, you should be looking to buy
+As simple as that
+So these are the three time frames that you need
+Then the time frames that you should be trading on depends on your trading style
+For me, I am more of a mix between intraday and a swing trader
+So the time frame that I'll be using for this
+Is that I will use the 4-hour time frame for direction
+Use the 1-hour time frame for behavior
+And use the 15-minute time frame for my entry
+But if you are a scalper, you will not be using these same time frames
+You will probably be looking at different time frames
+Maybe your direction time frame could be the 1-hour
+And then your behavior could be the 15-minute
+And then your entry time frame could be the 5-minute
+So ultimately, the time frames that you are using
+The top-down analysis that you are using
+Really depends on your trading style
+So make sure that you tailor this strategy to work for your trading style
+So for this example, we're gonna start doing our top-down analysis
+By using the 4-hour time frame first
+So that is our direction time frame
+The reason why I choose the 4-hour time frame
+Is because the structure is just so clean
+And it clearly allowed me to identify like the overall trend direction
+Instead of going down to like the 15-minute time frame
+Where the price is just going up and down, up and down, up and down
+A lot of you will look at everything that is going on right now
+And be very confused on whether you should go in for a buy
+Or go in for a sell
+But that is a wrong way to trade
+Since I am day trading
+I really do not care about what price is doing all the way back here
+I am focusing on what price is doing right now
+What price is doing today, which is over here in this area right here
+So that means that I am not gonna be plotting a shit ton of lines on my charts
+Just like this
+Like just look at this
+It just looks so confusing
+How are you able to find out like what price is doing
+If you have so many lines over here
+And now you just confuse yourself even more
+Just like I said, I am more of an intraday trader
+So I am gonna be focusing on what price is doing right now
+What price is doing today
+So on the 4-hour time frame
+We can clearly see that price is in an overall uptrend
+But right now, today price is like consolidating over here
+So I will take my box 2 and mark the high of this consolidation
+And mark the low of this consolidation right here
+So right now, what we want to do is to wait for price to give us a clear directional bias
+At this point of time
+At this point of time, price can either break above the high
+To show us a lot of momentum to the upside
+Or it can break this low right here
+And push down even further
+So those are the two scenarios
+Right now, I am just bar replaying this
+But if I am live trading
+I am gonna wait for the 4-hour candlestick to close first
+Before making my decision on whether I should go in for a buy or a sell
+Let's look at what price does next
+You can see price is breaking the low
+And most of you would enter for a sell right here
+Because you hear the same advice all the time
+Just sell when price breaks through the support level
+And I want you to look at the next candle
+After price breaks through the support level
+It literally gave us a big green candle
+What I am gonna tell you next
+Is gonna change your trading forever
+I am gonna give you the secret sauce for free
+So right here on the 4-hour time frame
+We can see that the overall momentum is up
+And then we go to the 1-hour time frame
+And we can see that the momentum is going down
+And then next, you go to the 15-minute time frame
+Now, which way do you think the momentum is going right now?
+Is it going up or is it going down?
+The momentum is going down
+Look at this, just look at this
+It's obviously going down, right?
+However, on the 4-hour time frame
+It was going up
+So you can see it's kind of like contradicting each other
+The 4-hour time frame, the higher time frame
+Is telling you that price is going up
+But then on the 15-minute time frame
+Price is showing you that it is going down
+And remember
+The higher time frame trend is always, always
+Stronger than the smaller time frame trend
+So the 4-hour trend, the 4-hour momentum
+Is stronger than the 15-minute time frame momentum
+So this uptrend, the overall uptrend
+Is stronger than this mini 15-minute downtrend
+So in that case
+What we want to do is to trade with the overall trend
+The higher time frame trend
+Which is the overall uptrend
+The overall up momentum
+And in that case
+We should only be looking to buy
+But we are not going to buy right now
+Because the momentum right here
+Is still going down
+We want to wait for price to shift
+In line with the 4-hour time frame trend
+Which is the overall uptrend
+So right now
+What we need to do
+Is to wait for the trend
+On the 15-minute time frame
+To change from bearish to bullish
+Once we get that strong sign
+Of price being bullish
+That is when we can enter for a buy
+And right here
+Price has not really given us
+Any strong sign of
+Price becoming bullish yet
+So we still wait
+Let's look at what price does next
+You can see price is just like
+Coming back down
+To retest this AUL one more time
+You can see price just consolidating
+Around this AUL a little bit
+Just consolidating
+At this point of time
+We are still waiting to see
+What price is going to go next
+Because if you want to enter for a buy
+We have to wait for price
+To come back up to this level
+And just like continue going up
+That is when we know that
+This entire thing was a fake out
+And price is going to go back up
+Just like this
+Let me just go back to the 1 hour time frame
+To see what price is doing
+To just to like monitor price
+And we can see like right now
+Price is not giving any strong sign
+That price is going to go up yet
+And as you can see
+Price came back all the way down here
+To retest this level
+And gave us this big juicy candlestick right here
+And price has just broken this little downtrend line
+That we can draw right here
+And you can see price has just pierced
+Right through it
+Now remember for your entry
+You should go to the 15 minute time frame
+Right so you can see price has just broken
+Through the downtrend line
+That we have drawn right here
+Previously price
+Whenever it come back up here
+To this trend line
+It always hit back down
+Come back up
+Hit back down
+So it's just broken through
+This little wall right here
+That we have drawn
+So right now
+The momentum has shifted
+From a downtrend
+To an uptrend right now
+So now
+The 15 minute momentum is up
+The 1 hour momentum is up
+The 4 hour time frame momentum is up
+And it all lines up together like magic
+Remember this rule
+Never buy in a downtrend
+And always waits for confirmation
+For uptrend to be present
+So I will enter for a buy position right here
+When I see this giant green candlestick
+Which shows us the momentum has shifted
+Place my stop loss below the trend line right here
+Place my take profit all the way up
+At the resistance area
+Like somewhere right around here
+The last high right here
+At this area here
+Because remember
+The last time price was
+All the way up here right
+It literally toppled
+All the way down here
+So you can call this like
+Supply zone
+Whatever you want to call it
+Supply or resistance area
+That is where I'm going to be
+Placing your take profit at
+If you are unclear on
+Where you should place your take profit
+Always look towards the left
+Right here
+To see where price last stop at
+So you can see right here
+Price last stop at here
+Before it collapse all the way down here
+So you can also place your take profit
+All the way down here
+So for this example
+I'll place it all the way up here
+Because this is like a very strong area
+That you know like
+Price is going to rest back
+So we still wait
+So right now
+Let's look at what happens next
+Okay price is like slowly going up
+And right there
+It just smash your take profit
+Right around that area right there
+I want to show you another way
+Where you could have entered
+For this trade
+So let's go to the one hour time frame
+And you can see right now
+Price has came back all the way up here
+Remember
+If you see price like right here
+You cannot be entering right here
+Because if you enter for a buy here
+Your stop loss must be all the way down there
+That is crazy
+And you do not want to be entering
+For a buy right here
+You want to wait for price to pull back
+To a key level
+Then you can enter for the trade
+So right now
+I'm going to show you another way
+Where you can enter for this trade
+Enter for this buy position
+So at this point of time
+We're going to wait for price
+To come back down to this level
+So we wait
+We wait
+And see like price is coming back down
+To this area right here
+And when price come back down to this level
+And it touches it
+You cannot enter for a buy immediately
+Because that will be trading on impulse
+You are assuming that the market
+Is going to respect this level
+And head back up
+And that is trading on impulse
+You never ever want to assume
+What the market is going to do
+You always want to make sure
+You react to the markets
+Trading on impulse
+Will lead to disaster
+So once again
+You want to wait for confirmation
+So price has came back
+All the way down to this AOL
+And we wait
+And see what price is doing
+It didn't really give us
+Any confirmation yet
+So we still wait
+And see
+Okay we wait
+We wait
+We wait
+And you can see price went down
+Even further
+At this point of time
+You want to apply the strategy
+That I just showed you
+The top down analysis
+So on the 4 hour time frame
+We can see that
+Price is in a uptrend
+And right now
+On the 1 hour time frame
+We see that
+Price is in a downtrend momentum
+And if you go to the
+15 minute time frame
+You will also see that
+Price is in a downtrend momentum
+So what do you want to do
+In this case
+You want to wait
+For the 15 minute time frame
+And the 1 hour time frame momentum
+To shift from a downtrend
+To a uptrend
+Then you can enter for a buy
+You want to wait
+For the 4 hour
+The 1 hour
+And the 15 minute time frame
+All 3 time frames
+To line up perfectly
+So right now
+We still wait
+And as you can see
+Price is starting to go up
+Right now
+Go up right now
+Very very beautiful
+This is the upshift momentum
+That we are waiting for
+And if you are wondering
+Why the price reversed
+At this area
+Let me show you
+This beautiful trick
+Go to the 4 hour time frame
+And if you look towards the left
+You can actually see that
+That is a demand zone
+At this area
+Right here
+There's a demand zone
+At this area right here
+I'm not going to go through
+How to draw your supply
+And demand
+In this video
+But make sure you watch
+To the end
+And I'll link you to a video
+Which I did on
+How to trade supply and demand
+So right now
+The 1 hour time frame is up
+The 15 minute time frame
+Momentum is up
+The 4 hour time frame
+Momentum is also up
+At this point of time
+What you can do
+Is to enter for a buy
+So I'll enter for a buy
+Like somewhere right around here
+And I want to place my take profit
+At the next key level
+And right now
+Price has not given us
+Any recent key level yet
+So I can just
+Literally zoom out
+All the way out here
+And I can see
+There's a very strong key level
+At this area
+Right here
+Playing my take profit
+All the way up there
+The reason why
+I place it up there
+Is because like
+You can see right here
+The last time price
+Went up this high
+It literally reversed
+All the way back down
+So this is like
+A very strong supply area
+And let's look at
+How this beautiful trade
+Play out
+You can see
+Literally price went up
+And smashed
+Our take profit
+Right there
+And I think this is
+More of a swing trade already
+Like I said
+I'm a mix between
+Intraday trader
+And a swing trader
+So this is how
+I will trade
+The multiple time frame analysis
+Like this video
+If this video was helpful
+And if you want to
+Learn more about
+Supply and demand
+You need to check out
+This video right here
+So that you can understand
+How to trade supply and demand
+Which is a very very
+Important concept
+That you must know
+If you want to become
+A successful trader
+Click on this video
+Right here
+To find out more
+Welcome to the tribe
+And remember
+You're just one trade away
+Mwah
+.

@@ -1,0 +1,50 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: RQ36kizIDk0.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+[VISUEL: Écran de trading complexe avec plusieurs fenêtres. À gauche, la plateforme NinjaTrader affichant deux graphiques (un avec des bougies rouges et vertes, l'autre avec des lignes et des indicateurs, tous deux pour le marché "NQ"). En dessous, un panneau "Accounts". Au centre, un tableau de bord "Right Line Trading" avec des colonnes "Display name", "Total PnL", "Unrealized", "Cash value", "Starting Balance" et plusieurs lignes pour différentes stratégies/comptes (par exemple, "AI ES Money Maker", "AI NQ Leap Frog", "AI NQ Hay Maker"). À droite, un autre tableau de bord "Right Line Trading" avec des onglets "LIVE PNL", "BEST BOTS", "STRATEGY SETTINGS", "OPTIMIZER", "ACCOUNT MGMT". Sous les onglets, une section "TODAY'S SESSION" affichant "TOTAL PNL" (en vert), "TRADES", "WIN RATE", "REL" (en rouge) et un "STRATEGY LEADERBOARD" avec "STRATEGY", "TRADES", "WIN RATE", "TOTAL PNL". En bas à droite, Mark Miller est visible dans une petite fenêtre.]
+Salut, je suis Mark Miller, propriétaire de Right Line Trading. Je veux vous montrer l'AI AutoTrader et l'outil Claude que j'ai construit ici, le tableau de bord.
+
+[VISUEL: L'onglet "LIVE PNL" est actif. Le "TOTAL PNL" affiche une valeur positive en vert, tandis que "REL" affiche une valeur négative en rouge. Le "STRATEGY LEADERBOARD" liste diverses stratégies avec leurs "TRADES", "WIN RATE" et "TOTAL PNL", les chiffres fluctuent.]
+Nous avons un nouveau tableau de bord interactif ici pour l'AI AutoTrader. Nous pouvons maintenant nous connecter. Nous avons le portefeuille complet ici.
+
+[VISUEL: Mark clique sur un menu déroulant sous "TODAY'S SESSION" qui affiche "Last 20A_VERIFIER Trades". Il clique ensuite sur un autre menu déroulant sous "ALL STRATEGIES" montrant une liste de stratégies AI (par exemple, "AI ES Stephen", "AI ES Black Gold"). Il sélectionne "All Strategies". Le "STRATEGY LEADERBOARD" se met à jour. Il clique ensuite sur un sélecteur de date.]
+Nous pouvons choisir toutes les stratégies. Nous pouvons trier par date.
+
+[VISUEL: Il clique sur "TODAY'S SESSION". Le "TOTAL PNL" affiche une valeur positive en vert, fluctuante. "REL" affiche une valeur négative en rouge. Le "STRATEGY LEADERBOARD" se met à jour pour afficher les performances du jour. De nombreuses stratégies montrent un PNL positif (vert), quelques-unes sont négatives (rouge).]
+Je peux simplement faire la session d'aujourd'hui. Cela me donne le PNL total du portefeuille complet. Donc, nous avons une sacrée bonne journée aujourd'hui. Euh, le portefeuille aujourd'hui, non, la session a commencé à 18h00 et il est environ 1h30 du matin. Quoi qu'il en soit, euh, nous sommes à environ 13 000 dollars en ce moment sur tous ces comptes ici.
+
+[VISUEL: Le "STRATEGY LEADERBOARD" est visible. "AI ES Golden Goose" a le "TOTAL PNL" le plus élevé (en vert). D'autres stratégies comme "AI NQ Stephen" et "AI NQ Hay Maker" affichent également un PNL vert significatif. Quelques stratégies affichent un PNL rouge.]
+Et les voici. Ce sont les comptes que nous avons en cours. Donc, nous avons la Golden Goose qui est mon numéro un jusqu'à présent aujourd'hui. Et euh, le vieux Stephen monte au classement ici à trois mille. Hay Maker à deux mille. Nous avons une sacrée bonne journée. Juste quelques rouges aujourd'hui.
+
+[VISUEL: Il fait défiler le "TRADE LOG" affichant les transactions individuelles avec "TIME", "STRATEGY", "DIRECTION", "ENTRY", "EXIT", "PNL". Il clique ensuite sur l'onglet "BEST BOTS". Il affiche "AI NQ Best Drone" et "AI ES One Day Pass" avec leur PNL.]
+Donc, euh, voici toutes les transactions pour eux. Euh, j'ai un onglet pour les meilleurs bots. Nous pouvons maintenant voir quelle stratégie les meilleurs bots utilisent. Euh, ici, il y a le "one day pass".
+
+[VISUEL: Il clique sur l'onglet "STRATEGY SETTINGS". Il affiche "RISK MANAGEMENT" avec "Daily Profit Target" (en vert), "Daily Loss Limit" (en rouge), "Close at Loss Limit" (ON), "Trail Loss Target" (OFF), "Trading Hours", "Trading Days", "Contracts Qty 1A_VERIFIER / Qty 2A_VERIFIER". En dessous, "TRADE MANAGEMENT" avec "Stop Loss", "Profit Target", "Breakeven", "Exit on Line Change", "Exit on Proximity", "Day Minimum", "Target Minimum". Toutes les valeurs sont numériques.]
+Ici, nous pouvons voir maintenant dans les paramètres de stratégie. Donc, quelle est ma tolérance au risque pour la journée. Donc, dans la stratégie, ce sera environ 4 000 et 4 000. Et nous avons les autres paramètres qui sont euh, bénéfiques à connaître d'une vue de haut niveau. Donc, la gestion des transactions, quel est le risque de stop loss, quel est un objectif, quel est l'objectif de profit.
+
+[VISUEL: Il clique sur l'onglet "OPTIMIZER". Il affiche un menu déroulant pour "Select Strategy" (actuellement "AI ES Money Maker"). En dessous, un bouton "RUN OPTIMIZATION", un menu déroulant "TRADE COUNT" (réglé sur 20A_VERIFIER). Puis la section "AI ES Money Maker" avec "CURRENT STOP", "OPTIMIZED STOP", "CURRENT TARGET", "OPTIMIZED TARGET", "CURRENT PNL" (en vert), "PROJECTED PNL" (également en vert). En dessous, les boutons "APPLY TO DB" et "APPLY ALL IMPROVED". Plus bas, le journal "TRADES USED IN OPTIMIZATION".]
+Nous avons cet outil ici. C'est un optimiseur. Nous pouvons euh, aller ici et euh, choisir le "money maker" par exemple. Et euh, choisir combien de transactions nous voulons regarder en arrière. Disons 20. Et euh, le PNL actuel des 20 dernières transactions est de 5 000 dollars. Euh, mais il va projeter que si nous changions notre stop et notre objectif, du stop de 47, pardon, du stop de 60 à 47 et de l'objectif de 180 à 167, cela produirait autant d'argent. Donc, nous avons maintenant la possibilité de cliquer sur "appliquer à la base de données".
+
+[VISUEL: L'écran se divise. À gauche, une interface de base de données est affichée, spécifiquement une table nommée "Strategy_Model_ID" avec des colonnes comme "Strategy_Model_ID", "Time", "Target_1", "Target_2", "Stop_1", "Stop_2", "Income Window". Il navigue vers une ligne spécifique (probablement pour "Money Maker"). Il pointe vers les colonnes "Stop_2" et "Target_2". Il clique sur "Apply to DB" sur le tableau de bord de droite. Les nombres dans la table de la base de données pour "Stop_2" et "Target_2" se mettent à jour pour correspondre aux valeurs "OPTIMIZED STOP" et "OPTIMIZED TARGET" du tableau de bord.]
+Et ce que cela fait maintenant, c'est que ça revient ici. Et euh, ça écrit dans la base de données d'où la stratégie tire les données pour fonctionner. Et maintenant, quand nous cliquons sur euh, "appliquer à la base de données", nous pouvons voir que ces nombres seront le nouveau stop et l'objectif pour les nombres euh, stop deux et objectif deux. Donc, c'est 47, 167. Laissez-moi m'assurer que je suis sur la bonne stratégie. Donc, je vais aller ici dans les stratégies. Euh, Money Maker est, je pense que c'est 348. Voyons voir. 348, oui. Donc, le Money Maker est le numéro 348. Donc, je vais dans les modèles, dans le 348, et en ce moment, dans ces deux-là, j'ai 34 et 105. Je vais cliquer sur "appliquer à la base de données". Et euh, je vais actualiser mes données. Et maintenant, j'ai 47, 47. J'ai euh, 167, 167.
+
+[VISUEL: L'écran revient à la vue complète du tableau de bord. Il met l'accent sur le "système en boucle fermée". Il clique ensuite sur l'onglet "ACCOUNT MGMT". Il affiche "FUNDED FUTURES (MTIS) ACCOUNTS" avec plusieurs comptes listés (par exemple, "MFFUEVFL8570591001") montrant "Starting Balance", "Total Executions". En dessous, les comptes prop "APEX" et le compte "SWIFT". Plus bas, "TRADING RULES - $25K RAPID PLAN" avec "General Rules" et "Evaluation Rules" (par exemple, "Profit Target", "Max Drawdown", "Max Position", "Micro Scaling", "Consistency Rule", "Scaling Rule"). Également "Funded Rules" et "Payout Rules".]
+Donc, maintenant, nous avons un système en boucle fermée complète. Euh, juste ici, depuis l'endroit où vous l'optimisez sur votre tableau de bord. Tout au long de votre stratégie actuelle, et maintenant votre euh, votre bot pourra prendre ces paramètres et les utiliser pour la prochaine transaction. Et puis, ici, nous avons des onglets de gestion de compte. Euh, donc, nous avons nos comptes prop. Ce sont mes comptes prop que j'ai ici. Et euh, ça passe en revue quelques règles ici sur ce que les euh, les différentes exigences des comptes sont. Et euh, quelques-unes des choses vraiment euh, clés sur lesquelles se concentrer à la fin. Rester dans les règles. Donc, nous avons ce nouveau tableau de bord PNL en direct.
+
+[VISUEL: L'onglet "LIVE PNL" est actif, affichant les performances du jour. Le "TOTAL PNL" est en vert. Le "STRATEGY LEADERBOARD" est visible.]
+Qui vous est présenté par Right Line Trading. Encore une fois, je suis Mark Miller. Bonne chance à tous pour le trading. Au revoir.
+
+[VISUEL: Musique entraînante. Divers clips de personnes en train de trader, de célébrer, de conduire des voitures classiques, de se détendre au bord d'une piscine. Des superpositions de texte apparaissent: "RIGHT LINE TRADING", "TRADE LIKE A WINNER", "AI AUTOTRADER", "TRADING NQ & ES FUTURES", "LIVE THE LIFESTYLE", "MASTER THE MARKETS". La vidéo se termine par "RIGHT LINE TRADING" et des personnes célébrant.]
+(Musique entraînante)
+RIGHT LINE TRADING
+TRADE LIKE A WINNER
+AI AUTOTRADER
+TRADING NQ & ES FUTURES
+LIVE THE LIFESTYLE
+MASTER THE MARKETS
+RIGHT LINE TRADING

@@ -1,0 +1,792 @@
+## 0. Validation des 5 points avant réponse
+
+Rôle adopté : trader senior, risk manager, architecte produit local/IA, UX trading, formateur débutant.
+
+Méthode utilisée : cahier des charges professionnel + feuille de route + audit des risques + garde-fous + architecture progressive.
+
+Format : document structuré, avec modules, règles, roadmap, frontend, architecture, prompts internes et recommandations de démarrage.
+
+Contexte : application locale de trading assistée par IA, pour débutant, avec signaux explicables, paper trading obligatoire, journal, gestion du risque, apprentissage progressif, optimisation contrôlée et sécurité PC/NinjaTrader. Tes sources imposent clairement une logique de copilote prudent, pas une machine automatique à gagner de l’argent.  
+
+But final : construire progressivement une application locale qui aide à analyser, décider, apprendre, éviter les erreurs et gérer le risque, sans exécution réelle automatique au départ.
+
+Manques critiques à fixer plus tard : marché ciblé exact, capital prévu, broker, instruments, timeframes, style de trading, source de données, pays/réglementation, budget technique. Pour ce document, je pars sur le cadre le plus sûr : données fictives/importées, paper trading, aucune exécution réelle, débutant, PC Windows 11, possibilité NinjaTrader plus tard. 
+
+---
+
+# CAHIER DES CHARGES — APPLICATION LOCALE DE TRADING ASSISTÉE PAR IA
+
+## 1. Verdict professionnel sur l’idée
+
+L’idée est pertinente si elle est reformulée comme un **copilote de trading local**, pas comme un robot qui décide à ta place.
+
+Ce qui est bon : tu veux une application qui centralise l’analyse, les signaux, le risque, le journal, la pédagogie et l’amélioration progressive. C’est exactement ce qu’il faut pour un débutant : éviter la dispersion, éviter les décisions impulsives, structurer chaque trade, et forcer une discipline.
+
+Ce qui est dangereux : demander à l’application “quand acheter ou vendre” peut créer une dépendance excessive. Un débutant peut croire que l’IA voit l’avenir. Elle ne le voit pas. Elle peut seulement interpréter des données, détecter des configurations, attribuer un score, montrer les risques et refuser de conclure si les preuves sont insuffisantes.
+
+Ce qui est irréaliste : vouloir une IA qui “maîtrise tout le métier” dès le départ. Le trading professionnel dépend du contexte, du risque, de la liquidité, de l’exécution, de la psychologie, de la volatilité, du calendrier économique et des erreurs humaines. L’application doit donc commencer avec peu de règles, bien testées, plutôt qu’un énorme cerveau opaque.
+
+Reformulation correcte :
+**“Je veux construire une application locale de trading assisté par IA qui analyse le marché, produit des scénarios explicables, bloque les décisions dangereuses, m’entraîne en paper trading, journalise tout, et améliore progressivement ses stratégies après validation humaine.”**
+
+Décision : projet faisable, mais seulement avec une progression stricte. La première version ne doit pas connecter un broker, ne doit pas exécuter d’ordres, ne doit pas utiliser d’argent réel, et ne doit pas prétendre prédire le marché.
+
+---
+
+## 2. Concept amélioré
+
+Nom fonctionnel : **Trading Copilot Local**
+
+Mission : aider un débutant à prendre de meilleures décisions, pas remplacer le trader.
+
+Le copilote doit fonctionner selon 6 principes :
+
+1. Il observe le marché.
+2. Il classe le contexte : tendance, range, breakout, retournement, volatilité dangereuse, marché illisible.
+3. Il propose un scénario seulement si les preuves sont suffisantes.
+4. Il calcule le risque avant toute opportunité.
+5. Il explique simplement pourquoi agir ou ne rien faire.
+6. Il journalise tout pour apprendre.
+
+La bonne logique n’est pas :
+
+> “Acheter maintenant.”
+
+La bonne logique est :
+
+> “Achat possible uniquement si le prix reste au-dessus de cette zone, avec invalidation ici, risque maximal de X, ratio minimum Y, contexte favorable mais risque Z. Sinon attendre.”
+
+L’application doit donc produire des **scénarios conditionnels**, pas des ordres.
+
+---
+
+## 3. Cahier des charges fonctionnel
+
+### 3.1 Module données de marché
+
+Objectif : importer ou recevoir les prix, volumes, chandeliers, timeframes et historique.
+
+Entrées : OHLCV, timeframe, instrument, historique, spreads si disponible.
+
+Sorties : séries propres, bougies, variation, volatilité, volumes, données prêtes pour analyse.
+
+Logique : nettoyer, vérifier les trous de données, détecter anomalies, horodater.
+
+Importance débutant : éviter de fonder une décision sur des données fausses.
+
+Erreurs à éviter : utiliser des données incomplètes, mélanger timeframes, inventer des prix manquants.
+
+### 3.2 Module analyse technique
+
+Objectif : lire tendance, momentum, zones, volatilité, structure.
+
+Entrées : données marché nettoyées.
+
+Sorties : tendance probable, zones clés, momentum, état du marché.
+
+Logique : moyennes mobiles, structure des sommets/creux, ATR, range, cassures, pullbacks.
+
+Erreur à éviter : empiler trop d’indicateurs contradictoires.
+
+### 3.3 Module market structure
+
+Objectif : comprendre si le marché fait des hauts/bas ascendants, descendants ou désordonnés.
+
+Sorties : tendance haussière, tendance baissière, range, transition, structure cassée.
+
+Importance : c’est le socle avant tout signal.
+
+Erreur à éviter : acheter dans une tendance baissière forte juste parce qu’un indicateur devient “vert”.
+
+### 3.4 Module supports/résistances
+
+Objectif : identifier les zones où le prix réagit.
+
+Sorties : zones de support, résistance, zone d’invalidation, zone dangereuse.
+
+Logique : points de réaction répétés, volumes, extrêmes, niveaux psychologiques.
+
+Erreur à éviter : traiter un niveau comme une ligne magique. Une zone n’est jamais une certitude.
+
+### 3.5 Module indicateurs
+
+Objectif : fournir des confirmations, pas décider seul.
+
+Indicateurs MVP : moyenne mobile, RSI, ATR, volume, VWAP si données disponibles.
+
+Sorties : confirmations ou divergences.
+
+Erreur à éviter : créer un signal uniquement parce que RSI < 30 ou > 70.
+
+### 3.6 Module volatilité
+
+Objectif : détecter les périodes trop dangereuses.
+
+Sorties : volatilité normale, élevée, extrême, stop trop proche, marché instable.
+
+Règle : si ATR ou amplitude anormale, le système réduit le score ou bloque le trade.
+
+### 3.7 Module scoring des signaux
+
+Objectif : transformer les preuves en score lisible.
+
+Score recommandé sur 100 :
+
+| Élément                  | Poids |
+| ------------------------ | ----: |
+| Contexte marché          |    25 |
+| Structure                |    20 |
+| Zone entrée/invalidation |    20 |
+| Ratio rendement/risque   |    15 |
+| Volatilité               |    10 |
+| Historique stratégie     |    10 |
+
+Interprétation :
+
+| Score | Décision                                            |
+| ----: | --------------------------------------------------- |
+|  0–49 | Signal refusé                                       |
+| 50–64 | Surveillance seulement                              |
+| 65–74 | Opportunité faible, paper trading uniquement        |
+| 75–84 | Opportunité correcte, simulation possible           |
+|   85+ | Opportunité forte, toujours avec validation humaine |
+
+### 3.8 Module gestion du risque
+
+Objectif : empêcher les pertes excessives.
+
+Règles MVP recommandées :
+
+| Règle                        |                   Valeur débutant |
+| ---------------------------- | --------------------------------: |
+| Risque max par trade         | 0,25 % à 0,50 % du capital simulé |
+| Risque max par jour          |                               1 % |
+| Risque max par semaine       |                         2 % à 3 % |
+| Trades max par jour          |                                 3 |
+| Pertes consécutives max      |                            2 ou 3 |
+| Martingale                   |                         interdite |
+| Augmenter taille après perte |                          interdit |
+| Exécution réelle             |                    absente en MVP |
+
+### 3.9 Module money management
+
+Objectif : calculer automatiquement la taille maximale de position.
+
+Formule :
+
+> Taille = risque autorisé / distance entre entrée et stop-loss
+
+Exemple : capital simulé 10 000 $, risque 0,5 %, perte max 50 $. Si stop = 10 points, la taille doit respecter cette perte maximale.
+
+### 3.10 Module paper trading
+
+Objectif : simuler les trades sans argent réel.
+
+Fonctions : ouvrir trade simulé, fermer trade simulé, suivre P&L fictif, respecter les règles de risque.
+
+Règle : aucun passage au réel avant historique suffisant, journal complet, discipline validée et stratégie stable.
+
+### 3.11 Module journal
+
+Objectif : conserver chaque décision.
+
+À enregistrer : date, marché, timeframe, signal, score, raisons pour, raisons contre, émotion utilisateur, capture analyse, décision, résultat, erreur éventuelle.
+
+Sans journal, l’application ne peut pas apprendre.
+
+### 3.12 Module backtesting
+
+Objectif : tester une stratégie sur historique.
+
+À faire plus tard, pas dans le MVP minimal.
+
+Critères : nombre de trades, drawdown, profit factor, stabilité par période, faux signaux, robustesse hors échantillon.
+
+Erreur à éviter : optimiser une stratégie uniquement sur le passé.
+
+### 3.13 Module alertes
+
+Objectif : prévenir sans pousser au trading.
+
+Types : zone atteinte, volatilité élevée, risque dépassé, sur-trading, perte journalière, stratégie dégradée.
+
+Erreur à éviter : trop d’alertes qui créent de l’impulsivité.
+
+### 3.14 Module formation débutant
+
+Objectif : expliquer chaque concept au moment utile.
+
+Exemples : “invalidation”, “ratio rendement/risque”, “pullback”, “range”, “breakout”, “faux signal”.
+
+Format : explication courte + exemple + lien vers journal.
+
+### 3.15 Module IA explicative
+
+Objectif : transformer les données en raisonnement compréhensible.
+
+Règle : l’IA doit dire ce qu’elle sait, ce qu’elle ne sait pas, et pourquoi elle refuse un trade.
+
+### 3.16 Module audit des décisions
+
+Objectif : vérifier après coup si le raisonnement était cohérent.
+
+Ne juge pas seulement le résultat financier. Un bon trade peut perdre ; un mauvais trade peut gagner par chance.
+
+### 3.17 Module dashboard frontend
+
+Objectif : cockpit de décision en 5 secondes.
+
+Le dashboard doit prioriser : verdict, risque, entrée, stop, ratio, raisons principales, blocage éventuel.
+
+### 3.18 Module profil de risque
+
+Objectif : adapter l’application au niveau du trader.
+
+Profil débutant obligatoire au départ : risque faible, paper trading, nombre de trades limité, blocages stricts.
+
+### 3.19 Module blocage de sécurité
+
+Objectif : empêcher certains comportements.
+
+Blocages : perte journalière atteinte, 3 trades déjà pris, revenge trading suspect, taille trop grande, signal trop faible, données marché invalides.
+
+### 3.20 Module historique et statistiques
+
+Objectif : apprendre avec des preuves.
+
+Statistiques : win rate, ratio moyen, drawdown, erreurs fréquentes, performance par stratégie, performance par contexte, discipline utilisateur.
+
+---
+
+## 4. Cerveau IA de l’application
+
+Le cerveau IA ne doit pas être l’exécuteur. Il doit être l’analyste, le contrôleur, le formateur et l’auditeur.
+
+Ses rôles :
+
+1. Lire le contexte marché.
+2. Identifier le type de marché.
+3. Comparer plusieurs signaux contradictoires.
+4. Produire un scénario conditionnel.
+5. Refuser de conclure si les preuves sont faibles.
+6. Expliquer en langage simple.
+7. Détecter les erreurs émotionnelles.
+8. Vérifier le risque avant toute suggestion.
+9. Générer une checklist.
+10. Auditer le résultat après trade.
+
+Ce qu’il ne doit jamais faire :
+
+1. Promettre un gain.
+2. Donner un ordre catégorique.
+3. Masquer l’incertitude.
+4. Inventer une donnée.
+5. Augmenter le risque automatiquement.
+6. Optimiser une stratégie sans test.
+7. Transformer un backtest en garantie.
+8. Exécuter un ordre réel en MVP.
+9. Contourner un blocage de sécurité.
+10. Dire “signal fort” sans preuves mesurables.
+
+---
+
+## 5. Logique des signaux achat/vente
+
+Chaque signal doit être un objet structuré :
+
+```text
+Type : ACHAT / VENTE / ATTENTE / DANGER / MARCHÉ ILLISIBLE
+Instrument :
+Timeframe :
+Contexte :
+Niveau d’entrée potentiel :
+Invalidation :
+Stop-loss théorique :
+Take-profit théorique :
+Ratio rendement/risque :
+Taille maximale de position :
+Score de confiance :
+Score de risque :
+Raisons pour :
+Raisons contre :
+Conditions d’annulation :
+Décision système : autorisé / surveillance / bloqué
+Message débutant :
+```
+
+Exemple de logique :
+
+| Condition                                                  | Effet                 |
+| ---------------------------------------------------------- | --------------------- |
+| Tendance claire + pullback propre + zone support confirmée | Score augmente        |
+| Ratio rendement/risque < 1,5                               | Signal refusé         |
+| Volatilité extrême                                         | Signal bloqué         |
+| Données incomplètes                                        | Signal bloqué         |
+| 2 pertes consécutives dans la journée                      | Mode pause            |
+| Signal contre tendance forte                               | Score réduit ou refus |
+| Raisons contre plus fortes que raisons pour                | Attendre              |
+
+Règle essentielle :
+**“Aucun trade” est une décision valide.** Pour un débutant, c’est même souvent la meilleure décision.
+
+---
+
+## 6. Gestion du risque et garde-fous
+
+La gestion du risque doit être prioritaire sur le profit.
+
+### Règles obligatoires MVP
+
+1. Paper trading uniquement.
+2. Risque par trade limité à 0,25–0,50 %.
+3. Stop-loss obligatoire pour chaque scénario.
+4. Invalidation obligatoire.
+5. Ratio rendement/risque minimum : 1,5 ; idéalement 2.
+6. Maximum 3 trades simulés par jour.
+7. Blocage après perte journalière simulée de 1 %.
+8. Blocage après 2 ou 3 pertes consécutives.
+9. Interdiction de martingale.
+10. Interdiction d’augmenter la taille après perte.
+11. Mode pause obligatoire après erreur répétée.
+12. Journal obligatoire avant et après trade.
+13. Aucun bouton “exécuter ordre réel”.
+14. Aucun add-on ou stratégie externe non vérifiée.
+15. Audit quotidien obligatoire.
+
+### Détection revenge trading
+
+Signaux d’alerte :
+
+| Comportement                     | Action                   |
+| -------------------------------- | ------------------------ |
+| Nouveau trade juste après perte  | Alerte                   |
+| Taille augmentée après perte     | Blocage                  |
+| Trade sans plan complet          | Blocage                  |
+| Multiplication de trades faibles | Pause                    |
+| Refus répété des alertes IA      | Mode apprentissage forcé |
+
+### Kill switch
+
+Le kill switch bloque toute simulation ou recommandation active si :
+
+1. perte journalière atteinte ;
+2. données marché invalides ;
+3. stratégie suspendue ;
+4. utilisateur dépasse le nombre de trades ;
+5. volatilité classée dangereuse ;
+6. système détecte sur-trading ;
+7. moteur risque indisponible.
+
+---
+
+## 7. Frontend idéal : cockpit de décision
+
+L’interface doit être construite pour un débutant stressé, pas pour un analyste institutionnel.
+
+### Écran 1 — Décision instantanée
+
+Objectif : comprendre en 5 secondes.
+
+Ordre visuel :
+
+1. Verdict énorme : ACHAT POSSIBLE / VENTE POSSIBLE / ATTENDRE / DANGER / SIGNAL REFUSÉ.
+2. Couleur d’état : vert, orange, rouge, gris, bleu.
+3. Score global.
+4. Plan du trade.
+5. Risque maximal.
+6. 3 raisons pour.
+7. 3 raisons contre.
+8. Checklist.
+9. Boutons.
+
+Boutons MVP :
+
+1. Simuler le trade.
+2. Ajouter au journal.
+3. Mettre en surveillance.
+4. Refuser le trade.
+5. Voir analyse détaillée.
+
+Aucun bouton d’ordre réel.
+
+### Écran 2 — Analyse marché
+
+Affiche : tendance, range, volatilité, zones, structure, multi-timeframe, volumes.
+
+Le débutant doit comprendre : “le marché est clair ou non”.
+
+### Écran 3 — Opportunité de trade
+
+Affiche : entrée, stop, TP, invalidation, ratio, score, raisons pour/contre.
+
+Le débutant doit comprendre : “voici le plan, voici où l’idée devient fausse”.
+
+### Écran 4 — Risque
+
+Affiche : capital simulé, risque par trade, perte max, taille position, blocages.
+
+Le débutant doit comprendre : “combien je peux perdre si j’ai tort”.
+
+### Écran 5 — Paper trading
+
+Affiche : trades simulés, P&L fictif, respect du plan, erreurs.
+
+Le débutant doit comprendre : “je m’entraîne sans argent réel”.
+
+### Écran 6 — Journal
+
+Affiche : chaque décision, capture, émotion, plan, résultat, erreur.
+
+Le débutant doit comprendre : “je progresse grâce aux preuves”.
+
+### Écran 7 — Performance
+
+Affiche : performance par stratégie, contexte, erreur, discipline.
+
+Attention : ne pas afficher seulement les gains. Afficher surtout qualité d’exécution et respect du risque.
+
+### Écran 8 — Apprentissage
+
+Affiche : leçon du jour, erreur fréquente, concept utile, mini-checklist.
+
+### Écran 9 — Configuration
+
+Affiche : profil risque, marchés, horaires, limites, mode débutant.
+
+En MVP, certaines règles ne peuvent être que durcies, pas assouplies.
+
+### Écran 10 — Audit des signaux
+
+Affiche : signal prévu, résultat réel, erreur, amélioration proposée.
+
+---
+
+## 8. Architecture technique locale
+
+### Niveau 1 — MVP simple
+
+Objectif : construire vite, local, testable, sans broker.
+
+Composants recommandés :
+
+| Composant     | Choix simple                                  |
+| ------------- | --------------------------------------------- |
+| Interface     | Next.js + Tailwind, ou Tauri + frontend web   |
+| Backend local | Node.js/TypeScript ou FastAPI Python          |
+| Base locale   | SQLite                                        |
+| Données       | CSV/import manuel/API lecture seule plus tard |
+| IA            | Claude API ou modèle local plus tard          |
+| Trading       | Paper trading uniquement                      |
+| Sécurité      | aucun ordre réel, journal obligatoire         |
+
+Fonctions MVP :
+
+1. Dashboard.
+2. Import données.
+3. Analyse simple.
+4. Signaux simulés.
+5. Moteur de risque.
+6. Journal.
+7. Paper trading.
+8. Rapport quotidien.
+9. Décision instantanée.
+10. Blocages.
+
+À éviter : microservices, Kubernetes, broker réel, exécution auto, backtesting complexe dès le départ.
+
+### Niveau 2 — Version améliorée
+
+Ajouter :
+
+1. Backtesting.
+2. Strategy Lab.
+3. Alertes.
+4. Statistiques avancées.
+5. Détection comportementale.
+6. Analyse post-trade.
+7. Comparaison de stratégies.
+8. Mémoire d’apprentissage.
+
+Risque : sur-optimisation.
+Garde-fou : aucune stratégie ne passe active sans paper trading validé.
+
+### Niveau 3 — Version avancée
+
+Seulement plus tard :
+
+1. Connexion broker en lecture seule.
+2. Connexion NinjaTrader éventuelle.
+3. Semi-automatisation sous validation humaine.
+4. Monitoring avancé.
+5. Audit complet.
+6. Sécurité renforcée.
+7. Exécution réelle manuelle assistée.
+
+À éviter absolument : ordre automatique sans validation, effet de levier incontrôlé, ajout d’indicateurs tiers non vérifiés, stratégie non testée.
+
+---
+
+## 9. Roadmap de construction
+
+| Phase                   | Objectif                               | Livrables                            | Validation Go/No-Go           |
+| ----------------------- | -------------------------------------- | ------------------------------------ | ----------------------------- |
+| 1. Cadrage sécurité     | Fixer règles, limites, marchés fictifs | Spécification risque, règles blocage | Go si aucune exécution réelle |
+| 2. Prototype frontend   | Cockpit visuel                         | Écran décision instantanée           | Go si lisible en 5 sec        |
+| 3. Données marché       | Importer OHLCV                         | Import CSV + validation données      | No-Go si données incomplètes  |
+| 4. Moteur analyse       | Classer contexte                       | tendance/range/volatilité            | Go si explications claires    |
+| 5. Moteur risque        | Calculer taille/risque                 | règles risque + kill switch          | No-Go si contournable         |
+| 6. Cerveau IA           | Expliquer scénarios                    | prompts + réponses structurées       | Go si refus possible          |
+| 7. Paper trading        | Simuler trades                         | portefeuille fictif                  | Go si journal auto            |
+| 8. Journal/statistiques | Apprendre des décisions                | journal + métriques                  | Go si erreurs visibles        |
+| 9. Backtesting          | Tester stratégies                      | moteur test historique               | No-Go si sur-optimisé         |
+| 10. Tests sans argent   | Session complète simulée               | rapports quotidiens                  | Go si discipline respectée    |
+| 11. Amélioration        | Boucle d’apprentissage                 | erreurs + corrections                | Go si versionné               |
+| 12. Broker éventuel     | Lecture seule puis semi-auto           | connexion contrôlée                  | No-Go sans audit sécurité     |
+
+---
+
+## 10. Mémoire d’apprentissage
+
+L’application doit enregistrer 10 mémoires.
+
+| Mémoire                 | Données                        | Utilisation                 | Durée     |
+| ----------------------- | ------------------------------ | --------------------------- | --------- |
+| Marchés observés        | contexte, volatilité, tendance | reconnaître les contextes   | illimitée |
+| Signaux générés         | score, raisons, décision       | mesurer qualité des signaux | illimitée |
+| Trades simulés          | entrée, stop, TP, résultat     | apprendre sans argent       | illimitée |
+| Décisions humaines      | accepté/refusé/modifié         | détecter comportement       | illimitée |
+| Erreurs                 | type, fréquence, coût          | anti-répétition             | illimitée |
+| Stratégies              | versions, règles, résultats    | Strategy Lab                | illimitée |
+| Conditions marché       | range/tendance/news/volatilité | adapter scoring             | illimitée |
+| Faux signaux            | pourquoi faux                  | réduire erreurs             | illimitée |
+| Bons signaux            | pourquoi bons                  | renforcer logique           | illimitée |
+| Comportements dangereux | revenge, sur-trading           | blocage sécurité            | illimitée |
+
+Règle : la mémoire sert à proposer des améliorations, jamais à modifier automatiquement les règles critiques.
+
+---
+
+## 11. Boucle d’amélioration continue
+
+La boucle correcte :
+
+1. Observation du marché.
+2. Génération ou refus du signal.
+3. Décision utilisateur.
+4. Résultat réel du scénario.
+5. Analyse post-trade.
+6. Détection d’erreur.
+7. Proposition d’amélioration.
+
+Ce qui peut être optimisé : scoring, filtres de contexte, conditions d’entrée, affichage, pédagogie, alertes.
+
+Ce qui ne doit jamais être modifié automatiquement : risque max, perte max, taille après perte, permission d’exécution réelle, kill switch.
+
+---
+
+## 12. Strategy Lab
+
+Le Strategy Lab est le laboratoire de stratégies.
+
+Chaque stratégie doit avoir une fiche :
+
+```text
+Nom :
+Hypothèse de marché :
+Marchés adaptés :
+Timeframes adaptés :
+Contexte idéal :
+Contextes interdits :
+Conditions d’entrée :
+Conditions de sortie :
+Invalidation :
+Stop-loss :
+Take-profit :
+Ratio minimum :
+Indicateurs utilisés :
+Taux de réussite observé :
+Profit factor :
+Drawdown maximal :
+Nombre de trades testés :
+Performance backtest :
+Performance paper trading :
+Stabilité :
+Version :
+Date modification :
+Raison modification :
+Statut : active / test / suspendue / rejetée
+```
+
+Règles d’activation :
+
+1. Backtest minimal.
+2. Test hors échantillon.
+3. Paper trading obligatoire.
+4. Nombre suffisant de trades simulés.
+5. Drawdown acceptable.
+6. Pas de sur-optimisation évidente.
+7. Validation humaine.
+8. Version précédente conservée.
+9. Retour arrière possible.
+10. Suspension automatique si dégradation.
+
+---
+
+## 13. Anti-répétition des erreurs
+
+Erreurs à détecter :
+
+| Erreur                | Détection                     | Action               |
+| --------------------- | ----------------------------- | -------------------- |
+| Signal trop tôt       | entrée avant confirmation     | réduire score timing |
+| Signal trop tard      | entrée après mouvement épuisé | alerte retard        |
+| Mauvaise tendance     | trade contre structure        | blocage possible     |
+| Mauvais range         | breakout en range             | suspendre stratégie  |
+| Stop mal placé        | stop dans bruit normal        | refuser plan         |
+| TP irréaliste         | objectif hors contexte        | demander correction  |
+| Ratio insuffisant     | R/R < seuil                   | blocage              |
+| Confiance excessive   | score élevé sans preuves      | audit                |
+| Volatilité dangereuse | ATR extrême                   | blocage              |
+| Sur-trading           | trop de trades                | pause                |
+| Revenge trading       | trade après perte             | blocage              |
+| Taille excessive      | perte > limite                | blocage              |
+| Non-respect plan      | sortie/entrée hors plan       | rapport erreur       |
+| Stratégie inefficace  | faux signaux répétés          | suspension           |
+
+Rapport hebdomadaire obligatoire :
+
+1. erreur la plus répétée ;
+2. coût simulé ;
+3. stratégie concernée ;
+4. règle corrective ;
+5. résultat après correction ;
+6. décision : continuer, modifier, suspendre.
+
+---
+
+## 14. Prompts internes du cerveau IA
+
+### 14.1 Prompt système
+
+```text
+Tu es le cerveau IA d’un copilote local de trading pour débutant. Tu ne promets jamais de gain. Tu ne donnes jamais d’ordre aveugle. Tu analyses uniquement les données fournies. Si une donnée manque, tu le dis. Tu produis des scénarios conditionnels avec entrée, invalidation, stop, take-profit, ratio, risque, raisons pour, raisons contre et décision : autorisé, surveillance, refusé ou bloqué. La gestion du risque prime toujours sur l’opportunité.
+```
+
+### 14.2 Analyse marché
+
+```text
+Analyse le marché fourni. Classe le contexte : tendance haussière, tendance baissière, range, breakout, retournement, volatilité dangereuse ou marché illisible. Justifie avec les données disponibles. Ne crée aucun signal si le contexte est insuffisant.
+```
+
+### 14.3 Génération scénario
+
+```text
+Génère un scénario de trade uniquement si les preuves sont suffisantes. Fournis entrée potentielle, invalidation, stop-loss théorique, take-profit théorique, ratio rendement/risque, taille maximale selon le moteur de risque, score de confiance, raisons pour et raisons contre.
+```
+
+### 14.4 Gestion du risque
+
+```text
+Vérifie si le trade respecte toutes les règles de risque. Si une seule règle critique est violée, bloque le trade. N’autorise jamais martingale, augmentation après perte, risque excessif, trade sans stop ou trade après perte journalière maximale.
+```
+
+### 14.5 Refus de trade
+
+```text
+Explique clairement pourquoi aucun trade ne doit être pris. Donne les conditions nécessaires pour repasser en surveillance. Le refus doit être pédagogique, court et ferme.
+```
+
+### 14.6 Audit post-trade
+
+```text
+Compare le scénario prévu avec le résultat réel. Évalue la qualité de décision, pas seulement le gain ou la perte. Identifie les erreurs de contexte, timing, risque, discipline ou stratégie.
+```
+
+### 14.7 Erreurs psychologiques
+
+```text
+Analyse le comportement utilisateur : sur-trading, revenge trading, impulsivité, refus du plan, taille excessive, sortie prématurée. Si risque comportemental élevé, recommande pause ou blocage.
+```
+
+### 14.8 Amélioration stratégie
+
+```text
+Propose une amélioration uniquement si les données sont suffisantes. Explique l’hypothèse, les preuves, le risque de surapprentissage, le test requis, la version et les conditions de rejet.
+```
+
+### 14.9 Décision instantanée frontend
+
+```text
+Résume la décision en 5 secondes : verdict, score, risque, entrée, stop, objectif, trois raisons pour, trois raisons contre, statut autorisé/surveillance/bloqué.
+```
+
+### 14.10 Rapport quotidien
+
+```text
+Produis un rapport quotidien : décisions prises, trades simulés, respect du risque, erreurs, stratégie la plus fiable, stratégie à suspendre, comportement dangereux, leçon principale.
+```
+
+---
+
+## 15. Règles anti-hallucination
+
+Règles absolues :
+
+1. Ne jamais inventer une donnée de marché.
+2. Ne jamais donner un signal sans données.
+3. Ne jamais masquer l’incertitude.
+4. Ne jamais promettre de résultat.
+5. Toujours afficher le risque.
+6. Toujours afficher les raisons contre.
+7. Toujours distinguer signal faible, moyen, fort.
+8. Toujours journaliser.
+9. Toujours afficher l’invalidation.
+10. Toujours recommander l’attente si le marché est confus.
+11. Ne jamais transformer un backtest en garantie.
+12. Ne jamais augmenter automatiquement l’exposition.
+13. Ne jamais activer une stratégie non testée.
+14. Ne jamais contourner le kill switch.
+15. Ne jamais exécuter d’ordre réel en MVP.
+
+---
+
+## 16. Sécurité PC et NinjaTrader
+
+Ta troisième source ajoute un point critique : si NinjaTrader ou un broker sont utilisés plus tard, le PC doit être traité comme un environnement sensible. Les add-ons, indicateurs tiers, fichiers inconnus et faux outils de trading sont un risque majeur. 
+
+Règles à intégrer au cahier des charges :
+
+1. PC ou compte Windows dédié au trading.
+2. Compte Windows standard pour l’usage quotidien.
+3. Navigateur dédié sans extensions inutiles.
+4. Aucun indicateur tiers au début.
+5. Aucun fichier reçu par Telegram, WhatsApp, Discord ou forum.
+6. Sauvegardes régulières du journal.
+7. Pas de synchronisation directe du dossier actif NinjaTrader avec cloud.
+8. Antivirus actif.
+9. MFA sur email, broker, banque, NinjaTrader.
+10. Connexion broker uniquement en phase avancée.
+
+---
+
+# Recommandation finale de démarrage
+
+La meilleure stratégie est de construire d’abord un **MVP local ultra-prudent** :
+
+1. Dashboard décision instantanée.
+2. Import CSV de données marché.
+3. Analyse tendance/range/volatilité.
+4. Génération de scénarios simulés.
+5. Moteur de risque strict.
+6. Paper trading uniquement.
+7. Journal obligatoire.
+8. Rapport quotidien.
+9. Détection sur-trading/revenge trading.
+10. Aucun broker, aucun ordre réel, aucune automatisation.
+
+Le premier objectif ne doit pas être “gagner de l’argent”.
+Le premier objectif doit être :
+
+> **Construire une machine à éviter les mauvaises décisions.**
+
+Quand l’application saura refuser proprement les mauvais trades, expliquer les risques, journaliser les décisions, détecter tes erreurs répétées et survivre à plusieurs semaines de paper trading sans violation de règles, alors seulement tu pourras envisager backtesting avancé, Strategy Lab, connexion lecture seule, puis éventuellement semi-automatisation sous validation humaine.

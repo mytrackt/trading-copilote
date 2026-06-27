@@ -1,0 +1,259 @@
+[QUALITE_VIDEO: FAIBLE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: eywpZT3z6GQ.mp4]
+---
+[ATTENTION: qualite video faible - verifier manuellement les [VISUEL]]
+---
+Veuillez noter que la vidéo fournie est en anglais et que l'orateur n'est pas Mustapha Belkhayate. Par conséquent, les instructions spécifiques concernant les indicateurs de Belkhayate et la langue française ne peuvent pas être appliquées directement. Je vais transcrire la vidéo en anglais et décrire les éléments visuels tels qu'ils apparaissent à l'écran, en adaptant les règles de description visuelle au contenu réel de la vidéo.
+
+---
+
+[VISUEL: Écran noir avec le texte blanc "TTRADES" qui apparaît, suivi d'une animation de logo avec un "T" stylisé.]
+[VISUEL: Écran gris avec le texte blanc "TTFM Scalping Model" à gauche et le logo "TTrades" à droite. Le fond devient blanc.]
+
+**AUDIO:** How's it going everyone? In this video, we are going to talk about scalping using the TTrades Fractal Model. We'll talk about how to use higher timeframe analysis, timeframe alignment, all the way from bias to entry. So let's get into the PDF.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur fond blanc. Une série de bougies vertes et noires montre une tendance haussière. Une zone jaune est mise en évidence, représentant un "fair value gap". Une ligne pointillée noire indique un "candle 2A_VERIFIER closure" et une ligne pointillée verte indique une "expansion candle".]
+
+**AUDIO:** So for scalping, we still want to align with a higher timeframe candle. Now generally, this is always going to be the daily timeframe, but for scalping, we're using much lower timeframes, so we're going to focus on the hourly chart. So we want to be able to anticipate where this next hourly candle is going to go. The easiest way to do that is to have a candle two closure on the hourly, or a candle three closure, and be able to anticipate an expansion candle that follows. So here you can see, we have a fair value gap, internal liquidity to external liquidity. A candle two closure. We have a bullish bias for this next candle.
+
+[VISUEL: Graphique en chandeliers. À gauche, un graphique 15m montrant une tendance baissière suivie d'une forte bougie haussière. À droite, une représentation simplifiée d'une bougie 1h (noire) et d'une bougie 15m (verte) avec des lignes pointillées indiquant les niveaux d'ouverture et de clôture. La bougie 15m est une "candle 2A_VERIFIER closure".]
+
+**AUDIO:** Now using that hourly bias, we're going to find a 15-minute swing point. Now, simply, we are looking for the swing point that forms the hourly low. And then looking for a candle two closure there, where we can anticipate expansion.
+
+[VISUEL: Le graphique 15m continue, montrant une expansion haussière. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1m (verte) avec des lignes pointillées. La bougie 1m est une "candle 2A_VERIFIER closure" par rapport à la bougie 15m.]
+
+**AUDIO:** Now inside that expansion candle on the 15-minute, or where we are expecting price to expand to, then we're going to look for a 15-minute and one-minute fractal model. So here we have a candle two closure, we have a change in the state of delivery.
+
+[VISUEL: Le graphique 15m continue son expansion. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1m (verte) qui a formé sa mèche basse et commence à monter.]
+
+**AUDIO:** Then we can be looking for a continuation to allow the wick of this candle three on the 15-minute to form its wick.
+
+[VISUEL: Le graphique 15m continue son expansion. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1m (verte) qui a formé sa mèche basse et commence à monter, puis une autre bougie 1m (verte) qui continue l'expansion.]
+
+**AUDIO:** And then we can be waiting for a continuation on the one-minute timeframe to form the wick of the higher timeframe candle, and from there look to get on side.
+
+[VISUEL: Le graphique 15m continue son expansion. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1h (verte) avec des lignes pointillées. La bougie 1h est en train de se former, avec sa mèche basse déjà créée par l'action des prix sur les timeframes inférieurs.]
+
+**AUDIO:** And so what are we actually doing here? We are trading the body of the hourly candle using a 15-minute and one-minute fractal model. So let's get into TradingView and go over a few examples of this.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur TradingView. Le marché est l'Or (GC). On voit une tendance baissière suivie d'une consolidation et d'une tentative de rebond. Une zone de consolidation est encadrée. Une zone jaune est mise en évidence comme "fair value gap".]
+
+**AUDIO:** So here we are in our first example. It is important to note we're in a daily bullish trend on Gold here. And what do we have? We have expansion into a consolidation. Now a consolidation is a continuation signature to me. So I'd be more interested in a sweep of the low to go higher versus a sweep of a high to go lower. And we also have this gap that's overlapping that. So, if we're taking a look at it, this is a good point of interest for a move higher. Now we're on the hourly chart because we want to have an hourly bias before we go down and look for a 15-minute swing and a one-minute entry.
+
+[VISUEL: Le prix continue de consolider, puis une bougie horaire noire descend pour balayer le bas de la consolidation et clôturer à l'intérieur. Une ligne pointillée indique le "candle 2A_VERIFIER closure".]
+
+**AUDIO:** So as we let this continue, what do we have? We have a candle two closure off of this low.
+
+[VISUEL: Le prix continue. La bougie horaire suivante est une grande bougie verte qui monte fortement, balayant le haut de la consolidation. La bougie horaire suivante est une bougie noire qui clôture à l'intérieur de la bougie verte précédente. Le "fair value gap" jaune est toujours visible.]
+
+**AUDIO:** So taking a look at this with context, we have an hourly sweep here, opposing the order flow. This is where we can look for a move higher in this next candle, and even the next candle. So let's take a look and see if we have a 15-minute swing point.
+
+[VISUEL: Le graphique passe en 15m. On voit l'action des prix plus détaillée. Le prix a balayé le bas, puis est monté fortement, puis a retracé. La bougie horaire verte est représentée par une bougie verte simplifiée à droite. Le "fair value gap" jaune est toujours visible.]
+
+**AUDIO:** So taking a look here, we do not have a 15-minute swing point that I am willing to trade. I could trade this technically in candle four, but I'm going to wait for a valid swing point within my model.
+
+[VISUEL: Le prix continue de monter sur le graphique 15m, puis une bougie noire descend pour former une mèche basse. La bougie horaire simplifiée à droite montre une mèche basse plus longue.]
+
+**AUDIO:** Now you see we go ahead and take the highs before we can get on side with that. And that is okay. It's less ideal, but what do I want to be looking for? Are we going to form a reversal at this high? Or are we going to get a retracement to continue higher, or a consolidation, in which case we can repeat the process we just went over.
+
+[VISUEL: Le prix continue sur le graphique 15m. Une bougie noire descend, puis une bougie verte monte. La bougie horaire simplifiée à droite montre une mèche basse plus longue et un corps vert plus grand.]
+
+**AUDIO:** So what am I going to do to do that? This candle tells me reversal or retracement, right? Very aggressive move back in. I want to give it another candle.
+
+[VISUEL: Le graphique 15m montre une bougie noire qui descend, puis une bougie verte qui monte, puis une bougie noire qui descend et clôture à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". La bougie horaire simplifiée à droite montre une mèche basse et un corps vert.]
+
+**AUDIO:** And here you can see, now we have a 15-minute swing point, and it is filling both of these fair value gaps right here. So, we have a small wick on the hourly timeframe, which supports expansion. And if we go back to the hourly timeframe,
+
+[VISUEL: Le graphique repasse en 1h. La bougie horaire montre une mèche basse et un corps vert. Le "fair value gap" jaune est toujours visible.]
+
+**AUDIO:** Yes, we did not close the greatest here, but we identify that this is not a reversal off the high. The lower timeframes, or the 15-minute swing point, is forming the wick of this hourly candle. So when we go back to the 15-minute timeframe,
+
+[VISUEL: Le graphique repasse en 15m. On voit la bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une ligne pointillée indique le "candle 2A_VERIFIER closure".]
+
+**AUDIO:** We can use this as a candle two closure. Did it close back inside the previous candle's low? Well, then we can go down to the one-minute.
+
+[VISUEL: Le graphique passe en 1m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie verte qui a clôturé au-dessus de la bougie précédente. Une zone jaune est mise en évidence comme "fair value gap". Une zone grise est mise en évidence comme "continuation entry".]
+
+**AUDIO:** And so from here, we are going to be looking to trade the 15-minute and one-minute fractal model in line with this hourly open low high close, or bullish expansion candle. So let's go ahead and remove all these drawings and clear it up. And we have some pretty clean highs right here. So let's see how we could get on side.
+
+[VISUEL: Le graphique 1m continue. Le prix ouvre, descend légèrement, puis monte fortement. Une zone verte est mise en évidence comme "long position" avec un stop sous le bas de la mèche et un take profit à 2R.]
+
+**AUDIO:** So you can see, we open up, we have the confirmation, and then we reach into a fair value gap here. So I'd be looking for what? A continuation entry. Now do we get that closure over? No. So let's see if we get a closure over on the next candle or so, if we can get that, or if we're going to make a new low.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix monte, puis une bougie noire descend, puis une bougie verte monte et clôture au-dessus de la bougie noire précédente. Le "long position" est ajusté pour un take profit plus haut.]
+
+**AUDIO:** And we do get that closure over. So this is something I'd be willing to take an entry on, put my stop on the low, and then be looking for 2R. Now I'm not too concerned about not taking profit here, but I am willing to see how price reacts in this area. If I do not want that risk to reward, I could look for a retest, right? And then look to get 2R to the high. It just depends on what you want to do. Do you want to be in the trade, or are you willing to let this trade leave you?
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix monte, puis consolide, puis monte fortement, atteignant le take profit à 2R. Une deuxième "long position" est montrée, avec une entrée sur un retest et un take profit à 2R.]
+
+**AUDIO:** Let's see. You can see we get a consolidation, we trade higher, and we do hit our 2R there. So, just to review, we're trading an hourly expansion candle, so you need the bias or the narrative for this hourly candle to expand. And then you're looking to align a 15-minute and one-minute fractal model with that. And that's how you're scalping with context. Then we're just going to use protected swings, which I've talked about in multiple other YouTube videos, to get on side with this move higher. Let's get into another example.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur TradingView. Le marché est le YM (Dow Jones Mini). On voit une forte tendance baissière. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** So here we are in our next example on YM on the hourly chart. If you notice, we have expansion down and a very shallow move against into a fair value gap here. And we have some equal lows resting below, right? This fair value gap, as well as this low right here. So this gives us context for this candle closure right here, this candle two closure, to be able to trade it lower in this candle three. So, if we're anticipating the hourly to expand lower, what can we then do? Go down to the 15-minute timeframe.
+
+[VISUEL: Le graphique passe en 15m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** So here you can see, we're on the 15-minute timeframe. We have a nice expansion. And this is getting bought back up, so we want to see that this fair value gap holds right here. It's very small. Let's see if we get a candle closure that aligns with that.
+
+[VISUEL: Le prix continue sur le graphique 15m. Une bougie noire descend et clôture à l'intérieur de la bougie verte précédente. Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** And we do, right? Take out this candle with no wick, we have a candle two closure. So now what do we have? We have a candle two closure, so we have a candle three on the 15-minute, also aligning with a candle three on the hourly. So we can go down to the one-minute timeframe.
+
+[VISUEL: Le graphique passe en 1m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". Une zone grise est mise en évidence comme "short position" avec un stop au-dessus du haut de la mèche et un take profit à 2R.]
+
+**AUDIO:** So down here on the one-minute timeframe, we'll remove all of our drawings to clear it up. And what do we have? You know, we have a bit of a model forming in both directions, but going into this new higher timeframe candle, you notice how we already have a protected swing going into the open. This means we can anticipate that this low should hold before the open of the new higher timeframe candle. And that makes sense because it's below the EQ. So, I could position at the open of the new higher timeframe candle and look for 2R that way. How else could we have do this? Well, we could do it by waiting for a continuation in that new higher timeframe candle. Let's see how both of these work out.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend, puis remonte légèrement, puis descend fortement, atteignant le take profit à 2R. Une deuxième "short position" est montrée, avec une entrée sur un retest et un take profit à 2R.]
+
+**AUDIO:** So here you can see, we open up, we're reaching into this fair value gap here, and filling this one up here as well. Do we form a continuation? Let's see. Right, and there you go and see, we do form a continuation. I was replaying it a bit quickly, but you could use either level here. So, either entering on this close through with your stop there, looking for 2R, which gives relatively the same entry, or you could look for the retest as well. Let's see how this works out.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend fortement, atteignant le take profit à 2R pour les deux positions. Le graphique montre une forte expansion baissière.]
+
+**AUDIO:** And you can see there, both TPs would have hit. So, just to review, we have an hourly candle three, in which case we're expecting expansion. Then we're looking for a swing point on the lower timeframe. Here we have a candle four continuation, right? And we have a protected swing right at the end of candle three. So either of these entries would work, and you can trade that higher. And just to see it on the hourly, you're trading the 15-minute and one-minute swing point inside the wick, or what's forming the wick of this higher timeframe expansion candle from internal to external on the hourly chart.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur TradingView. Le marché est le YM (Dow Jones Mini). On voit une forte tendance baissière. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** Now in our final example here, this is going to be an advanced version of this, where you can actually trade the reversal candles if you want to. It's just more complex and takes a deeper understanding of open high low close and wick size. So I will show this example, but for the majority of people, I would say don't really focus on this example. So you can see here, we've had expansion down and a consolidation, right? We've remained internal to this range for quite some time. By taking out the range high, we could be looking to the range low. Now we're coming up on 9:30, so we will go down to the 15-minute timeframe.
+
+[VISUEL: Le graphique passe en 15m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** And our whole goal is to watch how the open plays, and then see if that's supported by the hourly candle and the 15-minute candle. So, there's a few ways to approach it. We can one, let open play out, which here it is, and you can see we're having that 15-minute change in the state of delivery here. Or we can go down and look inside this, but mainly the hourly is supporting expansion to the downside. So, with this bearish candle three closure, I could be looking into this lower timeframe. And then what am I looking for? A continuation. Right here we have a fair value gap, so we can go ahead and mark that out.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend, puis remonte légèrement, puis descend fortement, atteignant le take profit à 2R. Une zone grise est mise en évidence comme "short position" avec un stop au-dessus du haut de la mèche et un take profit à 2R.]
+
+**AUDIO:** And a continuation right here. And then you can see we have another fair value gap and a new continuation right here. So we're opening up candle three with a protected swing right there. So we could be looking for an entry on the open. I could put my stop on that protected swing. And then looking for 2R, or the other side of the consolidation, which is quite a bit lower. Let's see what happens.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend fortement, atteignant le take profit à 2R. Le graphique montre une forte expansion baissière.]
+
+**AUDIO:** And there you can see we do hit 2R. Now the main thing I want to show here is if we go back to right before we hit our TP. This hourly candle supports expansion, and it's supported by a 9:30, right? It has a small opposing run, creates this protected swing and trades away. So when we get this 15-minute closure, right? This is the reversal candle on the hourly, which is more advanced, it's harder to trade. But everything is aligned. This supports expansion lower, this supports expansion lower, and I'm trading a continuation. Now if we go back to the 15-minute timeframe, you can see we can take our target right in there, or look for these consolidation lows like so. And that is an example of a more advanced entry because you are trading candle two here, which is a lot more difficult. But with that, I hope you enjoyed this video. If you did, please consider liking and subscribing. And if you want access to the free PDF shown here today, please visit my website, it's linked in the description below, and you can access all the materials there. I'll see you guys next time. Have a good one.
+
+[VISUEL: Écran rouge foncé avec le texte blanc "TTRADES" au centre. Le texte "THANKS FOR WATCHING" et "LIKE & SUBSCRIBE" apparaît en bas.]Veuillez noter que la vidéo fournie est en anglais et que l'orateur n'est pas Mustapha Belkhayate. Par conséquent, les instructions spécifiques concernant les indicateurs de Belkhayate et la langue française ne peuvent pas être appliquées directement. J'ai transcrit la vidéo en anglais et décrit les éléments visuels tels qu'ils apparaissent à l'écran, en adaptant les règles de description visuelle au contenu réel de la vidéo.
+
+---
+
+[VISUEL: Écran noir avec le texte blanc "TTRADES" qui apparaît, suivi d'une animation de logo avec un "T" stylisé.]
+[VISUEL: Écran gris avec le texte blanc "TTFM Scalping Model" à gauche et le logo "TTrades" à droite. Le fond devient blanc.]
+
+**AUDIO:** How's it going everyone? In this video, we are going to talk about scalping using the TTrades Fractal Model. We'll talk about how to use higher timeframe analysis, timeframe alignment, all the way from bias to entry. So let's get into the PDF.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur fond blanc. Une série de bougies vertes et noires montre une tendance haussière. Une zone jaune est mise en évidence, représentant un "fair value gap". Une ligne pointillée noire indique un "candle 2A_VERIFIER closure" et une ligne pointillée verte indique une "expansion candle".]
+
+**AUDIO:** So for scalping, we still want to align with a higher timeframe candle. Now generally, this is always going to be the daily timeframe, but for scalping, we're using much lower timeframes, so we're going to focus on the hourly chart. So we want to be able to anticipate where this next hourly candle is going to go. The easiest way to do that is to have a candle two closure on the hourly, or a candle three closure, and be able to anticipate an expansion candle that follows. So here you can see, we have a fair value gap, internal liquidity to external liquidity. A candle two closure. We have a bullish bias for this next candle.
+
+[VISUEL: Graphique en chandeliers. À gauche, un graphique 15m montrant une tendance baissière suivie d'une forte bougie haussière. À droite, une représentation simplifiée d'une bougie 1h (noire) et d'une bougie 15m (verte) avec des lignes pointillées indiquant les niveaux d'ouverture et de clôture. La bougie 15m est une "candle 2A_VERIFIER closure".]
+
+**AUDIO:** Now using that hourly bias, we're going to find a 15-minute swing point. Now, simply, we are looking for the swing point that forms the hourly low. And then looking for a candle two closure there, where we can anticipate expansion.
+
+[VISUEL: Le graphique 15m continue, montrant une expansion haussière. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1m (verte) avec des lignes pointillées. La bougie 1m est une "candle 2A_VERIFIER closure" par rapport à la bougie 15m.]
+
+**AUDIO:** Now inside that expansion candle on the 15-minute, or where we are expecting price to expand to, then we're going to look for a 15-minute and one-minute fractal model. So here we have a candle two closure, we have a change in the state of delivery.
+
+[VISUEL: Le graphique 15m continue son expansion. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1m (verte) qui a formé sa mèche basse et commence à monter.]
+
+**AUDIO:** Then we can be looking for a continuation to allow the wick of this candle three on the 15-minute to form its wick.
+
+[VISUEL: Le graphique 15m continue son expansion. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1m (verte) qui a formé sa mèche basse et commence à monter, puis une autre bougie 1m (verte) qui continue l'expansion.]
+
+**AUDIO:** And then we can be waiting for a continuation on the one-minute timeframe to form the wick of the higher timeframe candle, and from there look to get on side.
+
+[VISUEL: Le graphique 15m continue son expansion. La représentation simplifiée à droite montre maintenant une bougie 15m (noire) et une bougie 1h (verte) avec des lignes pointillées. La bougie 1h est en train de se former, avec sa mèche basse déjà créée par l'action des prix sur les timeframes inférieurs.]
+
+**AUDIO:** And so what are we actually doing here? We are trading the body of the hourly candle using a 15-minute and one-minute fractal model. So let's get into TradingView and go over a few examples of this.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur TradingView. Le marché est l'Or (GC). On voit une tendance baissière suivie d'une consolidation et d'une tentative de rebond. Une zone de consolidation est encadrée. Une zone jaune est mise en évidence comme "fair value gap".]
+
+**AUDIO:** So here we are in our first example. It is important to note we're in a daily bullish trend on Gold here. And what do we have? We have expansion into a consolidation. Now a consolidation is a continuation signature to me. So I'd be more interested in a sweep of the low to go higher versus a sweep of a high to go lower. And we also have this gap that's overlapping that. So, if we're taking a look at it, this is a good point of interest for a move higher. Now we're on the hourly chart because we want to have an hourly bias before we go down and look for a 15-minute swing and a one-minute entry.
+
+[VISUEL: Le prix continue de consolider, puis une bougie horaire noire descend pour balayer le bas de la consolidation et clôturer à l'intérieur. Une ligne pointillée indique le "candle 2A_VERIFIER closure".]
+
+**AUDIO:** So as we let this continue, what do we have? We have a candle two closure off of this low.
+
+[VISUEL: Le prix continue. La bougie horaire suivante est une grande bougie verte qui monte fortement, balayant le haut de la consolidation. La bougie horaire suivante est une bougie noire qui clôture à l'intérieur de la bougie verte précédente. Le "fair value gap" jaune est toujours visible.]
+
+**AUDIO:** So taking a look at this with context, we have an hourly sweep here, opposing the order flow. This is where we can look for a move higher in this next candle, and even the next candle. So let's take a look and see if we have a 15-minute swing point.
+
+[VISUEL: Le graphique passe en 15m. On voit l'action des prix plus détaillée. Le prix a balayé le bas, puis est monté fortement, puis a retracé. La bougie horaire verte est représentée par une bougie verte simplifiée à droite. Le "fair value gap" jaune est toujours visible.]
+
+**AUDIO:** So taking a look here, we do not have a 15-minute swing point that I am willing to trade. I could trade this technically in candle four, but I'm going to wait for a valid swing point within my model.
+
+[VISUEL: Le prix continue de monter sur le graphique 15m, puis une bougie noire descend pour former une mèche basse. La bougie horaire simplifiée à droite montre une mèche basse plus longue.]
+
+**AUDIO:** Now you see we go ahead and take the highs before we can get on side with that. And that is okay. It's less ideal, but what do I want to be looking for? Are we going to form a reversal at this high? Or are we going to get a retracement to continue higher, or a consolidation, in which case we can repeat the process we just went over.
+
+[VISUEL: Le prix continue sur le graphique 15m. Une bougie noire descend, puis une bougie verte monte. La bougie horaire simplifiée à droite montre une mèche basse plus longue et un corps vert plus grand.]
+
+**AUDIO:** So what am I going to do to do that? This candle tells me reversal or retracement, right? Very aggressive move back in. I want to give it another candle.
+
+[VISUEL: Le graphique 15m montre une bougie noire qui descend, puis une bougie verte qui monte, puis une bougie noire qui descend et clôture à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". La bougie horaire simplifiée à droite montre une mèche basse et un corps vert.]
+
+**AUDIO:** And here you can see, now we have a 15-minute swing point, and it is filling both of these fair value gaps right here. So, we have a small wick on the hourly timeframe, which supports expansion. And if we go back to the hourly timeframe,
+
+[VISUEL: Le graphique repasse en 1h. La bougie horaire montre une mèche basse et un corps vert. Le "fair value gap" jaune est toujours visible.]
+
+**AUDIO:** Yes, we did not close the greatest here, but we identify that this is not a reversal off the high. The lower timeframes, or the 15-minute swing point, is forming the wick of this hourly candle. So when we go back to the 15-minute timeframe,
+
+[VISUEL: Le graphique repasse en 15m. On voit la bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** We can use this as a candle two closure. Did it close back inside the previous candle's low? Well, then we can go down to the one-minute.
+
+[VISUEL: Le graphique passe en 1m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie verte qui a clôturé au-dessus de la bougie précédente. Une zone jaune est mise en évidence comme "fair value gap". Une zone grise est mise en évidence comme "long position" avec un stop sous le bas de la mèche et un take profit à 2R.]
+
+**AUDIO:** And so from here, we are going to be looking to trade the 15-minute and one-minute fractal model in line with this hourly open low high close, or bullish expansion candle. So let's go ahead and remove all these drawings and clear it up. And we have some pretty clean highs right here. So let's see how we could get on side.
+
+[VISUEL: Le graphique 1m continue. Le prix ouvre, descend légèrement, puis monte fortement. Une zone verte est mise en évidence comme "long position" avec un stop sous le bas de la mèche et un take profit à 2R.]
+
+**AUDIO:** So you can see, we open up, we have the confirmation, and then we reach into a fair value gap here. So I'd be looking for what? A continuation entry. Now do we get that closure over? No. So let's see if we get a closure over on the next candle or so, if we can get that, or if we're going to make a new low.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix monte, puis une bougie noire descend, puis une bougie verte monte et clôture au-dessus de la bougie noire précédente. Le "long position" est ajusté pour un take profit plus haut.]
+
+**AUDIO:** And we do get that closure over. So this is something I'd be willing to take an entry on, put my stop on the low, and then be looking for 2R. Now I'm not too concerned about not taking profit here, but I am willing to see how price reacts in this area. If I do not want that risk to reward, I could look for a retest, right? And then look to get 2R to the high. It just depends on what you want to do. Do you want to be in the trade, or are you willing to let this trade leave you?
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix monte, puis consolide, puis monte fortement, atteignant le take profit à 2R. Une deuxième "long position" est montrée, avec une entrée sur un retest et un take profit à 2R.]
+
+**AUDIO:** Let's see. You can see we get a consolidation, we trade higher, and we do hit our 2R there. So, just to review, we're trading an hourly expansion candle, so you need the bias or the narrative for this hourly candle to expand. And then you're looking to align a 15-minute and one-minute fractal model with that. And that's how you're scalping with context. Then we're just going to use protected swings, which I've talked about in multiple other YouTube videos, to get on side with this move higher. Let's get into another example.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur TradingView. Le marché est le YM (Dow Jones Mini). On voit une forte tendance baissière. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** So here we are in our next example on YM on the hourly chart. If you notice, we have expansion down and a very shallow move against into a fair value gap here. And we have some equal lows resting below, right? This fair value gap, as well as this low right here. So this gives us context for this candle closure right here, this candle two closure, to be able to trade it lower in this candle three. So, if we're anticipating the hourly to expand lower, what can we then do? Go down to the 15-minute timeframe.
+
+[VISUEL: Le graphique passe en 15m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** So here you can see, we're on the 15-minute timeframe. We have a nice expansion. And this is getting bought back up, so we want to see that this fair value gap holds right here. It's very small. Let's see if we get a candle closure that aligns with that.
+
+[VISUEL: Le prix continue sur le graphique 15m. Une bougie noire descend et clôture à l'intérieur de la bougie verte précédente. Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** And we do, right? Take out this candle with no wick, we have a candle two closure. So now what do we have? We have a candle two closure, so we have a candle three on the 15-minute, also aligning with a candle three on the hourly. So we can go down to the one-minute timeframe.
+
+[VISUEL: Le graphique passe en 1m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". Une zone grise est mise en évidence comme "short position" avec un stop au-dessus du haut de la mèche et un take profit à 2R.]
+
+**AUDIO:** So down here on the one-minute timeframe, we'll remove all of our drawings to clear it up. And what do we have? You know, we have a bit of a model forming in both directions, but going into this new higher timeframe candle, you notice how we already have a protected swing going into the open. This means we can anticipate that this low should hold before the open of the new higher timeframe candle. And that makes sense because it's below the EQ. So, I could position at the open of the new higher timeframe candle and look for 2R that way. How else could we have do this? Well, we could do it by waiting for a continuation in that new higher timeframe candle. Let's see how both of these work out.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend, puis remonte légèrement, puis descend fortement, atteignant le take profit à 2R. Une deuxième "short position" est montrée, avec une entrée sur un retest et un take profit à 2R.]
+
+**AUDIO:** So here you can see, we open up, we're reaching into this fair value gap here, and filling this one up here as well. Do we form a continuation? Let's see. Right, and there you go and see, we do form a continuation. I was replaying it a bit quickly, but you could use either level here. So, either entering on this close through with your stop there, looking for 2R, which gives relatively the same entry, or you could look for the retest as well. Let's see how this works out.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend fortement, atteignant le take profit à 2R pour les deux positions. Le graphique montre une forte expansion baissière.]
+
+**AUDIO:** And you can see there, both TPs would have hit. So, just to review, we have an hourly candle three, in which case we're expecting expansion. Then we're looking for a swing point on the lower timeframe. Here we have a candle four continuation, right? And we have a protected swing right at the end of candle three. So either of these entries would work, and you can trade that higher. And just to see it on the hourly, you're trading the 15-minute and one-minute swing point inside the wick, or what's forming the wick of this higher timeframe expansion candle from internal to external on the hourly chart.
+
+[VISUEL: Graphique en chandeliers horaires (1h) sur TradingView. Le marché est le YM (Dow Jones Mini). On voit une forte tendance baissière. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** Now in our final example here, this is going to be an advanced version of this, where you can actually trade the reversal candles if you want to. It's just more complex and takes a deeper understanding of open high low close and wick size. So I will show this example, but for the majority of people, I would say don't really focus on this example. So you can see here, we've had expansion down and a consolidation, right? We've remained internal to this range for quite some time. By taking out the range high, we could be looking to the range low. Now we're coming up on 9:30, so we will go down to the 15-minute timeframe.
+
+[VISUEL: Le graphique passe en 15m. On voit l'action des prix plus détaillée. Le prix a retracé, puis a formé une bougie noire qui a clôturé à l'intérieur de la bougie verte précédente. Une zone jaune est mise en évidence comme "fair value gap". Une ligne pointillée indique un "candle 2A_VERIFIER closure".]
+
+**AUDIO:** And our whole goal is to watch how the open plays, and then see if that's supported by the hourly candle and the 15-minute candle. So, there's a few ways to approach it. We can one, let open play out, which here it is, and you can see we're having that 15-minute change in the state of delivery here. Or we can go down and look inside this, but mainly the hourly is supporting expansion to the downside. So, with this bearish candle three closure, I could be looking into this lower timeframe. And then what am I looking for? A continuation. Right here we have a fair value gap, so we can go ahead and mark that out.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend, puis remonte légèrement, puis descend fortement, atteignant le take profit à 2R. Une zone grise est mise en évidence comme "short position" avec un stop au-dessus du haut de la mèche et un take profit à 2R.]
+
+**AUDIO:** And a continuation right here. And then you can see we have another fair value gap and a new continuation right here. So we're opening up candle three with a protected swing right there. So we could be looking for an entry on the open. I could put my stop on that protected swing. And then looking for 2R, or the other side of the consolidation, which is quite a bit lower. Let's see what happens.
+
+[VISUEL: Le prix continue sur le graphique 1m. Le prix descend fortement, atteignant le take profit à 2R. Le graphique montre une forte expansion baissière.]
+
+**AUDIO:** And there you can see we do hit 2R. Now the main thing I want to show here is if we go back to right before we hit our TP. This hourly candle supports expansion, and it's supported by a 9:30, right? It has a small opposing run, creates this protected swing and trades away. So when we get this 15-minute closure, right? This is the reversal candle on the hourly, which is more advanced, it's harder to trade. But everything is aligned. This supports expansion lower, this supports expansion lower, and I'm trading a continuation. Now if we go back to the 15-minute timeframe, you can see we can take our target right in there, or look for these consolidation lows like so. And that is an example of a more advanced entry because you are trading candle two here, which is a lot more difficult. But with that, I hope you enjoyed this video. If you did, please consider liking and subscribing. And if you want access to the free PDF shown here today, please visit my website, it's linked in the description below, and you can access all the materials there. I'll see you guys next time. Have a good one.
+
+[VISUEL: Écran rouge foncé avec le texte blanc "TTRADES" au centre. Le texte "THANKS FOR WATCHING" et "LIKE & SUBSCRIBE" apparaît en bas.]

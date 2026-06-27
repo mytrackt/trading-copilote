@@ -1,0 +1,1898 @@
+This is the cleanest 5-minute scalping setup I've ever used
+because it's built on one thing that the market always does
+and that is sweep liquidity before it moves.
+If you're only going to trade one scalping setup for the next 30 days,
+make it this.
+This is your sweep strategy.
+Simple rules, repeatable entries,
+and it stops you from chasing random candles.
+My name is Brad Gold. I've been trading for 7 years.
+Last year alone, I made over $2.2 million in trading profits
+and every single trade is documented live on my second channel, Brad Trades.
+I've also helped hundreds of students became six-figure funded traders
+inside my mentorship program, 1% Club.
+And I'm also the founder of Edgeflow,
+a discipline-first trading platform that helps traders execute cleaner
+with guardrails, journaling, and performance tracking.
+So quite simply put, I don't want your money.
+I just want you to become a better trader.
+Let's dive in.
+The strategy that we're going to be using today is the Asia Sweep strategy
+and the concept is super duper simple.
+Basically, during Asian session, price tends to form a range,
+which means price tends to go sideways, right,
+and stuck in this consolidation just like this.
+And when this happens, this is where we can draw a box.
+And then when London session opens,
+price tends to take out either the Asia low or the Asia high,
+and then it start reverses, right?
+So for example, in this particular case,
+price will come out there, take out the Asia high,
+and then just start reversing just like this.
+And this is the move that we want to be trading.
+This is the move that we want to catch.
+Basically, we want to catch the liquidity sweep and the snapback itself.
+That's the whole strategy.
+Now, the question becomes,
+how do you mark up your Asia high and your Asia low?
+Most people mess this up, but let me make it stupid simple.
+Because I believe that if you cannot explain your trade plan simply,
+you cannot execute it consistently.
+And if you cannot execute it consistently,
+you will not get consistent results.
+Remember, the goal is not to sound smart.
+The goal is to be consistent.
+So the first step is that you pick one Asian session window,
+and you just stick to it, and you never ever change it.
+If you are based in the US,
+which I assume most of you guys watching this are based in the United States,
+here are two clean options of the Asian session window in Eastern Standard Time.
+So based on where you're in the world, right?
+Make sure you do your conversion, right?
+But basically, in Eastern Standard Time,
+the Asia range will usually be around 7pm till around 3am Eastern Standard Time.
+So this forms my Asia range.
+Now, if you want a much more tighter box,
+and you want much more cleaner liquidity sweeps,
+what you can do is to narrow it down to 8am Eastern Standard Time
+to 1am Eastern Standard Time.
+Okay, like this would be like a much more tighter range,
+which also means that you can expect price to sweep that high easily
+that is from doing the Asia range right here.
+And it's honestly like the same thing,
+but like if you want just like a much more tighter box,
+this is what you can potentially do.
+Okay, but for simplicity sake,
+I'm just going to stick to the first option,
+which is indicates that Asian session is from 7pm to 3am Eastern Standard Time.
+Now that I've marked up this time window, right,
+which is the Asian session,
+by the way, you can indicate the Asian session
+by using these red lines just like this,
+by going to trading view and clicking like this vertical line right here,
+and you can place it at whatever time that you want.
+And in this case, like I said,
+I'll place it at 7pm and 3am.
+Once that's done,
+I want to identify my Asia high and Asia low.
+So your Asia high is basically the highest wick
+that is printed during this window, right?
+So if you look at this entire window,
+there's a lot of candlesticks in here, right?
+What you want to do is to identify the highest wick,
+okay, the highest wick.
+So in this particular case, this is the highest wick itself.
+Now that we have identified our Asian range,
+the next thing you want to do is to identify
+your Asia high and your Asia low.
+The Asia high is the highest wick
+that is printed during this particular window itself.
+So if you look at this entire range right here,
+there's a lot of candlesticks over here, right?
+Basically, what we want to find is the highest candlestick,
+the candlestick that is situating at the top.
+So if you look at all of this,
+okay, which one is the higher?
+This one is quite high,
+but this one is actually even higher
+because the wick actually came all the way up here
+before coming down here, right?
+So this is the highest wick,
+which means that this is actually our Asia high, right?
+So you can indicate it with like a line just like this
+to signal to you that,
+okay, if price comes up there,
+it could potentially sweep the Asia high
+and then we can potentially see a reversal.
+And this is the move that we want to be trading.
+And then what about the Asia low, right?
+The Asia low is the exact same thing.
+You just want to look for the lowest point
+during this window.
+And ideally, it's the lowest wick
+that is printed during that window.
+Once again, not the lowest body,
+but the lowest wick.
+If you look at all of these candlesticks right here,
+where's the lowest candlestick, right?
+This is the lowest candlestick.
+And do you mark it up right here
+at the candlestick body?
+No, you mark it up at the lowest wick, right?
+So this is the lowest wick.
+So this is where?
+This is our Asia low.
+This strategy is literally built around
+stop liquidity sitting above these highs
+and below these lows, right?
+We are pretty much assuming that
+people who enter for longs right here,
+they're going to be placing their stop losses
+below these lows.
+And people who enter for a sell right here,
+they're placing their stop losses
+above these highs, right?
+So that gives us the available liquidity
+that smart money can later use
+during the London session
+to cause price to reverse
+in the desired direction.
+So there are three conditions
+in which I will not use
+this particular strategy.
+Number one is when the range is way too wide, right?
+So if the range is like super duper wide,
+no go, right?
+Because this means their price has already moved a lot
+and the sweep can become very messy.
+Yo, quick pause from the video.
+If you've been watching me for a while,
+but you are still not consistently profitable
+or making the money that you want from trading,
+listen up.
+From March 24th to 26th,
+I'm running a three-day live trading bootcamp
+where I'm teaching the exact habits
+and mindset shift
+that took me from losing tens of thousands of dollars
+to now making millions a year.
+It's the exact same mechanical trading system
+that helped over hundreds of my students
+go from inconsistent and unprofitable
+to now getting funded
+and consistently making anywhere
+from 10K to 50K a month.
+Because here's the truth,
+you probably already have good enough strategies
+to be profitable.
+But the real reason that most traders
+still lose money
+is because they don't understand
+how the market works
+and they never fix the habits and psychology
+that's keeping them broke.
+And that's exactly what I'm solving
+with this three-day bootcamp.
+Anyways, tickets are now live
+and on early bird pricing.
+So grab yours before the price goes up.
+It's the top link in the description.
+Now let's get back to the video.
+The second condition is that
+if the range is too tiny,
+for example,
+if prices do this, right,
+just not really going anywhere,
+there's a lot of small candlesticks.
+You can't identify the high and low easily
+because price is just like
+tiny little boy right here.
+This is where you will see a lot of fake outs
+and there is just no real liquidity, right?
+So it's very difficult to be trading
+the Asia sweep strategy
+when the range is extremely small.
+And the third condition is
+where there is no range, okay?
+So if it's just trending very cleanly,
+like price is just going up just like this,
+this is not the time to use
+the Asia sweep strategy, right?
+We only want to be using it
+when price is consolidating,
+going sideways.
+So if any one of those three conditions
+appear when you have mucked up
+the Asian session window just like this,
+then there's a no-go.
+And also, here's a pro tip, okay?
+If you notice,
+there's like one weird spike week.
+Here's what you want to be doing.
+You want to be marking the high of the week.
+If it's the Asia high,
+if it's the Asia low,
+you want to muck up the low
+of that super long week.
+And you also want to be mucking up
+the range level
+where price respected multiple times, right?
+So if you look at this range right here,
+price went up there,
+pull back, goes up,
+pulls back, goes up,
+pulls back.
+Somewhere around here,
+this is also a level
+where price tends to respect.
+So we can expect price to set that level
+and then start reversing down as well, okay?
+It doesn't necessarily have to come
+all the way up to this extreme week
+that is situated
+at the swing high right here, okay?
+Like price can come out there,
+sweep this.
+This is technically counted
+as the Asia high
+because this is a range,
+this is the level
+where the range respected
+multiple times
+during the Asia range
+and then just start coming down as well.
+So in this particular case,
+this would be the Asia sweep high.
+This would be the extreme Asia high.
+If the extreme week is down here, right?
+You can do the exact same thing down here, right?
+So this might be the extreme Asia low
+and then this could be like the Asia low.
+So the next thing is that
+after you've identified
+your Asia high and Asia low,
+now it's time to trade it, okay?
+But it's important for you
+to know when to trade
+because like I said,
+this is called the Asia sweep strategy
+for a reason,
+which means that
+you're not going to be trading all day,
+which also means that
+you're not going to be trading
+during the Asian session.
+You want to be trading
+right after the Asian session.
+You want to be hunting
+the liquidity sweep, okay?
+Because like this is the timing
+where liquidity tends to get raided.
+So the best time to use this strategy
+is doing the London open.
+3 a.m. to 6 a.m. Eastern Standard Time,
+these three hours,
+this is the best window
+to be trading this strategy.
+This is the window where
+you will see the cleanest liquidity sweeps,
+the cleanest reverses.
+So let me give you a quick recap of everything
+and this is the entire checklist
+that you can potentially use, right?
+Basically, there are just five steps to follow.
+Number one, mark up the Asia box, right?
+So this is where you identify the Asia range,
+which is from 7 p.m. to 3 a.m.
+Eastern Standard Time.
+And then once that's done,
+you will be able to identify
+your Asia high and your Asia low, okay?
+So if you want,
+you can even mark up like a box, right?
+Just like this,
+mark up the Asia high and Asia low, right?
+This is pretty much the entire Asia range.
+Number two,
+you want to wait for the liquidity sweep.
+Okay, so at this point of time,
+at 3 a.m. Eastern Time,
+when our London session actually opens,
+ideally, I want to see price take out
+either the Asia high that I've marked up right here
+or the Asia low.
+Once again, not just touch it, right?
+But actually take it out,
+actually sweep the liquidity below it
+and then move in my desired direction.
+Okay, so in this particular case,
+let's see what happens next.
+All right, 3 p.m., 3 a.m.
+The London session has just opened, right?
+And right now,
+price is slowly coming down to the Asia low, right?
+So you can see the minute it approaches the Asia low,
+this is where I can like jump down
+to my lower timeframe to look for my entries, right?
+So let's just go back a little bit right here.
+Okay, so you can see,
+as price starts coming down here,
+this is 15 minutes into the London session.
+And you can see,
+price is not coming up to the Asia high, right?
+So I'm not going to be paying attention
+to what happens right here.
+Price is approaching the Asia low.
+So I'm going to be paying attention
+to what price does at the Asia low.
+So this is where I go down to the 5-minute timeframe.
+And like I said,
+this is the Asia low itself.
+So I want to see that get taken out
+during the next 5 minutes or so.
+If you are even more aggressive,
+you can even go down
+to the 1-minute timeframe itself, right?
+But basically,
+we just want to see this get taken out.
+So let's see what happens next.
+Okay, price eventually comes down,
+consolidate here a little bit,
+consolidate here,
+do nothing.
+And then eventually,
+it comes down and take out this Asia low.
+You can see,
+the minute price comes down
+and break past this 1.34830 level,
+this is where we got our Asia liquidity sweep,
+right?
+The Asia low liquidity sweep right here.
+Which brings us to step three,
+which is we want to wait
+for some form of strong re-entry
+back inside this range itself.
+Okay, so we want to see price
+comes down,
+create a sharp V-shaped reaction,
+which indicate to us
+that this is indeed
+a proper liquidity sweep.
+And then we want to see
+price start going back
+into the range itself,
+just like this.
+And it needs to push back
+into the range with force.
+Okay, not like drifting around here,
+not chopping around here.
+No, I need to see that
+sharp V-shaped reaction,
+which indicate to me
+that smart money has swept liquidity
+and now they are using
+all the available demand
+to push price to the upside.
+And then step four
+is the entry trigger, right?
+So ideally,
+what I'm looking for
+is for the liquidation candle
+to have some form of long week, right?
+It could be a long lower week
+if it's sweeping the liquidity
+below the Asia low.
+And then it will be
+a long upper week
+if it's sweeping the liquidity
+above the Asia high.
+Or sometimes it could even
+have the candlestick body
+closing below the low
+just like this as well.
+That works as well, right?
+But basically,
+I want to see price
+reject this level clearly
+after you have swept this low here.
+And then once that happens,
+I want to see a clear displacement
+in the opposite direction.
+So when I see this sort of pattern,
+right, liquidity sweep right here,
+indicated by the liquidation candle
+and then having like
+a reversal candlestick
+just like this right here,
+indicating there's a lot of displacement,
+a lot of momentum,
+a lot of buying pressure,
+pushing price up.
+This is where I would potentially
+look for longs right here.
+And the fifth step
+is to place your stop loss
+and your take profit.
+You want to be placing your stop loss
+below the liquidation candle, right?
+So this is the liquidation candle
+and you want to be placing it
+a few pips below the lower week
+of the liquidation candle itself.
+Once again,
+you want to give it
+a little bit of breathing room
+because what can happen
+is that price can come down here,
+retest this level and go up.
+And if you don't give it
+a little bit of breathing room,
+your broker could like
+cause you to get out
+of this position
+because of spreads.
+And then for a take profit,
+you want to just place it at 2R.
+Okay, so for this strategy,
+I'm just going to keep it simple.
+Just place it at
+two times your stop loss, right?
+So two times is somewhere
+around here.
+Okay, you can see
+this is two times my take profit.
+So I'm risking $10,
+I'm getting back $20 in return.
+If I'm risking $100,
+I'm getting back $200 in return.
+And that's it, right?
+So those are the five steps.
+Let's look at how
+the trade plays out.
+Eventually price goes up there,
+smash my TP.
+As simple as that, right?
+You can see it's literally
+not a rocket science.
+I believe that
+I've simplified it in a manner
+where even like a five-year-old
+can understand, right?
+If you follow these five steps,
+you will be able to just
+catch this very nice
+aggressive entries
+right at the start
+of the London session itself.
+Once again,
+it's important for you
+to understand
+what time that you are trading,
+right?
+Because liquidity
+is the fuel.
+Timing is the ignition, right?
+So in this particular case,
+the only reason
+why this strategy
+works so well
+is because price came down,
+swept liquidity, okay?
+That's the fuel.
+And then at London Open,
+this is where
+the institutional traders
+who are trading
+the London session
+is also very active, right?
+So this is where
+they join in on the move
+and they cause price
+to move up significantly
+just like this, right?
+So you can see
+liquidity plus timing,
+that's what makes
+this strategy works.
+All right, so now
+let me show you
+another example
+of this strategy itself.
+So first step
+is to identify
+the Asia range, right?
+So what I would
+potentially do is
+that I'll come here,
+take out my little
+vertical line too,
+just like this,
+and I'll find the 7pm
+which is around here
+when the Asian session opens
+until 3am
+when the Asian session
+closes,
+which is around here.
+After I identify
+the Asia range
+just like this,
+I want to identify
+my Asia high
+and Asia low, okay?
+So clear as day,
+I look for my Asia low
+which is the lowest point,
+the lowest week
+during this range
+and you can see
+it's very obvious, right?
+If you look at this,
+this is going to be
+the lowest candlestick.
+Once again,
+do you mark up
+at the candlestick body?
+No, you don't.
+You mark up
+at the lowest week, okay?
+Because this indicates
+the lowest point price
+went to during
+this Asian session itself.
+And then you also
+want to mark up
+the highest point, right?
+That is your Asia high
+which is somewhere
+around here.
+So Asia high,
+Asia low,
+that's it.
+Ta-ra!
+Now we just do nothing
+until any one of these
+gets taken out.
+Either the high
+or the low.
+Okay, so this is where
+London session
+has already opened
+and we are already
+like what?
+We are already like
+one hour into
+the London session
+and they can see
+price have not
+served Asia high
+and low yet.
+So we continue
+waiting very patiently,
+right?
+Because this strategy
+only works
+after price
+served Asia high
+and low.
+If it doesn't,
+then it doesn't,
+right?
+Then we are hands off.
+Then we are just waiting
+for the opportunity
+itself instead
+of forcing trades.
+So at this point
+of time,
+it's very clear
+that price is coming
+up here to sweep
+the Asia high
+since it's quite far
+away from the Asia low.
+So this is what
+I'm paying attention to,
+right?
+I'm going to be paying
+attention for the next
+few minutes
+to see what price does.
+Boom!
+Asia high
+has officially
+been swept.
+The minute price
+has swept Asia high,
+this is where
+you can go and look
+for your entry itself.
+You can see
+this was super
+duper aggressive.
+Right after price
+took out the Asia high,
+price started reversing
+straight away.
+Like literally,
+within 60 seconds,
+price did this huge
+move to the downside.
+So at this point
+of time,
+if you were
+super duper aggressive,
+what you could
+potentially do is
+you could have
+gotten in like
+somewhere right
+around here.
+Okay,
+so you don't even
+wait for the
+displacement,
+you don't wait
+for the B-shaped
+reaction,
+you got in right
+after price of
+liquidity above
+this high and
+you just get in
+somewhere around
+here,
+place your stop
+loss above the
+weak and just
+place your take
+profit at like
+2R or something.
+Yeah,
+you have smashed
+your TP within
+like 1 minute.
+Okay,
+so ideally,
+this type of scenario
+is very,
+very fast
+and more often
+than not,
+this is
+really for people
+who are super duper
+aggressive,
+right?
+Like you are just
+willing to enter
+right after price
+of Asia high and
+Asia low.
+This is the type
+of move that is
+for you.
+But,
+like I said,
+we want to look
+for entry confirmation
+confirmation and
+in this particular
+case,
+if I look for
+entry confirmation,
+I want to see
+a liquidity sweep
+right here and
+I also want to
+see a strong
+displacement in
+the opposite
+direction,
+right?
+Which indicate to
+me there's a lot
+of bearish momentum
+and that happens
+and the candlestick
+eventually close
+right here.
+But the thing
+is if I enter
+right here and
+I place my stock
+loss above this
+high here,
+you can see the
+take profit is
+not very ideal,
+right?
+Because the 2R
+take profit has to
+be all the way
+down here and
+the thing is it
+doesn't really make
+sense,
+right?
+Because right now
+price can just
+make a tiny pullback
+just like this and
+just continue
+blasting right through
+it,
+right?
+So this is not a
+trade that I
+personally would
+take if I am
+once again just
+sticking to my
+trade plan,
+waiting for the
+entry trigger to
+appear itself.
+We did got our
+liquidity sweep and
+we did got our
+displacement,
+we did got our
+entry trigger,
+but in this
+particular case,
+the risk to reward
+is just not
+asymmetric,
+right?
+I just don't like
+to play in these
+games where I know
+I can potentially
+lose,
+right?
+So let's see
+what happens next,
+okay?
+You can see
+price continue going
+up because right
+now there's a lot
+of bullish momentum,
+right?
+And just blast right
+through your stop
+loss.
+So if you did
+enter for this trade,
+it would be not
+the best trade,
+right?
+Because like it's
+kind of too late
+since price has
+already made this
+move,
+right?
+Since smart money
+has already used
+the liquidity above
+these highs to
+fewer these moves
+to the downside
+right here.
+So if we get in
+right here,
+a little bit too
+late,
+okay?
+But let's
+continue to see
+what price does
+because now price
+has potentially
+came up here
+and guess what?
+This is where
+right now,
+price could potentially
+come up here
+and sweep this
+high right here,
+okay?
+This is where it
+gets a little bit
+new ones,
+right?
+I wanted to show
+you more examples.
+I don't just want
+to show you like
+the basic example
+and just cherry pick
+scenarios where
+price just sweep
+Asia high and low
+and it just go
+in one direction.
+No,
+I want to show you
+different examples,
+different scenarios
+so you know exactly
+how to handle them
+as you approach
+the market,
+right?
+Because the market
+is not going to be
+as easy as,
+okay,
+price sweep Asia high,
+boom,
+start going down.
+No,
+there's going to be
+different scenarios
+so I want to make
+sure that you are
+well prepared for those.
+Now,
+I want you to pay
+attention to what
+price does right here.
+Over here,
+since price has
+served this liquidity,
+price has used
+this available liquidity
+to fuel this move
+to the downside.
+So this liquidity
+has already been used.
+The next question
+becomes where is
+the available liquidity
+next, right?
+That price can
+potentially take
+before it starts
+making this
+reversal again.
+Well,
+since this one
+has already been used,
+it cannot be used
+again,
+which means that
+the next available liquidity
+is going to be
+above this swing high
+right here.
+What you can potentially
+do is to wait
+for this high
+to get taken
+and then trade
+the reversal
+of that high itself.
+Okay,
+so in this particular case,
+what do we have?
+We got a V-shaped reaction,
+we got a displacement,
+right?
+We got bearish momentum
+coming to the downside.
+This is where you can
+potentially look for shorts.
+You can place your stop loss
+above this high right here
+and place your take profit
+at 2R
+just like this
+and you can see
+price played out perfectly.
+Now,
+I want to show you
+one final example
+which is once again
+out of the box.
+So in this particular case,
+we have done our first step,
+Asia range
+and we have identified
+our Asia high
+and also Asia low.
+Okay,
+cool,
+that's done.
+Now,
+I want to see either one
+of these highs
+or lows get swept,
+right?
+So let's see what happens next.
+Okay,
+price comes down.
+Okay,
+it seems like it's
+obviously like coming down
+and sweeping this low
+right here
+and a minute
+took out this low,
+boom,
+go down to your lower
+time frame itself
+and observe what happens next.
+All right,
+so prices came down
+and took out our Asia low
+but it did not
+start reversing straight away.
+You can see,
+it wasn't like
+the first example
+where price just came down,
+take out the low
+and just reverse.
+No,
+it wasn't like that.
+In fact,
+it continued going down
+even further.
+Okay,
+so this is one of those examples
+where you don't just want
+to blindly just enter
+for a buy
+just because price has
+like take out this low.
+Okay,
+this is where
+a lot of beginners
+they make the mistake
+where,
+oh,
+price is taking out
+the Asia low,
+cool,
+I'm just going to enter
+for a buy straight away
+and the next thing you know,
+they place a stop loss
+below this low right here
+and then boom,
+price continued going down
+and they get stopped out
+all because they were
+trying to catch a falling knife.
+Right,
+you must understand that
+when price goes down,
+it can just continue
+going down
+for an extended period of time
+before it starts reversing
+because there is just
+so much selling
+momentum in the market itself.
+There's just so much
+selling pressure
+in the market,
+right?
+So,
+if you try to enter
+for a buy right here,
+once again,
+you're trying to catch
+a falling knife
+and that's going to be
+very,
+very painful,
+right?
+You're going to get
+cuts on your hand itself.
+So,
+we don't want to do that.
+So,
+when price take out
+the Asia low,
+what we want to see
+is price will start reversing.
+If it doesn't,
+we don't enter.
+Okay,
+like I said,
+you want to look
+for entry triggers
+which is the V-shaped reaction,
+the liquidity sweep
+and the displacement
+in the opposite direction
+which is some form
+of confirmation
+candlestick
+that tells us
+that there is actually
+bullish momentum
+in the market.
+The price is actually reversing.
+If you don't have those,
+we do not enter.
+Okay,
+so in this particular case,
+over here,
+I don't enter.
+Over here,
+I still do not enter.
+Over here,
+this is where I start
+getting interested.
+Okay,
+you can see,
+clear as day,
+prices came down,
+massive liquidity sweep,
+right?
+It's potentially even
+sweeping some liquidity
+below this load
+that was quite far away,
+right?
+And also,
+clear as day,
+we got a displacement
+to the upside.
+So,
+at this point of time,
+this is where
+if you want to be aggressive,
+yes,
+you can enter
+for a buy right here
+because we got
+our V-shaped reaction,
+we got our displacement candle
+which indicates
+that it's momentum
+pushing to the upside,
+right?
+So,
+you can enter
+for a buy right here,
+pays your take profit
+at 2R,
+just like this,
+okay?
+So,
+this is if you're aggressive.
+Once again,
+I want to give you
+another option
+if you're conservative
+because not all traders
+have a high risk tolerance.
+Some traders,
+they want to wait
+for extra confirmation.
+They want to,
+you know,
+know for a fact
+that price is actually
+moving to the upside
+before they actually
+enter for a buy.
+And then the question
+becomes,
+okay,
+how do you know
+for a fact that price
+is going to shift
+to the upside?
+All right,
+so first of all,
+let's just let the
+aggressive trade play out,
+right?
+Let's see whether price
+eventually goes up there
+and smash our TP.
+Okay,
+price eventually goes up there
+and smash our TP.
+Okay,
+so aggressive example.
+Now,
+let's time travel back
+to our entry
+and this time around,
+let's say we do not
+enter over here,
+okay?
+We don't enter here.
+We want to wait
+for extra confirmation
+and tell me that
+price is potentially
+going back up,
+right?
+So,
+over here,
+I still do not enter.
+Boom,
+this is where I start
+getting interested,
+okay?
+Boom,
+start getting interested,
+right?
+Boom,
+this is where,
+what is the market
+trying to tell us right now?
+At this point of time,
+the market is trying
+to tell us that,
+okay,
+price is pulling back here,
+is creating a lower high
+or at least,
+yes,
+attempted to create
+a lower high.
+Now,
+if there's sufficient
+supply in the market,
+what could potentially
+happen is that
+price can create
+a lower high right here,
+comes down,
+take out this low
+and create a new low,
+okay?
+These tell us that
+the best are still
+in control of price.
+The market is still bearish.
+The internal auto flow
+is still bearish,
+okay?
+But that did not happen.
+In fact,
+price failed to take out
+this low right here.
+And when it failed
+to take out this low,
+it created what I call
+a failed reaction,
+right?
+Where instead of
+coming down
+and take out this low,
+demand overpowered supply
+and it caused price
+to reverse
+and hit back up,
+creating a new
+higher low,
+right?
+So at this point of time,
+this is where you can see
+the structural start
+shifting from bearish
+to bullish.
+This is the confirmation
+that you're waiting for
+if you were conservative,
+right?
+So if you're conservative,
+what you can potentially do
+is that you can enter
+for longs right here.
+Once you see this
+failed reaction,
+once you see price
+creating a higher low
+and you have seen price,
+you know,
+set the liquidity
+below the lows right here,
+right?
+V-shaped reaction,
+displacement to the upside.
+This is where you can
+place your stop loss
+below this low right here
+or if you want to be
+even more conservative,
+you can place it
+below the liquidation candle.
+But for me personally,
+if I'm entering
+on a failed reaction
+just like this,
+I would just place
+my stop loss
+below the failed reaction,
+right?
+Below the new
+higher low right here
+because once again,
+you want to be placing
+a stop loss
+at a price point
+which invalidates
+the trade idea.
+So if I place
+my stop loss right here,
+what I'm essentially
+telling myself is that,
+okay,
+if price comes down here
+and they don't take
+out this low,
+then my trade idea
+is wrong,
+which is true,
+right?
+Because if for some reason
+there is still enough
+sellers in the market
+to push price down,
+what will happen
+is that price will
+later come down
+and take out this low here,
+okay?
+And if you take out
+this low,
+then it will just
+continue bearish.
+So yeah,
+this is where
+I would want to get out of
+if price starts
+shifting bearish,
+all right?
+So that's my stop loss.
+Take profit as usual,
+just set it at 2R,
+set and forget,
+just like this
+and let's look at
+how the trade plays out,
+right?
+Slowly but surely,
+comes up there
+and smash your TP.
+I'm going to leave it up to you
+to choose whether you want
+to go for the conservative
+entry model
+or the aggressive
+entry model,
+but my advice is
+you want to be testing
+this entire strategy
+over the span
+of a large sample size,
+right?
+You need to gather
+so much data
+that is unreasonable
+that you do not
+trust a trade plan
+and that could be
+taking 100 trades
+using this strategy
+or taking 1,000 trades
+and then based on
+the data that you have
+gathered from these
+100 trades,
+you can evaluate
+which entry model
+works the best for you,
+whether that's
+the conservative version
+or whether that's
+the aggressive version
+and then as you
+analyze the data,
+you will also find out
+which currency pair
+tends to follow
+this strategy
+really, really well.
+Which timing
+does price tend
+to sweep the Asia
+high and low,
+right?
+So it's all about
+just putting in the reps,
+reviewing the reps,
+gathering data,
+reviewing data
+and just continue
+to iterate a trade plan.
+That's the name
+of the game.
+Trading strategy
+is like an asshole.
+Everybody has one.
+The hard part
+isn't making a strategy.
+It's sticking to it
+when it stops
+working temporarily
+and having the patience
+to follow it
+long enough
+to prove that it does.
+And that is why
+the rules of the trade plan
+matter more
+than the setup itself.
+So if you want
+this strategy to be proven,
+you want to have
+rules installed
+into your system
+and it would be
+even better
+if you have a platform
+to enforce these rules.
+So this is Edgeflow
+which is a trading
+super app that I've built
+to enforce these guardrails.
+So in Edgeflow,
+if I want to be trading
+this Asia sweep strategy,
+I want to make sure
+that I have some rules
+within my trading system
+rather than relying
+on willpower
+and discipline,
+which is quite finite
+and it can only allow me
+to go so far
+until I start getting
+emotion
+and I start like
+losing control.
+Once again,
+when you use Edgeflow,
+control is literally
+built into your trading system.
+For example,
+the first guardrail
+I have is
+max trades per session
+because when I'm
+using this strategy,
+I only want to limit myself
+to two tries,
+two bullets,
+which means that
+if I take the first trade
+using this strategy
+and it failed,
+I'll try again.
+And if I fail
+the second time round,
+I will stop trading
+for the day itself.
+So on Edgeflow,
+you have the ability
+to set your max trades
+per session.
+So in this particular case,
+I set it to two trades,
+which means that
+once I hit this limit,
+right,
+once I've taken two trades,
+Edgeflow automatically
+blocked me from trading
+by greying out
+this trade button.
+I would not be able
+to press this trade button
+once I hit this limit
+or once I violate
+any of my guardrails
+that I've listed right here.
+And then the next guardrail
+I have is
+my trade plan,
+right?
+So when I am
+trading on Edgeflow,
+I'm going to follow
+the charting process
+right here,
+right?
+So I'm going to like
+literally check off
+step by step.
+Once again,
+this ensures
+I'm adhering
+to my trade plan
+as I'm trading.
+And then once that's done,
+right,
+once price comes down
+and sweep the Asia high
+or Asia low,
+this is where I'm going
+to look for my entry trigger.
+Right?
+I want to see this
+and I also want to see this,
+which means that
+if I see one of my trigger,
+but I don't see
+the other trigger,
+I will not enter.
+Right?
+So this forces me
+to follow my trade plan
+as I trade.
+Okay?
+And this is the most
+important thing ever
+because now you actually
+have structure
+and order in your trading.
+Now you can actually
+execute your trade plan
+consistently so that
+you can actually get
+consistent results.
+And if I don't follow
+my trade plan,
+Edgeflow will actually
+like flag it to me
+right here.
+So I know that,
+you know,
+I've been a bad little boy
+on that particular day
+itself.
+And the third rule
+is that I always use
+a fixed risk per trade.
+Right?
+Which means that
+I only risk 1%
+of my entire account
+on any given trade itself.
+So on Edgeflow,
+this is something
+that you can choose
+in your settings.
+Right?
+You can select
+what's your preferred
+risk per trade.
+And then when you start
+trading,
+all you need to do
+is to come here
+and you place a stop loss
+and Edgeflow will
+automatically calculate
+the lot size
+based on your risk
+per trade itself.
+So you can enter
+straight away
+with ease
+while adhering
+to your risk parameters.
+Right?
+So in this particular case,
+1% of my account
+is 42k
+and Edgeflow has told me
+that, okay,
+the lot size
+that I should be using
+on this particular trade
+is 15.9
+if I want to make sure
+that I'm staying
+within this 1% itself.
+I can even rep it
+on 2%,
+but I need to make sure
+that I unlock it
+and I can change it
+to 2%.
+Right?
+And you'll warn me
+telling me that,
+you know,
+I'm actually exceeding
+my risk parameters.
+Once again,
+this ensures that
+you stay disciplined
+and locked in.
+And if I do want
+to like continue trading,
+what happens
+is the Edgeflow
+literally forced me
+to type a reason
+and that reason
+gets saved
+into the journal
+along with my
+overriding
+of my gut rails.
+And this allows me
+to review later on,
+you know,
+when I sit down
+and I realize
+how much of a discipline,
+dumbass am I.
+Your job is to trade cleaner.
+It's about focusing
+on one good trade
+and then followed
+by another good trade
+and then so on
+and so forth.
+That should be your mentality
+when you are trading
+because trading
+is one of those
+few endeavors
+where you don't get paid
+based on the amount
+of hours that you work.
+You don't get paid
+because you work hard.
+No,
+you get paid
+by the quality
+of your decisions.
+Right?
+So it's not about more,
+it's about making
+the right decision
+at the right time
+at the right place.
+Now,
+before we end here today,
+I want to share with you
+three common mistakes
+that every beginner
+tends to make.
+And honestly,
+I care about you
+way too much.
+I don't want you
+to be losing money.
+I don't want you
+to make stupid trades.
+So I'm just gonna
+tell you the mistakes
+up front, right?
+So that you don't
+make these mistakes.
+Mistake number one
+is marking Asian session
+wrong because you keep
+changing the time window.
+For Asian session,
+it's 7pm till 3am
+Eastern Standard Time.
+Another window
+you could trade
+is from around 8pm
+to around like 1am
+Eastern Standard Time.
+Okay?
+So that would be
+like another window
+which is a little bit
+more tighter.
+And once you choose
+the window,
+you want to stick to it,
+right?
+But you don't want
+to switch around.
+You don't want to switch
+from the first window
+to the other window
+or so on and so forth
+here and there
+because you feel like it.
+No.
+Once you stick to one,
+stick to it, right?
+So for me,
+I prefer the 7am till 3pm
+because like that
+really encompasses
+the entire Asia swing range.
+Mistake number two
+is entering
+while price is still
+outside of the range.
+No re-entry confirmation.
+This is exactly
+what I've just highlighted
+to you guys.
+When price is still
+outside of the range,
+as much as possible,
+you don't want
+to be entering.
+What we do want to see
+is something just like this,
+right?
+Like this is the perfect
+scenario right here
+where price break
+off the range,
+sweep liquidity
+and now it's back
+in the range
+and this is where
+you want to make your entry.
+But in this particular case,
+as much as possible,
+try not to enter
+when price is outside
+the range.
+You are much better off
+waiting for price
+to come back
+into the range
+just like what I've done
+right here
+and then making your entry.
+But if you want to enter
+when it's still
+outside the range,
+you can, right?
+I've showed you
+how to do it,
+but like just know
+that it's a little bit
+more aggressive.
+In fact,
+it's very aggressive
+because price can still
+continue going down
+since you haven't
+returned to the range
+itself.
+Third mistake is
+putting your stops
+inside the box
+and getting weak down,
+right?
+I see a lot of people,
+you know,
+they actually place
+the stop loss
+at the wrong place,
+right?
+They either make it
+too tight,
+right?
+They place it like
+right here
+and then what happens
+is that later on
+price came down here,
+swept the liquidity
+and continue going up
+and they get stopped
+down,
+right?
+Or they place it,
+you know,
+like too far away,
+like all the way
+down here,
+right?
+So it's like
+the stop loss placement
+is very important
+because amateurs
+focus on entries
+while professionals
+focus on exits,
+right?
+So you have to make
+sure that you place
+your stop loss
+at a price point
+which invalidated
+the trade ideal,
+not wherever you
+want to place it
+and not placing
+it inside the box
+because you feel
+like it,
+not placing it here
+because you want
+to get that 2R
+take profit,
+no,
+place it at a price
+point that invalidated
+the trade ideal
+and more often
+than not is usually
+below or above
+the liquidation
+candle,
+above or below
+the candle
+that swept liquidity.
+All right,
+so I will end off
+by giving you
+one final advice,
+all right?
+Just one final advice
+that I wish
+my younger self
+knew and this
+is the part
+that most people
+miss or most
+people don't talk
+about.
+The setup isn't
+what makes you
+profitable,
+your discipline
+is.
+What I mean by that
+is that you can
+copy someone
+else's strategy,
+you can copy
+someone else's
+setup but you
+can never copy
+his psychology
+and that's the
+important part
+that makes the
+strategy work.
+It's like you
+go follow the
+exact same trade
+plan as what
+I've just laid
+out for you
+right here and
+still lose
+because you
+didn't manage
+to control
+your emotions.
+You can follow
+the exact same
+plan as Warren
+Buffett and
+still get vastly
+different results
+because it's not
+his strategy that
+makes him great.
+It's not the
+strategy,
+not the setup
+that makes him
+the best investor
+of all time.
+It's his temperament.
+It's his patience.
+It's his focus.
+It's his discipline.
+And last but not
+least,
+just understand
+that you don't
+become successful
+from one winning
+trade.
+It's built over
+thousands executed
+with the same
+rules even when
+you're bought,
+even when you're
+tilted,
+even when you're
+down on the
+day,
+especially when
+you don't feel
+like it.
+Because every
+single time you
+follow your trade
+plan, you are
+casting a vote for
+the trader you are
+becoming.
+Which also means
+that every single
+time you break
+your rules,
+you are casting a
+vote for the
+version of you that
+stays inconsistent.
+So the next time
+you're about to
+click the buy and
+sell button,
+pause for two
+seconds and ask
+yourself, is this
+a vote for the
+trader I want to
+be in one year
+from now?
+Or a vote for the
+trader that I'm
+trying to leave
+behind?
+Because no trade
+is wasted.
+Every single
+trade is
+essentially a vote
+for the person
+that you want
+to become.
+So you are
+either reinforcing
+the identity
+that is gonna
+serve you or
+reinforcing the
+identity that is
+gonna destroy
+you, right?
+So make a
+choice, choose
+wisely.
+So that's it for
+this lesson.
+If you've enjoyed
+this lesson, I'm
+pretty sure you're
+gonna love this
+playlist right here
+where I go through
+more market
+mechanic strategies
+just like this.
+So go and check
+it out.
+And as always,
+remember you're
+just one trade
+away.

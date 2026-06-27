@@ -1,0 +1,263 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: ZVMTeDBmSrI.mp4]
+---
+Voici la transcription détaillée de la vidéo, intégrant les descriptions visuelles et les règles énoncées :
+
+[VISUEL: Un homme souriant, avec une barbe courte et des cheveux bruns, est assis devant un microphone. Derrière lui, une étagère blanche remplie de livres, de cadres photo et d'objets décoratifs. Il porte un pull bleu marine.]
+J'ai réalisé quelque chose à propos du trading.
+
+[VISUEL: Écran divisé en deux. À gauche, "average" (moyen) en vert. Un personnage stylisé en 3D, gris, est assis devant plusieurs écrans affichant des graphiques boursiers complexes, l'air stressé. À droite, "quant" en vert. Un homme est assis dans l'obscurité devant un seul écran affichant des équations mathématiques et des graphiques de distribution, l'air concentré et calme.]
+Les gens moyens qui essaient de faire du day trading, même jusqu'aux professionnels qui font du trading, ils le font complètement différemment de la façon dont les hedge funds le font.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Maintenant, je veux vous dire quelque chose que j'ai appris récemment et qui a complètement bouleversé ma vision du trading.
+
+[VISUEL: Graphique boursier sombre avec des chandeliers. Des lignes de tendance (trendlines), des moyennes mobiles exponentielles (EMA 50A_VERIFIER, EMA 200A_VERIFIER) et un indicateur RSI sont superposés. Le texte "WHAT QUANTS DON'T USE" (Ce que les quants n'utilisent pas) apparaît en haut.]
+Et c'est que les quants n'utilisent pas les lignes de tendance et les indicateurs sur un graphique pour prendre leurs décisions.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Et vous vous demandez peut-être : "Mais alors, comment font-ils ?" Eh bien, c'est exactement ce que je vais vous montrer dans cette vidéo.
+
+[VISUEL: Écran sombre. Une carte Twitter apparaît, avec le nom "Roan @RohOnChain" et la mention "CONFIDENTIAL". Le titre "HEDGE FUND METHOD" est affiché, avec un diagramme montrant trois cercles interconnectés : "Bull" (0.79A_VERIFIER), "Bear" (0.81A_VERIFIER), "Side" (0.52A_VERIFIER). Des graphiques stylisés de "Stock" et "PnL" (Profit and Loss) sont de chaque côté.]
+Dans les profondeurs du trading Twitter, j'ai trouvé un fil de discussion d'une personne appelée Roan. C'est un quant. Il gagne des tonnes d'argent en tant que quant. Et il a mis sur la table tous les secrets que ces quants de hedge funds utilisent, qui leur donnent les résultats qu'ils obtiennent.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Ce qui surpasse votre trader normal et est beaucoup plus cohérent, mais significativement plus complexe. J'ai parcouru tout son travail sur ce qu'on appelle la méthode des hedge funds,
+
+[VISUEL: Une série de cartes vertes translucides apparaissent en 3D, s'empilant. Chaque carte a le titre "QUANT SECRET" et un numéro.
+- 01A_VERIFIER: STATES (bull - bear - sideways)
+- 02A_VERIFIER: MARKOV PROPERTY (depends only on today)
+- 03A_VERIFIER: TRANSITION MATRIX (the building block of the method)
+- 04A_VERIFIER: PERSISTENCE (the diagonal)
+- 05A_VERIFIER: WALK-FORWARD (no lookahead)
+La pile se réduit à une seule carte affichant le tableau de probabilités 3x3 avec des pourcentages, et le titre "THE HEDGE FUND METHOD". Le texte "ALL OF IT - ONE VIDEO" est en bas.]
+et je l'ai simplifié en une seule vidéo, et c'est ce que vous regardez aujourd'hui.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Donc, dans cette vidéo, je vais vous donner quelques choses.
+
+[VISUEL: Une carte noire avec le texte "DELIVERABLE 01A_VERIFIER: The hedge fund method (exactly what it is)" et le chiffre "01A_VERIFIER" en grand.]
+Numéro un, je vais partager exactement ce qu'est la méthode des hedge funds.
+
+[VISUEL: Une carte noire avec le texte "DELIVERABLE 02A_VERIFIER: Translated for AI (into a format AI understands)" et le chiffre "02A_VERIFIER" en grand.]
+Numéro deux, je vais convertir toute cette méthode de hedge fund en un format que l'IA comprend.
+
+[VISUEL: Une carte noire avec le texte "DELIVERABLE 03A_VERIFIER: A copy-paste prompt (run it in Claude Code — or any LLM)" et le chiffre "03A_VERIFIER" en grand.]
+Et troisièmement, je vais vous donner un prompt exact à copier-coller que vous pouvez mettre dans votre Claude Code ou n'importe quel LLM dès maintenant, et avoir toute cette méthode installée dans vos propres stratégies de trading.
+
+[VISUEL: L'homme est de nouveau face caméra, avec une interface stylisée de "CLAUDE CODE" en surimpression. Une boîte de dialogue affiche "how can I help you?". Puis un fichier "one-shot-prompt.md" est glissé dans la boîte. Le texte "markov-regime - installing..." apparaît.]
+Et si vous utilisez Claude Code, vous pouvez utiliser ce prompt comme une compétence dans votre IA, donc chaque fois que vous avez une nouvelle stratégie, il appliquera automatiquement cette méthode par-dessus.
+
+[VISUEL: Écran noir avec le texte "by the end of this video, you'll have everything to operate like a hedge fund quant". Le texte "operate like a hedge fund quant" est souligné en vert.]
+Et à la fin de cette vidéo, vous aurez tous les outils nécessaires pour opérer comme un quant de hedge fund.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Et juste après que vous vous soyez abonné, allons-y.
+
+[VISUEL: Écran noir avec le titre blanc "The Hedge Fund Method".]
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Dans cette vidéo, nous allons passer en revue les dix éléments qui composent la méthode des hedge funds.
+
+[VISUEL: Une liste verticale de 10A_VERIFIER éléments vides apparaît progressivement à l'écran, numérotée de 01A_VERIFIER à 10A_VERIFIER.]
+Et après que tout cela aura été expliqué, je vais vous donner quelques prompts.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+L'un sera d'installer ceci sur votre Claude Code ou n'importe quel LLM que vous utilisez.
+
+[VISUEL: Interface stylisée de "CLAUDE CODE" en surimpression. Une boîte de dialogue affiche "skill: markov-regime - installs the method".]
+Et l'autre sera une visualisation que vous pourrez mettre sur votre graphique TradingView en utilisant Pine Script.
+
+[VISUEL: Écran divisé en deux. À gauche, l'interface "CLAUDE CODE" avec la compétence installée. À droite, un graphique boursier sombre avec des chandeliers. Le texte "PINE SCRIPT - BONUS" est en haut à droite. Une boîte "MARKOV REGIME" apparaît sur le graphique, affichant un tableau 3x3 avec des pourcentages (ex: BULL 72A_VERIFIER%, FLAT 19A_VERIFIER%, BEAR 9A_VERIFIER%).]
+Je veux que vous sachiez que ces prompts sont entièrement gratuits pour que vous puissiez les copier-coller et les prendre. Je ne veux même pas votre e-mail. Vous pouvez trouver ces prompts sur mon lien GitHub dans la première ligne de la description.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+La première chose à comprendre est que ces hedge funds et les quants n'opèrent pas en utilisant les mêmes données que vous et moi. Je pense que pour la plupart, vous et moi nous basons sur des sensations.
+
+[VISUEL: L'homme est de nouveau face caméra, avec une expression faciale exagérée.]
+Un peu comme si on tâtonnait dans l'investissement. J'ai un bon pressentiment pour le Bitcoin, ou j'ai un bon pressentiment pour Palantir, et tout est une question de sensations.
+
+[VISUEL: Écran sombre avec le mot "FEELINGS" (SENSATIONS) flou au centre. Puis le mot se défloute et un cadran de type anémomètre apparaît, avec "SIGNAL: WIND" en haut, une aiguille pointant vers le haut, et en bas "2.4A_VERIFIER" avec une flèche vers la droite, et "DIRECTION - MAGNITUDE". Le cadran et le chiffre deviennent verts.]
+Les quants et les hedge funds font de leur mieux pour quantifier ces sensations, leur attribuer des valeurs numériques. Et c'est un peu comme sortir et dire : "Oh, il y a du vent aujourd'hui, je vais prendre cette décision en conséquence." Alors que si un quant ou un hedge fund sortait, il voudrait une valeur numérique. Quelle est la force du vent, dans quelle direction pointe-t-il ?
+
+[VISUEL: L'homme est de nouveau face caméra, avec le cadran de vent en surimpression sur son visage.]
+Et ensuite, avec ces chiffres, ils peuvent prendre des décisions. Donc, je veux vous présenter quelque chose appelé les états.
+
+[VISUEL: Titre "ELEMENT 01A_VERIFIER - THE HEDGE FUND METHOD: States" en vert sur fond sombre.]
+Chaque hedge fund et quant opérera avec ces états.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Il n'y a que trois états : il y a un état haussier (bull), un état latéral (sideways) et un état baissier (bear).
+
+[VISUEL: Trois cartes noires apparaissent horizontalement : "BULL", "SIDEWAYS", "BEAR". Des points gris apparaissent sous chaque carte, puis deviennent verts, indiquant un mouvement.]
+Maintenant, un état haussier est défini comme les 20 derniers jours.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Lorsque vous additionnez tous les rendements des 20 derniers jours, sont-ils à 5 % ou plus de rendement ?
+
+[VISUEL: Graphique "THE 20A_VERIFIER-DAY RULE". Une série de 20A_VERIFIER cases vertes avec "+1A_VERIFIER" à l'intérieur. À droite, "Σ +20A_VERIFIER%". Une flèche pointe vers "BULL".
+En dessous, le calcul "1A_VERIFIER% × 20A_VERIFIER = +20A_VERIFIER% → BULL".
+Puis, "15A_VERIFIER • (+1A_VERIFIER%) + 5A_VERIFIER • (-1A_VERIFIER%) = +10A_VERIFIER% → BULL".
+En dessous, "Σ ≤ -5A_VERIFIER% → BEAR".
+En dessous, "-5A_VERIFIER% < Σ < +5A_VERIFIER% → SIDEWAYS".]
+Par exemple, si vous avez eu un gain de 1 % chaque jour pendant 20 jours, cela représenterait un gain de 20 % et serait évidemment dans un état haussier. Si vous aviez 15 jours avec une augmentation de 1 %, mais 5 jours avec une diminution de 1 %, alors globalement vous auriez un gain de 10 % sur cette période de 20 jours, ce qui correspondrait à nouveau aux critères d'un état haussier. Maintenant, si les 20 derniers jours étaient un -5 % ou plus (c'est-à-dire -5, -6, etc.), alors cela serait classé comme un état baissier, et tout ce qui se trouve entre les deux est un état latéral.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Je sais que cela semble très élémentaire, mais attendez de voir comment ils utilisent cette information. Et donc la prochaine étape du processus est évidente.
+
+[VISUEL: Titre "ELEMENT 02A_VERIFIER - THE HEDGE FUND METHOD: Labelling the days" en vert sur fond sombre.]
+Nous devons déterminer quel est l'état actuellement, quel est l'état d'aujourd'hui.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Et ce qu'ils font, c'est qu'ils remontent sur l'ensemble de l'historique de l'actif, disons que c'est le Bitcoin, et ils exécutent un algorithme pour chaque jour de l'historique du Bitcoin et étiquettent chaque jour avec son état. Donc, si vous pouvez imaginer maintenant, vous avez l'historique complet des prix du Bitcoin ou de n'importe quel actif, et chaque jour, à partir du 20ème jour (car c'est la première fois que vous avez une période de 20 jours en arrière), jusqu'à aujourd'hui, a une étiquette. Et chaque jour est un état spécifique. Et cela nous amène à la troisième règle qu'ils utilisent dans le cadre de cette méthode de hedge fund.
+
+[VISUEL: Titre "ELEMENT 03A_VERIFIER - THE HEDGE FUND METHOD: The Markov property" en vert sur fond sombre.]
+Et c'est ce qu'on appelle la propriété de Markov. Et c'est toute cette idée que le marché ne se déplace vers le prochain endroit qu'en fonction de l'endroit où il se trouve aujourd'hui.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Et cela va complètement à l'encontre de la façon dont les traders voient les choses. Ils regardent en arrière à travers l'histoire et essaient de déterminer ce qui va se passer demain. Mais la propriété de Markov se concentre uniquement sur aujourd'hui.
+
+[VISUEL: Carte des États-Unis stylisée en sombre. Un point vert "LITTLE ROCK" est au centre-sud. Un point vert "NEW YORK" est au nord-est. Une ligne verte courbe relie Little Rock à New York.]
+Alors, laissez-moi vous donner une analogie. Disons que vous conduisez de Little Rock, Arkansas, jusqu'à New York. L'itinéraire que vous prenez pour arriver à New York dépendra entièrement du lieu de départ. Cela peut sembler très évident, mais laissez-moi le rendre encore plus clair.
+
+[VISUEL: La carte change. Le point de départ est maintenant "NEBRASKA". Une nouvelle ligne verte courbe relie Nebraska à New York.]
+La façon dont vous arrivez à New York depuis Little Rock, Arkansas, n'est pas la même que celle dont vous y arrivez depuis le Nebraska.
+
+[VISUEL: La carte change. Le point de départ est maintenant "OHIO". Une nouvelle ligne verte courbe relie Ohio à New York.]
+Et il va sans dire que, au fur et à mesure que vous avancez dans ce voyage, disons que vous arrivez en Ohio, par exemple. Le trajet pour arriver à New York depuis l'Ohio est également différent. Le trajet vers New York depuis l'Ohio est entièrement unique. Peu importe du tout que vous ayez commencé à Little Rock si vous êtes en Ohio et que vous essayez d'arriver à New York.
+
+[VISUEL: L'homme est de nouveau face caméra, avec la carte en surimpression.]
+J'espère que j'ai été assez clair. Pour résumer, le passé n'indique pas vraiment où l'avenir va aller. Et vous vous dites peut-être : "Mais Lewis, n'avons-nous pas fait le truc des 20 jours dans l'histoire, sur tout l'historique du Bitcoin ? Pourquoi ferions-nous cela si leur passé était sans importance ?" Et peut-être que j'ai été un peu extrême là-bas. Mais le principe de Markov se concentre vraiment sur aujourd'hui. Aujourd'hui a le plus de poids.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Et cela nous amène à cette chose appelée la matrice des hedge funds, dont, avant cette vidéo, je n'avais aucune idée de l'existence. Et cela a tout son sens, et cela rassemble tout ce dont nous avons déjà parlé. Maintenant, avec toutes les données que nous avons obtenues de l'historique complet du Bitcoin, il y a des moments où l'état change. Donc, nous pourrions passer d'un marché latéral à un marché haussier, ou un état haussier, et nous pourrions passer d'un état haussier à un état baissier. Et chacune de ces transitions est comptée et enregistrée.
+
+[VISUEL: Titre "ELEMENT 04A_VERIFIER - THE HEDGE FUND METHOD: The transition matrix" en vert sur fond sombre.]
+Et donc ce qu'ils font, c'est qu'ils regardent en arrière dans le temps à chaque fois que cette transition a eu lieu entre un marché haussier et un marché latéral, par exemple, et ils les comptent tous.
+
+[VISUEL: Tableau 3x3 avec les en-têtes "BULL", "SIDE", "BEAR" pour les colonnes et les lignes. Les cellules sont initialement vides avec "n=0A_VERIFIER". Puis des barres de comptage apparaissent dans les cellules, par exemple "BULL" vers "BULL" a 16A_VERIFIER barres, "BULL" vers "SIDE" a 3A_VERIFIER barres, etc.]
+Donc, nous avons maintenant un enregistrement complet des transitions qui se sont produites et combien de fois elles se sont produites. Donc, le nombre de fois où nous sommes passés de baissier à haussier, haussier à baissier, de latéral à haussier, de latéral à baissier, de baissier à latéral, de haussier à latéral, chaque combinaison. Nous les avons maintenant tous comptés, et nous pouvons attribuer une valeur numérique au nombre de fois où cela s'est produit.
+
+[VISUEL: Les barres de comptage dans le tableau 3x3 sont remplacées par des pourcentages. Par exemple, "BULL" vers "BULL" est 80A_VERIFIER%, "BULL" vers "SIDE" est 15A_VERIFIER%, "BULL" vers "BEAR" est 5A_VERIFIER%. Chaque ligne totalise 100A_VERIFIER%.]
+Maintenant que nous avons ces comptes dans ce tableau, nous pouvons les transformer en pourcentages. Et cela nous amène à cette grille très simple de trois par trois. Et c'est un peu difficile à expliquer, alors je vais vous le montrer à l'écran ici. Ce que vous voyez à l'écran, ce sont trois lignes qui représentent l'état d'aujourd'hui. Les trois colonnes représentent l'état de demain. Et chaque ligne doit totaliser 100 %, car quelque chose doit se produire demain avec 100 % de certitude. Le marché doit se retrouver dans l'un de ces compartiments.
+
+[VISUEL: L'homme est de nouveau face caméra, avec le tableau 3x3 en surimpression.]
+Et donc vous remarquerez qu'il y a un résultat le plus probable pour le prix de demain. Et c'est là que nous obtenons tout le concept de "la tendance est votre amie". Si vous êtes dans un état baissier, le résultat le plus probable pour le lendemain sera également un état baissier. Mais ce n'est pas 100 % certain. Il y a d'autres résultats qui peuvent se produire, mais les hedge funds et les quants utilisent spécifiquement les probabilités pour déterminer quels sont les mouvements du lendemain. Et cela évolue et progresse chaque jour, car il examine toutes ces transitions, tous les décomptes et toutes les probabilités qu'ils peuvent voir quel est le résultat le plus probable du jour suivant.
+
+[VISUEL: Titre "ELEMENT 05A_VERIFIER - THE HEDGE FUND METHOD: Persistence" en vert sur fond sombre.]
+Donc, vous verrez à l'écran en ce moment que nous avons une ligne diagonale de cellules allant du haut à gauche vers le bas à droite. Et ces trois cellules représentent le marché restant exactement le même.
+
+[VISUEL: Graphique "STICKINESS - THE DIAGONAL". Trois barres verticales. La première, "BULL", est remplie à 80A_VERIFIER%. La deuxième, "SIDEWAYS", est remplie à 55A_VERIFIER%. La troisième, "BEAR", est remplie à 72A_VERIFIER%.]
+Ce serait comme l'état haussier vers l'état haussier, l'état baissier vers l'état baissier, latéral vers latéral. Et la raison pour laquelle je mets en évidence cette diagonale est qu'elle montre quelque chose appelé la persistance. Et cette persistance donne lieu à un mot appelé "stickiness" (adhérence). Et chaque état a un score d'adhérence, essentiellement. À quel point un marché haussier est-il "collant" ? Eh bien, si nous sommes dans un état haussier aujourd'hui, en tenant compte des 20 derniers jours, il est plus probable que ce soit un autre état haussier demain qu'un autre état. Les états haussiers ont tendance à être des états assez "collants". Et les marchés baissiers aussi. Et donc, à tout moment, il y a un tableau de bord matriciel en direct qui détermine la probabilité du résultat de demain. Et c'est ce que les quants et les hedge funds utilisent pour déterminer où placer leurs paris aujourd'hui.
+
+[VISUEL: L'homme est de nouveau face caméra, avec le graphique "STICKINESS - THE DIAGONAL" en surimpression.]
+Donc, si vous savez que le score d'adhérence d'un état haussier est de 80 %, par exemple, eh bien, vous pouvez très facilement couvrir vos paris sur demain. Aussi, être un état haussier et, par conséquent, aller long. Ils ne disent pas que demain sera un état haussier. Ils disent qu'il y a 80 % de chances, il y a 80 % de probabilité que ce soit un état haussier demain aussi. Et juste pour rendre cela super cool et incroyable pour vous, j'ai en fait créé un script Pine pour un indicateur qui montre la matrice sur un graphique que vous pouvez utiliser dès maintenant.
+
+[VISUEL: Graphique boursier TradingView avec l'indicateur "MARKOV REGIME" affiché. Le texte "FREE TO COPY & PASTE" est en haut.]
+Donc, quand nous arriverons à l'élément tutoriel de cette vidéo où j'explique comment le faire, je vais vous montrer exactement comment installer ce script Pine dans votre TradingView. Et vous pouvez voir cette matrice 3x3 sur votre graphique pour n'importe quel actif que vous voulez. C'est génial, n'est-ce pas ? Je pense qu'il est temps de s'abonner, non ?
+
+[VISUEL: Checklist de 5A_VERIFIER éléments, tous cochés:
+1A_VERIFIER. States
+2A_VERIFIER. Today's state
+3A_VERIFIER. Markov
+4A_VERIFIER. Matrix
+5A_VERIFIER. Persistence]
+Donc, pour résumer ce que nous avons couvert jusqu'à présent, nous avons parlé de ce qu'est un état, donc nous savons ce que sont les états. Nous avons également décidé de l'état d'aujourd'hui, c'est le calcul que les hedge funds font pour déterminer où nous en sommes aujourd'hui, basé sur les 20 derniers jours de mouvement. Nous avons parlé de la propriété de Markov, c'était le numéro trois.
+
+[VISUEL: La checklist continue, les éléments 6A_VERIFIER à 10A_VERIFIER sont ajoutés et cochés.
+6A_VERIFIER. Squaring the matrix
+7A_VERIFIER. The stationary distribution
+8A_VERIFIER. Signal generation
+9A_VERIFIER. Walk-forward backtesting
+10A_VERIFIER. The hidden Markov model]
+Numéro quatre, nous avons parlé de cette matrice de transition que le hedge fund utilise avec cette grille 3x3. Numéro cinq, nous avons parlé de cette persistance, la ligne diagonale que je vous ai montrée là, le score d'adhérence de l'actif. Mais le numéro six est une sorte de mouvement intéressant, auquel je ne m'attendais jamais. Et c'est : et si nous ne voulons pas seulement une prévision d'un jour ? Et si nous voulons regarder plus loin dans l'avenir ? Comment utilisons-nous toutes ces mathématiques et toutes les informations que nous avons recueillies jusqu'à présent pour déterminer une prédiction plus lointaine de l'avenir ? Eh bien, il y a en fait un calcul pour cela. Et je vais vous le montrer. Et c'est quelque chose appelé "squaring the matrix" (mettre la matrice au carré).
+
+[VISUEL: Titre "ELEMENT 06A_VERIFIER - THE HEDGE FUND METHOD: Squaring the matrix" en vert sur fond sombre.]
+La bonne nouvelle est que vous n'avez pas besoin de nouvelles mathématiques. Vous l'avez déjà.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Donc, tout ce que vous avez à faire est de simplement multiplier la matrice par elle-même. Donc, si vous voulez une matrice de deux jours, vous mettez la matrice au carré par elle-même. Si vous voulez une prévision de trois jours, vous la mettez au cube par elle-même. Et ne vous inquiétez pas, je vais vous montrer un exemple de cela avec des nombres réels. Mais cela continue encore et encore, selon la distance à laquelle vous voulez cette prédiction. Et bien sûr, à mesure que vous continuez à mettre au carré et à mettre au cube contre vous-même, le nombre finalement de pourcentage, le pourcentage de probabilité diminue avec le temps.
+
+[VISUEL: Graphique "COMPOUNDING THE PROBABILITY" (Composer la probabilité).
+Le calcul "0.8A_VERIFIER × 0.8A_VERIFIER = 0.64A_VERIFIER = 64A_VERIFIER%" est affiché.
+En dessous, "→ 64A_VERIFIER% chance still BULL in 2A_VERIFIER days".
+Puis, trois boîtes vertes: "P (1A_VERIFIER day)", "P^2A_VERIFIER (2A_VERIFIER days)", "P^3A_VERIFIER (3A_VERIFIER days)".
+Ensuite, un graphique linéaire montre plusieurs lignes de "PREDICTED PROBABILITY" (Probabilité prédite) qui convergent vers un point unique dans le "FAR FUTURE" (Futur lointain). Le texte "THE STATIONARY DISTRIBUTION: Wherever you start, the long run is the same" est en haut. Le point de convergence est étiqueté "0.40A_VERIFIER".]
+Donc, faisons un exemple de trois. Et je pense qu'à la fin de cela, vous le comprendrez. Donc, le chemin numéro un serait comme passer de haussier à haussier. Donc, d'après l'exemple que nous avons utilisé plus tôt, il y a 80 % de chances que si nous sommes dans un état haussier maintenant, ce sera un état haussier demain. Mais la chance que cet état haussier se maintienne pour le jour suivant est essentiellement 0,8 (représentant 80 %) multiplié par 0,8. Nous le multiplions par lui-même, ce qui nous laisse avec 0,64, soit 64 %. Donc, nous avons notre prévision de deux jours, prédisant, suggérant qu'il y a 64 % de probabilité que dans deux jours, nous soyons toujours dans un état haussier. Et en faisant ce calcul pour toutes les différentes combinaisons, vous vous retrouvez avec la capacité et, en gros, une façon de montrer sur une énorme matrice avec des pourcentages de probabilités, tous parfaitement agencés, quelles sont les chances que cet actif soit dans un état spécifique dans un nombre spécifique de jours.
+
+[VISUEL: L'homme est de nouveau face caméra, avec le graphique de convergence en surimpression.]
+Vous pouvez voir à quel point c'est différent de faire des lignes de tendance et tout ça, n'est-ce pas ? C'est mathématique et basé sur des équations, et c'est ce que font les quants. C'est ainsi que les gens qui comprennent cela, en tant qu'étudiants, finissent par décrocher des emplois qui rapportent 650 000 $ par an après l'université. Et c'est vrai, et je fais une vidéo à ce sujet. Mais si vous extrapolez cette idée assez loin, au lieu de regarder deux ou trois jours en avant où nous faisons de jolis petits carrés et ensuite des cubes de ces nombres, et si nous voulons faire une prévision de 28 jours ? Eh bien, maintenant nous entrons dans quelque chose où nous multiplions la matrice par la 28ème puissance. Et ces nombres commencent à devenir hallucinants. Et en fait, si vous le regardez sur un graphique pour voir le genre de distribution des pourcentages, vous verrez que tout converge essentiellement en un seul filet. Et ce filet représente à quel point la probabilité de l'un de ces résultats est si petite qu'il n'y a pas de signal significatif que vous en tirez. Vous savez, par exemple, il pourrait dire, vous savez, dans 28 jours, il y a 0,2 % de chances de ce résultat. Il y a 0,2 % de chances de ce résultat, ce résultat, cette erreur. Ils vont tous être uniformes, comme 0,2 %, mais il y aura tellement de résultats et tellement de façons d'y arriver qu'il n'y a pas vraiment d'intérêt à utiliser cette projection à long terme.
+
+[VISUEL: Titre "ELEMENT 07A_VERIFIER - THE HEDGE FUND METHOD: The stationary distribution" en vert sur fond sombre.]
+Et c'est le numéro sept, la distribution stationnaire. Et donc, comment extrayez-vous réellement des signaux de tout cela pour réellement faire des trades ?
+
+[VISUEL: Titre "ELEMENT 08A_VERIFIER - THE HEDGE FUND METHOD: Signal generation" en vert sur fond sombre.]
+Eh bien, cela nécessite un processus appelé génération de signaux. Et c'est le numéro huit. Parce que quand j'y pense, je me dis : "Ok, toutes ces maths, c'est bien, mais qu'est-ce que je fais avec cette information ?" Eh bien, malgré tous les calculs et toutes les équations qui sont arrivés à ce point, le calcul est incroyablement facile. Et c'est ce que j'ai trouvé avec la façon dont les quants opèrent, ils font beaucoup de choses complexes en arrière-plan, seulement pour le simplifier avec cette fondation. Donc, ce qu'ils font, c'est un calcul simple de "cette chose moins cette chose". Et donc, parlons-en. En gros, ils regardent demain, la probabilité que demain soit un état haussier. Et ce qu'ils font, c'est qu'ils soustraient la probabilité que ce soit un marché baissier demain de la probabilité du marché haussier. Et voici la partie géniale. Plus le nombre que vous obtenez est grand, plus vous mettrez d'argent dans ce trade.
+
+[VISUEL: Graphique "EDGE -> POSITION". Le calcul "65A_VERIFIER% - 20A_VERIFIER% = +45A_VERIFIER%" est affiché. Une barre horizontale avec un curseur vert se remplit jusqu'à +45A_VERIFIER. Un bouton "LONG" est en dessous.
+Puis, le calcul "32A_VERIFIER% - 70A_VERIFIER% = -38A_VERIFIER%" est affiché. La barre se remplit en rouge jusqu'à -38A_VERIFIER. Un bouton "SHORT" est en dessous.]
+Donc, le différentiel entre le haussier et le baissier dans ce cas détermine la taille de ce trade. Donc, vous gérez le risque de cette façon aussi. Alors, laissez-moi vous donner un exemple concret. Disons que la probabilité d'un état haussier demain est de 65 %. Et la probabilité d'un état baissier demain est de 20 %. Et bien sûr, parce que nous devons additionner jusqu'à 100, il y a 15 % de chances que nous soyons dans un état latéral demain. Donc, pour extraire votre signal de trading de cela, tout ce que vous faites est de prendre 65 %, qui est la probabilité haussière de demain, moins 20 %, qui est la probabilité baissière de demain. Et il vous reste 45 %. Donc, nous avons la direction parce que c'est +45 %. Donc, nous savons que l'idée est que nous allons aller long. Donc, chaque quant et hedge fund aura son propre calcul pour savoir à quel point 45 % est fort, et combien ils mettront sur ce trade. Et imaginez que chaque hedge fund sera légèrement différent à cet égard. Maintenant, certaines personnes pourraient considérer un +45 % comme un signal très fort et y mettre beaucoup plus, et d'autres pourraient le considérer comme un peu plus faible et y mettre moins. Mais le fait est que cela vous donne la direction. Et vous vous demandez peut-être : "Eh bien, comment cela pourrait-il être négatif ?" Eh bien, vous faites le même calcul. Vous prenez le pourcentage baissier moins le pourcentage haussier. Donc, si le pourcentage baissier est un nombre plus grand que le pourcentage haussier, alors vous vous retrouverez avec un nombre négatif. Et donc le signal est d'aller short, et le degré auquel ce résultat est révélé est le degré auquel vous entrez dans ce trade. Et donc, c'est loin de l'idée de "le Bitcoin se sent haussier aujourd'hui, ça se sent bien aujourd'hui". C'est loin de ça. Ce sont des calculs pour dire, vous savez, "voilà à quel point je suis haussier" ou "voilà à quel point je suis baissier", et "voilà combien d'argent y va en conséquence". C'est calculé. C'est simple mais complexe. C'est vraiment incroyable.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Donc, maintenant que nous passons à l'étape numéro neuf des dix que nous allons aborder dans cette vidéo avant de passer au tutoriel (les tutoriels sont relativement rapides, j'ai juste un prompt à copier-coller pour vous, c'est super cool). À l'étape neuf, nous allons faire quelque chose appelé "Walk Forward Backtesting" (rétro-test prospectif).
+
+[VISUEL: Titre "ELEMENT 09A_VERIFIER - THE HEDGE FUND METHOD: Walk-forward backtesting" en vert sur fond sombre.]
+Maintenant, ce rétro-test prospectif m'a pris beaucoup de temps à essayer de comprendre, et je ne suis pas entièrement sûr de le faire encore, mais je vais expliquer ce que je comprends, et j'espère que cela aura du sens. Maintenant, lorsque vous tradez, souvent, nous allons créer une stratégie et nous allons faire un rétro-test dessus. Ce rétro-test prend essentiellement toutes les données qui se sont produites dans le passé et applique la stratégie à tout cet historique. Donc, le problème est, et c'est là que les gens rencontrent un problème, surtout en tant que traders particuliers, c'est que vous prenez cette stratégie avec toutes les informations qu'elle a apprises de toutes les données, n'est-ce pas ? Et vous prenez cette stratégie et vous l'implémentez en, disons, 2020. Maintenant, ce n'est pas un bon rétro-test parce que les données de 2020 ont déjà été intégrées dans l'ensemble du rétro-test, et vous l'appliquez en arrière dans le temps. C'est vraiment complexe, mais ce n'est pas un bon rétro-test parce qu'il a déjà appris du futur. Si vous placez la stratégie en 2020, par exemple, elle a déjà les résultats futurs intégrés dans la stratégie. Et donc cela n'a aucun sens. Si nous avons toutes les données dès maintenant, à partir d'aujourd'hui, cela signifie qu'elle a appris de 2020. Elle a appris de 2021 déjà. Et donc ce truc de rétro-test prospectif est une atténuation contre cela.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Maintenant, c'est massivement lourd en calcul. Ou du moins, ça l'était avant l'IA. Indice, indice. Mais chaque jour doit être entièrement recalculé. Donc, toute la matrice doit être entièrement refaite. Donc, nous n'avons jamais ce problème d'avoir une stratégie qui a appris de toutes les données, appliquée au passé, et ça ne marche tout simplement pas. D'après ma compréhension, c'est comme ça que ça marche. Et si vous ne comprenez pas, vous n'avez pas vraiment besoin de le faire parce que ce sera dans l'IA pour vous.
+
+[VISUEL: Titre "ELEMENT 10A_VERIFIER - THE HEDGE FUND METHOD: The hidden Markov model" en vert sur fond sombre.]
+Maintenant, nous sommes au numéro dix, et les choses sont sur le point de devenir hallucinantes. Ok. Alors préparez-vous. Plus tôt, nous avons parlé de la définition d'un état. Comme, quels sont les nombres qui définissent un état ? Nous avons dit, vous savez, 5 % et plus signifie un haussier, -5 % et moins signifie un baissier, et tout ce qui se trouve entre les deux est latéral. Mais c'est subjectif. Comme, qui a décidé cela ? Nous avons décidé cela. Les humains ont décidé cela. C'est une interprétation subjective de ce que signifie un haussier et un baissier. Et évidemment, alors nous arrivons à ce plancher naturel du système. Ça ne marche pas maintenant, n'est-ce pas ? Comment pouvons-nous avoir ces opinions subjectives ? Et tout le reste est calculé et mathématique, mais nous nous retrouvons toujours avec le maillon faible, qui est notre vision subjective. Et donc l'étape numéro dix clôture tout cela et résout ce problème, résout ce comportement subjectif qui nous permet finalement de vraiment déterminer ce que signifie haussier, ce que signifie baissier, et ce que signifie latéral. Et c'est ce qu'on appelle le modèle de Markov caché.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Et c'est une partie du processus qui examine tout l'historique des prix de l'actif. Nous examinons toutes les transitions, mais tous les états et les étiquettes que nous leur avons attribués plus tôt ont été supprimés. Donc, il n'apprend plus de l'étiquetage des états. Il fait en fait un passage complet à travers la stratégie de reconnaissance de formes elle-même. Il examine des détails comme la continuation de la hausse des prix, ou la baisse des prix, il examine un grand nombre de points de données différents sans les étiquettes. Et donc, pour rendre cela super simple à comprendre, c'est presque comme une baby-sitter. Ils entrent dans la maison et il y a un tas d'enfants là-dedans. Ils ne savent pas immédiatement, vous savez, cet enfant a un TDAH, cet enfant dort tout le temps, cet enfant est fou et violent. Vous savez, ils ne savent rien de tout ça. Et donc, quelques jours plus tard, après s'être assis et avoir observé les enfants et la façon dont ils agissent et la façon dont ils interagissent les uns avec les autres, vous pouvez déterminer un tas de choses sur chaque enfant et attribuer ou prescrire une personnalité à chaque enfant. Mais il faut du temps pour analyser et s'asseoir et regarder. Et c'est ce que fait ce modèle de Markov caché. Et après tout cela, maintenant, déterminons les personnalités des enfants. Vous allez en fait mettre une étiquette sur les enfants, comme TDAH, violent, endormi. Il fera cela pour tous. Et il fait la même chose à travers les données du graphique. Donc, il prescrit maintenant un état haussier, un état baissier et un état latéral sans aucune étiquette existante auparavant. Et donc, lorsque vous superposez les deux, où vous avez les 5 % est un haussier, -5 % et moins est un baissier. Les étiquettes subjectives que nous avons données, et aussi les étiquettes de la méthode de Markov cachée qui ont été générées, vous pouvez les superposer et voir où elles se confirment mutuellement. Et quand elles se confirment mutuellement, cela vous donne le feu vert pour avancer.
+
+[VISUEL: Graphique "CONFIRMATION = GO". Deux lignes de boîtes avec des lettres. La première ligne est "SUBJECTIVE LABELS" (B, B, S, E, E, S, B, B, S, E). La deuxième ligne est "HMM-GENERATED LABELS" (B, B, S, E, S, S, B, E, S, E).
+En dessous, "OVERLAID - AGREEMENT LIGHTS GREEN" (Superposé - L'accord allume le vert). Une seule ligne de boîtes. Les boîtes où les lettres correspondent sont vertes (B, B, S, E, S, B, S, E). Les boîtes où les lettres diffèrent sont blanches avec les deux lettres séparées par un slash (E/S, B/E).
+En dessous, "• agree → go" (accord → aller) et "• disagree → stand down" (désaccord → rester en retrait).]
+Bien. Maintenant que nous avons compris tout cela, et j'espère que vous l'avez fait, c'était l'ensemble des dix éléments qui composent cette méthode de hedge fund, mais c'est tout à fait inutile pour vous en tant que simple information. Nous avons besoin d'un moyen réel d'appliquer cela à nos propres stratégies de trading et spécifiquement en utilisant l'IA. Obtenez cela sur nos ordinateurs et faites-le fonctionner pour nous. Donc, vous allez obtenir quelques choses ici. La première chose que vous allez obtenir est une compétence Claude Code.
+
+[VISUEL: L'homme est de nouveau face caméra, avec l'interface Claude Code en surimpression. Une boîte de dialogue affiche "how can I help you?". Un fichier "one-shot-prompt.md" est glissé dans la boîte. Le texte "markov-regime - installing..." apparaît.]
+Cette compétence, vous pouvez l'installer sur votre ordinateur, surtout si vous utilisez Claude Code. Si vous n'utilisez pas Claude Code et n'importe quel autre LLM, vous pouvez en fait prendre le prompt unique et il l'apprendra simplement sur votre système, que ce soit Claude Code ou non. Mais cette compétence, ce système sera appliqué à n'importe quelle stratégie de trading que vous lui demanderez d'appliquer. Donc, si j'ai ma stratégie pour Bit Tensor et tous les sous-réseaux comme je le fais réellement dans la vie réelle, je peux copier-coller ce prompt dans mon Claude Code. Il peut l'apprendre et déterminer ce qui doit changer dans ma stratégie pour aller en accord avec cette méthode de hedge fund. Ce serait un prompt à copier-coller qui vous guidera du début à la fin. Très simplement, quel que soit votre niveau d'expérience avec l'IA ou avec le trading. Et puis, en guise de petit bonus, j'ai créé un script Pine. Comme je l'ai mentionné plus tôt, c'est un moyen de visualiser la grille 3x3 des probabilités sur votre graphique dans TradingView.
+
+[VISUEL: Graphique TradingView (ANY ASSET) avec l'indicateur "MARKOV REGIME" affiché. Le texte "FREE TO COPY & PASTE" est en haut.]
+Ce sera un copier-coller séparé que vous pourrez directement coller dans votre éditeur de script Pine sur TradingView. Donc, avec ça, passons au tutoriel.
+
+[VISUEL: Écran noir.]
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec un écran d'ordinateur affichant la page GitHub "markov-hedge-fund-method" en arrière-plan.]
+Bien. Donc, tout d'abord, vous allez aller à la première ligne dans la description de la vidéo, et vous serez amené à une page GitHub. La page GitHub va vous donner tout le code de tout ce sur quoi j'ai travaillé jusqu'à présent. Elle va vous donner le script Pine, le prompt unique à installer sur votre Claude Code ou n'importe quel LLM d'ailleurs. Et je vais vous guider sur la façon de faire cela. Donc, vous êtes arrivé sur GitHub en ce moment, et vous pouvez voir une série de choses.
+
+[VISUEL: La page GitHub défile vers le bas.]
+Si vous descendez et regardez, vous pouvez voir les deux éléments de ceci. La construction sur caméra que nous faisons en ce moment. C'est la méthode de hedge fund de Markov. Si vous cliquez dessus, cela ouvrira un lien dans un autre onglet. Et nous allons également cliquer sur le bonus du script Pine. Si vous allez utiliser cela pour TradingView. Donc, voici la compétence de la méthode de hedge fund de Markov que vous allez installer dans votre IA.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec l'interface Claude Code en arrière-plan. Il copie le texte de la page GitHub.]
+Donc, vous allez le copier à partir de ce moment, tout en bas. C'est toutes les informations que j'ai mises ensemble pour que vous puissiez créer cette compétence dans votre système. Donc, je l'ai copié.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec l'interface Claude Code en arrière-plan. Il colle le texte dans la boîte de dialogue et appuie sur Entrée.]
+Vous allez venir ici, vous allez cliquer sur coller et cliquer sur Entrée. Il y aura un processus d'intégration que vous suivrez, où il va simplement installer tout cela dans votre ordinateur.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec l'interface Claude Code en arrière-plan. Le processus d'installation se déroule, affichant des étapes comme "scaffolding the skill", "installing dependencies", "first run on SPY 10y".]
+Si vous êtes sur Claude Code, il va créer une compétence. Donc, chaque fois que vous avez une stratégie de trading, vous pouvez simplement dire : "Hé, peux-tu faire le Markov, exécuter la compétence Markov ici ?" Et il passera par tout le processus pour s'assurer que la stratégie est, vous savez, renforcée. Donc, il a dit : "Je vais installer la compétence de la méthode de hedge fund de Markov dans ce fichier en environ 90 secondes sur Mac et Linux, et jusqu'à 2-3 minutes sur Windows. Pas de clés, pas de comptes, pas de mots de passe administrateur. C'est le framework de Rowan sur RohOnChain, un modèle de régime de Markov observable qui construit une matrice de transition haussière, baissière, latérale à partir de n'importe quel ticker, résout la distribution stationnaire et exécute un rétro-test prospectif sans anticipation. Prêt ? (dites oui/go pour continuer)." Donc, si vous êtes prêt, vous tapez simplement "go" et cela lancera le processus.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec l'interface Claude Code en arrière-plan. Le processus d'installation est terminé, affichant "Markov-hedge-fund-method skill installed at...".]
+Et c'est essentiellement fait avec le processus. Maintenant, nous sommes à environ deux minutes et 21 secondes. Et vous pouvez voir que la phase quatre de tout ce processus d'intégration. Il dit qu'il va exécuter un régime de Markov sur le graphique SPY sur 10 ans. Et c'est juste une démo pour montrer que cela fonctionne en fait. Vous pourriez aussi, après cela, simplement dire : "Hé, exécute-le sur Bitcoin, exécute-le sur Ethereum", quoi que vous vouliez faire, et il appliquera le régime de Markov. Tout ce dont nous avons parlé aujourd'hui à cet actif, et cela peut vraiment être n'importe quel actif. Et juste comme ça, toute la compétence de la méthode de hedge fund de Markov a été installée. Donc, chaque fois que vous voulez l'utiliser sur une stratégie, vous tapez simplement "forward slash Markov" et vous pouvez voir la méthode de hedge fund. Vous tapez cela là, et ensuite vous parlez de votre stratégie ou quoi que ce soit. Et c'est comme ça que ça marche.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec la page GitHub du script Pine en arrière-plan.]
+Ensuite, nous allons juste parler de la façon dont nous pouvons appliquer le script Pine dans notre TradingView. Et tout ce que vous faites est de venir sur la page du script Pine dont nous avons parlé plus tôt.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec la page GitHub du script Pine en arrière-plan. Il clique sur le bouton "Copy raw file" (Copier le fichier brut).]
+Cliquez sur "Copier le fichier brut" juste ici.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec l'interface TradingView en arrière-plan. Il supprime un indicateur existant, puis ouvre l'éditeur Pine Script.]
+Ensuite, vous pouvez aller sur votre TradingView. J'ai déjà le mien installé, mais je vais le supprimer pour que vous puissiez le voir ou travailler sur le côté droit. C'est sur l'application de bureau, d'ailleurs. Nous avons une icône en forme de montagne, c'est l'icône du script Pine. Vous pouvez cliquer dessus. Et parfois, cela aide juste à faire ressortir cela un peu plus. Nous pouvons faire Ctrl+A ou Commande+A pour tout sélectionner, et nous voulons supprimer cela. Ensuite, nous allons cliquer sur Commande+V, ce qui est coller. C'est le script Pine juste ici.
+
+[VISUEL: L'homme est en petite vignette en bas à droite, avec l'interface TradingView en arrière-plan. Il colle le script Pine, puis clique sur le bouton "Add to chart" (Ajouter au graphique).]
+Et tout ce que nous voulons faire est de cliquer sur le bouton "Play" ici, qui est "Ajouter au graphique". Nous pouvons maintenant fermer cela et nous attendons qu'il apparaisse sur le graphique. Et rappelez-vous, c'est le graphique Bitcoin. Et voilà. Le régime de Markov a été affiché ici. Cela fonctionnera pour n'importe quel actif parce qu'il fait les calculs automatiquement. Et celui à regarder, évidemment, nous avons expliqué les neuf, les neuf sortes de vue de carte. Mais le mélange à long terme est celui que j'aime regarder. Donc, si nous regardons le pourcentage haussier pour demain, c'est 29 % de chances que demain soit un marché haussier. Demain étant un marché baissier, c'est 42 % de chances, et 29 % de chances qu'il soit latéral. Et donc ce marché baissier étant le pourcentage le plus élevé, la probabilité la plus élevée, c'est parce que nous avons un comportement baissier récemment, n'est-ce pas ? C'est juste un état "collant" comme nous en avons parlé. Donc, c'est comme ça que ça marche. Cela fonctionne ici. Je vais en fait aller changer le graphique. Peut-être que nous faisons, disons par exemple, XRP. Et encore une fois, il applique les chiffres pour XRP aussi. Et vous pouvez faire vraiment n'importe quoi ici. Je ne sais pas quoi d'autre je peux montrer. Actions, Tesla. Voilà. Le régime de Markov fonctionne pour cela aussi.
+
+[VISUEL: L'homme est de nouveau face caméra.]
+Bien. Donc, j'espère que vous en avez tiré un immense profit. C'est une partie d'une série potentielle sur le thème des stratégies quantitatives que nous pouvons utiliser l'IA pour implémenter. Si à un moment donné vous faites ce processus et que vous rencontrez un obstacle, vous pouvez toujours me contacter sur Zero One Systems. C'est le deuxième lien dans la description. C'est le seul endroit vraiment où je peux fournir des commentaires et aider les gens avec les problèmes qu'ils rencontrent en cours de route. Alors, jetez un coup d'œil si vous êtes intéressé, et je vous verrai dans le prochain.

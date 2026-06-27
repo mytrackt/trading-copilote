@@ -1,0 +1,18 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: lLOKH4ThTP0.mp4]
+---
+I cannot fulfill your request as stated because there are two significant discrepancies:
+
+1.  **Language:** The video provided is in **English**, not French. Your request specifies "transcription de videos de trading financier en francais".
+2.  **Speaker Identity:** The speaker in the video is **Rayner Teo**, a well-known financial trader and educator, not Mustapha Belkhayate.
+
+To avoid providing inaccurate information or misrepresenting the content, I need clarification. Please let me know:
+
+*   Would you like me to transcribe the **English audio** from this video?
+*   Would you like me to **translate the English audio into French** during the transcription?
+*   Should I still adhere to the detailed visual description rules you provided, even though the speaker is Rayner Teo and the language is English?
+
+Once I have this clarification, I will be able to proceed.

@@ -1,0 +1,182 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: jnJF0W2XgqA.mp4]
+---
+Voici la transcription détaillée de la vidéo, intégrant les descriptions visuelles et les règles demandées :
+
+[VISUEL: Un homme avec des lunettes et un micro devant lui, dans un bureau moderne avec des néons colorés et un robot blanc. Un logo orange avec une étoile stylisée apparaît en surimpression.]
+I use Claude Code to build this,
+[VISUEL: Le logo orange disparaît. Un écran d'ordinateur apparaît à droite, affichant un graphique de prix (ligne violette sur fond sombre) et des données de trading. Le titre "5A_VERIFIER minutes - Scalping bot" est visible en haut. Un chiffre "$15,588A_VERIFIER" apparaît en bas, puis change pour "$20,874A_VERIFIER", puis "$21,000A_VERIFIER".]
+5 minute scalping bot, and it made $21,000 in less than 90 days.
+[VISUEL: L'écran d'ordinateur disparaît. L'homme est de nouveau visible, parlant face caméra.]
+And in this video, I'm going to show you exactly how to build the same thing for yourselves in less than a weekend.
+[VISUEL: Des bulles de texte transparentes apparaissent à droite de l'homme, simulant des commentaires Twitter. Elles affichent des messages comme "@definitely_real "Claude made me $40K this week on Polymarket"", "@trust_me_bro "Automated Polymarket with AI - retired 🚀"", "@moon_lambo "AI bot hit $100K profit - screenshot proof"". Le mot "FAKE" apparaît sur chaque bulle.]
+By the end, you'll know why every AI prediction bot on Twitter is fake, and you'll have the exact prompt, workbook, and code to build your own working version.
+[VISUEL: Trois bulles de texte violettes apparaissent à gauche de l'homme, empilées verticalement : "Prompt", "Workbook", "Code".]
+And guys, if you don't know who I am, my name's David. I've been building trading systems for over 20 years.
+[VISUEL: Une barre d'abonnement YouTube apparaît en bas de l'écran avec "Trading with Davidtech" et un bouton "SUBSCRIBE!".]
+[VISUEL: Transition vers une animation. Texte "TRADING SYSTEMS" en haut. Un graphique de bougies avec des lignes de "BUY" et "SELL" est au centre. Des icônes "ANALYZE", "PLAN", "EXECUTE", "RISK MANAGEMENT" sont autour. Une flèche pointe vers "RESULTS" (graphique à barres). Une autre flèche pointe vers "20A_VERIFIER YEARS". Deux écrans de téléphone affichent des interfaces de trading avec des chiffres. Le logo "BYBIT" apparaît en grand.]
+Top traders on Bybit are running my strategies right now.
+[VISUEL: Le logo "BYBIT" disparaît. Un graphique de bougies avec des lignes de "BUY" et "SELL" apparaît. Le logo "BYBIT" réapparaît.]
+And I've been backtesting and making videos for over five years here on YouTube.
+[VISUEL: L'écran de téléphone disparaît. Une interface YouTube apparaît, montrant la chaîne "Trading with Davidtech" avec plusieurs vidéos de l'homme. Un logo YouTube rouge apparaît au centre.]
+[VISUEL: Le logo YouTube disparaît. L'homme est de nouveau visible. Un logo néon vert avec un signe dollar et le mot "Improve" apparaît à gauche.]
+I'm now using AI to improve my profit, as the AI space is full of noise, and my job is now to cut through it.
+[VISUEL: Le logo néon vert disparaît. Une barre d'abonnement YouTube apparaît en bas de l'écran avec des boutons "Like", "Subscribe", "Bell icon". L'homme clique sur "Subscribe" qui devient "SUBSCRIBED", puis sur la cloche qui devient "Bell icon with notifications".]
+And so, if that sounds good, don't forget to subscribe. I do videos every single week about AI and trading.
+[VISUEL: L'homme est de nouveau visible. Un écran d'ordinateur apparaît à droite, affichant un tableau de bord de trading sombre avec des graphiques et des chiffres. Le titre "CLAUDE SIGNAL" est visible en haut à gauche. Des chiffres comme "+$17,929A_VERIFIER" et "+$16,550A_VERIFIER" sont affichés.]
+Okay, so this is the dashboard that I built.
+[VISUEL: Le tableau de bord change légèrement, montrant des chiffres différents. Le texte "AI prediction market" apparaît en néon violet, puis "Polymarket" en dessous.]
+It runs on AI prediction markets on Polymarket. Specifically on the Bitcoin and Ethereum 5-minute and 15-minute up and down markets.
+[VISUEL: Des bulles de texte violettes apparaissent en bas de l'écran, affichant des durées ("5A_VERIFIER minute", "15A_VERIFIER minute") et des montants ("$12,953A_VERIFIER", "$20,727A_VERIFIER", "$21,000A_VERIFIER") avec des étiquettes "BTC/ETH 24A_VERIFIER/7A_VERIFIER markets", "90A_VERIFIER days", "uptime".]
+[VISUEL: Transition vers une animation. Texte "This AI has one single job". Un graphique de bougies apparaît. Une bougie est entourée d'un point d'interrogation, puis une flèche pointe vers la droite. Le texte "Predict the next candle" apparaît. Une icône de robot "BOT" apparaît à la place du point d'interrogation.]
+This AI has one single job: predict the next candle, and the bot trades the prediction.
+[VISUEL: L'homme est de nouveau visible.]
+And unlike everything else you've seen on Twitter, this one actually works.
+[VISUEL: Le texte "This one actually works" apparaît en surimpression.]
+Not because I'm special, but because this AI is the right AI for the job.
+[VISUEL: Le texte "The right AI for the job" apparaît en surimpression.]
+But before I show you how to build this, I need to tell you why I built it.
+[VISUEL: L'image devient floue, le texte "Why I built it?" apparaît en grand.]
+Because I wasn't trying to build anything, but more in the way I was actually trying to prove something was fake.
+[VISUEL: L'homme est de nouveau visible.]
+Here's the thing: every single AI trading bot you've seen on Twitter this year is basically the same thing.
+[VISUEL: Des captures d'écran de tweets apparaissent, montrant des tableaux de bord de trading et des textes vantant les profits d'IA.]
+Someone, somebody, somewhere wrapping ChatGPT or Claude and calling it a trading system.
+[VISUEL: Des logos de ChatGPT et Claude apparaissent de chaque côté de l'homme. Le texte "Trading system" apparaît en bas.]
+That's not a trading system, that's a chatbot holding a calculator.
+[VISUEL: Les logos disparaissent.]
+My X feed over the past couple of months has been absolutely rammed with all of this kind of stuff.
+[VISUEL: Des bulles de commentaires Twitter réapparaissent avec le mot "FAKE" en surimpression.]
+Every single day, "Claude made me $40,000 this week on Polymarket." "I automated Polymarket with ChatGPT and now I'm retired."
+[VISUEL: Les bulles disparaissent.]
+Screenshot after screenshot of dashboards that probably don't exist, and wallet balances that definitely don't.
+[VISUEL: L'homme est de nouveau visible.]
+Actually, while you're here, I want to show you exactly how easy it is to fake one of these. Just watch this.
+[VISUEL: L'homme est de nouveau visible, mais dans une petite fenêtre en haut à droite. L'écran principal montre l'interface de "Claude Design".]
+Okay, this is Claude Design. I'm going to give Claude one prompt, telling it exactly what I want, giving it a screenshot that I've found on X.
+[VISUEL: L'homme clique sur "Upload" dans l'interface de Claude Design. Il sélectionne deux images de tableaux de bord de trading. Il tape du texte dans la zone de description.]
+I'm not in the business of teaching people how to scam each other, so I'm not going to be sharing this prompt this time.
+[VISUEL: L'homme clique sur le bouton "Send".]
+Okay, so I'm going to hit send just here. It's going to go away and code exactly what I'm looking for. And in the meantime, I'm just going to explain to you why this doesn't work.
+[VISUEL: L'homme est de nouveau visible, l'image de Claude Design est floue en arrière-plan. Le texte néon "LLMs" apparaît en grand. Une croix rouge et le texte "Predicting financial markets" apparaissent. Une coche verte et le texte "Predict the next word" apparaissent.]
+LLMs like ChatGPT and Claude are not built for predicting financial markets. They're built to predict the next word in a sentence. Asking one of them to predict the price of Bitcoin is like asking a poet to solve a physics equation. It will give a beautiful answer, but it'll probably be completely wrong.
+[VISUEL: Le texte "Completely wrong" apparaît en surimpression.]
+What actually works is a different kind of AI: time series models.
+[VISUEL: Le texte "Time series models" apparaît en surimpression.]
+The same architecture that forecasts weather, traffic, and climate. Anywhere that you need to predict something with the next number of sequence.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre le tableau de bord généré par Claude Design, qui ressemble à celui montré au début de la vidéo. Il affiche des graphiques et des chiffres, avec un grand "+$17,929A_VERIFIER".]
+And boom, there you have it, coded in a couple of seconds. A dashboard that has zero utility other than being able to create a screenshot for X. Potentially the person that's putting it on X is actually there to scam you.
+[VISUEL: L'homme est de nouveau visible.]
+So, I'm going to be connecting exactly the same sort of dashboard over to Kronos, and we're going to be trying to test it over a 30-day period to see whether or not it can actually predict the markets and be profitable.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre l'interface de Claude Code. L'homme clique sur un bouton "Allow access".]
+Like I said, you'll be able to follow along all of this. Everything is free, and you'll be able to get access to all of my workbooks. Just comment AI down below, and I will send everything to you.
+[VISUEL: L'homme est de nouveau visible.]
+Hello guys, I'm not above you. I followed and commented on so many Twitter traders and clicked on threads. I've commented AI on all of these arbitrage bots, or whatever you call them, to try and find my own edge on Polymarket.
+[VISUEL: Le texte "AI" apparaît en grand à droite.]
+Most of them are arbitrage bots, which try and find a price gap between Polymarket and centralized exchanges like Bybit.
+[VISUEL: Le logo "BYBIT" apparaît en grand.]
+Which potentially could work. And that's work until you add things like fees, and the competition starts to grow.
+[VISUEL: Des bulles de texte violettes apparaissent : "Fees", "Competition grows".]
+And then you're just in a rat race to see who can buy the biggest, fastest, and the strongest machine to make sure that they get the first entries.
+[VISUEL: L'homme est de nouveau visible.]
+The rest is just straight up fake screenshots.
+[VISUEL: Une capture d'écran d'un tableau de bord de trading apparaît à droite, avec le texte "Fake screenshots" en surimpression.]
+It pissed me off enough to spend a whole weekend building my own version.
+[VISUEL: Le texte "Building my own version" apparaît en surimpression.]
+Not selling anything, I'm just here to prove to myself that this is total bullshit.
+[VISUEL: Un son de klaxon retentit. L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre un graphique de prix violet sur fond sombre. Le titre "KRO TRADER // Polymarket Signal Terminal" est visible en haut. Des chiffres comme "$2,239A_VERIFIER.97A_VERIFIER" sont affichés.]
+Funny thing happened. After a couple of days of testing, I came across a guy on Instagram who was talking about Kronos.
+[VISUEL: Le texte "Kronos" apparaît en surimpression.]
+And somebody from my community called Vlad has actually been talking about Kronos for about two or three weeks now.
+[VISUEL: L'homme est de nouveau visible.]
+Let's get back over to my screen, and let's go through step by step the workflow that I put in place to build my own dashboard that helps me predict Polymarket, and which turned 100 euros into 2,000 euros in less than 30 days.
+[VISUEL: Le texte "Step by step" apparaît en surimpression.]
+[VISUEL: Transition vers une animation. Texte "STARTED WITH €100A_VERIFIER POLYMARKET" à gauche. Une flèche "20X" pointe vers "TURNED INTO €1,389A_VERIFIER AI DASHBOARD" à droite. Le montant change pour "€1,988A_VERIFIER", puis "€2,000A_VERIFIER". Le texte "Less than 30A_VERIFIER days" apparaît en haut.]
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre le tableau de bord de trading. Le graphique de prix est violet. Des sections "KRONOS FORECAST", "KRONOS SIGNAL", "LIVE MARKETS", "BACKTEST ENGINE", "TRADE LEDGER" sont visibles.]
+Okay, before I show you how to build this yourself step by step, let me quickly show you the dashboard and how everything works. So you get a hands-on feeling of how things are actually put together.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre le tableau de bord. L'homme pointe du doigt différentes sections.]
+Okay, so to this system, as you can see, this is the dashboard. It's called a Kro Terminal, after the name of the AI that we're using.
+[VISUEL: L'homme pointe le graphique de prix. Le prix actuel est d'environ "$75,600A_VERIFIER". Une prédiction future est visible.]
+The dashboard is put together by several parts. First of all, we have our Kronos chart here, which we can see the current price of Bitcoin and its prediction on what it thinks the price will go to.
+[VISUEL: L'homme pointe la section "KRONOS SIGNAL". La direction est "UP" avec une confiance de "54A_VERIFIER%". L'avantage du modèle par rapport au marché est de "+3.13A_VERIFIER%".]
+Here in the middle, we have our Kronos signal, which is going to tell you what the prediction is, its confidence, and all of the other indicators that we put in. We have an edge of 3%. Now, on this part, it's vital because it tells us whether we have an edge using Kronos, but not only that, we need the odds to be in our favor so that we can actually make money.
+[VISUEL: L'homme pointe la section "BACKTEST ENGINE". Deux graphiques d'équité sont visibles, montrant une croissance. Des statistiques comme "BETS", "WINS", "LOSSES", "WIN %", "AVG ROI", "CUM. PNL" sont affichées. Le premier graphique est "NO-IND KELLY" avec un PNL cumulé de "+$4.A_VERIFIER2k". Le second est "NO-IND KELLY + MARTINGALE" avec un PNL cumulé de "+$23.A_VERIFIER3k".]
+Further down, we have a little bit of news, but that's neither here nor there. But this is where we can see our equity curve and how it is growing. And we have our engine at the bottom here, which where we can see the actual equity curve growing live day by day, hour by hour, minute by minute.
+[VISUEL: L'homme pointe les statistiques du "BACKTEST ENGINE".]
+So, as you can see, to make the edge a little bit better, let me just scroll back up here. We have tested this on 200,000 trials. There were 15,000 bets in total, 7,000 wins. And as you can see, the best models were actually the Kronos with a couple of indicators.
+[VISUEL: L'homme pointe les graphiques d'équité. Le PNL cumulé pour "NO-IND KELLY" est de "+$12.A_VERIFIER3k" en 3A_VERIFIER mois. Pour "NO-IND KELLY + MARTINGALE", il est de "+$23.A_VERIFIER3k".]
+What I did here is I added some ATR bands and added kind of a gate to stop us taking so many trades. We've used the ATR to make sure that there's enough volatility in the market, and the ADX to make sure that we're not sitting in a sideways-moving market. Next, a little bit further down, we have our position size. Position size, as an algo trader, I've actually found to be one of the most important parts. You never want to bet on a lower probability trade as much as you do on a high probability trade. So here we've used the Kelly ratio here to give us a better edge. And that has transformed our equity curve immensely and gave us $12,300 of profit in three months. I also wanted to try a betting system called Martingale. Martingale isn't really the best of ideas. What it is, is as soon as you make a loss, you double your position size. So we made a Martingale plus Kelly here, which has actually come out to make even more money. This has made over 90 days $23,300, which is absolutely insane.
+[VISUEL: L'homme pointe les différentes paires de trading (ETH 15M, BTC 5M, etc.) dans la section "LIFETIME - ALL MARKETS".]
+So, let's have a look very, very quickly. As you can see, on both Bitcoin and Ethereum on the 5-minute, we did 50,000 trials, and on 15-minute as well. From the research, I found that the 5-minute scalping has been absolutely a killer, and the 15-minute hasn't reacted quite that as well.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre le tableau de bord.]
+So to build all of this, as I said earlier, we're relying on Claude Code to build this, and a GitHub repository called Kronos.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre la page GitHub du projet "Kronos".]
+Now Kronos was built, as I said earlier, on time series data, which is an AI which is actually built for predicting numbers and not words. And this one here has been particularly trained on financial data.
+[VISUEL: L'homme fait défiler la page GitHub, montrant les différents modèles Kronos disponibles (mini, small, base, large) avec leurs paramètres et leur statut open-source.]
+If I scroll down, you can see the models that are available. They are all open-source, as you can see. I used this base model here, which I was also able to run on my Mac Mini and my MacBook Pro without any problems.
+[VISUEL: L'homme fait défiler la page GitHub, montrant les instructions d'installation et d'utilisation du modèle Kronos avec des extraits de code Python.]
+So the installation of this is pretty simple. You can use Python or something like that. But I have made you this absolutely wonderful, fully detailed workbook, so you can go through building your own dashboard and installing it just by prompting Claude.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre la page d'accueil de "Strategy Factory.ai" avec le titre "Building a Kronos-Powered Polymarket Research Terminal".]
+[VISUEL: L'homme est de nouveau visible.]
+Alright, I'm about to walk you through the four steps of the full workbook, every prompt, every line of code, every API setup.
+[VISUEL: Des bulles de texte violettes apparaissent : "Workbook", "Prompt", "Code", "API set up".]
+And if you want the workbook, don't forget to drop AI down in the comments down below. It's free and yours to use, so you can follow along or build this a bit later.
+[VISUEL: Le texte "AI" apparaît en grand à droite, avec une zone de commentaire "Leave a comment!" en dessous.]
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre la page du workbook avec des sections et du code.]
+Here's how long it took me. I mean, this workbook is tons and tons of information and lots and lots of steps to guide you. You have the creation of the database, the creation of the dashboard, the creation of the actual connector over to Kronos.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre l'interface de "Claude Design" avec le tableau de bord généré précédemment.]
+But it is simple. I'm going to show you the steps to get your AI to build this for you. The first step: we're going to go over to Claude Design, and we're going to download that dashboard we made earlier.
+[VISUEL: L'homme clique sur le bouton "Share" dans Claude Design, puis sélectionne "Export as standalone HTML".]
+Now, if you don't remember how to do that, we just literally go over to Twitter, find somebody else's, take a screenshot, and literally put it in there and ask it to copy that design. I'm then going to go over to the share button over here and download the standalone HTML.
+[VISUEL: L'homme est de nouveau visible.]
+Now, of course, you don't want to just take somebody else's design. You will be able to modify and change this as you go along, but this is just a quick way of getting started.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre l'interface de Claude Code.]
+While that is actually generating, it will take a couple of seconds. As you can see on the side here, the Claude is actually building the standalone version. We're going to open Claude Code.
+[VISUEL: L'homme clique sur l'icône "Code" dans Claude Code, puis sur "Open folder" et crée un nouveau dossier "KroTrader2".]
+So to do that, we need to go over to our sidebar here and just click on Claude Code. If you don't have Claude Code already, it's pretty simple to find. Just go to claude.com/download, and you'll be able to download Claude for your OS just here. I'm on Mac, so I'm going to be using the Mac version just here.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre l'interface de Claude Code. L'homme clique sur l'icône "Code" et ouvre le dossier "KroTrader2".]
+Next, we're going to open Claude, and we're going to navigate to the code section just here. And we're going to open a brand new folder.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre l'interface de Claude Design, puis le téléchargement du fichier HTML généré.]
+Next, download our standalone HTML version. And we're going to upload that to Claude.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre la page du workbook "Strategy Factory.ai". L'homme sélectionne et copie le texte de la page.]
+Finally, we're going to go over to our workbook just here, and we're just going to press Control A, Control C on the actual keyboard. Going back to Claude Code over here, and we're going to Control V, add that in there.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre l'interface de Claude Code. L'homme colle le texte copié dans la zone de prompt.]
+That's going to give Claude Code all of the information it needs to build out this dashboard and connect it over to Kronos. So, I'm going to first of all give it a quick prompt.
+[VISUEL: L'homme parle dans le micro. Le texte de son prompt apparaît dans Claude Code.]
+"Hey there, buddy. Right, today you're going to be building a dashboard powered by Kronos AI, which is going to help me predict 5-minute and 10-minute charts on Polymarket. I'd like you to read the spec below, which is a workbook that gives you all the information to get started. I've also included an HTML page, which will give you the style of the actual dashboard that I'd like you to build. Remember that you are a top 0.1% developer, and your objective is to blow my socks off. Take a breath, take a couple of seconds, think about it, and execute."
+[VISUEL: L'homme clique sur "Enter" dans Claude Code. Une boîte de dialogue "Trust this workspace?" apparaît. L'homme clique sur "Trust workspace". Claude Code commence à s'exécuter, affichant "Running session".]
+Right, we're ready to go. We're going to hit that enter, and we're going to trust our workspace. Okay, so that is step number two. So we've created our dashboard, which we did earlier in the design section. We've given our workbook and full prompt over to Claude Code. It's going to go through all of those steps, build out your dashboard, and connect it over to Kronos. Let's connect, press OK once, and let's leave it in the background actually working for us.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre la page du workbook, section "Fast Historical Backfill".]
+Okay, let's go back to our workbook. Now that Claude is coding your dashboard for us, we're going to have to run a couple of commands. The first being the backtester.
+[VISUEL: L'homme pointe la section "Backfill Commands" qui contient des lignes de code Bash.]
+The backtester allows us to download all of the data from Polymarket and do some tests.
+[VISUEL: L'homme est de nouveau visible.]
+You're probably here for a reason. Like me, you didn't trust anything on Twitter that you've seen over the past couple of months. And backtesting is the only way for us to actually prove that potentially this strategy will work on a live market.
+[VISUEL: Le texte "Live market" apparaît en surimpression.]
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre la page du workbook, section "Backfill Commands". L'homme copie les lignes de code Bash.]
+So in our workbook, we have a full section about how to backtest this strategy. It's very simple, it takes a little bit of time, but you literally have to go into the folder where Claude Code is installed and run this command.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre un terminal Mac avec des lignes de code Bash en cours d'exécution, affichant des résultats de backtest (BET, Payout, Edge, Volatility, etc.).]
+In the background, that will then run a backtest that will probably take at least an hour, if not a little bit more, and look something very much like this. What this is doing is comparing data to historical data to see how well or not your strategies will work. Now, included in this, there are four strategies that I put together for you guys. The first one is Kronos with the naked signal, no other confluence whatsoever. I then added a second one, which is Kronos plus some indicators, which will try to gatekeep some bad entries. And then the other two are the position sizing that I talked about earlier: Kelly ratio and Martingale. All of them can be backtested. Like I said, it'll take you about an hour or so to backtest all of them for around three months of data.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre la page du workbook, section "Dashboard Source Switch".]
+Once you're done, you'll have a dashboard that will look like this with the backtesting results.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre l'interface de Claude Code, avec le message "Claude has finished coding". Un lien URL est visible.]
+Okay, after about 30 minutes, Claude has finished coding, as you can see just here. We have our URL, our link to our new dashboard, and even instructions on how to launch the backtesting versus live trading. So I'm going to click here, and we're going to open the browser.
+[VISUEL: L'homme est de nouveau visible dans une petite fenêtre. L'écran principal montre le tableau de bord de trading dans un navigateur web. Il ressemble à celui montré au début, avec des graphiques de prix, des prédictions "UP" et des chiffres.]
+And we'll have a dashboard that looks like this. As you can see, it looks nothing like the first one I showed you. We have some dummy data in there as well, and we have our price data already populated. And we have almost everything that we had in the dashboard that I did before. We just need to go to search and type terminal, and then drop in the code from Claude just here, in our terminal, and that will start the backtesting process. And once the backtesting is done, and you're happy with the strategy, inside the workbook, you'll find how to convert over to live trading.
+[VISUEL: L'homme est de nouveau visible.]
+Guys, talking about an AI prediction market bot is one thing, but actually seeing one work in real time is completely different. And if you enjoyed this video and found it was helpful, if you don't mind just giving it a good old thumbs up. Really helps spread the word about the channel.
+[VISUEL: Une barre d'abonnement YouTube apparaît en bas de l'écran avec des boutons "Like", "Subscribe", "Bell icon". L'homme clique sur "Like", puis sur "Subscribe" qui devient "SUBSCRIBED", puis sur la cloche qui devient "Bell icon with notifications".]
+And don't forget, you can get the full workbook with instructions, how to set everything up step by step for free. The link will be in the description, or just comment AI, and I will send it to you for free.
+[VISUEL: Une bulle de texte violette "Workbook" apparaît à gauche, et "AI" à droite, avec une zone de commentaire "Leave a comment!" en dessous.]
+I said there were four steps. The four steps is creating your own personalized dashboard. I've given you the baseline, I've given you the starter project. Now it's for you and your imagination to add and improve this dashboard.
+[VISUEL: Le texte "4A_VERIFIER Steps" apparaît en néon violet. Puis "Creating your own personalized dashboard", "Base line", "Starter project", "Add and improve this dashboard" apparaissent en surimpression.]
+You can add things like copy trading, finding smart money wallets on-chain, on Polymarket, and actually getting alerts when those people actually take trades. And all of these wonderful things can be added to your dashboard just by speaking natural language to Claude, who will actually work everything out from A to Z for you, so you don't even have to learn to code.
+[VISUEL: Le logo orange avec l'étoile stylisée de Claude apparaît en surimpression.]
+So guys, that's it. You have my workbook, you have my prompts, you have absolutely everything to get started. Hopefully, building yourself a profitable AI-driven Polymarket bot.
+[VISUEL: L'homme est de nouveau visible.]
+Without further ado, guys, I'm going to wish you an absolutely wonderful day. Take care, keep safe, trade like a boss, and I will see you in the next one. Goodbye!
+[VISUEL: Une barre d'abonnement YouTube apparaît en bas de l'écran avec "Trading with Davidtech" et un bouton "SUBSCRIBED" avec la cloche activée.]
+[VISUEL: Transition vers une animation de fin. Un personnage de dessin animé de l'homme apparaît, souriant, avec le texte "DAVIDDTECH.COM" et "Trade like a BOSS!". Des graphiques de trading sont en arrière-plan.]

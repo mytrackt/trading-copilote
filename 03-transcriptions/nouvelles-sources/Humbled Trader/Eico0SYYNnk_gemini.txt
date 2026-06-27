@@ -1,0 +1,682 @@
+[QUALITE_VIDEO: MOYENNE_APPROX]
+[TYPE: COURS_PEDAGOGIQUE]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-26]
+[SOURCE: Eico0SYYNnk.mp4]
+---
+Voici la transcription détaillée de la vidéo, intégrant les descriptions visuelles et les règles énoncées.
+
+00:00
+[VISUEL: Une femme est assise devant un écran d'ordinateur affichant la plateforme de trading Interactive Brokers. L'écran est divisé en plusieurs fenêtres montrant des graphiques boursiers (candlesticks), des carnets d'ordres, des détails de cotation et des actualités. Une fenêtre "Rapid Order Entry" est visible à gauche, affichant le ticker NVDA. Des flèches et des cercles jaunes apparaissent pour mettre en évidence des éléments de l'interface.]
+Dans cette vidéo, nous allons passer en revue la nouvelle plateforme Interactive Brokers.
+
+00:03
+[VISUEL: Le logo "Interactive Brokers" apparaît au centre de l'écran. Le texte "IBKR DESKTOP" s'affiche en gros caractères. Des flèches jaunes pointent vers les graphiques et le carnet d'ordres.]
+IBKR Desktop.
+
+00:06
+[VISUEL: L'écran est divisé en deux. À gauche, une interface de trading plus ancienne et complexe avec de nombreuses fenêtres superposées et des menus détaillés. À droite, l'interface IBKR Desktop, plus épurée. La femme gesticule en comparant les deux interfaces. Une petite vignette en bas à gauche montre la femme en train de manipuler un écran.]
+Contrairement à leur plateforme originale, qui est plus ancienne et qui existe depuis 2000,
+
+00:13
+[VISUEL: Le texte "TWS (Trader Workstation)" apparaît en gros caractères sur la partie gauche de l'écran, désignant l'ancienne interface. Une flèche pointe vers cette interface.]
+qui est TWS, Trader Workstation.
+
+00:15
+[VISUEL: L'écran est à nouveau divisé en deux par une déchirure verticale. À gauche, l'interface IBKR Desktop avec des graphiques de Tesla. À droite, la femme gesticule, souriante. Le texte "IBKR DESKTOP" apparaît en gros caractères sur la partie gauche de l'écran, avec une flèche pointant vers l'interface.]
+Comparée à cela, cette nouvelle plateforme, l'Interactive Brokers Desktop, est beaucoup plus conviviale pour les débutants et moins compliquée.
+
+00:24
+[VISUEL: L'écran devient vert avec un tableau noir au centre. Le titre "DEMO CHAPTERS" est écrit en haut. La femme est devant le tableau, expliquant les chapitres.]
+Nous allons passer en revue comment personnaliser la mise en page, les paramètres des graphiques, les indicateurs, l'entrée d'ordres, les raccourcis clavier, la liste de surveillance et l'utilisation du screener.
+
+00:27
+[VISUEL: Des icônes de crayon et des titres de chapitres apparaissent sur le tableau noir au fur et à mesure que la femme les énumère : "Layout", "Chart Settings", "Indicators", "Order Entry", "Hotkeys", "Watchlist", "Screener".]
+[REGLE: La vidéo couvrira les chapitres suivants : Layout, Chart Settings, Indicators, Order Entry, Hotkeys, Watchlist, Screener.]
+Donc, à la fin de cette vidéo, vous saurez comment personnaliser et utiliser cette plateforme Interactive Brokers Desktop pour l'adapter à votre propre style de trading.
+
+00:45
+[VISUEL: La femme est assise à son bureau de trading, avec plusieurs écrans derrière elle et une statue de taureau doré sur le bureau. Le texte "Shay Huang Founder of Humbled Trader" apparaît à l'écran.]
+Mon nom est Shay, alias Humbled Trader.
+
+00:48
+[VISUEL: L'écran est divisé en deux, montrant la femme en train de trader sur deux configurations d'écrans différentes. Le texte "10A_VERIFIER+ years" apparaît.]
+Je trade depuis plus de 10 ans maintenant.
+
+00:50
+[VISUEL: L'écran redevient vert. Une interface de trading plus ancienne (TWS) est affichée, avec des graphiques et des données. La femme est visible dans une petite vignette en bas à gauche.]
+Et Interactive Brokers a été le premier courtier avec lequel j'ai commencé il y a de nombreuses années.
+
+00:55
+[VISUEL: Un graphique boursier est affiché en gros plan, avec des flèches rouges pointant vers des lignes horizontales étiquetées "Take Profit" et "Stop Out". La femme est dans la vignette, expliquant.]
+Et je l'utilise toujours à ce jour.
+
+00:58
+[VISUEL: La femme est de retour à son bureau. Une déchirure verticale apparaît à l'écran.]
+Alors, soyez assurés que vous êtes entre de bonnes mains.
+
+01:00
+[VISUEL: Le texte "CHAPTERS" apparaît en bas de l'écran avec une icône de doigt pointant vers le bas.]
+Je vais laisser tous les horodatages pour les différents chapitres ci-dessous, afin que vous puissiez suivre.
+
+01:04
+[VISUEL: Un effet de lumière orange intense remplit l'écran, puis s'estompe.]
+
+01:05
+[VISUEL: La femme est à son bureau. Une barre d'abonnement YouTube apparaît en bas, avec le nom "Humbled Trader" et les boutons "Like" et "Subscribe".]
+Maintenant, sans plus tarder, n'oubliez pas d'appuyer sur le bouton "J'aime" ci-dessous. J'apprécie vraiment cela. Maintenant, commençons.
+
+01:11
+[VISUEL: Une déchirure verticale apparaît à l'écran.]
+
+01:12
+[VISUEL: L'écran redevient vert. Le numéro "#1A_VERIFIER" et le titre "LAYOUT" apparaissent. Un diagramme de la plateforme IBKR Desktop est affiché, avec différentes sections encadrées en rouge et étiquetées : "Order Entry", "Daily Chart", "Intraday Chart", "Portfolio", "Quote Details", "Order Table", "News", "Watchlist".]
+Alors, commençons par la mise en page d'IBKR Desktop.
+
+01:16
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée. Une barre jaune apparaît en bas de l'écran. La femme pointe du doigt différentes sections de l'interface.]
+Vous pouvez voir que dans ma mise en page, j'ai étiqueté "Day trading".
+
+01:18
+[VISUEL: Gros plan sur la barre supérieure de l'interface, montrant les onglets "Day trading" et "Options Trading". La femme pointe l'onglet "Day trading".]
+Vous pouvez renommer toutes ces mises en page plus tard.
+
+01:21
+[VISUEL: Retour à la vue d'ensemble de l'interface. Des cadres rouges apparaissent autour des deux graphiques, étiquetés "Chart". Puis autour de la section "Order Entry", "Order Details", "Order Table", "Portfolio", "Watchlist".]
+J'ai deux graphiques ici, j'ai l'entrée d'ordres, j'ai les détails d'ordres, le tableau d'ordres, le portefeuille, la liste de surveillance ici.
+
+01:29
+[VISUEL: La femme pointe un bouton "+" en haut de l'interface.]
+Alors, comment y arriver ? Vous pouvez commencer avec certains de leurs modèles par défaut.
+
+01:33
+[VISUEL: Gros plan sur le bouton "+". Un menu déroulant apparaît avec les options "Basic Trading", "Options Trading", "Custom Layout". La femme clique sur "Basic Trading".]
+Cliquez sur cette icône ici, et cliquez sur "Basic Trading".
+
+01:38
+[VISUEL: L'interface affiche maintenant la mise en page par défaut "Basic Trading", qui est plus simple. Un seul graphique est visible. La femme continue de manipuler l'interface.]
+C'est un bon point de départ. Donc, une fois que vous êtes en "Basic Trading", vous pouvez voir que c'est essentiellement ce que j'ai là-bas.
+
+01:45
+[VISUEL: La femme commence à personnaliser la mise en page. Elle déplace le tableau d'ordres vers le bas, puis ajoute un deuxième graphique à partir du menu "Custom Layout Tool Box" (icône en haut à droite).]
+Donc, vous pouvez le personnaliser un peu ici. Je veux avoir deux graphiques. Nous pouvons avoir le tableau d'ordres en bas. Euh, peut-être avoir plus de graphiques, plus d'un.
+
+02:04
+[VISUEL: Gros plan sur l'icône "Custom Layout Tool Box" (un carré avec des points) en haut à droite. La femme clique dessus. Un menu apparaît avec différentes fenêtres de trading. Elle sélectionne "Chart".]
+Donc, pour faire apparaître une nouvelle fenêtre, allez à cette icône ici, cliquez dessus. Et ce que nous cherchons, c'est un graphique, qui est ici.
+
+02:15
+[VISUEL: Un nouveau graphique apparaît. La femme le redimensionne et le place à côté du premier graphique. Elle les aligne côte à côte.]
+Il y a un graphique ici. Ok, c'est bon. Mettons-les côte à côte.
+
+02:24
+[VISUEL: Les deux graphiques sont côte à côte. Le graphique de gauche est étiqueté "Daily Chart", celui de droite "Intraday Chart".]
+J'aime généralement avoir un graphique journalier sur le côté gauche et un graphique intraday sur le côté droit.
+
+02:29
+[VISUEL: La femme clique à nouveau sur l'icône "Custom Layout Tool Box".]
+Ok, voyons ce que nous pouvons mettre d'autre dans le coin inférieur ici.
+
+02:33
+[VISUEL: Le menu "Custom Layout Tool Box" est ouvert. La femme sélectionne "Quote Details".]
+Nous pouvons mettre les détails de cotation ici.
+
+02:36
+[VISUEL: La fenêtre "Quote Details" apparaît et la femme la place en bas à gauche, sous l'entrée d'ordres. Le texte "Quote Details" apparaît.]
+C'est comme ça que j'aime généralement avoir ces détails de cotation.
+
+02:41
+[VISUEL: La femme clique à nouveau sur l'icône "Custom Layout Tool Box". Elle fait défiler les options.]
+Nous avons déjà le tableau d'ordres. À propos. Actualités, nous avons cela. Graphique, nous avons cela.
+
+02:50
+[VISUEL: Elle pointe vers "Option Chain".]
+Vous pouvez avoir une chaîne d'options si vous tradez des options, mais je ne le fais pas.
+
+02:53
+[VISUEL: Elle clique sur "Option Chain", qui apparaît, puis elle la ferme rapidement.]
+Euh, donc, mais nous pouvons juste la faire apparaître ici. Chaîne d'options, tableau d'ordres. Mettons-les côte à côte ici.
+
+03:06
+[VISUEL: Elle ferme la fenêtre "Option Chain".]
+Ok, nous allons juste la supprimer. Désolé pour ça.
+
+03:07
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée avec la mise en page personnalisée. Des cadres rouges apparaissent autour de chaque section, étiquetées : "Order Entry", "Quote Details", "Order Table", "Daily Chart", "Intraday Chart", "Portfolio", "Watchlist", "News".]
+Ok, donc c'est une mise en page vraiment simple. Pas trop fantaisiste. Ils n'ont pas beaucoup d'options.
+
+03:14
+[VISUEL: Le texte "*IBKR Desktop does not offer level 2A_VERIFIER and time & sales" apparaît en bas de l'écran.]
+Vous pouvez voir qu'il leur manque, par exemple, le montage, qui est le niveau 2, et il leur manque également le temps et les ventes. Donc, c'est quelque chose que vous voulez garder à l'esprit.
+
+03:22
+[VISUEL: La femme clique sur l'icône "Custom Layout Tool Box" et sélectionne "Rapid Order Entry". Elle la place en haut à gauche.]
+Donc, nous allons mettre l'entrée d'ordres rapide ici. Ou vous pouvez mettre, nous avons déjà le tableau d'ordres. Ok, nous allons mettre l'entrée d'ordres rapide.
+
+03:31
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée avec la mise en page finale. Des cadres rouges et des étiquettes apparaissent autour de chaque section : "Order Entry", "Quote Details", "Order Table", "Daily Chart", "Intraday Chart", "Portfolio", "Watchlist", "News".]
+Cela m'a pris un certain temps, mais c'est la mise en page que j'aime généralement. Vous pouvez voir l'entrée d'ordres sur le côté gauche ici, les détails de cotation, quelque chose sur l'action, tous les détails ici. Le tableau d'ordres, vous montrant tous les ordres que j'ai pris. Euh, vous avez le graphique journalier, que nous allons passer en revue les paramètres du graphique, le graphique journalier. Le graphique intraday ici. Et nous avons le portefeuille, toutes les positions actuelles. La liste de surveillance et les actualités ici.
+
+03:58
+[VISUEL: Gros plan sur les icônes de lien (chaîne) en haut de chaque fenêtre. Elles sont de différentes couleurs. La femme pointe du doigt ces icônes.]
+Maintenant, vous pouvez voir qu'avec toutes ces fenêtres, il y a cette icône de lien de couleur différente ici. Cela relie toutes les fenêtres ensemble.
+
+04:05
+[VISUEL: La femme change le symbole boursier de TSLA à META dans la barre de recherche d'un graphique. Toutes les fenêtres liées (graphiques, entrée d'ordres, actualités) se mettent à jour avec les données de META.]
+Donc, quand je change le symbole boursier, disons que je change cela en Meta, ils se mettent tous à jour ensemble. Donc, par exemple, vous pouvez avoir des graphiques qui sont des liens différents, liés à un graphique différent. Certaines personnes aiment faire ça. Euh, donc ça marcherait aussi.
+
+04:25
+[VISUEL: La femme clique sur les icônes de lien pour s'assurer qu'elles sont toutes de la même couleur (orange), indiquant qu'elles sont toutes liées.]
+Euh, mais pour cette démo, je vais juste les lier tous ensemble. Ok, donc ils sont tous le lien orange. C'est ainsi que vous vous assurez que toutes les fenêtres sont synchronisées. Donc, quand vous changez un ticker, il se met à jour partout.
+
+04:33
+[VISUEL: La femme est à son bureau, tapant sur son clavier.]
+Ok, donc maintenant que nous avons parlé de la mise en page, c'est assez simple.
+
+04:38
+[VISUEL: L'écran redevient vert. Le numéro "#2A_VERIFIER" et le titre "CHART SETTINGS" apparaissent. Un graphique boursier est affiché, avec une fenêtre "Chart settings" ouverte par-dessus.]
+Parlons maintenant des paramètres du graphique.
+
+04:40
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée avec deux graphiques. Elle maximise le graphique de gauche.]
+Donc, vous pouvez voir que nous avons les deux graphiques ici. Euh, allons-y, maximisons ce graphique pour que nous puissions le voir plus facilement ici. Ok.
+
+04:50
+[VISUEL: Le graphique maximisé de META est affiché. Le texte "Tradingview Chart" apparaît.]
+C'est un graphique Tradingview assez intuitif.
+
+04:57
+[VISUEL: L'écran est divisé en deux. À gauche, un graphique de l'ancienne plateforme TWS ("IBKR TWS CLASSIC CHART"). À droite, le graphique actuel d'IBKR Desktop ("IBKR DESKTOP CHART").]
+Euh, c'est beaucoup plus intuitif que les graphiques classiques qu'ils avaient sur leur Interactive Brokers TWS là-bas.
+
+05:04
+[VISUEL: La femme clique sur le sélecteur de timeframe en haut du graphique. Un menu déroulant apparaît avec différentes options (30s, 1m, 2m, 5m, 10m, 15m, 30m, 1h, 2h, 4h, 1d, 1w, 1m). Elle sélectionne 5A_VERIFIER minutes, puis 1A_VERIFIER jour, puis 1A_VERIFIER heure. Elle clique sur les étoiles à côté de 2A_VERIFIER minutes et 1A_VERIFIER jour pour les ajouter aux favoris.]
+C'est là que vous changez votre timeframe. Donc, vous pouvez le changer en 5 minutes, journalier, 1 heure. Vous pouvez mettre en favoris ceux que vous utilisez beaucoup. Donc, j'ai utilisé 5 minutes, 2 minutes beaucoup. Vous pouvez voir que ça s'affiche sur la barre ici. Et le graphique d'un jour. Donc, je peux juste cliquer pour basculer très rapidement ici après l'avoir mis en favoris. Ok, donc c'est très utile.
+
+05:24
+[VISUEL: La femme fait un clic droit sur le graphique et sélectionne "Settings". Une fenêtre "Chart settings" apparaît.]
+Ensuite, parlons des paramètres du graphique. Donc, clic droit, allez dans les paramètres. Nous allons configurer certaines choses.
+
+05:31
+[VISUEL: Dans la fenêtre "Chart settings", sous l'onglet "Symbol", la femme clique sur le menu déroulant "Timezone". Elle sélectionne "New York".]
+Euh, donc, assurez-vous que le fuseau horaire, comme je ne sais pas pourquoi, je suis à Vancouver en ce moment. Je ne sais pas où vous êtes, mais euh, je suis sur le fuseau horaire de la côte ouest. Donc, évidemment, je veux changer cela pour le fuseau horaire de New York.
+
+05:43
+[VISUEL: Elle clique sur "OK". Le graphique se met à jour. Elle retourne dans les paramètres du graphique.]
+Donc, cliquez sur "OK", cela devrait mettre à jour l'heure. C'est bon. Retournez dans les paramètres.
+
+05:48
+[VISUEL: Dans l'onglet "Symbol", elle coche la case "Color bars based on previous close". Elle vérifie les couleurs des bougies (Body, Borders, Wick) qui sont rouge et vert. Elle clique sur l'onglet "Status line".]
+Je vais cliquer sur ça, activer ça. Et les couleurs me semblent bonnes. Ligne d'état. Voyons voir.
+
+05:56
+[VISUEL: Dans l'onglet "Status line", elle décoche "Volume". Elle vérifie les options "Titles", "Arguments", "Values", "Background". Elle ajuste le curseur de "Background".]
+C'est le paramètre ici. Honnêtement, je ne regarde pas vraiment ça, donc je vais le masquer. Indicateurs. Vous pouvez voir qu'il vous montre les indicateurs à gauche. Je veux le titre, je veux la valeur. Qu'est-ce que c'est encore cette chose de fond ? Je pense que ça vous montre juste l'opacité du fond.
+
+06:12
+[VISUEL: Elle clique sur "OK". Le graphique se met à jour. Elle retourne dans les paramètres du graphique, puis clique sur l'onglet "Canvas".]
+Ok, donc vous pouvez voir les indicateurs ici. Donc, des paramètres de graphique assez simples. Je veux voir si je peux supprimer la grille en fait. Je pensais que je pouvais. Si vous allez sur "Canvas".
+
+06:25
+[VISUEL: Dans l'onglet "Canvas", elle clique sur le menu déroulant "Grid lines" et sélectionne "None".]
+Euh, vous pouvez voir le réticule, c'est bon. Lignes de grille, je veux dire "None", supprimer la grille.
+
+06:31
+[VISUEL: Elle clique sur "OK". La grille disparaît du graphique. Elle retourne dans les paramètres du graphique, onglet "Canvas". Elle change le "Background" en "Gradient" et sélectionne une couleur.]
+Donc, vous pouvez voir la grille à l'arrière, elle a disparu. Euh, vous pouvez le changer en dégradé si vous voulez. J'aime bien ça. Euh, comme ça. Si vous voulez, ça rend les choses plus tridimensionnelles. Ou vous pouvez complètement vous détruire les yeux et faire quelque chose comme ça. Wow. En fait, ça n'a pas l'air trop mal, mais euh, peut-être un autre jour.
+
+07:04
+[VISUEL: Elle change la couleur du dégradé en noir. Elle vérifie les autres options.]
+Euh, donc oui, vous pouvez jouer avec ça, c'est très personnalisable. Euh, réticule, vous pouvez changer la couleur, vous savez, toutes ces bonnes choses. Euh, je pense que nous avons besoin, euh, quelque chose de vraiment important, c'est que nous voulons avoir le trading en heures prolongées.
+
+07:20
+[VISUEL: Elle clique sur l'onglet "Symbol" dans les paramètres du graphique. Dans le menu déroulant "Session", elle sélectionne "Extended trading hours".]
+Ok, donc vous ne pouvez activer le trading en heures prolongées que lorsque vous êtes sur le graphique intraday. C'est logique. Le graphique journalier ne montre pas vraiment ça.
+
+07:30
+[VISUEL: Elle clique sur le sélecteur de timeframe et sélectionne "5m" (5A_VERIFIER minutes). Elle retourne dans les paramètres du graphique, onglet "Symbol", et s'assure que "Extended trading hours" est sélectionné. Elle clique sur "OK".]
+Donc, assurez-vous d'être sur votre graphique intraday, 5 minutes, 2 minutes. Allez dans les paramètres du graphique, allez dans le symbole. Et assurez-vous d'avoir le trading en heures prolongées.
+
+07:39
+[VISUEL: Le graphique se met à jour. Des zones ombragées apparaissent sur le graphique. Une flèche rouge pointe vers la zone ombragée de droite, étiquetée "After Hours". Une autre flèche rouge pointe vers la zone ombragée de gauche, étiquetée "Pre-Market".]
+pour afficher le pré-marché et l'après-marché. Maintenant, vous pouvez voir que nous avons l'après-marché en ce moment dans cette couleur. Le pré-marché est dans cette couleur beige, marron. Vous savez ce que je veux dire. Mais vous devez voir à la fois le pré-marché et l'après-marché.
+
+07:58
+[VISUEL: L'écran redevient vert. Le numéro "#3A_VERIFIER" et le titre "INDICATORS" apparaissent. Un graphique boursier est affiché avec les indicateurs VWAP et EMA.]
+Ok, donc passons à la partie excitante, qui sont les indicateurs maintenant.
+
+08:03
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée. Le graphique de META est visible. Le texte "Volume" est affiché en haut à gauche du graphique.]
+Donc, vous pouvez voir qu'en ce moment, le seul indicateur que nous avons est le volume en bas. Changeons ça, parce que, comme vous le savez peut-être,
+
+08:10
+[VISUEL: La femme gesticule avec ses mains. Le texte "~The Better you'll be at Trading~" apparaît en gros caractères avec un effet de lumière.]
+plus vous avez d'indicateurs, mieux vous serez en trading.
+
+08:15
+[VISUEL: La femme secoue la tête et rit. Le texte "~That's not true. Don't actually do that.~" apparaît.]
+Ce n'est pas vrai. Ne faites pas ça en fait. Mais je comprends que certaines personnes aiment les indicateurs.
+
+08:17
+[VISUEL: La femme clique sur le bouton "Indicators" en haut du graphique. Un menu déroulant apparaît avec une liste d'indicateurs. Elle tape "vwap" dans la barre de recherche et sélectionne "VWAP".]
+Donc, cliquez sur les indicateurs. Et ce sont les indicateurs classiques de Tradingview. Donc, je vais juste prendre le VWAP. C'est celui que j'utilise beaucoup.
+
+08:29
+[VISUEL: Le VWAP apparaît sur le graphique. Elle tape "ema" dans la barre de recherche et sélectionne "Moving Average Exponential".]
+Euh, j'utilise aussi l'EMA. Donc, vous pouvez voir qu'il y a la moyenne mobile exponentielle. Je peux l'ajouter.
+
+08:36
+[VISUEL: L'EMA apparaît sur le graphique. La femme pointe les indicateurs en haut à gauche du graphique.]
+Et allez-y, vous pouvez voir que ce sont vos, vous pouvez les réduire. Ce sont les indicateurs.
+
+08:40
+[VISUEL: Gros plan sur les indicateurs en haut à gauche. La femme clique sur les trois points à côté de "EMA". Un menu déroulant apparaît. Elle sélectionne "Settings".]
+Vous pouvez aller modifier les paramètres en cliquant sur cette icône ici. Euh, voyons voir. Comment puis-je modifier les paramètres ? Allez dans les paramètres.
+
+08:50
+[VISUEL: La fenêtre "EMA settings" apparaît. Dans l'onglet "Inputs", elle change la "Length" à "8A_VERIFIER". Dans l'onglet "Style", elle change la couleur en orange.]
+Disons que je veux une EMA de 8. Je veux la changer en orange.
+
+08:57
+[VISUEL: Elle clique sur "OK". L'EMA sur le graphique est maintenant orange. Elle pointe les indicateurs VWAP (bleu) et EMA (orange) sur le graphique, ainsi que le volume en bas.]
+Donc, c'est le paramètre. Donc, vous pouvez voir que mon VWAP est maintenant en bleu. Mon EMA est maintenant de cette couleur orange. Et le volume en bas.
+
+09:05
+[VISUEL: La femme fait un clic droit sur l'indicateur "Volume" en bas du graphique. Un menu apparaît. Elle sélectionne "Move to" -> "New pane below".]
+Maintenant, le volume, je préfère l'avoir dans une boîte séparée, séparée du graphique. Donc, ce que vous pouvez faire, c'est faire un clic droit sur le volume. Déplacer vers un nouveau panneau en dessous.
+
+09:17
+[VISUEL: Le volume est maintenant dans un panneau séparé sous le graphique principal. La femme pointe le volume.]
+Donc, vous pouvez voir que cela sépare le volume du graphique. J'aime ça davantage, donc je peux voir le volume beaucoup plus facilement.
+
+09:24
+[VISUEL: La femme fait un clic droit sur le volume dans son nouveau panneau. Elle sélectionne "Settings". Dans la fenêtre "Volume settings", elle coche "Volume MA" et change la couleur en bleu. Dans l'onglet "Inputs", elle change la "MA Length" à "14A_VERIFIER" et le "Volume MA" à "EMA".]
+Donc, je peux aussi ajouter, comme un indicateur de volume. Allez dans les paramètres. Ajoutez la moyenne mobile du volume. Et euh, ça vous montre le volume. Oh, moyenne mobile. J'aime utiliser 14. Euh, EMA. Et voilà. Donc, vous avez votre moyenne mobile du volume en bas.
+
+09:45
+[VISUEL: Le graphique affiche maintenant le VWAP, l'EMA et le volume avec sa propre moyenne mobile. La femme pointe les indicateurs en haut à gauche.]
+Donc, c'est ainsi que vous ajoutez très rapidement des indicateurs et que vous les masquez si vous le souhaitez.
+
+09:50
+[VISUEL: La femme clique sur l'icône "Save indicator template" (un carré avec des points et un nuage) en haut du graphique. Un menu déroulant apparaît. Elle sélectionne "Save indicator template...".]
+Ok, donc maintenant que vous avez les indicateurs et que vous avez la mise en page, tous les paramètres pour ce graphique particulier. Je veux l'enregistrer. Donc, vous pouvez aller à cette icône ici. Enregistrer le modèle d'indicateur.
+
+10:02
+[VISUEL: La fenêtre "Save Indicator Template" apparaît. Elle tape "Intraday-vwap" comme nom de modèle. Elle coche "Remember Interval".]
+Donc, disons que c'est l'intraday avec VWAP. Je vais enregistrer l'intervalle. Donc, plus tard, je pourrai l'ouvrir sur le graphique. Je vais l'enregistrer.
+
+10:14
+[VISUEL: Elle clique sur "Save". Le modèle est enregistré. Elle réduit le graphique de gauche et agrandit le graphique de droite. Elle clique sur l'icône "Save indicator template" sur le graphique de droite et sélectionne "Intraday-vwap".]
+Ok, donc maintenant vous l'avez enregistré. Très bien. Donc, ce que vous pouvez faire maintenant, c'est, vous pouvez voir. Au lieu d'avoir à tout ajuster à nouveau sur ce nouveau graphique, je peux juste aller ici et faire apparaître ce paramètre que nous venons de faire avec les indicateurs.
+
+10:32
+[VISUEL: Le graphique de droite se met à jour avec les indicateurs VWAP et EMA. La femme pointe les paramètres du graphique.]
+Oh, mais je suppose qu'il n'a pas enregistré les paramètres du graphique avec le fond. Donc, laissez-moi le faire une fois de plus. Je pense que pour les paramètres du graphique, c'est une chose différente ici.
+
+10:43
+[VISUEL: Elle clique sur l'icône "Chart settings" (un arbre) sur le graphique de droite. Elle va dans l'onglet "Canvas", change le "Background" en "Gradient" et les "Grid lines" en "None". Elle clique sur "OK".]
+Ok, ici. Ok, cliquez sur les paramètres du graphique ici. Oh, qu'est-ce que j'ai fait ? Oh non.
+
+10:52
+[VISUEL: Elle clique sur le bouton "Undo" (flèche courbée) en haut de l'écran.]
+Donc, j'ai fait quelque chose par accident. Vous pouvez cliquer sur "Annuler" pour revenir en arrière. Ok, donc ce n'est pas la fin du monde quand vous voyez des trucs aléatoires comme ça se produire.
+
+11:00
+[VISUEL: Elle clique sur l'icône "Save layout" (un carré avec un disque) en haut de l'écran. Un menu déroulant apparaît. Elle sélectionne "Make a copy...".]
+Cliquez sur les paramètres du graphique. Vous pouvez enregistrer toute cette mise en page.
+
+11:06
+[VISUEL: La fenêtre "Copy Chart Layout" apparaît. Elle tape "Intraday 5M" comme nom de mise en page.]
+pour, je ne sais pas, Intraday 5 minutes.
+
+11:11
+[VISUEL: Elle clique sur "Save". La mise en page est enregistrée. Elle clique sur l'icône "Load layout" (un carré avec une flèche vers le bas) en haut de l'écran. Un menu apparaît avec les mises en page enregistrées. Elle sélectionne "Intraday 5M".]
+Donc, vous enregistrez ça. Après avoir enregistré la mise en page, allez ici, cliquez sur la mise en page, chargez la mise en page. Celle que je viens de faire, c'est celle-ci.
+
+11:22
+[VISUEL: Les deux graphiques se mettent à jour avec la mise en page "Intraday 5M", y compris les indicateurs et les paramètres de fond. La femme pointe les deux graphiques, étiquetés "Daily Chart" et "Intraday Chart".]
+Donc, vous pouvez voir, maintenant ça ressemble exactement à la copie que vous venez de faire. Donc, c'est un moyen très rapide et facile de mettre à jour tous vos graphiques. Donc, celui-ci, je vais revenir au graphique journalier. Et je vais supprimer l'EMA, euh, donc le VWAP et l'EMA. Je peux cliquer et supprimer, euh, je suppose que je ne peux pas. Je vais changer le, je vais supprimer certains de ces indicateurs.
+
+11:35
+[VISUEL: Elle clique sur le sélecteur de timeframe et sélectionne "1D" (1A_VERIFIER jour). Elle fait un clic droit sur "VWAP" dans la liste des indicateurs et sélectionne "Remove". Elle fait de même pour "EMA".]
+Donc, supprimez, supprimez. Donc, je vais revenir et ajouter une SMA. Simple. Juste la moyenne mobile. Et je vais ajouter. Donc, c'est 200 SMA. Je vais changer la couleur en rose. Euh, et puis c'est tout. Je vais changer la largeur.
+
+11:57
+[VISUEL: Elle supprime les indicateurs VWAP et EMA du graphique journalier. Elle ajoute une "Moving Average" (SMA) et la configure à 200A_VERIFIER périodes, couleur rose, épaisseur augmentée. Le graphique journalier est maintenant à gauche, le graphique intraday à droite.]
+Donc, ici, j'ai mon graphique journalier et le graphique intraday.
+
+12:29
+[VISUEL: L'écran redevient vert. Le numéro "#4A_VERIFIER" et le titre "ORDER ENTRY" apparaissent. Un graphique boursier est affiché avec une fenêtre "Order Confirmation" ouverte par-dessus.]
+Alors, parlons de l'entrée d'ordres ensuite.
+
+12:31
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée. La fenêtre "Portfolio" est déplacée vers le bas à droite. La femme pointe la fenêtre "Portfolio".]
+Vous pouvez voir que sur ce compte de paper trading, j'ai déplacé la fenêtre du portefeuille ici pour que ce soit plus facile à voir.
+
+12:38
+[VISUEL: Gros plan sur le graphique intraday de NVDA. Une ligne rouge horizontale est étiquetée "POS -10A_VERIFIER" et "Avg Price" avec une valeur numérique. La femme pointe cette ligne.]
+Et je suis short NVDA. Et c'est ma moyenne. Je suis short à 95 dollars environ.
+
+12:46
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée. La fenêtre "Rapid Order Entry" est visible à gauche. La femme pointe la section "Quantity".]
+Ok, donc ce que nous allons faire, c'est que nous allons d'abord fermer cette position après les heures de marché. Donc, retournez à l'entrée d'ordres.
+
+12:52
+[VISUEL: Dans la fenêtre "Rapid Order Entry", la femme change la "Quantity" à "10A_VERIFIER". Elle clique sur "Buy Order" (car elle est short et veut couvrir). Elle clique sur le champ "Limit Price".]
+Donc, pour fermer une position, parce que je suis short, je dois acheter 10 actions. Ok, parce que je suis short 10 actions, donc je dois acheter pour couvrir.
+
+13:00
+[VISUEL: Elle clique sur le champ "Limit Price". Le prix actuel (Ask: 96.70A_VERIFIER, Bid: 96.58A_VERIFIER) est affiché. Elle clique sur le prix "Ask".]
+Donc, nous allons acheter au prix limite en ce moment. À quel prix acheteur ? C'est ça le problème. Comme, il n'y a pas de niveau 2 sur cette plateforme.
+
+13:07
+[VISUEL: Gros plan sur le graphique intraday de NVDA. Le prix actuel est affiché. La femme pointe le prix.]
+Vous pouvez voir, maintenant ça trade à environ 96, 90.
+
+13:14
+[VISUEL: Dans la fenêtre "Rapid Order Entry", elle clique sur le prix "Ask" (96.96A_VERIFIER) pour le charger dans le champ "Limit Price". Elle clique sur la case "Fill outside RTH". Dans le menu déroulant "Time-in-force", elle sélectionne "OVERNIGHT + DAY".]
+Donc, si vous cliquez sur "Ask", ça le charge. Si vous cliquez sur "Bid", vous pouvez voir, quoi que vous cliquiez ici, ça le charge automatiquement. Donc, c'est bon à savoir. Donc, je vais juste sortir ici. Et je vais mettre "Fill outside the regular hours trading". Jour en vigueur, "Overnight + Day", c'est bon.
+
+13:33
+[VISUEL: Elle clique sur "Submit Buy Order". Une fenêtre "Order Confirmation" apparaît. Elle clique sur "Transmit".]
+Et puis je vais sortir de cette position, ok ? Donc, acheter, soumettre l'ordre d'achat, parce que je veux sortir. Vous voyez une fenêtre de confirmation. Elle vous montre combien de commissions, combien vous utilisez, quel est votre capital actuel, toutes ces choses. Transmettre.
+
+13:50
+[VISUEL: Une fenêtre "Your order has been submitted" apparaît. Elle clique sur "Done".]
+Voyons si nous sortons à 97 dollars. Euh, ok.
+
+13:58
+[VISUEL: Le graphique intraday de NVDA montre une ligne horizontale étiquetée "BUY 10A_VERIFIER LMT 97.00A_VERIFIER". La femme pointe cette ligne.]
+Donc, c'est mon ordre. Je veux sortir. Laissez-moi sortir, s'il vous plaît.
+
+14:03
+[VISUEL: Le prix de NVDA a augmenté. La femme clique sur le champ "Limit Price" dans la fenêtre "Rapid Order Entry". Le prix "Ask" est maintenant plus élevé (97.09A_VERIFIER). Elle clique sur "Submit Buy Order".]
+Donc, vous pouvez voir que le prix a maintenant augmenté à 97.09. Mon ordre est soumis à 97.00 dollars. Donc, c'est pourquoi il n'est pas rempli en ce moment, surtout après les heures de marché.
+
+14:13
+[VISUEL: La femme pointe la fenêtre "Orders Table" en bas. L'ordre NVDA est affiché comme "BUY Limit 10A_VERIFIER 97.00A_VERIFIER". Une coche verte apparaît à côté de l'ordre, indiquant qu'il est rempli. Une notification "Order Filled" apparaît en bas à droite.]
+Donc, si ça arrive, vous pouvez aller dans votre tableau d'ordres. Donc, vous voyez tous les ordres en attente. Ceux qui ont une coche, ça signifie que l'ordre est déjà rempli. Oh, il a été rempli à l'instant. Donc, j'ai acheté 10 actions NVDA à 97.00.
+
+14:25
+[VISUEL: La fenêtre "Portfolio" montre que la position NVDA est maintenant à 0A_VERIFIER. La femme pointe la fenêtre "Portfolio".]
+Et vous pouvez voir que je n'ai plus de position ouverte ici pour NVDA.
+
+14:31
+[VISUEL: La femme est à son bureau. La fenêtre "Rapid Order Entry" est affichée. Elle pointe la case "Fill outside RTH".]
+C'est seulement en dehors des heures de trading régulières que vous devez activer cela.
+
+14:36
+[VISUEL: Elle décoche la case "Fill outside RTH".]
+Sinon, lorsque vous tradez pendant, vous savez, de 9h30 à 16h, vous n'avez pas besoin de cliquer sur ça.
+
+14:42
+[VISUEL: Elle change le symbole boursier dans le graphique de droite à TSLA. Elle change la "Quantity" à "10A_VERIFIER" dans la fenêtre "Rapid Order Entry".]
+Donc, disons que je veux acheter, vous savez, NVDA à nouveau. Non, achetons une action différente. Achetons quelque chose comme Tesla. Je veux acheter Tesla. Encore une fois, euh, disons 10 actions Tesla.
+
+14:57
+[VISUEL: Elle clique sur le prix "Bid" (224.93A_VERIFIER) pour le charger dans le champ "Limit Price". Elle coche "Fill outside RTH". Elle clique sur "Submit Buy Order".]
+Je vais acheter au prix acheteur. Voyons si nous sommes remplis. Remplir en dehors des heures de marché régulières.
+
+15:07
+[VISUEL: Elle clique sur le bouton "Market". Le texte "Market order only works during regular trading hours" apparaît. Elle clique sur "Stop".]
+En dehors des heures de marché, vous ne pouvez pas utiliser l'ordre au marché. N'est-ce pas ? L'ordre au marché ne fonctionne que pendant les heures de trading régulières. Donc, je ne peux pas utiliser ça. Mais vous pouvez définir un stop pour votre position existante si vous en avez besoin.
+
+15:19
+[VISUEL: Elle clique sur "Buy Order" et "Sell Order" pour basculer entre les deux. Elle clique sur le prix "Bid" (225.01A_VERIFIER) pour le charger dans le champ "Limit Price".]
+Donc, c'est ainsi que vous basculez entre les différents ordres. Vous avez "Acheter" ici, vous avez "Vendre" ou "Short" ici. Mais maintenant, j'essaie d'acheter. Donc, je vais acheter au prix acheteur pour 10 actions. Remplir en dehors des heures de trading régulières.
+
+15:31
+[VISUEL: Elle clique sur "Preview". Une fenêtre "Order Preview" apparaît, montrant les détails de l'ordre. Elle clique sur "Transmit".]
+Maintenant, vous pouvez prévisualiser cela pour vous montrer tout l'argent que vous utilisez, quelle est la taille de votre compte, le capital avec prêt, votre marge, l'entretien, toutes ces bonnes choses.
+
+15:44
+[VISUEL: Elle clique sur "Cancel". Elle clique sur "Save" dans la fenêtre "Rapid Order Entry".]
+Ou vous pouvez enregistrer votre ordre. Donc, si j'enregistre mon ordre, il est juste enregistré. Il n'est pas envoyé au marché.
+
+15:49
+[VISUEL: Le graphique affiche une ligne grise horizontale étiquetée "BUY 10A_VERIFIER LMT 225.18A_VERIFIER". La femme pointe cette ligne.]
+Donc, vous pouvez voir sur le graphique, vous voyez cette icône grise ici ? Cela signifie que l'ordre est en attente là-bas. Vous ne l'envoyez pas au marché, il est juste là.
+
+16:01
+[VISUEL: La femme pointe la fenêtre "Orders Table" en bas. L'ordre TSLA est affiché comme "BUY Limit 0A_VERIFIER/10A_VERIFIER 225.18A_VERIFIER". Elle double-clique sur l'ordre.]
+Et quand vous êtes prêt, vous pouvez l'ouvrir ici, double-cliquez dessus pour l'ouvrir.
+
+16:08
+[VISUEL: Elle essaie de double-cliquer mais ça ne fonctionne pas. Elle fait un clic droit sur l'ordre TSLA dans le tableau d'ordres. Un menu apparaît. Elle sélectionne "Transmit".]
+Je suppose que vous ne pouvez pas double-cliquer. Tant pis, vous devez faire un clic droit. Allez-y, vous pouvez l'envoyer. Transmettre.
+
+16:14
+[VISUEL: Une fenêtre "Order Confirmation" apparaît. Elle clique sur "Transmit".]
+Donc, maintenant ça va envoyer. Transmettre.
+
+16:18
+[VISUEL: Une fenêtre "Your order has been submitted" apparaît. Elle clique sur "Done".]
+Donc, ordre en attente. Ordre soumis. Donc, il est maintenant en attente. Voyons si nous sommes remplis.
+
+16:23
+[VISUEL: Le graphique intraday de TSLA montre la ligne "BUY 10A_VERIFIER LMT 225.18A_VERIFIER". Le prix actuel est affiché. La femme pointe le prix.]
+Notre ordre était de 225.18. Oui, le prix acheteur est à 225.47 en ce moment. Donc, c'est là que nous allons être remplis.
+
+16:31
+[VISUEL: La femme fait glisser la ligne de l'ordre sur le graphique vers le haut, au prix actuel. Une notification "Order Submitted" apparaît, puis "Order Filled".]
+Donc, si vous voulez être rempli tout de suite, nous allons devoir le déplacer. Vous pouvez voir, je peux faire glisser cet ordre pour le déplacer vers le haut. Donc, en ce moment, le prix demandé est à 225.63. Voyons si nous pouvons faire ça. Ordre soumis. 225.63. Ok, nous avons été remplis. Ok, super.
+
+16:49
+[VISUEL: La fenêtre "Portfolio" montre que la position TSLA est maintenant à 10A_VERIFIER actions. La femme est à son bureau.]
+Donc, c'est ainsi que vous entrez des ordres et que vous les vendez et que vous sortez. Et en utilisant le stop loss également.
+
+16:59
+[VISUEL: La femme est à son bureau. Elle pointe l'écran.]
+La seule chose qui est vraiment importante, encore une fois, c'est qu'il n'y a pas de niveau 2 et il n'y a pas de temps et de ventes. Donc, pour certains traders, cela pourrait être un inconvénient, en termes de cette plateforme assez simple pour débutants. Mais je pense que pour les nouveaux traders qui commencent, c'est tout à fait bien. Je n'ai personnellement pas vraiment commencé à utiliser le niveau 2 ou le temps et les ventes avant la deuxième ou la troisième année de mon trading. Et ça s'est bien passé.
+
+17:25
+[VISUEL: L'écran redevient vert. Le numéro "#5A_VERIFIER" et le titre "HOTKEYS" apparaissent. Une fenêtre "Hotkeys" est ouverte par-dessus l'interface de trading.]
+Ok, c'est lié à l'entrée d'ordres dont nous venons de parler. Parlons des raccourcis clavier.
+
+17:29
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée. Elle navigue vers "Settings" (icône d'engrenage en bas à gauche) -> "Hotkeys".]
+Ils ont des options limitées pour les raccourcis clavier. Donc, vous devez aller dans les paramètres, aller dans les raccourcis clavier.
+
+17:35
+[VISUEL: La fenêtre "Hotkeys" est affichée. Elle a deux onglets : "Platform Controls" et "Order Entry". La femme pointe ces onglets.]
+Et vous pouvez faire toutes ces choses comme les contrôles de la plateforme et tout ça. Mais pour moi, allons à l'entrée d'ordres maintenant.
+
+17:42
+[VISUEL: Elle clique sur l'onglet "Order Entry". Une liste de raccourcis clavier prédéfinis est affichée (Buy, Sell, Buy Limit, Sell Limit, Buy Market, Sell Market). Elle clique sur "Buy Limit" (Ctrl+B).]
+Donc, vous pouvez voir le menu déroulant de la façon dont c'est configuré. Donc, essayons quelque chose. Faisons "Buy Limit" Ctrl+B. Laissez-moi voir la touche. "Buy Limit". C'est bon.
+
+17:55
+[VISUEL: Elle clique sur le menu déroulant "Limit Price" et sélectionne "Ask". Elle change "Offset (Optional)" à "0.01A_VERIFIER USD". Elle change "Amount" à "500A_VERIFIER USD". Elle change "Time-in-force" à "GTC".]
+Euh, type d'ordre, limite, c'est bon. Par défaut. Vous pouvez le définir sur "Ask" pour entrer tout de suite. Décalage, ça signifie que si le prix demandé est à 25 dollars, vous savez, si vous êtes short ou en excès de 2 cents, vous pouvez toujours le faire remplir. Donc, je vais juste faire, vous savez, peut-être 1 cent. Montant. Vous pouvez définir votre montant également. Je vais juste faire peut-être 10 actions. Ou vous pouvez utiliser le montant en dollars. Donc, c'est bon. Je vais utiliser 100 dollars. 500. Voyons voir. Si ça marche. Durée en vigueur, "Good 'Til Cancelled".
+
+18:31
+[VISUEL: Elle clique sur "Save". Le raccourci clavier "Buy 500A_VERIFIER Limit Ask GTC 0.01A_VERIFIER" est maintenant affiché. Elle clique sur "Sell Limit" (Ctrl+S). Elle configure de la même manière : "Offset (Optional)" à "0.01A_VERIFIER USD", "Amount" à "500A_VERIFIER USD", "Time-in-force" à "GTC".]
+Je ne sais pas si ça va être rempli après les heures de marché. Essayons ça, ok ? Donc, c'est Ctrl+B pour "Buy Limit". Enregistrez-le. Disons "Sell Limit". "Sell Limit". Décalage, vous savez, faisons aussi 500. "Good 'Til Cancelled".
+
+18:52
+[VISUEL: Elle clique sur "Save". Les deux raccourcis clavier sont configurés. Elle ferme la fenêtre "Hotkeys". Elle est de retour à l'interface de trading. Elle appuie sur "Ctrl+B".]
+Bon, ok. Voyons si ça marche. Mais euh, parce que c'est après les heures de marché, donc je ne sais pas si ça va se déclencher automatiquement. Je suis intéressée de le savoir. Donc, Ctrl+B. Oh.
+
+19:04
+[VISUEL: L'ordre d'achat de 500A_VERIFIER USD de TSLA est chargé dans la fenêtre "Rapid Order Entry". La femme clique sur "Fill outside RTH" et "Submit Buy Order". Une fenêtre "Order Confirmation" apparaît. Elle clique sur "Accept and Continue", puis "Transmit".]
+Donc, je suppose que ça le charge juste. Vous pouvez voir, quand je fais le raccourci clavier, ça le charge juste ici. C'est bon, je suppose, mais je dois cliquer manuellement sur "Fill outside market hours". Ça montre ça. Accepter. Transmettre.
+
+19:21
+[VISUEL: Une fenêtre "Your order has been submitted" apparaît. Elle clique sur "Done". L'ordre est affiché comme "Order Submitted".]
+Donc, mon ordre est soumis. Parce que, rappelez-vous, nous avons dit que nous utilisions 500 dollars pour acheter Tesla. Ça a bien fonctionné.
+
+19:29
+[VISUEL: L'ordre est rempli. La femme est à son bureau. Elle appuie sur "Ctrl+S".]
+Maintenant, essayons quand nous vendons. Quantité, vous pouvez voir, ça charge automatiquement 500 dollars. Encore une fois, vous pouvez faire des actions si vous voulez. En ce moment, nous avons 12 actions. Nous pouvons sortir de toute la position. Allez à la position, 12 actions si nous voulons. Et voyons si nous pouvons sortir au prix demandé. Soumettre l'ordre de vente. Oh, en fait, vous devez cliquer sur "Fill outside the regular hours trading", ok ? Vendre. Transmettre.
+
+19:56
+[VISUEL: Une fenêtre "Your order has been submitted" apparaît. Elle clique sur "Done". L'ordre est rempli. La femme est à son bureau.]
+Ordre rempli. Bien. Donc, nous avons été remplis. Ok. Donc, ce n'est pas si mal. Pas si mal jusqu'à présent, même après les heures de marché.
+
+20:04
+[VISUEL: La femme est à son bureau. Elle pointe l'écran.]
+Je pense que c'est excellent pour les débutants. Nous avons passé en revue les graphiques, nous avons passé en revue le screener, la liste de surveillance, même l'entrée d'ordres, les raccourcis clavier, les paramètres des graphiques, les indicateurs.
+
+20:18
+[VISUEL: La femme est à son bureau. Elle pointe l'écran.]
+Je ne sais pas combien de plus vous pouvez ajouter. Vous savez, vous ne pouvez qu'acheter limite, vendre limite, acheter au marché, vendre au marché. C'est à peu près tout. Euh.
+
+20:25
+[VISUEL: Elle pointe l'écran.]
+Oui, et vous avez des contrôles très basiques ici. Donc, mais c'est bon pour la plupart des nouveaux traders pour commencer.
+
+20:29
+[VISUEL: La femme est à son bureau. Une barre d'abonnement YouTube apparaît en bas.]
+Si vous avez apprécié la vidéo jusqu'à présent, n'oubliez pas de laisser un "J'aime" ci-dessous.
+
+20:32
+[VISUEL: Le texte "Humbled Trader" et les boutons "Like" et "Subscribe" sont affichés. Le texte "Weekend Watchlist" apparaît avec un aperçu d'un document.]
+Aussi, vous pouvez vous inscrire à ma liste de surveillance gratuite du week-end que j'envoie tous les dimanches. Elle comprendra des idées de trading, trois à quatre actions que je surveille pour le day trading ou le swing trading.
+
+20:46
+[VISUEL: Le texte "Weekend Watchlist" apparaît en bas. La femme est à son bureau.]
+Alors, jetez un œil, c'est tout gratuit, ci-dessous.
+
+20:48
+[VISUEL: La femme est à son bureau.]
+Ok, donc maintenant que nous avons couvert les entrées d'ordres et les raccourcis clavier.
+
+20:52
+[VISUEL: L'écran redevient vert. Le numéro "#6A_VERIFIER" et le titre "WATCHLIST" apparaissent. Une fenêtre "Watchlist" est ouverte par-dessus l'interface de trading.]
+Parlons de la liste de surveillance ici, qui est cette fenêtre ici.
+
+20:56
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée. La fenêtre "Watchlist" est visible. Elle la maximise légèrement.]
+Euh, maximisons-la un peu ici. Ok.
+
+21:01
+[VISUEL: La femme clique sur le menu déroulant "Favorites" dans la fenêtre "Watchlist". Elle sélectionne "Add New".]
+Assez simple. Vous pouvez créer plusieurs listes de surveillance ici. Donc, créons une nouvelle liste de surveillance. Ajoutez une nouvelle.
+
+21:08
+[VISUEL: Une fenêtre "Browse Lists" apparaît. Elle clique sur "New Watchlist".]
+Euh, mes listes. Non, ce sont celles que j'ai déjà. Faisons une nouvelle liste de surveillance.
+
+21:15
+[VISUEL: Une nouvelle liste de surveillance vide apparaît. Elle tape "MLGO" dans le champ "Financial Instrument".]
+Euh, disons quelques actions récentes que je surveillais. MLGO.
+
+21:21
+[VISUEL: Elle ajoute "MLGO" à la liste. Elle tape "CRSR" et l'ajoute également.]
+MLGO. Quoi d'autre ? Corsair. Euh, et renommons cette liste de surveillance.
+
+21:28
+[VISUEL: Elle clique sur l'icône d'engrenage (Settings) dans la fenêtre "Watchlist". Une fenêtre "Watchlist View Columns" apparaît. Elle décoche "Bid Size", "Bid", "Ask", "Ask Size".]
+Ok, donc voyons si nous pouvons personnaliser les différentes colonnes de cette liste de surveillance maintenant. Donc, allez à cette icône de paramètres. Euh, donc vous pouvez voir qu'en ce moment, il y a l'instrument financier, les noms d'actions, c'est bon. Bid Ask. Je n'ai pas besoin de ça. Je n'ai pas besoin de ça.
+
+21:46
+[VISUEL: Elle coche "Last", "Change", "Change %", "Trend", "Position", "Avg Price", "Daily P&L", "Daily P&L %".]
+J'ai juste besoin du dernier, du changement. Euh, tendance, oui, bien sûr. Ça vous donne comme un petit aperçu. J'aime bien ça. Euh, quoi d'autre ? Position, bien sûr. P&L journalier, P&L journalier en pourcentage, c'est bon.
+
+22:00
+[VISUEL: Elle tape "vol" dans la barre de recherche "Available Columns". Elle coche "Volume", "Opt. Implied Volatility %", "Opt. Volume Change %".]
+Euh, prenons le volume ici. Donc, vous pouvez ajouter des choses ici. Ici. Voyons voir ce que nous pouvons faire d'autre. Euh, si vous tradez des options, peut-être la volatilité implicite. Ou les options, la volatilité implicite ici. Vous pouvez faire ça. Euh, oh. Ok. C'est déjà beaucoup.
+
+22:21
+[VISUEL: Elle clique sur "OK". La liste de surveillance se met à jour avec les colonnes sélectionnées. Elle redimensionne les colonnes.]
+Donc, voyons voir. Donc, vous pouvez le redimensionner ici. Position, prix moyen. Donc, si vous avez, si nous revenons à certains de mes favoris, vous devriez voir que nous avons une position existante. Oh, maintenant c'est zéro. Euh, Tesla et Meta. Oh, nous avons Palantir. Ok, donc si nous ajoutons Palantir. Vous verrez que nous avons 200 actions de Palantir ici. Et euh, P&L journalier, prix moyen, volatilité implicite, toutes ces bonnes choses. La tendance est en fait assez bonne. Ça vous montre comment l'action a tradé pour la journée. Tout était vert jusqu'à ce que ça ne le soit plus.
+
+23:01
+[VISUEL: La femme clique sur l'icône "Pin" (épingle) dans la fenêtre "Watchlist" pour la masquer sur le côté droit de l'écran.]
+Ok, donc la liste de surveillance, je l'ai généralement rangée ici.
+
+23:04
+[VISUEL: Elle double-clique sur "Vanguard S&P 500A_VERIFIER ETF Trust" (VOO) dans la liste de surveillance. Les graphiques se mettent à jour avec les données de VOO. Elle double-clique sur "Apple Inc" (AAPL), puis "Amazon.com Inc" (AMZN), puis "Palantir Technologies Inc-A" (PLTR).]
+Vous pouvez double-cliquer dessus pour changer l'action sur votre, depuis votre liste de surveillance. Tant que c'est lié à tout ici. Donc, oui. Assez bon.
+
+23:15
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée avec la mise en page "Options Trading". Elle pointe différentes sections : la liste des options, la chaîne d'options, le graphique, le profil de performance.]
+Donc, ce sera la mise en page et les différentes fenêtres que j'utiliserais pour le day trading. Maintenant, si vous tradez des options, ce que je connais beaucoup de traders qui utilisent en fait l'IBKR Desktop. Euh, c'est la mise en page que vous pouvez utiliser. Encore une fois, allez ici et allez dans "Options Trading". C'est ce qui apparaît. Tous les différents prix d'exercice, euh, la liste de surveillance, la chaîne d'options, euh, le graphique, euh, le graphique, euh, le graphique. Euh, vous pouvez voir votre performance, euh, l'analyse du seuil de rentabilité, le rendement maximum, etc., la perte maximale. Euh, et ils ont aussi comme un constructeur de stratégie ici quelque part. Je l'ai vu avant. Vous pouvez tester et construire différentes stratégies.
+
+23:57
+[VISUEL: L'écran redevient vert. Le numéro "#7A_VERIFIER" et le titre "SCREENER" apparaissent. Une fenêtre "Screeners" est ouverte par-dessus l'interface de trading.]
+Ensuite, parlons du screener.
+
+24:00
+[VISUEL: La femme est à son bureau. L'interface IBKR Desktop est affichée. Elle clique sur l'icône "Screeners" (un globe) dans la barre latérale gauche.]
+Donc, ensuite, vous pouvez voir sur le côté gauche, il y a quelques autres choses que vous pouvez faire. Actualités, analyses, euh, c'est très bien. Ça vous montre, comme, différentes sources d'actualités. Vous pouvez voir ce qui se passe aujourd'hui sur le marché. Paramètres de langue, liste de surveillance. Donc, ce sont toutes les actualités qui concernent les actions de la liste de surveillance. Actualités du portefeuille, actualités liées aux actions que vous possédez. Donc, c'est bon à savoir.
+
+24:26
+[VISUEL: Elle clique sur "Screeners" dans la barre latérale gauche. La fenêtre "Screeners" apparaît, affichant différentes options de screener.]
+Mais maintenant, concentrons-nous sur le screener ici.
+
+24:30
+[VISUEL: La fenêtre "Screeners" affiche une liste d'actions et des filtres. La femme pointe les filtres.]
+Donc, les screeners, euh, c'est assez convivial, mais encore une fois, c'est assez basique. Euh, ça vous donnera le basique, qui est comme un pourcentage de gapper ou de perdant. C'est à peu près tout.
+
+24:43
+[VISUEL: La femme clique sur "Standard Screener".]
+Donc, allons-y, créons comme un simple scanner de gaps. Qui vous permet de scanner les gaps haussiers ou les gaps baissiers chaque jour.
+
+25:03
+[VISUEL: La femme est à son bureau. La fenêtre "Standard Screener" est affichée. Elle pointe les filtres "Market Cap" et "Average Volume".]
+Donc, commençons par, vous pouvez voir par défaut, il y a beaucoup de différents. Allons-y, allons-y. Donc, faisons un scan pour les actions qui sont de 500 millions à un maximum. Volume moyen, cherchons n'importe où avec un minimum de 800K.
+
+25:25
+[VISUEL: Elle ajuste le filtre "Change %" pour rechercher les perdants (valeurs négatives). Elle ajuste la plage de pourcentage à "-100.00A_VERIFIER" à "0A_VERIFIER".]
+Pourcentage de changement. Euh, cherchons les gappers. Donc, cherchons les actions qui ont gappé d'au moins 5 %.
+
+25:31
+[VISUEL: Les résultats du screener se mettent à jour, affichant moins d'actions. La femme pointe les filtres.]
+Donc, vous pouvez voir que ça réduit beaucoup. Vous pouvez même ajouter d'autres choses comme, euh, euh, par exemple, comme les EMA. Après le changement d'heure, pourcentage. Euh, disons comme, je ne sais pas, 1 %. Minimum.
+
+25:48
+[VISUEL: Les résultats du screener se mettent à jour. La femme pointe les filtres.]
+Et maintenant ça s'affiche ici. Je crois. Ok, oui, ici. Donc, ça réduit beaucoup. Donc, vous voulez avoir vos filtres, mais aussi ne pas être trop étroit.
+
+26:00
+[VISUEL: La femme pointe les résultats du screener.]
+Donc, vous pouvez voir que ce sont les résultats. Et je peux les trier par ordre décroissant ou par ordre croissant.
+
+26:10
+[VISUEL: Elle clique sur l'en-tête de colonne "Change %" pour trier les résultats. Elle pointe les colonnes.]
+Donc, ce sont les plus grands perdants. Ok. Euh, et je peux personnaliser les colonnes ici. Je pense que je ne peux pas le personnaliser. Je ne peux pas. Non, rien. J'allais supprimer certains de ces noms, ce que je ne peux pas faire. Je ne sais pas pourquoi.
+
+26:25
+[VISUEL: Elle clique sur l'icône "Duplicate" (deux carrés superposés) à côté de "Gap Scan".]
+Donc, donc ce sont les screeners, assez simples. C'est à peu près tout. Si vous double-cliquez, ça vous montrera le graphique ici. Euh, vous pouvez aussi voir, si vous retournez au screener, ça vous montre le pourcentage, le dernier, le volume, euh, même le PE, ce qui n'est pas vraiment important pour ce que nous faisons, mais euh, et vous pouvez enregistrer le screener. Donc, enregistrez le screener. Vous pouvez juste l'appeler comme, euh, euh, "Gap Scan". Nous pouvons en créer un nouveau aussi. Euh, enregistrez-le. Ok.
+
+26:59
+[VISUEL: Elle clique sur "My Screeners" en haut. Le screener "Gap Scan" est affiché. Elle clique sur l'icône "Duplicate" à côté de "Gap Scan". Elle renomme la copie "Gap down".]
+Allons-y, allons-y. Si vous allez dans mes screeners, vous verrez celui que nous venons de créer. Euh, vous pouvez masquer cette colonne ici. Donc, si vous ne voulez pas les paramètres, vous pouvez juste. Oh non, ne le supprimez pas. Oh, nous pouvons juste dupliquer. Disons, disons que nous créons comme un scan de gap baissier. Gap baissier.
+
+27:23
+[VISUEL: Elle ajuste le filtre "Change %" pour rechercher les perdants (valeurs négatives). Elle ajuste la plage de pourcentage à "-100.00A_VERIFIER" à "-1.00A_VERIFIER".]
+Donc, euh, en revenant en arrière. Volume moyen, euh, encore une fois, vous savez, peut-être 800K. Pourcentage de changement. Euh, je cherche les plus grands perdants maintenant, cette fois. Donc, euh, donc faisons, négatif. Euh, négatif 1.
+
+27:52
+[VISUEL: Les résultats du screener se mettent à jour, affichant les plus grands perdants. Elle clique sur l'en-tête de colonne "Change %" pour trier les résultats.]
+Donc, ça me montre tous les principaux perdants. Donc, vous pouvez le trier. Donc, les plus grands perdants sont ceux-ci, ok ? Euh. Vous pouvez aussi changer le prix. Donc, euh, dernier. Je veux au moins 1 dollar d'action.
+
+28:12
+[VISUEL: Elle ajuste le filtre "Last ($)" à "1.00A_VERIFIER" minimum. Les penny stocks sont filtrés. Elle pointe les filtres.]
+Donc, vous pouvez voir que certains des penny stocks ont disparu. Quand le dernier prix a maintenant un filtre. Donc, c'est ainsi que vous personnalisez les screeners. Volume moyen, encore une fois, je veux au moins, qu'est-ce que j'ai fait avant ? 800K. Volume moyen, volume moyen. Oh, c'est le volume en dollars. Ok, nous n'avons pas besoin de ça. Donc, si vous ne voulez pas le filtre, vous pouvez le supprimer. Donc, c'est ce que je veux. Dernier, pourcentage de changement, volume moyen, euh, etc. Capitalisation boursière, euh, encore une fois, minimum 800 millions.
+
+28:44
+[VISUEL: Les résultats du screener se mettent à jour. La femme pointe les filtres.]
+Vous pouvez voir que ça change les résultats pas mal. Donc, c'est un scanner de gap baissier. Et vous pouvez utiliser les mêmes paramètres pour créer un scanner de gap. Oh, j'ai oublié d'enregistrer. Enregistrer.
+
+29:00
+[VISUEL: Elle clique sur "Gap Scan" dans la liste des screeners. Elle clique sur l'en-tête de colonne "Change %" pour trier les résultats par ordre croissant.]
+Si nous allons dans "Gap Scan". Oui, ça prend un peu de temps à charger. Euh, je vais juste le trier. Et puis vous avez les principaux gagnants de la journée.
+
+29:11
+[VISUEL: La femme est à son bureau. Elle récapitule les chapitres couverts. Le tableau "DEMO CHAPTERS" apparaît avec des coches vertes à côté de chaque chapitre.]
+Ok, nous avons passé en revue beaucoup de choses aujourd'hui sur la plateforme IBKR Desktop. Dans l'ensemble, je pense que c'est excellent pour les débutants. Nous avons passé en revue les graphiques, nous avons passé en revue le screener, la liste de surveillance, même l'entrée d'ordres, les raccourcis clavier, les paramètres des graphiques, les indicateurs.
+
+29:27
+[VISUEL: Le tableau "DEMO CHAPTERS" est affiché. Le texte "DROP YOUR COMMENT" apparaît en bas avec une icône de doigt pointant vers le bas.]
+Si vous avez des questions sur quoi que ce soit que j'ai couvert ou que je n'ai pas couvert, n'hésitez pas à me les poser dans les commentaires ci-dessous. Je ferai de mon mieux pour vous répondre.
+
+29:36
+[VISUEL: La femme est à son bureau. Le texte "FREE WEEKEND WATCHLIST" apparaît.]
+Aussi, n'oubliez pas que j'ai une liste de surveillance gratuite du week-end que j'envoie tous les dimanches. Vous pouvez l'obtenir gratuitement ci-dessous.
+
+29:43
+[VISUEL: L'écran est divisé en deux. À gauche, le logo "humbled trader". À droite, la femme pointe du doigt vers la gauche.]
+Et si vous voulez en savoir plus sur les autres courtiers que je recommande pour le trading, alors vous devriez regarder cette vidéo ici.
