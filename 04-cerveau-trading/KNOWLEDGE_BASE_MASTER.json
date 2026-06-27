@@ -179,6 +179,14 @@
         "nb_regles": 10,
         "session": "S34",
         "date": "2026-06-27"
+      },
+      {
+        "phase": "S34-Chap12",
+        "source": "KB_CHAP12_MACRO.json — 18 briques macro/correlations",
+        "statut": "VALIDE",
+        "nb_regles": 18,
+        "session": "S34",
+        "date": "2026-06-27"
       }
     ],
     "phase3_transform": {
@@ -198,7 +206,7 @@
       },
       "description": "channel rempli via MANIFESTE + détection transcript_file + transcripts-bruts"
     },
-    "total_rules": 1341,
+    "total_rules": 1359,
     "session": "S19",
     "session_s32_chap12": {
       "date": "2026-06-27",
@@ -4616,6 +4624,14 @@
         "categorie": "saisonnalite",
         "confiance": 0.92,
         "note": "[FAIT_STABLE] 🟢 Fait structurel documenté — applicable à GC, CL, ES. | Titre: Volume bas en août et Noël-Nouvel An → éviter stratégies dépendant de la liquidi | Section: §12.5.3"
+      },
+      {
+        "regle": "Volume naturellement bas en août (vacances estivales dans les marchés occidentaux) et entre Noël et Nouvel An (~25 déc au 2 jan). Periods à éviter pour les stratégies dépendant de la liquidité (scalping serré, grosses positions). Les spreads peuvent s'élargir. Biais directionnel moins fiable. Pour TRADEX-AI : réduire la taille des positions ou suspendre le trading sur ces périodes.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_saisonnalite-volume-bas-aout-noel",
+        "categorie": "saisonnalite",
+        "confiance": 0.92,
+        "note": "Volume bas en août et Noël-Nouvel An → éviter stratégies dépendant de la liquidité [🟢 Fait structurel documenté — applicable à GC, CL, ES.]"
       }
     ],
     "correlations": [
@@ -4947,6 +4963,38 @@
         "categorie": "correlations",
         "confiance": 0.92,
         "note": "[FAIT_STABLE] 🟢 Structurelle — surveillance manuelle, pas de blocage automatisable. | Titre: OPEP+ aussi influent que la Fed pour CL. Décisions surprises → gaps 2-5% sur CL. | Section: §12.1.3 + §12.2.3 + §12.9"
+      },
+      {
+        "regle": "Le rendement réel des obligations US indexées sur l'inflation (TIPS Yield) est le driver fondamental le plus documenté de l'or. Mécanisme : l'or ne verse pas de coupon → quand les taux réels montent, le coût d'opportunité de détenir de l'or augmente → GC baisse. Quand les taux réels baissent → GC monte. Corrélation négative forte et structurelle, plus robuste que la corrélation DXY/GC. Disponible ",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_corr-tips-yield-gold",
+        "categorie": "correlations",
+        "confiance": 0.92,
+        "note": "TIPS Yield (taux réels US) = driver fondamental le plus documenté de GC. Corrélation négative forte. [🟢 Structurelle — source: fred.stlouisfed.org (FRED, accès gratuit).]"
+      },
+      {
+        "regle": "L'or est coté en USD → corrélation négative structurelle avec le DXY. DXY monte → GC baisse tendanciellement (or plus cher en devises étrangères). Nuance critique : DXY et GC sont tous deux influencés par les taux réels US (variable causale commune). En période de taux stables, la corrélation DXY/GC peut s'affaiblir. Ne jamais utiliser cette corrélation comme règle absolue ou déterministe.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_corr-dxy-gold-negative",
+        "categorie": "correlations",
+        "confiance": 0.92,
+        "note": "DXY fort → GC baisse tendanciellement. Corrélation peut s'affaiblir : variable causale = taux réels US. [🟢 Structurelle avec nuance causale — ne pas utiliser mécaniquement.]"
+      },
+      {
+        "regle": "Le cuivre (HG) est un baromètre de l'activité industrielle mondiale (monte en risk-on). L'or (GC) est une valeur refuge (monte en risk-off). Le ratio HG/GC augmente en risk-on, diminue en risk-off. Corrélation documentée avec les taux d'intérêt. Pertinent comme indicateur de contexte macro pour les actifs TRADEX-AI. Les deux actifs (HG et GC) sont directement dans l'univers TRADEX-AI.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_corr-copper-gold-ratio",
+        "categorie": "correlations",
+        "confiance": 0.82,
+        "note": "Copper/Gold ratio : baromètre risk-on/risk-off. Monte en risk-on, baisse en risk-off. [🟡 Convention documentée — à utiliser comme contexte, pas comme signal.]"
+      },
+      {
+        "regle": "L'OPEP+ (OPEC + Russie et alliés) est aussi influent que la Fed pour le crude oil (CL). Réunions souvent trimestrielles mais irrégulières, calendrier sur opec.org. Les décisions surprises de coupes ou d'augmentations de production non planifiées provoquent des gaps importants (2–5% sur CL possibles). Surveillance manuelle obligatoire. Les annonces surprises OPEP+ ne sont pas prévisibles via un cal",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_corr-opep-cl-production",
+        "categorie": "correlations",
+        "confiance": 0.92,
+        "note": "OPEP+ aussi influent que la Fed pour CL. Décisions surprises → gaps 2-5% sur CL. [🟢 Structurelle — surveillance manuelle, pas de blocage automatisable.]"
       }
     ],
     "timing": [
@@ -13130,6 +13178,94 @@
         "categorie": "macro_evenements",
         "confiance": 0.78,
         "note": "[CONVENTION] ROLE: CONTEXTE_TECHNIQUE — exception post-blocage. 🟡 Convention, pas règle absolue. | Titre: Post-annonce : attendre 5-10min que la volatilité se stabilise, puis entrer sur  | Section: §12.8.2"
+      },
+      {
+        "regle": "La macro définit le contexte et filtre les trades contraires au biais fondamental. Elle ne génère pas de signal d'entrée. L'entrée reste toujours technique (setup, niveau COG, price action). Utiliser la macro pour justifier chaque trade intraday est une erreur de granularité. Compatible avec les règles Belkhayate existantes : 'ne pas raisonner sur les annonces macro pour anticiper le marché'.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_macro-role-contexte-filtre",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "La macro définit le contexte et filtre les trades — jamais un signal d'entrée [ROLE: CONTEXTE_FILTRE — aligne et complète les règles Belkhayate KB existantes]"
+      },
+      {
+        "regle": "FOMC (Federal Open Market Committee) : 8 réunions par an, calendrier publié sur federalreserve.gov. Annonce le mercredi ~14h00 ET, conférence de presse ~14h30 ET. Zone 2 (≤30min avant) : blocage total de toute nouvelle entrée. Zone 1 (≤2h avant) : réduire la taille des positions existantes ou fermer si proche du stop. La conférence de presse est souvent le vrai driver (ton du discours, forward gui",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_news-gate-fomc-blocage",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "FOMC : Zone 2 = blocage total ≤30min avant l'annonce; Zone 1 = réduire taille ≤2h avant [ROLE: BLOCAGE_SEUL — aligné DECISIONS_VEROUILLEES D-S31-5. Pas signal d'entrée.]"
+      },
+      {
+        "regle": "EIA Weekly Petroleum Status Report publié chaque mercredi ~10h30 ET sur eia.gov/petroleum/supply/weekly/. Contenu : variation des stocks de pétrole brut, essence, distillats. Impact fort sur CL — mouvements de 0,5–2% en quelques minutes si la variation de stocks dépasse le consensus. Blocage de toute nouvelle entrée dans les ±30min autour de l'annonce. Spécifique CL, impact modéré sur les autres a",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_news-gate-eia-crude",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "EIA Weekly Crude Inventories : blocage ±30min, mercredi ~10h30 ET. Moves 0,5-2% sur CL. [ROLE: BLOCAGE_SEUL — spécifique CL. Hebdomadaire = 52 blocages/an de 30min.]"
+      },
+      {
+        "regle": "Non-Farm Payrolls publié le 1er vendredi du mois sur bls.gov. Impact fort sur ES, GC et CL. Ce n'est pas une règle Belkhayate — c'est une mesure de protection opérationnelle contre le slippage et les spreads élargis. Blocage de toute nouvelle entrée dans les ±30min autour de l'annonce. 12 annonces par an.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_news-gate-nfp",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "NFP (1er vendredi du mois) : blocage ±30min. Impact fort sur ES, GC, CL. [ROLE: BLOCAGE_SEUL — protection opérationnelle, pas signal d'entrée.]"
+      },
+      {
+        "regle": "CPI (Consumer Price Index) publié mensuellement sur bls.gov. PCE (Personal Consumption Expenditures, inflation core préférée de la Fed) publié sur bea.gov. Impact fort sur ES et GC. Blocage de toute nouvelle entrée dans les ±30min autour de l'annonce. 12 annonces CPI + 12 annonces PCE par an.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_news-gate-cpi-pce",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "CPI et PCE mensuels : blocage ±30min. Impact fort sur ES et GC. [ROLE: BLOCAGE_SEUL — protection opérationnelle, pas signal d'entrée.]"
+      },
+      {
+        "regle": "Trader directement sur les annonces économiques est extrêmement risqué : (1) le spread s'élargit massivement dans les secondes précédant l'annonce, (2) le slippage peut être de 5–20 ticks sur CL lors d'une annonce EIA, (3) la direction initiale peut s'inverser en quelques secondes (fakeout), (4) les brokers peuvent rejeter les ordres ou les exécuter avec un slippage excessif. Règle TRADEX-AI : int",
+        "statut": "DOUTEUX",
+        "source_video_id": "CHAP12_piege-trader-annonces-directement",
+        "categorie": "macro_evenements",
+        "confiance": 0.6,
+        "note": "PIÈGE : Trader directement les annonces (NFP, FOMC, EIA) — slippage 5-20 ticks, fakeout, spreads extrêmes [ROLE: BLOCAGE_SEUL — renforce les règles News Gate M3/M4/M5.]"
+      },
+      {
+        "regle": "En intraday scalping, les mouvements de 5–30 minutes sont principalement techniques (order flow, niveaux de prix, patterns). La macro impacte les biais directionnels de fond, pas les micro-mouvements. Utiliser la macro pour justifier chaque trade intraday est une erreur de granularité. En complément des règles Belkhayate existantes : 'ne jamais raisonner en fonction des annonces macroéconomiques p",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_macro-granularite-intraday",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "Intraday : la macro impacte le biais directionnel — pas les micro-mouvements de 5-30min [ROLE: CONTEXTE_FILTRE — complémentaire aux règles Belkhayate, pas contradictoire.]"
+      },
+      {
+        "regle": "Principe de hiérarchie des drivers : sur le court terme (intraday), la technique domine. Sur le moyen terme (jours à semaines), la macro domine. Quand macro et technique sont alignées, la probabilité de succès augmente. Quand elles s'opposent, la macro finit généralement par l'emporter sur le moyen terme. Pour TRADEX-AI (scalping intraday) : la technique est le premier filtre, la macro est le cont",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_macro-hierarchie-technique-intraday",
+        "categorie": "macro_evenements",
+        "confiance": 0.92,
+        "note": "Hiérarchie : intraday → technique domine. Moyen terme (jours-semaines) → macro domine. [ROLE: CONTEXTE_FILTRE]"
+      },
+      {
+        "regle": "VIX (CBOE Volatility Index) mesure la volatilité implicite des options sur le S&P 500. Seuils conventionnels professionnels : VIX < 15 = faible peur, environnement risk-on. VIX 15–25 = incertitude modérée. VIX > 25 = risk-off, stress de marché. VIX > 40 = panique / crise. Source : cboe.com. Ces seuils sont des conventions largement partagées dans l'industrie — non des lois mathématiques.",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_vix-seuils-risk-on-off",
+        "categorie": "macro_evenements",
+        "confiance": 0.82,
+        "note": "VIX seuils : <15 risk-on / 15-25 incertitude / >25 risk-off / >40 panique. Source: cboe.com [ROLE: CONTEXTE_FILTRE — seuils conventionnels (🟡), pas propriétaires Belkhayate.]"
+      },
+      {
+        "regle": "Filtre TRADEX-AI proposé (à backtester) : SI VIX > 30 → mode risk-off actif. Pour CL : réduire la taille de 50% (volatilité excessive, slippage amplifié). Pour GC : signal macro haussier (contexte favorable aux longs, valeur refuge activée). Pour ES : contexte défavorable aux setups haussiers. Ajustement scoring : VIX > 30 = taille réduite 50% (override du sizing normal). Ce filtre est une proposi",
+        "statut": "ECOLE_DE_PENSEE",
+        "source_video_id": "CHAP12_vix-filtre-taille-tradex",
+        "categorie": "macro_evenements",
+        "confiance": 0.75,
+        "note": "VIX > 30 → CL : réduire taille 50%. GC : contexte macro haussier. ES : défavorable haussier. [ROLE: FILTRE_TAILLE — 🔵 proposition à backtester. ⚠️ Seuil 30 à confirmer avec GARDE_FOUS.md]"
+      },
+      {
+        "regle": "Après une annonce économique majeure (NFP, FOMC, EIA), une exception est possible : trader le 'retour au calme' 5–10 minutes après, une fois la volatilité initiale absorbée et une direction technique claire établie. Ce n'est pas trader l'annonce — c'est trader la structure post-annonce. Le setup doit remplir tous les critères techniques normaux (COG, Timing, price action). Attendre que le spread r",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_post-annonce-structure-technique",
+        "categorie": "macro_evenements",
+        "confiance": 0.82,
+        "note": "Post-annonce : attendre 5-10min que la volatilité se stabilise, puis entrer sur la structure technique [ROLE: CONTEXTE_TECHNIQUE — exception post-blocage. 🟡 Convention, pas règle absolue.]"
       }
     ],
     "volume_liquidite": [
@@ -13758,6 +13894,22 @@
         "categorie": "volume_liquidite",
         "confiance": 0.78,
         "note": "[CONVENTION] 🟡 Convention — préfigure 'souvent' EIA, pas une règle déterministe. | Titre: API Bulletin (mardi ~16h30 ET) : J-1 avant EIA officiel. Préfigure souvent la di | Section: §12.2.3"
+      },
+      {
+        "regle": "Commitments of Traders (COT) : rapport CFTC publié chaque vendredi (données du mardi précédent). Large Speculators (fonds, CTA) suivent la tendance. Leurs positions nettes à un extrême historique = signal contrarian potentiel. Divergence entre prix et positions nettes (prix monte, positions baissent) = alerte de retournement. Outil macro hebdomadaire uniquement — pas intraday. Données gratuites et",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_cot-large-speculators-contrarian",
+        "categorie": "volume_liquidite",
+        "confiance": 0.92,
+        "note": "COT (cftc.gov, vendredi) : Large Speculators à un extrême historique → signal contrarian potentiel [🟢 Source officielle gratuite. Délai 3 jours — contexte macro hebdo uniquement.]"
+      },
+      {
+        "regle": "American Petroleum Institute (API) publie des estimations de stocks pétroliers chaque mardi ~16h30 ET, soit J-1 avant l'EIA officiel (mercredi). Préfigure souvent (pas toujours) la direction de la variation EIA. Données complètes réservées aux membres payants — certains agrégateurs publient les chiffres en accès libre. À utiliser comme contexte anticipatoire pour les positions CL existantes avant ",
+        "statut": "VALIDE",
+        "source_video_id": "CHAP12_eia-api-bulletin-mardi",
+        "categorie": "volume_liquidite",
+        "confiance": 0.82,
+        "note": "API Bulletin (mardi ~16h30 ET) : J-1 avant EIA officiel. Préfigure souvent la direction EIA sur CL. [🟡 Convention — préfigure 'souvent' EIA, pas une règle déterministe.]"
       }
     ],
     "psychologie": [

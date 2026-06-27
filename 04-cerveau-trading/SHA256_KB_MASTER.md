@@ -4,9 +4,10 @@
 |------|---------|--------|--------|-----------|
 | 2026-06-27 | S34 | 1331 | `656bc5c9ba0c1c8da40a185f9ba95796398893c38a784b0de22a71676f31d0ac` | AVANT fusion Chap9 |
 | 2026-06-27 | S34 | 1341 | `23489646a804bb38469dd231c4137d8f2ad373803d3f8ea4c3f96484a4172d3b` | APRÈS fusion Chap9 (+10 briques) |
+| 2026-06-27 | S34 | 1359 | `e98705e0e55544f5bba57669b9ed3f7b919a2903c033bd1a96b433daa52f5790` | APRÈS fusion Chap12 (+18 briques) |
 
 ## Hash actif
-`23489646a804bb38469dd231c4137d8f2ad373803d3f8ea4c3f96484a4172d3b`
+`e98705e0e55544f5bba57669b9ed3f7b919a2903c033bd1a96b433daa52f5790`
 
 ## Procédure de vérification (PowerShell)
 ```powershell
