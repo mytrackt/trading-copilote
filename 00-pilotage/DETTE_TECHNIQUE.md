@@ -76,12 +76,10 @@ Toujours BLOQUÉ (`AUTO_MODE = False`). La réparation du circuit breaker est un
 > Les 3 collecteurs Phase C (`cot_collector`, `macro_collector`, `news_collector`) compilent
 > et fonctionnent. Les 2 points ci-dessous sont opérationnels (clé API / quota), pas du code.
 
-### 7.1 ⏳ Clé Finnhub invalide (`news_collector.py`)
-- `FINNHUB_API_KEY` dans `.env` renvoie **401 Unauthorized** sur `/news` (clé expirée/révoquée).
-- Constaté S36 : le token a même changé entre 2 runs (rotation en cours) mais reste rejeté.
-- Conséquence : `news_collector` ne ramène aucune news Finnhub (dégrade proprement, count=0, pas de crash).
-- **Action** : régénérer la clé sur https://finnhub.io (dashboard → API key) et remplacer dans `.env`.
-  Aucune modif de code requise.
+### 7.1 ✅ RÉSOLU (S38) — Clé Finnhub régénérée
+- Clé révoquée régénérée sur finnhub.io (S38, 28/06/2026) → remplacée dans `.env`.
+- Validation : `collect_news()` → `finnhub_disponible=True` · `count=2` · pas de 401.
+- **Aucune action requise.**
 
 ### 7.2 ⏳ GDELT rate-limit (`news_collector.py`)
 - API GDELT : **429** « limit requests to one every 5 seconds » sur la requête large multi-OR.
