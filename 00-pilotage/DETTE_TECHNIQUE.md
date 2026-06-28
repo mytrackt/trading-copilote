@@ -18,17 +18,13 @@ Résultat : 1398 règles chargées correctement · SHA256 = `bcaaaeed...`
 
 **Aucune action requise.**
 
-## 2. Dossier `data\` inexistant
+## 2. ✅ RÉSOLU (S36) — Dossier `data\` — existant confirmé
 
-| Fichier | Ligne | Chemin codé en dur | Existe ? |
-|---|---|---|---|
-| `05-saas\engine\staleness_monitor.py` | 16 | `C:/trading-copilote/data` | ❌ |
-| `05-saas\engine\data_reader.py` | 4 | `C:/trading-copilote/data` | ❌ |
-| `05-saas\config\settings.py` | 68 (`DATA_DIR`) | `05-saas\data` | ❌ |
-| `05-saas\config\settings.py` | 70 (`LOGS_DIR`) | `05-saas\logs` | ❌ |
+Vérifié en S36 lors de l'exécution de C0B : `DATA_DIR = C:\trading-copilote\data` **existe**.
+Le dossier a été créé entre S11 et S36 (probablement lors d'une session de test).
+Les 3 collecteurs Phase C (cot_collector, macro_collector, news_collector) écriront dans ce dossier.
 
-**Correctif futur** : le dossier `data\` (flux JSON NT8/ATAS) sera créé par les collecteurs en Phase C —
-décider alors de son emplacement définitif et harmoniser les 4 références ci-dessus.
+**Aucune action requise.** Harmonisation des chemins : voir Phase C Track A.
 
 ## 3. ✅ RÉPARÉ (S03, commit 75a517e + S35, commit c8ffb0f) — Import inter-modules + load_kb_rules
 
