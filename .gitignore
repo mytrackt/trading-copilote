@@ -64,3 +64,8 @@ data/live/*
 data/risk_state.json
 data/signal_history.json
 *.bak_phase3*.json
+
+# Sorties des collecteurs Phase C + tout JSON genere a la racine de data/
+# (cot_data.json, macro_data.json, news_data.json...) -- ne pas committer.
+# Portee racine uniquement : data/live/ reste suivi via son .gitkeep.
+data/*.json
