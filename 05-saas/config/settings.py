@@ -166,3 +166,29 @@ CIRCUIT_BREAKER = {
     "retry_delay_sec":    3,
     "open_duration_sec": 60,
 }
+
+# =============================================================================
+# PHASE C — COLLECTEURS DE DONNÉES EXTERNES
+# Clés API : jamais ici → os.getenv() uniquement
+# =============================================================================
+
+# Chemins sorties (écriture atomic_write_json)
+COT_DATA_PATH   = os.path.join(DATA_DIR, "cot_data.json")
+MACRO_DATA_PATH = os.path.join(DATA_DIR, "macro_data.json")
+NEWS_DATA_PATH  = os.path.join(DATA_DIR, "news_data.json")
+
+# Références clés API Phase C (lues depuis .env)
+# Ajouter dans .env :
+#   FRED_API_KEY=xxxx        (https://fred.stlouisfed.org → Compte gratuit)
+#   EIA_API_KEY=xxxx         (https://www.eia.gov/opendata → Compte gratuit)
+#   FINNHUB_API_KEY=xxxx     (https://finnhub.io → Plan gratuit suffisant)
+#   CFTC : API publique — aucune clé requise
+
+FRED_API_KEY    = os.getenv("FRED_API_KEY", "")
+EIA_API_KEY     = os.getenv("EIA_API_KEY", "")
+FINNHUB_API_KEY = os.getenv("FINNHUB_API_KEY", "")
+
+# Staleness Phase C (compléter STALENESS existant)
+STALENESS["cot_max_age_hours"]   = 168   # hebdomadaire
+STALENESS["macro_max_age_hours"] = 24    # quotidien
+STALENESS["news_max_age_min"]    = 5     # 5 minutes

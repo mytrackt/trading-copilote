@@ -461,14 +461,14 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 | Critère GO | Mesure | Seuil |
 |---|---|---|
-| Batch Gemini terminé | `ls 03-transcriptions\nouvelles-sources\` | 203 fichiers |
+| Batch Gemini (partiel OK) | `ls 03-transcriptions\nouvelles-sources\` | ≥ 42 fichiers (complet requis Phase E uniquement) |
 | KB fusion terminée | `python -c "import json; d=json.load(open('04-cerveau-trading/KNOWLEDGE_BASE_MASTER.json')); print(len(d['rules']))"` | ≥ 1 461 règles |
 | KB chargeable sans erreur | `python -m py_compile 05-saas/engine/claude_brain.py` + `load_kb_rules()` | 0 erreur |
-| KB < 50k tokens | Comptage tokens prompt système | < 50 000 tokens |
+| KB < 55k tokens | Script compact (C0A) | < 55 000 tokens (prompt caching OK) |
 | Zéro règle sans source_url | Script audit source_url | 0 règle sans URL réelle |
 | Validation humaine | Relecture 50 règles aléatoires par Abdelkrim | OK confirmé |
 
-**NO-GO si :** batch incomplet · KB plante au chargement · règles sans source · tokens > 50k
+**NO-GO si :** batch incomplet · KB plante au chargement · règles sans source · tokens > 55k
 **Rollback :** relancer batch Gemini sur vidéos manquantes · supprimer règles non sourcées
 **Validé par :** Abdelkrim ✋
 
@@ -478,7 +478,7 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 | Critère GO | Mesure | Seuil |
 |---|---|---|
-| Phase B validée | GO Phase B | ✅ |
+| Phase B partielle validée | KB chargeable + tokens < 55k + dossier data\ créé | ✅ |
 | NinjaTrader 8 actif | NT8 ouvert + ATI activé port 36973 | Connecté |
 | ATAS configuré | ATAS Pro ouvert + export JSON actif | Connecté |
 | Dossier `data\` créé | `Test-Path C:\trading-copilote\data` | True |
@@ -514,6 +514,7 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 
 | Critère GO | Mesure | Seuil |
 |---|---|---|
+| Batch Gemini terminé | `ls 03-transcriptions\nouvelles-sources\` | 203 fichiers |
 | Phase C + D validées | GO Phase C + D | ✅ |
 | signal_scorer.py compile | `python -m py_compile` | 0 erreur |
 | regime_detector.py compile | `python -m py_compile` | 0 erreur |
