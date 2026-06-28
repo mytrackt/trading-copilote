@@ -71,6 +71,33 @@ Toujours BLOQUÉ (`AUTO_MODE = False`). La réparation du circuit breaker est un
 
 ---
 
+## 7. ⏳ Phase C — points OPÉRATIONNELS collecteurs (S36, pas des bugs de code)
+
+> Les 3 collecteurs Phase C (`cot_collector`, `macro_collector`, `news_collector`) compilent
+> et fonctionnent. Les 2 points ci-dessous sont opérationnels (clé API / quota), pas du code.
+
+### 7.1 ⏳ Clé Finnhub invalide (`news_collector.py`)
+- `FINNHUB_API_KEY` dans `.env` renvoie **401 Unauthorized** sur `/news` (clé expirée/révoquée).
+- Constaté S36 : le token a même changé entre 2 runs (rotation en cours) mais reste rejeté.
+- Conséquence : `news_collector` ne ramène aucune news Finnhub (dégrade proprement, count=0, pas de crash).
+- **Action** : régénérer la clé sur https://finnhub.io (dashboard → API key) et remplacer dans `.env`.
+  Aucune modif de code requise.
+
+### 7.2 ⏳ GDELT rate-limit (`news_collector.py`)
+- API GDELT : **429** « limit requests to one every 5 seconds » sur la requête large multi-OR.
+- Transitoire : une requête simple a bien renvoyé 200 (endpoint + format OK). Le 429 prolongé en S36
+  venait des sondes de diagnostic rapprochées. En prod (1 cycle / 5 min) GDELT répond.
+- Le code gère déjà le 429 (retourne `[]`). **Aucune action bloquante.**
+- Amélioration possible (non faite) : en-tête `User-Agent` + léger backoff si throttling récurrent.
+
+### 7.3 Correctifs de fond appliqués pendant Track A (rappel)
+- `cot_collector` : filtrage COT par **code contrat exact** (`cftc_contract_market_code`) au lieu de
+  `contains(nom)` — évitait MICRO GOLD / MICRO COPPER / WTI ICE Europe / mauvais blé. API CFTC OData **v4**, table `jun7-fc8e`, encodage `%20`.
+- `macro_collector` : série EIA **`WCESTUS1`** (stocks crude hors SPR, ~412M) au lieu de `WCRSTUS1`
+  (total SPR incluse, ~743M) que renvoyaient les facets initiales. Dataset `petroleum/stoc/wstk`.
+
+---
+
 ## Rappels d'état (réorganisation du 11/06/2026)
 
 - KB vivante : `04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json` (142 vidéos, 11 catégories de règles)
