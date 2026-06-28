@@ -227,17 +227,14 @@ def load_kb_rules(kb_path: str = None, kb_provisoire: bool = KB_PROVISOIRE_DEFAU
             rules_text += f"## {categorie.upper()}\n"
             for rule in briques:
                 if rule.get("id"):
-                    # Type Chapitre
+                    # Type Chapitre (compact : sans tag fiabilite)
                     titre = rule.get("titre", rule.get("id", ""))
                     corps = rule.get("contenu", "")
-                    fiabilite = rule.get("fiabilite", "")
-                    rules_text += f"### {titre} [{fiabilite}]\n{corps}\n\n"
+                    rules_text += f"### {titre}\n{corps}\n\n"
                 else:
-                    # Type Video
+                    # Type Video (compact : regle seule, sans statut/confiance redondants)
                     regle = rule.get("regle", "")
-                    statut = rule.get("statut", "")
-                    confiance = rule.get("confiance", "")
-                    rules_text += f"- [{statut} {confiance}] {regle}\n"
+                    rules_text += f"- {regle}\n"
 
     return {
         "rules": rules_text,
