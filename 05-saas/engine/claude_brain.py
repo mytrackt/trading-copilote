@@ -45,6 +45,14 @@ except ImportError:
     _cb_protected_call = None
     logger.warning("circuit_breaker non disponible")
 
+# Import runner Phase C (optionnel — absent en test unitaire)
+try:
+    from .data_collector_runner import load_current_phase_c
+    _PHASE_C_AVAILABLE = True
+except ImportError:
+    _PHASE_C_AVAILABLE = False
+    logger.debug("data_collector_runner non disponible (normal en test)")
+
 
 def _parse_claude_json(response_text: str) -> dict:
     """
@@ -85,7 +93,7 @@ def call_claude_kb(kb_rules: str, god_mode_prompt: str) -> dict:
             system=[{
                 "type": "text",
                 "text": kb_rules,
-                "cache_control": {"type": "persistent"}   # Prompt caching
+                "cache_control": {"type": "ephemeral"}   # Prompt caching
             }],
             messages=[{
                 "role": "user",
@@ -137,7 +145,23 @@ def _enforce_kb_provisoire(result: dict, kb_provisoire: bool) -> dict:
     return result
 
 
-def get_signal(context: dict, kb_rules: str, kb_provisoire: bool = KB_PROVISOIRE_DEFAUT) -> dict:
+def load_phase_c_data() -> dict:
+    """
+    Charge les données Phase C depuis les fichiers JSON (COT / Macro / News).
+    Retourne {"cot": dict, "macro": dict, "news": dict}.
+    Ne déclenche PAS de recollecte — lit les fichiers existants uniquement.
+    Appeler data_collector_runner.run_all() en amont si une mise à jour est souhaitée.
+    """
+    if _PHASE_C_AVAILABLE:
+        try:
+            return load_current_phase_c()
+        except Exception as e:
+            logger.warning(f"load_phase_c_data : erreur runner — {e}")
+    return {"cot": {}, "macro": {}, "news": {}}
+
+
+def get_signal(context: dict, kb_rules: str, kb_provisoire: bool = KB_PROVISOIRE_DEFAUT,
+               phase_c_data: dict = None) -> dict:
     """
     Point d'entrée principal.
     1. Construit le prompt GOD_MODE
@@ -153,10 +177,20 @@ def get_signal(context: dict, kb_rules: str, kb_provisoire: bool = KB_PROVISOIRE
         "risk": {"dd_today": float, "dd_week": float},
         "vix": float, "no_news_gate": bool, "actif": str, "timeframe": str,
     }
+    phase_c_data (optionnel) = {"cot": dict, "macro": dict, "news": dict}
+      → données Phase C (COT CFTC, FRED/EIA, Finnhub/GDELT)
+      → si None : contexte Phase C vide (rétrocompatible)
     """
     try:
+        # Injecter les données Phase C dans le contexte si disponibles
+        ctx_enrichi = dict(context)
+        if phase_c_data is not None:
+            ctx_enrichi["phase_c"] = phase_c_data
+        elif "phase_c" not in ctx_enrichi:
+            ctx_enrichi["phase_c"] = {"cot": {}, "macro": {}, "news": {}}
+
         from .prompt_builder import build_god_mode_prompt
-        prompt = build_god_mode_prompt(context)
+        prompt = build_god_mode_prompt(ctx_enrichi)
         result = call_claude_kb(kb_rules, prompt)
         # S'assurer que le résultat a tous les champs obligatoires
         result.setdefault("signal", "ATTENDRE")
@@ -238,10 +272,14 @@ def load_kb_rules(kb_path: str = None, kb_provisoire: bool = KB_PROVISOIRE_DEFAU
                     else:
                         # Type Video dict (ancien format Whisper)
                         regle = rule.get("regle", "")
-                        rules_text += f"- {regle}\n"
+                        if regle:
+                            rules_text += f"- {regle}\n"
+            rules_text += "\n"
+        logger.info(f"KB chargee : {total} regles depuis {kb_path}")
 
+    banniere = BANNIERE_KB_PROVISOIRE if kb_provisoire else None
     return {
-        "rules": rules_text,
+        "rules":         rules_text,
         "kb_provisoire": kb_provisoire,
-        "banniere": BANNIERE_KB_PROVISOIRE if kb_provisoire else None,
+        "banniere":      banniere,
     }
