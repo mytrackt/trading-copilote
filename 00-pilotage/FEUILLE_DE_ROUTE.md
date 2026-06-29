@@ -145,23 +145,42 @@ COUCHE TRANSVERSALE — AUDIT & MONITORING
 
 ---
 
-## ETAT ACTUEL (au 2026-06-24 — Session S24)
+## ETAT ACTUEL (mis à jour S43 — 29/06/2026)
+
+> Dernière mise à jour réelle : S43, commit 689e452. Section S24 conservée pour historique.
+
+### Avancement Phase C (S36→S43)
+
+| Module | État | Commit | Note |
+|--------|------|--------|------|
+| cot_collector.py | ✅ FONCTIONNEL | S36 | CFTC OData v4 · filtrage code contrat exact |
+| macro_collector.py | ✅ FONCTIONNEL | S36 | FRED + EIA (WCESTUS1 hors SPR) |
+| news_collector.py | ✅ FONCTIONNEL | S38 | Finnhub ✅ · GDELT ⚠️ SSL côté serveur |
+| data_collector_runner.py | ✅ FONCTIONNEL | da6e197 | run_all() · fraîcheur COT/Macro/News |
+| prompt_builder.py | ✅ FONCTIONNEL | da6e197 | GOD_MODE 15 champs · 6 règles absolues |
+| claude_brain.py | ✅ RÉPARÉ | da6e197 | load_kb_rules() + load_phase_c_data() + cache_control ephemeral |
+| test_cycle_complet_api.py | ✅ PASS 5/5 | 689e452 | Claude API répond · 15 champs · confiance 72% · score_kb 7.4 |
+| KNOWLEDGE_BASE_MASTER.json | ✅ 4142 règles | S40 | 100 vidéos Gemini + 62 chapitres |
+| USE_MOCK_DATA | True (mock) | — | NT8 réel non encore connecté |
+
+### Tableau d'état complet (depuis S24)
 
 | Item | Etat | Note |
 |------|------|------|
 | Reorganisation structure 00→06 | OK | commit 960fe88 |
-| CLAUDE.md a jour | OK | S24 — gemini-2.5-flash verrouille, architecture 8 couches |
+| CLAUDE.md a jour | OK | S43 — gemini-2.5-flash verrouille, architecture 8 couches |
 | Moteur TRANSVIDEO | OK | 01-moteur-transvideo\scripts\ |
 | Code SaaS migre 05-saas\ | OK | config, engine, KB, utils |
-| Circuit breaker repare | OK | commit 75a517e |
-| KNOWLEDGE_BASE_MASTER.json | OK (canonique) | 1 313 regles — D1→D172, 13 sources, P0+P1+P2+P3+P4 complets |
-| Pipeline KB (KB_INDEX.md) | OK | D1→D172 (+111 decisions S23) · 3 adaptateurs scraping valides |
-| Pipeline Gemini multimodal | OK | gemini_transcriber.py 706 lignes · chunking auto >50min · batch 3 : 70 OK / 51 err corriges |
-| Batch 4 Gemini (45 fichiers Lecon) | EN ATTENTE | _AsciiFileWrapper repare — a lancer |
-| gemini_transcriber.py | REPARE S24 | commit f854b2b · 706 lignes · ASCII wrapper OK |
-| Collecteurs (NT8, ATAS, news, COT, macro) | NON | Phase C (en attente Phase B finalisee) |
-| dossier data\ | A CREER | Phase C |
+| Circuit breaker repare | OK | commits 75a517e + S36 (protected_call active) |
+| KNOWLEDGE_BASE_MASTER.json | OK | **4 142 regles** (100 videos Gemini + 62 chapitres) · SHA256 31348bda |
+| Pipeline Gemini multimodal | OK | 100 videos traitees · KB stable depuis S40 |
+| Collecteurs Phase C | OK | cot ✅ · macro ✅ · news ✅ (GDELT SSL côté serveur, non bloquant) |
+| data_collector_runner.run_all() | OK | S42 · fraîcheur COT 24h / Macro 24h / News 15min |
+| prompt_builder.py (GOD_MODE) | OK | S42 · 15 champs JSON · sections NT8 + COT + Macro + News |
+| Cycle complet API testé | **OK — 5/5 PASS** | S43 · commit 689e452 · HTTP 200 · 13.7s · confiance 72% |
+| dossier data\ | OK | data/mock/ · data/live/ (vide — NT8 non connecté) |
 | Mode AUTO | BLOQUE | BLOQUE par defaut — 8 conditions Phase K non remplies |
+| NT8 live (USE_MOCK_DATA) | NON | Prochaine étape : basculer USE_MOCK_DATA = False + NT8 réel |
 | regime_detector.py | NON | Phase E — nouveau fichier a creer |
 | signal_scorer.py | NON | Phase E — grille /10 conceptuelle, pas codee |
 | feedback_engine.py | NON | Phase E/F — Loop 3 absente |
@@ -650,6 +669,71 @@ Note : creer C:\trading-copilote\data\ en debut de Phase C.
 **NO-GO si :** un test sur 8 échoue · rate limiter inactif · audit log absent
 **Rollback :** corriger le test fautif · ne pas passer en production avant 8/8
 **Validé par :** Abdelkrim ✋
+
+---
+
+---
+
+## VEILLE TECHNO S43 — APPORTS VÉRIFIÉS (29/06/2026)
+
+> Sources vérifiées par screenshot direct le 29/06/2026. Zéro hallucination.
+> Rapport complet : `00-pilotage\_context\RAPPORT_SESSION_VEILLE_TECHNO_20260629.md`
+
+### 1. Loop Engineering — Maker + Checker (Boris Cherny / Anthropic)
+
+**Source vérifiée** : Boris Cherny = créateur de Claude Code (Anthropic). Concept publié juin 2026.
+
+**Concept clé** : un seul agent = biais de confirmation. Solution : 2 agents séparés.
+- **MAKER** : produit le signal → `claude_brain.get_signal()` — DÉJÀ CODÉ Phase C
+- **CHECKER** : valide le signal contre les règles — **MANQUANT dans TRADEX**
+
+**Impact Phase F** : le dual-Claude existant (bull/bear advocates) couvre l'angle marché.
+Le CHECKER Belkhayate est différent : il valide le signal sorti contre les **42 garde-fous**
+(`00-pilotage\GARDE_FOUS.md`) via un second appel Claude avec prompt checker dédié.
+→ Ajouter `checker_agent.py` en Phase F comme sous-tâche de dual-Claude.
+
+**Boucle 1 (heartbeat 15min)** : déjà implémentée → `data_collector_runner.run_all()`.
+Fraîcheur : COT 24h · Macro 24h · News 15min. Rien à construire.
+
+**À faire en Phase F** : `checker_agent.py` — valide signal contre 42 garde-fous (1 appel Claude,
+prompt checker, compte sur le rate limiter). Distinct de dual-Claude bull/bear.
+
+---
+
+### 2. GStack (Garry Tan / CEO Y Combinator)
+
+**Source vérifiée** : `github.com/garrytan/gstack` — 118k stars · 17.6k forks · actif (4 jours)
+· 306 branches · MIT License. Confirmé par screenshot 29/06/2026.
+
+**Utilité pour TRADEX** : faible — GStack est un outil de workflow de développement logiciel
+(plan, review, ship), pas un outil de trading.
+
+**Utilité pour DIFAI/CARIO** : forte — `/plan-ceo-review`, `/review`, `/ship` pertinents
+pour les phases de développement SaaS. À installer sur DIFAI quand Phase I TRADEX terminée.
+
+**Action TRADEX** : aucune action requise maintenant. Bookmark pour DIFAI.
+
+---
+
+### 3. OpenAlice — Agent trading autonome open-source
+
+**Source** : `github.com/TraderAlice/OpenAlice` — ⚠️ NON VÉRIFIÉ PAR SCREENSHOT.
+À vérifier avant toute installation.
+
+**Architecture confirmée dans le rapport** : Node.js · fichiers locaux · Web UI + Telegram + MCP.
+**Brokers supportés** : Alpaca, Interactive Brokers, CCXT (crypto). **NinjaTrader = absent**.
+
+**Point bloquant pour TRADEX** : NinjaTrader 8 n'est pas supporté nativement.
+Intégration NT8 ↔ OpenAlice nécessiterait un pont custom (non trivial).
+
+**Modèle IA configuré dans le rapport** : `claude-opus-4-7` → confirmé existant (screenshot claude.ai).
+
+**Décision provisoire** :
+- Si TRADEX reste sur NT8 → OpenAlice = couche exécution non prioritaire (Phase G déjà prévue avec NT8 ATI)
+- Si migration vers Interactive Brokers envisagée → OpenAlice devient pertinent en Phase G
+
+**Action Phase G** : évaluer OpenAlice vs NT8 ATI natif lors de la décision broker.
+**Prérequis absolu** : paper trading validé (Phase J) avant toute connexion broker réel.
 
 ---
 
