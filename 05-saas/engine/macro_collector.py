@@ -26,17 +26,23 @@ EIA_BASE_URL  = "https://api.eia.gov/v2/petroleum/stoc/wstk/data/"
 TIMEOUT_SEC = 15
 
 # Series FRED ciblées
+# ATTENTION : dtwexbgs_broad (panier large, ~120) != DXY/USDX ICE (~100).
+# Ne pas comparer directement avec le futur DX de NT8 — indices differents.
 FRED_SERIES = {
-    "treasury_10y":            "DGS10",     # Rendement 10 ans US Treasury
-    "fed_funds_rate":          "DFF",        # Taux Fed Funds effectif (quotidien)
-    "dollar_index_fred":       "DTWEXBGS",   # Dollar Index Trade-Weighted (proxy DXY)
-    "inflation_expectation_5y": "T5YIFR",    # Inflation attendue 5 ans (breakeven)
-    "m2_money_supply":         "M2SL",       # M2 (mensuel -- delai publication)
+    "treasury_10y":             "DGS10",    # Rendement 10 ans US Treasury (quotidien)
+    "fed_funds_rate":           "DFF",      # Taux Fed Funds effectif (quotidien)
+    "dtwexbgs_broad":           "DTWEXBGS", # Dollar Trade-Weighted Broad Goods (PAS DXY)
+    "inflation_expectation_5y": "T5YIFR",   # Inflation attendue 5 ans (quotidien)
+    "m2_money_supply":          "M2SL",     # M2 money supply (mensuel -- delai ~6 semaines)
 }
 
 
-def _fetch_fred_series(series_id: str, api_key: str) -> float | None:
-    """Retourne la dernière observation d'une série FRED (valeur numérique)."""
+def _fetch_fred_series(series_id: str, api_key: str) -> tuple:
+    """
+    Retourne (valeur_float, date_observation_str) pour la derniere observation FRED.
+    Retourne (None, None) en cas d'erreur ou de valeur manquante.
+    La date permet de detecter les series avec delai de publication (ex: M2SL ~6 semaines).
+    """
     params = {
         "series_id":    series_id,
         "api_key":      api_key,
@@ -50,20 +56,25 @@ def _fetch_fred_series(series_id: str, api_key: str) -> float | None:
         resp.raise_for_status()
         obs = resp.json().get("observations", [])
         if obs and obs[0].get("value") not in (".", None, ""):
-            return float(obs[0]["value"])
-        return None
+            return float(obs[0]["value"]), obs[0].get("date", "")
+        return None, None
     except Exception as e:
         logger.warning(f"[macro_collector] FRED {series_id} : {e}")
-        return None
+        return None, None
 
 
 def collect_fred(api_key: str) -> dict:
-    """Collecte toutes les séries FRED définies dans FRED_SERIES."""
+    """
+    Collecte toutes les series FRED definies dans FRED_SERIES.
+    Pour chaque serie 'name', ajoute aussi 'name_obs_date' (date de la derniere observation).
+    Permet de detecter les series avec delai de publication (M2SL : ~6 semaines).
+    """
     result = {}
     for name, series_id in FRED_SERIES.items():
-        val = _fetch_fred_series(series_id, api_key)
+        val, obs_date = _fetch_fred_series(series_id, api_key)
         result[name] = val
-        logger.info(f"[macro_collector] FRED {series_id} → {val}")
+        result[f"{name}_obs_date"] = obs_date  # ex: "2026-06-20" ou None
+        logger.info(f"[macro_collector] FRED {series_id} → {val} (obs: {obs_date})")
         time.sleep(0.5)  # Rate limiting FRED
     return result
 

@@ -13,7 +13,7 @@ import time
 import logging
 import requests
 from urllib.parse import urlencode, quote
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -104,18 +104,35 @@ def collect_cot() -> dict:
         change_s = int(raw.get("change_in_noncomm_short_all", 0) or 0)
         net_change = change_l - change_s
 
+        date_rapport = raw.get("report_date_as_yyyy_mm_dd", "")
+        # Staleness check : COT hebdo CFTC publie chaque vendredi 15h30 ET.
+        # Si la date du rapport > 7 jours -> warning (jour ferie US ou retard CFTC).
+        staleness_warning = False
+        age_jours = None
+        if date_rapport:
+            try:
+                dt_rapport = datetime.fromisoformat(date_rapport.split("T")[0])
+                age_jours = (datetime.now() - dt_rapport).days
+                staleness_warning = age_jours > 7
+            except ValueError:
+                pass
+
         result[symbol] = {
-            "disponible":       True,
-            "date_rapport":     raw.get("report_date_as_yyyy_mm_dd", ""),
-            "long_nc":          long_nc,
-            "short_nc":         short_nc,
-            "net_speculateur":  net,
-            "variation_nette":  net_change,
-            "biais":            "LONG" if net > 0 else "SHORT" if net < 0 else "NEUTRE",
-            "biais_croissant":  net_change > 0,
-            "nom_cftc":         raw.get("market_and_exchange_names", ""),
+            "disponible":        True,
+            "date_rapport":      date_rapport,
+            "age_jours":         age_jours,
+            "staleness_warning": staleness_warning,  # True si donnees > 7 jours
+            "long_nc":           long_nc,
+            "short_nc":          short_nc,
+            "net_speculateur":   net,
+            "variation_nette":   net_change,
+            "biais":             "LONG" if net > 0 else "SHORT" if net < 0 else "NEUTRE",
+            "biais_croissant":   net_change > 0,
+            "nom_cftc":          raw.get("market_and_exchange_names", ""),
         }
-        logger.info(f"[cot_collector] {symbol} — net={net:+d} · biais={result[symbol]['biais']}")
+        if staleness_warning:
+            logger.warning(f"[cot_collector] {symbol} -- DONNEES ANCIENNES ({age_jours}j) -- rapport={date_rapport}")
+        logger.info(f"[cot_collector] {symbol} -- net={net:+d} -- biais={result[symbol]['biais']} -- age={age_jours}j")
 
     return result
 
@@ -126,7 +143,7 @@ def write_cot(data: dict) -> None:
     from config.settings import COT_DATA_PATH
     data["_collected_at"] = datetime.now(timezone.utc).isoformat()
     atomic_write_json(COT_DATA_PATH, data)
-    logger.info(f"[cot_collector] Écrit → {COT_DATA_PATH}")
+    logger.info(f"[cot_collector] Ecrit -> {COT_DATA_PATH}")
 
 
 def run_once() -> dict:
@@ -135,7 +152,7 @@ def run_once() -> dict:
         data = collect_cot()
         write_cot(data)
         actifs_ok = sum(1 for v in data.values() if isinstance(v, dict) and v.get("disponible"))
-        logger.info(f"[cot_collector] TERMINÉ — {actifs_ok}/4 actifs disponibles")
+        logger.info(f"[cot_collector] TERMINE -- {actifs_ok}/4 actifs disponibles")
         return data
     except Exception as e:
         logger.error(f"[cot_collector] ERREUR run_once : {e}")
