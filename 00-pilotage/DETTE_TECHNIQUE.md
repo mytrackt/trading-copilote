@@ -96,6 +96,22 @@ Toujours BLOQUÉ (`AUTO_MODE = False`). La réparation du circuit breaker est un
 
 ---
 
+## 8. ✅ RÉPARÉ (S42, commit da6e197) — cache_control "persistent" → "ephemeral"
+
+### Problème
+`claude_brain.py` utilisait `cache_control: {"type": "persistent"}` (valeur invalide).
+Chaque appel Claude API retournait `400 invalid_request_error` et basculait en fallback 65%
+sans jamais atteindre le vrai modèle. Bug silencieux présent depuis la création du fichier.
+
+### Correctif appliqué (S42)
+- `claude_brain.py` ligne 97 : `"type": "persistent"` → `"type": "ephemeral"`
+- `settings.py` CLAUDE dict : corrigé S43 (cosmétique — settings.py non lu par claude_brain)
+- Lint `py_compile` : 0 erreur. 14/14 tests PASS inchangés.
+
+**Aucune action requise.**
+
+---
+
 ## Rappels d'état (réorganisation du 11/06/2026)
 
 - KB vivante : `04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json` (142 vidéos, 11 catégories de règles)

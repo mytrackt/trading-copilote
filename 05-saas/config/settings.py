@@ -153,7 +153,7 @@ NEWS_EVENTS_CRITIQUES = ["NFP", "FOMC", "CPI", "GDP", "JOLTS", "PPI"]
 CLAUDE = {
     "model_kb":     "claude-sonnet-4-6",
     "model_vision": "claude-sonnet-4-20250514",
-    "cache_type":   "persistent",
+    "cache_type":   "ephemeral",   # corrige S42 (commit da6e197)
     "max_tokens":   1000,
 }
 
