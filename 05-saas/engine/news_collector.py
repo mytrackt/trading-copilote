@@ -35,9 +35,12 @@ KEYWORDS_MARCHE = [
 MAX_ARTICLES = 20  # Limiter le volume de données
 
 
-def _fetch_finnhub_news(api_key: str, category: str = "general") -> list:
+def _fetch_finnhub_news(api_key: str, category: str = "general") -> tuple:
     """
     Récupère les dernières actualités Finnhub.
+    Retourne (list_articles, success_bool).
+    success=False si l'appel HTTP échoue (réseau, 401, 500...).
+    success=True si l'API répond correctement, même si 0 articles après filtrage.
     category : 'general' | 'forex' | 'crypto' | 'merger'
     """
     url = f"{FINNHUB_BASE_URL}/news"
@@ -50,7 +53,7 @@ def _fetch_finnhub_news(api_key: str, category: str = "general") -> list:
         resp.raise_for_status()
         articles = resp.json()
         if not isinstance(articles, list):
-            return []
+            return [], True  # Réponse valide mais format inattendu
         # Filtrer par pertinence (mots-clés)
         filtres = []
         kw_lower = [k.lower() for k in KEYWORDS_MARCHE]
@@ -66,23 +69,25 @@ def _fetch_finnhub_news(api_key: str, category: str = "general") -> list:
                     "origine":   "finnhub",
                     "categorie": category,
                 })
-        return filtres[:MAX_ARTICLES]
+        return filtres[:MAX_ARTICLES], True
     except Exception as e:
         logger.warning(f"[news_collector] Finnhub {category} : {e}")
-        return []
+        return [], False
 
 
-def _fetch_gdelt_headlines() -> list:
+def _fetch_gdelt_headlines() -> tuple:
     """
     Récupère les événements macro récents via GDELT v2 Doc API.
-    Recherche sur les thèmes marché/économie.
+    Retourne (list_articles, success_bool).
+    success=False si l'appel échoue (erreur réseau, SSL, 429, etc.).
+    success=True uniquement si la réponse HTTP est valide, même si 0 articles.
     """
     params = {
         "query":  "economy OR gold OR oil OR copper OR wheat OR federal reserve OR inflation",
         "mode":   "artlist",
         "maxrecords": str(MAX_ARTICLES),
         "format": "json",
-        "timespan": "1h",  # dernière heure
+        "timespan": "4h",  # 4h (robustesse si collecteur tombe 1h+)
     }
     try:
         resp = requests.get(GDELT_BASE_URL, params=params, timeout=TIMEOUT_SEC)
@@ -99,10 +104,10 @@ def _fetch_gdelt_headlines() -> list:
                 "categorie": "macro",
             }
             for art in articles[:MAX_ARTICLES]
-        ]
+        ], True
     except Exception as e:
         logger.warning(f"[news_collector] GDELT : {e}")
-        return []
+        return [], False
 
 
 def _detect_news_gate_events(articles: list) -> list:
@@ -126,18 +131,21 @@ def collect_news() -> dict:
     finnhub_key = FINNHUB_API_KEY or os.getenv("FINNHUB_API_KEY", "")
 
     articles = []
+    finnhub_ok = False
 
     if finnhub_key:
-        articles += _fetch_finnhub_news(finnhub_key, category="general")
+        general, ok1 = _fetch_finnhub_news(finnhub_key, category="general")
         time.sleep(1.0)  # Rate limiting Finnhub
-        articles += _fetch_finnhub_news(finnhub_key, category="forex")
-        logger.info(f"[news_collector] Finnhub : {len(articles)} articles filtrés")
+        forex,   ok2 = _fetch_finnhub_news(finnhub_key, category="forex")
+        articles += general + forex
+        finnhub_ok = ok1 or ok2  # True si au moins 1 appel a réussi
+        logger.info(f"[news_collector] Finnhub : {len(articles)} articles filtrés · ok={finnhub_ok}")
     else:
         logger.warning("[news_collector] FINNHUB_API_KEY absente — mode dégradé GDELT uniquement")
 
-    gdelt_articles = _fetch_gdelt_headlines()
+    gdelt_articles, gdelt_ok = _fetch_gdelt_headlines()
     articles += gdelt_articles
-    logger.info(f"[news_collector] GDELT : {len(gdelt_articles)} articles")
+    logger.info(f"[news_collector] GDELT : {len(gdelt_articles)} articles · ok={gdelt_ok}")
 
     # Déduplication sur URL
     seen_urls = set()
@@ -153,8 +161,8 @@ def collect_news() -> dict:
     return {
         "articles":          articles_uniques[:MAX_ARTICLES],
         "count":             len(articles_uniques),
-        "finnhub_disponible": bool(finnhub_key),
-        "gdelt_disponible":   True,
+        "finnhub_disponible": finnhub_ok,   # True si au moins 1 appel Finnhub a réussi
+        "gdelt_disponible":   gdelt_ok,    # True uniquement si l'appel GDELT a réussi
         "news_gate_events":   news_gate_events,
         "alerte_news_gate":   len(news_gate_events) > 0,
     }
@@ -175,7 +183,7 @@ def run_once() -> dict:
         data = collect_news()
         write_news(data)
         logger.info(
-            f"[news_collector] TERMINÉ — {data['count']} articles · "
+            f"[news_collector] TERMINE --- {data['count']} articles · "
             f"news_gate_events={data['news_gate_events']}"
         )
         return data
@@ -187,7 +195,7 @@ def run_once() -> dict:
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     result = run_once()
-    # Afficher sans les articles complets pour lisibilité
     summary = {k: v for k, v in result.items() if k != "articles"}
     summary["articles_extrait"] = result.get("articles", [])[:3]
+    import json
     print(json.dumps(summary, indent=2, default=str))

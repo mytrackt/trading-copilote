@@ -5,14 +5,14 @@ Verifie que chaque source de donnees est recente avant tout signal.
 import os
 from datetime import datetime, timedelta
 
-# Feeds secondaires (communs live et mock)
+# Feeds Phase C (collecteurs actifs — noms réels des fichiers écrits)
 _OTHER_LIMITS = {
-    "news_feed.json":         timedelta(minutes=10),
+    "news_data.json":         timedelta(minutes=5),   # Phase C — news_collector.py (5 min)
+    "macro_data.json":        timedelta(hours=24),     # Phase C — macro_collector.py (quotidien)
+    "cot_data.json":          timedelta(days=8),       # Phase C — cot_collector.py (hebdo CFTC)
+    # Feeds futurs (non encore produits — MISSING attendu, pas d'alerte bloquante)
     "fear_greed_stocks.json": timedelta(minutes=15),
-    "gdelt_signals.json":     timedelta(minutes=20),
     "events_calendar.json":   timedelta(hours=2),
-    "macro.json":             timedelta(hours=6),
-    "cot_data.json":          timedelta(days=8),
     "dark_pools.json":        timedelta(days=16),
 }
 
@@ -69,7 +69,7 @@ def get_system_mode(staleness: dict) -> str:
     """
     # Actifs trading critiques + ATAS
     critical = [f"NT8_{s}" for s in ["GC", "HG", "CL", "ZW"]] + ["ATAS_signals"]
-    important = ["news_feed.json", "fear_greed_stocks.json"]
+    important = ["news_data.json"]  # Phase C actif -- macro_data.json non bloquant (quotidien)
 
     if any(not staleness.get(s, {}).get("ok", False) for s in critical):
         return "BLOCKED"
