@@ -715,7 +715,24 @@ pour les phases de développement SaaS. À installer sur DIFAI quand Phase I TRA
 
 ---
 
-### 3. OpenAlice — Agent trading autonome open-source
+### 3. Garde-fous boucles agentiques — 3 règles impératives
+
+> Source : Loop Engineering (Boris Cherny / Anthropic) + retour terrain juin 2026.
+> Sans ces garde-fous : risque de boucle infinie → facture API incontrôlée.
+> **À implémenter AVANT toute automatisation scheduler dans TRADEX-AI.**
+
+| Règle | Principe | Équivalent TRADEX-AI (Python) | État |
+|---|---|---|---|
+| **1. Condition de sortie explicite** | Définir `/goal` avec critère précis et vérifiable avant de lancer toute boucle | `while not signal_valid and iterations < MAX_ITER` — condition de sortie codée, jamais implicite | ❌ À coder avant Boucle 1 |
+| **2. Plafond d'itérations** | Toujours `max_turns` — ex: `max_turns=10` pour éviter les boucles infinies | `MAX_CALLS_PER_DAY = 30` dans `settings.py` + compteur dans `rate_limiter.py` (Phase L) + `MAX_ITERATIONS = 10` dans tout futur scheduler | ❌ `rate_limiter.py` absent |
+| **3. Human gate sur irréversible** | Validation humaine obligatoire avant tout ordre réel ou commit prod | Mode Manuel (Abdelkrim décide chaque signal) + Mode AUTO = False par défaut + bouton physique + mot de passe Phase K | ✅ DÉJÀ EN PLACE |
+
+**Règle absolue TRADEX** : `rate_limiter.py` avec `MAX_CALLS_PER_DAY` doit être codé
+**AVANT** tout scheduler automatique — pas en Phase L, mais comme prérequis de Boucle 1.
+
+---
+
+### 4. OpenAlice — Agent trading autonome open-source
 
 **Source** : `github.com/TraderAlice/OpenAlice` — ⚠️ NON VÉRIFIÉ PAR SCREENSHOT.
 À vérifier avant toute installation.
