@@ -547,9 +547,107 @@ Ce seuil est unique pour tout le code. Jamais utiliser 20 ou 40 dans le moteur.
 
 ---
 
+## DÉCISIONS SESSION S39 (29/06/2026)
+> Établies après diagnostic complet 3 rapports (A/B/C) — Reconstruction KB Whisper → Gemini
+
+### D-S39-1 — 62 règles chapitres à sauvegarder (pas 14)
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : La KB contient 62 règles de type chapitre à préserver lors de toute reconstruction :
+- 14 règles format `id_brique` (COG, Timing, Setup confluences, OBJ1/2/3, 5 pièges)
+- 48 règles format `id`/`contenu`/`source_origine` (3e format découvert Rapport A)
+Le filtre correct pour capturer les 62 : `if "source_video_id" not in e` (pas `if "id_brique" in e`)
+**Raison** : La stratégie S39 initiale ne prévoyait que 14 règles — les 48 autres auraient été perdues silencieusement
+**Impact** : `extract_chapter_rules.py` · `inject_chapter_rules.py` · Phase 0 reconstruction
+**Statut** : VERROUILLÉ
+
+### D-S39-2 — rebuild_aggregated() : fragilité permanente des règles chapitres
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : `rebuild_aggregated()` [transcript_processor.py l.282-294] reconstruit `aggregated_rules`
+uniquement depuis `kb["videos"][]`. Les 62 règles chapitres (absentes de `videos[]`) sont effacées
+après chaque exécution du processeur.
+Règle absolue : `inject_chapter_rules.py` doit être exécuté comme DERNIÈRE écriture KB après toute
+reconstruction. Ne jamais relancer le processeur après Phase 8 sans réinjecter les chapitres.
+**Raison** : Risque critique découvert Rapport B — non prévu par la stratégie V2 initiale
+**Impact** : Ordre d'exécution Ph.0 → Ph.7 → Ph.8 (finale) · `KB_CHAPTER_RULES_BACKUP.json` = filet permanent
+**Statut** : VERROUILLÉ
+
+### D-S39-3 — Bug BASE_DIR dans les scripts utils (3× dirname obligatoire)
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : Pour tout script Python placé dans `05-saas/utils/`, le chemin racine projet doit utiliser :
+`BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))`
+(3× dirname, pas 2×). 2× dirname depuis `utils/` résout vers `05-saas/` au lieu de la racine projet.
+**Raison** : Bug découvert Rapport B — `KB_FILE` devenait `05-saas\04-cerveau-trading\...` (inexistant)
+**Impact** : `extract_chapter_rules.py` · `inject_chapter_rules.py` · tout futur script dans `05-saas/utils/`
+**Statut** : VERROUILLÉ
+
+### D-S39-4 — Phase 4 reconstruction : changer VIDEO_DIR ET OUTPUT_DIR
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : Pour transcrire les Lessons (MP4 dans `D:\Belkhayate-Lessons-MP4\`), il faut changer
+DEUX variables dans `gemini_transcriber.py` :
+- `VIDEO_DIR` [l.39] → `D:\Belkhayate-Lessons-MP4\`
+- `OUTPUT_DIR` [l.40] → `transcripts-gemini-lessons\` (nouveau dossier dédié)
+Ne changer que VIDEO_DIR écrit les Lessons dans le dossier épisodes → mélange des corpus.
+**Raison** : Rapport B Q4.3 — erreur non détectée dans la stratégie initiale
+**Impact** : `05-saas/utils/gemini_transcriber.py` · Phase 4 reconstruction
+**Statut** : VERROUILLÉ
+
+### D-S39-5 — 21 fichiers OFTC à décontaminer (pas 5)
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : `transcripts-gemini\` contient 21 fichiers OFTC (Order Flow Trading Course, Lesson 1→20),
+pas 5 comme prévu. La décontamination Phase 5 concerne le corpus épisodes (pas les Lessons).
+Note : ce corpus épisodes est en intégration différée (phase ultérieure) — la décontamination
+n'impacte pas la reconstruction immédiate des Lessons.
+**Raison** : Rapport A M3 — sous-estimation initiale de 5 fichiers
+**Impact** : Phase 5 reconstruction · `03-transcriptions/nouvelles-sources/.../transcripts-gemini/`
+**Statut** : VERROUILLÉ
+
+### D-S39-6 — Baseline tests = 69/69 PASS (pas 37)
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : La baseline de tests TRADEX-AI est de 69 fonctions test (pas 37) réparties dans :
+`05-saas/engine/test_claude_brain.py` (14) · `test_signal_engine.py` (16) · `test_risk_guardrails.py` (21)
+· `test_belkhayate_formulas.py` (8) · `05-saas/api/test_api.py` (10)
+Le dossier `05-saas/tests/` n'existe PAS. Toujours utiliser les 5 chemins explicites.
+Aucune assertion ne dépend du nombre de règles KB — les 69 tests passeront après reconstruction.
+**Raison** : Rapport A M6 — erreur dans la stratégie initiale (37 tests, dossier inexistant)
+**Impact** : Phase 10 reconstruction · toutes les sessions de test futures
+**Statut** : VERROUILLÉ
+
+### D-S39-7 — D-S31-12 non implémentée (aucun gate de démarrage SHA256)
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : Rapport A M10 + Rapport B confirment : `claude_brain.py` ne contient AUCUNE vérification
+SHA256. `KB_HASH.txt` n'existe pas. `SHA256_KB_MASTER.md` est un registre MANUEL uniquement.
+TRADEX démarre sans vérification d'intégrité KB quelle que soit la valeur du hash.
+→ D-S31-12 reste une DÉCISION VERROUILLÉE mais n'est PAS encore implémentée.
+→ La mise à jour SHA256 après reconstruction est documentaire uniquement (pas un gate runtime).
+**Raison** : Clarification factuelle — éviter les affirmations fausses sur le comportement du système
+**Impact** : `SHA256_KB_MASTER.md` · `engine/claude_brain.py` (D-S31-12 = dette technique à implémenter)
+**Statut** : VERROUILLÉ (constat, pas modification de D-S31-12 qui reste à implémenter)
+
+### D-S39-8 — 5 writers KB à désactiver pendant reconstruction
+**Date** : 29/06/2026
+**Session** : S39
+**Décision** : Pendant toute reconstruction KB, désactiver ces 5 fichiers (ne pas les lancer) :
+1. `purge_kb.py` — efface règles par texte exact
+2. `b05_lift_provisoire.py` — modifie MASTER
+3. `b06_add_video10.py` — modifie MASTER
+4. `apply_ambigu_verdicts.py` — json.dump + os.replace (découvert Rapport B Q10.5)
+5. `transcript_processor.py` (tout variant) APRÈS Phase 8 — rebuild_aggregated efface chapitres
+**Raison** : Rapport B D13 — 4 writers non inventoriés dans la stratégie initiale
+**Impact** : Phase 7 → Phase 8 reconstruction · procédure de reconstruction à documenter
+**Statut** : VERROUILLÉ
+
+---
+
 ## DÉCISIONS EN ATTENTE DE VALIDATION
 
-*(vide — toutes les décisions S32 sont validées)*
+*(vide — toutes les décisions S39 sont validées)*
 
 ---
 
@@ -567,5 +665,5 @@ Ce seuil est unique pour tout le code. Jamais utiliser 20 ou 40 dans le moteur.
 
 ---
 
-*Dernière mise à jour : 27/06/2026 — Session S33 — D-S32-1 ajoutée*
+*Dernière mise à jour : 29/06/2026 — Session S39 — D-S39-1 à D-S39-8 ajoutées*
 *Ce fichier est la mémoire décisionnelle de TRADEX-AI.*
