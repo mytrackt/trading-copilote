@@ -226,15 +226,19 @@ def load_kb_rules(kb_path: str = None, kb_provisoire: bool = KB_PROVISOIRE_DEFAU
         for categorie, briques in aggregated.items():
             rules_text += f"## {categorie.upper()}\n"
             for rule in briques:
-                if rule.get("id"):
-                    # Type Chapitre (compact : sans tag fiabilite)
-                    titre = rule.get("titre", rule.get("id", ""))
-                    corps = rule.get("contenu", "")
-                    rules_text += f"### {titre}\n{corps}\n\n"
-                else:
-                    # Type Video (compact : regle seule, sans statut/confiance redondants)
-                    regle = rule.get("regle", "")
-                    rules_text += f"- {regle}\n"
+                if isinstance(rule, str):
+                    # KB Gemini : regle stockee comme string simple
+                    rules_text += f"- {rule}\n"
+                elif isinstance(rule, dict):
+                    if rule.get("id"):
+                        # Type Chapitre (compact : sans tag fiabilite)
+                        titre = rule.get("titre", rule.get("id", ""))
+                        corps = rule.get("contenu", "")
+                        rules_text += f"### {titre}\n{corps}\n\n"
+                    else:
+                        # Type Video dict (ancien format Whisper)
+                        regle = rule.get("regle", "")
+                        rules_text += f"- {regle}\n"
 
     return {
         "rules": rules_text,

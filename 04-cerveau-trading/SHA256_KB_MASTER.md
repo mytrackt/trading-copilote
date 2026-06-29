@@ -7,8 +7,10 @@
 | 2026-06-27 | S34 | 1359 | `e98705e0e55544f5bba57669b9ed3f7b919a2903c033bd1a96b433daa52f5790` | APRÈS fusion Chap12 (+18 briques) |
 | 2026-06-27 | S34 | 1371 | `4cc9f77a0fe188871b945574e3b46c237e8fdc4713b5cde0ea751cc3517eb821` | APRÈS fusion Chap8 (+12 briques) |
 
+| 2026-06-29 | S40 | 4142 | `31348bda6602f290764892b0d406b51b94c837229898645bc72c7ba5348d48a5` | Reconstruction Gemini 100 videos + 62 chapitres — 69/69 tests OK |
+
 ## Hash actif
-`4cc9f77a0fe188871b945574e3b46c237e8fdc4713b5cde0ea751cc3517eb821`
+`31348bda6602f290764892b0d406b51b94c837229898645bc72c7ba5348d48a5`
 
 ## Procédure de vérification (PowerShell)
 ```powershell
