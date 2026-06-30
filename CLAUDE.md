@@ -99,6 +99,44 @@ C:\trading-copilote\
 
 ---
 
+## MÉTHODE DE TRANSCRIPTION VIDÉO — DÉCISION VERROUILLÉE
+
+> ⚠️ NE PLUS CHERCHER, NE PLUS COMPARER. Cette méthode est définitive.
+
+**Méthode officielle : Gemini 2.5 Flash multimodal**
+
+```
+Vidéos MP4 (D:\Belkhayate-Videos ou autre dossier)
+    ↓
+05-saas\utils\gemini_transcriber.py  → Gemini 2.5 Flash
+    (voit audio + écran simultanément)
+    (produit *_gemini.txt avec [VISUEL:] [REGLE:] [QUALITE_VIDEO:])
+    ↓
+05-saas\knowledge_base\transcript_processor_gemini.py → Claude API
+    (extrait les règles structurées → KB)
+    ↓
+04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json
+```
+
+**Pourquoi Gemini et pas les autres :**
+- Gemini voit **audio + écran simultanément** (multimodal natif)
+- Détecte les règles visuelles (graphiques, indicateurs à l'écran)
+- Résultat prouvé : 4080 règles vs 1398 avec Whisper (×3 de richesse)
+- Décision prise en S35-S40, validée sur 100 vidéos Belkhayate
+
+**Méthodes abandonnées — NE PAS réutiliser :**
+- ~~yt-dlp + Whisper + Claude~~ → ancien TRANSVIDEO (1398 règles, qualité faible)
+- ~~watch skill~~ → interactif seulement, pas de pipeline batch
+- ~~SRT YouTube + ffmpeg~~ → pas de contenu visuel
+
+**Clé requise :** `GEMINI_API_KEY` dans `.env`
+**Modèle :** `gemini-2.5-flash` (stable, pas experimental)
+
+**Pour nouvelles vidéos (hors Belkhayate) :**
+Adapter `gemini_transcriber.py` → changer VIDEO_DIR + prompt Gemini + OUTPUT_DIR
+
+---
+
 ## PROTOCOLE FIN DE SESSION
 
 ```
@@ -125,4 +163,4 @@ Après 20 messages dans une session → générer README de transition IMMÉDIAT
 
 *Source de vérité : `00-pilotage\DECISIONS_VEROUILLEES.md`*
 *Architecture : `00-pilotage\ARCHITECTURE_CONSTRUCTION.md`*
-*Dernière mise à jour : 26/06/2026 — Session S30*
+*Dernière mise à jour : 30/06/2026 — Session S46*
