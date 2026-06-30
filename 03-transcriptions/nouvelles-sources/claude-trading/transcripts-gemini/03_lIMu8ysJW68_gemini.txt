@@ -1,0 +1,304 @@
+[SOURCE_URL: https://youtu.be/lIMu8ysJW68]
+[VIDEO_ID: lIMu8ysJW68]
+[SUJET: claude-trading]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-30]
+---
+[VISUEL: L'intervenant, un jeune homme asiatique, est assis devant un microphone, gesticulant avec ses mains. Derrière lui, une étagère avec des livres et des objets, et trois tableaux abstraits sur le mur blanc.]
+
+**Intervenant:** Dans la vidéo d'aujourd'hui, je vais vous montrer pourquoi la plupart des backtests vous mentent et comment vous pouvez réellement utiliser l'IA pour tester correctement vos stratégies de trading, vous aidant ainsi à devenir un trader plus rentable.
+
+[VISUEL: Écran d'ordinateur affichant une interface sombre intitulée "Illusion vs. Reality". Sur la gauche, une section "Settings" avec "Ticker: SPY", "Start: 2018/01/01", "End: 2024/01/01". En dessous, "Walk-Forward Windows" avec des sliders pour "Training window (months): 12" et "Blind test window (months): 3". Au centre, deux colonnes de résultats : "Retail Backtest (In-Sample - Curve-Fit)" et "Walk-Forward (Out-of-Sample - Blind)".
+Sous "Retail Backtest": "Total Return: +1505.9%", "Sharpe Ratio: 1.36", "Max Drawdown: -15.4%", "Trades: 105".
+Sous "Walk-Forward": "Total Return: +7.4%", "Sharpe Ratio: 0.19", "Max Drawdown: -20.6%", "Trades: 38".
+En dessous, des métriques de dégradation: "Return Degradation: +1498.5%", "Sharpe Degradation: +1.17", "OOS / IS Efficiency: 14%".]
+
+**Intervenant:** Nous n'allons pas nous contenter de simples backtests TradingView, car comme vous le verrez plus tard dans la vidéo, ils sont pratiquement inutiles.
+
+[VISUEL: L'intervenant revient à l'écran. Puis, l'interface sombre "Walk-Forward Analysis Engine" apparaît, montrant une barre de progression "Downloading market data..." puis "Processing fold 1 of 19...". Des lignes de texte défilent, indiquant les périodes de "Train" et "Blind Test" avec des résultats de retour (ex: "Optimal RSI(10, 50/55) | OOS Return: +0.00%").]
+
+**Intervenant:** Au lieu de cela, nous allons entraîner notre propre modèle d'IA avec une logique mathématique complexe, entièrement avec Claude Code.
+
+[VISUEL: L'interface montre maintenant un "Fold Visualiser" avec des barres bleues (Train) et oranges (Blind Test) représentant des périodes de temps, étiquetées "Fold 1", "Fold 2", etc., sur un axe "Days from start". Les barres bleues durent 1 an, les oranges 3 mois. L'intervenant pointe une barre orange.]
+
+**Intervenant:** De cette façon, nous aurons un moteur de backtesting approprié qui pourra réellement s'adapter aux données de marché inconnues pour vous aider à devenir un meilleur trader et, finalement, à utiliser les mêmes systèmes que les quants et les fonds spéculatifs.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Alors, assurez-vous de rester jusqu'à la fin de la vidéo pour voir comment nous pouvons construire cela et le tester par vous-même. Et assurez-vous de vous abonner si vous êtes intéressé par plus de contenu de trading IA.
+
+[VISUEL: Un bouton rouge "Subscribe" avec une cloche apparaît à l'écran.]
+
+**Intervenant:** Maintenant, comme toujours, je ne suis pas un conseiller financier et ce n'est pas un conseil financier. Je ne garantis aucun profit dans cette vidéo. Je vous montre simplement comment vous pouvez utiliser la puissance de l'IA pour améliorer votre backtesting et, finalement, vos stratégies de trading dans leur ensemble.
+
+[VISUEL: Graphique de bougies rouges et jaunes sur un fond quadrillé rouge-orange, avec des lignes d'indicateurs. Le graphique bouge et se transforme.]
+
+**Intervenant:** Alors, pourquoi les backtests normaux échouent-ils si lamentablement ?
+
+[VISUEL: Texte blanc sur fond noir: "Curve Fitting".]
+
+**Intervenant:** Eh bien, c'est à cause d'un piège appelé "curve fitting" (sur-apprentissage). Lorsque vous testez une stratégie sur des années de données historiques d'un seul coup, votre bot mémorise essentiellement le passé.
+
+[VISUEL: Une jeune femme aux longs cheveux noirs est assise à un bureau dans une salle de classe, écrivant sur une feuille. Elle jette un coup d'œil furtif à sa montre, puis continue d'écrire, l'air concentré.]
+
+**Intervenant:** C'est comme donner à un étudiant le corrigé la veille d'un examen. Il obtiendra probablement 100 %, mais il ne sait pas réellement faire les calculs.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Lorsque vous voyez des gens se vanter de ces énormes retours de backtests TradingView en ligne, c'est généralement parce qu'ils ont travaillé à rebours pour trouver les paramètres parfaits, choisis sur une fenêtre de temps très spécifique.
+
+[VISUEL: L'interface "Walk-Forward Analysis Engine" apparaît. La section "Settings" est visible à gauche.]
+
+**Intervenant:** Donc, pour résoudre ce problème, nous allons construire un moteur d'analyse "walk-forward" avec Claude Code.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Ce sera un énorme pas en avant par rapport aux faux retours de backtests de 300 % que l'on voit généralement sur TradingView.
+
+[VISUEL: L'interface "Walk-Forward Analysis Engine" est affichée. L'intervenant est en incrustation en bas à droite.]
+
+**Intervenant:** Donc, avec ce nouveau moteur, plutôt que de laisser le bot tricher, l'analyse "walk-forward" force le modèle à s'entraîner sur une très petite fenêtre de données.
+
+[VISUEL: L'intervenant interagit avec les sliders "Training window (months)" et "Blind test window (months)". Il augmente la fenêtre d'entraînement à 19 mois, puis la fenêtre de test aveugle à 4 mois.]
+
+**Intervenant:** Ensuite, il verrouillera ses paramètres, puis s'entraînera sur les prochains mois de données complètement inconnues.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** L'algorithme de backtesting nous dira si notre stratégie survivra au monde réel, car il ne travaille pas avec toutes les données historiques en même temps.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. La section "Settings" est visible à gauche, avec "Ticker: SPY", "Start: 2018/01/01", "End: 2024/01/01". Les sliders "Training window (months): 12" et "Blind test window (months): 3" sont réglés.]
+
+**Intervenant:** Maintenant, laissez-moi vous montrer comment fonctionne ce moteur de backtesting. Ici, sur le côté gauche, nous pouvons définir tous les paramètres. Le premier est le ticker.
+
+[VISUEL: L'intervenant clique sur le champ "Ticker" puis sur les dates "Start" et "End".]
+
+**Intervenant:** Et puis nous pouvons également choisir les dates de début et de fin pour la fenêtre de backtesting.
+
+[VISUEL: L'intervenant pointe les sliders "Training window (months)" et "Blind test window (months)".]
+
+**Intervenant:** Ensuite, en dessous, nous pouvons définir les fenêtres "walk-forward" réelles, qui sont la fenêtre d'entraînement ainsi que la fenêtre de test aveugle.
+
+[VISUEL: L'intervenant pointe le slider "Training window (months)" réglé sur 12.]
+
+**Intervenant:** Donc, la fenêtre d'entraînement ici, qui est de 12 mois, soit un an, est l'endroit où le bot est autorisé à, en gros, chercher les réponses. Donc, pendant cette période d'un an, il optimise des milliers de paramètres différents pour trouver la combinaison exacte qui produit le profit ou le ratio de Sharpe le plus élevé.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** C'est donc essentiellement ce que fait un backtest TradingView normal.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. L'intervenant pointe le slider "Blind test window (months)" réglé sur 3.]
+
+**Intervenant:** Mais parce que nous construisons notre propre moteur, nous voulons aller plus loin, et c'est là que nous utilisons cette fenêtre de test aveugle.
+
+[VISUEL: L'intervenant pointe le slider "Training window (months)" puis le slider "Blind test window (months)".]
+
+**Intervenant:** Donc, une fois que nous avons trouvé les paramètres parfaits à partir de la fenêtre d'entraînement, les paramètres sont définitivement verrouillés, puis le bot est poussé dans cette fenêtre de test aveugle. Vous pouvez donc imaginer que pendant 12 mois, nous trouvons les paramètres parfaits, basés sur ces 12 mois de données. Ensuite, une fois que nous l'avons fait, nous allons exécuter exactement le même paramètre sur 3 mois, ou les 3 prochains mois de données complètement inconnues.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Maintenant, parce que ce bloc de 3 mois est une donnée qui n'a jamais été vue auparavant, si la stratégie était juste en train de la simuler, n'est-ce pas, à partir des 12 derniers mois, alors elle perdrait de l'argent ici. Si la stratégie a réellement un avantage, alors elle s'appliquerait également dans les 3 prochains mois.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. L'intervenant pointe les sliders "Training window (months)" et "Blind test window (months)".]
+
+**Intervenant:** Et puis, une fois que ces 3 mois de test sont terminés, l'ensemble du moteur avance, puis répète tout à nouveau, d'où l'analyse "walk-forward".
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Maintenant, si c'est un peu confus, ce côté droit explique tout à nouveau.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. La section "The Problem with Traditional Backtesting" est mise en évidence.]
+
+**Intervenant:** Donc ici, avec le problème du backtesting traditionnel, c'est essentiellement qu'il utilise toutes les données historiques en même temps.
+
+[VISUEL: L'intervenant pointe les dates de début et de fin (2018-2024).]
+
+**Intervenant:** Donc, si nous devions exécuter ce backtest de 2018 à 2024, il regarderait toutes ces données des sept dernières années, puis trouverait les meilleurs paramètres, ce qui est encore une fois quelque chose que nous ne voulons pas faire.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Parce que le fait d'obtenir le retour le plus élevé dans la période passée ne signifie pas que ce sera la meilleure stratégie pour l'avenir.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. La section "The Walk-Forward Solution" est mise en évidence.]
+
+**Intervenant:** Donc, ce que nous faisons ici à la place est le même processus de recherche des meilleurs paramètres, comme le backtesting traditionnel, mais seulement sur une fenêtre d'un an, puis en utilisant ces mêmes meilleurs paramètres sur 3 mois de données inconnues.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. La section "This Dashboard Shows:" est visible, avec un "Fold Visualiser" en dessous.]
+
+**Intervenant:** Donc, ici, vous pouvez visualiser ce qui se passe. En gros, de 2018 à 2024, nous allons regrouper tous ces blocs de données en "folds".
+
+[VISUEL: L'intervenant pointe les barres du "Fold Visualiser".]
+
+**Intervenant:** Donc, la première année sera de janvier à décembre 2018. Ce sera toute la fenêtre d'entraînement. Et puis pour les trois prochains mois, donc janvier, février, mars de l'année suivante, 2019, c'est là que nous allons appliquer les meilleurs paramètres de la fenêtre d'entraînement initiale.
+
+[VISUEL: L'intervenant pointe les barres du "Fold Visualiser", montrant le glissement des fenêtres.]
+
+**Intervenant:** Et puis tout ce que nous allons faire est de répéter cela une fois de plus. Donc, pour les trois prochains mois, nous allons utiliser les 12 derniers mois de données d'entraînement, puis regarder les trois prochains mois complètement à l'aveugle, appliquer les mêmes paramètres pour voir la vraie performance, puis rincer et répéter jusqu'à ce que nous atteignions la fin.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. La section "Strategy Rules" est visible, montrant les règles pour "LONG" et "EXIT" basées sur RSI et SMA.]
+
+**Intervenant:** Maintenant, la stratégie que nous utilisons ici est assez simple pour le backtest. Je suis sûr que vous l'avez vue un million de fois auparavant. Tout ce qu'elle fait, c'est dire que lorsque le RSI croise au-dessus de l'entrée et que le prix est au-dessus de la SMA de 20 périodes, alors on prend une position longue.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. La section "Settings" est visible, avec les dates 2018-2024.]
+
+**Intervenant:** Dans le backtesting traditionnel, nous regarderions l'ensemble des données de 2018 à 2024.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Et puis, sur la base de cette période historique entière, nous trouverions les meilleurs nombres RSI et les lignes d'entrée. Et puis vous penseriez évidemment dans votre tête, comme, wow, c'était, vous savez, une excellente stratégie. Elle a pu éviter le krach de 2020, puis aussi capitaliser sur la course haussière de 2021. Et vous penseriez qu'elle a prédit le marché, mais encore une fois, nous lui avons juste donné le corrigé, et elle a trouvé la meilleure combinaison possible qui ne s'applique pas réellement aux données actuelles.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Walk-Forward Analysis Engine" est affichée. La section "Transaction Costs" est visible.]
+
+**Intervenant:** Mais au lieu de cela, avec une analyse "walk-forward", nous allons trouver les meilleurs nombres RSI pour cette année, puis l'appliquer à l'aveugle aux trois prochains mois, voir la vraie performance. Et puis finalement, ce que j'ai ajouté ici, ce sont juste des coûts de transaction simples. Nous aurons des frais de glissement et des frais d'échange.
+
+[VISUEL: L'intervenant clique sur le bouton rouge "Run Walk-Forward Analysis". L'interface montre "Downloading market data..." puis "Processing fold 1 of 19...". Les résultats de chaque fold défilent rapidement.]
+
+**Intervenant:** Donc maintenant, si nous cliquons sur "Run Walk-Forward Analysis", nous pouvons voir qu'il télécharge les données, puis teste chaque "fold" individuellement. Nous avons 19 "folds" au total de 2018 à 2024.
+
+[VISUEL: L'interface montre "Analysis complete." puis le "Walk-Forward Timeline" avec les barres bleues et oranges. L'intervenant est en incrustation.]
+
+**Intervenant:** Donc, pour résumer sur la chronologie, nous avons 19 "folds". C'était le début du 1er janvier 2018, et comme vous pouvez le voir, nous faisons d'abord l'entraînement "in-sample", puis le test aveugle. Entraînement "in-sample", test aveugle. Donc, trois mois jusqu'à la date actuelle, ou 2024 dans ce cas.
+
+[VISUEL: L'interface montre le "Parameter Shift Table".]
+
+**Intervenant:** En dessous, nous pouvons également voir les meilleurs paramètres RSI choisis dans chaque "fold". Donc, le "fold" 1 avait une période RSI de 21, 7, 10, 21, etc.
+
+[VISUEL: L'interface montre la section "Illusion vs. Reality". L'intervenant est en incrustation.]
+
+**Intervenant:** Mais en dessous, c'est là que la vraie magie opère, et ce qui différencie vraiment ce moteur de backtesting d'un moteur TradingView très standard. Donc, si vous regardez ces résultats, c'est assez fou, n'est-ce pas, la différence. Sur le backtest "retail", il montre un retour de presque 3x. Et il vous dit essentiellement que cette stratégie RSI est une mine d'or.
+
+[VISUEL: L'intervenant pointe les chiffres du "Retail Backtest".]
+
+**Intervenant:** Vous auriez fait beaucoup d'argent, vous avez un ratio de Sharpe supérieur à 1 et à peine un drawdown de 5-6 %.
+
+[VISUEL: L'intervenant pointe les chiffres du "Walk-Forward".]
+
+**Intervenant:** Mais ensuite, si nous regardons l'analyse "walk-forward", cette stratégie s'effondre complètement.
+
+[VISUEL: L'intervenant pointe les chiffres du "Walk-Forward".]
+
+**Intervenant:** Donc, quand elle s'entraîne sur des données qu'elle n'a jamais vues auparavant, elle ne rapporte que 5 %, ce qui est évidemment très, très différent de 199 %.
+
+[VISUEL: L'intervenant pointe la ligne "Return Degradation".]
+
+**Intervenant:** De plus, si nous faisons défiler vers le bas, nous pouvons voir la dégradation du retour. Cela signifie essentiellement que 75 % de ce retour total était complètement faux et créé par le "curve fitting".
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Illusion vs. Reality" est affichée.]
+
+**Intervenant:** Donc, pour résumer, dans le backtest traditionnel ici, il regardait essentiellement l'ensemble des cinq années de données, écrasant des millions de combinaisons pour trouver le paramètre RSI optimal, et l'a appliqué, vous savez, historiquement pour obtenir ce retour massif. Mais si nous devions l'exécuter en direct, il s'effondrerait complètement.
+
+[VISUEL: L'intervenant est en incrustation. L'interface montre le "Illusion vs. Reality Chart". La ligne bleue (Retail Backtest) monte fortement, la ligne orange (Walk-Forward) est presque plate.]
+
+**Intervenant:** Et dans ce "walk-forward" ici, ce que nous avons fait, c'est appliquer un petit "fold". Donc, chaque "fold" que nous avons testé sur des paramètres idéaux, puis testé à l'aveugle. Nous avons répété cela 19 fois pour obtenir la vraie performance et comment il se serait comporté, en supposant qu'il n'avait pas toutes les données auparavant. Et puis finalement, je sais que j'ai répété cela un milliard de fois, mais juste pour vous montrer visuellement une dernière fois, ce graphique bleu est ce à quoi ressemblait le backtest "retail", et ce graphique orange était la vraie performance. Donc, encore une fois, une énorme, énorme divergence.
+
+[VISUEL: L'intervenant est en incrustation. L'interface "Illusion vs. Reality" est affichée.]
+
+**Intervenant:** En gros, tout cela vous dit que cette stratégie RSI est fondamentalement faible. Même si vous deviez optimiser les 12 derniers mois avec les paramètres RSI parfaits, vous ne feriez toujours pas d'argent réel, car le RSI est un indicateur retardé.
+
+[VISUEL: L'intervenant revient à l'écran.]
+
+**Intervenant:** Et c'est évidemment énorme parce que nous venons de nous sauver d'une stratégie extrêmement mauvaise.
+
+[VISUEL: L'intervenant est en incrustation. L'interface VS Code est affichée, montrant l'écran de bienvenue.]
+
+**Intervenant:** Maintenant que vous avez vu pourquoi le backtesting traditionnel est pratiquement inutile, laissez-moi vous montrer comment vous pouvez construire ce moteur "walk-forward" à partir de zéro. Et avant de continuer, si vous voulez un guide plus détaillé et des modèles sur la façon de faire du backtest avec l'IA, ainsi que d'améliorer les performances de trading avec des outils d'IA comme Claude Code, assurez-vous de cliquer sur le lien dans la description pour ma communauté, car nous avons des guides complets sur la façon dont vous pouvez réellement utiliser l'IA pour automatiser vos transactions et améliorer vos performances.
+
+[VISUEL: Une flèche blanche pointe vers le bas, avec le texte "Link In Description" au-dessus.]
+
+**Intervenant:** Donc, pour commencer, vous n'avez pas besoin de savoir écrire du code Python du tout. Nous allons essentiellement demander à Claude Code de faire tout le gros du travail pour nous. Donc, tout ce que vous voulez faire, c'est ouvrir Visual Studio Code, ou VS Code. Ensuite, une fois que vous êtes dans Visual Studio Code, allez-y et cliquez sur "Open", et tout ce que vous voulez faire, c'est ouvrir un dossier vide. Et c'est là que tout le code de votre moteur de backtesting va résider. Donc, si vous n'avez pas de dossier dédié, cliquez simplement sur "Create new folder".
+
+[VISUEL: L'intervenant est en incrustation. L'interface VS Code est affichée, avec un dossier vide nommé "Backtesting Engine" ouvert.]
+
+**Intervenant:** Maintenant que nous sommes dans notre dossier vide, où nous allons construire le moteur de backtesting, la première chose que nous devons faire est d'ajouter Claude Code à VS Code. Donc, tout ce que vous avez à faire, c'est d'aller dans les plugins ici, puis de rechercher Claude Code.
+
+[VISUEL: L'intervenant clique sur l'icône "Extensions" dans la barre latérale gauche, puis tape "Claude Code" dans la barre de recherche. L'extension "Claude Code for VS Code" apparaît.]
+
+**Intervenant:** S'il n'est pas déjà installé, vous pouvez simplement cliquer sur "Install" ici, et il devrait apparaître tôt ou tard sur cette barre supérieure ici.
+
+[VISUEL: L'intervenant clique sur le bouton "Open" de l'extension Claude Code.]
+
+**Intervenant:** Donc, une fois que vous avez installé Claude Code, allez-y et cliquez sur "Open". Donc, après avoir ouvert Claude Code, si c'est votre première fois, il va juste vous poser quelques questions de configuration, des paramètres, puis vous demander de vous connecter à votre compte. Et si vous ne voulez pas vous connecter, vous pouvez également utiliser Claude Code via l'API.
+
+[VISUEL: L'intervenant est en incrustation. L'interface Claude Code est affichée, complètement vide.]
+
+**Intervenant:** Mais maintenant, en supposant que tout se passe bien, ce que nous avons est un écran Claude Code complètement vide où nous pouvons maintenant commencer à demander ce que nous voulons construire, et dans notre cas, un moteur de backtesting très robuste.
+
+[VISUEL: L'intervenant est en incrustation. L'interface Claude Code est affichée, avec un long prompt de texte dans la zone de chat.]
+
+**Intervenant:** Ensuite, ce que j'ai ici est le prompt que nous allons réellement utiliser pour construire notre moteur de backtesting. Donc, ce que nous voulons, c'est construire l'ensemble du tableau de bord Streamlit. Nous voulons également le moteur "walk-forward" à fenêtre glissante. Donc, essentiellement, toutes les choses que je vous ai montrées au début de la vidéo, ainsi que la stratégie RSI très basique, que je vous montrerai comment ajuster plus tard. Donc, en passant en revue un par un, je dis juste : "Construire une application de trading "walk-forward" professionnelle en Python en utilisant Streamlit, Plotly et Yfinance."
+
+[REGLE: Construire une application de trading "walk-forward" professionnelle en Python en utilisant Streamlit, Plotly et Yfinance.]
+
+**Intervenant:** Pour l'actif, vous pouvez le changer pour n'importe quel ticker que vous voulez, mais nous avons évidemment SPY du 1er janvier 2018 à aujourd'hui.
+
+[REGLE: L'actif par défaut est "SPY" du 1er janvier 2018 à aujourd'hui.]
+
+**Intervenant:** Ensuite, encore une fois, comme je l'ai mentionné, la stratégie sera la même stratégie de croisement RSI simple, que nous améliorerons plus tard.
+
+[REGLE: La stratégie est un croisement RSI basique et une moyenne mobile simple de 20 périodes.]
+
+**Intervenant:** Pour le backtester, encore une fois, nous voulons éviter le "curve fitting". C'est pourquoi nous voulons qu'il soit entraîné sur une fenêtre glissante de 12 mois, puis testé sur la fenêtre aveugle de 3 mois suivante.
+
+[REGLE: Le backtester (analyse "walk-forward") doit construire un moteur d'optimisation pour éviter le "curve fitting". Il doit entraîner les paramètres RSI sur une fenêtre glissante de 12 mois et tester sur la fenêtre aveugle de 3 mois suivante. Seuls les retours "out-of-sample" doivent être combinés.]
+
+**Intervenant:** Et puis pour évaluer la performance, nous ne voulons combiner que les retours "out-of-sample" pour obtenir une vraie mesure de la performance de la stratégie. Pour la gestion des risques, nous voulons nous assurer que nous prenons en compte les coûts de transaction. Donc, nous avons 0,1 % de frais d'échange et de glissement.
+
+[REGLE: La gestion des risques doit déduire strictement 0,1 % de frais d'échange et 0,05 % de pénalité de glissement sur chaque transaction.]
+
+**Intervenant:** Ensuite, enfin, pour l'interface utilisateur, nous voulons afficher la progression pour chaque "fold". De cette façon, nous connaissons toutes les données qui sont regroupées et ce qui se passe réellement en arrière-plan.
+
+[REGLE: L'interface utilisateur du tableau de bord doit utiliser `st.progress` pour afficher une barre de progression en direct pour les "folds".]
+
+**Intervenant:** Et puis, tout comme au début de la vidéo, j'ai ajouté des graphiques, et c'est pour visualiser comment ce backtest fonctionne par rapport à une méthode plus traditionnelle.
+
+[REGLE: Créer un graphique de Gantt Plotly visualisant les fenêtres d'entraînement bleues et de test aveugle oranges. Afficher une comparaison côte à côte des métriques et tracer les courbes d'équité "Retail In-Sample" vs "Walk-Forward Out-of-Sample" sur un grand graphique Plotly.]
+
+**Intervenant:** Une fois que tout cela semble bon, allez-y et cliquez sur "Run" et laissez Claude Code faire sa magie.
+
+[VISUEL: L'intervenant clique sur "Ask before edits" puis sur "Run". Claude Code commence à "Thinking..." puis "Hatching...". Il affiche des commandes bash pour vérifier les dépendances Python et les installer.]
+
+**Intervenant:** Il devrait d'abord installer toutes les dépendances dont vous aurez besoin pour l'application. Donc, dans certains cas, vous devrez installer Python.
+
+[VISUEL: L'intervenant est en incrustation. L'interface Claude Code montre que l'application est en cours d'exécution sur un localhost. Elle liste la "Strategy" (RSI Crossover), le "Walk-Forward Engine" et le "Dashboard" avec leurs caractéristiques.]
+
+**Intervenant:** Et après avoir attendu quelques minutes, nous pouvons voir qu'il a construit l'application. Nous pouvons donc simplement ouvrir cette URL pour voir la progression. Mais en termes de stratégie, c'est la même stratégie de croisement RSI simple, avec les coûts. Nous avons le moteur "walk-forward" qui fait rouler une période d'entraînement de 12 mois avec une fenêtre de test de 3 mois. Et puis, encore une fois, seuls les retours "out-of-sample" sont combinés. Ensuite, enfin, nous avons le tableau de bord qui montre essentiellement toute la progression et ce que nous testons en termes de stratégie et de retours.
+
+[VISUEL: L'intervenant est en incrustation. L'interface de l'application Streamlit est affichée, montrant la section "Illusion vs. Reality" avec les résultats du backtest "Retail" et "Walk-Forward".]
+
+**Intervenant:** Encore une fois, c'est juste l'application précédente, n'est-ce pas ? Nous avons les mêmes retours échoués de 5,8 % contre presque 3x si nous faisions un backtest traditionnel. Mais allons-y et mettons à jour le prompt pour obtenir quelque chose d'un peu plus tangible et utile, plutôt que de simplement nous fier à cet indicateur retardé pour les croisements RSI.
+
+[VISUEL: L'intervenant est en incrustation. L'interface Claude Code est affichée, avec un nouveau prompt de texte.]
+
+**Intervenant:** Maintenant, si nous étions sur TradingView, nous continuerions à ajuster les nombres RSI jusqu'à ce que nous voyions du vert. Mais comme nous voulons nous comporter comme des institutions et des quants, si les mathématiques sous-jacentes sont faibles, alors ce que nous devrions faire, c'est simplement les retirer et les améliorer. C'est exactement ce que nous faisons ici dans ce nouveau prompt. Tout ce que j'ai écrit, c'est que le moteur "walk-forward" a prouvé que la stratégie RSI "retail" échoue sur des données inconnues.
+
+[REGLE: Le moteur "walk-forward" a prouvé que la stratégie RSI "retail" échoue sur des données inconnues. Tâche: Supprimer toute la logique RSI et SMA. La remplacer par des mathématiques institutionnelles.]
+
+**Intervenant:** Donc, ce que nous voulons faire, c'est simplement supprimer complètement les RSI et les SMA, et nous allons les remplacer par un indicateur de momentum à volatilité ajustée. Et ce sera basé sur l'Average True Range à la place.
+
+[REGLE: Construire un indicateur de momentum à volatilité ajustée en utilisant l'Average True Range (ATR).]
+
+**Intervenant:** Et puis nous allons lisser l'action des prix en utilisant un filtre Butterworth à deux pôles.
+
+[REGLE: Filtrer le bruit des prix en utilisant un filtre Butterworth à 2 pôles via `scipy.signal`. Règle Quant Critique: Vous devez utiliser un filtre (uniquement) "forward-only", PAS "filtfilt", pour appliquer le filtre Butterworth. Cela garantit des calculs strictement causaux sans biais de "look-ahead".]
+
+**Intervenant:** Maintenant, une petite nuance, si vous voulez utiliser une stratégie similaire, c'est que généralement, lorsque vous travaillez avec des agents de codage IA, ils adorent utiliser ce "filtfilt" plutôt que "lfilter", ce qui est ce que nous voulons. Maintenant, cette fonction "filtfilt" ici fait que le graphique semble parfaitement lisse, mais un problème est qu'elle utilise en fait des données de prix futures. Donc, elle utilise essentiellement des prix futurs pour calculer l'indicateur d'aujourd'hui, ce qui est un énorme biais de "look-ahead". Donc, en utilisant "lfilter" ici à la place, nous garantissons essentiellement des calculs strictement causaux, "forward-only". Et c'est juste pour aider à empêcher l'IA d'halluciner de faux retours.
+
+[VISUEL: L'intervenant est en incrustation. L'interface Claude Code est affichée. L'intervenant clique sur "Run". Claude Code commence à "Actioning..." puis "Thinking..." et "Hatching...". Il affiche les étapes de remplacement de la logique RSI/SMA, de mise à jour du tableau de bord et d'exécution du backtest.]
+
+**Intervenant:** Donc, une fois que cela semble bon, allons-y et exécutons-le, puis voyons notre moteur de backtesting mis à jour sur une stratégie complètement nouvelle.
+
+[VISUEL: L'intervenant est en incrustation. L'interface Claude Code est affichée, montrant le résumé de ce qui a été construit. La section "Engine (engine.py) - Complete Rewrite" détaille les changements: "Ripped out: compute_rsi(), SMA logic, all RSI parameter grids." et "Replaced with: butterworth_smooth(), compute_atr(), compute_atr_roll(), generate_signals() - Volatility-Scaled Momentum (smoothed[n] / ATR) with entry/exit threshold crossovers". L'optimisation grid est décrite. Le "Dashboard (app.py)" est "Updated". Enfin, les "Walk-Forward Results (SPY 2018-2024, 19 folds)" sont affichés:
+"Metric | In-Sample (Illusion) | Out-of-Sample (Reality)"
+"Total Return | +1505.09% | +7.39%"
+"Sharpe | 1.36 | 0.19"
+"Max Drawdown | -15.39% | -20.62%"
+"Trades | 105 | 38"
+Le texte en dessous indique: "The massive IS-to-OOS degradation (1500%) demonstrates the walk-forward engine is working correctly - exposing curve-fitting. The dashboard is live at http://localhost:8501".]
+
+**Intervenant:** Maintenant, nous pouvons voir ce qui a été construit. Je ne vais pas ouvrir le tableau de bord à nouveau car il affichera exactement le même type de graphique. Au lieu de cela, j'ai juste un résumé textuel ici. Donc, encore une fois, ce que nous avons fait, c'est supprimer toute la logique RSI SMA et la remplacer par une logique de qualité plus institutionnelle. Donc, ici, nous avons un filtre passe-bas Butterworth à deux pôles, l'Average True Range, et le momentum à volatilité ajustée. Et maintenant, en regardant les résultats, c'est honnêtement probablement la leçon la plus importante, encore une fois, juste pour vraiment montrer ce dont j'ai parlé au début de la vidéo. Donc, si nous regardions le backtest "in-sample" (illusion), il avait un retour de plus de 1500 %. Ce qui, encore une fois, serait énorme. Donc, si quelqu'un montrait la stratégie, cela semblerait être un faiseur d'argent garanti. Et c'est parce que nous utilisons une stratégie un peu plus légitime qui est en fait adoptée par de nombreuses institutions. Mais si nous revenons à notre réalité, qui est l'analyse "walk-forward", nous pouvons voir, encore une fois, que le vrai retour n'est pas de 1500 %, mais plutôt de 7 % s'il était testé sur des données aveugles. Et comme vous pouvez le voir, le ratio de Sharpe s'est effondré. Et cela prouve essentiellement que vous pouvez faire du "curve fitting" autant que vous voulez, des mathématiques institutionnelles avancées aussi facilement que vous pouvez faire du "curve fitting" avec un indicateur RSI retardé de base. Ajouter des mathématiques complexes ne crée pas magiquement un avantage rentable. Et si vous voulez vraiment trouver un avantage sur le marché, il faudra beaucoup de backtesting, et de vrai backtesting, surtout avec quelque chose comme une analyse "walk-forward", plutôt que de simplement croire ces chiffres que les gens, vous savez, montrent généralement avec leurs retours. Le but ici est de finalement découvrir si la stratégie que vous avez vous fera réellement gagner de l'argent sur les marchés.
+
+[VISUEL: L'intervenant est en incrustation. L'interface VS Code est toujours visible en arrière-plan.]
+
+**Intervenant:** Maintenant, si vous avez trouvé cette vidéo utile, assurez-vous d'aimer, de commenter et de vous abonner, car je couvrirai tout ce qui concerne le trading et l'investissement IA. Donc, je passerai en revue tous les derniers outils, comme Claude Code, et comment vous pouvez réellement les appliquer à vos performances de trading ou à vos investissements.
+
+[VISUEL: Écran de fin avec "THANKS FOR WATCHING" et des cases pour d'autres vidéos. En bas à gauche, la photo de l'intervenant avec "DON'T FORGET TO LIKE, COMMENT, SHARE" et un bouton "SUBSCRIBE" avec une cloche.]

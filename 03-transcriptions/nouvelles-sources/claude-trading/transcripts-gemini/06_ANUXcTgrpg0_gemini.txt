@@ -1,0 +1,1038 @@
+[SOURCE_URL: https://youtu.be/ANUXcTgrpg0]
+[VIDEO_ID: ANUXcTgrpg0]
+[SUJET: claude-trading]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-30]
+---
+Voici la transcription détaillée de la vidéo en français, intégrant l'audio et le contenu visuel.
+
+[VISUEL: Un homme souriant, vêtu d'un pull gris, est assis devant un microphone. Derrière lui, une étagère avec des livres et des plantes, et trois tableaux abstraits sur le mur blanc.]
+
+**00:00** Dans la vidéo YouTube d'aujourd'hui, je vais vous montrer comment j'ai construit un système complet de fonds spéculatifs en utilisant Claude.
+
+**00:05** [VISUEL: L'homme gesticule avec les mains.]
+Il s'agit d'un fonds d'actions long/short complet qui évalue chaque action du S&P 500 sur huit facteurs quantitatifs et 27 sous-facteurs.
+
+**00:14** [VISUEL: L'écran passe à un tableau de bord numérique sombre. Le titre est "JARVIS - LONG / SHORT HEDGE FUND ANALYST". Un robot humanoïde blanc est visible sur la droite, dans une pose de réflexion. Sur la gauche, des chiffres clés sont affichés : "503 UNIVERSE", "107 LONG CAND.", "96 SHORT CAND.", "18 POSITIONS", "0 CROWDING", "49.7K INSIDER EVENTS", "281 CEO/CFO BUYS", "40 CLUSTER BUYS", "17.0 VIX", "76 EARNINGS YTD". En bas, des onglets de navigation : "I PORTFOLIO", "II RESEARCH", "III RISK", "IV PERFORMANCE", "V EXECUTION", "VI LETTER".]
+Ce fonds spéculatif va automatiquement extraire les dépôts de la SEC et les transactions d'initiés,
+
+**00:18** [VISUEL: L'onglet "II RESEARCH" est sélectionné. Le tableau de bord affiche une carte thermique de notation des facteurs ("Factor scoring heatmap (top + bottom by composite)") avec des colonnes pour "Momentum", "Value", "Quality", "Growth", "Revisions", "Short Interest", "Insider", "Institutional". Les lignes représentent des tickers d'actions, et les cellules sont colorées en vert (fort) ou rouge (faible). En bas, des boutons "Analyze top 20", "Refresh data", "Execute 0", "Reset all".]
+exécuter des analyses d'IA, vous permettre d'approuver ou de rejeter des transactions, et même se connecter à un vrai courtier.
+
+**00:24** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+J'appelle cet analyste de fonds spéculatifs d'initiés Jarvis.
+
+**00:27** [VISUEL: L'écran revient au tableau de bord "JARVIS". Une zone de texte "Ask anything..." est visible, avec un bouton "ASK JARVIS". La zone de texte contient la question "Which of my long candidates have a Piotroski F-Score of 9".]
+Vous pouvez lui poser n'importe quelle question sur votre portefeuille,
+
+**00:29** [VISUEL: Le bouton "ASK JARVIS" est cliqué. Le texte "JARVIS is thinking..." apparaît, puis la réponse : "Currently, none of your long candidates have a Piotroski F-Score of 9. The highest scores among your long candidates are 8, which is held by both EBAY and VLO. If you need further analysis or adjustments, let me know.".]
+les actions de l'univers, et il donne même des réponses basées sur des données en direct.
+
+**00:34** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+Donc, dans cette vidéo, je vais vous expliquer comment fonctionnent réellement les fonds spéculatifs long/short traditionnels,
+
+**00:39** [VISUEL: L'homme gesticule avec les mains, montrant une progression.]
+et ensuite, je vais vous montrer comment construire chaque étape de cette couche à partir de zéro en utilisant Claude.
+
+**00:44** [VISUEL: L'homme gesticule avec les mains. Le logo "UCLA" apparaît à gauche, puis le logo "RAYMOND JAMES" apparaît à droite.]
+J'ai étudié les mathématiques et l'économie à l'UCLA et j'ai passé trois ans en banque d'investissement chez Raymond James. J'ai donc vu exactement comment les entreprises institutionnelles abordent réellement les marchés.
+
+**00:54** [VISUEL: L'homme gesticule avec les mains.]
+Maintenant, évidemment, vous n'allez pas devenir un Citadel à une personne,
+
+**00:57** [VISUEL: L'homme fait un pouce levé.]
+mais vous pouvez utiliser les mêmes systèmes et cadres que ces entreprises utilisent et les adapter à votre propre style de trading, à la taille de votre portefeuille et à votre risque.
+
+**01:01** [VISUEL: Un homme barbu avec des lunettes regarde attentivement un écran d'ordinateur affichant un graphique boursier avec des bougies japonaises vertes et rouges.]
+
+**01:05** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+Il est important de se rappeler qu'aucune stratégie ne fonctionne éternellement, vous devrez donc constamment vous adapter et changer au marché à mesure que la structure évolue.
+
+**01:13** [VISUEL: L'homme gesticule avec les mains.]
+Et c'est en fait une grande partie de ce que le système est conçu pour faire.
+
+**01:16** [VISUEL: L'écran affiche un texte de disclaimer sur fond noir : "Disclaimer: NO FINANCIAL ADVICE – The Information on this Channel is provided for education and informational purposes only, without any express or implied warranty of any kind, including warranties of accuracy, completeness, or fitness for any particular purpose. The Information contained in or provided from or through this website is not intended to be and is not constitute financial advice, investment advice, trading advice or any other advice. The Information on this website and provided from or through this website is general in nature and is not specific to you the User or anyone else. You should not make any decision, financial, investment, trading or otherwise, based on any of the information presented on this website without undertaking independent due diligence and consultation with a professional broker or financial advisory."]
+
+**01:21** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+Maintenant, comme toujours, cette vidéo n'est pas un conseil financier et je ne garantis aucun profit dans cette vidéo. Cette vidéo est strictement éducative pour que vous puissiez potentiellement l'utiliser et l'adapter à vos propres styles et stratégies de trading.
+
+**01:27** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, avant de vous montrer le système, laissez-moi d'abord passer en revue ce que nous construisons réellement ici.
+
+**01:32** [VISUEL: L'homme gesticule avec les mains.]
+La plupart des gens entendent "fonds spéculatif" et pensent simplement que c'est un homme riche qui choisit des actions.
+
+**01:36** [VISUEL: L'homme gesticule avec les mains.]
+Mais la première chose à savoir est qu'il existe en fait un tas de types différents de fonds spéculatifs.
+
+**01:39** [VISUEL: L'écran affiche une page web de "GRAHAM CAPITAL MANAGEMENT". On y voit des schémas expliquant "HOW TRENDS ARE IDENTIFIED" et "TYPES OF TREND-FOLLOWING MODELS", avec des exemples de "BREAKOUT MODELS" et "MOVING AVERAGE MODELS".]
+Vous avez des fonds de suivi de tendance, des fonds d'arbitrage statistique, des fonds macro mondiaux, des fonds axés sur les événements, et même des fonds activistes.
+
+**01:45** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais le plus courant de loin est le fonds d'actions long/short, ce que nous construisons ici.
+
+**01:52** [VISUEL: L'écran affiche une diapositive de présentation intitulée "THE LONG SIDE - Buy a stock you think will go up.". Un graphique montre une courbe de prix ascendante avec un "BUY" à 100$ et un "SELL" à 120$. Le profit est de +200$.]
+En gros, un fonds long/short fait deux choses fondamentales : il achète des actions qu'il pense vont monter,
+
+**01:56** [VISUEL: L'écran affiche une diapositive de présentation intitulée "THE SHORT SIDE - Sell a stock you think will go down.". Un graphique montre une courbe de prix descendante avec un "SELL (borrowed)" à 100$ et un "BUY BACK" à 80$. Le profit est de +200$.]
+et il vend à découvert des actions qu'il pense vont baisser.
+
+**01:58** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, si votre modèle dit qu'Intel semble fort, vous achèteriez Intel, et ensuite vous vendriez à découvert une autre action qui semble faible.
+
+**02:05** [VISUEL: L'homme gesticule avec les mains.]
+Et la raison pour laquelle on l'appelle un fonds spéculatif est que le côté court est censé vous protéger du marché au cas où il chuterait.
+
+**02:10** [VISUEL: L'écran affiche une diapositive de présentation intitulée "COMBINED - Run them together. Win in any market.". Trois scénarios sont présentés : "Bull Market" (Longs +700, Shorts -300, Net +400), "Bear Market" (Longs -350, Shorts +650, Net +300), "Flat / Choppy" (Longs +450, Shorts +200, Net +650).]
+De cette façon, votre rendement réel provient de la sélection d'actions des deux côtés, que le marché se porte bien ou non.
+
+**02:17** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais maintenant, la sélection des actions n'est qu'une pièce du puzzle.
+
+**02:21** [VISUEL: L'homme gesticule avec les mains.]
+En coulisses, un fonds comme celui-ci dispose d'une tonne d'infrastructures différentes qui gèrent réellement l'ensemble du projet.
+
+**02:27** [VISUEL: L'homme gesticule avec les mains, montrant un doigt levé.]
+Donc, la toute première chose dont vous avez besoin est une couche de recherche.
+
+**02:31** [VISUEL: L'homme gesticule avec les mains.]
+Avant d'acheter ou de vendre quoi que ce soit, vous devez évaluer toutes les actions de votre univers sur un tas de facteurs différents.
+
+**02:37** [VISUEL: L'écran affiche la carte thermique de notation des facteurs du tableau de bord "RESEARCH".]
+Ce sont des choses comme le momentum, la valeur, la qualité, la croissance, les révisions, l'intérêt à court terme, les initiés et les institutions.
+
+**02:42** [VISUEL: L'écran zoome sur la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES". Pour chaque candidat, il y a un bouton "Approve", "Reject", "Reset". En dessous, un onglet "HII - Claude analysis" est ouvert, affichant une analyse textuelle détaillée.]
+Donc, vous ne regardez pas seulement les graphiques de prix, vous extrayez également les 10-K, les rapports de résultats, vous lisez les dépôts de la SEC, vous déterminez ce que font les autres fonds, en gros, vous suivez toutes les activités liées à cette position.
+
+**02:55** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et c'est exactement ce que nous allons faire faire à Claude.
+
+**02:59** [VISUEL: L'homme gesticule avec les mains.]
+Donc, une fois que la couche de recherche la plus importante est terminée, vous avez la construction.
+
+**03:02** [VISUEL: Un homme barbu avec des lunettes regarde attentivement un écran d'ordinateur affichant un graphique boursier.]
+C'est ce qui aide à construire le portefeuille, donc combien d'une action achetons-nous, en nous assurant que nous ne sommes pas surpondérés dans un secteur spécifique.
+
+**03:10** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, une fois que nous avons construit le portefeuille, nous avons le risque.
+
+**03:13** [VISUEL: L'homme gesticule avec les mains.]
+Cette couche de gestion des risques est l'endroit où nous avons des vérifications préalables et des disjoncteurs pour nous assurer que rien ne tourne terriblement mal.
+
+**03:19** [VISUEL: L'homme gesticule avec les mains.]
+Et puis, en plus de tout cela, nous avons l'exécution et le reporting.
+
+**03:22** [VISUEL: L'onglet "V EXECUTION" est sélectionné. Le tableau de bord affiche "FILLED ORDERS (last 300)", "AVG SLIPPAGE", "TOTAL SLIPPAGE COST (300)", "OPEN ORDERS". En dessous, un tableau "RECENT TRADES - LAST 200" avec des colonnes comme "submitted_at", "ticker", "action", "qty", "limit_price", "fill_price", "slippage_bps", "status", "rebalance_run_id".]
+C'est là que vous pouvez vous connecter à un vrai courtier et passer des ordres avec des ordres limites pour contrôler le glissement.
+
+**03:27** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et surtout, suivre votre P&L pour savoir pourquoi vous avez gagné ou perdu de l'argent.
+
+**03:32** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Plongeons directement, nous avons notre analyste Jarvis ici, qui gère notre fonds spéculatif.
+
+**03:38** [VISUEL: L'écran zoome sur les chiffres clés du tableau de bord "JARVIS".]
+Dès que nous ouvrons le tableau de bord ici, nous pouvons voir qu'il y a plus de 500, donc 503 actions évaluées dans notre univers.
+
+**03:44** [VISUEL: L'écran zoome sur les chiffres clés du tableau de bord "JARVIS".]
+Nous avons 107 candidats longs et 96 candidats courts, avec 18 positions actuellement ouvertes.
+
+**03:50** [VISUEL: L'écran zoome sur les chiffres clés du tableau de bord "JARVIS".]
+Il y a environ 50 000 événements d'initiés. Nous pouvons voir les achats de PDG/CFO ainsi que les achats groupés.
+
+**03:57** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et rappelez-vous encore, tout cela est mis à jour avec des données en direct, donc il extrait automatiquement les rapports quotidiens ainsi que l'action des prix.
+
+**04:03** [VISUEL: L'homme gesticule avec les mains.]
+Donc, c'est juste un tas de données que vous ne seriez jamais en mesure de parcourir manuellement en tant que personne seule.
+
+**04:10** [VISUEL: L'homme gesticule avec les mains.]
+Il pourra répondre à pratiquement toutes les questions, basées sur les données en direct de notre système.
+
+**04:15** [VISUEL: L'homme gesticule avec les mains.]
+Et comme je l'ai dit au début de la vidéo, tout ce système est construit avec Claude, donc je vais vous montrer comment le construire avec Claude, et ensuite, chaque fois que nous posons des questions, il utilise également le modèle Claude.
+
+**04:25** [VISUEL: L'homme gesticule avec les mains.]
+Donc, c'est un peu comme une intelligence bidirectionnelle où nous avons toutes les données déjà analysées, amassées, et ensuite nous avons ce qui est essentiellement le modèle d'IA de premier ordre, Claude ici, Opus 4.6 ou Opus 4.7, selon ce que vous préférez pour réellement, vous savez, répondre aux questions avec ces données.
+
+**04:40** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Give a summary for today".]
+Donc, si nous posons simplement une question simple comme "Donne-nous un résumé pour aujourd'hui".
+
+**04:43** [VISUEL: Le bouton "ASK JARVIS" est cliqué. Le texte "JARVIS is thinking..." apparaît, puis "Running portfolio_summary().".]
+
+**04:45** [VISUEL: La réponse textuelle de Jarvis apparaît : "As of May 1, 2026, our portfolio consists of 18 positions, with 10 long and 8 short, reflecting a net exposure of approximately 43.4% and a gross exposure of 86.9%. The portfolio has an unrealized P&L of $46,315.71 and a trailing 30-day turnover rate of 23.5%, annualized at 285.5%. The current market regime is classified as "normal" with a VIX at 16.89. Our risk decomposition indicates a total annualized volatility of 7.99%, with 20.5% attributed to factor risk and 79.5% to specific risk. The primary factor contributing to portfolio risk is momentum, accounting for 38.9% of factor variance. In terms of sector performance over the last 90 days, our picks in Information Technology, Consumer Staples, and Communication Services have generated significant alpha, while positions in Industrials and Materials have underperformed relative to their sector ETFs. Overall, our long candidates are performing well, particularly in the Information Technology and Consumer Staples sectors, while the short candidates remain weak.".]
+Ce que nous avons ici est essentiellement l'ensemble de notre univers évalué. Nous avons notre portefeuille, des métriques spécifiques autour de notre portefeuille, la performance sectorielle et la performance de nos candidats longs.
+
+**04:55** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, il n'hallucine pas les données puisque nous alimentons littéralement toutes ces données au modèle Claude, juste pour qu'il ait une source pour comprendre nos critères et notre contexte.
+
+**05:04** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Why is AEP my top long?".]
+Nous pouvons également poser des questions spécifiques au portefeuille, comme "Pourquoi AEP est-il mon meilleur long actuellement ?".
+
+**05:08** [VISUEL: Le bouton "ASK JARVIS" est cliqué. La réponse textuelle de Jarvis apparaît : "AEP is your top long candidate primarily due to its perfect composite score of 100.0, indicating strong overall performance across multiple factors. It has a high momentum score of 96.8, reflecting its recent price strength, and a quality score of 90.3, suggesting solid financial health. Additionally, AEP is at 100% of its 52-week high, which is a positive momentum signal. However, its value score is relatively low at 35.5, and it has a Piotroski F-score of 6.0, indicating moderate financial strength. The Altman Z-score of 1.0 suggests some distress risk, but its strong momentum and quality factors outweigh these concerns. Overall, AEP's combination of high momentum and quality makes it a compelling long candidate in the current portfolio.".]
+Et ensuite, il donnera des raisons, disant qu'il a un score composite parfait, une forte performance globale sur plusieurs facteurs, un score de momentum élevé reflétant sa force de prix récente, et un score de qualité suggérant une solide santé financière.
+
+**05:19** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+De plus, AEP est à son plus haut sur 52 semaines, ce qui est un signal de momentum positif. Et puis en dessous, nous avons des modèles d'évaluation plus complexes comme les scores Piotroski de 6.0. Nous avons également un score Altman Z de 1.0. Donc, évidemment, il y a un certain risque de détresse. Mais, d'une manière générale, c'est une position assez forte, du moins selon Jarvis.
+
+**05:34** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Which factor is contributing the most to portfolio variance right now and are we crowded with the rest of the market on it?".]
+Maintenant, si nous voulons poser des questions plus institutionnelles, quelque chose comme "Quel facteur contribue le plus à la variance du portefeuille en ce moment et sommes-nous surpeuplés avec le reste du marché ?".
+
+**05:45** [VISUEL: Le bouton "ASK JARVIS" est cliqué. La réponse textuelle de Jarvis apparaît : "The factor contributing the most to portfolio variance right now is momentum, accounting for approximately 38.85% of the total variance. This indicates that momentum is the primary driver of your portfolio's risk profile at this time. Regarding crowding, there are no specific crowding warnings indicated in the current snapshot. However, momentum is a widely followed factor in the market, so it is generally advisable to monitor for potential crowding risks as other investors may also be heavily positioned in momentum strategies.".]
+Et maintenant, c'est cool parce que cela combine deux systèmes différents en une seule réponse. Il tire du modèle de risque factoriel que nous avons construit, et je vais vous montrer comment l'inclure, ainsi que la détection de surpeuplement, ce qui vous dira non seulement où se trouve votre risque, mais aussi si tout le monde fait la même chose.
+
+**06:00** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Did our tech picks beat XLK over the last 90 days or are we just long the sector?".]
+Maintenant, pour une question de style de fonds spéculatif, nous pouvons demander quelque chose comme "Nos choix technologiques ont-ils battu XLK au cours des 90 derniers jours ou sommes-nous juste longs sur le secteur ?".
+
+**06:10** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est une vraie question, car elle vous donnera des chiffres exacts montrant votre alpha de sélection d'actions par rapport à la simple détention du secteur.
+
+**06:18** [VISUEL: Le bouton "ASK JARVIS" est cliqué. La réponse textuelle de Jarvis apparaît : "Our Information Technology picks generated a return of 19.76% over the last 90 days, while the sector ETF, XLK, returned 10.99%. This means we outperformed the sector by 8.77%, indicating that our selections added significant alpha relative to simply holding the sector.".]
+Et ici, nous pouvons voir que nos choix technologiques ont généré un rendement de 19.76% au cours des 90 derniers jours, tandis que l'ETF sectoriel XLK n'a rapporté que 10.99%. Cela montre que nous avons en fait surperformé le secteur de 8.77%, ce qui indique que nos sélections ont ajouté un alpha significatif par rapport à la simple détention du secteur.
+
+**06:36** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, il y a évidemment d'innombrables questions que vous pourriez poser, comme "Étant donné le niveau de VIX d'aujourd'hui de 16.9, sommes-nous correctement positionnés ?". C'est plus pour vous aider à avoir plus de contexte et à répondre à des questions spécifiques que vous avez. Mais là où se trouve toute la sauce, c'est dans cet onglet de recherche ici.
+
+**06:50** [VISUEL: L'onglet "II RESEARCH" est sélectionné. Le tableau de bord affiche une carte thermique de notation des facteurs ("Factor scoring heatmap (top + bottom by composite)") avec des colonnes pour "Momentum", "Value", "Quality", "Growth", "Revisions", "Short Interest", "Insider", "Institutional". Les lignes représentent des tickers d'actions, et les cellules sont colorées en vert (fort) ou rouge (faible). En haut, des chiffres clés : "503 UNIVERSE SIZE", "107 LONG CANDIDATES", "96 SHORT CANDIDATES", "HIGHEST-DISPERSION FACTOR quality", "CROWDING WARNINGS 0". En dessous, "PORTFOLIO OPTIMIZER" avec des options "mvo" et "conviction", et "AVG EST. TRADE COST 7.8 bps".]
+Cet onglet de recherche est probablement l'endroit où vous passerez le plus de temps. Il vous montrera essentiellement les 30 meilleures et les 30 moins bonnes sélections d'actions par score composite.
+
+**07:00** [VISUEL: L'écran zoome sur la carte thermique.]
+Et vous pourrez même voir les huit facteurs décomposés : momentum, valeur, qualité, croissance, révisions, intérêt à court terme, initiés, institutions.
+
+**07:08** [VISUEL: L'écran zoome sur la carte thermique.]
+Donc, le vert signifie fort sur le facteur, le rouge signifie faible. Et de cette façon, vous pouvez simplement scanner visuellement ce qui est faible et fort.
+
+**07:14** [VISUEL: L'écran zoome sur la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES". Pour chaque candidat, il y a un bouton "Approve", "Reject", "Reset".]
+Mais si nous faisons défiler ici, nous pouvons réellement voir les 10 meilleurs candidats longs et courts.
+
+**07:19** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, 10 de chaque côté sont déjà ajustés pour la neutralité sectorielle, le bêta et la liquidité.
+
+**07:24** [VISUEL: L'écran zoome sur la section "PORTFOLIO OPTIMIZER".]
+Et maintenant, avant d'entrer dans les 10 meilleurs candidats longs et courts, ce que je veux couvrir, c'est cet optimiseur de portefeuille ici.
+
+**07:30** [VISUEL: L'écran zoome sur la section "PORTFOLIO OPTIMIZER".]
+C'est un bouton où vous pouvez basculer entre deux méthodes différentes.
+
+**07:34** [VISUEL: L'option "mvo" est sélectionnée.]
+La première ici est MVO, qui signifie optimisation moyenne-variance, donc essentiellement Markowitz.
+
+**07:40** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Cela trouvera mathématiquement le portefeuille optimal qui maximise votre rendement attendu pour un niveau de risque donné, tout en tenant compte des coûts de transaction estimés. C'est ce que les fonds quantitatifs utilisent réellement ici.
+
+**07:52** [VISUEL: L'option "conviction" est sélectionnée.]
+Mais de l'autre côté, vous avez également une approche plus simple de "conviction" ici, avec conviction.
+
+**07:57** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est là que vous surpondérez simplement les noms les mieux notés.
+
+**08:00** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, vous pouvez aller de l'avant et comparer ces deux optimiseurs de portefeuille pour voir ce que vous voulez conserver, mais d'une manière générale, MVO serait probablement votre meilleure option.
+
+**08:08** [VISUEL: L'écran zoome sur la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES".]
+Maintenant, en faisant défiler à nouveau vers les 10 meilleurs candidats longs et courts, c'est la partie que je pense être la plus importante.
+
+**08:15** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, pour chaque candidat, nous pouvons voir AEP comme un candidat long de premier plan. Nous avons trois boutons : approuver, rejeter ou réinitialiser.
+
+**08:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, le système, ou le fonds dans ce cas, vous donne des recommandations, mais vous prenez la décision finale.
+
+**08:28** [VISUEL: L'onglet "AEP - Claude analysis" est ouvert, affichant une analyse textuelle détaillée.]
+Maintenant, c'est en fait comme ça que fonctionnent les vrais fonds spéculatifs. Vous avez des analystes qui font la recherche et génèrent des idées de trading, ce que nous faisons ici.
+
+**08:37** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, il y a un PM, ou gestionnaire de portefeuille, qui examine chaque idée de trading et décide si elle entre réellement dans le livre ou non. Donc, l'analyste pourrait dire des choses comme "J'aime l'action parce que, vous savez, XYZ", mais le PM pourrait toujours la signaler ou la rejeter s'il n'aime pas le nom.
+
+**08:51** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, c'est exactement ce que nous faisons ici. Jarvis et le modèle quantitatif sont essentiellement votre équipe d'analystes, générant des recommandations, et vous agissez en tant que PM.
+
+**09:05** [VISUEL: L'écran zoome sur les détails du ticker AEP, montrant "Piotroski F-Score 9/9" et "Altman Z-Score 2.10 - Distress".]
+Et maintenant, en plongeant plus profondément dans les tickers, nous pouvons voir les positions, les actions, et ensuite nous avons des facteurs supplémentaires ici.
+
+**09:12** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+J'en ai parlé plus tôt, mais nous avons les scores Piotroski ainsi que les scores Altman Z.
+
+**09:17** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, c'est essentiellement une liste de contrôle de la santé financière en neuf points, des choses comme un flux de trésorerie positif, une dette en baisse, une marge en hausse.
+
+**09:25** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et le score Altman Z ici est essentiellement juste un modèle de prédiction de faillite.
+
+**09:28** [VISUEL: L'onglet "AEP - Claude analysis" est ouvert, affichant une analyse textuelle détaillée.]
+Et puis en dessous de tous ces tickers, vous pouvez réellement exécuter une analyse Claude supplémentaire.
+
+**09:33** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est là que le système va essentiellement envoyer les états financiers de l'entreprise, donc les 10-K, les 10-Q, ainsi que l'historique des transactions d'initiés les plus récentes, les rapports de résultats, les données en direct à Claude pour qu'il vous fournisse une analyse complète, afin que vous compreniez cette idée de trading.
+
+**09:48** [VISUEL: L'écran zoome sur la section "FORENSIC FINANCIAL - HEALTH 6/30" de l'analyse Claude.]
+Donc, dans cette analyse financière ici, nous avons des qualités de résultats, la santé du bilan, signalant tout drapeau rouge ou vert.
+
+**09:59** [VISUEL: L'écran zoome sur la section "10-K RISK FACTORS - SEVERITY MEDIUM" de l'analyse Claude.]
+Ensuite, en dessous, nous avons les facteurs de risque.
+
+**10:01** [VISUEL: L'écran zoome sur la section "INSIDER ACTIVITY - NEUTRAL (COMP 6.4)" de l'analyse Claude.]
+Et enfin, nous avons l'activité des initiés, qui examine toutes les transactions du formulaire 4 au cours des 90 derniers jours et les interprète.
+
+**10:07** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et vous saurez si quelqu'un comme, vous savez, le CFO a acheté 50 000 actions sur le marché libre. C'est juste avoir un analyste de recherche qui lit chaque dépôt pour vous et résume ce qui compte réellement à grande échelle.
+
+**10:18** [VISUEL: L'écran affiche la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, une fois que vous avez toutes vos positions ici approuvées, soit courtes, soit longues, nous pouvons voir que nous pourrions potentiellement vendre à découvert Coinbase. Vous passeriez ensuite à la gestion des risques ici, sur l'onglet suivant.
+
+**10:27** [VISUEL: L'onglet "III RISK" est sélectionné. Le tableau de bord affiche "CIRCUIT BREAKERS - LEVEL OK" avec des barres de progression pour "Daily loss (warn at -1.5%)", "Daily loss (halt at -2.5%)", "Weekly loss (warn at -4%)", "Drawdown (halt at -8%)". En dessous, "VIX 16.9", "CREDIT SPREAD (HYG-TLT, Z-SCORE WIDENING) -0.72σ", "ACTIVE GROSS-DOWN ACTIONS 0". Puis "Risk decomposition" avec un graphique en anneau. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et comme tout le reste, il se mettra à jour en direct en fonction de votre portefeuille actuel.
+
+**10:32** [VISUEL: L'écran zoome sur la section "CIRCUIT BREAKERS".]
+Donc, en haut ici, nous avons des disjoncteurs. Ce sont des barres horizontales montrant à quel point vous êtes proche des niveaux de déclenchement.
+
+**10:37** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Nous avons des choses comme les limites de perte quotidienne, les limites de perte hebdomadaire et le drawdown par rapport au pic.
+
+**10:43** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+En ce moment, tout est vert et jaunâtre parce que nous sommes bien dans les limites, mais si nous atteignons quelque chose comme 2.5% de perte quotidienne, le système s'arrêtera. Et si nous atteignons 8% de drawdown par rapport au pic, il arrêtera complètement le système également.
+
+**10:56** [VISUEL: L'écran zoome sur la section "Risk decomposition" et "FACTOR RISK CONTRIBUTIONS".]
+Maintenant, en dessous, c'est essentiellement ce qui rendra notre système beaucoup plus institutionnel. Avec d'abord les contributions au risque factoriel, puis les contributions au risque marginal également.
+
+**11:06** [VISUEL: L'écran zoome sur le graphique en anneau "Risk decomposition".]
+Donc, ce graphique en anneau ici décompose essentiellement le risque total de votre portefeuille en deux parties.
+
+**11:12** [VISUEL: L'écran zoome sur le graphique en anneau "Risk decomposition".]
+Le risque factoriel, qui est en vert ici, est essentiellement la partie systémique qui provient de l'exposition à des choses comme le momentum et la valeur.
+
+**11:20** [VISUEL: L'écran zoome sur le graphique en anneau "Risk decomposition".]
+Et le risque spécifique ici en bleu est essentiellement des éléments spécifiques aux actions qui n'ont rien à voir avec un facteur quelconque.
+
+**11:28** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+En ce moment, il montre 20.5% de facteur, environ 80% de spécifique. Et c'est ce que vous voulez techniquement et typiquement voir.
+
+**11:36** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ce que cela signifie, c'est que notre risque provient principalement de la sélection d'actions individuelles, et non d'un grand pari factoriel.
+
+**11:43** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et si c'était l'inverse, donc si ces deux étaient inversés, vous feriez essentiellement un pari à effet de levier sur un facteur spécifique.
+
+**11:50** [VISUEL: L'écran zoome sur la section "MARGINAL RISK CONTRIBUTORS".]
+Maintenant, en bas ici, nous avons les contributions au risque marginal. Cela vous indique quelles actions individuelles ajoutent le plus de risque à votre portefeuille.
+
+**11:58** [VISUEL: L'écran zoome sur la section "Factor exposure spread", "STRESS TESTS" et "60-day return correlation".]
+Ensuite, nous avons la répartition de l'exposition aux facteurs, les tests de stress pendant les périodes de forte baisse, et enfin les corrélations également.
+
+**12:06** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Cela vous montre à quel point toutes vos positions sont corrélées les unes aux autres. Donc, si vous êtes sur un tas de positions semi-conducteurs, c'est super corrélé, n'est-ce pas ?
+
+**12:14** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Si tout dans votre livre bouge ensemble, vous n'êtes pas réellement diversifié, et cela va complètement à l'encontre de la façon dont un fonds spéculatif fonctionnerait, d'une manière générale.
+
+**12:23** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Vous voulez éviter de faire un seul gros pari, donc ce système signale toute paire avec une corrélation supérieure à 0.85.
+
+**12:30** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant que nous avons couvert le risque, ce qui est plus important pour certaines personnes, évidemment, c'est la performance.
+
+**12:35** [VISUEL: L'onglet "IV PERFORMANCE" est sélectionné. Le tableau de bord affiche "Equity curve (rebased to 100)" avec une courbe violette pour "Portfolio" et une courbe pointillée grise pour "SPY". En dessous, "Monthly returns (%)" avec une grille de couleurs, et "Drawdown (%)" avec un graphique en ligne rouge.]
+Donc, sur cet onglet de performance, nous pouvons voir des choses comme notre courbe d'actions, à quel point nous surperformons le SPY dans notre portefeuille.
+
+**12:43** [VISUEL: L'écran zoome sur la section "Monthly returns (%)" et "Drawdown (%)".]
+Ensuite, nous avons une grille de rendements mensuels, qui est le format standard des fiches de performance institutionnelles. Un graphique de drawdown, et puis en bas ici, c'est l'attribution P&L.
+
+**12:53** [VISUEL: L'écran zoome sur la section "Daily P&L attribution (%)" avec des barres pour "Beta", "Sector", "Factor", "Alpha".]
+Maintenant, c'est quelque chose que les traders de détail ne verraient généralement jamais. Il décompose votre rendement quotidien en quatre composants.
+
+**13:00** [VISUEL: L'écran zoome sur la section "Daily P&L attribution (%)".]
+Tout d'abord, nous pouvons voir combien provient de l'exposition au marché, le bêta ici. Ensuite, nous pouvons voir combien provient de l'allocation sectorielle, combien provient de vos inclinaisons factorielles, et enfin l'alpha.
+
+**13:10** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+De cette façon, vous pouvez voir si vous générez réellement de l'alpha grâce à la sélection d'actions ou si vous suivez simplement le secteur.
+
+**13:15** [VISUEL: L'écran zoome sur la section "BEST CONTRIBUTORS", "WORST CONTRIBUTORS" et "Sector-relative performance - stock selection alpha (90d)".]
+Et juste pour double-cliquer là-dessus, une fois que nous passons les meilleurs et les pires contributeurs, nous pouvons réellement voir la performance relative au secteur.
+
+**13:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et c'est ainsi que nous pouvons voir si les actions que nous avons choisies étaient meilleures que la moyenne du secteur. Cela confirmerait essentiellement si nous choisissons réellement des gagnants ou si nous suivons simplement le marché.
+
+**13:31** [VISUEL: L'écran zoome sur la section "Turnover (30d)", "Annualized turnover", "Vs. budget", "Est. P&L (realized YTD)", "Avg estimated cost", "Avg actual slippage", "Model error", "Win/Loss analysis", "Claude weekly commentary".]
+Et puis nous avons quelques points de données finaux comme les analyses de rotation, montrant combien nous échangeons. Et quelques autres choses, y compris un commentaire hebdomadaire de Claude. Donc, à la fin de la semaine, vous pouvez simplement cliquer sur un bouton et demander à Claude de résumer votre performance hebdomadaire.
+
+**13:44** [VISUEL: L'onglet "V EXECUTION" est sélectionné. Le tableau de bord affiche "FILLED ORDERS (last 300)", "AVG SLIPPAGE", "TOTAL SLIPPAGE COST (300)", "OPEN ORDERS". En dessous, un tableau "RECENT TRADES - LAST 200".]
+Et maintenant, enfin, ici, nous avons la page d'exécution, que vous pouvez considérer comme votre propre vue de bureau de trading.
+
+**13:50** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, l'idée est que dans l'onglet de recherche, chaque fois que vous appuyez sur exécuter ou acheter, vous verrez la transaction récente apparaître ici, et elle sera également envoyée à votre courtier.
+
+**14:01** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Vous pouvez voir un journal de tout, y compris le ticker, le nombre d'actions, le prix limite, le prix de remplissage, le glissement en points de base. Et pour le côté court, il vérifie si chaque action est réellement disponible à la vente à découvert avant d'essayer de passer l'ordre.
+
+**14:12** [VISUEL: L'onglet "VI LETTER" est sélectionné. Le tableau de bord affiche une lettre intitulée "DAILY INVESTOR LETTER - May 01, 2026". Le texte est formaté comme une lettre d'investisseur.]
+Et puis nous avons notre dernière page ici, qui est la lettre, et vous pouvez la considérer comme plus pour le plaisir.
+
+**14:18** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est une lettre d'investisseur quotidienne écrite par Jarvis, dans le style d'une vraie lettre de LP. Elle parle de la performance du jour, des positions qui ont contribué, de l'apparence du risque, comme si vous communiquiez avec de vrais LP. Mais honnêtement, c'est très utile pour votre propre journal de trading, pour vous forcer à réfléchir à ce que vous avez fait, pourquoi vous avez gagné ou perdu de l'argent sur le marché ce jour-là.
+
+**14:39** [VISUEL: L'écran affiche une diapositive avec une liste de 7 couches : "87 REPORTING + DASHBOARD", "86 EXECUTION", "85 RISK MANAGEMENT", "84 PORTFOLIO CONSTRUCTION", "83 AI ANALYSIS", "82 SCORING ENGINE", "81 DATA INFRASTRUCTURE". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, laissez-moi vous expliquer comment tout ce système est construit, car même si cela peut sembler complexe, ce n'est en fait que sept couches empilées les unes sur les autres.
+
+**14:47** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, chacune de ces couches sera construite par sept prompts différents, que je vais vous montrer, et chaque couche ou prompt dépendra essentiellement de celle qui la précède.
+
+**14:54** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, si vous voulez suivre les prompts, vous pouvez faire une pause à tout moment dans la vidéo, simplement faire une capture d'écran et l'envoyer à Claude, il vous donnera la version texte de mes prompts.
+
+**15:03** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+De cette façon, vous n'avez rien à taper. Évidemment, mon objectif est d'essayer de rendre cela aussi accessible que possible.
+
+**15:08** [VISUEL: L'écran affiche la diapositive des 7 couches. Une flèche pointe vers le bas et un encadré "Link In Description" apparaît.]
+Mais si vous voulez aller plus loin, j'ai une communauté dans la description, qui est la plus grande communauté de trading IA en ce moment.
+
+**15:14** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Actuellement, tous nos membres actifs utilisent et testent Claude pour construire des bots de trading automatisés, des systèmes quantitatifs et simplement des cadres d'analyse.
+
+**15:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, à l'intérieur, j'ai des guides détaillés étape par étape sur tout, allant de l'analyse, de la révision des transactions, du backtesting des résultats, et même de la création de nouvelles stratégies.
+
+**15:31** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et tout est structuré de manière à ce que même si vous n'avez aucune connaissance technique ou compétence en codage, vous pourrez toujours suivre et construire de vrais systèmes de trading automatisés avec Claude, qui étaient tout simplement impossibles pour les traders de détail auparavant.
+
+**15:42** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Je crois vraiment que l'IA, et par extension Claude, sera la chose qui comblera enfin l'écart entre les traders et investisseurs de détail et les institutions.
+
+**15:52** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et si vous n'utilisez pas Claude, du moins quelque part dans votre processus ou cadre de trading, vous prendrez du retard par rapport aux personnes qui l'intègrent et l'implémentent réellement.
+
+**16:00** [VISUEL: L'écran affiche l'interface de Claude.ai. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, pour les prompts eux-mêmes, il y a essentiellement trois façons de construire tout ce projet.
+
+**16:05** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Tout d'abord, vous pouvez aller sur, vous savez, Claude.ai, qui est l'application web, et essentiellement taper chaque prompt un par un.
+
+**16:13** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, avec chaque prompt, vous obtiendriez le fichier créé et les enchaîneriez vous-même à la fin.
+
+**16:17** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, c'est évidemment probablement la façon la plus simple de le faire, mais potentiellement la plus compliquée, car à la fin, vous devez essentiellement orchestrer tous les différents composants mobiles.
+
+**16:26** [VISUEL: L'écran affiche l'interface de Claude Cowork. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, une autre option que vous avez ici est Claude Cowork.
+
+**16:28** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est essentiellement le même Claude, mais maintenant téléchargé sur votre bureau, de sorte que chaque fois qu'il crée des fichiers et des dossiers pour vous, ils sont automatiquement enregistrés sur votre ordinateur local.
+
+**16:37** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Cela facilitera grandement la tâche de Claude pour aller, faire des modifications et des changements à des fichiers, des fonctionnalités ou des composants spécifiques.
+
+**16:44** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et de cette façon, vous aurez votre structure déjà organisée pour vous, le tout dans un seul projet.
+
+**16:48** [VISUEL: L'écran affiche l'interface de VS Code. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais à mon avis, la meilleure façon de construire tout ce projet est d'utiliser Claude Code, qui est l'agent de codage de Claude.
+
+**16:55** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, de cette façon, cet agent de code Claude devra vivre à l'intérieur d'un IDE comme VS Code ici, mais il pourra lire tous vos fichiers, faire toutes les modifications ou ajustements nécessaires, mettre à jour les fichiers, s'assurer que tout est correctement structuré.
+
+**17:08** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+De cette façon, il sera aussi simple que possible pour Claude d'entrer et de créer ce système de fonds spéculatifs robuste pour vous.
+
+**17:14** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, pour utiliser réellement Claude Code, c'est un tout petit peu plus complexe que Claude ou Claude Cowork. Donc, ce que vous devez faire, c'est d'abord télécharger un IDE comme VS Code ici.
+
+**17:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais une fois que vous l'avez téléchargé, vous pouvez aller dans les extensions ici sur le menu de gauche, puis télécharger Claude Code.
+
+**17:28** [VISUEL: L'écran affiche la section des extensions de VS Code, montrant "Claude Code for VS Code".]
+Donc, une fois que vous l'avez téléchargé et activé, vous devriez voir Claude Code juste sur le menu de droite ici. Et avec cette fenêtre contextuelle, vous pourrez essentiellement saisir les prompts, et Claude Code ici vous aidera à créer l'ensemble du dossier pour vous. Donc, tous les fichiers nécessaires dont vous avez besoin et la logique associée à ces fichiers.
+
+**17:45** [VISUEL: L'écran affiche la diapositive des 7 couches. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, revenons à notre diagramme. Passons maintenant en revue toutes les couches et les prompts.
+
+**17:49** [VISUEL: La couche "81 DATA INFRASTRUCTURE" est mise en évidence.]
+Donc, tout en bas, nous avons notre couche de base, qui est l'infrastructure de données. Maintenant, c'est là que nous allons nous connecter à cinq sources de données différentes pour obtenir toutes nos informations, et essentiellement présenter notre structure de projet.
+
+**18:00** [VISUEL: L'écran affiche la diapositive "L1 DATA INFRASTRUCTURE" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 1 d'un système de fonds spéculatifs, la structure du projet (data, analysis, risk, reporting, cache, config.yaml, .env, factors, portfolio, execution, dashboard, output, utils, .gitattributes, .gitignore, .devsample, requirements.txt, recover_bond.py, run_analysis.py, run_dashboard.py, run_execution.py, run_reporting.py, run_risk_check.py, run_scoring.py, utils.py, outline.py) et 5 sources de données (Universe, Market Data, SEC Filing Data, Institutional Holdings, Short Interest, Analyst Estimates, Earnings Calendar).]
+Donc, dans ce prompt ici, nous avons d'abord la structure du projet, où vous pouvez voir comment notre projet va être construit.
+
+**18:06** [VISUEL: L'écran zoome sur la section "5 DATA SOURCES" du prompt.]
+La première est Yahoo Finance, qui nous donne les prix quotidiens pour chaque action du S&P 500. Elle va également extraire les états financiers et tout autre document important.
+
+**18:16** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais si vous voulez des données plus détaillées, sur plus de périodes, je vous recommanderais une source payante comme Polygon ou Alpha Vantage.
+
+**18:21** [VISUEL: L'écran zoome sur la section "5 DATA SOURCES" du prompt.]
+Il se connecte également à la SEC Edgar, qui est la base de données publique, et c'est là que cela devient vraiment lourd en données.
+
+**18:27** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Le système extrait les 10-K, les 10-Q et les 8-K pour l'analyse de texte. Mais le plus important est le formulaire 4, qui sont tous les dépôts de transactions d'initiés.
+
+**18:36** [VISUEL: L'écran zoome sur la section "5 DATA SOURCES" du prompt.]
+Ensuite, il extrait les dépôts 13F, où nous pouvons essentiellement suivre ce que font tous les autres fonds, comme Citadel, Point72 et Bridgewater.
+
+**18:43** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Après cela, nous allons obtenir des données sur l'intérêt à court terme. Nous avons des estimations d'analystes.
+
+**18:46** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+La première exécution prend environ une heure ou deux, juste parce qu'elle télécharge tout à partir de zéro. Mais après cela, c'est essentiellement une mise à jour quotidienne de 10 minutes qui ne récupère que ce qui est nouveau depuis hier.
+
+**18:56** [VISUEL: L'écran affiche la diapositive des 7 couches. La couche "82 SCORING ENGINE" est mise en évidence. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, en plus de toutes les données, se trouve ce moteur de notation ici, qui est notre deuxième couche. Cela prendra essentiellement tout et le distillera en huit scores de facteurs, construits à partir de 27 sous-facteurs pour chaque action.
+
+**19:08** [VISUEL: L'écran affiche la diapositive "L2 SCORING ENGINE" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 2 d'un système de fonds spéculatifs, avec 8 facteurs (Momentum, Value, Quality, Growth, Estimate Revisions, Short Interest, Insider Activity, Institutional Flow) et leurs sous-facteurs. Il mentionne également le score composite, les poids conditionnels au régime et la détection de surpeuplement.]
+Donc, d'abord, nous avons le momentum, qui mesure si l'action a réellement monté.
+
+**19:12** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, ce n'est pas un simple changement de prix. Il évite les inversions à court terme, examine l'accélération, ajoute la force relative par rapport aux ETF sectoriels, et utilise les proximités de plus haut sur 52 semaines comme signaux.
+
+**19:23** [VISUEL: L'écran zoome sur la section des facteurs du prompt.]
+Ensuite, nous avons la valeur, qui est la façon dont l'action est bon marché par rapport à ses fondamentaux. C'est là que nous utilisons tous nos documents téléchargés.
+
+**19:30** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, nous avons la qualité, qui examine les bénéfices et le flux de trésorerie réel.
+
+**19:34** [VISUEL: L'écran zoome sur la section des facteurs du prompt.]
+Suite à cela, nous avons la croissance, les révisions d'estimations, l'intérêt à court terme, l'activité des initiés et le flux institutionnel.
+
+**19:41** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, les huit de ces facteurs sont essentiellement notés et classés au sein de leur propre secteur.
+
+**19:45** [VISUEL: L'écran zoome sur la section "COMPOSITE SCORE" du prompt.]
+Ensuite, les huit sont mélangés en un score composite, qui est essentiellement la façon dont vous évaluez les actions. Et la dernière pièce, après tout cela, est la détection de surpeuplement, pour s'assurer que les facteurs eux-mêmes ne sont pas surpeuplés.
+
+**19:57** [VISUEL: L'écran affiche la diapositive des 7 couches. La couche "83 AI ANALYSIS" est mise en évidence. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, après le moteur de notation, ce que nous avons est notre analyse IA, et cela ajoute une toute nouvelle couche de complexité et fait passer notre système d'une simple focalisation quantitative à quelque chose qui a un réel potentiel d'analyse.
+
+**20:09** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est là que nous pouvons connecter notre système existant à Claude et le faire analyser des tickers spécifiques, en fonction des informations que nous avons déjà extraites du moteur de notation et de l'infrastructure de données. Donc, vous pouvez considérer ces deux comme étant plus axés sur le quantitatif, et cette analyse IA apporte une nature plus fondamentale et qualitative à notre système.
+
+**20:25** [VISUEL: L'écran affiche l'interface de Claude Console. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ce que vous devez faire en premier, c'est vous rendre sur Claude Developers et obtenir votre propre clé API.
+
+**20:30** [VISUEL: L'écran zoome sur la section "API keys" de Claude Console, montrant un bouton "Create key".]
+Et si vous voulez utiliser ChatGPT pour un calcul moins cher, cela fonctionne aussi.
+
+**20:34** [VISUEL: L'écran affiche l'interface de VS Code, montrant la structure du projet et un fichier ".env" ouvert avec des clés API.]
+Et ensuite, ce que vous feriez, c'est simplement coller vos clés API dans le fichier .env qui est créé dans ce prompt.
+
+**20:39** [VISUEL: L'écran affiche la diapositive "L3 CLAUDE AI ANALYSIS" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 3 d'un système de fonds spéculatifs, avec 4 analyseurs (API Client, Cost Tracker, Analysis Cache, Earnings Call Analyzer, Filing Analyzer, Risk Analyzer, Insider Analyzer, Sector Analysis) et un Report Generator.]
+Pour ce prompt, il va exécuter quatre analyseurs principaux : l'analyseur de dépôt, qui envoie toutes les données financières et demande à Claude de faire une revue forensique. L'analyseur de risque lit des facteurs de risque entiers à partir des derniers 10-K. L'analyseur d'initiés prend les données du formulaire 4 analysées pour que Claude interprète les modèles. Et les transcriptions des résultats sont également analysées.
+
+**21:00** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et chaque analyse est mise en cache, donc vous ne payez qu'une seule fois par période de dépôt.
+
+**21:03** [VISUEL: L'écran affiche la diapositive des 7 couches. La couche "84 PORTFOLIO CONSTRUCTION" est mise en évidence. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, après la couche d'analyse IA, nous avons la construction de portefeuille. C'est là que nous prenons les scores quantitatifs ainsi que les analyses fondamentales qualitatives dans notre portefeuille.
+
+**21:13** [VISUEL: L'écran affiche la diapositive "L4 PORTFOLIO CONSTRUCTION" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 4 d'un système de fonds spéculatifs, avec un optimiseur MVO, un optimiseur Conviction-Tilt et un modèle de coût de transaction.]
+Notre constructeur de portefeuille utilise le cadre de Markowitz, où vous trouvez mathématiquement le meilleur équilibre entre le rendement attendu et le risque.
+
+**21:20** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Il sélectionne les noms les plus performants et les moins performants au sein de chaque secteur, de sorte que vous êtes neutre par rapport au secteur, il dimensionne les positions en fonction de la conviction et de la volatilité, il ajuste le bêta, il vérifie que vous pouvez réellement négocier la taille sans déplacer le prix, et il budgétise même la rotation.
+
+**21:33** [VISUEL: L'écran affiche la diapositive des 7 couches. La couche "85 RISK MANAGEMENT" est mise en évidence. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, une fois que nous avons terminé notre portefeuille, nous devons gérer le risque, et c'est là que la couche de gestion des risques intervient.
+
+**21:39** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Vous pouvez considérer cela comme étant tout en haut, au-dessus du portefeuille, au-dessus de l'analyse, au-dessus de la notation, de sorte que même si tout cela est validé quantitativement et qualitativement, la gestion des risques peut toujours opposer son veto ou s'assurer que votre système ne s'effondre pas, malgré ce que ces autres couches vous disent.
+
+**21:55** [VISUEL: L'écran affiche la diapositive "L5 RISK MANAGEMENT" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 5 d'un système de fonds spéculatifs, avec un modèle de risque factoriel, des vérifications préalables aux transactions et des disjoncteurs.]
+Il y aura un modèle de risque factoriel complet qui décompose le risque total de votre portefeuille en facteurs par rapport à des composants spécifiques. Ensuite, pour les vérifications de risque, avant chaque transaction, il va vérifier un veto pré-transaction. Il va s'assurer que vos disjoncteurs ne sont pas activés sur vos baisses maximales quotidiennes ou hebdomadaires.
+
+**22:10** [VISUEL: L'écran zoome sur la section "RISK MANAGEMENT" du prompt.]
+Il va vérifier votre moniteur de facteurs, les corrélations, les risques de queue, les tests de stress, ainsi que les états de risque.
+
+**22:16** [VISUEL: L'écran affiche la diapositive des 7 couches. La couche "86 EXECUTION" est mise en évidence. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, une fois que nous avons vérifié que nous pouvons réellement passer des ordres et que cela fonctionne, nous pouvons gérer le reporting et le tableau de bord.
+
+**22:23** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est là que nous pouvons nous connecter à Alpaca et passer des ordres limites avec suivi du glissement.
+
+**22:27** [VISUEL: L'écran affiche la page d'accueil d'Alpaca. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, avant d'exécuter ce prompt, vous devrez créer un compte sur Alpaca, qui est un courtier API qui vous permet de passer et d'exécuter des transactions directement depuis notre système.
+
+**22:36** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, après vous être inscrit, vous obtiendrez une clé API et une clé secrète, que vous placerez dans le même fichier exact où se trouve votre clé API Anthropic.
+
+**22:43** [VISUEL: L'écran affiche la diapositive "L6 EXECUTION" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 6 d'un système de fonds spéculatifs, avec une connexion au courtier (Alpaca), un exécuteur d'ordres, un suivi du glissement, une vérification de la disponibilité à court terme et un gestionnaire d'ordres.]
+Donc, ce prompt d'exécution se connecte à Alpaca et passe des ordres limites avec suivi du glissement.
+
+**22:49** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Vous pourrez voir des choses comme l'exécuteur d'ordres, la disponibilité à court terme et le gestionnaire d'ordres.
+
+**22:53** [VISUEL: L'écran affiche la diapositive des 7 couches. La couche "87 REPORTING + DASHBOARD" est mise en évidence. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, une fois que nous avons vérifié que nous pouvons réellement passer des ordres et que cela fonctionne, nous pouvons gérer le reporting et le tableau de bord.
+
+**22:59** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, c'est la touche finale du système, où nous pouvons enregistrer nos transactions, voir nos performances, tout mettre à jour et essentiellement visualiser toutes ces autres couches dans un tableau de bord tout compris.
+
+**23:09** [VISUEL: L'écran affiche la diapositive "L7 REPORTING + DASHBOARD" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 7 d'un système de fonds spéculatifs, avec un moteur de reporting (attribution P&L quotidienne, analyse gains/pertes, performance relative au secteur, analyse de rotation, fiche de performance, commentaire hebdomadaire Claude, lettre LP quotidienne) et un tableau de bord Streamlit.]
+Donc, le prompt ici va d'abord construire le moteur de reporting, puis enfin le tableau de bord qui contient toutes les informations.
+
+**23:16** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, pour le moteur de reporting, il va inclure une attribution P&L quotidienne, une analyse des gains et des pertes, une performance relative au secteur, des analyses de rotation supplémentaires et une fiche de performance.
+
+**23:25** [VISUEL: L'écran zoome sur la section "Streamlit dashboard" du prompt.]
+Ensuite, nous avons le tableau de bord Streamlit qui va réellement tout afficher. Donc, dans notre cas, le portefeuille, la recherche, le risque, la performance, l'exécution et la lettre.
+
+**23:33** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, vous pouvez considérer cela comme liant tout ensemble dans un package final soigné que vous pouvez vous-même consulter pour comprendre ce qui se passe en un coup d'œil.
+
+**23:43** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, si vous avez trouvé cette vidéo utile, assurez-vous d'aimer, de commenter et de vous abonner, car cela aide grandement la chaîne.
+
+**23:48** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Je couvre tout ce qui concerne le trading IA et comment utiliser réellement l'IA dans votre propre portefeuille et stratégies de trading.
+
+**23:54** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et comme je l'ai mentionné au début de la vidéo, si vous êtes intéressé à plonger un peu plus profondément et à obtenir des guides complets, ainsi qu'une communauté active, le tout centré sur l'utilisation de l'IA et de Claude, cliquez sur le lien dans la description pour ma communauté scolaire.
+
+**24:07** [VISUEL: Écran de fin avec "THANKS FOR WATCHING", une image de l'homme, "DON'T FORGET TO LIKE, COMMENT, SHARE", et un bouton "SUBSCRIBE" avec une cloche.]**00:00** [VISUEL: Un homme souriant, vêtu d'un pull gris, est assis devant un microphone. Derrière lui, une étagère avec des livres et des plantes, et trois tableaux abstraits sur le mur blanc.]
+Dans la vidéo YouTube d'aujourd'hui, je vais vous montrer comment j'ai construit un système complet de fonds spéculatifs en utilisant Claude.
+
+**00:05** [VISUEL: L'homme gesticule avec les mains.]
+Il s'agit d'un fonds d'actions long/short complet qui évalue chaque action du S&P 500 sur huit facteurs quantitatifs et 27 sous-facteurs.
+
+**00:14** [VISUEL: L'écran passe à un tableau de bord numérique sombre. Le titre est "JARVIS - LONG / SHORT HEDGE FUND ANALYST". Un robot humanoïde blanc est visible sur la droite, dans une pose de réflexion. Sur la gauche, des chiffres clés sont affichés : "503 UNIVERSE", "107 LONG CAND.", "96 SHORT CAND.", "18 POSITIONS", "0 CROWDING", "49.7K INSIDER EVENTS", "281 CEO/CFO BUYS", "40 CLUSTER BUYS", "17.0 VIX", "76 EARNINGS YTD". En bas, des onglets de navigation : "I PORTFOLIO", "II RESEARCH", "III RISK", "IV PERFORMANCE", "V EXECUTION", "VI LETTER".]
+Ce fonds spéculatif va automatiquement extraire les dépôts de la SEC et les transactions d'initiés,
+
+**00:18** [VISUEL: L'onglet "II RESEARCH" est sélectionné. Le tableau de bord affiche une carte thermique de notation des facteurs ("Factor scoring heatmap (top + bottom by composite)") avec des colonnes pour "Momentum", "Value", "Quality", "Growth", "Revisions", "Short Interest", "Insider", "Institutional". Les lignes représentent des tickers d'actions, et les cellules sont colorées en vert (fort) ou rouge (faible). En bas, des boutons "Analyze top 20", "Refresh data", "Execute 0", "Reset all".]
+exécuter des analyses d'IA, vous permettre d'approuver ou de rejeter des transactions, et même se connecter à un vrai courtier.
+
+**00:24** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+J'appelle cet analyste de fonds spéculatifs d'initiés Jarvis.
+
+**00:27** [VISUEL: L'écran revient au tableau de bord "JARVIS". Une zone de texte "Ask anything..." est visible, avec un bouton "ASK JARVIS". La zone de texte contient la question "Which of my long candidates have a Piotroski F-Score of 9".]
+Vous pouvez lui poser n'importe quelle question sur votre portefeuille,
+
+**00:29** [VISUEL: Le bouton "ASK JARVIS" est cliqué. Le texte "JARVIS is thinking..." apparaît, puis la réponse : "Currently, none of your long candidates have a Piotroski F-Score of 9. The highest scores among your long candidates are 8, which is held by both EBAY and VLO. If you need further analysis or adjustments, let me me know.".]
+les actions de l'univers, et il donne même des réponses basées sur des données en direct.
+
+**00:34** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+Donc, dans cette vidéo, je vais vous expliquer comment fonctionnent réellement les fonds spéculatifs long/short traditionnels,
+
+**00:39** [VISUEL: L'homme gesticule avec les mains, montrant une progression.]
+et ensuite, je vais vous montrer comment construire chaque étape de cette couche à partir de zéro en utilisant Claude.
+
+**00:44** [VISUEL: L'homme gesticule avec les mains. Le logo "UCLA" apparaît à gauche, puis le logo "RAYMOND JAMES" apparaît à droite.]
+J'ai étudié les mathématiques et l'économie à l'UCLA et j'ai passé trois ans en banque d'investissement chez Raymond James. J'ai donc vu exactement comment les entreprises institutionnelles abordent réellement les marchés.
+
+**00:54** [VISUEL: L'homme gesticule avec les mains.]
+Maintenant, évidemment, vous n'allez pas devenir un Citadel à une personne,
+
+**00:57** [VISUEL: L'homme fait un pouce levé.]
+mais vous pouvez utiliser les mêmes systèmes et cadres que ces entreprises utilisent et les adapter à votre propre style de trading, à la taille de votre portefeuille et à votre risque.
+
+**01:01** [VISUEL: Un homme barbu avec des lunettes regarde attentivement un écran d'ordinateur affichant un graphique boursier avec des bougies japonaises vertes et rouges.]
+
+**01:05** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+**[REGLE: Aucune stratégie ne fonctionne éternellement, il faut constamment s'adapter et changer au marché à mesure que la structure évolue.]**
+Il est important de se rappeler qu'aucune stratégie ne fonctionne éternellement, vous devrez donc constamment vous adapter et changer au marché à mesure que la structure évolue.
+
+**01:13** [VISUEL: L'homme gesticule avec les mains.]
+Et c'est en fait une grande partie de ce que le système est conçu pour faire.
+
+**01:16** [VISUEL: L'écran affiche un texte de disclaimer sur fond noir : "Disclaimer: NO FINANCIAL ADVICE – The Information on this Channel is provided for education and informational purposes only, without any express or implied warranty of any kind, including warranties of accuracy, completeness, or fitness for any particular purpose. The Information contained in or provided from or through this website is not intended to be and is not constitute financial advice, investment advice, trading advice or any other advice. The Information on this website and provided from or through this website is general in nature and is not specific to you the User or anyone else. You should not make any decision, financial, investment, trading or otherwise, based on any of the information presented on this website without undertaking independent due diligence and consultation with a professional broker or financial advisory."]
+
+**01:21** [VISUEL: L'homme revient à l'écran, gesticulant avec les mains.]
+Maintenant, comme toujours, cette vidéo n'est pas un conseil financier et je ne garantis aucun profit dans cette vidéo. Cette vidéo est strictement éducative pour que vous puissiez potentiellement l'utiliser et l'adapter à vos propres styles et stratégies de trading.
+
+**01:27** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, avant de vous montrer le système, laissez-moi d'abord passer en revue ce que nous construisons réellement ici.
+
+**01:32** [VISUEL: L'homme gesticule avec les mains.]
+La plupart des gens entendent "fonds spéculatif" et pensent simplement que c'est un homme riche qui choisit des actions.
+
+**01:36** [VISUEL: L'homme gesticule avec les mains.]
+Mais la première chose à savoir est qu'il existe en fait un tas de types différents de fonds spéculatifs.
+
+**01:39** [VISUEL: L'écran affiche une page web de "GRAHAM CAPITAL MANAGEMENT". On y voit des schémas expliquant "HOW TRENDS ARE IDENTIFIED" et "TYPES OF TREND-FOLLOWING MODELS", avec des exemples de "BREAKOUT MODELS" et "MOVING AVERAGE MODELS".]
+Vous avez des fonds de suivi de tendance, des fonds d'arbitrage statistique, des fonds macro mondiaux, des fonds axés sur les événements, et même des fonds activistes.
+
+**01:45** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais le plus courant de loin est le fonds d'actions long/short, ce que nous construisons ici.
+
+**01:52** [VISUEL: L'écran affiche une diapositive de présentation intitulée "THE LONG SIDE - Buy a stock you think will go up.". Un graphique montre une courbe de prix ascendante avec un "BUY" à 100$ et un "SELL" à 120$. Le profit est de +200$.]
+**[REGLE: Un fonds long/short achète des actions qu'il pense vont monter.]**
+En gros, un fonds long/short fait deux choses fondamentales : il achète des actions qu'il pense vont monter,
+
+**01:56** [VISUEL: L'écran affiche une diapositive de présentation intitulée "THE SHORT SIDE - Sell a stock you think will go down.". Un graphique montre une courbe de prix descendante avec un "SELL (borrowed)" à 100$ et un "BUY BACK" à 80$. Le profit est de +200$.]
+**[REGLE: Un fonds long/short vend à découvert des actions qu'il pense vont baisser.]**
+et il vend à découvert des actions qu'il pense vont baisser.
+
+**01:58** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, si votre modèle dit qu'Intel semble fort, vous achèteriez Intel, et ensuite vous vendriez à découvert une autre action qui semble faible.
+
+**02:05** [VISUEL: L'homme gesticule avec les mains.]
+**[REGLE: Le côté court d'un fonds spéculatif est censé protéger le portefeuille en cas de baisse du marché.]**
+Et la raison pour laquelle on l'appelle un fonds spéculatif est que le côté court est censé vous protéger du marché au cas où il chuterait.
+
+**02:10** [VISUEL: L'écran affiche une diapositive de présentation intitulée "COMBINED - Run them together. Win in any market.". Trois scénarios sont présentés : "Bull Market" (Longs +700, Shorts -300, Net +400), "Bear Market" (Longs -350, Shorts +650, Net +300), "Flat / Choppy" (Longs +450, Shorts +200, Net +650).]
+De cette façon, votre rendement réel provient de la sélection d'actions des deux côtés, que le marché se porte bien ou non.
+
+**02:17** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais maintenant, la sélection des actions n'est qu'une pièce du puzzle.
+
+**02:21** [VISUEL: L'homme gesticule avec les mains.]
+En coulisses, un fonds comme celui-ci dispose d'une tonne d'infrastructures différentes qui gèrent réellement l'ensemble du projet.
+
+**02:27** [VISUEL: L'homme gesticule avec les mains, montrant un doigt levé.]
+Donc, la toute première chose dont vous avez besoin est une couche de recherche.
+
+**02:31** [VISUEL: L'homme gesticule avec les mains.]
+**[REGLE: Avant d'acheter ou de vendre, il faut évaluer toutes les actions de l'univers sur de nombreux facteurs.]**
+Avant d'acheter ou de vendre quoi que ce soit, vous devez évaluer toutes les actions de votre univers sur un tas de facteurs différents.
+
+**02:37** [VISUEL: L'écran affiche la carte thermique de notation des facteurs du tableau de bord "RESEARCH".]
+Ce sont des choses comme le momentum, la valeur, la qualité, la croissance, les révisions, l'intérêt à court terme, les initiés et les institutions.
+
+**02:42** [VISUEL: L'écran zoome sur la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES" avec des boutons "Approve", "Reject", "Reset". En dessous, un onglet "HII - Claude analysis" est ouvert, affichant une analyse textuelle détaillée.]
+Donc, vous ne regardez pas seulement les graphiques de prix, vous extrayez également les 10-K, les rapports de résultats, vous lisez les dépôts de la SEC, vous déterminez ce que font les autres fonds, en gros, vous suivez toutes les activités liées à cette position.
+
+**02:55** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et c'est exactement ce que nous allons faire faire à Claude.
+
+**02:59** [VISUEL: L'homme gesticule avec les mains.]
+Donc, une fois que la couche de recherche la plus importante est terminée, vous avez la construction.
+
+**03:02** [VISUEL: Un homme barbu avec des lunettes regarde attentivement un écran d'ordinateur affichant un graphique boursier.]
+C'est ce qui aide à construire le portefeuille, donc combien d'une action achetons-nous, en nous assurant que nous ne sommes pas surpondérés dans un secteur spécifique.
+
+**03:10** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, une fois que nous avons construit le portefeuille, nous avons le risque.
+
+**03:13** [VISUEL: L'homme gesticule avec les mains.]
+**[REGLE: La couche de gestion des risques inclut des vérifications préalables et des disjoncteurs pour éviter des problèmes majeurs.]**
+Cette couche de gestion des risques est l'endroit où nous avons des vérifications préalables et des disjoncteurs pour nous assurer que rien ne tourne terriblement mal.
+
+**03:19** [VISUEL: L'homme gesticule avec les mains.]
+Et puis, en plus de tout cela, nous avons l'exécution et le reporting.
+
+**03:22** [VISUEL: L'onglet "V EXECUTION" est sélectionné. Le tableau de bord affiche "FILLED ORDERS (last 300)", "AVG SLIPPAGE", "TOTAL SLIPPAGE COST (300)", "OPEN ORDERS". En dessous, un tableau "RECENT TRADES - LAST 200" avec des colonnes comme "submitted_at", "ticker", "action", "qty", "limit_price", "fill_price", "slippage_bps", "status", "rebalance_run_id".]
+C'est là que vous pouvez vous connecter à un vrai courtier et passer des ordres avec des ordres limites pour contrôler le glissement.
+
+**03:27** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et surtout, suivre votre P&L pour savoir pourquoi vous avez gagné ou perdu de l'argent.
+
+**03:32** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Plongeons directement, nous avons notre analyste Jarvis ici, qui gère notre fonds spéculatif.
+
+**03:38** [VISUEL: L'écran zoome sur les chiffres clés du tableau de bord "JARVIS".]
+Dès que nous ouvrons le tableau de bord ici, nous pouvons voir qu'il y a plus de 500, donc 503 actions évaluées dans notre univers.
+
+**03:44** [VISUEL: L'écran zoome sur les chiffres clés du tableau de bord "JARVIS".]
+Nous avons 107 candidats longs et 96 candidats courts, avec 18 positions actuellement ouvertes.
+
+**03:50** [VISUEL: L'écran zoome sur les chiffres clés du tableau de bord "JARVIS".]
+Il y a environ 50 000 événements d'initiés. Nous pouvons voir les achats de PDG/CFO ainsi que les achats groupés.
+
+**03:57** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et rappelez-vous encore, tout cela est mis à jour avec des données en direct, donc il extrait automatiquement les rapports quotidiens ainsi que l'action des prix.
+
+**04:03** [VISUEL: L'homme gesticule avec les mains.]
+Donc, c'est juste un tas de données que vous ne seriez jamais en mesure de parcourir manuellement en tant que personne seule.
+
+**04:10** [VISUEL: L'homme gesticule avec les mains.]
+Il pourra répondre à pratiquement toutes les questions, basées sur les données en direct de notre système.
+
+**04:15** [VISUEL: L'homme gesticule avec les mains.]
+Et comme je l'ai dit au début de la vidéo, tout ce système est construit avec Claude, donc je vais vous montrer comment le construire avec Claude, et ensuite, chaque fois que nous posons des questions, il utilise également le modèle Claude.
+
+**04:25** [VISUEL: L'homme gesticule avec les mains.]
+Donc, c'est un peu comme une intelligence bidirectionnelle où nous avons toutes les données déjà analysées, amassées, et ensuite nous avons ce qui est essentiellement le modèle d'IA de premier ordre, Claude ici, Opus 4.6 ou Opus 4.7, selon ce que vous préférez pour réellement, vous savez, répondre aux questions avec ces données.
+
+**04:40** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Give a summary for today".]
+Donc, si nous posons simplement une question simple comme "Donne-nous un résumé pour aujourd'hui".
+
+**04:43** [VISUEL: Le bouton "ASK JARVIS" est cliqué. Le texte "JARVIS is thinking..." apparaît, puis "Running portfolio_summary().".]
+
+**04:45** [VISUEL: La réponse textuelle de Jarvis apparaît : "As of May 1, 2026, our portfolio consists of 18 positions, with 10 long and 8 short, reflecting a net exposure of approximately 43.4% and a gross exposure of 86.9%. The portfolio has an unrealized P&L of $46,315.71 and a trailing 30-day turnover rate of 23.5%, annualized at 285.5%. The current market regime is classified as "normal" with a VIX at 16.89. Our risk decomposition indicates a total annualized volatility of 7.99%, with 20.5% attributed to factor risk and 79.5% to specific risk. The primary factor contributing to portfolio risk is momentum, accounting for 38.9% of factor variance. In terms of sector performance over the last 90 days, our picks in Information Technology, Consumer Staples, and Communication Services have generated significant alpha, while positions in Industrials and Materials have underperformed relative to their sector ETFs. Overall, our long candidates are performing well, particularly in the Information Technology and Consumer Staples sectors, while the short candidates remain weak.".]
+Ce que nous avons ici est essentiellement l'ensemble de notre univers évalué. Nous avons notre portefeuille, des métriques spécifiques autour de notre portefeuille, la performance sectorielle et la performance de nos candidats longs.
+
+**04:55** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, il n'hallucine pas les données puisque nous alimentons littéralement toutes ces données au modèle Claude, juste pour qu'il ait une source pour comprendre nos critères et notre contexte.
+
+**05:04** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Why is AEP my top long?".]
+Nous pouvons également poser des questions spécifiques au portefeuille, comme "Pourquoi AEP est-il mon meilleur long actuellement ?".
+
+**05:08** [VISUEL: Le bouton "ASK JARVIS" est cliqué. La réponse textuelle de Jarvis apparaît : "AEP is your top long candidate primarily due to its perfect composite score of 100.0, indicating strong overall performance across multiple factors. It has a high momentum score of 96.8, reflecting its recent price strength, and a quality score of 90.3, suggesting solid financial health. Additionally, AEP is at 100% of its 52-week high, which is a positive momentum signal. However, its value score is relatively low at 35.5, and it has a Piotroski F-score of 6.0, indicating moderate financial strength. The Altman Z-score of 1.0 suggests some distress risk, but its strong momentum and quality factors outweigh these concerns. Overall, AEP's combination of high momentum and quality makes it a compelling long candidate in the current portfolio.".]
+Et ensuite, il donnera des raisons, disant qu'il a un score composite parfait, une forte performance globale sur plusieurs facteurs, un score de momentum élevé reflétant sa force de prix récente, et un score de qualité suggérant une solide santé financière.
+
+**05:19** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+De plus, AEP est à son plus haut sur 52 semaines, ce qui est un signal de momentum positif. Et puis en dessous, nous avons des modèles d'évaluation plus complexes comme les scores Piotroski de 6.0. Nous avons également un score Altman Z de 1.0. Donc, évidemment, il y a un certain risque de détresse. Mais, d'une manière générale, c'est une position assez forte, du moins selon Jarvis.
+
+**05:34** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Which factor is contributing the most to portfolio variance right now and are we crowded with the rest of the market on it?".]
+Maintenant, si nous voulons poser des questions plus institutionnelles, quelque chose comme "Quel facteur contribue le plus à la variance du portefeuille en ce moment et sommes-nous surpeuplés avec le reste du marché ?".
+
+**05:45** [VISUEL: Le bouton "ASK JARVIS" est cliqué. La réponse textuelle de Jarvis apparaît : "The factor contributing the most to portfolio variance right now is momentum, accounting for approximately 38.85% of the total variance. This indicates that momentum is the primary driver of your portfolio's risk profile at this time. Regarding crowding, there are no specific crowding warnings indicated in the current snapshot. However, momentum is a widely followed factor in the market, so it is generally advisable to monitor for potential crowding risks as other investors may also be heavily positioned in momentum strategies.".]
+Et maintenant, c'est cool parce que cela combine deux systèmes différents en une seule réponse. Il tire du modèle de risque factoriel que nous avons construit, et je vais vous montrer comment l'inclure, ainsi que la détection de surpeuplement, ce qui vous dira non seulement où se trouve votre risque, mais aussi si tout le monde fait la même chose.
+
+**06:00** [VISUEL: L'écran revient au tableau de bord "JARVIS". L'homme est incrusté dans un cercle sur la droite de l'écran. La zone de texte "Ask anything..." contient la question "Did our tech picks beat XLK over the last 90 days or are we just long the sector?".]
+Maintenant, pour une question de style de fonds spéculatif, nous pouvons demander quelque chose comme "Nos choix technologiques ont-ils battu XLK au cours des 90 derniers jours ou sommes-nous juste longs sur le secteur ?".
+
+**06:10** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est une vraie question, car elle vous donnera des chiffres exacts montrant votre alpha de sélection d'actions par rapport à la simple détention du secteur.
+
+**06:18** [VISUEL: Le bouton "ASK JARVIS" est cliqué. La réponse textuelle de Jarvis apparaît : "Our Information Technology picks generated a return of 19.76% over the last 90 days, while the sector ETF, XLK, returned 10.99%. This means we outperformed the sector by 8.77%, indicating that our selections added significant alpha relative to simply holding the sector.".]
+Et ici, nous pouvons voir que nos choix technologiques ont généré un rendement de 19.76% au cours des 90 derniers jours, tandis que l'ETF sectoriel XLK n'a rapporté que 10.99%. Cela montre que nous avons en fait surperformé le secteur de 8.77%, ce qui indique que nos sélections ont ajouté un alpha significatif par rapport à la simple détention du secteur.
+
+**06:36** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, il y a évidemment d'innombrables questions que vous pourriez poser, comme "Étant donné le niveau de VIX d'aujourd'hui de 16.9, sommes-nous correctement positionnés ?". C'est plus pour vous aider à avoir plus de contexte et à répondre à des questions spécifiques que vous avez. Mais là où se trouve toute la sauce, c'est dans cet onglet de recherche ici.
+
+**06:50** [VISUEL: L'onglet "II RESEARCH" est sélectionné. Le tableau de bord affiche une carte thermique de notation des facteurs ("Factor scoring heatmap (top + bottom by composite)") avec des colonnes pour "Momentum", "Value", "Quality", "Growth", "Revisions", "Short Interest", "Insider", "Institutional". Les lignes représentent des tickers d'actions, et les cellules sont colorées en vert (fort) ou rouge (faible). En haut, des chiffres clés : "503 UNIVERSE SIZE", "107 LONG CANDIDATES", "96 SHORT CANDIDATES", "HIGHEST-DISPERSION FACTOR quality", "CROWDING WARNINGS 0". En dessous, "PORTFOLIO OPTIMIZER" avec des options "mvo" et "conviction", et "AVG EST. TRADE COST 7.8 bps".]
+Cet onglet de recherche est probablement l'endroit où vous passerez le plus de temps. Il vous montrera essentiellement les 30 meilleures et les 30 moins bonnes sélections d'actions par score composite.
+
+**07:00** [VISUEL: L'écran zoome sur la carte thermique.]
+Et vous pourrez même voir les huit facteurs décomposés : momentum, valeur, qualité, croissance, révisions, intérêt à court terme, initiés, institutions.
+
+**07:08** [VISUEL: L'écran zoome sur la carte thermique.]
+Donc, le vert signifie fort sur le facteur, le rouge signifie faible. Et de cette façon, vous pouvez simplement scanner visuellement ce qui est faible et fort.
+
+**07:14** [VISUEL: L'écran zoome sur la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES" avec des boutons "Approve", "Reject", "Reset".]
+Mais si nous faisons défiler ici, nous pouvons réellement voir les 10 meilleurs candidats longs et courts.
+
+**07:19** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, 10 de chaque côté sont déjà ajustés pour la neutralité sectorielle, le bêta et la liquidité.
+
+**07:24** [VISUEL: L'écran zoome sur la section "PORTFOLIO OPTIMIZER".]
+Et maintenant, avant d'entrer dans les 10 meilleurs candidats longs et courts, ce que je veux couvrir, c'est cet optimiseur de portefeuille ici.
+
+**07:30** [VISUEL: L'écran zoome sur la section "PORTFOLIO OPTIMIZER".]
+C'est un bouton où vous pouvez basculer entre deux méthodes différentes.
+
+**07:34** [VISUEL: L'option "mvo" est sélectionnée.]
+La première ici est MVO, qui signifie optimisation moyenne-variance, donc essentiellement Markowitz.
+
+**07:40** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+**[REGLE: L'optimisation moyenne-variance (MVO) trouve le portefeuille optimal qui maximise le rendement attendu pour un niveau de risque donné, en tenant compte des coûts de transaction estimés.]**
+Cela trouvera mathématiquement le portefeuille optimal qui maximise votre rendement attendu pour un niveau de risque donné, tout en tenant compte des coûts de transaction estimés. C'est ce que les fonds quantitatifs utilisent réellement ici.
+
+**07:52** [VISUEL: L'option "conviction" est sélectionnée.]
+Mais de l'autre côté, vous avez également une approche plus simple de "conviction" ici, avec conviction.
+
+**07:57** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+**[REGLE: L'approche "conviction" surpondère les noms les mieux notés.]**
+C'est là que vous surpondérez simplement les noms les mieux notés.
+
+**08:00** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, vous pouvez aller de l'avant et comparer ces deux optimiseurs de portefeuille pour voir ce que vous voulez conserver, mais d'une manière générale, MVO serait probablement votre meilleure option.
+
+**08:08** [VISUEL: L'écran zoome sur la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES".]
+Maintenant, en faisant défiler à nouveau vers les 10 meilleurs candidats longs et courts, c'est la partie que je pense être la plus importante.
+
+**08:15** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, pour chaque candidat, nous pouvons voir AEP comme un candidat long de premier plan. Nous avons trois boutons : approuver, rejeter ou réinitialiser.
+
+**08:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+**[REGLE: Le système donne des recommandations, mais l'utilisateur prend la décision finale, simulant le rôle d'un gestionnaire de portefeuille.]**
+Donc, le système, ou le fonds dans ce cas, vous donne des recommandations, mais vous prenez la décision finale.
+
+**08:28** [VISUEL: L'onglet "AEP - Claude analysis" est ouvert, affichant une analyse textuelle détaillée.]
+Maintenant, c'est en fait comme ça que fonctionnent les vrais fonds spéculatifs. Vous avez des analystes qui font la recherche et génèrent des idées de trading, ce que nous faisons ici.
+
+**08:37** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, il y a un PM, ou gestionnaire de portefeuille, qui examine chaque idée de trading et décide si elle entre réellement dans le livre ou non. Donc, l'analyste pourrait dire des choses comme "J'aime l'action parce que, vous savez, XYZ", mais le PM pourrait toujours la signaler ou la rejeter s'il n'aime pas le nom.
+
+**08:51** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, c'est exactement ce que nous faisons ici. Jarvis et le modèle quantitatif sont essentiellement votre équipe d'analystes, générant des recommandations, et vous agissez en tant que PM.
+
+**09:05** [VISUEL: L'écran zoome sur les détails du ticker AEP, montrant "Piotroski F-Score 9/9" et "Altman Z-Score 2.10 - Distress".]
+Et maintenant, en plongeant plus profondément dans les tickers, nous pouvons voir les positions, les actions, et ensuite nous avons des facteurs supplémentaires ici.
+
+**09:12** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+J'en ai parlé plus tôt, mais nous avons les scores Piotroski ainsi que les scores Altman Z.
+
+**09:17** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+**[REGLE: Le score Piotroski est une liste de contrôle de la santé financière en neuf points (flux de trésorerie positif, dette en baisse, marge en hausse, etc.).]**
+Donc, c'est essentiellement une liste de contrôle de la santé financière en neuf points, des choses comme un flux de trésorerie positif, une dette en baisse, une marge en hausse.
+
+**09:25** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+**[REGLE: Le score Altman Z est un modèle de prédiction de faillite.]**
+Et le score Altman Z ici est essentiellement juste un modèle de prédiction de faillite.
+
+**09:28** [VISUEL: L'onglet "AEP - Claude analysis" est ouvert, affichant une analyse textuelle détaillée.]
+Et puis en dessous de tous ces tickers, vous pouvez réellement exécuter une analyse Claude supplémentaire.
+
+**09:33** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est là que le système va essentiellement envoyer les états financiers de l'entreprise, donc les 10-K, les 10-Q, ainsi que l'historique des transactions d'initiés les plus récentes, les rapports de résultats, les données en direct à Claude pour qu'il vous fournisse une analyse complète, afin que vous compreniez cette idée de trading.
+
+**09:48** [VISUEL: L'écran zoome sur la section "FORENSIC FINANCIAL - HEALTH 6/30" de l'analyse Claude.]
+Donc, dans cette analyse financière ici, nous avons des qualités de résultats, la santé du bilan, signalant tout drapeau rouge ou vert.
+
+**09:59** [VISUEL: L'écran zoome sur la section "10-K RISK FACTORS - SEVERITY MEDIUM" de l'analyse Claude.]
+Ensuite, en dessous, nous avons les facteurs de risque.
+
+**10:01** [VISUEL: L'écran zoome sur la section "INSIDER ACTIVITY - NEUTRAL (COMP 6.4)" de l'analyse Claude.]
+Et enfin, nous avons l'activité des initiés, qui examine toutes les transactions du formulaire 4 au cours des 90 derniers jours et les interprète.
+
+**10:07** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est juste avoir un analyste de recherche qui lit chaque dépôt pour vous et résume ce qui compte réellement à grande échelle.
+
+**10:18** [VISUEL: L'écran affiche la partie inférieure du tableau de bord "RESEARCH", montrant les "TOP 10 LONG CANDIDATES" et "TOP 10 SHORT CANDIDATES". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, une fois que vous avez toutes vos positions ici approuvées, soit courtes, soit longues, nous pouvons voir que nous pourrions potentiellement vendre à découvert Coinbase. Vous passeriez ensuite à la gestion des risques ici, sur l'onglet suivant.
+
+**10:27** [VISUEL: L'onglet "III RISK" est sélectionné. Le tableau de bord affiche "CIRCUIT BREAKERS - LEVEL OK" avec des barres de progression pour "Daily loss (warn at -1.5%)", "Daily loss (halt at -2.5%)", "Weekly loss (warn at -4%)", "Drawdown (halt at -8%)". En dessous, "VIX 16.9", "CREDIT SPREAD (HYG-TLT, Z-SCORE WIDENING) -0.72σ", "ACTIVE GROSS-DOWN ACTIONS 0". Puis "Risk decomposition" avec un graphique en anneau. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et comme tout le reste, il se mettra à jour en direct en fonction de votre portefeuille actuel.
+
+**10:32** [VISUEL: L'écran zoome sur la section "CIRCUIT BREAKERS".]
+Donc, en haut ici, nous avons des disjoncteurs. Ce sont des barres horizontales montrant à quel point vous êtes proche des niveaux de déclenchement.
+
+**10:37** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Nous avons des choses comme les limites de perte quotidienne, les limites de perte hebdomadaire et le drawdown par rapport au pic.
+
+**10:43** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+En ce moment, tout est vert et jaunâtre parce que nous sommes bien dans les limites, mais si nous atteignons quelque chose comme 2.5% de perte quotidienne, le système s'arrêtera. Et si nous atteignons 8% de drawdown par rapport au pic, il arrêtera complètement le système également.
+
+**10:56** [VISUEL: L'écran zoome sur la section "Risk decomposition" et "FACTOR RISK CONTRIBUTIONS".]
+Maintenant, en dessous, c'est essentiellement ce qui rendra notre système beaucoup plus institutionnel. Avec d'abord les contributions au risque factoriel, puis les contributions au risque marginal également.
+
+**11:06** [VISUEL: L'écran zoome sur le graphique en anneau "Risk decomposition".]
+Donc, ce graphique en anneau ici décompose essentiellement le risque total de votre portefeuille en deux parties.
+
+**11:12** [VISUEL: L'écran zoome sur le graphique en anneau "Risk decomposition".]
+Le risque factoriel, qui est en vert ici, est essentiellement la partie systémique qui provient de l'exposition à des choses comme le momentum et la valeur.
+
+**11:20** [VISUEL: L'écran zoome sur le graphique en anneau "Risk decomposition".]
+Et le risque spécifique ici en bleu est essentiellement des éléments spécifiques aux actions qui n'ont rien à voir avec un facteur quelconque.
+
+**11:28** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+En ce moment, il montre 20.5% de facteur, environ 80% de spécifique. Et c'est ce que vous voulez techniquement et typiquement voir.
+
+**11:36** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ce que cela signifie, c'est que notre risque provient principalement de la sélection d'actions individuelles, et non d'un grand pari factoriel.
+
+**11:43** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et si c'était l'inverse, donc si ces deux étaient inversés, vous feriez essentiellement un pari à effet de levier sur un facteur spécifique.
+
+**11:50** [VISUEL: L'écran zoome sur la section "MARGINAL RISK CONTRIBUTORS".]
+Maintenant, en bas ici, nous avons les contributions au risque marginal. Cela vous indique quelles actions individuelles ajoutent le plus de risque à votre portefeuille.
+
+**11:58** [VISUEL: L'écran zoome sur la section "Factor exposure spread", "STRESS TESTS" et "60-day return correlation".]
+Ensuite, nous avons la répartition de l'exposition aux facteurs, les tests de stress pendant les périodes de forte baisse, et enfin les corrélations également.
+
+**12:06** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Cela vous montre à quel point toutes vos positions sont corrélées les unes aux autres. Donc, si vous êtes sur un tas de positions semi-conducteurs, c'est super corrélé, n'est-ce pas ?
+
+**12:14** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Si tout dans votre livre bouge ensemble, vous n'êtes pas réellement diversifié, et cela va complètement à l'encontre de la façon dont un fonds spéculatif fonctionnerait, d'une manière générale.
+
+**12:23** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Vous voulez éviter de faire un seul gros pari, donc ce système signale toute paire avec une corrélation supérieure à 0.85.
+
+**12:30** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant que nous avons couvert le risque, ce qui est plus important pour certaines personnes, évidemment, c'est la performance.
+
+**12:35** [VISUEL: L'onglet "IV PERFORMANCE" est sélectionné. Le tableau de bord affiche "Equity curve (rebased to 100)" avec une courbe violette pour "Portfolio" et une courbe pointillée grise pour "SPY". En dessous, "Monthly returns (%)" avec une grille de couleurs, et "Drawdown (%)" avec un graphique en ligne rouge.]
+Donc, sur cet onglet de performance, nous pouvons voir des choses comme notre courbe d'actions, à quel point nous surperformons le SPY dans notre portefeuille.
+
+**12:43** [VISUEL: L'écran zoome sur la section "Monthly returns (%)" et "Drawdown (%)".]
+Ensuite, nous avons une grille de rendements mensuels, qui est le format standard des fiches de performance institutionnelles. Un graphique de drawdown, et puis en bas ici, c'est l'attribution P&L.
+
+**12:53** [VISUEL: L'écran zoome sur la section "Daily P&L attribution (%)" avec des barres pour "Beta", "Sector", "Factor", "Alpha".]
+Maintenant, c'est quelque chose que les traders de détail ne verraient généralement jamais. Il décompose votre rendement quotidien en quatre composants.
+
+**13:00** [VISUEL: L'écran zoome sur la section "Daily P&L attribution (%)".]
+Tout d'abord, nous pouvons voir combien provient de l'exposition au marché, le bêta ici. Ensuite, nous pouvons voir combien provient de l'allocation sectorielle, combien provient de vos inclinaisons factorielles, et enfin l'alpha.
+
+**13:10** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+De cette façon, vous pouvez voir si vous générez réellement de l'alpha grâce à la sélection d'actions ou si vous suivez simplement le secteur.
+
+**13:15** [VISUEL: L'écran zoome sur la section "BEST CONTRIBUTORS", "WORST CONTRIBUTORS" et "Sector-relative performance - stock selection alpha (90d)".]
+Et juste pour double-cliquer là-dessus, une fois que nous passons les meilleurs et les pires contributeurs, nous pouvons réellement voir la performance relative au secteur.
+
+**13:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et c'est ainsi que nous pouvons voir si les actions que nous avons choisies étaient meilleures que la moyenne du secteur. Cela confirmerait essentiellement si nous choisissons réellement des gagnants ou si nous suivons simplement le marché.
+
+**13:31** [VISUEL: L'écran zoome sur la section "Turnover (30d)", "Annualized turnover", "Vs. budget", "Est. P&L (realized YTD)", "Avg estimated cost", "Avg actual slippage", "Model error", "Win/Loss analysis", "Claude weekly commentary".]
+Et puis nous avons quelques points de données finaux comme les analyses de rotation, montrant combien nous échangeons. Et quelques autres choses, y compris un commentaire hebdomadaire de Claude. Donc, à la fin de la semaine, vous pouvez simplement cliquer sur un bouton et demander à Claude de résumer votre performance hebdomadaire.
+
+**13:44** [VISUEL: L'onglet "V EXECUTION" est sélectionné. Le tableau de bord affiche "FILLED ORDERS (last 300)", "AVG SLIPPAGE", "TOTAL SLIPPAGE COST (300)", "OPEN ORDERS". En dessous, un tableau "RECENT TRADES - LAST 200".]
+Et maintenant, enfin, ici, nous avons la page d'exécution, que vous pouvez considérer comme votre propre vue de bureau de trading.
+
+**13:50** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, l'idée est que dans l'onglet de recherche, chaque fois que vous appuyez sur exécuter ou acheter, vous verrez la transaction récente apparaître ici, et elle sera également envoyée à votre courtier.
+
+**14:01** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Vous pouvez voir un journal de tout, y compris le ticker, le nombre d'actions, le prix limite, le prix de remplissage, le glissement en points de base. Et pour le côté court, il vérifie si chaque action est réellement disponible à la vente à découvert avant d'essayer de passer l'ordre.
+
+**14:12** [VISUEL: L'onglet "VI LETTER" est sélectionné. Le tableau de bord affiche une lettre intitulée "DAILY INVESTOR LETTER - May 01, 2026". Le texte est formaté comme une lettre d'investisseur.]
+Et puis nous avons notre dernière page ici, qui est la lettre, et vous pouvez la considérer comme plus pour le plaisir.
+
+**14:18** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est une lettre d'investisseur quotidienne écrite par Jarvis, dans le style d'une vraie lettre de LP. Elle parle de la performance du jour, des positions qui ont contribué, de l'apparence du risque, comme si vous communiquiez avec de vrais LP. Mais honnêtement, c'est très utile pour votre propre journal de trading, pour vous forcer à réfléchir à ce que vous avez fait, pourquoi vous avez gagné ou perdu de l'argent sur le marché ce jour-là.
+
+**14:39** [VISUEL: L'écran affiche une diapositive avec une liste de 7 couches : "87 REPORTING + DASHBOARD", "86 EXECUTION", "85 RISK MANAGEMENT", "84 PORTFOLIO CONSTRUCTION", "83 AI ANALYSIS", "82 SCORING ENGINE", "81 DATA INFRASTRUCTURE". L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, laissez-moi vous expliquer comment tout ce système est construit, car même si cela peut sembler complexe, ce n'est en fait que sept couches empilées les unes sur les autres.
+
+**14:47** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, chacune de ces couches sera construite par sept prompts différents, que je vais vous montrer, et chaque couche ou prompt dépendra essentiellement de celle qui la précède.
+
+**14:54** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, si vous voulez suivre les prompts, vous pouvez faire une pause à tout moment dans la vidéo, simplement faire une capture d'écran et l'envoyer à Claude, il vous donnera la version texte de mes prompts.
+
+**15:03** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Évidemment, mon objectif est d'essayer de rendre cela aussi accessible que possible.
+
+**15:08** [VISUEL: L'écran affiche la diapositive des 7 couches. Une flèche pointe vers le bas et un encadré "Link In Description" apparaît.]
+Mais si vous voulez aller plus loin, j'ai une communauté dans la description, qui est la plus grande communauté de trading IA en ce moment.
+
+**15:14** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Actuellement, tous nos membres actifs utilisent et testent Claude pour construire des bots de trading automatisés, des systèmes quantitatifs et simplement des cadres d'analyse.
+
+**15:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, à l'intérieur, j'ai des guides détaillés étape par étape sur tout, allant de l'analyse, de la révision des transactions, du backtesting des résultats, et même de la création de nouvelles stratégies.
+
+**15:31** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et tout est structuré de manière à ce que même si vous n'avez aucune connaissance technique ou compétence en codage, vous pourrez toujours suivre et construire de vrais systèmes de trading automatisés avec Claude, qui étaient tout simplement impossibles pour les traders de détail auparavant.
+
+**15:42** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Je crois vraiment que l'IA, et par extension Claude, sera la chose qui comblera enfin l'écart entre les traders et investisseurs de détail et les institutions.
+
+**15:52** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et si vous n'utilisez pas Claude, du moins quelque part dans votre processus ou cadre de trading, vous prendrez du retard par rapport aux personnes qui l'intègrent et l'implémentent réellement.
+
+**16:00** [VISUEL: L'écran affiche l'interface de Claude.ai. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, pour les prompts eux-mêmes, il y a essentiellement trois façons de construire tout ce projet.
+
+**16:05** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Tout d'abord, vous pouvez aller sur, vous savez, Claude.ai, qui est l'application web, et essentiellement taper chaque prompt un par un.
+
+**16:13** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Ensuite, avec chaque prompt, vous obtiendriez le fichier créé et les enchaîneriez vous-même à la fin.
+
+**16:17** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, c'est évidemment probablement la façon la plus simple de le faire, mais potentiellement la plus compliquée, car à la fin, vous devez essentiellement orchestrer tous les différents composants mobiles.
+
+**16:26** [VISUEL: L'écran affiche l'interface de Claude Cowork. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, une autre option que vous avez ici est Claude Cowork.
+
+**16:28** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+C'est essentiellement le même Claude, mais maintenant téléchargé sur votre bureau, de sorte que chaque fois qu'il crée des fichiers et des dossiers pour vous, ils sont automatiquement enregistrés sur votre ordinateur local.
+
+**16:37** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Cela facilitera grandement la tâche de Claude pour aller, faire des modifications et des changements à des fichiers, des fonctionnalités ou des composants spécifiques.
+
+**16:44** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Et de cette façon, vous aurez votre structure déjà organisée pour vous, le tout dans un seul projet.
+
+**16:48** [VISUEL: L'écran affiche l'interface de VS Code. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais à mon avis, la meilleure façon de construire tout ce projet est d'utiliser Claude Code, qui est l'agent de codage de Claude.
+
+**16:55** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, de cette façon, cet agent de code Claude devra vivre à l'intérieur d'un IDE comme VS Code ici, mais il pourra lire tous vos fichiers, faire toutes les modifications ou ajustements nécessaires, mettre à jour les fichiers, s'assurer que tout est correctement structuré.
+
+**17:08** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+De cette façon, il sera aussi simple que possible pour Claude d'entrer et de créer ce système de fonds spéculatifs robuste pour vous.
+
+**17:14** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Donc, pour utiliser réellement Claude Code, c'est un tout petit peu plus complexe que Claude ou Claude Cowork. Donc, ce que vous devez faire, c'est d'abord télécharger un IDE comme VS Code ici.
+
+**17:22** [VISUEL: L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Mais une fois que vous l'avez téléchargé, vous pouvez aller dans les extensions ici sur le menu de gauche, puis télécharger Claude Code.
+
+**17:28** [VISUEL: L'écran affiche la section des extensions de VS Code, montrant "Claude Code for VS Code".]
+Donc, une fois que vous l'avez téléchargé et activé, vous devriez voir Claude Code juste sur le menu de droite ici. Et avec cette fenêtre contextuelle, vous pourrez essentiellement saisir les prompts, et Claude Code ici vous aidera à créer l'ensemble du dossier pour vous. Donc, tous les fichiers nécessaires dont vous avez besoin et la logique associée à ces fichiers.
+
+**17:45** [VISUEL: L'écran affiche la diapositive des 7 couches. L'homme est incrusté dans un cercle sur la droite de l'écran.]
+Maintenant, revenons à notre diagramme. Passons maintenant en revue toutes les couches et les prompts.
+
+**17:49** [VISUEL: La couche "81 DATA INFRASTRUCTURE" est mise en évidence.]
+Donc, tout en bas, nous avons notre couche de base, qui est l'infrastructure de données. Maintenant, c'est là que nous allons nous connecter à cinq sources de données différentes pour obtenir toutes nos informations, et essentiellement présenter notre structure de projet.
+
+**18:00** [VISUEL: L'écran affiche la diapositive "L1 DATA INFRASTRUCTURE" avec le prompt "CLAUDE CODE PROMPT". Le prompt décrit la construction de la couche 1 d'un système de fonds spéculatifs, la structure du projet (data, analysis, risk, reporting, cache, config.yaml, .env, factors, portfolio, execution, dashboard, output, utils, .gitattributes, .gitignore, .devsample, requirements.txt, recover_bond.py, run_analysis.py, run_dashboard.py, run_execution.py, run_reporting.py, run_risk_check.py, run_scoring.py, utils.py, outline.py) et 5 sources de données (Universe, Market Data, SEC Filing Data, Institutional

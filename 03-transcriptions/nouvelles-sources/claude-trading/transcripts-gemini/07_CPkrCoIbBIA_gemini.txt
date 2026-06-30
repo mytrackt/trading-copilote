@@ -1,0 +1,211 @@
+[SOURCE_URL: https://youtu.be/CPkrCoIbBIA]
+[VIDEO_ID: CPkrCoIbBIA]
+[SUJET: claude-trading]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-30]
+---
+[VISUEL: Un homme asiatique est assis devant un microphone, gesticulant avec ses mains. Derrière lui, une étagère avec des livres et des objets décoratifs, et trois tableaux abstraits sur le mur blanc.]
+J'ai passé les deux dernières années à utiliser Claude pour construire des systèmes de trading, à la fois pour moi-même et pour mes clients. Donc, dans cette vidéo, je vais passer en revue tout ce que j'ai appris, afin que vous sachiez exactement ce que Claude fait réellement de bien.
+
+[VISUEL: Interface d'un système de trading nommé "JARVIS" avec un robot humanoïde pensif. Un champ de saisie affiche "Analyze options chain for $SNOW today". Des chiffres sont affichés en bas : "503 UNIVERSE", "107 LONG CAND.", "96 SHORT CAND.", "18 POSITIONS", "0 CROWDING", "49.7K INSIDER EVENTS", "235 CEO/CFO BUYS", "23 CLUSTER BUYS", "17.9 VIX", "7 EARNINGS YTD". L'homme clique sur le bouton "ASK JARVIS", le champ de saisie devient "Ask anything..." et un message "JARVIS is thinking... Running book_betas_dict()" apparaît.]
+Vous connaîtrez ses forces et ses faiblesses, et comment l'adopter correctement dans vos propres stratégies de trading. J'ai étudié les mathématiques et l'économie à l'UCLA et j'ai travaillé dans la banque d'investissement chez Raymond James pendant plus de trois ans.
+
+[VISUEL: Le logo "UCLA" apparaît à gauche de l'homme, puis le logo "RAYMOND JAMES" apparaît à droite.]
+Je peux donc aborder ce sujet avec une formation en finance quantitative.
+
+[VISUEL: L'homme gesticule à nouveau avec ses mains.]
+De cette façon, je peux passer en revue ce qui fonctionne réellement, ce qui ne fonctionne pas, les erreurs que tout le monde fait en utilisant Claude, et comment utiliser correctement Claude pour votre propre trading.
+
+[VISUEL: Écran noir avec un texte blanc : "Disclaimer: NO FINANCIAL ADVICE – The Information on this Channel is provided for education and informational purposes only, without any express or implied warranty of any kind, including warranties of accuracy, completeness, or fitness for any particular purpose. The Information contained in or provided from or through this website is not intended to be and does not constitute financial advice, investment advice, trading advice or any other advice. The Information on this website and provided from or through this website is general in nature and is not specific to you the User or anyone else. You should not make any decision, financial, investment, trading or otherwise, based on any of the information presented on this website without undertaking independent due diligence and consultation with a professional broker or financial advisory."]
+Et comme toujours, ce n'est pas un conseil financier et je ne garantis aucun profit dans cette vidéo. Je vous montre simplement comment tirer parti de Claude dans votre propre trading.
+
+[VISUEL: L'homme joint ses mains et regarde la caméra.]
+Maintenant, pour commencer, laissez-moi vous dire ceci :
+
+[VISUEL: Interface de Claude (Anthropic) avec un message "Good afternoon, AI Pathways". Un champ de saisie affiche "Whats a profitable trading". L'homme tape "strategy?".]
+[REGLE: Claude ne trouvera pas de stratégie de trading rentable en lui demandant simplement "Hé, quelle est une stratégie de trading rentable ?".]
+
+[VISUEL: L'homme gesticule avec ses mains.]
+[REGLE: Claude ne prédira pas non plus les prix pour vous, alors assurez-vous de vous sortir ça de la tête.] Pour commencer, vous devez comprendre les limites de ce que les modèles d'IA comme Claude peuvent réellement faire.
+
+[VISUEL: L'homme lève un doigt.]
+Et le concept le plus important ici est l'idée de systèmes déterministes versus non-déterministes.
+
+[VISUEL: Diagramme avec deux boîtes : "Deterministic" et "Non-Deterministic".]
+Ce sont les deux principales voies pour lesquelles vous pouvez utiliser Claude en trading.
+
+[VISUEL: Diagramme avec "Deterministic" pointant vers "Systems with fixed rules" et "Non-Deterministic" pointant vers "Systems with no fixed rules".]
+Déterministe signifie simplement des systèmes avec des règles fixes, tandis que les systèmes non-déterministes n'ont pas de règles fixes.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Claude peut faire les deux, mais il y a beaucoup plus de nuances à cela, alors laissez-moi vous expliquer les deux en détail.
+
+[VISUEL: Diagramme avec "Deterministic" pointant vers "Systems with fixed rules" et "Has logic that never changes".]
+Donc, pour commencer, un système déterministe a une logique qui ne change jamais.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Ce que cela signifie, c'est que si vous exécutez exactement le même système avec les mêmes données, encore et encore, vous obtiendrez toujours le même résultat. Et le cas d'utilisation principal ici est que nous pouvons utiliser Claude pour construire des systèmes déterministes pour nous.
+
+[VISUEL: Interface d'un bot de trading automatique avec des graphiques de prix (SPY), des indicateurs de régime de marché ("NEUTRAL", "BULL RUN (Trend)"), des statistiques de portefeuille, des contrôles de risque et un flux de signaux. L'homme regarde l'écran et gesticule. L'interface change pour montrer des graphiques de confiance de régime, une distribution de régime, une matrice de transition, des régimes appris, des contrôles de risque et un flux de signaux. L'interface change à nouveau pour montrer des résultats de backtest ("Illusion vs. Reality") avec des métriques de retour, Sharpe ratio, drawdown pour "Retail Backtest" et "Walk-Forward". Puis une interface "REGIME TERMINAL" pour la détection de régime de marché avec des signaux LONG/SHORT et des statistiques de performance.]
+Il peut s'agir d'un algo qui est essentiellement un bot de trading automatisé. Vous pouvez également avoir un moteur de signaux. Et une grande partie de ce que vous avez vu sur ma chaîne, que j'ai couvert, comme le backtesting walk-forward, les modèles de détection de régime, ce sont tous des systèmes déterministes.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Et parce que ces systèmes ont une logique fixe, cela signifie que nous pouvons backtester les résultats et voir comment ils ont réellement performé historiquement.
+
+[VISUEL: Code JavaScript est affiché sur un écran d'ordinateur. Le code inclut des fonctions pour animer un compteur et manipuler le HTML.]
+La clé ici est que Claude peut faire presque tout le codage technique nécessaire pour construire ces systèmes déterministes sans nécessiter une équipe entière de développeurs.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Et tout aussi important, sinon plus important, est que vous pouvez lancer de nouvelles stratégies en quelques heures et en tester plusieurs tout au long de la journée, chaque jour.
+
+[VISUEL: Diagramme avec "Non-Deterministic" pointant vers "Systems with no fixed rules" et "Used as an analyst or advisor".]
+Maintenant, les systèmes non-déterministes, d'autre part, sont davantage comme l'utilisation de Claude comme analyste ou conseiller, plutôt qu'un constructeur qui écrit du code pour vous.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Donc, au lieu d'écrire du code, c'est là que vous demanderiez à Claude de revoir une configuration de trade, d'analyser les rapports de résultats pour vous. Il peut même donner des opinions sur votre portefeuille ou même des idées de trading à long terme.
+
+[VISUEL: Interface de Claude (Anthropic) affichant une analyse d'options pour "NOK 820 call options analysis 2027". Le texte décrit des scénarios (bull case, base case, bear case) avec des probabilités, des prix cibles, des valeurs d'options et des P/E requis. Le texte est généré dynamiquement. Un message "Mapping the probability terrain" apparaît en bas.]
+Et vous pouvez faire tout cela dans l'application web de Claude, si vous allez simplement sur claude.ai et posez ces questions, ils pourront vous donner des résultats. Mais la différence clé ici, et ce qui est le plus important à comprendre, est que chaque fois que vous posez une question, la réponse sera légèrement différente. C'est juste à cause de la façon dont les LLM fonctionnent. Claude n'exécute pas une formule fixe dans un système déterministe.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Et c'est super important à savoir car ces résultats non-déterministes ne peuvent pas être backtestés. Il n'y a absolument aucun moyen de remonter six mois en arrière et de déterminer ce que Claude vous aurait dit si vous aviez demandé une idée de trade ou si vous lui aviez demandé de revoir un appel de résultats. Vous n'aurez jamais ce niveau de visibilité sur ce que Claude vous aurait donné comme réponse. Maintenant, cela ne signifie pas que les systèmes non-déterministes sont inutiles. Vous devez juste savoir comment combiner ou utiliser l'un ou l'autre en fonction de vos objectifs et de ce que vous voulez de ce système ou cadre de trading.
+
+[VISUEL: Titre "Deterministic Systems (In-Depth)".]
+Donc, en commençant par le côté déterministe, c'est là que Claude est le plus utile et le plus puissant pour les traders.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Vous pouvez utiliser le code de Claude pour construire des systèmes de trading entièrement automatisés.
+
+[VISUEL: Diagramme de flux pour un "Automatic Trading Bot" : "Scaffolding & Data Pipeline" -> "Modular python structure", "Build data ingestion", "Data cleaning & normalization". "Indicator Translation" -> "Convert indicators and convert to pure math", "T3 small/large/midband", "Fibonacci", "1:1 Dots", "Divergence Lines", "Background Color Logic". "Rule Engine & Signal Generation" -> "Rule 1: Momentum", "Rule 2: Clear Path", "Rule 3: Entry", "Trade management". "Backtesting Infrastructure".]
+Et avec la bonne structure, vous aurez quelque chose de basé sur des règles, backtestable et reproductible.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Et la chose clé qui différencie un bon système d'un mauvais système vient de quelques composants.
+
+[VISUEL: Diagramme avec "Deterministic" pointant vers "Specific Rules With No Ambiguity".]
+[REGLE: Premièrement, les règles doivent être suffisamment spécifiques pour qu'il n'y ait aucune ambiguïté.]
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Un système déterministe quantitatif aurait quelque chose comme "acheter lorsque le score de momentum sur 12 moins 1 mois est supérieur au 80e percentile dans son secteur".
+
+[VISUEL: Diagramme avec "Deterministic" pointant vers "Proper Validation".]
+[REGLE: Deuxièmement, vous avez besoin d'une validation appropriée, et c'est là que Claude se sépare vraiment de quelque chose comme TradingView.]
+
+[VISUEL: Interface de TradingView affichant un graphique de l'indice S&P 500, des indices majeurs (Nasdaq 100, Japan 225, SSE Composite, FTSE 100, DAX, CAC 40) et des données sur le marché des cryptomonnaies (Bitcoin, Ethereum, etc.).]
+TradingView peut backtester une stratégie RSI crossover très simple ou une stratégie de moyenne mobile.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Tout cela est bien pour des choses simples, mais dès que vous avez besoin de quelque chose d'un peu plus complexe et précis, cela s'effondre.
+
+[VISUEL: Interface d'une "Monte Carlo Simulation" avec des métriques de probabilité de perte, retour médian, drawdown, risque de surapprentissage. Un graphique montre la valeur du portefeuille sur 1000 chemins simulés. Ensuite, une interface de backtesting avec "Illusion vs. Reality" et des règles de stratégie (RSI, SMA).]
+Donc, des choses comme les validations walk-forward, les simulations Monte Carlo et les analyses de sensibilité, vous ne pouvez rien faire de tout cela dans TradingView.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Mais avec Claude, vous pouvez construire toutes ces couches de validation en lui faisant écrire le code Python pour vous. Et de cette façon, vous pouvez réellement tester votre stratégie avant de risquer le moindre argent. Je pense que c'est la plus grande partie où la plupart des gens se trompent, car les gens regardent généralement un backtest réussi sur TradingView et supposent que leur stratégie spécifique va fonctionner, alors que dans la plupart des cas, une fois que vous la mettez sur le marché réel, elle s'effondre complètement.
+
+[VISUEL: Interface d'un environnement de développement (VS Code) avec des fichiers Python et une console affichant des résultats d'analyse de régime. L'homme regarde l'écran et gesticule.]
+Et au-delà du simple backtesting, Claude peut construire des composants plus complexes que TradingView ne peut tout simplement pas.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Vous avez donc des systèmes au niveau du portefeuille avec une neutralité sectorielle, des ajustements bêta, une décomposition du risque factoriel, une optimisation moyenne-variance, une modélisation des coûts de transaction.
+
+[VISUEL: Interface d'un "Commodity & Mining Pairs Trading System" avec des indicateurs de régime de marché, des signaux d'entrée/sortie, des stop signals, et un historique de régime. L'homme regarde l'écran et gesticule.]
+Et encore une fois, tous ceux-ci ont des règles définies avec des données, de sorte que chaque fois que vous exécutez le système, la logique ne change jamais. Voici un exemple que j'ai réalisé pour l'un de mes clients. Il s'agit d'un système de paires co-intégrées que nous avons construit pour les matières premières. Les règles sont complètement déterministes. Il scanne les paires co-intégrées, surveille l'écart entre elles, entre lorsque le Z-score dépasse un seuil, puis sort lorsqu'il s'inverse. Chaque étape est définie, chaque étape est backtestable, et le système fonctionne de la même manière à chaque fois.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Donc, le but principal de ces systèmes déterministes est que vous pouvez vraiment valider votre idée avant de mettre de l'argent dans le système.
+
+[VISUEL: Titre "Non-Deterministic Systems (In-Depth)".]
+Maintenant, en passant au côté non-déterministe, c'est là que la plupart des gens se trompent avec Claude.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Donc, non-déterministe, c'est quand vous utilisez Claude davantage comme un analyste de recherche.
+
+[VISUEL: Un homme est assis devant plusieurs écrans d'ordinateur, regardant des données financières et des graphiques. Il pointe du doigt un écran avec des chiffres verts et rouges.]
+Vous lui demandez essentiellement de penser et d'interpréter et de produire, et chaque fois qu'il produit une réponse, le résultat sera toujours légèrement différent, car il raisonne à nouveau.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Maintenant, à cause de cela, comme je l'ai mentionné plus tôt, cela ne peut pas être backtesté du tout. Vous n'obtiendrez jamais de manière fiable le même résultat de Claude si vous lui posiez la même question. À cause de cela, vous ne devriez jamais construire votre stratégie de trading principale principalement sur ces résultats non-déterministes de Claude. Mais en tant qu'outil supplémentaire, il est extrêmement efficace.
+
+[VISUEL: Diagramme avec "Non-Deterministic" pointant vers "Give enough context!!!".]
+[REGLE: Si vous voulez utiliser Claude de la manière la plus simple pour des résultats non-déterministes, la chose la plus importante est de toujours donner suffisamment de contexte !!!]
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Cela inclut des choses comme votre style de trading, vos positions actuelles, votre thèse, votre horizon temporel et même votre tolérance au risque. Donc, plus vous êtes précis, meilleur sera le résultat.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Ce que je veux dire par là, c'est que si vous demandez simplement à Claude quoi acheter, il vous donnera des bêtises génériques.
+
+[VISUEL: Interface de Claude (Anthropic) affichant une analyse de portefeuille ("Diversifying tech momentum portfolio") avec des allocations sectorielles, des facteurs de risque (beta, sensibilité aux taux, IA narrative, exposition USD, chevauchement des revenus), et des "Diversification candidates" avec des noms de tickers et des descriptions. L'homme regarde l'écran et gesticule.]
+Mais si vous disiez que vous tradez le momentum sur les grandes capitalisations technologiques avec des périodes de détention de deux à trois semaines, et même si vous dites les positions spécifiques sur lesquelles vous êtes actuellement long et que vous vous inquiétez de la concentration sectorielle, maintenant Claude a du contexte et peut vous donner quelque chose d'utile.
+
+[VISUEL: Diagramme avec "Non-Deterministic" pointant vers "Give enough context!!!" et "Use as a reviewer, not a generator!".]
+[REGLE: À mon avis, la meilleure façon d'utiliser les résultats non-déterministes de Claude est comme un réviseur et non comme un générateur !] Je commencerais toujours par mes propres idées de trading, puis je demanderais à Claude de les examiner.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+De cette façon, vous pouvez voir quel est le scénario baissier, ce qui vous manque actuellement et quels risques vous sous-pondérez. Et c'est en fait ainsi que les meilleurs analystes des fonds se comportent. Ils testent constamment leur propre thèse.
+
+[VISUEL: Diagramme avec "Non-Deterministic" pointant vers "Give enough context!!!", "Use as a reviewer, not a generator!" et "Research at scale".]
+Une autre chose très utile de Claude non-déterministe est la recherche.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Parce que les LLM sont capables d'ingérer autant de données, vous pouvez alimenter Claude avec des transcriptions de résultats, des 10-Q, des 10-K et d'autres documents à grande échelle. Vous pouvez voir quelles entreprises ont la trajectoire de revenus la plus forte d'après le dernier lot de rapports. Et vous pouvez également signaler tout ce qui est préoccupant concernant les entreprises que vous examinez en fonction des facteurs de risque.
+
+[VISUEL: L'interface d'un "OPTIONS CHAIN ANALYZER" est affichée. L'homme regarde l'écran et gesticule.]
+Maintenant, voici un autre exemple d'un projet que j'ai réalisé. C'est là que vous pouvez demander à Claude d'analyser les chaînes d'options pour vous. Encore une fois, c'est non-déterministe, donc cela ne devrait pas faire partie de votre stratégie principale, mais Claude est capable de vous donner un jugement sur les strikes qui semblent intéressants, basé sur le rang de volatilité implicite, le skew, le delta, les catalyseurs à venir. Et c'est un bon moyen de scanner rapidement une chaîne et d'obtenir un deuxième avis sur ce qui ressort.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Et enfin, la dernière chose que je veux aborder entre le déterministe et le non-déterministe est le prix.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Donc, lorsque vous construisez des systèmes déterministes, vous pouvez utiliser des choses comme le code de Claude, qui est essentiellement l'agent de codage de Claude. Et avec cela, tout ce dont vous avez vraiment besoin est un abonnement mensuel à Claude. Il n'y a pas de coût continu une fois que le système déterministe est construit. Mais dans ces mêmes systèmes, si vous voulez ajouter des résultats non-déterministes de Claude, cela coûtera par utilisation. Donc, chaque fois que vous voulez que Claude analyse de manière non-déterministe un trade pour vous ou des rapports, cela coûtera quelques centimes à chaque fois.
+
+[VISUEL: Titre "Where Claude Fails".]
+Maintenant, passons en revue les points où Claude échoue en mode non-déterministe.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+[REGLE: Premièrement, et c'est le plus important, ne demandez jamais à Claude des prédictions de prix.]
+
+[VISUEL: Diagramme avec "Where Claude Fails" pointant vers "Don't ask for price predictions".]
+Il ne peut absolument pas prédire les prix.
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Et il vous donnera en fait une réponse assez confiante, mais je l'éviterais car elle sera complètement aléatoire. Et ensuite, que vous utilisiez l'application web de Claude ou que vous ajoutiez une version non-déterministe de Claude à votre système,
+
+[VISUEL: Diagramme avec "Where Claude Fails" pointant vers "Don't ask for price predictions" et "Don't send images of charts".]
+[REGLE: n'envoyez jamais une image d'un graphique et ne demandez pas à Claude de l'analyser pour vous.]
+
+[VISUEL: L'homme gesticule avec ses mains.]
+L'analyse d'images pour les modèles de trading n'est toujours pas fiable. Par exemple, il pourrait vous dire qu'il y a un modèle tête-épaules alors qu'il n'y en a pas. Il est beaucoup plus facile d'intégrer des indicateurs techniques comme celui-ci dans les systèmes déterministes, car encore une fois, c'est une logique fixe et reproductible.
+
+[VISUEL: Diagramme avec "Where Claude Fails" pointant vers "Don't ask for price predictions", "Don't send images of charts" et "Have your own thesis first".]
+[REGLE: Et enfin, ne prenez pas les conseils de trading de Claude sans avoir d'abord votre propre thèse.]
+
+[VISUEL: L'homme gesticule avec ses mains.]
+Claude générera des idées de trading plausibles toute la journée, mais la plupart d'entre elles seront génériques. Donc, votre propre compréhension du marché, combinée à l'analyse non-déterministe de Claude, c'est là que ce système va vraiment briller.
+
+[VISUEL: Titre "Combining Deterministic & Non-Deterministic Systems".]
+Maintenant, laissez-moi vous montrer un exemple réel de la façon de combiner les résultats déterministes et non-déterministes en un seul système.
+
+[VISUEL: L'homme gesticule avec ses mains. Un texte "Link In Description" avec une flèche rouge apparaît en bas à droite.]
+Et avant de commencer, si vous voulez apprendre exactement comment construire ces systèmes déterministes et non-déterministes avec Claude, n'hésitez pas à consulter ma communauté dans la description. C'est actuellement la plus grande communauté de trading axée entièrement sur l'IA. Donc, tous nos membres testent et construisent des systèmes de trading IA sur toutes les classes d'actifs : actions, options, crypto et même futures. Et si vous avez déjà une idée de ce que vous voulez construire, j'offre également des constructions personnalisées individuelles dans la description sur mon site web.
+
+[VISUEL: Interface d'un "MACRO DEPLOYMENT GATE" (Layer 1) avec un score de déploiement (60), une posture ("REDUCED", "Deploy at 60% of normal sizing"). Des signaux macro sont listés avec leurs scores (VIX Level, VIX Term Structure, Market Breadth, Credit Spreads, Put/Call Sentiment, Factor Crowding). Un graphique SPY - Zone Overlay est affiché en bas avec des zones colorées (vert, rouge, marron). L'homme regarde l'écran et gesticule.]
+Ici, ce que j'ai est un système de trading à trois couches, avec les deux premières couches entièrement déterministes, donc toujours la même logique. Et enfin, nous avons la troisième couche où Claude agira essentiellement comme un analyste en plus. Donc, la première couche ici est une porte de déploiement macro. Donc, avant même de regarder les actions individuelles, le système vérifie six signaux macro pour décider si vous devriez trader activement en ce moment. Premièrement, il tire le niveau VIX, et c'est là qu'il se situe dans la fourchette d'un an. La structure de terme VIX ici vous indique si le marché des options est calme ou stressé. L'ampleur du marché ici est le pourcentage d'actions du S&P 500 qui sont au-dessus de leurs moyennes mobiles sur 200 jours. Les spreads de crédit entre les bons du Trésor à haut rendement. Le sentiment put-call, et enfin le crowding factor. Donc, chacun d'eux est noté entre 0 et 100, puis mélangé en un seul score de déploiement. Donc, tout cela signifie que si ce score composite ici est supérieur à 70, cela signifie un déploiement complet. De 40 à 70, cela signifie que vous réduiriez votre taille, donc ici nous avons environ 60 % de la taille normale. Et si le score macro global était inférieur à 40, nous ne prendrions aucun trade. Et encore une fois, tout cela est complètement déterministe, mêmes données en entrée, mêmes données en sortie. C'est essentiellement Claude qui écrit du code pour nous ici. Donc, avec tous ces scores, la façon dont nous lisons cela est que la structure de terme VIX est de 99,9, ce qui est assez calme. Les spreads de crédit sont d'environ 79, ce qui est sain. Mais le crowding factor est d'environ 10, ce qui tire un peu le tout vers le bas. Fondamentalement, la corrélation entre le momentum et les rendements des facteurs de valeur est de -0,69. Donc, il y a juste un certain risque qui se construit sous l'ensemble du système. Et c'est pourquoi, même si le VIX est bas, le crédit est bon, mais la structure des facteurs est un peu suspecte, nous n'avons pas un déploiement complet et nous ne déploierons qu'à 60 % de la taille normale. Ensuite, en faisant défiler, nous pouvons voir un overlay historique sur le graphique SPY, caractérisé par des zones au fil du temps. Donc, ces zones vertes ici sont celles où vous déploieriez généralement plus de capital, et les zones rouges sont évidemment celles où vous ne devriez pas trader du tout. Donc, encore une fois, c'est la première couche déterministe.
+
+[VISUEL: L'interface "STOCK SCANNER" (Layer 2) est affichée. L'homme regarde l'écran et gesticule.]
+Et si nous allons sur le scanner, cela nous donne essentiellement la deuxième couche déterministe. Tout ce que la première couche nous a dit, c'est que le marché est correct, nous devrions toujours déployer à environ 60 % de ce que nous ferions normalement, et ce sont les principaux candidats individuels que nous devrions déployer. Et rappelez-vous encore, parce que c'est déterministe, tout est quantitatif, n'est-ce pas ? Il n'y a pas de subjectivité ici ou d'opinion. Nous regardons simplement les chiffres, puis, en fonction du marché, nous déterminons quels tickers sont les mieux adaptés à cet environnement.
+
+[VISUEL: L'interface "COMBINED RANKING: QUANT + CLAUDE ANALYST" (Layer 3) est affichée. Un tableau liste les tickers avec "QUANT" score, "CLAUDE" score (e.g., 8/10), "BLENDED" score, "RANK Δ", "QUANT RANK", et "TXN long/short". L'homme regarde l'écran et gesticule.]
+Maintenant, tout cela est bien beau, mais la façon dont nous combinerions réellement les systèmes est que, une fois que nous avons essentiellement filtré le marché, filtré les tickers qui semblent bons, uniquement sur la base de facteurs quantitatifs, nous ferions alors appel à Claude en tant qu'analyste qui va essentiellement passer en revue ces tickers et nous dire ce qu'il en pense réellement. Donc, ici, le système va prendre chacun des six candidats. Nous envoyons les quatre derniers trimestres de données financières à Claude via l'API, donc ils ont les revenus, les flux de trésorerie, les marges, la dette, l'équité, le ratio CFO/NI, la croissance des revenus, toute l'image en fait. Et ensuite, Claude note chacun d'eux de 0 à 10 sur la qualité fondamentale. Maintenant, comme je l'ai mentionné précédemment, ce n'est pas backtestable, n'est-ce pas ? Vous ne saurez pas ce que Claude penserait de ces tickers dans une semaine ou même cinq jours avant, n'est-ce pas ? Donc, chaque fois que vous exécutez cela, vous obtiendrez des réponses légèrement différentes. Mais parce que nous alimentons toutes les données financières à Claude, nous pouvons au moins espérer qu'il prend une décision équilibrée basée sur tout le contexte qu'il a. Et encore une fois, comme je l'ai mentionné au début de la vidéo, cette partie coûte des tokens à chaque fois que vous l'exécutez. Maintenant, parce que la porte macro et le scanner sont tous deux axés sur les chiffres, c'est juste du code, n'est-ce pas ? Vous n'avez pas besoin de les exécuter via Claude. Mais une fois que vous allez à l'analyste, chaque fois que vous cliquez sur "Exécuter l'analyse", cela coûtera quelques centimes juste parce qu'il prend toutes les données, puis vous renvoie quelque chose. Nous pouvons donc d'abord voir le score quantitatif, qui encore une fois est basé sur ces deux facteurs déterministes. Mais ensuite, nous pouvons également voir un score de Claude pour obtenir un score mélangé qui vous donne peut-être une image plus holistique de ce que les tickers pourraient être une meilleure entrée. Donc, certains tickers comme TXN pourraient être classés plus bas sur le modèle quantitatif, mais une fois que vous ajoutez plus de connaissances fondamentales, donnez les rapports réels, demandez à Claude de les analyser, ils pourraient augmenter dans le classement. Et comme je l'ai mentionné plus tôt, je ne ferais jamais aveuglément confiance à Claude, n'est-ce pas ? Nous voudrions soit une combinaison, soit que cela agisse comme un outil supplémentaire. Et c'est exactement ce que nous faisons. Donc, nous ne prenons pas seulement le score de Claude et disons "oh, c'est le candidat parfait". Nous regarderions le score quantitatif et le score de Claude, nous les mélangerions ensemble, et vous pouvez même choisir le poids à donner au score réel de Claude, car encore une fois, c'est assez subjectif, et vous comptez sur son intelligence pour vous donner un score. Et si nous faisions défiler, nous connaîtrions également les candidats dans lesquels nous ne devrions jamais vraiment entrer, ce qui est Ford. C'est juste parce qu'il a obtenu le score le plus bas sur les modèles quantitatifs, mais aussi Claude lui a donné un 4 sur 10. Donc, vous pouvez essentiellement utiliser ces deux analyses pour obtenir un score plus composite qui reflète à la fois la nature quantitative et qualitative.
+
+[VISUEL: Texte du prompt pour "MACRO DEPLOYMENT GATE". Il décrit les 6 signaux macro, leurs règles de scoring, le calcul du score composite, les zones de déploiement, et la demande de backtest historique. Le texte est en anglais. L'homme regarde l'écran et gesticule.]
+Maintenant, laissez-moi vous montrer les prompts réels que j'ai utilisés pour construire exactement le même système, afin que vous puissiez faire de même. Maintenant, une chose que je veux souligner est que si vous prenez ces prompts exacts ici et que vous les exécutez via Claude vous-même ou le code de Claude, le code réel qu'il écrit et compile pour vous sera légèrement différent du mien. Donc, cela signifie que peut-être il structure la fonction différemment, utilise une approche légèrement différente pour le même calcul. Mais une fois que ce code est écrit, sauvegardé et débogué, le système fonctionnera de manière déterministe. Donc, vous pouvez le voir comme ça : nous utilisons un outil non-déterministe, qui est Claude ou le code de Claude, pour construire un système déterministe. Et à cause de cela, le système que nous construisons sera légèrement différent à chaque fois que vous le construirez, juste parce que Claude lui-même est non-déterministe. Donc, c'est le premier prompt pour la porte de déploiement. Fondamentalement, il dit simplement au code de Claude de tirer six signaux macro de Yahoo Finance, de noter chacun d'eux de 0 à 100, basé sur des règles spécifiques que j'ai conçues. Nous voulons les mélanger en un composite avec ces poids, puis définir la zone de déploiement en fonction du score. Il vous dit également de construire un backtest historique afin que vous puissiez voir comment la porte aurait performé au cours des deux dernières années.
+
+[VISUEL: Texte du prompt pour "QUANTITATIVE SCANNER". Il décrit la construction d'un scanner de stock quantitatif qui s'active avec le macro gate, scanne l'univers S&P 500, et classe par score multi-facteurs. Les 5 facteurs sont listés avec leurs règles de scoring (Momentum Crossover, Volume Surge, Relative Strength vs SPY, 52-Week High Proximity, Short Interest Decline). Le texte est en anglais. L'homme regarde l'écran et gesticule.]
+Et si vous voulez faire une pause et faire une capture d'écran, vous pouvez le copier directement dans, encore une fois, Claude ou le code de Claude et construire exactement le même système. Maintenant, en passant à la couche deux, ici nous avons le scanner. Donc, cela dira à Claude ou au code de Claude de tirer l'ensemble de l'univers S&P 500, de noter chaque action sur cinq facteurs, et de ne montrer que les candidats au-dessus d'un certain seuil, en fonction de ce que dit la porte macro.
+
+[VISUEL: Texte du prompt pour "CLAUDE ANALYST". Il décrit la construction d'une couche d'API Claude qui score chaque candidat du scanner sur la qualité fondamentale (couche non-déterministe). Il détaille l'utilisation de l'API Anthropic, les données financières à collecter, le prompt système pour Claude, le scoring (1-10) sur divers aspects financiers, la mise en cache des résultats, et le mélange des scores (60% quantitatif, 40% Claude) pour un re-classement. Le texte est en anglais. L'homme regarde l'écran et gesticule.]
+Et enfin, nous avons la couche trois, qui est l'analyste non-déterministe de Claude. C'est le prompt qui dira essentiellement au système de prendre chaque candidat, de recueillir leurs quatre derniers trimestres de données financières, de les envoyer à Claude via l'API, et de demander à Claude de les noter de 1 à 10 sur la qualité des bénéfices, la croissance, la santé du bilan, les marges, les drapeaux rouges. Ensuite, ce que nous allons faire, c'est mélanger ce score avec le score quantitatif sur une répartition 60/40 et donner un nouveau classement. Maintenant, si vous avez aimé cette vidéo, assurez-vous de laisser un like, un commentaire et de vous abonner, car cela aide la chaîne. Je crée des vidéos hebdomadaires entièrement axées sur l'utilisation de l'IA pour le trading. Et comme je l'ai mentionné plus tôt, si vous voulez aller plus loin, ma communauté est dans la description. Tous nos membres actifs utilisent Claude pour construire tout, des bots de trading entièrement autonomes aux cadres et systèmes quantitatifs, en passant par des systèmes d'analyse comme ceux-ci, où ils demandent à Claude de donner une analyse qualitative sur des tickers, des configurations ou des systèmes spécifiques. J'ai des guides étape par étape pour tout cela, et ils sont conçus de manière à ce que même si vous n'avez aucune expérience ou connaissance en codage, vous puissiez suivre et construire de vrais systèmes de trading qui n'étaient tout simplement pas possibles pour les traders particuliers auparavant. Je crois vraiment que l'IA sera la chose qui comblera l'écart entre les traders particuliers et les institutions. Et si vous ne l'utilisez pas, au moins quelque part dans votre processus, vous allez certainement prendre du retard par rapport aux personnes qui l'implémentent d'une manière ou d'une autre.
+
+[VISUEL: Écran de fin avec "THANKS FOR WATCHING", un bouton "SUBSCRIBE", et des vignettes pour d'autres vidéos.]

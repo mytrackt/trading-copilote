@@ -1,0 +1,29 @@
+[SOURCE_URL: https://youtu.be/y_bsjZThP0o]
+[VIDEO_ID: y_bsjZThP0o]
+[SUJET: claude-trading]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-30]
+---
+[VISUEL: L'intervenant, un jeune homme asiatique, est assis devant un microphone, gesticulant avec ses mains. Derrière lui, une étagère avec des livres et une casquette de baseball "LA". Sur le mur blanc, trois tableaux abstraits de paysages montagneux.]
+AUDIO: Dans la vidéo d'aujourd'hui, je vais vous montrer comment construire un bot de trading entièrement automatisé à partir de zéro, en utilisant Claude Code.
+
+[VISUEL: Un tableau de bord de trading sombre s'affiche. En haut, "AUTOMATIC TRADING BOT" avec des indicateurs "HMM REGIME DETECTION", "ALPACA EXECUTION", "WALK-FORWARD VALIDATED". Des cartes affichent "DETECTED REGIME: NEUTRAL", "PORTFOLIO VALUE: $100,005.86", "BUYING POWER: $199,82...", "HMM REGIMES: 5", "MARKET: CLOSED", "POSITIONS: 1". Un graphique de prix (chandeliers verts et rouges) pour SPY est visible, avec une ligne pointillée (moyenne mobile) et des zones colorées en arrière-plan. Le tableau de bord défile pour montrer plus de graphiques (volume, confiance du régime, distribution du régime, matrice de transition) et des tableaux (régimes HMM appris, contrôles de risque, flux de signaux). En bas, des tickers boursiers (SPY, QQQ, AAPL, MSFT, NVDA) avec leurs prix et variations.]
+AUDIO: Il va d'abord détecter le type de marché dans lequel nous nous trouvons, ajuster automatiquement l'allocation de votre portefeuille et même placer de vrais trades pour vous.
+
+[VISUEL: L'intervenant gesticule à nouveau. Puis, un écran de trading avec plusieurs graphiques (Apple, Netflix, Bitcoin, Coca-Cola) s'affiche, montrant divers indicateurs techniques comme le RSI, les bandes de Bollinger, etc.]
+AUDIO: Nous n'allons pas construire un bot d'indicateurs basique qui achète simplement lorsque le RSI dépasse 30, comme ce que vous verriez typiquement sur TradingView.
+
+[VISUEL: L'intervenant gesticule. Puis, un écran de l'interface d'Alpaca (courtier) s'affiche, montrant un portefeuille de trading papier avec des soldes, des positions (NVDA) et des ordres récents (SPY). Des clés API sont visibles en bas à droite.]
+AUDIO: Au lieu de cela, nous allons construire un système réel qui se connecte d'abord à un vrai courtier afin que vous puissiez placer des trades automatiquement. Deuxièmement, il gérera vos risques avec des coupe-circuits. Et enfin, il pourra même s'adapter automatiquement aux conditions changeantes du marché.
+
+[VISUEL: Un diagramme de flux simple s'affiche avec des boîtes "Brain", "Allocation", "Safety", "Broker", "Dashboard" connectées par des flèches. Chaque boîte a des points clés listés en dessous.]
+AUDIO: Et nous allons faire cela sans écrire une seule ligne de code nous-mêmes.
+
+[VISUEL: Le tableau de bord "Regime Trader" s'affiche, montrant "Mode: PAPER", "Equity: $99,999.61", "Cash: $99,999.61", "Market: CLOSED". La détection de régime est "BEAR" avec 100% de confiance. Des indicateurs de risque sont également présents. L'intervenant gesticule.]
+AUDIO: Si vous avez vu mes vidéos précédentes, j'aborde les concepts liés à l'utilisation des modèles de Markov cachés et des moteurs de backtesting en marche avant. Aujourd'hui, nous allons pousser ces mêmes concepts un peu plus loin. Nous allons prendre exactement les mêmes calculs, mais maintenant les connecter à un vrai courtier, afin que nous puissions avoir un bot qui gère réellement notre portefeuille pour nous. Alors assurez-vous de rester jusqu'à la fin de la vidéo, car je vais vous montrer comment construire ce système exact étape par étape, même si vous n'avez aucune connaissance technique ou si vous n'avez jamais codé auparavant.
+
+[VISUEL: Un écran noir avec un texte de disclaimer en blanc : "Disclaimer: NO FINANCIAL ADVICE – The Information on this Channel is provided for education and informational purposes only, without any express or implied warranty of any kind, including warranties of accuracy, completeness, or fitness for any particular purpose. The Information contained in or provided from or through this website is not intended to be and does not constitute financial advice, investment advice, trading advice or any other advice. The Information on this website and provided from or through this website is general in nature and is not specific to you the User or anyone else. You should not make any decision, financial, investment, trading or otherwise, based on any of the information presented on this website without undertaking independent due diligence and consultation with a professional broker or financial advisory." L'intervenant gesticule.]
+AUDIO: Et juste un avertissement, je ne suis pas un conseiller financier et ce n'est pas un conseil financier. Je ne garantis aucun profit dans cette vidéo. Tout ce que je fais, c'est vous montrer les concepts sur la façon de construire un cadre de trading systémique pour vous aider à devenir un trader plus discipliné. Le trading implique un risque réel et il vous appartient de gérer, valider et tester de manière approfondie votre propre stratégie.
+
+[VISUEL: Le tableau de bord "AUTOMATIC TRADING BOT" s'affiche. L'intervenant pointe du doigt les différentes sections.]
+AUDIO: Voici à quoi ressemble notre tableau de bord de bot de trading automatique une fois terminé et ce que nous construirons à la fin de cette vidéo. En haut, nous pouvons d'abord voir le régime détecté, qui est actuellement neutre. Cela nous indique essentiellement à quel point le marché est actuellement volatil et comment nous devrions le classer. Et en dessous, nous avons même un score de confiance. Et à droite de

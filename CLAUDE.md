@@ -9,8 +9,9 @@
 2. Lire `00-pilotage\DECISIONS_VEROUILLEES.md` (toutes les règles verrouillées)
 3. Lire le fichier le plus récent dans `00-pilotage\_context\` (état de la dernière session)
 4. Lire `00-pilotage\DETTE_TECHNIQUE.md` (bugs connus avant tout dev)
-5. Annoncer : "📍 État : [résumé 1 ligne] — Prochaine action : [action]"
-6. Attendre confirmation avant toute exécution
+5. Lire `00-pilotage\CLAUDE_CAPABILITIES_TRADING.md` (nouvelles capacités Claude pour TRADEX)
+6. Annoncer : "📍 État : [résumé 1 ligne] — Prochaine action : [action]"
+7. Attendre confirmation avant toute exécution
 
 ---
 
@@ -37,7 +38,9 @@ NT8 JSON (2s) → Python Engine → 3/4+2/3 filtre → Claude API → Signal 15 
 | `00-pilotage\GARDE_FOUS.md` | 42 garde-fous trading | Avant tout signal ou ordre |
 | `00-pilotage\DETTE_TECHNIQUE.md` | Bugs connus | TOUJOURS en démarrage |
 | `00-pilotage\_context\[dernier].md` | État de la dernière session | TOUJOURS en démarrage |
-| `04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json` | 1313+ règles Belkhayate | Pour le cerveau IA |
+| `04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json` | 4142+ règles Belkhayate | Pour le cerveau IA |
+| `00-pilotage\CLAUDE_CAPABILITIES_TRADING.md` | Capacités Claude applicables à TRADEX | **TOUJOURS en démarrage** — mise à jour de Claude |
+| `04-cerveau-trading\KB_CLAUDE_CAPABILITIES.json` | KB structurée des capacités Claude | Avant tout développement moteur IA |
 
 ---
 

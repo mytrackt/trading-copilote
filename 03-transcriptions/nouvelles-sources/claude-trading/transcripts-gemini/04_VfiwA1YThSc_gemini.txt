@@ -1,0 +1,237 @@
+[SOURCE_URL: https://youtu.be/VfiwA1YThSc]
+[VIDEO_ID: VfiwA1YThSc]
+[SUJET: claude-trading]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-30]
+---
+Bonjour à tous, dans la vidéo d'aujourd'hui, je vais vous montrer comment j'ai construit un agent de trading IA auto-apprenant en utilisant Hermes, qui est fondamentalement l'un des agents IA les plus puissants du marché actuellement.
+
+[VISUEL: Interface du terminal Hermes-Agent. Le titre "HERMES-AGENT" est affiché en haut. En dessous, "Hermes Agent v0.15.1 (2026.5.29) - upstream 904c0b47". Sur la gauche, un symbole de caducée. Une section "Available Tools" liste : browser_back, browser_click, browser_cop, browser_dialog, clarify, execute_code, computer_use, cronjob, delegate_task, discord, et "and 21 more toolsets...". Une section "Available Skills" liste : autonomous-ai-agents, claude-code, codex, hermes-agent, kanban-codex, creation, architecture-diagram, ascii-art, ascii-video, data-science, jupyter-live-kernel, devops, kanban-orchestrator, kanban-worker, webhook-sub, email, himalaya, finance, equity-trading-assistant, market-monitoring-alerts, gaming, minecraft-modpack-server, pokemon-player, general, dogfood, yuanbao, github, codebase-inspection, github-auth, github-code-r, mcp, native-mcp, media, gif-search, heartmula, songsee, spotify, youtube, mlops, audiocraft-audio-generation, dspy, evaluating, note-taking, obsidian, productivity, airtable, google-workspace, linear, maps, name, red-teaming, godmode, research, arxiv, blogwatcher, llm-wiki, polymarket, resea, smart-home, openhue, social-media, xurl, software-development, debugging-hermes-tui-commands, hermes-agent-ski. En bas, "30 tools, 85 skills - /help for commands". "▲ 1 commit behind - run docker pull nousresearch/hermes-agent:latest to update". "Welcome to Hermes Agent! Type your message or /help for commands.". L'intervenant est incrusté dans le coin inférieur droit de l'écran.]
+
+Nous pouvons utiliser Hermes pour agir comme notre analyste IA 24h/24 et 7j/7 qui peut surveiller les marchés et notre propre portefeuille pour nous. Il peut rechercher des configurations de trading et même envoyer des signaux, des alertes et des suggestions de trading directement sur mon téléphone.
+
+[VISUEL: Site web "HERMES AGENT". Le titre "THE AGENT THAT GROWS WITH YOU." est affiché. Le texte "Not a coding copilot tethered to an IDE or a chatbot wrapper around a single API. An autonomous agent that lives on your server, remembers what it learns, and gets more capable the longer it runs." est visible. En dessous, des instructions d'installation pour macOS/Linux et Windows.]
+
+Et parce que nous utilisons Hermes, il dispose en fait d'une boucle d'auto-amélioration avec une mémoire persistante. Cela signifie qu'il peut réellement se souvenir de choses comme votre portefeuille, vos styles de trading, vos stratégies et vos positions.
+
+[VISUEL: Site web Hostinger. Le titre "What you can build with Hermes Agent" est affiché. Le texte "Hermes Agent is a self-improving AI agent built by Nous Research that creates skills from experience and refines them during use. Unlike static AI assistants, it connects simultaneously to Telegram, Discord, Slack, WhatsApp, Signal, with support for OpenRouter, OpenAI, Anthropic, and custom LLM endpoints. Self-hosting Hermes Agent on your VPS keeps all API keys, conversation history, and business context on your own infrastructure, with dedicated resources for web browsing, code execution, and multi-agent workflows that run without external throttling." est visible. Le terme "self-improving AI agent" est surligné.]
+
+Donc, il va prendre toutes ces informations à travers chaque conversation et les améliorer au fil du temps en développant des compétences. Cela signifie que plus vous utilisez Hermes et l'agent de trading, meilleur il devient.
+
+[VISUEL: Dashboard de trading. Des métriques sont affichées : "UNIVERSE SIZE 503", "LONG CANDIDATES 107", "SHORT CANDIDATES 96", "HIGHEST-DISPERSION FACTOR quality", "CROWDING WARNINGS 0". Un "PORTFOLIO OPTIMIZER" avec "MVO" et "conviction". Une "Factor scoring heatmap" avec des facteurs comme Momentum, Value, Quality, Growth, Revisions, Short Interest.]
+
+Maintenant, c'est énorme, car sur la chaîne, j'ai presque toujours couvert soit Claude Code, soit Claude dans son ensemble. Mais maintenant, avec Hermes, j'ai pratiquement mon propre employé de trading IA. Je peux donc me réveiller le matin, consulter mon téléphone, voir les trades qu'il a trouvés pour moi ou toute recherche que je lui ai demandée de faire.
+
+[VISUEL: Interface Telegram. Conversation avec "hermestest20934u239bot". L'utilisateur demande "give me swing entries for NVDA and MU" et "What are the best cash-secured put strikes right now?". Le bot répond avec des messages "1/3 Market brief", "2/3 Swing trade ideas", "3/3 Wheel strategy candidates". Le "Market brief" inclut VIX, SPY, QQQ, SMH, 10Y yield, et une "Read-through". Les "Swing trade ideas" listent des actions comme ORCL, SNOW, MU, NVDA, LRCX, DELL avec des analyses, des points d'entrée/sortie, des cibles et des stances. Les "Wheel strategy candidates" listent NVDA, LRCX, DELL, MU, ORCL, SNOW avec des raisons et des zones de put/call couvertes. Des "Execution rule" sont également fournies.]
+
+Je peux approuver des trades sans même ouvrir mon ordinateur portable. Et tout au long de la journée, je peux discuter avec Hermes comme si c'était mon propre employé. J'ai donc ce qui est essentiellement un analyste de trading sur mon téléphone à tout moment.
+
+Dans cette vidéo, je vais vous montrer exactement comment Hermes fonctionne, des exemples de la façon de l'utiliser, et comment le configurer vous-même, car c'est super facile de commencer.
+
+[VISUEL: Page GitHub "nousresearch/hermes-agent". Structure des dossiers du projet. Informations sur la licence MIT, les déploiements (Docker, GitHub Pages, PyPI), les langages (Python, TypeScript, Shell).]
+
+C'est un framework open-source, donc il est entièrement gratuit à utiliser une fois que vous y connectez votre LLM. Vous avez vraiment juste besoin de votre propre ordinateur local dédié ou d'un VPS de Hostinger, et d'une plateforme de messagerie comme Telegram, Discord, ou même iMessage. Et une fois que nous l'avons configuré, vous avez pratiquement cet assistant avec lequel vous pouvez parler, plutôt que d'utiliser Claude ou Claude Code pour écrire ces scripts Python complexes.
+
+[VISUEL: Écran noir avec le texte "Disclaimer: NO FINANCIAL ADVICE – The Information on this Channel is provided for education and informational purposes only, without any express or implied warranty of any kind, including warranties of accuracy, completeness, or fitness for any particular purpose. The Information contained in or provided from or through this website is not intended to be and does not constitute financial advice, investment advice, trading advice or any other advice. You should not make any decision, financial, investment, trading or otherwise, based on any of the information presented on this website without undertaking independent due diligence and consultation with a professional broker or financial advisory.".]
+
+Et comme toujours, cette vidéo est à des fins éducatives uniquement. Je ne garantis aucun profit dans cette vidéo, car chacun utiliserait Hermes différemment.
+
+[VISUEL: Interface du terminal Hermes-Agent. Le titre "HERMES-AGENT" est affiché en haut. En dessous, "Hermes Agent v0.15.1 (2026.5.29) - upstream 904c0b47". Sur la gauche, un symbole de caducée. Une section "Available Tools" liste : browser_back, browser_click, browser_cop, browser_dialog, clarify, execute_code, computer_use, cronjob, delegate_task, discord, et "and 21 more toolsets...". Une section "Available Skills" liste : autonomous-ai-agents, claude-code, codex, hermes-agent, kanban-codex, creation, architecture-diagram, ascii-art, ascii-video, data-science, jupyter-live-kernel, devops, kanban-orchestrator, kanban-worker, webhook-sub, email, himalaya, finance, equity-trading-assistant, market-monitoring-alerts, gaming, minecraft-modpack-server, pokemon-player, general, dogfood, yuanbao, github, codebase-inspection, github-auth, github-code-r, mcp, native-mcp, media, gif-search, heartmula, songsee, spotify, youtube, mlops, audiocraft-audio-generation, dspy, evaluating, note-taking, obsidian, productivity, airtable, google-workspace, linear, maps, name, red-teaming, godmode, research, arxiv, blogwatcher, llm-wiki, polymarket, resea, smart-home, openhue, social-media, xurl, software-development, debugging-hermes-tui-commands, hermes-agent-ski. En bas, "30 tools, 85 skills - /help for commands". "▲ 1 commit behind - run docker pull nousresearch/hermes-agent:latest to update". "Welcome to Hermes Agent! Type your message or /help for commands.". L'intervenant est incrusté dans le coin inférieur droit de l'écran.]
+
+C'est un agent super simple à utiliser une fois qu'il est configuré. Et ici, à l'écran, vous pouvez voir tous les outils et compétences disponibles qu'il peut réellement faire pour vous. Pour commencer avec les outils, nous pouvons voir qu'il est capable de naviguer sur le web pour nous, d'exécuter du code, de prendre le contrôle de votre ordinateur également. Les tâches cron sont ce que vous pouvez utiliser pour automatiser certaines tâches, donc cela va être super utile. Vous pouvez littéralement aller sur Telegram, envoyer un message à l'agent Hermes, ne jamais regarder de code du tout. Tout ce que vous avez à faire est de connecter l'agent Hermes à Claude, ChatGPT ou un autre fournisseur d'IA, et vous êtes pratiquement prêt à partir.
+
+Donc, avec un langage simple, vous pouvez dire à votre agent votre portefeuille, vos styles de trading, les stratégies que vous utilisez ou que vous voulez tester. Vous pouvez surveiller certains secteurs comme les semi-conducteurs, et vous pouvez également automatiser les actions avec les tâches cron pour qu'elles s'exécutent tous les jours, toutes les heures, toutes les minutes. Maintenant, l'avantage ici d'utiliser un agent Hermes, plutôt que de simplement taper dans Claude ou d'utiliser Claude Code, est que tout vit pratiquement à l'intérieur de vos messages.
+
+[VISUEL: Interface Telegram. Conversation avec "hermestest20934u239bot". L'utilisateur dit "Hey I want you to be my personal trading assistant. I'm a quant trader running a long short equity strategy on the S&P 500. I focus on momentum, earnings quality, and insider activity. My current portfolio is about 200K. My current longs are NVDA, INCY, MSFT. I size positions at 1-3% of portfolio. I never enter new positions if VIX is above 30 and I reduce sizing to 60% when VIX is between 20-30. Save all of this to your memory.". Le bot répond "memory: "User is a quant trader ru..." Saved. Yes - I have web access and can look up current market data, filings, news, earnings calendars, insider transactions, analyst updates, VIX levels, and related information. I can also help screen names, size positions using your rules, monitor your current longs, and summarize relevant catalysts/risk signals.". L'utilisateur demande "what did servicenow close at yesterday". Le bot exécute du code Python et répond "ServiceNow closed at $124.37 yesterday, Friday, May 29, 2026. Source checked: Yahoo Finance daily chart data.". L'utilisateur ajoute "From now on whenever I ask about any stock always include current IV rank and any insider transactions from the last 90 days. Save this as a preference". Le bot répond "memory: "User: When user asks about any..." Saved. Going forward, when you ask about any stock, I'll include: - Current IV rank - Insider transactions from the last 90 days.".]
+
+Cela signifie que lorsque vous discutez avec cet agent Hermes, il va pratiquement tout apprendre sur vous, comment vous tradez, ce que vous aimez qu'il fasse. Il enregistre toutes ces informations dans sa mémoire persistante et il crée même des fichiers de compétences autour de toutes ces questions que vous lui posez et de toutes ces choses que vous voulez qu'il surveille. De cette façon, plus vous utilisez cet agent de trading, mieux il apprend et s'adapte spécifiquement à vous.
+
+[VISUEL: L'intervenant est incrusté dans le coin inférieur droit de l'interface Hermes-Agent.]
+
+Vous avez les avantages de construire des systèmes automatisés que vous feriez typiquement dans Claude Code, ce sont donc les systèmes plus robustes et complexes que vous auriez Claude Code générer du code pour vous. Mais il est aussi super facile de discuter avec lui, de lui faire faire des choses pour vous, d'exécuter des déclencheurs et de configurer des alertes automatisées. Vous n'avez pas besoin de prompts super détaillés avec un débogage sans fin dans un IDE. Hermes va simplement créer des fichiers pour vous, des compétences pour vous, rechercher sur le web pour vous et faire des choses automatiquement pour vous.
+
+[VISUEL: Interface Telegram. L'intervenant est incrusté dans le coin inférieur droit de l'interface Telegram.]
+
+Donc, pour donner un exemple, je vais juste dire "bonjour Hermes". C'est ainsi que nous le réveillons, que nous commençons à lui parler. Et puis à chaque fois, comme je l'ai dit, quand vous discutez avec Hermes, il va se souvenir de tout ce dont vous avez parlé avant, de vos portefeuilles, de vos styles de trading, des choses comme ça.
+
+[VISUEL: Interface Telegram. L'utilisateur tape "hello hermes". Le bot répond "hi Brendan - I'm here. How can I help?".]
+
+Donc, comme premier exemple, je vais simplement lui demander de me donner un briefing matinal à partir de vendredi, quand les marchés étaient ouverts pour la dernière fois. Et comme nous pouvons le voir, il est en train de taper, de réfléchir, et va pratiquement nous donner une réponse sur tout ce que nous avons demandé. Il va pouvoir parcourir ses compétences qu'il a construites pour nous. Et encore une fois, c'est spécifique à vous, car il en apprend de plus en plus sur vous et sur la façon dont vous aimez converser et utiliser.
+
+[VISUEL: Interface Telegram. L'utilisateur tape "can you give me a morning briefing as of Friday May 29". Le bot est en train de taper. Puis il affiche "skill_view: "equity-trading-assistant" skill_view: "daily-equity-factor-refresh"".]
+
+Et ici, nous pouvons voir notre briefing de marché qui est adapté spécifiquement à nous. Maintenant, Hermes a le contexte que j'aime regarder les régimes de marché, spécifiquement le VIX, pour voir comment le macro-marché se porte.
+
+[VISUEL: Interface Telegram. Le bot répond avec un "Market regime" (VIX, SPY, QQQ, SMH, 10Y yield), une "Read-on", "Current long equities" (NVDA, INCY, MSFT avec prix, momentum, IV rank, insider activity, brief), "Call-option underlyings" (NOK, NOW, SONY, ORCL avec prix, momentum, IV rank, insider activity, brief), "Positioning takeaway" (Macro gate, Best current momentum, Cleanest current equity hold, Most vulnerable long, Options risk, Insider read), "Sizing reference if adding equities" (avec exemples de taille de position pour un portefeuille de 200K), et "Approximate share counts".]
+
+Et puis il parcourt notre portefeuille. Donc encore une fois, il a le contexte parce que j'ai déjà discuté avec Hermes, mais si c'est la première fois que vous l'utilisez, vous lui donneriez évidemment ce que vous tradez actuellement, ce que vous détenez actuellement. Et puis il va vous donner un résumé de vos positions longues actuelles. Donc ici, nous avons Nvidia, Microsoft, et puis nous avons aussi nos calls que nous détenons, donc Nokia, ServiceNow, Sony, Oracle, des choses de ce genre. Et de cette façon, vous aurez des conseils de Hermes basés sur toutes ces informations, les préférences de taille, et puis les comptes de parts approximatifs, tout ce dont vous auriez vraiment besoin dans un briefing matinal.
+
+Maintenant, c'est là que Hermes devient super utile, c'est grâce aux tâches cron ou aux tâches automatisées. Donc, plutôt que de demander, vous savez, à l'agent Hermes tous les jours un briefing matinal, ce que nous pouvons faire, c'est configurer des tâches cron, qui sont essentiellement des tâches planifiées qui s'exécutent.
+
+[VISUEL: Interface Telegram. L'utilisateur tape "set up a cron job for this specific morning briefing every day". Le bot répond "skill_view: "hermes-agent" cronjob: "create"". Puis "Done - I set up the daily cron job. - Name: Daily morning equity briefing - Job ID: 3f3a37cdbd0a - Schedule: 8 13 * * * - every day at 13:00 UTC, which is 6:00 AM Pacific during daylight time - Next run: 2026-06-01 13:00 UTC - Delivery: back to this Telegram chat - Included skills: equity-trading-assistant, daily-equity-factor-refresh. It will generate the same style of briefing daily, including VIX regime, SPY/QQQ tape, your current longs, call-option underlyings, IV rank, 90-day insider activity, and sizing rules.".]
+
+Donc, pour notre premier exemple, si nous voulions juste ce briefing matinal tous les jours, nous pouvons dire "configurer une tâche cron pour ce briefing matinal spécifique tous les jours". Encore une fois, nous n'avons pas besoin de faire de prompt complexe, littéralement juste lui taper comme si c'était votre employé, et puis il va aller de l'avant et configurer cela, regarder ses compétences et s'assurer que vous recevez ce message dans votre boîte de réception ou via vos messages tous les jours. Et super, maintenant nous avons des briefings quotidiens sur les actions tous les jours. Donc encore une fois, cela vous sera envoyé directement sur Telegram. Et puis parce qu'il y a une mémoire persistante, vous pouvez poser des questions sur n'importe quel message que vous lui avez envoyé.
+
+[VISUEL: Interface Telegram. L'utilisateur demande "how is the insider activity in nokia for the past 5 days". Le bot répond avec "Nokia insider activity - past 5 days" incluant le prix NDK, IV rank, VIX regime, et des détails sur les transactions des managers (dates, nature, venue, shares, price, approx. value). Il agrège les lectures et donne un "Signal constructive".]
+
+Donc, si nous sommes curieux, vous savez, des lectures d'initiés sur des positions spécifiques que nous détenons, nous pouvons littéralement taper "comment est l'activité des initiés chez Nokia pour les 5 derniers jours". Et puis il va aller de l'avant, rechercher sur le web, parcourir tous les dépôts, regarder les documents et puis vous renvoyer toutes ces informations proprement. Donc ici, nous avons toute l'activité des initiés à partir des 5 derniers jours. Donc, il a en fait parcouru, vous savez, les dépôts de formulaires sur Internet, les documents également. Donc, nous avons les informations strictes des 5 derniers jours calendaires. Donc, il semble que nous ayons des transactions d'initiés d'un cadre supérieur le 26 mai. Si nous faisons défiler vers le bas, nous avons également un deuxième dépôt, un autre cadre supérieur. Nous sommes donc en mesure de voir pratiquement, vous savez, toutes les informations que nous pourrions jamais vouloir en termes de recherche sur des positions spécifiques que nous détenons.
+
+[VISUEL: Interface Telegram. L'utilisateur tape "scan for new long opportunities based on todays data". Le bot répond avec "Long-opportunity scan - latest available "today" data" incluant le momentum, le prix au-dessus des moyennes mobiles, le VIX gate, et une "Read-on". Il liste ensuite une "Best actionable watchlist" avec PANW, DDOG, VRT, incluant prix, momentum, IV rank, insider activity, bull/bear case, catalyseurs, et sizing. Il donne aussi une liste "Avoid chasing today" avec DELL, CRWD.]
+
+Et maintenant, juste pour vous donner d'autres exemples, si vous vouliez des idées de trading réelles, vous lui donneriez évidemment vos stratégies et styles de trading que vous préférez. En supposant qu'il connaisse tout ce contexte sur vous, vous pouvez simplement poser des questions super simples comme "rechercher de nouvelles opportunités longues basées sur les données d'aujourd'hui". Donc, après avoir scanné l'univers, il nous a pratiquement donné une liste de choix basés sur, vous savez, nos stratégies spécifiques et ce que nous aimons. Donc, d'abord, nous avons la porte macro pour nous assurer que le macro-marché correspond à notre thèse avant même de commencer. Et puis nous avons des choix spécifiques comme Palo Alto Networks. Nous avons, vous savez, les transactions d'initiés, le momentum, le rang IV.
+
+[VISUEL: Interface Telegram. L'utilisateur dit "I like the DDOG set up. Run pre trade checks and execute if it passes". Le bot répond "DDOG pre-trade checks" avec des informations sur le prix, le mouvement du jour, le VIX, le momentum, la qualité du setup, l'IV rank, l'activité des insiders, le contrôle des gains/catalyseurs, et un "Pass/fail verdict". Il propose un "Suggested trade ticket" pour un portefeuille de 200K, incluant la taille de départ, les actions, le prix notionnel, le type d'ordre, et des suggestions pour éviter de chasser le prix.]
+
+Et puis il nous donne des chiffres IV parce qu'il sait que nous tradons des options sur ce compte. Donc, nous avons des choses comme les scénarios haussiers, les scénarios baissiers, tous les catalyseurs à venir. Et puis si vous faites défiler vers le bas, encore une fois, Datadog, nous avons Dell également. Et puis, comme cerise sur le gâteau, nous avons le plus attractif pour une nouvelle position longue et les choses à éviter de chasser juste parce que Dell est un peu sur-étendu après, vous savez, l'action des prix de vendredi dernier. Donc, si nous voulons aller un peu plus loin, nous pouvons dire que nous aimons la configuration de Datadog et exécuter des vérifications pré-trading et exécuter si cela passe. Et maintenant, ce que nous avons, ce sont les vérifications pré-trading. Évidemment, aujourd'hui c'est dimanche, donc nous n'avons pas de données de marché en direct. Il prend les informations de vendredi dernier, mais nous avons le prix actuel, le mouvement du jour, le VIX, et puis aussi le momentum, en s'assurant que cela passe. Encore une fois, tout cela est basé sur le contexte que nous avons fourni auparavant. Nous avons l'activité des initiés, vous savez, tous les catalyseurs à venir. Et puis nous avons aussi un ticket de trading suggéré. Donc, basé sur notre portefeuille de 200K, nous avons la taille de départ, les actions, le prix approximatif, et puis si nous voulions, nous pourrions aussi ajouter des stop-loss et des points de sortie libres, tout ce que vous voudriez ou dont vous auriez potentiellement besoin.
+
+[VISUEL: L'intervenant est incrusté dans le coin inférieur droit de l'interface Hermes-Agent.]
+
+Donc, comme vous pouvez le voir, Hermes est super puissant. Le ciel est pratiquement la limite quant à la façon dont vous voulez l'utiliser. Vous pouvez simplement le faire vous aider à rechercher, vous savez, automatiser les briefings matinaux pour vous. C'est donc un rôle plus passif, je dirais. Ou vous pouvez aller jusqu'au bout et faire en sorte que Hermes agisse pratiquement comme votre véritable analyste de trading, en supposant que vous lui donniez tous vos paramètres, votre tolérance au risque, des choses de ce genre. De cette façon, il pourra travailler avec vous. Et vous n'avez pas à vous soucier de construire un système extrêmement robuste dans un IDE que vous feriez avec Claude Code.
+
+[VISUEL: L'intervenant est incrusté dans le coin inférieur droit de l'interface Hermes-Agent. Un texte "Link In Description" avec une flèche rouge apparaît sur l'écran.]
+
+Maintenant, avant de vous montrer comment configurer l'agent Hermes vous-même, si vous voulez apprendre à construire des systèmes de trading complexes avec des agents IA comme Hermes, Claude Code, ou tout autre nouvel outil IA, assurez-vous de cliquer sur le lien dans la description pour ma communauté scolaire. C'est actuellement la plus grande communauté de trading axée sur l'IA avec des guides détaillés et des centaines de membres qui construisent actuellement des systèmes de trading IA sur les actions, la crypto, les options et toute autre classe d'actifs. Et si vous avez déjà une idée des systèmes de trading spécifiques que vous voulez construire, j'offre un travail de conseil personnalisé sur mon site web dans la description à aipathways.io.
+
+[VISUEL: Schéma "Hermes Agent". Bloc "Features" avec "Persistent Memory", "Built in scheduler", "Self learning loop".]
+
+Donc, maintenant que vous savez comment Hermes fonctionne dans un contexte de trading, laissez-moi maintenant passer en revue les deux principaux composants pour réellement le configurer. Maintenant, pour commencer, nous avons les fonctionnalités de Hermes, qui est lui-même le framework d'agent IA open-source gratuit, construit par Nous Research. Les principales choses qui le rendent super utile pour nous pour le trading sont la mémoire persistante. Il va se souvenir de tout ce que vous discutez, sur des jours, des semaines et des mois.
+
+[VISUEL: Schéma "Hermes Agent". Bloc "Features" avec "Persistent Memory", "Built in scheduler", "Self learning loop". Le texte "Persistent Memory" est surligné.]
+
+[REGLE: La mémoire persistante permet à l'agent de se souvenir de toutes les conversations, styles de trading, stratégies et positions sur de longues périodes.]
+
+En dehors de la mémoire persistante, il a également le planificateur intégré. C'est donc là qu'il peut réellement, vous savez, automatiser pour vous. Tant que vous lui dites que vous voulez que certaines choses soient envoyées ou faites tous les jours ou toutes les heures, il est capable de configurer ces tâches cron. Et enfin, il y a la boucle d'auto-apprentissage où il construit réellement de nouvelles compétences basées sur toutes les choses que vous lui faites faire et il s'améliore au fil du temps. C'est là que Hermes brille vraiment, car il est capable de s'auto-apprendre, de comprendre ce que vous aimez et de devenir meilleur au fil du temps.
+
+[VISUEL: Schéma "Hermes Agent". Bloc "AI Connection" avec "Chat GPT codex subscription", "Claude", "Any other LLM".]
+
+Pour ajouter la connexion IA à Hermes, vous pouvez utiliser l'une des trois options. Donc, vous avez d'abord l'abonnement Chat GPT Codex. C'est donc juste l'abonnement Chat GPT régulier, qui coûte environ 20 $ par mois, pour obtenir beaucoup d'utilisation de Hermes sans payer par message. Maintenant, si vous n'avez pas de compte Chat GPT ou si vous ne voulez pas l'utiliser, vous pouvez également utiliser Claude, qui sera un tout petit peu plus puissant. Et si vous avez d'autres préférences, vous pouvez utiliser OpenRouter ou tout autre LLM directement via l'API également.
+
+[VISUEL: Schéma "Hermes Agent". Bloc "Messaging Platform" avec "Telegram", "Discord", "Slack".]
+
+Maintenant, une fois que vous avez la connexion IA, qui est pratiquement l'intelligence, tout configuré, vous auriez alors la plateforme de messagerie. C'est donc là que vous pouvez vous connecter à Telegram, Discord, Slack, pratiquement n'importe quelle plateforme de messagerie. De cette façon, vous pouvez interagir avec elle sur votre téléphone, depuis votre ordinateur, pratiquement n'importe où. Et ce sera la principale méthode de communication et la façon dont vous conversez avec votre agent Hermes et comment il vous répond.
+
+[VISUEL: Schéma "Hermes Agent". Bloc "How To Run" avec "Local Computer", "VPS".]
+
+Passons maintenant à la façon d'exécuter Hermes, car tout cela est assez simple. Mais lorsque vous voulez exécuter Hermes, vous avez pratiquement deux options principales. La première est un ordinateur local et la seconde est un VPS. Mais je recommanderais fortement d'utiliser un VPS ici, car vous n'aurez pas besoin d'un Mac dédié ouvert et fonctionnant 24h/24 et 7j/7, comme vous voyez les gens faire avec les Mac Mini. Cela devient assez cher si vous voulez acheter votre propre ordinateur juste pour exécuter Hermes. Mais avec un VPS, il peut fonctionner, vous savez, indépendamment de ce que fait votre ordinateur. Vous n'avez pas besoin d'un deuxième. Et c'est particulièrement important pour le trading, car vous aurez l'agent IA exécutant des fichiers de pipeline planifiés, vous savez, tous les soirs, vous avez des alertes qui se déclenchent pendant les heures de marché. L'agent est toujours disponible sur Telegram, donc rien ne dépend vraiment de l'ouverture de votre ordinateur portable.
+
+[VISUEL: Schéma "Hermes Agent". Bloc "Data Privacy" avec "All your API Keys", "Broker Credentials", "Portfolio Data", "Conversation History".]
+
+Et puis, que vous utilisiez votre ordinateur local ou un VPS comme Hostinger, vous aurez, vous savez, la confidentialité des données. Donc, toutes vos clés API, vos identifiants de courtier, les données de portefeuille.
+
+[VISUEL: Schéma "Hermes Agent". Bloc "Multiple Agents Running At Once".]
+
+Et juste comme dernière petite information, vous pouvez en fait exécuter plusieurs agents à la fois. Donc, si vous voulez, vous pouvez configurer, vous savez, cinq agents Hermes et ils font tous quelque chose de différent. Dans mon exemple, je n'avais qu'un seul agent principal, mais je trouve que Hermes fonctionne mieux si vous avez les moyens de séparer vos tâches spécifiques. Donc, vous pouvez avoir un agent de trading Hermes, un agent de recherche Hermes. Un autre peut être juste comme un agent de briefing matinal. Donc, théoriquement, vous pouvez avoir comme cinq employés qui travaillent pour vous et qui font tous des tâches de trading différentes.
+
+[VISUEL: Page Hostinger. Titre "Deploy Hermes Agent in one click installation.". Prix "$6.49/mo".]
+
+Passons maintenant à la façon de configurer l'agent Hermes. La meilleure façon de le faire et la plus simple est d'utiliser Hostinger, car ils ont un déploiement en un clic, ce qui rend la configuration super simple. Donc, ce que vous voudriez faire, c'est aller sur le lien dans la description pour hostinger.com/aipathways pour être dirigé directement vers cette page où vous pouvez déployer l'agent Hermes en un clic.
+
+[VISUEL: Page Hostinger. Plans VPS KVM 1 ($6.49/mo), KVM 2 ($8.99/mo), KVM 4 ($12.99/mo), KVM 8 ($25.99/mo). KVM 2 est "MOST POPULAR" avec 2 vCPU cores, 8 GB RAM, 100 GB NVMe disk space, 8 TB bandwidth.]
+
+Ensuite, ce que vous devrez faire, c'est choisir un plan. Donc, si vous faites défiler vers le bas, vous pouvez voir que nous avons KVM 1, 2, 4 et 8. Maintenant, je recommanderais probablement KVM 2, en fonction, vous savez, de votre propre utilisation. Ceux-ci ont différentes RAM, cœurs de CPU et bande passante. Mais j'ai trouvé que KVM 2 fonctionne parfaitement, même si vous exécutez, vous savez, quelques agents Hermes qui font tous des choses différentes. Cela devrait avoir la bande passante nécessaire pour prendre en charge pratiquement toutes les tâches dont vous auriez besoin. Alors, allez-y et cliquez sur "Choose plan".
+
+[VISUEL: Page Hostinger. Panier avec "KVM 2 plan". Période sélectionnée "24 months" puis "12 months". Champ "Have a coupon code?". L'utilisateur tape "AIPATHWAYS" et clique "Apply". Le total passe de "$119.88" à "$107.89".]
+
+Et sur cette page ici, ce que vous devrez d'abord faire, c'est choisir la période. C'est donc la durée pendant laquelle vous voulez utiliser votre VPS. Il y a 1 mois, 12 mois et 24 mois. Maintenant, 12 et 24 mois ont la meilleure valeur, donc je recommanderais probablement l'un de ces deux. De cette façon, votre serveur VPS fonctionnera pratiquement toute l'année, surtout si vous savez que vous allez utiliser cet agent Hermes assez régulièrement. Et l'autre avantage d'utiliser un plan de 12 ou 24 mois est que j'ai un code promo pour 10 % de réduction. Donc, si vous tapez simplement "AIPATHWAYS" et cliquez sur "Apply", vous aurez pratiquement 10 % de réduction sur votre VPS Hostinger, et il fonctionnera pratiquement toute l'année.
+
+[VISUEL: Page Hostinger. Formulaire "Hermes Agent configuration". Champs "ADMIN_USERNAME" (pré-rempli "hermes"), "ADMIN_PASSWORD" (masqué, puis révélé), "Nexus API Key" (vide). Bouton "Deploy". Puis écran "Setting up your VPS" avec une barre de progression.]
+
+Ensuite, ce que vous devrez faire, c'est simplement cliquer sur "Continue" et ensuite créer un compte et enregistrer toutes vos informations. Ensuite, après avoir effectué la configuration, il vous mènera automatiquement à la configuration de l'agent Hermes, où il créera le modèle pour vous. Il vous donnera le nom d'utilisateur admin, qui est toujours le même, "hermes". Mais assurez-vous de sauvegarder ce mot de passe ici, car c'est ainsi que vous vous connecterez réellement à votre terminal Hermes. Vous pouvez donc cliquer sur "Show" et ensuite copier-coller cela quelque part sur votre ordinateur. Ensuite, après cela, cliquez simplement sur "Deploy" et il configurera tout pour vous. Donc, d'abord, il va configurer votre VPS, ce qui prendra environ 5 minutes, et ensuite configurer automatiquement Hermes également.
+
+[VISUEL: Page Hostinger. Fenêtre pop-up "Tell us more about your VPS needs". Questions sur l'expérience avec VPS. Bouton "Skip". Puis "Docker Manager" avec "hermes-agent-opti" et "traefik" en statut "Created" puis "Running".]
+
+Ensuite, il va simplement vous poser quelques questions sur vos besoins en VPS. Si c'est la première fois que vous gérez un VPS. Si vous êtes expérimenté, je sauterais probablement cette étape, mais si vous voulez en savoir plus sur la gestion d'un VPS, ce que vous pouvez utiliser Hostinger pour, en dehors de Hermes, comme vous pouvez également l'utiliser pour héberger, vous savez, un NNN, des applications web, des choses de ce genre, alors vous pouvez cliquer là-dedans. Mais je vais sauter tout cela puisque nous sommes ici pour Hermes. Et encore une fois, parce que vous avez utilisé le lien hostinger.com/aipathways, il va automatiquement créer ce projet Hermes pour vous. Vous n'avez rien à faire. Tout ce que vous avez à faire est de vous asseoir et d'attendre que votre projet soit déployé.
+
+[VISUEL: Page Hostinger. "Docker Manager" avec "hermes-agent-opti" en statut "Running". L'utilisateur clique sur "Catalog", cherche "hermes", sélectionne "Hermes Agent" et voit le formulaire de configuration.]
+
+Maintenant, après environ 10 minutes, vous devriez voir cet agent Hermes en cours d'exécution, ce qui signifie que vous pouvez maintenant l'ouvrir, vous connecter et pratiquement configurer et installer votre agent Hermes vous-même. Mais si vous ne voyez pas cet agent Hermes configuré automatiquement pour vous, vous pouvez également le trouver dans le catalogue. Alors, allez-y et cliquez sur "Catalog", trouvez le modèle Hermes, sélectionnez-le, et maintenant vous pouvez cliquer sur "Deploy" avec le nouveau mot de passe. Et c'est également utile si, pour une raison quelconque, vous avez oublié votre mot de passe pour vous connecter au premier que vous avez créé. Mais encore une fois, si vous utilisez mon lien, cela devrait automatiquement tout configurer pour vous. C'est là que vous le trouveriez si vous aviez besoin de créer un deuxième agent Hermes ou si vous avez perdu votre mot de passe ou si vous ne l'avez jamais eu au départ.
+
+[VISUEL: Page de connexion "Sign in" pour "hermes-agent.sapi.usv720948.hostinger.cloud". L'utilisateur entre "hermes" et le mot de passe, puis clique "Sign in".]
+
+En revenant ici, ce que vous devez faire maintenant, c'est ouvrir l'agent Hermes. De cette façon, vous pouvez commencer à le configurer. Maintenant, pour le nom d'utilisateur, tapez simplement "hermes", et pour le mot de passe, encore une fois, c'est celui que vous avez copié-collé lorsque nous avons initialement configuré Hostinger. Alors, allez-y et cliquez sur "Sign in", et vous devriez être redirigé vers le terminal. Juste une seconde.
+
+[VISUEL: Terminal. Question "How would you like to set up Hermes?". Options "(1) Quick setup - provider, model & messaging (recommended)" et "(2) Full setup - configure everything". L'utilisateur sélectionne "(1)".]
+
+Et maintenant, vous pouvez faire une configuration rapide ou une configuration complète pour tout configurer. Maintenant, parce que nous utilisons notre Hermes pour le trading, vous n'avez pas besoin de faire une configuration complète pour presque tout, sauf si vous voulez aller en profondeur. Alors, allez-y et cliquez sur "Quick setup", tapez "Enter".
+
+[VISUEL: Terminal. "Select provider". Liste des fournisseurs d'IA. L'utilisateur sélectionne "OpenAI Codex". Puis instructions pour se connecter à OpenAI Codex via un URL et un code.]
+
+Ensuite, il va vous demander quel fournisseur d'IA vous voulez connecter. Maintenant, comme je l'ai mentionné plus tôt, je recommanderais OpenAI Codex, juste parce que vous pouvez utiliser votre abonnement mensuel. Ce n'est pas basé sur l'API, donc tant que, vous savez, cela correspond à votre plan, alors vous n'avez rien à payer en plus. Donc ici, je vais juste aller de l'avant, cliquer sur "Enter" sur OpenAI Codex. Et puis ce que vous devez faire, c'est ouvrir cette URL dans votre navigateur.
+
+[VISUEL: Terminal. "Login successful!". "Select default model". Options "gpt-3.5-5.5", "gpt-3.5-4-mini", "gpt-3.5-codex", "gpt-3.5-spark", "Enter custom model name", "Skip (keep current)". L'utilisateur sélectionne "gpt-3.5-5.5".]
+
+Ensuite, après avoir collé ce code ici, il devrait indiquer "Login successful", et c'est là que vous pouvez sélectionner votre modèle par défaut. Maintenant, c'est le modèle qui sera pratiquement connecté à votre agent Hermes. Donc, si vous voulez utiliser GPT-3.5-5.5, qui est le plus puissant, vous pouvez le sélectionner. Sachez simplement que vous atteindrez les limites d'utilisation un peu plus rapidement si vous utilisez 5.5 par rapport à quelque chose comme 5.4. Mais je vais juste faire 5.5 pour le dernier et le meilleur.
+
+[VISUEL: Terminal. "Select terminal backend". Options "Local", "Docker", "SSH", "Daytona", "Singularity/Apptainer", "Keep current (local)". L'utilisateur sélectionne "Keep current (local)".]
+
+Ensuite, pour le backend du terminal, nous allons juste garder cela exactement le même, donc "Keep current local".
+
+[VISUEL: Terminal. "Connect a messaging platform? (Telegram, Discord, etc.)". Options "(1) Set up messaging now (recommended)" et "(2) Skip - set up later with 'hermes setup gateway'". L'utilisateur sélectionne "(1)".]
+
+Ensuite, il va vous demander de configurer la messagerie. C'est donc là que vous allez configurer soit Telegram, Discord, iMessage ou toute autre chose. Alors, allez-y et cliquez sur "Set up".
+
+[VISUEL: Terminal. "Select platforms to configure". Liste de plateformes de messagerie. L'utilisateur sélectionne "Telegram".]
+
+Et puis, pour les plateformes à configurer, vous pouvez voir toutes les différentes façons dont vous pouvez pratiquement vous connecter à Hermes. Mais je vais juste utiliser Telegram ici et vous montrer comment le configurer. Alors, cliquez sur "Espace" sur Telegram, puis cliquez sur "Entrée".
+
+[VISUEL: Terminal. "Create a bot via @BotFather on Telegram". Instructions pour créer un bot via @BotFather sur Telegram et obtenir un token.]
+
+Ensuite, nous pouvons voir ici que nous devons créer un bot via @BotFather sur Telegram. C'est donc super simple. Ce que vous devez faire, c'est aller sur Telegram.
+
+[VISUEL: Interface Telegram. L'utilisateur est sur le chat "BotFather", tape "/newbot", nomme le bot "hermestest20934u239bot", et obtient le token.]
+
+Ensuite, sur Telegram, ce que vous voulez faire, c'est rechercher "BotFather". Une fois que vous êtes sur le chat BotFather, cliquez sur "/newbot". Ensuite, il va vous demander un nom, vous pouvez l'appeler "hermes". Et puis pour le nom d'utilisateur du bot, je vais faire exactement la même chose. Et maintenant, nous avons notre bot Hermes pratiquement créé.
+
+[VISUEL: Interface Telegram. Le token est affiché. L'utilisateur le copie.]
+
+Ensuite, tout ce que nous avons à faire est de copier le token. Alors, allez-y et cliquez dessus pour le copier.
+
+[VISUEL: Terminal. L'utilisateur colle le token et appuie sur Entrée. "Telegram token saved".]
+
+Et puis, en revenant ici, ce que vous devez faire, c'est le coller, cliquer sur "Entrée". Et puis maintenant, tout ce dont il a besoin, c'est de votre ID utilisateur également.
+
+[VISUEL: Terminal. Instructions pour trouver l'ID utilisateur via @userinfobot. L'utilisateur est sur Telegram, cherche "User Info + Get ID + idbot", tape "/start".]
+
+Donc, il vous dit ici comment obtenir votre ID utilisateur. Vous envoyez simplement un message à "userinfobot" sur Telegram, et puis il vous répondra avec votre information utilisateur. Alors, allez-y et copiez ceci.
+
+[VISUEL: Interface Telegram. L'utilisateur est sur le chat "User Info + Get ID + idbot", tape "/start".]
+
+Et puis sur Telegram, nous sommes juste dans ce bot "Get Info". Donc, si vous cliquez simplement sur "/start".
+
+[VISUEL: Terminal. L'utilisateur colle l'ID utilisateur et appuie sur Entrée. Puis il confirme que c'est le canal principal.]
+
+Ensuite, tout ce que vous voulez faire, c'est coller votre ID, cliquer sur "Entrée". Ensuite, il vous demandera si vous voulez le définir comme votre canal principal. Cliquez simplement sur "Oui". Et maintenant, vous êtes pratiquement prêt à partir.
+
+[VISUEL: Terminal. "Ready to go!". L'utilisateur reconnecte. L'interface Hermes-Agent avec les "Available Tools" et "Available Skills" s'affiche.]
+
+Donc, si vous voulez voir toute la documentation, les capacités de Hermes, reconnectez-vous simplement au serveur, et vous pourrez voir toutes les informations allant des outils disponibles, des compétences disponibles. Si vous voulez obtenir des informations supplémentaires sur les MCP, comment se connecter à GitHub, comment utiliser l'utilisation de l'ordinateur, tout est pratiquement ici. Vous tapez simplement la commande pour obtenir plus d'informations.
+
+[VISUEL: L'intervenant est incrusté dans le coin inférieur droit de l'interface Hermes-Agent.]
+
+Mais maintenant, ce qui nous intéresse, évidemment, c'est de configurer la messagerie Telegram et de pouvoir, en fait, se connecter avec Hermes dans les deux sens.
+
+[VISUEL: Terminal. L'utilisateur tape "set up telegram messaging and ensure connection works.". Le bot initialise l'agent, planifie des tâches, et raisonne.]
+
+Donc ici, nous pouvons taper directement dans l'agent Hermes. Je lui dis juste de configurer la messagerie Telegram et de s'assurer que la connexion fonctionne. Nous pouvons donc attendre qu'il initialise l'agent et qu'il connecte pratiquement ce que nous avons ici à Telegram. Donc, tout comme Claude Code, il va parcourir vos compétences, faire un plan pour vous, puis effectuer cette action.
+
+[VISUEL: Terminal. "Telegram messaging is set up and verified.". Détails de la confirmation. Instructions pour installer le gateway en arrière-plan.]
+
+Donc, maintenant, nous pouvons voir que la messagerie Telegram est configurée et vérifiée. Donc, théoriquement, nous n'avons plus besoin de discuter avec Hermes ici dans le terminal. Nous pouvons simplement aller directement sur Telegram et lui parler.
+
+[VISUEL: Interface Telegram. Le bot a envoyé des messages de test. L'utilisateur tape "hi hermes". Le bot répond "Hi Brendan - what can I help with?".]
+
+Donc, ouvrons Telegram. Et ici, nous pouvons voir que le test de connexion Hermes Telegram fonctionne. Nous avons le test bare-home. Tout semble fonctionner. Et puis une façon de savoir que cela fonctionne réellement est de simplement taper "bonjour Hermes". Nous pouvons voir qu'il est en train de taper maintenant, donc de cette façon, il pourra communiquer dans les deux sens avec nous.
+
+[VISUEL: Interface Telegram. L'utilisateur tape un long prompt décrivant son style de trading, ses positions actuelles (ORCL, NVIDIA, SNOW, LCRX, DELL, MU), et ce qu'il attend de l'assistant (idées, entrées, briefs de marché, thèse intelligente, données de marché à jour). Le bot répond "memory: "user: Brendan is a swing trader..." Saved.".]
+
+Maintenant, si vous configurez cela pour la première fois, je vous recommanderais de commencer à lui donner, vous savez, tout le contexte autour de vous en tant que personne, comment vous aimez trader, ce que vous tradez actuellement, quelles sont vos positions, en connectant tous les comptes externes que vous voulez. De cette façon, Hermes aura au moins tout ce contexte de fond avant que vous ne configuriez des tâches cron. Donc ici, un exemple très simple, je tape juste que je suis un swing trader qui aime aussi utiliser la stratégie de la roue pour les options. J'aime généralement trader lorsque le VIX est inférieur à 20 et mes positions actuelles sont ces différents tickers. Ensuite, nous voulons que Hermes agisse pratiquement comme un assistant de trading personnel qui donne des idées, des entrées, des briefings de marché, une thèse intelligente. Et nous voulons nous assurer que toutes les données de marché sont toujours mises à jour lors de la fourniture de résultats. Mais évidemment, si vous travaillez avec Hermes, il doit être beaucoup plus détaillé, n'est-ce pas ? Vous pouvez même lui donner tous vos trades passés, des choses de ce genre. De cette façon, il saura exactement ce que vous voulez et comment travailler avec lui. Ce qui est bien mieux que d'avoir une page blanche. Mais je vais juste taper cela pour qu'il ait au moins un certain contexte sur la façon dont nous allons utiliser ce bot.
+
+[VISUEL: Interface Telegram. Le bot répond avec une liste de points pour l'analyse : "SPY / QQQ trend", "Rates / yields", "Semi and AI infrastructure strength", "Earnings / macro calendar risk", "Position review", "Trade setup", "Wheel strategy lens", "Clear stance".]
+
+Donc ici, nous pouvons voir que c'est là que la mémoire persistante entre en jeu. Il va se souvenir de tout ce que nous lui disons. Ensuite, c'est là que vous pourrez construire dessus, vous savez, ajouter toutes les actions planifiées comme les tâches cron si vous voulez obtenir des rapports, des idées de trading, des signaux, tous les jours, des choses de ce genre. Fondamentalement, le ciel est votre limite quant à la façon dont vous voulez utiliser cet agent Hermes pour, en fait, vous aider dans vos propres efforts de trading.
+
+[VISUEL: L'intervenant est incrusté dans le coin inférieur droit de l'interface Hermes-Agent. Un texte "Link In Description" apparaît.]
+
+Maintenant, si vous avez trouvé cette vidéo utile, assurez-vous d'aimer, de commenter et de vous abonner, car cela aide grandement la chaîne. Je couvre tout ce qui concerne le trading IA et comment vous pouvez utiliser au mieux l'IA dans vos propres portefeuilles, styles de trading et stratégies. Et comme je l'ai mentionné au début de la vidéo, si vous voulez rejoindre la plus grande communauté de trading IA, assurez-vous de cliquer sur le lien dans la description. Nous avons des guides détaillés, des modèles et des systèmes pour tous nos membres à utiliser, ainsi que des appels hebdomadaires, juste pour s'assurer que tout le monde a les informations les plus récentes et les meilleures sur l'utilisation de l'IA et comment elle peut réellement vous aider à devenir un meilleur trader.
+
+[VISUEL: Écran de fin avec "THANKS FOR WATCHING", des flèches vers des vidéos suggérées, l'image de profil de l'intervenant, et "DON'T FORGET TO LIKE, COMMENT, SHARE SUBSCRIBE".]

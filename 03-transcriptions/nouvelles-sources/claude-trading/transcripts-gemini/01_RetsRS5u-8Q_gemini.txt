@@ -1,0 +1,347 @@
+[SOURCE_URL: https://youtu.be/RetsRS5u-8Q]
+[VIDEO_ID: RetsRS5u-8Q]
+[SUJET: claude-trading]
+[MODELE: gemini-2.5-flash]
+[DATE_TRANSCRIPTION: 2026-06-30]
+---
+[VISUEL: L'intervenant, un homme asiatique, est assis devant un microphone, portant un t-shirt noir. Derrière lui, une étagère avec des livres et des objets, et trois tableaux abstraits sur le mur blanc.]
+
+J'ai utilisé Claude comme mon trader personnel et j'ai gagné 100 000 dollars en un seul mois. Et dans cette vidéo, je vais vous montrer les méthodes et les systèmes exacts que j'ai utilisés pendant tout le mois de mai avec Claude.
+
+[VISUEL: L'écran du téléphone de l'intervenant apparaît à droite, affichant une application de trading (Robinhood). Le solde du compte passe de 68 000 $ à 169 313,50 $ sur une période de 3 mois, avec une courbe de croissance ascendante. Des options sont listées en bas de l'écran.]
+
+Alors, pour une transparence totale, il s'agit d'un petit compte Robinhood que j'ai financé juste pour ce défi. J'ai financé le compte au début du mois de mai avec environ 66 000 dollars. Puis j'ai terminé le mois avec environ 169 000 dollars. Cela équivaut à un gain d'environ 155 % pour les 30 derniers jours.
+
+Et le plus intéressant, c'est que chaque transaction, plus les ajustements du portefeuille, ont tous été faits par Claude. Claude m'a aidé à élaborer la stratégie initiale pour ce portefeuille.
+
+[VISUEL: L'écran passe à l'interface de Claude, affichant un document d'analyse boursière sur Nokia. Le texte décrit les performances de Nokia, son repositionnement en tant qu'infrastructure IA, et les partenariats. En dessous, une "PROBABILITY DISTRIBUTION" avec des barres de couleur (rouge, orange, jaune, vert) et des scénarios (BULL CASE, BASE CASE, BEAR CASE) avec des objectifs de prix, des valeurs d'option et des P/E requis.]
+
+Ensuite, dans la phase de recherche, il a trouvé les tickers exacts et les transactions que nous devions effectuer.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Et pour aller encore plus loin, tout au long du mois, j'ai même demandé à Claude de gérer ce portefeuille pour moi.
+
+[VISUEL: L'écran affiche une interface de "OPTIONS TERMINAL" sur fond sombre. En haut, des métriques comme NAV (165 394 $), P&L (+99 744 $), Positions (7), Alerts (28), etc. sont visibles. En dessous, une section "ACTIVE ALERTS" liste des alertes de type "TARGET_HIT" pour des tickers comme NOW, NOK, NBIS, et des alertes "NEW_STRIKES" pour HIMS, NBIS, NOK, NOW. Plus bas, une section "NEWS" liste des actualités positives pour MP, NBIS, NOK, OSCR. Enfin, une section "POSITIONS" affiche les détails des positions ouvertes.]
+
+Ainsi, chaque jour, il surveillait le portefeuille, recherchait de nouvelles opportunités, des pertes potentielles que nous devions réduire. Il a donc trouvé des sorties, de nouvelles positions, ou simplement une analyse générale de nos avoirs actuels.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant, si vous êtes abonné à cette chaîne depuis un certain temps, vous savez que je construis généralement des systèmes de trading entièrement automatisés avec Claude qui sont déterministes.
+
+[VISUEL: L'écran affiche une interface "Nebula - Monte Carlo Simulation". Des métriques comme "Win Rate", "Median Return", "Worst % Drawdown" sont visibles. À gauche, des options pour "Generate Demo Data" et "Run Simulation".]
+
+Cela signifie simplement que Claude, ou le code de Claude, écrirait du code pour nous afin de construire ces systèmes qui fonctionnent selon des règles fixes.
+
+[VISUEL: L'écran passe à une interface de trading "Alpaca" avec un graphique boursier et un téléphone affichant une application de trading. Un extrait de code Python est visible, montrant l'initialisation d'un client de trading et des fonctions comme `cancel_orders`, `close_position`, `get_all_positions`, `get_orders`, `submit_order`.]
+
+Ensuite, nous automatiserions les transactions en les connectant à une API pour un courtier, comme IBKR ou Alpaca.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Mais pour cette vidéo, je voulais adopter une approche différente et montrer quelque chose d'un peu plus simple. J'ai décidé d'utiliser quelque chose d'un peu plus convivial au lieu de ces courtiers axés sur les API, avec Robinhood, car c'est techniquement la plateforme de trading la plus populaire. Je voulais simplement montrer aux traders moins techniques ou normaux comment ils pourraient potentiellement adopter Claude facilement dans leurs propres systèmes.
+
+[VISUEL: L'écran affiche l'interface de Claude Code. Un prompt est visible : "Build a professional Regime-Based Trading App in Python using streamlit, plotly, and yfinance." avec des détails sur le "Core Engine" et la "Strategy Logic". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+De cette façon, vous n'avez pas besoin que le code de Claude écrive pour vous ces projets Python massifs, techniques et complexes.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Alors, je vais vous montrer ce que j'ai fait dans ce test. J'ai d'abord utilisé Claude comme analyste de recherche.
+
+[VISUEL: Un schéma intitulé "Claude Portfolio" apparaît. Il montre deux étapes principales : "Step 1: Research" et "Step 2: Monitoring", reliées par une flèche. Sous "Step 1: Research", il est écrit "Use Claude as a research analyst for first trades". Sous "Step 2: Monitoring", il est écrit "Daily monitoring of portfolio for adjustments".]
+
+Claude ici nous aiderait à choisir les transactions, nous donnerait des alertes, puis surveillerait notre portefeuille automatiquement.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Mais nous avons fait tout cela en me gardant, l'humain, dans la boucle. En gros, Claude a agi à la fois comme mon screener et mon gestionnaire de portefeuille au quotidien. Et dans cette vidéo, je vais vous montrer exactement comment j'ai fait cela, afin que vous puissiez potentiellement utiliser certaines de ces mêmes méthodes pour vos propres systèmes.
+
+Maintenant, si c'est votre première fois sur la chaîne, je m'appelle Brendan et je couvre tout ce qui concerne le trading IA.
+
+[VISUEL: Le logo "UCLA" apparaît à gauche de l'intervenant, puis le logo "RAYMOND JAMES" apparaît à droite.]
+
+J'ai étudié les mathématiques et l'économie à l'UCLA et j'ai même travaillé dans la banque d'investissement chez Raymond James pendant trois ans. Je peux donc aborder cela avec une formation en finance quantitative.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Donc, dans cette vidéo, je vais d'abord vous montrer comment Claude m'a trouvé une stratégie pour le mois. Je vais couvrir ce qu'il a présenté et pourquoi. Ensuite, je vais vous montrer comment Claude a recherché et trouvé ces transactions. Et enfin, je vais vous montrer comment combiner tout cela en un seul système agentique, que Claude construira. Je vais vous donner les prompts exacts sur la façon d'utiliser Claude ou le code de Claude pour construire ce système de trading entièrement agentique afin de gérer votre portefeuille.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 2 PROMPT Portfolio Analytics cont. 1/2". Le texte décrit les éléments à inclure dans la couche d'analyse de portefeuille, tels que l'allocation par ticker et secteur, les drapeaux de concentration, les grecs agrégés (delta, theta, vega) et l'environnement IV. En bas, il est écrit "pause & screenshot - paste straight into Claude code". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+De cette façon, il peut gérer les signaux, les alertes et la surveillance quotidienne de votre portefeuille au fur et à mesure que les jours passent.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 4 Alerts & Dashboard". Le texte liste les fonctionnalités : "New strikes and new expiries detected vs yesterday", "Target / stop hits, IV moves, DTE and concentration flags", "Claude's news flags surfaced as alerts", "Bloomberg-style single page, optional Telegram / iMessage push". Une section "ALWAYS A FACT" précise : "Every alert surfaces a condition like 'hit your target level.' Never a buy or sell instruction."]
+
+Ensuite, il vous donnera tous les ajustements dont vous avez besoin dans le portefeuille, au fur et à mesure que les nouvelles arrivent, que l'action des prix change, ou toute autre circonstance atténuante.
+
+[VISUEL: L'écran affiche un avertissement sur fond noir : "Disclaimer: NO FINANCIAL ADVICE - The Information on this Channel is provided for education and informational purposes only, without any express or implied warranty of any kind, including warranties of accuracy, completeness, or fitness for any particular purpose. The Information contained in or provided from or through this website is not intended to be and does not constitute financial advice, investment advice, trading advice or any other advice. The Information on this website and provided from or through this website is general in nature and is not specific to you the User or anyone else. You should not make any decision, financial, investment, trading or otherwise, based on any of the information presented on this website without undertaking independent due diligence and consultation with a professional broker or financial advisory."]
+
+Et enfin, et comme toujours, ce n'est pas un conseil financier. Et je ne garantis aucun profit dans cette vidéo.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Et une chose que je veux vraiment souligner est de ne pas suivre ces transactions ou configurations, car elles étaient actives au début du mois de mai. Cela signifie que les entrées et les prix étaient spécifiques à cette période. Ce qui est plus important, c'est que vous compreniez les stratégies et les méthodes que j'ai utilisées pour ce compte, afin que vous puissiez voir comment les adapter potentiellement à vos propres stratégies de trading.
+
+[VISUEL: Un écran noir avec le texte blanc "How I Used Claude...".]
+
+Alors, pour commencer, voici comment j'ai réellement utilisé Claude au mois de mai en détail.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Si vous avez vu mes autres vidéos, vous savez que je décompose généralement l'utilisation de Claude via des systèmes déterministes et non déterministes.
+
+[VISUEL: Un schéma avec deux boîtes principales : "Deterministic" et "Non-Deterministic". Sous "Deterministic" : "Systems with fixed rules (RSI, MACD, etc.)" et "Claude writes code for us to trade automatically". Sous "Non-Deterministic" : "Systems with no fixed rules" et "Used as an analyst or advisor".]
+
+Déterministe, c'est encore une fois, où nous utilisons essentiellement Claude pour écrire du code pour nous et construire des systèmes de trading avec des règles fixes. Non-déterministe, c'est là que nous utilisons Claude davantage comme un analyste avec des réponses intelligentes. Vous pouvez donc poser des questions comme la façon dont les configurations de trading sont, ce qu'ils pensent d'un ticker spécifique, et d'autres analyses générales.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Et ce défi d'un mois a utilisé les deux. Au début, nous avons utilisé Claude entièrement comme un analyste non-déterministe. Et cette partie n'est évidemment pas testable, juste parce que nous posons des questions qualitatives à Claude.
+
+[VISUEL: L'écran affiche l'interface de Claude avec un document d'analyse. Le texte contient des informations sur ServiceNow, Nvidia, et des scénarios (Bull, Base, Disappointment) avec des probabilités et des attentes pour les appels. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Claude nous a donc donné des stratégies spécifiques, des analyses sur les tickers et des recommandations de trading, au lieu d'avoir un algorithme qui vous disait de vendre à un niveau RSI spécifique.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Ensuite, une fois la recherche initiale des transactions terminée, j'ai construit un système de surveillance quotidienne avec Claude.
+
+[VISUEL: L'écran affiche une interface de "STRIKE LADDER - NEARBY STRIKES PER HELD OPTION" pour des tickers comme NOW et HIMS. Des tableaux affichent les prix d'exercice, le bid, l'ask, le dernier prix, l'IV, le volume et l'intérêt ouvert pour différentes dates d'expiration. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+De cette façon, chaque jour, il pouvait gérer le portefeuille. Et c'est un mélange de déterministe et de non-déterministe. Nous avions donc évidemment l'analyse générale et les réponses intelligentes. Nous avions également des indicateurs plus techniques et la prise en compte de l'action des prix.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Et maintenant, la clé la plus importante pour utiliser Claude comme analyste, surtout dans la phase de recherche initiale, est le contexte. Je n'ai pas simplement ouvert un chat et demandé ce que je devais acheter.
+
+[VISUEL: L'écran affiche l'interface de Claude avec un "Portfolio dashboard - JSX". Des graphiques circulaires montrent l'allocation par ticker et par type d'actif (options, actions, cash). Un tableau liste les positions avec des détails comme le véhicule, le secteur, la taille, le prix d'entrée, le P&L, etc. Une section "THESIS QUALITY RADAR" affiche un graphique radar. À gauche, des "Exit roadmap" et des "Capital deployment" sont listés.]
+
+J'ai donné des directives très spécifiques, comme la taille de mon compte, ma tolérance au risque, le type de périodes de détention que je recherchais tout au long du mois. En gros, plus votre entrée est spécifique, meilleur est votre résultat. De cette façon, vous n'obtiendrez pas de "garbage" assez générique que vous verriez typiquement si vous posiez des questions ouvertes à Claude.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant, une dernière remarque est le coût. Donc, pour ce défi d'un mois, je voulais que ce soit aussi accessible que possible à tout le monde. C'est pourquoi j'ai utilisé Claude dans l'interface web, plutôt que sur une base d'utilisation d'API, du moins au début.
+
+[VISUEL: L'écran affiche l'interface de Claude avec le texte "Back at it, AI Pathways" et une zone de saisie de message. Des boutons "Code", "Write", "Learn", "Life stuff", "From Gmail" sont visibles. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Si j'avais construit, par exemple, un système de recherche avec le code de Claude, puis utilisé Claude via l'API, du moins dans cette partie initiale, le coût aurait augmenté de manière assez significative.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Au lieu de cela, j'ai simplement opté pour la voie la plus simple, j'ai utilisé le web de Claude, du moins pour le début. Et une fois que nous avions nos tickers et nos stratégies en place, nous passerions à un système plus complexe plus tard.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Et maintenant, avant de passer à la stratégie en détail, si vous voulez apprendre à utiliser au mieux Claude et d'autres outils d'IA pour le trading, assurez-vous de cliquer sur le lien dans la description pour ma communauté scolaire.
+
+[VISUEL: Une flèche rouge apparaît, pointant vers le bas à gauche de l'intervenant, où se trouve un lien "Link In Description" dans une bulle blanche.]
+
+C'est actuellement la plus grande communauté de trading axée sur l'IA, avec des guides détaillés sur l'utilisation des derniers et meilleurs outils d'IA pour le trading, ainsi que des centaines de membres testant et construisant leurs propres systèmes de trading sur n'importe quelle classe d'actifs.
+
+[VISUEL: Un schéma intitulé "Claude Portfolio" apparaît. Il montre quatre étapes : "1. Strategy Research", "2. Screen Names", "3. Choose Contracts", "4. Options Dashboard", reliées par des flèches. Sous "1. Strategy Research" : "Use Claude Web UI to craft a strategy", "Classifies current market", "Forms strategy based on goals and risk tolerance".]
+
+La première chose que j'ai faite, avant de trouver des tickers ou des noms spécifiques, a été de demander à Claude d'élaborer une stratégie pour nous tout au long du mois de mai.
+
+[VISUEL: L'écran affiche l'interface de Claude avec un "Strategy overview - JSX". Le titre est "The Concentrated Thesis Strategy". Il y a des sections "PHILOSOPHY" (Conviction Over Diversification, Vehicle Matches Thesis, Cash Is a Weapon), "WHEN TO USE CALLS VS SHARES", "CALLS OR SHARES? DECISION FLOW", "POSITION CLASSIFICATION" (Value Mean Reversion, Momentum Re-rating, Catalyst Binary, Policy / Structural Floor, Microcap Lottery), "EXECUTION RULES" (Entry Discipline, Profit Taking & Loss Management), "CORRELATION & DIVERSIFICATION", "FROM RESEARCH TO EXIT", "WHAT WE LEARNED BUILDING THIS BOOK" (Hard-Won Lessons), "THE EDGE". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Ici, vous pouvez voir que nous avons donné les contraintes de ce que nous recherchions. Je voulais un vrai mélange de risque et de potentiel de hausse. Ce serait quelque chose comme une stratégie où le potentiel de hausse pourrait être important, mais ma baisse était plafonnée, au lieu d'être illimitée.
+
+[VISUEL: Le curseur de la souris se déplace sur les sections "Vehicle Selection Framework" et "Vehicle Properties" (LEAP, Short Calls, Shares, Cash).]
+
+Et ce sur quoi Claude a abouti, c'était essentiellement deux approches différentes basées sur les conditions actuelles du marché. La stratégie principale était d'utiliser des LEAP, qui sont essentiellement juste des options d'achat avec une date d'expiration plus longue.
+
+[VISUEL: Le curseur de la souris se déplace sur les sections "PROFIT TAKING & LOSS MANAGEMENT" et "Exit Framework".]
+
+Si vous n'avez jamais tradé d'options auparavant, la façon la plus simple de le voir est essentiellement un pari à effet de levier que le titre augmentera au cours de la prochaine année environ. Et cela augmente finalement notre potentiel de hausse, mais augmente également la baisse.
+
+[VISUEL: Le curseur de la souris se déplace sur les sections "CORRELATION & DIVERSIFICATION" et "Why This Mix Works".]
+
+Nous ne voulions évidemment pas faire d'options à court terme, comme celles qui expirent dans une semaine ou un mois, ce qui est principalement joué sur un timing parfait et la chance. Nous avions essentiellement une année complète et plus pour un plan à long terme, donc nous ne parions pas sur un mouvement à court terme, mais plutôt sur une direction à long terme.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant, la principale chose que Claude a surveillée tout au long de cette partie de la stratégie, ce sont les Grecs.
+
+[VISUEL: L'écran affiche l'interface de Claude avec un "Greeks dashboard - JSX". Des tableaux et des définitions des Grecs (Delta, Gamma, Theta, Vega, Rho) sont visibles. Une section "Your Greeks - Per Contract (May 3)" affiche les Grecs pour différentes positions. Une section "Total Portfolio Greek Exposure (All Contracts)" affiche des graphiques à barres pour le Delta et le Theta. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Spécifiquement le Theta pour éviter la dégradation temporelle, c'est pourquoi j'ai fini par utiliser des LEAP avec au moins plus de 45 jours avant l'expiration. La deuxième approche était simplement d'acheter des actions sur des sociétés à petite capitalisation boursière bien étudiées. Claude a essentiellement donné deux raisons à cela. Premièrement, les petites actions étaient illiquides.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Parce qu'il n'y a pas beaucoup de volume de trading, il est beaucoup plus difficile d'entrer et de sortir des options à un prix équitable. De plus, certaines options étaient tout simplement trop chères à cause de l'IV.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Donc, avant le mois de mai, toute la configuration de Claude était principalement axée sur les LEAP sur les grandes entreprises, où les options étaient à un prix raisonnable. Ensuite, nous avions simplement des actions pour les entreprises à petite capitalisation. De cette façon, nous avions un grand potentiel de hausse, une baisse décemment plafonnée, et n'utilisions l'effet de levier que là où nous en avions vraiment besoin.
+
+[VISUEL: Un schéma intitulé "Claude Portfolio" apparaît. La flèche pointe maintenant de "1. Strategy Research" vers "2. Screen Names". Sous "2. Screen Names" : "Use Claude Web UI to find names and trades that followed the strategy".]
+
+Maintenant, une fois la stratégie établie, l'étape suivante consistait à trouver des noms et des transactions qui correspondaient réellement, et c'est là que nous avons demandé à Claude d'exécuter un screener pour nous.
+
+[VISUEL: L'écran affiche l'interface de Claude avec un "Stock screener - JSX". Le titre est "Every Name We Discussed". Un tableau liste de nombreux tickers avec leur prix, un indicateur de "TF" (True/False) et un bouton "IN BOOK" ou "WATCHLIST" ou "REJECTED" ou "PASSED". À gauche, une section "Criterion 2: Catalyst calendar over 6-12 months" liste des tickers avec des dates de catalyseurs (earnings, analyst day, acquisition close). L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Maintenant, les critères ici venaient directement de la stratégie. Claude a choisi des noms qui avaient chuté, mais qui avaient une réelle raison de se redresser. Cela pourrait être des actions en baisse avec un catalyseur réel aligné, quelque chose qui pourrait réévaluer l'action sur le calendrier. Nous avons ainsi pu couvrir les noms survendus, ainsi que ceux qui affichaient un fort élan. Claude ici s'est juste assuré que le potentiel de hausse était suffisamment justifié pour réellement prendre la transaction. Et pour les options, elles devaient évidemment être à un prix raisonnable. La raison de tout cela est d'avoir des configurations qui correspondent à notre profil de risque et de potentiel de hausse spécifique.
+
+[VISUEL: Le curseur de la souris se déplace sur les tickers NBIS, NOW, HIMS, MP, NOK, OSCR.]
+
+Et avec cela, Claude n'a pas seulement donné quelques noms, il a exécuté un screener assez large qui a donné tout un ensemble de candidats. Donc, comme vous pouvez le voir ici, les noms qui ont été retenus étaient OSCR, NBIS, ServiceNow, HIMS, MP et Nokia. Et Claude, du moins dans ce mode d'analyse, ne les a pas tous traités de la même manière. Il les a notés selon différentes dimensions.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Nous avions donc des choses comme le timing des catalyseurs, l'environnement IV pour les options. Nous avions également des corrélations avec le marché général. Et il a pu donner une thèse réelle sur chaque nom.
+
+[VISUEL: L'écran affiche l'interface de Claude avec le "Stock screener - JSX". Le curseur de la souris se déplace sur la section "THESIS" pour ServiceNow, montrant des cas "BULL CASE" et "BEAR CASE", des "CATALYSTS" et des "KEY SIGNALS".]
+
+Donc, par exemple, quelques choses qu'il a signalées sur ServiceNow spécifiquement, c'est qu'il a mentionné que l'entrée était propre, juste parce que l'action avait chuté après les résultats. Ce que cela signifie évidemment, c'est que les options d'achat étaient bon marché, nous avons donc pu bloquer de très bons LEAP là-bas.
+
+[VISUEL: Le curseur de la souris se déplace sur la section "THESIS" pour MP Materials, montrant des cas "BULL CASE" et "BEAR CASE", des "CATALYSTS" et des "KEY SIGNALS".]
+
+Et pour d'autres noms comme MP, il recommande que, premièrement, c'est évidemment un nom soutenu par le gouvernement, donc il avait de bons catalyseurs. Mais le problème est que ce catalyseur était un peu lent, il a donc recommandé de ne pas faire un pari concentré, mais peut-être une position plus petite de notre portefeuille global.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant, une autre chose que Claude a faite, c'est de combiner des noms. Cela signifiait qu'ils ont trouvé différentes fenêtres de catalyseurs et différents secteurs, juste pour que nous n'allions pas tout miser sur un seul événement de résultats.
+
+[VISUEL: Le curseur de la souris se déplace sur la section "Criterion 2: Catalyst calendar over 6-12 months", montrant différentes dates de catalyseurs pour OSCR, NBIS, ServiceNow, HIMS.]
+
+Donc, par exemple, OSCR avait un catalyseur à court terme, NBIS en avait un à moyen terme, et ServiceNow était un LEAP à long terme sur un horizon temporel différent. De plus, ils sont tous concentrés dans différents secteurs également, nous étions donc couverts avec les soins de santé contre l'infrastructure IA, et nous avions également des logiciels d'entreprise. Donc, si un secteur s'effondrait, un autre pouvait encore tenir.
+
+[VISUEL: Le curseur de la souris se déplace sur la section "THESIS" pour Nokia, montrant des cas "BULL CASE" et "BEAR CASE", des "CATALYSTS" et des "KEY SIGNALS".]
+
+Et pour un autre nom comme Nokia, il l'a analysé complètement différemment des autres, car il s'agissait davantage d'un jeu d'IA européen.
+
+[VISUEL: L'écran affiche l'interface de Claude avec un document d'analyse sur Nokia. Le texte détaille la "revenue mix" de Nokia, une projection de revenus sur trois ans, et une comparaison avec des pairs (Arista, Cisco, Ciena, Juniper, Ericsson). Il y a des tableaux avec des chiffres de revenus, de croissance, de multiples P/S et des prix d'action implicites.]
+
+Et juste pour montrer à quel point certaines de ces analyses étaient approfondies, sur Nokia spécifiquement, il a même construit une distribution de probabilité complète, expliquant à quoi ressembleraient les options à différents niveaux de prix et quelle était la valeur attendue. Donc, avec tout cela, Claude nous a essentiellement donné un screener très adapté et structuré qui couvrait tous ces noms.
+
+[VISUEL: Un schéma intitulé "Claude Portfolio" apparaît. La flèche pointe maintenant de "3. Choose Contracts" vers "4. Options Dashboard". Sous "3. Choose Contracts" : "Use Claude Web UI to select specific contracts for the selected names". Sous "4. Options Dashboard" : "Use Claude Code to code an options dashboard that monitors our portfolio throughout the month".]
+
+Et puis, comme dernière étape, du moins pour cette recherche initiale, il s'agissait de demander à Claude de choisir les contrats exacts également.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Donc, pour les options d'achat que nous allions acheter, nous voulions ces prix d'exercice spécifiques, ainsi que les dates d'expiration.
+
+[VISUEL: L'écran affiche l'interface de Claude avec un "Contract analysis - JSX". Des sections "The Core Tradeoff: Strike Selection" et "The Core Tradeoff: Expiry Selection" sont visibles. Un tableau "CONTRACT COMPARISON - ACTUAL ROBINHOOD DATA" compare différentes options pour ServiceNow. Un graphique "RETURN MULTIPLE AT EXPIRY - BY STOCK PRICE" montre les rendements potentiels. Une section "Cross-Name Contract Comparison" compare les véhicules pour ServiceNow, Nokia et MP Materials. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Donc, par exemple, deux LEAP que nous avions étaient Nokia et ServiceNow, qui expiraient tous les deux le 15 janvier 2027, l'un à un prix d'exercice de 20 $ et l'autre à un prix d'exercice de 120 $. Ces deux options étaient hors de la monnaie lorsque Claude les a recommandées comme contrats d'options. Ces paris à effet de levier étaient techniquement plus agressifs sur ces noms. Donc, pour compenser ce risque spécifique et la dégradation temporelle pour certaines des options que nous avions, Claude a organisé le reste de notre portefeuille en fonction de certains des autres noms qu'il avait sélectionnés. Et pendant tout ce processus, Claude a examiné la sélection des prix d'exercice, les Grecs, le coût des options par rapport à l'environnement IV, la durée d'expiration nécessaire pour donner de la marge à la thèse. Et puis avec cela, il a juste équilibré le reste du portefeuille pour donner les meilleures idées de trading initiales pour le début de notre portefeuille.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Une fois que nous avons terminé toute la recherche initiale, j'ai chargé toutes les positions dans notre nouveau compte Robinhood pour commencer le mois.
+
+[VISUEL: Un schéma intitulé "Claude Portfolio" apparaît. La flèche pointe maintenant de "3. Choose Contracts" vers "4. Options Dashboard". Sous "4. Options Dashboard" : "Use Claude Code to code an options dashboard that monitors our portfolio throughout the month".]
+
+Donc, une fois que nous avons pris toutes les transactions, nous n'avons plus besoin d'utiliser Claude sur le web. Nous pouvons passer à un système plus déterministe que je vais vous montrer comment construire. De cette façon, nous pouvons surveiller notre portefeuille quotidiennement sans avoir à saisir manuellement toutes vos nouvelles entrées ou tout ce qui s'est passé.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Avec nos positions, je ne voulais pas simplement continuer à coller des choses dans un chat chaque matin. Ce que j'ai fait, c'est essentiellement construire un tableau de bord complet de portefeuille d'options en utilisant Claude et le connecter au portefeuille. De cette façon, nous avons pu suivre les performances, examiner toutes les nouvelles qui arrivent, l'action des prix, les indicateurs techniques.
+
+[VISUEL: L'écran affiche l'interface de "OPTIONS TERMINAL". Les métriques et alertes sont les mêmes que précédemment. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Donc, si vous avez regardé ma vidéo sur les fonds spéculatifs, c'est essentiellement un système très similaire à celui-là. C'est juste une version que j'ai adaptée spécifiquement pour les options, ainsi que nos micro-actions que nous avions.
+
+[VISUEL: L'écran affiche l'interface de "OPTIONS TERMINAL". Le curseur de la souris se déplace sur les métriques NAV, P&L, Positions, Alerts. Puis sur les alertes "TARGET_HIT" et "NEW_STRIKES".]
+
+Alors maintenant, voici à quoi ressemble le terminal d'options. Donc, encore une fois, je vais vous montrer comment j'ai construit cela exactement avec les prompts dans la section suivante. Mais sachez que j'ai d'abord placé toutes les transactions sur Robinhood, je les ai saisies ici comme positions, et ce terminal aidera ensuite à surveiller le portefeuille au fur et à mesure que le mois avance.
+
+[VISUEL: Le curseur de la souris se déplace sur les sections "NEWS" et "THETA DECAY - PROJECTED VALUE FROM TODAY -> EXPIRY". Des graphiques montrent la dégradation temporelle des options. Puis sur la section "STRIKE LADDER - NEARBY STRIKES PER HELD OPTION".]
+
+En parcourant étape par étape, nous pouvons voir nos valeurs d'actifs nets, ainsi que les dates. En dessous, nous avons des alertes actives. Donc, pour nos positions, il va nous avertir si nous atteignons nos objectifs, des choses que nous devrions surveiller comme de nouveaux prix d'exercice sur HIMS, ainsi que Nokia. Et puis nous avons également des nouvelles plus générales, comme les initiatives d'expansion de MP Rare Earth, des choses de ce genre. Ensuite, nous avons la dégradation du Theta, qui montre toutes nos positions et comment le temps joue contre nous sur les LEAP. C'est juste pour s'assurer que nous maximisons notre valeur de nos positions actuelles, du moins avec Nokia, ServiceNow, HIMS et NBIS. Ensuite, nous avons une échelle de prix d'exercice, ce qui pourrait être utile si vous voulez voir tous nos différents prix d'exercice de position. Nous pouvons donc voir le bid, l'ask, l'IV, le volume et l'intérêt ouvert.
+
+[VISUEL: Le curseur de la souris se déplace sur la section "AGGREGATE GREEKS" et "MACRO GATE". Puis sur la section "NEWS per held name - last 3 days - keyword sentiment".]
+
+Et puis nous avons également les Grecs agrégés, une porte macro qui couvre la structure macro globale du marché actuel, comme les niveaux de VIX, l'étendue du marché, les spreads de crédit. Et enfin, nous avons des nouvelles générales sur certaines des positions que nous avons ouvertes.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Donc, encore une fois, j'ai utilisé Claude pour construire tout ce système. Il est donc essentiellement connecté à notre portefeuille de Robinhood. Mais avec cela, il est capable d'exécuter toutes ces analyses chaque jour, au début de la matinée, afin que vous puissiez voir quoi faire avec vos positions, s'il y a des risques à l'étranger, des nouvelles qui arrivent, et juste des informations générales sur tous vos avoirs. Cela transforme notre recherche initiale de Claude en quelque chose de plus systématisé et automatisé.
+
+[VISUEL: L'écran affiche une diapositive intitulée "AI PATHWAYS The Options Monitor I Built". Le texte décrit le système : "A daily dashboard that tracks my actual options book. It pulls the chains, computes the Greeks, watches for new strikes, scores the market, and runs a Claude news analysis on every name. Every morning, one screen." En dessous, des icônes avec les textes "yfinance data", "Black-Scholes greeks", "Claude analyst", "~$1 / day". L'intervenant est visible dans une petite fenêtre en bas à droite.]
+
+Maintenant, laissez-moi vous montrer comment construire exactement le même système de surveillance des options que j'ai utilisé tout au long du mois de mai. Et cela n'a coûté qu'environ un dollar par jour, car nous ne faisons fonctionner Claude qu'une fois par jour pour mettre à jour nos positions.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant, vous pouvez suivre et simplement faire une capture d'écran des mêmes prompts exacts que je vais vous montrer. Vous pouvez soit le construire dans l'application web de Claude. Donc, allez simplement sur claude.ai, puis demandez à Claude de construire ce système, puis exécutez-le dans un IDE. Ou si vous voulez quelque chose d'un peu plus complexe, vous pouvez utiliser le code de Claude, démarrer le code de Claude dans un IDE, puis coller les mêmes prompts exacts également, et il va construire le système pour vous.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 1 Data & Valuation". Le texte décrit les fonctionnalités : "Pulls spot and the full option chain for every name", "Matches each contract: bid, ask, last, IV, volume, open interest", "Computes delta, gamma, theta, vega with Black-Scholes", "Saves a dated snapshot every run so it can spot what's new". Une section "OUTPUT PER POSITION" est également présente. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Donc, le système ici sera composé de quatre couches. Chacune a son propre prompt. Et chaque couche s'appuie sur celle qui la précède. Je vais passer en revue les quatre, et comme je l'ai dit, les prompts seront à l'écran. De cette façon, vous pouvez faire une pause à tout moment, faire une capture d'écran, l'exécuter via un LLM et obtenir les prompts textuels exacts que j'ai utilisés.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 1 PROMPT Data & Valuation cont. 1/3". Le texte détaille le prompt pour la couche de données et de valorisation, y compris la structure d'entrée des positions (options et actions) et la source des données (yfinance). En bas, il est écrit "pause & screenshot - paste straight into Claude code". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Donc, la couche 1 ici est la couche de données et de valorisation. C'est la fondation, n'est-ce pas ? Elle extrait le prix spot, ainsi que la chaîne d'options complète pour chaque nom de votre portefeuille. Elle va faire correspondre chaque contrat que vous détenez. Et puis elle peut même calculer les Grecs, car Yahoo Finance ne les a pas facilement disponibles. Elle enregistre également un instantané chaque jour, ce qui est important plus tard, car c'est ainsi que le système sait quand de nouveaux prix d'exercice s'ouvrent, si vous surveillez cela. Et puis le résultat est votre P&L sur chaque position, ainsi que votre proximité avec vos objectifs.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 1 PROMPT Data & Valuation cont. 2/3". Le texte continue le prompt, détaillant le calcul des Grecs (Black-Scholes, localement), la sauvegarde des instantanés et le format de sortie de la valorisation. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Voici le prompt réel, je vais donc le mettre en pause ici et le coller si vous voulez le construire vous-même.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 1 PROMPT Data & Valuation cont. 3/3". Le texte continue le prompt, détaillant le support d'un drapeau de date pour le stockage/différenciation des marques et le stockage dans une base de données SQLite. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Voici la deuxième page du prompt. Et encore une fois, nous calculons nos Grecs localement, juste parce que nous utilisons une source de données gratuite avec Yahoo Finance. Si vous utilisez quelque chose de plus premium, cela devrait déjà l'avoir, vous n'avez donc pas vraiment besoin de l'inclure techniquement. Et puis enfin, nous avons la dernière page du prompt.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 2 Portfolio Analytics". Le texte décrit les fonctionnalités : "Allocation by name and sector, with concentration flags", "Aggregate Greeks: net delta, daily theta bleed, net vega", "IV rank per position, built from your own daily snapshots", "Days-to-expiry flags as anything gets close". Une section "KEY IT MATTERS" précise : "You see what you're exposed to as a book, not just position by position. The theta number is what the whole thing bleeds per day if nothing moves."]
+
+Donc, la couche 1 est terminée. Et maintenant, nous pouvons passer à la couche 2, qui est l'analyse de portefeuille.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant que vous pouvez évaluer votre portefeuille, cette couche l'examine dans son ensemble, n'est-ce pas ? Votre allocation sur les noms et les secteurs, vos Grecs totaux. Vous voulez savoir combien vos positions perdent chaque jour en raison de la dégradation temporelle. Vous voulez également connaître l'environnement IV sur chacune de vos positions. Donc, en gros, cela vous dit dans l'ensemble à quoi vous êtes exposé.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 2 PROMPT Portfolio Analytics cont. 1/2". Le texte détaille le prompt pour la couche d'analyse de portefeuille, y compris l'allocation, les Grecs agrégés, l'environnement IV et les drapeaux de jours avant l'expiration. En bas, il est écrit "pause & screenshot - paste straight into Claude code". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Voici le même prompt exact, mais cette fois pour la couche 2. Et encore une fois, si vous construisez cela vous-même, assurez-vous de coller chaque prompt, couche par couche. Vous voulez vous assurer que la couche 1 est entièrement terminée avant de passer à la couche 2.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 2 PROMPT Portfolio Analytics cont. 2/2". Le texte continue le prompt, détaillant le seuil configurable pour la dégradation temporelle et le stockage du résumé analytique dans SQLite. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Et puis voici la deuxième page du prompt. Encore une fois, collez-le si vous voulez le faire vous-même.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 3 Macro Gate & Claude News". Le texte décrit les fonctionnalités : "A 0-100 market score from VIX, term structure, breadth, credit", "Claude reads each name's headlines every day", "Cached per day so re-runs don't re-bill". Une section "THE ONE PAID PIECE" précise : "This is the only part that uses the API. Roughly a dollar a day depending on how many names. Everything else is free local compute." L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Ensuite, nous avons la couche 3, qui est le contexte du marché et les nouvelles. Il y a deux parties ici. Premièrement, un score macro, qui est une lecture déterministe du marché global à partir de choses comme le VIX. Vous avez l'étendue du marché, les spreads de crédit. Et puis la deuxième partie est l'utilisation de Claude ici. C'est ce qui coûte des tokens, car nous l'exécutons chaque jour. Il va lire les nouvelles sur chaque nom que vous détenez, regarder toute l'action des prix, et vous donner un court résumé, les sentiments, les indicateurs techniques, et tout ce qui affecte réellement votre position.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant, encore une fois, c'est pourquoi j'ai fait toute la recherche lourde initialement avec l'application web, juste parce que nous pouvions utiliser notre abonnement. Mais une fois que vous exécutez cela, chaque requête coûte environ un dollar. Vous ne voulez donc pas surcharger cela, et c'est pourquoi nous ne l'exécutons qu'une fois par jour, afin que tout au long du mois, nous puissions constamment rééquilibrer nos portefeuilles si nous en avons besoin.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 3 PROMPT Macro Gate & Claude News cont. 1/2". Le texte détaille le prompt pour la couche de porte macro et de nouvelles de Claude, y compris le score macro (déterministe) et l'analyse des nouvelles (via API). En bas, il est écrit "pause & screenshot - paste straight into Claude code". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Voici donc les prompts exacts pour la porte macro et les nouvelles de Claude. Donc, page 1.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 3 PROMPT Macro Gate & Claude News cont. 2/2". Le texte continue le prompt, précisant que Claude ne déclenche pas de transactions, met en cache l'analyse par jour et stocke le score macro et l'analyse des nouvelles dans SQLite. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Et puis page 2. Encore une fois, vous pouvez coller cela directement dans le code de Claude.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 4 Alerts & Dashboard". Le texte décrit les fonctionnalités : "New strikes and new expiries detected vs yesterday", "Target / stop hits, IV moves, DTE and concentration flags", "Claude's news flags surfaced as alerts", "Bloomberg-style single page, optional Telegram / iMessage push". Une section "ALWAYS A FACT" précise : "Every alert surfaces a condition like 'hit your target level.' Never a buy or sell instruction."]
+
+Ensuite, la couche 4 est essentiellement la couche qui relie tout. Ce sont les alertes et le tableau de bord.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Donc, ici, il va détecter de nouveaux prix d'exercice, de nouvelles expirations, en comparant la chaîne d'aujourd'hui à celle d'hier. Il va signaler quand vous atteignez un objectif ou un stop. Il va également signaler les grands mouvements d'IV. Et il va tout afficher dans un seul tableau de bord Claude. Maintenant, si vous voulez plus d'analyse de Claude, en dehors de vos propres stops et objectifs personnels, vous pouvez demander à Claude d'analyser essentiellement ses propres versions de stops et d'objectifs pour vos positions également. Ce sont donc toutes les choses que vous pouvez ajouter, en fonction de ce que vous voulez personnellement du système. De plus, ce sera super accessible, il y a donc une option de push Telegram ou iMessage, si vous voulez recevoir des alertes directement sur votre téléphone.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 4 PROMPT Alerts & Dashboard Cont. 1/3". Le texte détaille le prompt pour la couche d'alertes et de tableau de bord, y compris la détection de nouveaux prix d'exercice/expirations et les alertes conditionnelles. En bas, il est écrit "pause & screenshot - paste straight into Claude code". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Voici donc la page 1 du prompt.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 4 PROMPT Alerts & Dashboard Cont. 2/3". Le texte continue le prompt, détaillant le tableau de bord (style Bloomberg, une seule page), les alertes actives, la grille des positions, les graphiques de dégradation du Theta et l'échelle des prix d'exercice. L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Page 2 du prompt.
+
+[VISUEL: L'écran affiche une diapositive intitulée "LAYER 4 PROMPT Alerts & Dashboard Cont. 3/3". Le texte continue le prompt, détaillant le drapeau spécifique à la position, le notificateur (Telegram/iMessage optionnel) et la planification (exécution quotidienne après la clôture). L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Et page 3 du prompt.
+
+[VISUEL: L'écran affiche une diapositive intitulée "THE DASHBOARD Bloomberg style, one page". Le texte liste les éléments du tableau de bord : "Status strip: NAV, P&L, macro score, net delta, daily theta", "Positions grid with progress bars to target and stop", "Theta-decay charts and a strike ladder per position", "Allocation bars, aggregate Greeks, and the news feed". En bas, il est écrit "4 layers", "data cost $0", "~$1 per day to run". L'intervenant est visible dans une petite fenêtre en haut à droite.]
+
+Donc, en gros, lorsque vous exécutez les quatre, vous obtenez ce produit final. Vous obtenez un écran, chaque matin, qui évalue le portefeuille, surveille la chaîne, lit les nouvelles, analyse votre portefeuille. Et il signale tout ce qui a changé ou nécessite des soins supplémentaires. Et c'est tout. Nous avons ici un système déterministe, que Claude code pour nous, et un Claude non-déterministe, qui exécute essentiellement l'API de Claude chaque jour pour lire les nouvelles, regarder nos positions et déterminer si nous devons changer quoi que ce soit dans notre portefeuille.
+
+[VISUEL: L'intervenant réapparaît.]
+
+Maintenant, si vous avez trouvé cette vidéo utile, assurez-vous d'aimer, de commenter et de vous abonner, car je couvre tout ce qui concerne le trading IA et l'utilisation des derniers outils IA pour le trading sur n'importe quelle classe d'actifs. Et comme je l'ai mentionné au début de la vidéo, si vous voulez rejoindre la plus grande communauté de trading axée sur l'IA, mon lien est dans la description pour ma communauté scolaire. Et là, nous avons des guides détaillés complets. Nous avons des centaines de membres qui testent et déploient des systèmes de trading quotidiennement, avec des appels hebdomadaires sur toutes les suggestions ou les outils d'IA à venir qui pourraient être utiles sur n'importe quelle classe d'actifs.
+
+[VISUEL: Écran de fin avec le texte "THANKS FOR WATCHING" et une flèche pointant vers deux cadres vidéo vides. En bas à gauche, la photo de l'intervenant avec le texte "DON'T FORGET TO LIKE, COMMENT, SHARE" et un bouton "SUBSCRIBE" avec une cloche.]
