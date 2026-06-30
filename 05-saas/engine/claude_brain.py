@@ -45,6 +45,14 @@ except ImportError:
     _cb_protected_call = None
     logger.warning("circuit_breaker non disponible")
 
+# Import rate limiter
+try:
+    from .rate_limiter import RATE_LIMITER, RateLimitExceeded
+except ImportError:
+    RATE_LIMITER = None
+    RateLimitExceeded = Exception
+    logger.warning("rate_limiter non disponible")
+
 # Import runner Phase C (optionnel — absent en test unitaire)
 try:
     from .data_collector_runner import load_current_phase_c
@@ -85,6 +93,10 @@ def call_claude_kb(kb_rules: str, god_mode_prompt: str) -> dict:
     """
     if client is None:
         raise RuntimeError("Client Anthropic non initialisé")
+
+    # Rate limiting : verifier quota journalier AVANT tout appel API
+    if RATE_LIMITER is not None:
+        RATE_LIMITER.check_and_increment()   # leve RateLimitExceeded si quota atteint
 
     def _call():
         response = client.messages.create(
