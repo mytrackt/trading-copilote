@@ -93,7 +93,13 @@ def _fmt_news(news: dict) -> str:
 
     lines = [f"NEWS ({src_str}) : {count} articles récents [collecté: {collected}]"]
     if gate_events:
-        lines.append(f"  ⚠️ NEWS GATE ACTIF — événements détectés : {', '.join(gate_events)}")
+        details = news.get("news_gate_details", [])
+        if details:
+            _labels = {"pre": "avant", "post": "apres", "unknown": "~"}
+            parts = [f"{d['event']}[{_labels.get(d['timing'], '~')}]" for d in details]
+            lines.append(f"  ⚠️ NEWS GATE ACTIF — événements détectés : {', '.join(parts)}")
+        else:
+            lines.append(f"  ⚠️ NEWS GATE ACTIF — événements détectés : {', '.join(gate_events)}")
         lines.append("  → Entrée INTERDITE 30min avant / 15min après chaque événement.")
     else:
         lines.append("  ✅ Aucun événement NFP/FOMC/CPI/GDP/PPI détecté — zone libre.")

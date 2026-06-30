@@ -25,39 +25,39 @@ GDELT_BASE_URL   = "https://api.gdeltproject.org/api/v2/doc/doc"
 
 TIMEOUT_SEC = 10
 
-# Mots-clés marché à surveiller
 KEYWORDS_MARCHE = [
     "gold", "crude oil", "copper", "wheat",
     "dollar", "DXY", "federal reserve", "fed",
     "FOMC", "NFP", "CPI", "inflation", "interest rate",
 ]
 
-MAX_ARTICLES = 20  # Limiter le volume de données
+MAX_ARTICLES = 20
+
+_PRE_KEYWORDS = {
+    "preview", "ahead", "upcoming", "expected", "forecast", "before",
+    "anticipat", "await", "watch", "scheduled", "outlook", "estimate",
+    "consensus", "predict", "will report", "prepare", "wednesday",
+}
+_POST_KEYWORDS = {
+    "released", "beat", "miss", "fell", "rose", "came in", "result",
+    "higher than", "lower than", "above estimate", "below estimate",
+    "surpris", "final", "revised", "shows", "revealed", "reported",
+    "actual", "print", "reading", "comes in", "posts",
+}
 
 
-def _fetch_finnhub_news(api_key: str, category: str = "general") -> tuple:
-    """
-    Récupère les dernières actualités Finnhub.
-    Retourne (list_articles, success_bool).
-    success=False si l'appel HTTP échoue (réseau, 401, 500...).
-    success=True si l'API répond correctement, même si 0 articles après filtrage.
-    category : 'general' | 'forex' | 'crypto' | 'merger'
-    """
+def _fetch_finnhub_news(api_key, category="general"):
     url = f"{FINNHUB_BASE_URL}/news"
-    params = {
-        "category": category,
-        "token":    api_key,
-    }
+    params = {"category": category, "token": api_key}
     try:
         resp = requests.get(url, params=params, timeout=TIMEOUT_SEC)
         resp.raise_for_status()
         articles = resp.json()
         if not isinstance(articles, list):
-            return [], True  # Réponse valide mais format inattendu
-        # Filtrer par pertinence (mots-clés)
+            return [], True
         filtres = []
         kw_lower = [k.lower() for k in KEYWORDS_MARCHE]
-        for art in articles[:50]:  # Limiter la recherche
+        for art in articles[:50]:
             headline = (art.get("headline") or "").lower()
             summary  = (art.get("summary")  or "").lower()
             if any(kw in headline or kw in summary for kw in kw_lower):
@@ -75,19 +75,13 @@ def _fetch_finnhub_news(api_key: str, category: str = "general") -> tuple:
         return [], False
 
 
-def _fetch_gdelt_headlines() -> tuple:
-    """
-    Récupère les événements macro récents via GDELT v2 Doc API.
-    Retourne (list_articles, success_bool).
-    success=False si l'appel échoue (erreur réseau, SSL, 429, etc.).
-    success=True uniquement si la réponse HTTP est valide, même si 0 articles.
-    """
+def _fetch_gdelt_headlines():
     params = {
-        "query":  "economy OR gold OR oil OR copper OR wheat OR federal reserve OR inflation",
-        "mode":   "artlist",
+        "query":      "economy OR gold OR oil OR copper OR wheat OR federal reserve OR inflation",
+        "mode":       "artlist",
         "maxrecords": str(MAX_ARTICLES),
-        "format": "json",
-        "timespan": "4h",  # 4h (robustesse si collecteur tombe 1h+)
+        "format":     "json",
+        "timespan":   "4h",
     }
     try:
         resp = requests.get(GDELT_BASE_URL, params=params, timeout=TIMEOUT_SEC)
@@ -110,23 +104,43 @@ def _fetch_gdelt_headlines() -> tuple:
         return [], False
 
 
-def _detect_news_gate_events(articles: list) -> list:
+def _detect_event_timing(headline_lower):
     """
-    Détecte les événements critiques pour le News Gate (NFP, FOMC, CPI...).
-    Retourne la liste des types d'événements détectés dans les headlines.
+    Retourne pre / post / unknown selon les mots-cles.
+    P2-1 correctif S45.
+    """
+    if any(kw in headline_lower for kw in _PRE_KEYWORDS):
+        return "pre"
+    if any(kw in headline_lower for kw in _POST_KEYWORDS):
+        return "post"
+    return "unknown"
+
+
+def _detect_news_gate_events(articles):
+    """
+    Detecte les evenements critiques NFP/FOMC/CPI/GDP/JOLTS/PPI.
+    Retourne list[dict] : [{"event": "NFP", "timing": "pre|post|unknown", "headline": "..."}]
+    Deduplique par event (1er match gagne).
+    P2-1 correctif S45.
     """
     from config.settings import NEWS_EVENTS_CRITIQUES
-    detectes = []
+    detectes = {}
     for art in articles:
-        headline_upper = (art.get("headline") or "").upper()
+        headline = art.get("headline") or ""
+        headline_upper = headline.upper()
+        headline_lower = headline.lower()
         for event in NEWS_EVENTS_CRITIQUES:
             if event in headline_upper and event not in detectes:
-                detectes.append(event)
-    return detectes
+                detectes[event] = {
+                    "event":    event,
+                    "timing":   _detect_event_timing(headline_lower),
+                    "headline": headline[:120],
+                }
+    return list(detectes.values())
 
 
-def collect_news() -> dict:
-    """Collecte Finnhub (général + forex) + GDELT. Retourne un dict structuré."""
+def collect_news():
+    """Collecte Finnhub (general + forex) + GDELT. Retourne un dict structure."""
     from config.settings import FINNHUB_API_KEY
     finnhub_key = FINNHUB_API_KEY or os.getenv("FINNHUB_API_KEY", "")
 
@@ -135,19 +149,18 @@ def collect_news() -> dict:
 
     if finnhub_key:
         general, ok1 = _fetch_finnhub_news(finnhub_key, category="general")
-        time.sleep(1.0)  # Rate limiting Finnhub
-        forex,   ok2 = _fetch_finnhub_news(finnhub_key, category="forex")
+        time.sleep(1.0)
+        forex, ok2 = _fetch_finnhub_news(finnhub_key, category="forex")
         articles += general + forex
-        finnhub_ok = ok1 or ok2  # True si au moins 1 appel a réussi
-        logger.info(f"[news_collector] Finnhub : {len(articles)} articles filtrés · ok={finnhub_ok}")
+        finnhub_ok = ok1 or ok2
+        logger.info(f"[news_collector] Finnhub : {len(articles)} articles filtres ok={finnhub_ok}")
     else:
-        logger.warning("[news_collector] FINNHUB_API_KEY absente — mode dégradé GDELT uniquement")
+        logger.warning("[news_collector] FINNHUB_API_KEY absente -- mode degrade GDELT uniquement")
 
     gdelt_articles, gdelt_ok = _fetch_gdelt_headlines()
     articles += gdelt_articles
-    logger.info(f"[news_collector] GDELT : {len(gdelt_articles)} articles · ok={gdelt_ok}")
+    logger.info(f"[news_collector] GDELT : {len(gdelt_articles)} articles ok={gdelt_ok}")
 
-    # Déduplication sur URL
     seen_urls = set()
     articles_uniques = []
     for art in articles:
@@ -156,34 +169,38 @@ def collect_news() -> dict:
             seen_urls.add(url)
             articles_uniques.append(art)
 
-    news_gate_events = _detect_news_gate_events(articles_uniques)
+    detected = _detect_news_gate_events(articles_uniques)
+    news_gate_events = [d["event"] for d in detected]
+    news_gate_details = detected
 
     return {
-        "articles":          articles_uniques[:MAX_ARTICLES],
-        "count":             len(articles_uniques),
-        "finnhub_disponible": finnhub_ok,   # True si au moins 1 appel Finnhub a réussi
-        "gdelt_disponible":   gdelt_ok,    # True uniquement si l'appel GDELT a réussi
+        "articles":           articles_uniques[:MAX_ARTICLES],
+        "count":              len(articles_uniques),
+        "finnhub_disponible": finnhub_ok,
+        "gdelt_disponible":   gdelt_ok,
         "news_gate_events":   news_gate_events,
+        "news_gate_details":  news_gate_details,
         "alerte_news_gate":   len(news_gate_events) > 0,
+        "_collected_at":      datetime.now(timezone.utc).isoformat(),
     }
 
 
-def write_news(data: dict) -> None:
-    """Écrit atomiquement dans data/news_data.json."""
+def write_news(data):
+    """Ecrit atomiquement dans data/news_data.json."""
     from utils.atomic_writer import atomic_write_json
     from config.settings import NEWS_DATA_PATH
     data["_collected_at"] = datetime.now(timezone.utc).isoformat()
     atomic_write_json(NEWS_DATA_PATH, data)
-    logger.info(f"[news_collector] Écrit → {NEWS_DATA_PATH}")
+    logger.info(f"[news_collector] Ecrit -> {NEWS_DATA_PATH}")
 
 
-def run_once() -> dict:
+def run_once():
     """1 cycle complet : collect + write."""
     try:
         data = collect_news()
         write_news(data)
         logger.info(
-            f"[news_collector] TERMINE --- {data['count']} articles · "
+            f"[news_collector] TERMINE --- {data['count']} articles "
             f"news_gate_events={data['news_gate_events']}"
         )
         return data
