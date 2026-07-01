@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "card_id": "string (uuid v4)",
+  "timestamp_utc": "string (ISO-8601, UTC)",
+  "instrument": "NQ | ES",
+  "verdict": "STAGED | NO_TRADE | REJECTED",
+  "direction": "LONG | SHORT | FLAT",
+  "size_contracts": "integer (>= 1)",
+  "size_pct_account": "number (% du solde réel)",
+  "entry_price": "number",
+  "invalidation_level": "number (stop OBLIGATOIRE si verdict=STAGED)",
+  "take_profit": "number | null",
+  "exit_rule": "string",
+  "risk": { "max_loss_usd": "number", "rr_ratio": "number" },
+  "worst_case_loss_usd": "number (rempli par le code v1.1 : gap+slippage+commissions)",
+  "signal": { "cog_reason": "string", "trend": "UP | DOWN | NEUTRAL" },
+  "filters": {
+    "nq_es_correlation_ok": "boolean",
+    "gold_dxy_filter_ok": "boolean",
+    "semi_log_scale_ok": "boolean",
+    "no_averaging_down_ok": "boolean"
+  },
+  "maker": { "agent": "string", "proposed_at_utc": "string" },
+  "checker": { "agent": "string", "validated_at_utc": "string", "verdict_reason": "string" },
+  "state": "STAGED | SENT | CANCELLED | EXPIRED | DUPLICATE",
+  "human_approval_required": true,
+  "expires_at_utc": "string (ISO-8601)"
+}

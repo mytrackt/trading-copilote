@@ -698,6 +698,20 @@ Fraîcheur : COT 24h · Macro 24h · News 15min. Rien à construire.
 **À faire en Phase F** : `checker_agent.py` — valide signal contre 42 garde-fous (1 appel Claude,
 prompt checker, compte sur le rate limiter). Distinct de dual-Claude bull/bear.
 
+#### Loop 4 — Couche d'exécution Scénario B v1.1
+
+```
+[Loop 4 — Exécution]  Couche d'exécution Scénario B v1.1
+  - Schéma JSON figé carte de confirmation v1.0 ............ SPÉCIFIÉ
+  - Module execution_guardrails_v1_1.py .................... CODÉ (post-audit)
+  - Brancher broker_send_fn sur pont NinjaTrader ........... À FAIRE
+  - Tests unitaires garde-fous ............................. À FAIRE
+  - Valider GUARDRAILS + passer config_validated = True .... À FAIRE (Abdelkrim)
+  KB : non impactée | Stack : non impactée | Tiers : aucun
+```
+
+Fichiers : `docs/architecture/execution/` (spec + schéma) · `05-saas/engine/execution_guardrails_v1_1.py` (module)
+
 ---
 
 ### 2. GStack (Garry Tan / CEO Y Combinator)

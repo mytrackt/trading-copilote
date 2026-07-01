@@ -140,6 +140,20 @@ Adapter `gemini_transcriber.py` → changer VIDEO_DIR + prompt Gemini + OUTPUT_D
 
 ---
 
+## [EXÉCUTION] Carte de confirmation & garde-fous chiffrés (Scénario B — v1.1)
+
+- Toute sortie d'ordre du Checker DOIT respecter le schéma JSON figé confirmation_card v1.0.
+- Aucun ordre ne passe en SENT sans : stop présent + execution_guardrails.validate_order() OK
+  + approbation humaine explicite (tap).
+- validate_order() ne renvoie JAMAIS SENT. STAGED -> SENT = send_order() uniquement, déclenché par l'humain.
+- Verdict NO_TRADE obligatoire si COG ambigu OU filtre Belkhayate non passé. Jamais de trade forcé.
+- Interdiction averaging down maintenue (décision verrouillée).
+- Coupe-circuit journalier + news blackout actifs.
+- Instruments : NQ, ES uniquement.
+- Tant que GUARDRAILS["config_validated"] = False : tout ordre est bloqué (volontaire).
+
+---
+
 ## PROTOCOLE FIN DE SESSION
 
 ```
