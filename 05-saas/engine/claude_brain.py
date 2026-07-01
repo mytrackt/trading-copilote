@@ -85,10 +85,11 @@ def _parse_claude_json(response_text: str) -> dict:
 parse_claude_json = _parse_claude_json
 
 
-def call_claude_kb(kb_rules: str, god_mode_prompt: str) -> dict:
+def call_claude_kb(kb_rules: str, god_mode_prompt: str, kb_capabilities: str = "") -> dict:
     """
     Appel Claude API avec prompt caching sur la KB.
-    Le system (KB 2337 règles) est mis en cache → ~90% d'économies tokens.
+    - Bloc 1 : KB Belkhayate (4142 règles) — cache TTL 1h
+    - Bloc 2 (optionnel) : KB Claude Capabilities (82 règles) — cache TTL 1h
     Rate limiting : 1 appel / 10s maximum.
     """
     if client is None:
@@ -99,20 +100,35 @@ def call_claude_kb(kb_rules: str, god_mode_prompt: str) -> dict:
         RATE_LIMITER.check_and_increment()   # leve RateLimitExceeded si quota atteint
 
     def _call():
+        # Bloc 1 — KB Belkhayate (toujours présent)
+        system_blocks = [{
+            "type": "text",
+            "text": kb_rules,
+            "cache_control": {"type": "ephemeral", "ttl": "1h"}  # TTL 1h (heartbeat 15-30min)
+        }]
+        # Bloc 2 — KB Capabilities (fiabilite_hallucinations + gestion_risque_llm)
+        if kb_capabilities:
+            system_blocks.append({
+                "type": "text",
+                "text": kb_capabilities,
+                "cache_control": {"type": "ephemeral", "ttl": "1h"}
+            })
+
         response = client.messages.create(
             model="claude-sonnet-4-6",
             max_tokens=1000,
-            system=[{
-                "type": "text",
-                "text": kb_rules,
-                "cache_control": {"type": "ephemeral"}   # Prompt caching
-            }],
+            system=system_blocks,
             messages=[{
                 "role": "user",
                 "content": god_mode_prompt
             }]
         )
         time.sleep(1.5)  # Rate limiting inter-appels
+        logger.info(
+            f"[CACHE] read={response.usage.cache_read_input_tokens} | "
+            f"write={response.usage.cache_creation_input_tokens} | "
+            f"input={response.usage.input_tokens}"
+        )
         return _parse_claude_json(response.content[0].text)
 
     if CB_CLAUDE is not None and _cb_protected_call is not None:

@@ -712,6 +712,21 @@ prompt checker, compte sur le rate limiter). Distinct de dual-Claude bull/bear.
 
 Fichiers : `docs/architecture/execution/` (spec + schéma) · `05-saas/engine/execution_guardrails_v1_1.py` (module)
 
+#### Prompt Caching — Modification 3/3 (DIFFÉRÉE S47)
+
+```
+[Prompt Caching — Mod 3/3]  Brancher KB_CAPABILITIES dans get_signal()
+  - TTL 1h bloc KB Belkhayate (ligne 107) .................. ✅ FAIT
+  - Logging [CACHE] read/write/input (ligne 127-131) ........ ✅ FAIT (S47)
+  - Bloc cache KB_CAPABILITIES (lignes 110-115) ............. ✅ CODE EN PLACE
+  - Passer kb_capabilities= dans get_signal() ............... ⏳ DIFFÉRÉ (S47)
+    → Charger 82 règles prioritaires (fiabilite_hallucinations +
+      gestion_risque_llm) depuis KB_CLAUDE_CAPABILITIES.json
+    → Les passer à call_claude_kb(kb_rules, prompt, kb_capabilities=...)
+    → Sans ce branchement, le 2e bloc cache n'est JAMAIS activé
+  Fichier : 05-saas/engine/claude_brain.py · Fonction : get_signal()
+```
+
 ---
 
 ### 2. GStack (Garry Tan / CEO Y Combinator)
