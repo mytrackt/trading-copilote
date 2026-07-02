@@ -115,8 +115,10 @@ Vidéos MP4 (D:\Belkhayate-Videos ou autre dossier)
     (voit audio + écran simultanément)
     (produit *_gemini.txt avec [VISUEL:] [REGLE:] [QUALITE_VIDEO:])
     ↓
-05-saas\knowledge_base\transcript_processor_gemini.py → Claude API
-    (extrait les règles structurées → KB)
+05-saas\knowledge_base\transcript_processor_gemini_batch.py → Claude Batch API  ← DÉFAUT (-50% coût)
+    (traitement parallèle, résultats < 1h, résumable avec --resume)
+    ↓   si erreurs sur certaines vidéos → repasser ces vidéos avec :
+05-saas\knowledge_base\transcript_processor_gemini.py → Claude API synchrone (fallback)
     ↓
 04-cerveau-trading\KNOWLEDGE_BASE_MASTER.json
 ```
